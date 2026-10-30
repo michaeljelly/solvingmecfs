@@ -1,0 +1,715 @@
+source,group,x_name,x,y_name,y
+Figure 3E.xlsx,HV,Time to Failure (sec),23.67,Proportion of of Hard-Task Choices,45.45455
+Figure 3E.xlsx,HV,Time to Failure (sec),38.28,Proportion of of Hard-Task Choices,26.0
+Figure 3E.xlsx,HV,Time to Failure (sec),41.41,Proportion of of Hard-Task Choices,29.16667
+Figure 3E.xlsx,HV,Time to Failure (sec),9.25,Proportion of of Hard-Task Choices,38.29787
+Figure 3E.xlsx,HV,Time to Failure (sec),33.55,Proportion of of Hard-Task Choices,40.81633
+Figure 3E.xlsx,HV,Time to Failure (sec),30.68,Proportion of of Hard-Task Choices,77.14286
+Figure 3E.xlsx,HV,Time to Failure (sec),45.58,Proportion of of Hard-Task Choices,35.41667
+Figure 3E.xlsx,HV,Time to Failure (sec),25.61,Proportion of of Hard-Task Choices,36.95652
+Figure 3E.xlsx,HV,Time to Failure (sec),32.3,Proportion of of Hard-Task Choices,60.46512
+Figure 3E.xlsx,HV,Time to Failure (sec),30.76,Proportion of of Hard-Task Choices,40.81633
+Figure 3E.xlsx,HV,Time to Failure (sec),28.53,Proportion of of Hard-Task Choices,43.47826
+Figure 3E.xlsx,HV,Time to Failure (sec),13.45,Proportion of of Hard-Task Choices,25.4902
+Figure 3E.xlsx,HV,Time to Failure (sec),46.1,Proportion of of Hard-Task Choices,45.45455
+Figure 3E.xlsx,HV,Time to Failure (sec),25.45,Proportion of of Hard-Task Choices,71.05263
+Figure 3E.xlsx,HV,Time to Failure (sec),36.28,Proportion of of Hard-Task Choices,38.77551
+Figure 3E.xlsx,PI-ME/CFS,Time to Failure (sec),22.31,Proportion of of Hard-Task Choices,31.91489
+Figure 3E.xlsx,PI-ME/CFS,Time to Failure (sec),3.71,Proportion of of Hard-Task Choices,16.98113
+Figure 3E.xlsx,PI-ME/CFS,Time to Failure (sec),36.87,Proportion of of Hard-Task Choices,43.47826
+Figure 3E.xlsx,PI-ME/CFS,Time to Failure (sec),6.29,Proportion of of Hard-Task Choices,52.5
+Figure 3E.xlsx,PI-ME/CFS,Time to Failure (sec),27.78,Proportion of of Hard-Task Choices,48.88889
+Figure 3E.xlsx,PI-ME/CFS,Time to Failure (sec),16.51,Proportion of of Hard-Task Choices,43.18182
+Figure 3E.xlsx,PI-ME/CFS,Time to Failure (sec),8.5,Proportion of of Hard-Task Choices,26.53061
+Figure 3E.xlsx,PI-ME/CFS,Time to Failure (sec),29.43,Proportion of of Hard-Task Choices,41.86047
+Figure 3E.xlsx,PI-ME/CFS,Time to Failure (sec),10.8,Proportion of of Hard-Task Choices,34.0
+Figure 3E.xlsx,PI-ME/CFS,Time to Failure (sec),26.39,Proportion of of Hard-Task Choices,47.82609
+Figure 3E.xlsx,PI-ME/CFS,Time to Failure (sec),5.71,Proportion of of Hard-Task Choices,24.0
+Figure 3E.xlsx,PI-ME/CFS,Time to Failure (sec),13.03,Proportion of of Hard-Task Choices,36.17021
+Figure 3E.xlsx,PI-ME/CFS,Time to Failure (sec),10.12,Proportion of of Hard-Task Choices,31.91489
+Figure 3E.xlsx,PI-ME/CFS,Time to Failure (sec),7.62,Proportion of of Hard-Task Choices,35.55556
+Figure 6D.xlsx,HV,CSF NE (pg/mL),51.0,Time to failure (sec),18.8
+Figure 6D.xlsx,HV,CSF NE (pg/mL),223.0,Time to failure (sec),36.96
+Figure 6D.xlsx,HV,CSF NE (pg/mL),95.0,Time to failure (sec),37.73
+Figure 6D.xlsx,HV,CSF NE (pg/mL),90.0,Time to failure (sec),23.67
+Figure 6D.xlsx,HV,CSF NE (pg/mL),102.0,Time to failure (sec),41.41
+Figure 6D.xlsx,HV,CSF NE (pg/mL),128.0,Time to failure (sec),9.25
+Figure 6D.xlsx,HV,CSF NE (pg/mL),122.0,Time to failure (sec),16.67
+Figure 6D.xlsx,HV,CSF NE (pg/mL),150.0,Time to failure (sec),33.55
+Figure 6D.xlsx,HV,CSF NE (pg/mL),44.0,Time to failure (sec),30.68
+Figure 6D.xlsx,HV,CSF NE (pg/mL),225.0,Time to failure (sec),45.58
+Figure 6D.xlsx,HV,CSF NE (pg/mL),228.0,Time to failure (sec),25.61
+Figure 6D.xlsx,HV,CSF NE (pg/mL),175.0,Time to failure (sec),32.3
+Figure 6D.xlsx,HV,CSF NE (pg/mL),202.0,Time to failure (sec),30.76
+Figure 6D.xlsx,HV,CSF NE (pg/mL),174.0,Time to failure (sec),28.53
+Figure 6D.xlsx,HV,CSF NE (pg/mL),312.0,Time to failure (sec),46.1
+Figure 6D.xlsx,HV,CSF NE (pg/mL),54.0,Time to failure (sec),25.45
+Figure 6D.xlsx,HV,CSF NE (pg/mL),79.0,Time to failure (sec),36.28
+Figure 6D.xlsx,HV,CSF NE (pg/mL),102.0,Time to failure (sec),38.62
+Figure 6D.xlsx,PI-ME/CFS,CSF NE (pg/mL),139.0,Time to failure (sec),8.85
+Figure 6D.xlsx,PI-ME/CFS,CSF NE (pg/mL),83.0,Time to failure (sec),22.31
+Figure 6D.xlsx,PI-ME/CFS,CSF NE (pg/mL),92.0,Time to failure (sec),3.71
+Figure 6D.xlsx,PI-ME/CFS,CSF NE (pg/mL),143.0,Time to failure (sec),36.87
+Figure 6D.xlsx,PI-ME/CFS,CSF NE (pg/mL),90.0,Time to failure (sec),6.29
+Figure 6D.xlsx,PI-ME/CFS,CSF NE (pg/mL),227.0,Time to failure (sec),27.78
+Figure 6D.xlsx,PI-ME/CFS,CSF NE (pg/mL),113.0,Time to failure (sec),16.51
+Figure 6D.xlsx,PI-ME/CFS,CSF NE (pg/mL),62.0,Time to failure (sec),8.5
+Figure 6D.xlsx,PI-ME/CFS,CSF NE (pg/mL),115.0,Time to failure (sec),10.8
+Figure 6D.xlsx,PI-ME/CFS,CSF NE (pg/mL),181.0,Time to failure (sec),26.39
+Figure 6D.xlsx,PI-ME/CFS,CSF NE (pg/mL),61.0,Time to failure (sec),5.71
+Figure 6D.xlsx,PI-ME/CFS,CSF NE (pg/mL),131.0,Time to failure (sec),13.03
+Figure 6D.xlsx,PI-ME/CFS,CSF NE (pg/mL),90.0,Time to failure (sec),17.19
+Figure 6D.xlsx,PI-ME/CFS,CSF NE (pg/mL),103.0,Time to failure (sec),10.12
+Figure 6D.xlsx,PI-ME/CFS,CSF NE (pg/mL),124.0,Time to failure (sec),7.62
+Figure 6E.xlsx,HV,CSF NE (pg/mL),90.0,Proportion of Hard Tasks choices (%),45.45454545
+Figure 6E.xlsx,HV,CSF NE (pg/mL),102.0,Proportion of Hard Tasks choices (%),29.16666667
+Figure 6E.xlsx,HV,CSF NE (pg/mL),128.0,Proportion of Hard Tasks choices (%),38.29787234
+Figure 6E.xlsx,HV,CSF NE (pg/mL),155.0,Proportion of Hard Tasks choices (%),36.17021277
+Figure 6E.xlsx,HV,CSF NE (pg/mL),150.0,Proportion of Hard Tasks choices (%),40.81632653
+Figure 6E.xlsx,HV,CSF NE (pg/mL),44.0,Proportion of Hard Tasks choices (%),77.14285714
+Figure 6E.xlsx,HV,CSF NE (pg/mL),225.0,Proportion of Hard Tasks choices (%),35.41666667
+Figure 6E.xlsx,HV,CSF NE (pg/mL),228.0,Proportion of Hard Tasks choices (%),36.95652174
+Figure 6E.xlsx,HV,CSF NE (pg/mL),175.0,Proportion of Hard Tasks choices (%),60.46511628
+Figure 6E.xlsx,HV,CSF NE (pg/mL),202.0,Proportion of Hard Tasks choices (%),40.81632653
+Figure 6E.xlsx,HV,CSF NE (pg/mL),174.0,Proportion of Hard Tasks choices (%),43.47826087
+Figure 6E.xlsx,HV,CSF NE (pg/mL),312.0,Proportion of Hard Tasks choices (%),45.45454545
+Figure 6E.xlsx,HV,CSF NE (pg/mL),54.0,Proportion of Hard Tasks choices (%),71.05263158
+Figure 6E.xlsx,HV,CSF NE (pg/mL),79.0,Proportion of Hard Tasks choices (%),38.7755102
+Figure 6E.xlsx,PI-ME/CFS,CSF NE (pg/mL),83.0,Proportion of Hard Tasks choices (%),31.91489362
+Figure 6E.xlsx,PI-ME/CFS,CSF NE (pg/mL),92.0,Proportion of Hard Tasks choices (%),16.98113208
+Figure 6E.xlsx,PI-ME/CFS,CSF NE (pg/mL),143.0,Proportion of Hard Tasks choices (%),43.47826087
+Figure 6E.xlsx,PI-ME/CFS,CSF NE (pg/mL),90.0,Proportion of Hard Tasks choices (%),52.5
+Figure 6E.xlsx,PI-ME/CFS,CSF NE (pg/mL),227.0,Proportion of Hard Tasks choices (%),48.88888889
+Figure 6E.xlsx,PI-ME/CFS,CSF NE (pg/mL),113.0,Proportion of Hard Tasks choices (%),43.18181818
+Figure 6E.xlsx,PI-ME/CFS,CSF NE (pg/mL),62.0,Proportion of Hard Tasks choices (%),26.53061224
+Figure 6E.xlsx,PI-ME/CFS,CSF NE (pg/mL),95.0,Proportion of Hard Tasks choices (%),23.63636364
+Figure 6E.xlsx,PI-ME/CFS,CSF NE (pg/mL),115.0,Proportion of Hard Tasks choices (%),34.0
+Figure 6E.xlsx,PI-ME/CFS,CSF NE (pg/mL),181.0,Proportion of Hard Tasks choices (%),47.82608696
+Figure 6E.xlsx,PI-ME/CFS,CSF NE (pg/mL),61.0,Proportion of Hard Tasks choices (%),24.0
+Figure 6E.xlsx,PI-ME/CFS,CSF NE (pg/mL),131.0,Proportion of Hard Tasks choices (%),36.17021277
+Figure 6E.xlsx,PI-ME/CFS,CSF NE (pg/mL),103.0,Proportion of Hard Tasks choices (%),31.91489362
+Figure 6E.xlsx,PI-ME/CFS,CSF NE (pg/mL),124.0,Proportion of Hard Tasks choices (%),35.55555556
+Figure 6F.xlsx,HV,CSF DA (pg/mL),6.0,Time to Failure (sec),18.8
+Figure 6F.xlsx,HV,CSF DA (pg/mL),13.0,Time to Failure (sec),36.96
+Figure 6F.xlsx,HV,CSF DA (pg/mL),7.0,Time to Failure (sec),37.73
+Figure 6F.xlsx,HV,CSF DA (pg/mL),7.0,Time to Failure (sec),23.67
+Figure 6F.xlsx,HV,CSF DA (pg/mL),2.0,Time to Failure (sec),41.41
+Figure 6F.xlsx,HV,CSF DA (pg/mL),8.0,Time to Failure (sec),16.67
+Figure 6F.xlsx,HV,CSF DA (pg/mL),7.0,Time to Failure (sec),33.55
+Figure 6F.xlsx,HV,CSF DA (pg/mL),9.0,Time to Failure (sec),30.68
+Figure 6F.xlsx,HV,CSF DA (pg/mL),7.0,Time to Failure (sec),45.58
+Figure 6F.xlsx,HV,CSF DA (pg/mL),17.0,Time to Failure (sec),25.61
+Figure 6F.xlsx,HV,CSF DA (pg/mL),11.0,Time to Failure (sec),32.3
+Figure 6F.xlsx,HV,CSF DA (pg/mL),13.0,Time to Failure (sec),30.76
+Figure 6F.xlsx,HV,CSF DA (pg/mL),7.0,Time to Failure (sec),28.53
+Figure 6F.xlsx,HV,CSF DA (pg/mL),16.0,Time to Failure (sec),46.1
+Figure 6F.xlsx,HV,CSF DA (pg/mL),3.0,Time to Failure (sec),25.45
+Figure 6F.xlsx,HV,CSF DA (pg/mL),4.0,Time to Failure (sec),36.28
+Figure 6F.xlsx,HV,CSF DA (pg/mL),5.0,Time to Failure (sec),38.62
+Figure 6F.xlsx,PI-ME/CFS,CSF DA (pg/mL),10.0,Time to Failure (sec),8.85
+Figure 6F.xlsx,PI-ME/CFS,CSF DA (pg/mL),19.0,Time to Failure (sec),22.31
+Figure 6F.xlsx,PI-ME/CFS,CSF DA (pg/mL),3.0,Time to Failure (sec),3.71
+Figure 6F.xlsx,PI-ME/CFS,CSF DA (pg/mL),18.0,Time to Failure (sec),36.87
+Figure 6F.xlsx,PI-ME/CFS,CSF DA (pg/mL),5.0,Time to Failure (sec),6.29
+Figure 6F.xlsx,PI-ME/CFS,CSF DA (pg/mL),7.0,Time to Failure (sec),16.51
+Figure 6F.xlsx,PI-ME/CFS,CSF DA (pg/mL),7.0,Time to Failure (sec),8.5
+Figure 6F.xlsx,PI-ME/CFS,CSF DA (pg/mL),22.0,Time to Failure (sec),10.8
+Figure 6F.xlsx,PI-ME/CFS,CSF DA (pg/mL),13.0,Time to Failure (sec),26.39
+Figure 6F.xlsx,PI-ME/CFS,CSF DA (pg/mL),6.0,Time to Failure (sec),5.71
+Figure 6F.xlsx,PI-ME/CFS,CSF DA (pg/mL),7.0,Time to Failure (sec),13.03
+Figure 6F.xlsx,PI-ME/CFS,CSF DA (pg/mL),15.0,Time to Failure (sec),17.19
+Figure 6F.xlsx,PI-ME/CFS,CSF DA (pg/mL),7.0,Time to Failure (sec),10.12
+Figure 6F.xlsx,PI-ME/CFS,CSF DA (pg/mL),6.0,Time to Failure (sec),7.62
+Figure 6G.xlsx,HV,CSF DHPG (pg/mL),1445.0,Proportion of Hard Task Choices (%),45.45454545
+Figure 6G.xlsx,HV,CSF DHPG (pg/mL),2259.0,Proportion of Hard Task Choices (%),29.16666667
+Figure 6G.xlsx,HV,CSF DHPG (pg/mL),2272.0,Proportion of Hard Task Choices (%),38.29787234
+Figure 6G.xlsx,HV,CSF DHPG (pg/mL),2305.0,Proportion of Hard Task Choices (%),36.17021277
+Figure 6G.xlsx,HV,CSF DHPG (pg/mL),2146.0,Proportion of Hard Task Choices (%),40.81632653
+Figure 6G.xlsx,HV,CSF DHPG (pg/mL),1060.0,Proportion of Hard Task Choices (%),77.14285714
+Figure 6G.xlsx,HV,CSF DHPG (pg/mL),2318.0,Proportion of Hard Task Choices (%),35.41666667
+Figure 6G.xlsx,HV,CSF DHPG (pg/mL),1961.0,Proportion of Hard Task Choices (%),36.95652174
+Figure 6G.xlsx,HV,CSF DHPG (pg/mL),2288.0,Proportion of Hard Task Choices (%),60.46511628
+Figure 6G.xlsx,HV,CSF DHPG (pg/mL),3021.0,Proportion of Hard Task Choices (%),40.81632653
+Figure 6G.xlsx,HV,CSF DHPG (pg/mL),2431.0,Proportion of Hard Task Choices (%),43.47826087
+Figure 6G.xlsx,HV,CSF DHPG (pg/mL),2033.0,Proportion of Hard Task Choices (%),45.45454545
+Figure 6G.xlsx,HV,CSF DHPG (pg/mL),1214.0,Proportion of Hard Task Choices (%),71.05263158
+Figure 6G.xlsx,HV,CSF DHPG (pg/mL),1402.0,Proportion of Hard Task Choices (%),38.7755102
+Figure 6G.xlsx,PI-ME/CFS,CSF DHPG (pg/mL),1599.0,Proportion of Hard Task Choices (%),31.91489362
+Figure 6G.xlsx,PI-ME/CFS,CSF DHPG (pg/mL),1280.0,Proportion of Hard Task Choices (%),16.98113208
+Figure 6G.xlsx,PI-ME/CFS,CSF DHPG (pg/mL),1571.0,Proportion of Hard Task Choices (%),43.47826087
+Figure 6G.xlsx,PI-ME/CFS,CSF DHPG (pg/mL),1090.0,Proportion of Hard Task Choices (%),52.5
+Figure 6G.xlsx,PI-ME/CFS,CSF DHPG (pg/mL),1941.0,Proportion of Hard Task Choices (%),48.88888889
+Figure 6G.xlsx,PI-ME/CFS,CSF DHPG (pg/mL),1005.0,Proportion of Hard Task Choices (%),43.18181818
+Figure 6G.xlsx,PI-ME/CFS,CSF DHPG (pg/mL),992.0,Proportion of Hard Task Choices (%),26.53061224
+Figure 6G.xlsx,PI-ME/CFS,CSF DHPG (pg/mL),1253.0,Proportion of Hard Task Choices (%),23.63636364
+Figure 6G.xlsx,PI-ME/CFS,CSF DHPG (pg/mL),1790.0,Proportion of Hard Task Choices (%),34.0
+Figure 6G.xlsx,PI-ME/CFS,CSF DHPG (pg/mL),1669.0,Proportion of Hard Task Choices (%),47.82608696
+Figure 6G.xlsx,PI-ME/CFS,CSF DHPG (pg/mL),1670.0,Proportion of Hard Task Choices (%),24.0
+Figure 6G.xlsx,PI-ME/CFS,CSF DHPG (pg/mL),1914.0,Proportion of Hard Task Choices (%),36.17021277
+Figure 6G.xlsx,PI-ME/CFS,CSF DHPG (pg/mL),1079.0,Proportion of Hard Task Choices (%),31.91489362
+Figure 6G.xlsx,PI-ME/CFS,CSF DHPG (pg/mL),1181.0,Proportion of Hard Task Choices (%),35.55555556
+Figure S11B.xlsx,HV,Proportion of Hard Task Choices,45.45454545,CSF DA (pg/mL),7.0
+Figure S11B.xlsx,HV,Proportion of Hard Task Choices,29.16666667,CSF DA (pg/mL),2.0
+Figure S11B.xlsx,HV,Proportion of Hard Task Choices,36.17021277,CSF DA (pg/mL),4.0
+Figure S11B.xlsx,HV,Proportion of Hard Task Choices,40.81632653,CSF DA (pg/mL),7.0
+Figure S11B.xlsx,HV,Proportion of Hard Task Choices,77.14285714,CSF DA (pg/mL),9.0
+Figure S11B.xlsx,HV,Proportion of Hard Task Choices,35.41666667,CSF DA (pg/mL),7.0
+Figure S11B.xlsx,HV,Proportion of Hard Task Choices,36.95652174,CSF DA (pg/mL),17.0
+Figure S11B.xlsx,HV,Proportion of Hard Task Choices,60.46511628,CSF DA (pg/mL),11.0
+Figure S11B.xlsx,HV,Proportion of Hard Task Choices,40.81632653,CSF DA (pg/mL),13.0
+Figure S11B.xlsx,HV,Proportion of Hard Task Choices,43.47826087,CSF DA (pg/mL),7.0
+Figure S11B.xlsx,HV,Proportion of Hard Task Choices,45.45454545,CSF DA (pg/mL),16.0
+Figure S11B.xlsx,HV,Proportion of Hard Task Choices,71.05263158,CSF DA (pg/mL),3.0
+Figure S11B.xlsx,HV,Proportion of Hard Task Choices,38.7755102,CSF DA (pg/mL),4.0
+Figure S11B.xlsx,PI-ME/CFS,Proportion of Hard Task Choices,31.91489362,CSF DA (pg/mL),19.0
+Figure S11B.xlsx,PI-ME/CFS,Proportion of Hard Task Choices,16.98113208,CSF DA (pg/mL),3.0
+Figure S11B.xlsx,PI-ME/CFS,Proportion of Hard Task Choices,43.47826087,CSF DA (pg/mL),18.0
+Figure S11B.xlsx,PI-ME/CFS,Proportion of Hard Task Choices,52.5,CSF DA (pg/mL),5.0
+Figure S11B.xlsx,PI-ME/CFS,Proportion of Hard Task Choices,43.18181818,CSF DA (pg/mL),7.0
+Figure S11B.xlsx,PI-ME/CFS,Proportion of Hard Task Choices,26.53061224,CSF DA (pg/mL),7.0
+Figure S11B.xlsx,PI-ME/CFS,Proportion of Hard Task Choices,23.63636364,CSF DA (pg/mL),4.0
+Figure S11B.xlsx,PI-ME/CFS,Proportion of Hard Task Choices,34.0,CSF DA (pg/mL),22.0
+Figure S11B.xlsx,PI-ME/CFS,Proportion of Hard Task Choices,47.82608696,CSF DA (pg/mL),13.0
+Figure S11B.xlsx,PI-ME/CFS,Proportion of Hard Task Choices,24.0,CSF DA (pg/mL),6.0
+Figure S11B.xlsx,PI-ME/CFS,Proportion of Hard Task Choices,36.17021277,CSF DA (pg/mL),7.0
+Figure S11B.xlsx,PI-ME/CFS,Proportion of Hard Task Choices,31.91489362,CSF DA (pg/mL),7.0
+Figure S11B.xlsx,PI-ME/CFS,Proportion of Hard Task Choices,35.55555556,CSF DA (pg/mL),6.0
+Figure S11C.xlsx,HV,Time to Failure,18.8,CSF DHPG (pg/mL),1398.0
+Figure S11C.xlsx,HV,Time to Failure,36.96,CSF DHPG (pg/mL),2433.0
+Figure S11C.xlsx,HV,Time to Failure,37.73,CSF DHPG (pg/mL),1064.0
+Figure S11C.xlsx,HV,Time to Failure,23.67,CSF DHPG (pg/mL),1445.0
+Figure S11C.xlsx,HV,Time to Failure,41.41,CSF DHPG (pg/mL),2259.0
+Figure S11C.xlsx,HV,Time to Failure,9.25,CSF DHPG (pg/mL),2272.0
+Figure S11C.xlsx,HV,Time to Failure,16.67,CSF DHPG (pg/mL),2302.0
+Figure S11C.xlsx,HV,Time to Failure,33.55,CSF DHPG (pg/mL),2146.0
+Figure S11C.xlsx,HV,Time to Failure,30.68,CSF DHPG (pg/mL),1060.0
+Figure S11C.xlsx,HV,Time to Failure,45.58,CSF DHPG (pg/mL),2318.0
+Figure S11C.xlsx,HV,Time to Failure,25.61,CSF DHPG (pg/mL),1961.0
+Figure S11C.xlsx,HV,Time to Failure,32.3,CSF DHPG (pg/mL),2288.0
+Figure S11C.xlsx,HV,Time to Failure,30.76,CSF DHPG (pg/mL),3021.0
+Figure S11C.xlsx,HV,Time to Failure,28.53,CSF DHPG (pg/mL),2431.0
+Figure S11C.xlsx,HV,Time to Failure,46.1,CSF DHPG (pg/mL),2033.0
+Figure S11C.xlsx,HV,Time to Failure,25.45,CSF DHPG (pg/mL),1214.0
+Figure S11C.xlsx,HV,Time to Failure,36.28,CSF DHPG (pg/mL),1402.0
+Figure S11C.xlsx,HV,Time to Failure,38.62,CSF DHPG (pg/mL),1444.0
+Figure S11C.xlsx,PI-ME/CFS,Time to Failure,8.85,CSF DHPG (pg/mL),1614.0
+Figure S11C.xlsx,PI-ME/CFS,Time to Failure,22.31,CSF DHPG (pg/mL),1599.0
+Figure S11C.xlsx,PI-ME/CFS,Time to Failure,3.71,CSF DHPG (pg/mL),1280.0
+Figure S11C.xlsx,PI-ME/CFS,Time to Failure,36.87,CSF DHPG (pg/mL),1571.0
+Figure S11C.xlsx,PI-ME/CFS,Time to Failure,6.29,CSF DHPG (pg/mL),1090.0
+Figure S11C.xlsx,PI-ME/CFS,Time to Failure,27.78,CSF DHPG (pg/mL),1941.0
+Figure S11C.xlsx,PI-ME/CFS,Time to Failure,16.51,CSF DHPG (pg/mL),1005.0
+Figure S11C.xlsx,PI-ME/CFS,Time to Failure,8.5,CSF DHPG (pg/mL),992.0
+Figure S11C.xlsx,PI-ME/CFS,Time to Failure,10.8,CSF DHPG (pg/mL),1790.0
+Figure S11C.xlsx,PI-ME/CFS,Time to Failure,26.39,CSF DHPG (pg/mL),1669.0
+Figure S11C.xlsx,PI-ME/CFS,Time to Failure,5.71,CSF DHPG (pg/mL),1670.0
+Figure S11C.xlsx,PI-ME/CFS,Time to Failure,13.03,CSF DHPG (pg/mL),1914.0
+Figure S11C.xlsx,PI-ME/CFS,Time to Failure,17.19,CSF DHPG (pg/mL),1808.0
+Figure S11C.xlsx,PI-ME/CFS,Time to Failure,10.12,CSF DHPG (pg/mL),1079.0
+Figure S11C.xlsx,PI-ME/CFS,Time to Failure,7.62,CSF DHPG (pg/mL),1181.0
+Figure S12A.xlsx,HV,MMPI Cog Score,40.0,CSF NE (pg/mL),51.0
+Figure S12A.xlsx,HV,MMPI Cog Score,40.0,CSF NE (pg/mL),223.0
+Figure S12A.xlsx,HV,MMPI Cog Score,40.0,CSF NE (pg/mL),95.0
+Figure S12A.xlsx,HV,MMPI Cog Score,50.0,CSF NE (pg/mL),90.0
+Figure S12A.xlsx,HV,MMPI Cog Score,40.0,CSF NE (pg/mL),102.0
+Figure S12A.xlsx,HV,MMPI Cog Score,40.0,CSF NE (pg/mL),128.0
+Figure S12A.xlsx,HV,MMPI Cog Score,50.0,CSF NE (pg/mL),155.0
+Figure S12A.xlsx,HV,MMPI Cog Score,50.0,CSF NE (pg/mL),122.0
+Figure S12A.xlsx,HV,MMPI Cog Score,40.0,CSF NE (pg/mL),150.0
+Figure S12A.xlsx,HV,MMPI Cog Score,50.0,CSF NE (pg/mL),44.0
+Figure S12A.xlsx,HV,MMPI Cog Score,75.0,CSF NE (pg/mL),225.0
+Figure S12A.xlsx,HV,MMPI Cog Score,58.0,CSF NE (pg/mL),228.0
+Figure S12A.xlsx,HV,MMPI Cog Score,40.0,CSF NE (pg/mL),175.0
+Figure S12A.xlsx,HV,MMPI Cog Score,40.0,CSF NE (pg/mL),202.0
+Figure S12A.xlsx,HV,MMPI Cog Score,50.0,CSF NE (pg/mL),174.0
+Figure S12A.xlsx,HV,MMPI Cog Score,40.0,CSF NE (pg/mL),54.0
+Figure S12A.xlsx,HV,MMPI Cog Score,40.0,CSF NE (pg/mL),79.0
+Figure S12A.xlsx,PI-ME/CFS,MMPI Cog Score,54.0,CSF NE (pg/mL),139.0
+Figure S12A.xlsx,PI-ME/CFS,MMPI Cog Score,50.0,CSF NE (pg/mL),83.0
+Figure S12A.xlsx,PI-ME/CFS,MMPI Cog Score,58.0,CSF NE (pg/mL),92.0
+Figure S12A.xlsx,PI-ME/CFS,MMPI Cog Score,80.0,CSF NE (pg/mL),143.0
+Figure S12A.xlsx,PI-ME/CFS,MMPI Cog Score,69.0,CSF NE (pg/mL),90.0
+Figure S12A.xlsx,PI-ME/CFS,MMPI Cog Score,75.0,CSF NE (pg/mL),227.0
+Figure S12A.xlsx,PI-ME/CFS,MMPI Cog Score,69.0,CSF NE (pg/mL),113.0
+Figure S12A.xlsx,PI-ME/CFS,MMPI Cog Score,54.0,CSF NE (pg/mL),62.0
+Figure S12A.xlsx,PI-ME/CFS,MMPI Cog Score,40.0,CSF NE (pg/mL),95.0
+Figure S12A.xlsx,PI-ME/CFS,MMPI Cog Score,54.0,CSF NE (pg/mL),115.0
+Figure S12A.xlsx,PI-ME/CFS,MMPI Cog Score,64.0,CSF NE (pg/mL),181.0
+Figure S12A.xlsx,PI-ME/CFS,MMPI Cog Score,54.0,CSF NE (pg/mL),61.0
+Figure S12A.xlsx,PI-ME/CFS,MMPI Cog Score,86.0,CSF NE (pg/mL),131.0
+Figure S12A.xlsx,PI-ME/CFS,MMPI Cog Score,58.0,CSF NE (pg/mL),103.0
+Figure S12A.xlsx,PI-ME/CFS,MMPI Cog Score,64.0,CSF NE (pg/mL),124.0
+Figure S12B.xlsx,HV,MASQ VSM,9.0,CSF DA (pg/mL),6.0
+Figure S12B.xlsx,HV,MASQ VSM,18.0,CSF DA (pg/mL),13.0
+Figure S12B.xlsx,HV,MASQ VSM,14.0,CSF DA (pg/mL),7.0
+Figure S12B.xlsx,HV,MASQ VSM,11.0,CSF DA (pg/mL),7.0
+Figure S12B.xlsx,HV,MASQ VSM,10.0,CSF DA (pg/mL),2.0
+Figure S12B.xlsx,HV,MASQ VSM,16.0,CSF DA (pg/mL),4.0
+Figure S12B.xlsx,HV,MASQ VSM,8.0,CSF DA (pg/mL),8.0
+Figure S12B.xlsx,HV,MASQ VSM,16.0,CSF DA (pg/mL),7.0
+Figure S12B.xlsx,HV,MASQ VSM,15.0,CSF DA (pg/mL),9.0
+Figure S12B.xlsx,HV,MASQ VSM,15.0,CSF DA (pg/mL),7.0
+Figure S12B.xlsx,HV,MASQ VSM,15.0,CSF DA (pg/mL),17.0
+Figure S12B.xlsx,HV,MASQ VSM,16.0,CSF DA (pg/mL),11.0
+Figure S12B.xlsx,HV,MASQ VSM,12.0,CSF DA (pg/mL),13.0
+Figure S12B.xlsx,HV,MASQ VSM,11.0,CSF DA (pg/mL),7.0
+Figure S12B.xlsx,HV,MASQ VSM,13.0,CSF DA (pg/mL),3.0
+Figure S12B.xlsx,HV,MASQ VSM,15.0,CSF DA (pg/mL),4.0
+Figure S12B.xlsx,PI-ME/CFS,MASQ VSM,15.0,CSF DA (pg/mL),10.0
+Figure S12B.xlsx,PI-ME/CFS,MASQ VSM,12.0,CSF DA (pg/mL),19.0
+Figure S12B.xlsx,PI-ME/CFS,MASQ VSM,11.0,CSF DA (pg/mL),3.0
+Figure S12B.xlsx,PI-ME/CFS,MASQ VSM,18.0,CSF DA (pg/mL),18.0
+Figure S12B.xlsx,PI-ME/CFS,MASQ VSM,15.0,CSF DA (pg/mL),5.0
+Figure S12B.xlsx,PI-ME/CFS,MASQ VSM,18.0,CSF DA (pg/mL),7.0
+Figure S12B.xlsx,PI-ME/CFS,MASQ VSM,14.0,CSF DA (pg/mL),7.0
+Figure S12B.xlsx,PI-ME/CFS,MASQ VSM,12.0,CSF DA (pg/mL),4.0
+Figure S12B.xlsx,PI-ME/CFS,MASQ VSM,19.0,CSF DA (pg/mL),22.0
+Figure S12B.xlsx,PI-ME/CFS,MASQ VSM,15.0,CSF DA (pg/mL),13.0
+Figure S12B.xlsx,PI-ME/CFS,MASQ VSM,15.0,CSF DA (pg/mL),6.0
+Figure S12B.xlsx,PI-ME/CFS,MASQ VSM,27.0,CSF DA (pg/mL),7.0
+Figure S12B.xlsx,PI-ME/CFS,MASQ VSM,13.0,CSF DA (pg/mL),7.0
+Figure S12B.xlsx,PI-ME/CFS,MASQ VSM,12.0,CSF DA (pg/mL),6.0
+Figure S12C.xlsx,HV,MMPI Cog Score,40.0,CSF cys-DOPA (pg/mL),259.0
+Figure S12C.xlsx,HV,MMPI Cog Score,40.0,CSF cys-DOPA (pg/mL),199.0
+Figure S12C.xlsx,HV,MMPI Cog Score,40.0,CSF cys-DOPA (pg/mL),242.0
+Figure S12C.xlsx,HV,MMPI Cog Score,50.0,CSF cys-DOPA (pg/mL),313.0
+Figure S12C.xlsx,HV,MMPI Cog Score,40.0,CSF cys-DOPA (pg/mL),399.0
+Figure S12C.xlsx,HV,MMPI Cog Score,40.0,CSF cys-DOPA (pg/mL),244.0
+Figure S12C.xlsx,HV,MMPI Cog Score,50.0,CSF cys-DOPA (pg/mL),202.0
+Figure S12C.xlsx,HV,MMPI Cog Score,50.0,CSF cys-DOPA (pg/mL),321.0
+Figure S12C.xlsx,HV,MMPI Cog Score,40.0,CSF cys-DOPA (pg/mL),319.0
+Figure S12C.xlsx,HV,MMPI Cog Score,50.0,CSF cys-DOPA (pg/mL),255.0
+Figure S12C.xlsx,HV,MMPI Cog Score,75.0,CSF cys-DOPA (pg/mL),266.0
+Figure S12C.xlsx,HV,MMPI Cog Score,58.0,CSF cys-DOPA (pg/mL),311.0
+Figure S12C.xlsx,HV,MMPI Cog Score,40.0,CSF cys-DOPA (pg/mL),262.0
+Figure S12C.xlsx,HV,MMPI Cog Score,40.0,CSF cys-DOPA (pg/mL),262.0
+Figure S12C.xlsx,HV,MMPI Cog Score,50.0,CSF cys-DOPA (pg/mL),266.0
+Figure S12C.xlsx,HV,MMPI Cog Score,40.0,CSF cys-DOPA (pg/mL),385.0
+Figure S12C.xlsx,PI-ME/CFS,MMPI Cog Score,54.0,CSF cys-DOPA (pg/mL),263.0
+Figure S12C.xlsx,PI-ME/CFS,MMPI Cog Score,50.0,CSF cys-DOPA (pg/mL),55.0
+Figure S12C.xlsx,PI-ME/CFS,MMPI Cog Score,58.0,CSF cys-DOPA (pg/mL),211.0
+Figure S12C.xlsx,PI-ME/CFS,MMPI Cog Score,80.0,CSF cys-DOPA (pg/mL),505.0
+Figure S12C.xlsx,PI-ME/CFS,MMPI Cog Score,69.0,CSF cys-DOPA (pg/mL),146.0
+Figure S12C.xlsx,PI-ME/CFS,MMPI Cog Score,75.0,CSF cys-DOPA (pg/mL),340.0
+Figure S12C.xlsx,PI-ME/CFS,MMPI Cog Score,69.0,CSF cys-DOPA (pg/mL),385.0
+Figure S12C.xlsx,PI-ME/CFS,MMPI Cog Score,54.0,CSF cys-DOPA (pg/mL),275.0
+Figure S12C.xlsx,PI-ME/CFS,MMPI Cog Score,40.0,CSF cys-DOPA (pg/mL),151.0
+Figure S12C.xlsx,PI-ME/CFS,MMPI Cog Score,54.0,CSF cys-DOPA (pg/mL),206.0
+Figure S12C.xlsx,PI-ME/CFS,MMPI Cog Score,64.0,CSF cys-DOPA (pg/mL),227.0
+Figure S12C.xlsx,PI-ME/CFS,MMPI Cog Score,54.0,CSF cys-DOPA (pg/mL),215.0
+Figure S12C.xlsx,PI-ME/CFS,MMPI Cog Score,86.0,CSF cys-DOPA (pg/mL),309.0
+Figure S12C.xlsx,PI-ME/CFS,MMPI Cog Score,58.0,CSF cys-DOPA (pg/mL),154.0
+Figure S12C.xlsx,PI-ME/CFS,MMPI Cog Score,64.0,CSF cys-DOPA (pg/mL),248.0
+Figure S12D.xlsx,HV,MASQ Language,10.0,CSF cys-DOPA (pg/mL),259.0
+Figure S12D.xlsx,HV,MASQ Language,13.0,CSF cys-DOPA (pg/mL),199.0
+Figure S12D.xlsx,HV,MASQ Language,12.0,CSF cys-DOPA (pg/mL),242.0
+Figure S12D.xlsx,HV,MASQ Language,9.0,CSF cys-DOPA (pg/mL),313.0
+Figure S12D.xlsx,HV,MASQ Language,9.0,CSF cys-DOPA (pg/mL),399.0
+Figure S12D.xlsx,HV,MASQ Language,13.0,CSF cys-DOPA (pg/mL),244.0
+Figure S12D.xlsx,HV,MASQ Language,16.0,CSF cys-DOPA (pg/mL),202.0
+Figure S12D.xlsx,HV,MASQ Language,12.0,CSF cys-DOPA (pg/mL),321.0
+Figure S12D.xlsx,HV,MASQ Language,15.0,CSF cys-DOPA (pg/mL),319.0
+Figure S12D.xlsx,HV,MASQ Language,15.0,CSF cys-DOPA (pg/mL),255.0
+Figure S12D.xlsx,HV,MASQ Language,12.0,CSF cys-DOPA (pg/mL),266.0
+Figure S12D.xlsx,HV,MASQ Language,15.0,CSF cys-DOPA (pg/mL),311.0
+Figure S12D.xlsx,HV,MASQ Language,15.0,CSF cys-DOPA (pg/mL),262.0
+Figure S12D.xlsx,HV,MASQ Language,10.0,CSF cys-DOPA (pg/mL),262.0
+Figure S12D.xlsx,HV,MASQ Language,11.0,CSF cys-DOPA (pg/mL),266.0
+Figure S12D.xlsx,HV,MASQ Language,11.0,CSF cys-DOPA (pg/mL),385.0
+Figure S12D.xlsx,PI-ME/CFS,MASQ Language,11.0,CSF cys-DOPA (pg/mL),263.0
+Figure S12D.xlsx,PI-ME/CFS,MASQ Language,15.0,CSF cys-DOPA (pg/mL),55.0
+Figure S12D.xlsx,PI-ME/CFS,MASQ Language,21.0,CSF cys-DOPA (pg/mL),211.0
+Figure S12D.xlsx,PI-ME/CFS,MASQ Language,25.0,CSF cys-DOPA (pg/mL),505.0
+Figure S12D.xlsx,PI-ME/CFS,MASQ Language,21.0,CSF cys-DOPA (pg/mL),146.0
+Figure S12D.xlsx,PI-ME/CFS,MASQ Language,24.0,CSF cys-DOPA (pg/mL),340.0
+Figure S12D.xlsx,PI-ME/CFS,MASQ Language,21.0,CSF cys-DOPA (pg/mL),385.0
+Figure S12D.xlsx,PI-ME/CFS,MASQ Language,18.0,CSF cys-DOPA (pg/mL),275.0
+Figure S12D.xlsx,PI-ME/CFS,MASQ Language,16.0,CSF cys-DOPA (pg/mL),151.0
+Figure S12D.xlsx,PI-ME/CFS,MASQ Language,21.0,CSF cys-DOPA (pg/mL),206.0
+Figure S12D.xlsx,PI-ME/CFS,MASQ Language,17.0,CSF cys-DOPA (pg/mL),227.0
+Figure S12D.xlsx,PI-ME/CFS,MASQ Language,19.0,CSF cys-DOPA (pg/mL),215.0
+Figure S12D.xlsx,PI-ME/CFS,MASQ Language,29.0,CSF cys-DOPA (pg/mL),309.0
+Figure S12D.xlsx,PI-ME/CFS,MASQ Language,13.0,CSF cys-DOPA (pg/mL),154.0
+Figure S12D.xlsx,PI-ME/CFS,MASQ Language,15.0,CSF cys-DOPA (pg/mL),248.0
+Figure S12E.xlsx,HV,MASQ VP,8.0,CSF cys-DOPA (pg/mL),259.0
+Figure S12E.xlsx,HV,MASQ VP,8.0,CSF cys-DOPA (pg/mL),199.0
+Figure S12E.xlsx,HV,MASQ VP,12.0,CSF cys-DOPA (pg/mL),242.0
+Figure S12E.xlsx,HV,MASQ VP,17.0,CSF cys-DOPA (pg/mL),313.0
+Figure S12E.xlsx,HV,MASQ VP,11.0,CSF cys-DOPA (pg/mL),399.0
+Figure S12E.xlsx,HV,MASQ VP,9.0,CSF cys-DOPA (pg/mL),244.0
+Figure S12E.xlsx,HV,MASQ VP,10.0,CSF cys-DOPA (pg/mL),202.0
+Figure S12E.xlsx,HV,MASQ VP,6.0,CSF cys-DOPA (pg/mL),321.0
+Figure S12E.xlsx,HV,MASQ VP,12.0,CSF cys-DOPA (pg/mL),319.0
+Figure S12E.xlsx,HV,MASQ VP,11.0,CSF cys-DOPA (pg/mL),255.0
+Figure S12E.xlsx,HV,MASQ VP,10.0,CSF cys-DOPA (pg/mL),266.0
+Figure S12E.xlsx,HV,MASQ VP,15.0,CSF cys-DOPA (pg/mL),311.0
+Figure S12E.xlsx,HV,MASQ VP,12.0,CSF cys-DOPA (pg/mL),262.0
+Figure S12E.xlsx,HV,MASQ VP,8.0,CSF cys-DOPA (pg/mL),262.0
+Figure S12E.xlsx,HV,MASQ VP,7.0,CSF cys-DOPA (pg/mL),266.0
+Figure S12E.xlsx,HV,MASQ VP,7.0,CSF cys-DOPA (pg/mL),385.0
+Figure S12E.xlsx,PI-ME/CFS,MASQ VP,14.0,CSF cys-DOPA (pg/mL),263.0
+Figure S12E.xlsx,PI-ME/CFS,MASQ VP,10.0,CSF cys-DOPA (pg/mL),55.0
+Figure S12E.xlsx,PI-ME/CFS,MASQ VP,10.0,CSF cys-DOPA (pg/mL),211.0
+Figure S12E.xlsx,PI-ME/CFS,MASQ VP,15.0,CSF cys-DOPA (pg/mL),505.0
+Figure S12E.xlsx,PI-ME/CFS,MASQ VP,14.0,CSF cys-DOPA (pg/mL),146.0
+Figure S12E.xlsx,PI-ME/CFS,MASQ VP,16.0,CSF cys-DOPA (pg/mL),340.0
+Figure S12E.xlsx,PI-ME/CFS,MASQ VP,15.0,CSF cys-DOPA (pg/mL),385.0
+Figure S12E.xlsx,PI-ME/CFS,MASQ VP,8.0,CSF cys-DOPA (pg/mL),275.0
+Figure S12E.xlsx,PI-ME/CFS,MASQ VP,9.0,CSF cys-DOPA (pg/mL),151.0
+Figure S12E.xlsx,PI-ME/CFS,MASQ VP,14.0,CSF cys-DOPA (pg/mL),206.0
+Figure S12E.xlsx,PI-ME/CFS,MASQ VP,11.0,CSF cys-DOPA (pg/mL),227.0
+Figure S12E.xlsx,PI-ME/CFS,MASQ VP,14.0,CSF cys-DOPA (pg/mL),215.0
+Figure S12E.xlsx,PI-ME/CFS,MASQ VP,18.0,CSF cys-DOPA (pg/mL),309.0
+Figure S12E.xlsx,PI-ME/CFS,MASQ VP,10.0,CSF cys-DOPA (pg/mL),154.0
+Figure S12E.xlsx,PI-ME/CFS,MASQ VP,8.0,CSF cys-DOPA (pg/mL),248.0
+Figure S12F.xlsx,HV,MMPI Cog Score,40.0,CSF DOPAC (pg/mL),277.0
+Figure S12F.xlsx,HV,MMPI Cog Score,40.0,CSF DOPAC (pg/mL),626.0
+Figure S12F.xlsx,HV,MMPI Cog Score,40.0,CSF DOPAC (pg/mL),184.0
+Figure S12F.xlsx,HV,MMPI Cog Score,50.0,CSF DOPAC (pg/mL),254.0
+Figure S12F.xlsx,HV,MMPI Cog Score,40.0,CSF DOPAC (pg/mL),249.0
+Figure S12F.xlsx,HV,MMPI Cog Score,40.0,CSF DOPAC (pg/mL),530.0
+Figure S12F.xlsx,HV,MMPI Cog Score,50.0,CSF DOPAC (pg/mL),487.0
+Figure S12F.xlsx,HV,MMPI Cog Score,50.0,CSF DOPAC (pg/mL),366.0
+Figure S12F.xlsx,HV,MMPI Cog Score,40.0,CSF DOPAC (pg/mL),368.0
+Figure S12F.xlsx,HV,MMPI Cog Score,50.0,CSF DOPAC (pg/mL),174.0
+Figure S12F.xlsx,HV,MMPI Cog Score,75.0,CSF DOPAC (pg/mL),419.0
+Figure S12F.xlsx,HV,MMPI Cog Score,58.0,CSF DOPAC (pg/mL),362.0
+Figure S12F.xlsx,HV,MMPI Cog Score,40.0,CSF DOPAC (pg/mL),428.0
+Figure S12F.xlsx,HV,MMPI Cog Score,40.0,CSF DOPAC (pg/mL),423.0
+Figure S12F.xlsx,HV,MMPI Cog Score,50.0,CSF DOPAC (pg/mL),394.0
+Figure S12F.xlsx,HV,MMPI Cog Score,40.0,CSF DOPAC (pg/mL),136.0
+Figure S12F.xlsx,HV,MMPI Cog Score,40.0,CSF DOPAC (pg/mL),135.0
+Figure S12F.xlsx,PI-ME/CFS,MMPI Cog Score,54.0,CSF DOPAC (pg/mL),292.0
+Figure S12F.xlsx,PI-ME/CFS,MMPI Cog Score,50.0,CSF DOPAC (pg/mL),128.0
+Figure S12F.xlsx,PI-ME/CFS,MMPI Cog Score,58.0,CSF DOPAC (pg/mL),296.0
+Figure S12F.xlsx,PI-ME/CFS,MMPI Cog Score,80.0,CSF DOPAC (pg/mL),336.0
+Figure S12F.xlsx,PI-ME/CFS,MMPI Cog Score,69.0,CSF DOPAC (pg/mL),214.0
+Figure S12F.xlsx,PI-ME/CFS,MMPI Cog Score,75.0,CSF DOPAC (pg/mL),587.0
+Figure S12F.xlsx,PI-ME/CFS,MMPI Cog Score,69.0,CSF DOPAC (pg/mL),325.0
+Figure S12F.xlsx,PI-ME/CFS,MMPI Cog Score,54.0,CSF DOPAC (pg/mL),197.0
+Figure S12F.xlsx,PI-ME/CFS,MMPI Cog Score,40.0,CSF DOPAC (pg/mL),200.0
+Figure S12F.xlsx,PI-ME/CFS,MMPI Cog Score,54.0,CSF DOPAC (pg/mL),126.0
+Figure S12F.xlsx,PI-ME/CFS,MMPI Cog Score,64.0,CSF DOPAC (pg/mL),330.0
+Figure S12F.xlsx,PI-ME/CFS,MMPI Cog Score,54.0,CSF DOPAC (pg/mL),306.0
+Figure S12F.xlsx,PI-ME/CFS,MMPI Cog Score,86.0,CSF DOPAC (pg/mL),198.0
+Figure S12F.xlsx,PI-ME/CFS,MMPI Cog Score,58.0,CSF DOPAC (pg/mL),172.0
+Figure S12F.xlsx,PI-ME/CFS,MMPI Cog Score,64.0,CSF DOPAC (pg/mL),232.0
+Figure S12G.xlsx,HV,MASQ Att Con,9.0,CSF DOPAC (pg/mL),277.0
+Figure S12G.xlsx,HV,MASQ Att Con,18.0,CSF DOPAC (pg/mL),626.0
+Figure S12G.xlsx,HV,MASQ Att Con,12.0,CSF DOPAC (pg/mL),184.0
+Figure S12G.xlsx,HV,MASQ Att Con,12.0,CSF DOPAC (pg/mL),254.0
+Figure S12G.xlsx,HV,MASQ Att Con,13.0,CSF DOPAC (pg/mL),249.0
+Figure S12G.xlsx,HV,MASQ Att Con,9.0,CSF DOPAC (pg/mL),530.0
+Figure S12G.xlsx,HV,MASQ Att Con,23.0,CSF DOPAC (pg/mL),487.0
+Figure S12G.xlsx,HV,MASQ Att Con,8.0,CSF DOPAC (pg/mL),366.0
+Figure S12G.xlsx,HV,MASQ Att Con,14.0,CSF DOPAC (pg/mL),368.0
+Figure S12G.xlsx,HV,MASQ Att Con,17.0,CSF DOPAC (pg/mL),174.0
+Figure S12G.xlsx,HV,MASQ Att Con,20.0,CSF DOPAC (pg/mL),419.0
+Figure S12G.xlsx,HV,MASQ Att Con,21.0,CSF DOPAC (pg/mL),362.0
+Figure S12G.xlsx,HV,MASQ Att Con,21.0,CSF DOPAC (pg/mL),428.0
+Figure S12G.xlsx,HV,MASQ Att Con,12.0,CSF DOPAC (pg/mL),423.0
+Figure S12G.xlsx,HV,MASQ Att Con,13.0,CSF DOPAC (pg/mL),394.0
+Figure S12G.xlsx,HV,MASQ Att Con,8.0,CSF DOPAC (pg/mL),136.0
+Figure S12G.xlsx,HV,MASQ Att Con,15.0,CSF DOPAC (pg/mL),135.0
+Figure S12G.xlsx,PI-ME/CFS,MASQ Att Con,17.0,CSF DOPAC (pg/mL),292.0
+Figure S12G.xlsx,PI-ME/CFS,MASQ Att Con,19.0,CSF DOPAC (pg/mL),128.0
+Figure S12G.xlsx,PI-ME/CFS,MASQ Att Con,21.0,CSF DOPAC (pg/mL),296.0
+Figure S12G.xlsx,PI-ME/CFS,MASQ Att Con,25.0,CSF DOPAC (pg/mL),336.0
+Figure S12G.xlsx,PI-ME/CFS,MASQ Att Con,20.0,CSF DOPAC (pg/mL),214.0
+Figure S12G.xlsx,PI-ME/CFS,MASQ Att Con,25.0,CSF DOPAC (pg/mL),587.0
+Figure S12G.xlsx,PI-ME/CFS,MASQ Att Con,20.0,CSF DOPAC (pg/mL),325.0
+Figure S12G.xlsx,PI-ME/CFS,MASQ Att Con,15.0,CSF DOPAC (pg/mL),197.0
+Figure S12G.xlsx,PI-ME/CFS,MASQ Att Con,16.0,CSF DOPAC (pg/mL),200.0
+Figure S12G.xlsx,PI-ME/CFS,MASQ Att Con,20.0,CSF DOPAC (pg/mL),126.0
+Figure S12G.xlsx,PI-ME/CFS,MASQ Att Con,23.0,CSF DOPAC (pg/mL),330.0
+Figure S12G.xlsx,PI-ME/CFS,MASQ Att Con,21.0,CSF DOPAC (pg/mL),306.0
+Figure S12G.xlsx,PI-ME/CFS,MASQ Att Con,31.0,CSF DOPAC (pg/mL),198.0
+Figure S12G.xlsx,PI-ME/CFS,MASQ Att Con,19.0,CSF DOPAC (pg/mL),172.0
+Figure S12G.xlsx,PI-ME/CFS,MASQ Att Con,20.0,CSF DOPAC (pg/mL),232.0
+Figure S12H.xlsx,HV,MASQ Att Con,9.0,CSF DHPG (pg/mL),1398.0
+Figure S12H.xlsx,HV,MASQ Att Con,18.0,CSF DHPG (pg/mL),2433.0
+Figure S12H.xlsx,HV,MASQ Att Con,12.0,CSF DHPG (pg/mL),1064.0
+Figure S12H.xlsx,HV,MASQ Att Con,12.0,CSF DHPG (pg/mL),1445.0
+Figure S12H.xlsx,HV,MASQ Att Con,13.0,CSF DHPG (pg/mL),2259.0
+Figure S12H.xlsx,HV,MASQ Att Con,9.0,CSF DHPG (pg/mL),2272.0
+Figure S12H.xlsx,HV,MASQ Att Con,23.0,CSF DHPG (pg/mL),2305.0
+Figure S12H.xlsx,HV,MASQ Att Con,8.0,CSF DHPG (pg/mL),2302.0
+Figure S12H.xlsx,HV,MASQ Att Con,14.0,CSF DHPG (pg/mL),2146.0
+Figure S12H.xlsx,HV,MASQ Att Con,17.0,CSF DHPG (pg/mL),1060.0
+Figure S12H.xlsx,HV,MASQ Att Con,20.0,CSF DHPG (pg/mL),2318.0
+Figure S12H.xlsx,HV,MASQ Att Con,21.0,CSF DHPG (pg/mL),1961.0
+Figure S12H.xlsx,HV,MASQ Att Con,21.0,CSF DHPG (pg/mL),2288.0
+Figure S12H.xlsx,HV,MASQ Att Con,12.0,CSF DHPG (pg/mL),3021.0
+Figure S12H.xlsx,HV,MASQ Att Con,13.0,CSF DHPG (pg/mL),2431.0
+Figure S12H.xlsx,HV,MASQ Att Con,8.0,CSF DHPG (pg/mL),1214.0
+Figure S12H.xlsx,HV,MASQ Att Con,15.0,CSF DHPG (pg/mL),1402.0
+Figure S12H.xlsx,PI-ME/CFS,MASQ Att Con,17.0,CSF DHPG (pg/mL),1614.0
+Figure S12H.xlsx,PI-ME/CFS,MASQ Att Con,19.0,CSF DHPG (pg/mL),1599.0
+Figure S12H.xlsx,PI-ME/CFS,MASQ Att Con,21.0,CSF DHPG (pg/mL),1280.0
+Figure S12H.xlsx,PI-ME/CFS,MASQ Att Con,25.0,CSF DHPG (pg/mL),1571.0
+Figure S12H.xlsx,PI-ME/CFS,MASQ Att Con,20.0,CSF DHPG (pg/mL),1090.0
+Figure S12H.xlsx,PI-ME/CFS,MASQ Att Con,25.0,CSF DHPG (pg/mL),1941.0
+Figure S12H.xlsx,PI-ME/CFS,MASQ Att Con,20.0,CSF DHPG (pg/mL),1005.0
+Figure S12H.xlsx,PI-ME/CFS,MASQ Att Con,15.0,CSF DHPG (pg/mL),992.0
+Figure S12H.xlsx,PI-ME/CFS,MASQ Att Con,16.0,CSF DHPG (pg/mL),1253.0
+Figure S12H.xlsx,PI-ME/CFS,MASQ Att Con,20.0,CSF DHPG (pg/mL),1790.0
+Figure S12H.xlsx,PI-ME/CFS,MASQ Att Con,23.0,CSF DHPG (pg/mL),1669.0
+Figure S12H.xlsx,PI-ME/CFS,MASQ Att Con,21.0,CSF DHPG (pg/mL),1670.0
+Figure S12H.xlsx,PI-ME/CFS,MASQ Att Con,31.0,CSF DHPG (pg/mL),1914.0
+Figure S12H.xlsx,PI-ME/CFS,MASQ Att Con,19.0,CSF DHPG (pg/mL),1079.0
+Figure S12H.xlsx,PI-ME/CFS,MASQ Att Con,20.0,CSF DHPG (pg/mL),1181.0
+Figure S12I.xlsx,HV,MASQ VP,8.0,CSF DHPG (pg/mL),1398.0
+Figure S12I.xlsx,HV,MASQ VP,8.0,CSF DHPG (pg/mL),2433.0
+Figure S12I.xlsx,HV,MASQ VP,12.0,CSF DHPG (pg/mL),1064.0
+Figure S12I.xlsx,HV,MASQ VP,17.0,CSF DHPG (pg/mL),1445.0
+Figure S12I.xlsx,HV,MASQ VP,11.0,CSF DHPG (pg/mL),2259.0
+Figure S12I.xlsx,HV,MASQ VP,9.0,CSF DHPG (pg/mL),2272.0
+Figure S12I.xlsx,HV,MASQ VP,10.0,CSF DHPG (pg/mL),2305.0
+Figure S12I.xlsx,HV,MASQ VP,6.0,CSF DHPG (pg/mL),2302.0
+Figure S12I.xlsx,HV,MASQ VP,12.0,CSF DHPG (pg/mL),2146.0
+Figure S12I.xlsx,HV,MASQ VP,11.0,CSF DHPG (pg/mL),1060.0
+Figure S12I.xlsx,HV,MASQ VP,10.0,CSF DHPG (pg/mL),2318.0
+Figure S12I.xlsx,HV,MASQ VP,15.0,CSF DHPG (pg/mL),1961.0
+Figure S12I.xlsx,HV,MASQ VP,12.0,CSF DHPG (pg/mL),2288.0
+Figure S12I.xlsx,HV,MASQ VP,8.0,CSF DHPG (pg/mL),3021.0
+Figure S12I.xlsx,HV,MASQ VP,7.0,CSF DHPG (pg/mL),2431.0
+Figure S12I.xlsx,HV,MASQ VP,7.0,CSF DHPG (pg/mL),1214.0
+Figure S12I.xlsx,HV,MASQ VP,9.0,CSF DHPG (pg/mL),1402.0
+Figure S12I.xlsx,PI-ME/CFS,MASQ VP,14.0,CSF DHPG (pg/mL),1614.0
+Figure S12I.xlsx,PI-ME/CFS,MASQ VP,10.0,CSF DHPG (pg/mL),1599.0
+Figure S12I.xlsx,PI-ME/CFS,MASQ VP,10.0,CSF DHPG (pg/mL),1280.0
+Figure S12I.xlsx,PI-ME/CFS,MASQ VP,15.0,CSF DHPG (pg/mL),1571.0
+Figure S12I.xlsx,PI-ME/CFS,MASQ VP,14.0,CSF DHPG (pg/mL),1090.0
+Figure S12I.xlsx,PI-ME/CFS,MASQ VP,16.0,CSF DHPG (pg/mL),1941.0
+Figure S12I.xlsx,PI-ME/CFS,MASQ VP,15.0,CSF DHPG (pg/mL),1005.0
+Figure S12I.xlsx,PI-ME/CFS,MASQ VP,8.0,CSF DHPG (pg/mL),992.0
+Figure S12I.xlsx,PI-ME/CFS,MASQ VP,9.0,CSF DHPG (pg/mL),1253.0
+Figure S12I.xlsx,PI-ME/CFS,MASQ VP,14.0,CSF DHPG (pg/mL),1790.0
+Figure S12I.xlsx,PI-ME/CFS,MASQ VP,11.0,CSF DHPG (pg/mL),1669.0
+Figure S12I.xlsx,PI-ME/CFS,MASQ VP,14.0,CSF DHPG (pg/mL),1670.0
+Figure S12I.xlsx,PI-ME/CFS,MASQ VP,18.0,CSF DHPG (pg/mL),1914.0
+Figure S12I.xlsx,PI-ME/CFS,MASQ VP,10.0,CSF DHPG (pg/mL),1079.0
+Figure S12I.xlsx,PI-ME/CFS,MASQ VP,8.0,CSF DHPG (pg/mL),1181.0
+Figure S12J.xlsx,HV,WCST,28.0,CSF DOPA (pg/mL),976.0
+Figure S12J.xlsx,HV,WCST,47.0,CSF DOPA (pg/mL),544.0
+Figure S12J.xlsx,HV,WCST,53.0,CSF DOPA (pg/mL),586.0
+Figure S12J.xlsx,HV,WCST,55.0,CSF DOPA (pg/mL),766.0
+Figure S12J.xlsx,HV,WCST,45.0,CSF DOPA (pg/mL),776.0
+Figure S12J.xlsx,HV,WCST,53.0,CSF DOPA (pg/mL),616.0
+Figure S12J.xlsx,HV,WCST,47.0,CSF DOPA (pg/mL),687.0
+Figure S12J.xlsx,HV,WCST,50.0,CSF DOPA (pg/mL),802.0
+Figure S12J.xlsx,HV,WCST,54.0,CSF DOPA (pg/mL),1338.0
+Figure S12J.xlsx,HV,WCST,36.0,CSF DOPA (pg/mL),689.0
+Figure S12J.xlsx,HV,WCST,25.0,CSF DOPA (pg/mL),669.0
+Figure S12J.xlsx,HV,WCST,31.0,CSF DOPA (pg/mL),1049.0
+Figure S12J.xlsx,HV,WCST,55.0,CSF DOPA (pg/mL),951.0
+Figure S12J.xlsx,HV,WCST,53.0,CSF DOPA (pg/mL),840.0
+Figure S12J.xlsx,HV,WCST,47.0,CSF DOPA (pg/mL),687.0
+Figure S12J.xlsx,HV,WCST,51.0,CSF DOPA (pg/mL),513.0
+Figure S12J.xlsx,PI-ME/CFS,WCST,57.0,CSF DOPA (pg/mL),679.0
+Figure S12J.xlsx,PI-ME/CFS,WCST,37.0,CSF DOPA (pg/mL),316.0
+Figure S12J.xlsx,PI-ME/CFS,WCST,43.0,CSF DOPA (pg/mL),567.0
+Figure S12J.xlsx,PI-ME/CFS,WCST,44.0,CSF DOPA (pg/mL),496.0
+Figure S12J.xlsx,PI-ME/CFS,WCST,41.0,CSF DOPA (pg/mL),518.0
+Figure S12J.xlsx,PI-ME/CFS,WCST,51.0,CSF DOPA (pg/mL),773.0
+Figure S12J.xlsx,PI-ME/CFS,WCST,49.0,CSF DOPA (pg/mL),547.0
+Figure S12J.xlsx,PI-ME/CFS,WCST,39.0,CSF DOPA (pg/mL),553.0
+Figure S12J.xlsx,PI-ME/CFS,WCST,43.0,CSF DOPA (pg/mL),443.0
+Figure S12J.xlsx,PI-ME/CFS,WCST,55.0,CSF DOPA (pg/mL),623.0
+Figure S12J.xlsx,PI-ME/CFS,WCST,51.0,CSF DOPA (pg/mL),570.0
+Figure S12J.xlsx,PI-ME/CFS,WCST,55.0,CSF DOPA (pg/mL),712.0
+Figure S12J.xlsx,PI-ME/CFS,WCST,44.0,CSF DOPA (pg/mL),574.0
+Figure S12J.xlsx,PI-ME/CFS,WCST,49.0,CSF DOPA (pg/mL),779.0
+Figure S12J.xlsx,PI-ME/CFS,WCST,8.0,CSF DOPA (pg/mL),1181.0
+Figure S12K.xlsx,HV,Wais Sym Search,7.0,CSF NE (pg/mL),223.0
+Figure S12K.xlsx,HV,Wais Sym Search,18.0,CSF NE (pg/mL),95.0
+Figure S12K.xlsx,HV,Wais Sym Search,12.0,CSF NE (pg/mL),90.0
+Figure S12K.xlsx,HV,Wais Sym Search,12.0,CSF NE (pg/mL),102.0
+Figure S12K.xlsx,HV,Wais Sym Search,11.0,CSF NE (pg/mL),128.0
+Figure S12K.xlsx,HV,Wais Sym Search,14.0,CSF NE (pg/mL),155.0
+Figure S12K.xlsx,HV,Wais Sym Search,13.0,CSF NE (pg/mL),122.0
+Figure S12K.xlsx,HV,Wais Sym Search,8.0,CSF NE (pg/mL),150.0
+Figure S12K.xlsx,HV,Wais Sym Search,17.0,CSF NE (pg/mL),44.0
+Figure S12K.xlsx,HV,Wais Sym Search,8.0,CSF NE (pg/mL),225.0
+Figure S12K.xlsx,HV,Wais Sym Search,9.0,CSF NE (pg/mL),228.0
+Figure S12K.xlsx,HV,Wais Sym Search,13.0,CSF NE (pg/mL),175.0
+Figure S12K.xlsx,HV,Wais Sym Search,16.0,CSF NE (pg/mL),202.0
+Figure S12K.xlsx,HV,Wais Sym Search,11.0,CSF NE (pg/mL),174.0
+Figure S12K.xlsx,HV,Wais Sym Search,14.0,CSF NE (pg/mL),54.0
+Figure S12K.xlsx,HV,Wais Sym Search,13.0,CSF NE (pg/mL),79.0
+Figure S12K.xlsx,PI-ME/CFS,Wais Sym Search,15.0,CSF NE (pg/mL),139.0
+Figure S12K.xlsx,PI-ME/CFS,Wais Sym Search,10.0,CSF NE (pg/mL),83.0
+Figure S12K.xlsx,PI-ME/CFS,Wais Sym Search,15.0,CSF NE (pg/mL),92.0
+Figure S12K.xlsx,PI-ME/CFS,Wais Sym Search,9.0,CSF NE (pg/mL),143.0
+Figure S12K.xlsx,PI-ME/CFS,Wais Sym Search,6.0,CSF NE (pg/mL),90.0
+Figure S12K.xlsx,PI-ME/CFS,Wais Sym Search,9.0,CSF NE (pg/mL),227.0
+Figure S12K.xlsx,PI-ME/CFS,Wais Sym Search,16.0,CSF NE (pg/mL),113.0
+Figure S12K.xlsx,PI-ME/CFS,Wais Sym Search,17.0,CSF NE (pg/mL),62.0
+Figure S12K.xlsx,PI-ME/CFS,Wais Sym Search,9.0,CSF NE (pg/mL),95.0
+Figure S12K.xlsx,PI-ME/CFS,Wais Sym Search,15.0,CSF NE (pg/mL),115.0
+Figure S12K.xlsx,PI-ME/CFS,Wais Sym Search,16.0,CSF NE (pg/mL),181.0
+Figure S12K.xlsx,PI-ME/CFS,Wais Sym Search,8.0,CSF NE (pg/mL),61.0
+Figure S12K.xlsx,PI-ME/CFS,Wais Sym Search,10.0,CSF NE (pg/mL),131.0
+Figure S12K.xlsx,PI-ME/CFS,Wais Sym Search,9.0,CSF NE (pg/mL),124.0
+Figure S12L.xlsx,HV,BVMT,75.0,CSF DOPA (pg/mL),976.0
+Figure S12L.xlsx,HV,BVMT,34.0,CSF DOPA (pg/mL),544.0
+Figure S12L.xlsx,HV,BVMT,39.0,CSF DOPA (pg/mL),586.0
+Figure S12L.xlsx,HV,BVMT,58.0,CSF DOPA (pg/mL),766.0
+Figure S12L.xlsx,HV,BVMT,56.0,CSF DOPA (pg/mL),776.0
+Figure S12L.xlsx,HV,BVMT,52.0,CSF DOPA (pg/mL),616.0
+Figure S12L.xlsx,HV,BVMT,45.0,CSF DOPA (pg/mL),687.0
+Figure S12L.xlsx,HV,BVMT,33.0,CSF DOPA (pg/mL),802.0
+Figure S12L.xlsx,HV,BVMT,61.0,CSF DOPA (pg/mL),1338.0
+Figure S12L.xlsx,HV,BVMT,37.0,CSF DOPA (pg/mL),689.0
+Figure S12L.xlsx,HV,BVMT,53.0,CSF DOPA (pg/mL),669.0
+Figure S12L.xlsx,HV,BVMT,51.0,CSF DOPA (pg/mL),1049.0
+Figure S12L.xlsx,HV,BVMT,43.0,CSF DOPA (pg/mL),951.0
+Figure S12L.xlsx,HV,BVMT,63.0,CSF DOPA (pg/mL),840.0
+Figure S12L.xlsx,HV,BVMT,51.0,CSF DOPA (pg/mL),687.0
+Figure S12L.xlsx,HV,BVMT,44.0,CSF DOPA (pg/mL),513.0
+Figure S12L.xlsx,PI-ME/CFS,BVMT,71.0,CSF DOPA (pg/mL),679.0
+Figure S12L.xlsx,PI-ME/CFS,BVMT,53.0,CSF DOPA (pg/mL),316.0
+Figure S12L.xlsx,PI-ME/CFS,BVMT,75.0,CSF DOPA (pg/mL),567.0
+Figure S12L.xlsx,PI-ME/CFS,BVMT,48.0,CSF DOPA (pg/mL),496.0
+Figure S12L.xlsx,PI-ME/CFS,BVMT,46.0,CSF DOPA (pg/mL),518.0
+Figure S12L.xlsx,PI-ME/CFS,BVMT,51.0,CSF DOPA (pg/mL),773.0
+Figure S12L.xlsx,PI-ME/CFS,BVMT,59.0,CSF DOPA (pg/mL),547.0
+Figure S12L.xlsx,PI-ME/CFS,BVMT,58.0,CSF DOPA (pg/mL),553.0
+Figure S12L.xlsx,PI-ME/CFS,BVMT,51.0,CSF DOPA (pg/mL),443.0
+Figure S12L.xlsx,PI-ME/CFS,BVMT,49.0,CSF DOPA (pg/mL),623.0
+Figure S12L.xlsx,PI-ME/CFS,BVMT,74.0,CSF DOPA (pg/mL),570.0
+Figure S12L.xlsx,PI-ME/CFS,BVMT,49.0,CSF DOPA (pg/mL),712.0
+Figure S12L.xlsx,PI-ME/CFS,BVMT,36.0,CSF DOPA (pg/mL),574.0
+Figure S12L.xlsx,PI-ME/CFS,BVMT,39.0,CSF DOPA (pg/mL),779.0
+Figure S12M.xlsx,HV,HVLT,57.0,CSF DOPA (pg/mL),976.0
+Figure S12M.xlsx,HV,HVLT,40.0,CSF DOPA (pg/mL),544.0
+Figure S12M.xlsx,HV,HVLT,50.0,CSF DOPA (pg/mL),586.0
+Figure S12M.xlsx,HV,HVLT,64.0,CSF DOPA (pg/mL),766.0
+Figure S12M.xlsx,HV,HVLT,45.0,CSF DOPA (pg/mL),776.0
+Figure S12M.xlsx,HV,HVLT,50.0,CSF DOPA (pg/mL),616.0
+Figure S12M.xlsx,HV,HVLT,57.0,CSF DOPA (pg/mL),687.0
+Figure S12M.xlsx,HV,HVLT,44.0,CSF DOPA (pg/mL),802.0
+Figure S12M.xlsx,HV,HVLT,61.0,CSF DOPA (pg/mL),1338.0
+Figure S12M.xlsx,HV,HVLT,53.0,CSF DOPA (pg/mL),689.0
+Figure S12M.xlsx,HV,HVLT,43.0,CSF DOPA (pg/mL),669.0
+Figure S12M.xlsx,HV,HVLT,48.0,CSF DOPA (pg/mL),1049.0
+Figure S12M.xlsx,HV,HVLT,57.0,CSF DOPA (pg/mL),951.0
+Figure S12M.xlsx,HV,HVLT,50.0,CSF DOPA (pg/mL),840.0
+Figure S12M.xlsx,HV,HVLT,47.0,CSF DOPA (pg/mL),687.0
+Figure S12M.xlsx,HV,HVLT,47.0,CSF DOPA (pg/mL),513.0
+Figure S12M.xlsx,PI-ME/CFS,HVLT,55.0,CSF DOPA (pg/mL),679.0
+Figure S12M.xlsx,PI-ME/CFS,HVLT,33.0,CSF DOPA (pg/mL),316.0
+Figure S12M.xlsx,PI-ME/CFS,HVLT,48.0,CSF DOPA (pg/mL),567.0
+Figure S12M.xlsx,PI-ME/CFS,HVLT,39.0,CSF DOPA (pg/mL),496.0
+Figure S12M.xlsx,PI-ME/CFS,HVLT,48.0,CSF DOPA (pg/mL),518.0
+Figure S12M.xlsx,PI-ME/CFS,HVLT,54.0,CSF DOPA (pg/mL),773.0
+Figure S12M.xlsx,PI-ME/CFS,HVLT,52.0,CSF DOPA (pg/mL),547.0
+Figure S12M.xlsx,PI-ME/CFS,HVLT,64.0,CSF DOPA (pg/mL),553.0
+Figure S12M.xlsx,PI-ME/CFS,HVLT,35.0,CSF DOPA (pg/mL),443.0
+Figure S12M.xlsx,PI-ME/CFS,HVLT,37.0,CSF DOPA (pg/mL),623.0
+Figure S12M.xlsx,PI-ME/CFS,HVLT,37.0,CSF DOPA (pg/mL),570.0
+Figure S12M.xlsx,PI-ME/CFS,HVLT,61.0,CSF DOPA (pg/mL),712.0
+Figure S12M.xlsx,PI-ME/CFS,HVLT,31.0,CSF DOPA (pg/mL),574.0
+Figure S12M.xlsx,PI-ME/CFS,HVLT,39.0,CSF DOPA (pg/mL),779.0
+Figure S12N.xlsx,HV,WAIS Code,11.0,CSF cys-DA (pg/mL),14.0
+Figure S12N.xlsx,HV,WAIS Code,4.0,CSF cys-DA (pg/mL),0.0
+Figure S12N.xlsx,HV,WAIS Code,12.0,CSF cys-DA (pg/mL),19.0
+Figure S12N.xlsx,HV,WAIS Code,15.0,CSF cys-DA (pg/mL),40.0
+Figure S12N.xlsx,HV,WAIS Code,9.0,CSF cys-DA (pg/mL),21.0
+Figure S12N.xlsx,HV,WAIS Code,18.0,CSF cys-DA (pg/mL),15.0
+Figure S12N.xlsx,HV,WAIS Code,10.0,CSF cys-DA (pg/mL),32.0
+Figure S12N.xlsx,HV,WAIS Code,7.0,CSF cys-DA (pg/mL),15.0
+Figure S12N.xlsx,HV,WAIS Code,14.0,CSF cys-DA (pg/mL),11.0
+Figure S12N.xlsx,HV,WAIS Code,11.0,CSF cys-DA (pg/mL),19.0
+Figure S12N.xlsx,HV,WAIS Code,13.0,CSF cys-DA (pg/mL),33.0
+Figure S12N.xlsx,HV,WAIS Code,11.0,CSF cys-DA (pg/mL),18.0
+Figure S12N.xlsx,HV,WAIS Code,13.0,CSF cys-DA (pg/mL),20.0
+Figure S12N.xlsx,HV,WAIS Code,10.0,CSF cys-DA (pg/mL),15.0
+Figure S12N.xlsx,HV,WAIS Code,19.0,CSF cys-DA (pg/mL),56.0
+Figure S12N.xlsx,PI-ME/CFS,WAIS Code,15.0,CSF cys-DA (pg/mL),0.0
+Figure S12N.xlsx,PI-ME/CFS,WAIS Code,14.0,CSF cys-DA (pg/mL),17.0
+Figure S12N.xlsx,PI-ME/CFS,WAIS Code,9.0,CSF cys-DA (pg/mL),18.0
+Figure S12N.xlsx,PI-ME/CFS,WAIS Code,10.0,CSF cys-DA (pg/mL),20.0
+Figure S12N.xlsx,PI-ME/CFS,WAIS Code,8.0,CSF cys-DA (pg/mL),0.0
+Figure S12N.xlsx,PI-ME/CFS,WAIS Code,10.0,CSF cys-DA (pg/mL),22.0
+Figure S12N.xlsx,PI-ME/CFS,WAIS Code,14.0,CSF cys-DA (pg/mL),45.0
+Figure S12N.xlsx,PI-ME/CFS,WAIS Code,16.0,CSF cys-DA (pg/mL),23.0
+Figure S12N.xlsx,PI-ME/CFS,WAIS Code,11.0,CSF cys-DA (pg/mL),15.0
+Figure S12N.xlsx,PI-ME/CFS,WAIS Code,14.0,CSF cys-DA (pg/mL),24.0
+Figure S12N.xlsx,PI-ME/CFS,WAIS Code,8.0,CSF cys-DA (pg/mL),18.0
+Figure S12N.xlsx,PI-ME/CFS,WAIS Code,6.0,CSF cys-DA (pg/mL),31.0
+Figure S12N.xlsx,PI-ME/CFS,WAIS Code,6.0,CSF cys-DA (pg/mL),15.0
+Figure S12O.xlsx,HV,WAIS Code,11.0,CSF DOPAC (pg/mL),626.0
+Figure S12O.xlsx,HV,WAIS Code,4.0,CSF DOPAC (pg/mL),184.0
+Figure S12O.xlsx,HV,WAIS Code,12.0,CSF DOPAC (pg/mL),254.0
+Figure S12O.xlsx,HV,WAIS Code,15.0,CSF DOPAC (pg/mL),249.0
+Figure S12O.xlsx,HV,WAIS Code,9.0,CSF DOPAC (pg/mL),530.0
+Figure S12O.xlsx,HV,WAIS Code,18.0,CSF DOPAC (pg/mL),487.0
+Figure S12O.xlsx,HV,WAIS Code,10.0,CSF DOPAC (pg/mL),366.0
+Figure S12O.xlsx,HV,WAIS Code,7.0,CSF DOPAC (pg/mL),368.0
+Figure S12O.xlsx,HV,WAIS Code,14.0,CSF DOPAC (pg/mL),174.0
+Figure S12O.xlsx,HV,WAIS Code,11.0,CSF DOPAC (pg/mL),419.0
+Figure S12O.xlsx,HV,WAIS Code,13.0,CSF DOPAC (pg/mL),362.0
+Figure S12O.xlsx,HV,WAIS Code,11.0,CSF DOPAC (pg/mL),428.0
+Figure S12O.xlsx,HV,WAIS Code,13.0,CSF DOPAC (pg/mL),423.0
+Figure S12O.xlsx,HV,WAIS Code,10.0,CSF DOPAC (pg/mL),394.0
+Figure S12O.xlsx,HV,WAIS Code,19.0,CSF DOPAC (pg/mL),136.0
+Figure S12O.xlsx,PI-ME/CFS,WAIS Code,15.0,CSF DOPAC (pg/mL),292.0
+Figure S12O.xlsx,PI-ME/CFS,WAIS Code,14.0,CSF DOPAC (pg/mL),128.0
+Figure S12O.xlsx,PI-ME/CFS,WAIS Code,9.0,CSF DOPAC (pg/mL),296.0
+Figure S12O.xlsx,PI-ME/CFS,WAIS Code,10.0,CSF DOPAC (pg/mL),336.0
+Figure S12O.xlsx,PI-ME/CFS,WAIS Code,8.0,CSF DOPAC (pg/mL),214.0
+Figure S12O.xlsx,PI-ME/CFS,WAIS Code,10.0,CSF DOPAC (pg/mL),587.0
+Figure S12O.xlsx,PI-ME/CFS,WAIS Code,14.0,CSF DOPAC (pg/mL),325.0
+Figure S12O.xlsx,PI-ME/CFS,WAIS Code,16.0,CSF DOPAC (pg/mL),197.0
+Figure S12O.xlsx,PI-ME/CFS,WAIS Code,7.0,CSF DOPAC (pg/mL),200.0
+Figure S12O.xlsx,PI-ME/CFS,WAIS Code,11.0,CSF DOPAC (pg/mL),126.0
+Figure S12O.xlsx,PI-ME/CFS,WAIS Code,14.0,CSF DOPAC (pg/mL),330.0
+Figure S12O.xlsx,PI-ME/CFS,WAIS Code,8.0,CSF DOPAC (pg/mL),306.0
+Figure S12O.xlsx,PI-ME/CFS,WAIS Code,6.0,CSF DOPAC (pg/mL),198.0
+Figure S12O.xlsx,PI-ME/CFS,WAIS Code,6.0,CSF DOPAC (pg/mL),232.0
+Figure S6B.xlsx,HV,Max Grip Force,16.5,Proportion Hard Trials (%),45.45454545
+Figure S6B.xlsx,HV,Max Grip Force,32.5,Proportion Hard Trials (%),26.0
+Figure S6B.xlsx,HV,Max Grip Force,49.5,Proportion Hard Trials (%),29.16666667
+Figure S6B.xlsx,HV,Max Grip Force,33.25,Proportion Hard Trials (%),38.29787234
+Figure S6B.xlsx,HV,Max Grip Force,44.0,Proportion Hard Trials (%),40.81632653
+Figure S6B.xlsx,HV,Max Grip Force,44.0,Proportion Hard Trials (%),77.14285714
+Figure S6B.xlsx,HV,Max Grip Force,26.0,Proportion Hard Trials (%),35.41666667
+Figure S6B.xlsx,HV,Max Grip Force,60.0,Proportion Hard Trials (%),36.95652174
+Figure S6B.xlsx,HV,Max Grip Force,43.0,Proportion Hard Trials (%),60.46511628
+Figure S6B.xlsx,HV,Max Grip Force,31.0,Proportion Hard Trials (%),40.81632653
+Figure S6B.xlsx,HV,Max Grip Force,32.5,Proportion Hard Trials (%),43.47826087
+Figure S6B.xlsx,HV,Max Grip Force,22.5,Proportion Hard Trials (%),25.49019608
+Figure S6B.xlsx,HV,Max Grip Force,48.05,Proportion Hard Trials (%),45.45454545
+Figure S6B.xlsx,HV,Max Grip Force,48.0,Proportion Hard Trials (%),71.05263158
+Figure S6B.xlsx,HV,Max Grip Force,49.5,Proportion Hard Trials (%),38.7755102
+Figure S6B.xlsx,PI-ME/CFS,Max Grip Force,51.5,Proportion Hard Trials (%),31.91489362
+Figure S6B.xlsx,PI-ME/CFS,Max Grip Force,31.5,Proportion Hard Trials (%),16.98113208
+Figure S6B.xlsx,PI-ME/CFS,Max Grip Force,40.25,Proportion Hard Trials (%),43.47826087
+Figure S6B.xlsx,PI-ME/CFS,Max Grip Force,20.0,Proportion Hard Trials (%),52.5
+Figure S6B.xlsx,PI-ME/CFS,Max Grip Force,31.5,Proportion Hard Trials (%),48.88888889
+Figure S6B.xlsx,PI-ME/CFS,Max Grip Force,34.0,Proportion Hard Trials (%),43.18181818
+Figure S6B.xlsx,PI-ME/CFS,Max Grip Force,48.75,Proportion Hard Trials (%),26.53061224
+Figure S6B.xlsx,PI-ME/CFS,Max Grip Force,26.5,Proportion Hard Trials (%),41.86046512
+Figure S6B.xlsx,PI-ME/CFS,Max Grip Force,24.0,Proportion Hard Trials (%),23.63636364
+Figure S6B.xlsx,PI-ME/CFS,Max Grip Force,26.5,Proportion Hard Trials (%),34.0
+Figure S6B.xlsx,PI-ME/CFS,Max Grip Force,53.5,Proportion Hard Trials (%),47.82608696
+Figure S6B.xlsx,PI-ME/CFS,Max Grip Force,22.0,Proportion Hard Trials (%),24.0
+Figure S6B.xlsx,PI-ME/CFS,Max Grip Force,57.0,Proportion Hard Trials (%),36.17021277
+Figure S6B.xlsx,PI-ME/CFS,Max Grip Force,28.0,Proportion Hard Trials (%),31.91489362
+Figure S6B.xlsx,PI-ME/CFS,Max Grip Force,42.5,Proportion Hard Trials (%),35.55555556
+Figure S8B.xlsx,HV,Peak Power,156.0,Proportion Hard Trials (%),38.29787234
+Figure S8B.xlsx,HV,Peak Power,209.0,Proportion Hard Trials (%),36.17021277
+Figure S8B.xlsx,HV,Peak Power,214.0,Proportion Hard Trials (%),40.81632653
+Figure S8B.xlsx,HV,Peak Power,284.0,Proportion Hard Trials (%),77.14285714
+Figure S8B.xlsx,HV,Peak Power,170.0,Proportion Hard Trials (%),43.47826087
+Figure S8B.xlsx,HV,Peak Power,269.0,Proportion Hard Trials (%),45.45454545
+Figure S8B.xlsx,HV,Peak Power,259.0,Proportion Hard Trials (%),71.05263158
+Figure S8B.xlsx,PI-ME/CFS,Peak Power,84.0,Proportion Hard Trials (%),31.91489362
+Figure S8B.xlsx,PI-ME/CFS,Peak Power,186.0,Proportion Hard Trials (%),43.47826087
+Figure S8B.xlsx,PI-ME/CFS,Peak Power,95.0,Proportion Hard Trials (%),52.5
+Figure S8B.xlsx,PI-ME/CFS,Peak Power,101.0,Proportion Hard Trials (%),48.88888889
+Figure S8B.xlsx,PI-ME/CFS,Peak Power,96.0,Proportion Hard Trials (%),43.18181818
+Figure S8B.xlsx,PI-ME/CFS,Peak Power,328.0,Proportion Hard Trials (%),47.82608696
+Figure S8B.xlsx,PI-ME/CFS,Peak Power,117.0,Proportion Hard Trials (%),24.0
+Figure S8B.xlsx,PI-ME/CFS,Peak Power,259.0,Proportion Hard Trials (%),36.17021277

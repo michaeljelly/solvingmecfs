@@ -1,0 +1,660 @@
+concept,pmid,direction,n_up,n_down,n_null,year,first,last,n_pat,n_ctl,ctrl_design,category,title
+2-day CPET workload decline,20937116,down,0,1,0,2010,Vermeulen,Scholte,15.0,15.0,True,exercise,Patients with chronic fatigue syndrome performed worse than controls in a controlled repeated exercise study despite a normal oxidative phosphorylatio
+2-day CPET workload decline,32629923,down,0,1,0,2020,van Campen,Visser,82.0,,True,exercise,Two-Day Cardiopulmonary Exercise Testing in Females with a Severe Grade of Myalgic Encephalomyelitis/Chronic Fatigue Syndrome: Comparison with Patient
+2-day CPET workload decline,33874961,down,0,1,0,2021,Jäkel,Freitag,105.0,66.0,True,exercise,Hand grip strength and fatigability: correlation with clinical parameters and diagnostic suitability in ME/CFS.
+2-day CPET workload decline,42212259,up,1,0,0,2026,Mancini,Natelson,58.0,,True,exercise,Cardiopulmonary exercise test results do not change over two sequential days in patients with chronic fatigue syndrome.
+ACTH,10356627,down,0,1,0,1999,Scott,Dinan,,,True,endocrine,Desmopressin augments pituitary-adrenal responsivity to corticotropin-releasing hormone in subjects with chronic fatigue syndrome and in healthy volun
+ACTH,10931086,null,0,0,1,2000,Moorkens,Abs,73.0,,True,endocrine,Characterization of pituitary function with emphasis on GH secretion in the chronic fatigue syndrome.
+ACTH,11104854,down,0,1,1,2000,Scott,Dinan,10.0,10.0,True,endocrine,A preliminary study of dehydroepiandrosterone response to low-dose ACTH in chronic fatigue syndrome and in healthy subjects.
+ACTH,11150897,down,0,1,0,2001,Ottenweller,Natelson,,,True,endocrine,Hormonal responses to exercise in chronic fatigue syndrome.
+ACTH,12618533,down,0,2,0,2003,Gaab,Ehlert,18.0,,True,endocrine,Assessment of cortisol response with low-dose and high-dose ACTH in patients with chronic fatigue syndrome and healthy comparison subjects.
+ACTH,12622884,down,0,1,0,2001,Racciatti,Sensi,36.0,,True,endocrine,Chronic fatigue syndrome: circadian rhythm and hypothalamic-pituitary-adrenal (HPA) axis impairment.
+ACTH,15813608,down,0,1,0,2005,Segal,Viner,23.0,,True,endocrine,Disturbed adrenal function in adolescents with chronic fatigue syndrome.
+ACTH,1659582,mixed,1,1,0,1991,Demitrack,Gold,,,True,endocrine,Evidence for impaired activation of the hypothalamic-pituitary-adrenal axis in patients with chronic fatigue syndrome.
+ACTH,24656688,down,0,1,0,2014,Zeller,Bruun Wyller,87.0,,True,endocrine,"Chronic fatigue in adult survivors of childhood cancer: associated symptoms, neuroendocrine markers, and autonomic cardiovascular responses."
+ACTH,34254637,down,0,1,0,2021,De Bellis,Montoya,13.0,,True,endocrine,Hypothalamic-Pituitary Autoimmunity and Related Impairment of Hormone Secretions in Chronic Fatigue Syndrome.
+ACTH,9572086,down,0,1,0,1998,Scott,Dinan,,,True,endocrine,Naloxone-mediated activation of the hypothalamic-pituitary-adrenal axis in chronic fatigue syndrome.
+ATP / mitochondrial respiration,1446478,down,0,1,0,1992,Wong,Montague,22.0,,True,mito,Skeletal muscle metabolism in the chronic fatigue syndrome. In vivo assessment by 31P nuclear magnetic resonance spectroscopy.
+ATP / mitochondrial respiration,20937116,down,0,1,1,2010,Vermeulen,Scholte,15.0,15.0,True,mito,Patients with chronic fatigue syndrome performed worse than controls in a controlled repeated exercise study despite a normal oxidative phosphorylatio
+ATP / mitochondrial respiration,27747291,mixed,1,1,0,2016,Lawson,Wang,,,True,mito,Elevated Energy Production in Chronic Fatigue Syndrome Patients.
+ATP / mitochondrial respiration,29654166,down,0,1,0,2018,Brown,Walker,,,True,mito,Pharmacological activation of AMPK and glucose uptake in cultured human skeletal muscle cells from patients with ME/CFS.
+ATP / mitochondrial respiration,32275686,down,0,1,0,2020,Tomas,Walker,,,True,mito,The effect of myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS) severity on cellular bioenergetic function.
+ATP / mitochondrial respiration,38412735,mixed,1,1,0,2024,Hochecker,Bergemann,,,True,mito,Heat treatment in health and disease: How water-filtered infrared-A (wIRA) irradiation affects key cellular mechanisms in myalgic encephalomyelitis/ch
+ATP / mitochondrial respiration,40508148,up,1,0,0,2025,Hochecker,Bergemann,,,True,mito,Heat vs. Fatigue: Hyperthermia as a Possible Treatment Option for Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS).
+ATP / mitochondrial respiration,41632778,null,0,0,1,2026,Ryback,Dalton,67.0,53.0,True,mito,Indistinguishable mitochondrial phenotypes after exposure of healthy myoblasts to myalgic encephalomyelitis/chronic fatigue syndrome or control serum.
+ATP / mitochondrial respiration,9631403,down,0,1,0,1998,Lane,Lodi,,,True,mito,Heterogeneity in chronic fatigue syndrome: evidence from magnetic resonance spectroscopy of muscle.
+Aldosterone,17851136,down,0,1,0,2007,Boneva,Reeves,42.0,38.0,True,endocrine,Higher heart rate and reduced heart rate variability persist during sleep in chronic fatigue syndrome: a population-based study.
+Amino acids (other),10931086,up,1,0,1,2000,Moorkens,Abs,73.0,,True,metabolic,Characterization of pituitary function with emphasis on GH secretion in the chronic fatigue syndrome.
+Amino acids (other),10990147,down,0,1,1,1998,Berwaerts,Abs,13.0,,True,metabolic,Secretion of growth hormone in patients with chronic fatigue syndrome.
+Amino acids (other),17159817,up,1,0,0,2006,Maes,Leunis,14.0,11.0,True,metabolic,Chronic fatigue syndrome is accompanied by an IgM-related immune response directed against neopitopes formed by oxidative or nitrosative damage to lip
+Amino acids (other),22614823,up,1,0,0,2012,Maes,Geffard,26.0,17.0,True,metabolic,IgM-mediated autoimmune responses directed against anchorage epitopes are greater in Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS) than 
+Amino acids (other),28018972,up,1,0,0,2016,Fluge,Tronstad,102.0,102.0,True,metabolic,Metabolic profiling indicates impaired pyruvate dehydrogenase function in myalgic encephalopathy/chronic fatigue syndrome.
+Amino acids (other),30207334,up,1,0,0,2019,Xu,Huang,,,True,metabolic,A new approach to find biomarkers in chronic fatigue syndrome/myalgic encephalomyelitis (CFS/ME) by single-cell Raman micro-spectroscopy.
+Amino acids (other),38144169,down,0,1,0,2023,Taenzer,Kurz,20.0,,True,metabolic,Urine Metabolite Analysis to Identify Pathomechanisms of Long COVID: A Pilot Study.
+Amino acids (other),38259473,up,1,0,0,2023,Armstrong,Cambridge,,,True,metabolic,"In vitro B cell experiments explore the role of CD24, CD38, and energy metabolism in ME/CFS."
+Amino acids (other),38588934,up,2,0,0,2025,Thapaliya,Barnden,17.0,10.0,True,metabolic,Imbalanced Brain Neurochemicals in Long COVID and ME/CFS: A Preliminary Study Using MRI.
+Amino acids (other),39302151,down,0,1,0,2024,Abujrais,Bergquist,24.0,,True,metabolic,Untargeted Metabolomics and Quantitative Analysis of Tryptophan Metabolites in Myalgic Encephalomyelitis Patients and Healthy Volunteers: A Comparativ
+Amino acids (other),8475696,down,0,1,0,1993,Bakheit,Morton,,,True,metabolic,Abnormal arginine-vasopressin secretion and water metabolism in patients with postviral fatigue syndrome.
+Arterial stiffness,15805343,down,0,1,0,2005,van de Putte,Engelbert,167.0,167.0,True,vascular,Is chronic fatigue syndrome a connective tissue disorder? A cross-sectional study in adolescents.
+Arterial stiffness,18031285,up,1,0,0,2008,Spence,Khan,30.0,30.0,True,vascular,Low-grade inflammation and arterial wave reflection in patients with chronic fatigue syndrome.
+Arterial stiffness,20819963,null,0,0,1,2010,Kennedy,Belch,,,True,vascular,Biochemical and vascular aspects of pediatric chronic fatigue syndrome.
+B cells (CD19/CD20),15175170,up,1,0,0,2004,Vojdani,Thrasher,,100.0,True,immune,Cellular and humoral immune abnormalities in Gulf War veterans.
+B cells (CD19/CD20),23480187,up,1,0,0,2013,Bradley,Bansal,33.0,,True,immune,Altered functional B cell subset populations in patients with chronic fatigue syndrome compared to healthy controls.
+B cells (CD19/CD20),26646713,up,1,0,0,2016,Mensah,Cambridge,38.0,,True,immune,Extended B cell phenotype in patients with myalgic encephalomyelitis/chronic fatigue syndrome: a cross-sectional study.
+B cells (CD19/CD20),26707044,mixed,1,1,0,2015,Maes,Kubera,139.0,40.0,True,immune,Increased expression of activation antigens on CD8+ T lymphocytes in Myalgic Encephalomyelitis/chronic fatigue syndrome: inverse associations with low
+B cells (CD19/CD20),27245705,down,0,1,0,2016,Nguyen,Marshall-Gradisnik,,,True,immune,Novel identification and characterisation of Transient receptor potential melastatin 3 ion channels on Natural Killer cells and B lymphocytes: effects
+B cells (CD19/CD20),30405620,up,1,0,0,2018,Mensah,Cambridge,,,True,immune,CD24 Expression and B Cell Maturation Shows a Novel Link With Energy Metabolism: Potential Implications for Patients With Myalgic Encephalomyelitis/Ch
+B cells (CD19/CD20),38259473,down,0,1,0,2023,Armstrong,Cambridge,,,True,immune,"In vitro B cell experiments explore the role of CD24, CD38, and energy metabolism in ME/CFS."
+B cells (CD19/CD20),39416767,down,0,1,0,2024,Ercoli,Brown,,,True,immune,Naturally acquired adaptive immunity to Streptococcus pneumoniae is impaired in rheumatoid arthritis patients.
+B cells (CD19/CD20),42131622,up,1,0,0,2026,Ikeda,Bonilla,125.0,,True,immune,Plasma Extracellular Vesicle Surface Marker Profiling Reveals Immune Cell-Associated Mitochondrial Membrane Potential Alterations in Long COVID and My
+B cells (CD19/CD20),7997849,up,1,0,0,1994,Tirelli,Pinto,185.0,,True,immune,Immunological abnormalities in patients with chronic fatigue syndrome.
+Beta2-adrenergic / GPCR autoantibodies,19647494,down,0,1,0,2009,Light,Light,19.0,,True,autoantibody,"Moderate exercise increases expression for sensory, adrenergic, and immune genes in chronic fatigue syndrome patients but not in normal subjects."
+Beta2-adrenergic / GPCR autoantibodies,40141440,null,0,0,1,2025,Germain,Hanson,172.0,,True,autoantibody,An In-Depth Exploration of the Autoantibody Immune Profile in ME/CFS Using Novel Antigen Profiling Techniques.
+Beta2-adrenergic / GPCR autoantibodies,42082542,up,1,0,0,2026,Azcue,Gómez-Esteban,96.0,36.0,True,autoantibody,Involvement of autoantibodies against G protein-coupled receptors in post-COVID condition and Chronic Fatigue Syndrome.
+Brain volume / grey matter,18587150,down,0,1,0,2008,de Lange,Toni,22.0,,True,brain,Increase in prefrontal cortical volume following cognitive behavioural therapy in patients with chronic fatigue syndrome.
+Brain volume / grey matter,25353054,up,1,0,0,2015,Zeineh,Montoya,68.0,,True,brain,Right arcuate fasciculus abnormality in chronic fatigue syndrome.
+Brain volume / grey matter,40567574,down,0,1,0,2022,Putra,Watanabe,63.0,,True,brain,Regional gray matter volume correlates to physical and mental fatigue in healthy middle-aged adults.
+Brainstem,24665088,up,1,0,0,2014,Nakatomi,Watanabe,,10.0,True,brain,Neuroinflammation in Patients with Chronic Fatigue Syndrome/Myalgic Encephalomyelitis: An ¹¹C-(R)-PK11195 PET Study.
+Brainstem,31671321,down,0,1,0,2019,Barnden,Bhuta,,27.0,True,brain,Intra brainstem connectivity is impaired in chronic fatigue syndrome.
+Brainstem,34355438,up,1,0,0,2021,Thapaliya,Barnden,,,True,brain,Diffusion tensor imaging reveals neuronal microstructural changes in myalgic encephalomyelitis/chronic fatigue syndrome.
+Brainstem,39202651,up,1,0,0,2024,Kaur,Song,,,True,brain,A Multimodal Magnetic Resonance Imaging Study on Myalgic Encephalomyelitis/Chronic Fatigue Syndrome: Feasibility and Clinical Correlation.
+Brainstem,41559785,up,1,0,0,2026,Inderyas,Barnden,32.0,27.0,True,brain,Distinct functional connectivity patterns in myalgic encephalomyelitis and long COVID patients during cognitive fatigue: a 7 Tesla task-fMRI study.
+Brainstem,9790483,down,0,1,0,1998,Tirelli,Ferlin,18.0,,True,brain,Brain positron emission tomography (PET) in chronic fatigue syndrome: preliminary data.
+CD4 T cells,8095270,down,0,1,0,1993,Straus,Strober,18.0,,True,immune,Lymphocyte phenotype and function in the chronic fatigue syndrome.
+CD4 T cells,9000046,null,0,0,1,1997,Peakman,Wessely,43.0,,True,immune,Clinical improvement in chronic fatigue syndrome is not associated with lymphocyte subsets of function or activation.
+CD4 T cells,9466535,down,0,2,0,1998,Visser,Nagelkerken,4.0,,True,immune,CD4 T lymphocytes from patients with chronic fatigue syndrome have decreased interferon-gamma production and increased sensitivity to dexamethasone.
+CD56bright NK cells,22571715,down,0,1,0,2012,Brenu,Marshall-Gradisnik,12.0,,True,immune,Longitudinal investigation of natural killer cells and cytokines in chronic fatigue syndrome/myalgic encephalomyelitis.
+CD56bright NK cells,27727448,mixed,1,1,0,2017,Nguyen,Marshall-Gradisnik,,25.0,True,immune,Impaired calcium mobilization in natural killer cells from chronic fatigue syndrome/myalgic encephalomyelitis patients is associated with transient re
+CD8 T cells,1309285,up,1,0,0,1992,Buchwald,Komaroff,259.0,8.0,True,immune,"A chronic illness characterized by fatigue, neurologic and immunologic disorders, and active human herpesvirus type 6 infection."
+CD8 T cells,26707044,up,1,0,0,2015,Maes,Kubera,139.0,40.0,True,immune,Increased expression of activation antigens on CD8+ T lymphocytes in Myalgic Encephalomyelitis/chronic fatigue syndrome: inverse associations with low
+CD8 T cells,26881265,down,0,1,0,2016,Brenu,Marshall-Gradisnik,11.0,30.0,True,immune,A Preliminary Comparative Assessment of the Role of CD8+ T Cells in Chronic Fatigue Syndrome/Myalgic Encephalomyelitis and Multiple Sclerosis.
+CD8 T cells,31830003,down,0,1,0,2020,Mandarano,Hanson,53.0,45.0,True,immune,Myalgic encephalomyelitis/chronic fatigue syndrome patients exhibit altered T cell metabolism and cytokine associations.
+CD8 T cells,38327880,down,0,1,0,2024,Gil,Selin,12.0,,True,immune,Identification of CD8 T-cell dysfunction associated with symptoms in myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS) and Long COVID and tr
+CD8 T cells,41463013,down,0,1,0,2025,Petrov,Maes,190.0,70.0,True,immune,Comparable Immune Alterations and Inflammatory Signatures in ME/CFS and Long COVID.
+CD8 T cells,8148441,down,0,1,0,1994,Barker,Levy,,,True,immune,Immunologic abnormalities associated with chronic fatigue syndrome.
+CD8 T cells,9000046,null,0,0,1,1997,Peakman,Wessely,43.0,,True,immune,Clinical improvement in chronic fatigue syndrome is not associated with lymphocyte subsets of function or activation.
+CRP,18031285,up,1,0,0,2008,Spence,Khan,30.0,30.0,True,inflammation,Low-grade inflammation and arterial wave reflection in patients with chronic fatigue syndrome.
+CRP,19111923,up,2,0,0,2009,Raison,Reeves,102.0,,True,inflammation,Association of peripheral inflammatory markers with chronic fatigue in a population-based sample.
+CRP,23842110,up,1,0,0,2013,Groeger,Quigley,,,True,inflammation,Bifidobacterium infantis 35624 modulates host inflammatory processes beyond the gut.
+CRP,24493300,mixed,1,1,0,2014,Sulheim,Wyller,176.0,,True,inflammation,Disease mechanisms and clonidine treatment in adolescent chronic fatigue syndrome: a combined cross-sectional and randomized clinical trial.
+CRP,31176728,up,3,0,0,2019,Groven,Reitan,57.0,54.0,True,inflammation,Patients with Fibromyalgia and Chronic Fatigue Syndrome show increased hsCRP compared to healthy controls.
+CRP,38007104,up,1,0,0,2024,Al-Hakeim,Maes,70.0,46.0,True,inflammation,Neuronal damage and inflammatory biomarkers are associated with the affective and chronic fatigue-like symptoms due to end-stage renal disease.
+CRP,9034999,up,1,0,0,1997,Buchwald,Kith,153.0,,True,inflammation,Markers of inflammation and immune activation in chronic fatigue and chronic fatigue syndrome.
+Cardiac size/LV mass/volumes,17398200,down,0,1,0,2007,Wyller,Thaulow,33.0,,True,orthostatic,Usefulness of an abnormal cardiovascular response during low-grade head-up tilt-test for discriminating adolescents with chronic fatigue from healthy 
+Cardiac size/LV mass/volumes,18636530,up,1,0,0,2008,Miwa,Fujita,56.0,,True,orthostatic,Small heart syndrome in patients with chronic fatigue syndrome.
+Cardiac size/LV mass/volumes,19469714,down,0,1,0,2009,Hurwitz,Bilsker,146.0,,True,orthostatic,"Chronic fatigue syndrome: illness severity, sedentary lifestyle, blood volume and evidence of diminished cardiac function."
+Cardiac size/LV mass/volumes,19632517,up,1,0,0,2009,Miwa,Fujita,42.0,,True,orthostatic,"Cardiac function fluctuates during exacerbation and remission in young adults with chronic fatigue syndrome and ""small heart""."
+Cardiac size/LV mass/volumes,21793948,down,0,2,0,2012,Hollingsworth,Newton,12.0,10.0,True,orthostatic,Impaired cardiac function in chronic fatigue syndrome measured using magnetic resonance cardiac tagging.
+Cardiac size/LV mass/volumes,22120591,down,0,1,0,2011,Miwa,Fujita,11.0,,True,orthostatic,Small heart with low cardiac output for orthostatic intolerance in patients with chronic fatigue syndrome.
+Cardiac size/LV mass/volumes,24736946,down,0,1,0,2015,Miwa,Miwa,40.0,,True,orthostatic,Cardiac dysfunction and orthostatic intolerance in patients with myalgic encephalomyelitis and a small left ventricle.
+Carnitine/acylcarnitines,10862998,null,0,0,1,2000,Soetekouw,van der Meer,25.0,25.0,True,metabolic,Normal carnitine levels in patients with chronic fatigue syndrome.
+Carnitine/acylcarnitines,14970749,down,0,1,0,2004,Pendergast,Vladutiu,,,True,metabolic,The distribution of white blood cell fat oxidation in health and disease.
+Carnitine/acylcarnitines,15967423,null,0,0,1,2005,Jones,Chalmers,31.0,31.0,True,metabolic,Plasma and urinary carnitine and acylcarnitines in chronic fatigue syndrome.
+Carnitine/acylcarnitines,21205027,down,0,1,0,2011,Reuter,Evans,,,True,metabolic,Long-chain acylcarnitine deficiency in patients with chronic fatigue syndrome. Potential involvement of altered carnitine palmitoyltransferase-I activ
+Carnitine/acylcarnitines,24283722,down,0,1,1,1995,Majeed,Behan,,,True,metabolic,Abnormalities of carnitine metabolism in chronic fatigue syndrome.
+Carnitine/acylcarnitines,33440400,up,1,0,0,2021,Baraniuk,Cheema,,,True,metabolic,Exercise modifies glutamate and other metabolic biomarkers in cerebrospinal fluid from Gulf War Illness and Myalgic encephalomyelitis / Chronic Fatigu
+Cerebral blood flow (incl. on tilt),21167506,down,0,1,0,2011,Biswal,Natelson,11.0,10.0,True,orthostatic,Cerebral blood flow is reduced in chronic fatigue syndrome as assessed by arterial spin labeling.
+Cerebral blood flow (incl. on tilt),22180650,down,0,1,0,2012,Stewart,Ocon,,,True,orthostatic,Postural neurocognitive and neuronal activated cerebral blood flow deficits in young chronic fatigue syndrome patients with postural tachycardia syndr
+Cerebral blood flow (incl. on tilt),28320179,up,1,0,0,2017,Natelson,Shungu,26.0,,True,orthostatic,Multimodal and simultaneous assessments of brain and spinal fluid abnormalities in chronic fatigue syndrome and the effects of psychiatric comorbidity
+Cerebral blood flow (incl. on tilt),30416112,down,0,1,0,2018,Watanabe,Watanabe,,,True,orthostatic,[Brain Science on Myalgic Encephalomyelitis/Chronic Fatigue Syndrome].
+Cerebral blood flow (incl. on tilt),32140630,down,0,2,0,2020,van Campen,Visser,,44.0,True,orthostatic,"Cerebral blood flow is reduced in ME/CFS during head-up tilt testing even in the absence of hypotension or tachycardia: A quantitative, controlled stu"
+Cerebral blood flow (incl. on tilt),33050553,down,0,2,2,2020,Campen,Visser,90.0,15.0,True,orthostatic,Reductions in Cerebral Blood Flow Can Be Provoked by Sitting in Severe Myalgic Encephalomyelitis/Chronic Fatigue Syndrome Patients.
+Cerebral blood flow (incl. on tilt),33947430,null,0,0,1,2021,van Campen,Visser,,22.0,True,orthostatic,Deconditioning does not explain orthostatic intolerance in ME/CFS (myalgic encephalomyelitis/chronic fatigue syndrome).
+Cerebral blood flow (incl. on tilt),34975370,up,1,0,0,2021,Rayhan,Baraniuk,24.0,,True,orthostatic,Submaximal Exercise Provokes Increased Activation of the Anterior Default Mode Network During the Resting State as a Biomarker of Postexertional Malai
+Cerebral blood flow (incl. on tilt),35056336,down,0,3,0,2021,Campen,Visser,19.0,,True,orthostatic,Orthostatic Symptoms and Reductions in Cerebral Blood Flow in Long-Haul COVID-19 Patients: Similarities with Myalgic Encephalomyelitis/Chronic Fatigue
+Cerebral blood flow (incl. on tilt),35056406,down,0,2,0,2022,van Campen,Visser,,,True,orthostatic,Psychogenic Pseudosyncope: Real or Imaginary? Results from a Case-Control Study in Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS) Patient
+Cerebral blood flow (incl. on tilt),37688420,down,0,1,0,2023,van Campen,Visser,,,True,orthostatic,Influence of end-tidal CO2 on cerebral blood flow during orthostatic stress in controls and adults with myalgic encephalomyelitis/chronic fatigue synd
+Cerebral blood flow (incl. on tilt),39765993,down,0,3,0,2024,van Campen,Visser,,,True,orthostatic,The Cardiac Output-Cerebral Blood Flow Relationship Is Abnormal in Most Myalgic Encephalomyelitis/Chronic Fatigue Syndrome Patients with a Normal Hear
+Cerebral blood flow (incl. on tilt),7496949,null,0,0,1,1994,Peterson,Chao,10.0,,True,orthostatic,Effects of mild exercise on cytokines and cerebral blood flow in chronic fatigue syndrome patients.
+Cerebrospinal fluid proteins/markers,29308330,null,0,0,1,2017,Natelson,Shungu,,,True,brain,Elevations of Ventricular Lactate Levels Occur in Both Chronic Fatigue Syndrome and Fibromyalgia.
+Cerebrospinal fluid proteins/markers,29628071,down,0,1,0,2018,van der Schaaf,Toni,85.0,,True,brain,Fatigue Is Associated With Altered Monitoring and Preparation of Physical Effort in Patients With Chronic Fatigue Syndrome.
+Cerebrospinal fluid proteins/markers,34341436,mixed,1,1,0,2021,Drakos,Yilmaz,22.0,19.0,True,brain,A cardiovascular magnetic resonance imaging-based pilot study to assess coronary microvascular disease in COVID-19 patients.
+CoQ10,20010493,down,0,1,0,2009,Maes,Bosmans,10.0,,True,mito,Lower plasma Coenzyme Q10 in depression: a marker for treatment resistance and chronic fatigue in depression and a risk factor to cardiovascular disor
+CoQ10,20010505,down,0,1,0,2009,Maes,Bosmans,58.0,22.0,True,mito,"Coenzyme Q10 deficiency in myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS) is related to fatigue, autonomic and neurocognitive symptoms an"
+CoQ10,23600892,down,0,1,0,2013,Castro-Marrero,Alegre-Martin,23.0,15.0,True,mito,Could mitochondrial dysfunction be a differentiating marker between chronic fatigue syndrome and fibromyalgia?
+Cognitive reaction time,14751012,down,0,1,0,2004,Deluca,Natelson,,,True,cognition,Working memory deficits in chronic fatigue syndrome: differentiating between speed and accuracy of information processing.
+Cognitive reaction time,23527651,down,0,1,0,2013,Cockshell,Mathias,50.0,50.0,True,cognition,"Cognitive deficits in chronic fatigue syndrome and their relationship to psychological status, symptomatology, and everyday functioning."
+Cognitive reaction time,24203542,down,0,1,0,2013,Ickmans,Pattyn,31.0,,True,cognition,"Association between cognitive performance, physical fitness, and physical activity level in women with chronic fatigue syndrome."
+Cognitive reaction time,31102168,up,1,0,0,2020,Josev,Knight,48.0,23.0,True,cognition,"Resting-state functional connectivity, cognition, and fatigue in response to cognitive exertion: a novel study in adolescents with chronic fatigue syn"
+Cognitive reaction time,33114704,down,0,1,0,2020,Kujawski,Zalewski,,,True,cognition,Prediction of Discontinuation of Structured Exercise Programme in Chronic Fatigue Syndrome Patients.
+Cognitive reaction time,37331007,up,1,0,0,2023,Josev,Knight,,23.0,True,cognition,What lies beneath: White matter microstructure in pediatric myalgic encephalomyelitis/chronic fatigue syndrome using diffusion MRI.
+Cognitive reaction time,40120538,down,0,1,0,2025,Ludwig,Seidel,,,True,cognition,Assessing fatigue in myalgic encephalomyelitis/chronic fatigue syndrome patients before and after treatment with bright light therapy: A prospective r
+Cognitive reaction time,41728261,down,0,1,0,2026,Kutz,Voelcker-Rehage,36.0,12.0,True,cognition,Assessment of dynamic cerebral blood flow changes during cognitive tasks in patients with post-COVID-19 syndrome.
+Cognitive reaction time,9021867,down,0,1,0,1997,Marshall,Schenck,20.0,,True,cognition,Cognitive slowing and working memory difficulties in chronic fatigue syndrome.
+Cognitive reaction time,9201650,mixed,1,1,0,1997,DeLuca,Natelson,36.0,,True,cognition,Sudden vs gradual onset of chronic fatigue syndrome differentiates individuals on cognitive and psychiatric measures.
+Cognitive reaction time,9373430,up,1,0,0,1997,Vollmer-Conna,Westbrook,,,True,cognition,"Cognitive deficits in patients suffering from chronic fatigue syndrome, acute infective illness or depression."
+Complement (C4a etc.),19015737,up,2,0,0,2009,Sorensen,Rajeevan,,,True,immune,Transcriptional control of complement activation in an exercise model of chronic fatigue syndrome.
+Cortisol,10356627,down,0,1,0,1999,Scott,Dinan,,,True,endocrine,Desmopressin augments pituitary-adrenal responsivity to corticotropin-releasing hormone in subjects with chronic fatigue syndrome and in healthy volun
+Cortisol,10403156,null,0,0,1,1999,Scott,Dinan,15.0,11.0,True,endocrine,"Differences in adrenal steroid profile in chronic fatigue syndrome, in depression and in health."
+Cortisol,10594524,null,0,0,1,1999,Hudson,Cleare,20.0,20.0,True,endocrine,The 1microg short Synacthen test in chronic fatigue syndrome.
+Cortisol,10606381,null,0,0,1,1999,Korszun,Crofford,8.0,,True,endocrine,Melatonin levels in women with fibromyalgia and chronic fatigue syndrome.
+Cortisol,10931086,null,0,0,1,2000,Moorkens,Abs,73.0,,True,endocrine,Characterization of pituitary function with emphasis on GH secretion in the chronic fatigue syndrome.
+Cortisol,11104854,down,0,1,0,2000,Scott,Dinan,10.0,10.0,True,endocrine,A preliminary study of dehydroepiandrosterone response to low-dose ACTH in chronic fatigue syndrome and in healthy subjects.
+Cortisol,11914448,up,1,0,0,2002,Gaab,Ehlert,21.0,,True,endocrine,Low-dose dexamethasone suppression test in chronic fatigue syndrome and health.
+Cortisol,12202963,up,1,0,0,2002,Morriss,Deakin,,,True,endocrine,Neuropsychological performance and noradrenaline function in chronic fatigue syndrome under conditions of high arousal.
+Cortisol,12618533,down,0,1,0,2003,Gaab,Ehlert,18.0,,True,endocrine,Assessment of cortisol response with low-dose and high-dose ACTH in patients with chronic fatigue syndrome and healthy comparison subjects.
+Cortisol,15058215,down,0,4,1,2003,Zarković,Drezgić,39.0,,True,endocrine,[Disorder of adrenal gland function in chronic fatigue syndrome].
+Cortisol,15110921,null,0,0,1,2004,Cleare,Miell,16.0,16.0,True,endocrine,Levels of DHEA and DHEAS and responses to CRH stimulation and hydrocortisone treatment in chronic fatigue syndrome.
+Cortisol,15142269,down,0,2,0,2004,Gur,Sarac,176.0,46.0,True,endocrine,Cortisol and hypothalamic-pituitary-gonadal axis hormones in follicular-phase women with fibromyalgia and chronic fatigue syndrome and effect of depre
+Cortisol,15157948,up,1,0,0,2004,Crofford,Demitrack,15.0,,True,endocrine,Basal circadian and pulsatile ACTH and cortisol secretion in patients with fibromyalgia and/or chronic fatigue syndrome.
+Cortisol,15554358,null,0,0,1,2004,Torpy,Whitworth,248.0,248.0,True,endocrine,Association between chronic fatigue syndrome and the corticosteroid-binding globulin gene ALA SER224 polymorphism.
+Cortisol,15588275,down,0,1,0,2004,Cevik,Sarac,43.0,35.0,True,endocrine,Hypothalamic-pituitary-gonadal axis hormones and cortisol in both menstrual phases of women with chronic fatigue syndrome and effect of depressive moo
+Cortisol,15730417,null,0,0,1,2005,Inder,Mulder,,,True,endocrine,Normal opioid tone and hypothalamic-pituitary-adrenal axis function in chronic fatigue syndrome despite marked functional impairment.
+Cortisol,15911907,null,0,0,1,2005,Di Giorgio,Cleare,10.0,,True,endocrine,24-hour pituitary and adrenal hormone profiles in chronic fatigue syndrome.
+Cortisol,15922454,down,0,1,1,2005,Jerjes,Taylor,,,True,endocrine,Diurnal patterns of salivary cortisol and cortisone output in chronic fatigue syndrome.
+Cortisol,16439267,null,0,0,1,2006,Jerjes,Cleare,,,True,endocrine,"Diurnal excretion of urinary cortisol, cortisone, and cortisol metabolites in chronic fatigue syndrome."
+Cortisol,1659582,down,0,1,0,1991,Demitrack,Gold,,,True,endocrine,Evidence for impaired activation of the hypothalamic-pituitary-adrenal axis in patients with chronic fatigue syndrome.
+Cortisol,16868267,down,0,2,1,2006,Jerjes,Cleare,40.0,40.0,True,endocrine,Urinary cortisol and cortisol metabolite excretion in chronic fatigue syndrome.
+Cortisol,17276605,mixed,1,1,0,2007,Jerjes,Cleare,,,True,endocrine,Enhanced feedback sensitivity to prednisolone in chronic fatigue syndrome.
+Cortisol,17803834,down,0,1,0,2008,Van Den Eede,Claes,25.0,,True,endocrine,Combined dexamethasone/corticotropin-releasing factor test in chronic fatigue syndrome.
+Cortisol,18160468,down,0,1,1,2008,Nater,Heim,,,True,endocrine,Attenuated morning salivary cortisol concentrations in a population-based study of persons with chronic fatigue syndrome and well controls.
+Cortisol,18378875,down,0,1,0,2008,Nater,Heim,35.0,,True,endocrine,Alterations in diurnal salivary cortisol rhythm in a population-based sample of cases with chronic fatigue syndrome.
+Cortisol,18573538,up,1,0,0,2009,Papadopoulos,Cleare,18.0,5.0,True,endocrine,Glucocorticoid receptor mediated negative feedback in chronic fatigue syndrome using the low dose (0.5 mg) dexamethasone suppression test.
+Cortisol,18617327,down,0,1,2,2008,Meeus,Truijen,,31.0,True,endocrine,Diffuse noxious inhibitory control is delayed in chronic fatigue syndrome: an experimental study.
+Cortisol,19124690,down,0,1,0,2009,Heim,Reeves,124.0,,True,endocrine,Childhood trauma and risk for chronic fatigue syndrome: association with neuroendocrine dysfunction.
+Cortisol,20046396,mixed,1,1,0,2009,Turan,Sofuoglu,29.0,20.0,True,endocrine,The effects of galantamine hydrobromide treatment on dehydroepiandrosterone sulfate and cortisol levels in patients with chronic fatigue syndrome.
+Cortisol,24493300,up,1,0,0,2014,Sulheim,Wyller,176.0,,True,endocrine,Disease mechanisms and clonidine treatment in adolescent chronic fatigue syndrome: a combined cross-sectional and randomized clinical trial.
+Cortisol,24636516,down,0,1,0,2014,Nijhof,Putte,108.0,,True,endocrine,The role of hypocortisolism in chronic fatigue syndrome.
+Cortisol,25260861,down,0,1,0,2014,Rimes,Chalder,21.0,33.0,True,endocrine,Cortisol output in adolescents with chronic fatigue syndrome: pilot study on the comparison with healthy adolescents and change after cognitive behavi
+Cortisol,26983566,null,0,0,1,2003,Gaab,Ehlert,21.0,,True,endocrine,Enhanced glucocorticoid sensitivity in patients with chronic fatigue syndrome.
+Cortisol,29807037,down,0,2,1,2018,Roerink,Nater,107.0,59.0,True,endocrine,Hair and salivary cortisol in a cohort of women with chronic fatigue syndrome.
+Cortisol,29983634,null,0,0,1,2018,Lynn,Watson,48.0,,True,endocrine,Reduction of Glucocorticoid Receptor Function in Chronic Fatigue Syndrome.
+Cortisol,31947425,mixed,1,1,0,2019,Pednekar,Faghih,,,True,endocrine,A System Theoretic Investigation of Cortisol Dysregulation in Fibromyalgia Patients with Chronic Fatigue.
+Cortisol,32149617,down,0,2,0,2020,Pednekar,Faghih,,,True,endocrine,Characterization of Cortisol Dysregulation in Fibromyalgia and Chronic Fatigue Syndromes: A State-Space Approach.
+Cortisol,32217231,down,0,2,0,2020,Herane-Vives,Cleare,15.0,34.0,True,endocrine,Cortisol levels in chronic fatigue syndrome and atypical depression measured using hair and saliva specimens.
+Cortisol,34254637,down,0,1,0,2021,De Bellis,Montoya,13.0,,True,endocrine,Hypothalamic-Pituitary Autoimmunity and Related Impairment of Hormone Secretions in Chronic Fatigue Syndrome.
+Cortisol,38724880,mixed,1,1,0,2024,Pipper,Westermeier,,,True,endocrine,Sex and disease severity-based analysis of steroid hormones in ME/CFS.
+Cortisol,38986244,down,0,2,0,2024,Vroegindeweij,Nijhof,12.0,57.0,True,endocrine,Lower hair cortisol concentration in adolescent and young adult patients with Myalgic Encephalomyelitis/Chronic Fatigue Syndrome and Q-Fever Fatigue S
+Cortisol,9476760,down,0,2,0,1998,Strickland,Deakin,26.0,131.0,True,endocrine,"A comparison of salivary cortisol in chronic fatigue syndrome, community depression and healthy controls."
+Cortisol,9494707,null,0,0,1,1998,Young,Cowen,,,True,endocrine,Basal activity of the hypothalamic-pituitary-adrenal axis in patients with the chronic fatigue syndrome (neurasthenia).
+Cortisol,9572086,down,0,1,0,1998,Scott,Dinan,,,True,endocrine,Naloxone-mediated activation of the hypothalamic-pituitary-adrenal axis in chronic fatigue syndrome.
+Cortisol,9713562,down,0,1,1,1998,Scott,Dinan,20.0,,True,endocrine,The low dose ACTH test in chronic fatigue syndrome and in health.
+Cortisol,9813459,down,0,1,0,1998,MacHale,Lawrie,30.0,,True,endocrine,Diurnal variation of adrenocortical activity in chronic fatigue syndrome.
+Creatine / phosphocreatine,10189612,down,0,1,0,1998,Vojdani,Lapp,,15.0,True,metabolic,Downregulation of RNase L inhibitor correlates with upregulation of interferon-induced proteins (2-5A synthetase and RNase L) in patients with chronic
+Creatine / phosphocreatine,12197861,up,1,0,0,2002,Puri,Davey,,,True,metabolic,Relative increase in choline in the occipital cortex in chronic fatigue syndrome.
+Creatine / phosphocreatine,12589704,null,0,0,1,2003,McCully,Natelson,,,True,metabolic,Blood flow and muscle metabolism in chronic fatigue syndrome.
+Creatine / phosphocreatine,14578362,null,0,0,1,2004,McCully,Natelson,,,True,metabolic,Muscle metabolism with blood flow restriction in chronic fatigue syndrome.
+Creatine / phosphocreatine,1479030,null,0,0,1,1992,Gow,Behan,30.0,,True,metabolic,Search for retrovirus in the chronic fatigue syndrome.
+Creatine / phosphocreatine,19647494,down,0,1,0,2009,Light,Light,19.0,,True,metabolic,"Moderate exercise increases expression for sensory, adrenergic, and immune genes in chronic fatigue syndrome patients but not in normal subjects."
+Creatine / phosphocreatine,20937116,down,0,1,0,2010,Vermeulen,Scholte,15.0,15.0,True,metabolic,Patients with chronic fatigue syndrome performed worse than controls in a controlled repeated exercise study despite a normal oxidative phosphorylatio
+Creatine / phosphocreatine,20946639,down,0,1,0,2010,Satterfield,Schwartz,,184.0,True,metabolic,PCR and serology find no association between xenotropic murine leukemia virus-related virus (XMRV) and autism.
+Creatine / phosphocreatine,21749371,down,0,3,0,2012,Jones,Newton,10.0,12.0,True,metabolic,Loss of capacity to recover from acidosis on repeat exercise in chronic fatigue syndrome: a case-control study.
+Creatine / phosphocreatine,21943244,down,0,1,0,2011,Ali,Cohen,,,True,metabolic,Xenotropic murine leukemia virus-related virus is not associated with chronic fatigue syndrome in patients from different areas of the us in the 1990s
+Creatine / phosphocreatine,30974900,down,0,1,0,2019,Nacul,Lacerda,272.0,136.0,True,metabolic,Evidence of Clinical Pathology Abnormalities in People with Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS) from an Analytic Cross-Section
+Cytomegalovirus,20827765,down,0,1,0,2010,Cameron,Lloyd,20.0,10.0,True,virus,"Serological and virological investigation of the role of the herpesviruses EBV, CMV and HHV-6 in post-infective fatigue syndrome."
+DHEA/DHEA-S,10403156,down,0,2,0,1999,Scott,Dinan,15.0,11.0,True,endocrine,"Differences in adrenal steroid profile in chronic fatigue syndrome, in depression and in health."
+DHEA/DHEA-S,11104854,down,0,1,1,2000,Scott,Dinan,10.0,10.0,True,endocrine,A preliminary study of dehydroepiandrosterone response to low-dose ACTH in chronic fatigue syndrome and in healthy subjects.
+DHEA/DHEA-S,15110921,up,1,0,2,2004,Cleare,Miell,16.0,16.0,True,endocrine,Levels of DHEA and DHEAS and responses to CRH stimulation and hydrocortisone treatment in chronic fatigue syndrome.
+DHEA/DHEA-S,15730417,null,0,0,1,2005,Inder,Mulder,,,True,endocrine,Normal opioid tone and hypothalamic-pituitary-adrenal axis function in chronic fatigue syndrome despite marked functional impairment.
+DHEA/DHEA-S,16264414,down,0,1,0,2005,Maes,De Ruyter,20.0,12.0,True,endocrine,Decreased dehydroepiandrosterone sulfate but normal insulin-like growth factor in chronic fatigue syndrome (CFS): relevance for the inflammatory respo
+DHEA/DHEA-S,20046396,up,1,0,0,2009,Turan,Sofuoglu,29.0,20.0,True,endocrine,The effects of galantamine hydrobromide treatment on dehydroepiandrosterone sulfate and cortisol levels in patients with chronic fatigue syndrome.
+DNA methylation,25512702,down,0,1,0,2013,Falkenberg,Rajeevan,34.0,,True,omics,Acute psychosocial stress-mediated changes in the expression and methylation of perforin in chronic fatigue syndrome.
+DNA methylation,26230484,down,0,1,0,2015,Vangeel,Claes,76.0,19.0,True,omics,Chronic Fatigue Syndrome and DNA Hypomethylation of the Glucocorticoid Receptor Gene Promoter 1F Region: Associations With HPA Axis Hypofunction and C
+DNA methylation,29275786,down,0,1,0,2018,Vangeel,Claes,80.0,91.0,True,omics,Glucocorticoid receptor DNA methylation and childhood trauma in chronic fatigue syndrome patients.
+DNA methylation,30036399,null,0,0,1,2018,Trivedi,Nathanson,,31.0,True,omics,Identification of Myalgic Encephalomyelitis/Chronic Fatigue Syndrome-associated DNA methylation patterns.
+DNA methylation,32562379,down,0,1,0,2020,Polli,Nijs,54.0,26.0,True,omics,DNA Methylation and Brain-Derived Neurotrophic Factor Expression Account for Symptoms and Widespread Hyperalgesia in Patients With Chronic Fatigue Syn
+DNA methylation,33148325,down,0,1,0,2020,Helliwell,Tate,,,True,omics,Changes in DNA methylation profiles of myalgic encephalomyelitis/chronic fatigue syndrome patients reflect systemic dysfunctions.
+DNA methylation,40724879,up,1,0,0,2025,Peppercorn,Tate,5.0,5.0,True,omics,Comparing DNA Methylation Landscapes in Peripheral Blood from Myalgic Encephalomyelitis/Chronic Fatigue Syndrome and Long COVID Patients.
+DNA methylation,40943482,down,0,1,0,2025,Sharma,Tate,,,True,omics,Precision Medicine Study of Post-Exertional Malaise Epigenetic Changes in Myalgic Encephalomyelitis/Chronic Fatigue Patients During Exercise.
+EBV antibodies / EBV markers,10066657,null,0,0,1,1999,Wallace,Hay,,,True,virus,Human herpesviruses in chronic fatigue syndrome.
+EBV antibodies / EBV markers,17945348,up,1,0,0,2008,Bellmann-Weiler,Weiss,20.0,,True,virus,IFN-gamma mediated pathways in patients with fatigue and chronic active Epstein Barr virus-infection.
+EBV antibodies / EBV markers,2162397,null,0,0,1,1990,Gold,Corey,26.0,,True,virus,Chronic fatigue. A prospective clinical and virologic study.
+EBV antibodies / EBV markers,24454857,down,0,1,0,2014,Loebel,Scheibenbogen,,,True,virus,Deficient EBV-specific B- and T-cell response in patients with chronic fatigue syndrome.
+EBV antibodies / EBV markers,28303641,up,1,0,0,2017,Halpin,Ariza,,,True,virus,Myalgic encephalomyelitis/chronic fatigue syndrome and gulf war illness patients exhibit increased humoral responses to the herpesviruses-encoded dUTP
+EBV antibodies / EBV markers,2837573,null,0,0,1,1988,Buchwald,Komaroff,,,True,virus,"""Chronic Epstein-Barr virus infection"" syndrome and polymyalgia rheumatica."
+EBV antibodies / EBV markers,2843138,up,2,0,0,1988,Jones,Glaser,3.0,,True,virus,Antibodies to Epstein-Barr virus-specific DNase and DNA polymerase in the chronic fatigue syndrome.
+EBV antibodies / EBV markers,2849717,up,1,0,0,1988,Straus,Henle,24.0,,True,virus,Acyclovir treatment of the chronic fatigue syndrome. Lack of efficacy in a placebo-controlled trial.
+EBV antibodies / EBV markers,28604802,down,0,1,0,2017,Loebel,Scheibenbogen,92.0,50.0,True,virus,Serological profiling of the EBV immune response in Chronic Fatigue Syndrome using a peptide microarray.
+EBV antibodies / EBV markers,3033338,up,1,0,0,1987,Buchwald,Komaroff,500.0,,True,virus,Frequency of 'chronic active Epstein-Barr virus infection' in a general medical practice.
+EBV antibodies / EBV markers,31057538,up,1,0,0,2019,Cliff,Riley,107.0,107.0,True,virus,Cellular Immune Function in Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS).
+EBV antibodies / EBV markers,34422848,up,1,0,0,2021,Lee,Cliff,30.0,,True,virus,Salivary DNA Loads for Human Herpesviruses 6 and 7 Are Correlated With Disease Phenotype in Myalgic Encephalomyelitis/Chronic Fatigue Syndrome.
+EBV antibodies / EBV markers,36341457,up,1,0,0,2022,Apostolou,Rosén,95.0,,True,virus,Saliva antibody-fingerprint of reactivated latent viruses after mild/asymptomatic COVID-19 is unique in patients with myalgic-encephalomyelitis/chroni
+EBV antibodies / EBV markers,40143349,up,2,0,0,2025,Hannestad,Rosén,13.0,10.0,True,virus,"Prevalence of EBV, HHV6, HCMV, HAdV, SARS-CoV-2, and Autoantibodies to Type I Interferon in Sputum from Myalgic Encephalomyelitis/Chronic Fatigue Synd"
+EBV antibodies / EBV markers,41451845,up,1,0,0,2026,Palomo,Ariza,378.0,,True,virus,"Chronic Reactivation of Persistent Human Herpesviruses EBV, HHV-6 and VZV and Heightened Anti-dUTPase IgG Antibodies Are a Recurrent Hallmark in Post-"
+EBV antibodies / EBV markers,7620030,down,0,1,0,1995,Swanink,Galama,10.0,,True,virus,Epstein-Barr virus (EBV) and the chronic fatigue syndrome: normal virus load in blood and normal immunologic reactivity in the EBV regression assay.
+EBV antibodies / EBV markers,7811864,up,1,0,1,1994,Manian,Manian,18.0,,True,virus,"Simultaneous measurement of antibodies to Epstein-Barr virus, human herpesvirus 6, herpes simplex virus types 1 and 2, and 14 enteroviruses in chronic"
+EBV antibodies / EBV markers,8724857,up,1,0,0,1995,Sairenji,Kurata,10.0,,True,virus,"Antibody responses to Epstein-Barr virus, human herpesvirus 6 and human herpesvirus 7 in patients with chronic fatigue syndrome."
+EEG abnormalities,1328633,down,0,1,0,1992,Whelton,Moldofsky,14.0,12.0,True,brain,"Sleep, Epstein-Barr virus infection, musculoskeletal pain, and depressive symptoms in chronic fatigue syndrome."
+EEG abnormalities,15351380,up,1,0,0,2004,Siemionow,Yue,,,True,brain,Altered central nervous system signal during motor performance in chronic fatigue syndrome.
+EEG abnormalities,21435231,down,0,1,0,2011,Moldofsky,Patcai,22.0,,True,brain,"Chronic widespread musculoskeletal pain, fatigue, depression and disordered sleep in chronic post-SARS syndrome; a case-controlled study."
+EEG abnormalities,26869792,mixed,1,1,0,2016,Wu,Xu,,,True,brain,Electroencephalogram characteristics in patients with chronic fatigue syndrome.
+EEG abnormalities,32289826,null,0,0,2,2020,Goudman,De Kooning,21.0,,True,brain,"Processing of Laser-Evoked Potentials in Patients with Chronic Whiplash-Associated Disorders, Chronic Fatigue Syndrome, and Healthy Controls: A Case-C"
+End-tidal CO2 / hypocapnia,16775435,down,0,1,0,2006,Naschitz,Rosner,585.0,,True,orthostatic,"Patterns of hypocapnia on tilt in patients with fibromyalgia, chronic fatigue syndrome, nonspecific dizziness, and neurally mediated syncope."
+End-tidal CO2 / hypocapnia,17009309,down,0,1,0,2006,Cook,Natelson,23.0,32.0,True,orthostatic,The influence of aerobic fitness and fibromyalgia on cardiorespiratory and perceptual responses to exercise in patients with chronic fatigue syndrome.
+End-tidal CO2 / hypocapnia,17263876,down,0,1,0,2007,Natelson,Stewart,62.0,62.0,True,orthostatic,Hypocapnia is a biological marker for orthostatic intolerance in some patients with chronic fatigue syndrome.
+End-tidal CO2 / hypocapnia,25277740,down,0,2,0,2014,Medow,Stewart,15.0,,True,orthostatic,Phenylephrine alteration of cerebral blood flow during orthostasis: effect on n-back performance in chronic fatigue syndrome.
+End-tidal CO2 / hypocapnia,38682242,mixed,1,1,0,2024,Medow,Stewart,15.0,,True,orthostatic,Phenylephrine alters phase synchronization between cerebral blood velocity and blood pressure in ME/CFS with orthostatic intolerance.
+End-tidal CO2 / hypocapnia,41293716,up,2,0,0,2025,Mancini,Natelson,57.0,,True,orthostatic,Abnormal breathing patterns and hyperventilation are common in patients with chronic fatigue syndrome during exercise.
+Endogenous retrovirus (HERV),23408682,null,0,0,1,2013,Oakes,Huber,39.0,,True,virus,Human endogenous retrovirus-K18 superantigen expression and human herpesvirus-6 and human herpesvirus-7 viral loads in chronic fatigue patients.
+Endothelial function / FMD,33829023,down,0,2,1,2021,Sørland,Fluge,40.0,66.0,True,vascular,Reduced Endothelial Function in Myalgic Encephalomyelitis/Chronic Fatigue Syndrome-Results From Open-Label Cyclophosphamide Intervention Study.
+Endothelial function / FMD,36730360,down,0,1,0,2023,Sandvik,Fluge,39.0,,True,vascular,Endothelial dysfunction in ME/CFS patients.
+Endothelial function / FMD,37832757,down,0,1,1,2025,Mclaughlin,Sculthorpe,51.0,,True,vascular,People with Long COVID and Myalgic Encephalomyelitis/Chronic Fatigue Syndrome Exhibit Similarly Impaired Vascular Function.
+Enterovirus,1656416,null,0,0,1,1991,Milton,Edwards,58.0,,True,virus,Immune responsiveness in chronic fatigue syndrome.
+Enterovirus,1847316,null,0,0,1,1991,Miller,Hall,254.0,243.0,True,virus,Antibody to Coxsackie B virus in diagnosing postviral fatigue syndrome.
+Enterovirus,7811864,up,1,0,0,1994,Manian,Manian,18.0,,True,virus,"Simultaneous measurement of antibodies to Epstein-Barr virus, human herpesvirus 6, herpes simplex virus types 1 and 2, and 14 enteroviruses in chronic"
+Extracellular vesicles/exosomes,33046133,null,0,0,1,2020,Giloteaux,Hanson,19.0,35.0,True,omics,Cytokine profiling of extracellular vesicles isolated from plasma in myalgic encephalomyelitis/chronic fatigue syndrome: a pilot study.
+Fatty acids / acyl lipids,11388705,null,0,0,1,2001,Manuel y Keenoy,De Leeuw,61.0,,True,metabolic,Antioxidant status and lipoprotein peroxidation in chronic fatigue syndrome.
+Fatty acids / acyl lipids,20819963,down,0,1,0,2010,Kennedy,Belch,,,True,metabolic,Biochemical and vascular aspects of pediatric chronic fatigue syndrome.
+Fatty acids / acyl lipids,23185200,up,1,0,0,2012,Tomic,Mikic,19.0,,True,metabolic,Lipid and protein oxidation in female patients with chronic fatigue syndrome.
+Fatty acids / acyl lipids,30847260,null,0,0,1,2019,Tomas,Elson,,,True,metabolic,Mitochondrial complex activity in permeabilised cells of chronic fatigue syndrome patients using two cell types.
+Fatty acids / acyl lipids,34454515,up,1,0,0,2021,Nkiliza,Abdullah,,50.0,True,metabolic,"Sex-specific plasma lipid profiles of ME/CFS patients and their association with pain, fatigue, and cognitive symptoms."
+Fatty acids / acyl lipids,39037125,down,0,1,0,2024,Zerón-Rugerio,Cambras,23.0,31.0,True,metabolic,Sleep and circadian rhythm alterations in myalgic encephalomyelitis/chronic fatigue syndrome and post-COVID fatigue syndrome and its association with 
+Fatty acids / acyl lipids,39081289,down,0,1,0,2024,Ghosh,Soundararajan,19.0,,True,metabolic,Case-control study on post-COVID-19 conditions reveals severe acute infection and chronic pulmonary disease as potential risk factors.
+Fatty acids / acyl lipids,7632202,up,1,0,0,1995,Bates,Wybenga,579.0,,True,metabolic,Clinical laboratory test findings in patients with chronic fatigue syndrome.
+Gene expression (blood transcriptome),19647494,up,1,0,0,2009,Light,Light,19.0,,True,omics,"Moderate exercise increases expression for sensory, adrenergic, and immune genes in chronic fatigue syndrome patients but not in normal subjects."
+Gene expression (blood transcriptome),27713703,null,0,0,1,2016,Keech,Lloyd,10.0,,True,omics,Gene Expression in Response to Exercise in Patients with Chronic Fatigue Syndrome: A Pilot Study.
+Gene expression (blood transcriptome),30897114,down,0,1,0,2019,Bouquet,Chiu,14.0,11.0,True,omics,Whole blood human transcriptome and virome analysis of ME/CFS patients experiencing post-exertional malaise following cardiopulmonary exercise testing
+Glucose/insulin metabolism,10931086,down,0,1,0,2000,Moorkens,Abs,73.0,,True,metabolic,Characterization of pituitary function with emphasis on GH secretion in the chronic fatigue syndrome.
+Glucose/insulin metabolism,10990147,down,0,1,1,1998,Berwaerts,Abs,13.0,,True,metabolic,Secretion of growth hormone in patients with chronic fatigue syndrome.
+Glucose/insulin metabolism,27765861,down,0,1,0,2017,Van Der Gucht,Authier,100.0,44.0,True,metabolic,Brain 18F-FDG PET Metabolic Abnormalities in Patients with Long-Lasting Macrophagic Myofascitis.
+Glucose/insulin metabolism,29654166,up,1,0,0,2018,Brown,Walker,,,True,metabolic,Pharmacological activation of AMPK and glucose uptake in cultured human skeletal muscle cells from patients with ME/CFS.
+Glucose/insulin metabolism,30416112,down,0,1,0,2018,Watanabe,Watanabe,,,True,metabolic,[Brain Science on Myalgic Encephalomyelitis/Chronic Fatigue Syndrome].
+Glucose/insulin metabolism,33081294,down,0,1,0,2020,Iversen,Lien,,10.0,True,metabolic,Cardiac Dimensions and Function Are Not Altered among Females with the Myalgic Encephalomyelitis/Chronic Fatigue Syndrome.
+Glucose/insulin metabolism,34254637,down,0,1,0,2021,De Bellis,Montoya,13.0,,True,metabolic,Hypothalamic-Pituitary Autoimmunity and Related Impairment of Hormone Secretions in Chronic Fatigue Syndrome.
+Glucose/insulin metabolism,9046989,up,1,0,0,1997,Allain,Miell,,,True,metabolic,"Changes in growth hormone, insulin, insulinlike growth factors (IGFs), and IGF-binding protein-1 in chronic fatigue syndrome."
+Glutathione,11118815,up,1,0,0,2000,Fulle,Beal,,,True,metabolic,Specific oxidative alterations in vastus lateralis muscle of patients with the diagnosis of chronic fatigue syndrome.
+Glutathione,17174731,down,0,1,0,2007,Richards,Jelinek,41.0,,True,metabolic,Erythrocyte oxidative damage in chronic fatigue syndrome.
+Glutathione,19906518,null,0,0,1,2009,Puri,Treasaden,26.0,,True,metabolic,An in vivo proton neurospectroscopy study of cerebral oxidative stress in myalgic encephalomyelitis (chronic fatigue syndrome).
+Glutathione,28320179,down,0,1,0,2017,Natelson,Shungu,26.0,,True,metabolic,Multimodal and simultaneous assessments of brain and spinal fluid abnormalities in chronic fatigue syndrome and the effects of psychiatric comorbidity
+Growth hormone / IGF-1,10770178,null,0,0,1,2000,Cleare,Miell,,37.0,True,endocrine,Integrity of the growth hormone/insulin-like growth factor system is maintained in patients with chronic fatigue syndrome.
+Growth hormone / IGF-1,10931086,mixed,1,1,1,2000,Moorkens,Abs,73.0,,True,endocrine,Characterization of pituitary function with emphasis on GH secretion in the chronic fatigue syndrome.
+Growth hormone / IGF-1,10990147,down,0,2,1,1998,Berwaerts,Abs,13.0,,True,endocrine,Secretion of growth hormone in patients with chronic fatigue syndrome.
+Growth hormone / IGF-1,11150897,null,0,0,1,2001,Ottenweller,Natelson,,,True,endocrine,Hormonal responses to exercise in chronic fatigue syndrome.
+Growth hormone / IGF-1,12202963,up,1,0,0,2002,Morriss,Deakin,,,True,endocrine,Neuropsychological performance and noradrenaline function in chronic fatigue syndrome under conditions of high arousal.
+Growth hormone / IGF-1,15730417,null,0,0,1,2005,Inder,Mulder,,,True,endocrine,Normal opioid tone and hypothalamic-pituitary-adrenal axis function in chronic fatigue syndrome despite marked functional impairment.
+Growth hormone / IGF-1,15911907,null,0,0,1,2005,Di Giorgio,Cleare,10.0,,True,endocrine,24-hour pituitary and adrenal hormone profiles in chronic fatigue syndrome.
+Growth hormone / IGF-1,16264414,null,0,0,1,2005,Maes,De Ruyter,20.0,12.0,True,endocrine,Decreased dehydroepiandrosterone sulfate but normal insulin-like growth factor in chronic fatigue syndrome (CFS): relevance for the inflammatory respo
+Growth hormone / IGF-1,17525791,null,0,0,1,2007,The,van der Meer,22.0,,True,endocrine,The effect of acclydine in chronic fatigue syndrome: a randomized controlled trial.
+Growth hormone / IGF-1,34254637,down,0,1,0,2021,De Bellis,Montoya,13.0,,True,endocrine,Hypothalamic-Pituitary Autoimmunity and Related Impairment of Hormone Secretions in Chronic Fatigue Syndrome.
+Growth hormone / IGF-1,9046989,down,0,1,0,1997,Allain,Miell,,,True,endocrine,"Changes in growth hormone, insulin, insulinlike growth factors (IGFs), and IGF-binding protein-1 in chronic fatigue syndrome."
+Gut microbiome diversity/dysbiosis,23791918,down,0,1,0,2013,Frémont,De Meirleir,,36.0,True,gut,High-throughput 16S rRNA gene sequencing reveals alterations of intestinal microbiota in myalgic encephalomyelitis/chronic fatigue syndrome patients.
+Gut microbiome diversity/dysbiosis,27338587,down,0,1,0,2016,Giloteaux,Hanson,,39.0,True,gut,Reduced diversity and altered composition of the gut microbiome in individuals with myalgic encephalomyelitis/chronic fatigue syndrome.
+Gut microbiome diversity/dysbiosis,33782445,up,1,0,0,2021,Lupo,Capelli,,,True,gut,Potential role of microbiome in Chronic Fatigue Syndrome/Myalgic Encephalomyelits (CFS/ME).
+HHV-6,10066657,null,0,0,1,1999,Wallace,Hay,,,True,virus,Human herpesviruses in chronic fatigue syndrome.
+HHV-6,10738137,up,1,0,0,2000,Ablashi,Whitman,35.0,,True,virus,Frequent HHV-6 reactivation in multiple sclerosis (MS) and chronic fatigue syndrome (CFS) patients.
+HHV-6,10913395,null,0,0,1,2000,Reeves,Pellett,52.0,,True,virus,Human herpesviruses 6 and 7 in chronic fatigue syndrome: a case-control study.
+HHV-6,1309285,down,0,1,0,1992,Buchwald,Komaroff,259.0,8.0,True,virus,"A chronic illness characterized by fatigue, neurologic and immunologic disorders, and active human herpesvirus type 6 infection."
+HHV-6,1648198,null,0,0,1,1991,Marshall,Starr,23.0,,True,virus,"Chronic fatigue in children: clinical features, Epstein-Barr virus and human herpesvirus 6 serology and long term follow-up."
+HHV-6,1849315,up,1,0,0,1991,Gupta,Vayuvegula,,,True,virus,A comprehensive immunological analysis in chronic fatigue syndrome.
+HHV-6,23145212,null,0,0,1,2012,Burbelo,Iadarola,72.0,59.0,True,virus,No serological evidence for a role of HHV-6 infection in chronic fatigue syndrome.
+HHV-6,23408682,null,0,0,1,2013,Oakes,Huber,39.0,,True,virus,Human endogenous retrovirus-K18 superantigen expression and human herpesvirus-6 and human herpesvirus-7 viral loads in chronic fatigue patients.
+HHV-6,28303641,up,1,0,0,2017,Halpin,Ariza,,,True,virus,Myalgic encephalomyelitis/chronic fatigue syndrome and gulf war illness patients exhibit increased humoral responses to the herpesviruses-encoded dUTP
+HHV-6,34422848,up,1,0,0,2021,Lee,Cliff,30.0,,True,virus,Salivary DNA Loads for Human Herpesviruses 6 and 7 Are Correlated With Disease Phenotype in Myalgic Encephalomyelitis/Chronic Fatigue Syndrome.
+HHV-6,36653846,up,1,0,0,2023,Rasa-Dzelzkaleja,VirA project,200.0,150.0,True,virus,The persistent viral infections in the development and severity of myalgic encephalomyelitis/chronic fatigue syndrome.
+HHV-6,41451845,up,1,0,0,2026,Palomo,Ariza,378.0,,True,virus,"Chronic Reactivation of Persistent Human Herpesviruses EBV, HHV-6 and VZV and Heightened Anti-dUTPase IgG Antibodies Are a Recurrent Hallmark in Post-"
+HHV-6,7594679,down,0,1,0,1995,Patnaik,Peter,125.0,150.0,True,virus,Prevalence of IgM antibodies to human herpesvirus 6 early antigen (p41/38) in patients with chronic fatigue syndrome.
+HHV-6,7650209,up,1,0,0,1995,Di Luca,Cassai,,,True,virus,Human herpesvirus 6 and human herpesvirus 7 in chronic fatigue syndrome.
+HHV-6,7811864,null,0,0,1,1994,Manian,Manian,18.0,,True,virus,"Simultaneous measurement of antibodies to Epstein-Barr virus, human herpesvirus 6, herpes simplex virus types 1 and 2, and 14 enteroviruses in chronic"
+HHV-6,8724857,up,1,0,0,1995,Sairenji,Kurata,10.0,,True,virus,"Antibody responses to Epstein-Barr virus, human herpesvirus 6 and human herpesvirus 7 in patients with chronic fatigue syndrome."
+HHV-6,9829439,up,1,0,0,1998,See,Tilles,,,True,virus,The in vitro immunomodulatory effects of glyconutrients on peripheral blood mononuclear cells of patients with chronic fatigue syndrome.
+HLA alleles,11422420,null,0,0,1,2001,Underhill,Wessely,,,True,genetic,Lack of association between HLA genotype and chronic fatigue syndrome.
+HLA alleles,19822091,mixed,1,1,0,2009,Carlo-Stella,Cuccia,46.0,141.0,True,genetic,Molecular study of receptor for advanced glycation endproduct gene promoter and identification of specific HLA haplotypes possibly involved in chronic
+HLA alleles,26707044,up,3,0,0,2015,Maes,Kubera,139.0,40.0,True,genetic,Increased expression of activation antigens on CD8+ T lymphocytes in Myalgic Encephalomyelitis/chronic fatigue syndrome: inverse associations with low
+HLA alleles,8148441,up,1,0,0,1994,Barker,Levy,,,True,genetic,Immunologic abnormalities associated with chronic fatigue syndrome.
+Heart rate variability,10926298,down,0,2,0,2000,Stewart,Stewart,22.0,10.0,True,autonomic,Autonomic nervous system dysfunction in adolescents with postural orthostatic tachycardia syndrome and chronic fatigue syndrome is characterized by at
+Heart rate variability,12563023,down,0,1,1,2003,Yamamoto,Natelson,46.0,,True,autonomic,A measure of heart rate variability is sensitive to orthostatic challenge in women with chronic fatigue syndrome.
+Heart rate variability,14508037,down,0,1,0,2003,Peckerman,Natelson,29.0,,True,autonomic,Baroreceptor reflex and integrative stress responses in chronic fatigue syndrome.
+Heart rate variability,15296795,down,0,1,0,2004,Yoshiuchi,Natelson,,25.0,True,autonomic,Use of time-frequency analysis to investigate temporal patterns of cardiac autonomic response during head-up tilt in chronic fatigue syndrome.
+Heart rate variability,17851136,down,0,3,0,2007,Boneva,Reeves,42.0,38.0,True,autonomic,Higher heart rate and reduced heart rate variability persist during sleep in chronic fatigue syndrome: a population-based study.
+Heart rate variability,20890710,mixed,1,1,0,2011,Wyller,Saul,56.0,,True,autonomic,Blood pressure variability and closed-loop baroreflex assessment in adolescent chronic fatigue syndrome during supine rest and orthostatic stress.
+Heart rate variability,22670061,up,1,0,0,2012,Frith,Newton,,68.0,True,autonomic,Impaired blood pressure variability in chronic fatigue syndrome--a potential biomarker.
+Heart rate variability,28276066,mixed,1,1,0,2017,Rimes,Chalder,60.0,,True,autonomic,Stress vulnerability in adolescents with chronic fatigue syndrome: experimental study investigating heart rate variability and skin conductance respon
+Heart rate variability,30214947,null,0,0,1,2018,Parker,Wagner,,,True,autonomic,"The effects of warm water immersion on blood pressure, heart rate and heart rate variability in people with chronic fatigue syndrome."
+Heart rate variability,31906988,down,0,1,0,2020,Escorihuela,Castro-Marrero,45.0,,True,autonomic,Reduced heart rate variability predicts fatigue severity in individuals with chronic fatigue syndrome/myalgic encephalomyelitis.
+Heart rate variability,31957647,down,0,1,0,2020,Fatt,Cvejic,24.0,,True,autonomic,"Parasympathetic activity is reduced during slow-wave sleep, but not resting wakefulness, in patients with chronic fatigue syndrome."
+Heart rate variability,34071326,down,0,1,1,2021,Capdevila,Escorihuela,32.0,,True,autonomic,Analysis of Gender Differences in HRV of Patients with Myalgic Encephalomyelitis/Chronic Fatigue Syndrome Using Mobile-Health Technology.
+Heart rate variability,34202023,up,1,0,0,2021,Kujawski,Zalewski,32.0,18.0,True,autonomic,Changes in the Allostatic Response to Whole-Body Cryotherapy and Static-Stretching Exercises in Chronic Fatigue Syndrome Patients vs. Healthy Individu
+Heart rate variability,38251045,down,0,1,0,2024,Ryabkova,Churilov,34.0,32.0,True,autonomic,Similar Patterns of Dysautonomia in Myalgic Encephalomyelitis/Chronic Fatigue and Post-COVID-19 Syndromes.
+Heart rate variability,39755009,down,0,2,0,2025,Van Den Houte,Bogaerts,,30.0,True,autonomic,"Comparing autonomic nervous system function in patients with functional somatic syndromes, stress-related syndromes and healthy controls."
+Heart rate variability,9430800,null,0,0,1,1997,Yataco,Calkins,19.0,11.0,True,autonomic,Comparison of heart rate variability in patients with chronic fatigue syndrome and controls.
+Heart rate variability,9791743,down,0,2,0,1998,Stewart,Munoz,26.0,,True,autonomic,Neurally mediated hypotension and autonomic dysfunction measured by heart rate variability during head-up tilt testing in children with chronic fatigu
+Hemoglobin / hematocrit / red cell indices,17174731,down,0,1,0,2007,Richards,Jelinek,41.0,,True,haem,Erythrocyte oxidative damage in chronic fatigue syndrome.
+IFN-alpha/type I IFN,30567628,up,1,0,0,2019,Russell,Pariante,,57.0,True,cytokine,"Persistent fatigue induced by interferon-alpha: a novel, inflammation-based, proxy model of chronic fatigue syndrome."
+IFN-gamma,12699429,null,0,0,1,2003,Amel Kashipaz,Powell,,,True,cytokine,Normal production of inflammatory cytokines in chronic fatigue and fibromyalgia syndromes determined by intracellular cytokine staining in short-term 
+IFN-gamma,17544255,down,0,1,0,2007,ter Wolbeek,Heijnen,11.0,,True,cytokine,Longitudinal analysis of pro- and anti-inflammatory cytokine production in severely fatigued adolescents.
+IFN-gamma,17945348,up,1,0,0,2008,Bellmann-Weiler,Weiss,20.0,,True,cytokine,IFN-gamma mediated pathways in patients with fatigue and chronic active Epstein Barr virus-infection.
+IFN-gamma,26516304,up,1,0,0,2015,Hardcastle,Marshall-Gradisnik,,22.0,True,cytokine,Serum Immune Proteins in Moderate and Severe Chronic Fatigue Syndrome/Myalgic Encephalomyelitis Patients.
+IFN-gamma,33046133,up,1,0,0,2020,Giloteaux,Hanson,19.0,35.0,True,cytokine,Cytokine profiling of extracellular vesicles isolated from plasma in myalgic encephalomyelitis/chronic fatigue syndrome: a pilot study.
+IFN-gamma,38327880,down,0,1,0,2024,Gil,Selin,12.0,,True,cytokine,Identification of CD8 T-cell dysfunction associated with symptoms in myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS) and Long COVID and tr
+IFN-gamma,7839498,up,1,0,0,1994,Rasmussen,Wiik,,,True,cytokine,[Chronic fatigue syndrome--a controlled cross-sectional study].
+IFN-gamma,7983659,up,1,0,0,1994,Rasmussen,Wiik,,,True,cytokine,Chronic fatigue syndrome--a controlled cross sectional study.
+IFN-gamma,9466535,down,0,1,0,1998,Visser,Nagelkerken,4.0,,True,cytokine,CD4 T lymphocytes from patients with chronic fatigue syndrome have decreased interferon-gamma production and increased sensitivity to dexamethasone.
+IFN-gamma,9874656,up,1,0,0,1999,Zhang,Natelson,,,True,cytokine,Changes in immune parameters seen in Gulf War veterans but not in civilians with chronic fatigue syndrome.
+IL-1 (alpha/beta),10634215,null,0,0,1,1999,Cannon,Komaroff,10.0,6.0,True,cytokine,Acute phase responses and cytokine secretion in chronic fatigue syndrome.
+IL-1 (alpha/beta),1316417,up,1,0,0,1992,Linde,Lindwall,,,True,cytokine,Serum levels of lymphokines and soluble cellular receptors in primary Epstein-Barr virus infection and in patients with chronic fatigue syndrome.
+IL-1 (alpha/beta),1873478,up,1,0,0,1991,Chao,Peterson,,,True,cytokine,Altered cytokine release in peripheral blood mononuclear cell cultures from patients with the chronic fatigue syndrome.
+IL-1 (alpha/beta),19909538,up,1,0,0,2009,Fletcher,Klimas,,,True,cytokine,Plasma cytokines in women with chronic fatigue syndrome.
+IL-1 (alpha/beta),21975140,up,1,0,0,2012,Maes,Ringel,107.0,20.0,True,cytokine,Evidence for inflammation and activation of cell-mediated immunity in Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS): increased interleuk
+IL-1 (alpha/beta),22832503,up,1,0,0,2012,Maes,Ringel,,,True,cytokine,Inflammatory and cell-mediated immune biomarkers in myalgic encephalomyelitis/chronic fatigue syndrome and depression: inflammatory markers are higher
+IL-1 (alpha/beta),26516304,down,0,1,0,2015,Hardcastle,Marshall-Gradisnik,,22.0,True,cytokine,Serum Immune Proteins in Moderate and Severe Chronic Fatigue Syndrome/Myalgic Encephalomyelitis Patients.
+IL-1 (alpha/beta),34589849,down,0,1,0,2020,Groven,Reitan,58.0,54.0,True,cytokine,"MCP-1 is increased in patients with CFS and FM, whilst several other immune markers are significantly lower than healthy controls."
+IL-1 (alpha/beta),37744357,null,0,0,1,2023,Martín,Castro-Marrero,22.0,26.0,True,cytokine,Increased gut permeability and bacterial translocation are associated with fibromyalgia and myalgic encephalomyelitis/chronic fatigue syndrome: implic
+IL-1 (alpha/beta),38600563,up,1,0,0,2024,Domingo,Castro-Marrero,23.0,31.0,True,cytokine,Association of circulating biomarkers with illness severity measures differentiates myalgic encephalomyelitis/chronic fatigue syndrome and post-COVID-
+IL-10,15642984,up,1,0,0,2005,Natelson,Ottenweller,31.0,5.0,True,cytokine,Spinal fluid abnormalities in patients with chronic fatigue syndrome.
+IL-10,17544255,down,0,1,0,2007,ter Wolbeek,Heijnen,11.0,,True,cytokine,Longitudinal analysis of pro- and anti-inflammatory cytokine production in severely fatigued adolescents.
+IL-10,20230500,down,0,1,0,2010,White,Light,19.0,17.0,True,cytokine,Severity of symptom flare after moderate exercise is linked to cytokine activity in chronic fatigue syndrome.
+IL-10,22571715,down,0,1,0,2012,Brenu,Marshall-Gradisnik,12.0,,True,cytokine,Longitudinal investigation of natural killer cells and cytokines in chronic fatigue syndrome/myalgic encephalomyelitis.
+IL-10,25834308,down,0,1,0,2015,Peterson,Marshall-Gradisnik,,5.0,True,cytokine,Cytokines in the cerebrospinal fluids of patients with chronic fatigue syndrome/myalgic encephalomyelitis.
+IL-10,34589849,down,0,1,0,2020,Groven,Reitan,58.0,54.0,True,cytokine,"MCP-1 is increased in patients with CFS and FM, whilst several other immune markers are significantly lower than healthy controls."
+IL-10,38600563,up,1,0,0,2024,Domingo,Castro-Marrero,23.0,31.0,True,cytokine,Association of circulating biomarkers with illness severity measures differentiates myalgic encephalomyelitis/chronic fatigue syndrome and post-COVID-
+IL-10,9723665,down,0,1,0,1998,Borish,Jones,10.0,,True,cytokine,Chronic fatigue syndrome: identification of distinct subgroups on the basis of allergy and psychologic variables.
+IL-10,9874656,up,1,0,0,1999,Zhang,Natelson,,,True,cytokine,Changes in immune parameters seen in Gulf War veterans but not in civilians with chronic fatigue syndrome.
+IL-12,19909538,up,1,0,0,2009,Fletcher,Klimas,,,True,cytokine,Plasma cytokines in women with chronic fatigue syndrome.
+IL-12,33367564,down,0,1,0,2021,Jason,Katz,,,True,cytokine,Risks for Developing Myalgic Encephalomyelitis/Chronic Fatigue Syndrome in College Students Following Infectious Mononucleosis: A Prospective Cohort S
+IL-13,20230500,down,0,1,0,2010,White,Light,19.0,17.0,True,cytokine,Severity of symptom flare after moderate exercise is linked to cytokine activity in chronic fatigue syndrome.
+IL-13,33367564,down,0,1,0,2021,Jason,Katz,,,True,cytokine,Risks for Developing Myalgic Encephalomyelitis/Chronic Fatigue Syndrome in College Students Following Infectious Mononucleosis: A Prospective Cohort S
+IL-17,22571715,down,0,1,0,2012,Brenu,Marshall-Gradisnik,12.0,,True,cytokine,Longitudinal investigation of natural killer cells and cytokines in chronic fatigue syndrome/myalgic encephalomyelitis.
+IL-17,34589849,down,0,1,0,2020,Groven,Reitan,58.0,54.0,True,cytokine,"MCP-1 is increased in patients with CFS and FM, whilst several other immune markers are significantly lower than healthy controls."
+IL-17,34829952,up,1,0,0,2021,Simonato,Baritussio,,,True,cytokine,"Tryptophan Metabolites, Cytokines, and Fatty Acid Binding Protein 2 in Myalgic Encephalomyelitis/Chronic Fatigue Syndrome."
+IL-2,2162397,down,0,1,0,1990,Gold,Corey,26.0,,True,cytokine,Chronic fatigue. A prospective clinical and virologic study.
+IL-2,22571715,up,1,0,0,2012,Brenu,Marshall-Gradisnik,12.0,,True,cytokine,Longitudinal investigation of natural killer cells and cytokines in chronic fatigue syndrome/myalgic encephalomyelitis.
+IL-2,34266470,up,2,1,1,2021,Eaton-Fitch,Marshall-Gradisnik,,,True,cytokine,The effect of IL-2 stimulation and treatment of TRPM3 on channel co-localisation with PIP2 and NK cell function in myalgic encephalomyelitis/chronic f
+IL-2,7839498,up,1,0,0,1994,Rasmussen,Wiik,,,True,cytokine,[Chronic fatigue syndrome--a controlled cross-sectional study].
+IL-2,7983659,up,1,0,0,1994,Rasmussen,Wiik,,,True,cytokine,Chronic fatigue syndrome--a controlled cross sectional study.
+IL-2,9874656,up,1,0,0,1999,Zhang,Natelson,,,True,cytokine,Changes in immune parameters seen in Gulf War veterans but not in civilians with chronic fatigue syndrome.
+IL-4,19909538,up,1,0,0,2009,Fletcher,Klimas,,,True,cytokine,Plasma cytokines in women with chronic fatigue syndrome.
+IL-4,34589849,down,0,1,0,2020,Groven,Reitan,58.0,54.0,True,cytokine,"MCP-1 is increased in patients with CFS and FM, whilst several other immune markers are significantly lower than healthy controls."
+IL-4,38600563,up,1,0,0,2024,Domingo,Castro-Marrero,23.0,31.0,True,cytokine,Association of circulating biomarkers with illness severity measures differentiates myalgic encephalomyelitis/chronic fatigue syndrome and post-COVID-
+IL-4,9466535,up,1,0,1,1998,Visser,Nagelkerken,4.0,,True,cytokine,CD4 T lymphocytes from patients with chronic fatigue syndrome have decreased interferon-gamma production and increased sensitivity to dexamethasone.
+IL-6,10634215,up,1,0,0,1999,Cannon,Komaroff,10.0,6.0,True,cytokine,Acute phase responses and cytokine secretion in chronic fatigue syndrome.
+IL-6,12214788,up,1,0,0,2002,Arnold,Grafman,6.0,,True,cytokine,Using an interleukin-6 challenge to evaluate neuropsychological performance in chronic fatigue syndrome.
+IL-6,17544255,down,0,1,0,2007,ter Wolbeek,Heijnen,11.0,,True,cytokine,Longitudinal analysis of pro- and anti-inflammatory cytokine production in severely fatigued adolescents.
+IL-6,1873478,mixed,1,1,0,1991,Chao,Peterson,,,True,cytokine,Altered cytokine release in peripheral blood mononuclear cell cultures from patients with the chronic fatigue syndrome.
+IL-6,19422646,null,0,0,1,2010,Robinson,Nimmo,33.0,,True,cytokine,"Plasma IL-6, its soluble receptors and F2-isoprostanes at rest and during exercise in chronic fatigue syndrome."
+IL-6,19909538,up,1,0,0,2009,Fletcher,Klimas,,,True,cytokine,Plasma cytokines in women with chronic fatigue syndrome.
+IL-6,25836975,down,0,2,0,2015,Brown,Newton,10.0,,True,cytokine,Abnormalities of AMPK activation and glucose uptake in cultured skeletal muscle cells from individuals with chronic fatigue syndrome.
+IL-6,26516304,down,0,1,0,2015,Hardcastle,Marshall-Gradisnik,,22.0,True,cytokine,Serum Immune Proteins in Moderate and Severe Chronic Fatigue Syndrome/Myalgic Encephalomyelitis Patients.
+IL-6,26965484,down,0,1,0,2016,Russell,Fletcher,,,True,cytokine,Illness progression in chronic fatigue syndrome: a shifting immune baseline.
+IL-6,29983634,down,0,1,0,2018,Lynn,Watson,48.0,,True,cytokine,Reduction of Glucocorticoid Receptor Function in Chronic Fatigue Syndrome.
+IL-6,30567628,up,1,0,0,2019,Russell,Pariante,,57.0,True,cytokine,"Persistent fatigue induced by interferon-alpha: a novel, inflammation-based, proxy model of chronic fatigue syndrome."
+IL-6,31282597,up,1,0,0,2019,Al-Rawaf,Gabr,150.0,50.0,True,cytokine,MicroRNAs as Biomarkers of Pain Intensity in Patients With Chronic Fatigue Syndrome.
+IL-6,34589849,down,0,1,0,2020,Groven,Reitan,58.0,54.0,True,cytokine,"MCP-1 is increased in patients with CFS and FM, whilst several other immune markers are significantly lower than healthy controls."
+IL-6,38600563,up,1,0,0,2024,Domingo,Castro-Marrero,23.0,31.0,True,cytokine,Association of circulating biomarkers with illness severity measures differentiates myalgic encephalomyelitis/chronic fatigue syndrome and post-COVID-
+IL-6,40372110,up,1,0,0,2025,Rohrhofer,Untersmayr,19.0,,True,cytokine,Gastrointestinal Barrier Disruption in Post-COVID Syndrome Fatigue Patients.
+IL-6,41463013,up,1,0,0,2025,Petrov,Maes,190.0,70.0,True,cytokine,Comparable Immune Alterations and Inflammatory Signatures in ME/CFS and Long COVID.
+IL-6,9917531,up,1,0,0,1999,Gupta,Starr,,,True,cytokine,Increased production of interleukin-6 by adherent and non-adherent mononuclear cells during 'natural fatigue' but not following 'experimental fatigue'
+IL-8 (CXCL8),12125506,up,1,0,0,2002,Repka-Ramirez,Baraniuk,95.0,,True,cytokine,"Cytokines in nasal lavage fluids from acute sinusitis, allergic rhinitis, and chronic fatigue syndrome subjects."
+IL-8 (CXCL8),15642984,up,1,0,0,2005,Natelson,Ottenweller,31.0,5.0,True,cytokine,Spinal fluid abnormalities in patients with chronic fatigue syndrome.
+IL-8 (CXCL8),26516304,up,1,0,0,2015,Hardcastle,Marshall-Gradisnik,,22.0,True,cytokine,Serum Immune Proteins in Moderate and Severe Chronic Fatigue Syndrome/Myalgic Encephalomyelitis Patients.
+Immunoglobulins / IgG subclasses,10738137,up,2,0,0,2000,Ablashi,Whitman,35.0,,True,immune,Frequent HHV-6 reactivation in multiple sclerosis (MS) and chronic fatigue syndrome (CFS) patients.
+Immunoglobulins / IgG subclasses,1319246,up,1,0,0,1992,Kawai,Kawai,1153.0,,True,immune,Studies on the relationship between chronic fatigue syndrome and Epstein-Barr virus in Japan.
+Immunoglobulins / IgG subclasses,1337560,up,1,0,0,1992,Nishikai,Nishikai,,,True,immune,[Chronic fatigue syndrome--study of 51 cases treated at the Second Tokyo National Hospital].
+Immunoglobulins / IgG subclasses,1656416,null,0,0,1,1991,Milton,Edwards,58.0,,True,immune,Immune responsiveness in chronic fatigue syndrome.
+Immunoglobulins / IgG subclasses,17007934,up,1,0,0,2007,Maes,Leunis,,,True,immune,Increased serum IgA and IgM against LPS of enterobacteria in chronic fatigue syndrome (CFS): indication for the involvement of gram-negative enterobac
+Immunoglobulins / IgG subclasses,18063934,up,1,0,0,2007,Maes,Leunis,14.0,11.0,True,immune,Increased serum IgM antibodies directed against phosphatidyl inositol (Pi) in chronic fatigue syndrome (CFS) and major depression: evidence that an Ig
+Immunoglobulins / IgG subclasses,1847316,up,1,0,1,1991,Miller,Hall,254.0,243.0,True,immune,Antibody to Coxsackie B virus in diagnosing postviral fatigue syndrome.
+Immunoglobulins / IgG subclasses,18580855,up,1,0,0,2008,Maes,Leunis,16.0,11.0,True,immune,An IgM-mediated immune response directed against nitro-bovine serum albumin (nitro-BSA) in chronic fatigue syndrome (CFS) and major depression: eviden
+Immunoglobulins / IgG subclasses,20827765,down,0,1,0,2010,Cameron,Lloyd,20.0,10.0,True,immune,"Serological and virological investigation of the role of the herpesviruses EBV, CMV and HHV-6 in post-infective fatigue syndrome."
+Immunoglobulins / IgG subclasses,22614823,up,2,0,0,2012,Maes,Geffard,26.0,17.0,True,immune,IgM-mediated autoimmune responses directed against anchorage epitopes are greater in Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS) than 
+Immunoglobulins / IgG subclasses,27536947,down,0,1,0,2016,Lunde,Fluge,,56.0,True,immune,"Serum BAFF and APRIL Levels, T-Lymphocyte Subsets, and Immunoglobulins after B-Cell Depletion Using the Monoclonal Anti-CD20 Antibody Rituximab in Mya"
+Immunoglobulins / IgG subclasses,2787888,down,0,1,0,1989,Lloyd,Dwyer,100.0,,True,immune,Immunological abnormalities in the chronic fatigue syndrome.
+Immunoglobulins / IgG subclasses,28604802,up,1,0,0,2017,Loebel,Scheibenbogen,92.0,50.0,True,immune,Serological profiling of the EBV immune response in Chronic Fatigue Syndrome using a peptide microarray.
+Immunoglobulins / IgG subclasses,2892990,up,1,0,0,1988,Yousef,Mowbray,87.0,30.0,True,immune,Chronic enterovirus infection in patients with postviral fatigue syndrome.
+Immunoglobulins / IgG subclasses,30942029,down,0,1,0,2019,Xu,Pan,120.0,,True,immune,[Clinical research of auricular gold-needle therapy in treatment of chronic fatigue syndrome of qi deficiency constitution].
+Immunoglobulins / IgG subclasses,36341457,up,1,0,0,2022,Apostolou,Rosén,95.0,,True,immune,Saliva antibody-fingerprint of reactivated latent viruses after mild/asymptomatic COVID-19 is unique in patients with myalgic-encephalomyelitis/chroni
+Immunoglobulins / IgG subclasses,39416767,down,0,1,0,2024,Ercoli,Brown,,,True,immune,Naturally acquired adaptive immunity to Streptococcus pneumoniae is impaired in rheumatoid arthritis patients.
+Immunoglobulins / IgG subclasses,41451845,up,1,0,0,2026,Palomo,Ariza,378.0,,True,immune,"Chronic Reactivation of Persistent Human Herpesviruses EBV, HHV-6 and VZV and Heightened Anti-dUTPase IgG Antibodies Are a Recurrent Hallmark in Post-"
+Immunoglobulins / IgG subclasses,7594679,down,0,1,0,1995,Patnaik,Peter,125.0,150.0,True,immune,Prevalence of IgM antibodies to human herpesvirus 6 early antigen (p41/38) in patients with chronic fatigue syndrome.
+Immunoglobulins / IgG subclasses,7632202,up,1,0,0,1995,Bates,Wybenga,579.0,,True,immune,Clinical laboratory test findings in patients with chronic fatigue syndrome.
+Immunoglobulins / IgG subclasses,7811864,up,1,0,1,1994,Manian,Manian,18.0,,True,immune,"Simultaneous measurement of antibodies to Epstein-Barr virus, human herpesvirus 6, herpes simplex virus types 1 and 2, and 14 enteroviruses in chronic"
+Immunoglobulins / IgG subclasses,7983659,down,0,1,0,1994,Rasmussen,Wiik,,,True,immune,Chronic fatigue syndrome--a controlled cross sectional study.
+Immunoglobulins / IgG subclasses,9661935,null,0,0,1,1998,Swanink,Hoogkamp-Korstanje,88.0,77.0,True,immune,Yersinia enterocolitica and the chronic fatigue syndrome.
+"LPS / bacterial translocation (sCD14, LBP)",15471616,down,0,1,0,2005,Gaab,Ehlert,,20.0,True,gut,Stress-induced changes in LPS-induced pro-inflammatory cytokine production in chronic fatigue syndrome.
+"LPS / bacterial translocation (sCD14, LBP)",17007934,up,1,0,0,2007,Maes,Leunis,,,True,gut,Increased serum IgA and IgM against LPS of enterobacteria in chronic fatigue syndrome (CFS): indication for the involvement of gram-negative enterobac
+"LPS / bacterial translocation (sCD14, LBP)",1873478,mixed,1,1,0,1991,Chao,Peterson,,,True,gut,Altered cytokine release in peripheral blood mononuclear cell cultures from patients with the chronic fatigue syndrome.
+"LPS / bacterial translocation (sCD14, LBP)",29983634,down,0,1,0,2018,Lynn,Watson,48.0,,True,gut,Reduction of Glucocorticoid Receptor Function in Chronic Fatigue Syndrome.
+"LPS / bacterial translocation (sCD14, LBP)",37744357,up,2,0,0,2023,Martín,Castro-Marrero,22.0,26.0,True,gut,Increased gut permeability and bacterial translocation are associated with fibromyalgia and myalgic encephalomyelitis/chronic fatigue syndrome: implic
+"LPS / bacterial translocation (sCD14, LBP)",38377418,up,1,0,0,2020,Jonsjö,Andreasson,,,True,gut,Patients with ME/CFS (Myalgic Encephalomyelitis/Chronic Fatigue Syndrome) and chronic pain report similar level of sickness behavior as individuals in
+"LPS / bacterial translocation (sCD14, LBP)",40372110,up,1,0,0,2025,Rohrhofer,Untersmayr,19.0,,True,gut,Gastrointestinal Barrier Disruption in Post-COVID Syndrome Fatigue Patients.
+"LPS / bacterial translocation (sCD14, LBP)",9917531,up,1,0,0,1999,Gupta,Starr,,,True,gut,Increased production of interleukin-6 by adherent and non-adherent mononuclear cells during 'natural fatigue' but not following 'experimental fatigue'
+Lactate (blood/muscle),15595287,up,1,0,0,2004,Wallman,Grove,,,True,metabolic,Physiological responses during a submaximal cycle test in chronic fatigue syndrome.
+Lactate (blood/muscle),29308330,null,0,0,1,2017,Natelson,Shungu,,,True,metabolic,Elevations of Ventricular Lactate Levels Occur in Both Chronic Fatigue Syndrome and Fibromyalgia.
+Lactate (blood/muscle),40652046,up,1,0,0,2025,Godlewska,Cowen,25.0,24.0,True,metabolic,Brain and muscle chemistry in myalgic encephalitis/chronic fatigue syndrome (ME/CFS) and long COVID: a 7T magnetic resonance spectroscopy study.
+Lactate (blood/muscle),9631403,down,0,1,0,1998,Lane,Lodi,,,True,metabolic,Heterogeneity in chronic fatigue syndrome: evidence from magnetic resonance spectroscopy of muscle.
+Leptin,11453960,null,0,0,1,2001,Cleare,Miell,32.0,,True,cytokine,Plasma leptin in chronic fatigue syndrome and a placebo-controlled study of the effects of low-dose hydrocortisone on leptin secretion.
+Leptin,38600563,up,1,0,0,2024,Domingo,Castro-Marrero,23.0,31.0,True,cytokine,Association of circulating biomarkers with illness severity measures differentiates myalgic encephalomyelitis/chronic fatigue syndrome and post-COVID-
+MRS choline / NAA / myo-inositol,39202651,up,1,0,0,2024,Kaur,Song,,,True,brain,A Multimodal Magnetic Resonance Imaging Study on Myalgic Encephalomyelitis/Chronic Fatigue Syndrome: Feasibility and Clinical Correlation.
+MRS lactate (ventricular),18942064,null,0,0,1,2009,Mathew,Shungu,16.0,15.0,True,brain,Ventricular cerebrospinal fluid lactate is increased in chronic fatigue syndrome compared with generalized anxiety disorder: an in vivo 3.0 T (1)H MRS
+MRS lactate (ventricular),20661876,null,0,0,1,2010,Murrough,Shungu,21.0,19.0,True,brain,Increased ventricular lactate in chronic fatigue syndrome measured by 1H MRS imaging at 3.0 T. II: comparison with major depressive disorder.
+MRS lactate (ventricular),26335989,up,1,0,0,2015,Natelson,Shungu,,,True,brain,"Effect of Milnacipran Treatment on Ventricular Lactate in Fibromyalgia: A Randomized, Double-Blind, Placebo-Controlled Trial."
+MRS lactate (ventricular),28320179,up,1,0,0,2017,Natelson,Shungu,26.0,,True,brain,Multimodal and simultaneous assessments of brain and spinal fluid abnormalities in chronic fatigue syndrome and the effects of psychiatric comorbidity
+Magnesium,1672392,down,0,1,0,1991,Cox,Dowson,32.0,,True,nutrient,Red blood cell magnesium and chronic fatigue syndrome.
+Mast cells,27362406,up,2,0,0,2017,Nguyen,Marshall-Gradisnik,12.0,13.0,True,immune,Novel characterisation of mast cell phenotypes from peripheral blood mononuclear cells in chronic fatigue syndrome/myalgic encephalomyelitis patients.
+Melatonin,10606381,up,1,0,2,1999,Korszun,Crofford,8.0,,True,endocrine,Melatonin levels in women with fibromyalgia and chronic fatigue syndrome.
+Melatonin,11061525,up,1,0,1,2000,Knook,Heijnen,13.0,,True,endocrine,High nocturnal melatonin in adolescents with chronic fatigue syndrome.
+Microclots / platelets / coagulation,17720950,down,0,1,0,2007,Niblett,Rothkirch,100.0,,True,vascular,Hematologic and urinary excretion anomalies in patients with chronic fatigue syndrome.
+Microclots / platelets / coagulation,36015078,up,1,0,0,2022,Nunes,Pretorius,,,True,vascular,The Occurrence of Hyperactivated Platelets and Fibrinaloid Microclots in Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS).
+Microclots / platelets / coagulation,40789036,up,1,0,0,2025,Gardella,De Vlaminck,,75.0,True,vascular,Circulating cell-free RNA signatures for the characterization and diagnosis of myalgic encephalomyelitis/chronic fatigue syndrome.
+Mitochondrial DNA,23600892,down,0,1,0,2013,Castro-Marrero,Alegre-Martin,23.0,15.0,True,mito,Could mitochondrial dysfunction be a differentiating marker between chronic fatigue syndrome and fibromyalgia?
+Mitochondrial DNA,26791940,null,0,0,1,2016,Billing-Ross,Hanson,193.0,,True,mito,Mitochondrial DNA variants correlate with symptoms in myalgic encephalomyelitis/chronic fatigue syndrome.
+Monocytes,12699429,null,0,0,1,2003,Amel Kashipaz,Powell,,,True,immune,Normal production of inflammatory cytokines in chronic fatigue and fibromyalgia syndromes determined by intracellular cytokine staining in short-term 
+Monocytes,32568152,up,1,0,0,2020,Tokunaga,Hudig,,,True,immune,Inclusion of family members without ME/CFS in research studies promotes discovery of biomarkers specific for ME/CFS.
+Monocytes,40789036,up,1,0,0,2025,Gardella,De Vlaminck,,75.0,True,immune,Circulating cell-free RNA signatures for the characterization and diagnosis of myalgic encephalomyelitis/chronic fatigue syndrome.
+Monocytes,42131622,up,1,0,0,2026,Ikeda,Bonilla,125.0,,True,immune,Plasma Extracellular Vesicle Surface Marker Profiling Reveals Immune Cell-Associated Mitochondrial Membrane Potential Alterations in Long COVID and My
+Monocytes,9917531,up,1,0,0,1999,Gupta,Starr,,,True,immune,Increased production of interleukin-6 by adherent and non-adherent mononuclear cells during 'natural fatigue' but not following 'experimental fatigue'
+Muscle pH / acidosis (31P-MRS),21749371,up,1,0,1,2012,Jones,Newton,10.0,12.0,True,muscle,Loss of capacity to recover from acidosis on repeat exercise in chronic fatigue syndrome: a case-control study.
+Muscle pH / acidosis (31P-MRS),9631403,down,0,1,0,1998,Lane,Lodi,,,True,muscle,Heterogeneity in chronic fatigue syndrome: evidence from magnetic resonance spectroscopy of muscle.
+Muscle strength / handgrip,18066580,down,0,1,0,2008,Wyller,Thaulow,56.0,,True,muscle,Sympathetic cardiovascular control during orthostatic stress and isometric exercise in adolescent chronic fatigue syndrome.
+Muscle strength / handgrip,25990639,down,0,1,0,2015,Miller,Patrick,16.0,16.0,True,muscle,Submaximal exercise testing with near-infrared spectroscopy in Myalgic Encephalomyelitis/Chronic Fatigue Syndrome patients compared to healthy control
+Muscle strength / handgrip,36042189,down,0,1,0,2022,Kedor,Scheibenbogen,19.0,,True,muscle,A prospective observational study of post-COVID-19 chronic fatigue syndrome following the first pandemic wave in Germany and biomarkers associated wit
+NK cell cytotoxicity/function,34266470,mixed,1,1,0,2021,Eaton-Fitch,Marshall-Gradisnik,,,True,immune,The effect of IL-2 stimulation and treatment of TRPM3 on channel co-localisation with PIP2 and NK cell function in myalgic encephalomyelitis/chronic f
+NK cell cytotoxicity/function,7871106,down,0,1,0,1994,Masuda,Tanaka,,,True,immune,Psychobehavioral and immunological characteristics of adult people with chronic fatigue and patients with chronic fatigue syndrome.
+NK cell cytotoxicity/function,8148441,down,0,1,0,1994,Barker,Levy,,,True,immune,Immunologic abnormalities associated with chronic fatigue syndrome.
+NK cell cytotoxicity/function,8675231,down,0,1,0,1996,See,Tilles,26.0,,True,immune,alpha-Interferon treatment of patients with chronic fatigue syndrome.
+NK cell cytotoxicity/function,9829439,up,1,0,0,1998,See,Tilles,,,True,immune,The in vitro immunomodulatory effects of glyconutrients on peripheral blood mononuclear cells of patients with chronic fatigue syndrome.
+NK cell number,12717688,up,1,0,0,2003,Stewart,Warner,90.0,50.0,True,immune,Predictive immunophenotypes: disease-related profile in chronic fatigue syndrome.
+NK cell number,20520837,null,0,0,1,2010,Fletcher,Klimas,176.0,230.0,True,immune,Biomarkers in chronic fatigue syndrome: evaluation of natural killer cell function and dipeptidyl peptidase IV/CD26.
+NK cell number,21585130,down,0,1,0,2011,Nas,Kalkanli,6.0,,True,immune,Immunologic and psychosocial status in chronic fatigue syndrome.
+NK cell number,22571715,down,0,1,0,2012,Brenu,Marshall-Gradisnik,12.0,,True,immune,Longitudinal investigation of natural killer cells and cytokines in chronic fatigue syndrome/myalgic encephalomyelitis.
+NK cell number,33777500,down,0,1,0,2020,Sung,Hudig,5.0,,True,immune,Antibody-Dependent Cell-mediated Cytotoxicity (ADCC) in Familial Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS).
+NK cell number,9874656,down,0,1,0,1999,Zhang,Natelson,,,True,immune,Changes in immune parameters seen in Gulf War veterans but not in civilians with chronic fatigue syndrome.
+Neuroinflammation (TSPO PET),24665088,up,1,0,0,2014,Nakatomi,Watanabe,,10.0,True,brain,Neuroinflammation in Patients with Chronic Fatigue Syndrome/Myalgic Encephalomyelitis: An ¹¹C-(R)-PK11195 PET Study.
+Neuropeptide Y,21190576,up,1,0,0,2010,Fletcher,Klimas,93.0,100.0,True,neuro,Plasma neuropeptide Y: a biomarker for symptom severity in chronic fatigue syndrome.
+Neutrophils,15280416,down,0,1,0,2004,Kennedy,Belch,47.0,34.0,True,immune,Increased neutrophil apoptosis in chronic fatigue syndrome.
+Neutrophils,17720950,down,0,1,0,2007,Niblett,Rothkirch,100.0,,True,immune,Hematologic and urinary excretion anomalies in patients with chronic fatigue syndrome.
+Neutrophils,20819963,up,1,0,0,2010,Kennedy,Belch,,,True,immune,Biochemical and vascular aspects of pediatric chronic fatigue syndrome.
+Neutrophils,39081289,down,0,1,0,2024,Ghosh,Soundararajan,19.0,,True,immune,Case-control study on post-COVID-19 conditions reveals severe acute infection and chronic pulmonary disease as potential risk factors.
+Nitric oxide / NO metabolites,20469961,up,2,0,0,2010,Suárez,Javierre,25.0,,True,vascular,Nitric oxide metabolite production during exercise in chronic fatigue syndrome: a case-control study.
+Nitric oxide / NO metabolites,29102461,up,1,0,0,2018,Mitra,Hazra,,,True,vascular,Effect of Coelogyne cristata Lindley in alleviation of chronic fatigue syndrome in aged Wistar rats.
+Nitric oxide / NO metabolites,38600563,down,0,1,0,2024,Domingo,Castro-Marrero,23.0,31.0,True,vascular,Association of circulating biomarkers with illness severity measures differentiates myalgic encephalomyelitis/chronic fatigue syndrome and post-COVID-
+Norepinephrine/catecholamines,10690878,up,1,0,1,2000,Kavelaars,Heijnen,,,True,autonomic,Disturbed neuroendocrine-immune interactions in chronic fatigue syndrome.
+Norepinephrine/catecholamines,11150897,down,0,1,1,2001,Ottenweller,Natelson,,,True,autonomic,Hormonal responses to exercise in chronic fatigue syndrome.
+Norepinephrine/catecholamines,11269790,up,1,0,0,2001,Streeten,Streeten,,,True,autonomic,Role of impaired lower-limb venous innervation in the pathogenesis of the chronic fatigue syndrome.
+Norepinephrine/catecholamines,17606539,up,1,0,0,2007,Wyller,Walløe,57.0,,True,autonomic,Abnormal thermoregulatory responses in adolescents with chronic fatigue syndrome: relation to clinical symptoms.
+Norepinephrine/catecholamines,17851136,up,1,0,0,2007,Boneva,Reeves,42.0,38.0,True,autonomic,Higher heart rate and reduced heart rate variability persist during sleep in chronic fatigue syndrome: a population-based study.
+Norepinephrine/catecholamines,18066580,up,1,0,0,2008,Wyller,Thaulow,56.0,,True,autonomic,Sympathetic cardiovascular control during orthostatic stress and isometric exercise in adolescent chronic fatigue syndrome.
+Norepinephrine/catecholamines,23770415,down,0,1,0,2013,Strahler,Gaab,21.0,,True,autonomic,Norepinephrine and epinephrine responses to physiological and pharmacological stimulation in chronic fatigue syndrome.
+Norepinephrine/catecholamines,24493300,mixed,1,1,0,2014,Sulheim,Wyller,176.0,,True,autonomic,Disease mechanisms and clonidine treatment in adolescent chronic fatigue syndrome: a combined cross-sectional and randomized clinical trial.
+Norepinephrine/catecholamines,24656688,up,1,0,0,2014,Zeller,Bruun Wyller,87.0,,True,autonomic,"Chronic fatigue in adult survivors of childhood cancer: associated symptoms, neuroendocrine markers, and autonomic cardiovascular responses."
+Norepinephrine/catecholamines,26357864,down,0,1,0,2015,Fagermoen,Wyller,176.0,,True,autonomic,Effects of low-dose clonidine on cardiovascular and autonomic variables in adolescents with chronic fatigue: a randomized controlled trial.
+Orthostatic hypotension,10698092,null,0,0,1,2000,Davis,Sall,14.0,,True,orthostatic,Neurally mediated hypotension in fatigued Gulf War veterans: a preliminary report.
+Orthostatic hypotension,10926298,down,0,1,0,2000,Stewart,Stewart,22.0,10.0,True,orthostatic,Autonomic nervous system dysfunction in adolescents with postural orthostatic tachycardia syndrome and chronic fatigue syndrome is characterized by at
+Orthostatic hypotension,11150109,down,0,1,0,2001,Rowe,Straus,7.0,,True,orthostatic,Fludrocortisone acetate to treat neurally mediated hypotension in chronic fatigue syndrome: a randomized controlled trial.
+Orthostatic hypotension,12563023,null,0,0,1,2003,Yamamoto,Natelson,46.0,,True,orthostatic,A measure of heart rate variability is sensitive to orthostatic challenge in women with chronic fatigue syndrome.
+Orthostatic hypotension,12593133,up,1,0,0,2003,Razumovsky,Rowe,26.0,23.0,True,orthostatic,Cerebral and systemic hemodynamics changes during upright tilt in chronic fatigue syndrome.
+Orthostatic hypotension,12829200,down,0,1,0,2003,Blockmans,Bobbaers,100.0,,True,orthostatic,"Combination therapy with hydrocortisone and fludrocortisone does not improve symptoms in chronic fatigue syndrome: a randomized, placebo-controlled, d"
+Orthostatic hypotension,17263876,null,0,0,1,2007,Natelson,Stewart,62.0,62.0,True,orthostatic,Hypocapnia is a biological marker for orthostatic intolerance in some patients with chronic fatigue syndrome.
+Orthostatic tachycardia / POTS prevalence,10910366,up,1,0,0,2000,Streeten,Bell,12.0,,True,orthostatic,"The roles of orthostatic hypotension, orthostatic tachycardia, and subnormal erythrocyte volume in the pathogenesis of the chronic fatigue syndrome."
+Orthostatic tachycardia / POTS prevalence,10926298,down,1,2,0,2000,Stewart,Stewart,22.0,10.0,True,orthostatic,Autonomic nervous system dysfunction in adolescents with postural orthostatic tachycardia syndrome and chronic fatigue syndrome is characterized by at
+Orthostatic tachycardia / POTS prevalence,12593133,down,0,1,0,2003,Razumovsky,Rowe,26.0,23.0,True,orthostatic,Cerebral and systemic hemodynamics changes during upright tilt in chronic fatigue syndrome.
+Orthostatic tachycardia / POTS prevalence,15296795,down,0,1,0,2004,Yoshiuchi,Natelson,,25.0,True,orthostatic,Use of time-frequency analysis to investigate temporal patterns of cardiac autonomic response during head-up tilt in chronic fatigue syndrome.
+Orthostatic tachycardia / POTS prevalence,17263876,null,0,0,1,2007,Natelson,Stewart,62.0,62.0,True,orthostatic,Hypocapnia is a biological marker for orthostatic intolerance in some patients with chronic fatigue syndrome.
+Orthostatic tachycardia / POTS prevalence,18091356,down,0,2,0,2008,Galland,Taylor,,,True,orthostatic,A matched case control study of orthostatic intolerance in children/adolescents with chronic fatigue syndrome.
+Orthostatic tachycardia / POTS prevalence,21906029,up,2,0,0,2012,Okamoto,Biaggioni,58.0,,True,orthostatic,Neurohumoral and haemodynamic profile in postural tachycardia and chronic fatigue syndromes.
+Orthostatic tachycardia / POTS prevalence,21919887,down,0,1,0,2012,Ocon,Stewart,20.0,,True,orthostatic,Increasing orthostatic stress impairs neurocognitive functioning in chronic fatigue syndrome with postural tachycardia syndrome.
+Orthostatic tachycardia / POTS prevalence,32140630,down,0,1,0,2020,van Campen,Visser,,44.0,True,orthostatic,"Cerebral blood flow is reduced in ME/CFS during head-up tilt testing even in the absence of hypotension or tachycardia: A quantitative, controlled stu"
+Orthostatic tachycardia / POTS prevalence,37303862,null,0,0,2,2023,van Campen,Visser,,,True,orthostatic,Orthostatic chronotropic incompetence in patients with myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS).
+Orthostatic tachycardia / POTS prevalence,39768649,up,1,0,0,2024,van Campen,Visser,,48.0,True,orthostatic,Two Different Hemodynamic Responses in ME/CFS Patients with Postural Orthostatic Tachycardia Syndrome During Head-Up Tilt Testing.
+Other autoantibodies (ANA etc.),12851722,up,1,0,0,2003,Tanaka,Amino,60.0,30.0,True,autoantibody,Autoantibodies against muscarinic cholinergic receptor in chronic fatigue syndrome.
+Other autoantibodies (ANA etc.),15175170,up,1,0,0,2004,Vojdani,Thrasher,,100.0,True,autoantibody,Cellular and humoral immune abnormalities in Gulf War veterans.
+Other autoantibodies (ANA etc.),34589837,up,1,0,0,2020,Hartwig,Scheibenbogen,,6.0,True,autoantibody,IgG stimulated β2 adrenergic receptor activation is attenuated in patients with ME/CFS.
+Other autoantibodies (ANA etc.),35736644,up,1,0,0,2022,Danilenko,Churilov,,,True,autoantibody,Chronic Fatigue Exhibits Heterogeneous Autoimmunity Characteristics Which Reflect Etiology.
+Other autoantibodies (ANA etc.),40141440,null,0,0,1,2025,Germain,Hanson,172.0,,True,autoantibody,An In-Depth Exploration of the Autoantibody Immune Profile in ME/CFS Using Novel Antigen Profiling Techniques.
+Other autoantibodies (ANA etc.),9344332,down,0,1,0,1997,Itoh,Yamamoto,80.0,,True,autoantibody,Antinuclear antibodies in children with chronic nonspecific complaints.
+Oxidative stress markers (MDA/isoprostanes/ROS),12531455,down,0,1,0,2003,Vecchiet,Giamberardino,21.0,,True,metabolic,Relationship between musculoskeletal symptoms and blood markers of oxidative stress in patients with chronic fatigue syndrome.
+Oxidative stress markers (MDA/isoprostanes/ROS),15715687,up,1,0,0,2005,Jammes,Delliaux,15.0,,True,metabolic,Chronic fatigue syndrome: assessment of increased oxidative stress and altered muscle excitability in response to incremental exercise.
+Oxidative stress markers (MDA/isoprostanes/ROS),16085177,up,1,0,0,2005,Kennedy,Belch,,34.0,True,metabolic,Oxidative stress levels are raised in chronic fatigue syndrome and are associated with clinical symptoms.
+Oxidative stress markers (MDA/isoprostanes/ROS),17174731,down,0,1,0,2007,Richards,Jelinek,41.0,,True,metabolic,Erythrocyte oxidative damage in chronic fatigue syndrome.
+Oxidative stress markers (MDA/isoprostanes/ROS),20035260,up,1,0,0,2009,Maes,Bosmans,44.0,17.0,True,metabolic,"Increased 8-hydroxy-deoxyguanosine, a marker of oxidative damage to DNA, in major depression and myalgic encephalomyelitis / chronic fatigue syndrome."
+Oxidative stress markers (MDA/isoprostanes/ROS),20676841,up,1,0,0,2010,Miwa,Fujita,27.0,,True,metabolic,Fluctuation of serum vitamin E (alpha-tocopherol) concentrations during exacerbation and remission phases in patients with chronic fatigue syndrome.
+Oxidative stress markers (MDA/isoprostanes/ROS),20819963,up,2,0,0,2010,Kennedy,Belch,,,True,metabolic,Biochemical and vascular aspects of pediatric chronic fatigue syndrome.
+Oxidative stress markers (MDA/isoprostanes/ROS),22112145,up,1,0,0,2012,Jammes,Delliaux,43.0,,True,metabolic,Chronic fatigue syndrome: acute infection and history of physical activity affect resting levels and response to exercise of plasma oxidant/antioxidan
+Oxidative stress markers (MDA/isoprostanes/ROS),23600892,up,1,0,0,2013,Castro-Marrero,Alegre-Martin,23.0,15.0,True,metabolic,Could mitochondrial dysfunction be a differentiating marker between chronic fatigue syndrome and fibromyalgia?
+Oxidative stress markers (MDA/isoprostanes/ROS),24231834,up,2,0,0,2014,Belcaro,Ippolito,91.0,5.0,True,metabolic,"Improved management of primary chronic fatigue syndrome with the supplement French oak wood extract (Robuvit®): a pilot, registry evaluation."
+Oxidative stress markers (MDA/isoprostanes/ROS),24551611,up,1,0,0,2013,Sivaranjani,Rajeev,,25.0,True,metabolic,Role of reactive oxygen species and antioxidants in atopic dermatitis.
+Oxidative stress markers (MDA/isoprostanes/ROS),27580693,up,2,0,0,2016,Fenouillet,Jammes,,,True,metabolic,Association of biomarkers with health-related quality of life and history of stressors in myalgic encephalomyelitis/chronic fatigue syndrome patients.
+Oxidative stress markers (MDA/isoprostanes/ROS),29102461,up,1,0,0,2018,Mitra,Hazra,,,True,metabolic,Effect of Coelogyne cristata Lindley in alleviation of chronic fatigue syndrome in aged Wistar rats.
+Oxidative stress markers (MDA/isoprostanes/ROS),30338680,up,1,0,0,2018,Belcaro,Cesarone,18.0,,True,metabolic,Supplementation with Robuvit® in post-traumatic stress disorders associated to high oxidative stress.
+Oxidative stress markers (MDA/isoprostanes/ROS),38746454,up,1,0,0,2024,Shankar,Davis,65.0,16.0,True,metabolic,Oxidative Stress is a shared characteristic of ME/CFS and Long COVID.
+Oxidative stress markers (MDA/isoprostanes/ROS),40627396,up,1,0,0,2025,Shankar,Davis,65.0,25.0,True,metabolic,Oxidative stress is a shared characteristic of ME/CFS and Long COVID.
+Peak VO2 / exercise capacity,10945803,mixed,1,1,0,2000,Fulcher,White,15.0,30.0,True,exercise,Strength and physiological response to exercise in patients with chronic fatigue syndrome.
+Peak VO2 / exercise capacity,11088089,down,0,1,0,2000,De Becker,De Meirleir,,,True,exercise,Exercise capacity in chronic fatigue syndrome.
+Peak VO2 / exercise capacity,11748048,down,0,2,0,2002,Farquhar,Freeman,,,True,exercise,Blood volume and its relation to peak O(2) consumption and physical activity in patients with chronic fatigue.
+Peak VO2 / exercise capacity,12708966,down,0,1,0,2003,Georgiades,Pitsiladis,12.0,,True,exercise,Chronic fatigue syndrome: new evidence for a central fatigue disorder.
+Peak VO2 / exercise capacity,14529252,down,0,1,1,2003,Nagelkirk,LaManca,,9.0,True,exercise,Aerobic capacity of Gulf War veterans with chronic fatigue syndrome.
+Peak VO2 / exercise capacity,16177595,null,0,0,1,2005,Cook,Natelson,,,True,exercise,Exercise and cognitive performance in chronic fatigue syndrome.
+Peak VO2 / exercise capacity,18671793,down,0,1,0,2008,Patrick Neary,Sexsmith,,,True,exercise,Prefrontal cortex oxygenation during incremental exercise in chronic fatigue syndrome.
+Peak VO2 / exercise capacity,2249024,down,0,1,0,1990,Riley,Nicholls,13.0,,True,exercise,Aerobic work capacity in patients with chronic fatigue syndrome.
+Peak VO2 / exercise capacity,25512240,down,0,1,0,2015,Aerenhouts,Nijs,42.0,,True,exercise,"Sleep characteristics, exercise capacity and physical activity in patients with chronic fatigue syndrome."
+Peak VO2 / exercise capacity,31161646,down,0,1,2,2019,Lien,Iversen,18.0,,True,exercise,Abnormal blood lactate accumulation during repeated exercise testing in myalgic encephalomyelitis/chronic fatigue syndrome.
+Peak VO2 / exercise capacity,32629923,down,0,1,0,2020,van Campen,Visser,82.0,,True,exercise,Two-Day Cardiopulmonary Exercise Testing in Females with a Severe Grade of Myalgic Encephalomyelitis/Chronic Fatigue Syndrome: Comparison with Patient
+Peak VO2 / exercise capacity,40426965,down,0,1,0,2025,Cherneva,Mitev,192.0,,True,exercise,Autonomic Dysfunction and Low Cardio-Respiratory Fitness in Long-Term Post-COVID-19 Syndrome.
+Peak VO2 / exercise capacity,41293716,null,0,0,1,2025,Mancini,Natelson,57.0,,True,exercise,Abnormal breathing patterns and hyperventilation are common in patients with chronic fatigue syndrome during exercise.
+Peak VO2 / exercise capacity,42649155,down,0,1,0,2026,Charlton,Wüst,,,True,exercise,Skeletal muscle properties in long COVID and ME/CFS differ from those induced by bed rest.
+Peak VO2 / exercise capacity,8678084,down,0,1,0,1996,Sisto,Natelson,10.0,22.0,True,exercise,Metabolic and cardiovascular effects of a progressive exercise test in patients with chronic fatigue syndrome.
+Phospholipids/phosphatidylcholine/choline,12197861,up,1,0,0,2002,Puri,Davey,,,True,metabolic,Relative increase in choline in the occipital cortex in chronic fatigue syndrome.
+Plasma volume,19469714,down,0,1,0,2009,Hurwitz,Bilsker,146.0,,True,orthostatic,"Chronic fatigue syndrome: illness severity, sedentary lifestyle, blood volume and evidence of diminished cardiac function."
+Prolactin,10931086,up,1,0,0,2000,Moorkens,Abs,73.0,,True,endocrine,Characterization of pituitary function with emphasis on GH secretion in the chronic fatigue syndrome.
+Prolactin,11150897,down,0,1,0,2001,Ottenweller,Natelson,,,True,endocrine,Hormonal responses to exercise in chronic fatigue syndrome.
+Prolactin,8550954,up,1,0,0,1995,Cleare,O'Keane,15.0,25.0,True,endocrine,Contrasting neuroendocrine responses in depression and chronic fatigue syndrome.
+Prolactin,8938208,up,1,0,0,1996,Sharpe,Cowen,11.0,,True,endocrine,Increased prolactin response to buspirone in chronic fatigue syndrome.
+"Pupil / eye (convergence, pupillometry)",27799582,down,0,1,0,2016,Godts,Mathysen,,,True,autonomic,Binocular Vision in Chronic Fatigue Syndrome.
+Purine / uric acid,11528543,down,0,1,0,2001,Fuentes,Hultsch,16.0,16.0,True,metabolic,Intraindividual variability in cognitive performance in persons with chronic fatigue syndrome.
+Purine / uric acid,12531455,down,0,1,0,2003,Vecchiet,Giamberardino,21.0,,True,metabolic,Relationship between musculoskeletal symptoms and blood markers of oxidative stress in patients with chronic fatigue syndrome.
+Purine / uric acid,22210239,up,1,0,0,2012,White,Light,22.0,23.0,True,metabolic,"Differences in metabolite-detecting, adrenergic, and immune gene expression after moderate exercise in patients with chronic fatigue syndrome, patient"
+Purine / uric acid,24511456,up,1,0,0,2014,Jason,Simonis,236.0,86.0,True,metabolic,Examining case definition criteria for chronic fatigue syndrome and myalgic encephalomyelitis.
+Purine / uric acid,34454515,up,1,0,0,2021,Nkiliza,Abdullah,,50.0,True,metabolic,"Sex-specific plasma lipid profiles of ME/CFS patients and their association with pain, fatigue, and cognitive symptoms."
+Purine / uric acid,37755264,up,1,0,0,2023,Brydges,Fiehn,197.0,,True,metabolic,Bayesian Statistics Improves Biological Interpretability of Metabolomics Data from Human Cohorts.
+Purine / uric acid,39302151,down,0,1,0,2024,Abujrais,Bergquist,24.0,,True,metabolic,Untargeted Metabolomics and Quantitative Analysis of Tryptophan Metabolites in Myalgic Encephalomyelitis Patients and Healthy Volunteers: A Comparativ
+Red cell volume/mass,19469714,down,0,1,0,2009,Hurwitz,Bilsker,146.0,,True,orthostatic,"Chronic fatigue syndrome: illness severity, sedentary lifestyle, blood volume and evidence of diminished cardiac function."
+Regulatory T cells,23244635,null,0,0,1,2012,Prinsen,van Laarhoven,,,True,immune,Humoral and cellular immune responses after influenza vaccination in patients with chronic fatigue syndrome.
+Regulatory T cells,27001659,up,1,0,0,2016,Ramos,Marshall-Gradisnik,11.0,27.0,True,immune,"Regulatory T, natural killer T and γδ T cells in multiple sclerosis and chronic fatigue syndrome/myalgic encephalomyelitis: a comparison."
+Regulatory T cells,29867995,up,1,0,0,2018,Rivas,García,76.0,73.0,True,immune,Association of T and NK Cell Phenotype With the Diagnosis of Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS).
+Renin,27401397,down,0,1,0,2017,Miwa,Miwa,18.0,15.0,True,endocrine,Down-regulation of renin-aldosterone and antidiuretic hormone systems in patients with myalgic encephalomyelitis/chronic fatigue syndrome.
+Renin,9292244,down,0,1,0,1997,De Lorenzo,Kakkar,78.0,38.0,True,endocrine,Pathogenesis and management of delayed orthostatic hypotension in patients with chronic fatigue syndrome.
+Resting heart rate,11088089,up,1,0,0,2000,De Becker,De Meirleir,,,True,autonomic,Exercise capacity in chronic fatigue syndrome.
+Resting heart rate,12357281,up,1,0,0,2002,Timmers,Lenders,36.0,36.0,True,autonomic,Hemodynamic and neurohumoral responses to head-up tilt in patients with chronic fatigue syndrome.
+Resting heart rate,33050553,null,0,0,1,2020,Campen,Visser,90.0,15.0,True,autonomic,Reductions in Cerebral Blood Flow Can Be Provoked by Sitting in Severe Myalgic Encephalomyelitis/Chronic Fatigue Syndrome Patients.
+Serotonin/5-HT,23664637,up,1,0,0,2013,Maes,Geffard,117.0,35.0,True,neuro,"In myalgic encephalomyelitis/chronic fatigue syndrome, increased autoimmune activity against 5-HT is associated with immuno-inflammatory pathways and "
+Serotonin/5-HT,25227994,down,0,1,0,2014,The,Buitelaar,,,True,neuro,"Tryptophan depletion in chronic fatigue syndrome, a pilot cross-over study."
+Serotonin/5-HT,26399744,null,0,0,1,2016,Loebel,Scheibenbogen,25.0,,True,neuro,Antibodies to β adrenergic and muscarinic cholinergic receptors in patients with Chronic Fatigue Syndrome.
+Serotonin/5-HT,34829952,down,0,1,0,2021,Simonato,Baritussio,,,True,neuro,"Tryptophan Metabolites, Cytokines, and Fatty Acid Binding Protein 2 in Myalgic Encephalomyelitis/Chronic Fatigue Syndrome."
+Serotonin/5-HT,39356444,null,0,0,1,2025,Mathé,Kern,34.0,14.0,True,neuro,No reduced serum serotonin levels in patients with post-acute sequelae of COVID-19.
+Serotonin/5-HT,8550954,down,0,1,0,1995,Cleare,O'Keane,15.0,25.0,True,neuro,Contrasting neuroendocrine responses in depression and chronic fatigue syndrome.
+Sleep architecture / alpha intrusion,12749553,mixed,1,1,0,2003,Watson,Buchwald,,,True,sleep,Comparison of subjective and objective measures of insomnia in monozygotic twins discordant for chronic fatigue syndrome.
+Sleep architecture / alpha intrusion,15016580,up,1,0,0,2004,Ball,Armitage,,,True,sleep,Monozygotic twins discordant for chronic fatigue syndrome: objective measures of sleep.
+Sleep architecture / alpha intrusion,17109739,null,0,0,1,2006,Reeves,Rye,,,True,sleep,Sleep characteristics of persons with chronic fatigue syndrome and non-fatigued controls: results from a population-based study.
+Sleep architecture / alpha intrusion,18417644,down,0,1,0,2008,Kishi,Yamamoto,22.0,,True,sleep,Dynamics of sleep stage transitions in healthy humans and patients with chronic fatigue syndrome.
+Sleep architecture / alpha intrusion,18474105,down,0,1,0,2008,Togo,Rapoport,26.0,26.0,True,sleep,Sleep structure and sleepiness in chronic fatigue syndrome with or without coexisting fibromyalgia.
+Sleep architecture / alpha intrusion,19424087,down,0,1,0,2009,Neu,Le Bon,30.0,14.0,True,sleep,High slow-wave sleep and low-light sleep: chronic fatigue syndrome is not likely to be a primary sleep disorder.
+Sleep architecture / alpha intrusion,20010134,null,0,0,1,2010,Togo,Cook,,,True,sleep,Sleep is not disrupted by exercise in patients with chronic fatigue syndromes.
+Sleep architecture / alpha intrusion,21435231,down,0,1,0,2011,Moldofsky,Patcai,22.0,,True,sleep,"Chronic widespread musculoskeletal pain, fatigue, depression and disordered sleep in chronic post-SARS syndrome; a case-controlled study."
+Sleep architecture / alpha intrusion,22043126,up,2,0,0,2011,Kishi,Yamamoto,26.0,,True,sleep,Sleep-stage dynamics in patients with chronic fatigue syndrome with or without fibromyalgia.
+Sleep architecture / alpha intrusion,23499514,up,1,0,1,2013,Togo,Natelson,55.0,19.0,True,sleep,Heart rate variability during sleep and subsequent sleepiness in patients with chronic fatigue syndrome.
+Sleep architecture / alpha intrusion,24400154,up,1,0,0,2013,Kishi,Natelson,17.0,,True,sleep,The effects of exercise on dynamic sleep morphology in healthy controls and patients with chronic fatigue syndrome.
+Sleep architecture / alpha intrusion,42129014,down,0,1,0,2026,Saurel,Saidi,,38.0,True,sleep,Sleep in myalgic encephalomyelitis/chronic fatigue syndrome shows marked night-to-night fluctuation under free-living conditions-results from a matche
+Sphingolipids/ceramides,30788942,down,0,1,0,2018,Chi,Song,,,True,metabolic,[Comparison of differential metabolites in urine of the middle school students with chronic fatigue syndrome before and after exercise].
+Sphingolipids/ceramides,31947545,up,1,0,0,2020,Germain,Hanson,65.0,,True,metabolic,Comprehensive Circulatory Metabolomics in ME/CFS Reveals Disrupted Metabolism of Acyl Lipids and Steroids.
+Sphingolipids/ceramides,34454515,down,0,1,0,2021,Nkiliza,Abdullah,,50.0,True,metabolic,"Sex-specific plasma lipid profiles of ME/CFS patients and their association with pain, fatigue, and cognitive symptoms."
+Stroke volume / cardiac output,10200892,down,0,1,0,1999,LaManca,Natelson,31.0,,True,orthostatic,Cardiovascular response during head-up tilt in chronic fatigue syndrome.
+Stroke volume / cardiac output,12357281,down,0,1,0,2002,Timmers,Lenders,36.0,36.0,True,orthostatic,Hemodynamic and neurohumoral responses to head-up tilt in patients with chronic fatigue syndrome.
+Stroke volume / cardiac output,17398200,mixed,1,1,0,2007,Wyller,Thaulow,33.0,,True,orthostatic,Usefulness of an abnormal cardiovascular response during low-grade head-up tilt-test for discriminating adolescents with chronic fatigue from healthy 
+Stroke volume / cardiac output,18636530,down,0,1,0,2008,Miwa,Fujita,56.0,,True,orthostatic,Small heart syndrome in patients with chronic fatigue syndrome.
+Stroke volume / cardiac output,19469714,down,0,1,0,2009,Hurwitz,Bilsker,146.0,,True,orthostatic,"Chronic fatigue syndrome: illness severity, sedentary lifestyle, blood volume and evidence of diminished cardiac function."
+Stroke volume / cardiac output,19632517,down,0,1,0,2009,Miwa,Fujita,42.0,,True,orthostatic,"Cardiac function fluctuates during exacerbation and remission in young adults with chronic fatigue syndrome and ""small heart""."
+Stroke volume / cardiac output,21793948,down,0,1,0,2012,Hollingsworth,Newton,12.0,10.0,True,orthostatic,Impaired cardiac function in chronic fatigue syndrome measured using magnetic resonance cardiac tagging.
+Stroke volume / cardiac output,22120591,down,0,1,0,2011,Miwa,Fujita,11.0,,True,orthostatic,Small heart with low cardiac output for orthostatic intolerance in patients with chronic fatigue syndrome.
+Stroke volume / cardiac output,22157881,up,1,0,0,2012,Cook,Natelson,,14.0,True,orthostatic,Responses to exercise differ for chronic fatigue syndrome patients with fibromyalgia.
+Stroke volume / cardiac output,24736946,down,0,2,0,2015,Miwa,Miwa,40.0,,True,orthostatic,Cardiac dysfunction and orthostatic intolerance in patients with myalgic encephalomyelitis and a small left ventricle.
+Stroke volume / cardiac output,27401397,down,0,1,0,2017,Miwa,Miwa,18.0,15.0,True,orthostatic,Down-regulation of renin-aldosterone and antidiuretic hormone systems in patients with myalgic encephalomyelitis/chronic fatigue syndrome.
+Stroke volume / cardiac output,33577778,down,0,1,0,2021,Joseph,Systrom,160.0,,True,orthostatic,Insights From Invasive Cardiopulmonary Exercise Testing of Patients With Myalgic Encephalomyelitis/Chronic Fatigue Syndrome.
+Stroke volume / cardiac output,35056336,down,0,2,0,2021,Campen,Visser,19.0,,True,orthostatic,Orthostatic Symptoms and Reductions in Cerebral Blood Flow in Long-Haul COVID-19 Patients: Similarities with Myalgic Encephalomyelitis/Chronic Fatigue
+Stroke volume / cardiac output,37303862,down,0,1,0,2023,van Campen,Visser,,,True,orthostatic,Orthostatic chronotropic incompetence in patients with myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS).
+T cell exhaustion markers,10226888,null,0,0,1,1999,LaManca,Natelson,24.0,14.0,True,immune,Immunological response in chronic fatigue syndrome following a graded exercise test to exhaustion.
+T cell exhaustion markers,11088089,down,0,1,0,2000,De Becker,De Meirleir,,,True,immune,Exercise capacity in chronic fatigue syndrome.
+T cell exhaustion markers,1446478,down,0,1,1,1992,Wong,Montague,22.0,,True,immune,Skeletal muscle metabolism in the chronic fatigue syndrome. In vivo assessment by 31P nuclear magnetic resonance spectroscopy.
+T cell exhaustion markers,18671793,down,0,1,1,2008,Patrick Neary,Sexsmith,,,True,immune,Prefrontal cortex oxygenation during incremental exercise in chronic fatigue syndrome.
+T cell exhaustion markers,35869349,down,0,1,0,2023,Müller,Knoop,,,True,immune,Response Shift After Cognitive Behavioral Therapy Targeting Severe Fatigue: Explorative Analysis of Three Randomized Controlled Trials.
+TGF-beta,1873478,mixed,1,1,0,1991,Chao,Peterson,,,True,cytokine,Altered cytokine release in peripheral blood mononuclear cell cultures from patients with the chronic fatigue syndrome.
+TGF-beta,22118314,up,1,0,0,2011,Zhang,Li,63.0,50.0,True,cytokine,Up-regulation of TGF-β1 mRNA expression in peripheral blood mononuclear cells of patients with chronic fatigue syndrome.
+TGF-beta,28760971,up,1,0,0,2017,Montoya,Davis,,392.0,True,cytokine,Cytokine signature associated with disease severity in chronic fatigue syndrome patients.
+TGF-beta,28779554,up,2,0,0,2017,Clark,White,,,True,cytokine,Cytokine responses to exercise and activity in patients with chronic fatigue syndrome: case-control study.
+TGF-beta,29284500,null,0,0,1,2017,Roerink,van der Meer,,,True,cytokine,Cytokine signatures in chronic fatigue syndrome patients: a Case Control Study and the effect of anakinra treatment.
+TGF-beta,34589849,down,0,1,0,2020,Groven,Reitan,58.0,54.0,True,cytokine,"MCP-1 is increased in patients with CFS and FM, whilst several other immune markers are significantly lower than healthy controls."
+TGF-beta,7496949,up,1,0,1,1994,Peterson,Chao,10.0,,True,cytokine,Effects of mild exercise on cytokines and cerebral blood flow in chronic fatigue syndrome patients.
+TGF-beta,9083892,up,1,0,0,1997,Bennett,Komaroff,,,True,cytokine,Elevation of bioactive transforming growth factor-beta in serum from patients with chronic fatigue syndrome.
+TNF-alpha,10535608,up,1,0,0,1999,Moss,Vojdani,,,True,cytokine,TNF-alpha and chronic fatigue syndrome.
+TNF-alpha,12125506,up,1,0,0,2002,Repka-Ramirez,Baraniuk,95.0,,True,cytokine,"Cytokines in nasal lavage fluids from acute sinusitis, allergic rhinitis, and chronic fatigue syndrome subjects."
+TNF-alpha,15280416,up,1,0,0,2004,Kennedy,Belch,47.0,34.0,True,cytokine,Increased neutrophil apoptosis in chronic fatigue syndrome.
+TNF-alpha,16762155,up,1,0,0,2006,Carlo-Stella,Cuccia,80.0,,True,cytokine,A first study of cytokine genomic polymorphisms in CFS: Positive association of TNF-857 and IFNgamma 874 rare alleles.
+TNF-alpha,17544255,down,0,1,0,2007,ter Wolbeek,Heijnen,11.0,,True,cytokine,Longitudinal analysis of pro- and anti-inflammatory cytokine production in severely fatigued adolescents.
+TNF-alpha,1873478,up,1,0,0,1991,Chao,Peterson,,,True,cytokine,Altered cytokine release in peripheral blood mononuclear cell cultures from patients with the chronic fatigue syndrome.
+TNF-alpha,20230500,down,0,1,0,2010,White,Light,19.0,17.0,True,cytokine,Severity of symptom flare after moderate exercise is linked to cytokine activity in chronic fatigue syndrome.
+TNF-alpha,21975140,up,1,0,0,2012,Maes,Ringel,107.0,20.0,True,cytokine,Evidence for inflammation and activation of cell-mediated immunity in Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS): increased interleuk
+TNF-alpha,22832503,up,1,0,0,2012,Maes,Ringel,,,True,cytokine,Inflammatory and cell-mediated immune biomarkers in myalgic encephalomyelitis/chronic fatigue syndrome and depression: inflammatory markers are higher
+TNF-alpha,23842110,up,1,0,0,2013,Groeger,Quigley,,,True,cytokine,Bifidobacterium infantis 35624 modulates host inflammatory processes beyond the gut.
+TNF-alpha,26983566,up,1,0,0,2003,Gaab,Ehlert,21.0,,True,cytokine,Enhanced glucocorticoid sensitivity in patients with chronic fatigue syndrome.
+TNF-alpha,29983634,down,0,1,0,2018,Lynn,Watson,48.0,,True,cytokine,Reduction of Glucocorticoid Receptor Function in Chronic Fatigue Syndrome.
+TNF-alpha,30063870,up,1,0,0,2018,Groven,Reitan,,,True,cytokine,Association between cytokines and psychiatric symptoms in chronic fatigue syndrome and healthy controls.
+TNF-alpha,31282597,up,1,0,0,2019,Al-Rawaf,Gabr,150.0,50.0,True,cytokine,MicroRNAs as Biomarkers of Pain Intensity in Patients With Chronic Fatigue Syndrome.
+TNF-alpha,34589849,down,0,1,0,2020,Groven,Reitan,58.0,54.0,True,cytokine,"MCP-1 is increased in patients with CFS and FM, whilst several other immune markers are significantly lower than healthy controls."
+TNF-alpha,38327880,down,0,1,0,2024,Gil,Selin,12.0,,True,cytokine,Identification of CD8 T-cell dysfunction associated with symptoms in myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS) and Long COVID and tr
+TNF-alpha,38600563,up,1,0,0,2024,Domingo,Castro-Marrero,23.0,31.0,True,cytokine,Association of circulating biomarkers with illness severity measures differentiates myalgic encephalomyelitis/chronic fatigue syndrome and post-COVID-
+TNF-alpha,41463013,up,1,0,0,2025,Petrov,Maes,190.0,70.0,True,cytokine,Comparable Immune Alterations and Inflammatory Signatures in ME/CFS and Long COVID.
+TNF-alpha,9874656,up,1,0,0,1999,Zhang,Natelson,,,True,cytokine,Changes in immune parameters seen in Gulf War veterans but not in civilians with chronic fatigue syndrome.
+TRPM3 ion channel,27245705,down,0,1,0,2016,Nguyen,Marshall-Gradisnik,,,True,immune,Novel identification and characterisation of Transient receptor potential melastatin 3 ion channels on Natural Killer cells and B lymphocytes: effects
+TRPM3 ion channel,27727448,down,0,1,0,2017,Nguyen,Marshall-Gradisnik,,25.0,True,immune,Impaired calcium mobilization in natural killer cells from chronic fatigue syndrome/myalgic encephalomyelitis patients is associated with transient re
+TRPM3 ion channel,30134818,down,0,2,0,2018,Cabanas,Marshall-Gradisnik,,,True,immune,Loss of Transient Receptor Potential Melastatin 3 ion channel function in natural killer cells from Chronic Fatigue Syndrome/Myalgic Encephalomyelitis
+TRPM3 ion channel,31014226,down,0,1,0,2019,Cabanas,Marshall-Gradisnik,,,True,immune,Validation of impaired Transient Receptor Potential Melastatin 3 ion channel activity in natural killer cells from Chronic Fatigue Syndrome/ Myalgic E
+TRPM3 ion channel,34266470,down,0,1,0,2021,Eaton-Fitch,Marshall-Gradisnik,,,True,immune,The effect of IL-2 stimulation and treatment of TRPM3 on channel co-localisation with PIP2 and NK cell function in myalgic encephalomyelitis/chronic f
+TRPM3 ion channel,35986236,null,0,0,1,2022,Sasso,Marshall-Gradisnik,19.0,5.0,True,immune,Transient receptor potential melastatin 3 dysfunction in post COVID-19 condition and myalgic encephalomyelitis/chronic fatigue syndrome patients.
+TRPM3 ion channel,38765011,down,0,1,0,2024,Sasso,Marshall-Gradisnik,19.0,7.0,True,immune,Investigation into the restoration of TRPM3 ion channel activity in post-COVID-19 condition: a potential pharmacotherapeutic target.
+TRPM3 ion channel,41585253,down,0,1,0,2025,Sasso,Marshall-Gradisnik,3.0,42.0,True,immune,Large-scale investigation confirms TRPM3 ion channel dysfunction in Myalgic Encephalomyelitis/Chronic Fatigue Syndrome.
+TRPM3 ion channel,42177403,down,0,1,0,2026,Magawa,Marshall-Gradisnik,,,True,immune,Deficient TRPM3-linked mitochondrial Ca2+ influx in natural killer cells associated with myalgic encephalomyelitis/chronic fatigue syndrome.
+Testosterone/sex hormones,10403156,null,0,0,1,1999,Scott,Dinan,15.0,11.0,True,endocrine,"Differences in adrenal steroid profile in chronic fatigue syndrome, in depression and in health."
+Testosterone/sex hormones,10852283,null,0,0,1,2000,Korszun,Crofford,8.0,,True,endocrine,Follicular phase hypothalamic-pituitary-gonadal axis function in women with fibromyalgia and chronic fatigue syndrome.
+Testosterone/sex hormones,14604604,down,0,1,0,2004,Murphy,Ghadirian,20.0,,True,endocrine,"Elevated levels of some neuroactive progesterone metabolites, particularly isopregnanolone, in women with chronic fatigue syndrome."
+Testosterone/sex hormones,15588275,null,0,0,1,2004,Cevik,Sarac,43.0,35.0,True,endocrine,Hypothalamic-pituitary-gonadal axis hormones and cortisol in both menstrual phases of women with chronic fatigue syndrome and effect of depressive moo
+Testosterone/sex hormones,38724880,up,2,0,0,2024,Pipper,Westermeier,,,True,endocrine,Sex and disease severity-based analysis of steroid hormones in ME/CFS.
+Testosterone/sex hormones,40713801,down,0,1,0,2025,Thomas,Bergquist,24.0,24.0,True,endocrine,Steroid dynamics in myalgic encephalomyelitis / chronic fatigue syndrome: a case-control study using ultra performance supercritical fluid chromatogra
+Thyroid (T3/FT3),22571715,mixed,1,1,0,2012,Brenu,Marshall-Gradisnik,12.0,,True,endocrine,Longitudinal investigation of natural killer cells and cytokines in chronic fatigue syndrome/myalgic encephalomyelitis.
+Thyroid (T3/FT3),29615976,down,0,2,0,2018,Ruiz-Núñez,Muskiet,98.0,99.0,True,endocrine,"Higher Prevalence of ""Low T3 Syndrome"" in Patients With Chronic Fatigue Syndrome: A Case-Control Study."
+Thyroid TSH/T4,10931086,up,1,0,0,2000,Moorkens,Abs,73.0,,True,endocrine,Characterization of pituitary function with emphasis on GH secretion in the chronic fatigue syndrome.
+Thyroid TSH/T4,11150897,down,0,1,0,2001,Ottenweller,Natelson,,,True,endocrine,Hormonal responses to exercise in chronic fatigue syndrome.
+Thyroid TSH/T4,38557370,null,0,0,1,2024,Skorpen,Groven,49.0,53.0,True,endocrine,"Exploring levels of TSH and FT4 in patients with chronic fatigue syndrome (CFS), fibromyalgia (FM) and healthy controls did not reveal any association"
+Total blood volume,11748048,down,0,2,0,2002,Farquhar,Freeman,,,True,orthostatic,Blood volume and its relation to peak O(2) consumption and physical activity in patients with chronic fatigue.
+Total blood volume,19469714,down,0,1,0,2009,Hurwitz,Bilsker,146.0,,True,orthostatic,"Chronic fatigue syndrome: illness severity, sedentary lifestyle, blood volume and evidence of diminished cardiac function."
+Tryptophan/kynurenine,17159817,up,1,0,0,2006,Maes,Leunis,14.0,11.0,True,metabolic,Chronic fatigue syndrome is accompanied by an IgM-related immune response directed against neopitopes formed by oxidative or nitrosative damage to lip
+Tryptophan/kynurenine,17945348,mixed,1,1,0,2008,Bellmann-Weiler,Weiss,20.0,,True,metabolic,IFN-gamma mediated pathways in patients with fatigue and chronic active Epstein Barr virus-infection.
+Tryptophan/kynurenine,25227994,down,0,1,0,2014,The,Buitelaar,,,True,metabolic,"Tryptophan depletion in chronic fatigue syndrome, a pilot cross-over study."
+Tryptophan/kynurenine,30567628,down,0,1,0,2019,Russell,Pariante,,57.0,True,metabolic,"Persistent fatigue induced by interferon-alpha: a novel, inflammation-based, proxy model of chronic fatigue syndrome."
+Tryptophan/kynurenine,34090138,down,0,1,0,2021,Groven,Guzey,57.0,54.0,True,metabolic,"Kynurenine metabolites and ratios differ between Chronic Fatigue Syndrome, Fibromyalgia, and healthy controls."
+Tryptophan/kynurenine,34829952,down,0,2,0,2021,Simonato,Baritussio,,,True,metabolic,"Tryptophan Metabolites, Cytokines, and Fatty Acid Binding Protein 2 in Myalgic Encephalomyelitis/Chronic Fatigue Syndrome."
+Tryptophan/kynurenine,39302151,down,0,1,0,2024,Abujrais,Bergquist,24.0,,True,metabolic,Untargeted Metabolomics and Quantitative Analysis of Tryptophan Metabolites in Myalgic Encephalomyelitis Patients and Healthy Volunteers: A Comparativ
+Vasopressin/ADH/copeptin,27401397,down,0,1,0,2017,Miwa,Miwa,18.0,15.0,True,endocrine,Down-regulation of renin-aldosterone and antidiuretic hormone systems in patients with myalgic encephalomyelitis/chronic fatigue syndrome.
+Vasopressin/ADH/copeptin,8475696,down,0,1,0,1993,Bakheit,Morton,,,True,endocrine,Abnormal arginine-vasopressin secretion and water metabolism in patients with postviral fatigue syndrome.
+Vitamin D,29118054,up,2,0,0,2017,Earl,Beadsworth,,,True,nutrient,Vitamin D status in chronic fatigue syndrome/myalgic encephalomyelitis: a cohort study from the North-West of England.
+White matter abnormalities,25353054,down,0,1,0,2015,Zeineh,Montoya,68.0,,True,brain,Right arcuate fasciculus abnormality in chronic fatigue syndrome.
+White matter abnormalities,34214570,down,0,1,0,2021,Addiego,Baraniuk,38.0,34.0,True,brain,Subcortical brain segment volumes in Gulf War Illness and Myalgic Encephalomyelitis/Chronic Fatigue Syndrome.
+White matter abnormalities,37331007,up,1,0,0,2023,Josev,Knight,,23.0,True,brain,What lies beneath: White matter microstructure in pediatric myalgic encephalomyelitis/chronic fatigue syndrome using diffusion MRI.
+White matter abnormalities,41360268,down,0,1,0,2026,Wu,Jia,1068.0,1068.0,True,brain,Microstructural white matter impairments in chronic fatigue syndrome: Evidence of segmental injury in the cingulum bundle.
+White matter abnormalities,41834684,down,0,1,0,2026,Yu,Shan,54.0,67.0,True,brain,Evidence of White Matter Neuroinflammation in Myalgic Encephalomyelitis/Chronic Fatigue Syndrome: A Diffusion-Based Neuroinflammation Imaging Study.
+White matter abnormalities,42403482,down,0,2,0,2026,Thapaliya,Barnden,58.0,31.0,True,brain,Disrupted glymphatic function and its relationship with sleep and cognitive impairment in ME/CFS assessed via DTI-ALPS.
+White matter abnormalities,8138812,up,1,0,0,1993,Natelson,Lee,52.0,,True,brain,A controlled study of brain magnetic resonance imaging in patients with the chronic fatigue syndrome.
+White matter abnormalities,9282853,null,0,0,1,1997,Greco,Costa,43.0,,True,brain,Brain MR in chronic fatigue syndrome.
+Zinc,16338007,down,0,1,0,2006,Maes,De Ruyter,,,True,nutrient,Lower serum zinc in Chronic Fatigue Syndrome (CFS): relationships to immune dysfunctions and relevance for the oxidative stress status in CFS.
+Zinc,38007104,down,0,1,0,2024,Al-Hakeim,Maes,70.0,46.0,True,nutrient,Neuronal damage and inflammatory biomarkers are associated with the affective and chronic fatigue-like symptoms due to end-stage renal disease.
+microRNA,22572093,down,0,1,0,2012,Brenu,Marshall-Gradisnik,,6.0,True,omics,Cytotoxic lymphocyte microRNAs as prospective biomarkers for Chronic Fatigue Syndrome/Myalgic Encephalomyelitis.
+microRNA,31282597,down,0,1,0,2019,Al-Rawaf,Gabr,150.0,50.0,True,omics,MicroRNAs as Biomarkers of Pain Intensity in Patients With Chronic Fatigue Syndrome.
+microRNA,34011981,up,1,0,0,2021,Blauensteiner,Westermeier,,,True,omics,Altered endothelial dysfunction-related miRs in plasma from ME/CFS patients.
+microRNA,37445763,up,2,0,0,2023,Soffritti,Caselli,,20.0,True,omics,Circulating miRNAs Expression in Myalgic Encephalomyelitis/Chronic Fatigue Syndrome.

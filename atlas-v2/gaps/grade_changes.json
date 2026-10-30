@@ -1,0 +1,38 @@
+[
+ {
+  "finding_id": "vascular-oxygen-extraction",
+  "current": "early",
+  "proposed": "several",
+  "reason": "Rests on the same studies (Joseph 2021, Melamed 2019) as muscle-exertion-oxygen-extraction, which is graded several; Mackay 2026 adds ME/CFS iCPET and LC iCPET (Kahn 2024, Leitner 2024, Singh 2023) replicates the pattern."
+ },
+ {
+  "finding_id": "vascular-muscle-capillary-basement-membrane",
+  "current": "early",
+  "proposed": "several",
+  "reason": "Independent replication: Aschman 2023 (Charite) and Tryfonos 2025 (Karolinska) both find capillary/basement-membrane changes."
+ },
+ {
+  "finding_id": "neuro-injury-markers",
+  "current": "several",
+  "proposed": "contested",
+  "reason": "Azcue 2024 (67 vs 43) found serum NfL higher in ME/CFS, conflicting with the null framing."
+ },
+ {
+  "finding_id": "infection-viral-vs-bacterial-registry",
+  "current": "early",
+  "proposed": "contested",
+  "reason": "Hsu 2024 Taiwan registry: bacterial pneumonia also raises ME/CFS risk (aHR about 1.4), weakening viral specificity."
+ },
+ {
+  "finding_id": "neuro-brainstem",
+  "current": "several",
+  "proposed": "several (wording change only)",
+  "reason": "Thapaliya 2023 7T finds larger, not smaller, brainstem volumes; reword the finding to direction-neutral 'altered'."
+ },
+ {
+  "finding_id": "trials-ldn",
+  "current": "refuted",
+  "proposed": "refuted (confirm)",
+  "reason": "No change; Naik 2026 RCT (160, null) adds a second RCT, about 300 randomised in total."
+ }
+]

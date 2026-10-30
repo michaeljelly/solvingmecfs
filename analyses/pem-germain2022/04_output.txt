@@ -1,0 +1,48 @@
+== Paper-style: Wilcoxon per timepoint and sex, all 1157 features, BH
+                                             p       q    l2fc
+X - 10458                               0.0000  0.0054 -2.5299
+X - 23739                               0.0000  0.0054 -1.0811
+X - 18922                               0.0000  0.0054 -0.8567
+tridecenedioate (C13:1-DC)*             0.0000  0.0129 -0.9087
+indoleacetylglutamine                   0.0001  0.0333  0.7623
+1,5-anhydroglucitol (1,5-AG)            0.0002  0.0445 -0.3739
+3,5-dichloro-2,6-dihydroxybenzoic acid  0.0004  0.0657 -0.4850
+X - 15503                               0.0005  0.0735 -0.9336
+X - 21441                               0.0006  0.0735 -0.8488
+glutamine_degradant*                    0.0007  0.0792 -1.3032
+cis-3,4-methyleneheptanoylcarnitine     0.0010  0.0999 -0.6416
+N1-Methyl-4-pyridone-3-carboxamide      0.0011  0.0999 -0.4790
+sex      tp  nME  nCtrl  q<.05  q<.15  p<.05
+  F  D1-PRE   45     30      6     58    174
+  F D1-POST   45     28     19     55    185
+  F  D2-PRE   45     30     28    102    211
+  F D2-POST   45     28     54    141    233
+  M  D1-PRE   15     15      0      0     48
+  M D1-POST   10     14      0      0     45
+  M  D2-PRE   15     15      0      0     78
+  M D2-POST   10     14      0      0     72
+
+== Named metabolites from paper: within-person change, females, Wilcoxon ME vs ctrl, and mean log2 change per group
+alpha-ketoglutarate | R1-F: ctrl +0.18 ME +0.21 p=0.529 | R1-M: ctrl +0.22 ME +0.13 p=0.464 | REC-F: ctrl -0.20 ME -0.18 p=0.567 | REC-M: ctrl -0.24 ME -0.27 p=0.838 | R2-F: ctrl +0.16 ME +0.13 p=0.941 | R2-M: ctrl +0.15 ME +0.19 p=0.792
+lactate | R1-F: ctrl +1.39 ME +0.96 p=0.001 | R1-M: ctrl +1.42 ME +1.32 p=0.501 | REC-F: ctrl -1.47 ME -1.01 p=0.002 | REC-M: ctrl -1.55 ME -1.55 p=0.977 | R2-F: ctrl +1.34 ME +0.85 p=0.001 | R2-M: ctrl +1.41 ME +1.34 p=0.661
+pyruvate | R1-F: ctrl +0.86 ME +0.51 p=0.001 | R1-M: ctrl +0.71 ME +1.01 p=0.151 | REC-F: ctrl -0.89 ME -0.46 p=0.000 | REC-M: ctrl -0.78 ME -1.16 p=0.043 | R2-F: ctrl +0.86 ME +0.43 p=0.000 | R2-M: ctrl +0.80 ME +1.06 p=0.188
+1,5-anhydroglucitol (1,5-AG) | R1-F: ctrl -0.05 ME -0.09 p=0.097 | R1-M: ctrl -0.13 ME -0.09 p=0.429 | REC-F: ctrl +0.02 ME +0.11 p=0.007 | REC-M: ctrl +0.14 ME +0.07 p=0.334 | R2-F: ctrl -0.06 ME -0.06 p=0.869 | R2-M: ctrl -0.11 ME -0.08 p=0.230
+tridecenedioate (C13:1-DC)* | R1-F: ctrl +0.13 ME +0.05 p=0.379 | R1-M: ctrl +0.12 ME -0.10 p=0.334 | REC-F: ctrl -0.10 ME -0.24 p=0.807 | REC-M: ctrl +0.07 ME -0.14 p=0.334 | R2-F: ctrl +0.15 ME +0.03 p=0.059 | R2-M: ctrl +0.07 ME -0.16 p=0.208
+indoleacetoylcarnitine absent
+glutamate | R1-F: ctrl +0.05 ME +0.03 p=0.696 | R1-M: ctrl +0.22 ME -0.04 p=0.095 | REC-F: ctrl -0.17 ME -0.15 p=0.790 | REC-M: ctrl -0.40 ME -0.09 p=0.021 | R2-F: ctrl +0.14 ME +0.06 p=0.712 | R2-M: ctrl +0.27 ME +0.09 p=0.254
+glutamine | R1-F: ctrl +0.02 ME +0.02 p=0.968 | R1-M: ctrl +0.01 ME +0.07 p=0.279 | REC-F: ctrl -0.04 ME -0.02 p=0.404 | REC-M: ctrl +0.03 ME -0.13 p=0.043 | R2-F: ctrl -0.01 ME +0.03 p=0.259 | R2-M: ctrl -0.00 ME +0.09 p=0.254
+X - 15245 | R1-F: ctrl -0.15 ME -0.12 p=0.987 | R1-M: ctrl -0.03 ME -0.03 p=0.837 | REC-F: ctrl +0.08 ME +0.01 p=0.442 | REC-M: ctrl -0.06 ME +0.08 p=0.488 | R2-F: ctrl +0.18 ME +0.11 p=0.969 | R2-M: ctrl +0.30 ME -0.11 p=0.419
+X - 16397 | R1-F: ctrl +0.10 ME -0.02 p=0.234 | R1-M: ctrl -0.14 ME -0.13 p=0.300 | REC-F: ctrl -0.10 ME +0.19 p=0.876 | REC-M: ctrl -0.04 ME -0.63 p=0.116 | R2-F: ctrl +0.09 ME -0.05 p=0.042 | R2-M: ctrl -0.04 ME -0.14 p=0.744
+X - 07765 | R1-F: ctrl -0.02 ME +0.07 p=0.496 | R1-M: ctrl +0.08 ME -0.01 p=0.334 | REC-F: ctrl -0.27 ME -0.46 p=0.430 | REC-M: ctrl -0.54 ME -0.30 p=0.578 | R2-F: ctrl -0.03 ME -0.14 p=0.582 | R2-M: ctrl -0.07 ME -0.45 p=0.254
+
+== Global shift (median log2 change across 782 well-detected metabolites) per person, group means
+R1 (D1 post-pre)     ctrl +0.001  ME +0.000  p=nan
+R2 (D2 post-pre)     ctrl +0.021  ME +0.015  p=nan
+REC (D2pre-D1pre)    ctrl -0.054  ME -0.041  p=0.792
+D1post->D2pre        ctrl -0.065  ME -0.058  p=nan
+lactate/pyruvate log2 LEVEL D1-PRE       ctrl -0.173 ME -0.007 p=0.029
+lactate/pyruvate log2 LEVEL D1-POST      ctrl +0.386 ME +0.444 p=0.372
+lactate/pyruvate log2 LEVEL D2-PRE       ctrl -0.222 ME -0.098 p=0.082
+lactate/pyruvate log2 LEVEL D2-POST      ctrl +0.269 ME +0.321 p=0.310
+lactate/pyruvate log2 R1 (D1 post-pre)   ctrl +0.584 ME +0.419 p=0.022
+lactate/pyruvate log2 R2 (D2 post-pre)   ctrl +0.524 ME +0.396 p=0.048

@@ -1,0 +1,36 @@
+study,drug_class,compounds,prev_case,prev_ctrl
+BioMapAI,acetaminophen,4-acetamidophenol; 3-(N-acetyl-cystein-S-yl) acetaminophen; 4-acetaminophen sulfate; 4-acetamidophenylglucuronide; 2-hydroxyacetaminophen sulfate*; 2-methoxyacetaminophen glucuronide*,0.5102040816326531,0.38202247191011235
+BioMapAI,nsaid,ibuprofen; desmethylnaproxen sulfate; ibuprofen acyl glucuronide; carboxyibuprofen; meloxicam,0.5306122448979592,0.5056179775280899
+BioMapAI,gabapentinoid,gabapentin,0.25170068027210885,0.033707865168539325
+BioMapAI,antihistamine,cetirizine; De(carboxymethoxy) cetirizine acetic acid,0.1836734693877551,0.10112359550561797
+BioMapAI,betablocker,metoprolol acid metabolite*,0.09523809523809523,0.0
+BioMapAI,psychoactive,"quetiapine; lamotrigine; trazadone; levetiracetam; 10,11-dihydro-10-hydroxycarbamazepine; N-desalkylquetiapine*",0.2585034013605442,0.0898876404494382
+BioMapAI,acid_suppr,omeprazole; ranitidine; pantoprazole,0.25170068027210885,0.0898876404494382
+BioMapAI,other_rx,hydrochlorothiazide,0.013605442176870748,0.02247191011235955
+BioMapAI,ANY,"n drug-free: case 50, ctrl 62",0.6598639455782312,0.30337078651685395
+Germain2022,acetaminophen,2-hydroxyacetaminophen sulfate*; 2-methoxyacetaminophen glucuronide*; 2-methoxyacetaminophen sulfate*; 3-(cystein-S-yl)acetaminophen*; 3-(methylthio)acetaminophen sulfate*; 3-(N-acetyl-L-cystein-S-yl) acetaminophen,0.21666666666666667,0.13333333333333333
+Germain2022,nsaid,2-hydroxyibuprofen; carboxyibuprofen; carboxyibuprofen glucuronide*; celecoxib; desmethylnaproxen; desmethylnaproxen sulfate,0.35,0.5333333333333333
+Germain2022,gabapentinoid,gabapentin; pregabalin,0.05,0.0
+Germain2022,antihistamine,cetirizine; De(carboxymethoxy) cetirizine acetic acid; diphenhydramine; fexofenadine,0.18333333333333332,0.08888888888888889
+Germain2022,betablocker,atenolol; metoprolol; metoprolol acid metabolite*,0.05,0.0
+Germain2022,psychoactive,lamotrigine; topiramate; citalopram propionate*; citalopram/escitalopram; desmethylcitalopram*; diazepam,0.31666666666666665,0.1111111111111111
+Germain2022,acid_suppr,dexlansoprazole; omeprazole; pantoprazole; ranitidine; ranitidine N-oxide*,0.15,0.022222222222222223
+Germain2022,other_rx,lidocaine; N-ethylglycinexylidide; lamivudine; hydrochlorothiazide; losartan; metformin,0.16666666666666666,0.06666666666666667
+Germain2022,ANY,"n drug-free: case 24, ctrl 33",0.6,0.26666666666666666
+Germain2018,acetaminophen,2-hydroxyacetaminophen sulfate*; 2-methoxyacetaminophen glucuronide*; 2-methoxyacetaminophen sulfate*; 3-(cystein-S-yl)acetaminophen*; 3-(N-acetyl-L-cystein-S-yl) acetaminophen; 4-acetamidophenol,0.71875,0.42105263157894735
+Germain2018,nsaid,2-hydroxyibuprofen; carboxyibuprofen; celecoxib; desmethylnaproxen; desmethylnaproxen sulfate; ibuprofen,0.5,0.42105263157894735
+Germain2018,gabapentinoid,gabapentin,0.15625,0.10526315789473684
+Germain2018,antihistamine,cetirizine; diphenhydramine; fexofenadine,0.3125,0.15789473684210525
+Germain2018,betablocker,alpha-hydroxymetoprolol; atenolol; metoprolol; metoprolol acid metabolite*,0.25,0.10526315789473684
+Germain2018,psychoactive,"carbamazepine; carbamazepine 10,11-epoxide*; carbamazepine glucuronide*; escitalopram; fluoxetine; hydroxybupropion",0.3125,0.10526315789473684
+Germain2018,acid_suppr,dexlansoprazole; famotidine; omeprazole ; pantoprazole ; ranitidine,0.125,0.21052631578947367
+Germain2018,other_rx,azithromycin; guaifenesin; hydrochlorothiazide; lidocaine; metformin; N-ethylglycinexylidide,0.4375,0.21052631578947367
+Germain2018,ANY,"n drug-free: case 6, ctrl 7",0.8125,0.631578947368421
+Germain2020,acetaminophen,2-hydroxyacetaminophen sulfate*; 2-methoxyacetaminophen glucuronide*; 2-methoxyacetaminophen sulfate*; 3-(cystein-S-yl)acetaminophen*; 3-(methylthio)acetaminophen sulfate*; 3-(N-acetyl-L-cystein-S-yl) acetaminophen,0.15384615384615385,0.4230769230769231
+Germain2020,nsaid,2-hydroxyibuprofen; carboxyibuprofen; carboxyibuprofen glucuronide*; desmethylnaproxen; desmethylnaproxen sulfate; ibuprofen,0.6538461538461539,0.8461538461538461
+Germain2020,antihistamine,cetirizine; fexofenadine,0.11538461538461539,0.038461538461538464
+Germain2020,betablocker,alpha-hydroxymetoprolol; atenolol; metoprolol; metoprolol acid metabolite*,0.46153846153846156,0.11538461538461539
+Germain2020,psychoactive,lamotrigine; topiramate; 4-hydroxy duloxetine glucuronide*; 5-hydroxy-6-methoxy duloxetine sulfate*; citalopram propionate*; desmethylcitalopram*,0.4230769230769231,0.07692307692307693
+Germain2020,acid_suppr,dexlansoprazole; famotidine; ranitidine; ranitidine N-oxide*,0.11538461538461539,0.0
+Germain2020,other_rx,lidocaine; N-ethylglycinexylidide; 10-hydroxywarfarin; 7-hydroxywarfarin; valsartan; warfarin,0.34615384615384615,0.07692307692307693
+Germain2020,ANY,"n drug-free: case 7, ctrl 18",0.7307692307692307,0.3076923076923077

@@ -1,0 +1,2359 @@
+{
+  "title": "ME/CFS and Long COVID research funding calls",
+  "as_of": "2026-10-29",
+  "scope": "Open, upcoming and recurring funding a researcher could use for ME/CFS, or for Long COVID research on fatigue, PEM, autonomic or cognitive features.",
+  "field_notes": {
+    "status": "open | upcoming | recurring | rolling | closed | no open call found | not found, as of 2026-10-29",
+    "fit codes": [
+      "crash_window_sampling",
+      "circulatory_phenotyping",
+      "serum_factor_tests",
+      "pituitary_testing",
+      "patient_tracking_software",
+      "trials",
+      "data_reanalysis"
+    ],
+    "verification.level": "verified = key details read on the funder's own page or document; mixed = some fields verified; snippet = search snippets or secondary sources only; unverified = site blocked, not fetched, or not found"
+  },
+  "blocked_sites": {
+    "omf.ngo": "HTTP 403 Cloudflare challenge",
+    "meassociation.org.uk": "connection reset on every attempt",
+    "nihr.ac.uk": "human-verification page (HTTP 405)",
+    "nhmrc.gov.au / health.gov.au": "empty reply or HTTP/2 stream error",
+    "web.archive.org": "blocked by egress policy",
+    "weandme.org": "empty JavaScript-only page",
+    "zonmw.nl": "guessed programme URLs 404; no current ME/CVS page found"
+  },
+  "calls": [
+    {
+      "id": "solve-ramsay-2026",
+      "funder": "Solve M.E. (Solve ME/CFS Initiative, US)",
+      "call_name": "Ramsay Scholars Research Grant Program 2026",
+      "url": "https://solvecfs.org/research/ramsay-research-grants/",
+      "type": [
+        "seed or pilot",
+        "PhD",
+        "fellowship",
+        "project grant"
+      ],
+      "eligibility": {
+        "career_stage": "PhD students; postdocs; early-stage investigators (first 5 years of independent programme); established investigators new to ME/CFS, Long COVID or related conditions; faculty returning after career breaks; collaborative teams of 2+ institutions or groups",
+        "country": "No country restriction stated in the RFP; past awardees include European groups",
+        "institution_must_be_nonprofit": "Not stated; indirect costs capped at 10%",
+        "non_academics_can_apply": "Not stated; the RFP is written for academic investigators",
+        "notes": "Two stages: ~800-word initial research plan plus CV; invited full proposals get double-blind review. Must focus on ME/CFS, Long COVID or another infection-associated chronic condition (IACC) with a clear ME/CFS or Long COVID link. Pre-pandemic cohorts, biobanks and registry data are encouraged."
+      },
+      "amount": {
+        "min": 50000,
+        "max": 150000,
+        "currency": "USD",
+        "text": "PhD award $50k for 1 year; postdoc/new/returning faculty up to $100k over 2 years; collaborative up to $150k over 2 years"
+      },
+      "duration": "1-2 years",
+      "deadline": {
+        "date": "2026-11-13",
+        "text": "Initial research plan due 13 Nov 2026; full-proposal invitations 4 Dec 2026; full proposals due 8 Jan 2027; decisions 8 Feb 2027"
+      },
+      "status": "open",
+      "mecfs_specificity": "ME/CFS and Long COVID specific",
+      "fit": [
+        "crash_window_sampling",
+        "serum_factor_tests",
+        "pituitary_testing",
+        "circulatory_phenotyping",
+        "data_reanalysis"
+      ],
+      "fit_notes": "Best near-term fit for any pilot: covers multi-omics, vascular biology, neuroimmune work, and use of biobank or registry data. A crash-window (PEM) sampling pilot or a pituitary/serum-factor pilot fits the $100k-150k tiers.",
+      "verification": {
+        "level": "verified",
+        "verified_from_funder_page": [
+          "amounts",
+          "career stages",
+          "deadline and timeline",
+          "scope",
+          "indirect cap"
+        ],
+        "from_snippets_or_unverified": [
+          "country eligibility (silent in RFP)"
+        ],
+        "sources": [
+          "https://solvecfs.org/research/ramsay-research-grants/",
+          "https://solvecfs.org/wp-content/uploads/2026/10/2026_Ramsay_Scholars_RFP_Final.pdf"
+        ],
+        "notes": ""
+      }
+    },
+    {
+      "id": "solve-catalyst",
+      "funder": "Solve M.E. (US)",
+      "call_name": "ME/CFS Catalyst Awards",
+      "url": "https://solvecfs.org/research/catalyst-awards/",
+      "type": [
+        "project grant"
+      ],
+      "eligibility": {
+        "career_stage": "Established projects that are already under way",
+        "country": "Any (past awards went to US, German and UK teams, e.g. Charité and DecodeME)",
+        "institution_must_be_nonprofit": "Not stated",
+        "non_academics_can_apply": "Yes (2026 award went to Renegade Research, a decentralised device-lending study)",
+        "notes": "No public application call. Awards go to selected projects; enquiries to Research@SolveCFS.org."
+      },
+      "amount": {
+        "min": null,
+        "max": null,
+        "currency": "USD",
+        "text": "Not published"
+      },
+      "duration": "Not published",
+      "deadline": {
+        "date": null,
+        "text": "No open call; awards announced several times a year (Feb, May, Jul 2026)"
+      },
+      "status": "recurring (no open call; by enquiry)",
+      "mecfs_specificity": "ME/CFS and Long COVID specific",
+      "fit": [
+        "trials",
+        "patient_tracking_software",
+        "data_reanalysis"
+      ],
+      "fit_notes": "Suits projects that already have data and need completion funding. The SIGNAL device-lending award shows that decentralised tracking platforms qualify.",
+      "verification": {
+        "level": "verified",
+        "verified_from_funder_page": [
+          "programme purpose",
+          "recent awardees",
+          "contact"
+        ],
+        "from_snippets_or_unverified": [
+          "amounts",
+          "selection process"
+        ],
+        "sources": [
+          "https://solvecfs.org/research/catalyst-awards/"
+        ],
+        "notes": ""
+      }
+    },
+    {
+      "id": "omf",
+      "funder": "Open Medicine Foundation (US/Canada)",
+      "call_name": "OMF research funding (collaborative centres)",
+      "url": "https://www.omf.ngo/",
+      "type": [
+        "centre",
+        "project grant"
+      ],
+      "eligibility": {
+        "career_stage": "Mostly established investigators in OMF's collaborative research centres",
+        "country": "International (US, Canada, Sweden, Australia centres)",
+        "institution_must_be_nonprofit": "Not stated",
+        "non_academics_can_apply": "Unknown",
+        "notes": "No open call or application route found. OMF funds its own network of centres and studies, such as BioQuest (biomarker discovery, early 2026)."
+      },
+      "amount": {
+        "min": null,
+        "max": null,
+        "currency": "USD",
+        "text": "Not published; past grants of about $0.5M (third-party funder profile)"
+      },
+      "duration": "Not published",
+      "deadline": {
+        "date": null,
+        "text": "No open call found"
+      },
+      "status": "no open call found",
+      "mecfs_specificity": "ME/CFS and Long COVID specific",
+      "fit": [
+        "serum_factor_tests",
+        "data_reanalysis",
+        "trials"
+      ],
+      "fit_notes": "Approach OMF centres as collaborators, for example for sample access, rather than as a grant applicant.",
+      "verification": {
+        "level": "unverified",
+        "verified_from_funder_page": [],
+        "from_snippets_or_unverified": [
+          "all details"
+        ],
+        "sources": [
+          "https://www.kindora.co/en/funders/open-medicine-foundation"
+        ],
+        "notes": "omf.ngo returned HTTP 403 (Cloudflare challenge) to curl; site blocked, details unverified."
+      }
+    },
+    {
+      "id": "mea-ramsay",
+      "funder": "ME Association (UK)",
+      "call_name": "MEA Ramsay Research Fund – research grants",
+      "url": "https://meassociation.org.uk/research/research-grant/",
+      "type": [
+        "project grant",
+        "PhD",
+        "seed or pilot"
+      ],
+      "eligibility": {
+        "career_stage": "Not confirmed; the fund has supported student work",
+        "country": "UK-focused (not confirmed)",
+        "institution_must_be_nonprofit": "Not confirmed",
+        "non_academics_can_apply": "Not confirmed",
+        "notes": "Biomedical focus guided by the James Lind Alliance (JLA) ME/CFS top 10 priorities; no animal research. The Research Committee reviews applications and the Board decides."
+      },
+      "amount": {
+        "min": null,
+        "max": null,
+        "currency": "GBP",
+        "text": "Not published"
+      },
+      "duration": "Not published",
+      "deadline": {
+        "date": null,
+        "text": "No deadline found; appears to accept applications by enquiry (unconfirmed)"
+      },
+      "status": "recurring / rolling (unverified)",
+      "mecfs_specificity": "ME/CFS specific",
+      "fit": [
+        "crash_window_sampling",
+        "serum_factor_tests",
+        "circulatory_phenotyping",
+        "pituitary_testing",
+        "data_reanalysis"
+      ],
+      "fit_notes": "A UK charity that a London group can approach directly, worth an email to the research team for small or co-funding.",
+      "verification": {
+        "level": "unverified",
+        "verified_from_funder_page": [],
+        "from_snippets_or_unverified": [
+          "all details"
+        ],
+        "sources": [
+          "https://meassociation.org.uk/research/research-grant/"
+        ],
+        "notes": "meassociation.org.uk reset the connection on every curl attempt; site blocked, details from search snippets only."
+      }
+    },
+    {
+      "id": "meruk-annual",
+      "funder": "ME Research UK",
+      "call_name": "Annual call for research grant applications (incl. PhD-level funding)",
+      "url": "https://www.meresearch.org.uk/research/research-grants/",
+      "type": [
+        "project grant",
+        "PhD"
+      ],
+      "eligibility": {
+        "career_stage": "Established researchers at a host institution (university, hospital, research institute). PhD funding is requested by the supervisor.",
+        "country": "UK and international hosts (2023 call open internationally per snippets)",
+        "institution_must_be_nonprofit": "Host must be a suitable research institution",
+        "non_academics_can_apply": "No",
+        "notes": "No animal research. No indirect costs (UK universities can use the Charity Research Support Fund). Studies are eligible for NIHR RDN support."
+      },
+      "amount": {
+        "min": null,
+        "max": 250000,
+        "currency": "GBP",
+        "text": "Up to £250,000 (2023 call; current cap unconfirmed)"
+      },
+      "duration": "Typically up to 3 years (unconfirmed)",
+      "deadline": {
+        "date": null,
+        "text": "One call a year. The last outline deadline was 9 Jan 2026; the next is likely in a similar window (Dec 2026 to Jan 2027, inferred)"
+      },
+      "status": "recurring (not currently accepting)",
+      "mecfs_specificity": "ME/CFS specific",
+      "fit": [
+        "crash_window_sampling",
+        "circulatory_phenotyping",
+        "serum_factor_tests",
+        "pituitary_testing",
+        "data_reanalysis"
+      ],
+      "fit_notes": "Strong UK fit; the charity wants translational potential. Join the mailing list (david@meresearch.org.uk) now so you hear about the next call.",
+      "verification": {
+        "level": "mixed",
+        "verified_from_funder_page": [
+          "not currently accepting",
+          "no animal research",
+          "no indirect costs"
+        ],
+        "from_snippets_or_unverified": [
+          "2026 outline date (9 Jan 2026)",
+          "£250k cap",
+          "next-call timing"
+        ],
+        "sources": [
+          "https://www.meresearch.org.uk/research/research-grants/",
+          "https://www.meresearch.org.uk/new-call-for-grant-applications/"
+        ],
+        "notes": ""
+      }
+    },
+    {
+      "id": "afme",
+      "funder": "Action for ME (UK)",
+      "call_name": "No responsive grant call – partnership funding (DecodeME / SequenceME)",
+      "url": "https://www.actionforme.org.uk/research/",
+      "type": [
+        "project grant"
+      ],
+      "eligibility": {
+        "career_stage": "N/A",
+        "country": "UK",
+        "institution_must_be_nonprofit": "N/A",
+        "non_academics_can_apply": "N/A",
+        "notes": "No open researcher call found. Action for ME co-leads DecodeME and SequenceME, which is raising about £7M for its next phase."
+      },
+      "amount": {
+        "min": null,
+        "max": null,
+        "currency": "GBP",
+        "text": "N/A"
+      },
+      "duration": "N/A",
+      "deadline": {
+        "date": null,
+        "text": "No call found"
+      },
+      "status": "no open call found",
+      "mecfs_specificity": "ME/CFS specific",
+      "fit": [
+        "data_reanalysis"
+      ],
+      "fit_notes": "Route to DecodeME/SequenceME data access and collaboration, not a grant.",
+      "verification": {
+        "level": "unverified",
+        "verified_from_funder_page": [],
+        "from_snippets_or_unverified": [
+          "all"
+        ],
+        "sources": [
+          "https://www.actionforme.org.uk/research/"
+        ],
+        "notes": "The research URL returned a news article; no grants page found."
+      }
+    },
+    {
+      "id": "mecfs-rf-germany",
+      "funder": "ME/CFS Research Foundation (Germany)",
+      "call_name": "Research Funding Programme (2026 round)",
+      "url": "https://funding.mecfs-research.org/",
+      "type": [
+        "project grant",
+        "trial"
+      ],
+      "eligibility": {
+        "career_stage": "Researchers and clinicians",
+        "country": "Germany only (institution located in Germany)",
+        "institution_must_be_nonprofit": "Yes: non-profit, state-recognised university, research institution or healthcare facility",
+        "non_academics_can_apply": "No",
+        "notes": "Biomedical only; health-services and epidemiology research was excluded in 2026. Deficit (top-up) funding is allowed."
+      },
+      "amount": {
+        "min": null,
+        "max": 2000000,
+        "currency": "EUR",
+        "text": "€2M total in 2026: €1.5M clinical (1-2 projects), €0.5M basic/translational (2-4 projects), €10k open-access fees"
+      },
+      "duration": "Project-dependent",
+      "deadline": {
+        "date": "2026-04-30",
+        "text": "2026 round closed 30 Apr 2026 (awards announced 17 Jul 2026). It runs once a year, opening around February."
+      },
+      "status": "recurring (closed for 2026)",
+      "mecfs_specificity": "ME/CFS specific",
+      "fit": [
+        "crash_window_sampling",
+        "circulatory_phenotyping",
+        "serum_factor_tests",
+        "trials"
+      ],
+      "fit_notes": "Only for German partners. A London group could join as a collaborator of a German lead. PEM, circulatory and dysautonomia mechanisms are explicit priorities.",
+      "verification": {
+        "level": "verified",
+        "verified_from_funder_page": [
+          "amounts",
+          "deadline",
+          "eligibility",
+          "priorities"
+        ],
+        "from_snippets_or_unverified": [
+          "2027 timing"
+        ],
+        "sources": [
+          "https://funding.mecfs-research.org/",
+          "https://mecfs-research.org/en/researchfunding2026/"
+        ],
+        "notes": ""
+      }
+    },
+    {
+      "id": "emerge-au",
+      "funder": "Emerge Australia",
+      "call_name": "Research partnerships and AusME Registry & Biobank access (not a grant)",
+      "url": "https://www.emerge.org.au/research",
+      "type": [
+        "project grant"
+      ],
+      "eligibility": {
+        "career_stage": "Any",
+        "country": "Australia-focused",
+        "institution_must_be_nonprofit": "N/A",
+        "non_academics_can_apply": "Yes",
+        "notes": "Emerge does not run a funding round. It offers letters of support, recruitment, registry data and biosamples through the AusME Access Committee."
+      },
+      "amount": {
+        "min": null,
+        "max": null,
+        "currency": "AUD",
+        "text": "In-kind"
+      },
+      "duration": "N/A",
+      "deadline": {
+        "date": null,
+        "text": "Rolling access requests"
+      },
+      "status": "rolling (in-kind only)",
+      "mecfs_specificity": "ME/CFS and Long COVID specific",
+      "fit": [
+        "data_reanalysis",
+        "serum_factor_tests"
+      ],
+      "fit_notes": "Biobank and registry samples for serum-factor or replication work.",
+      "verification": {
+        "level": "mixed",
+        "verified_from_funder_page": [
+          "research section exists"
+        ],
+        "from_snippets_or_unverified": [
+          "access process details"
+        ],
+        "sources": [
+          "https://www.emerge.org.au/research",
+          "https://emerge.org.au/wp-content/uploads/2026/07/AusMEAC-Access-Application-Form-v10-1.pdf"
+        ],
+        "notes": ""
+      }
+    },
+    {
+      "id": "mason-au",
+      "funder": "Mason Foundation (Equity Trustees, Australia)",
+      "call_name": "ME/CFS Research Grant – National Medical Program",
+      "url": "https://www.eqt.com.au/our-services/community/grant-funding/medical-grants/mason-national-medical-program",
+      "type": [
+        "project grant",
+        "trial"
+      ],
+      "eligibility": {
+        "career_stage": "Researchers",
+        "country": "Australia (Australian institutions; unconfirmed in detail)",
+        "institution_must_be_nonprofit": "Likely (charitable trust rules; unconfirmed)",
+        "non_academics_can_apply": "Not stated",
+        "notes": "Main focus must be ME/CFS (Long COVID overlap allowed). Use of the Australian ME/CFS and Long COVID Registry and Biobank is encouraged."
+      },
+      "amount": {
+        "min": null,
+        "max": 120000,
+        "currency": "AUD",
+        "text": "Up to AUD 120,000 per year"
+      },
+      "duration": "Up to 3 years",
+      "deadline": {
+        "date": "2026-09-30",
+        "text": "Round for 2027 funding: opened 10 Aug 2026, closed 30 Sep 2026. Runs yearly, opening Aug-Sep."
+      },
+      "status": "recurring (closed for 2027 funding)",
+      "mecfs_specificity": "ME/CFS specific",
+      "fit": [
+        "serum_factor_tests",
+        "trials",
+        "data_reanalysis"
+      ],
+      "verification": {
+        "level": "mixed",
+        "verified_from_funder_page": [
+          "dates (funder PDF)",
+          "ME/CFS focus"
+        ],
+        "from_snippets_or_unverified": [
+          "amount cap",
+          "country rule"
+        ],
+        "sources": [
+          "https://edge.sitecorecloud.io/eqtservicesd49b-equity3a10-prod1271-d16d/media/equitytrustees/files/philanthropy/forms-guides-reports/the-mason-foundation-grant-guidelines-2026.pdf"
+        ],
+        "notes": ""
+      },
+      "fit_notes": ""
+    },
+    {
+      "id": "zonmw-mecvs",
+      "funder": "ZonMw (Netherlands)",
+      "call_name": "ME/CVS research programme (2021-2031) – e.g. 'Promising Medicines ME/CFS' drug-repurposing round",
+      "url": "https://www.zonmw.nl/",
+      "type": [
+        "project grant",
+        "trial"
+      ],
+      "eligibility": {
+        "career_stage": "Researchers",
+        "country": "Netherlands-based institutions",
+        "institution_must_be_nonprofit": "Typically yes (Dutch knowledge institutions)",
+        "non_academics_can_apply": "Unknown",
+        "notes": "A 10-year programme with periodic rounds. The first consortium round was awarded April 2023."
+      },
+      "amount": {
+        "min": 500000,
+        "max": 1000000,
+        "currency": "EUR",
+        "text": "€0.5M-1M per project (repurposing round, per aggregator)"
+      },
+      "duration": "3-4 years",
+      "deadline": {
+        "date": "2026-06-01",
+        "text": "Repurposing round closed 1 Jun 2026 (aggregator); next round unknown"
+      },
+      "status": "recurring (closed; next round unknown)",
+      "mecfs_specificity": "ME/CFS specific",
+      "fit": [
+        "trials",
+        "serum_factor_tests"
+      ],
+      "fit_notes": "Dutch lead required; UK teams only as partners.",
+      "verification": {
+        "level": "unverified",
+        "verified_from_funder_page": [],
+        "from_snippets_or_unverified": [
+          "all details"
+        ],
+        "sources": [
+          "https://grantsby.eu/grants/zonmw-promising-medicines-mecfs",
+          "https://zoek.officielebekendmakingen.nl/kst-36800-XVI-31.pdf"
+        ],
+        "notes": "Guessed ZonMw programme URLs returned 404; the current programme page was not found."
+      }
+    },
+    {
+      "id": "norway",
+      "funder": "Norwegian funders (Research Council of Norway; regional health authorities; ME-foreningen)",
+      "call_name": "No ME/CFS-specific call found",
+      "url": "https://www.forskningsradet.no/",
+      "type": [
+        "project grant"
+      ],
+      "eligibility": {
+        "career_stage": "Researchers",
+        "country": "Norway (regional health-authority calls need a Norwegian health-trust affiliation)",
+        "institution_must_be_nonprofit": "Varies",
+        "non_academics_can_apply": "Varies",
+        "notes": "The last dedicated ME/CFS call found was BEHOV-ME (2016). Regional calls such as Helse Nord's prioritise chronic conditions but are general."
+      },
+      "amount": {
+        "min": null,
+        "max": null,
+        "currency": "NOK",
+        "text": "N/A"
+      },
+      "duration": "N/A",
+      "deadline": {
+        "date": null,
+        "text": "Regional health-authority calls run once a year (often Sep-Oct deadlines); none ME/CFS-specific"
+      },
+      "status": "no ME/CFS call found",
+      "mecfs_specificity": "general",
+      "fit": [
+        "trials",
+        "data_reanalysis"
+      ],
+      "fit_notes": "Gap. Norway's registries and the Haukeland/Bergen trial groups are collaboration routes only.",
+      "verification": {
+        "level": "unverified",
+        "verified_from_funder_page": [],
+        "from_snippets_or_unverified": [
+          "all"
+        ],
+        "sources": [
+          "https://www.helse-nord.no/49d79d/siteassets/dokumenter-og-blokker/3-helsefaglig/forskning/forskningsmidler/2026-forskningsmidler/hovedutlysning-forskningsmidler-for-2026.pdf"
+        ],
+        "notes": ""
+      }
+    },
+    {
+      "id": "amar",
+      "funder": "Amar Foundation",
+      "call_name": "Not found",
+      "url": null,
+      "type": [],
+      "eligibility": {
+        "career_stage": "Unknown",
+        "country": "Unknown",
+        "institution_must_be_nonprofit": "Unknown",
+        "non_academics_can_apply": "Unknown",
+        "notes": "No funder of this name with an ME/CFS programme could be found by search. It may be misnamed; check with the requester."
+      },
+      "amount": {
+        "min": null,
+        "max": null,
+        "currency": null,
+        "text": "Unknown"
+      },
+      "duration": "Unknown",
+      "deadline": {
+        "date": null,
+        "text": "Unknown"
+      },
+      "status": "not found",
+      "mecfs_specificity": "unknown",
+      "verification": {
+        "level": "unverified",
+        "verified_from_funder_page": [],
+        "from_snippets_or_unverified": [
+          "all"
+        ],
+        "sources": [],
+        "notes": "Three searches returned nothing."
+      },
+      "fit": [],
+      "fit_notes": ""
+    },
+    {
+      "id": "simmaron",
+      "funder": "Simmaron Research Foundation (US)",
+      "call_name": "No external grant programme – collaboration and biobank",
+      "url": "https://www.simmaron.com/",
+      "type": [],
+      "eligibility": {
+        "career_stage": "N/A",
+        "country": "N/A",
+        "institution_must_be_nonprofit": "N/A",
+        "non_academics_can_apply": "N/A",
+        "notes": "Simmaron runs its own lab (ME/CFS mouse models of PEM and orthostatic intolerance), a 40-year biobank and a rapamycin trial. It does not run an open grant call."
+      },
+      "amount": {
+        "min": null,
+        "max": null,
+        "currency": "USD",
+        "text": "N/A"
+      },
+      "duration": "N/A",
+      "deadline": {
+        "date": null,
+        "text": "N/A"
+      },
+      "status": "no open call (collaboration only)",
+      "mecfs_specificity": "ME/CFS specific",
+      "fit": [
+        "serum_factor_tests",
+        "crash_window_sampling"
+      ],
+      "fit_notes": "Its biobank and PEM mouse model are collaboration assets for serum-factor transfer tests.",
+      "verification": {
+        "level": "verified",
+        "verified_from_funder_page": [
+          "no grant programme advertised",
+          "assets"
+        ],
+        "from_snippets_or_unverified": [],
+        "sources": [
+          "https://www.simmaron.com/"
+        ],
+        "notes": ""
+      }
+    },
+    {
+      "id": "polybio",
+      "funder": "PolyBio Research Foundation (US)",
+      "call_name": "Long COVID Research Consortium / Long COVID Cure Initiative (LCCI)",
+      "url": "https://polybio.org/",
+      "type": [
+        "project grant",
+        "trial",
+        "centre"
+      ],
+      "eligibility": {
+        "career_stage": "Mostly invited consortium investigators",
+        "country": "International",
+        "institution_must_be_nonprofit": "Aggregator: universities, research institutes, non-profits",
+        "non_academics_can_apply": "Unknown",
+        "notes": "No public request for proposals. In April 2026 the Park-Pagliuca Fund gave $10M to build a trial network; ME/CFS is a planned extension."
+      },
+      "amount": {
+        "min": null,
+        "max": 575000,
+        "currency": "USD",
+        "text": "Individual awards have reached about $575k (aggregator)"
+      },
+      "duration": "Varies",
+      "deadline": {
+        "date": null,
+        "text": "No open call; approach directly"
+      },
+      "status": "no open call (invitation/partnership)",
+      "mecfs_specificity": "Long COVID / IACC (ME/CFS extension planned)",
+      "fit": [
+        "serum_factor_tests",
+        "trials",
+        "crash_window_sampling"
+      ],
+      "fit_notes": "Strong interest in persistence and immune mechanisms. Serum-factor and tissue work could be pitched as consortium projects.",
+      "verification": {
+        "level": "mixed",
+        "verified_from_funder_page": [
+          "programme exists",
+          "recent funded projects"
+        ],
+        "from_snippets_or_unverified": [
+          "award sizes",
+          "eligibility"
+        ],
+        "sources": [
+          "https://polybio.org/",
+          "https://grantedai.com/grants/long-covid-research-grant-polybio-research-foundation-cf98b5e7"
+        ],
+        "notes": ""
+      }
+    },
+    {
+      "id": "lcrf-di",
+      "funder": "Long COVID Research Fund (Dysautonomia International, US)",
+      "call_name": "Long COVID Research Fund grants (annual Dysautonomia International grant cycle)",
+      "url": "https://www.longcovidresearchfund.org/",
+      "type": [
+        "project grant",
+        "seed or pilot",
+        "trial"
+      ],
+      "eligibility": {
+        "career_stage": "Any investigator able to do serious academic research",
+        "country": "Any country (stated on fund homepage)",
+        "institution_must_be_nonprofit": "Not stated",
+        "non_academics_can_apply": "Possibly (any capable investigator)",
+        "notes": "2-page letter of intent, then invited full application. Priorities: pathophysiology and treatment trials, with an autonomic focus."
+      },
+      "amount": {
+        "min": null,
+        "max": 100000,
+        "currency": "USD",
+        "text": "Up to about $100k per grant in the 2024 cycle (cap shown for POTS fund; confirm)"
+      },
+      "duration": "Typically 1-2 years (unconfirmed)",
+      "deadline": {
+        "date": null,
+        "text": "Annual cycle. The 2024 letter-of-intent (LOI) deadline was 8 Nov; 2022 was 10 Sep; the 2026 date is unconfirmed"
+      },
+      "status": "recurring (2026 cycle unconfirmed)",
+      "mecfs_specificity": "Long COVID (autonomic)",
+      "fit": [
+        "circulatory_phenotyping",
+        "trials",
+        "crash_window_sampling"
+      ],
+      "fit_notes": "The best charity fit for circulatory and autonomic phenotyping (tilt, cerebral blood flow, small-fibre testing) in Long COVID with PEM.",
+      "verification": {
+        "level": "mixed",
+        "verified_from_funder_page": [
+          "open to researchers worldwide",
+          "advisory-board review"
+        ],
+        "from_snippets_or_unverified": [
+          "amount",
+          "LOI timing for 2026"
+        ],
+        "sources": [
+          "https://www.longcovidresearchfund.org/",
+          "https://dysautonomiainternational.salsalabs.org/2024grantfundingemail"
+        ],
+        "notes": ""
+      }
+    },
+    {
+      "id": "weme-research-2026",
+      "funder": "WE&ME Foundation (Austria) with Science for ME",
+      "call_name": "WE&ME Research Project call 2026",
+      "url": "https://s4me.info/threads/2026-we-me-research-project-a-research-fund-in-collaboration-with-science-for-me.50731/",
+      "type": [
+        "project grant"
+      ],
+      "eligibility": {
+        "career_stage": "Research teams",
+        "country": "International",
+        "institution_must_be_nonprofit": "Not stated",
+        "non_academics_can_apply": "Not stated",
+        "notes": "Must focus on ME/CFS and use a formal diagnosis that requires PEM. Meaningful patient involvement is mandatory; including severe patients is encouraged."
+      },
+      "amount": {
+        "min": 120000,
+        "max": 180000,
+        "currency": "EUR",
+        "text": "€120k-180k per project, about 7 projects (>€1M total)"
+      },
+      "duration": "Not stated",
+      "deadline": {
+        "date": "2026-08-25",
+        "text": "Stage 1 closed 25 Aug 2026; stage 2 (invite-only) due 10 Nov 2026; decisions mid-Dec 2026. A second round is expected in about 2 years."
+      },
+      "status": "closed (next round ~2028)",
+      "mecfs_specificity": "ME/CFS specific",
+      "fit": [
+        "crash_window_sampling",
+        "circulatory_phenotyping",
+        "serum_factor_tests",
+        "pituitary_testing"
+      ],
+      "verification": {
+        "level": "snippet",
+        "verified_from_funder_page": [],
+        "from_snippets_or_unverified": [
+          "all (from Science for ME forum announcement and a LinkedIn post)"
+        ],
+        "sources": [
+          "https://s4me.info/threads/2026-we-me-research-project-a-research-fund-in-collaboration-with-science-for-me.50731/"
+        ],
+        "notes": "weandme.org returned an empty JavaScript-only page."
+      },
+      "fit_notes": ""
+    },
+    {
+      "id": "weme-emerging-leader",
+      "funder": "WE&ME Foundation (Austria)",
+      "call_name": "WE&ME Emerging Leader Award",
+      "url": "https://s4me.info/threads/we-me-emerging-leader-award-deadline-october-2026.51814/",
+      "type": [
+        "prize"
+      ],
+      "eligibility": {
+        "career_stage": "PhD candidates or within 8 years of PhD",
+        "country": "Worldwide",
+        "institution_must_be_nonprofit": "N/A",
+        "non_academics_can_apply": "Nomination by senior researchers, patients or charities",
+        "notes": "Two awards a year, 2026-2029"
+      },
+      "amount": {
+        "min": 5000,
+        "max": 5000,
+        "currency": "EUR",
+        "text": "€5,000 each, 2 per year"
+      },
+      "duration": "One-off",
+      "deadline": {
+        "date": null,
+        "text": "October each year (2026 nominations closed around 15 Oct 2026)"
+      },
+      "status": "recurring (closed for 2026)",
+      "mecfs_specificity": "ME/CFS and post-acute infection syndromes (PAIS)",
+      "fit": [],
+      "fit_notes": "Recognition for early-career researchers, not project money.",
+      "verification": {
+        "level": "snippet",
+        "verified_from_funder_page": [],
+        "from_snippets_or_unverified": [
+          "all"
+        ],
+        "sources": [
+          "https://s4me.info/threads/we-me-emerging-leader-award-deadline-october-2026.51814/"
+        ],
+        "notes": ""
+      }
+    },
+    {
+      "id": "fwf-weme",
+      "funder": "FWF (Austrian Science Fund) with WE&ME",
+      "call_name": "FWF WE&ME Award",
+      "url": "https://fwf.ac.at/en/funding/portfolio/subject-specific-funding/weme-award",
+      "type": [
+        "project grant"
+      ],
+      "eligibility": {
+        "career_stage": "Researchers eligible for FWF",
+        "country": "Austria",
+        "institution_must_be_nonprofit": "Austrian research institutions",
+        "non_academics_can_apply": "No",
+        "notes": "ME/CFS-PAIS with PEM; cohorts must meet the Canadian (CCC) and/or International (ICC) Consensus Criteria"
+      },
+      "amount": {
+        "min": null,
+        "max": 450000,
+        "currency": "EUR",
+        "text": "Up to €450,000"
+      },
+      "duration": "Up to 48 months",
+      "deadline": {
+        "date": "2025-10-09",
+        "text": "2025 round closed 9 Oct 2025; no 2026 round found"
+      },
+      "status": "closed (recurrence unknown)",
+      "mecfs_specificity": "ME/CFS specific",
+      "fit": [
+        "crash_window_sampling",
+        "circulatory_phenotyping",
+        "serum_factor_tests"
+      ],
+      "verification": {
+        "level": "snippet",
+        "verified_from_funder_page": [],
+        "from_snippets_or_unverified": [
+          "all"
+        ],
+        "sources": [
+          "https://fwf.ac.at/en/funding/portfolio/subject-specific-funding/weme-award"
+        ],
+        "notes": ""
+      },
+      "fit_notes": ""
+    },
+    {
+      "id": "wwtf-mecfs",
+      "funder": "WWTF (Vienna Science and Technology Fund) with WE&ME",
+      "call_name": "ME/CFS Calls 2026 (Fellowships; Consolidation)",
+      "url": "https://wiki.wwtf.at/books/mecfs-call-2026-consolidation",
+      "type": [
+        "fellowship",
+        "project grant"
+      ],
+      "eligibility": {
+        "career_stage": "Early-career (fellowships); 2024 grantees only (consolidation)",
+        "country": "Vienna / Lower Austria",
+        "institution_must_be_nonprofit": "Yes (research organisations)",
+        "non_academics_can_apply": "No",
+        "notes": "Fellowships funded 6-month research stays"
+      },
+      "amount": {
+        "min": 40000,
+        "max": 1000000,
+        "currency": "EUR",
+        "text": "Fellowships up to €40k; consolidation €0.5M-1M"
+      },
+      "duration": "6 months (fellowship); multi-year (consolidation)",
+      "deadline": {
+        "date": "2026-06-23",
+        "text": "Fellowships closed 3 Feb 2026; consolidation (invite-only) closed 23 Jun 2026"
+      },
+      "status": "closed",
+      "mecfs_specificity": "ME/CFS specific",
+      "fit": [],
+      "verification": {
+        "level": "snippet",
+        "verified_from_funder_page": [],
+        "from_snippets_or_unverified": [
+          "all"
+        ],
+        "sources": [
+          "https://wiki.wwtf.at/books/mecfs-call-2026-consolidation",
+          "https://fundingportal.wwtf.at/calls/ME-CFS26"
+        ],
+        "notes": ""
+      },
+      "fit_notes": ""
+    },
+    {
+      "id": "anzmes",
+      "funder": "ANZMES (Associated New Zealand ME Society)",
+      "call_name": "ANZMES research funding",
+      "url": "https://www.massey.ac.nz/study/scholarships-and-awards/anzmes-research-funding-opportunities/",
+      "type": [
+        "seed or pilot",
+        "PhD"
+      ],
+      "eligibility": {
+        "career_stage": "Students and researchers",
+        "country": "New Zealand",
+        "institution_must_be_nonprofit": "Likely",
+        "non_academics_can_apply": "Unknown",
+        "notes": ""
+      },
+      "amount": {
+        "min": null,
+        "max": null,
+        "currency": "NZD",
+        "text": "Not verified"
+      },
+      "duration": "Not verified",
+      "deadline": {
+        "date": "2026-07-31",
+        "text": "Opened 31 May, closed 31 Jul 2026; appears annual"
+      },
+      "status": "recurring (closed)",
+      "mecfs_specificity": "ME/CFS specific",
+      "fit": [
+        "data_reanalysis"
+      ],
+      "verification": {
+        "level": "snippet",
+        "verified_from_funder_page": [],
+        "from_snippets_or_unverified": [
+          "all"
+        ],
+        "sources": [
+          "https://www.massey.ac.nz/study/scholarships-and-awards/anzmes-research-funding-opportunities/"
+        ],
+        "notes": ""
+      },
+      "fit_notes": ""
+    },
+    {
+      "id": "plrc-fund",
+      "funder": "Patient-Led Research Collaborative",
+      "call_name": "Patient-Led Research Fund",
+      "url": "https://patientresearchcovid19.com/projects/patient-led-research-fund/",
+      "type": [
+        "project grant",
+        "trial"
+      ],
+      "eligibility": {
+        "career_stage": "Biomedical researchers (diagnostics, devices, trials eligible)",
+        "country": "International",
+        "institution_must_be_nonprofit": "Not stated",
+        "non_academics_can_apply": "Yes (patient-researcher panel chose awards)",
+        "notes": "Only one round so far ($4.8M, Nov 2022)"
+      },
+      "amount": {
+        "min": null,
+        "max": null,
+        "currency": "USD",
+        "text": "$4.8M across 9 projects in 2022"
+      },
+      "duration": "Varies",
+      "deadline": {
+        "date": null,
+        "text": "No 2026 round found"
+      },
+      "status": "closed (no current round)",
+      "mecfs_specificity": "Long COVID, ME/CFS and dysautonomia",
+      "fit": [
+        "trials",
+        "serum_factor_tests"
+      ],
+      "verification": {
+        "level": "snippet",
+        "verified_from_funder_page": [],
+        "from_snippets_or_unverified": [
+          "all"
+        ],
+        "sources": [
+          "https://patientresearchcovid19.com/projects/patient-led-research-fund/"
+        ],
+        "notes": ""
+      },
+      "fit_notes": ""
+    },
+    {
+      "id": "nih-ninds-p20",
+      "funder": "NIH / NINDS (US)",
+      "call_name": "Forecast: NINDS Exploratory Grant Program in ME/CFS Research (P20, clinical trial optional) – FOR-NS-25-016",
+      "url": "https://simpler.grants.gov/opportunity/359136",
+      "type": [
+        "centre",
+        "project grant"
+      ],
+      "eligibility": {
+        "career_stage": "Collaborative teams; post-infectious illness expertise encouraged",
+        "country": "US institutions; non-US components of US organisations allowed",
+        "institution_must_be_nonprofit": "No (for-profits and non-profits listed as eligible)",
+        "non_academics_can_apply": "Yes (businesses listed)",
+        "notes": "Not yet published. Contact Vicky Whittemore (NINDS)."
+      },
+      "amount": {
+        "min": null,
+        "max": 3000000,
+        "currency": "USD",
+        "text": "$3M total, about 6 awards (forecast)"
+      },
+      "duration": "Not stated (P20 is usually 2-5 years)",
+      "deadline": {
+        "date": null,
+        "text": "Forecast estimated a 25 Feb 2026 due date, now overdue; the forecast was updated 13 May 2026 and is still unpublished"
+      },
+      "status": "upcoming (forecast)",
+      "mecfs_specificity": "ME/CFS specific",
+      "fit": [
+        "crash_window_sampling",
+        "circulatory_phenotyping",
+        "serum_factor_tests",
+        "pituitary_testing",
+        "data_reanalysis"
+      ],
+      "fit_notes": "A London team would need to be a component of a US-led team.",
+      "verification": {
+        "level": "verified",
+        "verified_from_funder_page": [
+          "forecast status",
+          "amount",
+          "eligibility",
+          "contact"
+        ],
+        "from_snippets_or_unverified": [
+          "timing (dates are stale)"
+        ],
+        "sources": [
+          "https://simpler.grants.gov/opportunity/359136"
+        ],
+        "notes": ""
+      }
+    },
+    {
+      "id": "nih-mecfs-crc",
+      "funder": "NIH / NINDS, NIAID, NCCIH (US)",
+      "call_name": "ME/CFS Collaborative Research Centers (U54) – RFA-NS-24-022",
+      "url": "https://grants.nih.gov/grants/guide/rfa-files/RFA-NS-24-022.html",
+      "type": [
+        "centre"
+      ],
+      "eligibility": {
+        "career_stage": "Established multi-PI teams",
+        "country": "US",
+        "institution_must_be_nonprofit": "No",
+        "non_academics_can_apply": "No",
+        "notes": ""
+      },
+      "amount": {
+        "min": null,
+        "max": null,
+        "currency": "USD",
+        "text": "Centre-scale"
+      },
+      "duration": "5 years",
+      "deadline": {
+        "date": "2023-06-15",
+        "text": "Expired; current centres are funded; no recompetition announced"
+      },
+      "status": "closed",
+      "mecfs_specificity": "ME/CFS specific",
+      "fit": [],
+      "verification": {
+        "level": "snippet",
+        "verified_from_funder_page": [],
+        "from_snippets_or_unverified": [
+          "status"
+        ],
+        "sources": [
+          "https://grants.nih.gov/grants/guide/rfa-files/RFA-NS-24-022.html"
+        ],
+        "notes": ""
+      },
+      "fit_notes": ""
+    },
+    {
+      "id": "nih-parent-r01",
+      "funder": "NIH (US)",
+      "call_name": "Parent R01, clinical trial not allowed (PA-25-301)",
+      "url": "https://grants.nih.gov/grants/guide/pa-files/PA-25-301.html",
+      "type": [
+        "project grant"
+      ],
+      "eligibility": {
+        "career_stage": "Any independent PI",
+        "country": "Non-US (foreign) organisations eligible; foreign subawards no longer allowed",
+        "institution_must_be_nonprofit": "No",
+        "non_academics_can_apply": "Yes (eligible organisation types are broad)",
+        "notes": "No ME/CFS-specific programme announcement (PAR) is active; ME/CFS goes in through parent NOFOs. Foreign applications must justify unique resources."
+      },
+      "amount": {
+        "min": null,
+        "max": null,
+        "currency": "USD",
+        "text": "No cap (≥$500k direct costs per year needs prior approval)"
+      },
+      "duration": "Up to 5 years",
+      "deadline": {
+        "date": "2027-02-05",
+        "text": "Standard new-application dates: 5 Feb, 5 Jun and 5 Oct 2027; NOFO expires 8 Jan 2028"
+      },
+      "status": "recurring (next 5 Feb 2027)",
+      "mecfs_specificity": "general",
+      "fit": [
+        "crash_window_sampling",
+        "circulatory_phenotyping",
+        "serum_factor_tests",
+        "pituitary_testing",
+        "data_reanalysis"
+      ],
+      "verification": {
+        "level": "verified",
+        "verified_from_funder_page": [
+          "due dates",
+          "expiry",
+          "foreign eligibility"
+        ],
+        "from_snippets_or_unverified": [
+          "budget rule (standard NIH)"
+        ],
+        "sources": [
+          "https://grants.nih.gov/grants/guide/pa-files/PA-25-301.html"
+        ],
+        "notes": ""
+      },
+      "fit_notes": ""
+    },
+    {
+      "id": "nih-parent-r21",
+      "funder": "NIH (US)",
+      "call_name": "Parent R21 exploratory/developmental, clinical trial not allowed (PA-25-304)",
+      "url": "https://grants.nih.gov/grants/guide/pa-files/PA-25-304.html",
+      "type": [
+        "seed or pilot"
+      ],
+      "eligibility": {
+        "career_stage": "Any PI",
+        "country": "Non-US organisations eligible; no foreign subawards",
+        "institution_must_be_nonprofit": "No",
+        "non_academics_can_apply": "Yes",
+        "notes": ""
+      },
+      "amount": {
+        "min": null,
+        "max": 275000,
+        "currency": "USD",
+        "text": "≤$275k direct costs over 2 years, ≤$200k in any single year"
+      },
+      "duration": "Up to 2 years",
+      "deadline": {
+        "date": "2027-02-16",
+        "text": "Standard dates: 16 Feb, 16 Jun and 16 Oct 2027; expires 8 Jan 2028"
+      },
+      "status": "recurring (next 16 Feb 2027)",
+      "mecfs_specificity": "general",
+      "fit": [
+        "crash_window_sampling",
+        "serum_factor_tests",
+        "pituitary_testing",
+        "circulatory_phenotyping",
+        "data_reanalysis"
+      ],
+      "fit_notes": "Good size for a crash-window sampling feasibility study or a serum-transfer assay pilot.",
+      "verification": {
+        "level": "verified",
+        "verified_from_funder_page": [
+          "due dates",
+          "budget cap",
+          "foreign eligibility"
+        ],
+        "from_snippets_or_unverified": [],
+        "sources": [
+          "https://grants.nih.gov/grants/guide/pa-files/PA-25-304.html"
+        ],
+        "notes": ""
+      }
+    },
+    {
+      "id": "nih-iacc-neuro",
+      "funder": "NIH / NINDS (US)",
+      "call_name": "Neurological Effects of Infection-Associated Chronic Illnesses (R01 PAR-25-116 / R21 PAR-25-115)",
+      "url": "https://grants.nih.gov/grants/guide/pa-files/PAR-25-116.html",
+      "type": [
+        "project grant",
+        "seed or pilot"
+      ],
+      "eligibility": {
+        "career_stage": "Any PI",
+        "country": "US and foreign (as per NOFO)",
+        "institution_must_be_nonprofit": "No",
+        "non_academics_can_apply": "Yes",
+        "notes": "Covered ME/CFS and neuro-PASC"
+      },
+      "amount": {
+        "min": null,
+        "max": null,
+        "currency": "USD",
+        "text": "R01/R21 standard"
+      },
+      "duration": "R21 2 years; R01 up to 5 years",
+      "deadline": {
+        "date": null,
+        "text": "Expired; watch for a reissue"
+      },
+      "status": "closed (watch for reissue)",
+      "mecfs_specificity": "IACC incl. ME/CFS",
+      "fit": [
+        "crash_window_sampling",
+        "circulatory_phenotyping",
+        "pituitary_testing"
+      ],
+      "verification": {
+        "level": "snippet",
+        "verified_from_funder_page": [],
+        "from_snippets_or_unverified": [
+          "status",
+          "dates"
+        ],
+        "sources": [
+          "https://grants.nih.gov/grants/guide/pa-files/PAR-25-116.html"
+        ],
+        "notes": ""
+      },
+      "fit_notes": ""
+    },
+    {
+      "id": "recover-tlc",
+      "funder": "NIH RECOVER-TLC / FNIH (US)",
+      "call_name": "RECOVER-TLC Intervention Information Request (treatment-idea portal)",
+      "url": "https://fnih.org/our-programs/recover-tlc-will-advance-long-covid-research/recover-tlc-faqs/",
+      "type": [
+        "trial"
+      ],
+      "eligibility": {
+        "career_stage": "Anyone (patients, clinicians, scientists, companies)",
+        "country": "Any",
+        "institution_must_be_nonprofit": "No",
+        "non_academics_can_apply": "Yes",
+        "notes": "Not a grant. Suggested interventions are reviewed every two weeks and can be chosen for NIH-run Long COVID trials (about $300M). No investigator funding call is open."
+      },
+      "amount": {
+        "min": null,
+        "max": null,
+        "currency": "USD",
+        "text": "N/A (trial is run by RECOVER-TLC)"
+      },
+      "duration": "N/A",
+      "deadline": {
+        "date": null,
+        "text": "Rolling"
+      },
+      "status": "open (rolling, non-funding)",
+      "mecfs_specificity": "Long COVID",
+      "fit": [
+        "trials"
+      ],
+      "fit_notes": "Use to get a repurposed drug or device into an NIH-run trial.",
+      "verification": {
+        "level": "snippet",
+        "verified_from_funder_page": [],
+        "from_snippets_or_unverified": [
+          "all"
+        ],
+        "sources": [
+          "https://recovercovid.org/news/recover-mid-year-2026-progress-and-whats-ahead",
+          "https://fnih.org/our-programs/recover-tlc-will-advance-long-covid-research/recover-tlc-faqs/"
+        ],
+        "notes": ""
+      }
+    },
+    {
+      "id": "nih-sbir",
+      "funder": "NIH, CDC and FDA (US)",
+      "call_name": "Parent SBIR (R43/R44), clinical trial optional – PA-27-100",
+      "url": "https://grants.nih.gov/grants/guide/pa-files/PA-27-100.html",
+      "type": [
+        "project grant"
+      ],
+      "eligibility": {
+        "career_stage": "US small businesses (PI may be non-academic)",
+        "country": "US-owned, US-based small business",
+        "institution_must_be_nonprofit": "No (for-profit required)",
+        "non_academics_can_apply": "Yes",
+        "notes": "Standard SBIR dates (5 Jan, 5 Apr, 5 Sep) not checked against this NOFO"
+      },
+      "amount": {
+        "min": null,
+        "max": null,
+        "currency": "USD",
+        "text": "Phase I/II standard SBIR budgets"
+      },
+      "duration": "Phase I ~6-12 months; Phase II ~2 years",
+      "deadline": {
+        "date": "2027-01-05",
+        "text": "Next standard SBIR date likely 5 Jan 2027 (unverified); NOFO expires 6 Apr 2027"
+      },
+      "status": "recurring",
+      "mecfs_specificity": "general",
+      "fit": [
+        "patient_tracking_software",
+        "serum_factor_tests"
+      ],
+      "fit_notes": "One of the few routes for PEM and activity tracking software or a commercial serum assay, but only through a US company.",
+      "verification": {
+        "level": "mixed",
+        "verified_from_funder_page": [
+          "NOFO active (NIH Guide search: released 28 May 2026, expires 6 Apr 2027)"
+        ],
+        "from_snippets_or_unverified": [
+          "due dates",
+          "budgets"
+        ],
+        "sources": [
+          "https://grants.nih.gov/grants/guide/pa-files/PA-27-100.html"
+        ],
+        "notes": ""
+      }
+    },
+    {
+      "id": "mrc-mecfs-highlight",
+      "funder": "MRC / UKRI (UK)",
+      "call_name": "Researching ME/CFS: priority area (highlight notice across all MRC schemes)",
+      "url": "https://www.ukri.org/opportunity/researching-me-cfs-priority-area/",
+      "type": [
+        "project grant",
+        "fellowship",
+        "trial"
+      ],
+      "eligibility": {
+        "career_stage": "Per scheme: new investigators, established PIs, fellows. International co-leads allowed if they bring unique expertise.",
+        "country": "UK research organisations eligible for UKRI funding",
+        "institution_must_be_nonprofit": "UKRI-eligible research organisations (universities, institutes, some NHS/IROs)",
+        "non_academics_can_apply": "Only via eligible organisations",
+        "notes": "Priorities from the JLA Priority Setting Partnership: PEM mechanism, repurposed drugs, diagnostic test, immune/autoimmune, stratification, post-infection onset, neurological, genetics, severity, mitochondria, oxygen delivery. Contact mecfs@mrc.ukri.org."
+      },
+      "amount": {
+        "min": null,
+        "max": null,
+        "currency": "GBP",
+        "text": "No cap; MRC usually pays 80% of full economic cost (FEC)"
+      },
+      "duration": "Per scheme",
+      "deadline": {
+        "date": null,
+        "text": "Open, no closing date (in place since 2003; updated 18 May 2026). Applicant-led schemes are open all year, with funding decisions in June and December."
+      },
+      "status": "open (rolling)",
+      "mecfs_specificity": "ME/CFS specific (highlight notice)",
+      "fit": [
+        "crash_window_sampling",
+        "circulatory_phenotyping",
+        "serum_factor_tests",
+        "pituitary_testing",
+        "trials",
+        "data_reanalysis"
+      ],
+      "fit_notes": "The main UK route. A PEM-mechanism study combining crash-window sampling and circulatory phenotyping maps directly to PSP priority #1 and 'oxygen delivery'.",
+      "verification": {
+        "level": "verified",
+        "verified_from_funder_page": [
+          "open/no closing date",
+          "priorities",
+          "80% FEC",
+          "contact"
+        ],
+        "from_snippets_or_unverified": [],
+        "sources": [
+          "https://www.ukri.org/opportunity/researching-me-cfs-priority-area/"
+        ],
+        "notes": ""
+      }
+    },
+    {
+      "id": "mrc-applicant-led",
+      "funder": "MRC / UKRI (UK)",
+      "call_name": "MRC applicant-led research grants, including new investigator and partnership grants",
+      "url": "https://www.ukri.org/news/mrc-curiosity-driven-research-reopens-with-new-approach/",
+      "type": [
+        "project grant"
+      ],
+      "eligibility": {
+        "career_stage": "New investigators (NIRG) through established PIs",
+        "country": "UK research organisations",
+        "institution_must_be_nonprofit": "UKRI-eligible organisations",
+        "non_academics_can_apply": "No",
+        "notes": "Reopened 7 Apr 2026 after a pause, with a single College of Experts and interviews for shortlisted applicants. Reported cap of 2 applications per 12 months (unconfirmed)."
+      },
+      "amount": {
+        "min": null,
+        "max": null,
+        "currency": "GBP",
+        "text": "80% FEC; no fixed cap"
+      },
+      "duration": "Up to 3-5 years",
+      "deadline": {
+        "date": null,
+        "text": "Open all year; decisions twice a year (June, December)"
+      },
+      "status": "open (rolling)",
+      "mecfs_specificity": "general (ME/CFS highlight applies)",
+      "fit": [
+        "crash_window_sampling",
+        "circulatory_phenotyping",
+        "serum_factor_tests",
+        "pituitary_testing",
+        "data_reanalysis"
+      ],
+      "verification": {
+        "level": "mixed",
+        "verified_from_funder_page": [
+          "open all year",
+          "decision months"
+        ],
+        "from_snippets_or_unverified": [
+          "NIRG specifics",
+          "application cap"
+        ],
+        "sources": [
+          "https://www.ukri.org/news/mrc-curiosity-driven-research-reopens-with-new-approach/"
+        ],
+        "notes": ""
+      },
+      "fit_notes": ""
+    },
+    {
+      "id": "mrc-poc",
+      "funder": "MRC / UKRI (UK)",
+      "call_name": "MRC Proof of Concept: stage one (formerly the Developmental Pathway Funding Scheme, DPFS)",
+      "url": "https://www.ukri.org/opportunity/",
+      "type": [
+        "project grant",
+        "trial"
+      ],
+      "eligibility": {
+        "career_stage": "PIs at MRC-eligible organisations; international co-leads allowed",
+        "country": "UK",
+        "institution_must_be_nonprofit": "UKRI-eligible organisations",
+        "non_academics_can_apply": "Via eligible organisations",
+        "notes": "Translational: from early prototype to phase 2a. Stage 2 is by invitation (window about 19 Nov 2026 to 17 Mar 2027; dates conflict between sources)."
+      },
+      "amount": {
+        "min": null,
+        "max": null,
+        "currency": "GBP",
+        "text": "No limit; must be justified"
+      },
+      "duration": "Project-dependent",
+      "deadline": {
+        "date": "2026-11-18",
+        "text": "Stage one closes 18 Nov 2026, 4pm UK"
+      },
+      "status": "open",
+      "mecfs_specificity": "general",
+      "fit": [
+        "serum_factor_tests",
+        "trials",
+        "patient_tracking_software"
+      ],
+      "fit_notes": "For turning a serum-factor assay into a diagnostic, or preparing a repurposed-drug phase 2a.",
+      "verification": {
+        "level": "snippet",
+        "verified_from_funder_page": [],
+        "from_snippets_or_unverified": [
+          "all (several consistent snippets)"
+        ],
+        "sources": [
+          "https://www.ukri.org/events/mrc-proof-of-concept-stage-one-applicant-webinar/",
+          "https://www.dementiaresearcher.nihr.ac.uk/funding/mrc-proof-of-concept-stage-one/"
+        ],
+        "notes": ""
+      }
+    },
+    {
+      "id": "mrc-expmed",
+      "funder": "MRC / UKRI (UK)",
+      "call_name": "MRC Experimental Medicine (stage one)",
+      "url": "https://www.ukri.org/opportunity/",
+      "type": [
+        "project grant",
+        "trial"
+      ],
+      "eligibility": {
+        "career_stage": "PIs at UKRI-eligible organisations",
+        "country": "UK",
+        "institution_must_be_nonprofit": "Yes (UKRI-eligible)",
+        "non_academics_can_apply": "No",
+        "notes": "Mechanistic studies in humans"
+      },
+      "amount": {
+        "min": null,
+        "max": null,
+        "currency": "GBP",
+        "text": "80% FEC"
+      },
+      "duration": "Up to ~4 years",
+      "deadline": {
+        "date": "2026-10-07",
+        "text": "2026 stage one closed 7 Oct 2026; recurs yearly"
+      },
+      "status": "recurring (closed for 2026)",
+      "mecfs_specificity": "general",
+      "fit": [
+        "crash_window_sampling",
+        "circulatory_phenotyping",
+        "pituitary_testing",
+        "trials"
+      ],
+      "fit_notes": "An ideal format for exercise-challenge or crash-window human mechanism studies. Prepare for the 2027 round.",
+      "verification": {
+        "level": "snippet",
+        "verified_from_funder_page": [],
+        "from_snippets_or_unverified": [
+          "all"
+        ],
+        "sources": [
+          "https://researchfunding.on.worc.ac.uk/?p=2189"
+        ],
+        "notes": ""
+      }
+    },
+    {
+      "id": "nihr-eme",
+      "funder": "NIHR (UK; MRC-NIHR partnership)",
+      "call_name": "Efficacy and Mechanism Evaluation (EME) – researcher-led",
+      "url": "https://www.nihr.ac.uk/",
+      "type": [
+        "trial",
+        "project grant"
+      ],
+      "eligibility": {
+        "career_stage": "Any career stage with a suitable team",
+        "country": "UK (England-led; devolved nations participate)",
+        "institution_must_be_nonprofit": "UK organisations incl. NHS and universities",
+        "non_academics_can_apply": "Via organisations",
+        "notes": "Two stages (outline then full)"
+      },
+      "amount": {
+        "min": null,
+        "max": null,
+        "currency": "GBP",
+        "text": "No fixed cap"
+      },
+      "duration": "Typically 2-5 years",
+      "deadline": {
+        "date": null,
+        "text": "Recurring; a 2026 deadline of 1 Apr 2026 has passed; next date not confirmed"
+      },
+      "status": "recurring (date unconfirmed)",
+      "mecfs_specificity": "general",
+      "fit": [
+        "trials",
+        "crash_window_sampling",
+        "circulatory_phenotyping"
+      ],
+      "verification": {
+        "level": "unverified",
+        "verified_from_funder_page": [],
+        "from_snippets_or_unverified": [
+          "all"
+        ],
+        "sources": [
+          "https://www.abdn.ac.uk/media/site/staffnet/documents/SMMSN-Funding-Bulletin-20260306.pdf"
+        ],
+        "notes": "nihr.ac.uk returned a human-verification page (HTTP 405); site blocked, details unverified."
+      },
+      "fit_notes": ""
+    },
+    {
+      "id": "nihr-pais-ada",
+      "funder": "NIHR EME / MRC (UK)",
+      "call_name": "Post-acute infection syndromes incl. Long COVID and ME/CFS – Application Development Award for a phase 2 platform trial",
+      "url": "https://www.cso.scot.nhs.uk/nihr-efficacy-and-mechanism-evaluation-programme-research-call-on-post-acute-infection-syndromes-and-associated-conditions-closing-date-2nd-december-2025/",
+      "type": [
+        "trial"
+      ],
+      "eligibility": {
+        "career_stage": "Trial teams",
+        "country": "UK",
+        "institution_must_be_nonprofit": "UK organisations",
+        "non_academics_can_apply": "Via organisations",
+        "notes": "Outputs: compound prioritisation, at least 2 interventions, core outcome set"
+      },
+      "amount": {
+        "min": null,
+        "max": 200000,
+        "currency": "GBP",
+        "text": "Up to £200k"
+      },
+      "duration": "Up to 18 months",
+      "deadline": {
+        "date": "2025-12-02",
+        "text": "Closed 2 Dec 2025; the resulting platform trial may later open to arms or sites"
+      },
+      "status": "closed",
+      "mecfs_specificity": "PAIS incl. ME/CFS",
+      "fit": [
+        "trials"
+      ],
+      "fit_notes": "Watch for the platform trial it funds, as a home for repurposed-drug arms.",
+      "verification": {
+        "level": "snippet",
+        "verified_from_funder_page": [],
+        "from_snippets_or_unverified": [
+          "all"
+        ],
+        "sources": [
+          "https://www.cso.scot.nhs.uk/nihr-efficacy-and-mechanism-evaluation-programme-research-call-on-post-acute-infection-syndromes-and-associated-conditions-closing-date-2nd-december-2025/"
+        ],
+        "notes": ""
+      }
+    },
+    {
+      "id": "nihr-rfpb",
+      "funder": "NIHR (UK)",
+      "call_name": "Research for Patient Benefit (RfPB)",
+      "url": "https://www.nihr.ac.uk/",
+      "type": [
+        "project grant",
+        "trial",
+        "seed or pilot"
+      ],
+      "eligibility": {
+        "career_stage": "Any; NHS or social-care-based teams",
+        "country": "England (NHS/care organisation as host)",
+        "institution_must_be_nonprofit": "NHS/care providers or HEIs",
+        "non_academics_can_apply": "Via organisations",
+        "notes": "Applied research for patient benefit; feasibility studies welcome"
+      },
+      "amount": {
+        "min": null,
+        "max": null,
+        "currency": "GBP",
+        "text": "Not verified"
+      },
+      "duration": "Up to ~3 years",
+      "deadline": {
+        "date": null,
+        "text": "About 3 rounds a year; the July 2026 round closed 28 Oct 2026; next round dates not confirmed"
+      },
+      "status": "recurring",
+      "mecfs_specificity": "general",
+      "fit": [
+        "patient_tracking_software",
+        "trials"
+      ],
+      "fit_notes": "Suits a feasibility study of PEM/activity tracking in NHS ME/CFS services.",
+      "verification": {
+        "level": "unverified",
+        "verified_from_funder_page": [],
+        "from_snippets_or_unverified": [
+          "all"
+        ],
+        "sources": [
+          "https://www.bda.uk.com/resource/nihr-research-for-patient-benefit-rfpb-july-2026.html"
+        ],
+        "notes": "NIHR site blocked by human-verification page."
+      }
+    },
+    {
+      "id": "nihr-i4i",
+      "funder": "NIHR (UK)",
+      "call_name": "Invention for Innovation (i4i) Product Development Awards",
+      "url": "https://www.nihr.ac.uk/",
+      "type": [
+        "project grant"
+      ],
+      "eligibility": {
+        "career_stage": "Academic, NHS or SME-led consortia",
+        "country": "UK",
+        "institution_must_be_nonprofit": "No (SMEs eligible)",
+        "non_academics_can_apply": "Yes (SMEs)",
+        "notes": "Medical devices, diagnostics and digital health"
+      },
+      "amount": {
+        "min": null,
+        "max": null,
+        "currency": "GBP",
+        "text": "Not verified"
+      },
+      "duration": "Up to ~3 years",
+      "deadline": {
+        "date": null,
+        "text": "Two rounds a year; the spring 2026 round closed (outline 27 May, full 23 Sep 2026); an autumn round is likely but unconfirmed"
+      },
+      "status": "recurring",
+      "mecfs_specificity": "general",
+      "fit": [
+        "patient_tracking_software",
+        "serum_factor_tests"
+      ],
+      "fit_notes": "The main UK route for patient-tracking software as a medical device or a diagnostic assay.",
+      "verification": {
+        "level": "snippet",
+        "verified_from_funder_page": [],
+        "from_snippets_or_unverified": [
+          "all"
+        ],
+        "sources": [
+          "https://www.inventya.com/calls/nihr-i4i-product-development-awards-pda"
+        ],
+        "notes": ""
+      }
+    },
+    {
+      "id": "wellcome-discovery",
+      "funder": "Wellcome (UK)",
+      "call_name": "Wellcome Discovery Awards",
+      "url": "https://wellcome.org/grant-funding/schemes/discovery-awards",
+      "type": [
+        "project grant"
+      ],
+      "eligibility": {
+        "career_stage": "Established researchers with international standing; teams of 2-8 led by an established researcher. Co-applicants can be at any career stage, anywhere except mainland China.",
+        "country": "From 29 Oct 2026 the lead applicant must be based in the UK or an eligible low/middle-income country (Africa, South and South-East Asia)",
+        "institution_must_be_nonprofit": "No: co-applicants can be at HEIs, research institutes, healthcare organisations, charities, social enterprises or commercial organisations",
+        "non_academics_can_apply": "Co-applicants yes; the lead must hold a long-term contract at an eligible organisation",
+        "notes": "Discovery research: bold ideas, new tools and methods"
+      },
+      "amount": {
+        "min": null,
+        "max": 5000000,
+        "currency": "GBP",
+        "text": "Ask for what you need; average £3.5M; >£5M gets extra scrutiny"
+      },
+      "duration": "Up to 8 years (average 7)",
+      "deadline": {
+        "date": null,
+        "text": "No deadlines; apply any time"
+      },
+      "status": "open (rolling)",
+      "mecfs_specificity": "general",
+      "fit": [
+        "crash_window_sampling",
+        "circulatory_phenotyping",
+        "serum_factor_tests",
+        "pituitary_testing",
+        "data_reanalysis"
+      ],
+      "fit_notes": "For an established London PI building a multi-year ME/CFS mechanism programme. The new UK-only rule favours London leads.",
+      "verification": {
+        "level": "verified",
+        "verified_from_funder_page": [
+          "amounts",
+          "duration",
+          "eligibility incl. 29 Oct 2026 location change",
+          "no deadlines"
+        ],
+        "from_snippets_or_unverified": [],
+        "sources": [
+          "https://wellcome.org/grant-funding/schemes/discovery-awards"
+        ],
+        "notes": ""
+      }
+    },
+    {
+      "id": "dfg-general",
+      "funder": "DFG (Germany)",
+      "call_name": "DFG Research Grants (Sachbeihilfe) – no ME/CFS-specific programme",
+      "url": "https://www.dfg.de/",
+      "type": [
+        "project grant"
+      ],
+      "eligibility": {
+        "career_stage": "Researchers with a PhD",
+        "country": "Germany-based",
+        "institution_must_be_nonprofit": "No (research institutions)",
+        "non_academics_can_apply": "No",
+        "notes": ""
+      },
+      "amount": {
+        "min": null,
+        "max": null,
+        "currency": "EUR",
+        "text": "Project-dependent"
+      },
+      "duration": "Typically 3 years",
+      "deadline": {
+        "date": null,
+        "text": "Rolling"
+      },
+      "status": "rolling (general)",
+      "mecfs_specificity": "general",
+      "fit": [
+        "crash_window_sampling",
+        "serum_factor_tests",
+        "pituitary_testing"
+      ],
+      "fit_notes": "No ME/CFS or post-COVID priority programme found at DFG.",
+      "verification": {
+        "level": "unverified",
+        "verified_from_funder_page": [],
+        "from_snippets_or_unverified": [
+          "all"
+        ],
+        "sources": [],
+        "notes": "DFG site not fetched; general knowledge."
+      }
+    },
+    {
+      "id": "bmftr-decade",
+      "funder": "BMFTR (German Federal Ministry of Research, Technology and Space)",
+      "call_name": "National Decade Against Post-infectious Diseases – Guideline 1: clinical trials for PAIS",
+      "url": "https://mecfs-research.org/en/news-ndpe-update-jun26/",
+      "type": [
+        "trial"
+      ],
+      "eligibility": {
+        "career_stage": "Clinical trial teams",
+        "country": "Germany",
+        "institution_must_be_nonprofit": "Per BMFTR rules",
+        "non_academics_can_apply": "Unknown",
+        "notes": "€500M over 2026-2036 (about €50M a year), focused on ME/CFS and Long COVID; no psychosomatic focus. More guidelines are planned in 2026-27 (translation, biosamples/data, care research)."
+      },
+      "amount": {
+        "min": null,
+        "max": null,
+        "currency": "EUR",
+        "text": "Not stated per project"
+      },
+      "duration": "Not stated",
+      "deadline": {
+        "date": "2026-09-02",
+        "text": "Guideline 1 closed 2 Sep 2026; further guidelines expected"
+      },
+      "status": "closed; more calls upcoming",
+      "mecfs_specificity": "PAIS (ME/CFS and Long COVID)",
+      "fit": [
+        "trials",
+        "serum_factor_tests",
+        "data_reanalysis"
+      ],
+      "fit_notes": "German lead required; watch for the biosamples/data guideline.",
+      "verification": {
+        "level": "snippet",
+        "verified_from_funder_page": [],
+        "from_snippets_or_unverified": [
+          "all (from ME/CFS Research Foundation reporting, not BMFTR's own page)"
+        ],
+        "sources": [
+          "https://mecfs-research.org/en/news-ndpe-update-jun26/"
+        ],
+        "notes": ""
+      }
+    },
+    {
+      "id": "he-2026-disease-03",
+      "funder": "European Commission – Horizon Europe Cluster 1 (Health)",
+      "call_name": "HORIZON-HLTH-2026-01-DISEASE-03: post-infection long-term conditions",
+      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-HLTH-2026-01-DISEASE-03",
+      "type": [
+        "project grant",
+        "trial"
+      ],
+      "eligibility": {
+        "career_stage": "Consortia",
+        "country": "EU member states and associated countries (the UK is associated)",
+        "institution_must_be_nonprofit": "No (SMEs encouraged)",
+        "non_academics_can_apply": "Yes (SMEs, patient organisations)",
+        "notes": "Risk factors, biomarkers, diagnostics, therapies; clinical studies expected"
+      },
+      "amount": {
+        "min": 6000000,
+        "max": 8000000,
+        "currency": "EUR",
+        "text": "€40M total; €6-8M per project"
+      },
+      "duration": "Typically 4-5 years",
+      "deadline": {
+        "date": "2026-04-16",
+        "text": "Closed 16 Apr 2026"
+      },
+      "status": "closed",
+      "mecfs_specificity": "post-infection conditions incl. ME/CFS",
+      "fit": [
+        "trials",
+        "serum_factor_tests",
+        "data_reanalysis"
+      ],
+      "verification": {
+        "level": "verified",
+        "verified_from_funder_page": [
+          "deadline (EU portal search API)",
+          "title"
+        ],
+        "from_snippets_or_unverified": [
+          "budget per project (EMEC summary of draft)"
+        ],
+        "sources": [
+          "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-HLTH-2026-01-DISEASE-03",
+          "https://europeanmecoalition.com/?p=1694"
+        ],
+        "notes": ""
+      },
+      "fit_notes": ""
+    },
+    {
+      "id": "he-2027-disease-03",
+      "funder": "European Commission – Horizon Europe Cluster 1 (Health)",
+      "call_name": "HORIZON-HLTH-2027-01-DISEASE-03: long-term chronic conditions after post-viral or post-bacterial infections (Work Programme 2026-27)",
+      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/",
+      "type": [
+        "project grant",
+        "trial"
+      ],
+      "eligibility": {
+        "career_stage": "Consortia",
+        "country": "EU and associated countries (UK eligible)",
+        "institution_must_be_nonprofit": "No",
+        "non_academics_can_apply": "Yes",
+        "notes": "Reported emphasis on rehabilitation and physical therapy approaches, especially post-COVID. Not yet on the portal."
+      },
+      "amount": {
+        "min": null,
+        "max": null,
+        "currency": "EUR",
+        "text": "Not confirmed"
+      },
+      "duration": "Not confirmed",
+      "deadline": {
+        "date": null,
+        "text": "Expected 2027 (Health 2027 single-stage deadlines are usually around April; inferred)"
+      },
+      "status": "upcoming (unverified)",
+      "mecfs_specificity": "post-infection conditions",
+      "fit": [
+        "trials",
+        "patient_tracking_software"
+      ],
+      "fit_notes": "Wording reportedly leans toward rehabilitation. ME/CFS groups should push PEM-safe, mechanism-based framing and objective tracking of activity and PEM.",
+      "verification": {
+        "level": "snippet",
+        "verified_from_funder_page": [],
+        "from_snippets_or_unverified": [
+          "all"
+        ],
+        "sources": [
+          "https://www.erwcpt.eu/news/european-union-|-funding-opportunities%3A-horizon-europe"
+        ],
+        "notes": "The EU portal search API did not return a 2027 topic page yet."
+      }
+    },
+    {
+      "id": "mrff-pasc-2026",
+      "funder": "Australian Government MRFF (administered by NHMRC)",
+      "call_name": "MRFF Emerging Priorities and Consumer Driven Research Initiative – 2026 PASC (GO8338)",
+      "url": "https://www.nhmrc.gov.au/funding/find-funding/mrff-2026-post-acute-sequelae-covid-19-grant-opportunity-go8338",
+      "type": [
+        "project grant",
+        "seed or pilot",
+        "trial"
+      ],
+      "eligibility": {
+        "career_stage": "Researchers at approved MRFF-eligible organisations",
+        "country": "Australia",
+        "institution_must_be_nonprofit": "No (universities, MRIs, businesses, not-for-profits)",
+        "non_academics_can_apply": "Via eligible organisations",
+        "notes": "Consumer co-design mandatory. ME/CFS only in Stream 3 Topic B (small incubator projects comparing PASC with ME/CFS, POTS and fibromyalgia)."
+      },
+      "amount": {
+        "min": null,
+        "max": 23000000,
+        "currency": "AUD",
+        "text": "Up to AUD 23M total"
+      },
+      "duration": "Not verified",
+      "deadline": {
+        "date": "2026-09-02",
+        "text": "Closed 2 Sep 2026 (sources conflict: 5 Aug / 2 Sep)"
+      },
+      "status": "closed",
+      "mecfs_specificity": "Long COVID (ME/CFS comparative stream)",
+      "fit": [
+        "data_reanalysis",
+        "circulatory_phenotyping"
+      ],
+      "verification": {
+        "level": "snippet",
+        "verified_from_funder_page": [],
+        "from_snippets_or_unverified": [
+          "all"
+        ],
+        "sources": [
+          "https://www.health.gov.au/news/mrff-23-million-for-research-into-post-acute-sequelae-of-covid-19",
+          "https://pattens.com/grants/mrff-emerging-priorities-consumer-driven-research-initiative-2026-post-acute-sequelae-covid-19/"
+        ],
+        "notes": "nhmrc.gov.au and health.gov.au returned empty replies or stream errors to curl; site blocked, details unverified."
+      },
+      "fit_notes": ""
+    },
+    {
+      "id": "cihr",
+      "funder": "CIHR (Canada)",
+      "call_name": "No ME/CFS or post-COVID condition call found; Project Grant competitions (general)",
+      "url": "https://cihr-irsc.gc.ca/",
+      "type": [
+        "project grant"
+      ],
+      "eligibility": {
+        "career_stage": "Independent researchers",
+        "country": "Canada",
+        "institution_must_be_nonprofit": "Eligible Canadian institutions",
+        "non_academics_can_apply": "No",
+        "notes": ""
+      },
+      "amount": {
+        "min": null,
+        "max": null,
+        "currency": "CAD",
+        "text": "General"
+      },
+      "duration": "Up to 5 years",
+      "deadline": {
+        "date": null,
+        "text": "Project Grant runs twice a year (spring and fall); dates not verified"
+      },
+      "status": "recurring (general)",
+      "mecfs_specificity": "general",
+      "fit": [
+        "crash_window_sampling",
+        "serum_factor_tests"
+      ],
+      "fit_notes": "Gap: CIHR's earlier ME/CFS team grant (ICanCME) has no successor call found.",
+      "verification": {
+        "level": "unverified",
+        "verified_from_funder_page": [],
+        "from_snippets_or_unverified": [
+          "all"
+        ],
+        "sources": [],
+        "notes": "No CIHR page fetched."
+      }
+    },
+    {
+      "id": "anthropic-guest-investigators",
+      "funder": "Anthropic",
+      "call_name": "Open call for guest investigators in the life sciences",
+      "url": "https://www.anthropic.com/news/open-call-guest-investigators-life-sciences",
+      "type": [
+        "project grant"
+      ],
+      "eligibility": {
+        "career_stage": "Principal investigators (and their groups) only",
+        "country": "Not restricted in the announcement",
+        "institution_must_be_nonprofit": "Academic institutions, non-profits or government labs (no companies)",
+        "non_academics_can_apply": "No (must be a PI at an academic, non-profit or government lab)",
+        "notes": "8-12 week collaboration with Anthropic researchers; Anthropic runs models at no cost. Application must use only publicly available information. Outputs to be published and open-sourced; investigators keep data rights."
+      },
+      "amount": {
+        "min": null,
+        "max": null,
+        "currency": null,
+        "text": "In-kind (model access and researcher time); no cash"
+      },
+      "duration": "8-12 weeks (extension possible)",
+      "deadline": {
+        "date": "2026-11-05",
+        "text": "Announced 22 Oct 2026; open about 14 days, so it closes around 5 Nov 2026 (estimate; no exact date published); notification about 14 days after close"
+      },
+      "status": "open",
+      "mecfs_specificity": "general (life sciences: causal human biology, clinical science, drug discovery)",
+      "fit": [
+        "data_reanalysis",
+        "serum_factor_tests",
+        "patient_tracking_software"
+      ],
+      "fit_notes": "Strong fit for re-analysing public ME/CFS omics, GWAS and DecodeME summary statistics, or building open analysis and tracking tools in 8-12 weeks. Proposals must use public data only.",
+      "verification": {
+        "level": "verified",
+        "verified_from_funder_page": [
+          "eligibility",
+          "format",
+          "window length",
+          "in-kind terms"
+        ],
+        "from_snippets_or_unverified": [
+          "exact closing date (estimated from announcement date + 14 days)"
+        ],
+        "sources": [
+          "https://www.anthropic.com/news/open-call-guest-investigators-life-sciences"
+        ],
+        "notes": ""
+      }
+    },
+    {
+      "id": "anthropic-ai-for-science",
+      "funder": "Anthropic",
+      "call_name": "AI for Science program (API credits)",
+      "url": "https://www.anthropic.com/news/ai-for-science-program",
+      "type": [
+        "seed or pilot"
+      ],
+      "eligibility": {
+        "career_stage": "Researchers attached to a research institution",
+        "country": "Not restricted",
+        "institution_must_be_nonprofit": "Not stated",
+        "non_academics_can_apply": "Not stated (institutional affiliation needed)",
+        "notes": "Biology and life sciences focus"
+      },
+      "amount": {
+        "min": null,
+        "max": null,
+        "currency": "USD",
+        "text": "Free API credits (amount not published)"
+      },
+      "duration": "Not stated",
+      "deadline": {
+        "date": null,
+        "text": "Rolling"
+      },
+      "status": "open (rolling)",
+      "mecfs_specificity": "general",
+      "fit": [
+        "data_reanalysis",
+        "patient_tracking_software"
+      ],
+      "verification": {
+        "level": "verified",
+        "verified_from_funder_page": [
+          "purpose",
+          "rolling application"
+        ],
+        "from_snippets_or_unverified": [
+          "credit amounts"
+        ],
+        "sources": [
+          "https://www.anthropic.com/news/ai-for-science-program"
+        ],
+        "notes": ""
+      },
+      "fit_notes": ""
+    },
+    {
+      "id": "czi",
+      "funder": "Chan Zuckerberg Initiative",
+      "call_name": "CZI science RFAs (no ME/CFS or Long COVID programme)",
+      "url": "https://chanzuckerberg.com/science/",
+      "type": [
+        "project grant"
+      ],
+      "eligibility": {
+        "career_stage": "Varies by RFA",
+        "country": "Varies (often international)",
+        "institution_must_be_nonprofit": "Varies",
+        "non_academics_can_apply": "Varies",
+        "notes": "Recent RFAs: spatiotemporal omics in live tissue, synthetic biology in immunology, GPU compute for AI biology (in kind). CZI's only Long COVID grant found was a 2022 patient-engagement award to Solve M.E."
+      },
+      "amount": {
+        "min": null,
+        "max": 1000000,
+        "currency": "USD",
+        "text": "Recent RFAs $0.3M a year to $1M"
+      },
+      "duration": "About 2 years",
+      "deadline": {
+        "date": null,
+        "text": "Ad hoc RFAs; none relevant open"
+      },
+      "status": "no relevant open call",
+      "mecfs_specificity": "general",
+      "fit": [
+        "data_reanalysis"
+      ],
+      "verification": {
+        "level": "snippet",
+        "verified_from_funder_page": [],
+        "from_snippets_or_unverified": [
+          "all"
+        ],
+        "sources": [
+          "https://grantexec.com/grants/ba4729a8-4a4e-4f64-a85a-379a5686483d"
+        ],
+        "notes": ""
+      },
+      "fit_notes": ""
+    },
+    {
+      "id": "open-philanthropy",
+      "funder": "Open Philanthropy (reportedly renamed Coefficient Giving)",
+      "call_name": "No ME/CFS or Long COVID request for proposals found",
+      "url": "https://www.openphilanthropy.org/",
+      "type": [],
+      "eligibility": {
+        "career_stage": "N/A",
+        "country": "N/A",
+        "institution_must_be_nonprofit": "N/A",
+        "non_academics_can_apply": "N/A",
+        "notes": "No open RFP for ME/CFS or Long COVID found; grants are mostly made by invitation"
+      },
+      "amount": {
+        "min": null,
+        "max": null,
+        "currency": "USD",
+        "text": "N/A"
+      },
+      "duration": "N/A",
+      "deadline": {
+        "date": null,
+        "text": "N/A"
+      },
+      "status": "no open call found",
+      "mecfs_specificity": "general",
+      "fit": [],
+      "verification": {
+        "level": "unverified",
+        "verified_from_funder_page": [],
+        "from_snippets_or_unverified": [
+          "all"
+        ],
+        "sources": [],
+        "notes": ""
+      },
+      "fit_notes": ""
+    },
+    {
+      "id": "emergent-ventures",
+      "funder": "Emergent Ventures (Mercatus Center); Fast Grants is closed",
+      "call_name": "Emergent Ventures – fast, small grants to individuals",
+      "url": "https://www.mercatus.org/emergent-ventures",
+      "type": [
+        "seed or pilot",
+        "prize"
+      ],
+      "eligibility": {
+        "career_stage": "Any (individuals)",
+        "country": "Any",
+        "institution_must_be_nonprofit": "No",
+        "non_academics_can_apply": "Yes",
+        "notes": ""
+      },
+      "amount": {
+        "min": null,
+        "max": null,
+        "currency": "USD",
+        "text": "Typically small (thousands to tens of thousands; unverified)"
+      },
+      "duration": "One-off",
+      "deadline": {
+        "date": null,
+        "text": "Rolling"
+      },
+      "status": "rolling (unverified)",
+      "mecfs_specificity": "general",
+      "fit": [
+        "patient_tracking_software",
+        "data_reanalysis"
+      ],
+      "fit_notes": "One of the few routes open to non-academics building patient tracking tools.",
+      "verification": {
+        "level": "unverified",
+        "verified_from_funder_page": [],
+        "from_snippets_or_unverified": [
+          "all"
+        ],
+        "sources": [],
+        "notes": "Not fetched; from general knowledge. Fast Grants (the COVID-era programme) no longer accepts applications."
+      }
+    },
+    {
+      "id": "innovate-uk",
+      "funder": "Innovate UK (UKRI)",
+      "call_name": "Biomedical Catalyst and Smart grants (industry-led)",
+      "url": "https://apply-for-innovation-funding.service.gov.uk/competition/search",
+      "type": [
+        "project grant"
+      ],
+      "eligibility": {
+        "career_stage": "UK businesses (academics as partners)",
+        "country": "UK",
+        "institution_must_be_nonprofit": "No (for-profit lead)",
+        "non_academics_can_apply": "Yes",
+        "notes": ""
+      },
+      "amount": {
+        "min": null,
+        "max": null,
+        "currency": "GBP",
+        "text": "Not verified"
+      },
+      "duration": "Varies",
+      "deadline": {
+        "date": null,
+        "text": "Recurring competitions; dates not verified"
+      },
+      "status": "recurring (unverified)",
+      "mecfs_specificity": "general",
+      "fit": [
+        "patient_tracking_software",
+        "serum_factor_tests"
+      ],
+      "fit_notes": "For a spin-out building PEM tracking software or a serum diagnostic.",
+      "verification": {
+        "level": "unverified",
+        "verified_from_funder_page": [],
+        "from_snippets_or_unverified": [
+          "all"
+        ],
+        "sources": [],
+        "notes": "Not fetched."
+      }
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Method and predictions · Solving ME/CFS</title>
+<meta name="description" content="How Solving ME/CFS grades evidence, builds the working model and chooses experiments, the predictions we have recorded before results, and how to help.">
+<meta property="og:title" content="Method and predictions">
+<meta property="og:description" content="How Solving ME/CFS grades evidence, builds the working model and chooses experiments, the predictions we have recorded before results, and how to help.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://solvingmecfs.org/method">
+<meta property="og:site_name" content="Solving ME/CFS">
+<meta property="og:image" content="https://solvingmecfs.org/assets/og.png?v=3">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="ME/CFS ruins lives and has no cure. 20+ million people suffer from it. Help us solve it now.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Method and predictions">
+<meta name="twitter:description" content="How Solving ME/CFS grades evidence, builds the working model and chooses experiments, the predictions we have recorded before results, and how to help.">
+<meta name="twitter:image" content="https://solvingmecfs.org/assets/og.png?v=3">
+<link rel="canonical" href="https://solvingmecfs.org/method">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Ccircle cx='12' cy='12' r='8.5' fill='none' stroke='%230d6a6f' stroke-width='2.6' stroke-dasharray='44 9.4' stroke-linecap='round' transform='rotate(-62 12 12)'/%3E%3Ccircle cx='18.9' cy='7.2' r='2.1' fill='%23b4532a'/%3E%3C/svg%3E">
+<meta name="theme-color" content="#f5f6f4" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#101518" media="(prefers-color-scheme: dark)">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=JetBrains+Mono:wght@400;600&display=swap">
+<link rel="stylesheet" href="/assets/site.css?v=de7c5ac8">
+<script>(function(){var r=document.documentElement;try{var s=localStorage.getItem('theme');if(s)r.setAttribute('data-theme',s)}catch(e){}window.__toggleTheme=function(){var d=r.getAttribute('data-theme')||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');var n=d==='dark'?'light':'dark';r.setAttribute('data-theme',n);try{localStorage.setItem('theme',n)}catch(e){}}})()</script>
+<style>
+.pred{list-style:none;padding:0;margin:1rem 0;border-top:1px solid var(--rule)}
+.pred li{border-bottom:1px solid var(--rule);padding:.8rem 0;margin:0;display:grid;grid-template-columns:3.2rem 1fr;gap:.2rem 1rem;align-items:baseline}
+.pred .p{font-family:var(--f-sans,system-ui,sans-serif);font-variant-numeric:tabular-nums;font-weight:600;font-size:1.05rem;grid-row:span 2;grid-column:1;text-align:right}
+.pred .p small{display:none}
+.pred li>div{grid-column:2}
+.pred .s{font-size:.9rem;color:var(--muted)}
+.steps{padding-left:1.4rem}
+.steps li{margin:.8rem 0;padding-left:.3rem}
+.steps li::marker{font-family:var(--f-sans,system-ui,sans-serif);color:var(--muted);font-size:.9em}
+</style>
+
+</head>
+<body class="p-method">
+<header class="site-head"><div class="wide">
+<a class="brand" href="/">Solving ME/CFS</a>
+<nav class="site-nav" aria-label="Site"><a href="/model">Working model</a><a href="/atlas">Evidence</a><a href="/questions">Open questions</a><a href="/trials">Trials</a><a href="/treatments">Treatments</a><a href="/funding">Funding</a><a href="/data">Data</a><a href="/method" aria-current="page">Method</a></nav>
+<button class="theme-btn" type="button" onclick="__toggleTheme()" aria-label="Switch light or dark theme"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 1.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13Zm0 1.6v9.8a4.9 4.9 0 0 1 0-9.8Z" fill="currentColor"/></svg></button>
+</div></header>
+<script>(function(){var n=document.querySelector('.site-nav'),a=n&&n.querySelector('[aria-current]');if(a&&a.offsetLeft+a.offsetWidth>n.clientWidth)n.scrollLeft=a.offsetLeft-24})()</script>
+<main id="main">
+<div class="wrap">
+<h1>Method</h1>
+<p class="deck">How findings are graded, how the model and the proposed experiments are derived, and the predictions we have recorded before results.</p>
+<p class="byline">Updated 30 Oct 2026</p>
+
+<h2 id="pipeline">From papers to experiments</h2>
+<ol class="steps">
+<li><b>Collect the raw material.</b> Published papers and preprints, but wherever possible the per-person data behind them: GWAS summary statistics, metabolomics and proteomics matrices, single-cell data, national registry tables and trial registries. The <a href="/data">data catalogue</a> lists 110 datasets, 43 of them hosted here for direct download.</li>
+<li><b>Re-analyse the data rather than rely on the abstract.</b> Each person counts once, results are corrected for multiple testing, and a lead is checked against a cohort it wasn't found in. Most widely cited leads failed these checks, and the failures are listed on the <a href="/questions#settled">open questions</a> page.</li>
+<li><b>Grade every finding.</b> The <a href="/atlas">evidence atlas</a> holds 258 findings, each graded <span class="pill rep">replicated</span> <span class="pill sev">several studies</span> <span class="pill early">early</span> <span class="pill cont">contested</span> or <span class="pill ref">refuted</span>, with the studies for and against.</li>
+<li><b>Join the findings into one model.</b> The <a href="/model">working model</a> is a hypothesis that joins the replicated findings into a loop. Each step is graded, names the result that would disprove it, and lists the observations it fails to explain.</li>
+<li><b>Keep the parts linked.</b> The model steps, open questions, proposed experiments and treatments are built from one linked data file, and a check fails the build if a link is broken or the same finding carries two grades. Each atlas finding shows which model step it supports or contradicts, and each treatment states which step it acts on and why.</li>
+<li><b>Rank the experiments.</b> The <a href="/#critical-path">proposed experiments</a> are ordered by how many competing hypotheses each could separate. The <a href="/questions">open questions</a> page gives the reasoning behind each one.</li>
+<li><b>Act while they run.</b> The <a href="/treatments">treatments</a> page grades what patients are trying by mechanism, evidence and risk, so people can make informed choices before the trials finish.</li>
+</ol>
+
+<h2 id="predictions">Predictions, recorded before the results</h2>
+<p>These are our probabilities for results that are not yet known, written on 28 October 2026. When each result arrives, we will mark it here and score the whole set, as a check on how well calibrated the project is.</p>
+<ul class="pred">
+<li><div><b>Low-dose rapamycin, Mount Sinai placebo-controlled trial in long COVID</b> (<a href="https://clinicaltrials.gov/study/NCT06960928">NCT06960928</a>, ends Nov 2026): the primary endpoint is <em>not</em> significantly better than placebo.</div><span class="p">70%<small>chance</small></span><div class="s">Why: an open-label response rate of about 70% is within what a 35–40% placebo response plus drop-out bias could produce.</div></li>
+<li><div><b>LIFT trial, pyridostigmine × low-dose naltrexone</b> (<a href="https://clinicaltrials.gov/study/NCT06366724">NCT06366724</a>, n=160): at least one arm meets its primary endpoint.</div><span class="p">35%<small>chance</small></span><div class="s">Why: pyridostigmine fits the preload-failure step, but the longer long-COVID trial showed no overall benefit, and LDN trials so far are null.</div></li>
+<li><div><b>Hyperbaric oxygen vs sham in ME/CFS</b> (<a href="https://clinicaltrials.gov/study/NCT07621068">NCT07621068</a>, due mid-2027): HBOT beats sham on the primary endpoint.</div><span class="p">40%<small>chance</small></span><div class="s">Why: the open-label Charité series was modestly positive, but the HOT-LoCO sham trial in long COVID was negative.</div></li>
+<li><div><b>Crash-window sampling</b>, whenever it is done properly: at least one complement or vessel-lining damage marker (sC5b-9, syndecan-1) rises 24–72 h after exertion in patients, relative to their own baseline, and not in controls.</div><span class="p">55%<small>chance</small></span><div class="s">Why: complement tracks disease activity in long COVID, and muscle damage peaks a day after exertion.</div></li>
+<li><div><b>Reticulocytes in a clinic cohort</b>: young red cells are lower in ME/CFS than in matched controls, with normal iron stores.</div><span class="p">60%<small>chance</small></span><div class="s">Why: this pattern appears in Finnish national lab records but hasn't been tested in a clinic cohort.</div></li>
+<li><div><b>Stimulated copeptin in severe patients</b>: more than 1 in 5 show partial diabetes insipidus (too little ADH).</div><span class="p">25%<small>chance</small></span><div class="s">Why: the only supporting study had no controls, and copeptin was normal in the 13 patients tested.</div></li>
+</ul>
+
+<h2 id="help">How to help</h2>
+<div class="grid g2">
+<div class="card"><h3>Researchers</h3><p>Run one of the <a href="/#critical-path">proposed experiments</a>, or the parts of one your lab is set up for. Tell us where a grade in the atlas is wrong. Share per-person data from severe or recent-onset patients, which are the scarcest data in the field.</p></div>
+<div class="card"><h3>Clinicians</h3><p>Bank plasma on a stable day and again 24–48 h into a crash. Run the cheap pituitary and blood-volume tests before starting steroids or desmopressin. Record what each patient tried, one change at a time.</p></div>
+<div class="card"><h3>Patients and families</h3><p>If you try a treatment, change one thing at a time and track overnight heart rate and HRV (<a href="/treatments#how">how</a>). Pooled across many people, these records can show which plausible treatments work.</p></div>
+<div class="card"><h3>Funders and builders</h3><p>The first proposed experiment costs far less than a drug trial and would inform the design of later trials. Software help is welcome too: a shared tracking protocol and automated literature updates for the atlas.</p></div>
+</div>
+<h2 id="about">About</h2>
+<p>Solving ME/CFS is written by <a href="https://michaeljelly.com">Michael Jelly</a>, an engineer and amateur scientist. AI agents assist with finding papers, extracting results and re-analysing public data. Every claim links to its source, and the analysis code is public, so any of it can be checked. The working model is one person's synthesis of the evidence, not a consensus view, and corrections from researchers are the most useful thing anyone can send. Write to <a href="mailto:hello@solvingmecfs.org">hello@solvingmecfs.org</a>.</p>
+</div>
+</main>
+<footer class="site-foot"><div class="l-body">
+<p>Solving ME/CFS is written by <a href="https://michaeljelly.com">Michael Jelly</a>, with AI agents assisting with literature review and analysis. <a href="mailto:hello@solvingmecfs.org">hello@solvingmecfs.org</a> · <a href="https://github.com/michaeljelly/solvingmecfs">Source and analysis code</a> · Updated 30 Oct 2026</p>
+</div></footer>
+</body>
+</html>

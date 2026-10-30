@@ -1,0 +1,41 @@
+gene,max_tpm,tau,brain_mean,whole_blood,EBV_lymphocytes,muscle,tibial_nerve,colon_transverse,small_intestine,top_tissues
+RABGAP1L,22.0,0.39,7.6,3.5,22.0,1.2,9.6,4.9,7.1,Cells - EBV-transformed lymphocytes 22; Br:Cerebellar Hemisphere 20; Heart - Atrial Appendage 17; Br:Cerebellum 13
+DARS2,44.3,0.48,3.2,1.9,44.3,4.5,9.5,9.8,9.5,Cells - EBV-transformed lymphocytes 44; Cells - Cultured fibroblasts 28; Adrenal Gland 16; Testis 11
+CENPL,8.4,0.64,0.8,0.5,8.4,0.9,2.2,1.4,1.5,Cells - EBV-transformed lymphocytes 8; Testis 8; Cells - Cultured fibroblasts 5; Adipose - Subcutaneous 2
+ZBTB37,11.2,0.42,2.1,3.1,3.1,1.3,11.2,2.7,3.6,Nerve - Tibial 11; Cervix - Ectocervix 7; Ovary 7; Cervix - Endocervix 7
+SERPINC1,1054.4,0.97,0.2,0.5,0.1,0.2,0.3,0.2,0.3,Liver 1054; Testis 1; Kidney - Cortex 1; Whole Blood 1
+KLHL20,21.2,0.24,6.0,1.7,11.7,7.2,19.4,9.7,10.5,Artery - Tibial 21; Uterus 21; Testis 20; Cells - Cultured fibroblasts 20
+RC3H1,17.6,0.27,5.6,7.6,10.0,8.1,13.0,8.3,9.6,Br:Cerebellar Hemisphere 18; Br:Cerebellum 15; Fallopian Tube 13; Lung 13
+ANKRD45,28.7,0.83,2.6,0.0,0.1,0.0,0.8,0.4,0.1,Testis 29; Br:Caudate (basal ganglia) 6; Br:Nucleus accumbens (basal ganglia) 6; Pituitary 3
+TNFSF4,9.8,0.65,1.3,0.9,9.8,0.2,1.9,1.1,1.1,Cells - EBV-transformed lymphocytes 10; Cells - Cultured fibroblasts 6; Testis 5; Esophagus - Gastroesophageal Junction 4
+PRDX6,443.8,0.15,100.5,115.7,126.7,429.3,308.6,195.2,95.1,Adipose - Visceral (Omentum) 444; Muscle - Skeletal 429; Esophagus - Gastroesophageal Junction 384; Fallopian Tube 370
+BTN2A2,25.9,0.47,4.2,2.7,25.9,0.8,8.2,4.7,7.7,Cells - EBV-transformed lymphocytes 26; Br:Cerebellum 18; Br:Cerebellar Hemisphere 17; Spleen 17
+BTN2A1,63.0,0.24,18.1,26.5,30.1,8.2,37.4,27.4,33.2,Spleen 63; Br:Cerebellar Hemisphere 62; Br:Cerebellum 55; Uterus 54
+BTN3A1,104.1,0.42,8.4,32.7,42.7,2.6,22.5,20.1,39.4,Spleen 104; Lung 47; Cervix - Endocervix 44; Cells - EBV-transformed lymphocytes 43
+BTN3A2,94.6,0.44,4.9,28.0,73.9,2.6,17.8,19.0,33.2,Spleen 95; Cells - EBV-transformed lymphocytes 74; Lung 43; Uterus 34
+BTN1A1,0.9,0.89,0.1,0.1,0.4,0.0,0.1,0.1,0.2,Testis 1; Spleen 1; Cells - EBV-transformed lymphocytes 0; Br:Spinal cord (cervical c-1) 0
+TRIM38,25.5,0.39,0.9,16.0,24.0,3.6,13.9,9.5,13.6,Spleen 25; Cells - EBV-transformed lymphocytes 24; Lung 20; Artery - Aorta 19
+ABT1,39.4,0.28,8.2,11.8,39.4,7.6,17.7,16.1,19.5,Cells - EBV-transformed lymphocytes 39; Spleen 28; Uterus 25; Skin - Not Sun Exposed (Suprapubic) 25
+ZNF322,6.5,0.36,1.9,0.4,3.8,1.3,5.2,2.8,2.9,Uterus 7; Cervix - Endocervix 6; Ovary 6; Bladder 5
+FBXL4,15.8,0.34,3.4,1.9,8.3,4.6,15.8,5.2,5.4,Nerve - Tibial 16; Cells - Cultured fibroblasts 11; Thyroid 10; Ovary 10
+POU3F2,10.8,0.78,7.7,0.0,0.0,0.0,8.3,0.0,0.0,Br:Caudate (basal ganglia) 11; Br:Spinal cord (cervical c-1) 11; Br:Substantia nigra 10; Br:Frontal Cortex (BA9) 9
+MMS22L,7.4,0.63,0.9,0.4,7.4,0.2,2.4,1.2,1.5,Cells - EBV-transformed lymphocytes 7; Testis 6; Cells - Cultured fibroblasts 3; Cervix - Ectocervix 2
+SUDS3,35.5,0.18,11.8,9.5,32.0,8.0,34.2,21.9,21.9,Testis 36; Nerve - Tibial 34; Thyroid 33; Cervix - Endocervix 32
+TAOK3,46.5,0.29,22.1,12.4,44.5,6.4,19.4,14.3,16.8,Br:Cerebellar Hemisphere 46; Cells - EBV-transformed lymphocytes 44; Br:Cerebellum 43; Cells - Cultured fibroblasts 30
+PEBP1,2476.3,0.21,908.7,26.6,267.8,333.7,725.1,299.3,362.2,Adrenal Gland 2476; Thyroid 1224; Br:Frontal Cortex (BA9) 1197; Br:Cerebellar Hemisphere 1182
+KSR2,16.8,0.86,3.5,0.0,0.0,0.0,0.0,0.2,0.1,Pituitary 17; Br:Cerebellum 12; Br:Cerebellar Hemisphere 10; Br:Frontal Cortex (BA9) 4
+OLFM4,956.9,0.87,0.5,27.2,0.0,0.4,2.8,67.1,956.9,Small Intestine - Terminal Ileum 957; Colon - Transverse 67; Pancreas 62; Vagina 56
+PCDH8,18.1,0.85,6.6,0.0,0.0,0.0,0.9,0.1,0.1,Br:Frontal Cortex (BA9) 18; Br:Anterior cingulate cortex (BA24) 13; Br:Cortex 13; Br:Nucleus accumbens (basal ganglia) 12
+CCPG1,63.8,0.27,20.7,27.2,11.9,18.6,30.0,16.4,14.4,Artery - Aorta 64; Artery - Tibial 47; Artery - Coronary 45; Br:Cerebellar Hemisphere 43
+UNC13C,42.2,0.85,11.7,0.0,0.2,0.7,0.0,0.1,0.0,Br:Cerebellar Hemisphere 42; Br:Cerebellum 30; Br:Cortex 18; Br:Frontal Cortex (BA9) 15
+RAB27A,45.3,0.39,2.3,45.3,25.5,1.2,9.8,18.4,18.0,Whole Blood 45; Pituitary 45; Lung 38; Prostate 31
+PIGB,14.2,0.32,3.0,6.1,13.8,1.1,8.3,5.7,7.3,Cells - Cultured fibroblasts 14; Cells - EBV-transformed lymphocytes 14; Thyroid 13; Artery - Aorta 10
+RSL24D1,118.5,0.21,35.1,6.5,118.5,35.1,62.9,41.8,41.0,Cells - EBV-transformed lymphocytes 118; Ovary 115; Artery - Tibial 103; Cells - Cultured fibroblasts 95
+CA10,163.4,0.85,33.6,0.0,0.0,0.0,0.0,0.2,0.2,Br:Cerebellar Hemisphere 163; Br:Cerebellum 113; Br:Frontal Cortex (BA9) 40; Br:Cortex 26
+ARFGEF2,37.2,0.26,9.2,1.7,32.5,10.0,20.3,18.8,19.7,Thyroid 37; Cells - EBV-transformed lymphocytes 32; Adrenal Gland 32; Testis 27
+CSE1L,128.3,0.28,26.5,7.1,97.7,31.4,49.7,28.8,31.2,Testis 128; Cells - EBV-transformed lymphocytes 98; Cells - Cultured fibroblasts 74; Cervix - Ectocervix 58
+PREX1,146.4,0.42,42.2,146.4,90.6,5.7,27.7,10.2,23.4,Whole Blood 146; Br:Spinal cord (cervical c-1) 100; Spleen 95; Cells - EBV-transformed lymphocytes 91
+STAU1,97.8,0.14,38.9,24.4,70.7,38.4,67.9,51.6,45.8,Thyroid 98; Artery - Tibial 96; Cells - Cultured fibroblasts 91; Artery - Aorta 85
+ZNFX1,35.5,0.25,8.0,21.9,35.5,10.9,26.1,13.9,18.4,Cells - EBV-transformed lymphocytes 36; Lung 32; Artery - Aorta 31; Artery - Tibial 28
+DDX27,70.1,0.2,20.0,16.0,70.1,18.8,52.8,32.7,37.9,Cells - EBV-transformed lymphocytes 70; Ovary 68; Cervix - Endocervix 60; Uterus 57
+KCNB1,21.0,0.65,7.3,0.2,0.0,2.8,2.2,2.0,0.7,Br:Frontal Cortex (BA9) 21; Br:Cortex 17; Esophagus - Muscularis 14; Esophagus - Gastroesophageal Junction 11

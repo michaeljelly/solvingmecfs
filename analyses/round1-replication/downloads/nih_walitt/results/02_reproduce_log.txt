@@ -1,0 +1,182 @@
+
+=== A. scalar measures (sorted by MWU p) ===
+                              n_HV  n_PI  median_HV  median_PI  hedges_g   p_mwu  p_perm_meandiff  q_BH_mwu  paper_p
+measure                                                                                                             
+Grip_time_to_failure_s          18    16    31.5300    11.9150   -1.4392  0.0002           0.0001    0.0094      NaN
+Stool_observed_features         17    15   478.0000   437.0000   -1.2796  0.0015           0.0008    0.0318      NaN
+CPET_peak_VO2                    9     8    31.4000    19.2000   -1.6768  0.0037           0.0049    0.0518      NaN
+CSF_DHPG                        21    16  2033.0000  1585.0000   -0.9548  0.0062           0.0079    0.0626    0.006
+Blood_B_switched_memory_pct     20    16    25.4000    18.1000   -0.9246  0.0074           0.0083    0.0626    0.008
+CSF_CD8_CXCR5_pct               10     7    10.0600    15.8000    1.4244  0.0136           0.0067    0.0714      NaN
+CPET_HR_reserve                  9     8   108.4000    81.1795   -1.3293  0.0152           0.0093    0.0714      NaN
+Blood_CD8_naive_pct             10     8    46.5500    72.3000    1.2010  0.0155           0.0172    0.0714      NaN
+HRV_pNN50_pct                   19    14    12.5171     3.9166   -0.8918  0.0173           0.0139    0.0714      NaN
+HRV_SDNNi_ms                    19    14    67.7500    58.7650   -0.7926  0.0173           0.0309    0.0714      NaN
+CSF_DOPA                        21    16   687.0000   572.0000   -0.7819  0.0193           0.0149    0.0714    0.021
+Blood_B_naive_pct               20    17    32.0500    39.4000    0.7016  0.0238           0.0371    0.0714    0.030
+CSF_DOPAC                       21    16   362.0000   247.5000   -0.7006  0.0249           0.0372    0.0714    0.025
+HRV_rMSSD_ms                    19    14    38.6772    28.2238   -0.8499  0.0261           0.0198    0.0714      NaN
+Baroreflex_slope_ms_per_mmHg    19    16     5.8800     3.7400   -0.8469  0.0263           0.0162    0.0714      NaN
+CPET_HR_at_AT                    9     8    96.6300    87.2950   -1.1476  0.0274           0.0189    0.0714      NaN
+Blood_CD8_CD226_pct              7     8    67.5000    54.2000   -1.1535  0.0289           0.0367    0.0714    0.055
+CSF_CD8_PD1_pct                 20    16    80.8000    85.0500    0.7458  0.0330           0.0224    0.0771    0.033
+CPET_VO2_at_AT                   9     8    16.1000     9.2500   -1.1565  0.0360           0.0220    0.0795      NaN
+CPET_pct_pred_VO2               10     7    89.9414    67.3926   -0.8369  0.0431           0.0766    0.0905      NaN
+PBMC_Seahorse_max_resp          13    14   115.7700   247.0250    0.2886  0.0609           0.4967    0.1219      NaN
+CPET_peak_HR                     9     8   172.5833   158.5333   -0.9803  0.0745           0.0451    0.1421      NaN
+IENFD_leg                        9    11     6.9000     9.2000    0.7720  0.0952           0.0726    0.1738      NaN
+CPET_peak_power_W                9     8   214.0000   109.0000   -0.8548  0.1139           0.0824    0.1981      NaN
+Muscle_type2_type1_ratio        11    12     0.9235     0.8269   -0.3757  0.1179           0.3616    0.1981      NaN
+Plasma_Tau                      21    17     2.1303     2.3375    0.3118  0.1435           0.3448    0.2319      NaN
+DEXA_body_fat_pct               11    16    28.2760    30.1186    0.4911  0.1623           0.2013    0.2524      NaN
+Plasma_GFAP                     21    17    63.2312    95.7845    0.5473  0.1790           0.0980    0.2685      NaN
+DEXA_visceral_fat               11    16   593.0078  1051.4642    0.2548  0.2310           0.5119    0.3344      NaN
+PBMC_Seahorse_basal             13    14    46.7300    52.1100    0.2326  0.2388           0.5475    0.3344      NaN
+CSF_Tau                         21    16    62.3113    55.4081   -0.2086  0.2802           0.5382    0.3796      NaN
+DEXA_fat_mass                   11    16    20.0300    23.3950    0.3602  0.3175           0.3588    0.4168      NaN
+Grip_max_force_kg               20    16    35.3750    31.5000   -0.2162  0.4402           0.5144    0.5602      NaN
+Plasma_NfL                      21    17     8.5480     6.9757   -0.1819  0.4675           0.5902    0.5770      NaN
+DEXA_lean_mass                  11    16    48.2000    46.1750   -0.1956  0.4809           0.6106    0.5770      NaN
+CSF_UCHL1                       21    16  1332.8454  1293.3206   -0.0304  0.6826           0.9362    0.7964      NaN
+Stool_inverse_simpson           17    15    27.7900    31.4100    0.0791  0.7944           0.8204    0.8871      NaN
+SGNFD_thigh                      8     9    13.4550    14.5600   -0.0643  0.8148           0.8838    0.8871      NaN
+IENFD_thigh                      9    11     9.9000    10.2000    0.2768  0.8238           0.5453    0.8871      NaN
+SGNFD_leg                        8    10    14.6300    11.9300   -0.1354  0.8968           0.7710    0.9380      NaN
+CSF_GFAP                        21    16  9273.2547  8468.8916    0.0904  0.9156           0.7877    0.9380      NaN
+CSF_NfL                         21    16   436.6257   383.3354    0.1579  0.9879           0.6324    0.9879      NaN
+
+=== B. correlations (paper Fig 6D-G, S11, S12) ===
+              source      group                                x                                     y   n  pearson_r  p_pearson  p_perm  spearman_rho  p_spearman  p_pearson_worst_leave1out  q_BH_spearman_all_tests
+0     Figure 3E.xlsx         HV            Time to Failure (sec)    Proportion of of Hard-Task Choices  15     -0.039      0.890   0.897        -0.118       0.675                      0.941                    0.815
+1     Figure 3E.xlsx  PI-ME/CFS            Time to Failure (sec)    Proportion of of Hard-Task Choices  14      0.567      0.034   0.033         0.570       0.033                      0.093                    0.158
+2     Figure 6D.xlsx         HV                   CSF NE (pg/mL)                 Time to failure (sec)  18      0.399      0.101   0.099         0.353       0.151                      0.354                    0.329
+3     Figure 6D.xlsx  PI-ME/CFS                   CSF NE (pg/mL)                 Time to failure (sec)  15      0.613      0.015   0.015         0.558       0.031                      0.052                    0.158
+4     Figure 6E.xlsx         HV                   CSF NE (pg/mL)  Proportion of Hard Tasks choices (%)  14     -0.422      0.133   0.134        -0.306       0.287                      0.460                    0.459
+5     Figure 6E.xlsx  PI-ME/CFS                   CSF NE (pg/mL)  Proportion of Hard Tasks choices (%)  14      0.646      0.013   0.009         0.631       0.015                      0.033                    0.158
+6     Figure 6F.xlsx         HV                   CSF DA (pg/mL)                 Time to Failure (sec)  17      0.048      0.854   0.860        -0.030       0.910                      0.972                    0.970
+7     Figure 6F.xlsx  PI-ME/CFS                   CSF DA (pg/mL)                 Time to Failure (sec)  14      0.647      0.012   0.012         0.814       0.000                      0.034                    0.019
+8     Figure 6G.xlsx         HV                 CSF DHPG (pg/mL)   Proportion of Hard Task Choices (%)  14     -0.604      0.022   0.023        -0.441       0.115                      0.151                    0.290
+9     Figure 6G.xlsx  PI-ME/CFS                 CSF DHPG (pg/mL)   Proportion of Hard Task Choices (%)  14      0.177      0.545   0.536         0.183       0.532                      0.937                    0.751
+10  Figure S11B.xlsx         HV  Proportion of Hard Task Choices                        CSF DA (pg/mL)  13      0.030      0.922   0.928         0.277       0.360                      0.997                    0.523
+11  Figure S11B.xlsx  PI-ME/CFS  Proportion of Hard Task Choices                        CSF DA (pg/mL)  13      0.281      0.352   0.358         0.381       0.199                      0.643                    0.381
+12  Figure S11C.xlsx         HV                  Time to Failure                      CSF DHPG (pg/mL)  18      0.023      0.928   0.931         0.067       0.791                      0.989                    0.904
+13  Figure S11C.xlsx  PI-ME/CFS                  Time to Failure                      CSF DHPG (pg/mL)  15      0.417      0.122   0.134         0.379       0.164                      0.261                    0.329
+14  Figure S12A.xlsx         HV                   MMPI Cog Score                        CSF NE (pg/mL)  17      0.414      0.099   0.090         0.291       0.257                      0.428                    0.440
+15  Figure S12A.xlsx  PI-ME/CFS                   MMPI Cog Score                        CSF NE (pg/mL)  15      0.524      0.045   0.042         0.571       0.026                      0.095                    0.158
+16  Figure S12B.xlsx         HV                         MASQ VSM                        CSF DA (pg/mL)  16      0.310      0.243   0.240         0.286       0.282                      0.492                    0.459
+17  Figure S12B.xlsx  PI-ME/CFS                         MASQ VSM                        CSF DA (pg/mL)  14      0.214      0.463   0.459         0.489       0.076                      0.781                    0.218
+18  Figure S12C.xlsx         HV                   MMPI Cog Score                  CSF cys-DOPA (pg/mL)  16     -0.064      0.813   0.803         0.119       0.661                      0.972                    0.815
+19  Figure S12C.xlsx  PI-ME/CFS                   MMPI Cog Score                  CSF cys-DOPA (pg/mL)  15      0.678      0.005   0.004         0.625       0.013                      0.025                    0.158
+20  Figure S12D.xlsx         HV                    MASQ Language                  CSF cys-DOPA (pg/mL)  16     -0.423      0.103   0.104        -0.426       0.100                      0.331                    0.266
+21  Figure S12D.xlsx  PI-ME/CFS                    MASQ Language                  CSF cys-DOPA (pg/mL)  15      0.549      0.034   0.033         0.474       0.074                      0.100                    0.218
+22  Figure S12E.xlsx         HV                          MASQ VP                  CSF cys-DOPA (pg/mL)  16      0.110      0.684   0.678         0.001       0.996                      0.927                    1.000
+23  Figure S12E.xlsx  PI-ME/CFS                          MASQ VP                  CSF cys-DOPA (pg/mL)  15      0.510      0.052   0.049         0.516       0.049                      0.089                    0.180
+24  Figure S12F.xlsx         HV                   MMPI Cog Score                     CSF DOPAC (pg/mL)  17      0.127      0.627   0.630         0.046       0.861                      0.922                    0.961
+25  Figure S12F.xlsx  PI-ME/CFS                   MMPI Cog Score                     CSF DOPAC (pg/mL)  15      0.429      0.110   0.118         0.520       0.047                      0.245                    0.180
+26  Figure S12G.xlsx         HV                     MASQ Att Con                     CSF DOPAC (pg/mL)  17      0.346      0.174   0.179         0.310       0.225                      0.351                    0.401
+27  Figure S12G.xlsx  PI-ME/CFS                     MASQ Att Con                     CSF DOPAC (pg/mL)  15      0.354      0.195   0.179         0.573       0.026                      0.465                    0.158
+28  Figure S12H.xlsx         HV                     MASQ Att Con                      CSF DHPG (pg/mL)  17      0.219      0.397   0.398         0.245       0.343                      0.660                    0.523
+29  Figure S12H.xlsx  PI-ME/CFS                     MASQ Att Con                      CSF DHPG (pg/mL)  15      0.631      0.012   0.008         0.611       0.016                      0.044                    0.158
+30  Figure S12I.xlsx         HV                          MASQ VP                      CSF DHPG (pg/mL)  17     -0.268      0.298   0.302        -0.353       0.164                      0.540                    0.329
+31  Figure S12I.xlsx  PI-ME/CFS                          MASQ VP                      CSF DHPG (pg/mL)  15      0.590      0.021   0.024         0.560       0.030                      0.071                    0.158
+32  Figure S12J.xlsx         HV                             WCST                      CSF DOPA (pg/mL)  16     -0.068      0.802   0.803         0.033       0.905                      0.939                    0.970
+33  Figure S12J.xlsx  PI-ME/CFS                             WCST                      CSF DOPA (pg/mL)  15     -0.440      0.101   0.095         0.411       0.128                      0.122                    0.308
+34  Figure S12K.xlsx         HV                  Wais Sym Search                        CSF NE (pg/mL)  16     -0.605      0.013   0.016        -0.567       0.022                      0.044                    0.158
+35  Figure S12K.xlsx  PI-ME/CFS                  Wais Sym Search                        CSF NE (pg/mL)  14      0.008      0.978   0.975         0.083       0.778                      0.964                    0.904
+36  Figure S12L.xlsx         HV                             BVMT                      CSF DOPA (pg/mL)  16      0.511      0.043   0.046         0.454       0.077                      0.090                    0.218
+37  Figure S12L.xlsx  PI-ME/CFS                             BVMT                      CSF DOPA (pg/mL)  14     -0.087      0.767   0.768        -0.154       0.599                      0.863                    0.815
+38  Figure S12M.xlsx         HV                             HVLT                      CSF DOPA (pg/mL)  16      0.511      0.043   0.040         0.456       0.076                      0.195                    0.218
+39  Figure S12M.xlsx  PI-ME/CFS                             HVLT                      CSF DOPA (pg/mL)  14      0.426      0.128   0.123         0.351       0.219                      0.313                    0.401
+40  Figure S12N.xlsx         HV                        WAIS Code                    CSF cys-DA (pg/mL)  15      0.630      0.012   0.015         0.393       0.147                      0.116                    0.329
+41  Figure S12N.xlsx  PI-ME/CFS                        WAIS Code                    CSF cys-DA (pg/mL)  13      0.102      0.740   0.740         0.130       0.673                      0.941                    0.815
+42  Figure S12O.xlsx         HV                        WAIS Code                     CSF DOPAC (pg/mL)  15     -0.142      0.614   0.605        -0.257       0.356                      0.786                    0.523
+43  Figure S12O.xlsx  PI-ME/CFS                        WAIS Code                     CSF DOPAC (pg/mL)  14      0.018      0.953   0.957         0.011       0.970                      0.990                    1.000
+44   Figure S6B.xlsx         HV                   Max Grip Force            Proportion Hard Trials (%)  15      0.266      0.338   0.333         0.132       0.640                      0.580                    0.815
+45   Figure S6B.xlsx  PI-ME/CFS                   Max Grip Force            Proportion Hard Trials (%)  15      0.066      0.816   0.819         0.116       0.680                      0.949                    0.815
+46   Figure S8B.xlsx         HV                       Peak Power            Proportion Hard Trials (%)   7      0.732      0.062   0.074         0.786       0.036                      0.222                    0.158
+47   Figure S8B.xlsx  PI-ME/CFS                       Peak Power            Proportion Hard Trials (%)   8      0.131      0.758   0.754         0.000       1.000                      1.000                    1.000
+
+=== C. tilt plasma NE/EPI (Supp Fig 4 source) ===
+                  n_HV  n_PI  median_HV  median_PI  hedges_g   p_mwu  p_perm_meandiff  q_BH_mwu
+variable                                                                                       
+NE.SUPINE           16    16     1.7872     1.1650   -0.8254  0.0260           0.0195    0.3121
+EPI.SUPINE          15    16     0.0572     0.0927    0.5980  0.1294           0.0976    0.3121
+NE.4                16    16     2.5343     2.1913   -0.5637  0.1188           0.1073    0.3121
+NE.8                16    15     2.7192     2.1386   -0.4180  0.1510           0.2529    0.3121
+EPI.4               15    16     0.0889     0.1875    0.5803  0.1195           0.1095    0.3121
+EPI.8               16    15     0.0821     0.1520    0.7214  0.1751           0.0452    0.3121
+NE_delta_8min       16    15     0.9036     1.0100    0.1835  0.6260           0.6036    0.6707
+NE_ratio_8min       16    15     1.6049     1.9686    0.7344  0.1294           0.0430    0.3121
+EPI_delta_8min      15    15     0.0461     0.0802    0.6359  0.1873           0.0779    0.3121
+NE_peak_upright     16    16     3.0770     2.9019   -0.1086  0.5147           0.7589    0.5939
+EPI_peak_upright    16    16     0.2664     0.3172    0.6723  0.2099           0.0579    0.3148
+NE_delta_peak       16    16     1.2585     1.6025    0.3821  0.4909           0.2839    0.5939
+NE_upright_mean     16    16     2.7702     2.5051   -0.2290  0.3809           0.5098    0.5194
+EPI_upright_mean    16    16     0.1409     0.2495    0.7964  0.0513           0.0266    0.3121
+last_sample_min     16    16    40.0000    40.0000   -0.1746  0.6963           0.6537    0.6963
+completed_40  False  True 
+group                     
+HV                6     11
+PI-ME/CFS         7      9
+Fisher completed-40 p = 0.7282820955113841
+hyperadrenergic_NE_ge_3.55nM  False  True 
+group                                     
+HV                               10      7
+PI-ME/CFS                        13      3
+Fisher NE>=600pg/mL p = 0.2587319243604005
+PI-ME/CFS Spearman NE delta 8 min vs last sample time: rho=-0.06 p=0.825 n=15
+PI-ME/CFS Spearman EPI delta 8 min vs last sample time: rho=-0.38 p=0.163 n=15
+HV Spearman NE delta 8 min vs last sample time: rho=0.09 p=0.726 n=16
+HV Spearman EPI delta 8 min vs last sample time: rho=-0.01 p=0.979 n=14
+
+=== D. flow cytometry, top 12 ===
+   tissue                        population  n_HV  n_PI  median_HV  median_PI  hedges_g   p_mwu  p_perm_meandiff  q_BH_mwu_within_tissue
+21  blood      CD8+ T cell subset CD226 (%)     6     8      67.80    54.2000   -1.7643  0.0027           0.0040                  0.1146
+3   blood        B cell switched memory (%)    19    16      25.50    18.1000   -0.9068  0.0100           0.0105                  0.2151
+59    csf      CD8+ T cell subset CXCR5 (%)    19    16      10.50    15.6000    0.8082  0.0150           0.0206                  0.4691
+2   blood           B cell subset Naive (%)    19    16      31.70    39.6500    0.6975  0.0288           0.0459                  0.4125
+82    csf    Lymphocyte monocyte (cells/ul)    19    16      48.04    33.2695   -0.7366  0.0441           0.0259                  0.4691
+75    csf         Lymphocyte NK CD56dim (%)    19    16       2.87     1.4950   -0.7178  0.0441           0.0352                  0.4691
+61    csf       CD8+ T cell subset PD-1 (%)    19    16      81.10    85.0500    0.7062  0.0479           0.0300                  0.4691
+8   blood      CD4+ T cell subset CD226 (%)     6     8      77.40    62.7500   -1.2954  0.0593           0.0266                  0.6372
+76    csf  Lymphocyte NK CD56dim (cells/ul)    19    16      25.81    14.4000   -0.4589  0.0656           0.0920                  0.4691
+69    csf   Lymphocyte CD56bright/dim ratio    19    15       0.27     0.4000    0.7185  0.0709           0.0267                  0.4691
+54    csf            CD8+ T cell Memory (%)    19    16      51.10    57.4000    0.6322  0.0821           0.0616                  0.4691
+77    csf            Lymphocyte NK cell (%)    19    16       3.26     2.5400   -0.5219  0.1090           0.1207                  0.5448
+
+=== E. EEfRT person level ===
+PHTC {'n_HV': 16, 'n_PI': 15, 'median_HV': np.float64(0.398), 'median_PI': np.float64(0.3488), 'log2_ratio_means': np.float64(-0.2548), 'hedges_g': np.float64(-0.5174), 'p_mwu': np.float64(0.2814), 'p_perm_meandiff': np.float64(0.1548), 'p_welch': np.float64(0.1469)}
+hard_completion_rate {'n_HV': 16, 'n_PI': 15, 'median_HV': np.float64(1.0), 'median_PI': np.float64(0.75), 'log2_ratio_means': nan, 'hedges_g': np.float64(-1.1545), 'p_mwu': np.float64(0.0192), 'p_perm_meandiff': np.float64(0.0022), 'p_welch': np.float64(0.0059)}
+easy_completion_rate {'n_HV': 16, 'n_PI': 15, 'median_HV': np.float64(1.0), 'median_PI': np.float64(1.0), 'log2_ratio_means': np.float64(-0.0096), 'hedges_g': np.float64(-0.2138), 'p_mwu': np.float64(0.7405), 'p_perm_meandiff': np.float64(0.6137), 'p_welch': np.float64(0.5532)}
+hard_press_rate {'n_HV': 16, 'n_PI': 15, 'median_HV': np.float64(5.1316), 'median_PI': np.float64(4.8749), 'log2_ratio_means': np.float64(-0.1154), 'hedges_g': np.float64(-0.8657), 'p_mwu': np.float64(0.0072), 'p_perm_meandiff': np.float64(0.019), 'p_welch': np.float64(0.022)}
+group                            0       1
+PHTC                 count  16.000  15.000
+                     mean    0.430   0.361
+                     std     0.149   0.109
+                     min     0.240   0.157
+                     25%     0.360   0.285
+                     50%     0.398   0.349
+                     75%     0.453   0.447
+                     max     0.771   0.541
+hard_completion_rate count  16.000  15.000
+                     mean    0.960   0.645
+                     std     0.082   0.373
+                     min     0.700   0.000
+                     25%     0.948   0.359
+                     50%     1.000   0.750
+                     75%     1.000   1.000
+                     max     1.000   1.000
+PI: Spearman PHTC vs hard-completion rate SignificanceResult(statistic=np.float64(0.229128784747792), pvalue=np.float64(0.4113961100076795))
+=========================================================================================
+                            coef    std err          z      P>|z|      [0.025      0.975]
+-----------------------------------------------------------------------------------------
+Intercept                -3.4865      0.730     -4.775      0.000      -4.917      -2.055
+ME                       -0.5020      0.242     -2.078      0.038      -0.976      -0.029
+Value_of_Reward           0.6036      0.238      2.536      0.011       0.137       1.070
+Probability_of_Reward     2.5270      0.812      3.111      0.002       0.935       4.119
+EV                        0.4541      0.262      1.733      0.083      -0.059       0.968
+Trial                    -0.0305      0.006     -4.705      0.000      -0.043      -0.018
+male                      0.5963      0.257      2.324      0.020       0.093       1.099
+=========================================================================================
+OR(ME) = 0.605
+adjusted for hard completion rate: OR(ME)=0.681 p=0.0855

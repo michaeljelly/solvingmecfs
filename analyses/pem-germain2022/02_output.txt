@@ -1,0 +1,80 @@
+Permutation test (labels shuffled across persons, 500 perms): number of metabolites with p<0.05 for case vs control
+R1 (D1 post-pre)       n=97 obs=37 null median=35 95%=70 perm p=0.451
+R2 (D2 post-pre)       n=97 obs=58 null median=33 95%=66 perm p=0.118
+R2-R1                  n=97 obs=32 null median=35 95%=71 perm p=0.611
+REC (D2pre-D1pre)      n=105 obs=41 null median=36 95%=73 perm p=0.389
+D1post->D2pre          n=97 obs=57 null median=36 95%=70 perm p=0.138
+CUM (D2post-D1pre)     n=97 obs=47 null median=36 95%=64 perm p=0.238
+LEVEL D1-PRE           n=105 obs=153 null median=34 95%=67 perm p=0.002
+LEVEL D2-PRE           n=105 obs=146 null median=36 95%=65 perm p=0.002
+
+corr of case-control t at D1PRE vs D2PRE: 0.845
+corr D1PRE vs D2POST: 0.786
+
+Mean of two resting samples, case vs ctrl: q<0.05 48
+                                                                    est       t       p       q                                                      sub
+X - 23739                                                       -1.0161 -5.6492  0.0000  0.0001                                                      NaN
+N-acetylarginine                                                -0.2372 -5.3002  0.0000  0.0003              Urea cycle; Arginine and Proline Metabolism
+X - 15503                                                       -0.9603 -5.1244  0.0000  0.0004                                                      NaN
+cis-3,4-methyleneheptanoylglycine                               -0.8151 -4.8594  0.0000  0.0009                     Fatty Acid Metabolism (Acyl Glycine)
+cis-3,4-methyleneheptanoate                                     -0.9915 -4.5360  0.0000  0.0025                                     Fatty Acid, Branched
+X - 18922                                                       -0.9751 -4.3946  0.0000  0.0036                                                      NaN
+X - 11483                                                       -0.8932 -4.3410  0.0000  0.0038                                                      NaN
+cis-3,4-methyleneheptanoylcarnitine                             -0.7099 -4.3020  0.0000  0.0038     Fatty Acid Metabolism (Acyl Carnitine, Medium Chain)
+undecenoylcarnitine (C11:1)                                     -0.6787 -4.2152  0.0001  0.0047  Fatty Acid Metabolism (Acyl Carnitine, Monounsaturated)
+linolenoylcarnitine (C18:3)*                                    -0.5706 -4.1691  0.0001  0.0051  Fatty Acid Metabolism (Acyl Carnitine, Polyunsaturated)
+2-hydroxyoctanoate                                              -0.5436 -4.1410  0.0001  0.0051                                  Fatty Acid, Monohydroxy
+tridecenedioate (C13:1-DC)*                                     -0.9154 -4.1160  0.0001  0.0052                                Fatty Acid, Dicarboxylate
+glycine conjugate of C10H14O2 (1)*                              -0.6686 -3.9925  0.0001  0.0073                        Partially Characterized Molecules
+metabolonic lactone sulfate                                     -0.7952 -3.9795  0.0001  0.0073                        Partially Characterized Molecules
+1,5-anhydroglucitol (1,5-AG)                                    -0.3664 -3.9435  0.0001  0.0074     Glycolysis, Gluconeogenesis, and Pyruvate Metabolism
+branched-chain, straight-chain, or cyclopropyl 12:1 fatty acid* -0.8186 -3.9388  0.0002  0.0074                        Partially Characterized Molecules
+linoleoylcarnitine (C18:2)*                                     -0.3529 -3.8711  0.0002  0.0089  Fatty Acid Metabolism (Acyl Carnitine, Polyunsaturated)
+5-dodecenoate (12:1n7)                                          -0.6297 -3.8286  0.0002  0.0097                                  Medium Chain Fatty Acid
+2'-O-methylcytidine                                             -0.2238 -3.6914  0.0004  0.0149               Pyrimidine Metabolism, Cytidine containing
+paraxanthine                                                    -1.5420 -3.6678  0.0004  0.0154                                      Xanthine Metabolism
+1-methylnicotinamide                                            -0.1515 -3.6539  0.0004  0.0154                   Nicotinate and Nicotinamide Metabolism
+uracil                                                          -0.1731 -3.6168  0.0005  0.0166                 Pyrimidine Metabolism, Uracil containing
+2-ketocaprylate                                                 -0.4545 -3.5977  0.0005  0.0170                Leucine, Isoleucine and Valine Metabolism
+glutamine_degradant*                                            -1.1118 -3.5585  0.0006  0.0186                        Partially Characterized Molecules
+1,7-dimethylurate                                               -1.2673 -3.5005  0.0007  0.0217                                      Xanthine Metabolism
+glutamine conjugate of C7H12O2*                                 -0.8899 -3.4646  0.0008  0.0235                        Partially Characterized Molecules
+glycerophosphoethanolamine                                       0.3018  3.4365  0.0009  0.0244                                  Phospholipid Metabolism
+3-hydroxyhexanoylcarnitine (1)                                  -0.3440 -3.4307  0.0009  0.0244          Fatty Acid Metabolism (Acyl Carnitine, Hydroxy)
+1-methylurate                                                   -1.1221 -3.3922  0.0010  0.0262                                      Xanthine Metabolism
+X - 07765                                                       -0.9795 -3.3879  0.0010  0.0262                                                      NaN
+N2,N2-dimethylguanosine                                         -0.1987 -3.3769  0.0010  0.0263                    Purine Metabolism, Guanine containing
+X - 21441                                                       -0.8670 -3.3619  0.0011  0.0268                                                      NaN
+AMP                                                              0.7484  3.3124  0.0013  0.0304                    Purine Metabolism, Adenine containing
+cis-4-decenoylcarnitine (C10:1)                                 -0.6130 -3.2883  0.0014  0.0319  Fatty Acid Metabolism (Acyl Carnitine, Monounsaturated)
+1-methylxanthine                                                -1.0583 -3.2727  0.0015  0.0319                                      Xanthine Metabolism
+3-hydroxyoctanoate                                              -0.5011 -3.2706  0.0015  0.0319                                  Fatty Acid, Monohydroxy
+3-hydroxyhexanoate                                              -0.4072 -3.2445  0.0016  0.0326                                  Fatty Acid, Monohydroxy
+5-methylthioadenosine (MTA)                                     -0.2880 -3.2439  0.0016  0.0326                                     Polyamine Metabolism
+3-hydroxyoctanoylcarnitine (2)                                  -0.5233 -3.2389  0.0016  0.0326          Fatty Acid Metabolism (Acyl Carnitine, Hydroxy)
+5-dodecenoylcarnitine (C12:1)                                   -0.6639 -3.1803  0.0020  0.0381  Fatty Acid Metabolism (Acyl Carnitine, Monounsaturated)
+
+Subpathways shifted at rest (mean t across members, q<0.1):
+                                                                mean  count       p       q
+sub                                                                                        
+Fatty Acid Metabolism (Acyl Carnitine, Polyunsaturated)      -2.9734      5  0.0025  0.0145
+Fatty Acid Metabolism (Acyl Carnitine, Hydroxy)              -2.6339      6  0.0033  0.0147
+Fatty Acid, Branched                                         -2.5793      4  0.0290  0.0885
+Fatty Acid Metabolism (Acyl Carnitine, Medium Chain)         -2.3247      6  0.0033  0.0147
+Fatty Acid Metabolism (Acyl Carnitine, Monounsaturated)      -2.3097      9  0.0002  0.0026
+Partially Characterized Molecules                            -2.1931     18  0.0000  0.0000
+Long Chain Saturated Fatty Acid                              -2.1835      7  0.0001  0.0016
+Long Chain Monounsaturated Fatty Acid                        -2.1806      6  0.0003  0.0033
+Xanthine Metabolism                                          -2.0942     10  0.0015  0.0094
+Long Chain Polyunsaturated Fatty Acid (n3 and n6)            -2.0443     15  0.0000  0.0000
+Fatty Acid, Monohydroxy                                      -1.5803     16  0.0007  0.0055
+Hemoglobin and Porphyrin Metabolism                          -1.5643      4  0.0010  0.0075
+Medium Chain Fatty Acid                                      -1.5620      8  0.0062  0.0223
+Fatty Acid Metabolism (Acyl Carnitine, Long Chain Saturated) -1.5513      7  0.0049  0.0190
+Androgenic Steroids                                          -1.4200     16  0.0000  0.0000
+Pyrimidine Metabolism, Uracil containing                     -1.4061     10  0.0307  0.0889
+Histidine Metabolism                                         -0.8700     14  0.0029  0.0147
+Fatty Acid, Dicarboxylate                                    -0.7728     28  0.0046  0.0190
+Chemical                                                     -0.7254     17  0.0351  0.0969
+Gamma-glutamyl Amino Acid                                    -0.4683     17  0.0155  0.0501
+Primary Bile Acid Metabolism                                  1.0732      8  0.0111  0.0378

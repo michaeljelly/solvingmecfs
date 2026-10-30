@@ -1,0 +1,1241 @@
+{
+ "domain": "infection",
+ "title": "Infection and viruses",
+ "overview": "The most solid finding in this area is about onset: about 1 in 10 people meet ME/CFS criteria six months after several unrelated infections (EBV, Q fever, Ross River virus, Giardia, SARS-CoV-2), and how severe the first illness was predicts this better than psychological factors do. Post-COVID cohorts confirm that infection raises the rate of new ME/CFS several-fold. Whether any virus is still active in people who already have ME/CFS is far less clear. Blood antibody and PCR studies of herpesviruses give mixed results. Tissue findings for enterovirus, HHV-6 and SARS-CoV-2 are small or unreplicated, though some of them are striking. SARS-CoV-2 antigen and RNA do persist in a minority of people for months, but three randomised trials of nirmatrelvir in established long COVID (about 1,200 people) were negative, and antiviral trials in ME/CFS are tiny and unreplicated. The XMRV episode, a retrovirus finding that turned out to be lab contamination, is a reminder that one striking virus finding needs blinded multi-lab replication.",
+ "findings": [
+  {
+   "id": "infection-dubbo-stereotyped-pifs",
+   "subdomain": "Post-infectious onset",
+   "finding": "About 11-12% of people with confirmed EBV, Q fever or Ross River virus infection meet CFS criteria at 6 months, at a similar rate for all three pathogens, and the severity of the acute illness predicts it.",
+   "grade": "replicated",
+   "plain": "Three very different germs (a herpesvirus, a bacterium and a mosquito-borne virus) left about 1 in 10 people with the same long-lasting fatigue illness. The sicker someone was at the start, the more likely they were to stay ill.",
+   "detail": "The Dubbo prospective cohort (n=253, rural Australia) followed people from laboratory-confirmed acute infection: 29/253 (12%) had a post-infective fatigue syndrome at 6 months and 28 (11%) met CFS criteria. The phenotype was 'stereotyped' across pathogens, and acute severity predicted it, whereas demographic, psychological and microbiological factors did not. Because the result does not depend on which pathogen caused the infection, it points to the host response rather than to the particular microbe. The cohort was small, with few cases per pathogen, and was followed to 12 months.",
+   "studies": [
+    {
+     "cite": "Hickie 2006, BMJ",
+     "n": "253",
+     "design": "prospective cohort from acute infection",
+     "result": "12% prolonged illness at 6 months, 11% CFS criteria; similar across EBV, Q fever, RRV; predicted by acute severity",
+     "url": "https://doi.org/10.1136/bmj.38933.585764.AE",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "open_questions": [
+    "What immune or metabolic feature of severe acute illness carries forward into the chronic state?",
+    "Does early intervention during the acute phase change the 6-month rate?"
+   ],
+   "hypotheses": [
+    "innate-hyperactivation",
+    "sickness-behaviour",
+    "cell-danger-response"
+   ],
+   "test_available": "No predictive test; documentation of the acute infection (serology/PCR at onset) is useful for subtyping."
+  },
+  {
+   "id": "infection-katz-post-mono-adolescents",
+   "subdomain": "Post-infectious onset",
+   "finding": "After infectious mononucleosis in adolescents, 13%, 7% and 4% met paediatric CFS criteria at 6, 12 and 24 months; all 13 cases still ill at 24 months were female.",
+   "grade": "replicated",
+   "plain": "After glandular fever, many teenagers are still unwell at six months, but most recover over two years. Those still ill at two years were all girls.",
+   "detail": "Katz 2009 (n=301 adolescents aged 12-18, Chicago) screened for non-recovery and made diagnoses by blind review. Greater fatigue severity at 12 months predicted persistence, and acute-phase steroids did not raise risk. Jason and colleagues' follow-up of a larger college-student mono cohort (about 238 cases) found that baseline GI symptoms and low IL-13/IL-5 predicted non-recovery, per a secondary summary in the Solving ME/CFS re-analysis. Together with Dubbo, these data show the spontaneous recovery rates any treatment trial in recent-onset illness has to beat.",
+   "studies": [
+    {
+     "cite": "Katz 2009, Pediatrics",
+     "n": "301",
+     "design": "prospective cohort after IM",
+     "result": "CFS 13% / 7% / 4% at 6 / 12 / 24 months; all 24-month cases female",
+     "url": "https://doi.org/10.1542/peds.2008-1879",
+     "verified": true
+    },
+    {
+     "cite": "Jason 2022 (via Solving ME/CFS re-analysis epi summary)",
+     "n": "238 mono cases",
+     "design": "prospective cohort, pre-illness baseline",
+     "result": "baseline GI symptoms and low IL-13/IL-5 predicted non-recovery",
+     "url": "",
+     "verified": false
+    },
+    {
+     "cite": "Jason 2026, Front Med",
+     "n": "post-mono adolescents",
+     "design": "7-year follow-up",
+     "result": "81% of severe cases still ill at 7 years",
+     "url": "https://doi.org/10.3389/fmed.2026.1676628",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "open_questions": [
+    "Why are late persisters predominantly female?",
+    "Does EBV load or lytic activity during IM predict persistence?"
+   ],
+   "hypotheses": [
+    "herpes-reactivation",
+    "immune-exhaustion"
+   ],
+   "test_available": "EBV serology (VCA IgM/IgG, EBNA IgG) confirms the IM trigger; no predictive test."
+  },
+  {
+   "id": "infection-giardia-bergen",
+   "subdomain": "Post-infectious onset",
+   "finding": "A waterborne Giardia outbreak in Bergen (2004) left chronic fatigue in 26% of exposed people vs 11% of matched controls 10 years later (adjusted OR 3.0), and more than half of those referred with lasting fatigue met CFS criteria.",
+   "grade": "several",
+   "plain": "A gut parasite outbreak in Norway, which was not a virus, also left a lasting excess of chronic fatigue and IBS a decade later.",
+   "detail": "Litleskare 2018 followed 1,252 laboratory-confirmed cases and 2,504 age- and sex-matched controls: at 10 years, chronic fatigue was 26% vs 11% (aOR 3.01, 95% CI 2.22-4.08) and IBS 43% vs 14% (aOR 4.74). Response rates at 10 years were around 46% of cases, so selection bias is possible. 'Chronic fatigue' here is a questionnaire measure, not a CFS diagnosis. Naess 2012 clinically evaluated 96 referred patients with persistent post-Giardia fatigue and found 58 (60%) met CDC CFS criteria. A gut-confined protozoan producing the same syndrome is strong evidence against any single-virus explanation.",
+   "studies": [
+    {
+     "cite": "Litleskare 2018, Clin Gastroenterol Hepatol",
+     "n": "1,252 exposed vs 2,504 controls",
+     "design": "prospective matched cohort, 10 years",
+     "result": "chronic fatigue 26% vs 11%, aOR 3.01; IBS aOR 4.74",
+     "url": "https://doi.org/10.1016/j.cgh.2018.01.022",
+     "verified": true
+    },
+    {
+     "cite": "Naess 2012, BMC Gastroenterol",
+     "n": "96 referred",
+     "design": "clinical case series",
+     "result": "58/96 (60%) met CDC CFS criteria; 57% reported a progressive course",
+     "url": "https://doi.org/10.1186/1471-230X-12-13",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "open_questions": [
+    "Is persisting gut barrier/microbiome disturbance the bridge to systemic symptoms?",
+    "How many of the 10-year 'chronic fatigue' cases would meet modern ME/CFS criteria with PEM?"
+   ],
+   "hypotheses": [
+    "gut-dysbiosis",
+    "innate-hyperactivation",
+    "sickness-behaviour"
+   ],
+   "test_available": "research only"
+  },
+  {
+   "id": "infection-q-fever-qfs",
+   "subdomain": "Post-infectious onset",
+   "finding": "Q fever fatigue syndrome (QFS) follows roughly 20% of acute Q fever and persists more than 10 years after infection in many patients, almost all of whom report post-exertional malaise; doxycycline did not help.",
+   "grade": "several",
+   "plain": "After the large Dutch Q fever outbreak (2007-2010), many people developed a lasting ME-like illness. Antibiotics aimed at the bacterium did not improve it.",
+   "detail": "Spronk 2023 surveyed 368 QFS patients 10 or more years after infection: median EQ-5D index 0.63, and 98.9% reported PEM complaints. Younger and middle-aged patients did worse. The Qure RCT (n=154) found that doxycycline was no better than placebo, and the initial CBT benefit had faded by 1-year follow-up (Raijmakers 2019). The failure of an antimicrobial against the original pathogen is consistent with a post-infectious host process rather than ongoing Coxiella infection. The ~20% figure comes from the Reukers 2019 introduction, a secondary source.",
+   "studies": [
+    {
+     "cite": "Spronk 2023, Epidemiol Infect",
+     "n": "368",
+     "design": "cross-sectional, ≥10 years post-infection",
+     "result": "median EQ-5D 0.63; PEM complaints 98.9%",
+     "url": "https://doi.org/10.1017/S0950268823001401",
+     "verified": true
+    },
+    {
+     "cite": "Raijmakers 2019, J Psychosom Res (Qure follow-up)",
+     "n": "154",
+     "design": "RCT follow-up (CBT vs doxycycline vs placebo)",
+     "result": "neither doxycycline nor CBT differed from placebo at 1 year post-treatment",
+     "url": "https://doi.org/10.1016/j.jpsychores.2018.11.007",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "open_questions": [
+    "Do QFS cohorts show the same immune/metabolic signatures as EBV- or COVID-onset ME/CFS?"
+   ],
+   "hypotheses": [
+    "innate-hyperactivation",
+    "sickness-behaviour"
+   ],
+   "test_available": "Coxiella serology documents the trigger; no test for QFS itself."
+  },
+  {
+   "id": "infection-post-covid-mecfs-incidence",
+   "subdomain": "Post-infectious onset",
+   "finding": "In RECOVER-Adult, new ME/CFS (IOM criteria) developed at 2.66 per 100 person-years after SARS-CoV-2 infection vs 0.93 in uninfected participants (HR 4.93), and 4.5% of infected participants met criteria.",
+   "grade": "replicated",
+   "plain": "COVID-19 roughly multiplies the chance of developing new ME/CFS by four to five. About 1 in 20 infected adults in a large US study met the diagnostic criteria.",
+   "detail": "Vernon 2025 (RECOVER-Adult, n=11,785 infected vs 1,439 uninfected) found 531/11,785 (4.5%) vs 9/1,439 (0.6%), and 88.7% of post-COVID ME/CFS cases also met RECOVER long COVID criteria. PEM (24%) was the most common ME/CFS symptom. The criteria were applied from self-report. A meta-analysis of 13 studies (1,973 long COVID patients) found 51% met ME/CFS criteria, but heterogeneity was high and the populations were selected clinic cohorts (Dehlia 2024). Registry signals of the same direction exist for H1N1 influenza (HR 2.04, Norway, Magnus 2015) and for COVID (HR ~1.6, Chen 2024 via the Solving ME/CFS re-analysis). Healthcare-seeking bias inflates some registry estimates (af Geijerstam 2026, via re-analysis), and the INSPIRE cohort found no excess after a COVID-positive vs COVID-negative test (Unger 2024, via re-analysis).",
+   "studies": [
+    {
+     "cite": "Vernon 2025, J Gen Intern Med",
+     "n": "11,785 infected vs 1,439 uninfected",
+     "design": "prospective observational cohort",
+     "result": "incidence 2.66 vs 0.93 per 100 PY; HR 4.93 (3.62-6.71)",
+     "url": "https://doi.org/10.1007/s11606-024-09290-9",
+     "verified": true
+    },
+    {
+     "cite": "Dehlia 2024, J Infect",
+     "n": "1,973 (13 studies)",
+     "design": "meta-analysis",
+     "result": "51% (42-60%) of long COVID patients met ME/CFS criteria",
+     "url": "https://doi.org/10.1016/j.jinf.2024.106297",
+     "verified": true
+    },
+    {
+     "cite": "Magnus 2015, Vaccine",
+     "n": "whole Norwegian population",
+     "design": "registry cohort",
+     "result": "CFS/ME HR 2.04 after pandemic influenza; 0.97 after adjuvanted vaccine",
+     "url": "https://doi.org/10.1016/j.vaccine.2015.10.018",
+     "verified": true
+    },
+    {
+     "cite": "Hadidchi 2025, J Transl Med",
+     "n": "large EHR cohort",
+     "design": "registry",
+     "result": "raised ME/CFS incidence after COVID",
+     "url": "https://doi.org/10.1186/s12967-025-06625-w",
+     "verified": true
+    },
+    {
+     "cite": "Chen 2024, J Infect Public Health",
+     "n": "registry",
+     "design": "cohort",
+     "result": "raised risk after COVID",
+     "url": "https://doi.org/10.1016/j.jiph.2024.102559",
+     "verified": true
+    },
+    {
+     "cite": "Tack 2026, Medicina",
+     "n": "LC",
+     "design": "cohort",
+     "result": "ME/CFS criteria met in subset",
+     "url": "https://doi.org/10.3390/medicina62030480",
+     "verified": true
+    },
+    {
+     "cite": "Bonilla 2023, Front Neurol",
+     "n": "LC clinic",
+     "design": "cohort",
+     "result": "ME/CFS criteria met by many",
+     "url": "https://doi.org/10.3389/fneur.2023.1090747",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Unger 2024 (INSPIRE), via Solving ME/CFS re-analysis",
+     "n": "~4,500",
+     "design": "prospective cohort, test-positive vs test-negative",
+     "result": "no difference in ME/CFS-like illness between COVID+ and COVID- symptomatic participants",
+     "url": "",
+     "verified": false
+    }
+   ],
+   "open_questions": [
+    "How much of the registry excess is healthcare-seeking bias?",
+    "Does vaccination or variant change the per-infection ME/CFS risk?",
+    "Do post-COVID and post-EBV ME/CFS share biology?"
+   ],
+   "hypotheses": [
+    "viral-persistence",
+    "innate-hyperactivation",
+    "autoimmunity"
+   ],
+   "test_available": "No test; diagnosis is clinical (IOM 2015 criteria)."
+  },
+  {
+   "id": "infection-ebv-serology-not-different",
+   "subdomain": "EBV",
+   "finding": "In large well-characterised cohorts, standard EBV and other herpesvirus seroprevalence and overall IgG reactivity do not differ between ME/CFS patients and controls.",
+   "grade": "several",
+   "plain": "Ordinary EBV antibody tests look the same in people with ME/CFS as in healthy people, so a 'high EBV titre' on a routine panel does not diagnose anything.",
+   "detail": "UK ME/CFS Biobank (Cliff 2019; 251 ME/CFS including 54 severe, 107 healthy, 46 MS): no seroprevalence differences for six herpesviruses, whereas EBV seroprevalence was higher in MS. Blomberg 2019 (Swedish Canada-criteria cohorts vs blood donors, multiplex assay) found no significant overall differences, only minor relative differences for some antigens. Loebel 2017 peptide array (92 CFS vs 50 HC, 3,054 EBV peptides) found profiles 'quite similar' to controls. The exception was raised IgG to an EBNA-6 repeat, which has homology to human proteins. A meta-analytic tally in the Solving ME/CFS re-analysis lists 10 positive vs 2 negative EBV-antibody studies, so smaller older studies were more positive than the larger recent ones, a pattern typical of publication bias.",
+   "studies": [
+    {
+     "cite": "Cliff 2019, Front Immunol",
+     "n": "251 vs 107 (+46 MS)",
+     "design": "case-control biobank",
+     "result": "no difference in seroprevalence for 6 herpesviruses",
+     "url": "https://doi.org/10.3389/fimmu.2019.00796",
+     "verified": true
+    },
+    {
+     "cite": "Blomberg 2019, Front Immunol",
+     "n": "several Swedish cohorts vs blood donors",
+     "design": "case-control multiplex serology",
+     "result": "no significant overall IgG differences to herpesviral antigens",
+     "url": "https://doi.org/10.3389/fimmu.2019.01946",
+     "verified": true
+    },
+    {
+     "cite": "Loebel 2017, PLoS One",
+     "n": "92 vs 50",
+     "design": "peptide microarray case-control",
+     "result": "similar profiles; higher IgG to EBNA-6 repeat peptides",
+     "url": "https://doi.org/10.1371/journal.pone.0179124",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Shikova 2020, J Med Virol",
+     "n": "58 vs 50",
+     "design": "case-control serology + nested PCR",
+     "result": "IgG/IgM no different, but plasma EBV DNA (active infection) 24.1% vs 4% (p=0.0027)",
+     "url": "https://doi.org/10.1002/jmv.25744",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Is there a signal restricted to infection-onset or recent-onset patients?",
+    "Would quantitative titres timed to crashes differ when single snapshots don't?"
+   ],
+   "hypotheses": [
+    "herpes-reactivation",
+    "autoimmunity"
+   ],
+   "test_available": "EBV VCA IgM/IgG, EBNA IgG, EA-D IgG (clinical); uninformative as an ME/CFS test."
+  },
+  {
+   "id": "infection-ebv-deficient-memory",
+   "subdomain": "EBV",
+   "finding": "Charité studies report a deficient EBV-specific memory B- and T-cell response in CFS (absent or low EBNA-1/VCA antibody-secreting memory B cells in up to 76% of patients, fewer polyfunctional EBNA-1-specific T cells), while CMV responses were normal.",
+   "grade": "early",
+   "plain": "Instead of fighting EBV too hard, some patients' immune memory for EBV seems weak, which could let the virus reactivate more easily.",
+   "detail": "Loebel 2014 (PLoS One): EBNA-IgG low or absent in 10% of patients, and memory B-cell ELISpot showed diminished EBNA-1/VCA antibody-secreting cells in up to 76%. Ex vivo EBV-induced TNF-α/IFN-γ was lower, and triple-cytokine EBNA-1-specific CD4/CD8 cells were reduced, with no CMV difference. EBER-DNA but not BZLF-1 RNA was more frequent in blood cells, suggesting increased latent, not lytic, load. Sepúlveda 2022 re-analysed the 2017 array and found classification only when restricted to infection-onset patients (two candidate antigens, needing confirmation). The Solving ME/CFS single-cell re-analysis found a non-significant trend toward more EBV-specific TCRβ in severe patients' CD8 (0.88% vs 0.45%, p=0.06), which points the other way, to expansion rather than deficiency. Newer long COVID tetramer work (Ma 2026, Cell Rep Med) finds SARS-CoV-2-, CMV- and EBV-specific CD8 T cells skewed to terminally differentiated, exhausted, cytolytic states in long COVID.",
+   "studies": [
+    {
+     "cite": "Loebel 2014, PLoS One",
+     "n": "CFS vs HC (tens per group)",
+     "design": "case-control cellular immunology",
+     "result": "reduced EBV memory B/T responses; normal CMV responses",
+     "url": "https://doi.org/10.1371/journal.pone.0085387",
+     "verified": true
+    },
+    {
+     "cite": "Sepúlveda 2022, Front Med",
+     "n": "92 vs 50",
+     "design": "re-analysis of peptide array",
+     "result": "no discrimination overall; two antigens discriminated infection-onset patients",
+     "url": "https://doi.org/10.3389/fmed.2022.921101",
+     "verified": true
+    },
+    {
+     "cite": "Ma 2026, Cell Rep Med",
+     "n": "long COVID vs recovered (tetramer cohort)",
+     "design": "case-control CD8 tetramer profiling",
+     "result": "EBV/CMV/SARS-CoV-2-specific CD8 terminally differentiated, exhausted, cytolytic in LC",
+     "url": "https://doi.org/10.1016/j.xcrm.2026.102946",
+     "verified": true
+    },
+    {
+     "cite": "Solving ME/CFS re-analysis (TCR, PRJNA940635)",
+     "n": "~38 per group per cell type",
+     "design": "re-analysis of public TCR repertoire",
+     "result": "EBV-matched CD8 clonotypes 0.88% vs 0.45% in severe (p=0.06, q>0.6)",
+     "url": "",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "open_questions": [
+    "Replication of memory B-cell ELISpot deficits outside Charité?",
+    "HLA-typed tetramer studies against lytic antigens (BZLF1, BMLF1) in ME/CFS?"
+   ],
+   "hypotheses": [
+    "herpes-reactivation",
+    "immune-exhaustion"
+   ],
+   "test_available": "research only"
+  },
+  {
+   "id": "infection-ebv-dna-load-blood",
+   "subdomain": "EBV",
+   "finding": "Detectable cell-free EBV DNA in plasma has been reported more often in ME/CFS (24% vs 4% in one Bulgarian study), but EBV DNA in blood cells is equally common in patients and controls.",
+   "grade": "early",
+   "plain": "Almost everyone carries EBV in their blood cells. Some small studies find free-floating viral DNA, a sign of activity, more often in patients, but this has not been firmly confirmed.",
+   "detail": "Shikova 2020 (58 vs 50): PBMC EBV DNA 81% vs 84% (no difference), plasma EBV DNA 24.1% vs 4% (p=0.0027). Loebel 2014 found more EBER-DNA but not BZLF-1 RNA in blood cells. In long COVID, EBV viremia at acute infection predicted later PASC (Su 2022, n=309), but EBV viremia at a median of 4 months did not associate with long COVID in Peluso 2023 (n=280), while serologic markers (EA-D IgG) did. Persistently detectable EBV DNA months after IM warrants exclusion of chronic active EBV, which is rare but treatable.",
+   "studies": [
+    {
+     "cite": "Shikova 2020, J Med Virol",
+     "n": "58 vs 50",
+     "design": "case-control nested PCR",
+     "result": "plasma EBV DNA 24.1% vs 4%; PBMC DNA no difference",
+     "url": "https://doi.org/10.1002/jmv.25744",
+     "verified": true
+    },
+    {
+     "cite": "Su 2022, Cell",
+     "n": "309",
+     "design": "prospective multi-omic cohort (COVID)",
+     "result": "EBV viremia at diagnosis one of four PASC-anticipating factors",
+     "url": "https://doi.org/10.1016/j.cell.2022.01.014",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Peluso 2023, J Clin Invest",
+     "n": "280",
+     "design": "post-COVID cohort",
+     "result": "LC fatigue associated with EA-D IgG (OR 2.12) and high EBNA IgG, but not with ongoing EBV viremia",
+     "url": "https://doi.org/10.1172/JCI163669",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Does plasma EBV DNA rise during PEM crashes?",
+    "Large-cohort quantitative plasma EBV PCR in ME/CFS has not been done."
+   ],
+   "hypotheses": [
+    "herpes-reactivation",
+    "viral-persistence"
+   ],
+   "test_available": "EBV DNA PCR (whole blood/plasma) is clinically available; mainly to exclude chronic active EBV."
+  },
+  {
+   "id": "infection-ebv-genetic-load-mr",
+   "subdomain": "EBV",
+   "finding": "Genetic instruments for higher EBV DNA load in blood (Kamitaki 2026) are associated with ME/CFS risk in the Million Veteran Program (OR 1.59, p=0.012) but not significantly in DecodeME (OR 1.13, p=0.25).",
+   "grade": "early",
+   "plain": "People whose genes make them carry more EBV appear somewhat more likely to get ME/CFS in one large dataset but not clearly in another. This is a weak hint that EBV control matters.",
+   "detail": "A Solving ME/CFS Mendelian randomisation re-analysis used EBV load instruments from Kamitaki 2026 (n≈655k). It gave a combined OR of about 1.23 (p≈0.02), and HLA instruments at r²<0.01 held (p=0.012, 0.043). HLA patterns that raise antibodies to the lytic EBV proteins ZEBRA and EA-D also align with higher risk, but negative-control serologies (VZV, HHV-6B) align similarly, so the HLA signal is not EBV-specific. Genetic correlation of ME/CFS with infectious mononucleosis was 0.11 ± 0.14, and with EBV load 0.05 ± 0.04, both non-significant. Reverse MR was underpowered. Not yet replicated by an independent group.",
+   "studies": [
+    {
+     "cite": "Solving ME/CFS re-analysis (genetics_mr), using Kamitaki 2026 instruments, DecodeME and MVP",
+     "n": "DecodeME ~15k cases; MVP",
+     "design": "two-sample Mendelian randomisation",
+     "result": "EBV load OR 1.13 (DecodeME, ns), 1.59 (MVP, p=0.012)",
+     "url": "",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Solving ME/CFS re-analysis, negative-control serologies",
+     "n": "same",
+     "design": "MR specificity check",
+     "result": "VZV and HHV-6B HLA instruments also align, undermining EBV specificity",
+     "url": "",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Does the signal hold with full Kamitaki summary statistics and the larger DecodeME release?",
+    "Is it the MHC driving everything?"
+   ],
+   "hypotheses": [
+    "herpes-reactivation",
+    "genetic-neuronal",
+    "autoimmunity"
+   ],
+   "test_available": "research only"
+  },
+  {
+   "id": "infection-herpes-dutpase-antibodies",
+   "subdomain": "EBV",
+   "finding": "Antibodies against herpesvirus dUTPases (EBV, HHV-6, VZV), proposed as a marker of lytic or abortive-lytic reactivation, are higher in ME/CFS in studies from one lab, including a 2026 longitudinal study (873 serum samples, 40 patients vs 16 controls) where levels tracked fatigue severity.",
+   "grade": "early",
+   "plain": "One research group measures antibodies to a viral enzyme made when herpesviruses partly wake up. They repeatedly find more of these antibodies in ME/CFS, but other labs have not yet checked.",
+   "detail": "Halpin 2017: 30.9-52.7% of ME/CFS patients had antibodies to multiple herpesviral and/or human dUTPases vs 17.2% of controls, and anti-EBV dUTPase was higher in ME/CFS. Palomo 2026 (J Med Virol): longitudinal sampling, with EBV/HHV-6/VZV dUTPase IgG significantly higher (p<0.001). 72.5% of patients co-expressed antibodies to multiple herpesvirus and HERV-K dUTPases vs 31% of controls, and EBV and HHV-6 dUTPase IgG correlated with fatigue. The controls were few (n=16). In healthy cohorts positivity ranges from 40-84% and rises with age (Alharshawi 2022), so baseline rates are high. The assays are not commercial, and all data come from the Ariza lab.",
+   "studies": [
+    {
+     "cite": "Halpin 2017, J Med Virol",
+     "n": "ME/CFS and GWI cohorts vs controls",
+     "design": "case-control serology",
+     "result": "multiple dUTPase antibodies 31-53% vs 17%; anti-EBV dUTPase higher",
+     "url": "https://doi.org/10.1002/jmv.24810",
+     "verified": true
+    },
+    {
+     "cite": "Palomo 2026, J Med Virol",
+     "n": "40 vs 16 (873 + 378 serial samples)",
+     "design": "longitudinal case-control",
+     "result": "EBV/HHV-6/VZV dUTPase IgG higher (p<0.001); correlated with fatigue",
+     "url": "https://doi.org/10.1002/jmv.70769",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Alharshawi 2022, J Med Virol",
+     "n": "255 healthy",
+     "design": "cross-sectional healthy cohorts",
+     "result": "40-84% of asymptomatic people have anti-dUTPase antibodies; higher with age",
+     "url": "https://doi.org/10.1002/jmv.27728",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Independent replication with blinded samples?",
+    "Does dUTPase protein itself (an immune modulator via TLR2) circulate during crashes?"
+   ],
+   "hypotheses": [
+    "herpes-reactivation",
+    "innate-hyperactivation"
+   ],
+   "test_available": "research only"
+  },
+  {
+   "id": "infection-ebv-reactivation-long-covid",
+   "subdomain": "EBV",
+   "finding": "Serologic evidence of recent EBV reactivation (EA-D IgG) is associated with long COVID fatigue (OR 2.12) in a 280-person cohort, consistent with an earlier small report.",
+   "grade": "several",
+   "plain": "People with long COVID more often have antibody signs that EBV recently reactivated, which may be one route by which COVID leads to lasting illness.",
+   "detail": "Peluso 2023 (JCI, n=280): LC fatigue and neurocognitive symptoms were associated with EA-D IgG positivity or high EBNA IgG, independent of covariates, but not with EBV viremia. Prior CMV infection was associated with lower LC risk. Gold 2021 (n=68) reported 66.7% of LC vs 10% of controls positive for EA-D IgG or VCA IgM, a small study with a convenience control group. Cervia-Hasler 2024 found classical complement activation linked to higher herpesvirus antibody titres in active LC. Serology cannot distinguish a cause of LC from a consequence of a general immune disturbance.",
+   "studies": [
+    {
+     "cite": "Peluso 2023, J Clin Invest",
+     "n": "280",
+     "design": "post-COVID cohort, adjusted regression",
+     "result": "EA-D IgG associated with fatigue (OR 2.12); no association with viremia; CMV seropositivity protective",
+     "url": "https://doi.org/10.1172/JCI163669",
+     "verified": true
+    },
+    {
+     "cite": "Gold 2021, Pathogens",
+     "n": "30 LC vs 20 controls (+18)",
+     "design": "cross-sectional",
+     "result": "EBV reactivation serology 66.7% vs 10%",
+     "url": "https://doi.org/10.3390/pathogens10060763",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "open_questions": [
+    "Do people with ME/CFS (non-COVID) show the same EA-D pattern at onset?",
+    "Is reactivation sustained or a one-off after acute COVID?"
+   ],
+   "hypotheses": [
+    "herpes-reactivation",
+    "complement-thromboinflammation"
+   ],
+   "test_available": "EBV EA-D IgG is clinically available; interpretation is non-specific."
+  },
+  {
+   "id": "infection-herpes-complement-link",
+   "subdomain": "Herpes-complement",
+   "finding": "In active long COVID, classical complement pathway activation tracked raised antibody titres against several herpesviruses, alongside markers of haemolysis, platelet activation and monocyte-platelet aggregates.",
+   "grade": "early",
+   "plain": "In long COVID, the blood's complement defence system stays switched on, and this goes along with higher antibodies to herpesviruses. One explanation is that immune complexes against reactivated viruses keep complement firing.",
+   "detail": "Cervia-Hasler 2024 (Science) ran proteomics on >6,500 proteins in 268 longitudinal samples from Zurich/Basel cohorts followed to 12 months. Active LC showed terminal complement dysregulation and ongoing alternative and classical pathway activation, and the classical arm was associated with increased anti-herpesvirus (e.g., EBV, CMV) titres. Machine learning put complement and thromboinflammation proteins at the top. The cohort was mostly post-hospital-era COVID. No ME/CFS (non-COVID) replication yet. Complement activation fits several mechanisms, and herpes reactivation is only one of them.",
+   "studies": [
+    {
+     "cite": "Cervia-Hasler 2024, Science",
+     "n": "268 samples (~113 COVID patients + controls)",
+     "design": "longitudinal proteomics cohort",
+     "result": "complement dysregulation in active LC; classical activation associated with herpesvirus antibody titres",
+     "url": "https://doi.org/10.1126/science.adg7942",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "open_questions": [
+    "Does the herpes-complement association appear in classic ME/CFS?",
+    "Would antivirals reduce complement activation in LC?"
+   ],
+   "hypotheses": [
+    "complement-thromboinflammation",
+    "herpes-reactivation",
+    "microclots"
+   ],
+   "test_available": "Complement panels (C3, C4, CH50, sC5b-9) are clinically available but not validated for LC/ME/CFS."
+  },
+  {
+   "id": "infection-hhv6-tissue-mirna",
+   "subdomain": "HHV-6",
+   "finding": "HHV-6 microRNA (miR-aU14) was detected by in situ hybridisation in brain and spinal cord tissue from 3 ME/CFS post-mortem donors but not in 24 controls (Kasimir 2022).",
+   "grade": "early",
+   "plain": "A small autopsy study found signs of active HHV-6 in the brain and spinal cord of three people with ME/CFS and none in controls. This needs repeating in many more brains.",
+   "detail": "Kasimir 2022 (Front Mol Biosci) used FISH against an HHV-6 miRNA in frontal lobe, basal ganglia and spinal cord from 3 ME/CFS donors, 3 disease controls and 21 Cambridge Brain Bank controls. The authors also report evidence of EBV activity in tissue. Limitations: n=3 cases, no blinding is described in the abstract, miRNA FISH specificity in post-mortem tissue, and no quantitative PCR or sequencing confirmation. The authors argue that blood negativity in many studies reflects localised tissue reactivation. In vitro, HHV-6 reactivation from integrated genomes fragments mitochondria and induces an antiviral state, and patient serum transferred a similar effect (Schreiner 2020, Immunohorizons).",
+   "studies": [
+    {
+     "cite": "Kasimir 2022, Front Mol Biosci",
+     "n": "3 ME/CFS vs 24 controls",
+     "design": "post-mortem tissue FISH",
+     "result": "HHV-6 miR-aU14 in brain/spinal cord only in ME/CFS",
+     "url": "https://doi.org/10.3389/fmolb.2022.1044964",
+     "verified": true
+    },
+    {
+     "cite": "Schreiner 2020, Immunohorizons",
+     "n": "cell lines + 10 patient sera",
+     "design": "in vitro proteomics / serum transfer",
+     "result": "HHV-6 reactivation fragments mitochondria, inhibits PDH and FAO; induces antiviral state",
+     "url": "https://doi.org/10.4049/immunohorizons.2000006",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Cliff 2019, Front Immunol",
+     "n": "251 vs 107",
+     "design": "serology",
+     "result": "no HHV-6 seroprevalence difference",
+     "url": "https://doi.org/10.3389/fimmu.2019.00796",
+     "verified": true
+    },
+    {
+     "cite": "Shikova 2020, J Med Virol",
+     "n": "58 vs 50",
+     "design": "PCR",
+     "result": "HHV-6 DNA in PBMC 82.8% vs 82%; plasma 1.7% vs 0%",
+     "url": "https://doi.org/10.1002/jmv.25744",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Blinded multi-site replication in brain banks (e.g., with ME/CFS tissue now being collected)?",
+    "Is reactivated HHV-6 cause or consequence of illness?"
+   ],
+   "hypotheses": [
+    "herpes-reactivation",
+    "neuroinflammation",
+    "mitochondrial-energy",
+    "cell-danger-response"
+   ],
+   "test_available": "research only (blood HHV-6 PCR is available but generally uninformative)"
+  },
+  {
+   "id": "infection-cihhv6",
+   "subdomain": "HHV-6",
+   "finding": "Inherited chromosomally integrated HHV-6 (iciHHV-6, ~1% of people) has been reported at roughly twice the population rate in a neurological/fatigue clinic cohort, but this has not been confirmed in a large ME/CFS sample.",
+   "grade": "early",
+   "plain": "About 1 in 100 people are born with HHV-6 built into one of their chromosomes. One small study suggested this is more common in ME/CFS, and the large UK DecodeME study is checking.",
+   "detail": "A 2013 University of South Florida study reported iciHHV-6 in >2% of adults with CFS and neurological symptoms vs ~0.8% population estimates. It was a small, selected clinic cohort, and the information here comes from secondary reports only. UK prevalence is about 1.4%, rising to ~3% in parts of Scotland and Ireland, so ancestry confounding matters. DecodeME has an approved sub-study to measure iciHHV-6 in ~4,500 participants, comparing infection-onset vs other onsets. No published result had been found as of this review. iciHHV-6 can produce false 'high HHV-6 DNA' results on commercial PCR panels, a common source of misinterpretation.",
+   "studies": [
+    {
+     "cite": "USF 2013 report (secondary source: press/HHV-6 Foundation)",
+     "n": "small clinic cohort",
+     "design": "cross-sectional",
+     "result": ">2% iciHHV-6 vs ~0.8% population",
+     "url": "https://hhv-6foundation.org/cihhv-6/cfs-patients-with-cihhv-6-may-benefit-from-antiviral-treatment",
+     "verified": false
+    },
+    {
+     "cite": "DecodeME iciHHV-6 sub-study (protocol)",
+     "n": "~4,500 planned",
+     "design": "genetic cohort sub-study",
+     "result": "pending",
+     "url": "https://www.decodeme.org.uk/?p=2590",
+     "verified": false
+    }
+   ],
+   "contradicting": [],
+   "open_questions": [
+    "Is iciHHV-6 enriched in DecodeME, and especially in infection-onset cases?",
+    "Does integrated-genome reactivation occur in patients' tissues?"
+   ],
+   "hypotheses": [
+    "herpes-reactivation",
+    "genetic-neuronal"
+   ],
+   "test_available": "Hair-follicle or nail HHV-6 PCR / ddPCR ratio of viral to cellular genomes can confirm iciHHV-6 (specialist labs)."
+  },
+  {
+   "id": "infection-enterovirus-stomach-chia",
+   "subdomain": "Enterovirus",
+   "finding": "Enteroviral VP1 protein was found in stomach biopsies from 82% of 165 CFS patients vs 20% of controls, with EV RNA in 37% vs 5%, but this has not been independently replicated with blinded methods.",
+   "grade": "contested",
+   "plain": "One clinician-researcher found enterovirus protein in the stomach lining of most patients he biopsied. Other labs have not confirmed it, and the antibody stain used may cross-react.",
+   "detail": "Chia 2008 (J Clin Pathol): 135/165 consecutive CFS patients' antrum biopsies stained positive for VP1 in parietal cells vs 7/34 controls (p≤0.001), and EV RNA was found in 9/24 vs 1/21 paraffin samples. Paired samples taken years apart stayed positive. The patients were the author's own referral population. The controls were biopsies taken for other gastric conditions, and the 5D8/1 VP1 antibody has known cross-reactivity concerns. Earlier muscle work found EV RNA in 41/158 postviral fatigue vs 2/152 controls (Bowles 1993), but later muscle studies were inconsistent. O'Neal & Hanson 2021 concluded the methods used were inadequate either to confirm or to rule out persistent EV infection, and a Cornell EV-targeted RNA-seq thesis (2022) detected no EVs in patients or controls.",
+   "studies": [
+    {
+     "cite": "Chia 2008, J Clin Pathol",
+     "n": "165 vs 34",
+     "design": "case series with tissue controls",
+     "result": "VP1 82% vs 20%; EV RNA 37% vs 5%",
+     "url": "https://doi.org/10.1136/jcp.2007.050054",
+     "verified": true
+    },
+    {
+     "cite": "Bowles 1993, J Med",
+     "n": "158 PFS vs 152 controls",
+     "design": "muscle biopsy hybridisation",
+     "result": "EV RNA 41/158 vs 2/152",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Bowles+1993+enterovirus+muscle+postviral+fatigue",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "O'Neal & Hanson 2021, Front Med (critical review)",
+     "n": "review",
+     "design": "critical review",
+     "result": "prior methods inadequate; evidence neither confirms nor excludes persistent EV",
+     "url": "https://doi.org/10.3389/fmed.2021.688486",
+     "verified": true
+    },
+    {
+     "cite": "Cornell thesis 2022 (Hanson lab)",
+     "n": "small",
+     "design": "EV-targeted RNA-seq",
+     "result": "no EV detected in ME/CFS or controls",
+     "url": "https://ecommons.cornell.edu/entities/publication/b33e3546-5489-437f-bf76-34c38575b15b",
+     "verified": false
+    },
+    {
+     "cite": "Germain 2026, Int J Mol Sci",
+     "n": "ME/CFS",
+     "design": "EV RNA sequencing",
+     "result": "no enterovirus RNA",
+     "url": "https://doi.org/10.3390/ijms27209065",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Blinded, multi-lab testing of gastric/intestinal tissue with sequencing-based detection of non-cytolytic (5' terminally deleted) EV RNA?",
+    "Do historical ME outbreaks (e.g., Royal Free 1955) fit EV epidemiology?"
+   ],
+   "hypotheses": [
+    "viral-persistence",
+    "gut-dysbiosis"
+   ],
+   "test_available": "research only (stomach VP1 staining available from one private practice; not validated)"
+  },
+  {
+   "id": "infection-sarscov2-plasma-antigen",
+   "subdomain": "SARS-CoV-2 persistence",
+   "finding": "SARS-CoV-2 spike, S1 or nucleocapsid antigen is detectable in plasma more often after COVID than in pre-pandemic samples (excess +11% at 3-6 months, +5.4% at 10-14 months), with more antigenemia after more severe acute illness.",
+   "grade": "several",
+   "plain": "In about 1 in 10 people, bits of the virus can still be found in the blood months after COVID, which suggests a hidden reservoir. Whether this causes long COVID is less certain.",
+   "detail": "Peluso 2024 (Lancet Infect Dis; 171 post-COVID vs 250 pre-pandemic controls, Simoa) found 2% assay positivity in pre-pandemic controls. Antigenemia was associated with hospitalisation and worse acute illness. The association with LC symptoms was modest and not consistent across all symptom groups (detail from secondary reports). Swank 2022/23 (n=63) reported spike in a majority of PASC patients up to 12 months, a small sample later tempered by larger work. In PAX LC, circulating S1/spike levels did not change after 15 days of nirmatrelvir (Bhattacharjee 2026 preprint).",
+   "studies": [
+    {
+     "cite": "Peluso 2024, Lancet Infect Dis",
+     "n": "171 vs 250 pre-pandemic",
+     "design": "cohort with true-negative comparator",
+     "result": "excess antigen prevalence +11%, +8.7%, +5.4% at 3-6, 6-10, 10-14 months",
+     "url": "https://doi.org/10.1016/S1473-3099(24)00211-1",
+     "verified": true
+    },
+    {
+     "cite": "Swank 2022, medRxiv (later published in Clin Infect Dis)",
+     "n": "63",
+     "design": "case-control plasma antigen",
+     "result": "spike detected in most PASC patients up to 12 months",
+     "url": "https://doi.org/10.1101/2022.06.14.22276401",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Bhattacharjee 2026, medRxiv (PAX LC exploratory)",
+     "n": "82",
+     "design": "RCT exploratory biomarker analysis",
+     "result": "circulating S1/spike unchanged after nirmatrelvir",
+     "url": "https://doi.org/10.64898/2026.02.24.26347001",
+     "verified": true
+    },
+    {
+     "cite": "Fehrer 2025, J Clin Med",
+     "n": "LC",
+     "design": "plasma antigen",
+     "result": "no persistent antigen",
+     "url": "https://doi.org/10.3390/jcm14041086",
+     "verified": true
+    },
+    {
+     "cite": "Rahmati 2025, Lancet Microbe",
+     "n": "meta/cohort",
+     "design": "antigen",
+     "result": "Blood transcriptomics did not support SARS-CoV-2 persistence in post-COVID condition with chronic fatigue syndrome (title; abstract not available)",
+     "url": "https://doi.org/10.1016/j.lanmic.2024.101012",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Is antigenemia from replicating virus, translated persistent RNA, or slow-clearing protein?",
+    "Does antigen positivity identify an antiviral-responsive LC subgroup?"
+   ],
+   "hypotheses": [
+    "viral-persistence",
+    "complement-thromboinflammation",
+    "microclots"
+   ],
+   "test_available": "research only (Simoa spike/nucleocapsid assays)"
+  },
+  {
+   "id": "infection-sarscov2-tissue-gut",
+   "subdomain": "SARS-CoV-2 persistence",
+   "finding": "SARS-CoV-2 RNA and protein persist in gut and other tissues for months to two years in a minority of people, and in a Beijing tissue study, viral RNA in tissue was associated with long COVID symptoms (OR 5.17).",
+   "grade": "several",
+   "plain": "Viral genetic material can hide in the gut and other organs long after the nose test is negative. Several groups have now seen this, and people with long COVID seem to have it more often.",
+   "detail": "Zollner 2022 (n=46 IBD patients, ~7 months): gut mucosal RNA in 32/46 and nucleocapsid in 24/46, associated with post-acute symptoms. Natarajan 2022 (n=113): fecal RNA in 12.7% at 4 months and 3.8% at 7 months, linked to GI symptoms. Zuo 2024 (Lancet ID; 317 samples from 225 patients): RNA in 30%/27%/11% of solid tissues at 1/2/4 months, with tissue RNA associated with LC symptoms (OR 5.17). Peluso 2024 (Sci Transl Med; n=24 PET) found T-cell activation (F-AraG) in gut wall and spinal cord linked to LC, and RNA in rectosigmoid tissue up to 676 days in some participants. These are mostly convenience tissue samples, and some people without LC also carry RNA.",
+   "studies": [
+    {
+     "cite": "Zollner 2022, Gastroenterology",
+     "n": "46",
+     "design": "endoscopy cohort (IBD)",
+     "result": "gut RNA 32/46, nucleocapsid 24/46 at ~7 months",
+     "url": "https://doi.org/10.1053/j.gastro.2022.04.037",
+     "verified": true
+    },
+    {
+     "cite": "Natarajan 2022, Med",
+     "n": "113",
+     "design": "longitudinal stool cohort",
+     "result": "fecal RNA 12.7% at 4 months, 3.8% at 7 months; linked to GI symptoms",
+     "url": "https://doi.org/10.1016/j.medj.2022.04.001",
+     "verified": true
+    },
+    {
+     "cite": "Zuo 2024, Lancet Infect Dis",
+     "n": "225 patients, 317 samples",
+     "design": "cross-sectional tissue cohort",
+     "result": "tissue RNA 30%/27%/11%; associated with LC (OR 5.17)",
+     "url": "https://doi.org/10.1016/S1473-3099(24)00171-3",
+     "verified": true
+    },
+    {
+     "cite": "Peluso 2024, Sci Transl Med",
+     "n": "24 (PET) + 5 biopsies",
+     "design": "imaging cohort + tissue ISH",
+     "result": "T-cell activation in gut/spinal cord with LC; gut RNA up to ~2 years",
+     "url": "https://doi.org/10.1126/scitranslmed.adk3295",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "open_questions": [
+    "Do tissue reservoirs exist in non-COVID ME/CFS for other viruses?",
+    "Why do antivirals not help if reservoirs exist (wrong drug, too short, too late, or reservoir not causal)?"
+   ],
+   "hypotheses": [
+    "viral-persistence",
+    "gut-dysbiosis",
+    "neuroinflammation"
+   ],
+   "test_available": "research only"
+  },
+  {
+   "id": "infection-paxlovid-lc-null",
+   "subdomain": "Antiviral trials",
+   "finding": "Three randomised placebo-controlled trials of 15-25 days of nirmatrelvir-ritonavir in established long COVID (STOP-PASC n=155, PAX LC n=100, RECOVER-VITAL n=959; about 1,214 people in total) found no benefit on primary or secondary outcomes.",
+   "grade": "refuted",
+   "plain": "Paxlovid, the COVID antiviral, has been tested several times in people who already have long COVID, and it did not help.",
+   "detail": "STOP-PASC (Geng 2024, JAMA IM): 15 days, 2:1 randomisation, no difference in pooled severity of 6 symptoms at 10 weeks; mostly vaccinated participants, mean 17.5 months after infection. PAX LC (Sawano 2025, Lancet ID): adjusted PROMIS-29 physical difference -0.55 (p=0.54). RECOVER-VITAL (Baden 2026, Lancet ID; 69 sites): 15- or 25-day regimens, no benefit in cognitive, autonomic or exercise phenotypes. All were safe apart from dysgeusia. Caveats: participants were not selected for antigenemia or reservoir evidence, illness was long-standing, and the drug's tissue penetration is uncertain. Ensitrelvir was also null per a secondary summary.",
+   "studies": [
+    {
+     "cite": "Geng 2024, JAMA Intern Med (STOP-PASC)",
+     "n": "155",
+     "design": "RCT",
+     "result": "no difference in core symptom severity at 10 weeks",
+     "url": "https://doi.org/10.1001/jamainternmed.2024.2007",
+     "verified": true
+    },
+    {
+     "cite": "Sawano 2025, Lancet Infect Dis (PAX LC)",
+     "n": "100",
+     "design": "decentralised RCT",
+     "result": "PROMIS-29 PHSS difference -0.55 (95% CI -2.32 to 1.21)",
+     "url": "https://doi.org/10.1016/S1473-3099(25)00073-8",
+     "verified": true
+    },
+    {
+     "cite": "Baden 2026, Lancet Infect Dis (RECOVER-VITAL)",
+     "n": "959",
+     "design": "RCT, 3 arms (15d, 25d, placebo)",
+     "result": "no benefit in any phenotype",
+     "url": "https://doi.org/10.1016/S1473-3099(26)00406-8",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "open_questions": [
+    "Would trials enriched for antigen-positive participants, or using longer/combination antivirals or monoclonal antibodies, differ?"
+   ],
+   "hypotheses": [
+    "viral-persistence"
+   ],
+   "test_available": "n/a"
+  },
+  {
+   "id": "infection-acute-antiviral-prevention",
+   "subdomain": "Antiviral trials",
+   "finding": "Treating acute COVID-19 with nirmatrelvir may reduce later long COVID: a small terminated Norwegian RCT found 26% vs 43% at 3 months (RR 0.60), echoing observational VA data, but larger prospective evidence is lacking.",
+   "grade": "early",
+   "plain": "Taking the antiviral early, while COVID is still active, might lower the chance of developing long COVID, but the only trial so far was small and stopped early.",
+   "detail": "PANORAMIC Norway (Oppegaard 2026, Lancet ID): enrolled 144 of a planned 2,000 before stopping for poor recruitment, and found long COVID in 17/66 vs 33/77 (RR 0.60, 95% CI 0.37-0.98, p=0.039). An unblinding effect via dysgeusia (86% vs 18%) is possible because the outcomes were self-reported. VA cohort (Xie 2023, JAMA IM; 35,717 treated vs 246,076) reported lower risk, while Fung 2023 (older Medicare patients) found no reduction. Metformin during acute COVID (COVID-OUT) also reduced later LC, per the Solving ME/CFS treatments summary. Together this suggests the early acute phase may be a window for intervention, which fits the Dubbo finding that acute severity predicts later illness.",
+   "studies": [
+    {
+     "cite": "Oppegaard 2026, Lancet Infect Dis (PANORAMIC Norway)",
+     "n": "144",
+     "design": "RCT (terminated early)",
+     "result": "LC 26% vs 43%, RR 0.60",
+     "url": "https://doi.org/10.1016/S1473-3099(26)00244-6",
+     "verified": true
+    },
+    {
+     "cite": "Xie 2023, JAMA Intern Med",
+     "n": "35,717 vs 246,076",
+     "design": "observational VA cohort",
+     "result": "nirmatrelvir associated with reduced PCC risk",
+     "url": "https://doi.org/10.1001/jamainternmed.2023.0743",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Fung 2023, JAMA Intern Med",
+     "n": "Medicare older adults",
+     "design": "observational cohort",
+     "result": "no reduction in PCC with nirmatrelvir or molnupiravir",
+     "url": "https://doi.org/10.1001/jamainternmed.2023.5099",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Would early antivirals for EBV (e.g., during IM) prevent post-IM ME/CFS? No trial exists."
+   ],
+   "hypotheses": [
+    "viral-persistence",
+    "innate-hyperactivation"
+   ],
+   "test_available": "n/a"
+  },
+  {
+   "id": "infection-valganciclovir-montoya",
+   "subdomain": "Antiviral trials",
+   "finding": "In a 30-patient RCT of 6 months of valganciclovir in CFS patients selected for high HHV-6 and EBV IgG, the primary MFI-20 outcome was not significant, though some secondary fatigue and cognitive trajectories favoured the drug.",
+   "grade": "early",
+   "plain": "A strong antiviral helped some tiredness and thinking measures in a small trial, but missed its main goal. It has never been repeated, and it can lower white blood cell counts.",
+   "detail": "Montoya 2013 (J Med Virol): 2:1 randomisation. The MFI-20 difference at 9 months was non-significant. Trajectories for MFI-20 mental fatigue (p=0.039), FSS (p=0.006) and cognition (p=0.025) were significant, and responder status was 7.4x more likely (p=0.029). Monocytes fell and neutrophils rose. These came from multiple secondary endpoints with no multiplicity correction. Preceding uncontrolled data: Kogelnik 2006 (n=12, 9 responders) and Watt 2012 chart review (n=61, 52% responders, baseline titres did not predict response). Lerner's valacyclovir 'EBV subset' series had small controlled phases and are largely uncontrolled. Antibody titre selection is a weak marker of active infection.",
+   "studies": [
+    {
+     "cite": "Montoya 2013, J Med Virol",
+     "n": "30 (20 vs 10)",
+     "design": "double-blind RCT",
+     "result": "primary MFI-20 ns; secondary FSS, mental fatigue, cognition significant",
+     "url": "https://doi.org/10.1002/jmv.23713",
+     "verified": true
+    },
+    {
+     "cite": "Watt 2012, J Med Virol",
+     "n": "61",
+     "design": "retrospective uncontrolled chart review",
+     "result": "52% responders; titres did not predict response",
+     "url": "https://doi.org/10.1002/jmv.23411",
+     "verified": true
+    },
+    {
+     "cite": "Lerner 2007, In Vivo",
+     "n": "small",
+     "design": "small RCT phase + 36-month open follow-up",
+     "result": "Energy Index improved more on valacyclovir",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Lerner+2007+valacyclovir+Epstein-Barr+subset+chronic+fatigue",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "open_questions": [
+    "No adequately powered replication in 13 years",
+    "Would selection on lytic markers (plasma DNA, dUTPase, EA-D) rather than IgG identify responders?"
+   ],
+   "hypotheses": [
+    "herpes-reactivation"
+   ],
+   "test_available": "n/a (off-label; requires blood count monitoring)"
+  },
+  {
+   "id": "infection-herv-expression",
+   "subdomain": "Endogenous retroviruses",
+   "finding": "Human endogenous retrovirus (HERV) expression in blood cells differs between ME/CFS, fibromyalgia and controls in small studies (HERV-K raised in moderate ME/CFS; HERV microarray profiles clustered n=43 participants perfectly by diagnosis).",
+   "grade": "early",
+   "plain": "Old viral DNA built into our genome can switch back on. Small studies hint that its activity pattern differs in ME/CFS, but nothing is confirmed.",
+   "detail": "Rodrigues 2019: qPCR found HERV-K overexpressed only in moderately affected patients, with no HERV-W difference. Giménez-Orenga 2025 (eLife; HERV-V3 microarrays, >350k HERV elements, PBMC, n=43 women): hierarchical clustering separated ME/CFS, FM, co-diagnosed and controls 'perfectly'. That sample is very small with very many features, so overfitting is likely without an independent validation set. HERV-K dUTPase antibodies co-occur with herpesvirus dUTPase antibodies in the Ariza lab data (Palomo 2026). Herpesviruses such as EBV can transactivate HERVs, which links this to the herpes hypothesis.",
+   "studies": [
+    {
+     "cite": "Rodrigues 2019, Auto Immun Highlights",
+     "n": "small (moderate + severe vs controls)",
+     "design": "case-control qPCR",
+     "result": "HERV-K up in moderate ME/CFS; HERV-W no difference",
+     "url": "https://doi.org/10.1186/s13317-019-0122-8",
+     "verified": true
+    },
+    {
+     "cite": "Giménez-Orenga 2025, eLife",
+     "n": "43",
+     "design": "case-control microarray",
+     "result": "HERV profiles clustered ME/CFS, FM, both and HC separately",
+     "url": "https://doi.org/10.7554/eLife.104441",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "open_questions": [
+    "Replication in an independent, larger, blinded cohort",
+    "Are HERV proteins (Env) present in tissues or serum?"
+   ],
+   "hypotheses": [
+    "herv-activation",
+    "herpes-reactivation",
+    "autoimmunity"
+   ],
+   "test_available": "research only"
+  },
+  {
+   "id": "infection-temelimab-null",
+   "subdomain": "Endogenous retroviruses",
+   "finding": "Temelimab, an antibody against HERV-W envelope protein, did not reduce fatigue versus placebo in a 203-person RCT of HERV-W-positive post-COVID patients.",
+   "grade": "refuted",
+   "plain": "A drug designed to block an endogenous retrovirus protein was tested in long COVID patients who had that protein, and it worked no better than placebo.",
+   "detail": "Nehme 2026 (Brain Behav Immun; GeNeuro-funded, NCT05497089): 24 weeks of monthly IV 54 mg/kg in participants selected for HERV-W ENV positivity. The PROMIS fatigue change was -3.2 vs -3.8 points, with no secondary benefit. Note that temelimab targets HERV-W, not HERV-K, so it does not test the HERV-K findings in ME/CFS. No temelimab trial in non-COVID ME/CFS exists.",
+   "studies": [
+    {
+     "cite": "Nehme 2026, Brain Behav Immun",
+     "n": "203",
+     "design": "double-blind RCT",
+     "result": "no difference in fatigue at 24 weeks",
+     "url": "https://doi.org/10.1016/j.bbi.2026.106892",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "open_questions": [
+    "Is HERV-K (rather than HERV-W) a better target in ME/CFS?"
+   ],
+   "hypotheses": [
+    "herv-activation"
+   ],
+   "test_available": "n/a"
+  },
+  {
+   "id": "infection-xmrv-cautionary",
+   "subdomain": "Retroviruses (XMRV)",
+   "finding": "The 2009 report of the mouse retrovirus XMRV in 67% of CFS patients was a laboratory contamination artefact: blinded multi-lab and original-investigator studies found no XMRV/pMLV, and the Science paper was retracted.",
+   "grade": "refuted",
+   "plain": "In 2009 a mouse-derived virus was reported in most CFS patients. Careful blinded testing, including by the original scientists, showed it was contamination, and the paper was withdrawn.",
+   "detail": "Lombardi 2009 (Science) was partially retracted in 2011 and fully retracted later that year. Simmons 2011 (Blood XMRV Scientific Research Working Group): coded replicate samples sent to 9 labs, and reactivity was similar in CFS and controls. Alter 2012 (mBio; Lipkin-led, 147 CFS vs 146 controls, including the original investigators' labs) found no XMRV or pMLV. Lessons for this field: sensitive PCR contamination (mouse DNA in reagents and cell lines), unblinded testing, and premature clinical use (antiretrovirals were taken by some patients). The episode also set back trust and funding for virus research in ME/CFS.",
+   "studies": [
+    {
+     "cite": "Simmons 2011, Science",
+     "n": "15 positive vs 15 negative (coded replicates)",
+     "design": "blinded multi-laboratory",
+     "result": "assays did not reproducibly detect XMRV/MLV; CFS = controls",
+     "url": "https://doi.org/10.1126/science.1213841",
+     "verified": true
+    },
+    {
+     "cite": "Alter 2012, mBio",
+     "n": "147 vs 146",
+     "design": "blinded multicenter",
+     "result": "no XMRV or pMLV in any group",
+     "url": "https://doi.org/10.1128/mBio.00266-12",
+     "verified": true
+    },
+    {
+     "cite": "Silverman 2011, Science (partial retraction)",
+     "n": "-",
+     "design": "retraction notice",
+     "result": "contamination acknowledged in part of the data",
+     "url": "https://doi.org/10.1126/science.1212182",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "open_questions": [],
+   "hypotheses": [
+    "viral-persistence"
+   ],
+   "test_available": "n/a (no valid XMRV test; commercial tests sold in 2010-11 were not meaningful)"
+  },
+  {
+   "id": "infection-viral-vs-bacterial-registry",
+   "subdomain": "Post-infectious onset",
+   "finding": "In Finnish registry data, ME/CFS (G93.3) is enriched 3-6-fold for prior viral infections (HSV, EBV, influenza, COVID, viral CNS infection) but not for bacterial pneumonia or erysipelas.",
+   "grade": "contested",
+   "plain": "In national health records, people with ME/CFS more often had earlier viral illnesses, but not more bacterial ones, which suggests viruses play a particular role.",
+   "detail": "Solving ME/CFS re-analysis of FinnGen R12 and FinRegistry (Risteys) found observed/expected ratios of 2-6 for viral infection codes vs ≤1 for bacterial codes, and protozoal intestinal infection was also enriched (18x). Limitations: FinnGen and FinRegistry overlap, so they are not independent. Coding and healthcare-seeking bias can inflate associations, and the timing of infection relative to onset is not always resolved. Infection-onset ME/CFS shares genetic risk with other onsets (DecodeME). The Giardia and Q fever outbreaks show that non-viral triggers also occur, so the viral excess is not absolute.",
+   "studies": [
+    {
+     "cite": "Solving ME/CFS re-analysis (epi_literature; FinnGen R12 / FinRegistry)",
+     "n": "1,622 (FinRegistry), 348 (FinnGen) G93.3 cases",
+     "design": "registry co-occurrence (O/E, Fisher, BH-FDR)",
+     "result": "viral infections O/E 3-6; bacterial pneumonia/erysipelas not enriched",
+     "url": "",
+     "verified": true
+    },
+    {
+     "cite": "Chang 2025, J Transl Med",
+     "n": "registry",
+     "design": "cohort",
+     "result": "raised risk after influenza",
+     "url": "https://doi.org/10.1186/s12967-025-06600-5",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Hsu 2024, J Infect Public Health",
+     "n": "Taiwan registry",
+     "design": "cohort",
+     "result": "bacterial pneumonia also raises ME/CFS risk (aHR about 1.4)",
+     "url": "https://doi.org/10.1016/j.jiph.2024.102495",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Age/sex-matched time-to-event hazard ratios by infection class in UK Biobank or Danish registries"
+   ],
+   "hypotheses": [
+    "viral-persistence",
+    "herpes-reactivation",
+    "innate-hyperactivation"
+   ],
+   "test_available": "n/a"
+  },
+  {
+   "id": "infection-blood-virome-null",
+   "subdomain": "Enterovirus",
+   "finding": "Unbiased blood virome/EV sequencing does not find more viruses in ME/CFS; a TTMV subgroup signal is unreplicated.",
+   "grade": "early",
+   "plain": "Searches of patients' blood for viruses find no excess, and sometimes fewer, than in controls.",
+   "detail": "",
+   "studies": [
+    {
+     "cite": "Hyman 2025, medRxiv (preprint)",
+     "n": "ME/CFS vs controls",
+     "design": "blood virome sequencing",
+     "result": "fewer viruses in patients",
+     "url": "https://doi.org/10.1101/2025.11.06.25339689",
+     "verified": true
+    },
+    {
+     "cite": "Germain 2026, Int J Mol Sci (CATCH-EVseq)",
+     "n": "ME/CFS",
+     "design": "EV RNA sequencing",
+     "result": "no enterovirus RNA",
+     "url": "https://doi.org/10.3390/ijms27209065",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Gimenez-Orenga 2024, Preprints",
+     "n": "ME/CFS",
+     "design": "virome",
+     "result": "TTMV9 in subgroup",
+     "url": "https://doi.org/10.20944/preprints202408.0073.v1",
+     "verified": true
+    }
+   ],
+   "hypotheses": [],
+   "open_questions": [],
+   "test_available": false
+  }
+ ],
+ "hypotheses_notes": [
+  {
+   "id": "viral-persistence",
+   "for": "SARS-CoV-2 antigen/RNA persists in plasma and tissues of a minority for months to years, and tissue RNA associated with LC (Zuo 2024 OR 5.17). Enterovirus protein in stomach biopsies (Chia 2008). Early nirmatrelvir may prevent LC (small RCT).",
+   "against": "Three RCTs of nirmatrelvir in established LC (about 1,200 people) were null, and spike levels did not fall with treatment. Enterovirus findings are unreplicated with blinded methods. XMRV was contamination. The Giardia and Q fever triggers and failed doxycycline in QFS fit a 'hit-and-run' rather than persistent infection."
+  },
+  {
+   "id": "herpes-reactivation",
+   "for": "Lytic-marker serology (EA-D) associates with LC fatigue (Peluso 2023). dUTPase antibodies higher in ME/CFS (one lab, repeated). HHV-6 miRNA in ME/CFS brain (n=3). Genetic EBV-load MR suggestive (MVP OR 1.59). Plasma EBV DNA more frequent in one study. Herpes titres track complement activation in LC.",
+   "against": "Large serology studies (UK Biobank, Swedish cohorts) show no difference. PBMC viral DNA is equally common. The valganciclovir RCT missed its primary outcome and was never replicated. MR signal is not EBV-specific on negative controls. Most positive findings come from single labs."
+  },
+  {
+   "id": "herv-activation",
+   "for": "HERV-K overexpression in moderate ME/CFS (Rodrigues 2019). HERV transcript profiles separate ME/CFS from FM (n=43). HERV-K dUTPase antibodies co-occur with herpes dUTPase antibodies. Definition: reactivation of human endogenous retroviral elements, possibly transactivated by herpesviruses, driving immune dysregulation.",
+   "against": "All studies are small and unreplicated. The anti-HERV-W antibody temelimab failed in HERV-W-positive post-COVID patients (n=203)."
+  },
+  {
+   "id": "immune-exhaustion",
+   "for": "Deficient EBV-specific memory B/T responses (Loebel 2014). Exhausted, terminally differentiated virus-specific CD8 T cells in LC (Ma 2026).",
+   "against": "Single-cell re-analysis found no exhausted CD8 signature in ME/CFS, and EBV-specific clonotypes trended higher, not lower, in severe cases."
+  },
+  {
+   "id": "complement-thromboinflammation",
+   "for": "Classical complement activation associated with herpesvirus antibody titres in active LC (Cervia-Hasler 2024).",
+   "against": "Not yet replicated in non-COVID ME/CFS, and causal direction unknown."
+  },
+  {
+   "id": "innate-hyperactivation",
+   "for": "Severity of acute illness, not pathogen type, predicts post-infective fatigue (Dubbo). The stereotyped syndrome after diverse pathogens suggests a common host response.",
+   "against": "Few studies measure the acute immune response prospectively, and baseline cytokines have predicted outcome inconsistently."
+  },
+  {
+   "id": "sickness-behaviour",
+   "for": "Stereotyped phenotype across pathogens, with no ongoing pathogen required (Dubbo, QFS doxycycline failure).",
+   "against": "Does not explain why only ~10% persist, or tissue-specific viral findings."
+  },
+  {
+   "id": "gut-dysbiosis",
+   "for": "Giardia outbreak produced lasting fatigue + IBS. SARS-CoV-2 gut persistence. Enterovirus in stomach (contested).",
+   "against": "Gut reservoir data are mostly in LC and convenience samples."
+  }
+ ],
+ "glossary": [
+  {
+   "term": "Post-infective fatigue syndrome (PIFS)",
+   "plain": "A lasting illness of fatigue, pain, poor concentration and unrefreshing sleep that begins after a documented infection."
+  },
+  {
+   "term": "Lytic vs latent",
+   "plain": "Herpesviruses hide quietly in cells for life (latent). When they 'wake up' and make new virus or viral proteins, that is lytic activity, or reactivation."
+  },
+  {
+   "term": "EA-D, VCA, EBNA",
+   "plain": "Parts of Epstein-Barr virus that antibodies are measured against. EA-D antibodies suggest recent reactivation, VCA IgM suggests a new infection, and EBNA IgG shows an old past infection."
+  },
+  {
+   "term": "dUTPase",
+   "plain": "An enzyme some herpesviruses make when partly reactivated. It can itself stir up inflammation, and antibodies to it are used as a sign of reactivation."
+  },
+  {
+   "term": "iciHHV-6",
+   "plain": "Inherited chromosomally integrated HHV-6: about 1 in 100 people carry HHV-6's genome in every cell, inherited from a parent. It can make blood HHV-6 tests look falsely 'high'."
+  },
+  {
+   "term": "Enterovirus VP1",
+   "plain": "A coat protein of enteroviruses (the family of polio, coxsackie and echoviruses) used to stain tissue for evidence of infection."
+  },
+  {
+   "term": "Antigenemia",
+   "plain": "Viral protein detectable in the blood."
+  },
+  {
+   "term": "HERV",
+   "plain": "Human endogenous retroviruses: remnants of ancient viral infections that make up about 8% of our DNA and can sometimes be switched back on."
+  },
+  {
+   "term": "XMRV",
+   "plain": "A mouse-derived retrovirus once reported in CFS. The finding was later shown to be lab contamination and retracted."
+  },
+  {
+   "term": "Mendelian randomisation (MR)",
+   "plain": "Using genetic variants as a natural experiment to test whether a trait (like EBV load) plausibly causes a disease."
+  }
+ ],
+ "key_reviews": [
+  {
+   "cite": "O'Neal & Hanson 2021, Front Med",
+   "url": "https://doi.org/10.3389/fmed.2021.688486",
+   "why": "Critical review of enterovirus methods in ME/CFS: why past studies neither proved nor excluded persistent infection."
+  },
+  {
+   "cite": "Proal et al. 2023, Nat Immunol",
+   "url": "https://doi.org/10.1038/s41590-023-01601-2",
+   "why": "Review of evidence for a SARS-CoV-2 tissue reservoir in long COVID and research priorities for antiviral trials."
+  },
+  {
+   "cite": "Hickie et al. 2006, BMJ",
+   "url": "https://doi.org/10.1136/bmj.38933.585764.AE",
+   "why": "The foundational prospective cohort showing a stereotyped post-infective syndrome across pathogens."
+  },
+  {
+   "cite": "Alter et al. 2012, mBio",
+   "url": "https://doi.org/10.1128/mBio.00266-12",
+   "why": "The definitive blinded study closing the XMRV episode, and a model for testing a pathogen claim."
+  },
+  {
+   "cite": "Blomberg et al. 2019, Front Immunol",
+   "url": "https://doi.org/10.3389/fimmu.2019.01946",
+   "why": "Careful multiplex herpesvirus serology in Canada-criteria ME/CFS with a discussion of why serology is limited."
+  }
+ ],
+ "gaps": [
+  "No adequately powered, replicated antiviral RCT in ME/CFS (valganciclovir n=30 in 2013 is still the best evidence).",
+  "No LC antiviral trial has enrolled people selected by biomarker evidence of persistence (antigenemia or tissue RNA).",
+  "No prospective trial of early antiviral treatment during infectious mononucleosis to prevent post-IM ME/CFS.",
+  "Blinded, multi-lab, sequencing-based tissue studies (gut, muscle, brain) for enterovirus, herpesvirus and SARS-CoV-2 in non-COVID ME/CFS are missing.",
+  "Longitudinal viral sampling timed to PEM crashes (plasma EBV/HHV-6 DNA, dUTPase, EA-D) has barely been done.",
+  "DecodeME iciHHV-6 prevalence results are not yet published.",
+  "Independent replication of dUTPase antibody findings outside the originating lab.",
+  "Whether post-COVID, post-EBV, post-Giardia and post-Q-fever ME/CFS share the same downstream biology."
+ ]
+}

@@ -1,0 +1,39 @@
+accession,repository,first_author_year_or_lab,pmid,tissue,assay,n_cases,n_controls,exercise_or_PEM_timepoints,orthostatic_data,downloadable,processed_matrix,reanalysed_here,notes
+GSE214283,GEO,Hanson/Grimson lab (Cornell) 2024,38232699,PBMC,10x scRNA-seq,30,28,yes: pre-CPET (D1) and 24h post (D2),no,yes,per-sample 10x h5 (1.3 GB tar),yes (pseudobulk by cell type),Part of SuperSeries GSE214284; paired design
+GSE214282,GEO,Hanson/Grimson lab 2024,38232699,CD14 monocytes (sorted),bulk RNA-seq,4,4,post-CPET only,no,yes,raw counts,no,too small
+GSE236402,GEO,Hanson/Grimson lab 2024,38232699,plasma platelet pellet,bulk RNA-seq,3,3,pre and 24h post CPET,no,yes,raw counts,no,too small
+GSE268212,GEO,Hanson/Grimson lab 2024 (CD8 exhaustion),none listed,sorted naive and memory CD8 T cells,bulk RNA-seq,7,7,no (bulk arm),no,yes,raw counts,no,small; ATAC in GSE268223
+GSE227375,GEO,Van Booven 2023 (Klimas lab),37373402,PBMC,bulk RNA-seq,31 subjects (92 samples),36 subjects (95 samples),yes: T0 baseline T1 max exertion T2 recovery,no,yes (NCBI-generated counts; 162 of 187 samples),NCBI GRCh38 counts,yes,subject IDs not given; inferred from consecutive sample numbers and confirmed by genotype-like expression (within-subject r 0.84 vs between -0.02)
+GSE293840,GEO,Grimson/De Vlaminck/Hanson 2025 (cfRNA),40789036,plasma cell-free RNA,RNA-seq,93,75,no,no,yes,raw counts,yes,3 sites and 3 batches; may overlap Cornell participants of GSE214283
+GSE128078,GEO,Bouquet 2019 (Chiu lab),30897114,whole blood,RNA-seq,14,11,yes: days 1 2 3 7 around CPET,no,yes,FPKM + NCBI counts,yes,small
+GSE98139,GEO,Nguyen 2017 (NorCAPITAL adolescents),28494812,whole blood,RNA-seq,28,19,no,no (cohort had orthostatic tests but not in GEO),yes,normalised counts,yes,adolescents
+GSE16059,GEO,Byrnes 2009 (twins),19503787,peripheral blood leukocytes,Affymetrix U133 Plus 2,44 (32 CFS + 12 ICF),44 co-twins,no,no,yes,RMA series matrix,yes (paired),monozygotic discordant twins
+GSE14577,GEO,Gow 2009,19555476,PBMC,Affymetrix U133A/B,8 men,7 men,no,no,yes,series matrix,no,too small
+GSE130353,GEO,Raijmakers 2019,31088495,CD14 monocytes,RNA-seq,10 CFS (+10 Q-fever fatigue),10 (+10 seropositive),no,no,RAW tar only,no,no,small
+GSE270045,GEO,post-COVID ME/CFS 2024,41205594,whole blood,RNA-seq,19,17,no,no,yes,counts,no,post-COVID ME/CFS; not analysed for time
+GSE269047,GEO,Gimenez-Orenga 2025 (HERV),40338225,PBMC,Clariom D array,8 ME (+16 ME+FM +10 FM),9,no,no,yes (412 MB),exprs matrix,no,small ME-only group
+GSE275334,GEO,Eaton-Fitch/Marshall-Gradisnik 2024,39435656,PBMC,NanoString immune exhaustion panel (785 genes),14 (+15 long COVID),18,no,no,yes,normalised xlsx,no,targeted panel
+GSE251792 (+GSE245661 GSE251872 GSE254030 GSE251790),GEO,Walitt 2024 NIH (Nat Commun),see paper,PBMC/CSF/muscle/protein,RNA-seq and protein,~17,~21,no,yes (NIH tilt in paper),yes,various,no,handled by another worker
+GSE141770,GEO,Almenar-Perez 2020,32034172,PBMC and plasma EV,miRNA-seq,15,15,no,no,RAW,no,no,miRNA
+GSE70371,GEO,Petty 2016,26967895,PBMC,miRNA array,15,29,no,no,RAW,no,no,miRNA
+GSE317067,GEO,2026 EV miRNA post-COVID ME/CFS,41828537,plasma EV,small RNA-seq,3,3,no,no,yes,counts,no,tiny
+GSE156792,GEO,Herrera 2018,30516085,CD3 T cells,450K methylation,61,48,no,no,yes (intensities),meth/unmeth intensities,no,largest methylation set; not reanalysed (time)
+GSE93266,GEO,de Vega 2017,28231836,PBMC,450K methylation,49,26,no,no,yes,intensities,no,
+GSE102504,GEO,de Vega 2018,29692205,PBMC,450K methylation,25,0,no,no,yes,intensities,no,cases only (subtyping)
+GSE59489,GEO,de Vega 2014,25111603,PBMC,450K methylation,12,12,no,no,yes,non-normalised,no,
+GSE111183,GEO,Trivedi 2018,30036399,PBMC,EPIC methylation,13,12,no,no,yes,intensities,no,
+GSE153667,GEO,Helliwell 2020,33148325,PBMC,RRBS,10,10,no,no,yes,methylation matrix,no,
+GSE166592,GEO,Helliwell 2022 (relapse),PMC9570248,PBMC,RRBS,2 (5 timepoints each),1,relapse/recovery timepoints,no,yes,xlsx,no,n=3 people
+GSE304805,GEO,2025 PEM epigenetics,40943482,PBMC,RRBS,5,2,yes: 0h 24h 48h after exercise,no,yes,processed,no,tiny
+GSE297189,GEO,2025 ME vs long COVID methylation,40724879,PBMC,RRBS,5 (+5 LC),5,no,no,yes,processed,no,tiny
+GSE327255,GEO,2026 saliva methylation,42010606,saliva,EPIC methylation,54,21,no,no,yes,beta matrix,no,saliva
+PAD000026,PRIDE (affinity),Hoel/Fluge 2026 (RituxME/CycloME serum),none listed,serum,SomaScan 7k,50,29,no,no,yes,log2 matrix + adat,yes,large pre-analytical cell-leakage difference between groups
+PXD016622,PRIDE,Milivojevic 2020,unknown,plasma,DIA LC-MS/MS,~?,~?,no,no,raw + Spectronaut .sne only (3.2 GB),no,no,needs Spectronaut to requantify
+PXD072203,PRIDE,Rydland 2026,none listed,plasma EVs,LC-MS/MS,?,?,no,no,MaxQuant quant file,partial,no,not opened
+PXD073644,PRIDE,Seifert 2026,none listed,plasma EVs (post-COVID ME/CFS),LC-MS/MS,?,?,no,no,raw + design only,no,no,
+PXD076216,PRIDE,Bragee 2026,none listed,CSF,LC-MS/MS (902 proteins),31,0,no,autonomic factors per paper,proteinGroups.txt,partial,no,cases only
+PXD068504,PRIDE,Mapping the complexity of ME/CFS 2025,none listed,plasma,SWATH/ZenoTOF,?,?,no,no,raw wiff only,no,no,
+PXD045508,PRIDE,Peppercorn 2025 (Tate lab),none listed,PBMC,SWATH-MS,long COVID only,?,no,no,raw,no,no,long COVID
+Zenodo 11100300,Zenodo,2024,none,capillary PBMC,longitudinal scRNA-seq,2,0,antibiotic course timepoints,no,yes,unknown,no,n=2
+Zenodo 22885464,Zenodo,2026,none,n/a,QTL colocalisation within DecodeME loci,n/a,n/a,no,no,yes,summary,no,relevant to the DecodeME worker
+figshare 30278434,figshare,Esteban 2025 (AHR study),none,stool,targeted fecal metabolomics + microbiome,19,23,no,no,yes,csv,brief check only,fecal indole-3-propionate not different (p=0.83)

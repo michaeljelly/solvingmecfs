@@ -1,0 +1,74 @@
+<!--meta {"title": "ME/CFS data catalogue", "description": "Public ME/CFS datasets in one place: genetics, metabolomics, microbiome, immune and proteomics data, with licences, download links and the analyses run on each.", "nav": "data"}-->
+<style>
+.toolbar{display:flex;flex-wrap:wrap;gap:10px;margin:0 0 20px}
+.toolbar input{flex:1 1 240px;min-width:0;font:inherit;padding:9px 12px;border:1px solid var(--line);border-radius:8px;background:var(--surface);color:var(--ink)}
+.toolbar select{font:inherit;padding:9px 10px;border:1px solid var(--line);border-radius:8px;background:var(--surface);color:var(--ink)}
+.ds{scroll-margin-top:72px;margin-bottom:16px;overflow-wrap:anywhere;min-width:0}
+.ds h3{display:flex;flex-wrap:wrap;gap:8px 12px;align-items:center}
+.ds .cite{color:var(--muted);font-size:14px;margin-top:4px}
+.ds .facts{font-size:14px}
+.files{margin-top:12px;font-size:14px}
+.files summary{font-weight:500;font-size:14px}
+.files ul{margin:8px 0 0;padding-left:18px;word-break:break-all}
+.an{margin-top:12px;font-size:15px}
+.an li{margin:4px 0}
+.count{color:var(--muted);font-size:14px;margin:0 0 12px}
+.ds:target{outline:2px solid var(--accent);outline-offset:2px}
+</style>
+<div class="wrap hero" style="padding-bottom:0">
+  <div class="eyebrow">Open data</div>
+  <h1>ME/CFS data catalogue</h1>
+  <p class="lede">Every public ME/CFS dataset we have worked with, with its licence, size and source. Where the licence allows it, we host a copy you can download directly. Where it doesn't, we link to the original. Our own analysis code and result tables are free to reuse.</p>
+  <p class="note">Re-hosted copies are unchanged except for compression. Cite the original authors. Our analysis outputs are CC BY 4.0 and our scripts are MIT unless a dataset entry says otherwise. If you hold per-person ME/CFS data you can share, especially from severe or recently ill patients, it would fill the biggest gaps.</p>
+</div>
+<section>
+<div class="wrap" style="padding-top:1rem">
+  <div class="toolbar">
+    <input id="q" type="search" placeholder="Search datasets, data types, findings" aria-label="Search datasets">
+    <select id="st" aria-label="Filter by access">
+      <option value="">All datasets</option>
+      <option value="rehosted">Download here</option>
+      <option value="link_only">Link to source</option>
+    </select>
+  </div>
+  <p class="count" id="count"></p>
+  <div id="list"><p class="intro">Loading catalogue…</p></div>
+</div>
+</section>
+<script>
+(function(){
+  var list=document.getElementById('list'), q=document.getElementById('q'), st=document.getElementById('st'), count=document.getElementById('count'), data=[];
+  function esc(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
+  function size(b){if(!b)return '';var u=['B','KB','MB','GB'],i=0;while(b>=1024&&i<3){b/=1024;i++;}return b.toFixed(i?1:0)+' '+u[i];}
+  function link(u,t){return u?'<a href="'+esc(u)+'" rel="noopener">'+esc(t||u)+'</a>':'';}
+  function card(d){
+    var re=d.status==='rehosted';
+    var h='<div class="card ds" id="'+esc(d.id)+'"><h3>'+esc(d.name)+' <span class="badge '+(re?'b-strong">Download here':'b-mid">Link to source')+'</span></h3>';
+    if(d.citation)h+='<div class="cite">'+esc(d.citation)+(d.doi?' · '+link('https://doi.org/'+d.doi,'doi:'+d.doi):'')+'</div>';
+    h+='<div class="facts">';
+    if(d.n)h+='<div><b>Participants</b>'+esc(d.n)+'</div>';
+    if(d.data_type)h+='<div><b>Data</b>'+esc(d.data_type)+'</div>';
+    h+='<div><b>Licence</b>'+(d.licence_url?link(d.licence_url,d.licence):esc(d.licence||'Not stated'))+'</div>';
+    h+='<div><b>Source</b>'+link(d.source_url,'Original')+(re&&d.total_bytes?' · '+size(d.total_bytes)+' hosted':'')+'</div></div>';
+    if(d.notes)h+='<p style="font-size:14px;color:var(--muted)">'+esc(d.notes)+'</p>';
+    var an=d.our_analyses||[];
+    if(an.length){h+='<div class="an"><b>What we found</b><ul>'+an.map(function(a){return '<li>'+(a.path_or_url&&/^https?:/.test(a.path_or_url)?link(a.path_or_url,a.title):esc(a.title))+(a.summary_one_line?': '+esc(a.summary_one_line):'')+'</li>';}).join('')+'</ul></div>';}
+    var f=d.files||[];
+    if(f.length){h+='<details class="files"><summary>'+f.length+' file'+(f.length>1?'s':'')+'</summary><ul>'+f.map(function(x){return '<li>'+link(x.url,x.path)+(x.bytes?' <span style="color:var(--muted)">('+size(x.bytes)+')</span>':'')+'</li>';}).join('')+'</ul></details>';}
+    return h+'</div>';
+  }
+  function render(){
+    var t=q.value.trim().toLowerCase(), s=st.value;
+    var r=data.filter(function(d){return (!s||d.status===s)&&(!t||JSON.stringify(d).toLowerCase().indexOf(t)>=0);});
+    count.textContent=r.length+' of '+data.length+' datasets';
+    list.innerHTML=r.map(card).join('')||'<p class="intro">No datasets match.</p>';
+  }
+  fetch('/data/catalogue.json').then(function(r){return r.json();}).then(function(j){
+    data=Array.isArray(j)?j:(j.datasets||[]);
+    data.sort(function(a,b){var x=(a.id.indexOf('analysis-')===0)-(b.id.indexOf('analysis-')===0);return x||a.name.localeCompare(b.name);});
+    render();
+    if(location.hash){var el=document.getElementById(location.hash.slice(1));if(el)el.scrollIntoView();}
+  }).catch(function(){list.innerHTML='<p class="intro">The catalogue could not be loaded.</p>';});
+  q.addEventListener('input',render); st.addEventListener('change',render);
+})();
+</script>

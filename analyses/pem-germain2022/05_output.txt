@@ -1,0 +1,159 @@
+/usr/local/lib/python3.11/dist-packages/statsmodels/base/model.py:589: SingularMatrixWarning: Random effects covariance is singular
+  return -self.score(params, *args) / nobs
+/usr/local/lib/python3.11/dist-packages/statsmodels/base/model.py:589: SingularMatrixWarning: Random effects covariance is singular
+  return -self.score(params, *args) / nobs
+/usr/local/lib/python3.11/dist-packages/statsmodels/base/model.py:589: SingularMatrixWarning: Random effects covariance is singular
+  return -self.score(params, *args) / nobs
+/usr/local/lib/python3.11/dist-packages/statsmodels/base/model.py:589: SingularMatrixWarning: Random effects covariance is singular
+  return -self.score(params, *args) / nobs
+/usr/local/lib/python3.11/dist-packages/statsmodels/base/model.py:589: SingularMatrixWarning: Random effects covariance is singular
+  return -self.score(params, *args) / nobs
+/usr/local/lib/python3.11/dist-packages/statsmodels/base/model.py:589: SingularMatrixWarning: Random effects covariance is singular
+  return -self.score(params, *args) / nobs
+/usr/local/lib/python3.11/dist-packages/statsmodels/base/model.py:589: SingularMatrixWarning: Random effects covariance is singular
+  return -self.score(params, *args) / nobs
+/usr/local/lib/python3.11/dist-packages/statsmodels/base/model.py:589: SingularMatrixWarning: Random effects covariance is singular
+  return -self.score(params, *args) / nobs
+/usr/local/lib/python3.11/dist-packages/statsmodels/base/model.py:589: SingularMatrixWarning: Random effects covariance is singular
+  return -self.score(params, *args) / nobs
+/usr/local/lib/python3.11/dist-packages/statsmodels/base/model.py:589: SingularMatrixWarning: Random effects covariance is singular
+  return -self.score(params, *args) / nobs
+/usr/local/lib/python3.11/dist-packages/statsmodels/base/model.py:589: SingularMatrixWarning: Random effects covariance is singular
+  return -self.score(params, *args) / nobs
+/usr/local/lib/python3.11/dist-packages/statsmodels/base/model.py:589: SingularMatrixWarning: Random effects covariance is singular
+  return -self.score(params, *args) / nobs
+/usr/local/lib/python3.11/dist-packages/statsmodels/base/model.py:589: SingularMatrixWarning: Random effects covariance is singular
+  return -self.score(params, *args) / nobs
+/usr/local/lib/python3.11/dist-packages/statsmodels/base/model.py:589: SingularMatrixWarning: Random effects covariance is singular
+  return -self.score(params, *args) / nobs
+/usr/local/lib/python3.11/dist-packages/statsmodels/base/model.py:589: SingularMatrixWarning: Random effects covariance is singular
+  return -self.score(params, *args) / nobs
+/usr/local/lib/python3.11/dist-packages/statsmodels/base/model.py:589: SingularMatrixWarning: Random effects covariance is singular
+  return -self.score(params, *args) / nobs
+/usr/local/lib/python3.11/dist-packages/statsmodels/base/model.py:589: SingularMatrixWarning: Random effects covariance is singular
+  return -self.score(params, *args) / nobs
+/usr/local/lib/python3.11/dist-packages/statsmodels/base/model.py:589: SingularMatrixWarning: Random effects covariance is singular
+  return -self.score(params, *args) / nobs
+/usr/local/lib/python3.11/dist-packages/statsmodels/base/model.py:589: SingularMatrixWarning: Random effects covariance is singular
+  return -self.score(params, *args) / nobs
+/usr/local/lib/python3.11/dist-packages/statsmodels/base/model.py:589: SingularMatrixWarning: Random effects covariance is singular
+  return -self.score(params, *args) / nobs
+/usr/local/lib/python3.11/dist-packages/statsmodels/base/model.py:589: SingularMatrixWarning: Random effects covariance is singular
+  return -self.score(params, *args) / nobs
+/usr/local/lib/python3.11/dist-packages/statsmodels/base/model.py:589: SingularMatrixWarning: Random effects covariance is singular
+  return -self.score(params, *args) / nobs
+/usr/local/lib/python3.11/dist-packages/statsmodels/base/model.py:589: SingularMatrixWarning: Random effects covariance is singular
+  return -self.score(params, *args) / nobs
+/usr/local/lib/python3.11/dist-packages/statsmodels/base/model.py:589: SingularMatrixWarning: Random effects covariance is singular
+  return -self.score(params, *args) / nobs
+/usr/local/lib/python3.11/dist-packages/statsmodels/base/model.py:589: SingularMatrixWarning: Random effects covariance is singular
+  return -self.score(params, *args) / nobs
+/usr/local/lib/python3.11/dist-packages/statsmodels/base/model.py:589: SingularMatrixWarning: Random effects covariance is singular
+  return -self.score(params, *args) / nobs
+/usr/local/lib/python3.11/dist-packages/statsmodels/base/model.py:589: SingularMatrixWarning: Random effects covariance is singular
+  return -self.score(params, *args) / nobs
+/usr/local/lib/python3.11/dist-packages/statsmodels/base/model.py:589: SingularMatrixWarning: Random effects covariance is singular
+  return -self.score(params, *args) / nobs
+/usr/local/lib/python3.11/dist-packages/statsmodels/base/model.py:589: SingularMatrixWarning: Random effects covariance is singular
+  return -self.score(params, *args) / nobs
+/usr/local/lib/python3.11/dist-packages/statsmodels/base/model.py:589: SingularMatrixWarning: Random effects covariance is singular
+  return -self.score(params, *args) / nobs
+/usr/local/lib/python3.11/dist-packages/statsmodels/base/model.py:589: SingularMatrixWarning: Random effects covariance is singular
+  return -self.score(params, *args) / nobs
+/usr/local/lib/python3.11/dist-packages/statsmodels/base/model.py:589: SingularMatrixWarning: Random effects covariance is singular
+  return -self.score(params, *args) / nobs
+/usr/local/lib/python3.11/dist-packages/statsmodels/base/model.py:589: SingularMatrixWarning: Random effects covariance is singular
+  return -self.score(params, *args) / nobs
+/usr/local/lib/python3.11/dist-packages/statsmodels/base/model.py:589: SingularMatrixWarning: Random effects covariance is singular
+  return -self.score(params, *args) / nobs
+/usr/local/lib/python3.11/dist-packages/statsmodels/base/model.py:589: SingularMatrixWarning: Random effects covariance is singular
+  return -self.score(params, *args) / nobs
+/usr/local/lib/python3.11/dist-packages/statsmodels/base/model.py:589: SingularMatrixWarning: Random effects covariance is singular
+  return -self.score(params, *args) / nobs
+/usr/local/lib/python3.11/dist-packages/statsmodels/base/model.py:589: SingularMatrixWarning: Random effects covariance is singular
+  return -self.score(params, *args) / nobs
+/usr/local/lib/python3.11/dist-packages/statsmodels/base/model.py:589: SingularMatrixWarning: Random effects covariance is singular
+  return -self.score(params, *args) / nobs
+/usr/local/lib/python3.11/dist-packages/statsmodels/base/model.py:589: SingularMatrixWarning: Random effects covariance is singular
+  return -self.score(params, *args) / nobs
+/usr/local/lib/python3.11/dist-packages/statsmodels/base/model.py:589: SingularMatrixWarning: Random effects covariance is singular
+  return -self.score(params, *args) / nobs
+/usr/local/lib/python3.11/dist-packages/statsmodels/base/model.py:589: SingularMatrixWarning: Random effects covariance is singular
+  return -self.score(params, *args) / nobs
+/usr/local/lib/python3.11/dist-packages/statsmodels/base/model.py:589: SingularMatrixWarning: Random effects covariance is singular
+  return -self.score(params, *args) / nobs
+/usr/local/lib/python3.11/dist-packages/statsmodels/base/model.py:589: SingularMatrixWarning: Random effects covariance is singular
+  return -self.score(params, *args) / nobs
+joblib.externals.loky.process_executor._RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/dist-packages/joblib/externals/loky/process_executor.py", line 490, in _process_worker
+    r = call_item()
+        ^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/joblib/externals/loky/process_executor.py", line 291, in __call__
+    return self.fn(*self.args, **self.kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/joblib/parallel.py", line 607, in __call__
+    return [func(*args, **kwargs) for func, args, kwargs in self.items]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/joblib/parallel.py", line 607, in <listcomp>
+    return [func(*args, **kwargs) for func, args, kwargs in self.items]
+            ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/attach/project-files/mecfs-research/pem/05_mixed.py", line 20, in fit
+    r=smf.ols(fml,x).fit(cov_type='cluster',cov_kwds={'groups':pd.factorize(x.ID)[0]})
+      ^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/statsmodels/base/model.py", line 243, in from_formula
+    mod = cls(endog, exog, *args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/statsmodels/regression/linear_model.py", line 1040, in __init__
+    super().__init__(endog, exog, missing=missing, hasconst=hasconst, **kwargs)
+  File "/usr/local/lib/python3.11/dist-packages/statsmodels/regression/linear_model.py", line 850, in __init__
+    super().__init__(
+  File "/usr/local/lib/python3.11/dist-packages/statsmodels/regression/linear_model.py", line 246, in __init__
+    super().__init__(endog, exog, **kwargs)
+  File "/usr/local/lib/python3.11/dist-packages/statsmodels/base/model.py", line 287, in __init__
+    super().__init__(endog, exog, **kwargs)
+  File "/usr/local/lib/python3.11/dist-packages/statsmodels/base/model.py", line 102, in __init__
+    self.data = self._handle_data(endog, exog, missing, hasconst, **kwargs)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/statsmodels/base/model.py", line 143, in _handle_data
+    data = handle_data(endog, exog, missing, hasconst, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/statsmodels/base/data.py", line 747, in handle_data
+    return klass(endog, exog=exog, missing=missing, hasconst=hasconst, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/statsmodels/base/data.py", line 90, in __init__
+    self._handle_constant(hasconst)
+  File "/usr/local/lib/python3.11/dist-packages/statsmodels/base/data.py", line 137, in _handle_constant
+    exog_max = np.max(self.exog, axis=0)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/numpy/_core/fromnumeric.py", line 3123, in max
+    return _wrapreduction(a, np.maximum, 'max', axis, None, out,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/numpy/_core/fromnumeric.py", line 83, in _wrapreduction
+    return ufunc.reduce(obj, axis, dtype, out, **passkwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: zero-size array to reduction operation maximum which has no identity
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/attach/project-files/mecfs-research/pem/05_mixed.py", line 22, in <module>
+    rows=Parallel(n_jobs=2)(delayed(fit)(f) for f in L.columns)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/joblib/parallel.py", line 2098, in __call__
+    return output if self.return_generator else list(output)
+                                                ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/joblib/parallel.py", line 1704, in _get_outputs
+    yield from self._retrieve()
+  File "/usr/local/lib/python3.11/dist-packages/joblib/parallel.py", line 1806, in _retrieve
+    self._raise_error_fast()
+  File "/usr/local/lib/python3.11/dist-packages/joblib/parallel.py", line 1885, in _raise_error_fast
+    error_job.get_result(self.timeout)
+  File "/usr/local/lib/python3.11/dist-packages/joblib/parallel.py", line 780, in get_result
+    return self._return_or_raise()
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/joblib/parallel.py", line 795, in _return_or_raise
+    raise self._result
+ValueError: zero-size array to reduction operation maximum which has no identity

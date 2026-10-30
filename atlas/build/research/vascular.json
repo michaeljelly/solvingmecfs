@@ -1,0 +1,1314 @@
+{
+ "domain": "vascular",
+ "title": "Blood flow, vessels and blood",
+ "overview": "The most consistent vascular findings in ME/CFS concern circulation when upright: cerebral blood flow falls much more than normal on tilt, stroke volume is low, red-cell and blood volume are below predicted in a large minority to about half, and during exercise the heart is under-filled (preload failure). These are reported by several groups, though the cerebral blood flow and invasive exercise data each come mostly from one centre, and a 2026 study found blood volume did not predict who has orthostatic abnormalities. Reduced endothelial function (FMD, PORH) has been found in three independent cohorts, and newer work shows fewer muscle capillaries than bed rest would explain and narrowed retinal vessels in post-COVID ME/CFS. Complement activation is replicated in long COVID but inconsistent in ME/CFS. Microclots remain contested on method, and pooled blood proteomics do not show raised coagulation, platelet or endothelial-activation proteins.",
+ "findings": [
+  {
+   "id": "vascular-low-red-cell-volume",
+   "subdomain": "Blood volume",
+   "finding": "Red cell volume and total blood volume are below predicted in a large minority to about half of ME/CFS patients measured by isotope or CO-rebreathing methods.",
+   "grade": "replicated",
+   "plain": "Many patients have less blood than expected for their size, mainly because they have fewer red cells. Less blood means less returns to the heart when upright.",
+   "detail": "Hurwitz 2009 (Clin Sci): total blood volume -15%, plasma volume -13%, red cell volume -19% in CFS, and the blood-volume deficit explained 91-94% of group differences in cardiac volume indices. Newton 2016 linked lower plasma volume to smaller cardiac MRI volumes and to fatigue severity but not to illness duration (argues against pure deconditioning). Five independent groups report a red-cell-volume deficit (Streeten 2000, Hurwitz, Newton, van Campen 2018, Yamazaki 2026). Measurement methods differ (I-131 albumin, Cr-51, CO-rebreathing) and predicted values depend on body-size formulas, so prevalence figures are not comparable across studies.",
+   "studies": [
+    {
+     "cite": "Hurwitz 2009, Clin Sci",
+     "n": "56 CFS (30 severe, 26 non-severe) vs 90 controls",
+     "design": "case-control, isotope blood volume + echo",
+     "result": "TBV -15.4%, PV -13.2%, RBCV -19.1%; deficit explained most of the lower stroke index",
+     "url": "https://doi.org/10.1042/CS20090055",
+     "verified": true
+    },
+    {
+     "cite": "Newton 2016, Open Heart",
+     "n": "CFS vs controls (cardiac MRI + red cell mass)",
+     "design": "case-control",
+     "result": "Lower cardiac volumes tracked plasma and red cell volume; PV correlated with fatigue severity; no link to illness duration",
+     "url": "https://doi.org/10.1136/openhrt-2015-000381",
+     "verified": true
+    },
+    {
+     "cite": "Yamazaki 2026, Physiol Rep",
+     "n": "49 ME/CFS",
+     "design": "cross-sectional, blood volume + 10-min lean test",
+     "result": "RBC volume deficient in 49%; TBV hypovolaemic 35%, normal 43%, hypervolaemic 22%",
+     "url": "https://doi.org/10.14814/phy2.71087",
+     "verified": true
+    },
+    {
+     "cite": "Streeten & Bell 2000, Am J Med Sci",
+     "n": "15 CFS",
+     "design": "case series, Cr-51 red cell mass",
+     "result": "Low red cell mass in most patients; orthostatic symptoms",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/10910366/",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Yamazaki 2026, Physiol Rep",
+     "n": "49 ME/CFS",
+     "design": "cross-sectional",
+     "result": "Blood-volume category did not predict any lean-test abnormality (POTS, hypocapnia, hypotension); 22% were hypervolaemic",
+     "url": "https://doi.org/10.14814/phy2.71087",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Why does red cell mass fall: reduced marrow output (Solving ME/CFS re-analysis of FinnGen labs found lower reticulocytes and soluble transferrin receptor with normal iron), inactivity, or altered EPO signalling?",
+    "Does blood volume change with severity or after crashes?",
+    "If low blood volume does not predict orthostatic intolerance (Yamazaki 2026), how much of the symptom burden does it explain?"
+   ],
+   "hypotheses": [
+    "low-blood-volume-preload",
+    "pituitary-adh"
+   ],
+   "test_available": "Haemoglobin mass by CO-rebreathing (some sports-science and research labs); isotope blood volume (Daxor BVA-100, a few US centres). Reticulocytes, ferritin, transferrin saturation are routine."
+  },
+  {
+   "id": "vascular-raas-paradox",
+   "subdomain": "Blood volume",
+   "finding": "The hormones that should rise to restore blood volume (renin, aldosterone, EPO) are not raised in ME/CFS or POTS despite low volume, and blood proteomics shows no consistent change in them.",
+   "grade": "several",
+   "plain": "If blood volume is low the body should release hormones to retain salt and water. In many patients these hormones stay normal or low, which suggests the volume set-point itself is off.",
+   "detail": "In POTS, low aldosterone and an inappropriately low renin for the plasma-volume deficit (the renin-aldosterone paradox) were described by Raj et al. 2005; adrenal responsiveness to ACTH is intact (Laurin 2023), so the defect sits upstream. Older ME/CFS work reported low renin in tilt-positive patients and normal EPO. A Solving ME/CFS re-analysis of SomaScan and UK Biobank Olink data (about 150 patients plus UKB) found renin, ACE, BNP, EPO and hepcidin flat across cohorts.",
+   "studies": [
+    {
+     "cite": "Raj 2005, Circulation",
+     "n": "POTS vs controls",
+     "design": "case-control",
+     "result": "Plasma volume deficit with low renin and aldosterone for the degree of hypovolaemia",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/15781744/",
+     "verified": true
+    },
+    {
+     "cite": "Laurin 2023, Auton Neurosci",
+     "n": "POTS vs HC",
+     "design": "ACTH stimulation",
+     "result": "Adrenal aldosterone and cortisol responses to ACTH intact in POTS",
+     "url": "https://doi.org/10.1016/j.autneu.2023.103105",
+     "verified": true
+    },
+    {
+     "cite": "Solving ME/CFS re-analysis (deep2 proteome), 2026",
+     "n": "Hoel, Germain, Walitt SomaScan + UKB Olink",
+     "design": "secondary analysis",
+     "result": "RAAS/natriuretic, EPO, hepcidin sets null (q>0.7)",
+     "url": "/#data",
+     "verified": false
+    }
+   ],
+   "contradicting": [],
+   "open_questions": [
+    "Is the low-renin pattern present in ME/CFS without POTS?",
+    "Does ADH/copeptin respond normally to upright posture?"
+   ],
+   "hypotheses": [
+    "low-blood-volume-preload",
+    "pituitary-adh",
+    "hpa-endocrine"
+   ],
+   "test_available": "Supine and upright renin/aldosterone; copeptin. Routine labs, but interpretation needs posture and salt-intake control."
+  },
+  {
+   "id": "vascular-small-heart-stroke-volume",
+   "subdomain": "Cardiac size and stroke volume",
+   "finding": "Left-ventricular volumes and stroke volume are smaller in ME/CFS at rest and fall more than normal on tilt, largely in proportion to low blood volume rather than to weak heart muscle.",
+   "grade": "replicated",
+   "plain": "The heart is not damaged, but it is under-filled, so each beat pumps less blood, especially when upright.",
+   "detail": "Hurwitz 2009: severe CFS had about 10% lower stroke index and end-diastolic volume; adjusting for blood volume removed most of the difference. Hollingsworth 2012 (cardiac MRI) reported markedly lower end-diastolic volume and stroke volume. Miwa reports a 'small heart' (cardiothoracic ratio <0.42) subgroup with orthostatic intolerance. van Campen 2024 (233 POTS, many more normal HR-BP response) showed larger stroke-volume-index falls on tilt in all ME/CFS groups than in controls, with two patterns: venous pooling (HR rise 30-39) and a hyperadrenergic pattern (HR rise >=40) with relatively preserved SVI.",
+   "studies": [
+    {
+     "cite": "van Campen 2024, J Clin Med",
+     "n": "233 ME/CFS with POTS + normal-response patients vs HC",
+     "design": "retrospective tilt with echocardiographic SVI",
+     "result": "SVI fall larger than HC in all groups; two POTS haemodynamic profiles",
+     "url": "https://doi.org/10.3390/jcm13247726",
+     "verified": true
+    },
+    {
+     "cite": "Hollingsworth 2012, Eur J Clin Invest",
+     "n": "CFS vs controls",
+     "design": "cardiac MRI",
+     "result": "Lower LV end-diastolic volume and stroke volume",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/21793948/",
+     "verified": true
+    },
+    {
+     "cite": "Miwa 2026, Front Med",
+     "n": "review of Japanese series",
+     "design": "narrative review",
+     "result": "Small heart and downregulated renin-aldosterone/ADH systems in OI subgroup",
+     "url": "https://doi.org/10.3389/fmed.2026.1744154",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Olimulder 2016, Neth Heart J",
+     "n": "ME/CFS vs controls",
+     "design": "cardiac MRI",
+     "result": "Cardiac dimensions within normal range after indexing in a referral cohort",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/27561279/",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Do stroke-volume deficits normalise after volume loading, and does that predict symptomatic benefit?",
+    "How much of the van Campen echo data has been reproduced in another centre with blinded readers?"
+   ],
+   "hypotheses": [
+    "low-blood-volume-preload",
+    "autonomic-small-fibre"
+   ],
+   "test_available": "Echocardiogram (routine, but usually reported normal at rest); tilt with stroke-volume monitoring (Finapres/bioimpedance at autonomic units)."
+  },
+  {
+   "id": "vascular-preload-failure-icpet",
+   "subdomain": "Exercise haemodynamics",
+   "finding": "During upright invasive exercise testing most ME/CFS patients have abnormally low right-atrial filling pressure (preload failure), and a high-flow subgroup shows poor systemic oxygen extraction.",
+   "grade": "several",
+   "plain": "When patients exercise, too little blood returns to the heart. In some, blood also bypasses the muscles, so oxygen goes unused.",
+   "detail": "Joseph/Systrom 2021 (Chest): of 1,516 iCPETs, 160 met ME/CFS criteria with RAP <6.5 mmHg; peak RAP 1.9 vs 8.3 mmHg, peak VO2 80% vs 101% predicted. Low-flow tertile had lower peak cardiac output; high-flow tertile had lower systemic O2 extraction (0.74 vs 0.86-0.88). Selection by low RAP is built into the cohort, so the prevalence of preload failure in ME/CFS generally is not established. Novak 2026 reports preload failure in 92% of the 66 ME/CFS patients who had iCPET (same Harvard group). Long COVID iCPET shows the same pattern (Singh 2022; Joseph 2023 review). Independent replication outside the Systrom network is lacking.",
+   "studies": [
+    {
+     "cite": "Joseph 2021, Chest",
+     "n": "160 ME/CFS vs 36 controls",
+     "design": "retrospective iCPET + skin biopsy",
+     "result": "Peak RAP 1.9 vs 8.3 mmHg; impaired O2 extraction in high-flow tertile; SFN in 31%",
+     "url": "https://doi.org/10.1016/j.chest.2021.01.082",
+     "verified": true
+    },
+    {
+     "cite": "Novak 2026, PLOS One",
+     "n": "170 ME/CFS, 143 long COVID, 73 HC, 290 hEDS",
+     "design": "retrospective autonomic + iCPET",
+     "result": "Preload failure 92% ME/CFS (of 66 tested), 96% LC (of 25)",
+     "url": "https://doi.org/10.1371/journal.pone.0341278",
+     "verified": true
+    },
+    {
+     "cite": "Joseph 2022, Chest (pyridostigmine RCT)",
+     "n": "45 ME/CFS",
+     "design": "RCT, single-dose crossover-style iCPET",
+     "result": "Pyridostigmine improved peak VO2 vs placebo via higher cardiac output (acute effect)",
+     "url": "https://doi.org/10.1016/j.chest.2022.04.146",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "open_questions": [
+    "What is the preload-failure prevalence in an unselected ME/CFS cohort?",
+    "Can non-invasive tests (pulse pressure narrowing on stand, Day 2023; CO-rebreathing cardiac output) stand in for iCPET?",
+    "Does preload failure precede or follow illness onset?"
+   ],
+   "hypotheses": [
+    "low-blood-volume-preload",
+    "autonomic-small-fibre",
+    "small-vessel-capillary"
+   ],
+   "test_available": "Invasive CPET at a few US centres (Brigham, Yale, Mount Sinai); not routine. Two-day CPET is non-invasive but does not measure preload."
+  },
+  {
+   "id": "vascular-oxygen-extraction",
+   "subdomain": "Exercise haemodynamics",
+   "finding": "A subset of patients with unexplained exertional intolerance cannot extract oxygen normally from blood during exercise, associated with hypocapnia and possible arteriovenous shunting.",
+   "grade": "several",
+   "plain": "Blood arrives at the muscles but leaves with too much oxygen still in it, so the muscles get less than they need.",
+   "detail": "Melamed 2019 (Systrom group) described a poor-extraction phenotype with relative hypocapnia (PaCO2 29.9 vs 37.5 mmHg) and high mixed-venous O2 saturation at peak (44% vs 31%). Proposed causes: microvascular shunting from small-fibre neuropathy, mitochondrial limitation, or a left-shifted oxyhaemoglobin curve from hyperventilation. Muscle-oxygenation work by the Wüst group (NIRS post-occlusion) points in the same direction. All iCPET data come from one network.",
+   "studies": [
+    {
+     "cite": "Melamed 2019, Eur J Appl Physiol",
+     "n": "unexplained exertional intolerance cohort",
+     "design": "retrospective iCPET",
+     "result": "Poor systemic O2 extraction with hypocapnia; high peak SvO2",
+     "url": "https://doi.org/10.1007/s00421-019-04222-6",
+     "verified": true
+    },
+    {
+     "cite": "Joseph 2021, Chest",
+     "n": "160 ME/CFS",
+     "design": "iCPET",
+     "result": "High-flow tertile extraction 0.74 vs 0.86-0.88",
+     "url": "https://doi.org/10.1016/j.chest.2021.01.082",
+     "verified": true
+    },
+    {
+     "cite": "Mackay 2026, Am J Physiol Heart",
+     "n": "27 ME/CFS iCPET",
+     "design": "iCPET",
+     "result": "impaired extraction",
+     "url": "https://doi.org/10.1152/ajpheart.90080.2026",
+     "verified": true
+    },
+    {
+     "cite": "Kahn 2024, ERJ Open Res",
+     "n": "55 LC",
+     "design": "iCPET",
+     "result": "75% impaired extraction",
+     "url": "https://doi.org/10.1183/23120541.00714-2023",
+     "verified": true
+    },
+    {
+     "cite": "Leitner 2024, Pulm Circ",
+     "n": "47 LC",
+     "design": "iCPET",
+     "result": "reduced extraction",
+     "url": "https://doi.org/10.1002/pul2.70009",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "open_questions": [
+    "Which contributes most: shunting, mitochondria, or CO2-related Bohr shift?",
+    "Is impaired extraction present at rest or only at peak?"
+   ],
+   "hypotheses": [
+    "small-vessel-capillary",
+    "autonomic-small-fibre",
+    "mitochondrial-energy"
+   ],
+   "test_available": "Research only (iCPET); muscle NIRS in research labs."
+  },
+  {
+   "id": "vascular-cbf-tilt",
+   "subdomain": "Cerebral blood flow",
+   "finding": "Cerebral blood flow falls about 26% during head-up tilt in ME/CFS versus 7% in controls, including in patients with normal heart rate and blood pressure responses.",
+   "grade": "replicated",
+   "plain": "Standing up reduces blood flow to the brain far more than normal, even when pulse and blood pressure look fine, and the drop tracks orthostatic symptoms.",
+   "detail": "van Campen 2020 (429 patients, 44 HC, extracranial carotid+vertebral Doppler): 82% of normal-response, 98% of delayed-OH and 100% of POTS patients exceeded the control lower limit (13%). Flow recovery after tilt is incomplete and slowest in severe patients (van Campen 2021). The CO-CBF relation is roughly 1:1 in most patients, unlike the 3:1 seen in health (van Campen 2024, 2025). Transcranial Doppler work from other groups (Medow/Stewart; Novak 2026: reduced orthostatic CBF velocity in 88% ME/CFS) agrees. Caveats: most volume-flow data come from one Dutch clinic, operators are not blinded to diagnosis, controls are few relative to patients, and the 2025 POTS paper found CBF reduction did not differ between its two haemodynamic subgroups.",
+   "studies": [
+    {
+     "cite": "van Campen 2020, Clin Neurophysiol Pract",
+     "n": "429 ME/CFS vs 44 HC",
+     "design": "case-control, tilt with extracranial Doppler",
+     "result": "End-tilt CBF -26% vs -7%; ~90% abnormal",
+     "url": "https://doi.org/10.1016/j.cnp.2020.01.003",
+     "verified": true
+    },
+    {
+     "cite": "van Campen 2021, Clin Neurophysiol Pract",
+     "n": "ME/CFS patients",
+     "design": "tilt with post-tilt recovery",
+     "result": "CBF reduced after tilt, slowest recovery in most severe",
+     "url": "https://doi.org/10.1016/j.cnp.2021.09.001",
+     "verified": true
+    },
+    {
+     "cite": "Novak 2026, PLOS One",
+     "n": "170 ME/CFS, 143 LC, 73 HC",
+     "design": "retrospective TCD tilt",
+     "result": "Reduced orthostatic CBFv in 88% ME/CFS, 92% LC",
+     "url": "https://doi.org/10.1371/journal.pone.0341278",
+     "verified": true
+    },
+    {
+     "cite": "van Campen 2025, J Clin Med",
+     "n": "ME/CFS with POTS",
+     "design": "retrospective tilt CO + CBF",
+     "result": "Two-thirds ~1:1 CO-CBF reduction; one-third limited CO fall with high HR (hyperadrenergic)",
+     "url": "https://doi.org/10.3390/jcm14113648",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "open_questions": [
+    "Independent replication of extracranial volume-flow method with blinded readers",
+    "Does CBF reduction predict response to fluids, compression, or vasoconstrictors?",
+    "What happens to CBF in sitting (the posture patients actually spend time in)?"
+   ],
+   "hypotheses": [
+    "low-blood-volume-preload",
+    "autonomic-small-fibre",
+    "vascular-endothelial"
+   ],
+   "test_available": "Extracranial Doppler on tilt (Stichting CardioZorg, Netherlands); transcranial Doppler on tilt at some autonomic labs."
+  },
+  {
+   "id": "vascular-hypocapnia",
+   "subdomain": "Breathing and CO2",
+   "finding": "Many ME/CFS patients over-breathe when upright (orthostatic hypocapnia), and during exercise hyperventilation and dysfunctional breathing are common.",
+   "grade": "replicated",
+   "plain": "When standing, some patients breathe off too much CO2. Low CO2 narrows brain arteries, which can add to dizziness and brain fog.",
+   "detail": "End-tidal CO2 falls on tilt in several groups (Naschitz 2000, Razumovsky 2003, Natelson 2007, Medow 2014, Novak's 'hypocapnic cerebral hypoperfusion'). Yamazaki 2026: postural orthostatic syndrome of hypocapnia (POSH) in 41% of 49 on a lean test. Mancini 2025: hyperventilation and/or dysfunctional breathing during CPET common, with VE/VCO2 34.7 vs 28.1 in hyperventilators. But van Campen 2023 found CO2 reactivity normal and the PETCO2 fall explained only a modest share of the CBF fall, so hypocapnia is probably a contributor, not the main driver. Whether over-breathing is primary (chemoreflex/autonomic) or compensatory (e.g. to aid venous return via thoracic pump) is unresolved.",
+   "studies": [
+    {
+     "cite": "Medow 2014, J Appl Physiol",
+     "n": "CFS with OI vs controls",
+     "design": "tilt + n-back",
+     "result": "Upright hyperventilation and CBFv fall; phenylephrine restored n-back performance",
+     "url": "https://doi.org/10.1152/japplphysiol.00527.2014",
+     "verified": true
+    },
+    {
+     "cite": "Yamazaki 2026, Physiol Rep",
+     "n": "49 ME/CFS",
+     "design": "lean test with capnography",
+     "result": "POSH 40.8%, most common orthostatic abnormality",
+     "url": "https://doi.org/10.14814/phy2.71087",
+     "verified": true
+    },
+    {
+     "cite": "Mancini 2025, Front Med",
+     "n": "58 ME/CFS + sedentary controls",
+     "design": "CPET breathing analysis",
+     "result": "18 hyperventilators; elevated VE/VCO2 or dysfunctional breathing in 83% of them",
+     "url": "https://doi.org/10.3389/fmed.2025.1669036",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "van Campen 2023, Physiol Rep",
+     "n": "female ME/CFS vs HC",
+     "design": "tilt with PETCO2 and CBF",
+     "result": "CO2 reactivity normal; PETCO2 explains only a modest part of CBF fall",
+     "url": "https://doi.org/10.14814/phy2.15639",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Is upright hypocapnia a cause, a compensation, or a marker of sympathetic activation?",
+    "Does breathing retraining or added CO2 change orthostatic symptoms?"
+   ],
+   "hypotheses": [
+    "autonomic-small-fibre",
+    "low-blood-volume-preload"
+   ],
+   "test_available": "Capnography during a 10-minute stand or tilt (cheap; available in some respiratory/autonomic labs); CPET with breathing-pattern analysis."
+  },
+  {
+   "id": "vascular-vasoconstrictor-phenylephrine",
+   "subdomain": "Cerebral blood flow",
+   "finding": "Raising blood pressure with phenylephrine during tilt blocked hyperventilation, restored cerebral blood velocity and improved working memory in ME/CFS, whereas CO2 or acetazolamide alone did not.",
+   "grade": "early",
+   "plain": "In a lab test, a drug that tightens blood vessels improved both brain blood flow and thinking speed when patients were upright.",
+   "detail": "Medow 2014 and Medow & Stewart 2024 (same New York group) used acute infusions with n-back testing; numbers are small (single-digit to low teens per condition). These are mechanistic studies, not treatment trials. Compression of legs and abdomen reduced cardiac output fall (-15% vs -27%) and CBF fall (-14% vs -25%) on tilt in van Campen 2021 (n=16).",
+   "studies": [
+    {
+     "cite": "Medow & Stewart 2024, Am J Physiol Regul",
+     "n": "ME/CFS with OI vs controls",
+     "design": "acute intervention crossover",
+     "result": "Only phenylephrine improved upright n-back and phase synchronisation",
+     "url": "https://doi.org/10.1152/ajpregu.00071.2024",
+     "verified": true
+    },
+    {
+     "cite": "van Campen 2021, Front Neurol (compression)",
+     "n": "16 ME/CFS",
+     "design": "within-subject tilt",
+     "result": "Compression reduced CO and CBF falls",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/?term=van+Campen+compression+stockings+cerebral+blood+flow+ME%2FCFS",
+     "verified": false
+    }
+   ],
+   "contradicting": [],
+   "open_questions": [
+    "Do oral analogues (midodrine) reproduce the cognitive effect in daily life?",
+    "Placebo-controlled trials of compression garments in ME/CFS"
+   ],
+   "hypotheses": [
+    "low-blood-volume-preload",
+    "autonomic-small-fibre"
+   ],
+   "test_available": "Research only; midodrine and compression are used clinically for orthostatic intolerance."
+  },
+  {
+   "id": "vascular-endothelial-fmd-porh",
+   "subdomain": "Endothelium",
+   "finding": "Large-artery flow-mediated dilation and microvascular post-occlusive reactive hyperaemia are reduced in ME/CFS in two independent Norwegian cohorts and by peripheral arterial tonometry in Berlin.",
+   "grade": "replicated",
+   "plain": "The lining of blood vessels does not widen properly when it should. This has been found in several groups with different methods.",
+   "detail": "Sandvik 2023 (RituxME substudy, 39 patients): FMD 5.1% vs 8.2% (p<0.0001, adjusted for diameter and sex), PORH 1354 vs 2208 PU; rituximab had no effect; PORH but not FMD improved over 18 months and PORH correlated with daily steps. Sørland 2021 (cyclophosphamide cohort, 35 patients): FMD 5.9% vs 7.7%, PORH 1331 vs 1886 PU. Scherbakov 2020 (EndoPAT): endothelial dysfunction (RHI <=1.81) in 51% of 35 vs 20% of 20 controls, linked to severity. Haffke 2022: reduced RHI in 5/14 post-COVID ME/CFS. Caveats: inactivity lowers FMD, controls were mostly not activity-matched, and FMD and PORH did not correlate with each other.",
+   "studies": [
+    {
+     "cite": "Sandvik 2023, PLOS One",
+     "n": "39 ME/CFS vs healthy controls",
+     "design": "case-control within RCT",
+     "result": "FMD 5.1% vs 8.2%; PORH 1354 vs 2208 PU",
+     "url": "https://doi.org/10.1371/journal.pone.0280942",
+     "verified": true
+    },
+    {
+     "cite": "Sørland 2021, Front Med",
+     "n": "35 ME/CFS vs 66 HC",
+     "design": "case-control within open-label trial",
+     "result": "FMD 5.9% vs 7.7%; PORH lower; no change with clinical response",
+     "url": "https://doi.org/10.3389/fmed.2021.642710",
+     "verified": true
+    },
+    {
+     "cite": "Scherbakov 2020, ESC Heart Fail",
+     "n": "35 ME/CFS vs 20 HC",
+     "design": "case-control, EndoPAT",
+     "result": "ED in 51% vs 20%; associated with severity",
+     "url": "https://doi.org/10.1002/ehf2.12633",
+     "verified": true
+    },
+    {
+     "cite": "Haffke 2022, J Transl Med",
+     "n": "14 PCS-ME/CFS, 16 PCS, HC",
+     "design": "case-control, EndoPAT + biomarkers",
+     "result": "ED in 5/14 and 5/16, none of HC; ET-1 raised",
+     "url": "https://doi.org/10.1186/s12967-022-03346-2",
+     "verified": true
+    },
+    {
+     "cite": "Mclaughlin 2025, Am J Med",
+     "n": "LC/ME/CFS",
+     "design": "FMD",
+     "result": "endothelial dysfunction",
+     "url": "https://doi.org/10.1016/j.amjmed.2023.09.013",
+     "verified": true
+    },
+    {
+     "cite": "Domingo 2024, J Transl Med",
+     "n": "ME/CFS/LC",
+     "design": "endothelial",
+     "result": "endothelial dysfunction",
+     "url": "https://doi.org/10.1186/s12967-024-05148-0",
+     "verified": true
+    },
+    {
+     "cite": "Ono 2025, Am J Physiol Regul",
+     "n": "post-severe COVID",
+     "design": "vascular",
+     "result": "impaired vascular function",
+     "url": "https://doi.org/10.1152/ajpregu.00055.2025",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Jamieson 2024, Physiol Rep",
+     "n": "32 vs 19",
+     "design": "FMD/microvascular",
+     "result": "no dysfunction",
+     "url": "https://doi.org/10.14814/phy2.15940",
+     "verified": true
+    },
+    {
+     "cite": "Rodrigues 2026, J Pers Med",
+     "n": "38",
+     "design": "vascular",
+     "result": "normal",
+     "url": "https://doi.org/10.3390/jpm16010038",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Is endothelial dysfunction cause, consequence of inactivity, or a marker of an immune/serum factor?",
+    "Does it track PEM or orthostatic severity over time?",
+    "Activity-matched control studies"
+   ],
+   "hypotheses": [
+    "vascular-endothelial",
+    "serum-factor",
+    "autoimmunity"
+   ],
+   "test_available": "FMD ultrasound and EndoPAT in vascular research labs; not standard clinical tests."
+  },
+  {
+   "id": "vascular-serum-endothelial-in-vitro",
+   "subdomain": "Endothelium",
+   "finding": "Plasma or purified IgG from ME/CFS patients alters cultured endothelial cells: lower nitric oxide production, more mitochondrial fragmentation, and anti-endothelial antibody binding.",
+   "grade": "early",
+   "plain": "Something in patients' blood seems to make lab-grown vessel-lining cells work less well. This has been seen by three labs using different tests, none yet repeated by another lab using the same test.",
+   "detail": "Bertinat 2022: HUVECs exposed to ME/CFS plasma (11 vs 12) produced less NO with higher inhibitory eNOS Thr495 phosphorylation. Flaskamp 2022 (Charité): more anti-endothelial antibody binding in post-COVID ME/CFS, and sera lacked the pro-angiogenic effect seen in non-ME post-COVID sera. Prusty 2026 (BBIH): purified IgG from 39 ME/CFS and 15 post-COVID ME/CFS fragmented endothelial mitochondria versus MS and healthy IgG; single lab, nominal p-values over many readouts (summarised in Solving ME/CFS serum-factors review). No lab has reproduced another's assay.",
+   "studies": [
+    {
+     "cite": "Bertinat 2022, Vascul Pharmacol",
+     "n": "11 ME/CFS vs 12 HC plasma",
+     "design": "in vitro HUVEC",
+     "result": "Lower NO production, higher eNOS Thr495 phosphorylation",
+     "url": "https://doi.org/10.1016/j.vph.2022.106953",
+     "verified": true
+    },
+    {
+     "cite": "Flaskamp 2022, Cells",
+     "n": "PCS-ME/CFS, PCS, HC sera",
+     "design": "in vitro HMEC-1",
+     "result": "Higher AECA binding in PCS/CFS; no pro-angiogenic effect",
+     "url": "https://doi.org/10.3390/cells11152376",
+     "verified": true
+    },
+    {
+     "cite": "Liu/Prusty 2026, Brain Behav Immun Health",
+     "n": "39 ME, 15 PCS-ME, 20 MS, 41 HC IgG",
+     "design": "in vitro",
+     "result": "Endothelial mitochondrial fragmentation with ME IgG, not MS or HC IgG",
+     "url": "https://doi.org/10.1016/j.bbih.2026.101187",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "open_questions": [
+    "Blinded multi-lab exchange of the same coded sera",
+    "What is the antigen, and is the effect IgG-dependent in every assay?"
+   ],
+   "hypotheses": [
+    "serum-factor",
+    "autoimmunity",
+    "vascular-endothelial"
+   ],
+   "test_available": "Research only."
+  },
+  {
+   "id": "vascular-retinal-microvasculature",
+   "subdomain": "Microvasculature",
+   "finding": "Retinal imaging shows narrower arterioles, lower arteriolar-to-venular ratio, reduced flicker-induced venular dilation and lower capillary vessel density in post-COVID patients, most pronounced in those meeting ME/CFS criteria.",
+   "grade": "several",
+   "plain": "The tiny vessels at the back of the eye, which can be photographed without needles, look narrower and respond less in post-COVID ME/CFS.",
+   "detail": "Wallraven 2026 (BMC Med, 'All Eyes on PCS'): 102 PCS (62 with ME/CFS) vs 102 recovered and 96 never-infected; CRAE 178 vs 186 um, AVR 0.83 vs 0.87, venular flicker dilation 3.7% vs 4.8%; ME/CFS subgroup most affected (AUC 0.79); robust to CV-risk adjustment except AVR attenuated. Schlick 2022 (Erlangen, OCT-A): lower vessel density in superficial and intermediate capillary plexus in PCS, lower still with chronic fatigue. Data are almost entirely post-COVID; pre-2020 ME/CFS cohorts have not been imaged with these methods.",
+   "studies": [
+    {
+     "cite": "Wallraven 2026, BMC Med",
+     "n": "102 PCS (62 ME/CFS), 102 recovered, 96 never-infected",
+     "design": "prospective case-control, retinal vessel analysis",
+     "result": "Narrower arterioles, lower AVR and flicker dilation; ME/CFS most affected; AVR tied to IL-6, ICAM-1, VCAM-1",
+     "url": "https://doi.org/10.1186/s12916-026-05144-9",
+     "verified": true
+    },
+    {
+     "cite": "Schlick 2022, Int J Mol Sci",
+     "n": "PCS vs controls",
+     "design": "case-control, OCT-A",
+     "result": "Lower retinal capillary vessel density; worse with chronic fatigue",
+     "url": "https://doi.org/10.3390/ijms232213683",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "open_questions": [
+    "Is the same seen in pre-pandemic, non-COVID ME/CFS?",
+    "Do retinal measures change with PEM or with treatment?"
+   ],
+   "hypotheses": [
+    "small-vessel-capillary",
+    "vascular-endothelial",
+    "innate-hyperactivation"
+   ],
+   "test_available": "OCT-A at ophthalmology clinics (widely available, though reference values for vessel density vary by device); dynamic vessel analysis research only."
+  },
+  {
+   "id": "vascular-sublingual-capillary",
+   "subdomain": "Microvasculature",
+   "finding": "Sublingual video-microscopy shows reduced perfused capillary density and glycocalyx changes in long COVID, persisting many months after infection.",
+   "grade": "early",
+   "plain": "Under the tongue, fewer small vessels carry blood in long COVID patients.",
+   "detail": "Osiaevi/Rovas/Kümpers (Münster) used sideStream dark-field microscopy with automated analysis (GlycoCheck) and reported persistent capillary rarefaction in long COVID (Nephrol Dial Transplant 2024; Angiogenesis 2023). No ME/CFS-specific cohort has been published with this method; whether rarefaction correlates with ME/CFS-defined PEM is unknown.",
+   "studies": [
+    {
+     "cite": "Osiaevi 2024, Nephrol Dial Transplant",
+     "n": "long COVID vs controls",
+     "design": "case-control, sublingual video-microscopy",
+     "result": "Capillary rarefaction proposed as possible cause of long COVID",
+     "url": "https://doi.org/10.1093/ndt/gfae026",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "open_questions": [
+    "Apply sublingual microscopy to pre-pandemic ME/CFS",
+    "Does capillary density recover over time?"
+   ],
+   "hypotheses": [
+    "small-vessel-capillary",
+    "vascular-endothelial"
+   ],
+   "test_available": "Research only (GlycoCheck/SDF microscopy)."
+  },
+  {
+   "id": "vascular-muscle-capillary-basement-membrane",
+   "subdomain": "Microvasculature",
+   "finding": "Muscle biopsies show fewer capillaries per fibre in ME/CFS and less capillary supply per fibre size in both ME/CFS and long COVID, unlike the pattern after 60 days of bed rest; thickened capillary basement membrane has been reported but is not yet peer-reviewed.",
+   "grade": "several",
+   "plain": "Muscles of patients have fewer and possibly thicker-walled small blood vessels, and this is different from what happens to healthy people kept in bed.",
+   "detail": "Charlton 2026 (Nat Commun, Wüst group): ME/CFS (n=23-24) had lower capillary-to-fibre ratio than controls (p<0.001, n=30) and long COVID; both patient groups had lower capillary density and lower capillary supply for a given fibre area; healthy bed rest (n=17-24) instead raised capillary density because fibres shrank. This argues against inactivity as the full explanation. Slaghekke 2025 (conference poster, electron microscopy, about 11 patients per group) reported basement membrane thickening (p<0.0001) and smaller capillary lumens in ME/CFS and post-COVID; the composite CF x collagen IV measure that correlated with CPET has been questioned. Appelman 2024 found amyloid-containing deposits in long COVID muscle that increased after induced PEM.",
+   "studies": [
+    {
+     "cite": "Charlton 2026, Nat Commun",
+     "n": "~25 LC, ~24 ME/CFS, 30 HC, 24 bed rest",
+     "design": "case-control + bed-rest comparison, vastus lateralis biopsy",
+     "result": "ME/CFS lower capillary-to-fibre ratio and density; patterns differ from bed rest",
+     "url": "https://doi.org/10.1038/s41467-026-75725-y",
+     "verified": true
+    },
+    {
+     "cite": "Slaghekke 2025, ME/CFS Research Conference poster",
+     "n": "~11 per group",
+     "design": "electron microscopy",
+     "result": "Thicker capillary basement membrane, smaller lumen",
+     "url": "https://mecfs-research.org/wp-content/uploads/2025/04/Anouk-Slaghekke_Poster_Conference_2025.pdf",
+     "verified": false
+    },
+    {
+     "cite": "Appelman 2024, Nat Commun",
+     "n": "25 LC vs 21 recovered",
+     "design": "longitudinal case-control, biopsy pre/post exercise",
+     "result": "Amyloid-containing deposits and myopathy worse after PEM",
+     "url": "https://doi.org/10.1038/s41467-023-44432-3",
+     "verified": true
+    },
+    {
+     "cite": "Aschman 2023, Acta Neuropathol Commun",
+     "n": "LC and ME/CFS",
+     "design": "muscle biopsy",
+     "result": "capillary basement-membrane thickening, microvascular changes",
+     "url": "https://doi.org/10.1186/s40478-023-01662-2",
+     "verified": true
+    },
+    {
+     "cite": "Tryfonos 2025, J Cachexia Sarcopenia Muscle",
+     "n": "28 vs 28",
+     "design": "biopsy",
+     "result": "lower capillary/fibre ratio",
+     "url": "https://doi.org/10.1002/jcsm.70085",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "open_questions": [
+    "Independent replication of basement membrane thickening with blinded EM",
+    "Is thickening caused by repeated ischaemia, immune deposition, or pericyte loss?",
+    "Severe and housebound patients have not been biopsied"
+   ],
+   "hypotheses": [
+    "small-vessel-capillary",
+    "vascular-endothelial",
+    "mitochondrial-energy"
+   ],
+   "test_available": "Research only (needle biopsy at a research centre)."
+  },
+  {
+   "id": "vascular-pericytes-mural",
+   "subdomain": "Microvasculature",
+   "finding": "Pericytes and vascular smooth-muscle cells have not been examined directly in ME/CFS tissue, but blood proteins from mural cells and vessel matrix (NOTCH3, ITGAV, TGF-beta set, LUM) are lower across several ME/CFS cohorts and in long COVID.",
+   "grade": "early",
+   "plain": "Pericytes are the cells wrapped around capillaries that control their width. Nobody has looked at them in ME/CFS tissue yet; indirect blood clues suggest they may be fewer or less active.",
+   "detail": "Solving ME/CFS re-analysis of SomaScan (Hoel, Germain, Walitt) and UK Biobank Olink data: ITGAV d -0.34 (UKB q=0.002), NOTCH3 -0.32, THBS1 -0.50, LUM -0.92; vascular smooth-muscle tissue score d -0.48 (p=0.001) but flat in UKB competitive tests. The long COVID UK Explore set also showed lower endothelial/TGF-beta proteins (ANGPT2 -0.84, EDN1 -0.65). Lower circulating NOTCH3 could reflect less shedding rather than fewer cells. The basement-membrane thickening reported in muscle (where pericytes help build the membrane) is a possible link.",
+   "studies": [
+    {
+     "cite": "Solving ME/CFS re-analysis (deep2 proteome), 2026",
+     "n": "3 SomaScan cohorts + UKB Olink + LC UK",
+     "design": "secondary meta-analysis",
+     "result": "Lower mural/ECM proteins in 3-4 cohorts and long COVID",
+     "url": "/#data",
+     "verified": false
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Solving ME/CFS re-analysis (deep2 proteome), 2026",
+     "n": "UKB",
+     "design": "competitive gene-set test",
+     "result": "Vascular smooth-muscle set flat in UKB",
+     "url": "/#data",
+     "verified": false
+    }
+   ],
+   "open_questions": [
+    "Stain pericyte markers (PDGFRB, NG2, alpha-SMA) in existing muscle and skin biopsies",
+    "Relate NOTCH3/ITGAV levels to orthostatic stroke volume"
+   ],
+   "hypotheses": [
+    "small-vessel-capillary",
+    "vascular-endothelial",
+    "connective-tissue"
+   ],
+   "test_available": "Research only."
+  },
+  {
+   "id": "vascular-vascular-proteins-blood",
+   "subdomain": "Blood biomarkers",
+   "finding": "Proteomic panels do not show a consistent rise in classic endothelial-activation or vasoactive proteins in ME/CFS; most named candidates are null and the endothelial-activation set trends down.",
+   "grade": "contested",
+   "plain": "Blood tests for vessel damage markers mostly come back normal in ME/CFS when large datasets are pooled, which differs from what small studies suggested.",
+   "detail": "Solving ME/CFS re-analysis: VWF, SELP, SELE, VCAM1, ANGPT1/2, VEGFA, EDN1, ADM, ACE, REN, NPPB null; ICAM1 +0.20 (driven by UKB), ACE2 +0.21, NPPC +0.23; endothelial-activation set d -0.30 (q=0.09, down). By contrast, smaller ELISA studies report raised endothelin-1 (Haffke 2022) and Wallraven 2026 found raised IL-6, ICAM-1, VCAM-1 in PCS and ME/CFS. Post-COVID ME/CFS may differ from pre-pandemic cohorts.",
+   "studies": [
+    {
+     "cite": "Haffke 2022, J Transl Med",
+     "n": "14 PCS-ME/CFS, 16 PCS, HC",
+     "design": "case-control ELISA",
+     "result": "ET-1 raised in both patient groups",
+     "url": "https://doi.org/10.1186/s12967-022-03346-2",
+     "verified": true
+    },
+    {
+     "cite": "Wallraven 2026, BMC Med",
+     "n": "102 PCS (62 ME/CFS) vs 198 controls",
+     "design": "case-control",
+     "result": "IL-6, ICAM-1, VCAM-1 raised",
+     "url": "https://doi.org/10.1186/s12916-026-05144-9",
+     "verified": true
+    },
+    {
+     "cite": "Heng 2025, Cell Rep Med",
+     "n": "ME/CFS",
+     "design": "multi-omics",
+     "result": "Immune cells show low ATP/ADP ratio (energy stress); skewed T, NK and dendritic subsets; raised plasma proteins for thrombus formation and vascular reactivity",
+     "url": "https://doi.org/10.1016/j.xcrm.2025.102514",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Solving ME/CFS re-analysis (deep2 proteome), 2026",
+     "n": "~150 ME/CFS SomaScan + UKB Olink",
+     "design": "secondary analysis",
+     "result": "Named endothelial/vasoactive proteins null; activation set lower",
+     "url": "/#data",
+     "verified": false
+    },
+    {
+     "cite": "Scherbakov 2020, ESC Heart Fail",
+     "n": "35 ME/CFS",
+     "design": "case-control",
+     "result": "sVCAM and sICAM did not differ between patients with and without ED",
+     "url": "https://doi.org/10.1002/ehf2.12633",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Are post-COVID cohorts more inflammatory/endothelial than pre-pandemic ME/CFS?",
+    "Do any of these markers change after exertion?"
+   ],
+   "hypotheses": [
+    "vascular-endothelial",
+    "innate-hyperactivation"
+   ],
+   "test_available": "Endothelin-1, ICAM-1 and VCAM-1 are available from some specialist labs but not validated for ME/CFS."
+  },
+  {
+   "id": "vascular-vegf",
+   "subdomain": "Blood biomarkers",
+   "finding": "VEGF-A has been reported lower, not higher, in ME/CFS plasma, and proteomic re-analysis finds no consistent change; long COVID cohorts more often report raised VEGF.",
+   "grade": "contested",
+   "plain": "VEGF is a signal that makes new small vessels. Results in ME/CFS are inconsistent, and they differ from long COVID.",
+   "detail": "Landi 2016 reported clustered reductions of IL-7, IL-16 and VEGF-A in ME/CFS that were not seen in liver-disease fatigue controls. Large cytokine panels (e.g. Montoya 2017) did not find VEGF among robust differences; the Solving ME/CFS proteome re-analysis found VEGFA null. In long COVID several cohorts report raised VEGF (e.g. Patel 2022). Flaskamp 2022 found post-COVID non-ME sera pro-angiogenic but post-COVID ME/CFS sera not, consistent with a missing compensatory angiogenic response in ME/CFS.",
+   "studies": [
+    {
+     "cite": "Landi 2016, Cytokine",
+     "n": "ME/CFS vs controls and liver-disease controls",
+     "design": "case-control multiplex",
+     "result": "Lower VEGF-A, IL-7, IL-16",
+     "url": "https://doi.org/10.1016/j.cyto.2015.11.018",
+     "verified": true
+    },
+    {
+     "cite": "Flaskamp 2022, Cells",
+     "n": "PCS-ME/CFS vs PCS vs HC sera",
+     "design": "in vitro tube formation",
+     "result": "PCS sera pro-angiogenic; PCS-ME/CFS sera not",
+     "url": "https://doi.org/10.3390/cells11152376",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Solving ME/CFS re-analysis (deep2 proteome), 2026",
+     "n": "SomaScan + Olink cohorts",
+     "design": "secondary analysis",
+     "result": "VEGFA null",
+     "url": "/#data",
+     "verified": false
+    }
+   ],
+   "open_questions": [
+    "Is there a tissue-level angiogenic deficit (e.g. muscle capillary rarefaction) that blood VEGF misses?"
+   ],
+   "hypotheses": [
+    "small-vessel-capillary",
+    "vascular-endothelial"
+   ],
+   "test_available": "Research only."
+  },
+  {
+   "id": "vascular-rbc-deformability",
+   "subdomain": "Red blood cells",
+   "finding": "Red blood cells from ME/CFS patients were stiffer in one microfluidic study, and real-time deformability cytometry found altered red-cell deformation persisting after COVID-19.",
+   "grade": "early",
+   "plain": "Red cells need to bend to squeeze through capillaries. In a small study, patients' red cells were stiffer.",
+   "detail": "Saha 2019 (Stanford/OMF, custom microfluidic channels, small paired sample, about 12-14 patients) reported slower entry and reduced elongation of ME/CFS red cells. Kubánková 2021 (Biophys J, real-time deformability cytometry) found altered erythrocyte deformation and size heterogeneity persisting months after COVID-19. No independent ME/CFS replication; older reports of abnormal red-cell shape (stomatocytes) are from the 1990s and used subjective scoring.",
+   "studies": [
+    {
+     "cite": "Saha 2019, Clin Hemorheol Microcirc",
+     "n": "small ME/CFS vs age-matched HC sample",
+     "design": "case-control microfluidics",
+     "result": "ME/CFS RBCs significantly stiffer",
+     "url": "https://doi.org/10.3233/CH-180469",
+     "verified": true
+    },
+    {
+     "cite": "Kubánková 2021, Biophys J",
+     "n": "17 COVID-19, 14 recovered, 24 HC",
+     "design": "RT-DC",
+     "result": "Erythrocyte deformation changes persisted after recovery",
+     "url": "https://doi.org/10.1016/j.bpj.2021.05.025",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "open_questions": [
+    "Replication with RT-DC or ektacytometry in a larger ME/CFS cohort",
+    "Is stiffness linked to oxidative stress or membrane lipids?"
+   ],
+   "hypotheses": [
+    "small-vessel-capillary"
+   ],
+   "test_available": "Research only (ektacytometry exists in some haematology labs)."
+  },
+  {
+   "id": "vascular-microclots",
+   "subdomain": "Coagulation",
+   "finding": "Fibrinaloid microclots (thioflavin-T-positive amyloid fibrin deposits) are reported to be increased in platelet-poor plasma in ME/CFS and long COVID, but the method is not standardised and haemostasis experts dispute the inference that they cause symptoms.",
+   "grade": "contested",
+   "plain": "One research network sees tiny clot-like particles in patients' plasma. Other experts say the method is unreliable and the particles may not exist in circulating blood. Anticoagulant treatment based on them is not supported.",
+   "detail": "Nunes 2022 (25 ME/CFS vs 15 HC): microclot image area commonly >10-fold higher, platelet spreading score 2.72 vs 1.00, hypercoagulable TEG; load lower than in long COVID. Kruger 2022 found entrapped inflammatory proteins in long COVID microclots. Dalton 2024 (Sheffield, independent group, semi-automated counting) found higher counts in long COVID as a cohort, with wide overlap and high counts also after recent COVID. Critiques: visual scoring, uncertain blinding, ex vivo artefact possible, no in vivo demonstration; Hunt 2024 (RPTH) concluded the hypothesis is not evidence-based and unlicensed antithrombotics or apheresis are not justified outside trials; Kell 2024 rebutted. Solving ME/CFS proteome re-analysis found a platelet/microclot protein set slightly lower, not higher.",
+   "studies": [
+    {
+     "cite": "Nunes 2022, Pharmaceuticals",
+     "n": "25 ME/CFS vs 15 HC",
+     "design": "case-control, fluorescence microscopy + TEG",
+     "result": "Microclot area >10x; platelet hyperactivation",
+     "url": "https://doi.org/10.3390/ph15080931",
+     "verified": true
+    },
+    {
+     "cite": "Dalton 2024, medRxiv",
+     "n": "long COVID vs controls",
+     "design": "case-control, semi-automated counting",
+     "result": "Higher counts in LC as a group, broad overlap",
+     "url": "https://doi.org/10.1101/2024.04.04.24305318",
+     "verified": true
+    },
+    {
+     "cite": "Kruger 2022, Cardiovasc Diabetol",
+     "n": "long COVID",
+     "design": "proteomics of microclots",
+     "result": "Entrapped inflammatory molecules, alpha-2 antiplasmin",
+     "url": "https://doi.org/10.1186/s12933-022-01623-4",
+     "verified": true
+    },
+    {
+     "cite": "Thomas 2025 (preprint, Research Square)",
+     "n": "ME/CFS/LC",
+     "design": "microclot imaging",
+     "result": "microclots",
+     "url": "https://doi.org/10.21203/rs.3.rs-6717727/v1",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Hunt 2024, Res Pract Thromb Haemost",
+     "n": "review",
+     "design": "critical appraisal",
+     "result": "Microclot inferences not evidence-based; antithrombotics not justified",
+     "url": "https://doi.org/10.1016/j.rpth.2024.102442",
+     "verified": true
+    },
+    {
+     "cite": "Solving ME/CFS re-analysis (deep2 proteome), 2026",
+     "n": "SomaScan + Olink cohorts",
+     "design": "secondary analysis",
+     "result": "Platelet/microclot protein set d -0.33 (down)",
+     "url": "/#data",
+     "verified": false
+    }
+   ],
+   "open_questions": [
+    "Blinded, multi-lab, standardised counting in ME/CFS with disease controls",
+    "Do microclots exist in vivo (e.g. capillaroscopy, biopsy)?",
+    "Any controlled trial of antithrombotic therapy"
+   ],
+   "hypotheses": [
+    "microclots",
+    "complement-thromboinflammation"
+   ],
+   "test_available": "Not reliably: some private labs offer microclot imaging; no validated clinical test."
+  },
+  {
+   "id": "vascular-platelets",
+   "subdomain": "Coagulation",
+   "finding": "Platelet activation findings in ME/CFS are inconsistent: one network reports hyperactivated platelets, while an earlier controlled study found no platelet activation or hypercoagulability.",
+   "grade": "contested",
+   "plain": "Whether platelets are overactive in ME/CFS depends on who measured and how.",
+   "detail": "Nunes 2022 reported PAC-1 and CD62P staining and spreading consistent with activation. Kennedy 2006 (Dundee) measured platelet aggregation, P-selectin and coagulation markers and found no evidence of activation or hypercoagulability, explicitly arguing against antiplatelet therapy. In long COVID, Cervia-Hasler 2024 found monocyte-platelet aggregates and platelet-activation markers raised. No ME/CFS-specific flow cytometry replication.",
+   "studies": [
+    {
+     "cite": "Nunes 2022, Pharmaceuticals",
+     "n": "25 vs 15",
+     "design": "case-control",
+     "result": "Platelet hyperactivation by microscopy",
+     "url": "https://doi.org/10.3390/ph15080931",
+     "verified": true
+    },
+    {
+     "cite": "Cervia-Hasler 2024, Science",
+     "n": "113 COVID-19 (40 LC) + 39 controls",
+     "design": "longitudinal proteomics",
+     "result": "Platelet activation and monocyte-platelet aggregates in active LC",
+     "url": "https://doi.org/10.1126/science.adg7942",
+     "verified": true
+    },
+    {
+     "cite": "Nunes 2024, Cardiovasc Diabetol",
+     "n": "ME/CFS",
+     "design": "platelet/fibrin",
+     "result": "platelet hyperactivation",
+     "url": "https://doi.org/10.1186/s12933-024-02315-x",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Kennedy 2006, Blood Coagul Fibrinolysis",
+     "n": "CFS vs controls",
+     "design": "case-control",
+     "result": "No platelet activation or hypercoagulable state",
+     "url": "https://doi.org/10.1097/01.mbc.0000214705.80997.73",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Standardised whole-blood flow cytometry in ME/CFS with exercise challenge"
+   ],
+   "hypotheses": [
+    "microclots",
+    "complement-thromboinflammation"
+   ],
+   "test_available": "Research only."
+  },
+  {
+   "id": "vascular-coagulation-markers",
+   "subdomain": "Coagulation",
+   "finding": "Routine coagulation markers (D-dimer, fibrinogen, PT/APTT) are generally normal in ME/CFS; claims of hypercoagulability rest on small 1990s studies and on thromboelastography from one network.",
+   "grade": "contested",
+   "plain": "Standard clotting blood tests are usually normal in ME/CFS.",
+   "detail": "Berg 1999 reported a 'hypercoagulable state' (soluble fibrin monomer, thrombin-antithrombin) in a small sample; Kennedy 2006 found no coagulation differences. Proteomic re-analysis found the coagulation set null. Thromboelastography abnormalities (Nunes 2022; Saleem 2026 review) are not validated as ME/CFS markers.",
+   "studies": [
+    {
+     "cite": "Berg 1999, Blood Coagul Fibrinolysis",
+     "n": "small CFS sample",
+     "design": "case-control",
+     "result": "Reported hypercoagulable markers",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Berg+1999+hypercoagulable+chronic+fatigue+syndrome",
+     "verified": false
+    },
+    {
+     "cite": "Prasannan 2022, Blood Adv",
+     "n": "LC",
+     "design": "coagulation",
+     "result": "raised VWF/FVIII-type markers",
+     "url": "https://doi.org/10.1182/bloodadvances.2021006944",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Kennedy 2006, Blood Coagul Fibrinolysis",
+     "n": "CFS vs controls",
+     "design": "case-control",
+     "result": "No coagulation differences",
+     "url": "https://doi.org/10.1097/01.mbc.0000214705.80997.73",
+     "verified": true
+    },
+    {
+     "cite": "Solving ME/CFS re-analysis (deep2 proteome), 2026",
+     "n": "SomaScan + Olink cohorts",
+     "design": "secondary analysis",
+     "result": "Coagulation set null",
+     "url": "/#data",
+     "verified": false
+    }
+   ],
+   "open_questions": [
+    "Do markers change transiently after exertion?"
+   ],
+   "hypotheses": [
+    "microclots",
+    "complement-thromboinflammation"
+   ],
+   "test_available": "D-dimer, fibrinogen, PT/APTT are routine; expected normal."
+  },
+  {
+   "id": "vascular-complement-long-covid",
+   "subdomain": "Complement and thromboinflammation",
+   "finding": "Active long COVID shows persistent complement dysregulation (terminal complex, alternative and classical pathway activation) with thromboinflammation markers, replicated across several cohorts.",
+   "grade": "replicated",
+   "plain": "Complement is part of the innate immune system. In long COVID it stays switched on months after infection, together with signs of platelet and vessel injury.",
+   "detail": "Cervia-Hasler 2024 (Science): >6,500 proteins in 268 longitudinal samples; terminal complement dysregulation, classical activation linked to herpesvirus antibody titres, raised haemolysis, tissue-injury and platelet markers. Baillie 2024 (Med, 166 LC vs 79): iC3b, TCC, Ba and C5a predicted LC (AUC 0.785). Further partial replication in Klein 2023 and Barratt-Due 2024; one adjusted null (Farztdinov preprint). Long COVID only; ME/CFS evidence is separate.",
+   "studies": [
+    {
+     "cite": "Cervia-Hasler 2024, Science",
+     "n": "113 COVID-19 (40 LC) + 39 controls",
+     "design": "prospective longitudinal proteomics",
+     "result": "Terminal and alternative/classical complement activation; thromboinflammation",
+     "url": "https://doi.org/10.1126/science.adg7942",
+     "verified": true
+    },
+    {
+     "cite": "Baillie 2024, Med",
+     "n": "166 LC vs 79 recovered",
+     "design": "case-control",
+     "result": "Complement activation fragments raised; 4-marker AUC 0.785",
+     "url": "https://doi.org/10.1016/j.medj.2024.01.011",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Farztdinov 2024, preprint",
+     "n": "29 vs 56",
+     "design": "case-control",
+     "result": "Complement differences not significant after age/BMI adjustment",
+     "url": "https://www.medrxiv.org/search/Farztdinov%20complement%20long%20COVID",
+     "verified": false
+    }
+   ],
+   "open_questions": [
+    "Does complement activation persist in long-duration LC that meets ME/CFS criteria?",
+    "Trials of complement inhibitors (none completed in LC or ME/CFS as of late 2026 to our knowledge)"
+   ],
+   "hypotheses": [
+    "complement-thromboinflammation",
+    "viral-persistence",
+    "herpes-reactivation",
+    "innate-hyperactivation"
+   ],
+   "test_available": "C3, C4, CH50, sC5b-9 available in some immunology labs; not validated for long COVID or ME/CFS."
+  },
+  {
+   "id": "vascular-complement-mecfs",
+   "subdomain": "Complement and thromboinflammation",
+   "finding": "In ME/CFS, complement findings are heterogeneous: an exercise-induced C4a rise, a genetically defined alternative-pathway subgroup, and proteomic signals that point in different directions across cohorts.",
+   "grade": "contested",
+   "plain": "Complement may be abnormal in some ME/CFS patients, but studies disagree on which part and in which direction.",
+   "detail": "Sorensen 2003/2009 (CDC): C4a rose after exercise in CFS, with lectin-pathway MASP2 transcript differences. Maya 2026 (IJMS, CDC; 50 ME/CFS vs 121 controls from population sample): complement pQTL carriers showed alternative-pathway dysregulation (high C3/low Bb), six pQTLs linked to fatigue phenotypes in UK Biobank; SC5b-9 association possibly genetic. Solving ME/CFS re-analysis: alternative/terminal complement up in Hoel and UKB, null in Germain, down in Walitt (I2 0.7-0.9); CSF complement/coagulation sets lower in ME/CFS with POTS (Bragée 2026, 10 vs 21, exploratory).",
+   "studies": [
+    {
+     "cite": "Sorensen 2009, Mol Med",
+     "n": "CFS vs controls, exercise",
+     "design": "case-control, exercise challenge",
+     "result": "Lectin-pathway changes underlying post-exercise C4a rise",
+     "url": "https://doi.org/10.2119/molmed.2008.00098",
+     "verified": true
+    },
+    {
+     "cite": "Maya 2026, Int J Mol Sci",
+     "n": "50 ME/CFS vs 121 non-fatigued",
+     "design": "population-based case-control + pQTL",
+     "result": "Alternative-pathway subgroup (high C3/low Bb) linked to pQTLs",
+     "url": "https://doi.org/10.3390/ijms27031574",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Solving ME/CFS re-analysis (deep2 proteome), 2026",
+     "n": "4 cohorts",
+     "design": "secondary meta-analysis",
+     "result": "Complement direction inconsistent between cohorts",
+     "url": "/#data",
+     "verified": false
+    }
+   ],
+   "open_questions": [
+    "Measure activation fragments (C5a, sC5b-9, Ba) with careful pre-analytics before and after exertion",
+    "Is the long COVID complement signal present in pre-pandemic ME/CFS?"
+   ],
+   "hypotheses": [
+    "complement-thromboinflammation",
+    "innate-hyperactivation",
+    "genetic-neuronal"
+   ],
+   "test_available": "Research only for activation products; C3/C4 routine but non-specific."
+  },
+  {
+   "id": "vascular-pots-overlap",
+   "subdomain": "POTS overlap",
+   "finding": "POTS is present in roughly a fifth of ME/CFS patients on formal testing (prevalence varies 6-43%), but cerebral hypoperfusion and preload failure are found in most patients regardless of whether they meet POTS heart-rate criteria.",
+   "grade": "replicated",
+   "plain": "POTS is a fast heart rate on standing. Only some ME/CFS patients have it, but most have reduced brain blood flow when upright anyway.",
+   "detail": "Novak 2026: POTS 19% ME/CFS and 22% long COVID, but reduced orthostatic CBFv 88-92%. van Campen 2020: CBF abnormal in 82% of patients with normal HR/BP response. van Campen 2024/2025 split ME/CFS-POTS into a venous-pooling profile and a hyperadrenergic profile (HR rise >=40) with different CO-CBF relations, which may have different treatment implications. Yamazaki 2026: hypocapnia more common than POTS on a lean test. Low plasma volume and the renin-aldosterone paradox are well described in POTS itself.",
+   "studies": [
+    {
+     "cite": "Novak 2026, PLOS One",
+     "n": "170 ME/CFS, 143 LC",
+     "design": "retrospective",
+     "result": "POTS 19%/22%; orthostatic CBFv reduction 88%/92%",
+     "url": "https://doi.org/10.1371/journal.pone.0341278",
+     "verified": true
+    },
+    {
+     "cite": "van Campen 2024, J Clin Med",
+     "n": "233 ME/CFS-POTS",
+     "design": "retrospective tilt",
+     "result": "Two haemodynamic POTS profiles",
+     "url": "https://doi.org/10.3390/jcm13247726",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "open_questions": [
+    "Prospective trial stratified by POTS profile (venous pooling vs hyperadrenergic)",
+    "Standardised orthostatic testing duration and posture across studies"
+   ],
+   "hypotheses": [
+    "low-blood-volume-preload",
+    "autonomic-small-fibre"
+   ],
+   "test_available": "Tilt table or 10-minute NASA lean test (widely available); add capnography and stroke-volume monitoring where possible."
+  },
+  {
+   "id": "vascular-coronary-microvascular",
+   "subdomain": "Microvasculature",
+   "finding": "Coronary microvascular dysfunction (ANOCA) and ME/CFS overlap: about 18% of ANOCA patients meet ME/CFS criteria and most ME/CFS patients undergoing iCPET had ANOCA physiology.",
+   "grade": "early",
+   "plain": "Small heart blood-vessel problems seem to overlap with ME/CFS in one centre.",
+   "detail": "",
+   "studies": [
+    {
+     "cite": "Mackay 2026, Am J Physiol Heart",
+     "n": "261 ANOCA; 27 ME/CFS with iCPET",
+     "design": "cohort",
+     "result": "18% of ANOCA had ME/CFS; 24/27 ME/CFS had ANOCA; impaired extraction",
+     "url": "https://doi.org/10.1152/ajpheart.90080.2026",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "hypotheses": [],
+   "open_questions": [],
+   "test_available": false
+  }
+ ],
+ "hypotheses_notes": [
+  {
+   "id": "low-blood-volume-preload",
+   "for": "Red-cell volume deficits in 5 groups; small, under-filled heart explained by volume; preload failure on iCPET in most tested; CBF falls on tilt in about 90%; compression and vasoconstrictors reduce CBF falls.",
+   "against": "Blood-volume category did not predict orthostatic abnormalities (Yamazaki 2026); iCPET cohorts pre-selected for low RAP; one Dutch clinic supplies most CBF data; volume-regulating hormones not consistently abnormal."
+  },
+  {
+   "id": "vascular-endothelial",
+   "for": "FMD/PORH/EndoPAT reduced in 3 independent cohorts; patient plasma/IgG impairs endothelial cells in vitro in 3 labs; retinal vessel narrowing in post-COVID ME/CFS.",
+   "against": "Inactivity alone lowers FMD; blood endothelial-activation proteins are not raised in pooled proteomics; no in vitro assay replicated across labs."
+  },
+  {
+   "id": "small-vessel-capillary",
+   "for": "Lower muscle capillarisation unlike bed rest (Charlton 2026); basement membrane thickening (poster); retinal and sublingual capillary loss in long COVID; poor O2 extraction subgroup.",
+   "against": "Mostly long COVID or small samples; basement-membrane data not peer-reviewed; no severe patients biopsied."
+  },
+  {
+   "id": "microclots",
+   "for": "Pretorius/Kell network reports raised microclot load in ME/CFS and LC; Dalton 2024 independent count in LC higher on average.",
+   "against": "Method unstandardised and visually scored; wide overlap with controls; no in vivo proof; haemostasis critiques (Hunt 2024); platelet/coagulation proteins not raised in pooled proteomics; Kennedy 2006 no platelet activation."
+  },
+  {
+   "id": "complement-thromboinflammation",
+   "for": "Replicated complement activation in active long COVID; exercise C4a rise and genetic alternative-pathway subgroup in ME/CFS.",
+   "against": "ME/CFS proteomic complement direction inconsistent across cohorts; no complement-inhibitor trial."
+  },
+  {
+   "id": "autonomic-small-fibre",
+   "for": "SFN in about a third to half of iCPET/autonomic cohorts; shunting proposed to explain poor extraction; hyperadrenergic POTS profile.",
+   "against": "Denervation severity did not correlate with exertional measures (Joseph 2021)."
+  },
+  {
+   "id": "serum-factor",
+   "for": "Patient plasma lowers endothelial NO; IgG fragments endothelial mitochondria (MS-controlled).",
+   "against": "Single-lab assays, no cross-lab replication."
+  }
+ ],
+ "glossary": [
+  {
+   "term": "Preload",
+   "plain": "How much blood fills the heart before each beat. Low preload means each beat pumps less."
+  },
+  {
+   "term": "Invasive CPET (iCPET)",
+   "plain": "An exercise test with catheters in the heart and an artery, measuring filling pressures and oxygen use directly."
+  },
+  {
+   "term": "Flow-mediated dilation (FMD)",
+   "plain": "Ultrasound measure of how much an arm artery widens after a cuff is released; a test of the vessel lining."
+  },
+  {
+   "term": "PORH",
+   "plain": "Post-occlusive reactive hyperaemia: the skin blood-flow surge after a cuff is released, a test of small vessels."
+  },
+  {
+   "term": "Hypocapnia",
+   "plain": "Low carbon dioxide in the blood, usually from over-breathing; it narrows brain arteries."
+  },
+  {
+   "term": "Basement membrane",
+   "plain": "A thin protein layer around each capillary; thickening can slow oxygen passing to tissue."
+  },
+  {
+   "term": "Pericyte",
+   "plain": "A cell wrapped around capillaries that controls their width and helps keep their walls intact."
+  },
+  {
+   "term": "Complement",
+   "plain": "About 30 blood proteins in the innate immune system that tag and punch holes in targets; terminal complex (sC5b-9) marks full activation."
+  },
+  {
+   "term": "Fibrinaloid microclot",
+   "plain": "A clot-like particle of misfolded fibrin seen under a microscope with an amyloid dye; its significance is disputed."
+  },
+  {
+   "term": "Red cell volume",
+   "plain": "The total amount of red blood cells in the body, measured with tracer methods, not by a standard blood count."
+  },
+  {
+   "term": "OCT-A",
+   "plain": "Optical coherence tomography angiography: a non-invasive scan of the tiny vessels in the retina."
+  }
+ ],
+ "key_reviews": [
+  {
+   "cite": "Joseph 2021, Chest",
+   "url": "https://doi.org/10.1016/j.chest.2021.01.082",
+   "why": "Defines preload failure and impaired extraction phenotypes in the largest iCPET series."
+  },
+  {
+   "cite": "van Campen 2020, Clin Neurophysiol Pract",
+   "url": "https://doi.org/10.1016/j.cnp.2020.01.003",
+   "why": "Largest cerebral blood flow on tilt study (429 patients)."
+  },
+  {
+   "cite": "Nunes, Kell, Slaghekke, Wüst 2026, Cell Death Dis",
+   "url": "https://doi.org/10.1038/s41419-025-08162-2",
+   "why": "Recent synthesis proposing endothelial senescence as a unifying model (hypothesis paper, not evidence)."
+  },
+  {
+   "cite": "Hunt 2024, Res Pract Thromb Haemost",
+   "url": "https://doi.org/10.1016/j.rpth.2024.102442",
+   "why": "Haemostasis-expert critique of the microclot hypothesis."
+  },
+  {
+   "cite": "Novak 2026, PLOS One",
+   "url": "https://doi.org/10.1371/journal.pone.0341278",
+   "why": "Shared autonomic/cerebrovascular phenotype of long COVID and ME/CFS in 313 patients."
+  },
+  {
+   "cite": "Westermeier, Pretorius, Untersmayr 2026, Cardiovasc Diabetol",
+   "url": "https://doi.org/10.1186/s12933-026-03316-8",
+   "why": "Cardiometabolic and vascular perspective on PEM."
+  }
+ ],
+ "gaps": [
+  "No blinded, multi-centre replication of the van Campen cerebral blood flow method.",
+  "Preload failure prevalence in unselected ME/CFS (iCPET cohorts are pre-selected).",
+  "No placebo-controlled trials of volume expansion (saline, desmopressin, fludrocortisone) targeting measured low blood volume in ME/CFS.",
+  "Microclots: no standardised blinded multi-lab assay and no in vivo demonstration.",
+  "Retinal, sublingual and muscle capillary studies are almost all post-COVID; pre-pandemic ME/CFS is rarely studied.",
+  "Severe and very severe patients are almost absent from vascular studies.",
+  "Pericyte markers have never been stained in ME/CFS tissue.",
+  "Complement activation fragments have not been measured with modern pre-analytics before and after exertion in ME/CFS.",
+  "Whether endothelial dysfunction exceeds what activity-matched inactive controls show.",
+  "Mechanism of low red-cell mass (marrow output vs destruction vs EPO signalling) is unstudied."
+ ]
+}

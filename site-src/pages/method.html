@@ -1,0 +1,49 @@
+<!--meta {"title":"Method and predictions","description":"How Solving ME/CFS grades evidence, builds the working model and chooses experiments, the predictions we have recorded before results, and how to help.","nav":"method"}-->
+<style>
+.pred{list-style:none;padding:0;margin:1rem 0;border-top:1px solid var(--rule)}
+.pred li{border-bottom:1px solid var(--rule);padding:.8rem 0;margin:0;display:grid;grid-template-columns:3.2rem 1fr;gap:.2rem 1rem;align-items:baseline}
+.pred .p{font-family:var(--f-sans,system-ui,sans-serif);font-variant-numeric:tabular-nums;font-weight:600;font-size:1.05rem;grid-row:span 2;grid-column:1;text-align:right}
+.pred .p small{display:none}
+.pred li>div{grid-column:2}
+.pred .s{font-size:.9rem;color:var(--muted)}
+.steps{padding-left:1.4rem}
+.steps li{margin:.8rem 0;padding-left:.3rem}
+.steps li::marker{font-family:var(--f-sans,system-ui,sans-serif);color:var(--muted);font-size:.9em}
+</style>
+<div class="wrap">
+<h1>Method</h1>
+<p class="deck">How findings are graded, how the model and the proposed experiments are derived, and the predictions we have recorded before results.</p>
+<p class="byline">Updated {{built}}</p>
+
+<h2 id="pipeline">From papers to experiments</h2>
+<ol class="steps">
+<li><b>Collect the raw material.</b> Published papers and preprints, but wherever possible the per-person data behind them: GWAS summary statistics, metabolomics and proteomics matrices, single-cell data, national registry tables and trial registries. The <a href="/data">data catalogue</a> lists {{n_datasets}} datasets, {{n_rehosted}} of them hosted here for direct download.</li>
+<li><b>Re-analyse the data rather than rely on the abstract.</b> Each person counts once, results are corrected for multiple testing, and a lead is checked against a cohort it wasn't found in. Most widely cited leads failed these checks, and the failures are listed on the <a href="/questions#settled">open questions</a> page.</li>
+<li><b>Grade every finding.</b> The <a href="/atlas">evidence atlas</a> holds {{n_findings}} findings, each graded <span class="pill rep">replicated</span> <span class="pill sev">several studies</span> <span class="pill early">early</span> <span class="pill cont">contested</span> or <span class="pill ref">refuted</span>, with the studies for and against.</li>
+<li><b>Join the findings into one model.</b> The <a href="/model">working model</a> is a hypothesis that joins the replicated findings into a loop. Each step is graded, names the result that would disprove it, and lists the observations it fails to explain.</li>
+<li><b>Keep the parts linked.</b> The model steps, open questions, proposed experiments and treatments are built from one linked data file, and a check fails the build if a link is broken or the same finding carries two grades. Each atlas finding shows which model step it supports or contradicts, and each treatment states which step it acts on and why.</li>
+<li><b>Rank the experiments.</b> The <a href="/#critical-path">proposed experiments</a> are ordered by how many competing hypotheses each could separate. The <a href="/questions">open questions</a> page gives the reasoning behind each one.</li>
+<li><b>Act while they run.</b> The <a href="/treatments">treatments</a> page grades what patients are trying by mechanism, evidence and risk, so people can make informed choices before the trials finish.</li>
+</ol>
+
+<h2 id="predictions">Predictions, recorded before the results</h2>
+<p>These are our probabilities for results that are not yet known, written on 28 October 2026. When each result arrives, we will mark it here and score the whole set, as a check on how well calibrated the project is.</p>
+<ul class="pred">
+<li><div><b>Low-dose rapamycin, Mount Sinai placebo-controlled trial in long COVID</b> (<a href="https://clinicaltrials.gov/study/NCT06960928">NCT06960928</a>, ends Nov 2026): the primary endpoint is <em>not</em> significantly better than placebo.</div><span class="p">70%<small>chance</small></span><div class="s">Why: an open-label response rate of about 70% is within what a 35–40% placebo response plus drop-out bias could produce.</div></li>
+<li><div><b>LIFT trial, pyridostigmine × low-dose naltrexone</b> (<a href="https://clinicaltrials.gov/study/NCT06366724">NCT06366724</a>, n=160): at least one arm meets its primary endpoint.</div><span class="p">35%<small>chance</small></span><div class="s">Why: pyridostigmine fits the preload-failure step, but the longer long-COVID trial showed no overall benefit, and LDN trials so far are null.</div></li>
+<li><div><b>Hyperbaric oxygen vs sham in ME/CFS</b> (<a href="https://clinicaltrials.gov/study/NCT07621068">NCT07621068</a>, due mid-2027): HBOT beats sham on the primary endpoint.</div><span class="p">40%<small>chance</small></span><div class="s">Why: the open-label Charité series was modestly positive, but the HOT-LoCO sham trial in long COVID was negative.</div></li>
+<li><div><b>Crash-window sampling</b>, whenever it is done properly: at least one complement or vessel-lining damage marker (sC5b-9, syndecan-1) rises 24–72 h after exertion in patients, relative to their own baseline, and not in controls.</div><span class="p">55%<small>chance</small></span><div class="s">Why: complement tracks disease activity in long COVID, and muscle damage peaks a day after exertion.</div></li>
+<li><div><b>Reticulocytes in a clinic cohort</b>: young red cells are lower in ME/CFS than in matched controls, with normal iron stores.</div><span class="p">60%<small>chance</small></span><div class="s">Why: this pattern appears in Finnish national lab records but hasn't been tested in a clinic cohort.</div></li>
+<li><div><b>Stimulated copeptin in severe patients</b>: more than 1 in 5 show partial diabetes insipidus (too little ADH).</div><span class="p">25%<small>chance</small></span><div class="s">Why: the only supporting study had no controls, and copeptin was normal in the 13 patients tested.</div></li>
+</ul>
+
+<h2 id="help">How to help</h2>
+<div class="grid g2">
+<div class="card"><h3>Researchers</h3><p>Run one of the <a href="/#critical-path">proposed experiments</a>, or the parts of one your lab is set up for. Tell us where a grade in the atlas is wrong. Share per-person data from severe or recent-onset patients, which are the scarcest data in the field.</p></div>
+<div class="card"><h3>Clinicians</h3><p>Bank plasma on a stable day and again 24–48 h into a crash. Run the cheap pituitary and blood-volume tests before starting steroids or desmopressin. Record what each patient tried, one change at a time.</p></div>
+<div class="card"><h3>Patients and families</h3><p>If you try a treatment, change one thing at a time and track overnight heart rate and HRV (<a href="/treatments#how">how</a>). Pooled across many people, these records can show which plausible treatments work.</p></div>
+<div class="card"><h3>Funders and builders</h3><p>The first proposed experiment costs far less than a drug trial and would inform the design of later trials. Software help is welcome too: a shared tracking protocol and automated literature updates for the atlas.</p></div>
+</div>
+<h2 id="about">About</h2>
+<p>Solving ME/CFS is written by <a href="https://michaeljelly.com">Michael Jelly</a>, an engineer and amateur scientist. AI agents assist with finding papers, extracting results and re-analysing public data. Every claim links to its source, and the analysis code is public, so any of it can be checked. The working model is one person's synthesis of the evidence, not a consensus view, and corrections from researchers are the most useful thing anyone can send. Write to <a href="mailto:hello@solvingmecfs.org">hello@solvingmecfs.org</a>.</p>
+</div>

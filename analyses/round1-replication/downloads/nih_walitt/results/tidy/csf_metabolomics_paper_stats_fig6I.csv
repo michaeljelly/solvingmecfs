@@ -1,0 +1,319 @@
+CHEMICAL_NAME,SUPER_PATHWAY,SUB_PATHWAY,HMDB,KEGG,pval_combined_cfs,fc
+dimethyl sulfone,Xenobiotics,Chemical,HMDB0004983,C11142,1.54872234961223e-06,0.35598022115683
+2-hydroxy-3-methylvalerate,Amino Acid,"Leucine, Isoleucine and Valine Metabolism",HMDB0000317,,2.22791009910184e-05,0.667519880327531
+phenyllactate (PLA),Amino Acid,Phenylalanine Metabolism,"HMDB0000779,HMDB0000563",C05607,9.4050787482719e-05,0.709634066148575
+orotidine,Nucleotide,"Pyrimidine Metabolism, Orotate containing",HMDB0000788,,0.000223041451663134,0.701857110996998
+4-methylcatechol sulfate,Xenobiotics,Benzoate Metabolism,HMDB0240459,,0.000241146787233478,0.526975176968337
+kynurenine,Amino Acid,Tryptophan Metabolism,HMDB0000684,C00328,0.000293255062474867,0.673804491673789
+N-delta-acetylornithine,Amino Acid,Urea cycle; Arginine and Proline Metabolism,HMDB0003357,C00437,0.000293255062474867,0.356641240642314
+5-hydroxyindoleacetate,Amino Acid,Tryptophan Metabolism,HMDB0000763,C05635,0.000436432418064692,0.680464804254563
+picolinate,Amino Acid,Tryptophan Metabolism,HMDB0002243,C10164,0.000469794148526711,0.600688964974139
+alpha-hydroxyisovalerate,Amino Acid,"Leucine, Isoleucine and Valine Metabolism",HMDB0000407,,0.00049662606559031,0.621139811238127
+argininosuccinate,Amino Acid,Urea cycle; Arginine and Proline Metabolism,HMDB0000052,C03406,0.000724749733691782,0.733393196675207
+4-acetamidobutanoate,Amino Acid,Polyamine Metabolism,HMDB0003681,C02946,0.000925249968300599,0.706032074402862
+"5,6-dihydrouracil",Nucleotide,"Pyrimidine Metabolism, Uracil containing",HMDB0000076,C00429,0.000973069869756499,0.709703355370618
+5-methylthioadenosine (MTA),Amino Acid,Polyamine Metabolism,HMDB0001173,C00170,0.00104307503019013,0.718577346735533
+5-methylcytidine,Nucleotide,"Pyrimidine Metabolism, Cytidine containing",HMDB0000982,,0.00104307503019013,0.788586271408674
+X-11787,,,,,0.00104307503019013,0.700070698849956
+gluconate,Xenobiotics,Food Component/Plant,HMDB0000625,C00257,0.00117416801528057,0.734875023285555
+sulfate*,Xenobiotics,Chemical,HMDB01448,C00059,0.00117416801528057,0.81977240919774
+X-12411,,,,,0.00117416801528057,0.566239512664911
+X-24408,,,,,0.00123989566132231,0.58067720653955
+alpha-hydroxyisocaproate,Amino Acid,"Leucine, Isoleucine and Valine Metabolism","HMDB0000665,HMDB00746,HMDB0000624",C03264,0.00131982289579213,0.668788615194956
+guaiacol sulfate,Xenobiotics,Benzoate Metabolism,HMDB0060013,,0.00134696754763994,0.422045047971527
+4-guanidinobutanoate,Amino Acid,Guanidino and Acetamido Metabolism,HMDB0003464,C01035,0.00142853628422035,0.454575195697462
+N-formylmethionine,Amino Acid,"Methionine, Cysteine, SAM and Taurine Metabolism",HMDB0001015,C03145,0.00166045911967518,0.644224010998679
+aconitate [cis or trans],Energy,TCA Cycle,"HMDB0000958,HMDB000072","C004174,C02341",0.00166045911967518,0.825320525870172
+1-stearoyl-GPC (18:0),Lipid,Lysophospholipid,HMDB0010384,,0.00183731403791235,0.630448103312123
+creatinine,Amino Acid,Creatine Metabolism,HMDB0000562,C00791,0.0018585444398005,0.847406493952181
+lactate,Carbohydrate,"Glycolysis, Gluconeogenesis, and Pyruvate Metabolism",HMDB0000190,C00186,0.0018585444398005,0.843728998886642
+N2-methylguanosine,Nucleotide,"Purine Metabolism, Guanine containing",HMDB0005862,,0.0018585444398005,0.707322736084272
+"2,3-dihydroxy-5-methylthio-4-pentenoate (DMTPA)*",Amino Acid,"Methionine, Cysteine, SAM and Taurine Metabolism",HMDB0240388,,0.0018585444398005,0.759443828426249
+"adenosine 3',5'-cyclic monophosphate (cAMP)",Nucleotide,"Purine Metabolism, Adenine containing",HMDB0000058,C00575,0.00204753881247272,0.696800787580186
+orotate,Nucleotide,"Pyrimidine Metabolism, Orotate containing",HMDB0000226,C00295,0.00207741114418506,0.644386004125618
+"N2,N2-dimethylguanosine",Nucleotide,"Purine Metabolism, Guanine containing",HMDB0004824,,0.00207741114418506,0.775976678245676
+X-22162,,,,,0.00207741114418506,0.679721525085325
+3-hydroxyisobutyrate,Amino Acid,"Leucine, Isoleucine and Valine Metabolism","HMDB0000023,HMDB0000336","C01188,C06001",0.00231890370437396,0.779438961584411
+X-24422,,,,,0.00231890370437396,0.71927970881471
+phenylacetate,Amino Acid,Phenylalanine Metabolism,HMDB0000209,C07086,0.00234633270629584,0.557498644746629
+X-18887,,,,,0.00274747042940002,0.70824499558059
+N-acetylglucosamine/N-acetylgalactosamine,Carbohydrate,Aminosugar Metabolism,"HMDB0000212,HMDB0000215",C01074,0.00287786433312991,0.794246448291594
+isobutyrylcarnitine (C4),Amino Acid,"Leucine, Isoleucine and Valine Metabolism",HMDB0000736,,0.00319972326269687,0.660423330902613
+N-acetyltaurine,Amino Acid,"Methionine, Cysteine, SAM and Taurine Metabolism",HMDB0240253,,0.00319972326269687,0.745203440106894
+X-25790,,,,,0.00319972326269687,0.656645244576315
+hippurate,Xenobiotics,Benzoate Metabolism,HMDB0000714,C01586,0.00342562097080335,0.474385935234639
+betaine,Amino Acid,"Glycine, Serine and Threonine Metabolism",HMDB0000043,C00719,0.00355300130539845,0.792995618782302
+3-methyl-2-oxovalerate,Amino Acid,"Leucine, Isoleucine and Valine Metabolism",HMDB0000491,"C03465,C06008,C00671",0.00355300130539845,0.764532184142015
+N-acetylarginine,Amino Acid,Urea cycle; Arginine and Proline Metabolism,HMDB0004620,C02562,0.00355300130539845,0.76026606408227
+N-acetyl-beta-alanine,Nucleotide,"Pyrimidine Metabolism, Uracil containing",HMDB0061880,C01073,0.00355300130539845,0.776169518210651
+"N6,N6,N6-trimethyllysine",Amino Acid,Lysine Metabolism,HMDB0001325,C03793,0.0039402831396478,0.751829814418489
+N-acetylputrescine,Amino Acid,Polyamine Metabolism,HMDB0002064,C02714,0.0039402831396478,0.773093869563817
+glutamine,Amino Acid,Glutamate Metabolism,HMDB0000641,C00064,0.0039402831396478,0.846124839615839
+arabitol/xylitol,Carbohydrate,Pentose Metabolism,"HMDB0001851,HMDB0000568,HMDB0002917","C00379,C00542,C01904",0.0039402831396478,0.747258072676403
+X-12100,,,,,0.0039402831396478,0.753155453529507
+3-(4-hydroxyphenyl)lactate,Amino Acid,Tyrosine Metabolism,HMDB0000755,C03672,0.00436429492538111,0.725206005529891
+3-methyl-2-oxobutyrate,Amino Acid,"Leucine, Isoleucine and Valine Metabolism",HMDB0000019,C00141,0.00436429492538111,0.790966164904516
+7-methylguanine,Nucleotide,"Purine Metabolism, Guanine containing",HMDB0000897,C02242,0.00436429492538111,0.851459064908516
+S-1-pyrroline-5-carboxylate,Amino Acid,Glutamate Metabolism,HMDB0001301,C04322,0.00482795475375586,0.70293544787278
+gamma-glutamylmethionine,Peptide,Gamma-glutamyl Amino Acid,HMDB0029155,,0.00482795475375586,0.739142091197481
+3-hydroxyhexanoate,Lipid,"Fatty Acid, Monohydroxy","HMDB0061652,HMDB0010718",,0.00482795475375586,0.808704643807392
+succinylglutamine,Amino Acid,Glutamate Metabolism,,,0.00482795475375586,0.793158411170187
+"N,N-dimethyl-pro-pro",Peptide,Modified Peptides,,,0.00482795475375586,0.784721380915473
+X-12007,,,,,0.00485813329432276,0.483567658398796
+pseudouridine,Nucleotide,"Pyrimidine Metabolism, Uracil containing",HMDB0000767,C02067,0.00533433039726582,0.812392040387343
+cytidine,Nucleotide,"Pyrimidine Metabolism, Cytidine containing",HMDB0000089,C00475,0.00588669552710452,0.81593339662717
+N-acetylmethionine,Amino Acid,"Methionine, Cysteine, SAM and Taurine Metabolism",HMDB0011745,C02712,0.00588669552710452,0.664628409065695
+tiglylcarnitine (C5:1-DC),Amino Acid,"Leucine, Isoleucine and Valine Metabolism",HMDB0002366,,0.00604908136241107,0.721174330890993
+catechol sulfate,Xenobiotics,Benzoate Metabolism,HMDB0059724,,0.00632519152111322,0.490661234498504
+O-sulfo-L-tyrosine,Xenobiotics,Chemical,HMDB0155722,,0.00648848475317244,0.791671756505939
+imidazole lactate,Amino Acid,Histidine Metabolism,HMDB0002320,C05568,0.00691168400158121,0.720218708736998
+allantoin,Nucleotide,"Purine Metabolism, (Hypo)Xanthine/Inosine containing",HMDB0000462,"C02348,C01551,C02350",0.00714334872960144,0.665719668718576
+2'-O-methylcytidine,Nucleotide,"Pyrimidine Metabolism, Cytidine containing",,,0.00714334872960144,0.747523215207461
+3-hydroxyoctanoate,Lipid,"Fatty Acid, Monohydroxy",HMDB0001954,C20793,0.00753671810595859,0.752065662805481
+N-acetylisoleucine,Amino Acid,"Leucine, Isoleucine and Valine Metabolism",HMDB0061684,,0.00754657674996555,0.797392166753758
+N-acetylvaline,Amino Acid,"Leucine, Isoleucine and Valine Metabolism",HMDB0011757,,0.00785510856935247,0.776129254259921
+"5,6-dihydrouridine",Nucleotide,"Pyrimidine Metabolism, Uracil containing",HMDB0000497,,0.00785510856935247,0.791349262943242
+N6-methyllysine,Amino Acid,Lysine Metabolism,HMDB0002038,C02728,0.00785510856935247,0.379567370700765
+"N6,N6-dimethyllysine",Amino Acid,Lysine Metabolism,HMDB0013287,C05545,0.0081183142407423,0.316151571795701
+glucose,Carbohydrate,"Glycolysis, Gluconeogenesis, and Pyruvate Metabolism",HMDB0000122,C00031,0.00862781372933767,0.889254256062581
+mannitol/sorbitol,Carbohydrate,"Fructose, Mannose and Galactose Metabolism","HMDB0000247,HMDB0000765","C00392,C00794",0.00862781372933767,0.832444813330306
+lyxonate,Carbohydrate,Pentose Metabolism,HMDB0060255,,0.00862781372933767,0.752860767486117
+X-12680,,,,,0.00862781372933767,0.65699748471664
+X-23639,,,,,0.00862781372933767,0.542957363836159
+maleate,Lipid,"Fatty Acid, Dicarboxylate",HMDB0000176,C01384,0.00946568947602387,0.736056421500654
+X-25983,,,,,0.00946568947602387,0.762584499593849
+gamma-glutamyltyrosine,Peptide,Gamma-glutamyl Amino Acid,HMDB0011741,,0.0101634468288325,0.704516967805828
+homovanillate (HVA),Amino Acid,Tyrosine Metabolism,HMDB0000118,C05582,0.0103732001907702,0.772712311527604
+succinylcarnitine (C4-DC),Energy,TCA Cycle,HMDB0061717,,0.0103732001907702,0.777876773847099
+3-methylglutaconate,Amino Acid,"Leucine, Isoleucine and Valine Metabolism",HMDB0000522,,0.0103732001907702,0.824762547579302
+mannonate*,Xenobiotics,Food Component/Plant,,,0.0103732001907702,0.805399841055623
+fructosyllysine,Amino Acid,Lysine Metabolism,HMDB0034879,,0.0103732001907702,0.850615434183398
+3-methylglutarylcarnitine (2),Amino Acid,"Leucine, Isoleucine and Valine Metabolism",HMDB0000552,,0.0103732001907702,0.729403484428235
+X-24337,,,,,0.0103732001907702,0.771954204672368
+histidine,Amino Acid,Histidine Metabolism,HMDB0000177,C00135,0.0113549927355249,0.838723570361656
+pipecolate,Amino Acid,Lysine Metabolism,HMDB0000070,,0.0113549927355249,0.516163746343318
+erythronate*,Carbohydrate,Aminosugar Metabolism,HMDB0000613,,0.0113549927355249,0.868076319316118
+C-glycosyltryptophan,Amino Acid,Tryptophan Metabolism,HMDB0240296,,0.0113549927355249,0.795235262227041
+(N(1) + N(8))-acetylspermidine,Amino Acid,Polyamine Metabolism,"HMDB0002189,HMDB0001276","C01029,C00612",0.0113549927355249,0.744609132510043
+X-23666,,,,,0.0115367480212125,0.670274759816614
+choline phosphate,Lipid,Phospholipid Metabolism,HMDB0001565,C00588,0.0124159583683642,0.761683259643535
+myo-inositol,Lipid,Inositol Metabolism,HMDB0000211,C00137,0.0124159583683642,0.826045146379123
+3-methoxytyrosine,Amino Acid,Tyrosine Metabolism,HMDB0001434,,0.0124159583683642,0.767590379031055
+N6-carbamoylthreonyladenosine,Nucleotide,"Purine Metabolism, Adenine containing",HMDB0041623,,0.0124159583683642,0.809162094342545
+X-21733,,,,,0.0128924352233067,0.426549133290281
+"5,6-dihydrothymine",Nucleotide,"Pyrimidine Metabolism, Thymine containing",HMDB0000079,C00906,0.013561176109189,0.838716259215311
+N-acetylalanine,Amino Acid,Alanine and Aspartate Metabolism,HMDB0000766,C02847,0.013561176109189,0.815170905001407
+trigonelline (N'-methylnicotinate),Cofactors and Vitamins,Nicotinate and Nicotinamide Metabolism,HMDB0000875,C01004,0.013561176109189,0.560984478647028
+3-(3-amino-3-carboxypropyl)uridine*,Nucleotide,"Pyrimidine Metabolism, Uracil containing",,,0.013561176109189,0.795745902384032
+N6-succinyladenosine,Nucleotide,"Purine Metabolism, Adenine containing",HMDB0000912,,0.013561176109189,0.752215674250899
+"N,N,N-trimethyl-alanylproline betaine (TMAP)",Amino Acid,Urea cycle; Arginine and Proline Metabolism,HMDB0240365,,0.013561176109189,0.710740568941282
+N-acetyl-isoputreanine,Amino Acid,Polyamine Metabolism,,,0.013561176109189,0.782559542870386
+equol glucuronide,Xenobiotics,Food Component/Plant,,,0.0144653940726374,0.642114933605167
+indolelactate,Amino Acid,Tryptophan Metabolism,HMDB0000671,C02043,0.0146383940714331,0.724834055389303
+tyrosine,Amino Acid,Tyrosine Metabolism,HMDB0000158,C00082,0.0147959760450629,0.761629581361009
+guanosine,Nucleotide,"Purine Metabolism, Guanine containing",HMDB0000133,C00387,0.0147959760450629,0.83738400675031
+N-acetyl-aspartyl-glutamate (NAAG),Amino Acid,Glutamate Metabolism,HMDB0001067,C12270,0.0147959760450629,0.702555148027248
+alpha-ketoglutaramate*,Amino Acid,Glutamate Metabolism,HMDB0001552,C00940,0.0147959760450629,0.838315394354185
+dimethylglycine,Amino Acid,"Glycine, Serine and Threonine Metabolism",HMDB0000092,C03626,0.0161258742181354,0.724848565469996
+choline,Lipid,Phospholipid Metabolism,HMDB0000097,C00114,0.0161258742181354,0.813929529178172
+N-acetylglycine,Amino Acid,"Glycine, Serine and Threonine Metabolism",HMDB0000532,,0.0161258742181354,0.780239011708139
+X-12104,,,,,0.0161258742181354,0.777788784937863
+N-acetylphenylalanine,Amino Acid,Phenylalanine Metabolism,HMDB0000512,C03519,0.0168947597288978,0.743050486889797
+isovalerate (i5:0),Amino Acid,"Leucine, Isoleucine and Valine Metabolism",HMDB0000718,C08262,0.0172848465408523,0.548285492169669
+3-hydroxystachydrine*,Xenobiotics,Food Component/Plant,,C10151,0.0173461301441262,0.309537939917998
+ethyl beta-glucopyranoside,Xenobiotics,Food Component/Plant,HMDB0029968,,0.0173829432211395,0.39628485721962
+threonine,Amino Acid,"Glycine, Serine and Threonine Metabolism",HMDB0000167,C00188,0.0175566419071152,0.774595888161274
+dimethylarginine (SDMA + ADMA),Amino Acid,Urea cycle; Arginine and Proline Metabolism,"HMDB0003334,HMDB0001539","C21189,C03626",0.0175566419071152,0.833632182174673
+acisoga,Amino Acid,Polyamine Metabolism,HMDB0061384,,0.0175566419071152,0.671497221631548
+methionine sulfone,Amino Acid,"Methionine, Cysteine, SAM and Taurine Metabolism",HMDB0062174,,0.0175566419071152,0.701683798926368
+X-23593,,,,,0.0175566419071152,0.82519622381778
+"2,3-dihydroxyisovalerate",Xenobiotics,Food Component/Plant,HMDB0012141,C04039,0.0188167314730641,0.644993201255496
+urea,Amino Acid,Urea cycle; Arginine and Proline Metabolism,HMDB0000294,C00086,0.0190942365542672,0.767583665914562
+tryptophan,Amino Acid,Tryptophan Metabolism,HMDB0000929,C00078,0.0190942365542672,0.824158179852105
+X-24736,,,,,0.0198720528816259,0.524986017315396
+argininate*,Amino Acid,Urea cycle; Arginine and Proline Metabolism,HMDB0003148,,0.0199967662205432,0.392119743229798
+X-25271,,,,,0.0207100032369621,0.196538182604972
+N-acetylthreonine,Amino Acid,"Glycine, Serine and Threonine Metabolism",HMDB0062557,,0.0207448678503474,0.821262711246076
+3-methylhistidine,Amino Acid,Histidine Metabolism,HMDB0000479,C01152,0.021881310640297,0.432513504013238
+uridine,Nucleotide,"Pyrimidine Metabolism, Uracil containing",HMDB0000296,C00299,0.0225149277582314,0.818980507471313
+valine,Amino Acid,"Leucine, Isoleucine and Valine Metabolism",HMDB0000883,C00183,0.0225149277582314,0.718164847176404
+arabinose,Carbohydrate,Pentose Metabolism,HMDB0029942,C00216,0.0225149277582314,0.809372340688172
+5-oxoproline,Amino Acid,Glutathione Metabolism,HMDB0000267,"C02237,C01879",0.0225149277582314,0.841503212304709
+urate,Nucleotide,"Purine Metabolism, (Hypo)Xanthine/Inosine containing",HMDB0000289,C00366,0.0225149277582314,0.768226543989703
+5-methylthioribose**,Amino Acid,"Methionine, Cysteine, SAM and Taurine Metabolism",HMDB0001087,,0.0225149277582314,0.805428483299535
+X-23739,,,,,0.0225149277582314,0.823631026019629
+2-keto-3-deoxy-gluconate,Xenobiotics,Food Component/Plant,HMDB0001353,C00204,0.0231460556012158,0.692539212349527
+2-aminooctanoate,Lipid,"Fatty Acid, Amino",HMDB0000991,,0.0234251826373082,0.717001208953885
+pyridoxate,Cofactors and Vitamins,Vitamin B6 Metabolism,HMDB0000017,C00847,0.0237102547456339,1.06772689088469
+3-hydroxy-3-methylglutarate,Lipid,Mevalonate Metabolism,HMDB0000355,C03761,0.0244110582656081,0.841932623534334
+X-23195,,,,,0.0244110582656081,1.07893485939065
+X-11612,,,,,0.0246333122874832,0.760713590737274
+3-hydroxybutyrate (BHBA),Lipid,Ketone Bodies,"HMDB0000442,HMDB0000357,HMDB0000011","C03197,C01089",0.0264400728613444,0.949868490827476
+stachydrine,Xenobiotics,Food Component/Plant,HMDB0004827,C10172,0.0264400728613444,0.427476539979344
+nicotinamide riboside,Cofactors and Vitamins,Nicotinate and Nicotinamide Metabolism,HMDB0000855,C03150,0.0264400728613444,0.835701720153048
+2-hydroxyglutarate,Lipid,"Fatty Acid, Dicarboxylate",HMDB0059655,C02630,0.0264400728613444,0.78134961242634
+beta-citrylglutamate,Amino Acid,Glutamate Metabolism,,C20775,0.0264400728613444,0.720145123740964
+X-12101,,,,,0.0264400728613444,0.71510380424423
+X-25936,,,,,0.0264400728613444,0.844167473147825
+N-methylproline,Amino Acid,Urea cycle; Arginine and Proline Metabolism,HMDB0094696,,0.0284257628526932,0.466907302033424
+isoleucine,Amino Acid,"Leucine, Isoleucine and Valine Metabolism",HMDB0000172,"C06418,C00407,C16424",0.0286090292219655,0.810167327963162
+adenine,Nucleotide,"Purine Metabolism, Adenine containing",HMDB0000034,C00147,0.0286090292219655,0.798666578924524
+asparagine,Amino Acid,Alanine and Aspartate Metabolism,HMDB0000168,C00152,0.0286090292219655,0.844457817471969
+N1-methyladenosine,Nucleotide,"Purine Metabolism, Adenine containing",HMDB0003331,C02494,0.0286090292219655,0.804766659379881
+X-26008,,,,,0.0287221397708792,0.793935001737361
+gamma-glutamylphenylalanine,Peptide,Gamma-glutamyl Amino Acid,HMDB0000594,,0.0296404754924992,0.747484725530363
+gamma-glutamylisoleucine*,Peptide,Gamma-glutamyl Amino Acid,HMDB0011170,,0.0296404754924992,0.742359011334733
+N-acetylaspartate (NAA),Amino Acid,Alanine and Aspartate Metabolism,HMDB0000812,C01042,0.0309251455457639,0.770410795757039
+N-acetylasparagine,Amino Acid,Alanine and Aspartate Metabolism,HMDB0006028,,0.0309251455457639,0.856311691828702
+inosine,Nucleotide,"Purine Metabolism, (Hypo)Xanthine/Inosine containing",HMDB0000195,C00294,0.0333958693478424,0.845090642448833
+phenylacetylglutamine,Peptide,Acetylated Peptides,HMDB0006344,C04148,0.0333958693478424,0.620534461596244
+X-24228,,,,,0.0333958693478424,0.82197310072689
+X-12127,,,,,0.033456429778722,0.681876871956362
+5-methyluridine (ribothymidine),Nucleotide,"Pyrimidine Metabolism, Uracil containing",HMDB0000884,,0.0360287946281028,0.808676587456921
+"2R,3R-dihydroxybutyrate",Lipid,"Fatty Acid, Dihydroxy",HMDB0000498,,0.0360287946281028,0.81486908433327
+X-10457,,,,,0.0360287946281028,0.826960092302962
+X-24728,,,,,0.0360287946281028,0.755497175311597
+N6-methyladenosine,Nucleotide,"Purine Metabolism, Adenine containing",HMDB0004044,,0.0365439452613529,0.682228535810261
+"sphingomyelin (d18:2/24:1, d18:1/24:2)*",Lipid,Sphingomyelins,"HMDB0240636,HMDB0240615",,0.0384671896588061,0.776948787772168
+creatine,Amino Acid,Creatine Metabolism,HMDB0000064,C00300,0.0388317305967988,0.8760466352819
+gamma-glutamyl-epsilon-lysine,Peptide,Gamma-glutamyl Amino Acid,HMDB0003869,,0.0388317305967988,0.741028776158734
+N-acetylserine,Amino Acid,"Glycine, Serine and Threonine Metabolism",HMDB0002931,,0.0388317305967988,0.84586203563829
+X-23583,,,,,0.0409309001503031,0.524791226191159
+butyrate/isobutyrate (4:0),Lipid,Short Chain Fatty Acid,HMDB0000039,C00246,0.0413023374499509,0.856204099733304
+ascorbic acid 3-sulfate*,Cofactors and Vitamins,Ascorbate and Aldarate Metabolism,,,0.04137892192071,0.635790645018875
+N1-methylinosine,Nucleotide,"Purine Metabolism, (Hypo)Xanthine/Inosine containing",HMDB0002721,,0.0418126086275034,0.787561959933994
+X-12689,,,,,0.0418126086275034,0.780426079902348
+2'-deoxyuridine,Nucleotide,"Pyrimidine Metabolism, Uracil containing",HMDB0000012,C00526,0.0427850461818925,0.752663773449714
+"2,6-dihydroxybenzoic acid",Xenobiotics,Drug - Topical Agents,HMDB0013676,,0.0441136053041432,0.44221773720711
+arginine,Amino Acid,Urea cycle; Arginine and Proline Metabolism,HMDB0000517,C00062,0.0449795567503267,0.860684068551242
+malate,Energy,TCA Cycle,"HMDB0031518,HMDB0000156,HMDB0000744","C00149,C00711,C00497",0.0449795567503267,0.83599991149673
+carnitine,Lipid,Carnitine Metabolism,HMDB0000062,"C00487,C00308",0.0449795567503267,0.841811901352612
+galactonate,Carbohydrate,"Fructose, Mannose and Galactose Metabolism",HMDB0000565,"C00880,C15930",0.0449795567503267,0.810266974563453
+3-hydroxy-2-ethylpropionate,Amino Acid,"Leucine, Isoleucine and Valine Metabolism",HMDB0000396,,0.0449795567503267,0.72418571987427
+phenylalanine,Amino Acid,Phenylalanine Metabolism,HMDB0000159,C00079,0.048340802227017,0.850422063978213
+glycerate,Carbohydrate,"Glycolysis, Gluconeogenesis, and Pyruvate Metabolism","HMDB0000139,HMDB0006372",C00258,0.048340802227017,0.893630730317974
+propionylcarnitine (C3),Lipid,Fatty Acid Metabolism (also BCAA Metabolism),HMDB0000824,C03017,0.048340802227017,0.796326238042649
+1-ribosyl-imidazoleacetate*,Amino Acid,Histidine Metabolism,HMDB0002331,C05131,0.048340802227017,0.866420052675264
+1-(1-enyl-palmitoyl)-2-oleoyl-GPC (P-16:0/18:1)*,Lipid,Plasmalogen,HMDB0007996,,0.048340802227017,0.712117307483886
+X-19438,,,,,0.048492140886425,0.655511912279235
+ribitol,Carbohydrate,Pentose Metabolism,"HMDB0002917,HMDB0001851,HMDB0000568,HMDB0000508","C00379,C01904,C00474,C00532",0.050459731742408,1.17972941597229
+beta-hydroxyisovalerate,Amino Acid,"Leucine, Isoleucine and Valine Metabolism",HMDB0000754,,0.0519047405544734,0.826507237239057
+1-methyl-5-imidazoleacetate,Amino Acid,Histidine Metabolism,HMDB04988,,0.0519047405544734,0.575359028989354
+3-methoxytyramine sulfate,Amino Acid,Tyrosine Metabolism,,,0.0519047405544734,0.874465830450125
+methyl glucopyranoside (alpha + beta),Xenobiotics,Food Component/Plant,HMDB0029965,,0.052703889283173,0.178422012732773
+1-stearoyl-2-arachidonoyl-GPE (18:0/20:4),Lipid,Phosphatidylethanolamine (PE),HMDB0009003,C05210,0.0547426667434207,0.635468919813583
+spermidine,Amino Acid,Polyamine Metabolism,HMDB0001257,C00315,0.0556798382483163,0.809263190137874
+4-methyl-2-oxopentanoate,Amino Acid,"Leucine, Isoleucine and Valine Metabolism",HMDB0000695,C00233,0.0556798382483163,0.820553635278616
+beta-hydroxyisovaleroylcarnitine,Amino Acid,"Leucine, Isoleucine and Valine Metabolism",,,0.0556798382483163,0.847130538024098
+deoxycarnitine,Lipid,Carnitine Metabolism,HMDB0001161,C01181,0.0556798382483163,0.807385084341965
+diacetylspermidine*,Amino Acid,Polyamine Metabolism,HMDB0002172,C03413,0.0556798382483163,0.819026879384278
+S-methylcysteine,Amino Acid,"Methionine, Cysteine, SAM and Taurine Metabolism",HMDB0002108,,0.0560879624169987,0.688390428568711
+acetylcarnitine (C2),Lipid,"Fatty Acid Metabolism (Acyl Carnitine, Short Chain)",HMDB0000201,C02571,0.05967470226334,0.847677180215814
+erythritol,Xenobiotics,Food Component/Plant,HMDB0002994,C00503,0.05967470226334,0.94033344218518
+N1-Methyl-2-pyridone-5-carboxamide,Cofactors and Vitamins,Nicotinate and Nicotinamide Metabolism,HMDB0004193,C05842,0.05967470226334,0.814933891979181
+lysine,Amino Acid,Lysine Metabolism,HMDB0003405,"C00739,C00047",0.0638979734654308,0.873448778589408
+S-methylcysteine sulfoxide,Amino Acid,"Methionine, Cysteine, SAM and Taurine Metabolism",HMDB0029432,,0.0638979734654308,0.521875052263577
+X-24295,,,,,0.064320858845034,0.778689553491187
+octanoylcarnitine (C8),Lipid,"Fatty Acid Metabolism (Acyl Carnitine, Medium Chain)",HMDB0000791,C02838,0.0649211200251559,0.710745972585636
+cholate,Lipid,Primary Bile Acid Metabolism,HMDB0000619,C00695,0.0658454380687378,0.743815296258933
+pentose acid*,Partially Characterized Molecules,Partially Characterized Molecules,HMDB0000892,C00803,0.0674581028866169,0.661004756358798
+methionine,Amino Acid,"Methionine, Cysteine, SAM and Taurine Metabolism",HMDB0000696,C00073,0.0683584004993759,0.872579050734284
+"sphingomyelin (d18:1/24:1, d18:2/24:0)*",Lipid,Sphingomyelins,HMDB0012107,,0.0683584004993759,0.835055885155044
+kynurenate,Amino Acid,Tryptophan Metabolism,HMDB0000715,C01717,0.068441844620225,0.704933718906941
+citrulline,Amino Acid,Urea cycle; Arginine and Proline Metabolism,HMDB0000904,C00327,0.0730647289524048,0.816877413157572
+N-acetylneuraminate,Carbohydrate,Aminosugar Metabolism,HMDB0000230,C00270,0.0730647289524048,0.832088044487055
+gamma-glutamylvaline,Peptide,Gamma-glutamyl Amino Acid,HMDB0011172,,0.0730647289524048,0.728370918340939
+1-palmitoyl-GPC (16:0),Lipid,Lysophospholipid,HMDB0010382,C04102,0.0730647289524048,0.728842469371182
+1-oleoyl-GPC (18:1),Lipid,Lysophospholipid,HMDB0002815,C03916,0.0730647289524048,0.738181139140314
+tryptophan betaine,Amino Acid,Tryptophan Metabolism,HMDB0061115,C09213,0.07330506034196,0.761098648665245
+glycine,Amino Acid,"Glycine, Serine and Threonine Metabolism",HMDB0000123,C00037,0.0780257694543336,0.839725068774104
+X-15674,,,,,0.0780257694543336,0.789666948945037
+ergothioneine,Xenobiotics,Food Component/Plant,HMDB0003045,C05570,0.078142444021667,0.615220600580805
+5-methyltetrahydrofolate (5MeTHF),Cofactors and Vitamins,Folate Metabolism,HMDB0001396,C00440,0.0818364467330601,0.830593882605422
+X-11299,,,,,0.0826782606974028,0.652504097720104
+glutarylcarnitine (C5-DC),Amino Acid,Lysine Metabolism,HMDB0013130,,0.0831859661604931,0.638283159809849
+serine,Amino Acid,"Glycine, Serine and Threonine Metabolism",HMDB0000187,C00065,0.0832502895512138,0.87045022234256
+threonate,Cofactors and Vitamins,Ascorbate and Aldarate Metabolism,"HMDB0062620,HMDB0000943",C01620,0.0832502895512138,0.915791021990017
+gamma-glutamylleucine,Peptide,Gamma-glutamyl Amino Acid,HMDB0011171,,0.0858827332542511,0.751666315347437
+3-carboxy-4-methyl-5-pentyl-2-furanpropionate (3-CMPFP)**,Lipid,"Fatty Acid, Dicarboxylate",HMDB0061643,,0.0865203669605532,0.741850835559997
+ascorbate (Vitamin C),Cofactors and Vitamins,Ascorbate and Aldarate Metabolism,HMDB0000044,"D00018,C00072",0.0887470806936371,0.809699675644657
+proline,Amino Acid,Urea cycle; Arginine and Proline Metabolism,"HMDB0000162,HMDB0003411","C00148,C000763",0.0887470806936371,0.636116418604422
+taurine,Amino Acid,"Methionine, Cysteine, SAM and Taurine Metabolism",HMDB0000251,C00245,0.0887470806936371,0.890883945421075
+"1,5-anhydroglucitol (1,5-AG)",Carbohydrate,"Glycolysis, Gluconeogenesis, and Pyruvate Metabolism",HMDB0002712,C07326,0.0887470806936371,0.769566500295148
+4-hydroxybutyrate (GHB),Lipid,"Fatty Acid, Monohydroxy",HMDB0000710,C00989,0.0887470806936371,0.759907317222151
+carboxyethyl-GABA,Amino Acid,Glutamate Metabolism,HMDB0002201,,0.0887470806936371,0.869414421813292
+X-21286,,,,,0.0887470806936371,0.640281475091361
+X-12026,,,,,0.0901644681595414,0.741996573366146
+"1,3-propanediol",Xenobiotics,Chemical,,C02457,0.0932401804092636,1.66096963033922
+2-aminoheptanoate,Lipid,"Fatty Acid, Amino",HMDB0094649,,0.094177060334682,0.709448726574705
+leucine,Amino Acid,"Leucine, Isoleucine and Valine Metabolism",HMDB0000687,C00123,0.0945248398953635,0.83653437815009
+oxalate (ethanedioate),Cofactors and Vitamins,Ascorbate and Aldarate Metabolism,HMDB0002329,C00209,0.0945248398953635,0.883670788876027
+N-acetylhistidine,Amino Acid,Histidine Metabolism,HMDB0032055,C02997,0.0945248398953635,0.820829693387158
+glycerophosphoinositol*,Lipid,Phospholipid Metabolism,,,0.0945248398953635,0.86407969390555
+3-amino-2-piperidone,Amino Acid,Urea cycle; Arginine and Proline Metabolism,HMDB0000323,,0.0945248398953635,0.96504868609419
+X-12906,,,,,0.0945248398953635,0.778509160693064
+X-12015,,,,,0.0960740163741662,0.909453559010639
+betonicine,Xenobiotics,Food Component/Plant,HMDB0029412,C08269,0.0995176304357646,0.363432321761019
+X-25217,,,,,0.0998351226068082,0.292924782080899
+alpha-ketoglutarate,Energy,TCA Cycle,HMDB0000208,C00026,0.1005922431147,0.901798562695631
+cysteine,Amino Acid,"Methionine, Cysteine, SAM and Taurine Metabolism",HMDB0000574,C00097,0.1005922431147,0.852893504702597
+uracil,Nucleotide,"Pyrimidine Metabolism, Uracil containing",HMDB0000300,C00106,0.1005922431147,0.873967391268986
+N-acetylglutamate,Amino Acid,Glutamate Metabolism,HMDB0001138,C00624,0.1005922431147,0.85144139077116
+quinate,Xenobiotics,Food Component/Plant,HMDB0003072,C00296,0.105307156105143,0.55276736255578
+citrate,Energy,TCA Cycle,HMDB0000094,C00158,0.106957824550471,0.877651675481859
+7-alpha-hydroxy-3-oxo-4-cholestenoate (7-Hoca),Lipid,Sterol,HMDB0012458,C17337,0.106957824550471,0.891582748803314
+"2S,3R-dihydroxybutyrate",Lipid,"Fatty Acid, Dihydroxy",HMDB0002453,,0.106957824550471,0.851979550508602
+"N,N,N-trimethyl-5-aminovalerate",Amino Acid,Lysine Metabolism,,,0.106957824550471,0.744678163237497
+2-aminophenol sulfate,Xenobiotics,Food Component/Plant,HMDB0061116,,0.112306713884946,0.465701124316941
+"sphingomyelin (d18:2/16:0, d18:1/16:1)*",Lipid,Sphingomyelins,"HMDB0240638,HMDB0240613",,0.112498761387783,0.770015646735393
+acetoacetate,Lipid,Ketone Bodies,HMDB0000060,C00164,0.112695802389384,0.856191000477246
+"glutamate, gamma-methyl ester",Amino Acid,Glutamate Metabolism,HMDB0061715,,0.112814001936364,0.830916092847345
+methionine sulfoxide,Amino Acid,"Methionine, Cysteine, SAM and Taurine Metabolism",HMDB0002005,C02989,0.113630042518485,0.774191950276179
+glucuronate,Carbohydrate,Aminosugar Metabolism,HMDB0000127,C16245,0.113630042518485,0.891341222370195
+thymol sulfate,Xenobiotics,Food Component/Plant,HMDB0062720,C09908,0.115202979252194,0.334294223880326
+X-23587,,,,,0.118581545203746,0.724606780749953
+alpha-tocopherol,Cofactors and Vitamins,Tocopherol Metabolism,HMDB0001893,C02477,0.120617162221996,0.874727571529031
+cysteine-glutathione disulfide,Amino Acid,Glutathione Metabolism,HMDB0000656,R00900,0.126775367185376,1.31961576162302
+ornithine,Amino Acid,Urea cycle; Arginine and Proline Metabolism,HMDB0000214,C00077,0.127927321419709,0.853458230697589
+glutamine_degradant*,Partially Characterized Molecules,Partially Characterized Molecules,,,0.127927321419709,0.725079637955472
+arabonate/xylonate,Carbohydrate,Pentose Metabolism,HMDB0000539,"C00502,C05411",0.127927321419709,0.796289985327618
+"N2-acetyl,N6-methyllysine",Amino Acid,Lysine Metabolism,,,0.132003115849911,0.530035990745402
+N6-acetyllysine,Amino Acid,Lysine Metabolism,HMDB0000206,C02727,0.133581889360748,0.802973923444109
+p-cresol sulfate,Xenobiotics,Benzoate Metabolism,HMDB0011635,,0.135568405552344,0.685284509006081
+X-16580,,,,,0.139771970535823,0.79775121530595
+"sphingomyelin (d18:1/22:1, d18:2/22:0, d16:1/24:1)*",Lipid,Sphingomyelins,HMDB0012104,,0.141696895159349,0.744685346408607
+gamma-glutamylcitrulline*,Peptide,Gamma-glutamyl Amino Acid,,,0.142085848929864,0.709579757403216
+xanthine,Nucleotide,"Purine Metabolism, (Hypo)Xanthine/Inosine containing",HMDB0000292,C00385,0.143548119108811,0.931538291223588
+1-palmitoyl-2-linoleoyl-GPC (16:0/18:2),Lipid,Phosphatidylcholine (PC),HMDB0007973,,0.143548119108811,0.775424302436021
+chiro-inositol,Lipid,Inositol Metabolism,HMDB0240209,C19891,0.144924160830379,0.461005885847492
+mannose,Carbohydrate,"Fructose, Mannose and Galactose Metabolism",HMDB0000169,"C00159,C02209,C00936",0.151873859015534,0.919706443272631
+homostachydrine*,Xenobiotics,Food Component/Plant,HMDB0033433,C08283,0.154262665695457,2.02180779919259
+1-stearoyl-2-arachidonoyl-GPI (18:0/20:4),Lipid,Phosphatidylinositol (PI),HMDB0009815,,0.157504632491475,0.837670716869102
+3-phenylpropionate (hydrocinnamate),Xenobiotics,Benzoate Metabolism,HMDB0000764,C05629,0.159741548032789,0.847571326422606
+3-carboxy-4-methyl-5-propyl-2-furanpropanoate (CMPF),Lipid,"Fatty Acid, Dicarboxylate",HMDB0061112,,0.160410542825265,0.470316129189685
+N-acetylglucosaminylasparagine,Carbohydrate,Aminosugar Metabolism,HMDB0000489,C04540,0.16055277919261,0.870215165926161
+1-palmitoyl-2-oleoyl-GPC (16:0/18:1),Lipid,Phosphatidylcholine (PC),HMDB0007972,C13875,0.16055277919261,0.862645505647294
+3-hydroxydecanoate,Lipid,"Fatty Acid, Monohydroxy",HMDB0002203,,0.16055277919261,1.10466640349732
+palmitoyl sphingomyelin (d18:1/16:0),Lipid,Sphingomyelins,HMDB0010169,,0.16055277919261,0.866074192839044
+2-O-methylascorbic acid,Cofactors and Vitamins,Ascorbate and Aldarate Metabolism,HMDB0240294,,0.16055277919261,0.858311386413144
+hydroxyasparagine**,Amino Acid,Alanine and Aspartate Metabolism,HMDB32332,C20631,0.16055277919261,0.835868097796327
+N-acetyl-2-aminoadipate,Amino Acid,Lysine Metabolism,,C12986,0.16055277919261,0.896306877480791
+isocitrate,Energy,TCA Cycle,HMDB0001874,C00451,0.16293705020488,0.712361247588187
+X-23644,,,,,0.167409870357902,1.01326476829599
+"1,2-dipalmitoyl-GPC (16:0/16:0)",Lipid,Phosphatidylcholine (PC),HMDB0000564,D03585,0.169591670961614,0.866162901571806
+"hydroxy-N6,N6,N6-trimethyllysine*",Amino Acid,Lysine Metabolism,,,0.169591670961614,0.75310473119463
+X-11795,,,,,0.169591670961614,0.66479963150766
+1-methyl-4-imidazoleacetate,Amino Acid,Histidine Metabolism,HMDB0002820,C05828,0.176038252544553,0.791978995716526
+chenodeoxycholate,Lipid,Primary Bile Acid Metabolism,HMDB0000518,C02528,0.177225027633674,0.581270873125899
+fructose,Carbohydrate,"Fructose, Mannose and Galactose Metabolism",HMDB0000660,C00095,0.178997026906858,0.890491091969107
+tartronate (hydroxymalonate),Xenobiotics,Food Component/Plant,HMDB0035227,C02287,0.178997026906858,0.883831793778434
+cysteinylglycine disulfide*,Amino Acid,Glutathione Metabolism,HMDB0000709,,0.178997026906858,0.855998499968905
+X-13684,,,,,0.178997026906858,0.764232306327441
+N-acetylcarnosine,Amino Acid,Histidine Metabolism,HMDB0012881,,0.179381428098633,0.766976344910192
+"cis-3,4-methyleneheptanoate",Lipid,"Fatty Acid, Branched",,,0.185893921419276,0.847259095017646
+3-methylcytidine,Nucleotide,"Pyrimidine Metabolism, Cytidine containing",HMDB0240577,,0.187415011626794,0.72149025542793
+glycerol,Lipid,Glycerolipid Metabolism,HMDB0000131,C00116,0.188774913917266,0.589752677383863
+gulonate*,Cofactors and Vitamins,Ascorbate and Aldarate Metabolism,HMDB0003290,C00800,0.188774913917266,0.817781157593479
+1-stearoyl-2-docosahexaenoyl-GPC (18:0/22:6),Lipid,Phosphatidylcholine (PC),HMDB0008057,,0.191165318914562,0.844020054139072
+2'-deoxycytidine,Nucleotide,"Pyrimidine Metabolism, Cytidine containing",HMDB0000014,C00881,0.196347422098615,0.832299001035561
+hypoxanthine,Nucleotide,"Purine Metabolism, (Hypo)Xanthine/Inosine containing",HMDB0000157,C00262,0.198931044552546,0.88516452325283

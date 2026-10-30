@@ -1,0 +1,237 @@
+CSF metabolomics: (38, 445) {0.0: {'HV': 10, 'PI-ME/CFS': 7}, 1.0: {'HV': 11, 'PI-ME/CFS': 10}}
+
+Per-sample median log2 level: HV 0.117, PI -0.170, MWU p=0.0008175
+Median per-metabolite log2FC (PI-HV): -0.322; fraction of metabolites lower in PI: 0.94
+Binomial test on direction: 1.9892073604887392e-92
+all: n tests 445, p<0.05 194, q<0.05 80, q<0.10 178
+all_mediannorm: n tests 445, p<0.05 50, q<0.05 8, q<0.10 12
+female: n tests 445, p<0.05 81, q<0.05 1, q<0.10 1
+male: n tests 445, p<0.05 88, q<0.05 1, q<0.10 1
+
+SD14A rows: 142 | listed adjusted p monotone increasing in row order: True | rows where listed adj p < listed p (impossible for BH): 70
+SD14A metabolites with our BH q<0.05 (all 445 tested): 37 of 142
+
+=== lead metabolites in CSF (log2FC PI vs HV; q = BH over all 445) ===
+                      family                                            metabolite  log2FC_all  p_all  q_all  log2FC_all_mediannorm  p_all_mediannorm  log2FC_male  p_male
+0          tryptophan/indole                                5-hydroxyindoleacetate      -0.554  0.000  0.022                 -0.228             0.073       -0.394   0.230
+1          tryptophan/indole                                            kynurenate      -0.633  0.078  0.153                 -0.307             0.561       -0.013   0.962
+2          tryptophan/indole                                            tryptophan      -0.289  0.019  0.065                  0.037             0.977       -0.422   0.019
+3          tryptophan/indole                                            picolinate      -0.859  0.000  0.019                 -0.533             0.009       -0.820   0.109
+4          tryptophan/indole                                          anthranilate      -0.049  0.954  0.967                  0.277             0.170       -0.130   1.000
+5          tryptophan/indole                                            kynurenine      -0.596  0.000  0.019                 -0.269             0.009       -0.582   0.019
+6          tryptophan/indole                                         indolelactate      -0.404  0.018  0.062                 -0.078             0.663       -0.213   0.364
+7          tryptophan/indole                                     3-indoxyl sulfate      -0.297  0.504  0.587                  0.029             1.000       -0.275   0.475
+8          tryptophan/indole                                         indoleacetate      -0.294  0.308  0.389                  0.032             0.794       -0.074   0.887
+9          tryptophan/indole                                    tryptophan betaine      -1.275  0.073  0.146                 -0.949             0.170       -1.633   0.070
+10         tryptophan/indole                                  C-glycosyltryptophan      -0.346  0.011  0.053                 -0.019             0.862       -0.435   0.088
+11    catecholamine/tyrosine                                   homovanillate (HVA)      -0.408  0.010  0.051                 -0.081             0.706       -0.312   0.315
+12    catecholamine/tyrosine                            3-(4-hydroxyphenyl)lactate      -0.493  0.004  0.035                 -0.167             0.170       -0.344   0.193
+13    catecholamine/tyrosine                                         phenylalanine      -0.239  0.048  0.111                  0.088             0.352       -0.347   0.133
+14    catecholamine/tyrosine                                              tyrosine      -0.387  0.015  0.059                 -0.061             0.622       -0.347   0.193
+15    catecholamine/tyrosine                               4-hydroxyphenylpyruvate      -0.152  0.432  0.519                  0.174             0.352        0.088   0.669
+16    catecholamine/tyrosine                                     3-methoxytyrosine      -0.370  0.012  0.055                 -0.043             0.642       -0.566   0.033
+17    catecholamine/tyrosine                                      catechol sulfate      -1.498  0.005  0.037                 -1.172             0.018       -0.958   0.270
+18    catecholamine/tyrosine                              4-methylcatechol sulfate      -0.744  0.000  0.019                 -0.417             0.128       -0.631   0.033
+19    catecholamine/tyrosine                             3-methoxytyramine sulfate      -0.190  0.052  0.117                  0.137             0.322       -0.234   0.161
+20    catecholamine/tyrosine                                  dopamine 3-O-sulfate      -0.312  0.399  0.486                  0.015             0.728       -0.244   0.740
+21      ketones/FA oxidation                              3-hydroxybutyrate (BHBA)      -0.381  0.026  0.076                 -0.054             0.308       -0.553   0.133
+22      ketones/FA oxidation                                          acetoacetate      -0.280  0.114  0.189                  0.046             0.977       -0.397   0.536
+23      ketones/FA oxidation                                              glycerol      -0.354  0.189  0.273                 -0.027             0.685       -0.614   0.230
+24      ketones/FA oxidation                                             carnitine      -0.263  0.045  0.106                  0.064             0.523       -0.318   0.025
+25      ketones/FA oxidation                                    3-hydroxyoctanoate      -0.367  0.006  0.041                 -0.040             0.750       -0.360   0.133
+26      ketones/FA oxidation                                  acetylcarnitine (C2)      -0.278  0.060  0.127                  0.048             1.000       -0.245   0.315
+27      ketones/FA oxidation                                    3-hydroxydecanoate       0.132  0.161  0.242                  0.458             0.002        0.249   0.133
+28      ketones/FA oxidation                              isobutyrylcarnitine (C4)      -0.627  0.003  0.033                 -0.301             0.114       -0.511   0.088
+29      ketones/FA oxidation                               propionylcarnitine (C3)      -0.369  0.048  0.111                 -0.043             0.581       -0.308   0.315
+30      ketones/FA oxidation  3-carboxy-4-methyl-5-propyl-2-furanpropanoate (CMPF)      -0.807  0.179  0.260                 -0.481             0.523       -0.066   0.962
+31      ketones/FA oxidation                                octanoylcarnitine (C8)      -0.468  0.078  0.153                 -0.141             0.794       -0.292   0.475
+32      ketones/FA oxidation                              isovalerylcarnitine (C5)      -0.059  0.685  0.743                  0.267             0.467       -0.183   0.740
+33      ketones/FA oxidation                                      malonylcarnitine      -0.269  0.308  0.389                  0.058             0.750        0.076   0.813
+34      ketones/FA oxidation                             glutarylcarnitine (C5-DC)      -0.562  0.083  0.160                 -0.236             0.542       -0.712   0.161
+35      ketones/FA oxidation                      beta-hydroxyisovaleroylcarnitine      -0.238  0.056  0.120                  0.088             0.209       -0.206   0.193
+36      ketones/FA oxidation                             tiglylcarnitine (C5:1-DC)      -0.530  0.005  0.037                 -0.203             0.161       -0.351   0.270
+37      ketones/FA oxidation        7-alpha-hydroxy-3-oxo-4-cholestenoate (7-Hoca)      -0.180  0.107  0.183                  0.146             0.685       -0.057   0.475
+38      ketones/FA oxidation                                        deoxycarnitine      -0.310  0.056  0.120                  0.017             1.000       -0.314   0.161
+39      ketones/FA oxidation                             succinylcarnitine (C4-DC)      -0.419  0.010  0.051                 -0.093             0.794       -0.357   0.088
+40      ketones/FA oxidation                         3-methylglutarylcarnitine (2)      -0.511  0.010  0.051                 -0.185             0.337       -0.472   0.161
+41      ketones/FA oxidation                              adipoylcarnitine (C6-DC)      -0.372  0.243  0.324                 -0.046             0.601       -0.156   0.962
+42      ketones/FA oxidation                              methylsuccinoylcarnitine       0.023  0.728  0.782                  0.349             0.101       -0.003   0.962
+43      ketones/FA oxidation                             tetradecadienoate (14:2)*      -0.077  0.728  0.782                  0.249             0.256       -0.368   0.364
+44      ketones/FA oxidation      2,3-dihydroxy-5-methylthio-4-pentenoate (DMTPA)*      -0.432  0.002  0.026                 -0.106             0.352       -0.496   0.070
+45        bile acids/sterols                                               cholate      -0.315  0.121  0.197                  0.011             0.322       -0.171   0.740
+46        bile acids/sterols                                           cholesterol      -0.129  0.281  0.363                  0.197             0.068       -0.126   0.601
+47        bile acids/sterols                                          deoxycholate      -0.423  0.294  0.380                 -0.097             0.772       -0.463   0.417
+48        bile acids/sterols                                     chenodeoxycholate      -0.591  0.209  0.293                 -0.265             1.000       -0.070   1.000
+50  microbial co-metabolites                            butyrate/isobutyrate (4:0)      -0.298  0.042  0.102                  0.028             1.000       -0.104   0.601
+51  microbial co-metabolites                   3-phenylpropionate (hydrocinnamate)      -0.203  0.209  0.293                  0.123             0.189       -0.370   0.070
+52  microbial co-metabolites                                         phenylacetate      -0.772  0.002  0.026                 -0.445             0.121       -0.924   0.033
+53  microbial co-metabolites                                             hippurate      -1.228  0.003  0.032                 -0.902             0.010       -0.804   0.133
+54  microbial co-metabolites                                   phenyllactate (PLA)      -0.507  0.000  0.005                 -0.180             0.068       -0.493   0.019
+55  microbial co-metabolites                                      p-cresol sulfate      -0.723  0.136  0.217                 -0.397             0.601       -0.312   0.475
+56  microbial co-metabolites                                        phenol sulfate      -0.169  0.816  0.861                  0.157             0.281       -0.151   0.813
+57  microbial co-metabolites                                trimethylamine N-oxide      -0.402  0.383  0.468                 -0.075             0.885        0.030   0.813
+58  microbial co-metabolites                                 2-aminophenol sulfate      -0.957  0.121  0.197                 -0.631             0.294       -1.319   0.161
+
+CSF log2(kyn/trp): HV 0.10 PI -0.21 MWU p=0.043
+CSF log2(kynurenate/kyn): HV -0.72 PI -0.76 MWU p=0.792
+
+FDR<0.10 after median normalisation:
+                  metabolite  log2FC       d       p       q             set
+315         dimethyl sulfone -1.2748 -2.0030  0.0000  0.0001  all_mediannorm
+420                  X-23195  0.4400  1.4159  0.0002  0.0276  all_mediannorm
+154                  ribitol  0.5839  1.1944  0.0003  0.0276  all_mediannorm
+217         hydroxybupropion  0.4954  0.9771  0.0003  0.0276  all_mediannorm
+299               gabapentin  0.3264  1.2318  0.0005  0.0276  all_mediannorm
+295               ranitidine  0.3264  1.2318  0.0005  0.0276  all_mediannorm
+353               pregabalin  0.3264  1.2318  0.0005  0.0276  all_mediannorm
+128               topiramate  0.3264  1.2318  0.0005  0.0276  all_mediannorm
+322  N-delta-acetylornithine -1.0990 -1.0883  0.0013  0.0653  all_mediannorm
+336               acesulfame  0.2466  0.4759  0.0021  0.0860  all_mediannorm
+182       3-hydroxydecanoate  0.4579  1.1455  0.0023  0.0860  all_mediannorm
+407                  X-13431  0.3057  0.9528  0.0023  0.0860  all_mediannorm
+     sample_id      group  female  median_log2
+0   NINR-00417         HV     0.0     0.223186
+1   NINR-00418         HV     1.0     0.441184
+2   NINR-00419         HV     0.0     0.312921
+3   NINR-00420         HV     1.0    -0.117008
+4   NINR-00421         HV     1.0     0.121380
+5   NINR-00422         HV     0.0    -0.003524
+6   NINR-00423         HV     1.0    -0.172579
+7   NINR-00424         HV     1.0    -0.084871
+8   NINR-00425         HV     0.0     0.262479
+9   NINR-00426         HV     0.0     0.207533
+10  NINR-00427         HV     0.0    -0.010965
+11  NINR-00428         HV     1.0     0.025165
+12  NINR-00429         HV     1.0     0.056146
+13  NINR-00430         HV     0.0     0.130565
+14  NINR-00431         HV     1.0    -0.025582
+15  NINR-00432         HV     1.0    -0.065920
+16  NINR-00433         HV     1.0    -0.594199
+17  NINR-00434         HV     0.0     0.165970
+18  NINR-00435         HV     0.0     0.185421
+19  NINR-00436         HV     0.0     0.265519
+20  NINR-00437         HV     1.0     0.117441
+21  NINR-00438  PI-ME/CFS     1.0     0.000000
+22  NINR-00439  PI-ME/CFS     0.0    -0.057429
+23  NINR-00440  PI-ME/CFS     1.0    -0.383207
+24  NINR-00441  PI-ME/CFS     0.0    -0.097482
+25  NINR-00442  PI-ME/CFS     1.0    -0.075795
+26  NINR-00443  PI-ME/CFS     0.0     0.129666
+27  NINR-00444  PI-ME/CFS     1.0    -0.169739
+28  NINR-00445  PI-ME/CFS     0.0     0.316509
+29  NINR-00446  PI-ME/CFS     1.0    -0.095089
+30  NINR-00447  PI-ME/CFS     1.0    -0.634833
+31  NINR-00448  PI-ME/CFS     1.0    -0.283935
+32  NINR-00449  PI-ME/CFS     0.0    -0.264311
+33  NINR-00450  PI-ME/CFS     1.0    -0.576288
+34  NINR-00451  PI-ME/CFS     0.0    -0.451968
+35  NINR-00452  PI-ME/CFS     1.0    -0.141816
+36  NINR-00453  PI-ME/CFS     1.0    -0.852570
+37  NINR-00454  PI-ME/CFS     0.0    -0.744015
+Spearman sample-number vs median level within PI: SignificanceResult(statistic=np.float64(-0.6838235294117648), pvalue=np.float64(0.0024702894922090136))  within HV: SignificanceResult(statistic=np.float64(-0.13246753246753248), pvalue=np.float64(0.567048530648251))
+
+=== plasma lipid classes ===
+   lipid_class  n_HV  n_PI  median_HV  median_PI  log2_ratio  p_mwu      q
+2          DAG    18    15     25.810     40.013       0.203  0.100  0.928
+12         TAG    18    15   1374.630   1715.626       0.259  0.143  0.928
+4          FFA    18    15    638.639    710.142       0.092  0.416  0.928
+5         HCER    18    15      3.092      3.413       0.035  0.504  0.928
+8          LPE    18    15      7.801      7.602      -0.093  0.504  0.928
+1          CER    18    15      9.408     10.757       0.066  0.504  0.928
+3         DCER    18    15      0.382      0.402       0.106  0.593  0.928
+0           CE    18    15   4435.975   4634.479       0.063  0.651  0.928
+11          SM    18    15   1231.174   1255.217      -0.003  0.678  0.928
+6         LCER    18    15      2.925      3.163      -0.063  0.814  0.928
+10          PE    18    15    147.222    145.612       0.092  0.814  0.928
+7          LPC    18    15    344.113    315.296      -0.032  0.928  0.928
+9           PC    18    15   2297.161   2259.851       0.023  0.928  0.928
+
+lipid species tested 712, p<0.05: 52, q<0.05: 0
+      species lipid_class  log2_ratio      p      q
+73  FFA(20:5)         FFA      -0.192  0.143  0.778
+80  FFA(24:0)         FFA      -0.299  0.199  0.778
+71  FFA(20:3)         FFA      -0.023  0.286  0.781
+76  FFA(22:2)         FFA      -0.067  0.320  0.789
+70  FFA(20:2)         FFA      -0.049  0.320  0.789
+67  FFA(18:4)         FFA      -0.110  0.376  0.821
+66  FFA(18:3)         FFA      -0.244  0.416  0.836
+61  FFA(16:1)         FFA      -0.122  0.416  0.836
+60  FFA(16:0)         FFA       0.028  0.459  0.859
+57  FFA(14:0)         FFA      -0.008  0.459  0.859
+77  FFA(22:4)         FFA      -0.064  0.504  0.868
+79  FFA(22:6)         FFA      -0.127  0.527  0.875
+56  FFA(12:0)         FFA      -0.011  0.575  0.890
+65  FFA(18:2)         FFA      -0.055  0.600  0.900
+75  FFA(22:1)         FFA       0.044  0.704  0.923
+63  FFA(18:0)         FFA       0.024  0.704  0.923
+81  FFA(24:1)         FFA      -0.023  0.704  0.923
+78  FFA(22:5)         FFA      -0.035  0.704  0.923
+64  FFA(18:1)         FFA       0.045  0.731  0.928
+72  FFA(20:4)         FFA      -0.116  0.759  0.939
+68  FFA(20:0)         FFA      -0.046  0.759  0.939
+69  FFA(20:1)         FFA      -0.035  0.786  0.954
+58  FFA(14:1)         FFA       0.003  0.842  0.975
+59  FFA(15:0)         FFA      -0.018  0.957  0.999
+62  FFA(17:0)         FFA      -0.039  0.986  1.000
+74  FFA(22:0)         FFA      -0.080  0.986  1.000
+               n  median_log2_ratio  n_p05
+lipid_class                               
+CE            23             -0.083      3
+CER            6              0.079      0
+DAG           26             -0.249      4
+DCER           1              0.124      0
+FFA           26             -0.043      0
+HCER           5              0.035      2
+LCER           2             -0.097      0
+LPC           15             -0.118      3
+LPE            5              0.044      0
+PC            53             -0.020      3
+PE            51             -0.051      1
+SM            12             -0.036      1
+TAG          487             -0.119     35
+            species lipid_class  log2_ratio       p       q
+590  TAG55:1-FA18:1         TAG     -0.7116  0.0021  0.5651
+661  TAG56:8-FA18:1         TAG     -0.6857  0.0024  0.5651
+655  TAG56:7-FA20:5         TAG     -1.0967  0.0043  0.5651
+665  TAG56:8-FA20:5         TAG     -1.0776  0.0057  0.5651
+35   DAG(16:0/18:0)         DAG     -0.7148  0.0060  0.5651
+643  TAG56:6-FA20:5         TAG     -1.0034  0.0071  0.5651
+609  TAG56:3-FA16:0         TAG     -0.2437  0.0072  0.5651
+296  TAG47:1-FA16:1         TAG     -0.8438  0.0078  0.5651
+670  TAG56:9-FA20:5         TAG     -1.1397  0.0079  0.5651
+109   PC(14:0/16:1)          PC      0.3734  0.0079  0.5651
+
+=== stool NMR ===
+               metabolite  n_HV  n_PI  median_HV  median_PI   p_mwu       q
+14           Hypoxanthine    17    16     0.0682     0.0347  0.0183  0.3126
+28               Tyrosine    17    16     0.1532     0.2037  0.0267  0.3126
+24          Phenylacetate    17    16     0.1999     0.3593  0.0293  0.3126
+27              Threonine    17    16     0.1088     0.1930  0.0456  0.3647
+21             Methionine    17    16     0.1031     0.1289  0.0746  0.4294
+9                 Formate    17    16     0.0165     0.0262  0.0870  0.4294
+18                Leucine    17    16     0.1608     0.2309  0.0939  0.4294
+31                 Valine    17    16     0.1081     0.2011  0.1171  0.4685
+23             Nicotinate    17    16     0.0793     0.0570  0.1446  0.5141
+8                 Ethanol    17    16     0.1789     0.1232  0.1655  0.5295
+12              Glutamate    17    16     0.8020     0.7562  0.2010  0.5529
+1    3-Hydroxyisobutyrate    17    16     0.1953     0.2192  0.2074  0.5529
+22  N-Phenylacetylglycine    17    16     0.0353     0.0588  0.2719  0.6358
+3                 Acetate    17    16     7.4764     5.9440  0.2879  0.6358
+17            Isovalerate    17    16     0.2657     0.3488  0.3219  0.6358
+15            Isobutyrate    17    16     0.3450     0.3668  0.3398  0.6358
+20               Malonate    17    16     0.4642     0.4788  0.3398  0.6358
+25          Phenylalanine    17    16     0.1443     0.1276  0.3583  0.6358
+16             Isoleucine    17    16     0.0966     0.1222  0.3775  0.6358
+7                Butyrate    17    16     2.1095     1.9782  0.4177  0.6364
+26             Propionate    17    16     2.6577     2.0858  0.4177  0.6364
+13               Glycerol    17    16     0.5048     0.6250  0.5284  0.7686
+29                 Uracil    17    16     0.0756     0.0602  0.5766  0.7688
+19                 Lysine    17    16     0.3127     0.4606  0.5766  0.7688
+11                Glucose    17    16     0.7060     0.8394  0.6787  0.8523
+0    2-Hydroxyisovalerate    17    16     0.0646     0.0688  0.7322  0.8523
+30               Valerate    17    16     0.5093     0.4744  0.7322  0.8523
+2    3-Hydroxyisovalerate    17    16     0.2030     0.2108  0.7458  0.8523
+4                 Alanine    17    16     0.1965     0.1845  0.7732  0.8532
+10              Galactose    17    16     0.0903     0.0905  0.8149  0.8570
+5                Arginine    17    16     0.0293     0.0307  0.8380  0.8570
+6               Aspartate    17    16     0.2030     0.1915  0.8570  0.8570

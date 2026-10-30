@@ -1,0 +1,739 @@
+{
+ "domain": "endocrine",
+ "title": "Hormones",
+ "overview": "The most consistent hormone finding in ME/CFS is a mildly under-active stress-hormone (HPA) axis: on average cortisol is slightly low in saliva, urine and hair, and feedback suppression is exaggerated. A 2026 meta-analysis of 46 case-control studies confirms this pattern. The shifts are small, most patients fall inside normal reference ranges, and they may be a consequence of illness, sleep disruption or inactivity rather than a cause. Low-dose hydrocortisone gave at best a small, short-lived benefit with side effects, and fludrocortisone failed in two large trials. Newer leads concern the hormones that hold water and salt in the body: low vasopressin and a 'renin-aldosterone paradox' that would fit the low blood volume seen in many patients. These come from small or uncontrolled studies, and the vasopressin finding is not matched by copeptin, which is the more reliable test. The female preponderance (about 1.5 to 3 times more women) is solid, but genetics shows no sex-specific risk variants, and the role of sex hormones, menopause and gynaecological conditions is still only descriptive.",
+ "findings": [
+  {
+   "id": "endocrine-hpa-low-cortisol",
+   "subdomain": "HPA axis",
+   "finding": "On average, people with ME/CFS have mildly lower free cortisol (salivary awakening and morning cortisol, 24-h urinary cortisol and hair cortisol) than healthy controls.",
+   "grade": "replicated",
+   "plain": "Cortisol is the body's main stress and energy-mobilising hormone. On average it runs a little low in ME/CFS, but the gap is modest and most individual results are still normal.",
+   "detail": "Woo et al. 2026 pooled 46 case-control datasets (1,388 patients, 1,349 controls, 71.9% female) and found lower salivary awakening and morning cortisol, 24-h urinary free cortisol and hair cortisol. Hair cortisol, which reflects about 3 months of exposure, was also lower in a small adolescent study (Vroegindeweij 2024). In the Solving ME/CFS literature tally, 19 groups report lower cortisol and 5 higher. In untargeted plasma metabolomics the signal is weak and inconsistent: Germain 2020 −0.64 SD, Germain 2022 −0.13, BioMapAI −0.05, with men −0.35 (Solving ME/CFS re-analysis). The meta-analysis does not separate cause from effect: sleep disruption, inactivity, illness duration and antidepressant use can all lower cortisol.",
+   "studies": [
+    {
+     "cite": "Woo 2026, Molecular Psychiatry",
+     "n": "46 studies; 1,388 vs 1,349",
+     "design": "systematic review and meta-analysis",
+     "result": "Lower salivary awakening/morning, 24-h urinary and hair cortisol",
+     "url": "https://doi.org/10.1038/s41380-026-03608-1",
+     "verified": true
+    },
+    {
+     "cite": "Vroegindeweij 2024, Psychoneuroendocrinology",
+     "n": "12 ME/CFS, 20 Q-fever fatigue, 8 post-COVID, 19 JIA vs 57 controls",
+     "design": "case-control (LC-MS/MS hair cortisol)",
+     "result": "Lower hair cortisol in fatigued patients than controls",
+     "url": "https://doi.org/10.1016/j.psyneuen.2024.107117",
+     "verified": true
+    },
+    {
+     "cite": "Solving ME/CFS re-analysis (epi_literature tally)",
+     "n": "24 study groups",
+     "design": "vote count of published studies",
+     "result": "19 lower vs 5 higher cortisol",
+     "url": "",
+     "verified": true
+    },
+    {
+     "cite": "Pipper 2024, J Endocrinol Invest",
+     "n": "LC",
+     "design": "cortisol",
+     "result": "low cortisol",
+     "url": "https://doi.org/10.1007/s40618-024-02334-1",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Solving ME/CFS re-analysis of BioMapAI plasma metabolome",
+     "n": "about 236",
+     "design": "case-control re-analysis",
+     "result": "Plasma cortisol −0.05 SD overall (men −0.35, p=0.04)",
+     "url": "https://doi.org/10.1038/s41591-025-03788-3",
+     "verified": true
+    },
+    {
+     "cite": "Thomas 2025, J Transl Med",
+     "n": "ME/CFS",
+     "design": "endocrine panel",
+     "result": "null after FDR",
+     "url": "https://doi.org/10.1186/s12967-025-06841-4",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Is low cortisol present at onset, or does it develop with illness duration and inactivity?",
+    "Does cortisol track PEM or severity within a person over time?",
+    "How much do medication, sleep timing and sampling time explain?"
+   ],
+   "hypotheses": [
+    "hpa-endocrine",
+    "sickness-behaviour"
+   ],
+   "test_available": "Yes: 9am serum cortisol, salivary awakening cortisol, short Synacthen test (mainly to exclude true adrenal insufficiency)"
+  },
+  {
+   "id": "endocrine-hpa-feedback",
+   "subdomain": "HPA axis",
+   "finding": "Challenge tests show a blunted cortisol response to ACTH and exaggerated cortisol suppression after a glucocorticoid dose, consistent with enhanced negative feedback.",
+   "grade": "several",
+   "plain": "When the stress-hormone system is pushed or braked in a test, it responds less to the push and more to the brake than in healthy people.",
+   "detail": "Woo 2026 included 12 pharmacological challenge studies: impaired cortisol release after ACTH stimulation and greater suppression after dexamethasone or hydrocortisone. The pattern resembles the 'hypocortisolism with enhanced feedback' described in PTSD, fibromyalgia and atypical depression, so it is not specific to ME/CFS. Insulin stress tests in the Cleare 1999 trial showed the adrenal glands were not suppressed by low-dose hydrocortisone. POTS patients showed normal adrenal responses to ACTH (Laurin 2023, n=8 vs 5).",
+   "studies": [
+    {
+     "cite": "Woo 2026, Molecular Psychiatry",
+     "n": "12 challenge studies within 46",
+     "design": "meta-analysis",
+     "result": "Impaired ACTH-stimulated cortisol; exaggerated glucocorticoid suppression",
+     "url": "https://doi.org/10.1038/s41380-026-03608-1",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Laurin 2023, Autonomic Neuroscience",
+     "n": "8 POTS vs 5",
+     "design": "ACTH stimulation, low-sodium diet",
+     "result": "Normal aldosterone and cortisol responses in POTS",
+     "url": "https://doi.org/10.1016/j.autneu.2023.103105",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Is the feedback change central (hypothalamus/pituitary) or adrenal?",
+    "Does it differ between infection-onset and gradual-onset cases?"
+   ],
+   "hypotheses": [
+    "hpa-endocrine"
+   ],
+   "test_available": "Research only (dexamethasone suppression or CRH tests); short Synacthen test is clinical"
+  },
+  {
+   "id": "endocrine-longcovid-cortisol",
+   "subdomain": "HPA axis",
+   "finding": "Lower cortisol in long COVID, reported in a 2023 Nature cohort, has not held up in later clinic and cohort studies that controlled for sampling time.",
+   "grade": "contested",
+   "plain": "One high-profile study found low cortisol in long COVID. Later studies that timed the blood draws carefully mostly found normal levels.",
+   "detail": "Klein 2023 (n=275) reported lower cortisol in long COVID among other immune features. Dalhuisen 2024 (UCSF, n=200, banked 8am–12pm samples) found no overall difference (median 8.9 vs 8.8 µg/dL). Its sub-hour analyses were inconsistent: lower at 8–9am but higher at 9–10am in the ME/CFS-like group. Quach 2025 (Stanford clinic, n=86, 5–10am) found only 1 low value; 36% were above range. Camici 2026 (Rome, n=96) found normal blood cortisol but flattened salivary rhythms. Post-COVID controls without symptoms showed the same salivary pattern, so the change may follow infection rather than long COVID itself.",
+   "studies": [
+    {
+     "cite": "Klein 2023, Nature",
+     "n": "275 total",
+     "design": "cross-sectional immune profiling",
+     "result": "Cortisol lower in long COVID",
+     "url": "https://doi.org/10.1038/s41586-023-06651-y",
+     "verified": true
+    },
+    {
+     "cite": "Camici 2026, Front Cell Infect Microbiol",
+     "n": "83 LC, 13 recovered, controls",
+     "design": "case-control salivary profile",
+     "result": "Reduced morning salivary cortisol, flattened rhythm; blood cortisol not different; ACTH higher",
+     "url": "https://doi.org/10.3389/fcimb.2025.1690698",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Dalhuisen 2024, medRxiv",
+     "n": "144 LC vs 56 recovered",
+     "design": "cross-sectional, banked plasma",
+     "result": "No overall difference in morning cortisol",
+     "url": "https://doi.org/10.1101/2024.11.07.24316777",
+     "verified": true
+    },
+    {
+     "cite": "Quach 2025, Biomedicines",
+     "n": "86",
+     "design": "retrospective clinic series",
+     "result": "Low morning cortisol in 1.2%; 36% elevated",
+     "url": "https://doi.org/10.3390/biomedicines13112636",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Do serial or salivary measurements in long COVID with PEM reproduce the ME/CFS pattern?",
+    "Is the change post-infectious and non-specific?"
+   ],
+   "hypotheses": [
+    "hpa-endocrine"
+   ],
+   "test_available": "Yes: timed morning cortisol; salivary diurnal profile (private labs)"
+  },
+  {
+   "id": "endocrine-hydrocortisone-trials",
+   "subdomain": "HPA axis treatment",
+   "finding": "Low-dose hydrocortisone produced at most small, short-term fatigue benefits in two RCTs, at the cost of adrenal suppression and bone loss at higher doses.",
+   "grade": "contested",
+   "plain": "Replacing some cortisol was tried in the 1990s. The effect was small, side effects were real, and it is not recommended.",
+   "detail": "McKenzie 1998 (JAMA, n=70, 25–35 mg/day for 12 weeks): global wellness responders 66.7% vs 54.3% (p=0.31). A secondary 5-point improvement was 53% vs 29% (p=0.04), but cosyntropin tests showed adrenal suppression. A sub-study (n=23) found lumbar spine bone density fell 2.0% on hydrocortisone. Cleare 1999 (Lancet, n=32 crossover, 5–10 mg for 1 month) found fatigue fell 4.5 points more than on placebo; 28% vs 9% reached normal-range fatigue. The trial was short, strictly selected (no psychiatric comorbidity) and never replicated. Blockmans 2003 (n=100 crossover, hydrocortisone 5 mg plus fludrocortisone 50 µg for 3 months) was null.",
+   "studies": [
+    {
+     "cite": "Cleare 1999, Lancet",
+     "n": "32 (crossover)",
+     "design": "RCT crossover",
+     "result": "Fatigue reduced vs placebo (paired difference 4.5 points, p=0.009)",
+     "url": "https://doi.org/10.1016/s0140-6736(98)04074-4",
+     "verified": true
+    },
+    {
+     "cite": "McKenzie 1998, JAMA",
+     "n": "70",
+     "design": "RCT",
+     "result": "Primary outcome ns (p=0.31); adrenal suppression",
+     "url": "https://doi.org/10.1001/jama.280.12.1061",
+     "verified": true
+    },
+    {
+     "cite": "McKenzie 2000 (BMD sub-study of the 1998 trial)",
+     "n": "23",
+     "design": "RCT sub-study",
+     "result": "Lateral spine BMD −2.0% on hydrocortisone",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/10990237/",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Blockmans 2003, Am J Med",
+     "n": "100 (80 completed)",
+     "design": "RCT crossover, hydrocortisone + fludrocortisone",
+     "result": "No difference in fatigue or well-being",
+     "url": "https://doi.org/10.1016/s0002-9343(03)00182-7",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Would a subgroup with objectively low cortisol or blunted Synacthen response benefit?",
+    "No modern trial has used PEM-based criteria."
+   ],
+   "hypotheses": [
+    "hpa-endocrine"
+   ],
+   "test_available": "Not applicable (treatment); not recommended outside proven adrenal insufficiency"
+  },
+  {
+   "id": "endocrine-fludrocortisone-null",
+   "subdomain": "Salt-retaining hormones (treatment)",
+   "finding": "Fludrocortisone, a synthetic salt-retaining steroid, did not improve CFS with neurally mediated hypotension in a 100-person RCT, and failed again in combination with hydrocortisone.",
+   "grade": "refuted",
+   "plain": "A drug that makes the kidneys hold salt and water was expected to help low blood pressure on standing. In proper trials it did not help overall.",
+   "detail": "Rowe 2001 (JAMA, n=100, tilt-positive neurally mediated hypotension, 0.1 mg/day for 9 weeks): ≥15-point wellness improvement in 14% vs 10% (p=0.76). Blockmans 2003 (n=100) found no effect of hydrocortisone plus fludrocortisone. Small open series in POTS still report individual responders, and the trials did not select for measured hypovolaemia or low aldosterone.",
+   "studies": [
+    {
+     "cite": "Rowe 2001, JAMA",
+     "n": "100",
+     "design": "RCT",
+     "result": "No benefit (14% vs 10% responders)",
+     "url": "https://doi.org/10.1001/jama.285.1.52",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "open_questions": [
+    "Would patients selected for low aldosterone or measured low plasma volume respond?"
+   ],
+   "hypotheses": [
+    "low-blood-volume-preload",
+    "hpa-endocrine"
+   ],
+   "test_available": "Not applicable (treatment)"
+  },
+  {
+   "id": "endocrine-adrenal-pituitary-minority",
+   "subdomain": "Adrenal and pituitary disease",
+   "finding": "Diagnosed adrenal insufficiency and hypopituitarism are 7 to 13 times more common than expected among Finnish patients coded with postviral fatigue syndrome.",
+   "grade": "early",
+   "plain": "A small minority of people labelled ME/CFS may have a real, treatable gland failure. That makes basic hormone screening worthwhile.",
+   "detail": "In Finnish registry data (FinRegistry about 1,622 G93.3 cases, FinnGen 348), the crude observed/expected ratio is 9.5–13 for adrenal insufficiency and 6.7–7.6 for hypopituitarism. Hydrocortisone and fludrocortisone prescriptions are enriched 11–62x (Solving ME/CFS re-analysis of Risteys). These figures are not adjusted for age or sex and are inflated by healthcare use. They may reflect misdiagnosis, a true subgroup, or steroid treatment causing adrenal suppression. Case reports describe isolated ACTH and GH deficiency first labelled as CFS, which improved with hydrocortisone (Tokumasu 2021).",
+   "studies": [
+    {
+     "cite": "Solving ME/CFS re-analysis (FinnGen/FinRegistry Risteys)",
+     "n": "about 1,622 and 348 cases",
+     "design": "registry co-occurrence (O/E)",
+     "result": "Adrenal insufficiency O/E 9.5–13; hypopituitarism 6.7–7.6",
+     "url": "",
+     "verified": true
+    },
+    {
+     "cite": "Tokumasu 2021, BMJ Case Reports",
+     "n": "1",
+     "design": "case report",
+     "result": "Idiopathic ACTH + GH deficiency mimicking CFS",
+     "url": "https://doi.org/10.1136/bcr-2021-244861",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "open_questions": [
+    "What fraction of a well-phenotyped ME/CFS cohort fails a Synacthen test?",
+    "Is this misdiagnosis, a subgroup, or a treatment effect?"
+   ],
+   "hypotheses": [
+    "hpa-endocrine",
+    "pituitary-adh"
+   ],
+   "test_available": "Yes: 9am cortisol, ACTH, short Synacthen test; pituitary panel if indicated"
+  },
+  {
+   "id": "endocrine-low-vasopressin",
+   "subdomain": "Water balance (ADH/vasopressin)",
+   "finding": "After overnight fluid deprivation, plasma vasopressin was undetectable in 82% of 111 Swedish ME/CFS patients despite high plasma osmolality in 57%, suggesting partial central diabetes insipidus-like physiology.",
+   "grade": "early",
+   "plain": "Vasopressin (ADH) is the hormone that tells the kidneys to keep water. Some patients appear to make too little of it even when their blood is concentrated, which could worsen low blood volume.",
+   "detail": "Huhmar 2025 was a consecutive, uncontrolled clinic series (n=124). Urine osmolality was below 750 mOsm/kg in 66%. In the 13 patients tested with copeptin, which is a more stable marker of vasopressin secretion, all values were within the reference range, though at the low end. Brain MRI showed no hypothalamic or pituitary lesions. Miwa 2016 (18 vs 15) found ADH 2.2 vs 3.3 pg/mL (p=0.02) alongside lower aldosterone and small hearts. In open label use, desmopressin improved orthostatic symptoms in 5 of 10 patients. Vasopressin immunoassays are unreliable, and the normal copeptin results argue for caution.",
+   "studies": [
+    {
+     "cite": "Huhmar 2025, Endocrine Practice",
+     "n": "124 (111 vasopressin, 13 copeptin)",
+     "design": "observational, uncontrolled",
+     "result": "Vasopressin undetectable in 82%; copeptin normal-low",
+     "url": "https://doi.org/10.1016/j.eprac.2025.12.020",
+     "verified": true
+    },
+    {
+     "cite": "Miwa 2016, J Cardiology",
+     "n": "18 vs 15",
+     "design": "case-control",
+     "result": "Lower ADH (p=0.02) and aldosterone (p=0.004)",
+     "url": "https://doi.org/10.1016/j.jjcc.2016.06.003",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Huhmar 2025 copeptin subset",
+     "n": "13",
+     "design": "observational",
+     "result": "All copeptin values within reference range",
+     "url": "https://doi.org/10.1016/j.eprac.2025.12.020",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Does a controlled water-deprivation or hypertonic saline copeptin test confirm low vasopressin?",
+    "Does low vasopressin predict desmopressin response?",
+    "Is it central (hypothalamic) or due to altered osmoreceptor input?"
+   ],
+   "hypotheses": [
+    "pituitary-adh",
+    "low-blood-volume-preload"
+   ],
+   "test_available": "Yes: copeptin with paired plasma and urine osmolality (fasting); formal water deprivation or hypertonic saline test via endocrinology"
+  },
+  {
+   "id": "endocrine-renin-aldosterone-paradox",
+   "subdomain": "Renin-angiotensin-aldosterone",
+   "finding": "Patients with POTS and with ME/CFS show normal or low renin and low aldosterone despite reduced blood volume (the 'renin-aldosterone paradox').",
+   "grade": "several",
+   "plain": "When blood volume is low, the kidneys should release renin and the adrenals aldosterone to retain salt. In POTS and ME/CFS this response seems muted.",
+   "detail": "Raj 2005 (POTS 15 vs 14, iodine-131 albumin) found a plasma volume deficit of 334 vs 10 mL with unchanged renin activity and aldosterone of 190 vs 380 pmol/L (p=0.017). Miwa 2016 (ME 18 vs 15) found aldosterone 104 vs 157 pg/mL (p=0.004) and renin activity 1.6 vs 2.5 (p=0.06). The adrenal glands respond normally to ACTH in POTS (Laurin 2023), so the defect is upstream of the adrenal. In SomaScan and Olink proteomics, renin, ACE and BNP show no group difference (Solving ME/CFS re-analysis), but those assays measure protein abundance, not posture-stimulated activity.",
+   "studies": [
+    {
+     "cite": "Raj 2005, Circulation",
+     "n": "15 vs 14",
+     "design": "case-control (POTS)",
+     "result": "Low aldosterone, unchanged renin despite hypovolaemia",
+     "url": "https://doi.org/10.1161/01.cir.0000160356.97313.5d",
+     "verified": true
+    },
+    {
+     "cite": "Miwa 2016, J Cardiology",
+     "n": "18 vs 15",
+     "design": "case-control (ME)",
+     "result": "Lower aldosterone and borderline lower renin",
+     "url": "https://doi.org/10.1016/j.jjcc.2016.06.003",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Solving ME/CFS re-analysis (deep2 proteome)",
+     "n": "3 SomaScan cohorts + UKB",
+     "design": "re-analysis",
+     "result": "Renin, ACE, BNP, EPO, hepcidin not different at rest",
+     "url": "",
+     "verified": true
+    },
+    {
+     "cite": "Zhang 2025, Vasc Health Risk Manag",
+     "n": "65 vs 65 children (POTS)",
+     "design": "case-control",
+     "result": "Angiotensin II slightly higher in paediatric POTS",
+     "url": "https://doi.org/10.2147/vhrm.s553129",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Are supine/upright renin and aldosterone low in PEM-defined ME/CFS with measured blood volume?",
+    "Is the defect renal, sympathetic or central?"
+   ],
+   "hypotheses": [
+    "low-blood-volume-preload",
+    "autonomic-small-fibre"
+   ],
+   "test_available": "Yes: supine and upright renin and aldosterone; blood volume (Daxor or CO-rebreathing) in specialist centres"
+  },
+  {
+   "id": "endocrine-low-t3",
+   "subdomain": "Thyroid",
+   "finding": "In one Dutch case-control study, CFS patients had normal TSH but lower total T3, T4 and free T3, with a higher reverse-T3 fraction ('low T3 syndrome' pattern in 16% vs 7%).",
+   "grade": "early",
+   "plain": "The thyroid itself looks normal by standard tests, but the active thyroid hormone (T3) runs slightly lower, as seen in many long-term illnesses.",
+   "detail": "Ruiz-Núñez 2018 (98 vs 99, age/sex matched): TT3 −12.5%, TT4 −11.9%, deiodinase activity −14.4%, rT3 fraction +13.3%. FT3 below range in 16/98 vs 7/99 (OR 2.56, 95% CI 1.00–6.54). The median difference in free T3 was tiny (0.1%), and thyroid values correlated with hsCRP. This pattern ('non-thyroidal illness') appears in many chronic and inflammatory states and is usually adaptive. It has not been independently replicated in ME/CFS. There is no trial of T3 treatment in ME/CFS.",
+   "studies": [
+    {
+     "cite": "Ruiz-Núñez 2018, Front Endocrinol",
+     "n": "98 vs 99",
+     "design": "case-control",
+     "result": "Lower TT3/TT4/FT3, higher %rT3, normal TSH; low-T3 OR 2.56",
+     "url": "https://doi.org/10.3389/fendo.2018.00097",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "open_questions": [
+    "Does it replicate in a PEM-defined cohort?",
+    "Is it a sign of reduced metabolic rate (hypometabolism) or just non-specific illness?"
+   ],
+   "hypotheses": [
+    "hpa-endocrine",
+    "mitochondrial-energy"
+   ],
+   "test_available": "Yes: TSH, free T4, free T3; reverse T3 (some labs)"
+  },
+  {
+   "id": "endocrine-gh-igf1",
+   "subdomain": "Growth hormone",
+   "finding": "Reports of low IGF-1 and reduced growth hormone responses in CFS conflict, and the largest controlled study found an intact GH/IGF system.",
+   "grade": "contested",
+   "plain": "Growth hormone helps with repair and energy. Early small studies hinted it was low, but a larger careful study found it normal.",
+   "detail": "Allain 1997 found lower IGF-I (214 vs 263 µg/L) and IGF-II and a reduced GH response to hypoglycaemia. Berwaerts 1998 (20 vs 20) found IGF-I SDS −0.39 vs +0.33 (p=0.02) and a trend to lower nocturnal GH (p=0.06), but normal stimulated GH peaks. Cleare 2000 (37 vs 37, medication-free) found no difference in IGF-I/IGFBPs, urinary GH or GHRH and insulin-stress responses. In a GH treatment RCT (Moorkens 1998, n=20) IGF-1 rose but quality of life did not improve.",
+   "studies": [
+    {
+     "cite": "Allain 1997, Biol Psychiatry",
+     "n": "small case-control",
+     "design": "case-control with insulin tolerance test",
+     "result": "Lower IGF-I/IGF-II; blunted GH response",
+     "url": "https://doi.org/10.1016/s0006-3223(96)00074-1",
+     "verified": true
+    },
+    {
+     "cite": "Berwaerts 1998, Growth Horm IGF Res",
+     "n": "20 vs 20",
+     "design": "case-control",
+     "result": "Lower IGF-I SDS; normal stimulated GH",
+     "url": "https://doi.org/10.1016/s1096-6374(98)80036-1",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Cleare 2000, J Clin Endocrinol Metab",
+     "n": "37 vs 37",
+     "design": "case-control with GHRH and insulin tests",
+     "result": "No GH deficiency; IGF system intact",
+     "url": "https://doi.org/10.1210/jcem.85.4.6513",
+     "verified": true
+    },
+    {
+     "cite": "Moorkens 1998, Growth Horm IGF Res",
+     "n": "20",
+     "design": "RCT of GH",
+     "result": "IGF-1 rose; quality of life not improved",
+     "url": "https://doi.org/10.1016/s1096-6374(98)80037-3",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Is nocturnal GH reduced as a consequence of non-restorative sleep?"
+   ],
+   "hypotheses": [
+    "hpa-endocrine"
+   ],
+   "test_available": "Yes: IGF-1 (stimulation tests only if pituitary disease suspected)"
+  },
+  {
+   "id": "endocrine-female-preponderance",
+   "subdomain": "Sex differences",
+   "finding": "ME/CFS and long COVID are more common in women (ME/CFS prevalence about 1.4% vs 0.9%; DecodeME 82% female), but genetic risk variants are not sex-specific.",
+   "grade": "replicated",
+   "plain": "More women than men get ME/CFS and long COVID. Inherited risk looks the same in both sexes, so the difference probably lies in hormones, immunity or exposure, not in different genes.",
+   "detail": "Lim 2020 meta-analysis: pooled prevalence 1.36% in women vs 0.86% in men. Clinic cohorts are typically 75–85% female. In RECOVER-Adult (n=12,276), female sex raised long COVID risk (RR 1.31, 95% CI 1.06–1.62), but not at age 18–39 (RR 1.04). At age 40–54 the RR was similar for menopausal (1.42) and non-menopausal (1.45) women. DecodeME: 12,833 female and 2,746 male cases, no sex-biased loci, and two female-discovered signals replicate in males. The mostly male Million Veteran Program replicates the polygenic signal (Solving ME/CFS re-analysis).",
+   "studies": [
+    {
+     "cite": "Lim 2020, J Transl Med",
+     "n": "46 studies, about 1.09 million",
+     "design": "meta-analysis of prevalence",
+     "result": "Women 1.36% vs men 0.86%",
+     "url": "https://doi.org/10.1186/s12967-020-02269-0",
+     "verified": true
+    },
+    {
+     "cite": "Shah 2025, JAMA Netw Open (RECOVER)",
+     "n": "12,276",
+     "design": "prospective cohort",
+     "result": "Female RR 1.31 for long COVID; age- and pregnancy-dependent",
+     "url": "https://doi.org/10.1001/jamanetworkopen.2024.55430",
+     "verified": true
+    },
+    {
+     "cite": "DecodeME 2025, medRxiv preprint",
+     "n": "15,579 cases",
+     "design": "GWAS",
+     "result": "No sex-biased loci; male replication of 2 signals",
+     "url": "https://doi.org/10.1101/2025.08.06.25333109",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "open_questions": [
+    "Which biological factor (sex hormones, X-linked immune genes, autoimmunity propensity) drives the excess?",
+    "Why is the excess absent in young adults in RECOVER?"
+   ],
+   "hypotheses": [
+    "hpa-endocrine",
+    "autoimmunity"
+   ],
+   "test_available": "Not applicable"
+  },
+  {
+   "id": "endocrine-gynaecological-menopause",
+   "subdomain": "Sex hormones and menopause",
+   "finding": "Women with CFS report more endometriosis, heavy bleeding, pelvic pain, hysterectomy and earlier menopause than controls in US population-based case-control studies.",
+   "grade": "early",
+   "plain": "Gynaecological problems and early menopause are more common in women with ME/CFS. We do not know which comes first or why.",
+   "detail": "Boneva 2015 (Georgia, 84 cases vs 73 controls) reported earlier menopause (37.6 vs 48.6 years; adjusted OR 1.22 per year), endometriosis 29.8% vs 12.3% (aOR 3.67), hysterectomy 54.8% vs 19.2% (aOR 3.23) and non-menstrual pelvic pain (aOR 12.0). The Wichita sample (36 vs 48) showed similar but mostly non-significant patterns. Surgical menopause after hysterectomy or oophorectomy confounds the 'early menopause' result, and recall bias is possible. 2026 survey work (Habermann-Horstmeier) describes different symptom structures by sex and a menopausal-status proxy, but it is cross-sectional and self-reported.",
+   "studies": [
+    {
+     "cite": "Boneva 2015, Menopause",
+     "n": "84 vs 73",
+     "design": "population-based case-control",
+     "result": "Earlier menopause, more endometriosis and hysterectomy",
+     "url": "https://doi.org/10.1097/gme.0000000000000411",
+     "verified": true
+    },
+    {
+     "cite": "Boneva 2010, J Womens Health",
+     "n": "36 vs 48",
+     "design": "population-based case-control",
+     "result": "More pelvic pain and endometriosis; menopause about 4 years earlier (ns)",
+     "url": "https://doi.org/10.1089/jwh.2009.1900",
+     "verified": true
+    },
+    {
+     "cite": "Habermann-Horstmeier 2026, J Transl Med",
+     "n": "survey cohort",
+     "design": "cross-sectional factor analysis",
+     "result": "Immune/GI symptom architecture differs by sex and menopausal proxy",
+     "url": "https://doi.org/10.1186/s12967-026-08699-6",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "open_questions": [
+    "Does onset cluster at perimenopause after adjusting for age?",
+    "Does HRT change ME/CFS course? No trial exists.",
+    "Do symptoms vary with menstrual cycle in a measurable way?"
+   ],
+   "hypotheses": [
+    "hpa-endocrine"
+   ],
+   "test_available": "Clinical gynaecological assessment; no ME/CFS-specific hormone test"
+  },
+  {
+   "id": "endocrine-androgens-not-replicated",
+   "subdomain": "Sex hormones",
+   "finding": "Lower plasma androgenic steroids in ME/CFS (Cornell metabolomics) is mostly an age and sex artefact and does not replicate in BioMapAI.",
+   "grade": "contested",
+   "plain": "An earlier claim that patients have low 'male-type' steroid hormones mostly disappears once age and sex are accounted for.",
+   "detail": "Across the two Cornell cohorts the androgenic steroid class was −0.42 SD, but in Germain 2022 the effect shrinks after age/sex/BMI adjustment. BioMapAI (n=236) shows −0.01 (p=0.90) and Che testosterone −0.18 (p=0.22) (Solving ME/CFS re-analysis). Cleare 2004 measured DHEA/DHEA-S and their response to CRH as a separate question.",
+   "studies": [
+    {
+     "cite": "Solving ME/CFS re-analysis (datasets 03_steroids_crosscheck)",
+     "n": "4 cohorts",
+     "design": "re-analysis with covariate adjustment",
+     "result": "Androgen deficit not replicated after adjustment",
+     "url": "",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "open_questions": [
+    "Are sex steroids altered within defined subgroups (e.g. men, post-menopausal women)?"
+   ],
+   "hypotheses": [
+    "hpa-endocrine"
+   ],
+   "test_available": "Yes: testosterone, SHBG, DHEA-S (not diagnostic for ME/CFS)"
+  },
+  {
+   "id": "endocrine-melatonin-circadian",
+   "subdomain": "Melatonin and circadian rhythm",
+   "finding": "Melatonin may help the subgroup with delayed melatonin onset, and melatonin plus zinc modestly reduced physical fatigue in one small RCT.",
+   "grade": "early",
+   "plain": "Melatonin is the night-time hormone. A small trial and an open study suggest it can help some patients, especially those whose body clock runs late.",
+   "detail": "van Heukelom 2006 (open-label, n=29 with DLMO after 21:30; 5 mg 5 h before DLMO for 3 months) improved fatigue, concentration and activity, more when DLMO was after 22:00. Fatigue normalised in 8/27. Castro-Marrero 2021 (RCT, n=50, melatonin 1 mg plus zinc 10 mg for 16 weeks) reduced physical fatigue at the last visit and improved SF-36 physical summary. Multiple outcomes were tested and the trial was not replicated.",
+   "studies": [
+    {
+     "cite": "Castro-Marrero 2021, Antioxidants",
+     "n": "50",
+     "design": "RCT",
+     "result": "Reduced physical fatigue vs placebo (p<0.05)",
+     "url": "https://doi.org/10.3390/antiox10071010",
+     "verified": true
+    },
+    {
+     "cite": "van Heukelom 2006, Eur J Neurol",
+     "n": "29",
+     "design": "open-label, DLMO-selected",
+     "result": "Fatigue improved, mainly if DLMO >22:00",
+     "url": "https://doi.org/10.1111/j.1468-1331.2006.01132.x",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "open_questions": [
+    "What proportion of patients have delayed DLMO?",
+    "Does timed low-dose melatonin help in a blinded DLMO-selected trial?"
+   ],
+   "hypotheses": [
+    "hpa-endocrine"
+   ],
+   "test_available": "Research/private: salivary dim-light melatonin onset (DLMO); actigraphy"
+  },
+  {
+   "id": "endocrine-genetic-pituitary",
+   "subdomain": "Genetics of hormone systems",
+   "finding": "ME/CFS genetic risk is enriched in brain tissues and the pituitary, but genetically predicted morning cortisol does not change risk.",
+   "grade": "early",
+   "plain": "Genes linked to ME/CFS are especially active in the brain and the pituitary, the master hormone gland. Genetically high or low cortisol does not seem to cause ME/CFS.",
+   "detail": "In a DecodeME + Million Veteran Program meta-analysis (Maccallini 2026 preprint, 19,470 cases), tissue enrichment implicated multiple brain regions and the pituitary, with no peripheral tissue. MR using a single morning-cortisol instrument gave OR 1.04 (Solving ME/CFS re-analysis), which is underpowered. The pituitary result could reflect neural gene expression shared with brain rather than endocrine function.",
+   "studies": [
+    {
+     "cite": "Maccallini 2026, Research Square preprint",
+     "n": "19,470 vs 699,111",
+     "design": "GWAS meta-analysis + enrichment",
+     "result": "Brain regions and pituitary enriched",
+     "url": "https://doi.org/10.21203/rs.3.rs-9702020/v1",
+     "verified": true
+    },
+    {
+     "cite": "Solving ME/CFS re-analysis (deep2 genetics_mr)",
+     "n": "DecodeME 15,579 cases",
+     "design": "Mendelian randomisation",
+     "result": "Morning cortisol (1 SNP) OR 1.04, null",
+     "url": "",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "open_questions": [
+    "Do pituitary-specific eQTLs colocalise with ME/CFS loci?",
+    "Can a multi-SNP cortisol instrument test causality properly?"
+   ],
+   "hypotheses": [
+    "hpa-endocrine",
+    "pituitary-adh",
+    "genetic-neuronal"
+   ],
+   "test_available": "Research only"
+  }
+ ],
+ "hypotheses_notes": [
+  {
+   "id": "hpa-endocrine",
+   "for": "A meta-analysis of 46 studies shows mildly low free cortisol and enhanced feedback. The genetic signal is enriched in the pituitary. Adrenal/pituitary diagnoses are enriched in Finnish registries.",
+   "against": "The effects are small and overlap normal ranges. A similar pattern appears in other fatigue and pain conditions. Hydrocortisone and fludrocortisone trials were weak or null. Cortisol MR is null. In long COVID, low cortisol did not replicate in timed samples."
+  },
+  {
+   "id": "pituitary-adh",
+   "for": "One large uncontrolled series found undetectable vasopressin despite high osmolality. Miwa found low ADH and partial response to desmopressin.",
+   "against": "Copeptin, the more reliable marker, was normal or low-normal. There is no controlled water-deprivation study and no pituitary lesions on MRI."
+  },
+  {
+   "id": "low-blood-volume-preload",
+   "for": "The renin-aldosterone paradox in POTS and ME, plus low ADH, would explain failure to restore low plasma volume.",
+   "against": "Resting proteomic renin, ACE and BNP are normal. Fludrocortisone, which replaces aldosterone action, failed in RCTs."
+  },
+  {
+   "id": "sickness-behaviour",
+   "for": "Hypocortisolism with enhanced feedback fits a chronic post-infectious or inflammatory state.",
+   "against": "This cannot be separated from deconditioning or sleep effects in cross-sectional data."
+  }
+ ],
+ "glossary": [
+  {
+   "term": "HPA axis",
+   "plain": "The hypothalamus-pituitary-adrenal chain that controls cortisol release."
+  },
+  {
+   "term": "Cortisol awakening response",
+   "plain": "The normal rise in cortisol in the 30–45 minutes after waking, measured in saliva."
+  },
+  {
+   "term": "Synacthen (ACTH stimulation) test",
+   "plain": "An injection of synthetic ACTH, with cortisol measured afterwards, to check whether the adrenal glands work."
+  },
+  {
+   "term": "Dexamethasone suppression test",
+   "plain": "A dose of a strong steroid to see how much the body's own cortisol is switched off (feedback sensitivity)."
+  },
+  {
+   "term": "Vasopressin (ADH)",
+   "plain": "The pituitary hormone that makes the kidneys keep water."
+  },
+  {
+   "term": "Copeptin",
+   "plain": "A stable fragment released with vasopressin. It is easier to measure accurately than vasopressin itself."
+  },
+  {
+   "term": "Renin and aldosterone",
+   "plain": "Kidney and adrenal hormones that make the body hold salt and water when blood volume is low."
+  },
+  {
+   "term": "Low T3 syndrome",
+   "plain": "Low active thyroid hormone with normal TSH, often seen in chronic illness rather than thyroid disease."
+  },
+  {
+   "term": "IGF-1",
+   "plain": "A blood marker of growth hormone activity."
+  },
+  {
+   "term": "DLMO",
+   "plain": "Dim-light melatonin onset, the evening time melatonin starts rising. It is a marker of body-clock timing."
+  }
+ ],
+ "key_reviews": [
+  {
+   "cite": "Woo 2026, Molecular Psychiatry",
+   "url": "https://doi.org/10.1038/s41380-026-03608-1",
+   "why": "Most comprehensive meta-analysis of HPA findings (46 studies, all sample types and challenge tests)."
+  },
+  {
+   "cite": "Zhang & Wang 2024, Front Endocrinol",
+   "url": "https://doi.org/10.3389/fendo.2024.1373748",
+   "why": "Review of HPA changes and HPA-targeted treatments in CFS."
+  },
+  {
+   "cite": "Wirth 2026, Preprints.org",
+   "url": "https://doi.org/10.20944/preprints202602.1993.v1",
+   "why": "Hypothesis review of why vasopressin and RAAS fail to correct hypovolaemia (not peer reviewed)."
+  },
+  {
+   "cite": "Miwa 2026, Front Med",
+   "url": "https://doi.org/10.3389/fmed.2026.1744154",
+   "why": "Clinical update on small heart, orthostatic intolerance and down-regulated volume hormones."
+  }
+ ],
+ "gaps": [
+  "No controlled copeptin study with a standard stimulus (water deprivation, hypertonic saline or arginine) in PEM-defined ME/CFS.",
+  "No study pairs measured blood volume with supine/upright renin, aldosterone and copeptin in the same patients.",
+  "No longitudinal study shows whether low cortisol precedes illness, as it could in post-infection cohorts.",
+  "No modern RCT of any hormone therapy using PEM-based criteria or biomarker selection, for example hydrocortisone only in Synacthen low-responders, or desmopressin with copeptin stratification.",
+  "There are no trials of HRT or menstrual-cycle-linked interventions, and no prospective data on onset around perimenopause.",
+  "Low T3 has not been replicated and never tested as a treatment target.",
+  "Prevalence of true adrenal insufficiency or hypopituitarism among clinic ME/CFS patients is unknown."
+ ]
+}

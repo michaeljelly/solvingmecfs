@@ -1,0 +1,18 @@
+lactate rise vs Bell: day1 rho 0.21 p 0.120; day2 rho 0.41 p 0.002
+controls lactate rise day1 median 3.16; patients 2.26; patients below control 10th pct: 12/55
+
+k=2 split, largest set differences:
+SP: Fatty Acid Metabolism (Acyl Choline)   -0.59
+LEAD hypotaurine                           -0.44
+LEAD glucose                               -0.19
+LEAD citrulline                            -0.12
+LEAD 3-hydroxybutyrate (ketone)            -0.11
+LEAD VMA                                   -0.10
+LEAD AMP                        0.84
+LEAD sphingosine 1-phosphate    0.84
+LEAD inosine                    0.87
+LEAD pyruvate                   0.99
+LEAD lactate                    1.08
+LEAD succinate                  1.11
+cluster vs sex: [[20, 3], [25, 7]]  Bell by cluster: {0: 30.0, 1: 40.0}  MWU p=0.937
+controls k=2 silhouette 0.160 sizes [15 27]

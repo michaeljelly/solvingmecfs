@@ -1,0 +1,45 @@
+metab species all persons ctrl 88 pat 143 -> n 88 X (392, 118) Y (392, 821)
+0 1 median R2 ctrl -0.009 pat -0.006
+10 6 median R2 ctrl -0.008 pat -0.009
+20 11 median R2 ctrl -0.009 pat -0.006
+null 0 19
+null 10 40
+null 20 58
+swap 0 77
+swap 10 95
+swap 20 118
+tag                              metab_species_all
+n_persons_per_group                             88
+R                                               30
+n_targets                                      821
+ctrl_median_R2                           -0.020767
+pat_median_R2                            -0.020683
+ctrl_mean_R2                             -0.020316
+pat_mean_R2                              -0.020225
+null_q99                                  0.036341
+ctrl_n_q05                                       8
+pat_n_q05                                        4
+both_q05                                         4
+ctrl_only                                        4
+pat_only                                         0
+n_diff_q05                                       0
+corr_ctrl_pat_R2                           0.48958
+global_meanR2_diff                       -0.000091
+swap_null_sd                              0.003688
+global_p_swap                                  1.0
+n_predictable_either                             8
+meanR2_ctrl_among_predictable              0.14755
+meanR2_pat_among_predictable              0.085969
+                                         ctrl_R2  pat_R2  ctrl_q  pat_q  diff_q
+isoursodeoxycholate                        0.265   0.161   0.000  0.001     1.0
+cinnamoylglycine                           0.235   0.111   0.000  0.014     1.0
+3-phenylpropionate (hydrocinnamate)        0.229   0.097   0.000  0.155     1.0
+X-17612                                    0.170   0.101   0.010  0.046     1.0
+indolepropionate                           0.099   0.134   0.000  0.025     1.0
+X-12216                                    0.084   0.020   0.000  0.745     1.0
+branched chain 14:0 dicarboxylic acid**    0.083   0.023   0.227  0.745     1.0
+glycolithocholate sulfate*                 0.081   0.020   0.338  0.745     1.0
+hippurate                                  0.070   0.055   0.052  0.745     1.0
+2-hydroxydecanoate                         0.056  -0.014   0.808  0.745     1.0
+myo-inositol                               0.055  -0.018   0.209  0.745     1.0
+X-17351                                    0.051   0.017   0.030  0.745     1.0

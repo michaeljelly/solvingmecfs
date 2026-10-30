@@ -1,0 +1,6 @@
+layer,n_visits,n_persons,tp1_by_group,persons_by_group_sex
+immune,489,240,"{'Control': 91, 'Long': 75, 'Short': 73}","{('Control', 'Female'): 54, ('Control', 'Male'): 37, ('Long', 'Female'): 55, ('Long', 'Male'): 20, ('Short', 'Female'): 53, ('Short', 'Male'): 21}"
+species,479,239,"{'Control': 92, 'Long': 73, 'Short': 73}","{('Control', 'Female'): 55, ('Control', 'Male'): 37, ('Long', 'Female'): 55, ('Long', 'Male'): 19, ('Short', 'Female'): 53, ('Short', 'Male'): 20}"
+kegg,479,239,"{'Control': 92, 'Long': 73, 'Short': 73}","{('Control', 'Female'): 55, ('Control', 'Male'): 37, ('Long', 'Female'): 55, ('Long', 'Male'): 19, ('Short', 'Female'): 53, ('Short', 'Male'): 20}"
+metabolome,414,236,"{'Control': 79, 'Long': 76, 'Short': 60}","{('Control', 'Female'): 52, ('Control', 'Male'): 37, ('Long', 'Female'): 56, ('Long', 'Male'): 20, ('Short', 'Female'): 52, ('Short', 'Male'): 19}"
+quest,503,243,"{'Control': 92, 'Long': 76, 'Short': 74}","{('Control', 'Female'): 55, ('Control', 'Male'): 37, ('Long', 'Female'): 57, ('Long', 'Male'): 20, ('Short', 'Female'): 54, ('Short', 'Male'): 20}"

@@ -1,0 +1,25 @@
+cohort,test,estimate,p,n_persons
+BioMapAI tp1 all,"spearman vs eGFR (quest, residualised)",-0.400982126074225,1.3604412789299807e-09,215
+BioMapAI all visits,patient vs control (SD),0.12550279644249646,0.29196332755513493,236
+BioMapAI patients,orthostatic_NLT ~ between (age+sex),0.055244278309734496,0.46514945232779836,147
+BioMapAI patients,orthostatic_NLT ~ within (age+sex),0.0376664611859243,0.8221477617080519,147
+BioMapAI patients,orthostatic_NLT ~ between (age+sex+BMI+eGFRlab),0.0845440553223465,0.34518036296372684,145
+BioMapAI patients,orthostatic_NLT ~ within (age+sex+BMI+eGFRlab),0.029281600670409094,0.8627731727925481,145
+BioMapAI patients,sleep_PSQI ~ between (age+sex),0.28958534749157205,0.0004980608794147703,147
+BioMapAI patients,sleep_PSQI ~ within (age+sex),-0.1437923285147907,0.19253904403983158,147
+BioMapAI patients,sleep_PSQI ~ between (age+sex+BMI+eGFRlab),0.27642216334307446,0.004140712112729955,145
+BioMapAI patients,sleep_PSQI ~ within (age+sex+BMI+eGFRlab),-0.13538685040611353,0.23941872118250532,145
+BioMapAI patients,fatigue_energy ~ between (age+sex),0.08843996990560057,0.21487983379391082,147
+BioMapAI patients,fatigue_energy ~ within (age+sex),0.006207426641279412,0.9722959340144187,147
+BioMapAI patients,fatigue_energy ~ between (age+sex+BMI+eGFRlab),0.11289428652385218,0.19212955642488216,145
+BioMapAI patients,fatigue_energy ~ within (age+sex+BMI+eGFRlab),0.05165164761124345,0.775108546713662,145
+BioMapAI patients,cognition_DANA ~ between (age+sex),0.31111478153246225,5.464082986548806e-06,147
+BioMapAI patients,cognition_DANA ~ within (age+sex),-0.2371237695950861,0.1312459001822555,147
+BioMapAI patients,cognition_DANA ~ between (age+sex+BMI+eGFRlab),0.33817209578284824,4.204034446593408e-05,145
+BioMapAI patients,cognition_DANA ~ within (age+sex+BMI+eGFRlab),-0.21080305156610327,0.18946739370551186,145
+BioMapAI patients,overall_severity ~ between (age+sex),0.35688901874707996,1.0666597275844212e-05,147
+BioMapAI patients,overall_severity ~ within (age+sex),-0.06754512907114707,0.5087524591504277,147
+BioMapAI patients,overall_severity ~ between (age+sex+BMI+eGFRlab),0.3233830960019635,0.0006055674336016608,145
+BioMapAI patients,overall_severity ~ within (age+sex+BMI+eGFRlab),-0.09456296911704767,0.36030113733888985,145
+Germain2022,patient vs control (SD),-0.44571319906752543,0.01041262708631271,105
+Germain2022 cases,spearman vs Bell (higher Bell = better),-0.031120570853897828,0.8133976558182319,60

@@ -1,0 +1,717 @@
+{
+ "domain": "gut",
+ "title": "Gut and microbiome",
+ "overview": "Gut bacteria differ between people with ME/CFS and healthy controls more consistently than almost any blood measure. Fewer butyrate-producing species (Faecalibacterium, Roseburia, Coprococcus, Anaerostipes, Eubacterium rectale) and more Ruminococcus gnavus-type species appear in at least four independent cohorts across three labs, including a pre-specified test in the NIH cohort. The same pattern appears in long COVID. Blood levels of a gut-made metabolite, indole-3-propionate (IPA), are lower in four of four plasma cohorts, and re-analysis traces this to the R. gnavus-type overgrowth. What is not established is whether any of this causes symptoms. Dysbiosis is milder in long-standing illness, does not track severity reliably, and genetically predicted gut metabolite levels do not change ME/CFS risk. Markers of a 'leaky gut' (LPS, sCD14) come from a handful of studies, and the only randomised faecal transplant trial (n=11) was negative. Larger trials are under way.",
+ "findings": [
+  {
+   "id": "gut-butyrate-producer-loss",
+   "subdomain": "Dysbiosis",
+   "finding": "Stool from ME/CFS patients has fewer butyrate-producing bacteria (notably Faecalibacterium prausnitzii, Eubacterium rectale, Roseburia, Coprococcus) and reduced microbial capacity to make butyrate.",
+   "grade": "replicated",
+   "plain": "Some 'good' gut bacteria that feed the gut lining by making butyrate are consistently scarcer in ME/CFS.",
+   "detail": "Guo 2023 (106 vs 91, shotgun metagenomics, qPCR and stool SCFA) found lower F. prausnitzii and E. rectale and lower butyrate synthesis capacity. Its classifier was robust across US sites and to a validation cohort. Xiong 2023 (75 short-term, 79 long-term vs 79) found reduced butyrate biosynthesis genes and lower plasma butyrate, mostly in short-term patients. Giloteaux 2016 (16S, 48 vs 39) found lower diversity and fewer Firmicutes. Nagy-Szakal 2017 (50 vs 50) found lower Faecalibacterium in the IBS subgroup. In the NIH Walitt cohort (15 vs 17), a pre-specified 14-species signature built on other cohorts separated patients with AUC 0.87; all butyrate producers combined were −0.87 SD (Solving ME/CFS re-analysis). The NIH authors' own per-species tests did not pass FDR (min q 0.088).",
+   "studies": [
+    {
+     "cite": "Guo 2023, Cell Host Microbe",
+     "n": "106 vs 91",
+     "design": "case-control, shotgun metagenomics + SCFA metabolomics",
+     "result": "Reduced F. prausnitzii, E. rectale and butyrate synthesis capacity",
+     "url": "https://doi.org/10.1016/j.chom.2023.01.004",
+     "verified": true
+    },
+    {
+     "cite": "Xiong 2023, Cell Host Microbe",
+     "n": "154 vs 79",
+     "design": "case-control, metagenomics + plasma metabolomics",
+     "result": "Reduced butyrate biosynthesis; dysbiosis strongest in short-term illness",
+     "url": "https://doi.org/10.1016/j.chom.2023.01.001",
+     "verified": true
+    },
+    {
+     "cite": "Giloteaux 2016, Microbiome",
+     "n": "48 vs 39",
+     "design": "case-control, 16S",
+     "result": "Lower diversity, fewer Firmicutes",
+     "url": "https://doi.org/10.1186/s40168-016-0171-4",
+     "verified": true
+    },
+    {
+     "cite": "Nagy-Szakal 2017, Microbiome",
+     "n": "50 vs 50",
+     "design": "case-control, metagenomics",
+     "result": "Dysbiosis, with distinct taxa depending on IBS status",
+     "url": "https://doi.org/10.1186/s40168-017-0261-y",
+     "verified": true
+    },
+    {
+     "cite": "Solving ME/CFS re-analysis of Walitt 2024 NIH stool",
+     "n": "15 vs 17",
+     "design": "pre-specified signature test",
+     "result": "AUC 0.87; butyrate producers −0.87 SD (p=0.015)",
+     "url": "https://doi.org/10.1038/s41467-024-45107-3",
+     "verified": true
+    },
+    {
+     "cite": "Fremont 2013, Anaerobe",
+     "n": "CFS",
+     "design": "16S",
+     "result": "microbiome shift",
+     "url": "https://doi.org/10.1016/j.anaerobe.2013.06.002",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Walitt 2024, Nat Commun (authors' own analysis)",
+     "n": "15 vs 17",
+     "design": "case-control, per-species tests",
+     "result": "No species significant after FDR",
+     "url": "https://doi.org/10.1038/s41467-024-45107-3",
+     "verified": true
+    },
+    {
+     "cite": "Solving ME/CFS re-analysis (3-cohort species meta)",
+     "n": "NIH, Raijmakers, Columbia",
+     "design": "random-effects meta-analysis",
+     "result": "Effect sizes agree NIH vs Columbia (rho 0.57) but not NIH vs Netherlands (rho 0.07)",
+     "url": "",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Is the change a cause, or a consequence of diet, inactivity, medication or IBS?",
+    "Does it appear before or at onset in prospective post-infection cohorts?"
+   ],
+   "hypotheses": [
+    "gut-dysbiosis"
+   ],
+   "test_available": "Private shotgun stool metagenomics only; no validated clinical test or reference range"
+  },
+  {
+   "id": "gut-rgnavus-bloom",
+   "subdomain": "Dysbiosis",
+   "finding": "Ruminococcus gnavus, Flavonifractor plautii, Ruthenibacterium lactatiformans and Enterocloster species are increased in ME/CFS, consistently across BioMapAI, Guo 2023 and NIH cohorts and in long COVID.",
+   "grade": "several",
+   "plain": "Alongside the loss of 'good' species, a group of bacteria often linked to gut inflammation is overgrown.",
+   "detail": "In BioMapAI/JAX data (143 vs 88 people), R. lactatiformans (β +0.69), R. gnavus (+0.68) and F. plautii (+0.60) were raised (all q<1e-3). Guo 2023 agreed in direction for 14/17 shared species (binomial p=0.013; Solving ME/CFS re-analysis), but Guo listed only nominally significant species. In the NIH cohort, R. gnavus was +0.80 SD (p=0.014), E. bolteae +0.91 and C. symbiosum +0.77. Long COVID shows the same direction: Liu 2022 (106 patients followed 6 months) found higher R. gnavus and lower F. prausnitzii in post-acute COVID syndrome.",
+   "studies": [
+    {
+     "cite": "Solving ME/CFS re-analysis of BioMapAI (Xiong 2025)",
+     "n": "143 vs 88",
+     "design": "species association, adjusted",
+     "result": "R. gnavus, F. plautii, R. lactatiformans raised",
+     "url": "https://doi.org/10.1038/s41591-025-03788-3",
+     "verified": true
+    },
+    {
+     "cite": "Liu 2022, Gut",
+     "n": "106 COVID patients, 68 controls",
+     "design": "prospective cohort, metagenomics",
+     "result": "PACS linked to higher R. gnavus, lower F. prausnitzii",
+     "url": "https://doi.org/10.1136/gutjnl-2021-325989",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "open_questions": [
+    "Does R. gnavus produce inflammatory polysaccharides or interfere with tryptophan metabolism in these patients?",
+    "Is the bloom driven by antibiotics, diet or low gut transit?"
+   ],
+   "hypotheses": [
+    "gut-dysbiosis",
+    "innate-hyperactivation"
+   ],
+   "test_available": "Private stool metagenomics only"
+  },
+  {
+   "id": "gut-low-ipa",
+   "subdomain": "Microbial metabolites",
+   "finding": "Plasma indole-3-propionate (IPA), a gut-bacteria product of tryptophan, is lower in ME/CFS in 4 of 4 plasma cohorts (pooled −0.33 SD), and the deficit is fully explained by stool composition, mainly the R. gnavus-type overgrowth.",
+   "grade": "several",
+   "plain": "A protective molecule that only gut bacteria make is slightly low in patients' blood. The overgrown bacteria seem to crowd out the microbes that make it.",
+   "detail": "Pooled across Germain 2020, Germain 2022, Che 2022 and BioMapAI: −0.33 SD (95% CI −0.49 to −0.16), p=0.0001. As a test it is weak (AUC 0.57–0.60). In 231 people with paired stool and plasma, a stool model predicted plasma IPA (CV Spearman 0.44), and adjusting for it removed the patient-control gap (−0.36 → −0.06). R. gnavus, F. plautii and R. lactatiformans were each inversely related to IPA. The IPA-producing C. sporogenes guild was not reduced. Fruit intake tracks IPA. No severity association survived FDR (all Solving ME/CFS re-analysis).",
+   "studies": [
+    {
+     "cite": "Solving ME/CFS re-analysis (datasets 02, deep2 microbiome_function)",
+     "n": "4 plasma cohorts; 231 paired stool-plasma",
+     "design": "meta-analysis + cross-validated prediction",
+     "result": "IPA −0.33 SD; gap explained by stool composition",
+     "url": "",
+     "verified": true
+    },
+    {
+     "cite": "Xiong 2025 (BioMapAI), Nat Med",
+     "n": "249",
+     "design": "longitudinal multi-omics",
+     "result": "Altered microbiome-tryptophan-metabolite links",
+     "url": "https://doi.org/10.1038/s41591-025-03788-3",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Solving ME/CFS re-analysis (Mendelian randomisation)",
+     "n": "DecodeME 15,579; MVP",
+     "design": "two-sample MR",
+     "result": "Genetically higher IPA does not lower ME/CFS risk (OR 1.19, 0.93–1.53)",
+     "url": "",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Does raising IPA (diet, fibre, polyphenols) change any symptom?",
+    "Does low IPA replicate with paired stool in a second cohort?"
+   ],
+   "hypotheses": [
+    "gut-dysbiosis",
+    "metabolic-trap-ido"
+   ],
+   "test_available": "Research metabolomics only"
+  },
+  {
+   "id": "gut-aromatic-lactates-host",
+   "subdomain": "Microbial metabolites",
+   "finding": "The replicated deficit of aromatic lactates (indolelactate, phenyllactate, 4-hydroxyphenyllactate) in ME/CFS blood is not predicted by stool bacteria or bacterial genes, so it is probably host-side or due to absorption, not dysbiosis.",
+   "grade": "early",
+   "plain": "Another set of low blood molecules looks like gut products, but the gut bacteria data do not explain them, so probiotics aimed at them are unlikely to help.",
+   "detail": "Aromatic-lactate score −0.55 SD (p 6.5e-6) in BioMapAI, and −0.53 SD across 5 cohorts. Stool species and gene models predict it at zero (CV Spearman 0.01). 0/4,429 KEGG genes and 0/1,696 taxa associate with it, and Bifidobacterium plus Lactobacillus abundance is uncorrelated (rho −0.01). Adjusting for diet, medications, IBS and kidney function makes the deficit larger, not smaller. In Esteban 2026, stool aromatic metabolites were higher in patients, which hints at reduced absorption (Solving ME/CFS re-analysis).",
+   "studies": [
+    {
+     "cite": "Solving ME/CFS re-analysis (deep2 microbiome_function)",
+     "n": "231 paired; 5 plasma cohorts",
+     "design": "cross-validated prediction, hypothesis-free scans",
+     "result": "No gut predictor of the lactate deficit",
+     "url": "",
+     "verified": true
+    },
+    {
+     "cite": "Esteban 2026, MicrobiologyOpen",
+     "n": "19 vs 23",
+     "design": "case-control, targeted stool metabolomics + AHR assay",
+     "result": "Nine tryptophan metabolites elevated in stool; AHR activation not different",
+     "url": "https://doi.org/10.1002/mbo3.70333",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "open_questions": [
+    "Is it host transamination/LDH handling, small-intestine microbes (not sampled by stool) or uptake?",
+    "D- vs L-phenyllactate would distinguish bacterial from human origin."
+   ],
+   "hypotheses": [
+    "gut-dysbiosis",
+    "mitochondrial-energy"
+   ],
+   "test_available": "Research only"
+  },
+  {
+   "id": "gut-duration-dependence",
+   "subdomain": "Dysbiosis",
+   "finding": "Gut dysbiosis is strongest in the first years of illness and largely resolves in patients ill for more than 10 years, while their metabolic and clinical abnormalities persist.",
+   "grade": "early",
+   "plain": "Gut differences are clearest early in the illness and fade later, even though patients stay ill. This argues against gut bacteria alone keeping the illness going.",
+   "detail": "Xiong 2023: short-term (<4 years, n=75) patients showed significant microbial dysbiosis, while long-term (>10 years, n=79) patients had largely resolved dysbiosis but more severe metabolic and clinical aberrations. This comes from one cross-sectional comparison of two cohorts, not follow-up of the same people. The NIH cohort, which is mostly under 5 years ill, still shows the signature (AUC 0.87).",
+   "studies": [
+    {
+     "cite": "Xiong 2023, Cell Host Microbe",
+     "n": "75 short, 79 long vs 79",
+     "design": "cross-sectional two-cohort comparison",
+     "result": "Dysbiosis mainly in short-term illness",
+     "url": "https://doi.org/10.1016/j.chom.2023.01.001",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "open_questions": [
+    "Do the same patients' microbiomes normalise over time?",
+    "Is early dysbiosis a consequence of the triggering infection or antibiotics?"
+   ],
+   "hypotheses": [
+    "gut-dysbiosis"
+   ],
+   "test_available": "Research only"
+  },
+  {
+   "id": "gut-severity-link",
+   "subdomain": "Dysbiosis and symptoms",
+   "finding": "Links between specific gut bacteria and symptom severity are inconsistent: F. prausnitzii tracked fatigue in one cohort, but nothing survived correction for multiple testing in a 143-patient re-analysis.",
+   "grade": "contested",
+   "plain": "It is not yet clear that people with more abnormal gut bacteria are sicker.",
+   "detail": "Guo 2023 found F. prausnitzii abundance inversely associated with fatigue severity. Nagy-Szakal 2017 reported correlations between distinct taxa and pain, fatigue and motivation within subgroups. In BioMapAI (143 patients), no taxon or metabolite module associated with severity, orthostatic intolerance or duration at FDR. The best nominal result was lower IPA with worse GI symptoms (p=0.005, q=0.41) (Solving ME/CFS re-analysis).",
+   "studies": [
+    {
+     "cite": "Guo 2023, Cell Host Microbe",
+     "n": "106 vs 91",
+     "design": "case-control",
+     "result": "F. prausnitzii inversely associated with fatigue",
+     "url": "https://doi.org/10.1016/j.chom.2023.01.004",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Solving ME/CFS re-analysis of BioMapAI",
+     "n": "143 patients",
+     "design": "within-patient association",
+     "result": "No severity, OI or duration association at FDR",
+     "url": "",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Do within-person changes in microbiome track PEM episodes?"
+   ],
+   "hypotheses": [
+    "gut-dysbiosis"
+   ],
+   "test_available": "Research only"
+  },
+  {
+   "id": "gut-ibs-overlap",
+   "subdomain": "IBS and GI symptoms",
+   "finding": "IBS is about seven times more common in ME/CFS (pooled OR 7.20; prevalence about 37%), and IBS status drives much of the measured microbiome difference.",
+   "grade": "replicated",
+   "plain": "Many people with ME/CFS also have irritable bowel syndrome. Studies need to separate the two, because IBS changes gut bacteria by itself.",
+   "detail": "Rajabi 2026 meta-analysis: 22 studies, 18 pooled. OR 7.20 (2.77–18.76), I² 72%; pooled IBS prevalence 37% (23–54%), varying by ME/CFS criteria. Brown 2026 (116 vs 80): 53% vs 8% prior IBS diagnosis, with GI symptom burden tracking fatigue, cognitive, pain and flu-like symptoms. In Nagy-Szakal 2017, IBS co-morbidity was the strongest factor separating microbiome networks, and the top marker taxa differed between IBS and non-IBS subgroups. Genetically, ME/CFS correlates with IBS (rg 0.57) and its heritability is enriched in enteric neurons (Lee 2026 medRxiv; from Solving ME/CFS genetics summary).",
+   "studies": [
+    {
+     "cite": "Rajabi 2026, Front Med",
+     "n": "18 studies pooled",
+     "design": "systematic review and meta-analysis",
+     "result": "OR 7.20 for IBS; prevalence 37%",
+     "url": "https://doi.org/10.3389/fmed.2026.1881784",
+     "verified": true
+    },
+    {
+     "cite": "Brown 2026, J Transl Med",
+     "n": "116 vs 80",
+     "design": "case-control",
+     "result": "IBS 53% vs 8%; GI burden correlates with CRP and core symptoms",
+     "url": "https://doi.org/10.1186/s12967-026-08442-1",
+     "verified": true
+    },
+    {
+     "cite": "Nagy-Szakal 2017, Microbiome",
+     "n": "50 vs 50",
+     "design": "case-control",
+     "result": "IBS status strongest driver of microbiome separation",
+     "url": "https://doi.org/10.1186/s40168-017-0261-y",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "open_questions": [
+    "Is ME/CFS dysbiosis independent of IBS in properly stratified analyses?",
+    "Are enteric-neuron genetics a shared gut-brain mechanism?"
+   ],
+   "hypotheses": [
+    "gut-dysbiosis",
+    "genetic-neuronal",
+    "autonomic-small-fibre"
+   ],
+   "test_available": "Clinical: Rome IV IBS criteria; faecal calprotectin to exclude IBD"
+  },
+  {
+   "id": "gut-translocation-lps",
+   "subdomain": "Gut permeability and translocation",
+   "finding": "Blood markers of bacterial translocation (LPS, LPS-binding protein, sCD14, IgA/IgM to enterobacterial LPS) are raised in several small ME/CFS studies, but standardised replication is lacking.",
+   "grade": "contested",
+   "plain": "Some studies suggest bits of gut bacteria leak into the blood ('leaky gut') and trigger inflammation. The evidence is small, uses different tests, and comes mostly from a few labs.",
+   "detail": "Giloteaux 2016 (48 vs 39) found LPS, LBP and sCD14 elevated and correlated with each other. I-FABP (gut-cell damage) was also measured. Maes 2007 reported higher serum IgA and IgM against LPS of gram-negative enterobacteria, correlated with severity and IBS symptoms. De Meirleir 2018 (140 vs 140, retrospective) found sCD14 among the most discriminating serum markers. In the Solving ME/CFS tally, 5 groups report raised LPS/sCD14 and 2 do not. Brown 2026 found higher IgM to LPS only in the subgroup with more flu-like symptoms. Endotoxin assays are contamination-prone, sCD14 is a general monocyte activation marker, and no study has used a direct permeability test (lactulose/mannitol). Maes' 'leaky gut diet' studies were uncontrolled.",
+   "studies": [
+    {
+     "cite": "Giloteaux 2016, Microbiome",
+     "n": "48 vs 39",
+     "design": "case-control",
+     "result": "Raised LPS, LBP, sCD14",
+     "url": "https://doi.org/10.1186/s40168-016-0171-4",
+     "verified": true
+    },
+    {
+     "cite": "Maes 2007, J Affect Disord",
+     "n": "CFS, partial CFS and controls",
+     "design": "case-control",
+     "result": "Raised IgA/IgM to enterobacterial LPS",
+     "url": "https://doi.org/10.1016/j.jad.2006.08.021",
+     "verified": true
+    },
+    {
+     "cite": "De Meirleir 2018, J Transl Med",
+     "n": "140 vs 140",
+     "design": "retrospective case-control",
+     "result": "sCD14 among best discriminating markers",
+     "url": "https://doi.org/10.1186/s12967-018-1696-z",
+     "verified": true
+    },
+    {
+     "cite": "Shukla 2015, PLoS One",
+     "n": "CFS",
+     "design": "exercise + microbiome",
+     "result": "post-exercise bacterial translocation",
+     "url": "https://doi.org/10.1371/journal.pone.0145453",
+     "verified": true
+    },
+    {
+     "cite": "Bourgonje 2024, Microbiome",
+     "n": "ME/CFS",
+     "design": "gut/translocation",
+     "result": "translocation markers",
+     "url": "https://doi.org/10.1186/s40168-024-01858-1",
+     "verified": true
+    },
+    {
+     "cite": "Rohrhofer 2025, Allergy",
+     "n": "ME/CFS/LC",
+     "design": "gut barrier",
+     "result": "barrier markers",
+     "url": "https://doi.org/10.1111/all.16593",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Maes & Leunis 2008, Neuro Endocrinol Lett",
+     "n": "41",
+     "design": "uncontrolled before-after",
+     "result": "Claimed improvement with 'leaky gut' supplements; no control group",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/19112401/",
+     "verified": true
+    },
+    {
+     "cite": "Seton 2023, medRxiv (Quadram)",
+     "n": "5 severe patients vs 5 household controls",
+     "design": "feasibility case-control (IgG-Seq)",
+     "result": "Reduced, not increased, serum IgG reactivity to stool microbes",
+     "url": "https://doi.org/10.1101/2023.05.21.23290299",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Does a direct permeability test (sugar absorption, zonulin is unreliable) show a difference?",
+    "Do translocation markers rise after exertion (PEM)?"
+   ],
+   "hypotheses": [
+    "gut-dysbiosis",
+    "innate-hyperactivation"
+   ],
+   "test_available": "Research only (LPS, LBP, sCD14); commercial 'leaky gut' panels are not validated"
+  },
+  {
+   "id": "gut-quadram-virome-immune",
+   "subdomain": "Virome and mucosal immunity (Quadram Institute)",
+   "finding": "Quadram Institute studies of severe ME/CFS with household-matched controls report altered gut phage communities and reduced serum IgG reactivity to gut microbes, in very small samples.",
+   "grade": "early",
+   "plain": "A Norwich team is studying the viruses that infect gut bacteria, and the immune response to gut microbes, comparing patients with people in the same household. Their samples are tiny so far.",
+   "detail": "Hsieh 2023 combined virus-like-particle and whole-metagenome sequencing in a small severe-ME/CFS cohort. It defined a core of tailed Caudoviricetes phages and predicted ME/CFS-specific virus-host links involving Anaerotruncus. Seton 2023 (5 pairs with same-household controls) found reduced serum IgG capacity and reactivity to stool microbes. In a twin pair discordant for ME/CFS, Giloteaux 2016 reported lower diversity and expanded Caudovirales phages in the ill twin. The virome of the Norwegian Comeback FMT trial (Quadram/UEA thesis 2024) and a RESTORE-ME trial virome analysis are in progress, and no results are published.",
+   "studies": [
+    {
+     "cite": "Hsieh 2023, Int J Mol Sci",
+     "n": "small severe cohort + healthy",
+     "design": "virome + metagenome case-control",
+     "result": "Core phage virome; predicted disease-associated virus-host interactions",
+     "url": "https://doi.org/10.3390/ijms242417267",
+     "verified": true
+    },
+    {
+     "cite": "Seton 2023, medRxiv",
+     "n": "5 vs 5 household",
+     "design": "feasibility case-control",
+     "result": "Reduced serum IgG reactivity to gut microbes",
+     "url": "https://doi.org/10.1101/2023.05.21.23290299",
+     "verified": true
+    },
+    {
+     "cite": "Giloteaux 2016, Am J Case Rep",
+     "n": "1 MZ twin pair",
+     "design": "case report",
+     "result": "Ill twin: lower diversity, Caudovirales expansion",
+     "url": "https://doi.org/10.12659/ajcr.900314",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "open_questions": [
+    "Do phage shifts replicate in a powered cohort?",
+    "Does reduced anti-microbial IgG reflect immune exhaustion or sampling noise?"
+   ],
+   "hypotheses": [
+    "gut-dysbiosis",
+    "immune-exhaustion",
+    "viral-persistence"
+   ],
+   "test_available": "Research only"
+  },
+  {
+   "id": "gut-fmt-trials",
+   "subdomain": "Treatment: faecal transplant",
+   "finding": "The only published randomised faecal microbiota transplant trial in CFS (n=11) found no benefit, and a larger Norwegian RCT (n=80) has not yet reported.",
+   "grade": "early",
+   "plain": "Transferring stool from a healthy donor has been tried once in a proper small trial and did not help. A bigger trial is under way.",
+   "detail": "Salonen 2023 (Finland, donor FMT n=5 vs autologous n=6 by colonoscopy) found no change in VAS, MFIS, 15D or EQ-5D at 1 or 6 months, and no adverse events. It was underpowered. Kenyon 2019 reported improvement in a retrospective non-randomised series. The Comeback Study (NCT03691987, Harstad; 80 participants randomised 1:1:2 to two donors or autologous placebo, primary outcome FSS at 3 months) published its protocol in 2024. As of October 2026 no results have been reported.",
+   "studies": [
+    {
+     "cite": "Salonen 2023, J Transl Med",
+     "n": "11",
+     "design": "RCT (donor vs autologous FMT)",
+     "result": "No improvement in fatigue or HRQOL",
+     "url": "https://doi.org/10.1186/s12967-023-04227-y",
+     "verified": true
+    },
+    {
+     "cite": "Skjevling 2024, BMJ Open (Comeback protocol)",
+     "n": "80 planned",
+     "design": "RCT protocol",
+     "result": "Results pending",
+     "url": "https://doi.org/10.1136/bmjopen-2023-073275",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Kenyon 2019, Human Microbiome Journal",
+     "n": "42 (21 FMT)",
+     "design": "retrospective, non-randomised",
+     "result": "Reported improvement with FMT",
+     "url": "",
+     "verified": false
+    }
+   ],
+   "open_questions": [
+    "Will the Comeback RCT show benefit?",
+    "Should FMT target patients with the butyrate-loss / R. gnavus signature?"
+   ],
+   "hypotheses": [
+    "gut-dysbiosis"
+   ],
+   "test_available": "Not applicable (treatment; trials only)"
+  },
+  {
+   "id": "gut-probiotics",
+   "subdomain": "Treatment: probiotics and diet",
+   "finding": "Probiotic trials in CFS are small; one 39-person RCT of Lactobacillus casei Shirota reduced anxiety but did not target fatigue.",
+   "grade": "early",
+   "plain": "No probiotic has been shown to improve ME/CFS itself.",
+   "detail": "Rao 2009 (n=39, 24 billion CFU daily for 2 months) raised stool Lactobacillus and Bifidobacteria and reduced Beck anxiety scores (p=0.01). Fatigue was not the primary outcome. Venturini 2019 was an uncontrolled pilot. Re-analysis argues against Bifidobacterium/Lactobacillus products for the indolelactate deficit, because their abundance does not track it. Fibre and polyphenols have a better mechanistic case for IPA, but there are no trials (Solving ME/CFS re-analysis).",
+   "studies": [
+    {
+     "cite": "Rao 2009, Gut Pathog",
+     "n": "39",
+     "design": "RCT",
+     "result": "Reduced anxiety; stool lactobacilli up",
+     "url": "https://doi.org/10.1186/1757-4749-1-6",
+     "verified": true
+    },
+    {
+     "cite": "Venturini 2019, Oxid Med Cell Longev",
+     "n": "small",
+     "design": "uncontrolled pilot",
+     "result": "Changes in immune/oxidative markers",
+     "url": "https://doi.org/10.1155/2019/1684198",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "open_questions": [
+    "Would a butyrate-producer consortium or fibre intervention shift symptoms in signature-positive patients?"
+   ],
+   "hypotheses": [
+    "gut-dysbiosis"
+   ],
+   "test_available": "Not applicable"
+  },
+  {
+   "id": "gut-genetics-not-causal",
+   "subdomain": "Genetics of the gut-brain axis",
+   "finding": "ME/CFS genetic risk overlaps with IBS and is enriched in enteric neurons, but genetically predicted gut-derived metabolites (IPA, indolelactate, kynurenine, bile acids) do not change ME/CFS risk.",
+   "grade": "early",
+   "plain": "The genes involved overlap with those for irritable bowel syndrome and gut nerves. But inheriting higher or lower levels of gut metabolites does not change ME/CFS risk, so those metabolites are probably effects, not causes.",
+   "detail": "Solving ME/CFS MR (DecodeME discovery, MVP replication): IPA OR 1.19 (0.93–1.53), indolelactate 0.99, kynurenine 1.01, glycocholate 1.02, all null. Lee 2026 (medRxiv, from Solving ME/CFS genetics summary): rg with IBS 0.57 and heritability enrichment in enteric neurons (FDR 0.004). Wielscher 2026 (preprint): 'barrier-microbiome' traits show among the strongest genetic overlap, with IBS contributing most pleiotropy. OLFM4, a DecodeME locus, is highly expressed in ileal stem cells and neutrophils.",
+   "studies": [
+    {
+     "cite": "Solving ME/CFS re-analysis (deep2 genetics_mr)",
+     "n": "15,579 + MVP",
+     "design": "two-sample MR",
+     "result": "All gut-metabolite exposures null",
+     "url": "",
+     "verified": true
+    },
+    {
+     "cite": "Wielscher 2026, Research Square preprint",
+     "n": "DecodeME 15,579",
+     "design": "genetic correlation + MR",
+     "result": "Barrier-microbiome traits and IBS share pleiotropy with ME/CFS",
+     "url": "https://doi.org/10.21203/rs.3.rs-9363637/v2",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "open_questions": [
+    "Is the shared IBS genetics neuronal (enteric nervous system) rather than microbial?"
+   ],
+   "hypotheses": [
+    "gut-dysbiosis",
+    "genetic-neuronal"
+   ],
+   "test_available": "Research only"
+  },
+  {
+   "id": "gut-longcovid-parallel",
+   "subdomain": "Long COVID",
+   "finding": "In long COVID, the gut microbiome at hospital admission predicted persistent symptoms, and at 6 months patients had more R. gnavus and fewer butyrate producers, mirroring ME/CFS.",
+   "grade": "several",
+   "plain": "Long COVID shows a gut pattern similar to ME/CFS, and in one study the gut profile early in COVID predicted who stayed ill.",
+   "detail": "Liu 2022 (Hong Kong, 106 patients, 258 serial stool samples; 68 controls) reported that admission microbiota composition was associated with PACS. Patients who recovered had normalised microbiomes, while PACS showed higher R. gnavus and B. vulgatus and lower F. prausnitzii. Butyrate producers (B. pseudocatenulatum, F. prausnitzii) showed the largest inverse correlation with PACS. Antibiotic use and hospital care in severe COVID are confounders.",
+   "studies": [
+    {
+     "cite": "Liu 2022, Gut",
+     "n": "106 vs 68",
+     "design": "prospective cohort",
+     "result": "Admission microbiome associated with PACS; R. gnavus up, F. prausnitzii down",
+     "url": "https://doi.org/10.1136/gutjnl-2021-325989",
+     "verified": true
+    },
+    {
+     "cite": "Hamrefors 2024, Sci Rep",
+     "n": "LC",
+     "design": "gut",
+     "result": "Gut microbiota differed in POTS (27) and, less so, post-acute COVID (32) vs controls; symptoms correlated with diversity",
+     "url": "https://doi.org/10.1038/s41598-024-53784-9",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "open_questions": [
+    "Does pre-infection microbiome predict long COVID in community (non-hospitalised) cohorts?"
+   ],
+   "hypotheses": [
+    "gut-dysbiosis",
+    "viral-persistence"
+   ],
+   "test_available": "Research only"
+  },
+  {
+   "id": "gut-machine-learning-classifiers",
+   "subdomain": "Multi-omics classifiers",
+   "finding": "Microbiome-based machine-learning classifiers distinguish ME/CFS from controls in held-out and external cohorts (BioMapAI, Guo 2023), but they are research tools with modest real-world specificity.",
+   "grade": "several",
+   "plain": "Computer models can tell patient and control stool apart better than chance, but this is not a diagnostic test yet.",
+   "detail": "BioMapAI (Xiong 2025, Nat Med; 249 participants over 4 years) integrated metagenomics, plasma metabolomics, immune profiling and labs to predict severity. It classified held-out and external cohorts and linked SCFA, BCAA, tryptophan and benzoate metabolism to MAIT/γδT inflammation. Guo 2023's classifier generalised across US sites. Classifiers have not been tested against disease controls (IBS, depression, MS, fibromyalgia), so specificity is unknown. Within-cohort cross-validation in the plasma metabolome transferred poorly (AUC 0.56; Solving ME/CFS re-analysis).",
+   "studies": [
+    {
+     "cite": "Xiong 2025, Nat Med",
+     "n": "249",
+     "design": "longitudinal multi-omics, deep learning",
+     "result": "Classifies ME/CFS in held-out and external cohorts",
+     "url": "https://doi.org/10.1038/s41591-025-03788-3",
+     "verified": true
+    },
+    {
+     "cite": "Guo 2023, Cell Host Microbe",
+     "n": "106 vs 91 + validation",
+     "design": "case-control classifier",
+     "result": "Robust to geography; generalised to validation cohort",
+     "url": "https://doi.org/10.1016/j.chom.2023.01.004",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "open_questions": [
+    "How do classifiers perform against IBS and other fatigue conditions?"
+   ],
+   "hypotheses": [
+    "gut-dysbiosis"
+   ],
+   "test_available": "Research only"
+  }
+ ],
+ "hypotheses_notes": [
+  {
+   "id": "gut-dysbiosis",
+   "for": "Loss of butyrate producers and an R. gnavus-type bloom are seen in at least 4 cohorts and 3 labs, and a pre-specified NIH test gave AUC 0.87. Low IPA in 4/4 cohorts is explained by stool composition. The same pattern occurs in long COVID, where the admission microbiome predicted persistence. There is a genetic overlap with IBS and enteric neurons.",
+   "against": "Dysbiosis fades in long-standing illness while symptoms persist and does not track severity at FDR. MR shows gut metabolites are not causal. IBS confounds the comparison. The only FMT RCT was null (n=11). The translocation markers are small, lab-specific and use contamination-prone assays."
+  },
+  {
+   "id": "innate-hyperactivation",
+   "for": "Raised LPS/LBP/sCD14 in some studies. In BioMapAI, the microbiome links to MAIT/γδT inflammatory cells.",
+   "against": "Re-analysis found 0/622 immune-module associations at q<0.1. The Quadram feasibility study found reduced anti-microbial IgG."
+  },
+  {
+   "id": "genetic-neuronal",
+   "for": "Heritability is enriched in enteric neurons and the genetic correlation with IBS is about 0.57, suggesting a gut-brain neural link.",
+   "against": "These are preprints, and the NOS1 region shared with IBS does not colocalise."
+  }
+ ],
+ "glossary": [
+  {
+   "term": "Microbiome",
+   "plain": "The community of bacteria, viruses and fungi living in the gut."
+  },
+  {
+   "term": "Dysbiosis",
+   "plain": "An imbalance in the gut microbial community compared with healthy people."
+  },
+  {
+   "term": "Butyrate",
+   "plain": "A short-chain fatty acid made by some gut bacteria from fibre. It fuels the cells lining the colon and dampens inflammation."
+  },
+  {
+   "term": "Shotgun metagenomics",
+   "plain": "Sequencing all DNA in stool to identify species and their genes, more detailed than 16S sequencing."
+  },
+  {
+   "term": "16S rRNA sequencing",
+   "plain": "A cheaper method that identifies bacteria by one marker gene, usually only to genus level."
+  },
+  {
+   "term": "Indole-3-propionate (IPA)",
+   "plain": "A protective tryptophan breakdown product made only by certain gut bacteria."
+  },
+  {
+   "term": "LPS / sCD14 / LBP",
+   "plain": "LPS is a component of bacterial walls. sCD14 and LBP are proteins the body makes in response to it, used as markers of bacteria leaking into blood."
+  },
+  {
+   "term": "Virome / phages",
+   "plain": "The viruses in the gut, most of which infect bacteria (bacteriophages)."
+  },
+  {
+   "term": "FMT",
+   "plain": "Faecal microbiota transplantation: transferring stool from a healthy donor to a patient."
+  },
+  {
+   "term": "IBS",
+   "plain": "Irritable bowel syndrome, a disorder of gut-brain interaction causing pain and altered bowel habit."
+  }
+ ],
+ "key_reviews": [
+  {
+   "cite": "König 2022, Front Immunol",
+   "url": "https://doi.org/10.3389/fimmu.2021.628741",
+   "why": "Broad review of microbiome hypotheses (dysbiosis, permeability, SCFA, D-lactate, tryptophan) and interventions."
+  },
+  {
+   "cite": "Nikolova 2025, Int J Mol Sci",
+   "url": "https://doi.org/10.3390/ijms27010425",
+   "why": "Recent overview of gut microbiome mechanisms in ME/CFS."
+  },
+  {
+   "cite": "Rajabi 2026, Front Med",
+   "url": "https://doi.org/10.3389/fmed.2026.1881784",
+   "why": "First meta-analysis quantifying IBS overlap."
+  },
+  {
+   "cite": "Perera 2025, Int J Mol Sci (Quadram)",
+   "url": "https://doi.org/10.3390/ijms262211161",
+   "why": "Argues that mucosal viruses are an under-studied piece."
+  }
+ ],
+ "gaps": [
+  "No prospective study samples stool before or at the triggering infection and follows people into ME/CFS, outside the hospitalised COVID cohort of Liu 2022.",
+  "No microbiome study of ME/CFS uses disease controls (IBS without ME/CFS, depression, MS, deconditioned controls) to test specificity.",
+  "No direct intestinal permeability measurement (lactulose/mannitol or similar) in a powered ME/CFS cohort; no study of translocation markers before and after exertion.",
+  "Results of the 80-person Comeback FMT RCT and the RESTORE-ME virome work are not yet published.",
+  "No intervention trial selects patients by microbiome signature (e.g. butyrate-producer loss) or tests fibre/polyphenols to raise IPA.",
+  "Small-intestinal microbiota (which stool does not sample) has not been studied, though it could explain the aromatic-lactate deficit.",
+  "Within-person longitudinal sampling is needed to test whether microbiome shifts track PEM or relapses."
+ ]
+}

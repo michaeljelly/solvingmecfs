@@ -1,0 +1,20 @@
+# URLs the genetics agent could not fetch (bash blocked / WebFetch disallowed). What each would enable.
+https://osf.io/rgqs3/files/osfstorage   | DecodeME summary statistics (GWAS-1, GWAS-2, female, male, infection, no-infection; build 38, REGENIE). Enables own MAGMA gene/gene-set/cell-type analysis, PRS weights, colocalisation.
+https://www.pure.ed.ac.uk/ws/portalfiles/portal/533352484/Candidate_Genes.pdf | DecodeME candidate-gene supplement: per-gene rationale and eQTL direction for the 43 genes in the 8 loci.
+https://www.medrxiv.org/content/10.1101/2025.08.06.25333109v1.supplementary-material | DecodeME supplementary tables (Tier 1/2 genes, PPH4, MAGMA gene table, replication table).
+https://zenodo.org/records/20204356 | Maccallini et al. 2026 preprint (DecodeME + MVP meta-GWAS, 19,470 cases); gene-set and cell-type tables.
+https://zenodo.org/records/18198370 | Wielscher 2026 genetic correlation + MR of ME/CFS (mtDNA copy number, GlycA, platelet volume) - effect sizes.
+https://link.springer.com/article/10.1186/s12967-026-08167-1 (+ supplementary) | Gardner et al. 2026 PrecisionLife DecodeME combinatorial analysis: 259 core genes and drug repurposing list.
+https://translational-medicine.biomedcentral.com/articles/10.1186/s12967-022-03815-8 | Das et al. 2022 PrecisionLife UK Biobank: SNP networks and drug table.
+https://www.medrxiv.org/content/10.1101/2025.04.15.25325899v1.supplementary-material | Zhang et al. 2025 HEAL2 WGS: list of 115 risk genes (to overlap with DecodeME loci).
+https://fuma.ctglab.nl/browse/663962 | Maccallini's public FUMA run on DecodeME GWAS-1 (gene mapping, MAGMA gene table, tissue enrichment tables).
+https://trafalmadorian97.github.io/mecfs_bioinformatics/ | Rendered tables (MAGMA gene list, S-LDSC, HBA clusters, CT-LDSC rg values) from the open mecfs_bioinformatics pipeline. Tables are not in the git repo (built at deploy time).
+https://www.proteinatlas.org/ENSG00000102837-OLFM4 (and pages for RABGAP1L, BTN2A2, CA10, ARFGEF2, CSE1L, FBXL4, SUDS3, CCPG1, TRIM38, ZNFX1) | HPA tissue and single-cell expression.
+https://platform.opentargets.org/ and https://dgidb.org/ for the same genes | tractability / existing drugs.
+https://pubmed.ncbi.nlm.nih.gov/42190845/ | Steen et al. 2026 twin-sibling study: shared genetic risk of functional somatic syndromes (incl. ME/CFS?) with internalizing and immune disorders - heritability numbers.
+https://www.meresearch.org.uk/highlights-from-the-international-me-cfs-conference-2026-including-decode-me-pet/ | DecodeME 2026 conference update (any new loci, sequencing, recall-by-genotype plans).
+https://events.mecfs-research.org/en/events/conference_2026/videos/chris-ponting-decodeme-genetics | Ponting Berlin 2026 talk.
+https://www.healthrising.org/blog/2026/05/13/precision-life-me-cfs-long-covid-jigsaw-puzzle/ | PrecisionLife named drug candidates.
+https://s4me.info/threads/a-pipeline-for-the-discovery-of-causal-variants-in-mendelian-me-cfs-2026-maccallini.51702/ | Maccallini 2026 Mendelian ME/CFS pipeline (rare-variant, family-based).
+https://www.nature.com/articles/s41598-020-62157-x | Lande 2020 HLA ORs (C*07:04, DQB1*03:03).
+https://pubmed.ncbi.nlm.nih.gov/35318112/ | Hajdarevic 2022 abstract (427 Norwegian cases).

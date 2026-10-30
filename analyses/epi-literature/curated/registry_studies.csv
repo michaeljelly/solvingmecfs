@@ -1,0 +1,13 @@
+country,study,year,n,exposure,outcome,effect
+Norway,Magnus,2015,~2.3M,H1N1 infection / vaccine,CFS,HR 2.04 (1.78-2.33) / 0.97
+Taiwan,Chang,2023,395811,any infection,CFS,HR 1.5; users of doxycycline azithromycin fluoroquinolones had lower CFS risk
+Taiwan,Chang,2025,,influenza / flu vaccine,CFS,aHR 1.51; vaccine lower
+Germany (Bavaria),Donnachie,2018,,GI infection / prior psych disorder,CFS,HR 1.35-1.82 / 2.08
+Taiwan,Tsai,2014,,herpes zoster,CFS,HR 1.29
+Taiwan,Yang,2015,,atopy,CFS,aHR 1.48
+Taiwan/other,Chen,2024,,COVID,CFS,HR 1.59
+US,Vu,2024,,COVID,chronic fatigue,HR 4.32
+US INSPIRE,Unger,2024,,COVID+ vs COVID- symptomatic,ME/CFS-like,OR 0.84-1.18 (null)
+Sweden,af Geijerstam,2026,208000 women,>8 prior symptom visits,PVFS,OR 7.7 (healthcare-seeking bias)
+Norway/Denmark,Feiring 2017; Hviid 2020,2017-2020,millions,HPV vaccine,CFS,null
+Norway,Hilland,2024,,socioeconomic,CFS,gradient

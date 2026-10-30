@@ -1,0 +1,128 @@
+study,a,b,r
+BioMapAI,indolelactate,indolepropionate,-0.02214388711780722
+BioMapAI,indolelactate,phenyllactate (PLA),0.6285594781602332
+BioMapAI,indolelactate,3-(4-hydroxyphenyl)lactate,0.5366830010339724
+BioMapAI,indolelactate,imidazole lactate,0.3457189806863504
+BioMapAI,indolelactate,hippurate,0.08448284793684877
+BioMapAI,indolelactate,p-cresol sulfate,0.08415677552982256
+BioMapAI,indolelactate,phenylacetylglutamine,0.029681732185062405
+BioMapAI,indolelactate,3-indoxyl sulfate,0.19584388310451564
+BioMapAI,indolelactate,trimethylamine N-oxide,0.15413194304381575
+BioMapAI,indolelactate,imidazole propionate,0.16089281067479166
+BioMapAI,indolelactate,indoleacetate,0.26309452135093053
+BioMapAI,indolelactate,lactate,0.18987831940360875
+BioMapAI,indolelactate,phenylpyruvate,0.34533826626181235
+BioMapAI,indolelactate,alpha-hydroxyisocaproate,0.3232551655036281
+BioMapAI,indolepropionate,indolelactate,-0.02214388711780722
+BioMapAI,indolepropionate,phenyllactate (PLA),0.06179723445393282
+BioMapAI,indolepropionate,3-(4-hydroxyphenyl)lactate,-0.07917115129135566
+BioMapAI,indolepropionate,imidazole lactate,-0.0866390824509663
+BioMapAI,indolepropionate,hippurate,0.3344298966163951
+BioMapAI,indolepropionate,p-cresol sulfate,0.018204370176716802
+BioMapAI,indolepropionate,phenylacetylglutamine,-0.12029007705265543
+BioMapAI,indolepropionate,3-indoxyl sulfate,-0.01817505456729564
+BioMapAI,indolepropionate,trimethylamine N-oxide,-0.05195153015875631
+BioMapAI,indolepropionate,imidazole propionate,-0.20682879724192446
+BioMapAI,indolepropionate,indoleacetate,-0.0886893863345626
+BioMapAI,indolepropionate,lactate,-0.10667878232483481
+BioMapAI,indolepropionate,phenylpyruvate,0.013291068911732632
+BioMapAI,indolepropionate,alpha-hydroxyisocaproate,-0.07659819722660195
+Germain2022,indolelactate,indolepropionate,0.17381368322407392
+Germain2022,indolelactate,phenyllactate (PLA),0.46232336088454085
+Germain2022,indolelactate,3-(4-hydroxyphenyl)lactate,0.5338536086615681
+Germain2022,indolelactate,imidazole lactate,0.1673700536402776
+Germain2022,indolelactate,hippurate,0.3419186622687968
+Germain2022,indolelactate,p-cresol sulfate,0.13915737454366597
+Germain2022,indolelactate,phenylacetylglutamine,0.09732389653677835
+Germain2022,indolelactate,3-indoxyl sulfate,0.1997082047566352
+Germain2022,indolelactate,trimethylamine N-oxide,0.07858130815294379
+Germain2022,indolelactate,imidazole propionate,-0.03803301744657464
+Germain2022,indolelactate,indoleacetate,0.15224212177138569
+Germain2022,indolelactate,lactate,0.16773938731473517
+Germain2022,indolelactate,phenylpyruvate,0.34792213605176664
+Germain2022,indolelactate,alpha-hydroxyisocaproate,0.46970107115227955
+Germain2022,indolepropionate,indolelactate,0.17381368322407395
+Germain2022,indolepropionate,phenyllactate (PLA),-0.04962870419092975
+Germain2022,indolepropionate,3-(4-hydroxyphenyl)lactate,-0.004586912883294753
+Germain2022,indolepropionate,imidazole lactate,-0.01667868131480877
+Germain2022,indolepropionate,hippurate,0.40953558859898115
+Germain2022,indolepropionate,p-cresol sulfate,0.026429679387412267
+Germain2022,indolepropionate,phenylacetylglutamine,0.03882378113619781
+Germain2022,indolepropionate,3-indoxyl sulfate,-0.00358253449011008
+Germain2022,indolepropionate,trimethylamine N-oxide,0.10398568419779375
+Germain2022,indolepropionate,imidazole propionate,-0.34122769040331863
+Germain2022,indolepropionate,indoleacetate,0.11924269561137027
+Germain2022,indolepropionate,lactate,0.026329535658443943
+Germain2022,indolepropionate,phenylpyruvate,0.2545575462652705
+Germain2022,indolepropionate,alpha-hydroxyisocaproate,-0.01939421689697738
+Germain2018,indolelactate,indolepropionate,0.25243059665531326
+Germain2018,indolelactate,phenyllactate (PLA),0.7563569661088434
+Germain2018,indolelactate,3-(4-hydroxyphenyl)lactate,0.4021176307673473
+Germain2018,indolelactate,imidazole lactate,0.3936890673399994
+Germain2018,indolelactate,hippurate,0.11729560255787036
+Germain2018,indolelactate,p-cresol sulfate,0.0388438921208667
+Germain2018,indolelactate,phenylacetylglutamine,0.1035323023691917
+Germain2018,indolelactate,3-indoxyl sulfate,0.02845264958119548
+Germain2018,indolelactate,trimethylamine N-oxide,-0.08925699928177366
+Germain2018,indolelactate,imidazole propionate,0.2439177176506223
+Germain2018,indolelactate,indoleacetate,0.19846180572007757
+Germain2018,indolelactate,lactate,0.1319434022766311
+Germain2018,indolelactate,phenylpyruvate,0.2942426660196594
+Germain2018,indolelactate,alpha-hydroxyisocaproate,0.4247674092596446
+Germain2018,indolepropionate,indolelactate,0.25243059665531326
+Germain2018,indolepropionate,phenyllactate (PLA),0.2558418426954824
+Germain2018,indolepropionate,3-(4-hydroxyphenyl)lactate,0.050756865495488586
+Germain2018,indolepropionate,imidazole lactate,0.18786039946914965
+Germain2018,indolepropionate,hippurate,0.12155854208015474
+Germain2018,indolepropionate,p-cresol sulfate,0.2532304353167715
+Germain2018,indolepropionate,phenylacetylglutamine,0.18848347817107777
+Germain2018,indolepropionate,3-indoxyl sulfate,-0.07687369826706156
+Germain2018,indolepropionate,trimethylamine N-oxide,-0.01960762681912901
+Germain2018,indolepropionate,imidazole propionate,-0.0031616811474037164
+Germain2018,indolepropionate,indoleacetate,0.20565577807229424
+Germain2018,indolepropionate,lactate,-0.2289941162205316
+Germain2018,indolepropionate,phenylpyruvate,0.21042417831815557
+Germain2018,indolepropionate,alpha-hydroxyisocaproate,0.09789560328605738
+Germain2020,indolelactate,indolepropionate,0.19262431973837416
+Germain2020,indolelactate,phenyllactate (PLA),0.679571300165096
+Germain2020,indolelactate,3-(4-hydroxyphenyl)lactate,0.6668783721334154
+Germain2020,indolelactate,imidazole lactate,0.4545694163087602
+Germain2020,indolelactate,hippurate,0.34315988608942966
+Germain2020,indolelactate,p-cresol sulfate,0.25803282063127986
+Germain2020,indolelactate,phenylacetylglutamine,0.2037885579041144
+Germain2020,indolelactate,3-indoxyl sulfate,0.4257236901631606
+Germain2020,indolelactate,trimethylamine N-oxide,0.28896125378764337
+Germain2020,indolelactate,imidazole propionate,0.4019688764238918
+Germain2020,indolelactate,indoleacetate,0.5026224369006818
+Germain2020,indolelactate,lactate,0.2193008647711677
+Germain2020,indolelactate,phenylpyruvate,0.2907318484000484
+Germain2020,indolelactate,alpha-hydroxyisocaproate,0.4411463232048543
+Germain2020,indolepropionate,indolelactate,0.19262431973837416
+Germain2020,indolepropionate,phenyllactate (PLA),0.08497781579506652
+Germain2020,indolepropionate,3-(4-hydroxyphenyl)lactate,-0.1652474176482494
+Germain2020,indolepropionate,imidazole lactate,-0.21491210961455232
+Germain2020,indolepropionate,hippurate,0.22302114914540422
+Germain2020,indolepropionate,p-cresol sulfate,0.19076977018556837
+Germain2020,indolepropionate,phenylacetylglutamine,0.05294293809872687
+Germain2020,indolepropionate,3-indoxyl sulfate,0.07878064038354507
+Germain2020,indolepropionate,trimethylamine N-oxide,-0.048462044356249484
+Germain2020,indolepropionate,imidazole propionate,-0.028754749536582726
+Germain2020,indolepropionate,indoleacetate,0.3534017905877786
+Germain2020,indolepropionate,lactate,-0.12432521793040865
+Germain2020,indolepropionate,phenylpyruvate,0.0006737280514801908
+Germain2020,indolepropionate,alpha-hydroxyisocaproate,0.11105827269534231
+Che2022,indolelactate,indolepropionate,0.12077002862580702
+Che2022,indolelactate,phenylacetylglutamine,0.09093360335976589
+Che2022,indolelactate,trimethylamine N-oxide,0.08148162229376724
+Che2022,indolelactate,indoleacetate,0.04848536386161939
+Che2022,indolelactate,lactate,0.16731403863814512
+Che2022,indolepropionate,indolelactate,0.12077002862580702
+Che2022,indolepropionate,phenylacetylglutamine,-0.06297243420121364
+Che2022,indolepropionate,trimethylamine N-oxide,0.15880226585829174
+Che2022,indolepropionate,indoleacetate,0.1023788365992189
+Che2022,indolepropionate,lactate,-0.16581432182779454
+NagySzakal2018,indolelactate,hippurate,-0.037999359309467746
+NagySzakal2018,indolelactate,phenylacetylglutamine,0.030206489469367704
+NagySzakal2018,indolelactate,trimethylamine N-oxide,0.07900912280177357
+NagySzakal2018,indolelactate,indoleacetate,0.2436128233524706
+NagySzakal2018,indolelactate,lactate,0.15431531268218066

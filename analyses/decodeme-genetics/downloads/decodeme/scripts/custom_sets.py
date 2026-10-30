@@ -1,0 +1,23 @@
+# Project-specific candidate gene sets (symbols) -> MAGMA set file (Entrez)
+import pandas as pd
+W='/tmp/work_decodeme/'
+S={
+'TH17_IL17':'RORC IL17A IL17F IL23R IL23A IL12B IL21 IL22 CCR6 STAT3 IL6 IL6R IL1B IL1R1 TGFB1 BATF IRF4 KLRB1 IL17RA IL17RC TRAF3IP2 RORA IL26 CCL20 MAF'.split(),
+'KYNURENINE_TRP':'IDO1 IDO2 TDO2 AFMID KMO KYNU HAAO ACMSD QPRT KYAT1 AADAT KYAT3 GOT2 TPH1 TPH2 DDC AANAT ASMT IL4I1 SLC7A5 SLC6A19 SLC3A2'.split(),
+'INDOLE_AHR_PXR':'AHR ARNT AHRR CYP1A1 CYP1A2 CYP1B1 NR1I2 NR1I3 CYP3A4 TIPARP IL4I1'.split(),
+'FAO_KETONE_CARNITINE':'CPT1A CPT1B CPT1C CPT2 SLC25A20 CRAT CROT ACADS ACADM ACADL ACADVL ACAD9 HADHA HADHB HADH ECHS1 ETFA ETFB ETFDH SLC22A5 HMGCS2 HMGCL BDH1 OXCT1 ACAT1 PPARA CD36 LPL PNPLA2 LIPE'.split(),
+'BILE_ACID':'NR1H4 CYP7A1 CYP8B1 CYP27A1 CYP7B1 BAAT SLC27A5 SLC51A SLC51B SLC10A1 SLC10A2 ABCB11 FGF19 FGFR4 KLB GPBAR1 NR0B2 VDR AKR1D1 HSD3B7 SLCO1B1 AMACR ACOX2'.split(),
+'CATECHOLAMINE':'TH DDC DBH PNMT COMT MAOA MAOB SLC6A2 SLC6A3 SLC18A1 SLC18A2 GCH1 PTS SPR QDPR CYB561 ADRA1A ADRA1B ADRA2A ADRA2C ADRB1 ADRB2 ADRB3'.split(),
+'AUTONOMIC_POTS':'SLC6A2 ADRB1 ADRB2 ADRA1A ADRA2A CHRNA3 CHRNB4 CHRM2 CHRM3 AGT AGTR1 ACE ACE2 NOS1 NOS3 PHOX2B PHOX2A NTRK1 NGF SCN9A SCN10A SCN11A DBH TH HCN4 KCNJ5 CYB5R3 AVP AVPR2 NPPA NR3C2 CYP11B2 REN'.split(),
+}
+S['ALL_PROJECT_CANDIDATES']=sorted(set(sum(S.values(),[])))
+gi=pd.read_csv(W+'ref/Homo_sapiens.gene_info.gz',sep='\t',usecols=['GeneID','Symbol'])
+sym2id=dict(zip(gi.Symbol,gi.GeneID))
+with open(W+'gs/project_sets.entrez.txt','w') as f:
+    for k,v in S.items():
+        ids=[str(sym2id[s]) for s in v if s in sym2id]
+        miss=[s for s in v if s not in sym2id]
+        if miss: print(k,'missing',miss)
+        f.write(k+' '+' '.join(ids)+'\n')
+pd.Series({k:' '.join(v) for k,v in S.items()}).to_csv(W+'gs/project_sets_symbols.tsv',sep='\t',header=False)
+print({k:len(v) for k,v in S.items()})

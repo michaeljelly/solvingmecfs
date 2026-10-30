@@ -1,0 +1,1903 @@
+{
+ "domain": "neuro",
+ "title": "Nervous system and brain",
+ "overview": "The most consistent nervous-system findings in ME/CFS are physiological rather than anatomical. Brain blood flow drops more than normal when patients are upright, often with over-breathing (low CO2), and resting heart-rate variability is lower; both are seen across several independent labs. Small-fibre nerve loss on skin biopsy is common in referral clinics (roughly 30-55%), but the main controlled NIH study found no difference, and nobody has yet shown that nerve loss explains symptoms. Brain imaging gives many positive but small and mostly unreplicated results: raised ventricular lactate (mostly one group), raised brain temperature (one study), TSPO-PET neuroinflammation (one positive and one negative ME/CFS study), and newer diffusion MRI signals. Structural MRI, routine sleep studies and markers of nerve injury are mostly normal or inconsistent. The NIH 'effort preference' interpretation has been seriously challenged, because patients in that study often could not complete the hard task. Claims about craniocervical instability rest on uncontrolled clinic series and case reports.",
+ "findings": [
+  {
+   "id": "neuro-cbf-tilt",
+   "subdomain": "Cerebral perfusion / orthostatic",
+   "finding": "Blood flow to the brain falls much more than normal during head-up tilt in ME/CFS (about 26% vs 7% in controls), including in patients whose heart rate and blood pressure stay normal.",
+   "grade": "replicated",
+   "plain": "When patients are tilted upright, less blood reaches the brain than in healthy people, even if their pulse and blood pressure look normal. That can explain light-headedness and brain fog when standing.",
+   "detail": "van Campen 2020 measured extracranial carotid plus vertebral flow by Doppler during a 30-min tilt in 429 patients vs 44 controls. End-tilt drop was 7% in controls and 26% in patients overall: 24% with a normal HR/BP response, 28% with delayed orthostatic hypotension and 29% with POTS. About 90% exceeded the control range. Transcranial Doppler studies (Medow 2014; Novak 2026, 88% of 170 ME/CFS) agree. A 2025 systematic review (118 studies) found reduced CBF in 12 of 26 ME/CFS-only studies and a larger fall when ME/CFS and orthostatic intolerance coexist. Caveats: most data come from referral clinics; controls are few; and CBF velocity (transcranial Doppler) is not the same as volume flow.",
+   "studies": [
+    {
+     "cite": "van Campen 2020, Clin Neurophysiol Pract",
+     "n": "429 vs 44",
+     "design": "case-control, tilt with extracranial Doppler",
+     "result": "End-tilt CBF -26% vs -7%; ~90% of patients abnormal, incl. normal HR/BP responders",
+     "url": "https://doi.org/10.1016/j.cnp.2020.01.003",
+     "verified": true
+    },
+    {
+     "cite": "Novak 2026, PLoS One",
+     "n": "170 ME/CFS, 143 long COVID, 73 HC, 290 hEDS",
+     "design": "retrospective autonomic-lab cohort, TCD + capnography",
+     "result": "Reduced orthostatic CBF velocity in 88% ME/CFS and 92% long COVID",
+     "url": "https://doi.org/10.1371/journal.pone.0341278",
+     "verified": true
+    },
+    {
+     "cite": "Medow 2014, J Appl Physiol",
+     "n": "15 vs 11",
+     "design": "case-control tilt with TCD",
+     "result": "CBFv fell 22.5% vs 8.7% in controls",
+     "url": "https://doi.org/10.1152/japplphysiol.00527.2014",
+     "verified": true
+    },
+    {
+     "cite": "Christopoulos 2025, J Transl Med",
+     "n": "118 studies, 9185 participants",
+     "design": "systematic review",
+     "result": "CBF reduced in ME/CFS and in OI; larger reduction when both present (4/11 studies)",
+     "url": "https://doi.org/10.1186/s12967-025-06954-w",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Walitt 2024, Nat Commun",
+     "n": "17 vs 21",
+     "design": "deep phenotyping incl. 40-min tilt",
+     "result": "No group differences in orthostatic hypotension, tachycardia or tilt-related stopping (CBF not measured)",
+     "url": "https://doi.org/10.1038/s41467-024-45107-3",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Does the CBF fall cause the cognitive symptoms, or only accompany them?",
+    "How much is driven by hypocapnia versus low stroke volume?",
+    "Is it specific to ME/CFS versus deconditioning, hEDS or other dysautonomias?"
+   ],
+   "hypotheses": [
+    "low-blood-volume-preload",
+    "autonomic-small-fibre",
+    "vascular-endothelial"
+   ],
+   "test_available": "Tilt with extracranial Doppler (few centres, e.g. Netherlands) or transcranial Doppler in some autonomic labs; mostly research or specialist only"
+  },
+  {
+   "id": "neuro-hypocapnia",
+   "subdomain": "Cerebral perfusion / orthostatic",
+   "finding": "Many patients over-breathe when upright and lower their end-tidal CO2. This drives part of the fall in brain blood flow, and correcting it with phenylephrine restored blood flow and working memory in one small trial.",
+   "grade": "replicated",
+   "plain": "Standing makes some patients breathe off too much carbon dioxide. Low CO2 narrows brain blood vessels, so less blood reaches the brain. A drug that tightens blood vessels prevented this and improved a memory test in a small study.",
+   "detail": "Medow 2014: on tilt, ETCO2 was 33.9 vs 42.8 Torr in 15 CFS vs 11 controls. Phenylephrine prevented the hypocapnia, cut the CBFv fall from 22.5% to 8.1%, and returned n-back reaction time to supine levels. Yamazaki 2026: 40.8% of 49 adults met the criteria for postural orthostatic syndrome of hypocapnia (POSH) on a lean test with capnography, more often than POTS. Novak 2026 defines a hypocapnic cerebral hypoperfusion phenotype. In long COVID (O'Brien 2026, n=50), 64% had supine or orthostatic hypocapnia. Solving ME/CFS re-analysis: hypocapnia on tilt is reported by 5 groups and the CBF fall by 4. Treatment evidence is still single-group and acute.",
+   "studies": [
+    {
+     "cite": "Medow 2014, J Appl Physiol",
+     "n": "15 vs 11",
+     "design": "case-control + acute phenylephrine crossover",
+     "result": "ETCO2 33.9 vs 42.8 Torr on tilt; phenylephrine normalised CBFv and n-back",
+     "url": "https://doi.org/10.1152/japplphysiol.00527.2014",
+     "verified": true
+    },
+    {
+     "cite": "Yamazaki 2026, Physiol Rep",
+     "n": "49",
+     "design": "cross-sectional, lean test with capnography + Daxor blood volume",
+     "result": "POSH in 40.8%; lean-test abnormalities not related to blood volume",
+     "url": "https://doi.org/10.14814/phy2.71087",
+     "verified": true
+    },
+    {
+     "cite": "O'Brien 2026, J Clin Med",
+     "n": "50 long COVID",
+     "design": "clinic cohort, NASA lean test + ETCO2",
+     "result": "Hypocapnia 64%; POTS 32%; breathing retraining improved symptoms, not ETCO2",
+     "url": "https://doi.org/10.3390/jcm15186970",
+     "verified": true
+    },
+    {
+     "cite": "Medow & Stewart 2024, Am J Physiol Regul Integr Comp Physiol",
+     "n": "small",
+     "design": "physiology",
+     "result": "Phenylephrine alters CBFv-BP phase synchronisation in ME/CFS with OI",
+     "url": "https://doi.org/10.1152/ajpregu.00071.2024",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "open_questions": [
+    "Is hypocapnia primary (respiratory/chemoreflex) or compensation for low venous return?",
+    "Would capnography-guided treatment (compression, midodrine, breathing retraining) improve function over weeks?"
+   ],
+   "hypotheses": [
+    "low-blood-volume-preload",
+    "autonomic-small-fibre"
+   ],
+   "test_available": "Capnography during a 10-min stand or lean test: cheap; available in some respiratory/autonomic clinics"
+  },
+  {
+   "id": "neuro-pots-prevalence",
+   "subdomain": "Autonomic",
+   "finding": "POTS occurs in a minority of ME/CFS patients, and published rates vary widely (about 6-43%) with the setting, the age group and the test protocol.",
+   "grade": "contested",
+   "plain": "Some, but not most, people with ME/CFS meet the heart-rate criteria for POTS. How many depends a lot on who was tested and how.",
+   "detail": "van Campen 2020: 120 of 429 tilt-tested patients (28%) had POTS. Novak 2026: POTS in 19% of ME/CFS and 22% of long COVID, but widespread mild autonomic failure in 89-95%. Adolescents (Leone 2026): PoTS in 7/18 ME/CFS vs 0/18 controls on a 10-min stand, although 83% reported OI symptoms. In the NIH cohort (Walitt 2024, n=17), tilt showed no excess tachycardia. Solving ME/CFS re-analysis of the literature: POTS prevalence is inconsistent (6-43%) and lists it among the contradictory findings. Orthostatic intolerance symptoms are far more common than POTS defined by heart rate.",
+   "studies": [
+    {
+     "cite": "van Campen 2020, Clin Neurophysiol Pract",
+     "n": "429",
+     "design": "tilt cohort",
+     "result": "POTS 28%, delayed OH 14%, normal HR/BP 58%",
+     "url": "https://doi.org/10.1016/j.cnp.2020.01.003",
+     "verified": true
+    },
+    {
+     "cite": "Novak 2026, PLoS One",
+     "n": "170 ME/CFS",
+     "design": "retrospective autonomic-lab cohort",
+     "result": "POTS 19%, neurogenic OH 15%, mild-moderate autonomic failure 89%",
+     "url": "https://doi.org/10.1371/journal.pone.0341278",
+     "verified": true
+    },
+    {
+     "cite": "Leone 2026, Front Pediatr",
+     "n": "18 vs 18 adolescents",
+     "design": "case-control, 10-min passive stand",
+     "result": "PoTS 39% vs 0%; OI history 83% vs 17%",
+     "url": "https://doi.org/10.3389/fped.2026.1836407",
+     "verified": true
+    },
+    {
+     "cite": "Bou-Holaigah 1995, JAMA",
+     "n": "23 CFS",
+     "design": "tilt",
+     "result": "neurally mediated hypotension in most",
+     "url": "https://doi.org/10.1001/jama.1995.03530120053041",
+     "verified": true
+    },
+    {
+     "cite": "Stewart 1999, Pediatrics",
+     "n": "adolescent CFS",
+     "design": "tilt",
+     "result": "POTS/orthostatic intolerance common",
+     "url": "https://doi.org/10.1542/peds.103.1.116",
+     "verified": true
+    },
+    {
+     "cite": "Jason 2024, J Pers Med",
+     "n": "193",
+     "design": "tilt/orthostatic",
+     "result": "POTS 32.5%",
+     "url": "https://doi.org/10.3390/jpm14030238",
+     "verified": true
+    },
+    {
+     "cite": "Azcue 2023, J Transl Med",
+     "n": "ME/CFS",
+     "design": "autonomic",
+     "result": "orthostatic intolerance",
+     "url": "https://doi.org/10.1186/s12967-023-04678-3",
+     "verified": true
+    },
+    {
+     "cite": "Issa 2025, J Clin Med",
+     "n": "ME/CFS (MCAM)",
+     "design": "orthostatic testing",
+     "result": "Multi-site, 301 ME/CFS vs 141 controls: COMPASS-31 34.1 vs 6.8; orthostatic intolerance 33.9% vs 0.7%; 97% had an autonomic symptom",
+     "url": "https://doi.org/10.3390/jcm14176269",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Walitt 2024, Nat Commun",
+     "n": "17 vs 21",
+     "design": "case-control tilt",
+     "result": "No excess orthostatic tachycardia vs controls",
+     "url": "https://doi.org/10.1038/s41467-024-45107-3",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Do POTS and non-POTS ME/CFS differ in mechanism (e.g. hyperadrenergic vs low-flow)?",
+    "How much do medication, test length and time since onset change the rate?"
+   ],
+   "hypotheses": [
+    "autonomic-small-fibre",
+    "low-blood-volume-preload",
+    "autoimmunity"
+   ],
+   "test_available": "10-min active stand or tilt table test: widely available clinically"
+  },
+  {
+   "id": "neuro-hrv",
+   "subdomain": "Autonomic",
+   "finding": "Resting heart rate is higher and high-frequency heart-rate variability lower in ME/CFS. This fits reduced vagal (parasympathetic) tone.",
+   "grade": "replicated",
+   "plain": "The 'rest and digest' nerve signal to the heart looks weaker. The heart beats a little faster at rest, and its beat-to-beat variation is reduced.",
+   "detail": "Nelson 2019 meta-analysis (64 case-control studies): resting HR +4.1 bpm, HR on tilt SMD 0.92, resting LF/HF SMD 0.39 higher, HF-HRV SMD -0.34, and peak HR 13.8 bpm lower. Walitt 2024: 24-h Holter SDNNi, rMSSD and pNN50 were lower, HF and LF power reduced, and Valsalva baroreflex-cardiovagal function was lower. Effects are moderate. They are not specific to ME/CFS, and deconditioning, medications and sleep loss confound them. HRV is not a diagnostic test.",
+   "studies": [
+    {
+     "cite": "Nelson 2019, Medicine (Baltimore)",
+     "n": "64 studies",
+     "design": "systematic review and meta-analysis",
+     "result": "RHR +4.1 bpm; HF-HRV SMD -0.34; HRtilt SMD 0.92; HRmax -13.8 bpm",
+     "url": "https://doi.org/10.1097/MD.0000000000017600",
+     "verified": true
+    },
+    {
+     "cite": "Walitt 2024, Nat Commun",
+     "n": "14 vs 19 (Holter)",
+     "design": "case-control",
+     "result": "Lower 24-h HRV time and frequency domains; reduced baroreflex-cardiovagal function",
+     "url": "https://doi.org/10.1038/s41467-024-45107-3",
+     "verified": true
+    },
+    {
+     "cite": "Boneva 2007, Auton Neurosci",
+     "n": "CFS",
+     "design": "HRV",
+     "result": "reduced HRV",
+     "url": "https://doi.org/10.1016/j.autneu.2007.08.002",
+     "verified": true
+    },
+    {
+     "cite": "Ryabkova 2024, Pathophysiology",
+     "n": "LC/ME/CFS",
+     "design": "HRV",
+     "result": "autonomic dysregulation",
+     "url": "https://doi.org/10.3390/pathophysiology31010001",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "open_questions": [
+    "Is low HRV cause, consequence or a marker of deconditioning/sleep disruption?",
+    "Can wearable HRV usefully track PEM risk in individuals?"
+   ],
+   "hypotheses": [
+    "autonomic-small-fibre",
+    "neuroinflammation",
+    "sickness-behaviour"
+   ],
+   "test_available": "24-h Holter HRV (clinical); consumer wearables give rough trends"
+  },
+  {
+   "id": "neuro-nasa-lean",
+   "subdomain": "Autonomic",
+   "finding": "On the 10-minute NASA lean test, a subgroup of recent-onset patients shows a rising heart rate with an abnormally narrow pulse pressure. Autonomic specialists say the test has not been validated against tilt or active stand.",
+   "grade": "several",
+   "plain": "The lean test (standing against a wall for 10 minutes while pulse and blood pressure are recorded) is a cheap way to see orthostatic problems. It is useful for spotting a pattern, but it is not an approved test for diagnosing POTS.",
+   "detail": "Lee 2020 (Bateman Horne Center): 150 ME/CFS (75 ill <4 y, 75 ill >10 y) vs 75 controls. At least 5 min was needed to see changes. The <4-y group had higher HR, a narrower pulse pressure and more OI symptoms, interpreted as inadequate ventricular filling. Yamazaki 2026 found lean-test abnormalities (most often hypocapnia) in 55% of 49 patients, unrelated to measured blood volume. Teuschl 2025 (European autonomic experts) argue that NLT criteria were borrowed from 1970s NASA physiology, that the leaning posture mixes active stand and passive tilt, and that the NLT 'may currently not be used as a diagnostic tool'.",
+   "studies": [
+    {
+     "cite": "Lee 2020, J Transl Med",
+     "n": "150 vs 75",
+     "design": "case-control",
+     "result": "<4-y patients: higher HR and narrowed pulse pressure vs >10-y and HC",
+     "url": "https://doi.org/10.1186/s12967-020-02481-y",
+     "verified": true
+    },
+    {
+     "cite": "Yamazaki 2026, Physiol Rep",
+     "n": "49",
+     "design": "cross-sectional",
+     "result": "55% had >=1 lean-test abnormality (POSH 41%); not related to blood volume",
+     "url": "https://doi.org/10.14814/phy2.71087",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Teuschl 2025, Clin Auton Res",
+     "n": "n/a",
+     "design": "expert commentary",
+     "result": "No validation vs tilt/active stand; should not be used for autonomic diagnosis",
+     "url": "https://doi.org/10.1007/s10286-024-01097-2",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Head-to-head diagnostic accuracy of NLT vs tilt in ME/CFS",
+    "Does narrow pulse pressure on NLT predict response to volume or compression?"
+   ],
+   "hypotheses": [
+    "low-blood-volume-preload",
+    "autonomic-small-fibre"
+   ],
+   "test_available": "NASA lean test: any clinic or at home with a BP cuff (for monitoring, not formal diagnosis)"
+  },
+  {
+   "id": "neuro-sfn-biopsy",
+   "subdomain": "Small-fibre neuropathy",
+   "finding": "Skin biopsies show reduced small-nerve-fibre density in about 31-53% of ME/CFS patients from specialist referral cohorts, but the controlled NIH study found no difference from healthy volunteers.",
+   "grade": "contested",
+   "plain": "In some clinics, a third to a half of patients have lost some of the thinnest nerves in the skin. Those nerves control sweating and blood vessels. But a carefully matched NIH study did not find this, so how common and how important it is remains uncertain.",
+   "detail": "Joseph 2021 (Systrom/Oaklander, Harvard): 31% of 160 ME/CFS biopsies were consistent with SFN (epidermal innervation <=5th percentile of predicted). Denervation severity did not correlate with exertional measures. Novak 2026 (same network): SFN in 53% of ME/CFS and 67% of long COVID; hEDS had more severe neurodegeneration. Azcue 2025 (30 ME/CFS, 30 long COVID, 30 HC) found corneal fibre tortuosity and heat-detection changes rather than a clear length-dependent pattern. Walitt 2024: no difference in small-fibre density. Major caveats: the positive cohorts were referred for exertional intolerance or dysautonomia; biopsy normative cut-offs and patchy, non-length-dependent SFN make rates sensitive to method; and ME/CFS-specific matched-control biopsy studies are few. Solving ME/CFS re-analysis of Finnish registry data: an SFN diagnosis is about 8-10 times more common than expected in post-viral fatigue (crude, shared with fibromyalgia).",
+   "studies": [
+    {
+     "cite": "Joseph 2021, Chest",
+     "n": "160 ME/CFS (36 iCPET controls)",
+     "design": "retrospective iCPET + skin biopsy",
+     "result": "31% SFN; severity not correlated with exertional limits",
+     "url": "https://doi.org/10.1016/j.chest.2021.01.082",
+     "verified": true
+    },
+    {
+     "cite": "Novak 2026, PLoS One",
+     "n": "170 ME/CFS, 143 LC",
+     "design": "retrospective autonomic-lab cohort",
+     "result": "SFN 53% ME/CFS, 67% LC",
+     "url": "https://doi.org/10.1371/journal.pone.0341278",
+     "verified": true
+    },
+    {
+     "cite": "Azcue 2025, Eur J Neurol",
+     "n": "30 ME/CFS, 30 LC, 30 HC",
+     "design": "case-control, QST, Sudoscan, corneal confocal microscopy",
+     "result": "Corneal fibre tortuosity higher (AUC 0.72); heat detection impaired",
+     "url": "https://doi.org/10.1111/ene.70016",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Walitt 2024, Nat Commun",
+     "n": "17 vs 21",
+     "design": "case-control, thigh + leg biopsies",
+     "result": "Small nerve fibre density not different",
+     "url": "https://doi.org/10.1038/s41467-024-45107-3",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "What is the SFN rate in unselected, community ME/CFS with blinded, matched controls?",
+    "Does fibre loss explain any symptom (OI, pain, exertional intolerance)?",
+    "Is it autoimmune, and does IVIG change it? (no ME/CFS RCT)"
+   ],
+   "hypotheses": [
+    "autonomic-small-fibre",
+    "autoimmunity",
+    "connective-tissue"
+   ],
+   "test_available": "3 mm skin punch biopsy for IENFD via neurology (clinically available); corneal confocal microscopy in some centres"
+  },
+  {
+   "id": "neuro-sfn-longcovid",
+   "subdomain": "Small-fibre neuropathy",
+   "finding": "Long COVID patients referred for neuropathy evaluation often have small-fibre neuropathy on skin biopsy, including loss of autonomic fibres to sweat glands and hair muscles.",
+   "grade": "several",
+   "plain": "Similar nerve damage turns up in long COVID, especially in patients with pain or nerve-type symptoms.",
+   "detail": "Oaklander 2022 (NIH/MGH): 10 of 16 skin biopsies (63%) in referred long COVID were abnormal; 52% average improvement over 1.4 years, often after immunotherapy (uncontrolled). Falco 2026: piloerector and sweat-gland nerve density reduced in 31 painful long COVID vs 42 controls, even with normal IENFD, but not correlated with COMPASS-31 symptom scores. These are selected samples with neuropathic complaints, so the results do not give a general prevalence.",
+   "studies": [
+    {
+     "cite": "Oaklander 2022, Neurol Neuroimmunol Neuroinflamm",
+     "n": "17",
+     "design": "case series",
+     "result": "63% of biopsies confirm SFN",
+     "url": "https://doi.org/10.1212/NXI.0000000000001146",
+     "verified": true
+    },
+    {
+     "cite": "Falco 2026, Front Hum Neurosci",
+     "n": "31 vs 42",
+     "design": "retrospective case-control histology",
+     "result": "Autonomic fibre density reduced; no correlation with symptoms",
+     "url": "https://doi.org/10.3389/fnhum.2025.1719705",
+     "verified": true
+    },
+    {
+     "cite": "McAlpine 2024, Neurol Neuroimmunol Neuroinflamm",
+     "n": "LC SFN",
+     "design": "IVIG case series",
+     "result": "IVIG response in SFN",
+     "url": "https://doi.org/10.1212/nxi.0000000000200244",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "open_questions": [
+    "Prevalence in unselected long COVID",
+    "Does SFN predict who develops ME/CFS after COVID?"
+   ],
+   "hypotheses": [
+    "autonomic-small-fibre",
+    "autoimmunity",
+    "viral-persistence"
+   ],
+   "test_available": "Skin biopsy (IENFD, sweat-gland nerve density in specialist labs)"
+  },
+  {
+   "id": "neuro-mri-structure",
+   "subdomain": "Brain structure",
+   "finding": "Conventional structural MRI (grey matter volume, routine clinical reads) shows no consistent abnormality in ME/CFS. Reported regional volume differences rarely replicate across groups.",
+   "grade": "contested",
+   "plain": "Standard brain scans usually look normal. Studies that report bigger or smaller brain regions mostly disagree with each other.",
+   "detail": "Shan 2020 systematic review (63 imaging studies to 2018): the only findings reported by multiple teams were extra brain-area recruitment during cognitive tasks (11 studies), brainstem abnormalities (9), sluggish BOLD responses, reduced serotonin transporter and regional hypometabolism. Volumetric findings were inconsistent. Lee 2023 meta-analysis (65 studies, 1529 patients) reported insular and thalamic hypoactivity but noted poor inter-rater reliability. Walitt 2024: brain MRI unremarkable. Kimura 2026 (38 ME/CFS, 27 LC, 47 HC): amygdala subfield differences did not survive correction. For contrast, the UK Biobank pre/post scans (Douaud 2022) show that SARS-CoV-2 infection itself produces small grey-matter changes, although that sample was not long COVID or ME/CFS.",
+   "studies": [
+    {
+     "cite": "Shan 2020, J Transl Med",
+     "n": "63 studies",
+     "design": "systematic review",
+     "result": "Few consistent findings; brainstem and task recruitment most repeated",
+     "url": "https://doi.org/10.1186/s12967-020-02506-6",
+     "verified": true
+    },
+    {
+     "cite": "Lee 2023, Autoimmun Rev",
+     "n": "65 studies; 1529 vs 1715",
+     "design": "systematic review and meta-analysis",
+     "result": "Insula and thalamus hypoactivity; frontal cortex most often reported",
+     "url": "https://doi.org/10.1016/j.autrev.2023.103484",
+     "verified": true
+    },
+    {
+     "cite": "de Lange 2005, NeuroImage",
+     "n": "CFS",
+     "design": "VBM",
+     "result": "reduced grey matter, reversed after CBT",
+     "url": "https://doi.org/10.1016/j.neuroimage.2005.02.037",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Walitt 2024, Nat Commun",
+     "n": "17 vs 21",
+     "design": "case-control 3T MRI incl. DTI",
+     "result": "Brain imaging unremarkable",
+     "url": "https://doi.org/10.1038/s41467-024-45107-3",
+     "verified": true
+    },
+    {
+     "cite": "Kimura 2026, Front Neurol",
+     "n": "38 ME/CFS, 27 LC, 47 HC",
+     "design": "case-control volumetry",
+     "result": "No amygdala subfield difference after correction",
+     "url": "https://doi.org/10.3389/fneur.2026.1913553",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Large, multi-site, pre-registered MRI with harmonised protocols has not been done",
+    "Do subtle changes track severity or duration longitudinally?"
+   ],
+   "hypotheses": [
+    "neuroinflammation",
+    "genetic-neuronal"
+   ],
+   "test_available": "Clinical MRI (useful only to exclude other diagnoses)"
+  },
+  {
+   "id": "neuro-white-matter-diffusion",
+   "subdomain": "Brain structure",
+   "finding": "Advanced diffusion MRI models report widespread white-matter differences in ME/CFS that conventional DTI misses, and the pattern may differ between post-infectious and gradual-onset cases.",
+   "grade": "early",
+   "plain": "Newer scan analyses suggest subtle changes in the brain's wiring, possibly swelling or inflammation. Standard analyses of the same scans find little.",
+   "detail": "Yu 2026 (Shan group, 67 vs 67 matched): a neuroinflammation-imaging (NII) model gave lower hindered and restricted water fractions and higher fibre fraction across association, commissural and projection tracts. The authors read this as oedema, cellular infiltration and axonal reorganisation, while conventional DTI showed minimal differences. Yu 2025 (same group): post-infectious cases had higher axial diffusivity, while gradual-onset cases had lower AD in the corpus callosum. Singh 2026 (Griffith, 37 ME/CFS, 19 LC, 27 HC) found DTI/DKI alterations in the cingulum, SMA and corpus callosum. The model-based metrics are not validated against histology in ME/CFS, the analyses carry many degrees of freedom, and independent replication is missing.",
+   "studies": [
+    {
+     "cite": "Yu 2026, Hum Brain Mapp",
+     "n": "67 vs 67",
+     "design": "case-control diffusion MRI (NII model)",
+     "result": "Widespread NII differences; conventional DTI minimal",
+     "url": "https://doi.org/10.1002/hbm.70505",
+     "verified": true
+    },
+    {
+     "cite": "Yu 2025, Sci Rep",
+     "n": "PI and GO subgroups vs sedentary HC",
+     "design": "case-control diffusion MRI",
+     "result": "Opposite axial diffusivity patterns by onset type",
+     "url": "https://doi.org/10.1038/s41598-025-09379-z",
+     "verified": true
+    },
+    {
+     "cite": "Singh 2026, Front Med",
+     "n": "37 ME/CFS, 19 LC, 27 HC",
+     "design": "case-control DTI/DKI",
+     "result": "Microstructural changes in cingulum, SMA, corpus callosum",
+     "url": "https://doi.org/10.3389/fmed.2026.1824498",
+     "verified": true
+    },
+    {
+     "cite": "Zeineh 2015, Radiology",
+     "n": "15 vs 14",
+     "design": "DTI",
+     "result": "right arcuate FA increased",
+     "url": "https://doi.org/10.1148/radiol.14141079",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Walitt 2024, Nat Commun",
+     "n": "17 vs 21",
+     "design": "15-direction DTI",
+     "result": "No reported imaging abnormality",
+     "url": "https://doi.org/10.1038/s41467-024-45107-3",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Independent replication with shared analysis code",
+    "Correlation with TSPO-PET or MRS markers in the same people"
+   ],
+   "hypotheses": [
+    "neuroinflammation"
+   ],
+   "test_available": "research only"
+  },
+  {
+   "id": "neuro-brainstem",
+   "subdomain": "Brain structure",
+   "finding": "Brainstem differences (volume larger or smaller, altered signal or connectivity) are among the more often repeated imaging findings in ME/CFS, though the methods differ between studies.",
+   "grade": "several",
+   "plain": "The brainstem controls breathing, heart rate and arousal. Several groups using different scans have reported differences there.",
+   "detail": "Shan 2020 counted brainstem abnormalities in 9 studies from different teams and modalities. Bader 2026 (preprint, 26 vs 27): brainstem volume 1.46 vs 1.55% of eTIV (FDR p=0.039), with deep grey matter and whole-brain volume unchanged. Inderyas 2026 (7T fMRI, 32 ME/CFS): altered cuneiform-nucleus to medulla connectivity during Stroop. The Griffith (Barnden/Thapaliya) group produced several of the brainstem reports, so the evidence is not fully independent. This imaging work does not support the mechanical 'craniocervical compression' model, which is a separate claim (see neuro-cci).",
+   "studies": [
+    {
+     "cite": "Bader 2026, medRxiv (preprint)",
+     "n": "26 vs 27",
+     "design": "case-control volumetry + ASL + MRS under hypoxia",
+     "result": "Brainstem volume reduced",
+     "url": "https://doi.org/10.64898/2026.08.10.26359935",
+     "verified": true
+    },
+    {
+     "cite": "Inderyas 2026, J Transl Med",
+     "n": "32 ME/CFS, 19 LC, 27 HC",
+     "design": "7T task fMRI",
+     "result": "Altered brainstem functional connectivity during cognitive fatigue",
+     "url": "https://doi.org/10.1186/s12967-026-07708-y",
+     "verified": true
+    },
+    {
+     "cite": "Shan 2020, J Transl Med",
+     "n": "9 studies",
+     "design": "systematic review",
+     "result": "Brainstem abnormalities repeatedly reported",
+     "url": "https://doi.org/10.1186/s12967-020-02506-6",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Thapaliya 2023, Front Neurosci",
+     "n": "ME/CFS",
+     "design": "7T MRI",
+     "result": "larger brainstem volumes (direction conflicts with atlas wording)",
+     "url": "https://doi.org/10.3389/fnins.2023.1125208",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Which brainstem nuclei, and do they map onto autonomic or respiratory findings (hypocapnia, low HRV)?"
+   ],
+   "hypotheses": [
+    "brainstem-craniocervical",
+    "neuroinflammation",
+    "autonomic-small-fibre"
+   ],
+   "test_available": "research only"
+  },
+  {
+   "id": "neuro-fmri-post-exertion",
+   "subdomain": "Functional MRI",
+   "finding": "After a single 30-minute exercise bout, women with ME/CFS performed worse on a demanding cognitive task and recruited more parietal and cingulate cortex. Controls improved.",
+   "grade": "early",
+   "plain": "Exercise made patients' thinking worse the next day, and their brains had to work harder at the same task. This is one of the few direct brain measurements of post-exertional malaise.",
+   "detail": "Cook 2017: 15 vs 15 women, scanned 1 week before and 24 h after 30 min of cycling at 70% peak HR. Group x time interactions showed worse PASAT performance in patients and increased activation in bilateral inferior/superior parietal and cingulate cortex, correlated with symptom change. Finger tapping did not differ. Patients cycled at lower watts, so absolute workload differed. Related work: Schönberg 2024 (34 vs 34) found that BOLD signals in ME/CFS did not adapt across repeated task blocks as they did in controls, and Shan 2020 counted extra task recruitment as a finding repeated by several teams. A direct replication of the exercise-provocation design has not been published.",
+   "studies": [
+    {
+     "cite": "Cook 2017, Brain Behav Immun",
+     "n": "15 vs 15",
+     "design": "pre/post exercise fMRI case-control",
+     "result": "Post-exercise cognitive decline and increased parietal/cingulate activation in patients",
+     "url": "https://doi.org/10.1016/j.bbi.2017.02.009",
+     "verified": true
+    },
+    {
+     "cite": "Schönberg 2024, J Cereb Blood Flow Metab",
+     "n": "34 vs 34",
+     "design": "task fMRI case-control",
+     "result": "Absent BOLD adaptation across repeated SDMT blocks",
+     "url": "https://doi.org/10.1177/0271678X241270528",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "open_questions": [
+    "Replication with workload matched relative to individual capacity",
+    "Time course over 24-72 h of PEM"
+   ],
+   "hypotheses": [
+    "neuroinflammation",
+    "mitochondrial-energy",
+    "sickness-behaviour"
+   ],
+   "test_available": "research only"
+  },
+  {
+   "id": "neuro-motor-fatigability",
+   "subdomain": "Functional MRI",
+   "finding": "During a sustained grip task, ME/CFS patients fatigue earlier while their brain motor-network activity fails to ramp up as it does in controls (NIH; reduced temporoparietal-junction activation).",
+   "grade": "early",
+   "plain": "When squeezing repeatedly, patients tire sooner. Their brains do not step up the drive to the muscle the way healthy brains do.",
+   "detail": "Walitt 2024 reported decreased right temporoparietal junction activation during repeated 50% MVC grip in fMRI and a faster decline in force. The authors linked it to 'effort preference', which is disputed. Bedard 2026 (NIH, 15 vs 19, EEG+EMG+fMRI) found that maximum force was equal, but patients reached fatigue much earlier and showed minimal change in brain and muscle activity across blocks. Healthy controls increased activity until fatigue. Interpretation: a central contribution to fatigability. Both studies come from the same NIH programme and have small samples.",
+   "studies": [
+    {
+     "cite": "Walitt 2024, Nat Commun",
+     "n": "17 vs 21",
+     "design": "case-control task fMRI",
+     "result": "Reduced TPJ activation; earlier force decline",
+     "url": "https://doi.org/10.1038/s41467-024-45107-3",
+     "verified": true
+    },
+    {
+     "cite": "Bedard 2026, Neuroimage Clin",
+     "n": "15 vs 19",
+     "design": "case-control multimodal EEG/EMG/fMRI",
+     "result": "Earlier fatigue; brain output did not increase to drive muscle",
+     "url": "https://doi.org/10.1016/j.nicl.2026.104041",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "open_questions": [
+    "Is the lack of central ramp-up primary or protective (driven by peripheral afferent feedback)?",
+    "Independent replication outside NIH"
+   ],
+   "hypotheses": [
+    "sickness-behaviour",
+    "neuroinflammation",
+    "mitochondrial-energy"
+   ],
+   "test_available": "research only"
+  },
+  {
+   "id": "neuro-mrs-lactate",
+   "subdomain": "MR spectroscopy",
+   "finding": "Brain lactate measured by MR spectroscopy is raised in ME/CFS: ventricular CSF lactate in three cohorts from one group, and thalamic or regional lactate in two other groups. It is also raised in depression, so it is not specific.",
+   "grade": "several",
+   "plain": "Brain scans that measure chemicals show more lactate, a by-product of energy production without enough oxygen, in patients' brains. The same change appears in depression.",
+   "detail": "Mathew 2009: ventricular lactate +348% vs healthy and +297% vs anxiety disorder (16 vs 15 vs 14). Shungu 2012 (third cohort, 15 vs 13): raised lactate and lower cortical glutathione, not different from major depression. Natelson 2017 replicated higher lactate, lower GSH and lower CBF in pooled CFS. Mueller 2020 (Younger group, whole-brain EPSI, 15 vs 15): raised LAC/CR in some regions, overlapping with raised temperature. Bader 2026 (Vienna, 26 vs 27, preprint): thalamic Lac/tCr 0.171 vs 0.135 at normoxia, with no further rise under hypoxia, unlike controls. Bradley 2016 found raised ventricular lactate in adolescent depression. Small samples, MRS quantification at 3T near detection limits, and the lack of specificity limit interpretation.",
+   "studies": [
+    {
+     "cite": "Mathew 2009, NMR Biomed",
+     "n": "16 CFS, 14 GAD, 15 HC",
+     "design": "case-control 1H MRSI",
+     "result": "Ventricular lactate +348% vs HC",
+     "url": "https://doi.org/10.1002/nbm.1315",
+     "verified": true
+    },
+    {
+     "cite": "Shungu 2012, NMR Biomed",
+     "n": "15 CFS, 15 MDD, 13 HC",
+     "design": "case-control MRSI + ASL + 31P",
+     "result": "Raised lactate, lower GSH, lower rCBF; CFS ~ MDD",
+     "url": "https://doi.org/10.1002/nbm.2772",
+     "verified": true
+    },
+    {
+     "cite": "Natelson 2017, J Neurol Sci",
+     "n": "CFS +/- psychiatric comorbidity vs HC",
+     "design": "case-control multimodal",
+     "result": "Replicated raised lactate, lower GSH and CBF; 13/26 had >=2 abnormal brain measures",
+     "url": "https://doi.org/10.1016/j.jns.2017.02.046",
+     "verified": true
+    },
+    {
+     "cite": "Bader 2026, medRxiv (preprint)",
+     "n": "26 vs 27",
+     "design": "case-control MRS with hypoxic challenge",
+     "result": "Thalamic lactate raised at rest, no rise with hypoxia",
+     "url": "https://doi.org/10.64898/2026.08.10.26359935",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Bradley 2016, Eur Psychiatry",
+     "n": "23 MDD vs 29 HC",
+     "design": "case-control MRSI",
+     "result": "Raised ventricular lactate in adolescent depression (shows non-specificity)",
+     "url": "https://doi.org/10.1016/j.eurpsy.2015.08.009",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Does brain lactate rise further after exertion (PEM)?",
+    "Is it from hypoperfusion, mitochondrial limitation or glial activation?"
+   ],
+   "hypotheses": [
+    "mitochondrial-energy",
+    "neuroinflammation",
+    "small-vessel-capillary"
+   ],
+   "test_available": "research only"
+  },
+  {
+   "id": "neuro-brain-temperature",
+   "subdomain": "MR spectroscopy",
+   "finding": "MRS thermometry found raised temperature in several brain regions (insula, putamen, frontal cortex, thalamus, cerebellum) in women with ME/CFS, not explained by body temperature.",
+   "grade": "early",
+   "plain": "One study found parts of the brain running slightly warmer in patients, which could signal low-grade inflammation. It has not been repeated.",
+   "detail": "Mueller 2020: 15 vs 15 women, whole-brain echo-planar spectroscopic imaging. Temperature was raised in the right insula, putamen, frontal cortex, thalamus and cerebellum (p<0.05, many regions tested), along with raised choline/creatine in the left anterior cingulate. The method responded to an experimental inflammatory challenge (typhoid vaccine) in 44 of 47 regions, but whole-brain temperature did not change (Plank 2022), so its sensitivity is modest. No independent ME/CFS replication was found.",
+   "studies": [
+    {
+     "cite": "Mueller 2020, Brain Imaging Behav",
+     "n": "15 vs 15",
+     "design": "case-control whole-brain MRSI",
+     "result": "Raised regional brain temperature; raised CHO/CR",
+     "url": "https://doi.org/10.1007/s11682-018-0029-4",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Plank 2022, Neuroimage Clin",
+     "n": "20 healthy",
+     "design": "RCT crossover, typhoid vaccine",
+     "result": "Regional but not whole-brain temperature rose (method validity context)",
+     "url": "https://doi.org/10.1016/j.nicl.2022.103053",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Independent replication",
+    "Correlation with TSPO-PET in the same people"
+   ],
+   "hypotheses": [
+    "neuroinflammation"
+   ],
+   "test_available": "research only"
+  },
+  {
+   "id": "neuro-pet-tspo-mecfs",
+   "subdomain": "PET neuroinflammation",
+   "finding": "TSPO-PET evidence of microglial activation in ME/CFS is contested: one Japanese study found 45-199% higher binding in limbic and brainstem regions, and a Dutch study using the same tracer found none.",
+   "grade": "contested",
+   "plain": "A special scan for brain immune cells showed inflammation in one small study and none in another of the same size. The question is open.",
+   "detail": "Nakatomi 2014: [11C]-(R)-PK11195, 9 vs 10. BPND was higher in the cingulate, hippocampus, amygdala, thalamus, midbrain and pons, and correlated with cognitive impairment and pain. Raijmakers 2021: same tracer, 9 CFS, 10 Q-fever fatigue and 9 matched women, stricter exclusion. No difference, and a negative correlation with severity in CFS. Both used the cerebellum as reference region, which can bias results if the reference is also affected. PK11195 has a low signal-to-noise ratio, and second-generation tracers need TSPO genotyping. Stanford DPA-713 data exist only as a conference abstract (not verified). A Belgian [18F]DPA714 study is in protocol (Dooms 2026).",
+   "studies": [
+    {
+     "cite": "Nakatomi 2014, J Nucl Med",
+     "n": "9 vs 10",
+     "design": "case-control PET",
+     "result": "BPND +45-199% in limbic/brainstem regions",
+     "url": "https://doi.org/10.2967/jnumed.113.131045",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Raijmakers 2021, Neurol Neuroimmunol Neuroinflamm",
+     "n": "9 CFS, 10 QFS, 9 HC",
+     "design": "case-control PET",
+     "result": "No difference in BPND",
+     "url": "https://doi.org/10.1212/NXI.0000000000001113",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Adequately powered study with a second- or third-generation tracer, arterial input and genotyping",
+    "Does TSPO signal change during PEM?"
+   ],
+   "hypotheses": [
+    "neuroinflammation",
+    "sickness-behaviour"
+   ],
+   "test_available": "research only"
+  },
+  {
+   "id": "neuro-pet-tspo-longcovid",
+   "subdomain": "PET neuroinflammation",
+   "finding": "In long COVID, one [11C]PBR28 PET study found widespread raised TSPO signal that correlated with vascular markers, and a [11C]PK11195 study found no group difference.",
+   "grade": "contested",
+   "plain": "Long COVID brain-inflammation scans also disagree. One found widespread signal and another found none.",
+   "detail": "VanElzakker 2024: 12 PASC vs 43 normative controls. Raised PBR28 in the mid and anterior cingulate, corpus callosum, thalamus, basal ganglia and periventricular regions, correlated with plasma vascular-dysfunction analytes. The comparison against a pooled normative control set and the small n are limits. Tuomaala 2026: 14 LC vs 11 HC vs 13 MS. TSPO DVR was not raised in LC, though higher in people imaged within 16 months, and limbic DVR correlated with depression and anxiety. An earlier Braga 2023 report in long COVID with depression/cognitive symptoms was not verified this session.",
+   "studies": [
+    {
+     "cite": "VanElzakker 2024, Brain Behav Immun",
+     "n": "12 vs 43",
+     "design": "case-control PET",
+     "result": "Widespread raised PBR28; correlates with vascular markers",
+     "url": "https://doi.org/10.1016/j.bbi.2024.04.015",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Tuomaala 2026, J Neurol",
+     "n": "14 LC, 11 HC, 13 MS",
+     "design": "case-control PET",
+     "result": "No TSPO elevation vs HC; time-since-infection effect",
+     "url": "https://doi.org/10.1007/s00415-026-13842-w",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Does neuroinflammation fade with time since infection?",
+    "Is it seen in long COVID that meets ME/CFS criteria specifically?"
+   ],
+   "hypotheses": [
+    "neuroinflammation",
+    "viral-persistence",
+    "vascular-endothelial"
+   ],
+   "test_available": "research only"
+  },
+  {
+   "id": "neuro-cbf-rest",
+   "subdomain": "Cerebral perfusion",
+   "finding": "Resting (supine) cerebral blood flow by ASL or SPECT is reported as lower in some ME/CFS studies, but the results are inconsistent and often confounded by unmeasured orthostatic intolerance.",
+   "grade": "contested",
+   "plain": "Lying-down brain blood flow is sometimes lower, but not consistently. The clearest effect appears when patients are upright.",
+   "detail": "Shungu 2012 (ASL) found lower rCBF in the left anterior cingulate and right lingual gyrus vs controls, but not vs depression. Natelson 2017 pooled CFS had lower CBF. Christopoulos 2025 review: only 12 of 26 ME/CFS-only studies found reduced CBF, and most did not record OI status. Bader 2026: whole-brain CBF responses to hypoxia were similar in mean but far more variable in patients (variance ratio up to 6.9).",
+   "studies": [
+    {
+     "cite": "Shungu 2012, NMR Biomed",
+     "n": "15 vs 13",
+     "design": "ASL case-control",
+     "result": "Lower regional CBF in 2 regions",
+     "url": "https://doi.org/10.1002/nbm.2772",
+     "verified": true
+    },
+    {
+     "cite": "Christopoulos 2025, J Transl Med",
+     "n": "26 ME/CFS-only studies",
+     "design": "systematic review",
+     "result": "12/26 reduced",
+     "url": "https://doi.org/10.1186/s12967-025-06954-w",
+     "verified": true
+    },
+    {
+     "cite": "Biswal 2011, J Neurol Sci",
+     "n": "CFS",
+     "design": "resting CBF",
+     "result": "reduced CBF",
+     "url": "https://doi.org/10.1016/j.jns.2010.11.018",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Bader 2026, medRxiv (preprint)",
+     "n": "26 vs 27",
+     "design": "ASL under normoxia/hypoxia",
+     "result": "No mean group difference; higher variability in patients",
+     "url": "https://doi.org/10.64898/2026.08.10.26359935",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Resting CBF stratified by OI and hypocapnia status"
+   ],
+   "hypotheses": [
+    "small-vessel-capillary",
+    "vascular-endothelial",
+    "low-blood-volume-preload"
+   ],
+   "test_available": "research only (ASL MRI)"
+  },
+  {
+   "id": "neuro-csf-catechol",
+   "subdomain": "Cerebrospinal fluid",
+   "finding": "In the NIH cohort, CSF levels of the catechol metabolites DOPA, DOPAC and DHPG were lower in post-infectious ME/CFS. Noradrenaline and dopamine did not differ.",
+   "grade": "early",
+   "plain": "Spinal fluid showed lower breakdown products of dopamine and noradrenaline, which hints at reduced activity of these brain chemical systems. It comes from one small study.",
+   "detail": "Walitt 2024: CSF DOPA, DOPAC and DHPG were reduced; noradrenaline, cys-DOPA and dopamine were unchanged. Excluding participants on central-acting drugs did not change the result. Catechols correlated with perceived symptoms and, in patients, with only one cognitive test (WCST). CSF metabolomics also showed lower glutamate, tryptophan, spermidine and citrate. n was about 17 vs 21, with many outcomes and no correction across domains. Solving ME/CFS re-analysis: plasma VMA showed nothing, which fits a central rather than peripheral signal but is weak support.",
+   "studies": [
+    {
+     "cite": "Walitt 2024, Nat Commun",
+     "n": "~17 vs 21",
+     "design": "case-control CSF",
+     "result": "Lower DOPA, DOPAC, DHPG",
+     "url": "https://doi.org/10.1038/s41467-024-45107-3",
+     "verified": true
+    },
+    {
+     "cite": "Aregawi 2026, Brain Commun",
+     "n": "NIH cohort (not independent)",
+     "design": "CSF",
+     "result": "CSF noradrenaline-pathway markers lower in post-infectious ME/CFS and PASC than healthy volunteers, as in Parkinson disease (same NIH cohort as earlier work)",
+     "url": "https://doi.org/10.1093/braincomms/fcag173",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "open_questions": [
+    "Replication in an independent CSF cohort",
+    "Relation to orthostatic phenotype and HRV"
+   ],
+   "hypotheses": [
+    "neuroinflammation",
+    "sickness-behaviour",
+    "autonomic-small-fibre"
+   ],
+   "test_available": "research only (lumbar puncture with catechol panel)"
+  },
+  {
+   "id": "neuro-csf-immune-proteome",
+   "subdomain": "Cerebrospinal fluid",
+   "finding": "CSF cytokine and proteome studies report differences (e.g. raised eotaxin/CCL11, distinct immunotypes), but no CSF protein signature has replicated, and ME/CFS and fibromyalgia CSF proteomes were indistinguishable.",
+   "grade": "contested",
+   "plain": "Spinal-fluid tests have hinted at immune changes, but different studies point in different directions, and none gives a reliable marker.",
+   "detail": "Baraniuk 2005: pooled and individual CSF proteomics (about 10-20 per group) gave a 5-protein set with 80% concordance; pilot only. Hornig 2016 (online 2015): 32 cases vs 40 MS vs 19 controls, 51-plex. CCL11 was raised and the IL-1 network disturbed, with interpretation hindered by the small control group. Schutzer 2023: 2083 proteins quantified; no protein differed between ME/CFS with and without fibromyalgia. Bastos 2025 (40 cases, CSF in cases only) found two MMP-defined clusters. Bragée 2026 (31 cases, no CSF controls) found complement/coagulation pathways associated with severity and POTS. Solving ME/CFS re-analysis: the Walitt CSF SomaScan set gives 0 FDR hits, and CSF neuronal markers do not replicate.",
+   "studies": [
+    {
+     "cite": "Hornig 2016, Mol Psychiatry",
+     "n": "32 vs 19 HC (40 MS)",
+     "design": "case-control 51-plex",
+     "result": "CCL11 up; IL-1 network disturbance",
+     "url": "https://doi.org/10.1038/mp.2015.29",
+     "verified": true
+    },
+    {
+     "cite": "Baraniuk 2005, BMC Neurol",
+     "n": "10 CFS/10 GWI/10 HC pooled; 9 vs 12",
+     "design": "pilot proteomics",
+     "result": "5-protein set, 80% concordance",
+     "url": "https://doi.org/10.1186/1471-2377-5-22",
+     "verified": true
+    },
+    {
+     "cite": "Bastos 2025, J Immunol",
+     "n": "40 cases (CSF), 41 HC (plasma)",
+     "design": "cases-only CSF clustering",
+     "result": "Two MMP-based CSF immunotypes",
+     "url": "https://doi.org/10.1093/jimmun/vkaf087",
+     "verified": true
+    },
+    {
+     "cite": "Bragée 2026, Sci Rep",
+     "n": "31 cases",
+     "design": "cases-only CSF proteomics",
+     "result": "Complement/coagulation pathways linked to severity; neutrophil degranulation with POTS",
+     "url": "https://doi.org/10.1038/s41598-026-46965-1",
+     "verified": true
+    },
+    {
+     "cite": "Natelson 2005, Clin Diagn Lab Immunol",
+     "n": "CFS",
+     "design": "CSF cytokines",
+     "result": "CSF abnormalities in subset",
+     "url": "https://doi.org/10.1128/cdli.12.1.52-55.2005",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Schutzer 2023, Ann Med",
+     "n": "15 vs 15 (ME/CFS +/- FM)",
+     "design": "CSF proteomics, 2083 proteins",
+     "result": "No proteins differed: indistinguishable",
+     "url": "https://doi.org/10.1080/07853890.2023.2208372",
+     "verified": true
+    },
+    {
+     "cite": "Solving ME/CFS re-analysis (Walitt 2024 CSF SomaScan, GEO GSE251790)",
+     "n": "~17 vs 21",
+     "design": "re-analysis",
+     "result": "0 FDR hits; no case-control leak-score difference",
+     "url": "https://doi.org/10.1038/s41467-024-45107-3",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "A CSF study with adequate healthy controls (n>50) and pre-registered analysis",
+    "Paired pre/post-exertion CSF"
+   ],
+   "hypotheses": [
+    "neuroinflammation",
+    "innate-hyperactivation",
+    "complement-thromboinflammation"
+   ],
+   "test_available": "research only"
+  },
+  {
+   "id": "neuro-csf-metabolomics",
+   "subdomain": "Cerebrospinal fluid",
+   "finding": "Targeted CSF metabolomics found raised serine and phospholipids and reduced 5-methyltetrahydrofolate in ME/CFS, with different metabolite responses to exercise than in controls.",
+   "grade": "early",
+   "plain": "Spinal fluid chemistry suggests changes in a vitamin/amino-acid pathway (folate and serine), possibly affecting brain fats. These are single-group results.",
+   "detail": "Baraniuk 2025 (Sci Rep; separate non-exercise and post-exercise LP cohorts): ME/CFS showed raised serine, sarcosine, creatine, purines and sphingomyelins and lower 5MTHF, dimethylglycine and choline. After exercise, metabolites were consumed in ME/CFS but generated in controls. The design is cross-sectional with separate cohorts per condition, not paired. Earlier Baraniuk 2021 work found little non-exercise ME/CFS vs GWI difference. NIH found lower CSF glutamate, tryptophan and spermidine (Walitt 2024), so the two sets point in different directions.",
+   "studies": [
+    {
+     "cite": "Baraniuk 2025, Sci Rep",
+     "n": "ME/CFS vs sedentary controls, rest and post-exercise cohorts",
+     "design": "case-control targeted metabolomics",
+     "result": "Serine up, 5MTHF down; divergent exercise response",
+     "url": "https://doi.org/10.1038/s41598-025-91324-1",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Walitt 2024, Nat Commun",
+     "n": "~17 vs 21",
+     "design": "CSF metabolomics",
+     "result": "Different pattern: lower glutamate, tryptophan, spermidine, citrate",
+     "url": "https://doi.org/10.1038/s41467-024-45107-3",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Replication; paired pre/post-exercise sampling in the same people"
+   ],
+   "hypotheses": [
+    "mitochondrial-energy",
+    "metabolic-trap-ido"
+   ],
+   "test_available": "research only"
+  },
+  {
+   "id": "neuro-injury-markers",
+   "subdomain": "Cerebrospinal fluid",
+   "finding": "Markers of neuronal or glial injury (NfL, GFAP, tau, UCH-L1) are not raised in ME/CFS blood or CSF.",
+   "grade": "contested",
+   "plain": "Blood and spinal-fluid tests that pick up nerve-cell damage in diseases like MS or dementia are normal in ME/CFS. That argues against ongoing destruction of brain tissue.",
+   "detail": "Walitt 2024 measured Simoa Neurology 4-Plex (NfL, tau, GFAP, UCH-L1) in plasma and CSF: no group difference. Solving ME/CFS re-analysis of SomaScan/Olink proteomics across about 150 patients: NEFL and GFAP flat or inconsistent (neuronal_glial set -0.25, p=0.07). Long COVID TSPO-PET (Tuomaala 2026) also measured serum NfL/GFAP, without a clear LC effect. A normal result does not exclude functional or neuroinflammatory changes without cell death.",
+   "studies": [
+    {
+     "cite": "Walitt 2024, Nat Commun",
+     "n": "~17 vs 21",
+     "design": "case-control Simoa",
+     "result": "No difference in plasma or CSF NfL/GFAP/tau/UCH-L1",
+     "url": "https://doi.org/10.1038/s41467-024-45107-3",
+     "verified": true
+    },
+    {
+     "cite": "Solving ME/CFS re-analysis (proteomics)",
+     "n": "~150 patients across cohorts",
+     "design": "re-analysis",
+     "result": "NEFL/GFAP not different",
+     "url": "",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Azcue 2024, Biomedicines",
+     "n": "67 vs 43",
+     "design": "serum NfL",
+     "result": "NfL higher in ME/CFS",
+     "url": "https://doi.org/10.3390/biomedicines12071539",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Do levels rise transiently during PEM or in severe/bedbound patients?"
+   ],
+   "hypotheses": [
+    "neuroinflammation",
+    "genetic-neuronal"
+   ],
+   "test_available": "Serum NfL/GFAP increasingly available clinically (mainly to exclude other disease)"
+  },
+  {
+   "id": "neuro-cci",
+   "subdomain": "Craniocervical / intracranial pressure",
+   "finding": "Uncontrolled clinic series report high rates of craniocervical 'obstruction', low-lying tonsils and signs of raised intracranial pressure in severe ME/CFS, and surgical case reports describe improvement. There are no controlled imaging studies or trials.",
+   "grade": "early",
+   "plain": "Some clinics report that many severe patients have crowding where the skull meets the neck, or high spinal-fluid pressure, and a few patients improved after neck surgery. Without comparison groups or controlled trials, it is unknown whether these findings are more common than in healthy people or whether surgery helps.",
+   "detail": "Bragée 2020 (Swedish referral clinic, 229 CCC patients, retrospective): hypermobility 50%, enlarged optic-nerve-sheath ratio 55%, possible IH signs 83%, tonsils below McRae line 56%, and cervical 'craniocervical obstructions' 80% of 125 scanned. No controls; MRI reads were not blinded and the radiological thresholds are not validated. Jolley 2026 (34 cases, no controls): LP opening pressure >=20 cmH2O in 38%; that group reported more relief after LP (80% vs 19%, unblinded). Rowe/Edwards case reports (3+1 patients) describe improvement after cervical decompression. Solving ME/CFS re-analysis of Finnish registry data: CSF-leak codes are not specific (36% of LPs in ME/CFS vs 32% in fibromyalgia, 45% in hypermobility). Neurosurgical series (Ruhoy 2025, n=717) are in connective-tissue-disorder cohorts, not ME/CFS. The evidence quality is low, and surgery carries serious risk.",
+   "studies": [
+    {
+     "cite": "Bragée 2020, Front Neurol",
+     "n": "229 (205 brain MRI, 125 c-spine MRI)",
+     "design": "retrospective uncontrolled series",
+     "result": "80% craniocervical obstruction; 83% possible IH signs; 56% low tonsils",
+     "url": "https://doi.org/10.3389/fneur.2020.00828",
+     "verified": true
+    },
+    {
+     "cite": "Jolley 2026, Front Med",
+     "n": "34",
+     "design": "uncontrolled case series",
+     "result": "38% opening pressure >=20 cmH2O; more post-LP relief in high-OP group",
+     "url": "https://doi.org/10.3389/fmed.2026.1869714",
+     "verified": true
+    },
+    {
+     "cite": "Edwards 2023, Front Neurol",
+     "n": "1 (follow-up of 3-case series)",
+     "design": "case report",
+     "result": "Symptoms returned with recurrent stenosis and improved after re-operation",
+     "url": "https://doi.org/10.3389/fneur.2023.1284062",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Solving ME/CFS re-analysis (FinnGen/FinRegistry)",
+     "n": "~1,600 G93.3 cases",
+     "design": "registry co-occurrence",
+     "result": "CSF-leak codes equally common in fibromyalgia/hypermobility; not ME/CFS-specific",
+     "url": "",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Blinded, controlled upright/dynamic MRI comparing ME/CFS, hypermobile and healthy controls",
+    "Any randomised or sham-controlled evaluation of surgery or CSF drainage"
+   ],
+   "hypotheses": [
+    "brainstem-craniocervical",
+    "connective-tissue"
+   ],
+   "test_available": "Clinical cervical MRI is available; upright/flexion MRI and CCI surgery are offered privately with no controlled evidence"
+  },
+  {
+   "id": "neuro-effort-preference",
+   "subdomain": "Effort and motivation",
+   "finding": "The NIH claim that altered 'effort preference' defines post-infectious ME/CFS rests on the EEfRT (OR 1.65 for choosing hard tasks). Patients completed only 65% of the hard tasks they chose vs 96% for controls, which confounds preference with ability.",
+   "grade": "contested",
+   "plain": "The NIH team said patients chose the harder button-pressing task less often and called this 'effort preference'. Critics showed that many patients could not physically finish the hard task, so the choice more likely reflects ability than wanting to avoid effort.",
+   "detail": "Walitt 2024: 15 PI-ME/CFS vs 16 HV on EEfRT. Controls were 1.65x more likely to choose hard (95% CI 1.03-2.65, p=0.04), and no group difference in task-related fatigue response was reported. Kirvin-Quamme 2025 re-analysed mapMECFS data. Hard-task completion was 65% (SD 37) in patients vs 96% (SD 8) in controls; 7/15 patients completed fewer hard tasks than any control. Choice correlated with completion (rs 0.38). This fails the EEfRT's own ability check (Treadway 2009). Davenport 2025 (Nat Commun Matters Arising) also criticised the single-day CPET, matching for deconditioning and generalisation from n=17. The NIH reply defended single CPET on safety grounds. The effort result also sits on p=0.04 with no multiplicity correction.",
+   "studies": [
+    {
+     "cite": "Walitt 2024, Nat Commun",
+     "n": "15 vs 16 (EEfRT)",
+     "design": "case-control",
+     "result": "OR 1.65 for hard-task choice in controls",
+     "url": "https://doi.org/10.1038/s41467-024-45107-3",
+     "verified": true
+    },
+    {
+     "cite": "Walitt 2025 reply, Nat Commun",
+     "n": "n/a",
+     "design": "reply",
+     "result": "Defends single CPET and interpretation",
+     "url": "https://doi.org/10.1038/s41467-025-64539-z",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Kirvin-Quamme 2025, Front Psychol",
+     "n": "15 vs 16 (re-analysis)",
+     "design": "secondary analysis of public data",
+     "result": "Hard-task completion 65% vs 96%; choice confounded with ability",
+     "url": "https://doi.org/10.3389/fpsyg.2025.1593269",
+     "verified": true
+    },
+    {
+     "cite": "Davenport 2025, Nat Commun (Matters Arising)",
+     "n": "n/a",
+     "design": "critique",
+     "result": "Single CPET cannot assess PEM; deconditioning/effort conclusions not supported",
+     "url": "https://doi.org/10.1038/s41467-025-64538-0",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "An effort-based decision task calibrated to each participant's ability",
+    "Relation of motor fatigability to peripheral muscle findings"
+   ],
+   "hypotheses": [
+    "sickness-behaviour"
+   ],
+   "test_available": "research only"
+  },
+  {
+   "id": "neuro-cognition",
+   "subdomain": "Cognition",
+   "finding": "Meta-analysis shows moderate-to-large deficits in information-processing speed, attention, working memory and reaction time in ME/CFS, with intact vocabulary and reasoning. Performance worsens with upright posture and after exertion.",
+   "grade": "replicated",
+   "plain": "'Brain fog' shows up on tests as slower processing and difficulty holding information, especially over sustained effort, rather than loss of intelligence or knowledge.",
+   "detail": "Cockshell & Mathias 2010: 50 studies, deficits mainly in attention, memory and reaction time, with fine motor speed, vocabulary and reasoning spared. On tilt, n-back reaction time rose from 96 to 148 ms in CFS but not controls (Medow 2014). Post-exercise, PASAT performance fell (Cook 2017). The NIH study found no differences on any of 15 neuropsychological tests despite large subjective complaints (n=17), which shows that small samples and unprovoked testing can miss deficits. Reaction-time variability and sustained-attention tasks are more sensitive than standard batteries.",
+   "studies": [
+    {
+     "cite": "Cockshell & Mathias 2010, Psychol Med",
+     "n": "50 studies",
+     "design": "meta-analysis",
+     "result": "Moderate-large deficits in processing speed, attention, memory, RT",
+     "url": "https://doi.org/10.1017/S0033291709992054",
+     "verified": true
+    },
+    {
+     "cite": "Medow 2014, J Appl Physiol",
+     "n": "15 vs 11",
+     "design": "case-control tilt",
+     "result": "Orthostatic worsening of n-back; reversed by phenylephrine",
+     "url": "https://doi.org/10.1152/japplphysiol.00527.2014",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Walitt 2024, Nat Commun",
+     "n": "17 vs 21",
+     "design": "case-control, 15 tests",
+     "result": "No group differences in objective performance",
+     "url": "https://doi.org/10.1038/s41467-024-45107-3",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "A standard provocation protocol (upright, post-exertion) for clinical cognitive testing",
+    "Contribution of sleep, medication and orthostatic hypoperfusion"
+   ],
+   "hypotheses": [
+    "low-blood-volume-preload",
+    "neuroinflammation",
+    "sickness-behaviour"
+   ],
+   "test_available": "Clinical neuropsychology; computerised reaction-time tests; tests done upright or after exertion are research only"
+  },
+  {
+   "id": "neuro-sleep",
+   "subdomain": "Sleep",
+   "finding": "Objective sleep in adult ME/CFS shows modestly longer sleep latency, more wake after sleep onset and lower sleep efficiency. Standard polysomnography usually finds no clinical disorder that explains non-restorative sleep.",
+   "grade": "several",
+   "plain": "Sleep studies show patients take longer to fall asleep and wake more, but the differences are small. They do not explain why sleep feels so unrefreshing.",
+   "detail": "Mohamed 2023 meta-analysis: 20 adult studies (426 vs 375) showed more time in bed, longer SOL and WASO, lower efficiency, less N2, more N3 and longer REM latency. In 4 adolescent studies (242 vs 235), total sleep was longer. Heterogeneity was high, and the stage-level findings are inconsistent with older reviews (Jackson & Bruck 2012: few PSG differences; microstructure, such as instability and alpha intrusion, more promising). Walitt 2024: PSG without clinically relevant findings. Solving ME/CFS re-analysis of Finnish registries: hypersomnia codes are enriched about 20-50x and sleep apnoea precedes diagnosis (HR 15), probably reflecting diagnostic work-up as well as biology. Primary sleep disorders still need excluding clinically.",
+   "studies": [
+    {
+     "cite": "Mohamed 2023, Sleep Med Rev",
+     "n": "24 studies; 668 vs 610",
+     "design": "systematic review and meta-analysis",
+     "result": "Lower efficiency, longer SOL/WASO in adults",
+     "url": "https://doi.org/10.1016/j.smrv.2023.101771",
+     "verified": true
+    },
+    {
+     "cite": "Jackson & Bruck 2012, J Clin Sleep Med",
+     "n": "review",
+     "design": "narrative review",
+     "result": "Few PSG differences; microstructure/HRV in sleep promising",
+     "url": "https://doi.org/10.5664/jcsm.2276",
+     "verified": true
+    },
+    {
+     "cite": "Thapaliya 2026, Front Neurosci",
+     "n": "ME/CFS",
+     "design": "DTI-ALPS",
+     "result": "reduced glymphatic index",
+     "url": "https://doi.org/10.3389/fnins.2026.1875420",
+     "verified": true
+    },
+    {
+     "cite": "Saurel 2026",
+     "n": "ME/CFS",
+     "design": "sleep",
+     "result": "Wrist actigraphy, 38 vs 38: more time in bed, lower sleep efficiency and more night-to-night variability; total sleep time unchanged",
+     "url": "https://doi.org/10.1007/s44470-026-00079-7",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Walitt 2024, Nat Commun",
+     "n": "17",
+     "design": "clinical PSG",
+     "result": "No clinically relevant findings",
+     "url": "https://doi.org/10.1038/s41467-024-45107-3",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "What makes sleep non-restorative: autonomic arousal, microstructure, or glymphatic function?",
+    "No ME/CFS trials of orexin antagonists or low-dose sedating agents"
+   ],
+   "hypotheses": [
+    "autonomic-small-fibre",
+    "neuroinflammation",
+    "hpa-endocrine"
+   ],
+   "test_available": "Clinical polysomnography (to exclude apnoea, PLMs, narcolepsy)"
+  },
+  {
+   "id": "neuro-sensory",
+   "subdomain": "Sensory sensitivity",
+   "finding": "Self-reported light and sound sensitivity is common in ME/CFS. One ERP study found normal early sensory gating (P50) but a reduced P300, pointing to higher-order processing rather than early filtering.",
+   "grade": "early",
+   "plain": "Many patients find light and noise hard to tolerate. The single brain-wave study suggests that the basic filtering of sounds is normal and that later attention steps are affected.",
+   "detail": "Kumar 2026: 31 vs 30, auditory paired-click and oddball paradigms. Patients reported more sensory problems; the P50 suppression index did not differ, while P300 amplitude was reduced. Severe and very severe patients report extreme sensitivity (Vink 2026 review), but they are largely absent from laboratory studies. There are no controlled studies of photophobia thresholds, hyperacusis audiometry or migraine-type central sensitisation specific to ME/CFS. The genetic overlap with chronic pain and migraine (Solving ME/CFS genetics re-analysis) is consistent with shared central sensitisation.",
+   "studies": [
+    {
+     "cite": "Kumar 2026, Front Med",
+     "n": "31 vs 30",
+     "design": "case-control ERP",
+     "result": "Normal P50 gating; reduced P300",
+     "url": "https://doi.org/10.3389/fmed.2026.1842841",
+     "verified": true
+    },
+    {
+     "cite": "Vink & Vink-Niese 2026, J Clin Med",
+     "n": "review",
+     "design": "narrative review of severe ME",
+     "result": "Extreme light/sound sensitivity described in severe ME",
+     "url": "https://doi.org/10.3390/jcm15020805",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "open_questions": [
+    "Quantitative sensory thresholds in severe patients (home-based measurement)",
+    "Overlap with migraine and fibromyalgia central sensitisation"
+   ],
+   "hypotheses": [
+    "neuroinflammation",
+    "genetic-neuronal",
+    "sickness-behaviour"
+   ],
+   "test_available": "research only"
+  },
+  {
+   "id": "neuro-lc-bbb-disruption",
+   "subdomain": "Brain structure",
+   "finding": "Blood-brain barrier disruption (DCE-MRI leakage, serum markers) is reported in long COVID with brain fog; no ME/CFS data exist.",
+   "grade": "several",
+   "plain": "Brain scans suggest the protective barrier around the brain is leakier in long COVID patients with brain fog. It has not been tested in ME/CFS.",
+   "detail": "",
+   "studies": [
+    {
+     "cite": "Greene 2024, Nat Neurosci",
+     "n": "LC with brain fog vs controls",
+     "design": "DCE-MRI + serum",
+     "result": "BBB disruption in brain fog; serum S100B/TGF-beta changes",
+     "url": "https://doi.org/10.1038/s41593-024-01576-9",
+     "verified": true
+    },
+    {
+     "cite": "Chaganti 2024, Front Neurol",
+     "n": "14 LC vs 10",
+     "design": "DCE-MRI + MRS",
+     "result": "BBB permeability changes",
+     "url": "https://doi.org/10.3389/fneur.2024.1350848",
+     "verified": true
+    },
+    {
+     "cite": "Rubin 2025, Brain Behav Immun",
+     "n": "97 LC vs 31",
+     "design": "imaging/biomarkers",
+     "result": "BBB water permeability (WEPCAST MRI) higher in 97 LC vs 31 recovered; no difference in cerebral blood flow or brain volume; linked only to motor scores",
+     "url": "https://doi.org/10.1016/j.bbi.2025.07.024",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "hypotheses": [],
+   "open_questions": [
+    "Is BBB leakage present in ME/CFS of non-COVID onset?"
+   ],
+   "test_available": false
+  },
+  {
+   "id": "neuro-lc-subcortical-structure",
+   "subdomain": "Brain structure",
+   "finding": "Long COVID shows structural differences in thalamus, basal ganglia and choroid plexus (enlarged) on MRI relative to recovered controls.",
+   "grade": "several",
+   "plain": "MRI studies find changes in deep brain structures and an enlarged fluid-producing tissue (choroid plexus) in long COVID.",
+   "detail": "",
+   "studies": [
+    {
+     "cite": "Heine 2023, eClinicalMedicine",
+     "n": "47 LC",
+     "design": "MRI",
+     "result": "thalamus and basal ganglia changes associated with fatigue",
+     "url": "https://doi.org/10.1016/j.eclinm.2023.101874",
+     "verified": true
+    },
+    {
+     "cite": "Hosp 2024, Nat Commun",
+     "n": "LC",
+     "design": "MRI/diffusion",
+     "result": "subcortical microstructural changes",
+     "url": "https://doi.org/10.1038/s41467-024-48651-0",
+     "verified": true
+    },
+    {
+     "cite": "Diez-Cirarda 2025, Mol Psychiatry",
+     "n": "129 LC vs 36",
+     "design": "MRI",
+     "result": "choroid plexus enlarged",
+     "url": "https://doi.org/10.1038/s41380-024-02886-x",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "hypotheses": [],
+   "open_questions": [],
+   "test_available": false
+  },
+  {
+   "id": "neuro-lc-fdg-pet",
+   "subdomain": "PET neuroinflammation",
+   "finding": "FDG-PET hypometabolism in long COVID is inconsistent: some clinic series find frontal/brainstem hypometabolism in most patients, others find none.",
+   "grade": "contested",
+   "plain": "Brain sugar-use scans in long COVID give conflicting results.",
+   "detail": "",
+   "studies": [
+    {
+     "cite": "Ganesh 2026, J Prim Care Community Health",
+     "n": "40 LC",
+     "design": "FDG-PET case series",
+     "result": "hypometabolism in 29/40",
+     "url": "https://doi.org/10.1177/21501319261458748",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Miskowiak 2022, Brain Sci",
+     "n": "14 LC",
+     "design": "FDG-PET",
+     "result": "no hypometabolism; cerebellar hypermetabolism",
+     "url": "https://doi.org/10.3390/brainsci13010023",
+     "verified": true
+    }
+   ],
+   "hypotheses": [],
+   "open_questions": [],
+   "test_available": false
+  },
+  {
+   "id": "neuro-eeg",
+   "subdomain": "Functional MRI",
+   "finding": "Quantitative EEG shows group differences in spectral power and connectivity in ME/CFS (and LC), with classification accuracy reported in single centres, but methods are heterogeneous.",
+   "grade": "early",
+   "plain": "Brain-wave recordings differ on average in ME/CFS, but studies use different methods and are not yet a test.",
+   "detail": "",
+   "studies": [
+    {
+     "cite": "Duffy 2011, BMC Neurol",
+     "n": "632 subjects (CFS, MDD, controls)",
+     "design": "qEEG spectral coherence",
+     "result": "coherence factors distinguished CFS from controls and depression",
+     "url": "https://doi.org/10.1186/1471-2377-11-82",
+     "verified": true
+    },
+    {
+     "cite": "Zinn 2018, Biol Psychol",
+     "n": "50 vs 50",
+     "design": "qEEG source analysis",
+     "result": "altered connectivity/power",
+     "url": "https://doi.org/10.1016/j.biopsycho.2018.05.016",
+     "verified": true
+    },
+    {
+     "cite": "Silva-Passadouro 2024, Clin Neurophysiol",
+     "n": "17 studies",
+     "design": "systematic review",
+     "result": "inconsistent but frequent spectral differences; low quality",
+     "url": "https://doi.org/10.1016/j.clinph.2024.04.019",
+     "verified": true
+    },
+    {
+     "cite": "Babiloni 2024, Clin Neurophysiol",
+     "n": "LC",
+     "design": "resting EEG",
+     "result": "Lower posterior resting alpha EEG sources in post-COVID patients without cognitive or psychiatric disorder, strongest in those with fatigue",
+     "url": "https://doi.org/10.1016/j.clinph.2024.02.034",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "hypotheses": [],
+   "open_questions": [],
+   "test_available": false
+  },
+  {
+   "id": "neuro-resting-fc",
+   "subdomain": "Functional MRI",
+   "finding": "Resting-state functional connectivity differences in ME/CFS (default mode, salience, sensorimotor, brainstem networks) are reported by several groups but with non-overlapping networks and some nulls in larger samples.",
+   "grade": "contested",
+   "plain": "Brain scans at rest find differences in how brain regions communicate, but different studies find different networks.",
+   "detail": "",
+   "studies": [
+    {
+     "cite": "Gay 2016, Brain Connect",
+     "n": "19 vs 17",
+     "design": "rs-fMRI",
+     "result": "altered connectivity correlated with fatigue",
+     "url": "https://doi.org/10.1089/brain.2015.0366",
+     "verified": true
+    },
+    {
+     "cite": "Boissoneault 2016, Magn Reson Imaging",
+     "n": "ME/CFS vs controls",
+     "design": "rs-fMRI",
+     "result": "altered DMN/salience connectivity",
+     "url": "https://doi.org/10.1016/j.mri.2015.12.008",
+     "verified": true
+    },
+    {
+     "cite": "Wortinger 2016, PLoS One",
+     "n": "adolescent CFS",
+     "design": "rs-fMRI",
+     "result": "altered connectivity",
+     "url": "https://doi.org/10.1371/journal.pone.0159351",
+     "verified": true
+    },
+    {
+     "cite": "Rayhan 2021, Front Neurosci",
+     "n": "ME/CFS",
+     "design": "rs-fMRI pre/post exercise",
+     "result": "exercise-related connectivity change",
+     "url": "https://doi.org/10.3389/fnins.2021.748426",
+     "verified": true
+    },
+    {
+     "cite": "Barnden 2023, Front Neurosci",
+     "n": "LC vs ME/CFS vs controls",
+     "design": "rs-fMRI",
+     "result": "brainstem connectivity changes in both",
+     "url": "https://doi.org/10.3389/fnins.2023.1182607",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "van der Schaaf 2024, Psychol Med",
+     "n": "72 patients",
+     "design": "rs-fMRI",
+     "result": "few/no robust differences",
+     "url": "https://doi.org/10.1017/s0033291723003690",
+     "verified": true
+    },
+    {
+     "cite": "Byrne 2024, J Neurosci Res",
+     "n": "ME/CFS",
+     "design": "rs-fMRI",
+     "result": "inconsistent with earlier networks",
+     "url": "https://doi.org/10.1002/jnr.25392",
+     "verified": true
+    }
+   ],
+   "hypotheses": [],
+   "open_questions": [],
+   "test_available": false
+  },
+  {
+   "id": "neuro-serotonergic-pet",
+   "subdomain": "PET neuroinflammation",
+   "finding": "Two small PET studies found reduced serotonergic markers in CFS (5-HT1A binding in hippocampus; SERT in rostral anterior cingulate); never replicated.",
+   "grade": "early",
+   "plain": "Two small brain scans from the 2000s found lower serotonin-system markers in CFS; nobody has repeated them.",
+   "detail": "",
+   "studies": [
+    {
+     "cite": "Cleare 2005, Biol Psychiatry",
+     "n": "10 vs 10",
+     "design": "PET [11C]WAY-100635",
+     "result": "5-HT1A binding -23% in hippocampus",
+     "url": "https://doi.org/10.1016/j.biopsych.2004.10.031",
+     "verified": true
+    },
+    {
+     "cite": "Yamamoto 2004, Neuroreport",
+     "n": "CFS vs controls",
+     "design": "PET SERT",
+     "result": "reduced SERT in rostral ACC",
+     "url": "https://doi.org/10.1097/00001756-200412030-00002",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "hypotheses": [],
+   "open_questions": [],
+   "test_available": false
+  },
+  {
+   "id": "neuro-basal-ganglia-reward",
+   "subdomain": "Effort and motivation",
+   "finding": "Reduced basal ganglia activation to reward in CFS on fMRI, correlated with fatigue (Miller 2014), with a 2026 replication-style study.",
+   "grade": "early",
+   "plain": "The brain's reward circuitry responds less in CFS, which may relate to fatigue.",
+   "detail": "",
+   "studies": [
+    {
+     "cite": "Miller 2014, PLoS One",
+     "n": "18 vs 41",
+     "design": "fMRI reward task",
+     "result": "reduced right caudate/globus pallidus activation, correlated with fatigue",
+     "url": "https://doi.org/10.1371/journal.pone.0098156",
+     "verified": true
+    },
+    {
+     "cite": "Rimes 2026, Brain Commun",
+     "n": "ME/CFS",
+     "design": "fMRI",
+     "result": "fMRI, 20 vs 20: patients recruited caudate, putamen and insula differently when recalling or suppressing fatigue- and anger-related memories",
+     "url": "https://doi.org/10.1093/braincomms/fcag101",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "hypotheses": [],
+   "open_questions": [],
+   "test_available": false
+  },
+  {
+   "id": "neuro-pain-modulation-exercise-hyperalgesia",
+   "subdomain": "Sensory sensitivity",
+   "finding": "ME/CFS patients show generalised hyperalgesia, impaired conditioned pain modulation, and pain thresholds that fall (rather than rise) after exercise, correlating with post-exertional symptoms; comorbid fibromyalgia confounds several studies.",
+   "grade": "several",
+   "plain": "In healthy people exercise dulls pain; in ME/CFS it often makes pain worse, and this tracks with post-exertional crashes.",
+   "detail": "",
+   "studies": [
+    {
+     "cite": "Whiteside 2004, Pain",
+     "n": "5 vs 5",
+     "design": "pain thresholds pre/post exercise",
+     "result": "thresholds fell after exercise in CFS",
+     "url": "https://doi.org/10.1016/j.pain.2004.02.029",
+     "verified": true
+    },
+    {
+     "cite": "Meeus 2008, Pain",
+     "n": "CFS vs controls",
+     "design": "DNIC/temporal summation",
+     "result": "delayed/impaired endogenous inhibition",
+     "url": "https://doi.org/10.1016/j.pain.2008.05.018",
+     "verified": true
+    },
+    {
+     "cite": "Meeus 2010, J Rehabil Med",
+     "n": "26 CFS, 21 CLBP, 31 controls",
+     "design": "exercise-induced analgesia",
+     "result": "no analgesia after exercise in CFS",
+     "url": "https://doi.org/10.2340/16501977-0595",
+     "verified": true
+    },
+    {
+     "cite": "Van Oosterwijck 2010, J Intern Med",
+     "n": "22 vs 22",
+     "design": "submax/self-paced exercise",
+     "result": "pain inhibition worsened, correlated with post-exertional fatigue",
+     "url": "https://doi.org/10.1111/j.1365-2796.2010.02228.x",
+     "verified": true
+    },
+    {
+     "cite": "Wyns 2026, Int J Mol Sci",
+     "n": "ME/CFS",
+     "design": "methylation",
+     "result": "OPRM1 hypermethylation",
+     "url": "https://doi.org/10.3390/ijms27020826",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Meeus 2015, Pain Pract",
+     "n": "CFS",
+     "design": "exercise pain response",
+     "result": "inconsistent results",
+     "url": "https://doi.org/10.1111/papr.12181",
+     "verified": true
+    }
+   ],
+   "hypotheses": [],
+   "open_questions": [],
+   "test_available": false
+  },
+  {
+   "id": "neuro-lc-autonomic-objective",
+   "subdomain": "Autonomic",
+   "finding": "Objective autonomic testing in long COVID finds cardiovascular autonomic abnormalities in most referred patients (initial orthostatic hypotension, POTS), whereas resting muscle sympathetic nerve activity is variably normal or increased.",
+   "grade": "several",
+   "plain": "Tilt and blood-pressure tests show most long COVID clinic patients have nervous-system blood-pressure problems.",
+   "detail": "",
+   "studies": [
+    {
+     "cite": "Hira 2023, Can J Cardiol",
+     "n": "70 LC",
+     "design": "autonomic testing",
+     "result": "73% abnormal; IOH 61%; POTS 30%",
+     "url": "https://doi.org/10.1016/j.cjca.2022.12.002",
+     "verified": true
+    },
+    {
+     "cite": "Ryabkova 2024, Pathophysiology",
+     "n": "LC/ME/CFS",
+     "design": "HRV/autonomic",
+     "result": "autonomic dysregulation",
+     "url": "https://doi.org/10.3390/pathophysiology31010001",
+     "verified": true
+    },
+    {
+     "cite": "Ono 2025, Am J Physiol Regul",
+     "n": "post-severe COVID",
+     "design": "MSNA",
+     "result": "sympathetic overdrive",
+     "url": "https://doi.org/10.1152/ajpregu.00055.2025",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Howden 2026, Am J Physiol Heart",
+     "n": "35 LC vs 12",
+     "design": "MSNA",
+     "result": "resting MSNA normal",
+     "url": "https://doi.org/10.1152/ajpheart.90275.2026",
+     "verified": true
+    }
+   ],
+   "hypotheses": [],
+   "open_questions": [],
+   "test_available": false
+  },
+  {
+   "id": "neuro-mrs-neurochemicals",
+   "subdomain": "MR spectroscopy",
+   "finding": "MR spectroscopy shows altered glutamate/Glx in ME/CFS and LC, but direction differs between studies.",
+   "grade": "early",
+   "plain": "Brain chemistry scans find changes in glutamate, but studies disagree on the direction.",
+   "detail": "",
+   "studies": [
+    {
+     "cite": "Thapaliya 2025, Am J Med",
+     "n": "ME/CFS, LC, controls",
+     "design": "7T MRS",
+     "result": "higher glutamate",
+     "url": "https://doi.org/10.1016/j.amjmed.2024.04.007",
+     "verified": true
+    },
+    {
+     "cite": "Chaganti 2024, Front Neurol",
+     "n": "14 LC vs 10",
+     "design": "MRS",
+     "result": "lower Glx",
+     "url": "https://doi.org/10.3389/fneur.2024.1350848",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "hypotheses": [],
+   "open_questions": [],
+   "test_available": false
+  }
+ ],
+ "hypotheses_notes": [
+  {
+   "id": "autonomic-small-fibre",
+   "for": "Reduced vagal HRV (meta-analysis), orthostatic CBF fall and hypocapnia across labs, SFN in 31-53% of referral cohorts, autonomic-fibre loss in long COVID, POTS in a minority.",
+   "against": "SFN not found in the controlled NIH cohort; SFN severity does not correlate with exertional limits or symptom scores; HRV changes are non-specific and confounded by deconditioning."
+  },
+  {
+   "id": "low-blood-volume-preload",
+   "for": "Orthostatic CBF fall even without tachycardia; narrow pulse pressure on lean test in recent-onset patients; preload failure in 92% of iCPET-tested ME/CFS (Novak 2026).",
+   "against": "Yamazaki 2026: measured total and red-cell volume did not predict lean-test abnormalities; hypocapnia, not volume, was the most common abnormality."
+  },
+  {
+   "id": "neuroinflammation",
+   "for": "Nakatomi TSPO-PET; MRS raised lactate, choline and brain temperature; diffusion NII signals; VanElzakker PBR28 in long COVID; CSF cytokine changes (Hornig).",
+   "against": "Raijmakers TSPO-PET null; Tuomaala long COVID TSPO null; NfL/GFAP normal; CSF proteomes indistinguishable from fibromyalgia and no replicated CSF signature."
+  },
+  {
+   "id": "brainstem-craniocervical",
+   "for": "Brainstem imaging differences repeatedly reported (volume, connectivity); uncontrolled series with high rates of craniocervical findings and raised opening pressure in a subset.",
+   "against": "No controlled or blinded imaging of craniocervical anatomy; no trials of surgery; CSF-leak codes not specific to ME/CFS in registry data; imaging brainstem changes need not be mechanical."
+  },
+  {
+   "id": "sickness-behaviour",
+   "for": "Central fatigability (brain fails to ramp up motor drive), lower CSF catechol metabolites, altered task activation after exertion: consistent with a brain-level 'sickness' state.",
+   "against": "The 'effort preference' reading is confounded by inability to complete hard tasks; central changes could equally be downstream of peripheral pathology."
+  },
+  {
+   "id": "mitochondrial-energy",
+   "for": "Raised brain lactate at rest and failure to raise it further under hypoxia (Bader 2026); lower cortical glutathione; post-exertion cognitive decline.",
+   "against": "Brain lactate also raised in depression; no 31P-MRS energetics replicated; samples small."
+  },
+  {
+   "id": "connective-tissue",
+   "for": "Hypermobility in 50% of a severe-clinic series; hEDS cohorts show more severe neurodegeneration and share the autonomic phenotype.",
+   "against": "Clinic series are uncontrolled; overlap may reflect referral patterns."
+  },
+  {
+   "id": "genetic-neuronal",
+   "for": "Solving ME/CFS re-analysis: DecodeME heritability enriched in brain tissues and neurons, with shared architecture with chronic pain and migraine.",
+   "against": "Structural MRI largely normal; no neuronal injury markers; no locus is an autonomic gene."
+  }
+ ],
+ "glossary": [
+  {
+   "term": "Orthostatic intolerance (OI)",
+   "plain": "Symptoms (dizziness, fog, fatigue, nausea) that come on when upright and ease when lying down."
+  },
+  {
+   "term": "POTS",
+   "plain": "Postural orthostatic tachycardia syndrome: heart rate rises by 30+ bpm (40+ in teenagers) within 10 minutes of standing, without a big blood-pressure drop, plus symptoms."
+  },
+  {
+   "term": "Hypocapnia / POSH",
+   "plain": "Low carbon dioxide from over-breathing. POSH means CO2 drops when upright; low CO2 narrows brain blood vessels."
+  },
+  {
+   "term": "Heart-rate variability (HRV)",
+   "plain": "Beat-to-beat variation in heart rhythm; higher high-frequency HRV reflects stronger vagal (calming) nerve activity."
+  },
+  {
+   "term": "NASA lean test",
+   "plain": "10 minutes leaning with shoulders on a wall while pulse and blood pressure are taken each minute. Cheap, but not validated for formal diagnosis."
+  },
+  {
+   "term": "Small-fibre neuropathy (SFN)",
+   "plain": "Loss of the thinnest nerves in skin and organs, which carry pain/temperature and control sweating and blood vessels; diagnosed by counting fibres in a 3 mm skin biopsy (IENFD)."
+  },
+  {
+   "term": "MR spectroscopy (MRS)",
+   "plain": "An MRI method that measures chemicals such as lactate, choline and glutathione in brain tissue, and can estimate tissue temperature."
+  },
+  {
+   "term": "TSPO-PET",
+   "plain": "A PET scan using a tracer that binds a protein raised in activated microglia and astrocytes, used as a marker of brain inflammation."
+  },
+  {
+   "term": "Diffusion MRI / DTI",
+   "plain": "MRI that tracks water movement along nerve fibres to infer white-matter structure."
+  },
+  {
+   "term": "CSF",
+   "plain": "Cerebrospinal fluid, which bathes the brain and spinal cord; sampled by lumbar puncture."
+  },
+  {
+   "term": "NfL / GFAP",
+   "plain": "Proteins released when neurons (NfL) or astrocytes (GFAP) are damaged; raised in MS, stroke and dementia."
+  },
+  {
+   "term": "EEfRT",
+   "plain": "Effort-Expenditure for Rewards Task: repeated choices between an easy and a hard button-pressing task for money; used by NIH to define 'effort preference'."
+  },
+  {
+   "term": "Craniocervical instability (CCI)",
+   "plain": "Proposed abnormal movement at the skull-neck junction that compresses the brainstem; mainly discussed in hypermobile patients."
+  }
+ ],
+ "key_reviews": [
+  {
+   "cite": "Shan 2020, J Transl Med: Neuroimaging characteristics of ME/CFS, systematic review",
+   "url": "https://doi.org/10.1186/s12967-020-02506-6",
+   "why": "Sorts which brain-imaging findings are repeated across teams and which are single reports."
+  },
+  {
+   "cite": "Christopoulos 2025, J Transl Med: Mapping cerebral blood flow in ME/CFS and OI",
+   "url": "https://doi.org/10.1186/s12967-025-06954-w",
+   "why": "Up-to-date systematic review of cerebral blood flow, including the OI confound."
+  },
+  {
+   "cite": "Nelson 2019, Medicine: altered cardiac autonomic regulation in ME/CFS, meta-analysis",
+   "url": "https://doi.org/10.1097/MD.0000000000017600",
+   "why": "Quantifies resting HR and HRV differences across 64 studies."
+  },
+  {
+   "cite": "Mohamed 2023, Sleep Med Rev: Objective sleep measures in CFS, meta-analysis",
+   "url": "https://doi.org/10.1016/j.smrv.2023.101771",
+   "why": "Best summary of PSG/actigraphy differences, adults vs adolescents."
+  },
+  {
+   "cite": "Cockshell & Mathias 2010, Psychol Med: Cognitive functioning in CFS, meta-analysis",
+   "url": "https://doi.org/10.1017/S0033291709992054",
+   "why": "Defines the cognitive deficit profile."
+  },
+  {
+   "cite": "VanElzakker 2019, Front Neurol: Neuroinflammation and cytokines in ME/CFS, critical review of methods",
+   "url": "https://doi.org/10.3389/fneur.2018.01033",
+   "why": "Explains the pitfalls of TSPO-PET, MRS and cytokine studies of 'neuroinflammation'."
+  },
+  {
+   "cite": "Kirvin-Quamme 2025, Front Psychol: Unwilling or unable?",
+   "url": "https://doi.org/10.3389/fpsyg.2025.1593269",
+   "why": "Clearest data-based critique of the NIH effort-preference claim."
+  }
+ ],
+ "gaps": [
+  "No adequately powered (n>50 per group), multi-site TSPO-PET study in ME/CFS using a modern tracer and arterial input.",
+  "No blinded, controlled imaging study of craniocervical anatomy in ME/CFS vs hypermobile and healthy controls, and no controlled trial of CCI surgery or CSF drainage.",
+  "No skin-biopsy SFN prevalence study in unselected community ME/CFS with matched controls and blinded reading.",
+  "Brain measures before and after exertion (MRS lactate, fMRI, CSF) in the same people across the 24-72 h PEM window are almost absent; Cook 2017 has not been directly replicated.",
+  "No CSF study with a large healthy-control group and a pre-registered analysis; most recent CSF cohorts lack controls.",
+  "No trial of treatments that target orthostatic hypocapnia or cerebral hypoperfusion (capnography-guided breathing, midodrine, compression) measuring function over weeks.",
+  "Severe and very severe patients are largely excluded from imaging, CSF and sensory studies.",
+  "Few studies stratify by orthostatic phenotype (POTS vs hypocapnia vs normal HR/BP), which may explain much of the inconsistency in perfusion and imaging results.",
+  "No effort-based decision study in ME/CFS that calibrates task difficulty to each person's ability."
+ ]
+}

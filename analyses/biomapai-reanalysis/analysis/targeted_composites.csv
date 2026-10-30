@@ -1,0 +1,121 @@
+group,composite,target,n,rho,p
+patients_tp1,FFA,NLT.Orthostatic Intolerance,136,0.342,4.688168876739511e-05
+patients_tp1,FFA,severity,136,0.237,0.0054536269311849656
+patients_tp1,FFA,RAND36.Energy/Fatigue,136,0.155,0.07080867849830033
+patients_tp1,FFA,PSQI.sleeping_problem,136,0.127,0.13937831132264894
+patients_tp1,FFA,DANA.Cognitive Efficiency,136,0.119,0.1689287726308857
+patients_tp1,hydroxyFA,NLT.Orthostatic Intolerance,136,0.336,6.492606722070324e-05
+patients_tp1,hydroxyFA,severity,136,0.094,0.276499576429022
+patients_tp1,hydroxyFA,RAND36.Energy/Fatigue,136,0.078,0.3652549662252975
+patients_tp1,hydroxyFA,PSQI.sleeping_problem,136,-0.028,0.7463580936194717
+patients_tp1,hydroxyFA,DANA.Cognitive Efficiency,136,0.038,0.6619488099471602
+patients_tp1,acylcarnitine,NLT.Orthostatic Intolerance,136,0.274,0.0012712795095809395
+patients_tp1,acylcarnitine,severity,136,0.103,0.23087445758855393
+patients_tp1,acylcarnitine,RAND36.Energy/Fatigue,136,0.086,0.3189917503673936
+patients_tp1,acylcarnitine,PSQI.sleeping_problem,136,0.003,0.9705153271136856
+patients_tp1,acylcarnitine,DANA.Cognitive Efficiency,136,0.158,0.06562365651342976
+patients_tp1,ketone_BHB,NLT.Orthostatic Intolerance,136,0.316,0.00017698717390371384
+patients_tp1,ketone_BHB,severity,136,-0.095,0.26914576157106235
+patients_tp1,ketone_BHB,RAND36.Energy/Fatigue,136,0.007,0.9390375673551409
+patients_tp1,ketone_BHB,PSQI.sleeping_problem,136,-0.067,0.4373915070927591
+patients_tp1,ketone_BHB,DANA.Cognitive Efficiency,136,0.074,0.39278529987047117
+patients_tp1,KT,NLT.Orthostatic Intolerance,136,0.03,0.7331444673999318
+patients_tp1,KT,severity,136,0.297,0.00044158799574901564
+patients_tp1,KT,RAND36.Energy/Fatigue,136,-0.04,0.645333582245355
+patients_tp1,KT,PSQI.sleeping_problem,136,0.253,0.003011587413020266
+patients_tp1,KT,DANA.Cognitive Efficiency,136,0.169,0.04886520868987998
+patients_tp1,kynurenine,NLT.Orthostatic Intolerance,136,0.024,0.7778298069108506
+patients_tp1,kynurenine,severity,136,0.281,0.000904061395988399
+patients_tp1,kynurenine,RAND36.Energy/Fatigue,136,-0.064,0.4583354262620703
+patients_tp1,kynurenine,PSQI.sleeping_problem,136,0.228,0.0075856947856387455
+patients_tp1,kynurenine,DANA.Cognitive Efficiency,136,0.145,0.09252235978826132
+patients_tp1,tryptophan,NLT.Orthostatic Intolerance,136,-0.034,0.6975678056881238
+patients_tp1,tryptophan,severity,136,0.015,0.8629235518507985
+patients_tp1,tryptophan,RAND36.Energy/Fatigue,136,-0.141,0.10152149741663477
+patients_tp1,tryptophan,PSQI.sleeping_problem,136,0.004,0.9626136946633638
+patients_tp1,tryptophan,DANA.Cognitive Efficiency,136,-0.087,0.31166744748231723
+patients_tp1,microbial_indoles,NLT.Orthostatic Intolerance,136,-0.087,0.31312914597660446
+patients_tp1,microbial_indoles,severity,136,0.018,0.836137318460439
+patients_tp1,microbial_indoles,RAND36.Energy/Fatigue,136,-0.133,0.12374602591765911
+patients_tp1,microbial_indoles,PSQI.sleeping_problem,136,0.026,0.7605805196868944
+patients_tp1,microbial_indoles,DANA.Cognitive Efficiency,136,-0.032,0.7077514588900499
+controls_tp1,FFA,NLT.Orthostatic Intolerance,79,0.203,0.07212276976394191
+controls_tp1,FFA,severity,79,0.047,0.6781486096326815
+controls_tp1,FFA,RAND36.Energy/Fatigue,79,-0.077,0.5026587372907354
+controls_tp1,FFA,PSQI.sleeping_problem,79,-0.086,0.44943147284965324
+controls_tp1,FFA,DANA.Cognitive Efficiency,79,0.077,0.4986666341808516
+controls_tp1,hydroxyFA,NLT.Orthostatic Intolerance,79,0.033,0.7729292282857202
+controls_tp1,hydroxyFA,severity,79,0.098,0.3891308357693436
+controls_tp1,hydroxyFA,RAND36.Energy/Fatigue,79,0.085,0.45734250005665306
+controls_tp1,hydroxyFA,PSQI.sleeping_problem,79,0.077,0.4984172371541815
+controls_tp1,hydroxyFA,DANA.Cognitive Efficiency,79,-0.035,0.7564842931354738
+controls_tp1,acylcarnitine,NLT.Orthostatic Intolerance,79,0.012,0.9197290580505666
+controls_tp1,acylcarnitine,severity,79,0.137,0.227351905388796
+controls_tp1,acylcarnitine,RAND36.Energy/Fatigue,79,0.027,0.8114169610240689
+controls_tp1,acylcarnitine,PSQI.sleeping_problem,79,0.069,0.544227980806126
+controls_tp1,acylcarnitine,DANA.Cognitive Efficiency,79,0.033,0.7751888510411316
+controls_tp1,ketone_BHB,NLT.Orthostatic Intolerance,79,-0.001,0.9943904527331273
+controls_tp1,ketone_BHB,severity,79,0.099,0.3839550563567197
+controls_tp1,ketone_BHB,RAND36.Energy/Fatigue,79,-0.01,0.9328534124352166
+controls_tp1,ketone_BHB,PSQI.sleeping_problem,79,0.051,0.6547509690123607
+controls_tp1,ketone_BHB,DANA.Cognitive Efficiency,79,-0.141,0.21591748468430405
+controls_tp1,KT,NLT.Orthostatic Intolerance,79,0.089,0.4339254998018076
+controls_tp1,KT,severity,79,0.082,0.4713820054229682
+controls_tp1,KT,RAND36.Energy/Fatigue,79,0.022,0.8464385897282862
+controls_tp1,KT,PSQI.sleeping_problem,79,0.059,0.6037601870932215
+controls_tp1,KT,DANA.Cognitive Efficiency,79,0.175,0.12362409998400604
+controls_tp1,kynurenine,NLT.Orthostatic Intolerance,79,0.096,0.400270099455147
+controls_tp1,kynurenine,severity,79,0.049,0.6698929630237171
+controls_tp1,kynurenine,RAND36.Energy/Fatigue,79,0.005,0.9640019804418736
+controls_tp1,kynurenine,PSQI.sleeping_problem,79,0.041,0.7199900886141042
+controls_tp1,kynurenine,DANA.Cognitive Efficiency,79,0.187,0.09908093041060013
+controls_tp1,tryptophan,NLT.Orthostatic Intolerance,79,0.0,0.999405043266083
+controls_tp1,tryptophan,severity,79,-0.092,0.4203081916849357
+controls_tp1,tryptophan,RAND36.Energy/Fatigue,79,-0.063,0.5803704535738231
+controls_tp1,tryptophan,PSQI.sleeping_problem,79,-0.043,0.7064104942764605
+controls_tp1,tryptophan,DANA.Cognitive Efficiency,79,0.007,0.9528000847720554
+controls_tp1,microbial_indoles,NLT.Orthostatic Intolerance,79,-0.155,0.17318601700230243
+controls_tp1,microbial_indoles,severity,79,-0.097,0.3967331120529427
+controls_tp1,microbial_indoles,RAND36.Energy/Fatigue,79,-0.04,0.7239223387196526
+controls_tp1,microbial_indoles,PSQI.sleeping_problem,79,-0.076,0.5041953396287138
+controls_tp1,microbial_indoles,DANA.Cognitive Efficiency,79,0.066,0.5635154343279779
+patients_within_person,FFA,NLT.Orthostatic Intolerance,217,0.111,0.10298867890005019
+patients_within_person,FFA,severity,217,0.028,0.6792285804067024
+patients_within_person,FFA,RAND36.Energy/Fatigue,217,0.026,0.7059949446983547
+patients_within_person,FFA,PSQI.sleeping_problem,217,0.046,0.49730779564063143
+patients_within_person,FFA,DANA.Cognitive Efficiency,217,-0.021,0.7612410686043402
+patients_within_person,hydroxyFA,NLT.Orthostatic Intolerance,217,0.006,0.9347210576019895
+patients_within_person,hydroxyFA,severity,217,-0.04,0.5618442085449227
+patients_within_person,hydroxyFA,RAND36.Energy/Fatigue,217,0.089,0.1921656990916599
+patients_within_person,hydroxyFA,PSQI.sleeping_problem,217,0.039,0.5719137219312059
+patients_within_person,hydroxyFA,DANA.Cognitive Efficiency,217,-0.027,0.6922853491253721
+patients_within_person,acylcarnitine,NLT.Orthostatic Intolerance,217,0.025,0.7156608889841273
+patients_within_person,acylcarnitine,severity,217,-0.084,0.2169805624819938
+patients_within_person,acylcarnitine,RAND36.Energy/Fatigue,217,-0.202,0.002846033458807483
+patients_within_person,acylcarnitine,PSQI.sleeping_problem,217,-0.086,0.20811270387059555
+patients_within_person,acylcarnitine,DANA.Cognitive Efficiency,217,0.12,0.07763210132030675
+patients_within_person,ketone_BHB,NLT.Orthostatic Intolerance,217,0.044,0.5178401057787054
+patients_within_person,ketone_BHB,severity,217,-0.135,0.047359442011090366
+patients_within_person,ketone_BHB,RAND36.Energy/Fatigue,217,0.049,0.47362635510298545
+patients_within_person,ketone_BHB,PSQI.sleeping_problem,217,0.041,0.5520083159306334
+patients_within_person,ketone_BHB,DANA.Cognitive Efficiency,217,0.043,0.5265917955751984
+patients_within_person,KT,NLT.Orthostatic Intolerance,217,0.051,0.45305078573072954
+patients_within_person,KT,severity,217,0.037,0.5890532524277385
+patients_within_person,KT,RAND36.Energy/Fatigue,217,-0.091,0.18325185685369969
+patients_within_person,KT,PSQI.sleeping_problem,217,-0.077,0.2571121733361033
+patients_within_person,KT,DANA.Cognitive Efficiency,217,-0.06,0.37567204340600013
+patients_within_person,kynurenine,NLT.Orthostatic Intolerance,217,0.025,0.716419092966168
+patients_within_person,kynurenine,severity,217,0.023,0.7358388400774211
+patients_within_person,kynurenine,RAND36.Energy/Fatigue,217,-0.092,0.17691292592880067
+patients_within_person,kynurenine,PSQI.sleeping_problem,217,-0.092,0.1767092811929214
+patients_within_person,kynurenine,DANA.Cognitive Efficiency,217,-0.102,0.13322688033260255
+patients_within_person,tryptophan,NLT.Orthostatic Intolerance,217,-0.042,0.5411543068496774
+patients_within_person,tryptophan,severity,217,0.092,0.17462061643823323
+patients_within_person,tryptophan,RAND36.Energy/Fatigue,217,-0.082,0.23079358540133613
+patients_within_person,tryptophan,PSQI.sleeping_problem,217,-0.019,0.778306713369349
+patients_within_person,tryptophan,DANA.Cognitive Efficiency,217,-0.041,0.5489576140506586
+patients_within_person,microbial_indoles,NLT.Orthostatic Intolerance,217,-0.11,0.1060464647542966
+patients_within_person,microbial_indoles,severity,217,-0.126,0.06475656591081409
+patients_within_person,microbial_indoles,RAND36.Energy/Fatigue,217,0.015,0.8214450933357804
+patients_within_person,microbial_indoles,PSQI.sleeping_problem,217,-0.023,0.7379123066650761
+patients_within_person,microbial_indoles,DANA.Cognitive Efficiency,217,-0.087,0.19945324795503394

@@ -1,0 +1,731 @@
+{
+ "about": "Single source for how the working model, the atlas, the open questions, the proposed experiments and the treatments link together. Edited by hand; rendered by make_graph.py into pages/model.html, pages/questions.html, pages/index.html and read by build_atlas.py and make_treatments.py. check_graph.py validates every id.",
+ "grades": {
+  "replicated": "Replicated",
+  "several": "Several studies",
+  "early": "Early",
+  "lc-only": "Long COVID only",
+  "contested": "Contested",
+  "inferred": "Inferred"
+ },
+ "steps": [
+  {
+   "n": 1,
+   "name": "Infection and immune priming",
+   "gloss": "after a severe infection",
+   "claim": "A severe infection, of almost any kind, leaves the immune system in a primed state that outlasts the infection.",
+   "found": "replicated",
+   "found_note": "Onset after infection is replicated across pathogens and in prospective cohorts. A lasting primed state is inferred: it has not been measured directly.",
+   "evidence": [
+    "infection-dubbo-stereotyped-pifs",
+    "infection-katz-post-mono-adolescents",
+    "infection-post-covid-mecfs-incidence",
+    "immune-sickness-behaviour",
+    "immune-interferon-alpha-model",
+    "immune-cytokine-duration",
+    "infection-ebv-genetic-load-mr"
+   ],
+   "tension": [
+    "immune-genetics-null",
+    "infection-ebv-serology-not-different"
+   ],
+   "disproof": "If people who develop ME/CFS after an infection show no difference in immune state 1 to 6 months later from those who recover, once acute severity is matched, then priming adds nothing beyond a severe infection.",
+   "hypotheses": [
+    "herpes-reactivation",
+    "viral-persistence",
+    "innate-hyperactivation",
+    "immune-exhaustion"
+   ]
+  },
+  {
+   "n": 2,
+   "name": "Brain and autonomic control",
+   "gloss": "breathing, heart rate, volume hormones",
+   "claim": "Inherited risk acts mainly through neurons, and the brain's control of breathing, heart rate and blood-volume hormones is set wrong. A pituitary or vasopressin defect is one possible form of this and is speculative.",
+   "found": "several",
+   "found_note": "Genetic enrichment in neurons, lower heart-rate variability and over-breathing on standing are each found by several groups. The pituitary and vasopressin evidence is early: one uncontrolled study, with copeptin normal in the 13 people tested.",
+   "evidence": [
+    "genetics-brain-neuron-enrichment",
+    "genetics-polygenic-replication",
+    "neuro-hrv",
+    "vascular-hypocapnia",
+    "vascular-raas-paradox",
+    "endocrine-hpa-low-cortisol"
+   ],
+   "weak": [
+    "endocrine-genetic-pituitary",
+    "endocrine-low-vasopressin",
+    "endocrine-adrenal-pituitary-minority"
+   ],
+   "tension": [
+    "neuro-sfn-biopsy",
+    "trials-clonidine"
+   ],
+   "disproof": "If heart-rate variability, breathing and volume hormones return to normal once blood volume is restored, step 2 is downstream of step 3, not upstream. If stimulated copeptin and a short Synacthen test are normal in severe patients, the endocrine form of step 2 is wrong.",
+   "hypotheses": [
+    "genetic-neuronal",
+    "autonomic-small-fibre",
+    "pituitary-adh",
+    "hpa-endocrine"
+   ]
+  },
+  {
+   "n": 3,
+   "name": "Low blood volume",
+   "gloss": "small stroke volume, poor venous return",
+   "claim": "Plasma and red-cell volume are low, the hormones that should correct this do not rise, and the heart fills poorly when upright.",
+   "found": "replicated",
+   "found_note": "Low blood volume, small stroke volume and low filling pressure on invasive testing are each replicated, though not every patient has them.",
+   "evidence": [
+    "vascular-low-red-cell-volume",
+    "vascular-small-heart-stroke-volume",
+    "vascular-preload-failure-icpet",
+    "vascular-raas-paradox"
+   ],
+   "tension": [
+    "endocrine-fludrocortisone-null"
+   ],
+   "disproof": "If restoring blood volume to normal, measured by CO rebreathing, does not raise the threshold for post-exertional malaise, low volume explains orthostatic symptoms but not the crash.",
+   "hypotheses": [
+    "low-blood-volume-preload"
+   ]
+  },
+  {
+   "n": 4,
+   "name": "Vessels and capillaries",
+   "gloss": "impaired dilation, fewer capillaries",
+   "claim": "Arteries dilate poorly on demand and muscle has fewer capillaries than inactivity explains.",
+   "found": "replicated",
+   "found_note": "Reduced flow-mediated dilation is replicated in three cohorts. Lower muscle capillary supply is found by several studies, and bed rest does not reproduce it. Capillary wall thickening is a conference abstract only.",
+   "evidence": [
+    "vascular-endothelial-fmd-porh",
+    "vascular-muscle-capillary-basement-membrane",
+    "vascular-retinal-microvasculature",
+    "vascular-serum-endothelial-in-vitro",
+    "immune-igg-endothelial"
+   ],
+   "tension": [
+    "vascular-vascular-proteins-blood",
+    "vascular-vegf"
+   ],
+   "disproof": "If flow-mediated dilation and capillary density do not differ between patients and activity-matched controls in a larger sample, or do not predict oxygen extraction during exercise, step 4 is not part of the mechanism.",
+   "hypotheses": [
+    "vascular-endothelial",
+    "small-vessel-capillary",
+    "complement-thromboinflammation"
+   ]
+  },
+  {
+   "n": 5,
+   "name": "Tissue under-perfusion",
+   "gloss": "demand exceeds delivery",
+   "claim": "When demand rises (standing, exertion, and possibly sensory or cognitive load), muscle and brain receive less blood and oxygen than they need.",
+   "found": "replicated",
+   "found_note": "Low peak oxygen uptake and the fall in brain blood flow on tilt are replicated; poor oxygen extraction in a subgroup is found by several studies. That non-physical load causes under-perfusion is a hypothesis.",
+   "evidence": [
+    "muscle-exertion-low-peak-vo2",
+    "neuro-cbf-tilt",
+    "muscle-exertion-oxygen-extraction",
+    "neuro-hypocapnia",
+    "neuro-mrs-lactate",
+    "muscle-exertion-deconditioning"
+   ],
+   "weak": [
+    "muscle-exertion-muscle-sodium"
+   ],
+   "tension": [
+    "muscle-exertion-two-day-cpet"
+   ],
+   "disproof": "If exertion while lying flat and volume-loaded triggers the same crash as upright exertion, or crash severity does not scale with the measured perfusion deficit, under-perfusion is not the trigger.",
+   "hypotheses": [
+    "low-blood-volume-preload",
+    "vascular-endothelial",
+    "mitochondrial-energy",
+    "sodium-calcium-overload"
+   ]
+  },
+  {
+   "n": 6,
+   "name": "Tissue injury and immune response",
+   "gloss": "24–72 h after exertion",
+   "claim": "Under-perfused tissue is injured, and the injury sets off a local immune and complement response that builds over one to three days.",
+   "found": "lc-only",
+   "found_note": "Muscle injury and immune infiltration a day after exertion have been shown only in long COVID with post-exertional malaise (Appelman 2024). In ME/CFS, one study reports exaggerated innate immune responses after exercise, and a large plasma proteome study found no protein whose response to exercise differed on a within-person re-analysis.",
+   "evidence": [
+    "muscle-exertion-appelman-pem-biopsy",
+    "immune-innate-hyperreactivity",
+    "vascular-complement-long-covid",
+    "muscle-exertion-exercise-gene-expression",
+    "muscle-exertion-ev-cargo"
+   ],
+   "tension": [
+    "omics-exertion-proteome",
+    "muscle-exertion-post-exertion-metabolomics",
+    "neuro-injury-markers"
+   ],
+   "disproof": "If no marker of tissue injury, complement activation or immune activation rises 24 to 72 hours after exertion in classic ME/CFS relative to sedentary controls, step 6 fails.",
+   "hypotheses": [
+    "complement-thromboinflammation",
+    "innate-hyperactivation",
+    "serum-factor"
+   ]
+  },
+  {
+   "n": 7,
+   "name": "Sickness response",
+   "gloss": "malaise, exhaustion, pain",
+   "claim": "Immune signals reach the brain and produce the same sickness response as acute infection: malaise, exhaustion, pain, poor concentration.",
+   "found": "inferred",
+   "found_note": "The sickness response after infection and after interferon-alpha is well established. That the same pathway produces the crash in ME/CFS is inferred from the symptoms and their timing.",
+   "evidence": [
+    "immune-sickness-behaviour",
+    "immune-interferon-alpha-model",
+    "muscle-exertion-pem-timing",
+    "neuro-basal-ganglia-reward",
+    "neuro-pain-modulation-exercise-hyperalgesia",
+    "neuro-cognition"
+   ],
+   "tension": [
+    "immune-il1-blockade",
+    "neuro-pet-tspo-mecfs"
+   ],
+   "disproof": "If symptom severity during a crash does not track any immune or inflammatory signal measured in the 72 hours after exertion, the crash is not a sickness response.",
+   "hypotheses": [
+    "sickness-behaviour",
+    "neuroinflammation"
+   ]
+  },
+  {
+   "n": 8,
+   "name": "Sympathetic arousal, poor sleep",
+   "gloss": "feeds back to 2",
+   "claim": "Each crash adds stress arousal and poor sleep, which further disturb the brain's control of circulation (step 2) and lower the threshold for the next crash.",
+   "found": "several",
+   "found_note": "Higher resting heart rate, lower heart-rate variability and fragmented sleep are found by several groups. That arousal rises with each crash and lowers the next threshold has not been measured.",
+   "evidence": [
+    "neuro-hrv",
+    "neuro-sleep",
+    "neuro-sensory"
+   ],
+   "tension": [
+    "neuro-csf-catechol",
+    "trials-clonidine"
+   ],
+   "disproof": "If overnight resting heart rate and heart-rate variability do not shift before or during crashes, or the crash threshold does not fall after repeated crashes, the feedback loop is not real.",
+   "hypotheses": [
+    "autonomic-small-fibre"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "infection",
+   "to": 1,
+   "status": "supported",
+   "note": "About 1 in 10 people meet ME/CFS criteria six months after EBV, Q fever or Ross River virus, with risk rising with the severity of the acute illness. RECOVER found new ME/CFS several times more often after SARS-CoV-2 infection than without it."
+  },
+  {
+   "from": 1,
+   "to": 2,
+   "status": "untested",
+   "note": "Inherited risk sits in neurons, and infection-onset and other-onset cases are genetically the same, which fits a shared brain susceptibility that infection unmasks. How a primed immune system would change autonomic control has not been studied in patients."
+  },
+  {
+   "from": 2,
+   "to": 3,
+   "status": "partly",
+   "note": "Renin, aldosterone and EPO fail to rise despite low volume, which points to a control failure rather than simple loss. The vasopressin evidence is weak."
+  },
+  {
+   "from": 3,
+   "to": 5,
+   "status": "supported",
+   "note": "The fall in brain blood flow on tilt tracks the fall in stroke volume. Compression, IV saline and phenylephrine each acutely improve flow, and phenylephrine restored working memory in one small study."
+  },
+  {
+   "from": 3,
+   "to": 4,
+   "status": "untested",
+   "note": "Drawn as a loop for simplicity. Low flow lowers shear stress on vessel walls, which in other conditions weakens endothelial function, but no study has tested this in ME/CFS. Steps 3 and 4 may instead be independent limits on step 5."
+  },
+  {
+   "from": 4,
+   "to": 5,
+   "status": "partly",
+   "note": "Reduced dilation and fewer capillaries would limit delivery, and poor oxygen extraction is seen in a subgroup. No study has related them in the same patients."
+  },
+  {
+   "from": 5,
+   "to": 6,
+   "status": "untested",
+   "note": "Shown only in long COVID, by muscle biopsy a day after exertion."
+  },
+  {
+   "from": 6,
+   "to": 7,
+   "status": "untested",
+   "note": "The 12 to 72 hour delay fits an immune response, but the window is almost never sampled."
+  },
+  {
+   "from": 7,
+   "to": 8,
+   "status": "untested",
+   "note": "Patients report that the threshold narrows after crashes; this has not been measured."
+  },
+  {
+   "from": 8,
+   "to": 2,
+   "status": "untested",
+   "note": "Sleep loss disturbs autonomic and immune regulation in healthy people. Lowering sympathetic outflow with clonidine did not help adolescents with CFS, which argues against a simple version of this arrow."
+  }
+ ],
+ "constraints": [
+  {
+   "fact": "About 1 in 10 people develop the illness after a severe infection, at a similar rate for different pathogens.",
+   "findings": [
+    "infection-dubbo-stereotyped-pifs"
+   ],
+   "fit": "good",
+   "how": "Step 1 depends on the size of the host response, not the pathogen."
+  },
+  {
+   "fact": "Symptoms worsen 12 to 72 hours after exertion, and recovery takes days to weeks.",
+   "findings": [
+    "muscle-exertion-pem-timing"
+   ],
+   "fit": "good",
+   "how": "Steps 5 to 7: tissue injury and an immune response build over days. Untested in ME/CFS."
+  },
+  {
+   "fact": "Blood volume and stroke volume are low, and the heart fills poorly when upright.",
+   "findings": [
+    "vascular-low-red-cell-volume",
+    "vascular-preload-failure-icpet"
+   ],
+   "fit": "good",
+   "how": "Step 3."
+  },
+  {
+   "fact": "Brain blood flow falls on tilt, including in patients without POTS.",
+   "findings": [
+    "neuro-cbf-tilt"
+   ],
+   "fit": "good",
+   "how": "Steps 3 and 5."
+  },
+  {
+   "fact": "Arteries dilate poorly and muscle has fewer capillaries, which bed rest does not reproduce.",
+   "findings": [
+    "vascular-endothelial-fmd-porh",
+    "vascular-muscle-capillary-basement-membrane"
+   ],
+   "fit": "good",
+   "how": "Step 4."
+  },
+  {
+   "fact": "Inherited risk is enriched in neurons, not immune cells.",
+   "findings": [
+    "genetics-brain-neuron-enrichment",
+    "immune-genetics-null"
+   ],
+   "fit": "partial",
+   "how": "Step 2 is the inherited part, and immune changes are placed downstream. The model does not yet say which neurons or why."
+  },
+  {
+   "fact": "Routine inflammatory markers are normal, and most immune signatures fail to replicate at rest.",
+   "findings": [
+    "immune-cytokine-meta",
+    "omics-transcriptome-sc"
+   ],
+   "fit": "partial",
+   "how": "The model puts immune activity in tissue and after exertion, not in resting blood. But the largest post-exertion plasma study found no protein that changed differently, which counts against it unless the signal is local or later than 24 hours."
+  },
+  {
+   "fact": "Crashes can follow noise, conversation or startle, not just physical effort.",
+   "findings": [
+    "neuro-sensory"
+   ],
+   "fit": "poor",
+   "how": "Sensory load barely raises demand for blood. One route the model allows is over-breathing during arousal, which lowers CO₂ and with it brain blood flow (step 2 into 5). The other is a sensitised sickness response (step 7) that fires at a lower input. Neither has been tested."
+  },
+  {
+   "fact": "Immune-targeted trials have failed (rituximab, immunoadsorption, BC007, anakinra), and so has fludrocortisone.",
+   "findings": [
+    "immune-rituximab",
+    "immune-immunoadsorption",
+    "immune-il1-blockade",
+    "endocrine-fludrocortisone-null"
+   ],
+   "fit": "partial",
+   "how": "Consistent with immune changes being downstream. The fludrocortisone result is harder: if low volume matters, salt retention should help, unless the kidneys or vasopressin, not aldosterone, are the bottleneck."
+  },
+  {
+   "fact": "Full recovery from established illness is uncommon, while gut and cytokine changes are largest in the first years.",
+   "findings": [
+    "trials-recovery-rates",
+    "immune-cytokine-duration",
+    "gut-duration-dependence"
+   ],
+   "fit": "good",
+   "how": "The trigger fades but the loop through steps 2 to 8 keeps itself going."
+  },
+  {
+   "fact": "Women are affected about two to three times as often as men.",
+   "findings": [
+    "endocrine-female-preponderance"
+   ],
+   "fit": "none",
+   "how": "Not explained. Women have smaller blood volume and more orthostatic intolerance in general, which may matter for step 3."
+  },
+  {
+   "fact": "Aromatic lactates are low in blood across five cohorts, not explained by gut bacteria.",
+   "findings": [
+    "omics-aromatic-lactates"
+   ],
+   "fit": "none",
+   "how": "Not explained by the model. Listed as an open question."
+  }
+ ],
+ "questions": [
+  {
+   "id": "post-exertion",
+   "title": "What happens in tissue and blood in the 72 hours after exertion?",
+   "grade": "early",
+   "steps": [
+    5,
+    6,
+    7
+   ],
+   "findings": [
+    "muscle-exertion-appelman-pem-biopsy",
+    "immune-innate-hyperreactivity",
+    "omics-exertion-proteome",
+    "vascular-complement-mecfs"
+   ],
+   "experiment": "e1",
+   "body": "The crash sequence in the model predicts tissue injury and an immune response 24 to 72 hours after exertion. Only long COVID has the biopsies: fibre necrosis, T-cell infiltration and amyloid deposits a day after a maximal test (Appelman 2024, 25 vs 21). In ME/CFS, one study reports exaggerated innate immune responses 24 hours after exercise (Che 2025, 56 vs 52), while our within-person re-analysis of the largest two-day exercise proteome (Germain 2025, 79 vs 53) found no protein whose response differed at FDR. Both sampled blood, at 24 hours at most.",
+   "unknown": "Whether injury or complement markers rise at 48 to 72 hours, when symptoms peak; whether the change is in tissue rather than blood; whether severe patients differ",
+   "test": "Blood at baseline and 24, 48 and 72 hours after a standard provocation, plus natural crashes sampled at home, with complement (sC5b-9), endothelial injury (syndecan-1) and muscle injury markers"
+  },
+  {
+   "id": "serum",
+   "title": "Is there a circulating factor that impairs healthy tissue?",
+   "grade": "contested",
+   "steps": [
+    6
+   ],
+   "findings": [
+    "muscle-exertion-serum-myoblast-refuted",
+    "immune-igg-endothelial",
+    "vascular-serum-endothelial-in-vitro"
+   ],
+   "experiment": "e3",
+   "body": "The best-powered test (Ryback 2026, 120 people, preregistered) found no effect of patient serum on healthy myoblast respiration. But it tested one readout, in undifferentiated cells, on resting blood from mostly mild and moderate patients (6 of 67 severe). Two other lines of evidence are untouched by it: patient serum weakens contracting 3D muscle (IBEC 2025, n=4), and purified patient IgG fragments endothelial mitochondria, an effect that disappears when the antibody is cleaved (Prusty lab 2026, 39 patients with MS controls).",
+   "unknown": "Whether serum from severe patients, or drawn during post-exertional malaise, has an effect; whether it acts on force rather than respiration",
+   "test": "Blinded two-lab transfer of paired rest and post-exertion sera, severe patients included, with a spike-in positive control. <a href=\"#serum\">Full analysis</a>"
+  },
+  {
+   "id": "blood-volume",
+   "title": "Why is blood volume low, and is the marrow involved?",
+   "grade": "replicated",
+   "steps": [
+    2,
+    3
+   ],
+   "findings": [
+    "vascular-low-red-cell-volume",
+    "vascular-raas-paradox"
+   ],
+   "experiment": "e2",
+   "body": "Red-cell volume is low in 5 isotope studies, stroke volume is low, and the heart is small. Finnish national lab records suggest a cause: people with postviral fatigue have fewer young red cells (reticulocytes 1.28% vs 1.83%) and lower soluble transferrin receptor with normal or high iron saturation, a pattern absent in 9 comparison diagnoses. That points to reduced red-cell production that isn't iron deficiency. Blood-volume hormones (renin, natriuretic peptides, EPO) look normal in proteomics, when they should be raised.",
+   "unknown": "Whether reticulocytes are low in a clinic cohort; whether low volume precedes illness or follows inactivity; the role of thirst and vasopressin",
+   "test": "CO-rebreathing blood volume with reticulocytes, sTfR, EPO, hepcidin and copeptin, in recent-onset patients vs matched controls, repeated at 6 months",
+   "links": [
+    [
+     "FinnGen Risteys",
+     "https://risteys.finngen.fi/endpoints/G6_POSTVIRFAT"
+    ]
+   ]
+  },
+  {
+   "id": "co2",
+   "title": "Does low CO₂ on standing drive the fall in brain blood flow?",
+   "grade": "replicated",
+   "steps": [
+    2,
+    5
+   ],
+   "findings": [
+    "neuro-cbf-tilt",
+    "vascular-hypocapnia",
+    "vascular-vasoconstrictor-phenylephrine"
+   ],
+   "experiment": "e2",
+   "body": "Cerebral blood flow falls on tilt (26% vs 7% in controls, n=429), even without POTS. Five groups report breath CO₂ falling on standing, which narrows brain vessels. In small New York Medical College studies, phenylephrine reversed the low CO₂, the flow drop and the working-memory loss together. But CO₂ reactivity is normal and the CO₂ fall explains only part of the flow fall (van Campen 2023), so it is probably a contributor rather than the main driver.",
+   "unknown": "Whether low CO₂ is cause or compensation; whether it appears when sitting up in bed-bound patients who cannot stand",
+   "test": "Capnography and transcranial Doppler during a graded head-up tilt (30° to 70°), with a crossover of compression, midodrine and CO₂ clamping"
+  },
+  {
+   "id": "sensory",
+   "title": "Do non-physical triggers act through breathing and brain blood flow?",
+   "grade": "early",
+   "steps": [
+    2,
+    5,
+    7,
+    8
+   ],
+   "findings": [
+    "neuro-sensory",
+    "vascular-hypocapnia",
+    "neuro-hypocapnia"
+   ],
+   "experiment": "e2",
+   "body": "Severe patients report crashes after noise, conversation, startle or a hair wash. This is the observation the model fits worst, because sensory load barely raises the body's demand for blood. If arousal makes patients over-breathe, the resulting fall in CO₂ would cut brain blood flow, which would bring these crashes into the same circulatory pathway. If CO₂ and brain blood flow do not change, the trigger is central, and the sickness response itself is likely sensitised.",
+   "unknown": "Whether CO₂ and brain blood flow change during a sensory or cognitive challenge in patients; whether those who crash from sensory load are the ones who over-breathe on standing",
+   "test": "Seated capnography and transcranial Doppler during a short conversation and noise exposure, in patients who report sensory-triggered crashes and in controls, with 72-hour symptom follow-up"
+  },
+  {
+   "id": "pituitary",
+   "title": "Is the pituitary part of the mechanism?",
+   "grade": "early",
+   "steps": [
+    2,
+    3
+   ],
+   "findings": [
+    "endocrine-genetic-pituitary",
+    "endocrine-low-vasopressin",
+    "endocrine-adrenal-pituitary-minority",
+    "endocrine-hpa-low-cortisol",
+    "genetics-brain-neuron-enrichment"
+   ],
+   "experiment": "e4",
+   "body": "DecodeME's genome-wide signal is enriched in brain tissue and neurons and not in immune cells, and it replicates in the Million Veteran Program (genetic correlation 0.73) and FinnGen. A 2026 preprint meta-analysis also places it in the pituitary, which could reflect neural genes the pituitary shares with brain. Three of the eight DecodeME loci lie near infection-response genes. Cortisol is mildly low on average. In Finnish registry data, diagnosed adrenal insufficiency and hypopituitarism are 7 to 13 times over-represented, unadjusted for age, sex or steroid treatment. One uncontrolled study found vasopressin undetectable after fluid deprivation in most patients, but copeptin was normal in the 13 tested.",
+   "unknown": "Whether any patients have a true, testable deficiency; whether vasopressin handling is abnormal",
+   "test": "Short Synacthen, full anterior pituitary panel and stimulated copeptin in severe patients before any steroid or desmopressin is started",
+   "links": [
+    [
+     "DecodeME preprint",
+     "https://www.medrxiv.org/content/10.1101/2025.08.06.25333109"
+    ],
+    [
+     "DecodeME summary statistics",
+     "https://osf.io/rgqs3/"
+    ]
+   ]
+  },
+  {
+   "id": "herpes",
+   "title": "Is a herpesvirus still active, or did it leave an immune imprint?",
+   "grade": "early",
+   "steps": [
+    1
+   ],
+   "findings": [
+    "infection-viral-vs-bacterial-registry",
+    "infection-ebv-genetic-load-mr",
+    "infection-herpes-complement-link",
+    "infection-ebv-serology-not-different"
+   ],
+   "experiment": "e1",
+   "body": "In Finnish records, viral infections are 2 to 6 times more common before ME/CFS; bacterial ones are not. Genetically higher EBV DNA load raises risk in the Million Veteran Program (OR 1.59). Severe patients carry more EBV-matched CD8 T-cell clones (0.88% vs 0.45%, p=0.06) and fewer CMV-driven adaptive NK cells. Blood PCR is usually negative, so the question is whether reactivation happens in tissue or intermittently.",
+   "unknown": "Persistence vs imprint; whether the IgG effect in the serum question targets viral or self antigens",
+   "test": "EBV-lytic antigen T-cell responses (BZLF1, BMLF1), NKG2C+CD57+ NK flow and repeated saliva and blood PCR in patients within 2 years of onset, including during crashes"
+  },
+  {
+   "id": "arousal",
+   "title": "Is the nervous system stuck in an aroused state?",
+   "grade": "early",
+   "steps": [
+    8,
+    2
+   ],
+   "findings": [
+    "neuro-hrv",
+    "neuro-csf-catechol",
+    "neuro-sleep",
+    "trials-clonidine"
+   ],
+   "experiment": "e5",
+   "body": "Resting heart rate is higher and heart-rate variability lower, which fits low vagal tone. But the NIH deep-phenotyping study found lower catecholamine metabolites in spinal fluid, and clonidine, which lowers sympathetic outflow, did not help adolescents with CFS. Sleep studies in severe patients often show long sleep latency and hours awake with normal deep sleep. Nobody has measured central and peripheral noradrenaline in the same people across a crash.",
+   "unknown": "Whether sympathetic tone is high or low, and whether it drives post-exertional malaise",
+   "test": "Lying and upright plasma noradrenaline, heart-rate variability, and wearable resting heart rate before, during and after crashes"
+  },
+  {
+   "id": "lactates",
+   "title": "What causes the aromatic-lactate deficit?",
+   "grade": "several",
+   "steps": [],
+   "findings": [
+    "omics-aromatic-lactates",
+    "gut-aromatic-lactates-host"
+   ],
+   "experiment": null,
+   "body": "Four related compounds (phenyllactate, 4-hydroxyphenyllactate, indolelactate, imidazole lactate) are lower in patients across 5 cohorts and 2 lab platforms in our re-analysis (−0.53 SD, p=4×10⁻¹¹), after adjusting for drugs, diet and kidney function. The amino acids and keto acids they come from are normal. In 231 people with paired stool and blood, gut bacteria did not predict them. The model does not explain this.",
+   "unknown": "Which enzyme or redox state; bacterial D- vs human L-form; whether it changes with exertion",
+   "test": "Chiral D/L phenyllactate assay; stable-isotope tracing of phenylpyruvate in patient vs control cells; before and after exertion",
+   "links": [
+    [
+     "Naviaux 2016",
+     "https://www.metabolomicsworkbench.org/data/DRCCMetadata.php?Mode=Study&StudyID=ST000450"
+    ],
+    [
+     "Germain 2022",
+     "https://insight.jci.org/articles/view/157621"
+    ],
+    [
+     "BioMapAI 2025",
+     "https://github.com/ohlab/BioMapAI"
+    ],
+    [
+     "Che 2022",
+     "https://www.metabolomicsworkbench.org/data/DRCCMetadata.php?Mode=Study&StudyID=ST002000"
+    ]
+   ]
+  },
+  {
+   "id": "ephb1",
+   "title": "Do EPHB1 and CLEC3B cause risk, and how?",
+   "grade": "early",
+   "steps": [
+    2,
+    7
+   ],
+   "findings": [
+    "genetics-mr-proteins-ephb1",
+    "genetics-pain-overlap"
+   ],
+   "experiment": null,
+   "body": "Of about 2,500 plasma proteins tested by Mendelian randomisation in our re-analysis, genetically higher EPHB1 (OR 1.18) and CLEC3B/tetranectin (OR 1.21) raise risk in DecodeME and replicate in the Million Veteran Program (1.29 and 1.44). EPHB1 drives pain sensitisation through NMDA receptors, which fits the genetic overlap with chronic pain (correlation 0.45).",
+   "unknown": "Whether the same variant drives both signals (colocalisation); whether the protein acts in brain or blood",
+   "test": "Colocalisation with full pQTL data; CSF EPHB1; quantitative sensory testing stratified by genotype"
+  }
+ ],
+ "small_questions": [
+  {
+   "title": "Gut bloom suppressing IPA",
+   "finding": "gut-rgnavus-bloom",
+   "text": "<i>R. gnavus</i>, <i>F. plautii</i> and <i>R. lactatiformans</i> overgrowth explains the whole IPA gap and replicates (14/17 species). Genetics says IPA isn't causal, so this is a symptom lead. Test with competition cultures and paired stool and plasma."
+  },
+  {
+   "title": "Collagen turnover and hypermobility",
+   "finding": "omics-collagen-metso",
+   "text": "Hydroxyproline and galactosyl-hydroxylysine up (+0.52 SD, 4/4 cohorts); Ehlers-Danlos and IgG subclass deficiency over-represented in Finland. Test Beighton score, IgG1–4, CTX-I and PIIINP in one cohort."
+  },
+  {
+   "title": "Vessel-wall proteins lower",
+   "finding": "omics-proteome-liver-vascular",
+   "text": "ITGAV, NOTCH3 and the TGF-β set are lower in 4 cohorts and long COVID. Relate to orthostatic stroke volume (step 4)."
+  },
+  {
+   "title": "Brain lactate raised",
+   "finding": "neuro-mrs-lactate",
+   "text": "Raised on 7T (Oxford, 24 patients) and earlier 3T work, while resting muscle chemistry is normal. Scan across a crash (step 5)."
+  },
+  {
+   "title": "Lymphocyte mitochondrial RNA raised",
+   "finding": "omics-transcriptome-sc",
+   "text": "Seen in single-cell data (d up to +0.85), not replicated in bulk. Check with fresh samples."
+  }
+ ],
+ "experiments": [
+  {
+   "id": "e1",
+   "title": "Sample the 72 hours after exertion",
+   "steps": [
+    5,
+    6,
+    7
+   ],
+   "questions": [
+    "post-exertion",
+    "herpes"
+   ],
+   "hypotheses": [
+    "serum-factor",
+    "complement-thromboinflammation",
+    "innate-hyperactivation",
+    "sickness-behaviour"
+   ],
+   "body": "Blood at a stable baseline and at 24, 48 and 72 hours after a standard provocation, and during natural crashes, in about 40 patients within two years of onset (at least 15 severe, sampled at home) and 40 matched controls. Measure the plasma proteome, complement activation (sC5b-9), endothelial injury and immune cells, with repeat EBV/HHV-6 PCR, and bank plasma for other groups.",
+   "decides": "Steps 6 and 7 stand or fall here: if nothing moves at 48 to 72 hours relative to each person's baseline, the crash is not an injury-and-immune response."
+  },
+  {
+   "id": "e2",
+   "title": "Measure the circulatory steps in the same people",
+   "steps": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "questions": [
+    "blood-volume",
+    "co2",
+    "sensory"
+   ],
+   "hypotheses": [
+    "low-blood-volume-preload",
+    "vascular-endothelial",
+    "small-vessel-capillary",
+    "autonomic-small-fibre"
+   ],
+   "body": "Blood volume by CO rebreathing, with reticulocytes and erythropoietin. Tilt with end-tidal CO₂ and transcranial Doppler, and a seated sensory challenge with the same measurements. Skin biopsy for small-fibre density, flow-mediated dilation, and OCT angiography of retinal capillaries. Then ask which of these predicts the severity of post-exertional malaise.",
+   "decides": "Tests whether steps 3 to 5 explain the crash threshold, and whether sensory crashes run through breathing and brain blood flow."
+  },
+  {
+   "id": "e3",
+   "title": "Test for a circulating factor with qualified assays",
+   "steps": [
+    6
+   ],
+   "questions": [
+    "serum"
+   ],
+   "hypotheses": [
+    "serum-factor",
+    "autoimmunity"
+   ],
+   "body": "Establish each assay's detection limit with a spiked positive control. Then run a blinded two-laboratory transfer of paired rest and post-exertion sera, and purified IgG, including severe patients. Read out on contracting 3D muscle and endothelial cells.",
+   "decides": "Settles whether anything in blood carries the illness to healthy tissue, which would make step 6 partly systemic."
+  },
+  {
+   "id": "e4",
+   "title": "Test pituitary function before treating it",
+   "steps": [
+    2,
+    3
+   ],
+   "questions": [
+    "pituitary"
+   ],
+   "hypotheses": [
+    "pituitary-adh",
+    "hpa-endocrine"
+   ],
+   "body": "Stimulated copeptin, a short Synacthen test and an anterior pituitary panel in severe patients, before any steroid or desmopressin is started. The evidence for a pituitary defect is early, which is why it needs testing; all of these are routine clinical tests.",
+   "decides": "If normal, the endocrine form of step 2 is dropped."
+  },
+  {
+   "id": "e5",
+   "title": "Record what patients already try",
+   "steps": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "questions": [
+    "arousal"
+   ],
+   "hypotheses": [],
+   "body": "Patients often start new treatments, and almost none of this is recorded in a usable form. A shared protocol (one change at a time, overnight heart rate and HRV from a wearable, a daily symptom score, predefined stop rules), pooled across patients, would show which treatments move which step, and in whom. Uncontrolled records generate leads; they do not replace randomised trials.",
+   "decides": "Shows whether wearable signals shift before crashes (step 8) and which treatments are worth a controlled trial."
+  }
+ ]
+}

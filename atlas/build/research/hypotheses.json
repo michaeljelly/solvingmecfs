@@ -1,0 +1,1395 @@
+{
+ "hypotheses": [
+  {
+   "id": "vascular-endothelial",
+   "name": "Endothelial dysfunction",
+   "one_line": "The lining of blood vessels fails to dilate and regulate flow, so tissues are under-supplied during effort.",
+   "proponents": [
+    "Scheibenbogen and Wirth (Charité)",
+    "Fluge and Mella (Bergen)",
+    "Sandvik/Sørland (Bergen)"
+   ],
+   "claim": "Endothelial cells normally release nitric oxide and other signals so arteries widen when tissue needs more blood. In ME/CFS this response is reported to be blunted, possibly through autoantibodies, inflammation or oxidative stress. Poor flow regulation would leave muscle and brain short of oxygen during exertion and could set off PEM. It is a mechanism layer rather than a root cause, and it could result from several upstream triggers.",
+   "predictions": [
+    "Lower flow-mediated dilation and reactive hyperaemia in patients",
+    "Endothelial markers or patient IgG effects on endothelial cells in vitro",
+    "Vasoactive treatments improving exercise tolerance"
+   ],
+   "evidence_for": [
+    "Flow-mediated dilation 5.1% vs 8.2% (Sandvik 2023, n=39); reduced endothelial function in CycloME substudy (Sørland 2021)",
+    "Patient IgG fragments endothelial mitochondria vs MS and healthy IgG (Prusty 2026, single lab)",
+    "Lower vessel-wall/connective-tissue proteins (ITGAV, NOTCH3, TGF-beta set) in 4 cohorts and long COVID (Solving ME/CFS re-analysis)"
+   ],
+   "evidence_against": [
+    "Effects are average differences with large overlap; deconditioning not always excluded",
+    "BC007 and immunoadsorption (aimed at vasoactive GPCR antibodies) failed controlled trials",
+    "Vericiguat (VERI-LONG) results not reported"
+   ],
+   "status": "active",
+   "decisive_tests": [
+    "Within-person FMD before and during PEM versus sedentary controls",
+    "Placebo-controlled trial of a vasoactive drug with 2-day CPET endpoint"
+   ],
+   "related": [
+    "small-vessel-capillary",
+    "sodium-calcium-overload",
+    "autoimmunity",
+    "complement-thromboinflammation"
+   ],
+   "key_refs": [
+    {
+     "cite": "Sørland 2021, Front Med",
+     "url": "https://doi.org/10.3389/fmed.2021.642710",
+     "verified": true
+    },
+    {
+     "cite": "Wirth & Scheibenbogen 2021, J Transl Med",
+     "url": "https://doi.org/10.1186/s12967-021-02833-2",
+     "verified": true
+    }
+   ]
+  },
+  {
+   "id": "small-vessel-capillary",
+   "name": "Capillary and microvascular damage",
+   "one_line": "Capillaries in muscle and elsewhere are structurally damaged or rarefied, limiting oxygen delivery.",
+   "proponents": [
+    "Wüst group (VU Amsterdam)",
+    "Appelman/van Vugt (Amsterdam UMC)",
+    "Systrom (high-flow preload failure)"
+   ],
+   "claim": "Muscle biopsies show thickened capillary basement membranes and fewer capillaries, and long-COVID studies show capillary loss under the tongue and in the retina. If blood reaches the tissue but bypasses capillary beds or cannot exchange oxygen, extraction falls, as seen in the 'high-flow' iCPET phenotype. This would explain exertional intolerance unrelated to fitness. Cause could be immune, complement or viral damage to pericytes.",
+   "predictions": [
+    "Low oxygen extraction on iCPET",
+    "Basement membrane thickening and capillary rarefaction on biopsy",
+    "Improvement with treatments that repair microvasculature"
+   ],
+   "evidence_for": [
+    "Capillary basement membrane thickening and lower capillarisation in ME/CFS and post-COVID biopsies (Wüst group 2025 preprint)",
+    "Muscle damage, amyloid deposits and mitochondrial drop after exercise in long COVID (Appelman 2024)",
+    "Reduced oxygen extraction in preload failure (Joseph 2021)",
+    "40-session HBOT improved symptoms in one RCT (Zilberman-Itskovich 2022)"
+   ],
+   "evidence_against": [
+    "Biopsy studies are small and largely from one network",
+    "10-session HBOT trial negative (HOT-LoCO 2025)"
+   ],
+   "status": "active",
+   "decisive_tests": [
+    "Blinded biopsy morphometry in large ME/CFS vs deconditioned controls",
+    "Correlation of capillary measures with 2-day CPET in the same patients"
+   ],
+   "related": [
+    "vascular-endothelial",
+    "complement-thromboinflammation",
+    "microclots",
+    "mitochondrial-energy"
+   ],
+   "key_refs": [
+    {
+     "cite": "Appelman 2024, Nat Commun",
+     "url": "https://doi.org/10.1038/s41467-023-44432-3",
+     "verified": true
+    },
+    {
+     "cite": "Zilberman-Itskovich 2022, Sci Rep",
+     "url": "https://doi.org/10.1038/s41598-022-15565-0",
+     "verified": true
+    }
+   ]
+  },
+  {
+   "id": "low-blood-volume-preload",
+   "name": "Low blood volume and preload failure",
+   "one_line": "Too little blood returns to the heart, especially upright and during exercise, reducing cardiac output and brain flow.",
+   "proponents": [
+    "Systrom/Joseph (Harvard)",
+    "van Campen/Visser (Netherlands)",
+    "Levine/Fu (POTS)",
+    "Rowe (Johns Hopkins)"
+   ],
+   "claim": "Isotope and CO-rebreathing studies show reduced plasma and red-cell volume, and invasive CPET shows low right-heart filling pressure during exercise in many patients. Upright, this lowers stroke volume and brain blood flow (seen on tilt even without POTS). It could stem from small-fibre neuropathy, low ADH/renin response, or reduced red-cell production. It explains orthostatic intolerance well; whether it explains PEM is less clear.",
+   "predictions": [
+    "Low measured blood volume",
+    "Low RAP on iCPET",
+    "CBF drop on tilt",
+    "Symptom relief with fluids, compression and pyridostigmine"
+   ],
+   "evidence_for": [
+    "Preload failure common in iCPET series (Joseph 2021, n=160)",
+    "Cerebral blood flow falls on tilt in ~90% of patients (van Campen 2020)",
+    "Single-dose pyridostigmine maintained cardiac output on repeat iCPET (Joseph 2022)",
+    "Patients rate fluids and compression among the most helpful (Eckey 2025)",
+    "Low reticulocytes with adequate iron in postviral fatigue (Solving ME/CFS re-analysis, FinnGen; unreplicated)"
+   ],
+   "evidence_against": [
+    "Fludrocortisone negative in RCT (Rowe 2001)",
+    "Ivabradine reduced HR without symptom benefit (RECOVER-AUTONOMIC 2026)",
+    "No sham-controlled trial of IV saline",
+    "Blood-volume hormones normal in proteomics (Solving ME/CFS re-analysis)"
+   ],
+   "status": "active",
+   "decisive_tests": [
+    "Sham-controlled IV saline crossover with function endpoints",
+    "Results of LIFT (pyridostigmine x LDN)",
+    "Blood volume measurement before/after illness onset in prospective post-COVID cohorts"
+   ],
+   "related": [
+    "autonomic-small-fibre",
+    "pituitary-adh",
+    "vascular-endothelial"
+   ],
+   "key_refs": [
+    {
+     "cite": "Joseph 2022, Chest",
+     "url": "https://doi.org/10.1016/j.chest.2022.04.146",
+     "verified": true
+    },
+    {
+     "cite": "Rowe 2001, JAMA",
+     "url": "https://doi.org/10.1001/jama.285.1.52",
+     "verified": true
+    }
+   ]
+  },
+  {
+   "id": "autonomic-small-fibre",
+   "name": "Autonomic dysfunction and small-fibre neuropathy",
+   "one_line": "Damage to small autonomic and sensory nerves impairs vascular tone, heart rate control and pain processing.",
+   "proponents": [
+    "Oaklander (MGH)",
+    "Systrom",
+    "Novak",
+    "Blitshteyn"
+   ],
+   "claim": "A sizeable minority of ME/CFS and POTS patients have reduced intraepidermal nerve fibre density on skin biopsy. Loss of sympathetic fibres to veins would cause venous pooling and preload failure; sensory fibre loss would add pain. The neuropathy may be immune-mediated after infection. It is a likely contributor in a subgroup rather than a universal mechanism.",
+   "predictions": [
+    "Low IENFD on skin biopsy",
+    "Abnormal QSART/sudomotor tests",
+    "Response to IVIG in immune-mediated subgroup"
+   ],
+   "evidence_for": [
+    "Small-fibre neuropathy frequent in biopsied iCPET patients (Joseph 2021)",
+    "POTS and low HRV common in ME/CFS"
+   ],
+   "evidence_against": [
+    "IVIG negative vs albumin in autoimmune POTS (Vernino 2024)",
+    "Prevalence estimates vary widely between centres",
+    "Ivabradine trial negative for symptoms"
+   ],
+   "status": "active",
+   "decisive_tests": [
+    "Population-representative skin biopsy study with blinded counting",
+    "IVIG trial restricted to biopsy-proven SFN with function endpoints"
+   ],
+   "related": [
+    "low-blood-volume-preload",
+    "autoimmunity"
+   ],
+   "key_refs": [
+    {
+     "cite": "Vernino 2024, Clin Auton Res",
+     "url": "https://doi.org/10.1007/s10286-024-01020-9",
+     "verified": true
+    },
+    {
+     "cite": "Blitshteyn 2025, Front Cell Infect Microbiol",
+     "url": "https://doi.org/10.3389/fcimb.2025.1647203",
+     "verified": true
+    }
+   ]
+  },
+  {
+   "id": "viral-persistence",
+   "name": "Viral persistence",
+   "one_line": "Virus or viral antigen persists in tissue reservoirs and drives ongoing immune activation.",
+   "proponents": [
+    "Proal and VanElzakker (PolyBio)",
+    "Peluso and Deeks (UCSF)",
+    "Iwasaki (Yale)"
+   ],
+   "claim": "After SARS-CoV-2 and possibly other infections, viral RNA or protein may persist in gut, lymphoid or nervous tissue. Persistent antigen would keep the immune system activated and could explain chronic symptoms. Evidence is strongest in long COVID, where viral proteins are detected months later. Whether it applies to classic ME/CFS is unknown.",
+   "predictions": [
+    "Viral RNA/protein in tissue biopsies",
+    "Antivirals or monoclonals improving symptoms",
+    "Antigen levels tracking symptoms"
+   ],
+   "evidence_for": [
+    "SARS-CoV-2 antigen detected in tissue and plasma months after infection (reviewed Proal 2023)",
+    "ME/CFS incidence ~5x higher after SARS-CoV-2 (Vernon 2025)"
+   ],
+   "evidence_against": [
+    "Three nirmatrelvir-ritonavir RCTs null (RECOVER-VITAL 2026, STOP-PASC 2024, PAX LC 2025)",
+    "Temelimab (HERV-W) null",
+    "Antigen detected also in recovered people in some studies"
+   ],
+   "status": "weakened",
+   "decisive_tests": [
+    "Trials of longer or combination antivirals and monoclonals with tissue antigen as a selection marker",
+    "Tissue antigen load vs symptom severity in matched recovered controls"
+   ],
+   "related": [
+    "herpes-reactivation",
+    "innate-hyperactivation",
+    "immune-exhaustion"
+   ],
+   "key_refs": [
+    {
+     "cite": "Proal 2023, Nat Immunol",
+     "url": "https://doi.org/10.1038/s41590-023-01601-2",
+     "verified": true
+    },
+    {
+     "cite": "Baden 2026, Lancet Infect Dis (RECOVER-VITAL)",
+     "url": "https://doi.org/10.1016/S1473-3099(26)00406-8",
+     "verified": true
+    }
+   ]
+  },
+  {
+   "id": "herpes-reactivation",
+   "name": "Herpesvirus reactivation (EBV, HHV-6)",
+   "one_line": "Latent herpesviruses reactivate after a trigger and drive immune and neurological dysfunction.",
+   "proponents": [
+    "Montoya",
+    "Lerner",
+    "Ariza",
+    "Prusty",
+    "Peluso (EBV in long COVID)"
+   ],
+   "claim": "EBV and HHV-6 are carried latently by most adults. In ME/CFS, abortive reactivation or high antibody responses are reported, and EBV is a common trigger of onset. Reactivated virus or its proteins (e.g. dUTPase) could activate innate immunity. Antivirals have shown modest benefit in small selected groups.",
+   "predictions": [
+    "Viral DNA or early-gene antibodies elevated",
+    "Antivirals help selected patients",
+    "Genetic predisposition to EBV control affects risk"
+   ],
+   "evidence_for": [
+    "Glandular fever is a strong trigger of ME/CFS in prospective cohorts",
+    "Valganciclovir RCT positive on secondary scales (Montoya 2013, n=30)",
+    "Genetically higher EBV DNA load suggestive risk factor (OR 1.59, MVP; Solving ME/CFS re-analysis)",
+    "Elevated EBV gp42 reactivity in antigen profiling (Germain 2025)"
+   ],
+   "evidence_against": [
+    "STOP-PASC found no EBV reactivation differences (Maestri 2025 preprint)",
+    "Antibody titres poor marker of active replication",
+    "No replicated antiviral RCT"
+   ],
+   "status": "active",
+   "decisive_tests": [
+    "Antiviral RCT selected by viral PCR/early antigen, not IgG",
+    "Prospective serial viral load from acute infection through ME/CFS onset"
+   ],
+   "related": [
+    "viral-persistence",
+    "innate-hyperactivation",
+    "immune-exhaustion"
+   ],
+   "key_refs": [
+    {
+     "cite": "Montoya 2013, J Med Virol",
+     "url": "https://doi.org/10.1002/jmv.23713",
+     "verified": true
+    },
+    {
+     "cite": "Germain 2025, Int J Mol Sci",
+     "url": "https://doi.org/10.3390/ijms26062799",
+     "verified": true
+    }
+   ]
+  },
+  {
+   "id": "autoimmunity",
+   "name": "Autoimmunity (functional autoantibodies)",
+   "one_line": "Post-infectious autoantibodies, for example against adrenergic or muscarinic receptors, cause vascular and autonomic dysfunction.",
+   "proponents": [
+    "Scheibenbogen (Charité)",
+    "Fluge and Mella (Bergen)",
+    "Wallukat (GPCR antibodies)",
+    "Iwasaki (IgG transfer)"
+   ],
+   "claim": "A subset of patients may develop antibodies that disturb receptor signalling or nerve function after infection, similar to other post-infectious autoimmune conditions. Female predominance, infection onset and immune genetics fit. Antibody removal or B-/plasma-cell depletion should then help. Recent controlled trials have narrowed the GPCR version, while plasma-cell depletion and IgG transfer keep a broader version alive.",
+   "predictions": [
+    "Elevated specific autoantibodies",
+    "Benefit from antibody removal or plasma-cell depletion",
+    "Symptom transfer with patient IgG"
+   ],
+   "evidence_for": [
+    "Daratumumab 6/10 sustained responders with IgG fall (Fluge 2025, open-label)",
+    "Long-COVID IgG transfers pain hypersensitivity to mice (Chen 2026; Mignolet 2026)",
+    "Cyclophosphamide 55% open-label response with HLA association (Rekeland 2020)"
+   ],
+   "evidence_against": [
+    "Rituximab phase III negative (Fluge 2019)",
+    "Immunoadsorption no better than sham (IAMPOCO, IA-PACS-CFS 2026)",
+    "No GPCR autoantibody elevation on REAP/Luminex, q>0.68 (Germain 2025)",
+    "BC007 company trial negative (2024)"
+   ],
+   "status": "weakened",
+   "decisive_tests": [
+    "Randomised placebo-controlled daratumumab trial",
+    "IgG transfer from ME/CFS (non-COVID) patients with blinded readouts",
+    "Pre-specified antibody-selected sham-controlled trial"
+   ],
+   "related": [
+    "serum-factor",
+    "autonomic-small-fibre",
+    "vascular-endothelial"
+   ],
+   "key_refs": [
+    {
+     "cite": "Fluge 2019, Ann Intern Med",
+     "url": "https://doi.org/10.7326/M18-1451",
+     "verified": true
+    },
+    {
+     "cite": "Fluge 2025, Front Med",
+     "url": "https://doi.org/10.3389/fmed.2025.1607353",
+     "verified": true
+    },
+    {
+     "cite": "Chen 2026, Cell Rep Med",
+     "url": "https://doi.org/10.1016/j.xcrm.2026.102693",
+     "verified": true
+    },
+    {
+     "cite": "Germain 2025, Int J Mol Sci",
+     "url": "https://doi.org/10.3390/ijms26062799",
+     "verified": true
+    }
+   ]
+  },
+  {
+   "id": "immune-exhaustion",
+   "name": "Immune (T-cell) exhaustion",
+   "one_line": "Chronic antigen stimulation leaves CD8 T cells and NK cells exhausted and less able to clear infection.",
+   "proponents": [
+    "Hanson and Grimson (Cornell)",
+    "Walitt/NIH intramural",
+    "Unutmaz (JAX)"
+   ],
+   "claim": "Exhausted T cells express inhibitory receptors and lose function after prolonged stimulation. In ME/CFS, single-cell and epigenetic data suggest CD8 T cells are primed toward exhaustion, and NK cytotoxicity is reduced. This fits with a persistent antigen or reactivating virus. It may be consequence rather than cause.",
+   "predictions": [
+    "Exhaustion markers (PD-1, TOX) on T cells",
+    "Reduced NK cytotoxicity",
+    "Changes after exercise provocation"
+   ],
+   "evidence_for": [
+    "CD8 T cells transcriptionally primed toward exhaustion (Iu 2024, PNAS)",
+    "T-cell exhaustion signals in NIH deep phenotyping (Walitt 2024)",
+    "Low NK count predicted non-response to daratumumab (Fluge 2025)"
+   ],
+   "evidence_against": [
+    "Immune cell, methylation and repertoire data give few reproducible signals across cohorts (Solving ME/CFS re-analysis)",
+    "NK cytotoxicity findings vary by assay"
+   ],
+   "status": "active",
+   "decisive_tests": [
+    "Replication of exhaustion signatures in independent cohorts",
+    "Longitudinal tracking from infection to ME/CFS onset"
+   ],
+   "related": [
+    "viral-persistence",
+    "herpes-reactivation",
+    "innate-hyperactivation"
+   ],
+   "key_refs": [
+    {
+     "cite": "Iu 2024, PNAS",
+     "url": "https://doi.org/10.1073/pnas.2415119121",
+     "verified": true
+    },
+    {
+     "cite": "Walitt 2024, Nat Commun",
+     "url": "https://doi.org/10.1038/s41467-024-45107-3",
+     "verified": true
+    }
+   ]
+  },
+  {
+   "id": "innate-hyperactivation",
+   "name": "Innate immune hyperactivation",
+   "one_line": "Ongoing activation of monocytes, interferon and cytokine pathways sustains symptoms.",
+   "proponents": [
+    "Hornig and Lipkin (Columbia)",
+    "Klimas",
+    "Iwasaki"
+   ],
+   "claim": "Cytokine profiles differ early in ME/CFS, with an activated pattern in the first three years that later fades. Persistent interferon or inflammasome activity could cause sickness symptoms and metabolic shifts. Effects in blood are inconsistent across studies.",
+   "predictions": [
+    "Raised cytokines early in illness",
+    "Interferon signature",
+    "Benefit from anti-inflammatory treatment"
+   ],
+   "evidence_for": [
+    "Distinct cytokine signatures early in illness (Hornig 2015, n=298)",
+    "Complement and myeloid activation in long COVID (Cervia-Hasler 2024)"
+   ],
+   "evidence_against": [
+    "Cytokine findings poorly replicated across ME/CFS cohorts",
+    "Methylprednisolone trial in long COVID stopped early without benefit (PoCoVIT 2026)",
+    "Prednisolone/losartan negative (Myoflame-19 2026)"
+   ],
+   "status": "active",
+   "decisive_tests": [
+    "Standardised longitudinal cytokine/interferon panels from onset",
+    "Targeted anti-cytokine RCT in a biomarker-defined subgroup"
+   ],
+   "related": [
+    "sickness-behaviour",
+    "neuroinflammation",
+    "complement-thromboinflammation"
+   ],
+   "key_refs": [
+    {
+     "cite": "Hornig 2015, Sci Adv",
+     "url": "https://doi.org/10.1126/sciadv.1400121",
+     "verified": true
+    }
+   ]
+  },
+  {
+   "id": "complement-thromboinflammation",
+   "name": "Complement activation and thromboinflammation",
+   "one_line": "Chronic complement activation damages vessel lining and platelets, so clotting and inflammation feed each other.",
+   "proponents": [
+    "Boyman and Cervia-Hasler (Zurich)",
+    "Baillie (Oxford)",
+    "Klein/Iwasaki"
+   ],
+   "claim": "The terminal complement complex is persistently activated in active long COVID, with signs of haemolysis, platelet activation and monocyte-platelet aggregates. This could injure endothelium and capillaries. It is the best-replicated blood abnormality in long COVID but is less studied in classic ME/CFS.",
+   "predictions": [
+    "Raised sC5b-9 and complement split products",
+    "Endothelial injury markers",
+    "Benefit from complement inhibitors"
+   ],
+   "evidence_for": [
+    "Cervia-Hasler 2024 (Science), replicated in outline by Baillie 2024, Klein 2023, Barratt-Due 2024",
+    "Higher C3 and complement variants reported in ME/CFS (CDC; Solving ME/CFS re-analysis)"
+   ],
+   "evidence_against": [
+    "One adjusted null replication (Farztdinov preprint)",
+    "No complement inhibitor trial yet",
+    "Limited ME/CFS data"
+   ],
+   "status": "active",
+   "decisive_tests": [
+    "Complement inhibitor RCT in biomarker-positive long COVID",
+    "Complement measures in non-COVID ME/CFS cohorts"
+   ],
+   "related": [
+    "vascular-endothelial",
+    "microclots",
+    "small-vessel-capillary"
+   ],
+   "key_refs": [
+    {
+     "cite": "Cervia-Hasler 2024, Science",
+     "url": "https://doi.org/10.1126/science.adg7942",
+     "verified": true
+    }
+   ]
+  },
+  {
+   "id": "microclots",
+   "name": "Fibrin amyloid microclots",
+   "one_line": "Fibrinolysis-resistant amyloid fibrin(ogen) microclots block capillaries and trap inflammatory molecules.",
+   "proponents": [
+    "Pretorius (Stellenbosch)",
+    "Kell (Liverpool)"
+   ],
+   "claim": "Fluorescence microscopy of platelet-poor plasma shows amyloid microclots, reported in long COVID and ME/CFS. They could obstruct capillaries and reduce oxygen delivery. Anticoagulant 'triple therapy' was promoted on this basis. The method is difficult to standardise and independent labs disagree.",
+   "predictions": [
+    "Microclot counts higher in patients",
+    "Clearance associated with improvement"
+   ],
+   "evidence_for": [
+    "Pretorius 2021 and later papers from the same network"
+   ],
+   "evidence_against": [
+    "STOP-PASC found no microclot differences vs controls (Maestri 2025 preprint)",
+    "Assay not standardised; few independent replications",
+    "No RCT of anticoagulation for microclots; bleeding risk"
+   ],
+   "status": "weakened",
+   "decisive_tests": [
+    "Blinded multi-lab microclot quantification on shared samples",
+    "Placebo-controlled trial with microclot endpoints"
+   ],
+   "related": [
+    "complement-thromboinflammation",
+    "small-vessel-capillary"
+   ],
+   "key_refs": [
+    {
+     "cite": "Pretorius 2021, Cardiovasc Diabetol",
+     "url": "https://doi.org/10.1186/s12933-021-01359-7",
+     "verified": true
+    }
+   ]
+  },
+  {
+   "id": "cell-danger-response",
+   "name": "Cell danger response (Naviaux)",
+   "one_line": "Cells stuck in a protective low-energy 'danger' state after a threat fail to complete the healing cycle.",
+   "proponents": [
+    "Robert Naviaux (UCSD)"
+   ],
+   "claim": "The cell danger response (CDR) is a conserved metabolic reaction to threat in which mitochondria shift from energy production to defence, with extracellular ATP (purinergic) signalling. Naviaux proposes that ME/CFS is a persistent CDR, a hypometabolic state like dauer. His 2016 metabolomics found most altered metabolites decreased, consistent with hypometabolism. Antipurinergic drugs such as suramin are the proposed test.",
+   "predictions": [
+    "Hypometabolic metabolomic profile",
+    "Raised extracellular ATP/purinergic signalling",
+    "Response to antipurinergic therapy"
+   ],
+   "evidence_for": [
+    "Naviaux 2016 PNAS: 80% of altered metabolites decreased (n=45 vs 39)",
+    "Rapamycin responders show purine metabolism changes (Gile 2026)"
+   ],
+   "evidence_against": [
+    "Metabolomic findings vary across cohorts; Hoel/Germain datasets do not show uniform hypometabolism",
+    "No ME/CFS trial of suramin"
+   ],
+   "status": "speculative",
+   "decisive_tests": [
+    "Low-dose suramin RCT in ME/CFS",
+    "Replication of hypometabolic signature with standardised fasting samples"
+   ],
+   "related": [
+    "mitochondrial-energy",
+    "metabolic-trap-ido",
+    "innate-hyperactivation"
+   ],
+   "key_refs": [
+    {
+     "cite": "Naviaux 2016, PNAS",
+     "url": "https://doi.org/10.1073/pnas.1607571113",
+     "verified": true
+    },
+    {
+     "cite": "Naviaux 2019, Mitochondrion",
+     "url": "https://doi.org/10.1016/j.mito.2018.08.001",
+     "verified": true
+    }
+   ]
+  },
+  {
+   "id": "mitochondrial-energy",
+   "name": "Mitochondrial / energy metabolism impairment",
+   "one_line": "Cells cannot produce energy normally, especially during exertion, causing early lactate and PEM.",
+   "proponents": [
+    "Fluge and Mella (PDH)",
+    "Missailidis and Fisher (La Trobe)",
+    "Myhill/Booth",
+    "Hanson (Cornell)"
+   ],
+   "claim": "Several lines suggest impaired pyruvate dehydrogenase, Complex V inefficiency or reduced oxidative capacity. This would force early reliance on glycolysis and slow recovery. It may be intrinsic or secondary to poor perfusion or circulating factors.",
+   "predictions": [
+    "Low PDH flux markers",
+    "Abnormal mitochondrial respiration in patient cells",
+    "Benefit from metabolic supplements"
+   ],
+   "evidence_for": [
+    "Amino-acid pattern implying impaired PDH (Fluge 2016, n=200 vs 102)",
+    "Complex V inefficiency in lymphoblasts (Missailidis 2020)",
+    "Post-exercise mitochondrial enzyme drop in long COVID muscle (Appelman 2024)",
+    "Aromatic lactate deficit across 5 cohorts (Solving ME/CFS re-analysis)"
+   ],
+   "evidence_against": [
+    "Serum effect on myoblast respiration failed replication at n=120 (Ryback/Ponting 2026)",
+    "CoQ10 alone negative in long COVID",
+    "Supplement trials small and sponsor-linked"
+   ],
+   "status": "active",
+   "decisive_tests": [
+    "Muscle 31P-MRS and biopsy respiration before/after PEM vs deconditioned controls",
+    "Independent replication of lymphoblast Complex V defect"
+   ],
+   "related": [
+    "cell-danger-response",
+    "small-vessel-capillary",
+    "serum-factor"
+   ],
+   "key_refs": [
+    {
+     "cite": "Fluge 2016, JCI Insight",
+     "url": "https://doi.org/10.1172/jci.insight.89376",
+     "verified": true
+    }
+   ]
+  },
+  {
+   "id": "metabolic-trap-ido",
+   "name": "IDO metabolic trap (Phair, Davis)",
+   "one_line": "A bistable tryptophan-kynurenine circuit, set by IDO1/IDO2 variants and substrate inhibition, flips into a persistent low-tryptophan state.",
+   "proponents": [
+    "Robert Phair",
+    "Ron Davis (OMF / Stanford)",
+    "Alex Kashi"
+   ],
+   "claim": "IDO1 converts tryptophan to kynurenine and is inhibited by high tryptophan. Combined with a deleterious IDO2 variant, a mathematical model predicts two stable states, one of which traps cells with low tryptophan and serotonin and high kynurenine after an inflammatory trigger. Exiting the trap would need a perturbation. It is a mathematical model with limited direct data.",
+   "predictions": [
+    "Enrichment of IDO2 deleterious variants",
+    "Altered intracellular tryptophan/kynurenine",
+    "Bistable behaviour in patient cells"
+   ],
+   "evidence_for": [
+    "Preliminary OMF data on IDO2 variants (unpublished/limited)",
+    "Altered tryptophan metabolites in some metabolomic studies"
+   ],
+   "evidence_against": [
+    "DecodeME GWAS did not highlight IDO loci",
+    "Mendelian randomisation finds no causal effect of kynurenine on ME/CFS risk (Solving ME/CFS re-analysis)",
+    "Plasma kynurenine findings inconsistent"
+   ],
+   "status": "speculative",
+   "decisive_tests": [
+    "Intracellular tryptophan/kynurenine measurement in patient cells with IDO genotypes",
+    "Test of predicted bistability in culture"
+   ],
+   "related": [
+    "cell-danger-response",
+    "mitochondrial-energy",
+    "omf-models"
+   ],
+   "key_refs": [
+    {
+     "cite": "Kashi, Davis, Phair 2019, Diagnostics",
+     "url": "https://doi.org/10.3390/diagnostics9030082",
+     "verified": true
+    }
+   ]
+  },
+  {
+   "id": "hpa-endocrine",
+   "name": "HPA axis blunting",
+   "one_line": "The stress-hormone axis is under-active, with low cortisol and enhanced feedback.",
+   "proponents": [
+    "Cleare (King's)",
+    "Demitrack (early work)"
+   ],
+   "claim": "Mild hypocortisolism, a flattened diurnal rhythm and enhanced negative feedback are reported in ME/CFS. This is probably a consequence of illness, inactivity or sleep disturbance rather than a cause, but it could amplify symptoms. Low-dose hydrocortisone had small effects and suppressed the adrenal axis.",
+   "predictions": [
+    "Low salivary awakening cortisol",
+    "Enhanced dexamethasone suppression",
+    "Response to low-dose hydrocortisone"
+   ],
+   "evidence_for": [
+    "Repeated reports of mild hypocortisolism (2026 meta-analysis per atlas)",
+    "Cleare 1999 hydrocortisone 5-10 mg: 28% vs 9% improved"
+   ],
+   "evidence_against": [
+    "McKenzie 1998 hydrocortisone RCT: adrenal suppression, little benefit",
+    "Changes small and nonspecific"
+   ],
+   "status": "weakened",
+   "decisive_tests": [
+    "Longitudinal cortisol from pre-illness in prospective cohorts"
+   ],
+   "related": [
+    "pituitary-adh",
+    "sickness-behaviour"
+   ],
+   "key_refs": [
+    {
+     "cite": "Cleare 1999, Lancet",
+     "url": "https://doi.org/10.1016/S0140-6736(98)04074-4",
+     "verified": true
+    }
+   ]
+  },
+  {
+   "id": "pituitary-adh",
+   "name": "Pituitary / vasopressin deficiency",
+   "one_line": "Low ADH (vasopressin) secretion despite concentrated blood leads to fluid loss and low blood volume.",
+   "proponents": [
+    "Hanson-adjacent clinical groups",
+    "Bragée/Huhmar/Polo (2025 report)"
+   ],
+   "claim": "A 2025 study reported undetectable vasopressin in most patients despite high plasma osmolality. If true, this would explain polyuria, thirst and low blood volume, and suggest desmopressin for a subgroup. DecodeME tissue enrichment pointing to pituitary gives indirect support.",
+   "predictions": [
+    "Low copeptin relative to osmolality",
+    "Response to desmopressin"
+   ],
+   "evidence_for": [
+    "Vasopressin undetectable in 82% in an uncontrolled 2025 series",
+    "DecodeME genetic signal enriched in brain and pituitary tissues"
+   ],
+   "evidence_against": [
+    "Uncontrolled, assay concerns",
+    "Desmopressin evidence only acute in POTS (Coffin 2012)"
+   ],
+   "status": "speculative",
+   "decisive_tests": [
+    "Controlled copeptin study with water deprivation/hypertonic saline testing"
+   ],
+   "related": [
+    "low-blood-volume-preload",
+    "hpa-endocrine",
+    "genetic-neuronal"
+   ],
+   "key_refs": [
+    {
+     "cite": "Huhmar/Bragée/Polo 2025, Endocr Pract",
+     "url": "https://www.endocrinepractice.org/article/S1530-891X(25)01349-7/fulltext",
+     "verified": false
+    }
+   ]
+  },
+  {
+   "id": "neuroinflammation",
+   "name": "Neuroinflammation (microglial activation)",
+   "one_line": "Activated microglia and astrocytes in the brain produce fatigue, cognitive problems and pain.",
+   "proponents": [
+    "Nakatomi/Watanabe (Japan)",
+    "VanElzakker",
+    "Younger"
+   ],
+   "claim": "PET and MR spectroscopy studies suggest brain inflammation in ME/CFS and long COVID. Inflammation in brainstem or limbic regions could generate sickness behaviour and PEM. Results conflict and tracer studies are small.",
+   "predictions": [
+    "Raised TSPO PET signal",
+    "Raised brain lactate/choline",
+    "Benefit from glial modulators (LDN, aripiprazole)"
+   ],
+   "evidence_for": [
+    "Nakatomi 2014 TSPO PET positive (n=9)",
+    "Long-COVID TSPO increase (VanElzakker 2024)",
+    "Raised ventricular lactate (Shungu/Mathew)"
+   ],
+   "evidence_against": [
+    "Raijmakers 2022 TSPO PET negative",
+    "James (Stanford) 2026: no brain TSPO signal, strong muscle signal",
+    "LDN fatigue RCT negative (2026)"
+   ],
+   "status": "active",
+   "decisive_tests": [
+    "Large multi-tracer PET studies with standardised analysis",
+    "CSF inflammatory markers vs matched controls"
+   ],
+   "related": [
+    "sickness-behaviour",
+    "brainstem-craniocervical",
+    "innate-hyperactivation"
+   ],
+   "key_refs": [
+    {
+     "cite": "Walitt 2024, Nat Commun",
+     "url": "https://doi.org/10.1038/s41467-024-45107-3",
+     "verified": true
+    }
+   ]
+  },
+  {
+   "id": "brainstem-craniocervical",
+   "name": "Brainstem and craniocervical instability",
+   "one_line": "Brainstem dysfunction, sometimes from craniocervical instability or Chiari, disrupts autonomic and arousal control.",
+   "proponents": [
+    "Henderson/Bolognese (surgeons)",
+    "Bragée (Stockholm)",
+    "Shan (brainstem MRI)"
+   ],
+   "claim": "Some patients, often with hypermobility, are reported to have craniocervical instability or intracranial hypertension compressing the brainstem. Surgery has been followed by improvement in case series. Imaging studies of brainstem volume and connectivity are small. This may explain a minority subgroup at most.",
+   "predictions": [
+    "Upright MRI abnormalities more common",
+    "Surgical benefit in controlled studies"
+   ],
+   "evidence_for": [
+    "Case series of fusion surgery improvement",
+    "Bragée 2020: CCI and intracranial hypertension common in a referral sample"
+   ],
+   "evidence_against": [
+    "No controlled trial; surgery high risk",
+    "Imaging criteria not standardised; selection bias"
+   ],
+   "status": "speculative",
+   "decisive_tests": [
+    "Blinded imaging comparing ME/CFS with matched hypermobile controls",
+    "Prospective registry of surgical outcomes with controls"
+   ],
+   "related": [
+    "connective-tissue",
+    "neuroinflammation",
+    "autonomic-small-fibre"
+   ],
+   "key_refs": [
+    {
+     "cite": "Bragée 2020, Front Neurol",
+     "url": "https://doi.org/10.3389/fneur.2020.00828",
+     "verified": true
+    }
+   ]
+  },
+  {
+   "id": "sickness-behaviour",
+   "name": "Persistent sickness behaviour / vagal signalling",
+   "one_line": "The brain's sickness response, normally triggered by infection signals (e.g. via the vagus), stays switched on.",
+   "proponents": [
+    "VanElzakker (vagus nerve infection hypothesis)",
+    "Dantzer (sickness behaviour biology)"
+   ],
+   "claim": "During infection, cytokines signal to the brain and cause fatigue, malaise and withdrawal. If a local infection or inflammation near the vagus nerve persists, or the brain's set point changes, sickness behaviour could persist. This frames many symptoms but is hard to test directly.",
+   "predictions": [
+    "Vagal or brainstem markers of immune signalling",
+    "Symptoms reduced by blocking cytokine signalling"
+   ],
+   "evidence_for": [
+    "Symptoms closely resemble sickness behaviour",
+    "Post-infectious onset common"
+   ],
+   "evidence_against": [
+    "Anti-inflammatory trials negative in long COVID",
+    "Direct evidence of vagal infection absent"
+   ],
+   "status": "speculative",
+   "decisive_tests": [
+    "Vagal nerve imaging/biopsy studies; vagal stimulation RCTs with sham"
+   ],
+   "related": [
+    "neuroinflammation",
+    "innate-hyperactivation"
+   ],
+   "key_refs": [
+    {
+     "cite": "VanElzakker 2013, Med Hypotheses",
+     "url": "https://doi.org/10.1016/j.mehy.2013.05.034",
+     "verified": true
+    }
+   ]
+  },
+  {
+   "id": "gut-dysbiosis",
+   "name": "Gut dysbiosis",
+   "one_line": "Altered gut microbiota and barrier function drive immune activation and metabolic changes.",
+   "proponents": [
+    "Lipkin and Hornig (Columbia)",
+    "Unutmaz (JAX)",
+    "Hong Kong SIM01 group"
+   ],
+   "claim": "Butyrate producers such as Faecalibacterium prausnitzii are reduced in ME/CFS, and short-duration patients show stronger dysbiosis. Microbial products may affect immunity and metabolism. A synbiotic improved several long-COVID symptoms in one trial. Dysbiosis could also be a consequence of illness, diet and inactivity.",
+   "predictions": [
+    "Reduced butyrate producers",
+    "Microbial metabolites tracking symptoms",
+    "Benefit from microbiome interventions"
+   ],
+   "evidence_for": [
+    "Reduced butyrate producers (Guo 2023, n=106 vs 91)",
+    "Dysbiosis stronger early (Xiong 2023)",
+    "R. gnavus/F. plautii overgrowth replicates and explains low IPA (Solving ME/CFS re-analysis)",
+    "SIM01 synbiotic positive in long COVID (Lau 2024, n=463)"
+   ],
+   "evidence_against": [
+    "MR finds no causal effect of IPA and related metabolites (Solving ME/CFS re-analysis)",
+    "Aromatic lactate deficit not explained by gut bacteria (Solving ME/CFS re-analysis)",
+    "Faecal transplant data anecdotal"
+   ],
+   "status": "active",
+   "decisive_tests": [
+    "Replication of SIM01-type trial in ME/CFS",
+    "Prospective microbiome sampling before onset"
+   ],
+   "related": [
+    "innate-hyperactivation",
+    "mitochondrial-energy"
+   ],
+   "key_refs": [
+    {
+     "cite": "Guo 2023, Cell Host Microbe",
+     "url": "https://doi.org/10.1016/j.chom.2023.01.004",
+     "verified": true
+    },
+    {
+     "cite": "Xiong 2023, Cell Host Microbe",
+     "url": "https://doi.org/10.1016/j.chom.2023.01.001",
+     "verified": true
+    }
+   ]
+  },
+  {
+   "id": "genetic-neuronal",
+   "name": "Genetic susceptibility acting through neurons",
+   "one_line": "Inherited variants affecting nervous-system genes raise risk, pointing to brain-based mechanisms.",
+   "proponents": [
+    "Ponting and DecodeME consortium (Edinburgh)"
+   ],
+   "claim": "DecodeME (15,579 cases) found genome-wide significant loci, with tissue enrichment in brain and pituitary rather than immune tissues. The overall genetic signal replicates in the Million Veteran Program and FinnGen. Candidate genes include pain-sensitisation and immune-response genes. Genetics marks susceptibility, not necessarily the ongoing mechanism.",
+   "predictions": [
+    "Loci near neuronal genes",
+    "Replication in independent cohorts",
+    "Mendelian randomisation links to specific proteins"
+   ],
+   "evidence_for": [
+    "DecodeME 2025 loci; tissue enrichment brain/pituitary",
+    "Genetic correlation rg 0.73 with MVP; EPHB1 and CLEC3B replicate by MR (Solving ME/CFS re-analysis)"
+   ],
+   "evidence_against": [
+    "Most individual loci not yet replicated",
+    "Small effect sizes; heritability modest"
+   ],
+   "status": "active",
+   "decisive_tests": [
+    "Independent GWAS replication of individual loci",
+    "Functional studies of implicated genes"
+   ],
+   "related": [
+    "neuroinflammation",
+    "pituitary-adh",
+    "innate-hyperactivation"
+   ],
+   "key_refs": [
+    {
+     "cite": "DecodeME 2025, medRxiv",
+     "url": "https://doi.org/10.1101/2025.08.06.25333109",
+     "verified": true
+    }
+   ]
+  },
+  {
+   "id": "serum-factor",
+   "name": "Circulating (serum) factor",
+   "one_line": "Something in patient blood, such as IgG or exosomes, impairs healthy cells.",
+   "proponents": [
+    "Davis/Esfandyarpour (nanoneedle)",
+    "Fluge and Mella",
+    "Prusty (Würzburg)",
+    "Ramon-Azcon (IBEC)"
+   ],
+   "claim": "Several experiments put patient plasma or serum onto healthy cells and observed altered impedance, respiration, mitochondrial morphology or muscle force. If replicated, this would point to a transferable factor and allow bioassays. The best-known muscle mitochondrial version failed a well-powered replication in 2026.",
+   "predictions": [
+    "Patient plasma alters healthy cells reproducibly",
+    "Effect removed by IgG depletion",
+    "Effect disappears with recovery"
+   ],
+   "evidence_for": [
+    "Plasma-swap nanoneedle impedance (Esfandyarpour 2019, n=20 vs 20)",
+    "IgG fragments endothelial mitochondria vs MS and healthy IgG (Prusty 2026)",
+    "Long-COVID IgG transfers symptoms to mice (Chen 2026)"
+   ],
+   "evidence_against": [
+    "Ryback/Ponting 2026: no serum effect on myoblast respiration (n=67 vs 53, d≥0.52 excluded)",
+    "IBEC 3D muscle study n=4/5/4 with pseudoreplication risk",
+    "Nanoneedle unreplicated in peer review"
+   ],
+   "status": "weakened",
+   "decisive_tests": [
+    "Multi-lab blinded serum bioassay with disease controls and PEM-timed samples",
+    "IgG depletion and rescue experiments"
+   ],
+   "related": [
+    "autoimmunity",
+    "mitochondrial-energy",
+    "vascular-endothelial"
+   ],
+   "key_refs": [
+    {
+     "cite": "Fluge 2016, JCI Insight",
+     "url": "https://doi.org/10.1172/jci.insight.89376",
+     "verified": true
+    },
+    {
+     "cite": "Ryback/Ponting 2026, PLoS One (preprint bioRxiv 2025.06.03.657595)",
+     "url": "https://doi.org/10.1101/2025.06.03.657595",
+     "verified": true
+    }
+   ]
+  },
+  {
+   "id": "sodium-calcium-overload",
+   "name": "Sodium-calcium overload in muscle (Wirth & Scheibenbogen)",
+   "one_line": "Under-perfused muscle accumulates sodium and then calcium via the sodium-calcium exchanger, damaging mitochondria and causing PEM.",
+   "proponents": [
+    "Klaus Wirth",
+    "Carmen Scheibenbogen (Charité)"
+   ],
+   "claim": "The model proposes that beta2-adrenergic dysfunction (perhaps via autoantibodies) and vasoconstriction reduce muscle blood flow. Hypoxic muscle relies on glycolysis; protons are exported by NHE1, loading the cell with sodium, which reverses the sodium-calcium exchanger and raises intracellular calcium, injuring mitochondria. This cycle explains delayed, prolonged PEM and suggests drugs that block NHE1 or reduce sodium loading. Elements are testable with 23Na-MRI.",
+   "predictions": [
+    "Raised muscle sodium on 23Na-MRI",
+    "Calcium overload and mitochondrial damage after exertion",
+    "Benefit from NHE1 inhibitors or vasodilators"
+   ],
+   "evidence_for": [
+    "Higher muscle sodium on 23Na-MRI (Petter 2022, 6 vs 6)",
+    "Post-exertional muscle damage and mitochondrial drop (Appelman 2024)",
+    "Endothelial dysfunction findings"
+   ],
+   "evidence_against": [
+    "Upstream GPCR-antibody step weakened by negative antigen profiling and failed IA/BC007 trials",
+    "Sodium MRI sample tiny",
+    "No interventional test yet"
+   ],
+   "status": "active",
+   "decisive_tests": [
+    "Larger 23Na-MRI studies before and after exertion vs deconditioned controls",
+    "Pilot trial of NHE1 inhibition"
+   ],
+   "related": [
+    "vascular-endothelial",
+    "small-vessel-capillary",
+    "mitochondrial-energy",
+    "autoimmunity"
+   ],
+   "key_refs": [
+    {
+     "cite": "Wirth & Scheibenbogen 2021, J Transl Med",
+     "url": "https://doi.org/10.1186/s12967-021-02833-2",
+     "verified": true
+    },
+    {
+     "cite": "Wirth & Scheibenbogen 2020, Autoimmun Rev",
+     "url": "https://doi.org/10.1016/j.autrev.2020.102527",
+     "verified": true
+    }
+   ]
+  },
+  {
+   "id": "mast-cell",
+   "name": "Mast cell activation",
+   "one_line": "Inappropriate mast-cell mediator release causes flushing, tachycardia, GI and cognitive symptoms.",
+   "proponents": [
+    "Afrin",
+    "Weinstock",
+    "Glynne (long COVID)"
+   ],
+   "claim": "Mast cell activation syndrome overlaps clinically with POTS, hypermobility and ME/CFS. Histamine and other mediators could cause vasodilation and orthostatic symptoms. Treatment with H1/H2 antihistamines is common. Diagnostic criteria are contested and data are observational.",
+   "predictions": [
+    "Raised tryptase/histamine metabolites during flares",
+    "Response to mast-cell stabilisers"
+   ],
+   "evidence_for": [
+    "Observational improvement with H1+H2 blockers in long COVID (Glynne 2022)",
+    "Clinical overlap with POTS/hEDS"
+   ],
+   "evidence_against": [
+    "No RCTs; mediator tests rarely positive",
+    "Diagnostic criteria inconsistent"
+   ],
+   "status": "speculative",
+   "decisive_tests": [
+    "RCT of antihistamines with mediator-defined selection"
+   ],
+   "related": [
+    "connective-tissue",
+    "autonomic-small-fibre"
+   ],
+   "key_refs": [
+    {
+     "cite": "Glynne 2022, J Investig Med",
+     "url": "https://doi.org/10.1136/jim-2021-002051",
+     "verified": true
+    }
+   ]
+  },
+  {
+   "id": "connective-tissue",
+   "name": "Connective tissue / hypermobility",
+   "one_line": "Hypermobility and connective-tissue weakness predispose to venous pooling, instability and dysautonomia.",
+   "proponents": [
+    "Rowe",
+    "Eccles"
+   ],
+   "claim": "Joint hypermobility is more common in ME/CFS and POTS. Lax connective tissue in veins could worsen pooling, and in the neck could contribute to craniocervical problems. Lower blood levels of vessel-wall/extracellular-matrix proteins have been reported.",
+   "predictions": [
+    "Higher hypermobility prevalence",
+    "Matrix protein changes",
+    "Venous compliance increased"
+   ],
+   "evidence_for": [
+    "Hypermobility overrepresented in clinic samples",
+    "Lower ITGAV/NOTCH3/TGF-beta set proteins (Solving ME/CFS re-analysis)"
+   ],
+   "evidence_against": [
+    "Clinic-based selection; population data lacking",
+    "No mechanism-specific treatment"
+   ],
+   "status": "speculative",
+   "decisive_tests": [
+    "Population-based hypermobility prevalence in ME/CFS",
+    "Venous compliance measurement"
+   ],
+   "related": [
+    "brainstem-craniocervical",
+    "mast-cell",
+    "low-blood-volume-preload"
+   ],
+   "key_refs": [
+    {
+     "cite": "Eccles 2021, Clin Med (hypermobility and ME/CFS/POTS)",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Eccles+hypermobility+chronic+fatigue",
+     "verified": false
+    }
+   ]
+  },
+  {
+   "id": "integrated-hanson",
+   "name": "Cornell integrated multi-omics model (Hanson)",
+   "one_line": "PEM reflects a maladaptive multi-system response to exertion visible across immune, metabolic and proteomic layers.",
+   "proponents": [
+    "Maureen Hanson",
+    "Arnaud Germain",
+    "Cornell ME/CFS Collaborative Research Center"
+   ],
+   "claim": "Using 2-day CPET with blood sampling, the Cornell group reports that patients fail to mount and resolve normal exercise responses in plasma proteins, metabolites and immune cells, with CD8 T-cell exhaustion features. They frame ME/CFS as an integrated failure of recovery across systems rather than a single lesion. The model is descriptive and generates leads rather than one causal claim.",
+   "predictions": [
+    "Divergent post-exertion trajectories vs sedentary controls",
+    "Changes larger on day 2"
+   ],
+   "evidence_for": [
+    "Plasma proteome maladaptation after exertion in 79 vs 53 (Germain 2025, Mol Cell Proteomics)",
+    "CD8 exhaustion priming (Iu 2024)"
+   ],
+   "evidence_against": [
+    "Re-analysis of the 2022 metabolomics: within-person exercise responses barely differ; 'growing divergence' does not hold (Solving ME/CFS re-analysis, PEM)",
+    "Clean negative autoantibody profiling from the same group (Germain 2025) narrows immune explanations"
+   ],
+   "status": "active",
+   "decisive_tests": [
+    "Pre-registered within-person analyses in a new 2-day CPET cohort",
+    "Matching deconditioned and disease controls"
+   ],
+   "related": [
+    "immune-exhaustion",
+    "mitochondrial-energy",
+    "omf-models"
+   ],
+   "key_refs": [
+    {
+     "cite": "Germain 2025, Mol Cell Proteomics",
+     "url": "https://doi.org/10.1016/j.mcpro.2025.101467",
+     "verified": true
+    },
+    {
+     "cite": "Germain 2022, JCI Insight",
+     "url": "https://doi.org/10.1172/jci.insight.157621",
+     "verified": true
+    }
+   ]
+  },
+  {
+   "id": "omf-models",
+   "name": "Open Medicine Foundation models (Davis, Xiao, Systrom)",
+   "one_line": "A cluster of OMF-funded models: a circulating plasma factor, the IDO metabolic trap, and neurovascular preload failure.",
+   "proponents": [
+    "Ron Davis",
+    "Wenzhong Xiao",
+    "David Systrom",
+    "Robert Phair"
+   ],
+   "claim": "OMF has backed several ideas rather than one: plasma-swap nanoneedle evidence for a blood factor; the IDO metabolic trap; and Systrom's neurovascular dysregulation with preload failure, tested by pyridostigmine. Its data centre and the 2025 treatment survey aim to link subgroups to treatments. The common thread is a measurable, possibly reversible physiological state.",
+   "predictions": [
+    "Plasma factor in bioassays",
+    "IDO2 variants/trap state",
+    "Pyridostigmine benefit in preload failure"
+   ],
+   "evidence_for": [
+    "Nanoneedle plasma-swap (Esfandyarpour 2019)",
+    "Pyridostigmine single-dose iCPET RCT (Joseph 2022)",
+    "Patient survey subgroups (Eckey 2025)"
+   ],
+   "evidence_against": [
+    "No peer-reviewed nanoneedle replication",
+    "IDO trap not supported by GWAS/MR",
+    "Longer pyridostigmine trial in long COVID negative (2025 abstract)"
+   ],
+   "status": "active",
+   "decisive_tests": [
+    "LIFT trial results",
+    "Independent replication of nanoneedle assay"
+   ],
+   "related": [
+    "metabolic-trap-ido",
+    "serum-factor",
+    "low-blood-volume-preload"
+   ],
+   "key_refs": [
+    {
+     "cite": "Esfandyarpour 2019, PNAS",
+     "url": "https://doi.org/10.1073/pnas.1901274116",
+     "verified": true
+    },
+    {
+     "cite": "Eckey 2025, PNAS",
+     "url": "https://doi.org/10.1073/pnas.2426874122",
+     "verified": true
+    }
+   ]
+  },
+  {
+   "id": "komaroff-lipkin-synthesis",
+   "name": "Multisystem post-infectious model (Komaroff & Lipkin reviews)",
+   "one_line": "ME/CFS and long COVID share a set of biological abnormalities across brain, immune, energy and vascular systems, triggered by infection.",
+   "proponents": [
+    "Anthony Komaroff (Harvard)",
+    "W. Ian Lipkin (Columbia)"
+   ],
+   "claim": "Two influential reviews catalogue overlapping findings: neuroinflammation, immune activation and exhaustion, autoantibodies, impaired energy metabolism, endothelial and autonomic dysfunction, and gut dysbiosis. They argue the two illnesses are variants of the same post-infectious process and that research on each informs the other. It is a synthesis, not a single falsifiable mechanism.",
+   "predictions": [
+    "Shared abnormalities between ME/CFS and long COVID",
+    "Similar treatment responses"
+   ],
+   "evidence_for": [
+    "Treatment ratings correlate between ME/CFS and long COVID (R²=0.68; Eckey 2025)",
+    "Post-COVID ME/CFS incidence data (Vernon 2025)"
+   ],
+   "evidence_against": [
+    "Many catalogued abnormalities are unreplicated or contested individually",
+    "Breadth makes the model hard to falsify"
+   ],
+   "status": "active",
+   "decisive_tests": [
+    "Head-to-head cohorts with identical assays in ME/CFS, long COVID and recovered controls"
+   ],
+   "related": [
+    "viral-persistence",
+    "autoimmunity",
+    "neuroinflammation",
+    "mitochondrial-energy"
+   ],
+   "key_refs": [
+    {
+     "cite": "Komaroff & Lipkin 2021, Trends Mol Med",
+     "url": "https://doi.org/10.1016/j.molmed.2021.06.002",
+     "verified": true
+    },
+    {
+     "cite": "Komaroff & Lipkin 2023, Front Med",
+     "url": "https://doi.org/10.3389/fmed.2023.1187163",
+     "verified": true
+    }
+   ]
+  },
+  {
+   "id": "effort-preference",
+   "name": "Altered 'effort preference' (NIH)",
+   "one_line": "Patients choose fewer hard-effort options in a decision task, which the NIH team interpreted as a defining feature rather than fatigue or weakness.",
+   "proponents": [
+    "Walitt, Nath and the NIH intramural team"
+   ],
+   "claim": "In deep phenotyping of 17 post-infectious ME/CFS patients, participants chose the hard task less often in the Effort-Expenditure for Rewards Task, and the authors proposed altered effort preference linked to low CSF catecholamines and motor-network changes. They framed fatigue as arising from brain integrative circuits. Critics argue the task was not validated in ME/CFS and that choosing less effort is a rational response to PEM, not a preference.",
+   "predictions": [
+    "Reduced hard-task choices independent of capacity",
+    "Brain activity differences during effort tasks"
+   ],
+   "evidence_for": [
+    "Fewer hard-task choices (Walitt 2024, n=17 vs 21)",
+    "Low CSF catecholamines and altered motor-cortex activity in the same study"
+   ],
+   "evidence_against": [
+    "Tiny sample; task not validated; PEM-avoidance alternative explanation",
+    "Patients and many researchers objected to the framing; findings not replicated"
+   ],
+   "status": "weakened",
+   "decisive_tests": [
+    "Replication with tasks that separate anticipated PEM cost from motivation",
+    "Compare with other disabling illnesses with exertional limits"
+   ],
+   "related": [
+    "neuroinflammation",
+    "cognitive-behavioural-model"
+   ],
+   "key_refs": [
+    {
+     "cite": "Walitt 2024, Nat Commun",
+     "url": "https://doi.org/10.1038/s41467-024-45107-3",
+     "verified": true
+    }
+   ]
+  },
+  {
+   "id": "cognitive-behavioural-model",
+   "name": "Psychosomatic / cognitive-behavioural (fear-avoidance) model",
+   "one_line": "An initial illness is perpetuated by unhelpful beliefs, activity avoidance and deconditioning, so CBT and graded exercise should reverse it.",
+   "proponents": [
+    "Wessely, Sharpe, Chalder, White (UK)",
+    "Knoop and Bleijenberg (Netherlands)"
+   ],
+   "claim": "The model holds that after a trigger, beliefs that activity is harmful lead to avoidance, deconditioning and symptom focus, maintaining disability. It predicted that CBT and graded exercise would produce recovery. PACE and Dutch trials reported modest self-reported benefits. The model is now widely disputed: objective outcomes were null and PEM is not explained by beliefs.",
+   "predictions": [
+    "CBT/GET produce recovery including on objective measures",
+    "Beliefs predict outcome",
+    "No biological abnormality beyond deconditioning"
+   ],
+   "evidence_for": [
+    "PACE: modest self-reported fatigue and function gains with CBT/GET at 52 weeks (White 2011)",
+    "Belief/attribution associated with prognosis in older cohorts (Cairns & Hotopf 2005)",
+    "Large placebo responses show context and expectation affect symptom reports"
+   ],
+   "evidence_against": [
+    "Effects confined to self-report and not durable at 2.5 years (Sharpe 2015; Wilshire 2018)",
+    "NICE 2021 rated evidence low/very low and advised against GET",
+    "Patients rate GET most harmful (Eckey 2025); rehab worsened 42/97 (CFS_CARE 2026)",
+    "Reproducible biological differences (2-day CPET, genetics, muscle pathology) not explained by beliefs",
+    "Critique of the model's evidence base (Geraghty 2019)"
+   ],
+   "status": "largely refuted",
+   "decisive_tests": [
+    "Blinded-assessor trial with objective endpoints in PEM-defined patients",
+    "Prospective test of whether beliefs precede and predict onset"
+   ],
+   "related": [
+    "deconditioning",
+    "effort-preference",
+    "sickness-behaviour"
+   ],
+   "key_refs": [
+    {
+     "cite": "White 2011, Lancet (PACE)",
+     "url": "https://doi.org/10.1016/S0140-6736(11)60096-2",
+     "verified": true
+    },
+    {
+     "cite": "Wilshire 2018, BMC Psychol",
+     "url": "https://doi.org/10.1186/s40359-018-0218-3",
+     "verified": true
+    },
+    {
+     "cite": "Geraghty 2019, Health Psychol Open",
+     "url": "https://doi.org/10.1177/2055102919838907",
+     "verified": true
+    }
+   ]
+  },
+  {
+   "id": "deconditioning",
+   "name": "Deconditioning",
+   "one_line": "Exercise intolerance is simply loss of fitness from inactivity.",
+   "proponents": [
+    "Implicit in rehabilitation models; early long-COVID exercise studies"
+   ],
+   "claim": "If symptoms reflect detraining, patients should look like sedentary controls on exercise testing, recover normally between tests, and improve with graded training. Deconditioning certainly coexists in severe illness. The question is whether it explains the disease.",
+   "predictions": [
+    "Normal reproducibility on repeat CPET",
+    "Muscle findings match sedentary controls",
+    "Training improves capacity"
+   ],
+   "evidence_for": [
+    "Lower peak VO2 in patients is partly explained by fitness",
+    "Some long-COVID CPET studies attributed limitation to deconditioning"
+   ],
+   "evidence_against": [
+    "Day-2 CPET decline in many patients, not seen in sedentary controls (Keller 2024, n=84; memory)",
+    "Post-exertional muscle damage and mitochondrial drop not explained by fitness (Appelman 2024)",
+    "iCPET shows preload failure and poor extraction atypical of detraining (Joseph 2021, 2023 review)",
+    "Lower muscle proteins in blood not explained by steps or lying time (Solving ME/CFS re-analysis)",
+    "GET harmful in surveys"
+   ],
+   "status": "largely refuted",
+   "decisive_tests": [
+    "Matched-activity controls (bedrest or immobilised volunteers) on 2-day CPET and biopsy"
+   ],
+   "related": [
+    "cognitive-behavioural-model",
+    "small-vessel-capillary",
+    "low-blood-volume-preload"
+   ],
+   "key_refs": [
+    {
+     "cite": "Joseph 2023, Chest",
+     "url": "https://doi.org/10.1016/j.chest.2023.03.049",
+     "verified": true
+    },
+    {
+     "cite": "Appelman 2024, Nat Commun",
+     "url": "https://doi.org/10.1038/s41467-023-44432-3",
+     "verified": true
+    }
+   ]
+  }
+ ]
+}

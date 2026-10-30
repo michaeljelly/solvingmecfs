@@ -1,0 +1,1579 @@
+{
+ "domain": "omics",
+ "title": "Metabolism and blood omics",
+ "overview": "Blood metabolomics and proteomics consistently find that ME/CFS patients differ from controls on average, but the differences are small (mostly 0.2-0.5 SD), partly cohort-specific, and confounded by medication, caffeine, diet and sample handling. The better-supported signals are modest: lower plasmalogens and some phosphatidylcholines, slightly lower carnitines, lower gut-derived IPA, lower aromatic lactates (a new cross-cohort re-analysis finding), higher methionine sulfoxide, and lower muscle-derived proteins in blood that are not explained by activity. Bigger claims, such as a uniform hypometabolic 'cell danger' state, an IDO metabolic trap, divergent metabolic or proteomic responses to exercise, reproducible methylation signatures, and diagnostic classifiers with near-perfect accuracy, have not held up in independent data or remain untested outside the original lab. No omics test is ready for diagnosis. The largest gaps are severe patients, sampling during the 48-72 h PEM window, disease controls, and pairing omics with fresh-cell function.",
+ "findings": [
+  {
+   "id": "omics-metabolome-small-effects",
+   "subdomain": "Metabolomics: overall",
+   "finding": "Blood metabolome differences between ME/CFS and controls are real at group level but small (mostly 0.2-0.5 SD) and partly cohort-specific; early near-perfect classification did not carry over to new cohorts.",
+   "grade": "replicated",
+   "plain": "Patients' blood chemistry differs from healthy people's on average, but only slightly, and the specific list of chemicals changes from study to study.",
+   "detail": "Single-cohort studies reported AUCs of 0.82-0.96 (Naviaux 2016, Nagy-Szakal 2018, Che 2022), but these were estimated within the training data. A harmonised re-analysis of 10 public cohorts found 74 compounds at q<0.05 with pooled effects mostly 0.2-0.5 SD; two Cornell cohorts agreed only weakly (rho 0.16) and cross-cohort transfer AUCs were 0.56-0.83. Medication exposure (paracetamol, gabapentin, psychoactives, acid suppressants detected in blood) and caffeine are major confounders that most original papers did not adjust for.",
+   "studies": [
+    {
+     "cite": "Naviaux 2016, PNAS",
+     "n": "45 vs 39",
+     "design": "case-control, targeted LC-MS/MS (612 metabolites)",
+     "result": "20 pathways abnormal; 80% of discriminating metabolites lower; AUC 0.94 (men, 8 metabolites) and 0.96 (women, 13) within the same data",
+     "url": "https://doi.org/10.1073/pnas.1607571113",
+     "verified": true
+    },
+    {
+     "cite": "Nagy-Szakal 2018, Sci Rep",
+     "n": "50 vs 50",
+     "design": "case-control, untargeted plasma metabolomics + stool metagenomics",
+     "result": "altered choline, carnitine and complex lipids; ceramide higher in the ME/CFS+IBS subgroup; cross-validated AUC 0.82 (metabolome), 0.84 combined with stool",
+     "url": "https://doi.org/10.1038/s41598-018-28477-9",
+     "verified": true
+    },
+    {
+     "cite": "Che 2022, Int J Mol Sci",
+     "n": "106 vs 91",
+     "design": "case-control, targeted + untargeted plasma metabolomics",
+     "result": "lower plasmalogens/ether phospholipids, phosphatidylcholines and sphingomyelins (p<0.001); higher dicarboxylic acids; ML AUC up to 0.873",
+     "url": "https://doi.org/10.3390/ijms23147906",
+     "verified": true
+    },
+    {
+     "cite": "Solving ME/CFS re-analysis (deep2 metabolome-wide meta-analysis)",
+     "n": "10 cohorts, ~600 cases / ~430 controls",
+     "design": "harmonised meta-analysis of public per-person data (Metabolon, Fiehn, LC-MS/MS, NMR)",
+     "result": "74 compounds q<0.05; effects mostly 0.2-0.5 SD; panel trained on BioMapAI transfers with AUC 0.60-0.83",
+     "url": "/#data",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Solving ME/CFS re-analysis (datasets)",
+     "n": "two Cornell cohorts, 575 shared compounds",
+     "design": "cross-cohort concordance",
+     "result": "patient-control differences agree only faintly (rho 0.16); model trained on one scores AUC 0.56 on the other; a public GitHub copy of Germain 2020 has case/control labels swapped",
+     "url": "/#data",
+     "verified": true
+    },
+    {
+     "cite": "Xiong 2025 (BioMapAI), Nat Med",
+     "n": "249 participants, 4-year longitudinal",
+     "design": "deep neural net on stool metagenome, plasma metabolome, immune profiling, labs, symptoms",
+     "result": "10-fold CV AUC 0.915 (all omics); external cohorts AUC 0.59-0.77 (Guo, Raijmakers stool; Germain metabolome 0.68, Che 0.61) with 19-79% feature overlap",
+     "url": "https://doi.org/10.1038/s41591-025-03788-3",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Which differences persist in drug-free, fasting, rapidly processed samples?",
+    "Does any metabolite change track severity or PEM within a person?"
+   ],
+   "hypotheses": [
+    "mitochondrial-energy",
+    "cell-danger-response",
+    "gut-dysbiosis"
+   ],
+   "test_available": "research only"
+  },
+  {
+   "id": "omics-cdr-hypometabolic",
+   "subdomain": "Metabolomics: cell danger response",
+   "finding": "Naviaux 2016's picture of a homogeneous 'hypometabolic' dauer-like state (80% of discriminating metabolites decreased) has not been confirmed as a uniform pattern in later independent cohorts.",
+   "grade": "contested",
+   "plain": "One influential 2016 study said patients' cells were in a protective 'low-power' mode, with most chemicals reduced. Later studies found more mixed and smaller changes.",
+   "detail": "Naviaux's 45/39 cohort with targeted LC-MS/MS found lower sphingolipids, phospholipids, purines and other pathways and proposed the cell danger response (CDR). An Open Medicine Foundation validation cohort was reported informally (2018) to reproduce 23 of 30 pathway abnormalities, but no peer-reviewed replication paper was found. Hoel 2021 found heterogeneous metabotypes rather than one state; Che 2022 and Xiong 2023 partly echo the lipid reductions. In the cross-cohort re-analysis, the Naviaux data still carry some replicated signals (e.g. low aromatic lactates on a non-Metabolon platform), but there is no global hypometabolic shift across cohorts.",
+   "studies": [
+    {
+     "cite": "Naviaux 2016, PNAS",
+     "n": "45 vs 39",
+     "design": "case-control, targeted LC-MS/MS (612 metabolites)",
+     "result": "20 pathways abnormal; 80% of discriminating metabolites lower; AUC 0.94 (men, 8 metabolites) and 0.96 (women, 13) within the same data",
+     "url": "https://doi.org/10.1073/pnas.1607571113",
+     "verified": true
+    },
+    {
+     "cite": "OMF metabolomics validation update (MEAction 2018)",
+     "n": "not stated",
+     "design": "unpublished replication cohort summary",
+     "result": "23/30 pathway abnormalities reported as replicated",
+     "url": "https://www.meaction.net/2018/02/10/update-on-the-metabolomics-validation-study-by-omf/",
+     "verified": false
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Hoel 2021, JCI Insight",
+     "n": "83 vs 35",
+     "design": "case-control, serum metabolomics, lipidomics, hormones",
+     "result": "common changes consistent with energy strain and altered fatty-acid/amino-acid fuel use; 3 patient subsets (metabotypes), 2 with distinct energy-metabolism patterns",
+     "url": "https://doi.org/10.1172/jci.insight.149217",
+     "verified": true
+    },
+    {
+     "cite": "Solving ME/CFS re-analysis (deep2 metabolome-wide meta-analysis)",
+     "n": "10 cohorts, ~600 cases / ~430 controls",
+     "design": "harmonised meta-analysis of public per-person data (Metabolon, Fiehn, LC-MS/MS, NMR)",
+     "result": "74 compounds q<0.05; effects mostly 0.2-0.5 SD; panel trained on BioMapAI transfers with AUC 0.60-0.83",
+     "url": "/#data",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Has the OMF validation cohort been published with per-person data?",
+    "Is any CDR signature (e.g. purinergic signalling) measurable in tissue rather than plasma?"
+   ],
+   "hypotheses": [
+    "cell-danger-response",
+    "mitochondrial-energy"
+   ],
+   "test_available": "research only"
+  },
+  {
+   "id": "omics-lipids-plasmalogens",
+   "subdomain": "Metabolomics: lipids and sphingolipids",
+   "finding": "Lower plasmalogens, some phosphatidylcholines and sphingomyelins are reported across several cohorts and platforms, with modest effect sizes.",
+   "grade": "several",
+   "plain": "Some fats that form cell membranes, especially a type called plasmalogens, are a little lower in patients' blood in several studies.",
+   "detail": "Che 2022 (106/91) reported lower plasmalogens/ether phospholipids, PCs and sphingomyelins (p<0.001) and proposed peroxisomal dysfunction. Naviaux 2016 found lower sphingolipids; Xiong 2023 lower sphingomyelins; Nagy-Szakal 2018 higher ceramides only in the IBS subgroup. In the cross-cohort re-analysis PC(14:0/16:0) was -0.42 SD (4 cohorts, 3 non-Metabolon) and plasmalogen P-16:0/18:2 -0.38 SD; dihydroceramide d18:0/16:0 was +0.28. Diet (dairy, fish) and BMI are not well controlled.",
+   "studies": [
+    {
+     "cite": "Che 2022, Int J Mol Sci",
+     "n": "106 vs 91",
+     "design": "case-control, targeted + untargeted plasma metabolomics",
+     "result": "lower plasmalogens/ether phospholipids, phosphatidylcholines and sphingomyelins (p<0.001); higher dicarboxylic acids; ML AUC up to 0.873",
+     "url": "https://doi.org/10.3390/ijms23147906",
+     "verified": true
+    },
+    {
+     "cite": "Naviaux 2016, PNAS",
+     "n": "45 vs 39",
+     "design": "case-control, targeted LC-MS/MS (612 metabolites)",
+     "result": "20 pathways abnormal; 80% of discriminating metabolites lower; AUC 0.94 (men, 8 metabolites) and 0.96 (women, 13) within the same data",
+     "url": "https://doi.org/10.1073/pnas.1607571113",
+     "verified": true
+    },
+    {
+     "cite": "Xiong 2023, Cell Host Microbe",
+     "n": "short-term 75, long-term 79 vs 79 controls",
+     "design": "case-control, stool metagenomics + plasma metabolomics",
+     "result": "plasma butyrate, bile acids, benzoate lower; sphingomyelins depleted; dysbiosis mostly in short-term patients",
+     "url": "https://doi.org/10.1016/j.chom.2023.01.001",
+     "verified": true
+    },
+    {
+     "cite": "Solving ME/CFS re-analysis (deep2 metabolome-wide)",
+     "n": "up to 10 cohorts",
+     "design": "meta-analysis",
+     "result": "PC(14:0/16:0) -0.42 SD; plasmalogen P-16:0/18:2 -0.38 SD; dihydroceramide +0.28 SD",
+     "url": "/#data",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Nagy-Szakal 2018, Sci Rep",
+     "n": "50 vs 50",
+     "design": "case-control, untargeted plasma metabolomics + stool metagenomics",
+     "result": "altered choline, carnitine and complex lipids; ceramide higher in the ME/CFS+IBS subgroup; cross-validated AUC 0.82 (metabolome), 0.84 combined with stool",
+     "url": "https://doi.org/10.1038/s41598-018-28477-9",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Are plasmalogens low in tissue (muscle, red cells) or only plasma?",
+    "Do they relate to peroxisomal enzyme activity or to diet?"
+   ],
+   "hypotheses": [
+    "mitochondrial-energy",
+    "cell-danger-response"
+   ],
+   "test_available": "research only (plasmalogen panels exist in some specialist labs)"
+  },
+  {
+   "id": "omics-aromatic-lactates",
+   "subdomain": "Metabolomics: aromatic lactates",
+   "finding": "Four aromatic 2-hydroxy acids (phenyllactate, 4-hydroxyphenyllactate, indolelactate, imidazole lactate) are lower in ME/CFS in 5 of 5 cohorts (combined -0.53 SD, I²=0), robust to drug, caffeine, diet and kidney-function adjustment.",
+   "grade": "several",
+   "plain": "A family of small chemicals made from amino acids is consistently lower in patients across five separate studies. It is a group-level difference, not a test.",
+   "detail": "Solving ME/CFS re-analysis: p=4e-11, holds on Naviaux's targeted LC-MS/MS platform (-0.64), -0.64 in people with no prescription drug detected, -0.73 in men. The precursor keto acids are not lower, so either the reduction step or a dietary source (fermented foods) is implicated. In BioMapAI paired stool, gut species do not predict these compounds (CV R²≈0), unlike IPA. They do not track severity (|r|<0.2). Not yet reported by original study authors; needs targeted, fasting confirmation and D- vs L-isomer separation (bacterial D vs host L).",
+   "studies": [
+    {
+     "cite": "Solving ME/CFS re-analysis (deep2 metabolome-wide)",
+     "n": "5 cohorts (BioMapAI, Germain 2018/2020/2022, Naviaux)",
+     "design": "harmonised meta-analysis with confounder models",
+     "result": "combined -0.53 SD, 5/5 cohorts lower, I²=0; not stool-predicted; not severity-linked",
+     "url": "/#data",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "open_questions": [
+    "Is this host lactate-dehydrogenase-type reduction, renal handling, or fermented-food intake?",
+    "D- vs L-phenyllactate ratio?",
+    "Does it differ from other fatigue conditions?"
+   ],
+   "hypotheses": [
+    "mitochondrial-energy",
+    "gut-dysbiosis"
+   ],
+   "test_available": "research only"
+  },
+  {
+   "id": "omics-ipa",
+   "subdomain": "Metabolomics: tryptophan / gut metabolites",
+   "finding": "Indole-3-propionate (IPA), a gut-bacterial tryptophan product, is lower in ME/CFS plasma in 4 of 4 cohorts (-0.33 SD) and tracks butyrate-producing gut species.",
+   "grade": "several",
+   "plain": "A chemical made only by certain gut bacteria is a bit lower in patients, which fits the gut-bacteria differences found in several studies.",
+   "detail": "Pooled -0.33 SD (95% CI -0.49 to -0.16), p=0.0001; individual AUC only 0.57-0.60. In BioMapAI paired stool, IPA correlates with F. prausnitzii and Bifidobacterium and inversely with R. gnavus; adjusting for IPA-linked species reduces the difference from -0.40 to -0.09 (optimistic same-data selection). Xiong 2023 and BioMapAI report reduced microbial butyrate and altered tryptophan metabolism. Interpreted as a gut-ecology marker rather than a host defect.",
+   "studies": [
+    {
+     "cite": "Solving ME/CFS re-analysis (datasets / deep2)",
+     "n": "4 plasma cohorts",
+     "design": "meta-analysis",
+     "result": "IPA -0.33 SD, p=0.0001; AUC 0.57-0.60",
+     "url": "/#data",
+     "verified": true
+    },
+    {
+     "cite": "Xiong 2025 (BioMapAI), Nat Med",
+     "n": "249 participants, 4-year longitudinal",
+     "design": "deep neural net on stool metagenome, plasma metabolome, immune profiling, labs, symptoms",
+     "result": "10-fold CV AUC 0.915 (all omics); external cohorts AUC 0.59-0.77 (Guo, Raijmakers stool; Germain metabolome 0.68, Che 0.61) with 19-79% feature overlap",
+     "url": "https://doi.org/10.1038/s41591-025-03788-3",
+     "verified": true
+    },
+    {
+     "cite": "Xiong 2023, Cell Host Microbe",
+     "n": "short-term 75, long-term 79 vs 79 controls",
+     "design": "case-control, stool metagenomics + plasma metabolomics",
+     "result": "plasma butyrate, bile acids, benzoate lower; sphingomyelins depleted; dysbiosis mostly in short-term patients",
+     "url": "https://doi.org/10.1016/j.chom.2023.01.001",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "open_questions": [
+    "Does raising IPA (fibre, polyphenols) change anything clinically?",
+    "Is low IPA a consequence of diet changes caused by illness?"
+   ],
+   "hypotheses": [
+    "gut-dysbiosis"
+   ],
+   "test_available": "research only"
+  },
+  {
+   "id": "omics-kynurenine-ido",
+   "subdomain": "Metabolomics: kynurenine pathway / IDO trap",
+   "finding": "The IDO metabolic-trap model predicts tryptophan-kynurenine pathway disruption, but blood data are inconsistent: one cohort found higher kynurenine, others found no difference or slightly lower kynurenine.",
+   "grade": "contested",
+   "plain": "A mathematical theory proposed that a tryptophan-processing enzyme gets stuck in ME/CFS. Blood measurements of that pathway point in different directions in different studies.",
+   "detail": "Kashi, Davis and Phair 2019 modelled IDO1 substrate inhibition plus common non-functional IDO2 variants producing a bistable 'trap'; it is a hypothesis paper with no patient data. Kavyani 2024 reported higher kynurenine correlating with severity and lower downstream 3-HK, 3-HAA, QUIN, picolinate. Groven 2021 (49 CFS/57 FM/54 HC women) found differences mainly in FM, not CFS vs controls. The cross-cohort re-analysis found kynurenine -0.27 SD (lower), kyn/trp ratio -0.19 (q=0.06), lower kynurenine with >4 years illness, and no change in IDO1/KYNU proteins. Plasma kynurenine says little about intracellular IDO kinetics, which is what the model is about.",
+   "studies": [
+    {
+     "cite": "Kashi, Davis, Phair 2019, Diagnostics",
+     "n": "none (model)",
+     "design": "mathematical model + variant database search",
+     "result": "IDO1 substrate inhibition + IDO2 loss + LAT1 asymmetry gives two steady states",
+     "url": "https://doi.org/10.3390/diagnostics9030082",
+     "verified": true
+    },
+    {
+     "cite": "Kavyani 2024, Mol Neurobiol",
+     "n": "not in abstract",
+     "design": "case-control, plasma KP metabolites + cytokines + proteomics",
+     "result": "higher kynurenine linked to severity; lower 3-HK, 3-HAA, QUIN, PIC; hepcidin about halved",
+     "url": "https://doi.org/10.1007/s12035-023-03784-z",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Groven 2021, Psychoneuroendocrinology",
+     "n": "49 CFS, 57 FM, 54 HC (women)",
+     "design": "case-control, plasma KP metabolites",
+     "result": "main differences FM vs HC; quinolinic acid differs CFS vs FM; no clear CFS vs HC kynurenine shift",
+     "url": "https://ntnuopen.ntnu.no/ntnu-xmlui/handle/11250/2826213",
+     "verified": false
+    },
+    {
+     "cite": "Solving ME/CFS re-analysis (deep2 metabolome-wide meta-analysis)",
+     "n": "10 cohorts, ~600 cases / ~430 controls",
+     "design": "harmonised meta-analysis of public per-person data (Metabolon, Fiehn, LC-MS/MS, NMR)",
+     "result": "kynurenine -0.27 SD (lower); kyn/trp -0.19, q=0.06; lower in >4 y illness; IDO1/KYNU protein null",
+     "url": "/#data",
+     "verified": true
+    },
+    {
+     "cite": "Abujrais 2024, ACS Chem Neurosci",
+     "n": "38 vs 24",
+     "design": "case-control, targeted LC-MS",
+     "result": "3-hydroxyanthranilic acid and 3-hydroxykynurenine differ; no headline kynurenine rise",
+     "url": "https://doi.org/10.1021/acschemneuro.4c00444",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Do IDO2 variants differ in frequency in large genetic data (DecodeME)?",
+    "Intracellular tryptophan/kynurenine flux in patient cells under stress?"
+   ],
+   "hypotheses": [
+    "metabolic-trap-ido",
+    "innate-hyperactivation"
+   ],
+   "test_available": "Plasma tryptophan/kynurenine available in some commercial labs; not diagnostic"
+  },
+  {
+   "id": "omics-carnitines",
+   "subdomain": "Metabolomics: acylcarnitines and fatty acids",
+   "finding": "Free carnitine and long-chain acylcarnitines are slightly lower in ME/CFS across cohorts, contrary to the earlier idea of excess circulating fatty acids.",
+   "grade": "several",
+   "plain": "Carriers that move fats into the cell's power stations are a little lower in patients' blood.",
+   "detail": "Reported as altered/low in Naviaux 2016, Nagy-Szakal 2018, Germain 2017 and Germain 2022 (carnitines low). Cross-cohort re-analysis: carnitine -0.21 SD, long-chain acylcarnitines -0.22 SD, long-chain fatty acids slightly lower in all 4 cohorts examined; acetylcarnitine/carnitine ratio null. Germain 2020 reported lower acyl cholines. Effect sizes are small and diet/fasting status is rarely recorded.",
+   "studies": [
+    {
+     "cite": "Nagy-Szakal 2018, Sci Rep",
+     "n": "50 vs 50",
+     "design": "case-control, untargeted plasma metabolomics + stool metagenomics",
+     "result": "altered choline, carnitine and complex lipids; ceramide higher in the ME/CFS+IBS subgroup; cross-validated AUC 0.82 (metabolome), 0.84 combined with stool",
+     "url": "https://doi.org/10.1038/s41598-018-28477-9",
+     "verified": true
+    },
+    {
+     "cite": "Germain 2017, Mol BioSyst",
+     "n": "17 vs 15",
+     "design": "pilot case-control, plasma metabolomics",
+     "result": "74/361 metabolites p<0.05, 35 at q<0.15; fatty-acid and lipid pathways",
+     "url": "https://doi.org/10.1039/c6mb00600k",
+     "verified": true
+    },
+    {
+     "cite": "Germain 2020, Metabolites",
+     "n": "26 vs 26 (women)",
+     "design": "case-control, Metabolon + complex lipids (~1,750 compounds)",
+     "result": "acyl cholines lower in two cohorts; steroid changes",
+     "url": "https://doi.org/10.3390/metabo10010034",
+     "verified": true
+    },
+    {
+     "cite": "Solving ME/CFS re-analysis (deep2 metabolome-wide)",
+     "n": "multiple cohorts",
+     "design": "meta-analysis",
+     "result": "carnitine -0.21 SD; long-chain acylcarnitines -0.22 SD",
+     "url": "/#data",
+     "verified": true
+    },
+    {
+     "cite": "Reuter & Evans 2011, J Intern Med",
+     "n": "44 patients",
+     "design": "case-control serum carnitine profile",
+     "result": "lower acetylcarnitine / altered acylcarnitines",
+     "url": "https://doi.org/10.1111/j.1365-2796.2010.02341.x",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Solving ME/CFS re-analysis (datasets)",
+     "n": "4 cohorts",
+     "design": "meta-analysis",
+     "result": "hypothesis of higher fatty acids in patients reversed: long-chain fatty acids and acylcarnitines slightly lower",
+     "url": "/#data",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Muscle carnitine and fatty-acid oxidation flux in vivo?",
+    "Effect of fasting and dietary restriction on these values?"
+   ],
+   "hypotheses": [
+    "mitochondrial-energy"
+   ],
+   "test_available": "Plasma acylcarnitine profile (clinical metabolic labs); not diagnostic for ME/CFS"
+  },
+  {
+   "id": "omics-energy-fuel-pdh",
+   "subdomain": "Metabolomics: energy metabolism",
+   "finding": "Several studies infer impaired carbohydrate oxidation (pyruvate dehydrogenase restraint, TCA/urea cycle shifts), but simple blood ratios (lactate/pyruvate, citrulline/arginine) do not differ across pooled cohorts.",
+   "grade": "contested",
+   "plain": "Some studies suggest patients' cells burn sugar less efficiently. Blood measures that should show this are mostly normal when many studies are pooled.",
+   "detail": "Fluge 2016 (200/102) found low TCA-fuelling amino acids in women and higher PDK1/2/4 mRNA in PBMCs; Hoel 2021 described energy strain with altered fuel use in subsets; Yamano 2016 found TCA/urea-cycle ratios (validation AUC 0.75). Armstrong 2015 (NMR, 34/25 women) reported lower blood lactate and glutamate and higher glucose. In the pooled re-analysis, lactate/pyruvate (-0.10), citrulline/arginine, ornithine/arginine and hypoxanthine/xanthine were null; creatine/creatinine +0.19. These are inferences from plasma about tissue metabolism; direct tissue flux measurements are scarce.",
+   "studies": [
+    {
+     "cite": "Fluge 2016, JCI Insight",
+     "n": "200 vs 102",
+     "design": "case-control, serum amino acids + PBMC mRNA",
+     "result": "lower TCA-fuelling amino acids mainly in women; PDK1/2/4, SIRT4, PPARδ mRNA higher; suggests impaired pyruvate dehydrogenase",
+     "url": "https://doi.org/10.1172/jci.insight.89376",
+     "verified": true
+    },
+    {
+     "cite": "Hoel 2021, JCI Insight",
+     "n": "83 vs 35",
+     "design": "case-control, serum metabolomics, lipidomics, hormones",
+     "result": "common changes consistent with energy strain and altered fatty-acid/amino-acid fuel use; 3 patient subsets (metabotypes), 2 with distinct energy-metabolism patterns",
+     "url": "https://doi.org/10.1172/jci.insight.149217",
+     "verified": true
+    },
+    {
+     "cite": "Yamano 2016, Sci Rep",
+     "n": "133 samples (93 train / 40 validation)",
+     "design": "case-control, CE-MS plasma",
+     "result": "TCA and urea-cycle intermediates differ; ornithine/citrulline + pyruvate/isocitrate AUC 0.80 train, 0.75 validation",
+     "url": "https://doi.org/10.1038/srep34990",
+     "verified": true
+    },
+    {
+     "cite": "Armstrong 2015, Metabolomics",
+     "n": "34 vs 25 (women)",
+     "design": "case-control, 1H NMR blood and urine",
+     "result": "lower lactate, acetate, glutamate; higher glucose (via review table)",
+     "url": "https://doi.org/10.1007/s11306-015-0816-5",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Solving ME/CFS re-analysis (deep2 metabolome-wide)",
+     "n": "multiple cohorts",
+     "design": "pre-specified ratio meta-analysis",
+     "result": "lactate/pyruvate, NO/urea-cycle and purine ratios null; no support for an arginine/NO substrate problem",
+     "url": "/#data",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Does PDH activity measured in muscle biopsies differ?",
+    "Are Hoel's metabotypes stable over time in the same person?"
+   ],
+   "hypotheses": [
+    "mitochondrial-energy",
+    "serum-factor"
+   ],
+   "test_available": "research only"
+  },
+  {
+   "id": "omics-ketones",
+   "subdomain": "Metabolomics: ketones",
+   "finding": "Ketone bodies are associated with ME/CFS in UK Biobank NMR data, but 3-hydroxybutyrate shows no consistent difference in pooled case-control cohorts.",
+   "grade": "contested",
+   "plain": "One very large data set links ketones (fuel made from fat) to ME/CFS; smaller studies pooled together do not.",
+   "detail": "Huang 2024 (1,194 ME/CFS in UK Biobank, NMR) reported lipoprotein and ketone-body associations; their ML model (19 baseline characteristics + 9 NMR biomarkers) reached AUC 0.83, with much of the signal from non-omic features. Fasting time and diet differ by group and strongly affect ketones. Pooled re-analysis: 3-hydroxybutyrate null; ketones used as a covariate did not explain other signals.",
+   "studies": [
+    {
+     "cite": "Huang 2024, Commun Med",
+     "n": "1,194 ME/CFS vs 53,009 controls + comorbid groups",
+     "design": "UK Biobank NMR metabolomics, association + ML",
+     "result": "168 biomarker associations incl. surface lipids and ketone bodies; AUC 0.83 with 19 baseline characteristics + 9 NMR markers",
+     "url": "https://doi.org/10.1038/s43856-024-00669-7",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Solving ME/CFS re-analysis (datasets)",
+     "n": "4 cohorts",
+     "design": "meta-analysis",
+     "result": "3-hydroxybutyrate null",
+     "url": "/#data",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Ketones under controlled fasting with orthostatic measures?"
+   ],
+   "hypotheses": [
+    "mitochondrial-energy"
+   ],
+   "test_available": "Blood beta-hydroxybutyrate (routine); not diagnostic"
+  },
+  {
+   "id": "omics-exercise-metabolome",
+   "subdomain": "Metabolomics: exercise response",
+   "finding": "Germain 2022 reported growing metabolic divergence after a 2-day CPET; within-person re-analysis finds the exercise response itself barely differs (blunted lactate and glucose rise aside).",
+   "grade": "contested",
+   "plain": "A study took blood before and after two exercise tests and saw bigger differences after. Re-analysed person by person, the changes caused by exercise look mostly the same in patients and controls.",
+   "detail": "Germain 2022 (60/45, 1,157 metabolites, 4 time points) found female significant counts rising from 6 to 54 across time points. Re-analysis: day-1 and day-2 case-control differences correlate 0.85 and are only ~6% larger on day 2; within-person change scores are at chance (permutation p=0.12-0.61). Surviving signals: smaller lactate rise (likely lower workload), no post-exercise glucose rise in patients, oxidised cys-gly rising only in patients. Five of 8 people with missing post-exercise samples were severely affected men.",
+   "studies": [
+    {
+     "cite": "Germain 2022, JCI Insight",
+     "n": "60 vs 45",
+     "design": "2-day CPET, 4 time points, Metabolon (1,157 metabolites)",
+     "result": "baseline differences; authors report growing patient-control divergence after exercise in lipid and energy pathways",
+     "url": "https://doi.org/10.1172/jci.insight.157621",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Solving ME/CFS re-analysis (PEM)",
+     "n": "60 vs 45, 404 samples",
+     "design": "within-person change, mixed models, permutation",
+     "result": "exercise response at chance; 3 modest signals; no reproducible response subgroups (ARI 0.01)",
+     "url": "/#data",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Samples at 48-72 h, when PEM peaks?",
+    "Workload-matched comparisons?"
+   ],
+   "hypotheses": [
+    "mitochondrial-energy",
+    "small-vessel-capillary"
+   ],
+   "test_available": "research only"
+  },
+  {
+   "id": "omics-collagen-metso",
+   "subdomain": "Metabolomics: collagen turnover",
+   "finding": "Collagen breakdown products (hydroxyproline, galactosyl-hydroxylysine and related) are higher in ME/CFS plasma (+0.52 SD, 4/4 Metabolon cohorts; hydroxyproline also up on 3 other platforms).",
+   "grade": "early",
+   "plain": "Fragments released when collagen (the body's connective-tissue protein) is broken down are a bit higher in patients.",
+   "detail": "Solving ME/CFS re-analysis only: p=2e-8 for the module; hydroxyproline +0.31 SD across 8 cohorts. Galactosyl-hydroxylysine weakens after drug adjustment. Collagen/gelatin supplements and diet are not excluded. Fits loosely with lower ECM/fibroblast and vascular mural proteins in the proteome re-analysis, but the direction (more breakdown, less matrix protein) needs direct markers (CTX-I, PIIINP).",
+   "studies": [
+    {
+     "cite": "Solving ME/CFS re-analysis (deep2 metabolome-wide)",
+     "n": "4 Metabolon + 4 other cohorts",
+     "design": "meta-analysis",
+     "result": "collagen module +0.52 SD; hydroxyproline +0.31 SD",
+     "url": "/#data",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "open_questions": [
+    "Link to hypermobility / POTS subgroups?",
+    "Supplement and diet history?"
+   ],
+   "hypotheses": [
+    "connective-tissue",
+    "small-vessel-capillary"
+   ],
+   "test_available": "research only"
+  },
+  {
+   "id": "omics-redox",
+   "subdomain": "Redox / oxidative stress",
+   "finding": "Markers of oxidative stress (methionine sulfoxide, oxidised glutathione products, lower brain glutathione) are repeatedly reported, but they are non-specific and also seen in depression.",
+   "grade": "several",
+   "plain": "Signs that cells are under chemical 'rust' stress show up in several studies, but the same signs appear in other illnesses too.",
+   "detail": "Methionine sulfoxide/methionine +0.35 SD in 7/7 cohorts across 3 platforms (I²=0), though methionine oxidises during storage; 5-oxoproline/glutamate -0.25 SD (Solving ME/CFS re-analysis). Germain 2018 proposed broad redox imbalance; Germain 2022 data show oxidised cys-gly rising after exercise in patients only. Shungu 2012 (MRS, 15 CFS/15 MDD/13 HC) found lower cortical glutathione and higher ventricular lactate in both CFS and depression. Antioxidant trials have not shown clear benefit.",
+   "studies": [
+    {
+     "cite": "Germain 2018, Metabolites",
+     "n": "32 vs 19 (women)",
+     "design": "case-control, Metabolon (832 metabolites)",
+     "result": "14 metabolites differ; authors propose broad redox imbalance",
+     "url": "https://doi.org/10.3390/metabo8040090",
+     "verified": true
+    },
+    {
+     "cite": "Shungu 2012, NMR Biomed",
+     "n": "15 CFS, 15 MDD, 13 HC",
+     "design": "1H MRS case-control",
+     "result": "higher ventricular lactate, lower cortical glutathione in CFS and MDD; no CFS-MDD difference in GSH",
+     "url": "https://doi.org/10.1002/nbm.2772",
+     "verified": true
+    },
+    {
+     "cite": "Solving ME/CFS re-analysis (deep2 metabolome-wide)",
+     "n": "7 cohorts",
+     "design": "meta-analysis",
+     "result": "methionine sulfoxide ratio +0.35 SD, I²=0",
+     "url": "/#data",
+     "verified": true
+    },
+    {
+     "cite": "Shankar 2025, PNAS",
+     "n": "ME/CFS",
+     "design": "redox",
+     "result": "Lymphocytes from 27 ME/CFS and 20 LC showed raised oxidative stress, higher glutathione, lower SOD2 and lipid oxidative damage, with sex differences; metformin damped T-cell hyperproliferation",
+     "url": "https://doi.org/10.1073/pnas.2426564122",
+     "verified": true
+    },
+    {
+     "cite": "Jammes 2005, J Intern Med",
+     "n": "CFS",
+     "design": "exercise oxidative stress",
+     "result": "exaggerated oxidative stress after exercise",
+     "url": "https://doi.org/10.1111/j.1365-2796.2005.01452.x",
+     "verified": true
+    },
+    {
+     "cite": "Fulle 2000, Free Radic Biol Med",
+     "n": "CFS",
+     "design": "muscle",
+     "result": "muscle oxidative damage",
+     "url": "https://doi.org/10.1016/s0891-5849(00)00419-6",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "open_questions": [
+    "Does MetSO hold in rapidly processed samples with matched storage time?",
+    "Is oxidative stress cause, consequence, or shared with any chronic illness?"
+   ],
+   "hypotheses": [
+    "oxidative-stress",
+    "mitochondrial-energy"
+   ],
+   "test_available": "research only"
+  },
+  {
+   "id": "omics-nad",
+   "subdomain": "NAD+",
+   "finding": "NAD+ depletion is a proposed mechanism but has not been directly established in ME/CFS cohorts; NAD precursor trials raise NAD+ without clear clinical benefit.",
+   "grade": "early",
+   "plain": "NAD+ is a molecule cells need for energy. The idea that patients lack it is mostly theory; supplements raise it but have not clearly helped.",
+   "detail": "Reviews (Dehhaghi 2022) link the kynurenine pathway to NAD+ synthesis. Castro-Marrero 2015 (n=73) and 2021 (n=207) RCTs of CoQ10 200 mg + NADH 20 mg reported modest improvements in some fatigue/cognitive scores. A long-COVID RCT of nicotinamide riboside 2 g/day (n=58) raised blood NAD+ 2.6-3.1x but showed no between-group difference in cognition or fatigue (p=0.59), with high dropout. Vitamin B3 pathway changes appeared in Abujrais 2024 untargeted data.",
+   "studies": [
+    {
+     "cite": "Dehhaghi 2022, Aging Dis",
+     "n": "review",
+     "design": "narrative review",
+     "result": "links KP hyperactivation and NAD+ metabolism in ME/CFS",
+     "url": "https://doi.org/10.14336/ad.2021.0824",
+     "verified": true
+    },
+    {
+     "cite": "Castro-Marrero 2021, Nutrients",
+     "n": "207 (104 vs 103)",
+     "design": "12-week RCT CoQ10 + NADH",
+     "result": "reduction in cognitive fatigue and some QoL measures reported",
+     "url": "https://doi.org/10.3390/nu13082658",
+     "verified": true
+    },
+    {
+     "cite": "Castro-Marrero 2015, Antioxid Redox Signal",
+     "n": "73",
+     "design": "8-week RCT CoQ10 + NADH",
+     "result": "fatigue impact score reduced; PBMC NAD+/NADH, ATP higher",
+     "url": "https://doi.org/10.1089/ars.2014.6181",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Wu 2025, eClinicalMedicine (long COVID)",
+     "n": "58",
+     "design": "24-week RCT nicotinamide riboside",
+     "result": "NAD+ up 2.6-3.1x; no difference in cognition, fatigue, sleep",
+     "url": "https://doi.org/10.1016/j.eclinm.2025.103633",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Is intracellular NAD+/NADH measurably low in patient muscle or immune cells?"
+   ],
+   "hypotheses": [
+    "mitochondrial-energy",
+    "metabolic-trap-ido"
+   ],
+   "test_available": "research only (some commercial NAD+ tests exist but are not validated for ME/CFS)"
+  },
+  {
+   "id": "omics-ukb-blood-traits",
+   "subdomain": "Proteomics and blood traits: UK Biobank",
+   "finding": "In UK Biobank, ME/CFS cases show many small blood-trait differences (inflammation, insulin resistance, liver markers) that replicate partly in All of Us and are not explained by low physical activity.",
+   "grade": "several",
+   "plain": "In a huge UK database, people with an ME/CFS diagnosis have many slightly different blood results, and this is not just because they move less.",
+   "detail": "Beentjes, Ponting and colleagues used semi-parametric (Super Learner, one-step) estimators with activity, walking pace and other mediators. 9 of 14 tested traits replicated in All of Us; people reporting PEM showed stronger differences. Caveats: diagnosis is from records/self-report, so case definition is loose; UK Biobank skews healthier and older; differences are small and single traits do not separate groups. Olink proteomics summary statistics show LEP, ADH4, BCHE, complement factors up and CA14, SOD3 down (Solving ME/CFS re-analysis).",
+   "studies": [
+    {
+     "cite": "Beentjes 2025, EMBO Mol Med",
+     "n": "up to 1,455 cases vs 131,303 controls (UK Biobank); All of Us replication",
+     "design": "population cohort, 3,237 blood traits, mediation analysis",
+     "result": "hundreds of traits differ (116 in both sexes): inflammation, insulin resistance, liver; 9/14 replicated in All of Us; activity mediates only 1/3,237; no single trait discriminates",
+     "url": "https://doi.org/10.1038/s44321-025-00258-8",
+     "verified": true
+    },
+    {
+     "cite": "Huang 2026, iScience",
+     "n": "UK Biobank",
+     "design": "blood traits",
+     "result": "Metabolite GWAS, 875 ME/CFS vs 36,033 controls: ME/CFS-specific SNPs at HSD11B1 and SCGN for lipoprotein lipids; lipid pathway enrichment",
+     "url": "https://doi.org/10.1016/j.isci.2025.114316",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "open_questions": [
+    "Do these survive stricter case definitions (e.g. DecodeME-style questionnaires)?",
+    "How much reflects BMI, medication and comorbidity?"
+   ],
+   "hypotheses": [
+    "innate-hyperactivation",
+    "hpa-endocrine"
+   ],
+   "test_available": "Routine labs (CRP, HbA1c, liver enzymes) exist but are not diagnostic"
+  },
+  {
+   "id": "omics-proteome-muscle-low",
+   "subdomain": "Proteomics: tissue-of-origin",
+   "finding": "Muscle-derived intracellular proteins (myoglobin, troponins, CA3 and similar) are lower in resting ME/CFS blood across three SomaScan cohorts and UK Biobank Olink, and this is not explained by activity measures.",
+   "grade": "several",
+   "plain": "Proteins that normally leak from muscle into blood are a little lower in patients, perhaps meaning less muscle or slower muscle turnover, not ongoing muscle damage.",
+   "detail": "Hoel 2026 reported reduced intracellular skeletal-muscle proteins. Solving ME/CFS re-analysis: muscle theme d -0.50 (95% CI -0.76 to -0.24), q=0.002, I² 0.07 across Hoel (-0.85), Germain (-0.43), Walitt (-0.34); UKB competitive shift negative; not mediated by walking pace, not related to steps, Bell score or time reclined. Lean mass was not measured, so reduced muscle mass remains a plausible explanation.",
+   "studies": [
+    {
+     "cite": "Hoel 2026, Cell Rep Med",
+     "n": "50 vs 29",
+     "design": "case-control, SomaScan 7k serum proteomics",
+     "result": "1,823 aptamers differ (845 FDR); secreted proteins up, intracellular (skeletal muscle) proteins down; lower activated-neutrophil secretion",
+     "url": "https://doi.org/10.1016/j.xcrm.2026.102647",
+     "verified": true
+    },
+    {
+     "cite": "Solving ME/CFS re-analysis (deep2 proteome)",
+     "n": "~150 vs ~105 per-person + UKB",
+     "design": "random-effects meta-analysis of protein sets",
+     "result": "muscle_damage set d -0.50, q=0.002",
+     "url": "/#data",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "open_questions": [
+    "Does it survive adjustment for DXA lean mass?",
+    "Relation to muscle biopsy fibre size and capillarisation?"
+   ],
+   "hypotheses": [
+    "mitochondrial-energy",
+    "small-vessel-capillary"
+   ],
+   "test_available": "CK and myoglobin are routine but expected low-normal; not diagnostic"
+  },
+  {
+   "id": "omics-proteome-hoel-leak",
+   "subdomain": "Proteomics: SomaScan artefacts",
+   "finding": "Most of the ~845 FDR-significant serum proteins in Hoel 2026 appear driven by a sample-handling (cell-leak) signal that is absent from other cohorts; about 13 survive adjustment.",
+   "grade": "contested",
+   "plain": "A large protein study found hundreds of differences, but a re-analysis suggests most came from how samples were handled rather than the illness.",
+   "detail": "Solving ME/CFS re-analysis built a nuclear/cell-leak score: case-control d -1.16 in Hoel, ~0 in Germain, Walitt serum and Walitt CSF. After adjustment Hoel keeps 13 FDR hits (COMP, C6, ANTXR2, LAMA2, FAP and others). Hoel's raw statistics correlate with Germain only through intracellular proteins, and not after adjustment. Hoel authors validated a selection by antibody methods. Across ~6,000 proteins meta-analysed in 4 cohorts, only 32 reach q<0.05 and replicated effects are d 0.25-0.5 (ITGAV, NOTCH3, THBS1, LUM, ADH4, GSTA1, BAFF up).",
+   "studies": [
+    {
+     "cite": "Hoel 2026, Cell Rep Med",
+     "n": "50 vs 29",
+     "design": "case-control, SomaScan 7k serum proteomics",
+     "result": "1,823 aptamers differ (845 FDR); secreted proteins up, intracellular (skeletal muscle) proteins down; lower activated-neutrophil secretion",
+     "url": "https://doi.org/10.1016/j.xcrm.2026.102647",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Solving ME/CFS re-analysis (deep2 proteome)",
+     "n": "Hoel 50/24 + Germain + Walitt + UKB",
+     "design": "artefact score and leak-adjusted meta-analysis",
+     "result": "leak score separates only Hoel (d -1.16); 13 hits survive",
+     "url": "/#data",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Were case and control samples processed with different delays?",
+    "Do the 13 surviving proteins replicate prospectively?"
+   ],
+   "hypotheses": [
+    "vascular-endothelial",
+    "connective-tissue"
+   ],
+   "test_available": "research only"
+  },
+  {
+   "id": "omics-proteome-liver-vascular",
+   "subdomain": "Proteomics: replicated small shifts",
+   "finding": "Hepatocyte enzymes (ADH4, GSTA1, AGXT, BCHE) are modestly higher, and vascular mural/matrix proteins (ITGAV, NOTCH3, LUM, THBS1, TGF-beta family) modestly lower, in more than one cohort.",
+   "grade": "early",
+   "plain": "A few groups of blood proteins, from the liver and from the walls of small vessels, are slightly shifted in several data sets.",
+   "detail": "Liver set d +0.40 (q=0.013) but defined after seeing data and tracks BMI; up in Germain and UKB, partly Hoel, not in long COVID. Mural/ECM: ITGAV -0.34 (4 cohorts), NOTCH3 -0.32, TGF-beta set -0.44 (q=0.013); a long COVID UK Olink set also shows lower ECM/endothelial proteins. Endothelial 'activation' markers go down, not up, and platelet/microclot proteins are not raised. Expected candidates (renin, ACE, endothelin, BNP, EPO, hepcidin, NEFL, GFAP, IL-6, CRP) are null.",
+   "studies": [
+    {
+     "cite": "Solving ME/CFS re-analysis (deep2 proteome)",
+     "n": "4 blood cohorts",
+     "design": "set and single-protein meta-analysis",
+     "result": "liver +0.40; TGF-beta -0.44; ITGAV -0.34; many named candidates null",
+     "url": "/#data",
+     "verified": true
+    },
+    {
+     "cite": "Beentjes 2025, EMBO Mol Med",
+     "n": "up to 1,455 cases vs 131,303 controls (UK Biobank); All of Us replication",
+     "design": "population cohort, 3,237 blood traits, mediation analysis",
+     "result": "hundreds of traits differ (116 in both sexes): inflammation, insulin resistance, liver; 9/14 replicated in All of Us; activity mediates only 1/3,237; no single trait discriminates",
+     "url": "https://doi.org/10.1038/s44321-025-00258-8",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "open_questions": [
+    "Do liver proteins survive adjustment for fatty-liver index and ALT/GGT?",
+    "Do lower NOTCH3/ITGAV reflect pericyte loss or shedding?"
+   ],
+   "hypotheses": [
+    "small-vessel-capillary",
+    "vascular-endothelial",
+    "complement-thromboinflammation"
+   ],
+   "test_available": "Routine liver tests; otherwise research only"
+  },
+  {
+   "id": "omics-exertion-proteome",
+   "subdomain": "Proteomics: exertion",
+   "finding": "Germain 2025 reported patient-specific proteomic changes during recovery after a 2-day CPET, but a within-person re-analysis of the same data finds no protein whose exercise response differs at FDR.",
+   "grade": "contested",
+   "plain": "One large study reported that patients' blood proteins react differently to exercise. When re-analysed person by person, no single protein clearly did.",
+   "detail": "Germain 2025: 79 ME/CFS vs 53 sedentary controls, 6,361 proteins, 2 CPETs 24 h apart; pathway-level claims of suppressed T/B-cell and IL-17 signalling and raised glycolysis. Re-analysis: 0 FDR hits for differential change; no tissue score changes with exertion. Smaller EV studies after CPET (Giloteaux 2024, 18/17 women; Glass 2025, 10/12 men) report altered EV cargo responses (TCA down, complement up at 15 min; ER-stress proteins correlating with PEM), but n is small.",
+   "studies": [
+    {
+     "cite": "Germain 2025, Mol Cell Proteomics",
+     "n": "79 vs 53 (sedentary controls)",
+     "design": "2-day CPET, SomaScan 7k, longitudinal",
+     "result": "widespread changes after exertion, most in recovery; suppressed T/B signalling and IL-17, higher glycolysis proteins; sex differences",
+     "url": "https://doi.org/10.1016/j.mcpro.2025.101467",
+     "verified": true
+    },
+    {
+     "cite": "Giloteaux 2024, J Extracell Vesicles",
+     "n": "18 vs 17 (women)",
+     "design": "CPET, EV TMT proteomics, 3 time points",
+     "result": "EV proteome response differs; changes correlate with severity",
+     "url": "https://doi.org/10.1002/jev2.12403",
+     "verified": true
+    },
+    {
+     "cite": "Glass 2025, Clin Transl Med",
+     "n": "10 vs 12 (men)",
+     "design": "CPET, EV proteomics",
+     "result": "TCA proteins down, complement up 15 min post-exercise; ER-stress changes track PEM",
+     "url": "https://doi.org/10.1002/ctm2.70346",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Solving ME/CFS re-analysis (deep2 proteome)",
+     "n": "Germain 79/51 per-person",
+     "design": "within-person change",
+     "result": "0 FDR hits for differential exercise response",
+     "url": "/#data",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Sampling at 48-72 h?",
+    "Effort-matched comparison and correction for lower workload?"
+   ],
+   "hypotheses": [
+    "immune-exhaustion",
+    "mitochondrial-energy",
+    "complement-thromboinflammation"
+   ],
+   "test_available": "research only"
+  },
+  {
+   "id": "omics-ev",
+   "subdomain": "Extracellular vesicles",
+   "finding": "Plasma extracellular vesicle (EV) counts may be higher in ME/CFS, but no EV protein or microRNA difference has survived multiple-testing correction in a replicated cohort.",
+   "grade": "early",
+   "plain": "Tiny particles cells release into blood may be more numerous in patients, but their contents have not shown a reliable difference yet.",
+   "detail": "Rydland 2026 (49/50, SEC + MS proteomics): higher EV concentration; 11 of 424 proteins differ nominally (erythroid, hepatocyte, plasma-cell origin), none after FDR. Re-analysis of Rydland and Giloteaux EV data: no FDR hits. Eguchi 2026 EV-miRNA study had 6 ME/CFS. EV isolation methods vary widely and platelet activation during handling changes EV counts.",
+   "studies": [
+    {
+     "cite": "Rydland 2026, Biochem Biophys Rep",
+     "n": "49 vs 50",
+     "design": "case-control, EV proteomics",
+     "result": "more EVs; 11 nominal protein differences, none FDR",
+     "url": "https://doi.org/10.1016/j.bbrep.2026.102679",
+     "verified": true
+    },
+    {
+     "cite": "Eguchi 2026, J Transl Med",
+     "n": "6 ME/CFS, 6 ICF, 8 depression, 4 HC",
+     "design": "EV miRNA profiling",
+     "result": "candidate EV-miRNAs; very small n",
+     "url": "https://doi.org/10.1186/s12967-026-08695-w",
+     "verified": true
+    },
+    {
+     "cite": "Seifert 2026, Int J Mol Sci",
+     "n": "ME/CFS",
+     "design": "EV",
+     "result": "Plasma EV cargo altered (haemoglobin alpha, IGFALS); let-7b-5p lower in post-COVID ME/CFS (12 vs 15) and tracked symptoms; small n",
+     "url": "https://doi.org/10.3390/ijms27052314",
+     "verified": true
+    },
+    {
+     "cite": "Ikeda 2026, Open Forum Infect Dis",
+     "n": "LC",
+     "design": "EV",
+     "result": "Higher plasma EV counts in ME/CFS and LC-ME/CFS than recovered controls (FDR-significant); more leukocyte, monocyte and platelet EVs, fewer B-cell EVs",
+     "url": "https://doi.org/10.1093/ofid/ofag209",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Solving ME/CFS re-analysis (deep2 proteome)",
+     "n": "Rydland + Giloteaux EV sets",
+     "design": "re-analysis",
+     "result": "no FDR hits",
+     "url": "/#data",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Standardised EV isolation across sites?",
+    "Do EV counts change with PEM?"
+   ],
+   "hypotheses": [
+    "complement-thromboinflammation",
+    "serum-factor"
+   ],
+   "test_available": "research only"
+  },
+  {
+   "id": "omics-csf-proteome",
+   "subdomain": "CSF proteomics",
+   "finding": "CSF proteomics in ME/CFS is limited to small cohorts and has not produced a replicated protein difference; the largest recent study (31 patients) had no controls.",
+   "grade": "early",
+   "plain": "Studies of the fluid around the brain and spine are few and small, and have not found a consistent difference.",
+   "detail": "Bragee 2026 (31 patients, 902 proteins): within-patient associations with POTS (neutrophil degranulation, platelet activation) and severity (complement, coagulation, IGFBP); re-analysis found 0 FDR hits POTS vs no-POTS. Walitt 2024 CSF SomaScan (~17 vs 21) showed no FDR hits in re-analysis, and no rise in neuronal injury markers. Earlier CSF proteome reports (Schutzer 2011, Baraniuk 2005) were small.",
+   "studies": [
+    {
+     "cite": "Bragee 2026, Sci Rep",
+     "n": "31 patients, no controls",
+     "design": "CSF LC-MS proteomics",
+     "result": "POTS- and severity-associated pathways; hypothesis-generating",
+     "url": "https://doi.org/10.1038/s41598-026-46965-1",
+     "verified": true
+    },
+    {
+     "cite": "Schutzer 2011, PLoS One",
+     "n": "~43 CFS vs controls (pooled)",
+     "design": "CFS vs neurologic post-Lyme vs controls, CSF MS",
+     "result": "distinct CSF proteomes reported",
+     "url": "https://doi.org/10.1371/journal.pone.0017287",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Solving ME/CFS re-analysis (deep2 proteome)",
+     "n": "Walitt CSF + Bragee",
+     "design": "re-analysis",
+     "result": "0 FDR hits; NEFL/GFAP null",
+     "url": "/#data",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Adequately powered CSF study with controls and severe patients?"
+   ],
+   "hypotheses": [
+    "neuroinflammation",
+    "brainstem-craniocervical"
+   ],
+   "test_available": "research only"
+  },
+  {
+   "id": "omics-transcriptome-sc",
+   "subdomain": "Transcriptomics and single-cell",
+   "finding": "Blood transcriptome and single-cell RNA studies report monocyte and platelet abnormalities, but no gene or cell subtype difference replicates across independent cohorts.",
+   "grade": "contested",
+   "plain": "Studies reading which genes are switched on in blood cells found possible differences, but they have not repeated in other groups of patients.",
+   "detail": "Vu 2024 (scRNA, ~30/28, before and 24 h after CPET) reported classical monocyte dysregulation correlating with severity and platelet activation signatures post-exercise. Re-analysis of the same data at person-level pseudobulk: 0 genes at q<0.05 at baseline in 15 cell types; composition null. Across 4 bulk RNA cohorts, 0 genome-wide FDR genes; a plasma-cell/immunoglobulin score is lower in 2/4 (meta d -0.42, p=0.06). Higher mitochondrial RNA fraction in lymphocytes (CD8 Tem d +0.85) is a lead that did not replicate in bulk PBMC. Walitt 2024 reported sex-specific PBMC expression differences in 17/21 people.",
+   "studies": [
+    {
+     "cite": "Vu 2024, Cell Rep Med",
+     "n": "~30 vs 28 (PBMC, pre/post CPET)",
+     "design": "scRNA-seq",
+     "result": "monocyte dysregulation tracking severity; platelet activation post-exercise",
+     "url": "https://doi.org/10.1016/j.xcrm.2023.101373",
+     "verified": true
+    },
+    {
+     "cite": "Walitt 2024, Nat Commun",
+     "n": "17 PI-ME/CFS vs 21 HV",
+     "design": "deep phenotyping incl. PBMC RNA, flow, metabolomics",
+     "result": "sex-specific gene expression and metabolic differences; fewer switched-memory B cells",
+     "url": "https://doi.org/10.1038/s41467-024-45107-3",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Solving ME/CFS re-analysis (deep2 single-cell/methylation, proteome)",
+     "n": "503,739 cells (58 people); 4 bulk RNA cohorts",
+     "design": "person-level pseudobulk DE, cross-cohort meta",
+     "result": "no replicated gene or cell-type difference",
+     "url": "/#data",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "An independent PBMC scRNA cohort (only one lab has published so far)?",
+    "Severe and housebound patients?"
+   ],
+   "hypotheses": [
+    "immune-exhaustion",
+    "innate-hyperactivation",
+    "herpes-reactivation"
+   ],
+   "test_available": "research only"
+  },
+  {
+   "id": "omics-methylation",
+   "subdomain": "Epigenetics / DNA methylation",
+   "finding": "Reported genome-wide blood DNA methylation differences have not replicated across cohorts, at least one large set is explained by cell-composition differences, and epigenetic clocks are not accelerated.",
+   "grade": "contested",
+   "plain": "Chemical tags on DNA were reported to differ in patients, but a closer look shows the differences mostly reflect which blood cells were in the sample.",
+   "detail": "de Vega 2014/2017/2018, Trivedi 2018 (13/12 discovery, 17,296 CpGs; pyrosequencing in 33/31) and Helliwell 2020 (RRBS, 10/10) each reported many differentially methylated sites with little overlap. Re-analysis of 4 cohorts (177/107): in GSE93266, control 'PBMC' DNA contained much more granulocyte DNA (median 48% vs 14%); 44,794 FDR CpGs fall to 0 after composition adjustment; meta-analysis 0 CpGs at q<0.05. Horvath, Hannum, PhenoAge, GrimAge, DunedinPACE null in T cells and saliva. Commercial epigenetic-age tests are not supported for ME/CFS.",
+   "studies": [
+    {
+     "cite": "Trivedi 2018, PLoS One",
+     "n": "13 vs 12 (+33/31 validation)",
+     "design": "EPIC array + pyrosequencing",
+     "result": "17,296 CpGs in 6,368 genes; 307 promoters",
+     "url": "https://doi.org/10.1371/journal.pone.0201066",
+     "verified": true
+    },
+    {
+     "cite": "Helliwell 2020, Clin Epigenetics",
+     "n": "10 vs 10",
+     "design": "RRBS",
+     "result": "76 fragments, 394 CpGs; overlap with earlier gene lists",
+     "url": "https://doi.org/10.1186/s13148-020-00960-z",
+     "verified": true
+    },
+    {
+     "cite": "de Vega 2014, PLoS One",
+     "n": "PBMC case-control",
+     "design": "450K array",
+     "result": "differential methylation in immune genes",
+     "url": "https://doi.org/10.1371/journal.pone.0104757",
+     "verified": true
+    },
+    {
+     "cite": "Peppercorn 2025, Int J Mol Sci",
+     "n": "ME/CFS",
+     "design": "methylation",
+     "result": "PBMC methylation, n=5 per group: 214 differentially methylated fragments in ME/CFS and 429 in LC, 118 shared; very small study",
+     "url": "https://doi.org/10.3390/ijms26146631",
+     "verified": true
+    },
+    {
+     "cite": "Sharma 2025, Int J Mol Sci",
+     "n": "ME/CFS",
+     "design": "methylation",
+     "result": "Methylation changed over 0, 24 and 48 h after two-day CPET in 5 patients, unlike 2 controls; very small study",
+     "url": "https://doi.org/10.3390/ijms26178563",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Solving ME/CFS re-analysis (deep2 single-cell/methylation)",
+     "n": "4 cohorts, 177 vs 107",
+     "design": "composition-adjusted EWAS, clocks",
+     "result": "0 replicated CpGs; clocks normal",
+     "url": "/#data",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Sorted-cell methylation in a large, age-matched cohort?"
+   ],
+   "hypotheses": [
+    "immune-exhaustion",
+    "genetic-neuronal"
+   ],
+   "test_available": "research only (consumer epigenetic-age tests are not validated here)"
+  },
+  {
+   "id": "omics-nanoneedle",
+   "subdomain": "Diagnostics: nanoneedle impedance",
+   "finding": "A nanoelectronic impedance assay separated 20 ME/CFS from 20 controls perfectly after hyperosmotic stress, but there is no published independent replication.",
+   "grade": "early",
+   "plain": "A chip measuring how blood cells react to salt stress separated a small group of patients from controls completely. Nobody outside the lab has confirmed it.",
+   "detail": "Esfandyarpour 2019 (PNAS) used PBMCs incubated in plasma; patients' impedance rose after NaCl stress, controls' did not; plasma swap suggested a plasma factor. The only independent attempt found was a 4 vs 4 bioimpedance preprint (Fernandez 2023) with a different device, which reported higher impedance at one frequency and did not test the original protocol. No disease-control group (e.g. MS, depression) was reported in the original at scale; device-to-device variability is unaddressed in published work.",
+   "studies": [
+    {
+     "cite": "Esfandyarpour 2019, PNAS",
+     "n": "20 vs 20",
+     "design": "case-control, nanoelectronics impedance",
+     "result": "complete separation after hyperosmotic stress; plasma swap effect",
+     "url": "https://doi.org/10.1073/pnas.1901274116",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Fernandez 2023, Authorea preprint",
+     "n": "4 vs 4",
+     "design": "bioimpedance spectroscopy, different device",
+     "result": "higher impedance at 1.36 kHz; not a replication of the original protocol",
+     "url": "https://doi.org/10.22541/au.168909663.38868952/v1",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Blinded multi-site validation with disease controls?",
+    "What molecule in plasma drives the effect?"
+   ],
+   "hypotheses": [
+    "serum-factor",
+    "sodium-calcium-overload"
+   ],
+   "test_available": "research only"
+  },
+  {
+   "id": "omics-raman",
+   "subdomain": "Diagnostics: Raman spectroscopy",
+   "finding": "Raman spectroscopy of PBMCs or plasma separates ME/CFS from controls in single-centre studies (plasma AUC 0.83-0.85), without external validation.",
+   "grade": "early",
+   "plain": "A laser technique that reads the chemical 'fingerprint' of blood looked promising in two labs, but has not been tested in new patients elsewhere.",
+   "detail": "Xu 2019 (single-cell Raman, PBMCs) found higher phenylalanine-associated bands in patients, similar to mtDNA-depleted rho0 cells; small n. Heidarifard 2026 (115 ME vs 45 sedentary controls, plasma at rest and 90 min after a standardised stress) reported AUC 0.85 and 0.83, specificity 73% and 69%. Models are trained and tested within one cohort; spectral features are hard to map to specific molecules.",
+   "studies": [
+    {
+     "cite": "Xu 2019, Analyst",
+     "n": "small (PBMCs from patients and controls)",
+     "design": "single-cell Raman microspectroscopy",
+     "result": "higher phenylalanine bands in CFS PBMCs",
+     "url": "https://doi.org/10.1039/c8an01437j",
+     "verified": true
+    },
+    {
+     "cite": "Heidarifard 2026, Int J Mol Sci",
+     "n": "115 vs 45",
+     "design": "plasma Raman + ML, rest and post-stress",
+     "result": "AUC 0.85 (rest), 0.83 (post-stress)",
+     "url": "https://doi.org/10.3390/ijms27114937",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "open_questions": [
+    "Independent external test set and disease controls?"
+   ],
+   "hypotheses": [
+    "mitochondrial-energy"
+   ],
+   "test_available": "research only"
+  },
+  {
+   "id": "omics-cfrna",
+   "subdomain": "Diagnostics: cell-free RNA",
+   "finding": "Plasma cell-free RNA classified ME/CFS vs sedentary controls with test-set AUC 0.81 and suggested platelet, pDC and monocyte-derived differences; not yet externally validated.",
+   "grade": "early",
+   "plain": "RNA fragments floating in blood plasma could tell patients from controls about 4 times in 5 in one study.",
+   "detail": "Gardella 2025 (PNAS; 93 vs 75 sedentary controls): LASSO model, held-out test AUC 0.81, accuracy 77%; deconvolution suggested differences in platelet-derived cfRNA and higher pDC, monocyte and T-cell cfRNA; network analysis pointed to cytokine signalling and T-cell exhaustion. Held-out test within one cohort; the plasma-cell score that dips in PBMC data was null in this cfRNA set in re-analysis.",
+   "studies": [
+    {
+     "cite": "Gardella 2025, PNAS",
+     "n": "93 vs 75",
+     "design": "case-control, plasma cfRNA-seq + ML",
+     "result": "test AUC 0.81; platelet, pDC, monocyte cfRNA differences",
+     "url": "https://doi.org/10.1073/pnas.2507345122",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "open_questions": [
+    "Performance in a second cohort and against fibromyalgia, depression, long COVID?"
+   ],
+   "hypotheses": [
+    "immune-exhaustion",
+    "complement-thromboinflammation"
+   ],
+   "test_available": "research only"
+  },
+  {
+   "id": "omics-ml-classifiers",
+   "subdomain": "Diagnostics: machine-learning classifiers",
+   "finding": "Multi-omic machine-learning classifiers (BioMapAI and others) perform well in cross-validation but drop to AUC ~0.6-0.77 on external cohorts, so none is usable for diagnosis.",
+   "grade": "contested",
+   "plain": "Computer models trained on many blood and stool measurements do well on the data they learned from but much worse on new patients.",
+   "detail": "BioMapAI (Xiong 2025, 249 participants, 4-year longitudinal sampling) reached 10-fold CV AUC 0.915 with all omics; on external cohorts AUC was 0.72 and 0.59 (Guo stool), 0.61-0.77 (Raijmakers), 0.68 (Germain metabolome) and 0.61 (Che), with only 19-79% feature overlap. Repeated visits per person raise the question of whether CV folds were split by person; disease controls were not included. A small metabolite panel derived in the Solving ME/CFS re-analysis transferred with AUC 0.60-0.83. Huang 2024 UK Biobank AUC 0.83 relied heavily on 19 baseline (non-omic) characteristics. No multi-omic layer converges on a shared pathway beyond chance (re-analysis).",
+   "studies": [
+    {
+     "cite": "Xiong 2025 (BioMapAI), Nat Med",
+     "n": "249 participants, 4-year longitudinal",
+     "design": "deep neural net on stool metagenome, plasma metabolome, immune profiling, labs, symptoms",
+     "result": "10-fold CV AUC 0.915 (all omics); external cohorts AUC 0.59-0.77 (Guo, Raijmakers stool; Germain metabolome 0.68, Che 0.61) with 19-79% feature overlap",
+     "url": "https://doi.org/10.1038/s41591-025-03788-3",
+     "verified": true
+    },
+    {
+     "cite": "Huang 2024, Commun Med",
+     "n": "1,194 ME/CFS (UK Biobank)",
+     "design": "NMR + baseline characteristics ML",
+     "result": "AUC 0.83, recall 0.70",
+     "url": "https://doi.org/10.1038/s43856-024-00669-7",
+     "verified": true
+    },
+    {
+     "cite": "Naviaux 2016, PNAS",
+     "n": "45 vs 39",
+     "design": "case-control, targeted LC-MS/MS (612 metabolites)",
+     "result": "20 pathways abnormal; 80% of discriminating metabolites lower; AUC 0.94 (men, 8 metabolites) and 0.96 (women, 13) within the same data",
+     "url": "https://doi.org/10.1073/pnas.1607571113",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Solving ME/CFS re-analysis (datasets)",
+     "n": "two Cornell cohorts, 575 shared compounds",
+     "design": "cross-cohort concordance",
+     "result": "patient-control differences agree only faintly (rho 0.16); model trained on one scores AUC 0.56 on the other; a public GitHub copy of Germain 2020 has case/control labels swapped",
+     "url": "/#data",
+     "verified": true
+    },
+    {
+     "cite": "Solving ME/CFS re-analysis (deep2 proteome convergence)",
+     "n": "4 omic layers",
+     "design": "pathway-score correlation with permutation null",
+     "result": "no protein-RNA-metabolite-genetics convergence beyond chance (one modest protein-metabolite rho 0.28)",
+     "url": "/#data",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Pre-registered external validation with disease controls (fibromyalgia, depression, MS, long COVID)?",
+    "Person-level train/test splits for longitudinal data?"
+   ],
+   "hypotheses": [
+    "gut-dysbiosis",
+    "immune-exhaustion"
+   ],
+   "test_available": "research only"
+  },
+  {
+   "id": "omics-coverage-limits",
+   "subdomain": "Most comprehensive blood studies",
+   "finding": "Even the deepest blood omics studies sample mainly at rest, in mild-to-moderate patients, in plasma or serum only, and rarely test fresh-cell function or the 48-72 h PEM window.",
+   "grade": "replicated",
+   "plain": "The biggest blood studies so far mostly leave out the sickest patients, the days when symptoms flare after effort, and live-cell tests.",
+   "detail": "Walitt 2024 (NIH, 17/21) is the deepest per person but tiny and excluded many severe patients by design. BioMapAI has 4 years of visits but resting samples only. Germain 2022/2025 and Giloteaux/Glass cover 0, 15 min and 24 h after CPET but not 48-72 h, and the most impaired cannot do CPET (5 of 8 missing post-exercise samples were severe men). UK Biobank is large but one baseline time point with loose case definition. Hoel 2021/2026 are resting serum. Fresh-cell assays (PBMC respiration, NK function, red-cell deformability) are rarely paired with omics; compartments like muscle, CSF and gut tissue are rarely sampled together.",
+   "studies": [
+    {
+     "cite": "Walitt 2024, Nat Commun",
+     "n": "17 vs 21",
+     "design": "deep phenotyping, multiple compartments",
+     "result": "many layers measured, small n",
+     "url": "https://doi.org/10.1038/s41467-024-45107-3",
+     "verified": true
+    },
+    {
+     "cite": "Xiong 2025 (BioMapAI), Nat Med",
+     "n": "249 participants, 4-year longitudinal",
+     "design": "deep neural net on stool metagenome, plasma metabolome, immune profiling, labs, symptoms",
+     "result": "10-fold CV AUC 0.915 (all omics); external cohorts AUC 0.59-0.77 (Guo, Raijmakers stool; Germain metabolome 0.68, Che 0.61) with 19-79% feature overlap",
+     "url": "https://doi.org/10.1038/s41591-025-03788-3",
+     "verified": true
+    },
+    {
+     "cite": "Germain 2025, Mol Cell Proteomics",
+     "n": "79 vs 53 (sedentary controls)",
+     "design": "2-day CPET, SomaScan 7k, longitudinal",
+     "result": "widespread changes after exertion, most in recovery; suppressed T/B signalling and IL-17, higher glycolysis proteins; sex differences",
+     "url": "https://doi.org/10.1016/j.mcpro.2025.101467",
+     "verified": true
+    },
+    {
+     "cite": "Beentjes 2025, EMBO Mol Med",
+     "n": "up to 1,455 cases vs 131,303 controls (UK Biobank); All of Us replication",
+     "design": "population cohort, 3,237 blood traits, mediation analysis",
+     "result": "hundreds of traits differ (116 in both sexes): inflammation, insulin resistance, liver; 9/14 replicated in All of Us; activity mediates only 1/3,237; no single trait discriminates",
+     "url": "https://doi.org/10.1038/s44321-025-00258-8",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "open_questions": [
+    "Who will run a multi-omic study in severe/housebound patients with home sampling?",
+    "Dense sampling through a PEM episode?"
+   ],
+   "hypotheses": [],
+   "test_available": "n/a"
+  },
+  {
+   "id": "omics-haptoglobin-pem",
+   "subdomain": "Proteomics: exertion",
+   "finding": "Haptoglobin and FGF-21 have been proposed as blood markers of PEM-related biology in single-centre studies with validation cohorts.",
+   "grade": "early",
+   "plain": "Two blood proteins track with post-exertional symptoms in early studies.",
+   "detail": "",
+   "studies": [
+    {
+     "cite": "Moezzi 2025, J Transl Med",
+     "n": "140 vs 44 + validation",
+     "design": "proteomics",
+     "result": "haptoglobin associated with ME/CFS/PEM",
+     "url": "https://doi.org/10.1186/s12967-025-07006-z",
+     "verified": true
+    },
+    {
+     "cite": "Azimi 2025, Int J Mol Sci",
+     "n": "ME/CFS",
+     "design": "plasma",
+     "result": "FGF-21 elevated",
+     "url": "https://doi.org/10.3390/ijms26167670",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "hypotheses": [],
+   "open_questions": [],
+   "test_available": false
+  },
+  {
+   "id": "omics-telomere",
+   "subdomain": "Transcriptomics and single-cell",
+   "finding": "Shorter leukocyte telomeres in CFS, driven by women under 45, in a population-based sample.",
+   "grade": "early",
+   "plain": "One large study found shorter chromosome caps (telomeres), a marker of cell ageing.",
+   "detail": "",
+   "studies": [
+    {
+     "cite": "Rajeevan 2018, J Transl Med",
+     "n": "639",
+     "design": "population-based case-control",
+     "result": "shorter telomeres in CFS, mainly younger women",
+     "url": "https://doi.org/10.1186/s12967-018-1414-x",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "hypotheses": [],
+   "open_questions": [],
+   "test_available": false
+  },
+  {
+   "id": "omics-lc-serotonin",
+   "subdomain": "Metabolomics: tryptophan / gut metabolites",
+   "finding": "Low circulating serotonin in long COVID (attributed to viral RNA persistence, interferon and reduced tryptophan uptake) has not reproduced in a later cohort.",
+   "grade": "contested",
+   "plain": "A high-profile study found low serotonin in long COVID; a follow-up did not.",
+   "detail": "",
+   "studies": [
+    {
+     "cite": "Wong 2023, Cell",
+     "n": "LC cohorts + animal models",
+     "design": "multi-cohort metabolomics + mechanistic",
+     "result": "serotonin reduced in LC; linked to viral persistence/IFN",
+     "url": "https://doi.org/10.1016/j.cell.2023.09.013",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Mathe 2025, Infection",
+     "n": "LC",
+     "design": "plasma serotonin",
+     "result": "no reduction",
+     "url": "https://doi.org/10.1007/s15010-024-02397-5",
+     "verified": true
+    },
+    {
+     "cite": "Anderson 2024, J Inflamm Res",
+     "n": "commentary",
+     "design": "critique",
+     "result": "methodological concerns",
+     "url": "https://doi.org/10.2147/jir.s456000",
+     "verified": true
+    }
+   ],
+   "hypotheses": [],
+   "open_questions": [],
+   "test_available": false
+  }
+ ],
+ "hypotheses_notes": [
+  {
+   "id": "cell-danger-response",
+   "for": "Naviaux 2016: 80% of discriminating metabolites lower; lipid/purine changes; Hoel 2021 energy strain.",
+   "against": "No peer-reviewed replication of a homogeneous hypometabolic profile; pooled cohorts show small, mixed shifts."
+  },
+  {
+   "id": "mitochondrial-energy",
+   "for": "Fluge 2016 PDH pattern; lower carnitines/acylcarnitines; low muscle proteins in blood; Germain 2022 blunted glucose rise; Hoel 2021 metabotypes.",
+   "against": "Lactate/pyruvate and other energy ratios null in pooled data; exercise metabolome response mostly normal within person."
+  },
+  {
+   "id": "metabolic-trap-ido",
+   "for": "Model plausibility (Kashi 2019); Kavyani 2024 higher kynurenine tracking severity.",
+   "against": "Pooled data show slightly lower kynurenine; kyn/trp ratio null; IDO1/KYNU protein null; plasma cannot test intracellular kinetics."
+  },
+  {
+   "id": "gut-dysbiosis",
+   "for": "Low IPA in 4/4 cohorts tied to butyrate producers; Xiong 2023 low plasma butyrate; BioMapAI connectivity.",
+   "against": "Aromatic lactates, the strongest metabolite signal, are not stool-predicted."
+  },
+  {
+   "id": "oxidative-stress",
+   "for": "Methionine sulfoxide +0.35 SD in 7/7 cohorts; Germain 2018; post-exercise oxidised cys-gly; Shungu 2012 low brain GSH.",
+   "against": "Same changes in depression; storage artefacts possible; antioxidant trials unconvincing."
+  },
+  {
+   "id": "connective-tissue",
+   "for": "Higher collagen breakdown products; lower ECM/fibroblast and mural proteins.",
+   "against": "Re-analysis only; diet/supplements not excluded."
+  },
+  {
+   "id": "small-vessel-capillary",
+   "for": "Lower NOTCH3, ITGAV, TGF-beta and vascular smooth-muscle protein sets.",
+   "against": "Endothelial activation and platelet/microclot protein sets are lower, not higher."
+  },
+  {
+   "id": "immune-exhaustion",
+   "for": "cfRNA T-cell exhaustion signature (Gardella 2025); Germain 2025 suppressed T/B signalling after exertion; plasma-cell RNA dip.",
+   "against": "No replicated single-cell or bulk transcript difference."
+  },
+  {
+   "id": "serum-factor",
+   "for": "Nanoneedle plasma-swap effect; Fluge 2016 serum effects on myoblasts.",
+   "against": "No independent replication of the nanoneedle assay."
+  },
+  {
+   "id": "complement-thromboinflammation",
+   "for": "Complement up in Hoel and UKB; EV complement rise post-exercise in men.",
+   "against": "Complement direction inconsistent across cohorts (down in Walitt); platelet set lower."
+  }
+ ],
+ "glossary": [
+  {
+   "term": "Metabolomics",
+   "plain": "Measuring hundreds to thousands of small molecules (sugars, fats, amino acids, drug traces) in a sample at once."
+  },
+  {
+   "term": "Proteomics (SomaScan, Olink)",
+   "plain": "Measuring thousands of proteins at once; SomaScan uses DNA-like aptamers, Olink uses antibody pairs. Both can be distorted by how a sample is handled."
+  },
+  {
+   "term": "Effect size (SD, d)",
+   "plain": "How far apart the group averages are, in units of normal person-to-person spread. 0.2 is small, 0.5 moderate, 0.8 large."
+  },
+  {
+   "term": "AUC",
+   "plain": "How well a test separates two groups: 0.5 is a coin flip, 1.0 is perfect. Values from the same data used to build a model are usually too optimistic."
+  },
+  {
+   "term": "Cell danger response (CDR)",
+   "plain": "Naviaux's idea that cells under threat switch into a protective, low-energy mode, which in ME/CFS fails to switch off."
+  },
+  {
+   "term": "IDO metabolic trap",
+   "plain": "A model in which the tryptophan-processing enzyme IDO1 gets stuck in a low-activity state because of substrate inhibition and inactive IDO2 variants."
+  },
+  {
+   "term": "Plasmalogens",
+   "plain": "Membrane fats made partly in peroxisomes; thought to protect against oxidation."
+  },
+  {
+   "term": "Acylcarnitines",
+   "plain": "Fats bound to carnitine for transport into mitochondria; their profile hints at how fat is burned."
+  },
+  {
+   "term": "Extracellular vesicles (EVs)",
+   "plain": "Tiny membrane bubbles released by cells into blood, carrying proteins and RNA."
+  },
+  {
+   "term": "Cell-free RNA (cfRNA)",
+   "plain": "RNA fragments in plasma released by dying or active cells, showing which tissues are busy."
+  },
+  {
+   "term": "DNA methylation / epigenetic clock",
+   "plain": "Chemical tags on DNA that change gene activity; clocks estimate biological age from them. Results depend heavily on the mix of cell types."
+  },
+  {
+   "term": "Cross-validation vs external validation",
+   "plain": "Testing a model on parts of the same data set vs on a completely separate group of people. Only the second shows real-world performance."
+  }
+ ],
+ "key_reviews": [
+  {
+   "cite": "Yamano 2021, Int J Mol Sci",
+   "url": "https://doi.org/10.3390/ijms22073423",
+   "why": "Overview of metabolite biomarker studies in ME/CFS and animal models."
+  },
+  {
+   "cite": "Davis 2025, Front Neurosci",
+   "url": "https://doi.org/10.3389/fnins.2025.1498981",
+   "why": "Review of lipid, energy and oxidative-stress omics across ME/CFS, Gulf War illness and fibromyalgia."
+  },
+  {
+   "cite": "Kavyani 2022, Cell Mol Life Sci",
+   "url": "https://doi.org/10.1007/s00018-022-04380-5",
+   "why": "Review of the kynurenine pathway case in ME/CFS."
+  },
+  {
+   "cite": "Beentjes 2025, EMBO Mol Med",
+   "url": "https://doi.org/10.1038/s44321-025-00258-8",
+   "why": "Largest blood-trait analysis, with explicit handling of inactivity as a confounder."
+  },
+  {
+   "cite": "Xiong 2025 (BioMapAI), Nat Med",
+   "url": "https://doi.org/10.1038/s41591-025-03788-3",
+   "why": "Largest longitudinal multi-omic data set; reports external validation numbers worth reading critically."
+  }
+ ],
+ "gaps": [
+  "No multi-omic study in severe or housebound patients with home sampling.",
+  "No dense sampling across a PEM episode (48-72 h and beyond); exertion studies stop at 24 h.",
+  "Very few studies include disease controls (fibromyalgia, depression, MS, deconditioning, long COVID) needed to test specificity.",
+  "Drug exposure, caffeine, fasting status and sample processing time are rarely recorded or adjusted, despite large effects on metabolomics and proteomics.",
+  "No pre-registered, multi-site external validation of any diagnostic classifier (nanoneedle, Raman, cfRNA, BioMapAI).",
+  "Targeted confirmation of low aromatic lactates (with D/L isomers) and high collagen breakdown in fasting, drug-free samples.",
+  "Lean mass not measured alongside the low muscle-protein signal.",
+  "Fresh-cell functional assays (PBMC respiration, NK cytotoxicity, red-cell deformability) are not paired with omics in the same people.",
+  "Only one lab's PBMC single-cell RNA data exist; no independent scRNA cohort.",
+  "Intracellular NAD+/NADH and tryptophan flux have not been measured directly in patient tissue."
+ ],
+ "comprehensive_studies": [
+  {
+   "name": "Walitt 2024 (NIH intramural)",
+   "n": "17 PI-ME/CFS vs 21 HV",
+   "compartments": "plasma, CSF, PBMC, stool, muscle physiology, brain imaging",
+   "timepoints": "mostly single visit; exercise tests",
+   "severity": "mild-moderate; strict entry criteria",
+   "fresh_cell_function": "flow cytometry only",
+   "limits": "very small n; results by sex underpowered"
+  },
+  {
+   "name": "BioMapAI / Xiong 2025 (JAX, Bateman Horne)",
+   "n": "249 participants, 4 years",
+   "compartments": "plasma metabolome, stool metagenome, immune flow, routine labs",
+   "timepoints": "up to 4 yearly visits at rest",
+   "severity": "mixed, mostly ambulatory",
+   "fresh_cell_function": "stimulated cytokine flow",
+   "limits": "no disease controls; external AUC 0.59-0.77"
+  },
+  {
+   "name": "Germain 2022 / 2025, Giloteaux 2024, Glass 2025 (Cornell)",
+   "n": "60/45 metabolome; 79/53 proteome; EV subsets 18/17 F, 10/12 M",
+   "compartments": "plasma metabolome, SomaScan proteome, EVs",
+   "timepoints": "pre/post CPET day 1 and day 2 (15 min, 24 h)",
+   "severity": "able to complete 2 CPETs",
+   "fresh_cell_function": "none in these papers",
+   "limits": "no 48-72 h samples; most impaired excluded or missing"
+  },
+  {
+   "name": "Beentjes 2025 (UK Biobank, All of Us)",
+   "n": "up to 1,455 cases vs 131,303",
+   "compartments": "routine biochemistry, counts, NMR, Olink",
+   "timepoints": "single baseline",
+   "severity": "unknown; record/self-report diagnosis",
+   "fresh_cell_function": "none",
+   "limits": "loose case definition; healthy-volunteer bias"
+  },
+  {
+   "name": "Hoel 2021 / Hoel 2026 (Bergen)",
+   "n": "83/35 metabolome; 50/29 proteome",
+   "compartments": "serum",
+   "timepoints": "single resting",
+   "severity": "mild to severe",
+   "fresh_cell_function": "none",
+   "limits": "sample-handling signal in proteome; per-person data not public"
+  }
+ ]
+}

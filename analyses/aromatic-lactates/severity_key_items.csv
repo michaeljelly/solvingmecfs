@@ -1,0 +1,383 @@
+r,p,n,cohort,score,subset,item,se,q_within_score
+0.0813954498756657,0.33212474380382595,147,BioMapAI,"severity (composite, higher=worse)",patients,MODULE aromatic lactates,,0.4528973779143081
+0.0992278559071624,0.2366984799275621,147,BioMapAI,"severity (composite, higher=worse)",patients,phenyllactate (PLA),,0.4286441564532773
+0.09024867928491592,0.28204248371203505,147,BioMapAI,"severity (composite, higher=worse)",patients,3-(4-hydroxyphenyl)lactate,,0.4360487512071328
+0.10436725146895771,0.21317051441675883,147,BioMapAI,"severity (composite, higher=worse)",patients,indolelactate,,0.4286441564532773
+-0.047239052200065156,0.5739510436472828,147,BioMapAI,"severity (composite, higher=worse)",patients,imidazole lactate,,0.6377233818303142
+0.1696026363745727,0.042129240879201287,147,BioMapAI,"severity (composite, higher=worse)",patients,vanillactate,,0.21064620439600643
+0.08307171495124592,0.3222304753314559,147,BioMapAI,"severity (composite, higher=worse)",patients,alpha-hydroxyisovalerate,,0.4528973779143081
+0.0017475892301463964,0.9834145198452456,147,BioMapAI,"severity (composite, higher=worse)",patients,alpha-hydroxyisocaproate,,0.9834145198452456
+0.12093780643685727,0.14876407209892067,147,BioMapAI,"severity (composite, higher=worse)",patients,2-hydroxy-4-(methylthio)butanoate,,0.3719101802473017
+-0.14419377962139904,0.08465952576673044,147,BioMapAI,"severity (composite, higher=worse)",patients,indolepropionate (IPA),,0.3098191823810838
+-0.2562103175597409,0.0019375860460437882,147,BioMapAI,"severity (composite, higher=worse)",patients,hippurate,,0.029063790690656822
+0.10674421352525132,0.20287318216255137,147,BioMapAI,"severity (composite, higher=worse)",patients,MODULE collagen turnover,,0.4286441564532773
+0.03937097882672119,0.6394157350713355,147,BioMapAI,"severity (composite, higher=worse)",patients,trans-4-hydroxyproline,,0.6850882875764309
+0.17327755530762204,0.03780649914930781,147,BioMapAI,"severity (composite, higher=worse)",patients,5-(galactosylhydroxy)-lysine,,0.21064620439600643
+0.14053407001642088,0.09294575471432513,147,BioMapAI,"severity (composite, higher=worse)",patients,4-hydroxyglutamate,,0.3098191823810838
+0.06832659247748041,0.4158026748280645,147,BioMapAI,"severity (composite, higher=worse)",patients,methionine sulfoxide / methionine,,0.49896320979367736
+0.07059419171981203,0.40046175541026635,147,BioMapAI,"severity (composite, higher=worse)",patients,PC(14:0/16:0),,0.49896320979367736
+-0.17282233593684027,0.0383208352429538,147,BioMapAI,"severity (composite, higher=worse)",patients,plasmalogen PC(P-16:0/18:2),,0.21064620439600643
+0.08864821667572242,0.2906991674714219,147,BioMapAI,"severity (composite, higher=worse)",patients,glucuronate,,0.4360487512071328
+-0.13288632872809755,0.11233425426070272,147,BioMapAI,"severity (composite, higher=worse)",patients,5-oxoproline / glutamate,,0.33533161661929395
+0.208614499957725,0.012099555429470677,147,BioMapAI,"severity (composite, higher=worse)",patients,kynurenine,,0.12099555429470678
+0.015937818616650463,0.8496233669563833,147,BioMapAI,"severity (composite, higher=worse)",patients,carnitine,,0.8789207244376379
+-0.05580558957145228,0.506467204612937,147,BioMapAI,"severity (composite, higher=worse)",patients,tiglylcarnitine (C5:1-DC),,0.5843852360918504
+0.09852636727610745,0.24004552161924506,147,BioMapAI,"severity (composite, higher=worse)",patients,MODULE long-chain acylcarnitines,,0.4286441564532773
+0.08986330863871117,0.284110917533053,147,BioMapAI,"severity (composite, higher=worse)",patients,"1,5-anhydroglucitol",,0.4360487512071328
+0.34376268792063824,2.459398755563171e-05,147,BioMapAI,"severity (composite, higher=worse)",patients,MTA,,0.0007378196266689512
+0.12912735103200862,0.1229549260937411,147,BioMapAI,"severity (composite, higher=worse)",patients,phenylacetylglutamine,,0.33533161661929395
+0.07024170535442473,0.40282408083498455,147,BioMapAI,"severity (composite, higher=worse)",patients,TMAO / carnitine,,0.49896320979367736
+0.16118874838201716,0.05360098147142822,147,BioMapAI,"severity (composite, higher=worse)",patients,dihydroceramide (d18:0/16:0),,0.22971849202040667
+0.0979338226665888,0.2428983553235238,147,BioMapAI,"severity (composite, higher=worse)",patients,caffeine (lifestyle reference),,0.4286441564532773
+0.22942455001433007,0.1719587220023372,39,BioMapAI,"severity (composite, higher=worse)",male patients,MODULE aromatic lactates,,0.43420393679893254
+0.13290747283983856,0.43293152696869647,39,BioMapAI,"severity (composite, higher=worse)",male patients,phenyllactate (PLA),,0.6835760952137313
+0.2191303516534569,0.1925498951219157,39,BioMapAI,"severity (composite, higher=worse)",male patients,3-(4-hydroxyphenyl)lactate,,0.43420393679893254
+0.20682922871597578,0.21935471100588694,39,BioMapAI,"severity (composite, higher=worse)",male patients,indolelactate,,0.43420393679893254
+0.06586334103699894,0.6985330799031302,39,BioMapAI,"severity (composite, higher=worse)",male patients,imidazole lactate,,0.8117684227784714
+0.14327233651655344,0.3975769298673817,39,BioMapAI,"severity (composite, higher=worse)",male patients,vanillactate,,0.6710110910927818
+0.2993271056905884,0.07189839808458826,39,BioMapAI,"severity (composite, higher=worse)",male patients,alpha-hydroxyisovalerate,,0.43420393679893254
+-0.0005241629252552964,0.9975433796502603,39,BioMapAI,"severity (composite, higher=worse)",male patients,alpha-hydroxyisocaproate,,0.9975433796502603
+0.20156401602448568,0.2315754329594307,39,BioMapAI,"severity (composite, higher=worse)",male patients,2-hydroxy-4-(methylthio)butanoate,,0.43420393679893254
+0.009744132620394705,0.9543554600676567,39,BioMapAI,"severity (composite, higher=worse)",male patients,indolepropionate (IPA),,0.9872642690355069
+-0.06471869231322584,0.7035326330746752,39,BioMapAI,"severity (composite, higher=worse)",male patients,hippurate,,0.8117684227784714
+0.2976746285946766,0.07355896469122217,39,BioMapAI,"severity (composite, higher=worse)",male patients,MODULE collagen turnover,,0.43420393679893254
+0.06539951397129873,0.7005574731603289,39,BioMapAI,"severity (composite, higher=worse)",male patients,trans-4-hydroxyproline,,0.8117684227784714
+0.21199709914666306,0.20779780688775323,39,BioMapAI,"severity (composite, higher=worse)",male patients,5-(galactosylhydroxy)-lysine,,0.43420393679893254
+0.3414456034083501,0.03861512401792819,39,BioMapAI,"severity (composite, higher=worse)",male patients,4-hydroxyglutamate,,0.3861512401792819
+0.20877783449565493,0.21494633036365204,39,BioMapAI,"severity (composite, higher=worse)",male patients,methionine sulfoxide / methionine,,0.43420393679893254
+-0.10294380058863718,0.5443123360459932,39,BioMapAI,"severity (composite, higher=worse)",male patients,PC(14:0/16:0),,0.777589051494276
+-0.2031888662277763,0.22775581102482031,39,BioMapAI,"severity (composite, higher=worse)",male patients,plasmalogen PC(P-16:0/18:2),,0.43420393679893254
+0.2546570459214808,0.12824627890223367,39,BioMapAI,"severity (composite, higher=worse)",male patients,glucuronate,,0.43420393679893254
+-0.2426046852289957,0.14796066510683253,39,BioMapAI,"severity (composite, higher=worse)",male patients,5-oxoproline / glutamate,,0.43420393679893254
+0.09602921909421892,0.5718128315267261,39,BioMapAI,"severity (composite, higher=worse)",male patients,kynurenine,,0.7797447702637175
+0.10330696333167849,0.5428855537349747,39,BioMapAI,"severity (composite, higher=worse)",male patients,carnitine,,0.777589051494276
+-0.23022718551473806,0.17042223757531397,39,BioMapAI,"severity (composite, higher=worse)",male patients,tiglylcarnitine (C5:1-DC),,0.43420393679893254
+-0.04375454796059028,0.7970732454752995,39,BioMapAI,"severity (composite, higher=worse)",male patients,MODULE long-chain acylcarnitines,,0.8540070487235351
+0.07296057870291793,0.6678197171114685,39,BioMapAI,"severity (composite, higher=worse)",male patients,"1,5-anhydroglucitol",,0.8117684227784714
+0.3751840209436906,0.022130171279717694,39,BioMapAI,"severity (composite, higher=worse)",male patients,MTA,,0.33195256919576543
+0.14176669206323117,0.402606654655669,39,BioMapAI,"severity (composite, higher=worse)",male patients,phenylacetylglutamine,,0.6710110910927818
+-0.047941628899055254,0.7781194965057044,39,BioMapAI,"severity (composite, higher=worse)",male patients,TMAO / carnitine,,0.8540070487235351
+0.44135742851438475,0.00624743612001355,39,BioMapAI,"severity (composite, higher=worse)",male patients,dihydroceramide (d18:0/16:0),,0.1874230836004065
+0.2230931850488331,0.18442742190798542,39,BioMapAI,"severity (composite, higher=worse)",male patients,caffeine (lifestyle reference),,0.43420393679893254
+-0.04663141404102131,0.578893241749972,147,BioMapAI,orthostatic intolerance NLT,patients,MODULE aromatic lactates,,0.755078141413007
+-0.0032541128921320557,0.9691222990902514,147,BioMapAI,orthostatic intolerance NLT,patients,phenyllactate (PLA),,0.9761414683600288
+0.08464791017400898,0.31310232321904424,147,BioMapAI,orthostatic intolerance NLT,patients,3-(4-hydroxyphenyl)lactate,,0.6262046464380885
+-0.12878931770567667,0.12394680489213152,147,BioMapAI,orthostatic intolerance NLT,patients,indolelactate,,0.5220072451621665
+-0.06490922000480347,0.4395592585659091,147,BioMapAI,orthostatic intolerance NLT,patients,imidazole lactate,,0.6838734962720842
+-0.08091117313556977,0.33501899892949966,147,BioMapAI,orthostatic intolerance NLT,patients,vanillactate,,0.6281606229928118
+0.06261715393811879,0.4559156641813894,147,BioMapAI,orthostatic intolerance NLT,patients,alpha-hydroxyisovalerate,,0.6838734962720842
+0.11793574789157395,0.1591865228333424,147,BioMapAI,orthostatic intolerance NLT,patients,alpha-hydroxyisocaproate,,0.5220072451621665
+0.11178166900932099,0.1822452331033555,147,BioMapAI,orthostatic intolerance NLT,patients,2-hydroxy-4-(methylthio)butanoate,,0.5220072451621665
+-0.12003877135455841,0.15182973791134116,147,BioMapAI,orthostatic intolerance NLT,patients,indolepropionate (IPA),,0.5220072451621665
+-0.1201429660978007,0.15147201960044546,147,BioMapAI,orthostatic intolerance NLT,patients,hippurate,,0.5220072451621665
+-0.052892395480123276,0.5289445851133715,147,BioMapAI,orthostatic intolerance NLT,patients,MODULE collagen turnover,,0.721288070609143
+0.12164960711590332,0.1463702166573262,147,BioMapAI,orthostatic intolerance NLT,patients,trans-4-hydroxyproline,,0.5220072451621665
+0.0025141322775001957,0.9761414683600288,147,BioMapAI,orthostatic intolerance NLT,patients,5-(galactosylhydroxy)-lysine,,0.9761414683600288
+-0.032128849292812595,0.7022501884001948,147,BioMapAI,orthostatic intolerance NLT,patients,4-hydroxyglutamate,,0.8689352318125523
+0.02966604721961469,0.7241126931771269,147,BioMapAI,orthostatic intolerance NLT,patients,methionine sulfoxide / methionine,,0.8689352318125523
+-0.11791258551480961,0.15926900907903896,147,BioMapAI,orthostatic intolerance NLT,patients,PC(14:0/16:0),,0.5220072451621665
+0.024175963714701647,0.7736336788530449,147,BioMapAI,orthostatic intolerance NLT,patients,plasmalogen PC(P-16:0/18:2),,0.8856623286223607
+-0.01406489176497081,0.8671214187025306,147,BioMapAI,orthostatic intolerance NLT,patients,glucuronate,,0.9290586628955684
+-0.05807197531765226,0.48933052759687945,147,BioMapAI,orthostatic intolerance NLT,patients,5-oxoproline / glutamate,,0.6990436108526848
+0.08568407350551659,0.30719431386877327,147,BioMapAI,orthostatic intolerance NLT,patients,kynurenine,,0.6262046464380885
+-0.07744083480806845,0.3562275525729473,147,BioMapAI,orthostatic intolerance NLT,patients,carnitine,,0.6286368574816718
+0.11251326482298779,0.1793822621185437,147,BioMapAI,orthostatic intolerance NLT,patients,tiglylcarnitine (C5:1-DC),,0.5220072451621665
+0.30817436054074515,0.0001714544746166865,147,BioMapAI,orthostatic intolerance NLT,patients,MODULE long-chain acylcarnitines,,0.005143634238500595
+-0.08670786222335695,0.3014290656897379,147,BioMapAI,orthostatic intolerance NLT,patients,"1,5-anhydroglucitol",,0.6262046464380885
+0.10193035448635993,0.22410953605480122,147,BioMapAI,orthostatic intolerance NLT,patients,MTA,,0.560273840137003
+0.10949672557726693,0.19140265655946104,147,BioMapAI,orthostatic intolerance NLT,patients,phenylacetylglutamine,,0.5220072451621665
+0.06686650883538671,0.4258596579967099,147,BioMapAI,orthostatic intolerance NLT,patients,TMAO / carnitine,,0.6838734962720842
+0.19108489816319082,0.021778070135369875,147,BioMapAI,orthostatic intolerance NLT,patients,dihydroceramide (d18:0/16:0),,0.32667105203054814
+0.021611442060515226,0.7970960957601246,147,BioMapAI,orthostatic intolerance NLT,patients,caffeine (lifestyle reference),,0.8856623286223607
+0.3730194436681738,0.022973277239176592,39,BioMapAI,orthostatic intolerance NLT,male patients,MODULE aromatic lactates,,0.17229957929382445
+0.40140069566925857,0.013802365838176707,39,BioMapAI,orthostatic intolerance NLT,male patients,phenyllactate (PLA),,0.13802365838176708
+0.33287976385234713,0.04409845167221396,39,BioMapAI,orthostatic intolerance NLT,male patients,3-(4-hydroxyphenyl)lactate,,0.2204922583610698
+-0.09917694537844325,0.559215650525975,39,BioMapAI,orthostatic intolerance NLT,male patients,indolelactate,,0.8645420668008803
+0.29552640380938533,0.07576236813043834,39,BioMapAI,orthostatic intolerance NLT,male patients,imidazole lactate,,0.27556038470222155
+-0.04836257725034324,0.7762207504502313,39,BioMapAI,orthostatic intolerance NLT,male patients,vanillactate,,0.8783772019553744
+0.24489416710691309,0.14405504610269987,39,BioMapAI,orthostatic intolerance NLT,male patients,alpha-hydroxyisovalerate,,0.38474576713701614
+0.14669955479321037,0.3862640538727897,39,BioMapAI,orthostatic intolerance NLT,male patients,alpha-hydroxyisocaproate,,0.6816424480108054
+0.33325073617430245,0.04384862568267582,39,BioMapAI,orthostatic intolerance NLT,male patients,2-hydroxy-4-(methylthio)butanoate,,0.2204922583610698
+-0.03130033079971201,0.8540898419587573,39,BioMapAI,orthostatic intolerance NLT,male patients,indolepropionate (IPA),,0.883541215819404
+0.047306157765767375,0.7809882757197129,39,BioMapAI,orthostatic intolerance NLT,male patients,hippurate,,0.8783772019553744
+-0.01883122239108062,0.9119144957970279,39,BioMapAI,orthostatic intolerance NLT,male patients,MODULE collagen turnover,,0.9119144957970279
+0.20072185877443594,0.23357215656668054,39,BioMapAI,orthostatic intolerance NLT,male patients,trans-4-hydroxyproline,,0.4671443131333611
+-0.04437479671985142,0.7942580364317356,39,BioMapAI,orthostatic intolerance NLT,male patients,5-(galactosylhydroxy)-lysine,,0.8783772019553744
+-0.09490044644384857,0.5763613778672536,39,BioMapAI,orthostatic intolerance NLT,male patients,4-hydroxyglutamate,,0.8645420668008803
+0.28909466484022095,0.08266811541066647,39,BioMapAI,orthostatic intolerance NLT,male patients,methionine sulfoxide / methionine,,0.27556038470222155
+-0.3055321433980381,0.06592366715454036,39,BioMapAI,orthostatic intolerance NLT,male patients,PC(14:0/16:0),,0.27556038470222155
+0.23446278578369098,0.1624767680136537,39,BioMapAI,orthostatic intolerance NLT,male patients,plasmalogen PC(P-16:0/18:2),,0.38474576713701614
+0.2652215255004213,0.11263316427131476,39,BioMapAI,orthostatic intolerance NLT,male patients,glucuronate,,0.33789949281394427
+0.08153902925153028,0.6313984813939848,39,BioMapAI,orthostatic intolerance NLT,male patients,5-oxoproline / glutamate,,0.8783772019553744
+-0.06892125511474582,0.6852385374374146,39,BioMapAI,orthostatic intolerance NLT,male patients,kynurenine,,0.8783772019553744
+-0.09865082774805799,0.5613121726677242,39,BioMapAI,orthostatic intolerance NLT,male patients,carnitine,,0.8645420668008803
+0.05803036611836543,0.7329851638197653,39,BioMapAI,orthostatic intolerance NLT,male patients,tiglylcarnitine (C5:1-DC),,0.8783772019553744
+0.1806580425063908,0.28461124961811324,39,BioMapAI,orthostatic intolerance NLT,male patients,MODULE long-chain acylcarnitines,,0.5336460930339624
+-0.038762882686289316,0.819818721825016,39,BioMapAI,orthostatic intolerance NLT,male patients,"1,5-anhydroglucitol",,0.8783772019553744
+0.06488628640779691,0.702799849548455,39,BioMapAI,orthostatic intolerance NLT,male patients,MTA,,0.8783772019553744
+0.46712809990139564,0.003558911969798332,39,BioMapAI,orthostatic intolerance NLT,male patients,phenylacetylglutamine,,0.05338367954697498
+0.2321810311115602,0.16672316575937365,39,BioMapAI,orthostatic intolerance NLT,male patients,TMAO / carnitine,,0.38474576713701614
+0.22465860358536477,0.18128666022762532,39,BioMapAI,orthostatic intolerance NLT,male patients,dihydroceramide (d18:0/16:0),,0.3884714147734828
+0.49757607938967036,0.001727767371250254,39,BioMapAI,orthostatic intolerance NLT,male patients,caffeine (lifestyle reference),,0.051833021137507616
+0.024650883151826678,0.7693103882818316,147,BioMapAI,physical function (flipped),patients,MODULE aromatic lactates,,0.8876658326328826
+0.01110415994985063,0.8949110028018799,147,BioMapAI,physical function (flipped),patients,phenyllactate (PLA),,0.9257700028984964
+-0.012657222375812585,0.88031576474611,147,BioMapAI,physical function (flipped),patients,3-(4-hydroxyphenyl)lactate,,0.9257700028984964
+-0.030302631766405765,0.7184394612210422,147,BioMapAI,physical function (flipped),patients,indolelactate,,0.8743228585526495
+0.04665254690340205,0.5787210270723074,147,BioMapAI,physical function (flipped),patients,imidazole lactate,,0.789165036916783
+-0.02916345932973811,0.728602382127208,147,BioMapAI,physical function (flipped),patients,vanillactate,,0.8743228585526495
+-0.09677501863634987,0.24854542479604214,147,BioMapAI,physical function (flipped),patients,alpha-hydroxyisovalerate,,0.5325973388486618
+-0.08746644122396657,0.2972035639232389,147,BioMapAI,physical function (flipped),patients,alpha-hydroxyisocaproate,,0.5740684835986136
+-0.07114335920297862,0.3967977510970303,147,BioMapAI,physical function (flipped),patients,2-hydroxy-4-(methylthio)butanoate,,0.6897683520852979
+0.14193565639043695,0.08969930135762243,147,BioMapAI,physical function (flipped),patients,indolepropionate (IPA),,0.3363723800910841
+0.21191588449203197,0.010776741200567987,147,BioMapAI,physical function (flipped),patients,hippurate,,0.1616511180085198
+-0.12828780269003104,0.12542974939032964,147,BioMapAI,physical function (flipped),patients,MODULE collagen turnover,,0.34253027098764055
+-0.03228071241010437,0.700909815611801,147,BioMapAI,physical function (flipped),patients,trans-4-hydroxyproline,,0.8743228585526495
+-0.18826070548776042,0.023840871252921995,147,BioMapAI,physical function (flipped),patients,5-(galactosylhydroxy)-lysine,,0.17880653439691496
+-0.17138029549843978,0.03998915281529253,147,BioMapAI,physical function (flipped),patients,4-hydroxyglutamate,,0.2399349168917552
+-0.05086293750562513,0.5448947766159926,147,BioMapAI,physical function (flipped),patients,methionine sulfoxide / methionine,,0.7784211094514181
+-0.06861084645718797,0.4138610112511787,147,BioMapAI,physical function (flipped),patients,PC(14:0/16:0),,0.6897683520852979
+0.18967463910601415,0.022788073179522455,147,BioMapAI,physical function (flipped),patients,plasmalogen PC(P-16:0/18:2),,0.17880653439691496
+0.006099813952196484,0.9421558682289354,147,BioMapAI,physical function (flipped),patients,glucuronate,,0.9421558682289354
+0.06228772548941931,0.45829402116730544,147,BioMapAI,physical function (flipped),patients,5-oxoproline / glutamate,,0.7236221386852191
+-0.16220537682659722,0.05209069021922781,147,BioMapAI,physical function (flipped),patients,kynurenine,,0.26045345109613904
+0.05183756969614956,0.5372053993680534,147,BioMapAI,physical function (flipped),patients,carnitine,,0.7784211094514181
+0.1270346224386036,0.12919510664204045,147,BioMapAI,physical function (flipped),patients,tiglylcarnitine (C5:1-DC),,0.34253027098764055
+-0.12103668263559718,0.14842978409464425,147,BioMapAI,physical function (flipped),patients,MODULE long-chain acylcarnitines,,0.34253027098764055
+-0.1333193301172422,0.11115829219934577,147,BioMapAI,physical function (flipped),patients,"1,5-anhydroglucitol",,0.34253027098764055
+-0.25987508193091324,0.0016577597033143353,147,BioMapAI,physical function (flipped),patients,MTA,,0.04973279109943006
+-0.1225224711946927,0.1434746311593809,147,BioMapAI,physical function (flipped),patients,phenylacetylglutamine,,0.34253027098764055
+0.020324812847610958,0.8089374168855228,147,BioMapAI,physical function (flipped),patients,TMAO / carnitine,,0.8988193520950253
+-0.15116344518207409,0.0705195084944698,147,BioMapAI,physical function (flipped),patients,dihydroceramide (d18:0/16:0),,0.30222646497629907
+0.08586506836073417,0.3061698579192606,147,BioMapAI,physical function (flipped),patients,caffeine (lifestyle reference),,0.5740684835986136
+-0.1627048392391091,0.33597033254345043,39,BioMapAI,physical function (flipped),male patients,MODULE aromatic lactates,,0.5928888221355008
+-0.1549866268437798,0.3596978886638781,39,BioMapAI,physical function (flipped),male patients,phenyllactate (PLA),,0.5994964811064635
+-0.29547527958732367,0.07581542590813599,39,BioMapAI,physical function (flipped),male patients,3-(4-hydroxyphenyl)lactate,,0.28430784715550994
+-0.24533943307514638,0.1433043319457183,39,BioMapAI,physical function (flipped),male patients,indolelactate,,0.3070807113122535
+-0.001493025164528134,0.9930026402095302,39,BioMapAI,physical function (flipped),male patients,imidazole lactate,,0.9930026402095302
+-0.02794073223745308,0.8696088270085501,39,BioMapAI,physical function (flipped),male patients,vanillactate,,0.9325972466215183
+-0.2675048164655626,0.10945564430628595,39,BioMapAI,physical function (flipped),male patients,alpha-hydroxyisovalerate,,0.30677923354141073
+-0.26075945757050606,0.11904278840087147,39,BioMapAI,physical function (flipped),male patients,alpha-hydroxyisocaproate,,0.30677923354141073
+-0.18780845062354432,0.2656546825228035,39,BioMapAI,physical function (flipped),male patients,2-hydroxy-4-(methylthio)butanoate,,0.49810252973025654
+-0.010999111256078485,0.9484841242613933,39,BioMapAI,physical function (flipped),male patients,indolepropionate (IPA),,0.9811904733738551
+0.027764538607736037,0.8704240968467505,39,BioMapAI,physical function (flipped),male patients,hippurate,,0.9325972466215183
+-0.3978752072146879,0.01473822916592456,39,BioMapAI,physical function (flipped),male patients,MODULE collagen turnover,,0.1473822916592456
+-0.04667057215136865,0.7838604262490801,39,BioMapAI,physical function (flipped),male patients,trans-4-hydroxyproline,,0.9044543379797079
+-0.3460249099848139,0.03591926076772194,39,BioMapAI,physical function (flipped),male patients,5-(galactosylhydroxy)-lysine,,0.21551556460633167
+-0.510999417719403,0.0012296154393878441,39,BioMapAI,physical function (flipped),male patients,4-hydroxyglutamate,,0.03688846318163532
+-0.08300840427121847,0.6252419843504033,39,BioMapAI,physical function (flipped),male patients,methionine sulfoxide / methionine,,0.7815524804380042
+-0.08844694124784479,0.6026745216679146,39,BioMapAI,physical function (flipped),male patients,PC(14:0/16:0),,0.7815524804380042
+0.3293140888079082,0.046558765866481715,39,BioMapAI,physical function (flipped),male patients,plasmalogen PC(P-16:0/18:2),,0.23279382933240858
+-0.11182015401961107,0.509959088954723,39,BioMapAI,physical function (flipped),male patients,glucuronate,,0.6953987576655313
+0.37257471041992035,0.02314976332457159,39,BioMapAI,physical function (flipped),male patients,5-oxoproline / glutamate,,0.17362322493428692
+-0.19410608392267353,0.24966388638454992,39,BioMapAI,physical function (flipped),male patients,kynurenine,,0.49810252973025654
+-0.12397668570004308,0.4647394333056043,39,BioMapAI,physical function (flipped),male patients,carnitine,,0.6763393230534476
+0.12159212359474253,0.4734375261374133,39,BioMapAI,physical function (flipped),male patients,tiglylcarnitine (C5:1-DC),,0.6763393230534476
+-0.2516711410634126,0.13293766786794464,39,BioMapAI,physical function (flipped),male patients,MODULE long-chain acylcarnitines,,0.30677923354141073
+-0.2787219772261141,0.09482094140541471,39,BioMapAI,physical function (flipped),male patients,"1,5-anhydroglucitol",,0.30677923354141073
+-0.47130555569204613,0.00323536450763161,39,BioMapAI,physical function (flipped),male patients,MTA,,0.04853046761447415
+-0.2955892071436108,0.07569722918984574,39,BioMapAI,physical function (flipped),male patients,phenylacetylglutamine,,0.28430784715550994
+0.13251617129773147,0.43429941675350886,39,BioMapAI,physical function (flipped),male patients,TMAO / carnitine,,0.6763393230534476
+-0.2518650358374928,0.13262922110133185,39,BioMapAI,physical function (flipped),male patients,dihydroceramide (d18:0/16:0),,0.30677923354141073
+0.06541378282526997,0.7004951657103797,39,BioMapAI,physical function (flipped),male patients,caffeine (lifestyle reference),,0.8405941988524558
+-0.018875030289618427,0.8223322285954158,147,BioMapAI,energy/fatigue (flipped),patients,MODULE aromatic lactates,,0.9488448791485566
+0.05545333714874844,0.509158421532848,147,BioMapAI,energy/fatigue (flipped),patients,phenyllactate (PLA),,0.7637376322992719
+-0.08298973827636479,0.32270987665501666,147,BioMapAI,energy/fatigue (flipped),patients,3-(4-hydroxyphenyl)lactate,,0.6273741274380588
+0.023208047657782616,0.7824662297137491,147,BioMapAI,energy/fatigue (flipped),patients,indolelactate,,0.938959475656499
+0.04562821292957755,0.5870957302441876,147,BioMapAI,energy/fatigue (flipped),patients,imidazole lactate,,0.8005850866966194
+-0.012357500474919911,0.8831294909056827,147,BioMapAI,energy/fatigue (flipped),patients,vanillactate,,0.9559610144089092
+0.0742539579150745,0.3764244764628353,147,BioMapAI,energy/fatigue (flipped),patients,alpha-hydroxyisovalerate,,0.6273741274380588
+0.004642330089106641,0.9559610144089092,147,BioMapAI,energy/fatigue (flipped),patients,alpha-hydroxyisocaproate,,0.9559610144089092
+-0.03259403288466119,0.6981473025085578,147,BioMapAI,energy/fatigue (flipped),patients,2-hydroxy-4-(methylthio)butanoate,,0.9106269163155103
+0.13428401529346823,0.10857294266074288,147,BioMapAI,energy/fatigue (flipped),patients,indolepropionate (IPA),,0.49637379551145105
+0.11250686880656238,0.1794071476064424,147,BioMapAI,energy/fatigue (flipped),patients,hippurate,,0.49637379551145105
+-0.11116375188470488,0.18468934363486278,147,BioMapAI,energy/fatigue (flipped),patients,MODULE collagen turnover,,0.49637379551145105
+-0.005696786596815819,0.9459717604367327,147,BioMapAI,energy/fatigue (flipped),patients,trans-4-hydroxyproline,,0.9559610144089092
+-0.12010318877402987,0.15160850690180058,147,BioMapAI,energy/fatigue (flipped),patients,5-(galactosylhydroxy)-lysine,,0.49637379551145105
+-0.16437252123828774,0.04898856735187655,147,BioMapAI,energy/fatigue (flipped),patients,4-hydroxyglutamate,,0.48988567351876555
+-0.13263336441345186,0.11302574249068063,147,BioMapAI,energy/fatigue (flipped),patients,methionine sulfoxide / methionine,,0.49637379551145105
+-0.07682742472790603,0.36006159067548343,147,BioMapAI,energy/fatigue (flipped),patients,PC(14:0/16:0),,0.6273741274380588
+0.22774930941767813,0.00604467878169255,147,BioMapAI,energy/fatigue (flipped),patients,plasmalogen PC(P-16:0/18:2),,0.18134036345077648
+-0.10169338332281706,0.22519408280775893,147,BioMapAI,energy/fatigue (flipped),patients,glucuronate,,0.5185602008845446
+0.11685797543593654,0.16305868477108149,147,BioMapAI,energy/fatigue (flipped),patients,5-oxoproline / glutamate,,0.49637379551145105
+-0.2070529569933693,0.01277338856094404,147,BioMapAI,energy/fatigue (flipped),patients,kynurenine,,0.1916008284141606
+0.007852978363165584,0.9255731809271134,147,BioMapAI,energy/fatigue (flipped),patients,carnitine,,0.9559610144089092
+0.11722428169870482,0.1617348341819802,147,BioMapAI,energy/fatigue (flipped),patients,tiglylcarnitine (C5:1-DC),,0.49637379551145105
+-0.10776817396868217,0.19854951820458042,147,BioMapAI,energy/fatigue (flipped),patients,MODULE long-chain acylcarnitines,,0.49637379551145105
+0.07431343112236674,0.3760412779470372,147,BioMapAI,energy/fatigue (flipped),patients,"1,5-anhydroglucitol",,0.6273741274380588
+-0.051837428296167026,0.537206511019791,147,BioMapAI,energy/fatigue (flipped),patients,MTA,,0.7674378728854157
+0.05590092331261254,0.5057401271410893,147,BioMapAI,energy/fatigue (flipped),patients,phenylacetylglutamine,,0.7637376322992719
+0.12543629263892075,0.13412283860646404,147,BioMapAI,energy/fatigue (flipped),patients,TMAO / carnitine,,0.49637379551145105
+-0.09812097598800862,0.24199476041278745,147,BioMapAI,energy/fatigue (flipped),patients,dihydroceramide (d18:0/16:0),,0.5185602008845446
+0.02671828734069809,0.7505745408552936,147,BioMapAI,energy/fatigue (flipped),patients,caffeine (lifestyle reference),,0.9382181760691171
+-0.1384532168921024,0.41380317205150086,39,BioMapAI,energy/fatigue (flipped),male patients,MODULE aromatic lactates,,0.8129373906651183
+-0.0009458954993118522,0.9955668398184361,39,BioMapAI,energy/fatigue (flipped),male patients,phenyllactate (PLA),,0.9955668398184361
+-0.11462863796796412,0.49932052631346335,39,BioMapAI,energy/fatigue (flipped),male patients,3-(4-hydroxyphenyl)lactate,,0.8164818781049606
+-0.21562478626123643,0.1999419433593817,39,BioMapAI,energy/fatigue (flipped),male patients,indolelactate,,0.8129373906651183
+-0.1349808517848517,0.42572344459118766,39,BioMapAI,energy/fatigue (flipped),male patients,imidazole lactate,,0.8129373906651183
+-0.2051878924726742,0.22311579527407002,39,BioMapAI,energy/fatigue (flipped),male patients,vanillactate,,0.8129373906651183
+-0.12982910011331442,0.44375697141757514,39,BioMapAI,energy/fatigue (flipped),male patients,alpha-hydroxyisovalerate,,0.8129373906651183
+0.06604179403347932,0.6977547591487392,39,BioMapAI,energy/fatigue (flipped),male patients,alpha-hydroxyisocaproate,,0.8707922417212332
+-0.08341517610686261,0.623542047591807,39,BioMapAI,energy/fatigue (flipped),male patients,2-hydroxy-4-(methylthio)butanoate,,0.8707922417212332
+0.09534789269340486,0.5745563787277358,39,BioMapAI,energy/fatigue (flipped),male patients,indolepropionate (IPA),,0.8618345680916036
+-0.053157205612924245,0.7546866094917354,39,BioMapAI,energy/fatigue (flipped),male patients,hippurate,,0.8707922417212332
+-0.1466581028564413,0.3863997487414615,39,BioMapAI,energy/fatigue (flipped),male patients,MODULE collagen turnover,,0.8129373906651183
+0.05868840683450502,0.730069901295872,39,BioMapAI,energy/fatigue (flipped),male patients,trans-4-hydroxyproline,,0.8707922417212332
+-0.14782750195175026,0.38258235437614696,39,BioMapAI,energy/fatigue (flipped),male patients,5-(galactosylhydroxy)-lysine,,0.8129373906651183
+-0.1983081786492734,0.23935943846925078,39,BioMapAI,energy/fatigue (flipped),male patients,4-hydroxyglutamate,,0.8129373906651183
+-0.057718578846437454,0.7343677389051155,39,BioMapAI,energy/fatigue (flipped),male patients,methionine sulfoxide / methionine,,0.8707922417212332
+-0.008487794961711282,0.9602355277667759,39,BioMapAI,energy/fatigue (flipped),male patients,PC(14:0/16:0),,0.9933470976897683
+0.1478405435748781,0.38253990627758544,39,BioMapAI,energy/fatigue (flipped),male patients,plasmalogen PC(P-16:0/18:2),,0.8129373906651183
+-0.37618388576506157,0.02174950112632106,39,BioMapAI,energy/fatigue (flipped),male patients,glucuronate,,0.36851560755188434
+0.3442658390909544,0.036936083985651125,39,BioMapAI,energy/fatigue (flipped),male patients,5-oxoproline / glutamate,,0.3693608398565112
+0.027840589109197848,0.8700721855125266,39,BioMapAI,energy/fatigue (flipped),male patients,kynurenine,,0.9667468727916962
+-0.2053550423194486,0.22273077009807749,39,BioMapAI,energy/fatigue (flipped),male patients,carnitine,,0.8129373906651183
+0.1352056118742318,0.4249461148654631,39,BioMapAI,energy/fatigue (flipped),male patients,tiglylcarnitine (C5:1-DC),,0.8129373906651183
+-0.015199497792057075,0.9288540713518627,39,BioMapAI,energy/fatigue (flipped),male patients,MODULE long-chain acylcarnitines,,0.9933470976897683
+0.06582786830760254,0.6986878299715451,39,BioMapAI,energy/fatigue (flipped),male patients,"1,5-anhydroglucitol",,0.8707922417212332
+-0.3691001649771088,0.024567707170125623,39,BioMapAI,energy/fatigue (flipped),male patients,MTA,,0.36851560755188434
+-0.12510196397238144,0.46066452137690034,39,BioMapAI,energy/fatigue (flipped),male patients,phenylacetylglutamine,,0.8129373906651183
+0.3024444627086297,0.06884584854607634,39,BioMapAI,energy/fatigue (flipped),male patients,TMAO / carnitine,,0.5163438640955725
+-0.10995010895781954,0.5171051894664751,39,BioMapAI,energy/fatigue (flipped),male patients,dihydroceramide (d18:0/16:0),,0.8164818781049606
+-0.17514803176334193,0.29980142374762087,39,BioMapAI,energy/fatigue (flipped),male patients,caffeine (lifestyle reference),,0.8129373906651183
+0.008524266120904612,0.9192317291243798,147,BioMapAI,cognitive efficiency (flipped),patients,MODULE aromatic lactates,,0.9192317291243798
+-0.01652078003526764,0.8441914847503184,147,BioMapAI,cognitive efficiency (flipped),patients,phenyllactate (PLA),,0.8890439394355674
+0.03991444027852726,0.6347953911953655,147,BioMapAI,cognitive efficiency (flipped),patients,3-(4-hydroxyphenyl)lactate,,0.8890439394355674
+0.07443803327636973,0.37523921262226556,147,BioMapAI,cognitive efficiency (flipped),patients,indolelactate,,0.8310177315875331
+-0.10507059196309841,0.21008541029348174,147,BioMapAI,cognitive efficiency (flipped),patients,imidazole lactate,,0.8310177315875331
+-0.11719037421921905,0.16185703941583685,147,BioMapAI,cognitive efficiency (flipped),patients,vanillactate,,0.8092851970791842
+-0.017558334110032943,0.8345420968518343,147,BioMapAI,cognitive efficiency (flipped),patients,alpha-hydroxyisovalerate,,0.8890439394355674
+0.058644557812035265,0.48505050980635755,147,BioMapAI,cognitive efficiency (flipped),patients,alpha-hydroxyisocaproate,,0.8310177315875331
+-0.046743685738259225,0.5779785968237287,147,BioMapAI,cognitive efficiency (flipped),patients,2-hydroxy-4-(methylthio)butanoate,,0.8890439394355674
+0.05914839526097107,0.4813010135151774,147,BioMapAI,cognitive efficiency (flipped),patients,indolepropionate (IPA),,0.8310177315875331
+0.152092446104247,0.06878873887909179,147,BioMapAI,cognitive efficiency (flipped),patients,hippurate,,0.6878873887909179
+-0.014889479686163012,0.8594091414543817,147,BioMapAI,cognitive efficiency (flipped),patients,MODULE collagen turnover,,0.8890439394355674
+0.08451229348792608,0.31388102544351615,147,BioMapAI,cognitive efficiency (flipped),patients,trans-4-hydroxyproline,,0.8310177315875331
+-0.15577666415045502,0.06226183434696313,147,BioMapAI,cognitive efficiency (flipped),patients,5-(galactosylhydroxy)-lysine,,0.6878873887909179
+-0.025160329601424378,0.7646806701464652,147,BioMapAI,cognitive efficiency (flipped),patients,4-hydroxyglutamate,,0.8890439394355674
+-0.036584578791817986,0.6633196217505509,147,BioMapAI,cognitive efficiency (flipped),patients,methionine sulfoxide / methionine,,0.8890439394355674
+0.10039235779823066,0.23121457506568235,147,BioMapAI,cognitive efficiency (flipped),patients,PC(14:0/16:0),,0.8310177315875331
+0.12083710032419875,0.14910513111391502,147,BioMapAI,cognitive efficiency (flipped),patients,plasmalogen PC(P-16:0/18:2),,0.8092851970791842
+-0.06644581741593367,0.4287832104865691,147,BioMapAI,cognitive efficiency (flipped),patients,glucuronate,,0.8310177315875331
+0.040616644087766475,0.6288462687132857,147,BioMapAI,cognitive efficiency (flipped),patients,5-oxoproline / glutamate,,0.8890439394355674
+0.0568395542905252,0.49861063895251984,147,BioMapAI,cognitive efficiency (flipped),patients,kynurenine,,0.8310177315875331
+-0.08141505152612846,0.33200793312198656,147,BioMapAI,cognitive efficiency (flipped),patients,carnitine,,0.8310177315875331
+0.06903416711929965,0.41097928179526194,147,BioMapAI,cognitive efficiency (flipped),patients,tiglylcarnitine (C5:1-DC),,0.8310177315875331
+-0.12865593106089715,0.12433989194987688,147,BioMapAI,cognitive efficiency (flipped),patients,MODULE long-chain acylcarnitines,,0.8092851970791842
+-0.06405733098326166,0.445599158761933,147,BioMapAI,cognitive efficiency (flipped),patients,"1,5-anhydroglucitol",,0.8310177315875331
+-0.18377054242897675,0.027465337172925777,147,BioMapAI,cognitive efficiency (flipped),patients,MTA,,0.6878873887909179
+-0.06367388713811548,0.4483329740122231,147,BioMapAI,cognitive efficiency (flipped),patients,phenylacetylglutamine,,0.8310177315875331
+0.02165988914628715,0.7966511025657756,147,BioMapAI,cognitive efficiency (flipped),patients,TMAO / carnitine,,0.8890439394355674
+-0.030092369426974727,0.7203116360300292,147,BioMapAI,cognitive efficiency (flipped),patients,dihydroceramide (d18:0/16:0),,0.8890439394355674
+-0.02918616713930926,0.7283993298901174,147,BioMapAI,cognitive efficiency (flipped),patients,caffeine (lifestyle reference),,0.8890439394355674
+-0.08446199043210698,0.6191761408768259,39,BioMapAI,cognitive efficiency (flipped),male patients,MODULE aromatic lactates,,0.870619977497218
+0.043451437430224144,0.7984499366419506,39,BioMapAI,cognitive efficiency (flipped),male patients,phenyllactate (PLA),,0.870619977497218
+0.07925152675862512,0.6410315648370853,39,BioMapAI,cognitive efficiency (flipped),male patients,3-(4-hydroxyphenyl)lactate,,0.870619977497218
+0.034012762673178855,0.841599311580644,39,BioMapAI,cognitive efficiency (flipped),male patients,indolelactate,,0.870619977497218
+-0.25214658118493677,0.13218228421100117,39,BioMapAI,cognitive efficiency (flipped),male patients,imidazole lactate,,0.7061647643008995
+-0.03664104691725843,0.8295325076397616,39,BioMapAI,cognitive efficiency (flipped),male patients,vanillactate,,0.870619977497218
+-0.023976107815082998,0.887984150385167,39,BioMapAI,cognitive efficiency (flipped),male patients,alpha-hydroxyisovalerate,,0.887984150385167
+0.23322432630881673,0.16477177833687656,39,BioMapAI,cognitive efficiency (flipped),male patients,alpha-hydroxyisocaproate,,0.7061647643008995
+0.1181162375342347,0.4862682060753772,39,BioMapAI,cognitive efficiency (flipped),male patients,2-hydroxy-4-(methylthio)butanoate,,0.870619977497218
+-0.04191458330166107,0.8054392862808191,39,BioMapAI,cognitive efficiency (flipped),male patients,indolepropionate (IPA),,0.870619977497218
+0.06034467578536777,0.7227488458254232,39,BioMapAI,cognitive efficiency (flipped),male patients,hippurate,,0.870619977497218
+-0.03524307212094955,0.8359461915734118,39,BioMapAI,cognitive efficiency (flipped),male patients,MODULE collagen turnover,,0.870619977497218
+0.039414400771903585,0.8168412929902092,39,BioMapAI,cognitive efficiency (flipped),male patients,trans-4-hydroxyproline,,0.870619977497218
+-0.17994044888378405,0.28656079857926564,39,BioMapAI,cognitive efficiency (flipped),male patients,5-(galactosylhydroxy)-lysine,,0.8596823957377969
+-0.05183022896601153,0.7606290013851508,39,BioMapAI,cognitive efficiency (flipped),male patients,4-hydroxyglutamate,,0.870619977497218
+-0.14755349523968378,0.3834748344034903,39,BioMapAI,cognitive efficiency (flipped),male patients,methionine sulfoxide / methionine,,0.870619977497218
+0.22024895350267976,0.19023210545068897,39,BioMapAI,cognitive efficiency (flipped),male patients,PC(14:0/16:0),,0.7133703954400836
+0.08291602117378272,0.6256283279665972,39,BioMapAI,cognitive efficiency (flipped),male patients,plasmalogen PC(P-16:0/18:2),,0.870619977497218
+-0.24939927561332406,0.1365913997220717,39,BioMapAI,cognitive efficiency (flipped),male patients,glucuronate,,0.7061647643008995
+0.3076464065737276,0.06397975293332311,39,BioMapAI,cognitive efficiency (flipped),male patients,5-oxoproline / glutamate,,0.6397975293332311
+0.15406731658564005,0.3625895521865713,39,BioMapAI,cognitive efficiency (flipped),male patients,kynurenine,,0.870619977497218
+-0.2412936461451345,0.15023170377607373,39,BioMapAI,cognitive efficiency (flipped),male patients,carnitine,,0.7061647643008995
+0.09439757365059587,0.5783930156357199,39,BioMapAI,cognitive efficiency (flipped),male patients,tiglylcarnitine (C5:1-DC),,0.870619977497218
+-0.10485282758512517,0.5368322252636859,39,BioMapAI,cognitive efficiency (flipped),male patients,MODULE long-chain acylcarnitines,,0.870619977497218
+0.20373085364862492,0.22649133756804102,39,BioMapAI,cognitive efficiency (flipped),male patients,"1,5-anhydroglucitol",,0.7549711252268034
+-0.4452767143134386,0.0057506679806866474,39,BioMapAI,cognitive efficiency (flipped),male patients,MTA,,0.17252003942059943
+-0.050807131263071,0.7652198395749585,39,BioMapAI,cognitive efficiency (flipped),male patients,phenylacetylglutamine,,0.870619977497218
+0.07808983273384358,0.6459460230499993,39,BioMapAI,cognitive efficiency (flipped),male patients,TMAO / carnitine,,0.870619977497218
+-0.3099858897843839,0.06188181667990524,39,BioMapAI,cognitive efficiency (flipped),male patients,dihydroceramide (d18:0/16:0),,0.6397975293332311
+-0.11903272021782323,0.48286780547465824,39,BioMapAI,cognitive efficiency (flipped),male patients,caffeine (lifestyle reference),,0.870619977497218
+-0.052482068986655805,0.7412930404293938,147,BioMapAI,"long (>4y) vs short illness, SD",patients,MODULE aromatic lactates,0.1586582401484724,0.900710717666519
+0.06349550006561877,0.6890287316632795,147,BioMapAI,"long (>4y) vs short illness, SD",patients,phenyllactate (PLA),0.15834604193633128,0.900710717666519
+-0.1813334727195175,0.2405141614734407,147,BioMapAI,"long (>4y) vs short illness, SD",patients,3-(4-hydroxyphenyl)lactate,0.15385019875224165,0.7494117486647311
+-0.03641080554248469,0.8227596658492746,147,BioMapAI,"long (>4y) vs short illness, SD",patients,indolelactate,0.16225014056697054,0.900710717666519
+-0.0009703880756140593,0.995536043490632,147,BioMapAI,"long (>4y) vs short illness, SD",patients,imidazole lactate,0.1731405016750019,0.9955360434906321
+0.28317193294895904,0.08686224690878713,147,BioMapAI,"long (>4y) vs short illness, SD",patients,vanillactate,0.16424135216316743,0.6514668518159035
+-0.08467868728783441,0.6119343796636133,147,BioMapAI,"long (>4y) vs short illness, SD",patients,alpha-hydroxyisovalerate,0.16654634780856645,0.900710717666519
+-0.18461527861397722,0.23434628370622002,147,BioMapAI,"long (>4y) vs short illness, SD",patients,alpha-hydroxyisocaproate,0.15457849081410574,0.7494117486647311
+-0.18647652627255273,0.2571135310770495,147,BioMapAI,"long (>4y) vs short illness, SD",patients,2-hydroxy-4-(methylthio)butanoate,0.1638898925359617,0.7494117486647311
+0.2410649670845488,0.15728895766820788,147,BioMapAI,"long (>4y) vs short illness, SD",patients,indolepropionate (IPA),0.16955406641069373,0.7494117486647311
+0.14229802906628053,0.3783022267518567,147,BioMapAI,"long (>4y) vs short illness, SD",patients,hippurate,0.16100845036799363,0.8150291337677411
+0.1037324144150024,0.5237513258862927,147,BioMapAI,"long (>4y) vs short illness, SD",patients,MODULE collagen turnover,0.1622959969253287,0.900710717666519
+0.12013879766408514,0.4897682819564788,147,BioMapAI,"long (>4y) vs short illness, SD",patients,trans-4-hydroxyproline,0.1734912236352512,0.900710717666519
+0.18046608517346563,0.27478430784373475,147,BioMapAI,"long (>4y) vs short illness, SD",patients,5-(galactosylhydroxy)-lysine,0.16460724547685238,0.7494117486647311
+-0.0360241885240694,0.8194150813882379,147,BioMapAI,"long (>4y) vs short illness, SD",patients,4-hydroxyglutamate,0.15750297553166048,0.900710717666519
+-0.29323007644188837,0.0841039195425209,147,BioMapAI,"long (>4y) vs short illness, SD",patients,methionine sulfoxide / methionine,0.16856608838890927,0.6514668518159035
+0.05173794564406867,0.7590875484823206,147,BioMapAI,"long (>4y) vs short illness, SD",patients,PC(14:0/16:0),0.16837907002236135,0.900710717666519
+-0.02713900461828797,0.870687027077635,147,BioMapAI,"long (>4y) vs short illness, SD",patients,plasmalogen PC(P-16:0/18:2),0.16641492315345105,0.900710717666519
+0.045938703192775876,0.780627348914996,147,BioMapAI,"long (>4y) vs short illness, SD",patients,glucuronate,0.16463682511781402,0.900710717666519
+-0.09648367500005167,0.5456215110068526,147,BioMapAI,"long (>4y) vs short illness, SD",patients,5-oxoproline / glutamate,0.15926926698247953,0.900710717666519
+-0.48248824961671577,0.003962207965582593,147,BioMapAI,"long (>4y) vs short illness, SD",patients,kynurenine,0.16472474918740498,0.11886623896747778
+0.027178296329986903,0.868586403527695,147,BioMapAI,"long (>4y) vs short illness, SD",patients,carnitine,0.1639677870693384,0.900710717666519
+0.18945414994300505,0.2269381532464614,147,BioMapAI,"long (>4y) vs short illness, SD",patients,tiglylcarnitine (C5:1-DC),0.15611696059760766,0.7494117486647311
+0.10205250093737195,0.5336567573283555,147,BioMapAI,"long (>4y) vs short illness, SD",patients,MODULE long-chain acylcarnitines,0.16355688362362794,0.900710717666519
+-0.08658194936691212,0.5706075127260474,147,BioMapAI,"long (>4y) vs short illness, SD",patients,"1,5-anhydroglucitol",0.1523045024659385,0.900710717666519
+0.14189422011132918,0.38034692909161255,147,BioMapAI,"long (>4y) vs short illness, SD",patients,MTA,0.16124368957398597,0.8150291337677411
+0.15603296894935131,0.3259432151219933,147,BioMapAI,"long (>4y) vs short illness, SD",patients,phenylacetylglutamine,0.15829211801897056,0.8148580378049832
+-0.23007706171081355,0.17125373174122563,147,BioMapAI,"long (>4y) vs short illness, SD",patients,TMAO / carnitine,0.1673117277045428,0.7494117486647311
+-0.041922314929611175,0.7905740067163143,147,BioMapAI,"long (>4y) vs short illness, SD",patients,dihydroceramide (d18:0/16:0),0.15756336057116657,0.900710717666519
+-0.34235506155605316,0.035511286113854006,147,BioMapAI,"long (>4y) vs short illness, SD",patients,caffeine (lifestyle reference),0.16128046969582005,0.5326692917078101
+-0.11313434785334149,0.4020771624791352,60,Germain2022,"Bell (flipped, higher=worse)",patients,MODULE aromatic lactates,,0.9816564432213165
+-0.0634809214365118,0.6389795400497009,60,Germain2022,"Bell (flipped, higher=worse)",patients,phenyllactate (PLA),,0.9816564432213165
+-0.09369839457990152,0.4881448243644256,60,Germain2022,"Bell (flipped, higher=worse)",patients,3-(4-hydroxyphenyl)lactate,,0.9816564432213165
+-0.09237242191903795,0.49434825601926163,60,Germain2022,"Bell (flipped, higher=worse)",patients,indolelactate,,0.9816564432213165
+-0.17597313710571044,0.19040603381035806,60,Germain2022,"Bell (flipped, higher=worse)",patients,imidazole lactate,,0.9816564432213165
+-0.030211702132279986,0.8234647543227993,60,Germain2022,"Bell (flipped, higher=worse)",patients,vanillactate,,0.9816564432213165
+0.09756112319586979,0.4703086708836407,60,Germain2022,"Bell (flipped, higher=worse)",patients,alpha-hydroxyisovalerate,,0.9816564432213165
+-0.02089359299184211,0.8774006269237145,60,Germain2022,"Bell (flipped, higher=worse)",patients,alpha-hydroxyisocaproate,,0.9816564432213165
+0.08825813064396092,0.5138544458184408,60,Germain2022,"Bell (flipped, higher=worse)",patients,2-hydroxy-4-(methylthio)butanoate,,0.9816564432213165
+-0.0021374814628410893,0.9874098101442734,60,Germain2022,"Bell (flipped, higher=worse)",patients,indolepropionate (IPA),,0.9874098101442734
+0.042045491140730924,0.7561494529893146,60,Germain2022,"Bell (flipped, higher=worse)",patients,hippurate,,0.9816564432213165
+0.02001561784249632,0.882515239742135,60,Germain2022,"Bell (flipped, higher=worse)",patients,MODULE collagen turnover,,0.9816564432213165
+0.03709047091982767,0.7841481996159221,60,Germain2022,"Bell (flipped, higher=worse)",patients,trans-4-hydroxyproline,,0.9816564432213165
+0.030225186067475856,0.8233872278563336,60,Germain2022,"Bell (flipped, higher=worse)",patients,4-hydroxyglutamate,,0.9816564432213165
+-0.09459066344916504,0.48399353222744085,60,Germain2022,"Bell (flipped, higher=worse)",patients,methionine sulfoxide / methionine,,0.9816564432213165
+0.0320411625715062,0.8129617957393521,60,Germain2022,"Bell (flipped, higher=worse)",patients,glucuronate,,0.9816564432213165
+0.04456644562716722,0.7420207277884888,60,Germain2022,"Bell (flipped, higher=worse)",patients,5-oxoproline / glutamate,,0.9816564432213165
+-0.10723326244871327,0.4272243464159083,60,Germain2022,"Bell (flipped, higher=worse)",patients,kynurenine,,0.9816564432213165
+0.012248362076139196,0.9279473068364772,60,Germain2022,"Bell (flipped, higher=worse)",patients,carnitine,,0.9816564432213165
+-0.15577689749326243,0.24722568276423254,60,Germain2022,"Bell (flipped, higher=worse)",patients,tiglylcarnitine (C5:1-DC),,0.9816564432213165
+0.0874081965575559,0.51793201616572,60,Germain2022,"Bell (flipped, higher=worse)",patients,MODULE long-chain acylcarnitines,,0.9816564432213165
+0.009531484202020844,0.9439004261743428,60,Germain2022,"Bell (flipped, higher=worse)",patients,"1,5-anhydroglucitol",,0.9816564432213165
+-0.04966359849362232,0.7137148232783329,60,Germain2022,"Bell (flipped, higher=worse)",patients,MTA,,0.9816564432213165
+-0.04168798906065639,0.7581596346350332,60,Germain2022,"Bell (flipped, higher=worse)",patients,phenylacetylglutamine,,0.9816564432213165
+-0.08584572588010762,0.5254702131073464,60,Germain2022,"Bell (flipped, higher=worse)",patients,TMAO / carnitine,,0.9816564432213165
+-0.23670615438555753,0.07626380729052237,60,Germain2022,"Bell (flipped, higher=worse)",patients,caffeine (lifestyle reference),,0.9816564432213165
+0.009372638696423565,0.9757571212494223,15,Germain2022,"Bell (flipped, higher=worse)",male patients,MODULE aromatic lactates,,0.9757571212494223
+0.1172463375402837,0.7028601388291299,15,Germain2022,"Bell (flipped, higher=worse)",male patients,phenyllactate (PLA),,0.9757571212494223
+-0.009960997921075397,0.9742357352534015,15,Germain2022,"Bell (flipped, higher=worse)",male patients,3-(4-hydroxyphenyl)lactate,,0.9757571212494223
+-0.04710950111827746,0.878537207931661,15,Germain2022,"Bell (flipped, higher=worse)",male patients,indolelactate,,0.9757571212494223
+-0.3610000110775327,0.22556843752111516,15,Germain2022,"Bell (flipped, higher=worse)",male patients,imidazole lactate,,0.9757571212494223
+0.15869436747843713,0.6045776439547653,15,Germain2022,"Bell (flipped, higher=worse)",male patients,vanillactate,,0.9757571212494223
+0.07351407734438935,0.811359395727616,15,Germain2022,"Bell (flipped, higher=worse)",male patients,alpha-hydroxyisovalerate,,0.9757571212494223
+0.23858434387976143,0.4324598594880083,15,Germain2022,"Bell (flipped, higher=worse)",male patients,alpha-hydroxyisocaproate,,0.9757571212494223
+0.21712342642907473,0.47613022658229076,15,Germain2022,"Bell (flipped, higher=worse)",male patients,2-hydroxy-4-(methylthio)butanoate,,0.9757571212494223
+-0.025373528805651583,0.9344245798410773,15,Germain2022,"Bell (flipped, higher=worse)",male patients,indolepropionate (IPA),,0.9757571212494223
+0.06039505665532841,0.8446156184127201,15,Germain2022,"Bell (flipped, higher=worse)",male patients,hippurate,,0.9757571212494223
+0.10548335506298864,0.7316266259253238,15,Germain2022,"Bell (flipped, higher=worse)",male patients,MODULE collagen turnover,,0.9757571212494223
+0.16634010162479834,0.5870437020360777,15,Germain2022,"Bell (flipped, higher=worse)",male patients,trans-4-hydroxyproline,,0.9757571212494223
+-0.0537541024072552,0.8615444258590851,15,Germain2022,"Bell (flipped, higher=worse)",male patients,4-hydroxyglutamate,,0.9757571212494223
+-0.27780260204047136,0.35810574430646674,15,Germain2022,"Bell (flipped, higher=worse)",male patients,methionine sulfoxide / methionine,,0.9757571212494223
+-0.5367820524217367,0.05857041675451532,15,Germain2022,"Bell (flipped, higher=worse)",male patients,glucuronate,,0.9757571212494223
+-0.021214408921294867,0.9451574888481336,15,Germain2022,"Bell (flipped, higher=worse)",male patients,5-oxoproline / glutamate,,0.9757571212494223
+-0.02758008976542201,0.9287344238160362,15,Germain2022,"Bell (flipped, higher=worse)",male patients,kynurenine,,0.9757571212494223
+0.0398038568757737,0.8972757270562121,15,Germain2022,"Bell (flipped, higher=worse)",male patients,carnitine,,0.9757571212494223
+0.08121149796642203,0.7919780611396059,15,Germain2022,"Bell (flipped, higher=worse)",male patients,tiglylcarnitine (C5:1-DC),,0.9757571212494223
+0.2796936328852909,0.3547063484215354,15,Germain2022,"Bell (flipped, higher=worse)",male patients,MODULE long-chain acylcarnitines,,0.9757571212494223
+0.2693633996764224,0.3734885352698445,15,Germain2022,"Bell (flipped, higher=worse)",male patients,"1,5-anhydroglucitol",,0.9757571212494223
+-0.4468491064480012,0.12581265029802136,15,Germain2022,"Bell (flipped, higher=worse)",male patients,MTA,,0.9757571212494223
+-0.28650380251949265,0.34260951522782773,15,Germain2022,"Bell (flipped, higher=worse)",male patients,phenylacetylglutamine,,0.9757571212494223
+-0.16303487416798623,0.5945988365956972,15,Germain2022,"Bell (flipped, higher=worse)",male patients,TMAO / carnitine,,0.9757571212494223
+-0.13589129790840607,0.6580136022343609,15,Germain2022,"Bell (flipped, higher=worse)",male patients,caffeine (lifestyle reference),,0.9757571212494223

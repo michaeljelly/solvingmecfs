@@ -1,0 +1,3 @@
+NIH_Walitt2024	AUC=0.867	CI=0.71-1.00	perm_p=0.0000	n_case=15	n_ctrl=17
+Raijmakers2020	AUC=0.900	CI=0.83-0.96	perm_p=0.0000	n_case=49	n_ctrl=44
+Guo2023_Columbia	AUC=0.754	CI=0.68-0.82	perm_p=0.0000	n_case=99	n_ctrl=91

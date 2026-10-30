@@ -1,0 +1,1083 @@
+[
+ {
+  "finding_id": "muscle-exertion-two-day-cpet",
+  "add_studies": [
+   {
+    "cite": "Thomas 2026, Exp Physiol",
+    "n": "68 LC",
+    "design": "2-day submaximal CPET",
+    "result": "day-2 decline in LC",
+    "url": "https://doi.org/10.1113/ep092576",
+    "doi": "10.1113/ep092576",
+    "verified": true
+   }
+  ],
+  "add_contradicting": [
+   {
+    "cite": "Gattoni 2025, Respir Physiol Neurobiol",
+    "n": "15 LC",
+    "design": "2-day CPET",
+    "result": "no day-2 decline",
+    "url": "https://doi.org/10.1016/j.resp.2024.104362",
+    "doi": "10.1016/j.resp.2024.104362",
+    "verified": true
+   }
+  ]
+ },
+ {
+  "finding_id": "vascular-muscle-capillary-basement-membrane",
+  "add_studies": [
+   {
+    "cite": "Aschman 2023, Acta Neuropathol Commun",
+    "n": "LC and ME/CFS",
+    "design": "muscle biopsy",
+    "result": "capillary basement-membrane thickening, microvascular changes",
+    "url": "https://doi.org/10.1186/s40478-023-01662-2",
+    "doi": "10.1186/s40478-023-01662-2",
+    "verified": true
+   },
+   {
+    "cite": "Tryfonos 2025, J Cachexia Sarcopenia Muscle",
+    "n": "28 vs 28",
+    "design": "biopsy",
+    "result": "lower capillary/fibre ratio",
+    "url": "https://doi.org/10.1002/jcsm.70085",
+    "doi": "10.1002/jcsm.70085",
+    "verified": true
+   }
+  ],
+  "add_contradicting": []
+ },
+ {
+  "finding_id": "vascular-oxygen-extraction",
+  "add_studies": [
+   {
+    "cite": "Mackay 2026, Am J Physiol Heart",
+    "n": "27 ME/CFS iCPET",
+    "design": "iCPET",
+    "result": "impaired extraction",
+    "url": "https://doi.org/10.1152/ajpheart.90080.2026",
+    "doi": "10.1152/ajpheart.90080.2026",
+    "verified": true
+   },
+   {
+    "cite": "Kahn 2024, ERJ Open Res",
+    "n": "55 LC",
+    "design": "iCPET",
+    "result": "75% impaired extraction",
+    "url": "https://doi.org/10.1183/23120541.00714-2023",
+    "doi": "10.1183/23120541.00714-2023",
+    "verified": true
+   },
+   {
+    "cite": "Leitner 2024, Pulm Circ",
+    "n": "47 LC",
+    "design": "iCPET",
+    "result": "reduced extraction",
+    "url": "https://doi.org/10.1002/pul2.70009",
+    "doi": "10.1002/pul2.70009",
+    "verified": true
+   }
+  ],
+  "add_contradicting": []
+ },
+ {
+  "finding_id": "muscle-exertion-grip-fatigability",
+  "add_studies": [
+   {
+    "cite": "Mihatsch 2026, J Transl Med",
+    "n": "147 vs 83",
+    "design": "repeated handgrip",
+    "result": "reduced fatigability/recovery",
+    "url": "https://doi.org/10.1186/s12967-026-08654-5",
+    "doi": "10.1186/s12967-026-08654-5",
+    "verified": true
+   },
+   {
+    "cite": "Schlomer 2025, Front Neurosci",
+    "n": "ME/CFS",
+    "design": "handgrip",
+    "result": "reduced grip strength/fatigability",
+    "url": "https://doi.org/10.3389/fnins.2025.1637838",
+    "doi": "10.3389/fnins.2025.1637838",
+    "verified": true
+   }
+  ],
+  "add_contradicting": [
+   {
+    "cite": "Popkirov 2025, Eur J Neurol",
+    "n": "commentary/analysis",
+    "design": "interpretation",
+    "result": "argues effort/central factors",
+    "url": "https://doi.org/10.1111/ene.70273",
+    "doi": "10.1111/ene.70273",
+    "verified": true
+   },
+   {
+    "cite": "Steinkirchner 2026 (preprint)",
+    "n": "ME/CFS",
+    "design": "handgrip",
+    "result": "alternative interpretation",
+    "url": "https://doi.org/10.64898/2026.07.22.26358672",
+    "doi": "10.64898/2026.07.22.26358672",
+    "verified": true
+   }
+  ]
+ },
+ {
+  "finding_id": "vascular-endothelial-fmd-porh",
+  "add_studies": [
+   {
+    "cite": "Mclaughlin 2025, Am J Med",
+    "n": "LC/ME/CFS",
+    "design": "FMD",
+    "result": "endothelial dysfunction",
+    "url": "https://doi.org/10.1016/j.amjmed.2023.09.013",
+    "doi": "10.1016/j.amjmed.2023.09.013",
+    "verified": true
+   },
+   {
+    "cite": "Domingo 2024, J Transl Med",
+    "n": "ME/CFS/LC",
+    "design": "endothelial",
+    "result": "endothelial dysfunction",
+    "url": "https://doi.org/10.1186/s12967-024-05148-0",
+    "doi": "10.1186/s12967-024-05148-0",
+    "verified": true
+   },
+   {
+    "cite": "Ono 2025, Am J Physiol Regul",
+    "n": "post-severe COVID",
+    "design": "vascular",
+    "result": "impaired vascular function",
+    "url": "https://doi.org/10.1152/ajpregu.00055.2025",
+    "doi": "10.1152/ajpregu.00055.2025",
+    "verified": true
+   }
+  ],
+  "add_contradicting": [
+   {
+    "cite": "Jamieson 2024, Physiol Rep",
+    "n": "32 vs 19",
+    "design": "FMD/microvascular",
+    "result": "no dysfunction",
+    "url": "https://doi.org/10.14814/phy2.15940",
+    "doi": "10.14814/phy2.15940",
+    "verified": true
+   },
+   {
+    "cite": "Rodrigues 2026, J Pers Med",
+    "n": "38",
+    "design": "vascular",
+    "result": "normal",
+    "url": "https://doi.org/10.3390/jpm16010038",
+    "doi": "10.3390/jpm16010038",
+    "verified": true
+   }
+  ]
+ },
+ {
+  "finding_id": "vascular-coagulation-markers",
+  "add_studies": [
+   {
+    "cite": "Prasannan 2022, Blood Adv",
+    "n": "LC",
+    "design": "coagulation",
+    "result": "raised VWF/FVIII-type markers",
+    "url": "https://doi.org/10.1182/bloodadvances.2021006944",
+    "doi": "10.1182/bloodadvances.2021006944",
+    "verified": true
+   }
+  ],
+  "add_contradicting": []
+ },
+ {
+  "finding_id": "vascular-microclots",
+  "add_studies": [
+   {
+    "cite": "Thomas 2025 (preprint, Research Square)",
+    "n": "ME/CFS/LC",
+    "design": "microclot imaging",
+    "result": "microclots",
+    "url": "https://doi.org/10.21203/rs.3.rs-6717727/v1",
+    "doi": "10.21203/rs.3.rs-6717727/v1",
+    "verified": true
+   }
+  ],
+  "add_contradicting": []
+ },
+ {
+  "finding_id": "vascular-platelets",
+  "add_studies": [
+   {
+    "cite": "Nunes 2024, Cardiovasc Diabetol",
+    "n": "ME/CFS",
+    "design": "platelet/fibrin",
+    "result": "platelet hyperactivation",
+    "url": "https://doi.org/10.1186/s12933-024-02315-x",
+    "doi": "10.1186/s12933-024-02315-x",
+    "verified": true
+   }
+  ],
+  "add_contradicting": []
+ },
+ {
+  "finding_id": "vascular-vascular-proteins-blood",
+  "add_studies": [
+   {
+    "cite": "Heng 2025, Cell Rep Med",
+    "n": "ME/CFS",
+    "design": "multi-omics",
+    "result": "vascular/immune protein shifts",
+    "url": "https://doi.org/10.1016/j.xcrm.2025.102514",
+    "doi": "10.1016/j.xcrm.2025.102514",
+    "verified": true
+   }
+  ],
+  "add_contradicting": []
+ },
+ {
+  "finding_id": "neuro-brainstem",
+  "add_studies": [],
+  "add_contradicting": [
+   {
+    "cite": "Thapaliya 2023, Front Neurosci",
+    "n": "ME/CFS",
+    "design": "7T MRI",
+    "result": "larger brainstem volumes (direction conflicts with atlas wording)",
+    "url": "https://doi.org/10.3389/fnins.2023.1125208",
+    "doi": "10.3389/fnins.2023.1125208",
+    "verified": true
+   }
+  ]
+ },
+ {
+  "finding_id": "neuro-csf-catechol",
+  "add_studies": [
+   {
+    "cite": "Aregawi 2026, Brain Commun",
+    "n": "NIH cohort (not independent)",
+    "design": "CSF",
+    "result": "catechol findings",
+    "url": "https://doi.org/10.1093/braincomms/fcag173",
+    "doi": "10.1093/braincomms/fcag173",
+    "verified": true
+   }
+  ],
+  "add_contradicting": []
+ },
+ {
+  "finding_id": "neuro-injury-markers",
+  "add_studies": [],
+  "add_contradicting": [
+   {
+    "cite": "Azcue 2024, Biomedicines",
+    "n": "67 vs 43",
+    "design": "serum NfL",
+    "result": "NfL higher in ME/CFS",
+    "url": "https://doi.org/10.3390/biomedicines12071539",
+    "doi": "10.3390/biomedicines12071539",
+    "verified": true
+   }
+  ]
+ },
+ {
+  "finding_id": "neuro-sleep",
+  "add_studies": [
+   {
+    "cite": "Thapaliya 2026, Front Neurosci",
+    "n": "ME/CFS",
+    "design": "DTI-ALPS",
+    "result": "reduced glymphatic index",
+    "url": "https://doi.org/10.3389/fnins.2026.1875420",
+    "doi": "10.3389/fnins.2026.1875420",
+    "verified": true
+   },
+   {
+    "cite": "Saurel 2026",
+    "n": "ME/CFS",
+    "design": "sleep",
+    "result": "sleep findings",
+    "url": "https://doi.org/10.1007/s44470-026-00079-7",
+    "doi": "10.1007/s44470-026-00079-7",
+    "verified": true
+   }
+  ],
+  "add_contradicting": []
+ },
+ {
+  "finding_id": "neuro-hrv",
+  "add_studies": [
+   {
+    "cite": "Boneva 2007, Auton Neurosci",
+    "n": "CFS",
+    "design": "HRV",
+    "result": "reduced HRV",
+    "url": "https://doi.org/10.1016/j.autneu.2007.08.002",
+    "doi": "10.1016/j.autneu.2007.08.002",
+    "verified": true
+   },
+   {
+    "cite": "Ryabkova 2024, Pathophysiology",
+    "n": "LC/ME/CFS",
+    "design": "HRV",
+    "result": "autonomic dysregulation",
+    "url": "https://doi.org/10.3390/pathophysiology31010001",
+    "doi": "10.3390/pathophysiology31010001",
+    "verified": true
+   }
+  ],
+  "add_contradicting": []
+ },
+ {
+  "finding_id": "neuro-pots-prevalence",
+  "add_studies": [
+   {
+    "cite": "Bou-Holaigah 1995, JAMA",
+    "n": "23 CFS",
+    "design": "tilt",
+    "result": "neurally mediated hypotension in most",
+    "url": "https://doi.org/10.1001/jama.1995.03530120053041",
+    "doi": "10.1001/jama.1995.03530120053041",
+    "verified": true
+   },
+   {
+    "cite": "Stewart 1999, Pediatrics",
+    "n": "adolescent CFS",
+    "design": "tilt",
+    "result": "POTS/orthostatic intolerance common",
+    "url": "https://doi.org/10.1542/peds.103.1.116",
+    "doi": "10.1542/peds.103.1.116",
+    "verified": true
+   },
+   {
+    "cite": "Jason 2024, J Pers Med",
+    "n": "193",
+    "design": "tilt/orthostatic",
+    "result": "POTS 32.5%",
+    "url": "https://doi.org/10.3390/jpm14030238",
+    "doi": "10.3390/jpm14030238",
+    "verified": true
+   },
+   {
+    "cite": "Azcue 2023, J Transl Med",
+    "n": "ME/CFS",
+    "design": "autonomic",
+    "result": "orthostatic intolerance",
+    "url": "https://doi.org/10.1186/s12967-023-04678-3",
+    "doi": "10.1186/s12967-023-04678-3",
+    "verified": true
+   },
+   {
+    "cite": "Issa 2025, J Clin Med",
+    "n": "ME/CFS (MCAM)",
+    "design": "orthostatic testing",
+    "result": "orthostatic findings",
+    "url": "https://doi.org/10.3390/jcm14176269",
+    "doi": "10.3390/jcm14176269",
+    "verified": true
+   }
+  ],
+  "add_contradicting": []
+ },
+ {
+  "finding_id": "neuro-sfn-longcovid",
+  "add_studies": [
+   {
+    "cite": "McAlpine 2024, Neurol Neuroimmunol Neuroinflamm",
+    "n": "LC SFN",
+    "design": "IVIG case series",
+    "result": "IVIG response in SFN",
+    "url": "https://doi.org/10.1212/nxi.0000000000200244",
+    "doi": "10.1212/nxi.0000000000200244",
+    "verified": true
+   }
+  ],
+  "add_contradicting": []
+ },
+ {
+  "finding_id": "neuro-cbf-rest",
+  "add_studies": [
+   {
+    "cite": "Biswal 2011, J Neurol Sci",
+    "n": "CFS",
+    "design": "resting CBF",
+    "result": "reduced CBF",
+    "url": "https://doi.org/10.1016/j.jns.2010.11.018",
+    "doi": "10.1016/j.jns.2010.11.018",
+    "verified": true
+   }
+  ],
+  "add_contradicting": []
+ },
+ {
+  "finding_id": "neuro-mri-structure",
+  "add_studies": [
+   {
+    "cite": "de Lange 2005, NeuroImage",
+    "n": "CFS",
+    "design": "VBM",
+    "result": "reduced grey matter, reversed after CBT",
+    "url": "https://doi.org/10.1016/j.neuroimage.2005.02.037",
+    "doi": "10.1016/j.neuroimage.2005.02.037",
+    "verified": true
+   }
+  ],
+  "add_contradicting": []
+ },
+ {
+  "finding_id": "neuro-white-matter-diffusion",
+  "add_studies": [
+   {
+    "cite": "Zeineh 2015, Radiology",
+    "n": "15 vs 14",
+    "design": "DTI",
+    "result": "right arcuate FA increased",
+    "url": "https://doi.org/10.1148/radiol.14141079",
+    "doi": "10.1148/radiol.14141079",
+    "verified": true
+   }
+  ],
+  "add_contradicting": []
+ },
+ {
+  "finding_id": "neuro-csf-immune-proteome",
+  "add_studies": [
+   {
+    "cite": "Natelson 2005, Clin Diagn Lab Immunol",
+    "n": "CFS",
+    "design": "CSF cytokines",
+    "result": "CSF abnormalities in subset",
+    "url": "https://doi.org/10.1128/cdli.12.1.52-55.2005",
+    "doi": "10.1128/cdli.12.1.52-55.2005",
+    "verified": true
+   }
+  ],
+  "add_contradicting": []
+ },
+ {
+  "finding_id": "immune-longcovid-overlap",
+  "add_studies": [
+   {
+    "cite": "Phetsouphanh 2022, Nat Immunol",
+    "n": "LC",
+    "design": "immune profiling",
+    "result": "persistent activation; IFN-beta/III elevation at 8 months",
+    "url": "https://doi.org/10.1038/s41590-021-01113-x",
+    "doi": "10.1038/s41590-021-01113-x",
+    "verified": true
+   },
+   {
+    "cite": "Berentschot 2023, Front Immunol",
+    "n": "LC",
+    "design": "immunophenotyping",
+    "result": "immune activation",
+    "url": "https://doi.org/10.3389/fimmu.2023.1254899",
+    "doi": "10.3389/fimmu.2023.1254899",
+    "verified": true
+   },
+   {
+    "cite": "Saito 2024, Front Immunol",
+    "n": "LC/ME/CFS",
+    "design": "immune",
+    "result": "immune overlap",
+    "url": "https://doi.org/10.3389/fimmu.2024.1341843",
+    "doi": "10.3389/fimmu.2024.1341843",
+    "verified": true
+   },
+   {
+    "cite": "Petrov 2025, Biomedicines",
+    "n": "LC/ME/CFS",
+    "design": "immune",
+    "result": "immune overlap",
+    "url": "https://doi.org/10.3390/biomedicines13123001",
+    "doi": "10.3390/biomedicines13123001",
+    "verified": true
+   }
+  ],
+  "add_contradicting": [
+   {
+    "cite": "Petrov 2026, Int J Mol Sci",
+    "n": "LC/ME/CFS",
+    "design": "immune",
+    "result": "differences between LC and ME/CFS",
+    "url": "https://doi.org/10.3390/ijms27104488",
+    "doi": "10.3390/ijms27104488",
+    "verified": true
+   },
+   {
+    "cite": "Omdal 2026, Brain Behav Immun Health",
+    "n": "fatigue",
+    "design": "immune",
+    "result": "null/limited immune association",
+    "url": "https://doi.org/10.1016/j.bbih.2026.101226",
+    "doi": "10.1016/j.bbih.2026.101226",
+    "verified": true
+   }
+  ]
+ },
+ {
+  "finding_id": "immune-gpcr-autoantibodies",
+  "add_studies": [
+   {
+    "cite": "Azcue 2026, Sci Rep",
+    "n": "ME/CFS",
+    "design": "GPCR-AAb",
+    "result": "GPCR autoantibody findings",
+    "url": "https://doi.org/10.1038/s41598-026-49131-9",
+    "doi": "10.1038/s41598-026-49131-9",
+    "verified": true
+   },
+   {
+    "cite": "Schmitz 2026, J Allergy Clin Immunol",
+    "n": "ME/CFS/LC",
+    "design": "GPCR-AAb",
+    "result": "GPCR autoantibody findings",
+    "url": "https://doi.org/10.1016/j.jaci.2025.10.034",
+    "doi": "10.1016/j.jaci.2025.10.034",
+    "verified": true
+   }
+  ],
+  "add_contradicting": [
+   {
+    "cite": "Han 2025, Biomolecules",
+    "n": "ME/CFS",
+    "design": "GPCR-AAb",
+    "result": "no difference",
+    "url": "https://doi.org/10.3390/biom15020300",
+    "doi": "10.3390/biom15020300",
+    "verified": true
+   }
+  ]
+ },
+ {
+  "finding_id": "immune-nk-cytotoxicity",
+  "add_studies": [
+   {
+    "cite": "Fletcher 2010, PLoS One",
+    "n": "CFS",
+    "design": "NK function",
+    "result": "reduced cytotoxicity",
+    "url": "https://doi.org/10.1371/journal.pone.0010817",
+    "doi": "10.1371/journal.pone.0010817",
+    "verified": true
+   }
+  ],
+  "add_contradicting": []
+ },
+ {
+  "finding_id": "immune-tcell-severity",
+  "add_studies": [
+   {
+    "cite": "Lee 2025, medRxiv (preprint)",
+    "n": "ME/CFS",
+    "design": "T-cell",
+    "result": "T-cell severity association (check not already cited)",
+    "url": "https://doi.org/10.1101/2025.01.02.24319359",
+    "doi": "10.1101/2025.01.02.24319359",
+    "verified": true
+   }
+  ],
+  "add_contradicting": []
+ },
+ {
+  "finding_id": "omics-redox",
+  "add_studies": [
+   {
+    "cite": "Shankar 2025, PNAS",
+    "n": "ME/CFS",
+    "design": "redox",
+    "result": "redox imbalance",
+    "url": "https://doi.org/10.1073/pnas.2426564122",
+    "doi": "10.1073/pnas.2426564122",
+    "verified": true
+   },
+   {
+    "cite": "Jammes 2005, J Intern Med",
+    "n": "CFS",
+    "design": "exercise oxidative stress",
+    "result": "exaggerated oxidative stress after exercise",
+    "url": "https://doi.org/10.1111/j.1365-2796.2005.01452.x",
+    "doi": "10.1111/j.1365-2796.2005.01452.x",
+    "verified": true
+   },
+   {
+    "cite": "Fulle 2000, Free Radic Biol Med",
+    "n": "CFS",
+    "design": "muscle",
+    "result": "muscle oxidative damage",
+    "url": "https://doi.org/10.1016/s0891-5849(00)00419-6",
+    "doi": "10.1016/s0891-5849(00)00419-6",
+    "verified": true
+   }
+  ],
+  "add_contradicting": []
+ },
+ {
+  "finding_id": "muscle-exertion-immune-cell-mito",
+  "add_studies": [
+   {
+    "cite": "Heng 2025, Cell Rep Med",
+    "n": "ME/CFS",
+    "design": "multi-omics",
+    "result": "immune-cell metabolic findings",
+    "url": "https://doi.org/10.1016/j.xcrm.2025.102514",
+    "doi": "10.1016/j.xcrm.2025.102514",
+    "verified": true
+   },
+   {
+    "cite": "Macnaughtan 2025, Ann Med",
+    "n": "ME/CFS",
+    "design": "PBMC",
+    "result": "mitochondrial findings",
+    "url": "https://doi.org/10.1080/07853890.2025.2528167",
+    "doi": "10.1080/07853890.2025.2528167",
+    "verified": true
+   },
+   {
+    "cite": "Dirajlal-Fargo 2024, Mitochondrion",
+    "n": "LC",
+    "design": "PBMC",
+    "result": "mitochondrial dysfunction",
+    "url": "https://doi.org/10.1016/j.mito.2024.101849",
+    "doi": "10.1016/j.mito.2024.101849",
+    "verified": true
+   },
+   {
+    "cite": "Guo 2023, eBioMedicine",
+    "n": "ME/CFS",
+    "design": "multi-omics",
+    "result": "IDO/kynurenine; immune metabolism",
+    "url": "https://doi.org/10.1016/j.ebiom.2023.104729",
+    "doi": "10.1016/j.ebiom.2023.104729",
+    "verified": true
+   }
+  ],
+  "add_contradicting": []
+ },
+ {
+  "finding_id": "muscle-exertion-exercise-gene-expression",
+  "add_studies": [
+   {
+    "cite": "White AT 2010, Psychophysiology",
+    "n": "CFS",
+    "design": "post-exercise leukocyte gene expression",
+    "result": "sensory/adrenergic receptor mRNA rise",
+    "url": "https://doi.org/10.1111/j.1469-8986.2010.00978.x",
+    "doi": "10.1111/j.1469-8986.2010.00978.x",
+    "verified": true
+   }
+  ],
+  "add_contradicting": []
+ },
+ {
+  "finding_id": "omics-ev",
+  "add_studies": [
+   {
+    "cite": "Seifert 2026, Int J Mol Sci",
+    "n": "ME/CFS",
+    "design": "EV",
+    "result": "EV findings",
+    "url": "https://doi.org/10.3390/ijms27052314",
+    "doi": "10.3390/ijms27052314",
+    "verified": true
+   },
+   {
+    "cite": "Ikeda 2026, Open Forum Infect Dis",
+    "n": "LC",
+    "design": "EV",
+    "result": "EV findings",
+    "url": "https://doi.org/10.1093/ofid/ofag209",
+    "doi": "10.1093/ofid/ofag209",
+    "verified": true
+   }
+  ],
+  "add_contradicting": []
+ },
+ {
+  "finding_id": "omics-methylation",
+  "add_studies": [
+   {
+    "cite": "Peppercorn 2025, Int J Mol Sci",
+    "n": "ME/CFS",
+    "design": "methylation",
+    "result": "methylation changes",
+    "url": "https://doi.org/10.3390/ijms26146631",
+    "doi": "10.3390/ijms26146631",
+    "verified": true
+   },
+   {
+    "cite": "Sharma 2025, Int J Mol Sci",
+    "n": "ME/CFS",
+    "design": "methylation",
+    "result": "methylation changes",
+    "url": "https://doi.org/10.3390/ijms26178563",
+    "doi": "10.3390/ijms26178563",
+    "verified": true
+   }
+  ],
+  "add_contradicting": []
+ },
+ {
+  "finding_id": "infection-post-covid-mecfs-incidence",
+  "add_studies": [
+   {
+    "cite": "Hadidchi 2025, J Transl Med",
+    "n": "large EHR cohort",
+    "design": "registry",
+    "result": "raised ME/CFS incidence after COVID",
+    "url": "https://doi.org/10.1186/s12967-025-06625-w",
+    "doi": "10.1186/s12967-025-06625-w",
+    "verified": true
+   },
+   {
+    "cite": "Chen 2024, J Infect Public Health",
+    "n": "registry",
+    "design": "cohort",
+    "result": "raised risk after COVID",
+    "url": "https://doi.org/10.1016/j.jiph.2024.102559",
+    "doi": "10.1016/j.jiph.2024.102559",
+    "verified": true
+   },
+   {
+    "cite": "Tack 2026, Medicina",
+    "n": "LC",
+    "design": "cohort",
+    "result": "ME/CFS criteria met in subset",
+    "url": "https://doi.org/10.3390/medicina62030480",
+    "doi": "10.3390/medicina62030480",
+    "verified": true
+   },
+   {
+    "cite": "Bonilla 2023, Front Neurol",
+    "n": "LC clinic",
+    "design": "cohort",
+    "result": "ME/CFS criteria met by many",
+    "url": "https://doi.org/10.3389/fneur.2023.1090747",
+    "doi": "10.3389/fneur.2023.1090747",
+    "verified": true
+   }
+  ],
+  "add_contradicting": []
+ },
+ {
+  "finding_id": "infection-viral-vs-bacterial-registry",
+  "add_studies": [
+   {
+    "cite": "Chang 2025, J Transl Med",
+    "n": "registry",
+    "design": "cohort",
+    "result": "raised risk after influenza",
+    "url": "https://doi.org/10.1186/s12967-025-06600-5",
+    "doi": "10.1186/s12967-025-06600-5",
+    "verified": true
+   }
+  ],
+  "add_contradicting": [
+   {
+    "cite": "Hsu 2024, J Infect Public Health",
+    "n": "Taiwan registry",
+    "design": "cohort",
+    "result": "bacterial pneumonia also raises ME/CFS risk (aHR about 1.4)",
+    "url": "https://doi.org/10.1016/j.jiph.2024.102495",
+    "doi": "10.1016/j.jiph.2024.102495",
+    "verified": true
+   }
+  ]
+ },
+ {
+  "finding_id": "infection-sarscov2-plasma-antigen",
+  "add_studies": [],
+  "add_contradicting": [
+   {
+    "cite": "Fehrer 2025, J Clin Med",
+    "n": "LC",
+    "design": "plasma antigen",
+    "result": "no persistent antigen",
+    "url": "https://doi.org/10.3390/jcm14041086",
+    "doi": "10.3390/jcm14041086",
+    "verified": true
+   },
+   {
+    "cite": "Rahmati 2025, Lancet Microbe",
+    "n": "meta/cohort",
+    "design": "antigen",
+    "result": "(abstract not read)",
+    "url": "https://doi.org/10.1016/j.lanmic.2024.101012",
+    "doi": "10.1016/j.lanmic.2024.101012",
+    "verified": false
+   }
+  ]
+ },
+ {
+  "finding_id": "infection-enterovirus-stomach-chia",
+  "add_studies": [],
+  "add_contradicting": [
+   {
+    "cite": "Germain 2026, Int J Mol Sci",
+    "n": "ME/CFS",
+    "design": "EV RNA sequencing",
+    "result": "no enterovirus RNA",
+    "url": "https://doi.org/10.3390/ijms27209065",
+    "doi": "10.3390/ijms27209065",
+    "verified": true
+   }
+  ]
+ },
+ {
+  "finding_id": "infection-katz-post-mono-adolescents",
+  "add_studies": [
+   {
+    "cite": "Jason 2026, Front Med",
+    "n": "post-mono adolescents",
+    "design": "7-year follow-up",
+    "result": "81% of severe cases still ill at 7 years",
+    "url": "https://doi.org/10.3389/fmed.2026.1676628",
+    "doi": "10.3389/fmed.2026.1676628",
+    "verified": true
+   }
+  ],
+  "add_contradicting": []
+ },
+ {
+  "finding_id": "gut-translocation-lps",
+  "add_studies": [
+   {
+    "cite": "Shukla 2015, PLoS One",
+    "n": "CFS",
+    "design": "exercise + microbiome",
+    "result": "post-exercise bacterial translocation",
+    "url": "https://doi.org/10.1371/journal.pone.0145453",
+    "doi": "10.1371/journal.pone.0145453",
+    "verified": true
+   },
+   {
+    "cite": "Bourgonje 2024, Microbiome",
+    "n": "ME/CFS",
+    "design": "gut/translocation",
+    "result": "translocation markers",
+    "url": "https://doi.org/10.1186/s40168-024-01858-1",
+    "doi": "10.1186/s40168-024-01858-1",
+    "verified": true
+   },
+   {
+    "cite": "Rohrhofer 2025, Allergy",
+    "n": "ME/CFS/LC",
+    "design": "gut barrier",
+    "result": "barrier markers",
+    "url": "https://doi.org/10.1111/all.16593",
+    "doi": "10.1111/all.16593",
+    "verified": true
+   }
+  ],
+  "add_contradicting": []
+ },
+ {
+  "finding_id": "gut-butyrate-producer-loss",
+  "add_studies": [
+   {
+    "cite": "Fremont 2013, Anaerobe",
+    "n": "CFS",
+    "design": "16S",
+    "result": "microbiome shift",
+    "url": "https://doi.org/10.1016/j.anaerobe.2013.06.002",
+    "doi": "10.1016/j.anaerobe.2013.06.002",
+    "verified": true
+   }
+  ],
+  "add_contradicting": []
+ },
+ {
+  "finding_id": "gut-longcovid-parallel",
+  "add_studies": [
+   {
+    "cite": "Hamrefors 2024, Sci Rep",
+    "n": "LC",
+    "design": "gut",
+    "result": "gut findings",
+    "url": "https://doi.org/10.1038/s41598-024-53784-9",
+    "doi": "10.1038/s41598-024-53784-9",
+    "verified": true
+   }
+  ],
+  "add_contradicting": []
+ },
+ {
+  "finding_id": "endocrine-hpa-low-cortisol",
+  "add_studies": [
+   {
+    "cite": "Pipper 2024, J Endocrinol Invest",
+    "n": "LC",
+    "design": "cortisol",
+    "result": "low cortisol",
+    "url": "https://doi.org/10.1007/s40618-024-02334-1",
+    "doi": "10.1007/s40618-024-02334-1",
+    "verified": true
+   }
+  ],
+  "add_contradicting": [
+   {
+    "cite": "Thomas 2025, J Transl Med",
+    "n": "ME/CFS",
+    "design": "endocrine panel",
+    "result": "null after FDR",
+    "url": "https://doi.org/10.1186/s12967-025-06841-4",
+    "doi": "10.1186/s12967-025-06841-4",
+    "verified": true
+   }
+  ]
+ },
+ {
+  "finding_id": "genetics-infection-loci",
+  "add_studies": [
+   {
+    "cite": "Chaudhary 2024, medRxiv (preprint)",
+    "n": "LC GWAS",
+    "design": "GWAS + MR",
+    "result": "liability to chronic fatigue OR 1.59",
+    "url": "https://doi.org/10.1101/2024.10.07.24315052",
+    "doi": "10.1101/2024.10.07.24315052",
+    "verified": true
+   }
+  ],
+  "add_contradicting": []
+ },
+ {
+  "finding_id": "genetics-polygenic-replication",
+  "add_studies": [
+   {
+    "cite": "Liu 2025, Sleep",
+    "n": "biobank",
+    "design": "polygenic",
+    "result": "polygenic replication",
+    "url": "https://doi.org/10.1093/sleep/zsae243",
+    "doi": "10.1093/sleep/zsae243",
+    "verified": true
+   }
+  ],
+  "add_contradicting": []
+ },
+ {
+  "finding_id": "genetics-mr-biomarkers",
+  "add_studies": [
+   {
+    "cite": "Duan 2025, Biomedicines",
+    "n": "MR",
+    "design": "Mendelian randomisation",
+    "result": "biomarker MR",
+    "url": "https://doi.org/10.3390/biomedicines13051200",
+    "doi": "10.3390/biomedicines13051200",
+    "verified": true
+   }
+  ],
+  "add_contradicting": []
+ },
+ {
+  "finding_id": "omics-ukb-blood-traits",
+  "add_studies": [
+   {
+    "cite": "Huang 2026, iScience",
+    "n": "UK Biobank",
+    "design": "blood traits",
+    "result": "blood trait associations",
+    "url": "https://doi.org/10.1016/j.isci.2025.114316",
+    "doi": "10.1016/j.isci.2025.114316",
+    "verified": true
+   }
+  ],
+  "add_contradicting": []
+ },
+ {
+  "finding_id": "trials-ivig",
+  "add_studies": [
+   {
+    "cite": "Sjogren 2024, Clin Ther",
+    "n": "ME/CFS",
+    "design": "SCIG open study",
+    "result": "reported improvement",
+    "url": "https://doi.org/10.1016/j.clinthera.2024.05.010",
+    "doi": "10.1016/j.clinthera.2024.05.010",
+    "verified": true
+   },
+   {
+    "cite": "McAlpine 2024, Neurol Neuroimmunol Neuroinflamm",
+    "n": "LC SFN",
+    "design": "IVIG",
+    "result": "improvement",
+    "url": "https://doi.org/10.1212/nxi.0000000000200244",
+    "doi": "10.1212/nxi.0000000000200244",
+    "verified": true
+   }
+  ],
+  "add_contradicting": []
+ },
+ {
+  "finding_id": "trials-pyridostigmine",
+  "add_studies": [
+   {
+    "cite": "Schlomer 2025, Front Neurosci",
+    "n": "ME/CFS",
+    "design": "pyridostigmine/handgrip",
+    "result": "grip effect",
+    "url": "https://doi.org/10.3389/fnins.2025.1637838",
+    "doi": "10.3389/fnins.2025.1637838",
+    "verified": true
+   }
+  ],
+  "add_contradicting": []
+ },
+ {
+  "finding_id": "trials-hbot",
+  "add_studies": [
+   {
+    "cite": "Kim 2025, medRxiv (preprint)",
+    "n": "LC",
+    "design": "HBOT trial",
+    "result": "HBOT outcome",
+    "url": "https://doi.org/10.1101/2025.10.29.25339096",
+    "doi": "10.1101/2025.10.29.25339096",
+    "verified": true
+   }
+  ],
+  "add_contradicting": []
+ },
+ {
+  "finding_id": "trials-prevalence-sex",
+  "add_studies": [
+   {
+    "cite": "Bakken 2014, BMC Med",
+    "n": "Norwegian registry",
+    "design": "epidemiology",
+    "result": "bimodal age/sex incidence",
+    "url": "https://doi.org/10.1186/s12916-014-0167-5",
+    "doi": "10.1186/s12916-014-0167-5",
+    "verified": true
+   }
+  ],
+  "add_contradicting": []
+ },
+ {
+  "finding_id": "trials-ldn",
+  "add_studies": [
+   {
+    "cite": "Naik 2026 (preprint) RCT",
+    "n": "160",
+    "design": "RCT",
+    "result": "no benefit of LDN",
+    "url": "https://doi.org/10.64898/2026.10.22.26363582",
+    "doi": "10.64898/2026.10.22.26363582",
+    "verified": true
+   },
+   {
+    "cite": "Tamariz 2024, Clin Ther",
+    "n": "ME/CFS",
+    "design": "retrospective",
+    "result": "reported benefit (uncontrolled)",
+    "url": "https://doi.org/10.1016/j.clinthera.2023.12.009",
+    "doi": "10.1016/j.clinthera.2023.12.009",
+    "verified": true
+   }
+  ],
+  "add_contradicting": []
+ }
+]

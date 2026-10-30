@@ -1,0 +1,25 @@
+test,beta_sd,p,n,q
+indolelactate raw,-0.39,2.44e-03,236,0.005
+indolelactate | tryptophan,-0.382,1.51e-03,236,0.004
+log ratio indolelactate/tryptophan,-0.42,1.71e-03,236,0.004
+phenyllactate (PLA) raw,-0.441,3.25e-04,236,0.001
+phenyllactate (PLA) | phenylalanine,-0.39,7.19e-04,236,0.002
+log ratio phenyllactate (PLA)/phenylalanine,-0.419,6.79e-04,236,0.002
+3-(4-hydroxyphenyl)lactate raw,-0.616,3.83e-07,236,0.000
+3-(4-hydroxyphenyl)lactate | tyrosine,-0.538,9.46e-07,236,0.000
+log ratio 3-(4-hydroxyphenyl)lactate/tyrosine,-0.559,1.07e-05,236,0.000
+indolepropionate raw,-0.339,1.14e-02,236,0.017
+indolepropionate | tryptophan,-0.338,1.16e-02,236,0.017
+log ratio indolepropionate/tryptophan,-0.333,1.36e-02,236,0.019
+3-phenylpropionate (hydrocinnamate) raw,-0.21,1.14e-01,236,0.143
+3-phenylpropionate (hydrocinnamate) | phenylalanine,-0.225,9.04e-02,236,0.121
+log ratio 3-phenylpropionate (hydrocinnamate)/phenylalanine,-0.19,1.50e-01,236,0.172
+tryptophan raw,-0.021,8.62e-01,236,0.862
+phenylalanine raw,-0.16,2.31e-01,236,0.252
+tyrosine raw,-0.197,1.30e-01,236,0.156
+log lactate/pyruvate,-0.116,3.80e-01,236,0.396
+indolelactate | Trp + lac/pyr,-0.383,1.50e-03,236,0.004
+COMPOSITE aromatic-lactate score,-0.547,6.50e-06,236,0.000
+COMPOSITE fld-reductive score,-0.345,8.40e-03,236,0.014
+arLDH score | fld score,-0.562,5.28e-06,236,0.000
+fld score | arLDH score,-0.373,6.51e-03,236,0.012

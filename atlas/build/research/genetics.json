@@ -1,0 +1,761 @@
+{
+ "domain": "genetics",
+ "title": "Genetics",
+ "overview": "ME/CFS runs in families, and twin, genealogy and three-generation cohort studies put familial or heritable risk at roughly 20 to 50%. In 2025 DecodeME (15,579 cases) found the first eight robust genome-wide loci, with SNP heritability of about 8 to 10%. Each variant shifts risk only slightly (odds ratios 1.07 to 1.10), so no gene test can diagnose or predict ME/CFS. The overall genetic signal replicates in independent biobanks (MVP, FinnGen, UK Biobank), but the individual loci mostly do not yet, partly because those biobanks use loose case definitions. Across several analyses the signal points to neurons in the brain (and possibly the pituitary), not blood immune cells. It overlaps strongly with chronic pain, fibromyalgia, IBS and migraine, and partly with depression, though the specific ME/CFS loci do not share causal variants with depression. Earlier small candidate-gene and HLA findings mostly failed to replicate. Several 2025–2026 follow-ups (Mendelian randomisation, rare variants, a UK Biobank/All of Us GWAS) are preprints that still need confirmation.",
+ "findings": [
+  {
+   "id": "genetics-familial-heritability",
+   "subdomain": "Heritability and family studies",
+   "finding": "ME/CFS aggregates in families: relatives of cases have about 2-3x the risk, MZ twins are more concordant than DZ twins, and familiality in a 153,803-person Dutch cohort was 42%.",
+   "grade": "replicated",
+   "plain": "Having a close relative with ME/CFS raises your own risk, which means genes (and perhaps shared environment) play a part.",
+   "detail": "In the Utah Population Database (Albright 2011), relative risk was 2.70 (1.56–4.66) for first-degree relatives, 2.34 for second-degree and 1.93 for third-degree, with excess distant relatedness (p=0.010). Buchwald 2001 (146 female twin pairs) found 55% MZ vs 19% DZ concordance for idiopathic chronic fatigue and estimated heritability up to 51%. Its confidence intervals are wide, and it measured chronic fatigue, not strict ME/CFS. Bos 2025 (Lifelines, 153,803 people, 90,397 with a first-degree relative) found recurrence risk ratio 1.45–2.23 within disorders and familiality 42% (33–50) for ME/CFS. Familial correlations were 0.97 with fibromyalgia and 0.83 with depression. Familiality includes shared household environment.",
+   "studies": [
+    {
+     "cite": "Albright 2011, BMC Neurology",
+     "n": "Utah genealogy-linked health records",
+     "design": "familial aggregation",
+     "result": "First-degree RR 2.70; third-degree RR 1.93",
+     "url": "https://doi.org/10.1186/1471-2377-11-62",
+     "verified": true
+    },
+    {
+     "cite": "Buchwald 2001, Psychosom Med",
+     "n": "146 female twin pairs",
+     "design": "classic twin study",
+     "result": "MZ 55% vs DZ 19% concordance; h² up to 51%",
+     "url": "https://doi.org/10.1097/00006842-200111000-00012",
+     "verified": true
+    },
+    {
+     "cite": "Bos 2025, Psychol Med",
+     "n": "153,803",
+     "design": "three-generation cohort familiality",
+     "result": "Familiality 42% for ME/CFS; rf 0.97 with fibromyalgia, 0.83 with MDD",
+     "url": "https://doi.org/10.1017/s003329172500100x",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "open_questions": [
+    "How much of familiality is genetic vs shared environment or infection exposure?",
+    "Does the familial risk differ between infection-onset and gradual-onset cases?"
+   ],
+   "hypotheses": [
+    "genetic-neuronal"
+   ],
+   "test_available": "Family history only"
+  },
+  {
+   "id": "genetics-decodeme-loci",
+   "subdomain": "Genome-wide association (GWAS)",
+   "finding": "DecodeME (15,579 PEM-defined cases vs 259,909 controls) identified 8 genome-wide significant loci, each with a small effect (OR about 1.07-1.10), and SNP heritability of about 8-10%.",
+   "grade": "several",
+   "plain": "The largest DNA study of ME/CFS found eight regions of the genome linked to the illness. Each nudges risk only a tiny amount.",
+   "detail": "Lead genes as assigned: RABGAP1L, BTN2A2/TRIM38, FBXL4, SUDS3, OLFM4, CCPG1, CA10, ARFGEF2/CSE1L/ZNFX1 (the chr20 signal p=1e-11). Four loci (RABGAP1L, FBXL4, OLFM4, CA10) were nominally associated (p<0.05) with PEM-plus-fatigue cases in UK Biobank and Lifelines, but none passed multiple-testing correction in external sets. There was no sex-biased locus, and ARFGEF2 and CA10 replicated in males. The CA10 signal colocalises with multisite chronic pain. As of October 2026 this is still a medRxiv preprint, with no peer-reviewed version. Gene assignments are weak at some loci: the 6q16 lead is about 890 kb from FBXL4, and the chr1 lead sits inside DARS2 (Solving ME/CFS re-analysis). An absolute-risk calculation shows one risk copy moves baseline risk from about 0.9% to about 0.97–0.99%.",
+   "studies": [
+    {
+     "cite": "DecodeME Genetics Delivery Team 2025, medRxiv",
+     "n": "15,579 vs 259,909",
+     "design": "GWAS (European ancestry)",
+     "result": "8 loci; no colocalisation with depression/anxiety",
+     "url": "https://doi.org/10.1101/2025.08.06.25333109",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Solving ME/CFS re-analysis (MVP-only and FinnGen replication)",
+     "n": "3,891 MVP cases; 283 FinnGen",
+     "design": "replication of lead SNPs",
+     "result": "Lead loci 5/8 same direction in MVP (p=0.13), 4/8 in FinnGen; BTN2A2, OLFM4, CA10 wrong way in MVP",
+     "url": "",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Which genes are causal at each locus (fine-mapping, functional work)?",
+    "Will loci replicate in a cohort with PEM-based phenotyping?"
+   ],
+   "hypotheses": [
+    "genetic-neuronal",
+    "viral-persistence",
+    "innate-hyperactivation"
+   ],
+   "test_available": "Not useful individually (no clinical genetic test)"
+  },
+  {
+   "id": "genetics-polygenic-replication",
+   "subdomain": "Replication in biobanks",
+   "finding": "The genome-wide DecodeME signal replicates in independent cohorts: genetic correlation 0.65-0.73 with the Million Veteran Program CFS GWAS and 0.80-0.90 with UK Biobank CFS, plus concordant directions for sub-threshold SNPs in FinnGen.",
+   "grade": "replicated",
+   "plain": "Even though single hits do not yet repeat everywhere, the overall genetic fingerprint of ME/CFS shows up again in other large populations, including mostly male US veterans.",
+   "detail": "Solving ME/CFS re-analysis derived MVP-only statistics (3,891 independent cases) from the public DecodeME+MVP meta. rg 0.73 ± 0.16. DecodeME SNPs at p<1e-5 were concordant 42/63 in MVP (p=0.006) and 41/61 in FinnGen postviral fatigue (p=0.005). Pan-UKB self-report CFS gave rg 0.90, but it shares controls. An independent GitHub re-analysis (trafalmadorian97) reported rg 0.65 with MVP and 0.80 with Neale UKB. The MVP cohort is mostly male, so polygenic risk applies across sexes.",
+   "studies": [
+    {
+     "cite": "Solving ME/CFS re-analysis (deep2 genetics_mr)",
+     "n": "DecodeME 15,579; MVP 3,891; FinnGen 283",
+     "design": "LDSC rg and sign concordance",
+     "result": "rg 0.73; concordance p=0.006 (MVP), 0.005 (FinnGen)",
+     "url": "",
+     "verified": true
+    },
+    {
+     "cite": "Maccallini 2026, Research Square preprint",
+     "n": "19,470 vs 699,111",
+     "design": "DecodeME + MVP meta-analysis",
+     "result": "5 loci incl. new TSHZ3 region; brain and pituitary enrichment",
+     "url": "https://doi.org/10.21203/rs.3.rs-9702020/v1",
+     "verified": true
+    },
+    {
+     "cite": "Liu 2025, Sleep",
+     "n": "biobank",
+     "design": "polygenic",
+     "result": "UK Biobank: 295 CFS had lower movement and wrist-temperature amplitude; of 30 published CFS variants, 1 associated with fatigue and 1 with actigraphy in the general population",
+     "url": "https://doi.org/10.1093/sleep/zsae243",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "open_questions": [
+    "How much does loose biobank phenotyping (billing codes, self-report) dilute single-locus replication?"
+   ],
+   "hypotheses": [
+    "genetic-neuronal"
+   ],
+   "test_available": "Research only"
+  },
+  {
+   "id": "genetics-brain-neuron-enrichment",
+   "subdomain": "Tissue and cell-type enrichment",
+   "finding": "Genome-wide ME/CFS heritability is enriched in brain tissues and neurons (including glutamatergic synapse genes and subcortical/cerebellar neuron types), with no enrichment in blood immune cells.",
+   "grade": "several",
+   "plain": "The genes involved are mainly active in nerve cells in the brain, not in blood immune cells. This suggests the brain is central to inherited risk.",
+   "detail": "DecodeME: MAGMA gene-property enrichment in all 13 GTEx brain tissues and no others. Independent S-LDSC re-analysis (trafalmadorian97 GitHub): CNS tissues and chromatin only. ImmGen and blood-cell ATAC-seq were null, and medium spiny neuron clusters were implicated. Maccallini 2026 (DecodeME+MVP): brain regions and pituitary, glutamatergic synapse gene sets, with 7/12 gene sets replicating in rare-variant genes from HEAL2. Lee 2026 (medRxiv): inhibitory neurons (p=1.2e-7) and enteric neurons. Immune abnormalities may still be downstream of illness. A locus-level permutation with only 8 loci could not place any tissue (Solving ME/CFS re-analysis).",
+   "studies": [
+    {
+     "cite": "DecodeME 2025, medRxiv",
+     "n": "15,579 cases",
+     "design": "GWAS + MAGMA",
+     "result": "All 13 brain tissues enriched; no others",
+     "url": "https://doi.org/10.1101/2025.08.06.25333109",
+     "verified": true
+    },
+    {
+     "cite": "Maccallini 2026, Research Square preprint",
+     "n": "19,470 cases",
+     "design": "meta-GWAS enrichment + rare-variant replication",
+     "result": "Glutamatergic synapse; subcortical and cerebellar neurons; pituitary",
+     "url": "https://doi.org/10.21203/rs.3.rs-9702020/v1",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Solving ME/CFS re-analysis (locus tissue permutation)",
+     "n": "8 loci",
+     "design": "permutation",
+     "result": "No tissue survives FDR at locus level (expected with 8 loci)",
+     "url": "",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Which brain circuits (basal ganglia, cerebellum, claustrum) matter, and do imaging studies of genetic-risk extremes show differences?"
+   ],
+   "hypotheses": [
+    "genetic-neuronal",
+    "neuroinflammation"
+   ],
+   "test_available": "Research only"
+  },
+  {
+   "id": "genetics-pain-overlap",
+   "subdomain": "Shared genetics with other conditions",
+   "finding": "ME/CFS genetics overlaps most with chronic pain, fibromyalgia, IBS and migraine, and substantially with depression, but none of the 8 DecodeME loci share a causal variant with depression.",
+   "grade": "several",
+   "plain": "Genes that raise ME/CFS risk also raise risk of chronic pain and gut-brain conditions. This is shared biology, not evidence that ME/CFS is depression.",
+   "detail": "The CA10 locus colocalises with multisite chronic pain (PPH4 92.8%). Re-analyses report the highest rg with fibromyalgia, then multisite pain, as well as syncope, migraine and asthma. Lee 2026 medRxiv: rg with major depression 0.60 and with IBS 0.57. MR in Solving ME/CFS re-analysis: depression OR 1.82 (MVP 1.36) and multisite pain OR 3.3, but reverse MR is also positive (ME/CFS → depression OR 1.15) and heterogeneity is high, which indicates shared liability rather than one-way causation. A UK Biobank MR (Song 2025) found no causal effect of depression on ME/CFS.",
+   "studies": [
+    {
+     "cite": "DecodeME 2025, medRxiv",
+     "n": "15,579 cases",
+     "design": "GWAS colocalisation",
+     "result": "CA10 shares causal variant with chronic pain; no colocalisation with depression/anxiety",
+     "url": "https://doi.org/10.1101/2025.08.06.25333109",
+     "verified": true
+    },
+    {
+     "cite": "Solving ME/CFS re-analysis (deep2 genetics_mr)",
+     "n": "DecodeME + MVP",
+     "design": "bidirectional MR",
+     "result": "Depression, pain, insomnia associated both ways; shared liability",
+     "url": "",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Song 2025, Sci Rep",
+     "n": "UK Biobank CFS GWAS",
+     "design": "two-sample MR",
+     "result": "No causal effect of MDD on ME/CFS",
+     "url": "https://doi.org/10.1038/s41598-025-85217-6",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Which part of ME/CFS genetics is specific after subtracting pain genetics? A re-analysis suggests the chr6 BTN region and one striatal neuron cluster."
+   ],
+   "hypotheses": [
+    "genetic-neuronal",
+    "sickness-behaviour"
+   ],
+   "test_available": "Research only"
+  },
+  {
+   "id": "genetics-infection-loci",
+   "subdomain": "Infection response genes",
+   "finding": "Three DecodeME loci lie near infection-response genes (OLFM4, RABGAP1L, BTN2A2/TRIM38), and the OLFM4 effect is larger in infection-onset cases, but infection- and non-infection-onset cases are genetically highly correlated.",
+   "grade": "early",
+   "plain": "Some risk genes help the body respond to infections, which fits the common post-viral onset. But people whose illness began without an obvious infection carry similar overall genetic risk.",
+   "detail": "Infection-onset GWAS (9,738 cases): 3 loci (6p22.2, 20q13.13, OLFM4). The OLFM4 beta was 0.095±0.017 with infection onset vs 0.034±0.022 without. The no-infection GWAS (5,841) found nothing, which is a power issue. Independent re-analysis finds high rg between onset subgroups. OLFM4 is a neutrophil and ileal stem-cell protein. ZNFX1 (a dsRNA sensor) and CSE1L (needed for STAT1 import) sit at the chr20 locus. Genetically higher EBV DNA load gave OR 1.13 (ns) in DecodeME and 1.59 (p=0.012) in MVP (Solving ME/CFS re-analysis). MHC-based negative controls (VZV, HHV-6B) also aligned, so the result is not EBV-specific. The long COVID FOXP4 variant is not associated with ME/CFS (p=0.59).",
+   "studies": [
+    {
+     "cite": "DecodeME 2025, medRxiv",
+     "n": "9,738 infection-onset cases",
+     "design": "stratified GWAS",
+     "result": "OLFM4 effect larger with infection onset",
+     "url": "https://doi.org/10.1101/2025.08.06.25333109",
+     "verified": true
+    },
+    {
+     "cite": "Solving ME/CFS re-analysis (EBV load MR)",
+     "n": "DecodeME; MVP",
+     "design": "MR with Kamitaki 2026 instruments",
+     "result": "OR 1.13 (ns) / 1.59 (p=0.012)",
+     "url": "",
+     "verified": true
+    },
+    {
+     "cite": "Chaudhary 2024, medRxiv (preprint)",
+     "n": "LC GWAS",
+     "design": "GWAS + MR",
+     "result": "liability to chronic fatigue OR 1.59",
+     "url": "https://doi.org/10.1101/2024.10.07.24315052",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Lammi 2025, Nat Genet (long COVID GWAS)",
+     "n": "6,450 cases",
+     "design": "GWAS",
+     "result": "FOXP4 lead variant; no association with ME/CFS in DecodeME",
+     "url": "https://doi.org/10.1038/s41588-025-02100-w",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Do OLFM4 risk-genotype carriers show different neutrophil or gut responses (recall-by-genotype)?",
+    "Is self-reported onset type too noisy to stratify on?"
+   ],
+   "hypotheses": [
+    "viral-persistence",
+    "herpes-reactivation",
+    "innate-hyperactivation"
+   ],
+   "test_available": "Research only"
+  },
+  {
+   "id": "genetics-hla",
+   "subdomain": "HLA",
+   "finding": "Reported HLA associations are inconsistent: Lande 2020's HLA-C*07:04 and DQB1*03:03 risk alleles are not among DecodeME's hits, and DecodeME's protective HLA-DQA1*05:01 signal is barely visible at SNP level.",
+   "grade": "contested",
+   "plain": "HLA genes shape immune responses and are linked to autoimmune diseases. Claims of specific HLA types in ME/CFS have not held up consistently.",
+   "detail": "Lande 2020 (426 Norwegian CCC cases vs 4,511 controls) reported HLA-C*07:04 (OR 2.1) and DQB1*03:03 (OR 1.5); carriers of either were 19.2% vs 12.2%. DecodeME reported DQA1*05:01 as protective (p=1.4e-10; 21.7% vs 23.2%), with no DRB1*03:01 or DQB1*02:01 signal. In Solving ME/CFS re-analysis, the best DQ2.5 tag SNP was OR 0.96 (p=0.025). That gap suggests the imputed-allele p-value is inflated, possibly because HLA was imputed separately for cases and controls, a problem the authors flagged. MHC z-scores correlate only 0.21 between DecodeME and MVP. A purely in-silico 2025 study modelled Lande alleles binding herpes peptides, with no patient data.",
+   "studies": [
+    {
+     "cite": "Lande 2020, Sci Rep",
+     "n": "426 vs 4,511",
+     "design": "HLA NGS case-control",
+     "result": "C*07:04 OR 2.1; DQB1*03:03 OR 1.5",
+     "url": "https://doi.org/10.1038/s41598-020-62157-x",
+     "verified": true
+    },
+    {
+     "cite": "DecodeME 2025, medRxiv",
+     "n": "15,579 vs 259,909",
+     "design": "HLA imputation",
+     "result": "DQA1*05:01 protective p=1.4e-10",
+     "url": "https://doi.org/10.1101/2025.08.06.25333109",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Solving ME/CFS re-analysis (deep2 HLA)",
+     "n": "DecodeME + MVP",
+     "design": "SNP-level MHC re-analysis",
+     "result": "Best DQ2.5 tag OR 0.96; DecodeME-MVP MHC z correlation 0.21",
+     "url": "",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Will joint HLA imputation of cases and controls confirm any allele?"
+   ],
+   "hypotheses": [
+    "autoimmunity",
+    "herpes-reactivation"
+   ],
+   "test_available": "HLA typing is available but not useful for ME/CFS"
+  },
+  {
+   "id": "genetics-kir-alleles",
+   "subdomain": "NK-cell receptor genes",
+   "finding": "Specific inhibitory KIR alleles (e.g. KIR3DL1*020, KIR3DL2*009) were more or less common in 418 Norwegian patients than 473 controls, though KIR gene content did not differ.",
+   "grade": "early",
+   "plain": "Variants in genes for natural killer cell 'brake' receptors may differ slightly in ME/CFS. This has not been checked in another cohort.",
+   "detail": "Ramadan 2025 used high-resolution KIR sequencing with HLA ligand annotation. Patient-enriched alleles were KIR3DL3*002 (OR 1.43), KIR3DL1*020 (OR 2.20) and KIR3DL2*009 (OR 1.56); reduced alleles were KIR3DL3*013 (OR 0.60) and KIR3DL2*010 (OR 0.46, p=0.0005). There was no association with gene content or copy number. Nominal p-values without a replication cohort; KIR is poorly captured by GWAS arrays, so DecodeME cannot test it.",
+   "studies": [
+    {
+     "cite": "Ramadan 2025, Brain Behav Immun",
+     "n": "418 vs 473",
+     "design": "case-control, KIR allele sequencing",
+     "result": "Several inhibitory KIR alleles associated (nominal p 0.0005–0.01)",
+     "url": "https://doi.org/10.1016/j.bbi.2025.106098",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "open_questions": [
+    "Replication in UK or US cohorts; link to NK cytotoxicity measures."
+   ],
+   "hypotheses": [
+    "immune-exhaustion",
+    "herpes-reactivation"
+   ],
+   "test_available": "Research only"
+  },
+  {
+   "id": "genetics-early-gwas-candidates",
+   "subdomain": "Earlier GWAS and candidate genes",
+   "finding": "Before DecodeME, small GWAS and candidate-gene studies (GRIK2, NPAS2, TPPP, TRA locus and many others) produced no association that replicated in UK Biobank or later cohorts.",
+   "grade": "refuted",
+   "plain": "Older genetic studies were too small. Their 'hits' did not hold up when tested in larger groups.",
+   "detail": "Smith 2011 (40 vs 40, 116k SNPs plus expression) flagged GRIK2 and NPAS2. Hajdarevic 2022 (Norwegian 427 discovery, Danish 460, UKB 2,105) found no genome-wide significant loci; the best signal was TPPP (p=8.5e-7) and the top SNP did not replicate. Dibble 2020 concluded that most candidate gene associations are not replicated by the UK Biobank CFS cohort. Ueland 2022's T-cell receptor alpha signal did not replicate (from Solving ME/CFS genetics summary).",
+   "studies": [
+    {
+     "cite": "Hajdarevic 2022, Brain Behav Immun",
+     "n": "2,532 cases total",
+     "design": "GWAS with replication",
+     "result": "No genome-wide significant loci; TPPP not replicated",
+     "url": "https://doi.org/10.1016/j.bbi.2022.03.010",
+     "verified": true
+    },
+    {
+     "cite": "Dibble 2020, Hum Mol Genet",
+     "n": "review incl. UKB",
+     "design": "critical review",
+     "result": "Most candidate gene associations not replicated",
+     "url": "https://doi.org/10.1093/hmg/ddaa169",
+     "verified": true
+    },
+    {
+     "cite": "Smith 2011, Neuropsychobiology",
+     "n": "40 vs 40",
+     "design": "convergent SNP + expression",
+     "result": "GRIK2, NPAS2 nominal",
+     "url": "https://doi.org/10.1159/000326692",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "open_questions": [],
+   "hypotheses": [
+    "genetic-neuronal"
+   ],
+   "test_available": "No: commercial 'ME/CFS gene panels' are not supported"
+  },
+  {
+   "id": "genetics-ukb-allofus-2026",
+   "subdomain": "Genome-wide association (GWAS)",
+   "finding": "A 2026 UK Biobank GWAS with stricter, multi-source case definitions (1,268 cases) reports 7 loci that replicate in disjoint UK Biobank or All of Us cohorts (near BICD1, GRIN2A, CSMD1, RORA, CLYBL), though none replicate in all three.",
+   "grade": "early",
+   "plain": "A new study using carefully confirmed cases in two biobanks found seven genetic regions that repeated in a second group. It is a preprint and the groups are small.",
+   "detail": "Slaughter 2026 (medRxiv) used TarGene with electronic health records plus survey data to confirm case and control status. 176 variants passed FDR<5% in discovery, and replication cohorts had 319 (UKB) and 371 (All of Us) cases. Fine-mapping at one locus colocalised with reduced CLYBL expression in putamen, but the CLYBL stop-gain variant was not associated. No gene-by-sex or gene-by-deprivation interactions survived correction. FDR-based discovery in a small sample and no overlap with DecodeME's 8 loci call for caution. GRIN2A (an NMDA receptor subunit) fits the glutamatergic signal.",
+   "studies": [
+    {
+     "cite": "Slaughter 2026, medRxiv",
+     "n": "1,268 discovery; 319 + 371 replication",
+     "design": "GWAS with two replications",
+     "result": "7 replicated loci, none in all three cohorts",
+     "url": "https://doi.org/10.64898/2026.09.09.26362115",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "open_questions": [
+    "Do these loci show any signal in DecodeME summary statistics?"
+   ],
+   "hypotheses": [
+    "genetic-neuronal"
+   ],
+   "test_available": "Research only"
+  },
+  {
+   "id": "genetics-mr-proteins-ephb1",
+   "subdomain": "Mendelian randomisation",
+   "finding": "Proteome-wide cis-MR finds genetically higher plasma EPHB1 (a pain-sensitisation receptor) and CLEC3B (tetranectin) associated with ME/CFS risk in DecodeME, replicating in the independent MVP cohort.",
+   "grade": "early",
+   "plain": "Using genes as a natural experiment, two blood proteins look like they may influence ME/CFS risk. One of them is involved in how the nervous system amplifies pain.",
+   "detail": "Solving ME/CFS re-analysis of about 1,950 UKB-PPP and 1,690 deCODE plasma proteins (Wald ratio). EPHB1: OR 1.18/SD (p=2e-4), MVP 1.29 (p=0.0016), combined FDR 0.002; its pQTL is in LD with the regional DecodeME peak (r² 0.84). CLEC3B: OR 1.21, MVP 1.44 (p=0.0008), but not in LD with the regional peak. PRDX6 (1q25) was protective (0.75; MVP 0.70, p=0.037), and dermatopontin was nominal on both platforms. Only 4/93 nominal hits replicated, versus about 2.3 expected by chance, so these are leads. There was no formal colocalisation because full pQTL statistics need a login, and there are no usable drugs.",
+   "studies": [
+    {
+     "cite": "Solving ME/CFS re-analysis (deep2 genetics_mr)",
+     "n": "DecodeME 15,579; MVP 3,891",
+     "design": "cis-pQTL MR with replication",
+     "result": "EPHB1 and CLEC3B replicate; PRDX6 nominal",
+     "url": "",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "open_questions": [
+    "Full colocalisation with deCODE/UKB-PPP region data; CSF/brain pQTLs for EPHB1."
+   ],
+   "hypotheses": [
+    "genetic-neuronal"
+   ],
+   "test_available": "Research only"
+  },
+  {
+   "id": "genetics-mr-biomarkers",
+   "subdomain": "Mendelian randomisation",
+   "finding": "MR of DecodeME suggests higher mitochondrial DNA copy number is protective and higher GlycA and mean platelet volume raise risk, while genetically predicted metabolite leads (IPA, kynurenine, ketones, carnitine, bile acids) and vitamin D, BMI and blood pressure are null or unreplicated.",
+   "grade": "early",
+   "plain": "Genetic natural experiments hint that inflammation and blood platelets may contribute to risk. Many blood molecules that are low in patients look like effects of being ill, not causes.",
+   "detail": "Wielscher 2026 (Research Square, not peer reviewed) reported mtDNA copy number as protective and GlycA and MPV as risk-raising. It also found the strongest genetic overlap in barrier-microbiome, neurovascular and energetics traits. Solving ME/CFS MR found indolelactate OR 0.99, kynurenine 1.01 and 3-hydroxybutyrate 0.99, all null. Palmitoylcarnitine 0.88 did not replicate. Vitamin D OR 0.88 (p=0.03) was not replicated and had a pleiotropic Egger intercept. Many published two-sample MR papers on CFS use small UK Biobank self-report GWAS; one was retracted in 2025.",
+   "studies": [
+    {
+     "cite": "Wielscher 2026, Research Square preprint",
+     "n": "DecodeME 15,579",
+     "design": "rg, pleiotropy, MR",
+     "result": "mtDNA copy number protective; GlycA, MPV risk",
+     "url": "https://doi.org/10.21203/rs.3.rs-9363637/v2",
+     "verified": true
+    },
+    {
+     "cite": "Solving ME/CFS re-analysis (deep2 genetics_mr)",
+     "n": "DecodeME + MVP",
+     "design": "MR with replication",
+     "result": "Metabolite and risk-factor exposures null or unreplicated",
+     "url": "",
+     "verified": true
+    },
+    {
+     "cite": "Duan 2025, Biomedicines",
+     "n": "MR",
+     "design": "Mendelian randomisation",
+     "result": "Mendelian randomisation (UK Biobank, 2,076 cases): higher CXCL5 and CCL20 linked to higher ME/CFS risk, higher TNF to lower risk; small-effect instruments",
+     "url": "https://doi.org/10.3390/biomedicines13051200",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Retraction notice 2025, Food Sci Nutr",
+     "n": "-",
+     "design": "retracted two-mediation MR study",
+     "result": "Example of low-quality MR in CFS literature",
+     "url": "https://doi.org/10.1002/fsn3.71097",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Replicate GlycA/MPV/mtDNA MR in MVP; test platelet activation in patients."
+   ],
+   "hypotheses": [
+    "mitochondrial-energy",
+    "complement-thromboinflammation",
+    "innate-hyperactivation"
+   ],
+   "test_available": "Research only"
+  },
+  {
+   "id": "genetics-rare-variants-heal2",
+   "subdomain": "Rare variants and sequencing",
+   "finding": "Whole-genome sequencing of 464 cases and 611 controls with a deep-learning rare-variant model (HEAL2) proposes 115 loss-of-function-intolerant risk genes, partly overlapping the common-variant synaptic signal.",
+   "grade": "early",
+   "plain": "Looking at rare DNA changes, one study suggests a set of genes, many active in nerves and immune cells. The method is new and the sample is small.",
+   "detail": "Zhang 2025 (medRxiv) reports that a genetic score from personal rare variants tracked PEM, unrefreshing sleep, brain fog and muscle pain. Patient multi-omics showed reduced expression of the risk genes, including in cytotoxic CD4 T cells. Maccallini 2026 found 7 of 12 common-variant gene sets replicate among HEAL2 genes. Deep-learning gene prioritisation in about 1,000 genomes has high overfitting risk, and there has been no independent sequencing replication. No single rare variant has been shown to cause ME/CFS. A verified, specific rare-variant 'Mendelian ME/CFS' report does not exist to my knowledge.",
+   "studies": [
+    {
+     "cite": "Zhang 2025, medRxiv (HEAL2)",
+     "n": "464 vs 611",
+     "design": "WGS + deep learning",
+     "result": "115 risk genes; symptom links",
+     "url": "https://doi.org/10.1101/2025.04.15.25325899",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "open_questions": [
+    "Independent WGS replication; burden tests in DecodeME exomes when available."
+   ],
+   "hypotheses": [
+    "genetic-neuronal",
+    "immune-exhaustion"
+   ],
+   "test_available": "Research only; clinical exome only for red-flag mimics (mitochondrial, HLH, immunodeficiency)"
+  },
+  {
+   "id": "genetics-combinatorial-precisionlife",
+   "subdomain": "Combinatorial analyses",
+   "finding": "Proprietary combinatorial SNP analyses (PrecisionLife) report thousands of multi-SNP signatures in UK Biobank and DecodeME, with top vs bottom decile of signature count giving OR 1.64.",
+   "grade": "contested",
+   "plain": "A company's method finds combinations of DNA variants linked to ME/CFS, but the method is closed and hard for others to check.",
+   "detail": "Das 2022 (2,382 UKB cases) mapped 84 SNP combinations to 14 genes, including CLOCK, SLC15A4, INSR and KCNB1. Sardell 2026 (J Transl Med, DecodeME vs UKB controls) reported 22,411 signatures from 7,555 SNPs in 2,311 genes, reproducible across three disjoint DecodeME case sets (p=4e-21 for count), 259 core genes, and 76/180 long-COVID genes overlapping. 'Reproducible' here means within related cohorts sharing UK Biobank controls; the method is proprietary and the gene list is very broad.",
+   "studies": [
+    {
+     "cite": "Sardell 2026, J Transl Med",
+     "n": "DecodeME cohorts vs UKB controls",
+     "design": "combinatorial genetics",
+     "result": "OR 1.64 top vs bottom decile of signature count",
+     "url": "https://doi.org/10.1186/s12967-026-08167-1",
+     "verified": true
+    },
+    {
+     "cite": "Das 2022, J Transl Med",
+     "n": "2,382 cases",
+     "design": "combinatorial genetics (UKB)",
+     "result": "14 genes; 5 SNPs replicated in a UKB CFS set",
+     "url": "https://doi.org/10.1186/s12967-022-03815-8",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "open_questions": [
+    "Do signatures replicate in an external cohort with different controls (MVP, FinnGen, All of Us)?"
+   ],
+   "hypotheses": [
+    "genetic-neuronal"
+   ],
+   "test_available": "Research only"
+  },
+  {
+   "id": "genetics-trpm3",
+   "subdomain": "TRPM3 ion channel",
+   "finding": "TRPM3 ion channel dysfunction in NK cells and TRPM3 SNPs are reported repeatedly by one research group, but the SNP studies are tiny and no TRPM3 association appears in GWAS.",
+   "grade": "contested",
+   "plain": "A calcium channel called TRPM3 is reported to work poorly in immune cells of ME/CFS patients. Nearly all of this comes from one team, and large DNA studies do not point to the TRPM3 gene.",
+   "detail": "Marshall-Gradisnik 2016 genotyped B cells from 11 patients vs 11 controls and reported SNPs/genotypes in TRPM3 and acetylcholine receptor genes. Functional work: Sasso 2026 used patch-clamp at two sites run by the same consortium (36 vs 42) and found reduced TRPM3-like currents in NK cells. Independent-lab replication and blinding details are lacking, and TRPM3 is not among DecodeME, MVP or Slaughter 2026 loci. Functional changes could be acquired rather than inherited.",
+   "studies": [
+    {
+     "cite": "Sasso 2026, Front Med",
+     "n": "36 vs 42",
+     "design": "case-control patch-clamp, two sites",
+     "result": "Reduced TRPM3 function in NK cells",
+     "url": "https://doi.org/10.3389/fmed.2025.1703924",
+     "verified": true
+    },
+    {
+     "cite": "Marshall-Gradisnik 2016, J Int Med Res",
+     "n": "11 vs 11",
+     "design": "SNP/genotype case-control",
+     "result": "TRPM3 and AChR gene SNPs reported",
+     "url": "https://doi.org/10.1177/0300060516671622",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "DecodeME 2025, medRxiv",
+     "n": "15,579 cases",
+     "design": "GWAS",
+     "result": "No TRPM3 locus among genome-wide hits",
+     "url": "https://doi.org/10.1101/2025.08.06.25333109",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Will an independent lab, blinded to case status, reproduce reduced TRPM3 currents?",
+    "Is TRPM3 gene-level association present in DecodeME MAGMA results?"
+   ],
+   "hypotheses": [
+    "sodium-calcium-overload",
+    "immune-exhaustion"
+   ],
+   "test_available": "Research only"
+  },
+  {
+   "id": "genetics-hypermobility-overlap",
+   "subdomain": "Connective tissue",
+   "finding": "Joint hypermobility and Ehlers-Danlos syndrome are over-represented in ME/CFS (Beighton ≥4 in 60% of children with CFS vs 24% of controls; 50% in a Swedish severe cohort; EDS about 100x expected in Finnish registries).",
+   "grade": "several",
+   "plain": "People with very flexible joints, or hypermobile Ehlers-Danlos syndrome, seem more likely to have ME/CFS or long COVID with PEM. No gene test exists for the hypermobile type.",
+   "detail": "Barron 2002 (58 incident paediatric CFS vs 58 controls): median Beighton 4 vs 1, OR 3.5 (1.6–7.5). Bragée 2020 (229 severe CCC patients, no controls): 50% hypermobile, with high rates of possible intracranial hypertension and craniocervical findings on MRI. Finnish FinnGen/FinRegistry postviral fatigue shows EDS O/E 106–153, which is crude and inflated by healthcare use (Solving ME/CFS re-analysis). Lubell 2026 (online survey, 1,816 people after COVID) found extreme hypermobility OR 3.15 for long COVID with high post-exertional symptom exacerbation, rising to OR 9.46 with a pre-COVID orthostatic/neurocognitive profile. Hypermobile EDS has no known causal gene, and connective-tissue genes are not among GWAS hits. Collagen breakdown markers are raised in 4/4 Metabolon cohorts (Solving ME/CFS re-analysis).",
+   "studies": [
+    {
+     "cite": "Barron 2002, J Pediatr",
+     "n": "58 vs 58",
+     "design": "matched case-control",
+     "result": "Hypermobility 60% vs 24%; OR 3.5",
+     "url": "https://doi.org/10.1067/mpd.2002.127496",
+     "verified": true
+    },
+    {
+     "cite": "Bragée 2020, Front Neurol",
+     "n": "229",
+     "design": "retrospective cross-sectional, no controls",
+     "result": "50% hypermobile",
+     "url": "https://doi.org/10.3389/fneur.2020.00828",
+     "verified": true
+    },
+    {
+     "cite": "Lubell 2026, medRxiv",
+     "n": "1,816",
+     "design": "retrospective online survey",
+     "result": "Extreme hypermobility OR 3.15 for long COVID with high PESE",
+     "url": "https://doi.org/10.64898/2026.06.24.26356475",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "open_questions": [
+    "Prevalence in population-based ME/CFS cohorts with blinded Beighton scoring?",
+    "Does hypermobility define a subgroup with distinct orthostatic or craniocervical features?"
+   ],
+   "hypotheses": [
+    "connective-tissue",
+    "brainstem-craniocervical",
+    "low-blood-volume-preload"
+   ],
+   "test_available": "Yes: Beighton score and 2017 hEDS criteria (clinical); genetic testing only for other EDS types"
+  },
+  {
+   "id": "genetics-mtdna-haplogroups",
+   "subdomain": "Mitochondrial DNA",
+   "finding": "Mitochondrial DNA haplogroups and common mtDNA SNPs are not associated with ME/CFS status, though some variants were associated with particular symptoms.",
+   "grade": "early",
+   "plain": "Inherited types of mitochondrial DNA do not differ between patients and controls.",
+   "detail": "Billing-Ross 2016 (Cornell cohorts) found no haplogroup or SNP association with disease status but reported variant links to symptom severity. Hanson 2016 is the authors' reply clarifying this. MR suggesting higher mtDNA copy number is protective (Wielscher 2026) concerns copy number, not haplogroup. The chr1 DecodeME lead lies in DARS2, a mitochondrial tRNA synthetase, which is a weak hint.",
+   "studies": [
+    {
+     "cite": "Hanson 2016, J Transl Med (reply on Billing-Ross 2016)",
+     "n": "Cornell cohorts",
+     "design": "mtDNA sequencing case-control",
+     "result": "No association with disease status; symptom associations",
+     "url": "https://doi.org/10.1186/s12967-016-1104-5",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "open_questions": [
+    "Heteroplasmy and somatic mtDNA changes in muscle have not been studied at scale."
+   ],
+   "hypotheses": [
+    "mitochondrial-energy"
+   ],
+   "test_available": "Research only"
+  }
+ ],
+ "hypotheses_notes": [
+  {
+   "id": "genetic-neuronal",
+   "for": "Brain-only tissue enrichment (DecodeME and independent re-analyses), glutamatergic synapse and specific neuron types (Maccallini 2026), CA10 shared with chronic pain, EPHB1 MR, and GRIN2A in Slaughter 2026.",
+   "against": "Most results are preprints. Individual loci do not yet replicate. Neuronal enrichment is common to many brain-related traits, and the overlap with pain and depression may reflect shared symptom liability."
+  },
+  {
+   "id": "viral-persistence",
+   "for": "Infection-response genes at 3 loci, a larger OLFM4 effect in infection onset, and suggestive EBV-load MR (MVP p=0.012).",
+   "against": "Infection and non-infection onset are genetically similar, EBV MR control viruses align too, and immune cell types are not enriched."
+  },
+  {
+   "id": "autoimmunity",
+   "for": "HLA associations reported in Norway (Lande 2020) and DQA1*05:01 in DecodeME.",
+   "against": "The HLA findings disagree with each other and the DecodeME signal is weak at SNP level. Common-variant genetics shows no immune-cell enrichment."
+  },
+  {
+   "id": "connective-tissue",
+   "for": "Hypermobility and EDS are enriched clinically and in registries, collagen breakdown markers are raised, and hypermobility is a risk factor for long COVID with PEM.",
+   "against": "No connective-tissue genes appear among GWAS loci, the hEDS gene is unknown, and the studies are mostly clinic- or survey-based with selection bias."
+  },
+  {
+   "id": "mitochondrial-energy",
+   "for": "MR suggests mtDNA copy number is protective, and the DARS2 gene sits at the chr1 lead.",
+   "against": "There is no muscle tissue enrichment, mtDNA haplogroups are not associated, and the FBXL4 assignment is distant."
+  }
+ ],
+ "glossary": [
+  {
+   "term": "GWAS",
+   "plain": "Genome-wide association study: compares millions of DNA letters between cases and controls to find regions linked to a disease."
+  },
+  {
+   "term": "Locus (loci)",
+   "plain": "A region of the genome. A GWAS 'hit' is a locus, not necessarily a known gene."
+  },
+  {
+   "term": "Odds ratio per allele",
+   "plain": "How much one copy of a variant changes the odds of disease. 1.08 means 8% higher odds, which is a very small effect."
+  },
+  {
+   "term": "SNP heritability",
+   "plain": "The share of variation in risk explained by common DNA variants measured on chips."
+  },
+  {
+   "term": "Genetic correlation (rg)",
+   "plain": "How much the genetic risk for two traits overlaps (from −1 to 1)."
+  },
+  {
+   "term": "Mendelian randomisation (MR)",
+   "plain": "Using inherited variants as a natural experiment to test whether a factor (such as a protein level) causes a disease."
+  },
+  {
+   "term": "Colocalisation",
+   "plain": "A test of whether two genetic signals in the same region share the same causal variant."
+  },
+  {
+   "term": "HLA",
+   "plain": "Immune genes that present fragments of microbes to T cells; often linked to autoimmune disease."
+  },
+  {
+   "term": "Beighton score",
+   "plain": "A 9-point bedside test of joint flexibility; 4 or more (adults often 5) suggests generalised hypermobility."
+  },
+  {
+   "term": "Polygenic",
+   "plain": "Risk spread across thousands of variants, each with a tiny effect."
+  }
+ ],
+ "key_reviews": [
+  {
+   "cite": "Dibble 2020, Hum Mol Genet",
+   "url": "https://doi.org/10.1093/hmg/ddaa169",
+   "why": "Critical review of pre-DecodeME genetics showing candidate genes do not replicate."
+  },
+  {
+   "cite": "DecodeME 2025, medRxiv preprint",
+   "url": "https://doi.org/10.1101/2025.08.06.25333109",
+   "why": "Primary report of the 8 loci, HLA, sex and onset analyses; summary statistics public on OSF."
+  },
+  {
+   "cite": "Maccallini 2026, Research Square preprint",
+   "url": "https://doi.org/10.21203/rs.3.rs-9702020/v1",
+   "why": "DecodeME+MVP meta-analysis with tissue, cell-type and rare-variant cross-replication."
+  }
+ ],
+ "gaps": [
+  "DecodeME is still a preprint; peer review and independent locus-level replication in a PEM-phenotyped cohort are needed.",
+  "No GWAS of PEM severity or of illness course; DecodeME questionnaires would allow one.",
+  "No recall-by-genotype studies (e.g. OLFM4 or CA10 risk homozygotes) to link variants to measurable biology.",
+  "Non-European ancestry is almost absent from ME/CFS genetics.",
+  "HLA needs joint imputation or sequencing of cases and controls; KIR findings need replication.",
+  "No independent, blinded replication of TRPM3 functional or SNP findings outside the originating consortium.",
+  "Hypermobility prevalence in population-based ME/CFS with blinded assessment is unknown, and genetic studies of hypermobility-ME/CFS overlap have not been done.",
+  "Rare-variant evidence rests on one deep-learning study of about 1,000 genomes; larger sequencing studies are needed."
+ ]
+}

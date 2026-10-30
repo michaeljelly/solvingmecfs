@@ -1,0 +1,158 @@
+nct,cond,title,iv,n,alloc,n_primary,min_p,any_analysis
+NCT00046475,pots,A Study for Patients With Neurogenic Orthostatic Hypotension,DRUG:Midodrine Hydrochloride,140,RANDOMIZED,4,0.001,True
+NCT00117585,pots,Orthostatic Hypotension in Rehabilitation Patients,OTHER:Treatment Phase 1; DRUG:Treatment Phase 2; OTHER:Treatment Phase 3,341,NA,1,,False
+NCT00118482,pots,Clinical Trial for the Prevention of Vasovagal Syncope,DRUG:fludrocortisone acetate,213,RANDOMIZED,1,,False
+NCT00237770,pots,Prevention of Low Blood Pressure in Persons With Tetraplegia,DRUG:N-Nitro L-arginine-methylester (L-NAME); PROCEDURE:Head-up Tilt maneuver,16,NON_RANDOMIZED,1,,False
+NCT00248807,pots,A Study of Blood Pressure and Blood Supply to the Brain in Persons With a Spinal Cord Injury.,DRUG:1.25 mg enalaprilat IV; OTHER:Head up tilt (HUT),30,NON_RANDOMIZED,1,,False
+NCT00252629,mecfs,Sleep Disordered Breathing in Gulf War Illness and the Effect of Nasal CPAP Treatment,OTHER:Nasal CPAP treatment during sleep,29,RANDOMIZED,2,0.0001,True
+NCT00375973,mecfs,Double Blind Trial of Duloxetine in Chronic Fatigue Syndrome,DRUG:Duloxetine; DRUG:Placebo,60,RANDOMIZED,1,0.23,True
+NCT00426842,pots,A Dose Response Trial Using 5 and 10 Mg of Midodrine Hydrochloride,DRUG:Midodrine Hydrochloride,11,NA,1,,False
+NCT00498485,mecfs,Use of Xyrem to Improve Sleep in Chronic Fatigue Syndrome,DRUG:Placebo; DRUG:Sodium Oxybate,17,RANDOMIZED,2,0.04,True
+NCT00506454,mecfs,Lipid Infusion in Dialysis Patients With Endotoxemia,DRUG:Lipidose; DRUG:Placebo,22,RANDOMIZED,1,,False
+NCT00524420,mecfs,Transcranial Magnetic Stimulation for Treating Women With Chronic Widespread Pain,DEVICE:rTMS; DEVICE:Sham rTMS,19,RANDOMIZED,1,,False
+NCT00555880,pots,Study to Assess the Benefit of Midodrine in the Treatment of Patients With Neurogenic Orthostatic Hypotension,DRUG:Midodrine hydrochloride; DRUG:Placebo,24,RANDOMIZED,3,0.0296,True
+NCT00581477,pots,Treatment of Orthostatic Hypotension,DRUG:Droxidopa Oral Product,8,NA,1,,False
+NCT00598585,mecfs,"Use of Sildenafil (Viagra) to Alter Fatigue, Functional Status and Impaired Cerebral Blood Flow in Patients With CFS",DRUG:Sildenafil (Viagra); DRUG:Placebo,12,RANDOMIZED,1,0.05,True
+NCT00633880,pots,Clinical Study of Droxidopa in Patients With Neurogenic Orthostatic Hypotension (NOH),DRUG:Placebo; DRUG:Droxidopa,181,RANDOMIZED,1,0.509,True
+NCT00685919,pots,Peripheral Dopamine in Postural Tachycardia Syndrome,DRUG:Carbidopa; DRUG:Placebo,32,RANDOMIZED,1,,False
+NCT00719563,mecfs,American Ginseng in Treating Patients With Fatigue Caused by Cancer,DRUG:American ginseng; OTHER:placebo,364,RANDOMIZED,1,0.0737,True
+NCT00738062,pots,Open-Label Clinical Study of Droxidopa in Patients With Neurogenic Orthostatic Hypotension (NOH),DRUG:Droxidopa; DRUG:Placebo,103,RANDOMIZED,1,0.438,True
+NCT00770484,pots,Effect of Exercise in OI,DRUG:Propranolol then Placebo; DRUG:Placebo then Propranolol,12,RANDOMIZED,1,,False
+NCT00782340,pots,A Clinical Study for Patients With Neurogenic Orthostatic Hypotension (NOH) Using Droxidopa,DRUG:Placebo; DRUG:Droxidopa,263,RANDOMIZED,1,0.003,True
+NCT00810368,mecfs,Treatment Study of Carnosine Versus Placebo in Gulf War Illness (GWI),DRUG:Carnosine; DRUG:Placebo,33,RANDOMIZED,6,0.018,True
+NCT00835224,pots,Safety and Efficacy of L-NAME and Midodrine to Increase MAP,DRUG:L-NAME; DRUG:Midodrine; DRUG:Placebo,34,RANDOMIZED,1,,False
+NCT00962949,pots,The Renin-Aldosterone Axis in Postural Tachycardia Syndrome,DRUG:Angiotensin II,28,NON_RANDOMIZED,1,,False
+NCT00977171,mecfs,Study To Assess The Clinical Benefit Of Droxidopa In Subjects With Chronic Fatigue Syndrome,DRUG:Droxidopa,3,NA,1,,False
+NCT01002755,mecfs,Lenalidomide and Ofatumumab in Treating Participants With Previously Treated Chronic Lymphocytic Leukemia or Small Lymphocytic Lymphoma,DRUG:Lenalidomide; BIOLOGICAL:Ofatumumab,36,NA,1,,False
+NCT01030874,pots,Orthostatic Hypotension Treatment on Rehab Unit,OTHER:Medication review; OTHER:Nutrition/Salt intake; OTHER:Education; OTHER:Exercise; OTHER:Drug Recommendations,356,RANDOMIZED,1,0.6,True
+NCT01064739,pots,Renal Salt Handling in Postural Tachycardia Syndrome Following Dietary Dopa Administration,DIETARY_SUPPLEMENT:Fava beans; OTHER:Fixed Sodium Diet,14,NA,3,,False
+NCT01071044,mecfs,Efficacy and Safety of Lisdexamfetamine Dimesylate in Adults With Chronic Fatigue Syndrome,"DRUG:Lisdexamfetamine Dimesylate; DRUG:Placebo ""30, 50 or 70 mg""",26,RANDOMIZED,1,0.005,True
+NCT01153581,pots,Sex Hormones and Orthostatic Tolerance,DRUG:Ganirelix acetate; DRUG:17β-Oestradiol; DRUG:Progesterone,109,NON_RANDOMIZED,3,0.05,True
+NCT01176240,pots,A Two Part Study (306A/306B) to Assess Droxidopa in Treatment of NOH in Patients With Parkinson's Disease,DRUG:Droxidopa; OTHER:Placebo,225,RANDOMIZED,2,0.018,True
+NCT01285908,pots,Intravenous Norepinephrine for Orthostatic Hypotension,DRUG:Intravenous Norepinephrine Infusion,6,RANDOMIZED,3,,False
+NCT01318356,mecfs,The Qure Study: Q-fever Fatigue Syndrome - Response to Treatment,BEHAVIORAL:Cognitive behavioral therapy; DRUG:Doxycycline; DRUG:Placebo,156,RANDOMIZED,1,,False
+NCT01518946,pots,Tilt-Table Study of the Clinical Efficacy of Midodrine in Symptomatic Orthostatic Hypotension,DRUG:Midodrine HCl; DRUG:Placebo,24,RANDOMIZED,1,0.0131,True
+NCT01522235,pots,Evaluating the Effectiveness of Intravenous Immunoglobulin Therapy in Autoimmune Autonomic Ganglionopathy,DRUG:Double blinded IVIg; OTHER:Double blinded Placebo; OTHER:Single Blinded IVIg,6,RANDOMIZED,1,,False
+NCT01547117,pots,Dietary Salt in Postural Tachycardia Syndrome,RADIATION:Blood Volume; RADIATION:Total Blood Volume; PROCEDURE:Exercise Capacity Test - Bicycle; PROCEDURE:Posture Study,38,RANDOMIZED,1,,False
+NCT01550315,pots,Effect of Dietary Sodium Intake on Vascular Endothelium,PROCEDURE:Pulsitile Arterial Tonometry (PAT) Protocol; DEVICE:Calf Blood Flow in Reactive Hyperemia (CBF-RH); DEVICE:Evaluation of Forearm-Mediated Dilation,27,NON_RANDOMIZED,1,,False
+NCT01559675,pots,Trial Comparing Low Dose and High Dose Steroids in Patients Undergoing Colorectal Surgery,DRUG:Hydrocortisone High Dose; DRUG:Hydrocortisone Low Dose,121,RANDOMIZED,1,,False
+NCT01563107,pots,Dietary Sodium's Effect on Urinary Sodium and Dopamine Excretion in Patients With Postural Tachycardia Syndrome,RADIATION:Plasma Volume; PROCEDURE:Exercise Capacity Test - Bicycle; PROCEDURE:Posture Study,38,RANDOMIZED,2,,False
+NCT01650636,mecfs,Patient-Partner Stress Management Effects on Chronic Fatigue Syndrome Symptoms and Neuroimmune Process,BEHAVIORAL:Patient-Partner Videotelephone-delivered Health Information (PP-T-HI); BEHAVIORAL:Patient-Partner Videotelephone-delivered Cognitive Behavioral Stress Management intervention (PP-T-CBSM),300,RANDOMIZED,2,,False
+NCT01700725,mecfs,Gulf War Illness Nasal Irrigation Study,OTHER:Nasal Irrigation - Saline; DRUG:Nasal Irrigation - Xylitol,40,RANDOMIZED,1,,False
+NCT01764711,pots,Adrenocorticotropic Hormone Stimulation in Postural Orthostatic Tachycardia Syndrome (POTS),DRUG:Cosyntropin administration,13,NON_RANDOMIZED,1,,False
+NCT01978535,pots,Iron Sucrose in Adolescents With Iron Deficiency and Postural Orthostatic Tachycardia Syndrome (POTS),DRUG:Iron infusion; DRUG:Normal saline infusion,3,RANDOMIZED,1,,False
+NCT02009982,pots,Cardioneuroablation for Neurocardiogenic Syncope,PROCEDURE:Cardioneuroablation; DEVICE:Biosense Webster Navistar ThermoCool Diagnostic/Ablation Deflectable Tip Catheter,3,RANDOMIZED,1,,False
+NCT02055898,mecfs,SWS And Daytime Functioning in Chronic FatiguE Syndrome (SAFFE),DRUG:Sodium Oxybate; OTHER:placebo (fresh potable water),13,RANDOMIZED,2,,False
+NCT02154243,pots,An Open Label Trial to Decrease Signs and Symptoms of Orthostatic Hypotension Using Midodrine or Intravenous Fluid Bolus in Patients Following Total Hip Arthroplasty,DRUG:Midodrine; OTHER:Intravenous fluid bolus,13,NON_RANDOMIZED,1,,False
+NCT02307526,pots,Acetylcholinesterase Inhibition and Orthostatic Hypotension in SCI,DRUG:Pyridostigmine Bromide; DEVICE:Tilt table test,10,NA,3,,False
+NCT02307565,pots,"Blood Pressure, Cerebral Blood Flow and Cognition in Spinal Cord Injury",DRUG:Midodrine; DRUG:Placebo,19,RANDOMIZED,1,,False
+NCT02417415,pots,Local Heat Stress in Autonomic Failure Patients With Supine Hypertension,OTHER:Passive heat stress; OTHER:Control (non-heating),22,RANDOMIZED,1,,False
+NCT02500732,pots,Prevention of Syncope Trial 6 - Atomoxetine in Vasovagal Syncope,DRUG:Atomoxetine; DRUG:Placebo,57,RANDOMIZED,1,,False
+NCT02530515,mecfs,Ex Vivo-activated Autologous Lymph Node Lymphocytes in Treating Patients With Chronic Lymphocytic Leukemia,BIOLOGICAL:Ex Vivo-activated Autologous Lymph Node Lymphocytes; OTHER:Laboratory Biomarker Analysis,8,NA,1,,False
+NCT02669212,mecfs,Myalgic Encephalomyelitis Chronic Fatigue at the National Institutes of Health,BEHAVIORAL:Cardiopulmonary Exercise Test (CPET),52,NA,2,,False
+NCT02705755,pots,TD-9855 Phase 2 in Neurogenic Orthostatic Hypotension (nOH),DRUG:TD-9855; DRUG:Placebo,34,RANDOMIZED,3,,False
+NCT02919917,pots,Treatment of Post-SCI Hypotension,DRUG:Midodrine Hydrochloride; DRUG:Midodrine Hydrochloride,66,RANDOMIZED,2,,False
+NCT03070730,pots,Hemodynamic Response of Neuropathic And Non-Neuropathic POTS Patients To Adrenoreceptor Agonist And Antagonist,DRUG:Droxidopa; DRUG:Atenolol; DRUG:Placebos,8,RANDOMIZED,3,,False
+NCT03182725,pots,Effect of Ivabradine on Patients With Postural Orthostatic Tachycardia Syndrome,DRUG:Ivabradine; DRUG:Placebo,37,RANDOMIZED,1,,False
+NCT03484273,pots,Hemodynamic Effects of Compression in POTS,DEVICE:LifeWrap Compression Garment,32,RANDOMIZED,1,0.001,True
+NCT03533829,pots,"Preventing Post-Vaccination Presyncope and Syncope in Adolescents Using Simple, Clinic-based Interventions: A Pilot Study",DEVICE:Buzzy®; BEHAVIORAL:Music,30,RANDOMIZED,31,,False
+NCT03554265,longcovid,Brain and Gut Plasticity in Mild TBI or Post-acute COVID Syndrome Following Growth Hormone Therapy,DRUG:Somatropin,72,NON_RANDOMIZED,4,,False
+NCT03602014,pots,Dose Response to the Norepinephrine Precursor Droxidopa in Hypotensive Individuals With Spinal Cord Injury,DRUG:Northera; OTHER:Placebo,22,RANDOMIZED,1,,False
+NCT03602482,pots,Standing Cognition and Co-morbidities of POTS Evaluation,BEHAVIORAL:Standing; BEHAVIORAL:Supine,139,RANDOMIZED,1,,False
+NCT03613129,mecfs,Clinical Trial to Investigate CT38 in the Treatment of Myalgic Encephalomyelitis / Chronic Fatigue Syndrome,DRUG:CT38,17,NON_RANDOMIZED,1,0.009,True
+NCT03674541,mecfs,The Exercise Response to Pharmacologic Cholinergic Stimulation in Myalgic Encephalomyelitis / Chronic Fatigue Syndrome,DRUG:Pyridostigmine Bromide; DRUG:Placebo,45,RANDOMIZED,1,0.043,True
+NCT03808740,pots,Orthostatic Intolerance After Bariatric Surgery,DRUG:Atomoxetine; DRUG:Placebo,10,RANDOMIZED,4,,False
+NCT03829657,pots,Phase 3 Clinical Effect Durability of TD-9855 for Treating Symptomatic nOH in Subjects With Primary Autonomic Failure,DRUG:ampreloxetine; DRUG:Placebo,203,RANDOMIZED,1,0.196,True
+NCT03844412,mecfs,Vestibulodynia: Understanding Pathophysiology and Determining Appropriate Treatments,DRUG:5% lidocaine/5 mg/ml 0.02% estradiol compound cream; DRUG:Nortriptyline; DRUG:Placebo cream; DRUG:Placebo pill,209,RANDOMIZED,5,0.0001,True
+NCT03853148,mecfs,Activate For Life: mHealth Intervention To Address Pain And Fatigue In Low-income Older Adults Aging In Place,BEHAVIORAL:Otago; BEHAVIORAL:Gentle yogic breathing; BEHAVIORAL:Behavioral Activation; BEHAVIORAL:Caregiver Gentle yogic breathing,50,RANDOMIZED,3,,False
+NCT03891667,mecfs,Disulfiram: A Test of Symptom Reduction Among Patients With Previously Treated Lyme Disease,DRUG:Disulfiram,11,RANDOMIZED,2,,False
+NCT03919773,pots,IVIG (Gamunex-C) Treatment Study for POTS Subjects,DRUG:IVIG; DRUG:Albumin,30,RANDOMIZED,1,0.629,True
+NCT04095793,pots,Phase 3 Open-Label Extension Study of TD-9855 for Treating Symptomatic nOH in Subjects With Primary Autonomic Failure,DRUG:ampreloxetine,110,NA,1,,False
+NCT04141891,pots,Advancing Understanding of Transportation Options,BEHAVIORAL:Driving Decision Aid; BEHAVIORAL:Older Drivers Website,529,RANDOMIZED,1,,False
+NCT04308668,longcovid,Post-exposure Prophylaxis / Preemptive Therapy for SARS-Coronavirus-2,DRUG:Hydroxychloroquine; OTHER:Placebo,1312,RANDOMIZED,2,0.117,True
+NCT04318444,longcovid,Hydroxychloroquine Post Exposure Prophylaxis for Coronavirus Disease (COVID-19),DRUG:Hydroxychloroquine; DRUG:Placebo oral tablet,10,RANDOMIZED,1,,False
+NCT04328961,longcovid,Hydroxychloroquine for COVID-19 Post-exposure Prophylaxis (PEP),DRUG:Hydroxychloroquine Sulfate; DRUG:Ascorbic Acid,943,RANDOMIZED,2,,False
+NCT04333225,longcovid,Hydroxychloroquine in the Prevention of COVID-19 Infection in Healthcare Workers,DRUG:Hydroxychloroquine,221,NON_RANDOMIZED,1,0.0112,True
+NCT04343248,longcovid,Trial to Evaluate the Efficacy and Safety of Nitazoxanide (NTZ) for Post-Exposure Prophylaxis of COVID-19 and Other Viral Respiratory Illnesses in Elderly Residents of Long-Term Care Facilities (LTCF),DRUG:Nitazoxanide; DRUG:Placebo; DIETARY_SUPPLEMENT:Vitamin Super B-Complex,190,RANDOMIZED,2,,False
+NCT04359680,longcovid,Trial to Evaluate the Efficacy and Safety of Nitazoxanide (NTZ) for Pre- and Post Exposure Prophylaxis of COVID-19 and Other Viral Respiratory Illnesses (VRI) in Healthcare Workers and Others at Increased Risk of SARS-CoV-2 Infection,DRUG:Nitazoxanide; DRUG:Placebo; DIETARY_SUPPLEMENT:Vitamin Super B-Complex,1407,RANDOMIZED,2,0.6805,True
+NCT04372017,longcovid,Hydroxychloroquine as Post-Exposure Prophylaxis Against COVID-19 Infection,DRUG:Hydroxychloroquine; DIETARY_SUPPLEMENT:Vitamin D,1,RANDOMIZED,2,,False
+NCT04377308,longcovid,Fluoxetine to Reduce Intubation and Death After COVID19 Infection,DRUG:Fluoxetine,16,NON_RANDOMIZED,3,,False
+NCT04449276,longcovid,"A Study to Evaluate the Safety, Reactogenicity and Immunogenicity of Vaccine CVnCoV in Healthy Adults for COVID-19",BIOLOGICAL:CVnCoV Vaccine; DRUG:Placebo,280,RANDOMIZED,15,,False
+NCT04501445,longcovid,Psychological Symptoms and Families of COVID-19 Patients,BEHAVIORAL:Written Summary of Rounds,90,RANDOMIZED,2,,False
+NCT04510922,pots,Lundbeck TOMs Orthostatic Hypotension,DRUG:Droxidopa 100 MG [Northera],9,NON_RANDOMIZED,7,,False
+NCT04625972,longcovid,"Phase III Double-blind, Placebo-controlled Study of AZD7442 for Post- Exposure Prophylaxis of COVID-19 in Adults",DRUG:AZD7442; DRUG:Placebo,1131,RANDOMIZED,2,0.044,True
+NCT04650087,longcovid,COVID-19 Thrombosis Prevention Trials: Post-hospital Thromboprophylaxis,DRUG:Apixaban 2.5 MG; DRUG:Placebo,1291,RANDOMIZED,1,,False
+NCT04652518,longcovid,LYT-100 in Post-acute COVID-19 Respiratory Disease,DRUG:LYT-100; OTHER:Placebo,185,RANDOMIZED,1,0.698,True
+NCT04663945,longcovid,Predictors of Recovery and the App-Facilitated Tele-Rehabilitation (AFTER) Program for COVID-19 Survivors,BEHAVIORAL:Biobehavioral Tele-rehabilitation Sessions,49,RANDOMIZED,2,,False
+NCT04728347,longcovid,Open Label Extension Study to Assess the Safety and Long-Term Immunogenicity of ARCT-021,BIOLOGICAL:ARCT-021,65,NON_RANDOMIZED,3,,False
+NCT04747249,longcovid,Psychological Care of Oncology Patients With Post-traumatic Stress in the Context of a COVID-19,OTHER:Psychological support,29,NA,1,,False
+NCT04772755,pots,Presyncope (Syncope) Prevention Study,DEVICE:Buzzy® and Electronic Game,338,RANDOMIZED,1,0.0249,True
+NCT04780659,longcovid,COVID-19 Vaccination of Immunodeficient Persons (COVAXID),"BIOLOGICAL:Comirnaty (COVID-19, mRNA vaccine)",539,NA,1,0.05,True
+NCT04809974,longcovid,Clinical Trial of Niagen to Examine Recovery in People With Persistent Cognitive and Physical Symptoms After COVID-19,DRUG:Niagen,72,RANDOMIZED,1,,False
+NCT04871815,longcovid,Effects of Sodium Pyruvate Nasal Spray in COVID-19 Long Haulers.,DRUG:sodium pyruvate nasal spray,22,NA,4,0.0001,True
+NCT04876417,longcovid,Transcranial Direct Current Stimulation (tDCS) for Post COVID-19 Fatigue,DEVICE:Transcranial Direct Current Stimulation; DEVICE:Sham Transcranial Direct Current Stimulation,74,RANDOMIZED,3,,False
+NCT04880161,longcovid,A Study to Evaluate Ampion in Patients With Prolonged Respiratory Symptoms Due to COVID-19 (Long COVID),BIOLOGICAL:Ampion; OTHER:Placebo,32,RANDOMIZED,1,,False
+NCT04889209,longcovid,Delayed Heterologous SARS-CoV-2 Vaccine Dosing (Boost) After Receipt of EUA Vaccines,BIOLOGICAL:Ad26.COV2.S; BIOLOGICAL:BNT162b2; BIOLOGICAL:mRNA-1273; BIOLOGICAL:mRNA-1273.211; BIOLOGICAL:mRNA-1273.222; BIOLOGICAL:SARS-CoV-2 rS/M1,867,NON_RANDOMIZED,37,,False
+NCT04927845,longcovid,StriveWeekly Online Mental Health Trial Post-pandemic,BEHAVIORAL:StriveWeekly,538,RANDOMIZED,1,0.008,True
+NCT04952402,longcovid,SARS-CoV-2 Immune Responses After COVID-19 Therapy and Subsequent Vaccine,BIOLOGICAL:Study-provided Moderna mRNA-1273 COVID-19 vaccine; BIOLOGICAL:Community-provided Moderna mRNA-1273 COVID-19 Vaccine; BIOLOGICAL:Community-Provided Pfizer-BioNTech BNT162b2 COVID-19 Vaccine,43,NON_RANDOMIZED,1,,False
+NCT04972123,pots,The Effect of CPC on Aborting Tilt Induced Syncope in Patients With a History of Vasovagal Syncope or Near Syncope,"DRUG:CPC - Capsaicin, Phenylephrine, Caffeine; DIAGNOSTIC_TEST:Tilt Table Test; DRUG:Placebo",143,RANDOMIZED,2,0.521,True
+NCT05047640,longcovid,COVID-19 3rd Dose Vaccine in Transplant Patients,BIOLOGICAL:BNT162b2 vaccine; BIOLOGICAL:JNJ-78436735 Vaccine,58,RANDOMIZED,1,,False
+NCT05047952,mecfs,Vortioxetine for Post-COVID-19 Condition,DRUG:Vortioxetine; DRUG:Placebo,149,RANDOMIZED,1,,False
+NCT05074888,longcovid,Сlinical Trial of Efficacy and Safety of Prospekta in the Treatment of Post-COVID-19 Asthenia.,DRUG:Prospekta; DRUG:Placebo,676,RANDOMIZED,1,0.0016,True
+NCT05077254,longcovid,COVID Protection After Transplant-Immunosuppression Reduction,BIOLOGICAL:Pfizer-BioNTech COVID-19 Vaccine 2023-2024; BIOLOGICAL:Moderna COVID-19 Vaccine 2023-2024; DRUG:SOC IS Regimen; DRUG:SOC IS Reduction,48,RANDOMIZED,1,,False
+NCT05077969,longcovid,Leidos-Enabled Adaptive Protocol (LEAP-CT) for Evaluation of Post-exposure Prophylaxis for Newly-infected COVID-19 Patients,DRUG:Famotidine; DRUG:Celecoxib; DRUG:Placebo,4,RANDOMIZED,2,,False
+NCT05092516,longcovid,Home-based Brain Stimulation Treatment for Post-acute Sequelae of COVID-19 (PASC),DEVICE:Active tDCS; DEVICE:Sham tDCS,31,RANDOMIZED,3,,False
+NCT05096884,longcovid,Post-Acute Sequelae of Coronavirus-19 (COVID-19) With Dyspnea on Exertion And Associated TaChycardia TrEatment Study,DRUG:Metoprolol Succinate,14,NA,2,,False
+NCT05104749,longcovid,Homeopathic Treatment of Post-acute COVID-19 Syndrome,DRUG:Homeopathic Medication; OTHER:Placebo,77,RANDOMIZED,3,,False
+NCT05121740,longcovid,Extension Study in a Cohort of Adult Patients With COVID-19 Infection,DRUG:Plitidepsin 1.5 mg / day; DRUG:Plitidepsin 2.0 mg / day; DRUG:Plitidepsin 2.5 mg / day,34,NON_RANDOMIZED,1,,False
+NCT05121766,longcovid,Feasibility Pilot Clinical Trial of Omega-3 Supplement vs. Placebo for Post Covid-19 Recovery Among Health Care Workers,DRUG:Omega-3 (EPA+DHA); DRUG:Placebo,32,RANDOMIZED,3,,False
+NCT05126563,longcovid,Randomized Double-Blind Phase 2 Study of Allogeneic HB-adMSCs for the Treatment of Chronic Post-COVID-19 Syndrome,BIOLOGICAL:HB-adMSCs (allogeneic); OTHER:Placebo,79,RANDOMIZED,42,0.3952,True
+NCT05163496,longcovid,Frontline Clinician Psilocybin Study,DRUG:Psilocybin (Usona Institute); DRUG:Active placebo,30,RANDOMIZED,1,0.001,True
+NCT05180227,pots,Transcutaneous Stimulation in Spinal Cord Injury,DEVICE:DS8R,10,RANDOMIZED,1,,False
+NCT05184192,longcovid,Efficacy of Gabapentin for Post-Covid-19 Olfactory Dysfunction,DRUG:Gabapentin gelatin capsules 300mg; DRUG:Placebo,68,RANDOMIZED,1,,False
+NCT05198466,longcovid,Electrical Stimulation for Critically Ill Post-Covid-19 Patients,DEVICE:Electrical Stimulation; DEVICE:Electrical Stimulation - Sham,19,RANDOMIZED,2,,False
+NCT05199233,longcovid,Mindfulness Intervention for Post-Covid Symptoms,DEVICE:Muse S™ Headband system,45,NA,2,0.001,True
+NCT05200858,mecfs,Transcutaneous Electrical Nerve Stimulation (TENS) in Patients With Postacute Sequelae of Sars-CoV-2,DEVICE:TENS - high-dose; DEVICE:TENS - low-dose,30,RANDOMIZED,1,,False
+NCT05205460,longcovid,Telerehabilitation in People With Long COVID,DEVICE:Home-based telerehabilitation; BEHAVIORAL:Education and self-exercise,182,RANDOMIZED,9,,False
+NCT05212610,longcovid,Assessing Safety of Coronavirus Infection (COVID-19) Messenger RNA (mRNA) Vaccine Administration in the Setting of a Previous Adverse Reaction,BIOLOGICAL:Pfizer-BioNTech mRNA COVID-19 vaccine; BIOLOGICAL:Moderna mRNA COVID-19 vaccine,137,NON_RANDOMIZED,2,,False
+NCT05228730,longcovid,"Evaluation of Full Versus Fractional Doses of COVID-19 Vaccines Given as a Booster in Adults in Australia - Mongolia, Indonesia, Australia Coronavirus (MIACoV).",BIOLOGICAL:Tozinameran - Standard dose; BIOLOGICAL:Tozinameran - fractional dose; BIOLOGICAL:Elasomeran - standard dose; BIOLOGICAL:Elasomeran - fractional dose,13,RANDOMIZED,1,,False
+NCT05252702,pots,Aveir DR i2i Study,DEVICE:Aveir DR Leadless Pacemaker System,464,NA,5,0.0001,True
+NCT05259501,longcovid,Remote Methadone Ingestion Surveillance Trial (RMIST),OTHER:RMIST,15,NA,3,,False
+NCT05265065,longcovid,Evaluation of Full Versus Fractional Dose of COVID-19 Vaccine Given as a Booster for the Prevention of COVID-19 in Adults in Mongolia.,BIOLOGICAL:Tozinameran - Standard Dose; BIOLOGICAL:Tozinameran - Fractional Dose,601,RANDOMIZED,2,,False
+NCT05445427,longcovid,Vagal Nerve Stimulation for Post COVID Fatigue,DEVICE:vagal nerve stimulator,18,RANDOMIZED,1,0.544,True
+NCT05453201,longcovid,"Developing an Integrative, Recovery-Based, Post-Acute COVID-19 Syndrome (PACS) Psychotherapeutic Intervention",BEHAVIORAL:Long COVID Coping and Recovery (LCCR) Intervention,22,NA,1,0.004,True
+NCT05472090,longcovid,A Phase 2 Study to Evaluate the Efficacy and Safety of TNX-102 SL in Patients With Multi-Site Pain Associated With Post-Acute Sequelae of SARS-CoV-2 Infection,DRUG:TNX-102 SL; DRUG:Placebo SL Tablet,63,RANDOMIZED,1,,False
+NCT05487300,pots,Effect of Levodopa on Cardiovascular Autonomic Function in Parkinson's Disease,DRUG:Autonomic testing on and off levodopa,40,RANDOMIZED,1,,False
+NCT05518487,longcovid,COVID Protection After Transplant - Sanofi GSK (CPAT-SG) Study,BIOLOGICAL:Sanofi-GSK monovalent (B.1.351) CoV2 preS dTM-AS03 COVID-19 vaccine,15,NA,1,,False
+NCT05567952,longcovid,A Study to Learn About a Repeat 5-Day Treatment With the Study Medicines (Called Nirmatrelvir/Ritonavir) in People 12 Years Old or Older With Return of COVID-19 Symptoms and SARS-CoV-2 Positivity After Finishing Treatment With Nirmatrelvir/Ritonavir,DRUG:nirmatrelvir; DRUG:ritonavir; DRUG:placebo for nirmatrelvir,436,RANDOMIZED,1,0.0004,True
+NCT05576662,longcovid,Paxlovid for Treatment of Long Covid,DRUG:Nirmatrelvir; DRUG:Placebo; DRUG:Ritonavir,168,RANDOMIZED,1,0.903,True
+NCT05592418,longcovid,Study to Evaluate the Efficacy and Safety of Ampligen in Patients With Post-COVID Conditions,DRUG:Rintatolimod; OTHER:Placebo / Normal Saline,80,RANDOMIZED,1,0.9851,True
+NCT05595369,longcovid,RECOVER-VITAL: Platform Protocol to Measure the Effects of Antiviral Therapies on Long COVID Symptoms,DRUG:Experimental: Paxlovid 25 day dosing; DRUG:Experimental: Paxlovid 15 day dosing; DRUG:Placebo Comparator: Control,963,RANDOMIZED,1,,False
+NCT05597722,longcovid,Addressing Cognitive Fog in Long-COVID-19 Patients,BEHAVIORAL:Digital cognitive behavioral intervention-RxWell; DRUG:Amphetamine-Dextroamphetamine,7,RANDOMIZED,3,,False
+NCT05608629,mecfs,Vagus Nerve Stimulation as Treatment for Long Covid,DEVICE:Transcutaneous Non-Invasive Vagus Nerve Stimulation,17,NA,1,,False
+NCT05618574,longcovid,Nitrite Supplementation in Long COVID Patients,"DIETARY_SUPPLEMENT:140 ml per day of Beet-It nitrate beverage (James White Drinks Ltd., Ipswich, UK); DIETARY_SUPPLEMENT:210 ml of nitrate-depleted placebo",17,RANDOMIZED,2,0.4566,True
+NCT05618587,longcovid,Effect of Lithium Therapy on Long COVID Symptoms,DRUG:Lithium; DRUG:Placebo,52,RANDOMIZED,2,0.46,True
+NCT05633407,longcovid,Efficacy and Safety Study of Efgartigimod in Adults With Post-COVID-19 POTS,DRUG:Efgartigimod; DRUG:Placebo,53,RANDOMIZED,3,,False
+NCT05874037,longcovid,Fluvoxamine for Long COVID-19,DRUG:Fluvoxamine,191,RANDOMIZED,1,,False
+NCT05875701,longcovid,Phase 3 Study of Novavax Vaccine(s) as Booster Dose After mRNA Vaccines,BIOLOGICAL:NVX-CoV2373; BIOLOGICAL:SARS-CoV-2 rS antigen/Matrix-M Adjuvant,147,RANDOMIZED,1,,False
+NCT05877508,longcovid,Anti-SARS-CoV-2 Monoclonal Antibodies for Long COVID (COVID-19),DRUG:AER002; OTHER:Placebo,36,RANDOMIZED,1,,False
+NCT05918978,longcovid,Open Label Extension of Efgartigimod in Adults With Post-COVID-19 POTS,DRUG:Efgartigimod,33,NA,1,,False
+NCT05946551,longcovid,Treatment of Long CoronaVirus Disease (COVID) (TLC) Feasibility Trial,DRUG:Cetirizine; DRUG:Famotidine; DRUG:Cetirizine Placebo; DRUG:Famotidine Placebo,5,RANDOMIZED,12,,False
+NCT05954286,longcovid,PROTECT-APT 1: Early Treatment and Post-Exposure Prophylaxis of COVID-19,DRUG:Upamostat; DRUG:Placebo (PO),92,RANDOMIZED,1,,False
+NCT05965726,longcovid,"RECOVER-VITAL: Platform Protocol, Appendix to Measure the Effects of Paxlovid on Long COVID Symptoms",DRUG:Paxlovid; DRUG:Ritonavir; DRUG:Nirmatrelvir-matching placebo,964,RANDOMIZED,3,0.155,True
+NCT05965739,longcovid,"RECOVER-NEURO: Platform Protocol, Appendix_A to Measure the Effects of BrainHQ, PASC CoRE and tDCS Interventions on Long COVID Symptoms",OTHER:BrainHQ/Active Comparator Activity; OTHER:BrainHQ; OTHER:PASC CoRE; DEVICE:tDCS-active; DEVICE:tDCS-sham,328,RANDOMIZED,1,0.169,True
+NCT05965752,longcovid,RECOVER-NEURO: Platform Protocol to Measure the Effects of Cognitive Dysfunction Interventions on Long COVID Symptoms,OTHER:BrainHQ/Active Comparator Activity; OTHER:BrainHQ; OTHER:PASC CoRE; DEVICE:tDCS-active; DEVICE:tDCS-sham,328,RANDOMIZED,1,,False
+NCT05970731,longcovid,Directed Topical Drug Delivery for Treatment for PASC Hyposmia,DRUG:Beclomethasone; OTHER:Placebo; DEVICE:Microsponge,16,RANDOMIZED,1,,False
+NCT05999435,longcovid,Study of LAU-7b for the Treatment of Long COVID in Adults,"DRUG:LAU-7b for 3 cycles; DRUG:LAU-7b for 1 cycle, then placebo; OTHER:Placebo for 3 cycles",272,RANDOMIZED,1,0.36,True
+NCT06038617,longcovid,Safety of Simultaneous mRNA COVID-19 Vaccine With Other Childhood Vaccines in Young Children,BIOLOGICAL:mRNA COVID-19 Vaccine; BIOLOGICAL:Routine Childhood Vaccinations,347,RANDOMIZED,1,,False
+NCT06057064,longcovid,"Study Will Assess the Safety, Neutralizing Activity and Efficacy of AZD3152 in Adults With Conditions Increasing Risk of Inadequate Protective Immune Response After Vaccination and Thus Are at High Risk of Developing Severe COVID-19",BIOLOGICAL:Biological: AZD3152; BIOLOGICAL:Biological: Placebo,116,RANDOMIZED,1,,False
+NCT06133075,pots,Using Mirabegron to Increase BP in Patients With POTS,DRUG:Mirabegron 50 MG; DRUG:Mirabegron 25 MG,20,RANDOMIZED,1,,False
+NCT06136871,longcovid,Cognitive Rehabilitation in Post-COVID-19 Syndrome,BEHAVIORAL:CO-OP Procedures; BEHAVIORAL:Inactive Control Group,65,RANDOMIZED,8,,False
+NCT06161688,longcovid,Ensitrelvir for Viral Persistence and Inflammation in People Experiencing Long COVID,DRUG:Ensitrelvir; OTHER:Placebo,40,RANDOMIZED,1,,False
+NCT06208696,longcovid,Chronic-disease Self-management Program in Patients Living With Long-COVID in Puerto Rico,"OTHER:""Tomando control de su salud"" (Spanish Chronic Disease Self-Management)",47,NON_RANDOMIZED,3,,False
+NCT06214455,longcovid,Intermittent Fasting and a No-Sugar Diet for Long COVID Symptoms,"OTHER:Low sugar diet and 10-12 hour eating window; OTHER:Low sugar diet, 8 hour eating window and fasting",77,RANDOMIZED,2,,False
+NCT06253806,longcovid,Stellate Ganglion Block for COVID-induced Parosmia,DRUG:Stellate Ganglion Block; DRUG:Placebo Sham Injection,48,RANDOMIZED,1,,False
+NCT06268288,pots,Non-invasive Vagal Neurostimulation (nVNS) in Adolescents With Postural Orthostatic Tachycardia Syndrome (POTS),DEVICE:GammaCore intervention; OTHER:STEPS management protocol,40,RANDOMIZED,3,,False
+NCT06305780,longcovid,RECOVER-AUTONOMIC Platform Protocol,DRUG:IVIG + Coordinated Care; DRUG:IVIG Placebo + Coordinated Care; DRUG:Ivabradine + Coordinated Care; DRUG:Ivabradine Placebo + Coordinated Care; DRUG:IVIG + Usual Care; DRUG:IVIG Placebo + Usual Care; DRUG:Ivabradine + Usual Care; DRUG:Ivabradine Placebo + Usual Care,381,RANDOMIZED,1,,False
+NCT06476496,longcovid,Pain Relief With Integrative Medicine (PRIMe)?: Feasibility of Acupuncture for Long COVID,PROCEDURE:Acupuncture,93,RANDOMIZED,1,,False
+NCT06524739,longcovid,"Double-blind, Randomized, Placebo-controlled Study Evaluating Efficacy and Safety of IgPro20 in Post-COVID-19 POTS",BIOLOGICAL:IgPro20; BIOLOGICAL:Placebo,16,RANDOMIZED,1,,False

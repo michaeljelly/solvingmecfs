@@ -1,0 +1,1835 @@
+{
+ "domain": "immune",
+ "title": "Immune system",
+ "overview": "Immunology is the oldest and most heavily worked area of ME/CFS research, and the one with the widest gap between positive reports and independent replication. Reduced natural-killer-cell killing is the most repeated finding (meta-analytic Hedges g about 0.96 across 28 papers), yet the largest standardised multi-site attempt (MCAM, 174 vs 86) and two careful phenotyping studies found nothing, so the honest grade is 'contested and not usable as a test'. Several newer cell-level findings are more consistent in direction than in detail: CD8 T-cell exhaustion programmes, shifts in B-cell maturation (more naive, fewer switched-memory), monocyte dysregulation, and an exaggerated innate response to microbial stimulation that worsens after exercise. Cytokines look disturbed in aggregate (TNF, IL-2, IL-4, TGF-beta, CRP in meta-analysis) but no single cytokine survives as a marker, TGF-beta turned out to be largely a blood-handling artefact, and the clearest pattern is that abnormalities depend on illness duration (Hornig 2015) and severity (Montoya 2017) rather than on diagnosis alone. The autoimmunity strand has had the clearest negative resolution: GPCR autoantibodies against beta2/M3/M4 receptors are not reproduced by unbiased antigen profiling, removing them by immunoadsorption fails against sham, rituximab failed in a 151-patient RCT, and BC007's larger trial failed; what survives is narrower and interesting - patient IgG does things to endothelial mitochondria and, in long COVID, transfers pain and fatigue-like phenotypes to mice, and plasma-cell depletion with daratumumab produced striking but uncontrolled responses in 6 of 10 patients. Common-variant genetics (DecodeME) shows no enrichment in any blood immune cell type, which pushes most of these immune findings toward being consequences or state markers rather than inherited causes.",
+ "findings": [
+  {
+   "id": "immune-nk-cytotoxicity",
+   "subdomain": "NK cells",
+   "finding": "Natural-killer-cell cytotoxicity is reduced in ME/CFS in meta-analysis of the older literature (Hedges g ~0.96), but the largest standardised multi-site study and two deep-phenotyping studies found no difference.",
+   "grade": "contested",
+   "plain": "The most-repeated immune finding in ME/CFS is that one type of white blood cell kills target cells less well. When labs tried to turn it into a standardised test, the difference disappeared.",
+   "detail": "Baraniuk, Eaton-Fitch and Marshall-Gradisnik 2024 pooled 28 papers and 55 effector:target data points: cytotoxicity about half of control levels, overall Hedges g 0.96 (0.75-1.18), heterogeneity high and explained by E:T ratio and method. Against this: the CDC Multi-Site Clinical Assessment (MCAM) sub-study used an assay validated for overnight-shipped blood in 174 ME/CFS vs 86 healthy controls and found 34.1% vs 33.6% cytotoxicity (p=0.79), with no association with symptom domains; Theorell 2017 found no reproducible difference in two cohorts (48 patients) across granule content, exocytosis, killing or adrenaline sensitivity; Cliff 2019 found no difference in NK numbers, subsets or in vitro responsiveness in 251 patients (54 severe) vs 107 controls. The assay requires fresh blood and is highly method-sensitive, so publication-era and logistics effects are plausible explanations for the discrepancy. Treat reduced NK function as a real signal in some cohorts with some assays, not as a disease marker.",
+   "studies": [
+    {
+     "cite": "Baraniuk, Eaton-Fitch & Marshall-Gradisnik 2024, Frontiers in Immunology",
+     "n": "28 papers, 55 E:T data points",
+     "design": "meta-analysis",
+     "result": "Hedges g 0.96 (0.75-1.18); cytotoxicity ~50% of controls",
+     "url": "https://doi.org/10.3389/fimmu.2024.1440643",
+     "verified": true
+    },
+    {
+     "cite": "Klimas 1990, J Clin Microbiol",
+     "n": "30 patients vs controls",
+     "design": "case-control",
+     "result": "Low NK cytotoxicity per CD56 cell despite raised CD56 numbers; reduced mitogen responses and IFN-gamma",
+     "url": "https://doi.org/10.1128/jcm.28.6.1403-1410.1990",
+     "verified": true
+    },
+    {
+     "cite": "Brenu 2011, J Transl Med",
+     "n": "95 vs 50",
+     "design": "case-control",
+     "result": "NK and CD8 cytotoxicity reduced, CD56bright reduced, granzyme A/K down, perforin up",
+     "url": "https://doi.org/10.1186/1479-5876-9-81",
+     "verified": true
+    },
+    {
+     "cite": "Eaton-Fitch 2019, Systematic Reviews",
+     "n": "17 studies",
+     "design": "systematic review",
+     "result": "Cytotoxicity consistently reduced; other NK outcomes equivocal",
+     "url": "https://doi.org/10.1186/s13643-019-1202-6",
+     "verified": true
+    },
+    {
+     "cite": "Fletcher 2010, PLoS One",
+     "n": "CFS",
+     "design": "NK function",
+     "result": "reduced cytotoxicity",
+     "url": "https://doi.org/10.1371/journal.pone.0010817",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Querec 2023 (MCAM), J Transl Med",
+     "n": "174 ME/CFS vs 86 HC vs 10 ill controls",
+     "design": "multi-site case-control, shipped-sample validated assay",
+     "result": "34.1% vs 33.6% cytotoxicity, p=0.79; no symptom association; 'not ready for clinical implementation'",
+     "url": "https://doi.org/10.1186/s12967-023-03958-2",
+     "verified": true
+    },
+    {
+     "cite": "Theorell 2017, Frontiers in Immunology",
+     "n": "48 patients, two cohorts, matched HC",
+     "design": "case-control, deep cytotoxic-lymphocyte phenotyping",
+     "result": "No reproducible difference in number, granules, exocytosis, killing, cytokines or adaptive NK expansion",
+     "url": "https://doi.org/10.3389/fimmu.2017.00723",
+     "verified": true
+    },
+    {
+     "cite": "Cliff 2019, Frontiers in Immunology",
+     "n": "251 ME/CFS (54 severe) vs 107 HC vs 46 MS",
+     "design": "case-control, UK ME/CFS Biobank",
+     "result": "No differences in NK numbers, subsets or in vitro responsiveness",
+     "url": "https://doi.org/10.3389/fimmu.2019.00796",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Does the deficit appear only in fresh same-day assays, i.e. is it partly a pre-analytic artefact?",
+    "Is reduced cytotoxicity confined to a severity or herpesvirus-exposure subgroup?",
+    "Does NK function change during PEM (no paired rest/post-exertion study exists)?"
+   ],
+   "hypotheses": [
+    "immune-exhaustion",
+    "herpes-reactivation",
+    "viral-persistence"
+   ],
+   "test_available": "Private NK-function assays exist but need a same-day fresh sample; not validated for diagnosis (MCAM explicitly says so)"
+  },
+  {
+   "id": "immune-trpm3",
+   "subdomain": "NK cells",
+   "finding": "Reduced TRPM3 ion-channel current and calcium influx in patients' NK cells has been reported repeatedly, including a two-site study (36 vs 42), but only ever by one research group.",
+   "grade": "early",
+   "plain": "One Australian group finds that a calcium channel on immune cells works poorly in patients, which they argue explains weak NK killing. No other lab has tested it.",
+   "detail": "Sasso 2026 (Front Med) ran whole-cell patch-clamp on isolated NK cells at two laboratory sites with independent investigators: 36 CCC-defined ME/CFS vs 42 healthy controls, significant reduction in all TRPM3 parameters with no site effect. Earlier work in the same programme: Eaton-Fitch 2022 (impaired TRPM3-dependent calcium influx, restored in vitro by naltrexone), Eaton-Fitch 2021 (TRPM3/PIP2 co-localisation), Magawa 2026 (deficient TRPM3-linked mitochondrial calcium influx), plus a post-COVID extension (Magawa 2026, Eur J Immunol) and LDN restoration in long COVID NK cells (Sasso 2025). The 'two sites' are both within the same group's network, so this is internal consistency rather than independent replication; patch-clamp of isolated NK cells is a demanding, low-throughput method available in very few labs. Against it indirectly: DecodeME common-variant genetics shows no enrichment in any blood immune cell type, and the low-dose naltrexone RCT in post-COVID ME/CFS (n=137) was negative, which weakens the therapeutic corollary.",
+   "studies": [
+    {
+     "cite": "Sasso 2026, Frontiers in Medicine",
+     "n": "36 vs 42",
+     "design": "two-site case-control patch-clamp",
+     "result": "Significant reduction in all TRPM3 current parameters; no effect of laboratory site",
+     "url": "https://doi.org/10.3389/fmed.2025.1703924",
+     "verified": true
+    },
+    {
+     "cite": "Eaton-Fitch 2022, J Transl Med",
+     "n": "small case-control",
+     "design": "calcium imaging",
+     "result": "Impaired TRPM3-dependent Ca2+ influx; restored in vitro by naltrexone",
+     "url": "https://doi.org/10.1186/s12967-022-03297-8",
+     "verified": true
+    },
+    {
+     "cite": "Magawa 2026, BMC Immunology",
+     "n": "case-control",
+     "design": "mitochondrial Ca2+ imaging in NK cells",
+     "result": "Deficient TRPM3-linked mitochondrial Ca2+ influx",
+     "url": "https://doi.org/10.1186/s12865-026-00849-1",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Solving ME/CFS re-analysis (deep2/singlecell_methyl)",
+     "n": "503,739 PBMCs, 58 people; 5 cohorts",
+     "design": "re-analysis of public scRNA, methylation, repertoires",
+     "result": "No immune-cell subtype, gene or methylation site separates cases from controls reproducibly; nothing passed FDR in more than one dataset",
+     "url": "",
+     "verified": true
+    },
+    {
+     "cite": "Solving ME/CFS re-analysis (downloads, DecodeME MAGMA)",
+     "n": "15,579 cases vs 259,909 controls",
+     "design": "GWAS enrichment",
+     "result": "No enrichment in any of 29 immune cell types; signal is brain/neuronal",
+     "url": "",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Can a lab with no stake in the hypothesis reproduce the patch-clamp result blind?",
+    "Is reduced TRPM3 current a cause of poor cytotoxicity or a downstream consequence of cell state/handling?",
+    "Does TRPM3 function track symptoms within a person over time?"
+   ],
+   "hypotheses": [
+    "sodium-calcium-overload",
+    "immune-exhaustion",
+    "autonomic-small-fibre"
+   ],
+   "test_available": "research only"
+  },
+  {
+   "id": "immune-cd8-exhaustion",
+   "subdomain": "T cells",
+   "finding": "CD8+ effector-memory T cells in ME/CFS show transcriptional and chromatin features of exhaustion, with supporting flow cytometry and an independent cell-free RNA signature.",
+   "grade": "several",
+   "plain": "Killer T cells in patients look 'worn out', like cells that have been fighting an infection for a long time.",
+   "detail": "Iu 2024 (PNAS) integrated scRNA-seq, bulk RNA-seq and ATAC-seq across sorted T-cell subsets (336,269 T-lineage cells from 28 patients and 30 sedentary controls at baseline and after symptom provocation), finding upregulated exhaustion transcription factors, altered chromatin accessibility and metabolic reprogramming most marked in CD8+ effector-memory and innate-like T cells, validated by flow cytometry in an extended cohort (15 patients, 11 controls, female, age/BMI matched). Gardella 2025 independently found T-cell-exhaustion and cytokine-signalling signatures in plasma cell-free RNA (93 vs 75). Supporting but not identical: Mandarano 2020 found reduced CD8+ mitochondrial membrane potential and reduced glycolysis at rest in 53 vs 45. The main caveat is that the Cornell scRNA cohorts are not independent of each other and a re-analysis of the same public scRNA data found no exhausted-CD8 composition difference once cell typing was redone, so the effect may live in gene programmes rather than cell counts.",
+   "studies": [
+    {
+     "cite": "Iu 2024, PNAS",
+     "n": "28 vs 30 (scRNA/ATAC); 15 vs 11 flow validation",
+     "design": "multiomic case-control with exercise provocation",
+     "result": "Exhaustion TFs up in CD8+ Tem, altered chromatin and metabolism; higher frequency of exhaustion markers by flow",
+     "url": "https://doi.org/10.1073/pnas.2415119121",
+     "verified": true
+    },
+    {
+     "cite": "Gardella 2025, PNAS",
+     "n": "93 vs 75",
+     "design": "plasma cfRNA sequencing + ML",
+     "result": "Cytokine-signalling and T-cell-exhaustion network signatures; classifier AUC 0.81",
+     "url": "https://doi.org/10.1073/pnas.2507345122",
+     "verified": true
+    },
+    {
+     "cite": "Mandarano 2020, J Clin Invest",
+     "n": "53 vs 45",
+     "design": "case-control immunometabolism",
+     "result": "Reduced CD8+ mitochondrial membrane potential; reduced resting glycolysis in CD4+ and CD8+",
+     "url": "https://doi.org/10.1172/JCI132185",
+     "verified": true
+    },
+    {
+     "cite": "Yin 2024, Nature Immunology (long COVID)",
+     "n": "deep immune profiling, 8 months post-infection",
+     "design": "case-control omics + serology",
+     "result": "Exhausted SARS-CoV-2-specific CD8+ T cells, systemic inflammation, uncoordinated T/B responses",
+     "url": "https://doi.org/10.1038/s41590-023-01724-6",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Solving ME/CFS re-analysis (deep2/singlecell_methyl, GSE214283)",
+     "n": "30 vs 28, 503,739 PBMCs",
+     "design": "re-analysis with CellTypist + marker gating",
+     "result": "Exhausted-CD8 gating null; 0 genes at q<0.05 at baseline in all 15 cell types",
+     "url": "",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Is the exhaustion programme driven by a persisting antigen, and if so which?",
+    "Does checkpoint blockade or metabolic rescue change anything in vivo (never tried)?",
+    "Why do composition-level and programme-level analyses of the same data disagree?"
+   ],
+   "hypotheses": [
+    "immune-exhaustion",
+    "viral-persistence",
+    "herpes-reactivation"
+   ],
+   "test_available": "research only (specialist flow cytometry)"
+  },
+  {
+   "id": "immune-tcell-severity",
+   "subdomain": "T cells",
+   "finding": "T-cell abnormalities differ by severity: mild/moderate patients show cytotoxic/immunosenescence features, severe patients show activated lymphocytes and higher stimulated pro-inflammatory cytokines.",
+   "grade": "early",
+   "plain": "Mildly and severely affected patients show different immune pictures, which may mean different disease mechanisms rather than one disease of different intensity.",
+   "detail": "Lee, Cliff and colleagues (UK ME/CFS Biobank; medRxiv 2025, J Transl Med Dec 2025) compared 43 mild/moderate with 53 severe patients by flow cytometry. Mild/moderate: increased cytotoxic effector molecules and more CD28-CD57- early-immunosenescent cells, a pattern associated with persistent viral infection. Severe: more CD69+ and CD38+ activated circulating lymphocytes and more IFN-gamma, TNF and IL-17 after in vitro stimulation, consistent with non-specific ongoing inflammation. Changes spanned CD8+ T cells, MAIT cells and NK cells. This is a within-patient-group comparison without a healthy-control contrast for the severity axis, and severe patients differ in sampling conditions (home visits, deconditioning, medication), so confounding by illness state is not excluded.",
+   "studies": [
+    {
+     "cite": "Lee JS 2025, J Transl Med (also medRxiv 2025.01.02.24319359)",
+     "n": "43 mild/moderate vs 53 severe",
+     "design": "case-case flow cytometry, UK ME/CFS Biobank",
+     "result": "Immunosenescence/cytotoxic markers in mild-moderate; activation (CD69+, CD38+) and higher stimulated IFN-gamma/TNF/IL-17 in severe",
+     "url": "https://doi.org/10.1186/s12967-025-07507-x",
+     "verified": true
+    },
+    {
+     "cite": "Lee 2025, medRxiv (preprint)",
+     "n": "ME/CFS",
+     "design": "T-cell",
+     "result": "T-cell severity association (check not already cited)",
+     "url": "https://doi.org/10.1101/2025.01.02.24319359",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "open_questions": [
+    "Do these two patterns define stable subgroups or stages of one illness?",
+    "Does the severe-patient activation pattern reflect being bedbound rather than disease mechanism?"
+   ],
+   "hypotheses": [
+    "immune-exhaustion",
+    "innate-hyperactivation",
+    "sickness-behaviour"
+   ],
+   "test_available": "research only"
+  },
+  {
+   "id": "immune-mait",
+   "subdomain": "T cells",
+   "finding": "Increased mucosal-associated invariant T (MAIT) cell proportions and a shift in CD8+ memory subsets were found in the largest single ME/CFS flow-cytometry cohort, but the finding has not been reproduced in independent data.",
+   "grade": "contested",
+   "plain": "One large study found more of a gut-associated T-cell type in patients, especially severe ones. Re-analyses of other datasets do not show it.",
+   "detail": "Cliff 2019 (251 patients incl. 54 severe, 107 controls, 46 MS) reported increased effector-memory CD8+ and decreased terminally differentiated effector CD8+ T cells, plus a significantly increased proportion of MAIT cells, most marked in severe patients, with no differences in herpesvirus seroprevalence. Iu 2024 also flagged 'certain innate T cells' as among the most dysregulated. Against: a re-analysis across five cohorts and three data types (scRNA of 503,739 PBMCs, four methylation cohorts, B- and T-cell repertoires) found MAIT, gamma-delta T, Th17 and exhausted-CD8 gating all null, and blood RNA cohorts do not show reduced Th17 (meta p=0.39).",
+   "studies": [
+    {
+     "cite": "Cliff 2019, Frontiers in Immunology",
+     "n": "251 vs 107 vs 46 MS",
+     "design": "case-control flow cytometry",
+     "result": "MAIT proportion increased (most in severe); CD8+ Tem up, TEMRA down",
+     "url": "https://doi.org/10.3389/fimmu.2019.00796",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Solving ME/CFS re-analysis (deep2/singlecell_methyl; downloads)",
+     "n": "5 cohorts; 58-people scRNA; 5 blood RNA cohorts",
+     "design": "re-analysis",
+     "result": "MAIT, gamma-delta, Th17, ABC B cells and pDC interferon all null; Th17 meta p=0.39",
+     "url": "",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Is the MAIT signal a gut-mucosa readout, and does it track gut findings in the same people?"
+   ],
+   "hypotheses": [
+    "gut-dysbiosis",
+    "immune-exhaustion"
+   ],
+   "test_available": "research only"
+  },
+  {
+   "id": "immune-tcr-repertoire",
+   "subdomain": "T cells",
+   "finding": "T-cell receptor repertoires do not distinguish ME/CFS from controls, arguing against a dominant shared antigen-driven clonal expansion.",
+   "grade": "refuted",
+   "plain": "If one infection or self-target were driving the disease, you would expect to see armies of identical T cells. Sequencing says they are not there.",
+   "detail": "Dibble 2024 (BMC Research Notes) sequenced alpha/delta, beta and gamma TCR loci in 40 samples each from severe ME, mild/moderate ME, MS disease controls and healthy controls, and applied P-SVM classification: the method worked on simulated data but could not partition the real samples significantly. A re-analysis of UK ME/CFS Biobank T-cell repertoires (304 samples) likewise found nothing passing FDR in more than one dataset, with only exploratory herpesvirus-related trends (higher share of EBV-specific TCR-beta in severe patients' CD8, 0.88% vs 0.45%, p=0.06). A near-genome-wide candidate, the TRA locus (Ueland 2022), has not replicated either.",
+   "studies": [
+    {
+     "cite": "Dibble 2024, BMC Research Notes",
+     "n": "4 groups x 40",
+     "design": "bulk TCR repertoire sequencing + machine learning",
+     "result": "No statistically significant partitioning; 'findings do not support altered T-cell receptor diversity'",
+     "url": "https://doi.org/10.1186/s13104-023-06616-4",
+     "verified": true
+    },
+    {
+     "cite": "Solving ME/CFS re-analysis (deep2/singlecell_methyl)",
+     "n": "304 T-cell repertoire samples",
+     "design": "re-analysis, UK ME/CFS Biobank",
+     "result": "Nothing reproducible; EBV-specific TCR-beta share higher in severe CD8 at p=0.06 only",
+     "url": "",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "open_questions": [
+    "Would antigen-specific sorting (rather than bulk repertoire) reveal expansions invisible in bulk?",
+    "Could tissue (muscle, gut, brainstem) repertoires differ while blood looks normal?"
+   ],
+   "hypotheses": [
+    "autoimmunity",
+    "viral-persistence"
+   ],
+   "test_available": "research only"
+  },
+  {
+   "id": "immune-bcell-maturation",
+   "subdomain": "B cells",
+   "finding": "The NIH deep-phenotyping study found more naive and fewer switched-memory B cells in post-infectious ME/CFS, consistent with chronic antigenic stimulation; supporting signals exist but are weak.",
+   "grade": "early",
+   "plain": "Patients seem to have more 'untrained' B cells and fewer that have already matured, as if the immune system keeps being prodded by something.",
+   "detail": "Walitt 2024 (Nat Commun) did intensive inpatient phenotyping of a small, rigorously selected post-infectious ME/CFS cohort (17 PI-ME/CFS vs 21 healthy volunteers for immune measures) and reported increased naive and decreased switched-memory B cells, interpreted as chronic antigenic stimulation and linked to STAT4-TLR9 B-cell pathway signals; PBMC gene-expression and metabolic differences were sex-dependent. A Solving ME/CFS re-analysis found plasma-cell/immunoglobulin transcripts lower in 2 of 4 blood RNA cohorts (meta d -0.42, p=0.06), which points the same way without reaching significance. Earlier B-cell phenotype work (Mensah 2016, 2018) found no reproducible subset differences but raised CD24 expression on naive and memory B cells. The cohort is tiny and much of Walitt 2024's framing (effort preference) is contested, so this should be read as a lead, not an established feature.",
+   "studies": [
+    {
+     "cite": "Walitt 2024, Nature Communications",
+     "n": "17 PI-ME/CFS vs 21 HV (immune measures; 16 vs 20 for switched memory)",
+     "design": "deep phenotyping case-control",
+     "result": "Naive B cells increased, switched-memory B cells decreased; interpreted as chronic antigenic stimulation",
+     "url": "https://doi.org/10.1038/s41467-024-45107-3",
+     "verified": true
+    },
+    {
+     "cite": "Solving ME/CFS re-analysis (deep2/proteome)",
+     "n": "4 blood RNA cohorts",
+     "design": "meta-analysis of public data",
+     "result": "Plasma-cell/immunoglobulin transcripts lower in 2 of 4 cohorts, meta d -0.42, p=0.06",
+     "url": "",
+     "verified": true
+    },
+    {
+     "cite": "Mensah 2016, Clin Exp Immunol",
+     "n": "cross-sectional case-control",
+     "design": "extended B-cell immunophenotyping",
+     "result": "No reproducible subset differences; higher CD24 expression within naive and memory B cells",
+     "url": "https://doi.org/10.1111/cei.12749",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Solving ME/CFS re-analysis (deep2/singlecell_methyl)",
+     "n": "58-person scRNA; 123-person BCR repertoire",
+     "design": "re-analysis",
+     "result": "No B-cell composition difference survived; ABC B-cell call lower only at p=0.03, not replicated",
+     "url": "",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Does the naive/switched-memory shift replicate in a larger, less selected cohort?",
+    "Is it explained by medication, inactivity or infection history?"
+   ],
+   "hypotheses": [
+    "autoimmunity",
+    "viral-persistence",
+    "immune-exhaustion"
+   ],
+   "test_available": "Lymphocyte subset flow cytometry is widely available, but the naive/memory B-cell split is not a validated marker"
+  },
+  {
+   "id": "immune-bcr-repertoire",
+   "subdomain": "B cells",
+   "finding": "Reported skewing of the B-cell receptor repertoire (IGHV3-30/3-33 overuse) partially replicates in mild/moderate patients but shows no clonality, somatic-hypermutation or autoimmunity signature.",
+   "grade": "contested",
+   "plain": "An early report said patients over-use certain antibody genes. A careful follow-up found a trace of that but none of the signs you would expect if antibodies were driving the disease.",
+   "detail": "Sato 2021 (Brain Behav Immun) reported biased IGHV/IGHD/IGHJ usage in ME/CFS peripheral B cells with ROC separation from controls. Ryback and Cowan 2025 (Front Immunol) sequenced BCR heavy-chain repertoires in 25 mild/moderate ME/CFS, 36 severe, 21 healthy controls and 28 MS: no increased clonality and no differential somatic hypermutation versus healthy controls or MS; IGHV3-30 usage was replicated in mild/moderate patients only, but with no evidence of ongoing antigen-driven responses within IGHV3-30 repertoires and no infection or autoimmunity signature; a skewed IgM:IgG ratio in mild/moderate patients was the one new preliminary observation. A Solving ME/CFS re-analysis of UK ME/CFS Biobank repertoires (123 people) found IgM IGHV3-30/3-33 usage essentially identical (9.34% vs 9.37%, p=0.96).",
+   "studies": [
+    {
+     "cite": "Ryback & Cowan 2025, Frontiers in Immunology",
+     "n": "25 mild/mod + 36 severe vs 21 HC vs 28 MS",
+     "design": "AIRR-seq case-control with disease control",
+     "result": "No increased clonality or SHM; IGHV3-30 replicated only in mild/moderate; IgM:IgG ratio skewed",
+     "url": "https://doi.org/10.3389/fimmu.2025.1489312",
+     "verified": true
+    },
+    {
+     "cite": "Sato 2021, Brain Behav Immun",
+     "n": "case-control",
+     "design": "BCR repertoire sequencing",
+     "result": "Biased IGHV gene usage; ROC separation suggested",
+     "url": "https://doi.org/10.1016/j.bbi.2021.03.023",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Solving ME/CFS re-analysis (deep2/singlecell_methyl)",
+     "n": "123 people, UK ME/CFS Biobank",
+     "design": "re-analysis of B-cell repertoires",
+     "result": "IGHV3-30/3-33 IgM usage 9.34% vs 9.37%, p=0.96 - claim fails",
+     "url": "",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Is the IgM:IgG skew in mild/moderate disease real and does it predict anything?"
+   ],
+   "hypotheses": [
+    "autoimmunity",
+    "viral-persistence"
+   ],
+   "test_available": "research only"
+  },
+  {
+   "id": "immune-rituximab",
+   "subdomain": "B cells",
+   "finding": "B-cell depletion with rituximab failed in a 151-patient placebo-controlled trial, after positive small phase II results.",
+   "grade": "refuted",
+   "plain": "A drug that wipes out antibody-making B cells looked promising in small studies, then failed completely in a proper large trial.",
+   "detail": "Fluge 2011 (PLOS ONE, n=30 randomised) reported major or moderate response in 10/15 on rituximab vs 2/15 on saline (p=0.003), with delayed onset 2-7 months. RituxME (Fluge 2019, Ann Intern Med) randomised 151 CCC patients to induction plus 4 maintenance infusions over 12 months or placebo: response rates 26.0% rituximab vs 35.1% placebo (difference -9.2 points, 95% CI -5.5 to 23.3 for placebo advantage, p=0.22), no difference in fatigue score over 24 months or any secondary endpoint, with more serious adverse events on drug (26.0% vs 18.9%). The high placebo response rate (35%) is the key number for reading every uncontrolled immunotherapy report in this field. A 6-year follow-up showed SF-36 physical function 45.5 vs 43.1, i.e. both groups improved similarly.",
+   "studies": [
+    {
+     "cite": "Fluge 2019 (RituxME), Annals of Internal Medicine",
+     "n": "151 randomised (77 vs 74)",
+     "design": "multicentre double-blind placebo-controlled RCT",
+     "result": "Response 26.0% vs 35.1% placebo, p=0.22; all secondary endpoints null",
+     "url": "https://doi.org/10.7326/M18-1451",
+     "verified": true
+    },
+    {
+     "cite": "Fluge 2011, PLOS ONE",
+     "n": "30 randomised",
+     "design": "double-blind placebo-controlled phase II",
+     "result": "10/15 vs 2/15 responders (p=0.003); primary 3-month endpoint negative",
+     "url": "https://doi.org/10.1371/journal.pone.0026358",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "open_questions": [
+    "Does rituximab's failure exclude autoantibodies, or only short-lived B-cell-dependent ones (long-lived plasma cells are CD20-negative)?"
+   ],
+   "hypotheses": [
+    "autoimmunity"
+   ],
+   "test_available": "Not indicated"
+  },
+  {
+   "id": "immune-daratumumab",
+   "subdomain": "Plasma cells",
+   "finding": "Plasma-cell depletion with daratumumab produced marked, in some cases sustained, improvement in 6 of 10 patients in an open-label pilot, with low baseline NK count predicting non-response.",
+   "grade": "early",
+   "plain": "A myeloma drug that kills the cells making long-lived antibodies helped six of ten patients, some of them a lot and for years. It was a small study with no placebo group.",
+   "detail": "Fluge 2025 (Front Med, corrected 2025; EudraCT 2022-000281-18): 10 female moderate-to-severe patients, 12-week run-in, then subcutaneous daratumumab 1800 mg at weeks 0/2/4/6 (last four patients received three additional injections from week 14). No serious adverse events. All 10: mean SF-36 physical function 25.9 to 55.0 at 8-9 months (p=0.002), DSQ-SF 72.3 to 43.1 (p=0.002). Six responders: SF-36 PF 32.2 to 78.3, DSQ-SF 71.1 to 24.3, and five of the six sustained improvement with mean SF-36 PF 88 toward end of follow-up and step counts above 10,000/day for periods. Serum IgG fell 54% in improvers vs 40% in non-improvers. Low baseline blood NK-cell count was significantly associated with lack of response (responders 238 vs 97 cells/microlitre, rho 0.77). The design cannot separate drug effect from the 35%+ open-label/placebo response documented in RituxME, and n=10 with a post-hoc predictor is hypothesis-generating; an RCT is planned.",
+   "studies": [
+    {
+     "cite": "Fluge 2025, Frontiers in Medicine",
+     "n": "10 (open-label)",
+     "design": "prospective open-label pilot, anti-CD38",
+     "result": "6/10 marked improvement; SF-36 PF 25.9 to 55.0 (p=0.002); 5 sustained 12-24 months; NK count predicted response",
+     "url": "https://doi.org/10.3389/fmed.2025.1607353",
+     "verified": true
+    },
+    {
+     "cite": "Rekeland 2020 (CycloME), Frontiers in Medicine",
+     "n": "40 (open-label)",
+     "design": "open-label phase II cyclophosphamide",
+     "result": "55% response; SF-36 PF 33.0 to 51.5 at 18 months; 68% of responders still in remission at 4 years; HLA-DQB1*03:03/C*07:04 83% vs 43% response; 11 SAEs in 8 patients",
+     "url": "https://doi.org/10.3389/fmed.2020.00162",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Fluge 2019 (RituxME), Annals of Internal Medicine",
+     "n": "151",
+     "design": "RCT",
+     "result": "35% response on placebo - the benchmark any open-label 'response rate' must beat",
+     "url": "https://doi.org/10.7326/M18-1451",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Will the planned randomised trial reproduce it?",
+    "If long-lived plasma cells matter, why did immunoadsorption (which removes the antibodies themselves) fail against sham?",
+    "Is the NK-count predictor real or a chance correlation in n=10?"
+   ],
+   "hypotheses": [
+    "autoimmunity",
+    "serum-factor"
+   ],
+   "test_available": "Lymphocyte subsets (NK count) and serum IgG are routine; the treatment is research/trial only"
+  },
+  {
+   "id": "immune-cytokine-duration",
+   "subdomain": "Cytokines",
+   "finding": "Plasma cytokine abnormalities depend strongly on illness duration: a pro- and anti-inflammatory activation pattern early (under 3 years) that is absent in long-established illness.",
+   "grade": "several",
+   "plain": "Blood inflammation markers look disturbed in people ill for a short time and normal in people ill for years, which may be why studies disagree.",
+   "detail": "Hornig 2015 (Sci Adv) used two multicentre cohorts with controls frequency-matched on season, site, age and sex: 52 cases ill under 3 years, 246 ill longer, 348 controls. Early cases showed prominent activation of both pro- and anti-inflammatory cytokines and dissociation of inter-cytokine regulatory networks; this was not present in the longer-duration group. Cytokine alterations correlated more strongly with duration than with severity measures. This duration-dependence is the single most useful explanation for the field's inconsistency, and it has been widely cited but not formally replicated with a comparably large early-illness sample; it also cannot distinguish a biological evolution from survivorship/sampling differences between recent-onset and long-ill cohorts.",
+   "studies": [
+    {
+     "cite": "Hornig 2015, Science Advances",
+     "n": "52 early vs 246 long-duration vs 348 controls",
+     "design": "multicentre case-control, 51-plex immunoassay",
+     "result": "Distinct early cytokine activation and network dissociation, absent later; duration a stronger correlate than severity",
+     "url": "https://doi.org/10.1126/sciadv.1400121",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Corbitt 2019, BMC Neurology",
+     "n": "15 included studies",
+     "design": "systematic review of cytokines",
+     "result": "Findings inconclusive; cytokines would not serve as reliable biomarkers",
+     "url": "https://doi.org/10.1186/s12883-019-1433-0",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Would a prospective inception cohort (post-infection) reproduce the early signature and show it fading?",
+    "Does early immunomodulation change outcome - never tested"
+   ],
+   "hypotheses": [
+    "innate-hyperactivation",
+    "sickness-behaviour",
+    "immune-exhaustion"
+   ],
+   "test_available": "research only (multiplex cytokine panels are not clinically interpretable)"
+  },
+  {
+   "id": "immune-cytokine-severity",
+   "subdomain": "Cytokines",
+   "finding": "In the largest single cytokine study, 17 cytokines rose in step with disease severity although only TGF-beta (up) and resistin (down) differed between all patients and controls.",
+   "grade": "several",
+   "plain": "Comparing all patients with all controls shows almost nothing, but the sicker the patient, the higher a group of inflammatory signals.",
+   "detail": "Montoya 2017 (PNAS) measured 51 cytokines by Luminex in 192 ME/CFS patients and 392 healthy controls, regressing each on severity with covariates for age, sex, race and non-specific binding. On average only TGF-beta was elevated (p=0.0052) and resistin lower (p=0.0052). Seventeen cytokines showed significant upward linear trends with severity (CCL11, CXCL1, CXCL10, IFN-gamma, IL-4, IL-5, IL-7, IL-12p70, IL-13, IL-17F, leptin, G-CSF, GM-CSF, LIF, NGF, SCF, TGF-alpha), 13 of them pro-inflammatory; CXCL9 correlated inversely with fatigue duration. Caveats: severity is self-reported and correlates with inactivity, BMI and sleep; multiplex platforms have substantial non-specific binding (which this paper explicitly modelled, unlike most); and the TGF-beta result is now suspect on pre-analytic grounds (see immune-tgfbeta-artefact).",
+   "studies": [
+    {
+     "cite": "Montoya 2017, PNAS",
+     "n": "192 vs 392",
+     "design": "case-control, 51-plex Luminex with severity regression",
+     "result": "TGF-beta up, resistin down overall; 17 cytokines rising with severity",
+     "url": "https://doi.org/10.1073/pnas.1710519114",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Roerink 2017, PNAS (letter) and Roerink 2017, J Transl Med",
+     "n": "50 vs 48",
+     "design": "critique + independent case-control with 92-marker PEA",
+     "result": "Only IL-12p40 and CSF-1 raised; TGF-beta no different between patients and controls",
+     "url": "https://doi.org/10.1186/s12967-017-1371-9",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Are severity-cytokine gradients mediated by deconditioning, adiposity and sleep loss rather than disease?",
+    "Do any of the 17 track within-person symptom change?"
+   ],
+   "hypotheses": [
+    "innate-hyperactivation",
+    "sickness-behaviour",
+    "mast-cell"
+   ],
+   "test_available": "research only"
+  },
+  {
+   "id": "immune-cytokine-meta",
+   "subdomain": "Cytokines",
+   "finding": "Meta-analysis of 42 studies finds small but significant elevations of TNF, IL-2, IL-4, TGF-beta and CRP, with 12 other proteins showing no difference.",
+   "grade": "several",
+   "plain": "Pooling all the cytokine studies shows a little extra inflammation on average, but the effects are small and inconsistent, so no blood test comes out of it.",
+   "detail": "Strawbridge 2019 (Neurosci Biobehav Rev) meta-analysed 42 studies of circulating inflammatory proteins in CFS versus unaffected controls: TNF ES 0.274 (p<0.001), IL-2 0.203 (p=0.006), IL-4 0.373 (p=0.004), TGF-beta 0.967 (p<0.001), CRP 0.622 (p=0.019); 12 proteins did not differ. The authors conclude inflammation is unlikely to be a primary feature in all patients and that subgroups may exist. Blundell 2015 reviewed 38 papers and found elevated TGF-beta in 5 of 8 studies and no other consistent cytokine, with no case-control differences after exercise. Corbitt 2019 reached an explicitly inconclusive verdict. Independent support for low-grade inflammation comes from UK Biobank: Beentjes/Ponting 2025 found inflammation, insulin-resistance and liver markers shifted in both sexes among 1,455 cases vs 131,303 controls, not explained by inactivity, with small effect sizes.",
+   "studies": [
+    {
+     "cite": "Strawbridge 2019, Neuroscience & Biobehavioral Reviews",
+     "n": "42 studies",
+     "design": "systematic review and meta-analysis",
+     "result": "TNF, IL-2, IL-4, TGF-beta, CRP elevated (ES 0.20-0.97); 12 proteins null",
+     "url": "https://doi.org/10.1016/j.neubiorev.2019.08.011",
+     "verified": true
+    },
+    {
+     "cite": "Blundell 2015, Brain Behavior and Immunity",
+     "n": "38 papers, 77 cytokines",
+     "design": "systematic review",
+     "result": "Only TGF-beta consistently elevated (5/8 studies); no post-exercise differences",
+     "url": "https://doi.org/10.1016/j.bbi.2015.07.004",
+     "verified": true
+    },
+    {
+     "cite": "Beentjes/Ponting 2025, EMBO Molecular Medicine (via Solving ME/CFS re-analysis)",
+     "n": "1,455 cases vs 131,303 controls",
+     "design": "UK Biobank cross-sectional, 3,237 traits incl. 2,923 proteins",
+     "result": "116 traits differ in both sexes incl. inflammation markers; effects small; not explained by inactivity",
+     "url": "",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Corbitt 2019, BMC Neurology",
+     "n": "15 studies",
+     "design": "systematic review",
+     "result": "Inconclusive; cytokines not reliable biomarkers",
+     "url": "https://doi.org/10.1186/s12883-019-1433-0",
+     "verified": true
+    },
+    {
+     "cite": "Solving ME/CFS re-analysis (deep2/proteome)",
+     "n": "~150 cases/105 controls across 4 proteomic cohorts + UK Biobank",
+     "design": "harmonised meta-analysis",
+     "result": "Interferon proteins and most immune protein sets flat or inconsistent; no single protein replicates strongly",
+     "url": "",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Is there a genuinely inflamed subgroup identifiable prospectively, and does it respond differently to anything?"
+   ],
+   "hypotheses": [
+    "innate-hyperactivation",
+    "sickness-behaviour"
+   ],
+   "test_available": "CRP and ESR are routine but usually normal or only slightly raised; not diagnostic"
+  },
+  {
+   "id": "immune-tgfbeta-artefact",
+   "subdomain": "Cytokines",
+   "finding": "The most-replicated single cytokine finding, elevated TGF-beta, is largely a blood-handling artefact driven by platelet activation during centrifugation.",
+   "grade": "refuted",
+   "plain": "The one cytokine that kept showing up high turned out to depend on how fast the blood was spun, because platelets release it.",
+   "detail": "Roerink 2018 (Neth J Med) measured plasma TGF-beta1 in two female CFS cohorts (50 patients/48 controls; 90/29) with controls recruited by patients as age-matched acquaintances. Within each cohort there was no patient-control difference, but between cohorts values differed greatly, traced to the centrifuge g-force: the lower force (1361 g) produced more platelet activation and higher P-selectin and TGF-beta. This is the clearest documented pre-analytic trap in ME/CFS immunology and it retrospectively undercuts Blundell's 5-of-8 TGF-beta tally and Montoya 2017's overall TGF-beta elevation. Roerink 2017 (J Transl Med), using a 92-marker proximity extension assay in 50 patients vs 48 neighbourhood controls, found TGF-beta no different and only IL-12p40 and CSF-1 raised.",
+   "studies": [
+    {
+     "cite": "Roerink 2018, Netherlands Journal of Medicine",
+     "n": "50 vs 48 and 90 vs 29",
+     "design": "two case-control cohorts with pre-analytic comparison",
+     "result": "No within-cohort difference; between-cohort discrepancy explained by centrifuge g-force and platelet activation",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/30220655/",
+     "verified": true
+    },
+    {
+     "cite": "Roerink 2017, J Translational Medicine",
+     "n": "50 vs 48",
+     "design": "case-control, 92-marker PEA + ELISA, plus anakinra RCT samples",
+     "result": "IL-12p40 and CSF-1 higher; TGF-beta not different; anakinra had no effect on circulating cytokines other than IL-1Ra",
+     "url": "https://doi.org/10.1186/s12967-017-1371-9",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "open_questions": [
+    "How many other reported cytokine and proteomic differences are pre-analytic? (A parallel leak artefact was found in the Hoel/Fluge SomaScan serum data.)"
+   ],
+   "hypotheses": [
+    "innate-hyperactivation",
+    "microclots"
+   ],
+   "test_available": "Not indicated"
+  },
+  {
+   "id": "immune-il1-blockade",
+   "subdomain": "Cytokines",
+   "finding": "Blocking IL-1 with anakinra for four weeks did not improve fatigue in CFS, and did not change circulating cytokines beyond IL-1Ra itself.",
+   "grade": "refuted",
+   "plain": "A drug that blocks one of the main inflammation signals did not help, which argues against simple ongoing inflammation driving symptoms.",
+   "detail": "Roerink and colleagues ran a randomised placebo-controlled trial of daily anakinra 100 mg for four weeks in 50 severely fatigued female CFS patients (reported in Ann Intern Med 2017 and in the accompanying cytokine paper). After correction for multiple testing, anakinra had no effect on circulating cytokines other than IL-1Ra, and the trial did not produce clinical benefit. A companion endocrine analysis (Roerink 2018, Horm Behav) found a blunted cortisol awakening response in patients (4.2 vs 6.1 nmol/L, p=0.036) and a small anakinra effect on hair cortisol, indicating the drug was biologically active. The trial was short (4 weeks) and in a mostly moderate, female, Dutch cohort, so it cannot exclude benefit from longer or different immunomodulation.",
+   "studies": [
+    {
+     "cite": "Roerink 2017, Annals of Internal Medicine / J Transl Med (cytokine arm)",
+     "n": "50 randomised",
+     "design": "RCT, anakinra vs placebo, 4 weeks",
+     "result": "No clinical benefit; no cytokine change beyond IL-1Ra",
+     "url": "https://doi.org/10.1186/s12967-017-1371-9",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "open_questions": [
+    "Would IL-6 or TNF blockade, or a longer course, do anything? No adequately powered trial exists."
+   ],
+   "hypotheses": [
+    "innate-hyperactivation",
+    "sickness-behaviour"
+   ],
+   "test_available": "Not indicated"
+  },
+  {
+   "id": "immune-csf-cytokines",
+   "subdomain": "Cytokines",
+   "finding": "Cerebrospinal fluid cytokine profiles differ from controls with raised eotaxin (CCL11) and disturbed IL-1 signalling, but CSF studies are small and partly contradicted by later proteomics.",
+   "grade": "early",
+   "plain": "Spinal fluid from patients looks immunologically different from healthy people's, hinting at inflammation inside the nervous system. The studies are small.",
+   "detail": "Hornig 2015 (Mol Psychiatry) analysed CSF from 32 ME/CFS cases, 40 MS patients and 19 normal subjects with a 51-plex assay: raised CCL11 (eotaxin, an eosinophil chemokine) in cases and an inverse relationship between IL-1 receptor antagonist and CSF-1, CSF-2 and IL-17F without changes in IL-1 alpha or beta, interpreted as disturbed IL-1 signalling and a shift toward a Th2/allergic pattern. Peterson/Brenu 2015 found CSF cytokine differences in 18 patients. Against: a Solving ME/CFS re-analysis of NIH CSF proteomics found IL-17 proteins null in both serum and CSF, and neuronal injury markers (NEFL, GFAP) flat. Lumbar puncture cohorts are inevitably small and self-selected, and MS is an imperfect comparator.",
+   "studies": [
+    {
+     "cite": "Hornig 2015, Molecular Psychiatry",
+     "n": "32 cases vs 40 MS vs 19 normal",
+     "design": "case-control CSF 51-plex",
+     "result": "CCL11 raised; IL-1Ra vs CSF-1/CSF-2/IL-17F network inversion",
+     "url": "https://doi.org/10.1038/mp.2015.29",
+     "verified": true
+    },
+    {
+     "cite": "Peterson/Brenu 2015, Mediators of Inflammation",
+     "n": "18 patients",
+     "design": "pilot CSF cytokine study",
+     "result": "CSF cytokine differences reported",
+     "url": "https://doi.org/10.1155/2015/929720",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Solving ME/CFS re-analysis (deep2/proteome; NIH Walitt CSF)",
+     "n": "NIH CSF and serum",
+     "design": "re-analysis",
+     "result": "IL-17 proteins null in serum and CSF; neuronal injury markers flat",
+     "url": "",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Does CSF CCL11 replicate in an independent cohort with matched non-inflammatory controls?"
+   ],
+   "hypotheses": [
+    "neuroinflammation",
+    "mast-cell",
+    "sickness-behaviour"
+   ],
+   "test_available": "research only"
+  },
+  {
+   "id": "immune-innate-hyperreactivity",
+   "subdomain": "Innate immunity",
+   "finding": "Whole-blood immune responses to microbial antigens are exaggerated in ME/CFS and worsen after exercise, alongside complement activation and metabolic abnormalities.",
+   "grade": "early",
+   "plain": "When patients' blood cells are shown bits of bacteria, they over-react, and the over-reaction is worse the day after exercise.",
+   "detail": "Che, Lipkin and colleagues 2025 (npj Metabolic Health and Disease; medRxiv July 2025) studied 56 ME/CFS cases and 52 healthy controls recruited in New York and California with 47 matched pairs, combining plasma metabolomics, proteomics and immune responses to microbial stimulation before and 24 h after exercise. They report exaggerated innate responses to microbial antigens, complement activation, impaired TCA/beta-oxidation/urea-cycle energy production, disrupted extracellular-matrix homeostasis with release of pro-inflammatory endogenous ligands, reduced cell-cell adhesion with gut dysbiosis, copper-dependent redox disturbance and tryptophan-kynurenine dysregulation; many abnormalities worsened after exercise in patients but not controls and correlated with symptom intensity. This is a single-group study with very many readouts and no pre-registered primary endpoint; the stimulation assay is not standardised across labs. It is nonetheless one of the few designs that captures a post-exertional immune change at all.",
+   "studies": [
+    {
+     "cite": "Che/Lipkin 2025, npj Metabolic Health and Disease",
+     "n": "56 vs 52 (47 matched pairs)",
+     "design": "case-control multi-omics with exercise challenge and ex vivo microbial stimulation",
+     "result": "Exaggerated innate response to microbial antigens, complement activation, energy-pathway and ECM abnormalities; worse post-exercise and correlated with symptoms",
+     "url": "https://doi.org/10.1038/s44324-025-00079-w",
+     "verified": true
+    },
+    {
+     "cite": "Raijmakers 2019, Journal of Infection (Q fever fatigue syndrome)",
+     "n": "20 QFS, 19 CFS, 19 seropositive controls, 25 HC",
+     "design": "case-control ex vivo stimulation",
+     "result": "QFS PBMCs produced more IL-6, TNF-alpha and IL-1beta on Coxiella antigen stimulation; higher circulating IL-6 and IFN-gamma",
+     "url": "https://doi.org/10.1016/j.jinf.2019.01.006",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Solving ME/CFS re-analysis (deep2/proteome; Germain 2-day CPET)",
+     "n": "SomaScan, 2-day CPET",
+     "design": "re-analysis",
+     "result": "Nothing changes differently after exercise at FDR in the plasma proteome (0 FDR hits)",
+     "url": "",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Does the stimulation hyper-response replicate in an independent lab with blinded samples?",
+    "Is it a property of monocytes, of plasma factors, or of both?",
+    "Can it be used as a PEM readout?"
+   ],
+   "hypotheses": [
+    "innate-hyperactivation",
+    "complement-thromboinflammation",
+    "gut-dysbiosis",
+    "cell-danger-response"
+   ],
+   "test_available": "research only"
+  },
+  {
+   "id": "immune-monocytes-platelets",
+   "subdomain": "Innate immunity",
+   "finding": "Single-cell transcriptomics showed classical-monocyte dysregulation at baseline and platelet-activation signatures after exercise, but a re-analysis of the same data found no reproducible composition or expression differences.",
+   "grade": "contested",
+   "plain": "One study found patients' monocytes looked abnormal, and platelets reacted oddly to exercise. Reworking the same data did not confirm it.",
+   "detail": "Vu 2024 (Cell Rep Med) applied scRNA-seq to PBMCs from patients and controls at baseline and after exercise, reporting classical-monocyte dysregulation suggestive of inappropriate differentiation and tissue migration, with the fraction of 'diseased' monocytes correlating with severity, and post-exercise patterns indicating improper platelet activation with minimal change elsewhere. A Solving ME/CFS re-analysis of the same public dataset (GSE214283; 30 vs 28, 503,739 cells) with CellTypist majority voting and person-level pseudobulk found no composition differences at baseline (lowest q=0.41) or in the exercise change, and 0 genes at q<0.05 at baseline across 15 cell types (only NDUFA10 in non-classical monocytes in the 24 h change, q=0.037); platelet-RNA+ monocyte scores were null. There is no independent ME/CFS PBMC scRNA dataset from another group, which is the central problem. Older monocyte claims (Prieto 1989, naloxone-reversible monocyte dysfunction) were never replicated.",
+   "studies": [
+    {
+     "cite": "Vu 2024, Cell Reports Medicine",
+     "n": "case-control, paired pre/post exercise",
+     "design": "scRNA-seq of PBMCs",
+     "result": "Classical-monocyte dysregulation correlating with severity; post-exercise platelet activation signature",
+     "url": "https://doi.org/10.1016/j.xcrm.2023.101373",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Solving ME/CFS re-analysis (deep2/singlecell_methyl, GSE214283)",
+     "n": "30 vs 28, 503,739 PBMCs",
+     "design": "independent re-analysis",
+     "result": "No composition difference (lowest q=0.41); 0 DE genes at q<0.05 at baseline in 15 cell types; platelet+ monocyte score null",
+     "url": "",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Does any group outside Cornell have ME/CFS single-cell blood data to test this?",
+    "Are monocyte findings driven by handling time and cell isolation?"
+   ],
+   "hypotheses": [
+    "innate-hyperactivation",
+    "microclots",
+    "complement-thromboinflammation"
+   ],
+   "test_available": "research only"
+  },
+  {
+   "id": "immune-cfrna",
+   "subdomain": "Cell-free RNA",
+   "finding": "Plasma cell-free RNA carries an immune-weighted ME/CFS signature that classifies cases with held-out AUC 0.81, with raised plasmacytoid-dendritic, monocyte and T-cell-derived transcripts.",
+   "grade": "early",
+   "plain": "Fragments of RNA floating in blood plasma, mostly from immune cells, differ enough between patients and controls to build a reasonably accurate classifier.",
+   "detail": "Gardella 2025 (PNAS) sequenced plasma cfRNA in 93 ME/CFS cases and 75 healthy sedentary controls. A LASSO generalised linear model trained on condition-specific signatures reached test-set AUC 0.81 and accuracy 77%. Deconvolution showed differences in platelet-derived cfRNA and elevated plasmacytoid dendritic, monocyte and T-cell-derived cfRNA; network analysis implicated cytokine signalling and T-cell exhaustion, converging with Iu 2024. Caveats: single cohort with internal hold-out rather than external validation; sedentary controls help but do not remove deconditioning confounding; cfRNA is sensitive to pre-analytic handling. A separate LLM-benchmarking paper using the same cohort (Gaudio 2026, Nat Commun) confirms the ME/CFS cohort is the hardest of three to classify, which is a useful calibration on effect size.",
+   "studies": [
+    {
+     "cite": "Gardella 2025, PNAS",
+     "n": "93 vs 75",
+     "design": "case-control cfRNA sequencing with machine learning",
+     "result": "Held-out AUC 0.81, accuracy 77%; raised pDC, monocyte and T-cell cfRNA; cytokine-signalling and exhaustion networks",
+     "url": "https://doi.org/10.1073/pnas.2507345122",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Solving ME/CFS re-analysis (downloads)",
+     "n": "5 blood RNA cohorts + cfRNA + SomaScan",
+     "design": "re-analysis",
+     "result": "No gene set passes FDR in blood gene expression; interferon slightly up in all 5 (meta p=0.12)",
+     "url": "",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Does the classifier hold in an independent cohort and against other fatiguing illnesses?",
+    "Does the cfRNA signature move with PEM or treatment?"
+   ],
+   "hypotheses": [
+    "immune-exhaustion",
+    "innate-hyperactivation"
+   ],
+   "test_available": "research only"
+  },
+  {
+   "id": "immune-gpcr-autoantibodies",
+   "subdomain": "Autoantibodies",
+   "finding": "Elevated IgG against beta2-adrenergic and M3/M4 muscarinic receptors, reported in about 30% of patients by ELISA, is not reproduced by unbiased high-throughput antigen profiling.",
+   "grade": "refuted",
+   "plain": "A commercial antibody test suggested many patients have antibodies against nerve-signal receptors. When measured with better, unbiased methods, the difference disappears.",
+   "detail": "Loebel 2015 (Brain Behav Immun) tested a Berlin cohort (n=268) plus pre/post samples from 25 rituximab-trial patients against a panel of GPCRs by ELISA versus 108 healthy controls: beta2, M3 and M4 antibodies significantly elevated, 29.5% of patients above threshold, correlating with IgG1-3 subclass levels and with activated HLA-DR+ T cells, TPO and ANA positivity; in rituximab responders with prolonged B-cell depletion beta2 and M4 antibodies fell, in non-responders they did not. Bynke 2020 partially validated this in two Swedish cohorts (M3 and M4 in both, beta1/beta2 in one; n=24+24 vs 24) with no correlation to severity and nothing detectable in CSF. The decisive negative is Germain, Jaycox, Ring and Hanson 2025 (IJMS 26:2799): 7,542 antibody-antigen interactions across 172 participants using REAP (6,183 extracellular human proteins, 225 viral antigens) and a 1,134-plex Luminex panel found no significant difference in any autoantibody reactivity, including beta-adrenergic receptors (no q below 0.68), with ADRB2, ADRA1A and GRK2 specifically not elevated. In POTS the same conclusion was reached with standard methodology: Hall 2022 (Circulation) found no difference across 11 receptors in 116 POTS vs 81 controls, with 98.3% of patients and 100% of controls above the manufacturer's alpha1 seropositivity threshold, i.e. the commercial cut-offs are not meaningful.",
+   "studies": [
+    {
+     "cite": "Loebel 2015, Brain Behavior and Immunity",
+     "n": "268 patients vs 108 controls (+25 trial patients)",
+     "design": "case-control ELISA panel",
+     "result": "beta2, M3, M4 IgG elevated; 29.5% above threshold; fell in rituximab responders only",
+     "url": "https://doi.org/10.1016/j.bbi.2015.09.013",
+     "verified": true
+    },
+    {
+     "cite": "Bynke 2020, Brain Behav Immun Health",
+     "n": "48 patients vs 24 controls (CSF in 24/6)",
+     "design": "two-cohort validation, plasma and CSF ELISA",
+     "result": "M3 and M4 raised in both cohorts, beta1/beta2 in one; no correlation with severity; nothing in CSF",
+     "url": "https://doi.org/10.1016/j.bbih.2020.100107",
+     "verified": true
+    },
+    {
+     "cite": "Azcue 2026, Sci Rep",
+     "n": "ME/CFS",
+     "design": "GPCR-AAb",
+     "result": "Beta-2 adrenergic autoantibody titres higher in ME/CFS than PCC and controls and correlated with sympathovagal imbalance; differences small (p=0.046)",
+     "url": "https://doi.org/10.1038/s41598-026-49131-9",
+     "verified": true
+    },
+    {
+     "cite": "Schmitz 2026, J Allergy Clin Immunol",
+     "n": "ME/CFS/LC",
+     "design": "GPCR-AAb",
+     "result": "GPCR autoantibodies (AT1/2R, beta1/2, M1/M3, CXCR3) associated with HRV changes in PCS; cardiomyocyte effects tested in vitro",
+     "url": "https://doi.org/10.1016/j.jaci.2025.10.034",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Germain, Jaycox, Ring & Hanson 2025, IJMS",
+     "n": "172 participants (164 REAP, 103 Luminex)",
+     "design": "case-control unbiased antigen profiling (REAP + 1,134-plex)",
+     "result": "No autoantibody reactivity differed; no q below 0.68; ADRB2/ADRA1A/GRK2 not elevated; incidental higher EBV gp42 reactivity",
+     "url": "https://doi.org/10.3390/ijms26062799",
+     "verified": true
+    },
+    {
+     "cite": "Hall 2022, Circulation (POTS)",
+     "n": "116 POTS vs 81 HC",
+     "design": "case-control, commercial ELISA, standard methodology",
+     "result": "No difference for any of 11 receptors; ROC poor; manufacturer thresholds met by essentially everyone",
+     "url": "https://doi.org/10.1161/CIRCULATIONAHA.122.059971",
+     "verified": true
+    },
+    {
+     "cite": "Han 2025, Biomolecules",
+     "n": "ME/CFS",
+     "design": "GPCR-AAb",
+     "result": "no difference",
+     "url": "https://doi.org/10.3390/biom15020300",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Could functional (bioassay) activity exist without differential binding, as the Wallukat-type cardiomyocyte assays claim? Those assays have never been blinded across labs.",
+    "Is the ELISA signal an artefact of IgG concentration or non-specific binding (it correlated with total IgG1-3)?"
+   ],
+   "hypotheses": [
+    "autoimmunity",
+    "vascular-endothelial",
+    "autonomic-small-fibre"
+   ],
+   "test_available": "CellTrend GPCR antibody panels are purchasable privately; the evidence does not support using them for diagnosis or treatment decisions"
+  },
+  {
+   "id": "immune-immunoadsorption",
+   "subdomain": "Autoantibodies",
+   "finding": "Removing autoantibodies by immunoadsorption helps in open-label cohorts but fails against sham control, and antibody removal does not predict who improves.",
+   "grade": "refuted",
+   "plain": "Filtering antibodies out of the blood made patients feel better in studies without a comparison group, and did nothing once a fake treatment was used for comparison.",
+   "detail": "Open-label positives: Scheibenbogen 2018 (10 patients, 5 sessions, beta2-selected) and Stein 2024 (Lancet Reg Health Eur; 20 post-COVID ME/CFS with elevated beta2-AR antibodies; total IgG down 79%, beta2 antibodies down 77%, mean SF-36 PF +17.75, 14/20 responders at six months). The controlled trials are negative: IAMPOCO (Stortz 2026, Lancet Reg Health Eur) randomised 40 post-COVID patients in a patient-blinded sham-controlled crossover - no difference in symptom severity (Post-COVID Functional Scale OR 1.17, 95% CI 0.41-3.36, p=0.771; MFI-20 difference 2.4, p=0.437; Chalder 0.09, p=0.970; Bell -2.6, p=0.246; MoCA -0.01, p=0.993; handgrip 1.3, p=0.234), with more adverse events on immunoadsorption (24 vs 10), and GPCR antibodies depleted by immunoadsorption but not sham - i.e. the mechanism worked and the patients did not improve. IA-PACS-CFS (Charite, NCT05710770, 65 randomised 2:1) also failed its primary endpoint per conference report; the paper is not yet published. Wossidlo 2026 (Infection; 18 patients) found significant antibody reduction, return to baseline within 3-6 months, no improvement in objective performance, only slight self-reported pain/fatigue change and no correlation between antibody change and symptoms. Anft 2025 (Mol Ther; 12 patients) found antibody and cytokine reduction with improved neuropsychological testing and handgrip but no improvement in self-reported symptoms or ME/CFS questionnaires, and rebound within a month.",
+   "studies": [
+    {
+     "cite": "Stortz 2026 (IAMPOCO), Lancet Regional Health Europe",
+     "n": "40",
+     "design": "randomised patient-blinded sham-controlled crossover",
+     "result": "No difference on any endpoint; antibodies depleted by IA not sham; more AEs on IA",
+     "url": "https://doi.org/10.1016/j.lanepe.2026.101744",
+     "verified": true
+    },
+    {
+     "cite": "Wossidlo 2026, Infection",
+     "n": "18",
+     "design": "prospective exploratory, 5 sessions",
+     "result": "Antibodies fell then rebounded; no improvement in objective performance; no antibody-symptom correlation",
+     "url": "https://doi.org/10.1007/s15010-026-02914-8",
+     "verified": true
+    },
+    {
+     "cite": "Anft 2025, Molecular Therapy",
+     "n": "12",
+     "design": "observational, pre/post",
+     "result": "Antibodies and pro-inflammatory cytokines fell, cognition and handgrip improved; questionnaires did not; rebound within a month",
+     "url": "https://doi.org/10.1016/j.ymthe.2025.01.007",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Stein 2024, Lancet Regional Health Europe",
+     "n": "20 (open-label)",
+     "design": "prospective pre-post cohort",
+     "result": "70% responders; SF-36 PF +17.75 sustained to 6 months",
+     "url": "https://doi.org/10.1016/j.lanepe.2024.101161",
+     "verified": true
+    },
+    {
+     "cite": "Scheibenbogen 2018, PLOS ONE",
+     "n": "10 (open-label)",
+     "design": "uncontrolled pilot",
+     "result": "Symptom improvement after 5 days of IgG-binding-column IA",
+     "url": "https://doi.org/10.1371/journal.pone.0193672",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Is any benefit in open-label apheresis due to volume/haemodynamic effects rather than antibody removal?",
+    "Would a longer or repeated-cycle regimen beat sham (IAMPOCO was a single crossover)?"
+   ],
+   "hypotheses": [
+    "autoimmunity",
+    "low-blood-volume-preload"
+   ],
+   "test_available": "Offered privately in some clinics; controlled evidence is negative"
+  },
+  {
+   "id": "immune-bc007",
+   "subdomain": "Autoantibodies",
+   "finding": "BC007 (rovunaptabin), an aptamer that neutralises GPCR autoantibodies, showed secondary-endpoint fatigue improvement in a 30-patient exploratory trial but failed in the larger company-run phase II.",
+   "grade": "contested",
+   "plain": "A drug designed to mop up the suspect antibodies looked promising in a tiny trial and failed in the bigger one. The company ran out of money.",
+   "detail": "reCOVer (Hohberger 2025, eClinicalMedicine; EudraCT 2022-001781-35) was a prospective exploratory placebo-controlled double-blind randomised phase IIa trial with crossover at Erlangen: 30 post-COVID patients with GPCR functional autoantibodies and fatigue as major symptom, 1350 mg rovunaptabin or placebo at day 0 and day 48. Primary endpoint was safety (9 vs 5 treatment-emergent adverse events, p=0.13). Secondary endpoints improved: FACIT-Fatigue effect size 2.10 (p=0.0378), Bell score 3.64 (p=0.0004), Fatigue Severity Scale -2.66 (p=0.0088), and 4 of 8 quality-of-life items, with confirmed neutralisation of the autoantibodies. However the separately run Berlin Cures phase II (BLOC, NCT05911009; about 114 participants across 19 European centres, results announced November 2024) reported the drug well tolerated but with no superiority over placebo; the company subsequently halted work for lack of funds and the full data are not published. A 30-patient crossover trial with safety as its primary endpoint and multiple positive secondary endpoints is weak evidence against a failed larger trial.",
+   "studies": [
+    {
+     "cite": "Hohberger 2025 (reCOVer), eClinicalMedicine",
+     "n": "30 randomised",
+     "design": "exploratory placebo-controlled double-blind RCT with crossover",
+     "result": "Safety primary endpoint met; FACIT-F, Bell, FSS improved as secondary endpoints; antibodies neutralised",
+     "url": "https://doi.org/10.1016/j.eclinm.2025.103358",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Berlin Cures BLOC phase II (NCT05911009), company announcement November 2024",
+     "n": "~114 across 19 centres",
+     "design": "double-blind placebo-controlled phase II",
+     "result": "Well tolerated, no superiority over placebo; data unpublished; company halted development",
+     "url": "https://clinicaltrials.gov/study/NCT05911009",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Will the BLOC data ever be published, and was the placebo response inflated?",
+    "Does any patient subgroup defined by functional (not binding) autoantibody activity respond?"
+   ],
+   "hypotheses": [
+    "autoimmunity",
+    "vascular-endothelial"
+   ],
+   "test_available": "Not available (development halted)"
+  },
+  {
+   "id": "immune-igg-transfer-mice",
+   "subdomain": "Autoantibodies",
+   "finding": "IgG from long COVID patients transfers pain, fatigue-like behaviour and small-fibre nerve damage to mice in three independent 2026 studies; no equivalent published ME/CFS transfer experiment exists.",
+   "grade": "several",
+   "plain": "Inject antibodies from long COVID patients into mice and the mice become more pain-sensitive and less active, which is strong evidence those antibodies do something. Nobody has published the same experiment with ME/CFS antibodies.",
+   "detail": "Chen, Appelman and colleagues 2026 (Cell Rep Med) transferred pooled total IgG from 34 WHO-defined long COVID patients (31 analysed; 15 post-infection asymptomatic controls) into C57BL/6 mice at 260 mg/kg (about one third of the mouse's circulating IgG), 8 mice per group, stratified into three subgroups by plasma GFAP, NFL and interferon-beta: pronounced and persistent mechanical hypersensitivity, reproduced by IgG drawn from the same still-symptomatic patients two years later, with subgroup-linked autoreactivities validated by independent assays. De Sa, Iwasaki and colleagues 2026 (Cell) found CNS- and PNS-reactive autoantibodies correlating with neurological symptoms, IgG reacting with human locus coeruleus, thalamus, adrenal and thyroid and cross-reacting with mouse sciatic nerve and meninges, and passive transfer inducing fatigue-like behaviour, loss of balance, thermal hyperalgesia, small-fibre nerve damage and increased pain-related neuronal activity. Mignolet 2026 (Acta Neuropathologica) transferred IgG from neurological long COVID patients into mice: transient mechanical allodynia and thermal hypersensitivity in week 1 with no anxiety, depression or memory effect; abolished by IgG-depleted serum or papain-digested IgG; IgG accumulated in lumbar dorsal root ganglia colocalising with proprioceptive and nociceptive neurons without local neuroinflammation. These are the template experiments from the fibromyalgia field (Goebel 2021, JCI). The honest caveats: pooled IgG at high dose, pain readouts dominate, the fatigue-like readouts are indirect, and none of this is ME/CFS.",
+   "studies": [
+    {
+     "cite": "Chen 2026, Cell Reports Medicine",
+     "n": "31 LC patients, 15 HC; 8 mice/group",
+     "design": "passive IgG transfer to mice + proteome-wide autoantibody profiling",
+     "result": "Persistent mechanical hypersensitivity; reproduced with IgG taken 2 years later",
+     "url": "https://doi.org/10.1016/j.xcrm.2026.102693",
+     "verified": true
+    },
+    {
+     "cite": "de Sa / Iwasaki 2026, Cell",
+     "n": "LC cohort + mouse transfer",
+     "design": "autoantibody mapping + passive transfer",
+     "result": "Fatigue-like behaviour, balance loss, thermal hyperalgesia, small-fibre damage; IgG binds locus coeruleus, thalamus, sciatic nerve, meninges",
+     "url": "https://doi.org/10.1016/j.cell.2026.04.042",
+     "verified": true
+    },
+    {
+     "cite": "Mignolet 2026, Acta Neuropathologica",
+     "n": "neurological LC vs asymptomatic matched controls; C57Bl6/J mice",
+     "design": "passive IgG transfer, 4 daily i.p. injections",
+     "result": "Transient allodynia and thermal hypersensitivity; abolished by IgG depletion or papain digestion; IgG in lumbar DRG",
+     "url": "https://doi.org/10.1007/s00401-026-03019-0",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Mignolet 2026, Acta Neuropathologica",
+     "n": "as above",
+     "design": "passive transfer",
+     "result": "No effect on anxiety, depression or spatial memory, and no local neuroinflammation - so the 'brain fog' part does not transfer",
+     "url": "https://doi.org/10.1007/s00401-026-03019-0",
+     "verified": true
+    },
+    {
+     "cite": "Stortz 2026 (IAMPOCO), Lancet Reg Health Eur",
+     "n": "40",
+     "design": "sham-controlled crossover",
+     "result": "Removing IgG from patients did not improve symptoms - hard to reconcile with a sufficient pathogenic-IgG model",
+     "url": "https://doi.org/10.1016/j.lanepe.2026.101744",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Does ME/CFS IgG (non-COVID onset) transfer anything to mice? Presented at conferences, not published.",
+    "Why do mouse transfer experiments work while antibody removal in patients does not? Tissue-bound antibody, long-lived plasma cells, or irreversible downstream damage?",
+    "Which antigens matter - the studies disagree on targets."
+   ],
+   "hypotheses": [
+    "autoimmunity",
+    "autonomic-small-fibre",
+    "serum-factor"
+   ],
+   "test_available": "research only"
+  },
+  {
+   "id": "immune-igg-endothelial",
+   "subdomain": "Autoantibodies",
+   "finding": "Purified IgG from ME/CFS patients fragments mitochondria and shifts energetics in human endothelial cells, an effect absent with multiple-sclerosis and healthy IgG and lost on Fab/Fc cleavage.",
+   "grade": "early",
+   "plain": "Patient antibodies damage the energy machinery of blood-vessel cells in a dish; antibodies from healthy people and from MS patients do not.",
+   "detail": "Liu, Hollmann, Prusty and colleagues (medRxiv Aug 2025; Brain Behav Immun Health Feb 2026, 101187) isolated immunoglobulin complexes by protein G from 106 individuals: 39 ME/CFS, 15 post-COVID ME/CFS, 20 MS disease controls and 41 healthy controls, applied them to HUVEC endothelial cells, fibroblasts and PBMCs, and assayed mitochondrial morphology by confocal microscopy and energetics by Seahorse. Endothelial mitochondrial fragmentation occurred with female ME/CFS IgG (p=0.0018 vs controls) with increased spare respiratory capacity and raised IL-1beta (p=0.046), and no effect from MS or healthy IgG; the effect was lost on cleaving IgG into Fab and Fc, with the Fab fragment reproducing the energetic change and Fc alone inducing a hypometabolic phenotype; mass spectrometry found excess extracellular-matrix proteins and SPEG in the immune complexes. Authors' own limits: large inter-plate Seahorse variability forcing split experiments, IgM not captured, unexplained sex difference, autoantigen array arm only 12 vs 3, and nominal p-values across many readouts. Single lab, no independent replication. The same group previously reported ME/CFS serum fragmenting mitochondria in cell lines (Schreiner 2020, ImmunoHorizons, n=10). Context matters: the headline serum-factor claim in muscle cells failed a well-powered replication (Ryback 2026, 67 vs 53, maximal respiration +2.50 pmol/min, 95% CI -1.62 to 6.62, p=0.23).",
+   "studies": [
+    {
+     "cite": "Liu / Prusty 2026, Brain Behavior & Immunity - Health",
+     "n": "39 ME/CFS, 15 PCS-CFS, 20 MS, 41 HC",
+     "design": "in vitro IgG application to endothelial cells with disease control",
+     "result": "Mitochondrial fragmentation with female ME/CFS IgG (p=0.0018); IL-1beta up; effect lost on Fab/Fc cleavage",
+     "url": "https://doi.org/10.1016/j.bbih.2026.101187",
+     "verified": true
+    },
+    {
+     "cite": "Hackel / Sotzny 2025, medRxiv",
+     "n": "post-COVID with and without ME/CFS",
+     "design": "IgG fractions applied to monocyte cell lines",
+     "result": "Distinct patient-IgG-induced cytokine responses, differing between post-COVID with and without ME/CFS",
+     "url": "https://doi.org/10.1101/2025.01.09.25320264",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Ryback 2026, PLOS ONE (via Solving ME/CFS re-analysis serum-check)",
+     "n": "67 ME vs 53 HC",
+     "design": "preregistered blinded serum-exposure replication in myoblasts",
+     "result": "Maximal respiration +2.50 pmol/min (95% CI -1.62 to 6.62), p=0.23; all secondary endpoints null; CI excludes Fluge's d=1.32",
+     "url": "https://doi.org/10.1371/journal.pone.0341334",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Can another lab reproduce the IgG endothelial assay blind, with a detection-floor spike-in control?",
+    "Is the signal driven by IgG specificity or by glycosylation/immune-complex composition?",
+    "Does the effect size track patient severity or PEM state?"
+   ],
+   "hypotheses": [
+    "autoimmunity",
+    "serum-factor",
+    "vascular-endothelial",
+    "mitochondrial-energy"
+   ],
+   "test_available": "research only"
+  },
+  {
+   "id": "immune-igg-subclass",
+   "subdomain": "Humoral deficiency",
+   "finding": "A sizeable minority of ME/CFS patients have IgG subclass or mannose-binding-lectin deficiency, with IgG3 and IgG4 the commonest phenotypes, and registry data show strong enrichment of coded antibody deficiency.",
+   "grade": "several",
+   "plain": "Some patients are mildly short of particular antibody types, which fits a history of frequent infections. Others have the opposite, with raised antibody levels.",
+   "detail": "Guenther 2015 (Hum Immunol) retrospectively analysed 300 CFS patients: 25% had decreased levels of at least one antibody class or subclass, IgG3 and IgG4 deficiency commonest, while another 25% had elevated immunoglobulins with excess IgM and IgG2; MBL deficiency in 15% versus 6% in a historical control group; similar frequencies in a second cohort of 168. Lutz 2021 (Biomolecules) found in 262 Austrian patients that 64.9% had a reduction or deficiency in at least one immune parameter and 26.3% showed activation or inflammation, with 17.6% having unclassified antibody deficiency (IgG3/IgG4 most common) and MBL reduced in 32%, deficient in 7%. Finnish national registry data (FinnGen/FinRegistry via Risteys, as used in the Solving ME/CFS re-analysis) show postviral fatigue syndrome enriched for coded IgG subclass antibody deficiency by 20-90x observed/expected, alongside EDS/hypermobility (about 100x) - but healthcare-use bias inflates such registry enrichments, and the published literature on immunoglobulins in ME/CFS is explicitly contradictory (12 studies for, 7 against in that review tally). Both clinic series lack contemporaneous matched controls.",
+   "studies": [
+    {
+     "cite": "Guenther 2015, Human Immunology",
+     "n": "300 + 168 patients",
+     "design": "retrospective clinic series vs historical controls",
+     "result": "25% with reduced class/subclass (IgG3, IgG4 commonest); 25% elevated; MBL deficiency 15% vs 6%",
+     "url": "https://doi.org/10.1016/j.humimm.2015.09.028",
+     "verified": true
+    },
+    {
+     "cite": "Lutz 2021, Biomolecules",
+     "n": "262 patients",
+     "design": "retrospective clinic series",
+     "result": "64.9% with at least one reduced immune parameter; 17.6% unclassified antibody deficiency; MBL reduced in 32%",
+     "url": "https://doi.org/10.3390/biom11091359",
+     "verified": true
+    },
+    {
+     "cite": "Solving ME/CFS re-analysis (deep2/epi_literature, FinnGen/FinRegistry)",
+     "n": "~1,622 FinRegistry / 348 FinnGen postviral fatigue cases",
+     "design": "registry enrichment",
+     "result": "IgG subclass antibody deficiency O/E 44 [87]; crude and healthcare-use inflated; literature contradictory",
+     "url": "",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Solving ME/CFS re-analysis (deep2/epi_literature literature tally)",
+     "n": "19 studies",
+     "design": "literature contradiction count",
+     "result": "Immunoglobulins/IgG subclasses contradictory across studies (12 for / 7 against)",
+     "url": "",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Does the deficient subgroup differ clinically (infection frequency, severity, onset)?",
+    "Is MBL deficiency anything more than a common population variant here?",
+    "Does immunoglobulin replacement help the deficient subgroup? Old IVIG trials were small and conflicting; iSTAND in autoimmune POTS (n=30) was negative with both arms improving."
+   ],
+   "hypotheses": [
+    "autoimmunity",
+    "viral-persistence",
+    "connective-tissue"
+   ],
+   "test_available": "Clinical: total IgG/IgA/IgM plus IgG1-4 subclasses; MBL is available in some centres. Cheap and interpretable by an immunologist."
+  },
+  {
+   "id": "immune-mast-cell",
+   "subdomain": "Mast cells",
+   "finding": "Clinically relevant mast cell activation is reported in up to a quarter of ME/CFS patients, associates with orthostatic intolerance and POTS, and those patients report more benefit from mast-cell-directed treatment.",
+   "grade": "early",
+   "plain": "A quarter of patients have symptoms of over-reactive mast cells (flushing, rashes, food and smell sensitivity), and those patients more often have the fast-heart-rate-on-standing problem.",
+   "detail": "Rohrhofer 2025 (Diagnostics) analysed an Austrian patient-centred survey (687 completed) plus a retrospective clinical cohort (383 patients): mast cell activation prevalence rose over the disease course, up to 25.3% meeting criteria for clinically relevant MCA, and patients with MCAS plus orthostatic intolerance reported symptom alleviation after mast-cell-targeted treatment significantly more often than those without MCAS, while beta-blocker response did not differ (p=0.637); MCA involvement was significantly associated with orthostatic intolerance, especially POTS. Laboratory-level work is thin and small: Nguyen 2017 and Balinas 2018 (both Marshall-Gradisnik group, n=11-18) characterised mast cell progenitor phenotypes and TLR3 responses in PBMCs. There is no replicated serum tryptase or urinary mediator finding in ME/CFS, criteria for MCAS are themselves contested, and self-reported treatment response is not a controlled outcome. One small retrospective case series of continuous high-dose oral cromolyn in ME/CFS with MCAS (5 patients) reported benefit.",
+   "studies": [
+    {
+     "cite": "Rohrhofer 2025, Diagnostics",
+     "n": "687 survey + 383 retrospective",
+     "design": "survey plus retrospective clinical cohort",
+     "result": "Up to 25.3% clinically relevant MCA; associated with OI/POTS; better reported response to mast-cell-directed treatment",
+     "url": "https://doi.org/10.3390/diagnostics15222828",
+     "verified": true
+    },
+    {
+     "cite": "Nguyen 2017, Asian Pac J Allergy Immunol",
+     "n": "18 patients vs 13 HC",
+     "design": "flow cytometry of PBMC mast cell phenotypes",
+     "result": "Altered mast cell phenotypes and RAGE/HMGB1 expression",
+     "url": "https://doi.org/10.12932/AP0771",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Solving ME/CFS re-analysis (deep2/proteome)",
+     "n": "4 blood protein cohorts + UK Biobank",
+     "design": "harmonised proteomic meta-analysis",
+     "result": "No replicated mast-cell or allergic protein signature; immune protein sets flat or inconsistent",
+     "url": "",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Do objective mediator measures (serum tryptase, urinary N-methylhistamine, prostaglandin D2) differ in the MCA subgroup?",
+    "Is MCA cause, consequence, or a parallel diagnosis of the same autonomic phenotype?",
+    "Does a controlled trial of mast-cell stabilisers help ME/CFS with OI?"
+   ],
+   "hypotheses": [
+    "mast-cell",
+    "autonomic-small-fibre",
+    "innate-hyperactivation"
+   ],
+   "test_available": "Clinical: serum tryptase (baseline and during a flare), urinary mediators in specialist centres; antihistamine/cromolyn trials are low-risk"
+  },
+  {
+   "id": "immune-interferon-alpha-model",
+   "subdomain": "Sickness behaviour",
+   "finding": "In the interferon-alpha fatigue model, higher baseline IL-6 and IL-10 and a larger early cytokine and fatigue surge predict fatigue that persists after the immune trigger is gone.",
+   "grade": "early",
+   "plain": "Giving people interferon as hepatitis treatment causes fatigue; in a third it does not go away afterwards. Those people had a more reactive immune system before treatment started.",
+   "detail": "Russell 2019 (Psychoneuroendocrinology) followed 55 patients on interferon-alpha for chronic hepatitis C at baseline, during 6-12 months of treatment, and six months after, comparing with 54 CFS patients and 57 healthy volunteers. Eighteen (33%) had persistent fatigue (higher six months post-treatment than baseline). Those who went on to persistent fatigue had a greater fatigue increase in the first four weeks (7.1 +/- 1.5 vs 4.0 +/- 0.8, p=0.046), a trend to higher baseline IL-6, significantly higher baseline IL-10, and larger treatment-induced rises in both (more than doubled by week 4 relative to the others: p=0.011 for IL-6, p=0.001 for IL-10). This is the only human design that measures the immune system before the trigger. Limits: iatrogenic cytokine exposure is not a natural infection, HCV patients differ in many ways, n=18 in the key group, and the model's cytokine differences did not persist to follow-up. It sits alongside the acute sickness-behaviour literature (Capuron 2002: neurovegetative symptoms including fatigue appear within two weeks of interferon-alpha and are less paroxetine-responsive than mood symptoms).",
+   "studies": [
+    {
+     "cite": "Russell 2019, Psychoneuroendocrinology",
+     "n": "55 HCV patients (18 persistent fatigue) + 54 CFS + 57 HV",
+     "design": "prospective pre/during/post immune-trigger cohort",
+     "result": "Higher baseline IL-10 (and trend IL-6), larger week-4 cytokine and fatigue surge in those with persistent fatigue",
+     "url": "https://doi.org/10.1016/j.psyneuen.2018.11.032",
+     "verified": true
+    },
+    {
+     "cite": "Capuron 2002, Neuropsychopharmacology",
+     "n": "40 melanoma patients",
+     "design": "randomised paroxetine vs placebo during IFN-alpha",
+     "result": "Neurovegetative symptoms (anorexia, fatigue, pain) appear within 2 weeks; mood/cognitive symptoms appear later and are the paroxetine-responsive ones",
+     "url": "https://doi.org/10.1016/S0893-133X(01)00407-9",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "open_questions": [
+    "Does a pre-trigger immune profile predict ME/CFS after natural infection (needs a large inception cohort with stored baseline samples)?",
+    "Is the persistent-fatigue state after interferon biologically the same as ME/CFS, or only phenotypically similar?"
+   ],
+   "hypotheses": [
+    "sickness-behaviour",
+    "innate-hyperactivation",
+    "metabolic-trap-ido"
+   ],
+   "test_available": "research only (prospective design)"
+  },
+  {
+   "id": "immune-sickness-behaviour",
+   "subdomain": "Sickness behaviour",
+   "finding": "Acute-infection symptom severity, and the pro-inflammatory cytokine response and genotypes behind it, predict who develops post-infective fatigue, while microbiological and psychological factors do not.",
+   "grade": "replicated",
+   "plain": "How severe your initial infection is, not which germ you had or your personality, predicts whether you stay ill. Cytokines track how ill you feel at the time.",
+   "detail": "The Dubbo prospective cohort (Hickie 2006, BMJ) followed 253 patients from acute EBV, Coxiella burnetii or Ross River virus infection: 29 (12%) had a disabling fatigue-pain-cognitive-mood illness at six months and 28 (11%) met CFS criteria, with a stereotyped phenotype at similar incidence after each infection, predicted largely by acute illness severity and not by demographic, psychological or microbiological factors. Vollmer-Conna 2004 (Psychol Med) showed in 21 acute Q fever and 48 acute RRV/EBV patients that spontaneously released IL-1beta and IL-6 from PBMC cultures correlated consistently with fever, malaise, pain, fatigue, mood and concentration, i.e. cytokines index the acute sickness response in humans. Vollmer-Conna 2008 (Clin Infect Dis) found IFN-gamma +874T/A and IL-10 -592C/A polymorphisms acted synergistically on illness severity, cytokine levels and duration across all three infections. This is the most solidly replicated immune-related causal structure in the field, but it explains the onset and early course rather than why illness persists for years, and the same group's later work found no persisting cytokine abnormality.",
+   "studies": [
+    {
+     "cite": "Hickie 2006, BMJ",
+     "n": "253 followed 12 months",
+     "design": "prospective post-infection inception cohort",
+     "result": "11% met CFS criteria at 6 months; stereotyped phenotype, equal incidence across three pathogens; predicted by acute severity",
+     "url": "https://doi.org/10.1136/bmj.38933.585764.AE",
+     "verified": true
+    },
+    {
+     "cite": "Vollmer-Conna 2004, Psychological Medicine",
+     "n": "21 + 48 acute infections",
+     "design": "prospective symptom-cytokine correlation",
+     "result": "PBMC IL-1beta and IL-6 release correlated with fever, malaise, pain, fatigue, mood, concentration",
+     "url": "https://doi.org/10.1017/S0033291704001953",
+     "verified": true
+    },
+    {
+     "cite": "Vollmer-Conna 2008, Clinical Infectious Diseases",
+     "n": "Dubbo cohort",
+     "design": "genotype-phenotype analysis",
+     "result": "IFN-gamma +874T/A and IL-10 -592C/A synergistically affected severity, cytokine levels and illness duration",
+     "url": "https://doi.org/10.1086/592967",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Solving ME/CFS re-analysis (downloads; DecodeME)",
+     "n": "15,579 cases vs 259,909 controls",
+     "design": "GWAS",
+     "result": "Infection-onset and other-onset ME/CFS are genetically the same (rg 0.98) and no immune cell type is enriched, so inherited immune reactivity is not the main risk axis",
+     "url": "",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "What converts a severe acute sickness response into years of illness?",
+    "Do the cytokine-gene effects replicate in modern post-COVID inception cohorts?"
+   ],
+   "hypotheses": [
+    "sickness-behaviour",
+    "innate-hyperactivation",
+    "neuroinflammation"
+   ],
+   "test_available": "research only"
+  },
+  {
+   "id": "immune-longcovid-overlap",
+   "subdomain": "Long COVID",
+   "finding": "Long COVID immune profiling finds exhausted T cells, myeloid shifts, raised antibodies to non-SARS-CoV-2 viruses especially EBV, and low cortisol, giving a reference phenotype for post-infectious illness.",
+   "grade": "several",
+   "plain": "Long COVID studies, which are larger and better funded, find a similar picture to ME/CFS: worn-out T cells, signs of old viruses waking up, and low cortisol.",
+   "detail": "Klein 2023 (Nature) enrolled 275 individuals with or without long COVID for multidimensional immune phenotyping with unbiased machine learning: differences in circulating myeloid and lymphocyte populations, exaggerated humoral responses to SARS-CoV-2, higher antibody responses to non-SARS-CoV-2 pathogens particularly EBV, and lower cortisol in long COVID, with cortisol among the strongest discriminating features. Yin 2024 (Nat Immunol) found systemic inflammation, sex-specific perturbation of cytolytic subsets, more CD4+ T cells poised to migrate to inflamed tissue, exhausted SARS-CoV-2-specific CD8+ T cells and mis-coordination between T and B cell responses. These converge with the ME/CFS exhaustion and herpesvirus-reactivation strands; complement dysregulation in active long COVID (Cervia-Hasler 2024, Science) is, unusually for this space, independently replicated. The caution is that long COVID cohorts are heterogeneous, most participants do not meet ME/CFS criteria, and the low-cortisol finding has not replicated consistently in ME/CFS.",
+   "studies": [
+    {
+     "cite": "Klein 2023, Nature",
+     "n": "275",
+     "design": "cross-sectional immune phenotyping with ML",
+     "result": "Myeloid/lymphocyte shifts, higher anti-EBV and other non-SARS-CoV-2 antibodies, lower cortisol",
+     "url": "https://doi.org/10.1038/s41586-023-06651-y",
+     "verified": true
+    },
+    {
+     "cite": "Yin 2024, Nature Immunology",
+     "n": "LC vs non-LC, 8 months post-infection",
+     "design": "multi-omic + serology case-control",
+     "result": "Exhausted SARS-CoV-2-specific CD8+ T cells; inflammation; uncoordinated adaptive response",
+     "url": "https://doi.org/10.1038/s41590-023-01724-6",
+     "verified": true
+    },
+    {
+     "cite": "Phetsouphanh 2022, Nat Immunol",
+     "n": "LC",
+     "design": "immune profiling",
+     "result": "persistent activation; IFN-beta/III elevation at 8 months",
+     "url": "https://doi.org/10.1038/s41590-021-01113-x",
+     "verified": true
+    },
+    {
+     "cite": "Berentschot 2023, Front Immunol",
+     "n": "LC",
+     "design": "immunophenotyping",
+     "result": "immune activation",
+     "url": "https://doi.org/10.3389/fimmu.2023.1254899",
+     "verified": true
+    },
+    {
+     "cite": "Saito 2024, Front Immunol",
+     "n": "LC/ME/CFS",
+     "design": "immune",
+     "result": "LC with ME/CFS features at 12 months: raised IL-1a, IL-6, TNF-a, Flt-1 and sCD14, lower ATP and altered metabolome vs recovered and healthy",
+     "url": "https://doi.org/10.3389/fimmu.2024.1341843",
+     "verified": true
+    },
+    {
+     "cite": "Petrov 2025, Biomedicines",
+     "n": "LC/ME/CFS",
+     "design": "immune",
+     "result": "65 CFS, 54 LC, 70 controls: both had fewer lymphocytes, CD8 T and NK cells, and higher IL-6 and TNF",
+     "url": "https://doi.org/10.3390/biomedicines13123001",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Solving ME/CFS re-analysis (deep2/proteome; long COVID Olink sets)",
+     "n": "UK Explore 51 vs 51; IRIS 36 vs 9; Bansal 12 vs 44",
+     "design": "re-analysis of long COVID proteomics",
+     "result": "Only lower vascular mural/matrix proteins overlap with ME/CFS; interferon and immune-activation protein sets do not line up",
+     "url": "",
+     "verified": true
+    },
+    {
+     "cite": "Petrov 2026, Int J Mol Sci",
+     "n": "LC/ME/CFS",
+     "design": "immune",
+     "result": "differences between LC and ME/CFS",
+     "url": "https://doi.org/10.3390/ijms27104488",
+     "verified": true
+    },
+    {
+     "cite": "Omdal 2026, Brain Behav Immun Health",
+     "n": "fatigue",
+     "design": "immune",
+     "result": "null/limited immune association",
+     "url": "https://doi.org/10.1016/j.bbih.2026.101226",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "How much of the long COVID immune phenotype is present in non-COVID-onset ME/CFS when measured side by side?",
+    "Is the EBV antibody signal reactivation, bystander activation, or cross-reactivity?"
+   ],
+   "hypotheses": [
+    "immune-exhaustion",
+    "herpes-reactivation",
+    "complement-thromboinflammation",
+    "hpa-endocrine"
+   ],
+   "test_available": "EBV and CMV serology and PCR are clinically available; interpretation is limited (IgG shows past infection only)"
+  },
+  {
+   "id": "immune-genetics-null",
+   "subdomain": "Genetics vs immunity",
+   "finding": "Common-variant genetics shows no enrichment of ME/CFS risk in any blood immune cell type, implying most immune findings are downstream consequences rather than inherited causes.",
+   "grade": "replicated",
+   "plain": "The largest genetic study points at brain cells, not immune cells. So the immune abnormalities are probably effects of the illness rather than its root cause.",
+   "detail": "DecodeME (15,579 PEM-required cases vs 259,909 controls, SNP heritability about 9.5% on the liability scale) shows enrichment in brain tissue and neurons with no enrichment in blood immune cell types; the Solving ME/CFS re-analysis reproduced all 8 loci exactly and found MAGMA enrichment in 11 brain regions and pituitary and none of 29 immune cell types (Th17 p=0.52), with S-LDSC enrichment only in CNS tissues and chromatin and no signal in ImmGen or blood-cell ATAC-seq. HLA-DQA1*05:01 is protective (p=1.4e-10) but the earlier ME/CFS HLA candidates (C*07:04, DQB1*03:03 from Lande 2020) are not among DecodeME's hits, and the TRA locus (Ueland 2022) did not replicate. Infection-onset and other-onset cases are genetically indistinguishable (rg 0.98). The qualifier: a GWAS of common variants in 15,000 people can miss rare-variant immune contributions, and the one NK-relevant gene near a lead locus (RAB27A, needed for cytotoxic granule release) is not the authors' preferred candidate but is as plausible as their pick.",
+   "studies": [
+    {
+     "cite": "DecodeME 2025 + Solving ME/CFS re-analysis (genetics, downloads)",
+     "n": "15,579 cases vs 259,909 controls",
+     "design": "GWAS with MAGMA and S-LDSC enrichment",
+     "result": "Brain/neuron and pituitary enrichment; no enrichment in 29 immune cell types; locus-level tissue test null after FDR",
+     "url": "",
+     "verified": true
+    },
+    {
+     "cite": "Solving ME/CFS re-analysis (deep2/genetics_mr)",
+     "n": "DecodeME + Million Veteran Program",
+     "design": "Mendelian randomisation and replication",
+     "result": "Genetically higher EBV DNA load suggestive (OR 1.59 in MVP); overall DecodeME signal replicates (rg 0.73) while individual loci mostly do not",
+     "url": "",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Zhang 2025 (HEAL2), medRxiv",
+     "n": "multi-site whole genomes",
+     "design": "deep-learning rare-variant analysis",
+     "result": "115 candidate risk genes with reduced expression in patients' B and T cells, especially cytotoxic CD4 T cells - rare-variant immune involvement not excluded by common-variant results",
+     "url": "https://doi.org/10.1101/2025.04.15.25325899",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Do rare immune variants (e.g. perforin-pathway, immunodeficiency panels) contribute in a subgroup?",
+    "Could a genuinely causal immune mechanism be environmental (infection timing, dose) and therefore invisible to GWAS?"
+   ],
+   "hypotheses": [
+    "autoimmunity",
+    "immune-exhaustion",
+    "genetic-neuronal",
+    "herpes-reactivation"
+   ],
+   "test_available": "Clinical genetic testing is not indicated for ME/CFS; an immunodeficiency/HLH panel only if red flags (abnormal counts, recurrent severe infection)"
+  },
+  {
+   "id": "immune-il11-mmp9",
+   "subdomain": "Cytokines",
+   "finding": "Newly reported elevations of serum IL-11 and MMP-9 in female ME/CFS patients are unreplicated single-cohort findings.",
+   "grade": "early",
+   "plain": "A 2026 study found two new inflammation-related proteins raised in patients. Nobody has checked it yet.",
+   "detail": "Chinnappan 2026 (Front Immunol) quantified IL-11 and matrix metalloproteinase-9 in serum from 40 female ME/CFS patients and controls (Nova Southeastern/Institute for Neuro-Immune Medicine), reporting both elevated, with an EBV framing. IL-11 is a fibrosis- and inflammation-associated cytokine and MMP-9 a matrix-remodelling enzyme, so the finding is thematically compatible with the extracellular-matrix disturbance in Che/Lipkin 2025 and the lower vascular mural/matrix proteins found across four proteomic cohorts. But single-cohort, single-lab, two-analyte studies in this field have a poor replication record, and MMP-9 in particular is sensitive to sample handling and neutrophil contamination. Listed here as the kind of new lead a living review should carry with an explicit 'unreplicated' label.",
+   "studies": [
+    {
+     "cite": "Chinnappan 2026, Frontiers in Immunology",
+     "n": "40 female patients vs controls",
+     "design": "case-control serum immunoassay",
+     "result": "IL-11 and MMP-9 elevated",
+     "url": "https://doi.org/10.3389/fimmu.2026.1827700",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Solving ME/CFS re-analysis (deep2/proteome)",
+     "n": "4 blood protein cohorts",
+     "design": "meta-analysis",
+     "result": "No single protein replicates strongly; effects that repeat are d 0.25-0.5",
+     "url": "",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Does it replicate in an independent cohort with handling controls?"
+   ],
+   "hypotheses": [
+    "innate-hyperactivation",
+    "vascular-endothelial"
+   ],
+   "test_available": "research only"
+  },
+  {
+   "id": "immune-neural-autoantibodies",
+   "subdomain": "Autoantibodies",
+   "finding": "Autoantibodies against neural antigens (e.g. neurotransmitter receptors, ion channels) are reported in ME/CFS and LC subsets, with mixed associations with symptoms.",
+   "grade": "early",
+   "plain": "Some patients carry antibodies against nervous-system proteins; the meaning is unclear.",
+   "detail": "",
+   "studies": [
+    {
+     "cite": "Franke 2023, Brain Behav Immun",
+     "n": "LC",
+     "design": "autoantibody screen",
+     "result": "neural autoantibodies in a subset",
+     "url": "https://doi.org/10.1016/j.bbi.2023.01.006",
+     "verified": true
+    },
+    {
+     "cite": "Almulla 2025, J Adv Res",
+     "n": "LC",
+     "design": "autoantibodies",
+     "result": "90 LC vs 90 controls: raised IgG/IgM to myelin (MBP, MOG), synapsin and tubulin; titres tracked SARS-CoV-2 and HHV-6 IgM",
+     "url": "https://doi.org/10.1016/j.jare.2024.11.011",
+     "verified": true
+    },
+    {
+     "cite": "Hoheisel 2025, Front Immunol",
+     "n": "ME/CFS/LC",
+     "design": "autoantibodies",
+     "result": "Autoantibodies to EBV-homologous human peptides (SRRM3, SLC24A3, TSPYL) and alpha-adrenergic receptors more frequent in PCS and ME/CFS women; correlated with symptoms",
+     "url": "https://doi.org/10.3389/fimmu.2025.1650948",
+     "verified": true
+    },
+    {
+     "cite": "Jensen 2024, Biochemistry",
+     "n": "ME/CFS/LC",
+     "design": "autoantibody/biochem",
+     "result": "Preliminary: plasma antibodies from some patients cleave myelin basic protein; blocked by glatiramer acetate and aprotinin in vitro",
+     "url": "https://doi.org/10.1021/acs.biochem.3c00433",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "hypotheses": [],
+   "open_questions": [],
+   "test_available": false
+  },
+  {
+   "id": "immune-galectin9-artemin-lc",
+   "subdomain": "Long COVID",
+   "finding": "Plasma galectin-9 and artemin are elevated in long COVID and proposed as biomarkers, with links to cognitive symptoms; data mostly from one group.",
+   "grade": "early",
+   "plain": "Two blood proteins, galectin-9 and artemin, are higher in long COVID in several studies, mostly from one lab.",
+   "detail": "",
+   "studies": [
+    {
+     "cite": "Saito 2024, J Autoimmun",
+     "n": "LC/ME/CFS",
+     "design": "plasma biomarkers",
+     "result": "galectin-9 and artemin raised",
+     "url": "https://doi.org/10.1016/j.jaut.2024.103267",
+     "verified": true
+    },
+    {
+     "cite": "Elahi 2024, Front Immunol",
+     "n": "LC",
+     "design": "plasma",
+     "result": "galectin-9 elevation",
+     "url": "https://doi.org/10.3389/fimmu.2024.1443363",
+     "verified": true
+    },
+    {
+     "cite": "Berentschot 2023, Front Immunol",
+     "n": "LC",
+     "design": "immunophenotype",
+     "result": "immune activation incl. galectin-9",
+     "url": "https://doi.org/10.3389/fimmu.2023.1254899",
+     "verified": true
+    },
+    {
+     "cite": "Shahbaz 2026, Front Immunol",
+     "n": "LC",
+     "design": "plasma",
+     "result": "scRNA-seq at 12 months: LC-ME/CFS had fewer naive T, Treg, MAIT and gamma-delta T cells, more effector T cells, activated B cells and platelets; idiopathic ME/CFS less altered",
+     "url": "https://doi.org/10.3389/fimmu.2026.1745933",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "hypotheses": [],
+   "open_questions": [],
+   "test_available": false
+  },
+  {
+   "id": "immune-smpdl3b",
+   "subdomain": "Innate immunity",
+   "finding": "Plasma/neutrophil SMPDL3B shedding is increased in ME/CFS, with replication in an independent Norwegian cohort.",
+   "grade": "early",
+   "plain": "A cell-surface enzyme, SMPDL3B, is shed into blood more in ME/CFS; found in two cohorts.",
+   "detail": "",
+   "studies": [
+    {
+     "cite": "Rostami-Afshari 2025, J Transl Med",
+     "n": "249 ME/CFS vs 63 controls + 141 Norwegian replication",
+     "design": "case-control with replication",
+     "result": "increased soluble SMPDL3B",
+     "url": "https://doi.org/10.1186/s12967-025-06829-0",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "hypotheses": [],
+   "open_questions": [],
+   "test_available": false
+  },
+  {
+   "id": "immune-rnase-l",
+   "subdomain": "Innate immunity",
+   "finding": "Upregulated 2-5A synthetase/RNase L activity and a low-molecular-weight RNase L fragment in CFS PBMC (1990s); not replicated with modern methods.",
+   "grade": "early",
+   "plain": "An antiviral enzyme pathway seemed overactive in 1990s studies; never confirmed with modern tools.",
+   "detail": "",
+   "studies": [
+    {
+     "cite": "Suhadolnik 1994, Clin Infect Dis",
+     "n": "15 CFS",
+     "design": "PBMC enzyme assay",
+     "result": "raised 2-5A synthetase/RNase L activity",
+     "url": "https://doi.org/10.1093/clinids/18.supplement_1.s96",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "hypotheses": [],
+   "open_questions": [],
+   "test_available": false
+  }
+ ],
+ "hypotheses_notes": [
+  {
+   "id": "autoimmunity",
+   "for": "Infection-triggered onset; female predominance; open-label responses to B-cell depletion (early phase II), cyclophosphamide and especially daratumumab (6/10, 5 sustained, serum IgG fell more in responders); patient IgG does things control and MS IgG do not in endothelial cells (Liu/Prusty 2026, 39 ME vs 20 MS vs 41 HC); long COVID IgG transfers pain, fatigue-like behaviour and small-fibre damage to mice in three independent 2026 studies; IgG subclass abnormalities common.",
+   "against": "Rituximab failed in a 151-patient RCT (26% vs 35% placebo); immunoadsorption removed GPCR antibodies without clinical benefit against sham (IAMPOCO n=40, all endpoints null; IA-PACS-CFS n=65 failed); BC007's larger phase II failed; unbiased profiling of 7,542 antibody-antigen interactions in 172 people found no differential reactivity (no q below 0.68), including beta-adrenergic receptors; BCR repertoires show no clonality, no somatic-hypermutation shift and no autoimmunity signature; no ME/CFS-specific autoantigen has been identified; common-variant genetics shows no immune cell enrichment and HLA associations do not fit an autoimmune pattern."
+  },
+  {
+   "id": "immune-exhaustion",
+   "for": "CD8+ effector-memory exhaustion transcription factors, chromatin and metabolic reprogramming (Iu 2024); independent cfRNA exhaustion and cytokine-signalling signatures (Gardella 2025); reduced CD8+ mitochondrial membrane potential and glycolysis (Mandarano 2020); exhausted virus-specific CD8+ T cells in long COVID (Yin 2024); early-immunosenescence CD28-CD57- cells in mild/moderate patients (Lee 2025).",
+   "against": "Re-analysis of the same public scRNA data found exhausted-CD8 gating null and no differentially expressed genes at FDR in any of 15 cell types; TCR repertoires show no clonal expansion, which is hard to square with chronic antigen-driven exhaustion; no immune cell type is genetically enriched; no antigen has been identified."
+  },
+  {
+   "id": "innate-hyperactivation",
+   "for": "Exaggerated whole-blood responses to microbial antigens, worse 24 h after exercise and correlated with symptom intensity (Che/Lipkin 2025, 56 vs 52); Q fever fatigue syndrome PBMCs over-produce IL-6, TNF and IL-1beta on antigen stimulation; monocyte dysregulation in scRNA (Vu 2024); meta-analytic small elevations of TNF, IL-2, IL-4, CRP; 17 cytokines rising with severity (Montoya 2017); UK Biobank inflammation and liver/insulin markers shifted in both sexes.",
+   "against": "IL-1 blockade with anakinra gave no clinical benefit and changed no cytokine but IL-1Ra; the best-replicated single cytokine (TGF-beta) is a platelet/centrifugation artefact; re-analysis of five blood RNA cohorts found no gene set passing FDR and interferon only nominally up (meta p=0.12); monocyte scRNA findings do not survive independent re-analysis of the same data; no immune cell type is genetically enriched."
+  },
+  {
+   "id": "sickness-behaviour",
+   "for": "Dubbo cohort: 11% met CFS criteria six months after three different pathogens with a stereotyped phenotype predicted by acute illness severity, not by pathogen or psychological factors; PBMC IL-1beta and IL-6 release tracks acute fever, malaise, pain, fatigue, mood and concentration; IFN-gamma and IL-10 polymorphisms synergistically set severity and duration; interferon-alpha reliably produces neurovegetative fatigue within two weeks (Capuron 2002) and persistent fatigue in a third of patients, predicted by higher baseline IL-10 and a bigger early surge (Russell 2019).",
+   "against": "The model explains onset far better than persistence: cytokines are not persistently abnormal in long-duration illness (Hornig 2015), cytokine inhibition does not help, and the acute cytokine signal fades while the illness does not."
+  },
+  {
+   "id": "herpes-reactivation",
+   "for": "Higher anti-EBV antibody responses in long COVID (Klein 2023); incidental elevated EBV gp42 reactivity in the otherwise negative antigen-profiling study; IgG to arginine-rich EBNA4/EBNA6 sequences and homologous human peptides (Hoheisel 2025); genetically higher EBV DNA load suggestive in MVP (OR 1.59); exploratory re-analysis signals - fewer CMV-driven adaptive NK expansions in patients (1/30 vs 9/28, post-hoc p=0.005), more KLRG1+CX3CR1+ effector CD8 (d +0.60), higher EBV-specific TCR-beta share in severe patients' CD8 (0.88% vs 0.45%, p=0.06).",
+   "against": "Cliff 2019 found no difference in seroprevalence for six human herpesviruses in 251 patients; the re-analysis signals are exploratory and do not survive multiple-testing correction (q 0.28); valganciclovir evidence rests on one 30-patient trial selected on antibody titres, which are a poor marker of active infection."
+  },
+  {
+   "id": "serum-factor",
+   "for": "Patient IgG fragments endothelial mitochondria and alters energetics with no effect from MS or healthy IgG, lost on Fab/Fc cleavage (Liu/Prusty 2026, 106 individuals); long COVID IgG transfer reproduces symptoms in mice; daratumumab responses track falling serum IgG.",
+   "against": "The flagship serum-factor result (patient serum raising myoblast respiration) failed a preregistered, blinded, well-powered replication (67 vs 53, maximal respiration estimate 2.50 pmol/min, 95% CI -1.62 to 6.62, p=0.23, CI excluding the original d=1.32); no serum-to-cell assay has separated patients from controls in more than one laboratory; removing circulating IgG from patients by immunoadsorption produced no clinical benefit against sham."
+  },
+  {
+   "id": "mast-cell",
+   "for": "Up to 25.3% of ME/CFS patients meet criteria for clinically relevant mast cell activation, with prevalence rising over the disease course and a significant association with orthostatic intolerance and POTS; those patients report more benefit from mast-cell-directed treatment; small flow-cytometry studies find altered mast cell progenitor phenotypes; CSF eotaxin (an eosinophil/allergic chemokine) elevated.",
+   "against": "Almost all the human evidence is self-reported or retrospective clinic data with no controls; MCAS criteria are themselves contested; no replicated objective mediator (tryptase, urinary metabolites) finding exists in ME/CFS; blood proteomics across four cohorts shows no allergic or mast-cell signature; no controlled trial of mast-cell stabilisers in ME/CFS."
+  },
+  {
+   "id": "viral-persistence",
+   "for": "Chronic antigenic stimulation interpretation of the naive/switched-memory B-cell shift (Walitt 2024); exhaustion programmes in CD8+ T cells; early-immunosenescence phenotype in mild/moderate patients 'indicative of persistent viral infection' (Lee 2025); exaggerated response to microbial antigens.",
+   "against": "No persisting pathogen has been identified in ME/CFS blood; TCR and BCR repertoires show no clonal expansion or antigen-driven maturation; herpesvirus seroprevalence is normal; immune cell types are not genetically enriched."
+  },
+  {
+   "id": "complement-thromboinflammation",
+   "for": "Complement activation reported in the Che/Lipkin 2025 multi-omics with worsening after exercise; complement dysregulation in active long COVID (Cervia-Hasler 2024) is one of the few independently replicated post-viral blood abnormalities; a CDC study reports higher C3 in ME/CFS.",
+   "against": "The strong complement evidence is long COVID rather than ME/CFS; one failed replication after age/BMI adjustment; platelet/microclot markers were flat in a harmonised four-cohort proteomic re-analysis."
+  }
+ ],
+ "glossary": [
+  {
+   "term": "Natural killer (NK) cell",
+   "plain": "A white blood cell that kills virus-infected and abnormal cells without needing to be trained first."
+  },
+  {
+   "term": "Cytotoxicity assay",
+   "plain": "A lab test that mixes immune cells with target cells and measures how many targets they kill. It needs fresh blood, which is why results vary between labs."
+  },
+  {
+   "term": "T-cell exhaustion",
+   "plain": "A worn-out state that killer T cells enter after long periods of fighting an infection or tumour; they stay present but respond poorly."
+  },
+  {
+   "term": "Switched-memory B cell",
+   "plain": "A B cell that has already met an antigen and changed the class of antibody it makes. Fewer of them, with more untrained (naive) cells, can suggest an unusual pattern of immune stimulation."
+  },
+  {
+   "term": "Autoantibody",
+   "plain": "An antibody that targets the body's own tissue instead of a germ."
+  },
+  {
+   "term": "GPCR autoantibody (beta2, M3, M4)",
+   "plain": "Antibodies said to target receptors that nerves use to control blood vessels, heart rate and glands. Commercial tests exist; better methods have not confirmed differences between patients and controls."
+  },
+  {
+   "term": "Immunoadsorption / apheresis",
+   "plain": "Filtering antibodies out of the blood through a column, like a short-term dialysis for antibodies."
+  },
+  {
+   "term": "Passive transfer",
+   "plain": "Injecting antibodies from a patient into an animal to see whether the symptoms travel with the antibodies. It is the strongest available test of whether antibodies cause something."
+  },
+  {
+   "term": "Cytokine",
+   "plain": "A small signalling protein immune cells use to talk to each other; also what makes you feel ill during an infection."
+  },
+  {
+   "term": "Cell-free RNA (cfRNA)",
+   "plain": "RNA fragments floating free in blood plasma, released when cells die or turn over. They give a readout of what many tissues and cells are doing."
+  },
+  {
+   "term": "MAIT cell",
+   "plain": "An unconventional T cell that patrols mucosal surfaces such as the gut and responds to bacterial metabolites."
+  },
+  {
+   "term": "IgG subclass deficiency",
+   "plain": "Being low in one of the four flavours of the main blood antibody, which can make some infections more frequent."
+  },
+  {
+   "term": "Mannose-binding lectin (MBL)",
+   "plain": "A blood protein of the innate immune system that tags microbes for destruction; low levels are a common inherited variation."
+  },
+  {
+   "term": "Mast cell activation",
+   "plain": "Over-release of histamine and other mediators by tissue immune cells, causing flushing, itching, gut symptoms and sensitivity to foods, smells and drugs."
+  },
+  {
+   "term": "TRPM3",
+   "plain": "A calcium channel in cell membranes. One group reports it works poorly in patients' NK cells."
+  },
+  {
+   "term": "Sham-controlled trial",
+   "plain": "A trial where the comparison group gets a convincing fake procedure, which matters enormously here because 35% improved on placebo in the rituximab trial."
+  },
+  {
+   "term": "Pre-analytic artefact",
+   "plain": "A difference created by how blood was collected, spun or stored rather than by the illness. TGF-beta in ME/CFS turned out to be one."
+  }
+ ],
+ "key_reviews": [
+  {
+   "cite": "Baraniuk, Eaton-Fitch & Marshall-Gradisnik 2024, Frontiers in Immunology",
+   "url": "https://doi.org/10.3389/fimmu.2024.1440643",
+   "why": "The definitive pooled estimate for the NK cytotoxicity literature (28 papers, g 0.96) - read alongside Querec 2023 for why it has not become a test."
+  },
+  {
+   "cite": "Strawbridge 2019, Neuroscience & Biobehavioral Reviews",
+   "url": "https://doi.org/10.1016/j.neubiorev.2019.08.011",
+   "why": "The only quantitative meta-analysis of circulating inflammatory proteins (42 studies); gives the honest effect sizes."
+  },
+  {
+   "cite": "Corbitt 2019, BMC Neurology",
+   "url": "https://doi.org/10.1186/s12883-019-1433-0",
+   "why": "Systematic review concluding cytokines are not reliable biomarkers - the counterweight to single-cohort cytokine papers."
+  },
+  {
+   "cite": "Mountford 2024, Pain Reports (international workshop position statement)",
+   "url": "https://doi.org/10.1097/PR9.0000000000001167",
+   "why": "Sets out how passive-transfer evidence should be read in symptom-based disorders, which is the key methodological frame for the 2026 IgG mouse studies."
+  },
+  {
+   "cite": "Fehrer 2026, Autoimmunity Reviews (3rd Charite Fatigue Center conference)",
+   "url": "https://doi.org/10.1016/j.autrev.2026.104043",
+   "why": "Current expert survey of the autoimmunity/post-COVID strand including unpublished trial results."
+  },
+  {
+   "cite": "Wirth & Scheibenbogen 2020, Autoimmunity Reviews",
+   "url": "https://doi.org/10.1016/j.autrev.2020.102527",
+   "why": "The most-cited mechanistic version of the beta2-adrenergic autoantibody hypothesis; useful to read now that its testable predictions have mostly failed."
+  },
+  {
+   "cite": "Solving ME/CFS re-analysis, deep2/singlecell_methyl and deep2/proteome SUMMARY.md",
+   "url": "",
+   "why": "Systematic re-analysis of public immune-cell, methylation, repertoire and protein data; documents which published immune claims fail, and two specific artefacts (granulocyte contamination, cell-leak) that mislead naive users of these datasets."
+  }
+ ],
+ "gaps": [
+  "No immune measurement during PEM: there is no paired rest / post-exertional-crash study of NK function, T-cell phenotype or autoantibodies, despite PEM being the defining feature.",
+  "No published passive-transfer experiment with ME/CFS IgG (as opposed to long COVID or fibromyalgia IgG), even though that is now a standard, affordable design.",
+  "No independent laboratory has attempted the TRPM3 patch-clamp or the IgG-endothelial-mitochondria assay; both rest entirely on one group each.",
+  "No independent ME/CFS single-cell blood dataset exists outside one research group, so single-cell claims cannot be externally replicated.",
+  "No prospective inception cohort with pre-infection immune samples large enough to test whether a 'primed' immune profile predicts ME/CFS after natural infection (the interferon-alpha model is the only proxy).",
+  "Severe and very severe patients are almost absent from immune studies that require travel; the few in-home studies are small, and the one well-powered serum replication included only 6 severe patients.",
+  "No standardised, multi-site-validated functional immune assay exists at all - NK cytotoxicity failed that test, and nothing has replaced it.",
+  "Why antibody-removal trials fail while antibody-transfer experiments work is unexplained and untested (tissue-bound IgG, long-lived plasma cells, irreversible downstream damage are all untested explanations).",
+  "The daratumumab signal has no randomised test yet, and no second study of its proposed NK-count predictor.",
+  "Mast cell activation in ME/CFS has no objective mediator study with controls and no controlled treatment trial, despite being common and treatable in principle.",
+  "Pre-analytic standardisation is still not routine: after the TGF-beta centrifugation artefact and the SomaScan cell-leak artefact, immune studies in this field still rarely report or adjust for handling variables.",
+  "Tissue immunology is almost untouched: muscle, gut, dorsal root ganglia and brainstem immune cells have barely been examined in ME/CFS, while the long COVID IgG studies point precisely at peripheral sensory ganglia."
+ ]
+}

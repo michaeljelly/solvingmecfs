@@ -1,0 +1,2054 @@
+[
+{
+"domain": "vascular",
+"id": "vascular-low-red-cell-volume",
+"sub": "Blood volume",
+"grade": "replicated",
+"finding": "Red cell volume and total blood volume are below predicted in a large minority to about half of ME/CFS patients measured by isotope or CO-rebreathing methods.",
+"nst": 4,
+"ncon": 1
+},
+{
+"domain": "vascular",
+"id": "vascular-raas-paradox",
+"sub": "Blood volume",
+"grade": "several",
+"finding": "The hormones that should rise to restore blood volume (renin, aldosterone, EPO) are not raised in ME/CFS or POTS despite low volume, and blood proteomics shows no consistent change in them.",
+"nst": 3,
+"ncon": 0
+},
+{
+"domain": "vascular",
+"id": "vascular-small-heart-stroke-volume",
+"sub": "Cardiac size and stroke volume",
+"grade": "replicated",
+"finding": "Left-ventricular volumes and stroke volume are smaller in ME/CFS at rest and fall more than normal on tilt, largely in proportion to low blood volume rather than to weak heart muscle.",
+"nst": 3,
+"ncon": 1
+},
+{
+"domain": "vascular",
+"id": "vascular-preload-failure-icpet",
+"sub": "Exercise haemodynamics",
+"grade": "several",
+"finding": "During upright invasive exercise testing most ME/CFS patients have abnormally low right-atrial filling pressure (preload failure), and a high-flow subgroup shows poor systemic oxygen extraction.",
+"nst": 3,
+"ncon": 0
+},
+{
+"domain": "vascular",
+"id": "vascular-oxygen-extraction",
+"sub": "Exercise haemodynamics",
+"grade": "early",
+"finding": "A subset of patients with unexplained exertional intolerance cannot extract oxygen normally from blood during exercise, associated with hypocapnia and possible arteriovenous shunting.",
+"nst": 2,
+"ncon": 0
+},
+{
+"domain": "vascular",
+"id": "vascular-cbf-tilt",
+"sub": "Cerebral blood flow",
+"grade": "several",
+"finding": "Cerebral blood flow falls about 26% during head-up tilt in ME/CFS versus 7% in controls, including in patients with normal heart rate and blood pressure responses.",
+"nst": 4,
+"ncon": 0
+},
+{
+"domain": "vascular",
+"id": "vascular-hypocapnia",
+"sub": "Breathing and CO2",
+"grade": "replicated",
+"finding": "Many ME/CFS patients over-breathe when upright (orthostatic hypocapnia), and during exercise hyperventilation and dysfunctional breathing are common.",
+"nst": 3,
+"ncon": 1
+},
+{
+"domain": "vascular",
+"id": "vascular-vasoconstrictor-phenylephrine",
+"sub": "Cerebral blood flow",
+"grade": "early",
+"finding": "Raising blood pressure with phenylephrine during tilt blocked hyperventilation, restored cerebral blood velocity and improved working memory in ME/CFS, whereas CO2 or acetazolamide alone did not.",
+"nst": 2,
+"ncon": 0
+},
+{
+"domain": "vascular",
+"id": "vascular-endothelial-fmd-porh",
+"sub": "Endothelium",
+"grade": "replicated",
+"finding": "Large-artery flow-mediated dilation and microvascular post-occlusive reactive hyperaemia are reduced in ME/CFS in two independent Norwegian cohorts and by peripheral arterial tonometry in Berlin.",
+"nst": 4,
+"ncon": 0
+},
+{
+"domain": "vascular",
+"id": "vascular-serum-endothelial-in-vitro",
+"sub": "Endothelium",
+"grade": "early",
+"finding": "Plasma or purified IgG from ME/CFS patients alters cultured endothelial cells: lower nitric oxide production, more mitochondrial fragmentation, and anti-endothelial antibody binding.",
+"nst": 3,
+"ncon": 0
+},
+{
+"domain": "vascular",
+"id": "vascular-retinal-microvasculature",
+"sub": "Microvasculature",
+"grade": "several",
+"finding": "Retinal imaging shows narrower arterioles, lower arteriolar-to-venular ratio, reduced flicker-induced venular dilation and lower capillary vessel density in post-COVID patients, most pronounced in those meeting ME/CFS criteria.",
+"nst": 2,
+"ncon": 0
+},
+{
+"domain": "vascular",
+"id": "vascular-sublingual-capillary",
+"sub": "Microvasculature",
+"grade": "early",
+"finding": "Sublingual video-microscopy shows reduced perfused capillary density and glycocalyx changes in long COVID, persisting many months after infection.",
+"nst": 1,
+"ncon": 0
+},
+{
+"domain": "vascular",
+"id": "vascular-muscle-capillary-basement-membrane",
+"sub": "Microvasculature",
+"grade": "early",
+"finding": "Muscle biopsies show fewer capillaries per fibre in ME/CFS and less capillary supply per fibre size in both ME/CFS and long COVID, unlike the pattern after 60 days of bed rest; thickened capillary basement membrane has been reported but is not yet peer-reviewed.",
+"nst": 3,
+"ncon": 0
+},
+{
+"domain": "vascular",
+"id": "vascular-pericytes-mural",
+"sub": "Microvasculature",
+"grade": "early",
+"finding": "Pericytes and vascular smooth-muscle cells have not been examined directly in ME/CFS tissue, but blood proteins from mural cells and vessel matrix (NOTCH3, ITGAV, TGF-beta set, LUM) are lower across several ME/CFS cohorts and in long COVID.",
+"nst": 1,
+"ncon": 1
+},
+{
+"domain": "vascular",
+"id": "vascular-vascular-proteins-blood",
+"sub": "Blood biomarkers",
+"grade": "contested",
+"finding": "Proteomic panels do not show a consistent rise in classic endothelial-activation or vasoactive proteins in ME/CFS; most named candidates are null and the endothelial-activation set trends down.",
+"nst": 2,
+"ncon": 2
+},
+{
+"domain": "vascular",
+"id": "vascular-vegf",
+"sub": "Blood biomarkers",
+"grade": "contested",
+"finding": "VEGF-A has been reported lower, not higher, in ME/CFS plasma, and proteomic re-analysis finds no consistent change; long COVID cohorts more often report raised VEGF.",
+"nst": 2,
+"ncon": 1
+},
+{
+"domain": "vascular",
+"id": "vascular-rbc-deformability",
+"sub": "Red blood cells",
+"grade": "early",
+"finding": "Red blood cells from ME/CFS patients were stiffer in one microfluidic study, and real-time deformability cytometry found altered red-cell deformation persisting after COVID-19.",
+"nst": 2,
+"ncon": 0
+},
+{
+"domain": "vascular",
+"id": "vascular-microclots",
+"sub": "Coagulation",
+"grade": "contested",
+"finding": "Fibrinaloid microclots (thioflavin-T-positive amyloid fibrin deposits) are reported to be increased in platelet-poor plasma in ME/CFS and long COVID, but the method is not standardised and haemostasis experts dispute the inference that they cause symptoms.",
+"nst": 3,
+"ncon": 2
+},
+{
+"domain": "vascular",
+"id": "vascular-platelets",
+"sub": "Coagulation",
+"grade": "contested",
+"finding": "Platelet activation findings in ME/CFS are inconsistent: one network reports hyperactivated platelets, while an earlier controlled study found no platelet activation or hypercoagulability.",
+"nst": 2,
+"ncon": 1
+},
+{
+"domain": "vascular",
+"id": "vascular-coagulation-markers",
+"sub": "Coagulation",
+"grade": "contested",
+"finding": "Routine coagulation markers (D-dimer, fibrinogen, PT/APTT) are generally normal in ME/CFS; claims of hypercoagulability rest on small 1990s studies and on thromboelastography from one network.",
+"nst": 1,
+"ncon": 2
+},
+{
+"domain": "vascular",
+"id": "vascular-complement-long-covid",
+"sub": "Complement and thromboinflammation",
+"grade": "replicated",
+"finding": "Active long COVID shows persistent complement dysregulation (terminal complex, alternative and classical pathway activation) with thromboinflammation markers, replicated across several cohorts.",
+"nst": 2,
+"ncon": 1
+},
+{
+"domain": "vascular",
+"id": "vascular-complement-mecfs",
+"sub": "Complement and thromboinflammation",
+"grade": "contested",
+"finding": "In ME/CFS, complement findings are heterogeneous: an exercise-induced C4a rise, a genetically defined alternative-pathway subgroup, and proteomic signals that point in different directions across cohorts.",
+"nst": 2,
+"ncon": 1
+},
+{
+"domain": "vascular",
+"id": "vascular-pots-overlap",
+"sub": "POTS overlap",
+"grade": "replicated",
+"finding": "POTS is present in roughly a fifth of ME/CFS patients on formal testing (prevalence varies 6-43%), but cerebral hypoperfusion and preload failure are found in most patients regardless of whether they meet POTS heart-rate criteria.",
+"nst": 2,
+"ncon": 0
+},
+{
+"domain": "muscle-exertion",
+"id": "muscle-exertion-pem-timing",
+"sub": "PEM definition and timing",
+"grade": "several",
+"finding": "PEM is usually delayed by hours to a day, lasts days to weeks, and after a 2-day CPET took ME/CFS patients a mean of about 13 days to recover versus about 2 days in sedentary controls.",
+"nst": 3,
+"ncon": 1
+},
+{
+"domain": "muscle-exertion",
+"id": "muscle-exertion-low-peak-vo2",
+"sub": "Exercise capacity (single CPET)",
+"grade": "replicated",
+"finding": "On a single maximal exercise test, ME/CFS patients have lower peak oxygen uptake (pooled about 5 ml/kg/min below controls) with a low peak heart rate (chronotropic incompetence).",
+"nst": 5,
+"ncon": 0
+},
+{
+"domain": "muscle-exertion",
+"id": "muscle-exertion-two-day-cpet",
+"sub": "2-day CPET",
+"grade": "contested",
+"finding": "ME/CFS patients perform worse on a second maximal exercise test 24 h after the first, most clearly in workload and VO2 at the ventilatory threshold, but the largest independent replication found no day-2 change.",
+"nst": 8,
+"ncon": 2
+},
+{
+"domain": "muscle-exertion",
+"id": "muscle-exertion-lactate",
+"sub": "Lactate and glycolysis",
+"grade": "several",
+"finding": "Some patients produce more lactate for a given workload, and this worsens on a repeat test, but plasma studies after one maximal test show a smaller total lactate rise that mainly reflects lower achieved workloads.",
+"nst": 3,
+"ncon": 1
+},
+{
+"domain": "muscle-exertion",
+"id": "muscle-exertion-oxygen-extraction",
+"sub": "Oxygen delivery and extraction",
+"grade": "several",
+"finding": "Invasive exercise testing shows two peripheral limits in ME/CFS: low cardiac filling (preload failure) and, in a high-flow subgroup, poor systemic oxygen extraction by tissue.",
+"nst": 5,
+"ncon": 0
+},
+{
+"domain": "muscle-exertion",
+"id": "muscle-exertion-31p-mrs-ph",
+"sub": "31P-MRS muscle energetics",
+"grade": "contested",
+"finding": "31P-MRS studies from Newcastle found exaggerated muscle acidosis and up to ~4-fold slower pH recovery after repeated exercise in a subset of patients, but other MRS studies found no consistent group abnormality.",
+"nst": 3,
+"ncon": 3
+},
+{
+"domain": "muscle-exertion",
+"id": "muscle-exertion-muscle-sodium",
+"sub": "Muscle sodium MRI",
+"grade": "early",
+"finding": "23Na-MRI in 6 women with ME/CFS and 6 controls found higher resting muscle sodium in all lower-leg compartments and a larger sodium rise after exercise, inversely related to grip strength.",
+"nst": 1,
+"ncon": 0
+},
+{
+"domain": "muscle-exertion",
+"id": "muscle-exertion-old-biopsies",
+"sub": "Muscle biopsies (pre-2020)",
+"grade": "contested",
+"finding": "Older ME/CFS muscle biopsy studies mostly found normal or nonspecific histology, without the fibre atrophy and type 2 shift expected from inactivity, with abnormalities confined to subgroups.",
+"nst": 4,
+"ncon": 1
+},
+{
+"domain": "muscle-exertion",
+"id": "muscle-exertion-appelman-pem-biopsy",
+"sub": "Muscle biopsies after exertion",
+"grade": "early",
+"finding": "In long COVID with PEM, muscle biopsies taken one day after a maximal exercise test showed lower mitochondrial enzyme activity, more fibre necrosis, more T-cell infiltration and more amyloid-containing deposits than before exercise and than in controls.",
+"nst": 2,
+"ncon": 0
+},
+{
+"domain": "muscle-exertion",
+"id": "muscle-exertion-fibre-capillary-bedrest",
+"sub": "Fibre type and capillaries",
+"grade": "early",
+"finding": "ME/CFS muscle has a lower proportion of type I (oxidative) fibres, type I-specific atrophy, lower mitochondrial capacity and fewer capillaries per fibre, a pattern that 60 days of strict bed rest in healthy people did not reproduce.",
+"nst": 3,
+"ncon": 1
+},
+{
+"domain": "muscle-exertion",
+"id": "muscle-exertion-muscle-mito-wasf3",
+"sub": "Muscle mitochondria",
+"grade": "early",
+"finding": "WASF3 protein is raised in ME/CFS muscle, and in cells and mice it disrupts respiratory supercomplex assembly and lowers exercise capacity via ER stress.",
+"nst": 1,
+"ncon": 0
+},
+{
+"domain": "muscle-exertion",
+"id": "muscle-exertion-cultured-myotubes",
+"sub": "Cultured patient muscle cells",
+"grade": "early",
+"finding": "Muscle cells grown from ME/CFS patients failed to activate AMPK and raise glucose uptake after electrical pulse stimulation, and secreted less IL-6, suggesting a defect that persists outside the body.",
+"nst": 1,
+"ncon": 1
+},
+{
+"domain": "muscle-exertion",
+"id": "muscle-exertion-immune-cell-mito",
+"sub": "Mitochondria in blood cells",
+"grade": "contested",
+"finding": "Mitochondrial function in patients' blood cells has been reported as lower (PBMC maximal respiration, T-cell glycolysis), higher (lymphoblast maximal respiration with Complex V inefficiency) or normal, depending on lab and cell type.",
+"nst": 4,
+"ncon": 3
+},
+{
+"domain": "muscle-exertion",
+"id": "muscle-exertion-pdh-block",
+"sub": "Pyruvate dehydrogenase",
+"grade": "early",
+"finding": "Fluge 2016 proposed impaired pyruvate dehydrogenase (PDH) function from low TCA-fuelling amino acids and raised PDK mRNA in blood cells; this has not been independently confirmed.",
+"nst": 2,
+"ncon": 1
+},
+{
+"domain": "muscle-exertion",
+"id": "muscle-exertion-serum-myoblast-refuted",
+"sub": "Serum factors and muscle cells",
+"grade": "refuted",
+"finding": "The claim that ME/CFS serum changes healthy myoblast mitochondrial respiration failed a pre-registered replication of 67 patients vs 53 controls, though a small 3D engineered-muscle study reported weaker contraction with patient serum.",
+"nst": 2,
+"ncon": 2
+},
+{
+"domain": "muscle-exertion",
+"id": "muscle-exertion-exercise-gene-expression",
+"sub": "Exercise-induced gene expression",
+"grade": "early",
+"finding": "After moderate exercise, leukocyte mRNA for metabolite-detecting (ASIC3, P2X4/5, TRPV1), adrenergic and immune genes rose for up to 48 h in most CFS patients but not in controls or MS patients.",
+"nst": 3,
+"ncon": 1
+},
+{
+"domain": "muscle-exertion",
+"id": "muscle-exertion-post-exertion-metabolomics",
+"sub": "Post-exertion metabolomics",
+"grade": "contested",
+"finding": "Plasma metabolomics across a 2-day CPET shows clear resting differences in ME/CFS, but once each person is compared with themselves the exercise response differs little from controls.",
+"nst": 2,
+"ncon": 1
+},
+{
+"domain": "muscle-exertion",
+"id": "muscle-exertion-post-exertion-proteomics",
+"sub": "Post-exertion proteomics",
+"grade": "contested",
+"finding": "Plasma proteomics of 79 ME/CFS and 53 sedentary controls across a 2-day CPET found the largest patient-specific changes in the 24 h recovery phase, with suppressed T/B-cell and IL-17 signalling and raised glycolysis proteins.",
+"nst": 2,
+"ncon": 1
+},
+{
+"domain": "muscle-exertion",
+"id": "muscle-exertion-ev-cargo",
+"sub": "Extracellular vesicles after exercise",
+"grade": "early",
+"finding": "Extracellular-vesicle protein cargo responds to maximal exercise differently in ME/CFS (blunted in women; TCA proteins down and complement up in men), and recovery-phase changes correlate with PEM severity.",
+"nst": 2,
+"ncon": 0
+},
+{
+"domain": "muscle-exertion",
+"id": "muscle-exertion-grip-fatigability",
+"sub": "Muscle strength and fatigability",
+"grade": "several",
+"finding": "Repeated maximal handgrip testing shows lower strength, faster decline across repetitions and poorer recovery after 60 minutes in ME/CFS, correlating with severity and PEM.",
+"nst": 4,
+"ncon": 0
+},
+{
+"domain": "muscle-exertion",
+"id": "muscle-exertion-muscle-proteins-blood",
+"sub": "Muscle proteins in blood",
+"grade": "several",
+"finding": "Muscle-derived proteins (myoglobin, troponins, CA3 and similar) are lower in ME/CFS blood at rest across three SomaScan cohorts and UK Biobank, not explained by step counts or walking pace.",
+"nst": 1,
+"ncon": 0
+},
+{
+"domain": "muscle-exertion",
+"id": "muscle-exertion-deconditioning",
+"sub": "Deconditioning versus disease",
+"grade": "several",
+"finding": "Several designs (aerobic-capacity-matched controls, idiopathic-fatigue and MS comparison groups, and a 60-day bed-rest model) indicate that deconditioning alone does not explain the exercise and muscle abnormalities in ME/CFS.",
+"nst": 4,
+"ncon": 1
+},
+{
+"domain": "neuro",
+"id": "neuro-cbf-tilt",
+"sub": "Cerebral perfusion / orthostatic",
+"grade": "replicated",
+"finding": "Blood flow to the brain falls much more than normal during head-up tilt in ME/CFS (about 26% vs 7% in controls), including in patients whose heart rate and blood pressure stay normal.",
+"nst": 4,
+"ncon": 1
+},
+{
+"domain": "neuro",
+"id": "neuro-hypocapnia",
+"sub": "Cerebral perfusion / orthostatic",
+"grade": "several",
+"finding": "Many patients over-breathe when upright and lower their end-tidal CO2. This drives part of the fall in brain blood flow, and correcting it with phenylephrine restored blood flow and working memory in one small trial.",
+"nst": 4,
+"ncon": 0
+},
+{
+"domain": "neuro",
+"id": "neuro-pots-prevalence",
+"sub": "Autonomic",
+"grade": "contested",
+"finding": "POTS occurs in a minority of ME/CFS patients, and published rates vary widely (about 6-43%) with the setting, the age group and the test protocol.",
+"nst": 3,
+"ncon": 1
+},
+{
+"domain": "neuro",
+"id": "neuro-hrv",
+"sub": "Autonomic",
+"grade": "replicated",
+"finding": "Resting heart rate is higher and high-frequency heart-rate variability lower in ME/CFS. This fits reduced vagal (parasympathetic) tone.",
+"nst": 2,
+"ncon": 0
+},
+{
+"domain": "neuro",
+"id": "neuro-nasa-lean",
+"sub": "Autonomic",
+"grade": "several",
+"finding": "On the 10-minute NASA lean test, a subgroup of recent-onset patients shows a rising heart rate with an abnormally narrow pulse pressure. Autonomic specialists say the test has not been validated against tilt or active stand.",
+"nst": 2,
+"ncon": 1
+},
+{
+"domain": "neuro",
+"id": "neuro-sfn-biopsy",
+"sub": "Small-fibre neuropathy",
+"grade": "contested",
+"finding": "Skin biopsies show reduced small-nerve-fibre density in about 31-53% of ME/CFS patients from specialist referral cohorts, but the controlled NIH study found no difference from healthy volunteers.",
+"nst": 3,
+"ncon": 1
+},
+{
+"domain": "neuro",
+"id": "neuro-sfn-longcovid",
+"sub": "Small-fibre neuropathy",
+"grade": "several",
+"finding": "Long COVID patients referred for neuropathy evaluation often have small-fibre neuropathy on skin biopsy, including loss of autonomic fibres to sweat glands and hair muscles.",
+"nst": 2,
+"ncon": 0
+},
+{
+"domain": "neuro",
+"id": "neuro-mri-structure",
+"sub": "Brain structure",
+"grade": "contested",
+"finding": "Conventional structural MRI (grey matter volume, routine clinical reads) shows no consistent abnormality in ME/CFS. Reported regional volume differences rarely replicate across groups.",
+"nst": 2,
+"ncon": 2
+},
+{
+"domain": "neuro",
+"id": "neuro-white-matter-diffusion",
+"sub": "Brain structure",
+"grade": "early",
+"finding": "Advanced diffusion MRI models report widespread white-matter differences in ME/CFS that conventional DTI misses, and the pattern may differ between post-infectious and gradual-onset cases.",
+"nst": 3,
+"ncon": 1
+},
+{
+"domain": "neuro",
+"id": "neuro-brainstem",
+"sub": "Brain structure",
+"grade": "several",
+"finding": "Brainstem differences (smaller volume, altered signal or connectivity) are among the more often repeated imaging findings in ME/CFS, though the methods differ between studies.",
+"nst": 3,
+"ncon": 0
+},
+{
+"domain": "neuro",
+"id": "neuro-fmri-post-exertion",
+"sub": "Functional MRI",
+"grade": "early",
+"finding": "After a single 30-minute exercise bout, women with ME/CFS performed worse on a demanding cognitive task and recruited more parietal and cingulate cortex. Controls improved.",
+"nst": 2,
+"ncon": 0
+},
+{
+"domain": "neuro",
+"id": "neuro-motor-fatigability",
+"sub": "Functional MRI",
+"grade": "early",
+"finding": "During a sustained grip task, ME/CFS patients fatigue earlier while their brain motor-network activity fails to ramp up as it does in controls (NIH; reduced temporoparietal-junction activation).",
+"nst": 2,
+"ncon": 0
+},
+{
+"domain": "neuro",
+"id": "neuro-mrs-lactate",
+"sub": "MR spectroscopy",
+"grade": "several",
+"finding": "Brain lactate measured by MR spectroscopy is raised in ME/CFS: ventricular CSF lactate in three cohorts from one group, and thalamic or regional lactate in two other groups. It is also raised in depression, so it is not specific.",
+"nst": 4,
+"ncon": 1
+},
+{
+"domain": "neuro",
+"id": "neuro-brain-temperature",
+"sub": "MR spectroscopy",
+"grade": "early",
+"finding": "MRS thermometry found raised temperature in several brain regions (insula, putamen, frontal cortex, thalamus, cerebellum) in women with ME/CFS, not explained by body temperature.",
+"nst": 1,
+"ncon": 1
+},
+{
+"domain": "neuro",
+"id": "neuro-pet-tspo-mecfs",
+"sub": "PET neuroinflammation",
+"grade": "contested",
+"finding": "TSPO-PET evidence of microglial activation in ME/CFS is contested: one Japanese study found 45-199% higher binding in limbic and brainstem regions, and a Dutch study using the same tracer found none.",
+"nst": 1,
+"ncon": 1
+},
+{
+"domain": "neuro",
+"id": "neuro-pet-tspo-longcovid",
+"sub": "PET neuroinflammation",
+"grade": "contested",
+"finding": "In long COVID, one [11C]PBR28 PET study found widespread raised TSPO signal that correlated with vascular markers, and a [11C]PK11195 study found no group difference.",
+"nst": 1,
+"ncon": 1
+},
+{
+"domain": "neuro",
+"id": "neuro-cbf-rest",
+"sub": "Cerebral perfusion",
+"grade": "contested",
+"finding": "Resting (supine) cerebral blood flow by ASL or SPECT is reported as lower in some ME/CFS studies, but the results are inconsistent and often confounded by unmeasured orthostatic intolerance.",
+"nst": 2,
+"ncon": 1
+},
+{
+"domain": "neuro",
+"id": "neuro-csf-catechol",
+"sub": "Cerebrospinal fluid",
+"grade": "early",
+"finding": "In the NIH cohort, CSF levels of the catechol metabolites DOPA, DOPAC and DHPG were lower in post-infectious ME/CFS. Noradrenaline and dopamine did not differ.",
+"nst": 1,
+"ncon": 0
+},
+{
+"domain": "neuro",
+"id": "neuro-csf-immune-proteome",
+"sub": "Cerebrospinal fluid",
+"grade": "contested",
+"finding": "CSF cytokine and proteome studies report differences (e.g. raised eotaxin/CCL11, distinct immunotypes), but no CSF protein signature has replicated, and ME/CFS and fibromyalgia CSF proteomes were indistinguishable.",
+"nst": 4,
+"ncon": 2
+},
+{
+"domain": "neuro",
+"id": "neuro-csf-metabolomics",
+"sub": "Cerebrospinal fluid",
+"grade": "early",
+"finding": "Targeted CSF metabolomics found raised serine and phospholipids and reduced 5-methyltetrahydrofolate in ME/CFS, with different metabolite responses to exercise than in controls.",
+"nst": 1,
+"ncon": 1
+},
+{
+"domain": "neuro",
+"id": "neuro-injury-markers",
+"sub": "Cerebrospinal fluid",
+"grade": "several",
+"finding": "Markers of neuronal or glial injury (NfL, GFAP, tau, UCH-L1) are not raised in ME/CFS blood or CSF.",
+"nst": 2,
+"ncon": 0
+},
+{
+"domain": "neuro",
+"id": "neuro-cci",
+"sub": "Craniocervical / intracranial pressure",
+"grade": "early",
+"finding": "Uncontrolled clinic series report high rates of craniocervical 'obstruction', low-lying tonsils and signs of raised intracranial pressure in severe ME/CFS, and surgical case reports describe improvement. There are no controlled imaging studies or trials.",
+"nst": 3,
+"ncon": 1
+},
+{
+"domain": "neuro",
+"id": "neuro-effort-preference",
+"sub": "Effort and motivation",
+"grade": "contested",
+"finding": "The NIH claim that altered 'effort preference' defines post-infectious ME/CFS rests on the EEfRT (OR 1.65 for choosing hard tasks). Patients completed only 65% of the hard tasks they chose vs 96% for controls, which confounds preference with ability.",
+"nst": 2,
+"ncon": 2
+},
+{
+"domain": "neuro",
+"id": "neuro-cognition",
+"sub": "Cognition",
+"grade": "replicated",
+"finding": "Meta-analysis shows moderate-to-large deficits in information-processing speed, attention, working memory and reaction time in ME/CFS, with intact vocabulary and reasoning. Performance worsens with upright posture and after exertion.",
+"nst": 2,
+"ncon": 1
+},
+{
+"domain": "neuro",
+"id": "neuro-sleep",
+"sub": "Sleep",
+"grade": "several",
+"finding": "Objective sleep in adult ME/CFS shows modestly longer sleep latency, more wake after sleep onset and lower sleep efficiency. Standard polysomnography usually finds no clinical disorder that explains non-restorative sleep.",
+"nst": 2,
+"ncon": 1
+},
+{
+"domain": "neuro",
+"id": "neuro-sensory",
+"sub": "Sensory sensitivity",
+"grade": "early",
+"finding": "Self-reported light and sound sensitivity is common in ME/CFS. One ERP study found normal early sensory gating (P50) but a reduced P300, pointing to higher-order processing rather than early filtering.",
+"nst": 2,
+"ncon": 0
+},
+{
+"domain": "immune",
+"id": "immune-nk-cytotoxicity",
+"sub": "NK cells",
+"grade": "contested",
+"finding": "Natural-killer-cell cytotoxicity is reduced in ME/CFS in meta-analysis of the older literature (Hedges g ~0.96), but the largest standardised multi-site study and two deep-phenotyping studies found no difference.",
+"nst": 4,
+"ncon": 3
+},
+{
+"domain": "immune",
+"id": "immune-trpm3",
+"sub": "NK cells",
+"grade": "early",
+"finding": "Reduced TRPM3 ion-channel current and calcium influx in patients' NK cells has been reported repeatedly, including a two-site study (36 vs 42), but only ever by one research group.",
+"nst": 3,
+"ncon": 2
+},
+{
+"domain": "immune",
+"id": "immune-cd8-exhaustion",
+"sub": "T cells",
+"grade": "several",
+"finding": "CD8+ effector-memory T cells in ME/CFS show transcriptional and chromatin features of exhaustion, with supporting flow cytometry and an independent cell-free RNA signature.",
+"nst": 4,
+"ncon": 1
+},
+{
+"domain": "immune",
+"id": "immune-tcell-severity",
+"sub": "T cells",
+"grade": "early",
+"finding": "T-cell abnormalities differ by severity: mild/moderate patients show cytotoxic/immunosenescence features, severe patients show activated lymphocytes and higher stimulated pro-inflammatory cytokines.",
+"nst": 1,
+"ncon": 0
+},
+{
+"domain": "immune",
+"id": "immune-mait",
+"sub": "T cells",
+"grade": "contested",
+"finding": "Increased mucosal-associated invariant T (MAIT) cell proportions and a shift in CD8+ memory subsets were found in the largest single ME/CFS flow-cytometry cohort, but the finding has not been reproduced in independent data.",
+"nst": 1,
+"ncon": 1
+},
+{
+"domain": "immune",
+"id": "immune-tcr-repertoire",
+"sub": "T cells",
+"grade": "refuted",
+"finding": "T-cell receptor repertoires do not distinguish ME/CFS from controls, arguing against a dominant shared antigen-driven clonal expansion.",
+"nst": 2,
+"ncon": 0
+},
+{
+"domain": "immune",
+"id": "immune-bcell-maturation",
+"sub": "B cells",
+"grade": "early",
+"finding": "The NIH deep-phenotyping study found more naive and fewer switched-memory B cells in post-infectious ME/CFS, consistent with chronic antigenic stimulation; supporting signals exist but are weak.",
+"nst": 3,
+"ncon": 1
+},
+{
+"domain": "immune",
+"id": "immune-bcr-repertoire",
+"sub": "B cells",
+"grade": "contested",
+"finding": "Reported skewing of the B-cell receptor repertoire (IGHV3-30/3-33 overuse) partially replicates in mild/moderate patients but shows no clonality, somatic-hypermutation or autoimmunity signature.",
+"nst": 2,
+"ncon": 1
+},
+{
+"domain": "immune",
+"id": "immune-rituximab",
+"sub": "B cells",
+"grade": "refuted",
+"finding": "B-cell depletion with rituximab failed in a 151-patient placebo-controlled trial, after positive small phase II results.",
+"nst": 2,
+"ncon": 0
+},
+{
+"domain": "immune",
+"id": "immune-daratumumab",
+"sub": "Plasma cells",
+"grade": "early",
+"finding": "Plasma-cell depletion with daratumumab produced marked, in some cases sustained, improvement in 6 of 10 patients in an open-label pilot, with low baseline NK count predicting non-response.",
+"nst": 2,
+"ncon": 1
+},
+{
+"domain": "immune",
+"id": "immune-cytokine-duration",
+"sub": "Cytokines",
+"grade": "several",
+"finding": "Plasma cytokine abnormalities depend strongly on illness duration: a pro- and anti-inflammatory activation pattern early (under 3 years) that is absent in long-established illness.",
+"nst": 1,
+"ncon": 1
+},
+{
+"domain": "immune",
+"id": "immune-cytokine-severity",
+"sub": "Cytokines",
+"grade": "several",
+"finding": "In the largest single cytokine study, 17 cytokines rose in step with disease severity although only TGF-beta (up) and resistin (down) differed between all patients and controls.",
+"nst": 1,
+"ncon": 1
+},
+{
+"domain": "immune",
+"id": "immune-cytokine-meta",
+"sub": "Cytokines",
+"grade": "several",
+"finding": "Meta-analysis of 42 studies finds small but significant elevations of TNF, IL-2, IL-4, TGF-beta and CRP, with 12 other proteins showing no difference.",
+"nst": 3,
+"ncon": 2
+},
+{
+"domain": "immune",
+"id": "immune-tgfbeta-artefact",
+"sub": "Cytokines",
+"grade": "refuted",
+"finding": "The most-replicated single cytokine finding, elevated TGF-beta, is largely a blood-handling artefact driven by platelet activation during centrifugation.",
+"nst": 2,
+"ncon": 0
+},
+{
+"domain": "immune",
+"id": "immune-il1-blockade",
+"sub": "Cytokines",
+"grade": "refuted",
+"finding": "Blocking IL-1 with anakinra for four weeks did not improve fatigue in CFS, and did not change circulating cytokines beyond IL-1Ra itself.",
+"nst": 1,
+"ncon": 0
+},
+{
+"domain": "immune",
+"id": "immune-csf-cytokines",
+"sub": "Cytokines",
+"grade": "early",
+"finding": "Cerebrospinal fluid cytokine profiles differ from controls with raised eotaxin (CCL11) and disturbed IL-1 signalling, but CSF studies are small and partly contradicted by later proteomics.",
+"nst": 2,
+"ncon": 1
+},
+{
+"domain": "immune",
+"id": "immune-innate-hyperreactivity",
+"sub": "Innate immunity",
+"grade": "early",
+"finding": "Whole-blood immune responses to microbial antigens are exaggerated in ME/CFS and worsen after exercise, alongside complement activation and metabolic abnormalities.",
+"nst": 2,
+"ncon": 1
+},
+{
+"domain": "immune",
+"id": "immune-monocytes-platelets",
+"sub": "Innate immunity",
+"grade": "contested",
+"finding": "Single-cell transcriptomics showed classical-monocyte dysregulation at baseline and platelet-activation signatures after exercise, but a re-analysis of the same data found no reproducible composition or expression differences.",
+"nst": 1,
+"ncon": 1
+},
+{
+"domain": "immune",
+"id": "immune-cfrna",
+"sub": "Cell-free RNA",
+"grade": "early",
+"finding": "Plasma cell-free RNA carries an immune-weighted ME/CFS signature that classifies cases with held-out AUC 0.81, with raised plasmacytoid-dendritic, monocyte and T-cell-derived transcripts.",
+"nst": 1,
+"ncon": 1
+},
+{
+"domain": "immune",
+"id": "immune-gpcr-autoantibodies",
+"sub": "Autoantibodies",
+"grade": "refuted",
+"finding": "Elevated IgG against beta2-adrenergic and M3/M4 muscarinic receptors, reported in about 30% of patients by ELISA, is not reproduced by unbiased high-throughput antigen profiling.",
+"nst": 2,
+"ncon": 2
+},
+{
+"domain": "immune",
+"id": "immune-immunoadsorption",
+"sub": "Autoantibodies",
+"grade": "refuted",
+"finding": "Removing autoantibodies by immunoadsorption helps in open-label cohorts but fails against sham control, and antibody removal does not predict who improves.",
+"nst": 3,
+"ncon": 2
+},
+{
+"domain": "immune",
+"id": "immune-bc007",
+"sub": "Autoantibodies",
+"grade": "contested",
+"finding": "BC007 (rovunaptabin), an aptamer that neutralises GPCR autoantibodies, showed secondary-endpoint fatigue improvement in a 30-patient exploratory trial but failed in the larger company-run phase II.",
+"nst": 1,
+"ncon": 1
+},
+{
+"domain": "immune",
+"id": "immune-igg-transfer-mice",
+"sub": "Autoantibodies",
+"grade": "several",
+"finding": "IgG from long COVID patients transfers pain, fatigue-like behaviour and small-fibre nerve damage to mice in three independent 2026 studies; no equivalent published ME/CFS transfer experiment exists.",
+"nst": 3,
+"ncon": 2
+},
+{
+"domain": "immune",
+"id": "immune-igg-endothelial",
+"sub": "Autoantibodies",
+"grade": "early",
+"finding": "Purified IgG from ME/CFS patients fragments mitochondria and shifts energetics in human endothelial cells, an effect absent with multiple-sclerosis and healthy IgG and lost on Fab/Fc cleavage.",
+"nst": 2,
+"ncon": 1
+},
+{
+"domain": "immune",
+"id": "immune-igg-subclass",
+"sub": "Humoral deficiency",
+"grade": "several",
+"finding": "A sizeable minority of ME/CFS patients have IgG subclass or mannose-binding-lectin deficiency, with IgG3 and IgG4 the commonest phenotypes, and registry data show strong enrichment of coded antibody deficiency.",
+"nst": 3,
+"ncon": 1
+},
+{
+"domain": "immune",
+"id": "immune-mast-cell",
+"sub": "Mast cells",
+"grade": "early",
+"finding": "Clinically relevant mast cell activation is reported in up to a quarter of ME/CFS patients, associates with orthostatic intolerance and POTS, and those patients report more benefit from mast-cell-directed treatment.",
+"nst": 2,
+"ncon": 1
+},
+{
+"domain": "immune",
+"id": "immune-interferon-alpha-model",
+"sub": "Sickness behaviour",
+"grade": "early",
+"finding": "In the interferon-alpha fatigue model, higher baseline IL-6 and IL-10 and a larger early cytokine and fatigue surge predict fatigue that persists after the immune trigger is gone.",
+"nst": 2,
+"ncon": 0
+},
+{
+"domain": "immune",
+"id": "immune-sickness-behaviour",
+"sub": "Sickness behaviour",
+"grade": "replicated",
+"finding": "Acute-infection symptom severity, and the pro-inflammatory cytokine response and genotypes behind it, predict who develops post-infective fatigue, while microbiological and psychological factors do not.",
+"nst": 3,
+"ncon": 1
+},
+{
+"domain": "immune",
+"id": "immune-longcovid-overlap",
+"sub": "Long COVID",
+"grade": "several",
+"finding": "Long COVID immune profiling finds exhausted T cells, myeloid shifts, raised antibodies to non-SARS-CoV-2 viruses especially EBV, and low cortisol, giving a reference phenotype for post-infectious illness.",
+"nst": 2,
+"ncon": 1
+},
+{
+"domain": "immune",
+"id": "immune-genetics-null",
+"sub": "Genetics vs immunity",
+"grade": "replicated",
+"finding": "Common-variant genetics shows no enrichment of ME/CFS risk in any blood immune cell type, implying most immune findings are downstream consequences rather than inherited causes.",
+"nst": 2,
+"ncon": 1
+},
+{
+"domain": "immune",
+"id": "immune-il11-mmp9",
+"sub": "Cytokines",
+"grade": "early",
+"finding": "Newly reported elevations of serum IL-11 and MMP-9 in female ME/CFS patients are unreplicated single-cohort findings.",
+"nst": 1,
+"ncon": 1
+},
+{
+"domain": "infection",
+"id": "infection-dubbo-stereotyped-pifs",
+"sub": "Post-infectious onset",
+"grade": "replicated",
+"finding": "About 11-12% of people with confirmed EBV, Q fever or Ross River virus infection meet CFS criteria at 6 months, at a similar rate for all three pathogens, and the severity of the acute illness predicts it.",
+"nst": 1,
+"ncon": 0
+},
+{
+"domain": "infection",
+"id": "infection-katz-post-mono-adolescents",
+"sub": "Post-infectious onset",
+"grade": "replicated",
+"finding": "After infectious mononucleosis in adolescents, 13%, 7% and 4% met paediatric CFS criteria at 6, 12 and 24 months; all 13 cases still ill at 24 months were female.",
+"nst": 2,
+"ncon": 0
+},
+{
+"domain": "infection",
+"id": "infection-giardia-bergen",
+"sub": "Post-infectious onset",
+"grade": "several",
+"finding": "A waterborne Giardia outbreak in Bergen (2004) left chronic fatigue in 26% of exposed people vs 11% of matched controls 10 years later (adjusted OR 3.0), and more than half of those referred with lasting fatigue met CFS criteria.",
+"nst": 2,
+"ncon": 0
+},
+{
+"domain": "infection",
+"id": "infection-q-fever-qfs",
+"sub": "Post-infectious onset",
+"grade": "several",
+"finding": "Q fever fatigue syndrome (QFS) follows roughly 20% of acute Q fever and persists more than 10 years after infection in many patients, almost all of whom report post-exertional malaise; doxycycline did not help.",
+"nst": 2,
+"ncon": 0
+},
+{
+"domain": "infection",
+"id": "infection-post-covid-mecfs-incidence",
+"sub": "Post-infectious onset",
+"grade": "replicated",
+"finding": "In RECOVER-Adult, new ME/CFS (IOM criteria) developed at 2.66 per 100 person-years after SARS-CoV-2 infection vs 0.93 in uninfected participants (HR 4.93), and 4.5% of infected participants met criteria.",
+"nst": 3,
+"ncon": 1
+},
+{
+"domain": "infection",
+"id": "infection-ebv-serology-not-different",
+"sub": "EBV",
+"grade": "several",
+"finding": "In large well-characterised cohorts, standard EBV and other herpesvirus seroprevalence and overall IgG reactivity do not differ between ME/CFS patients and controls.",
+"nst": 3,
+"ncon": 1
+},
+{
+"domain": "infection",
+"id": "infection-ebv-deficient-memory",
+"sub": "EBV",
+"grade": "early",
+"finding": "Charit\u00e9 studies report a deficient EBV-specific memory B- and T-cell response in CFS (absent or low EBNA-1/VCA antibody-secreting memory B cells in up to 76% of patients, fewer polyfunctional EBNA-1-specific T cells), while CMV responses were normal.",
+"nst": 4,
+"ncon": 0
+},
+{
+"domain": "infection",
+"id": "infection-ebv-dna-load-blood",
+"sub": "EBV",
+"grade": "early",
+"finding": "Detectable cell-free EBV DNA in plasma has been reported more often in ME/CFS (24% vs 4% in one Bulgarian study), but EBV DNA in blood cells is equally common in patients and controls.",
+"nst": 2,
+"ncon": 1
+},
+{
+"domain": "infection",
+"id": "infection-ebv-genetic-load-mr",
+"sub": "EBV",
+"grade": "early",
+"finding": "Genetic instruments for higher EBV DNA load in blood (Kamitaki 2026) are associated with ME/CFS risk in the Million Veteran Program (OR 1.59, p=0.012) but not significantly in DecodeME (OR 1.13, p=0.25).",
+"nst": 1,
+"ncon": 1
+},
+{
+"domain": "infection",
+"id": "infection-herpes-dutpase-antibodies",
+"sub": "EBV",
+"grade": "early",
+"finding": "Antibodies against herpesvirus dUTPases (EBV, HHV-6, VZV), proposed as a marker of lytic or abortive-lytic reactivation, are higher in ME/CFS in studies from one lab, including a 2026 longitudinal study (873 serum samples, 40 patients vs 16 controls) where levels tracked fatigue severity.",
+"nst": 2,
+"ncon": 1
+},
+{
+"domain": "infection",
+"id": "infection-ebv-reactivation-long-covid",
+"sub": "EBV",
+"grade": "several",
+"finding": "Serologic evidence of recent EBV reactivation (EA-D IgG) is associated with long COVID fatigue (OR 2.12) in a 280-person cohort, consistent with an earlier small report.",
+"nst": 2,
+"ncon": 0
+},
+{
+"domain": "infection",
+"id": "infection-herpes-complement-link",
+"sub": "Herpes-complement",
+"grade": "early",
+"finding": "In active long COVID, classical complement pathway activation tracked raised antibody titres against several herpesviruses, alongside markers of haemolysis, platelet activation and monocyte-platelet aggregates.",
+"nst": 1,
+"ncon": 0
+},
+{
+"domain": "infection",
+"id": "infection-hhv6-tissue-mirna",
+"sub": "HHV-6",
+"grade": "early",
+"finding": "HHV-6 microRNA (miR-aU14) was detected by in situ hybridisation in brain and spinal cord tissue from 3 ME/CFS post-mortem donors but not in 24 controls (Kasimir 2022).",
+"nst": 2,
+"ncon": 2
+},
+{
+"domain": "infection",
+"id": "infection-cihhv6",
+"sub": "HHV-6",
+"grade": "early",
+"finding": "Inherited chromosomally integrated HHV-6 (iciHHV-6, ~1% of people) has been reported at roughly twice the population rate in a neurological/fatigue clinic cohort, but this has not been confirmed in a large ME/CFS sample.",
+"nst": 2,
+"ncon": 0
+},
+{
+"domain": "infection",
+"id": "infection-enterovirus-stomach-chia",
+"sub": "Enterovirus",
+"grade": "contested",
+"finding": "Enteroviral VP1 protein was found in stomach biopsies from 82% of 165 CFS patients vs 20% of controls, with EV RNA in 37% vs 5%, but this has not been independently replicated with blinded methods.",
+"nst": 2,
+"ncon": 2
+},
+{
+"domain": "infection",
+"id": "infection-sarscov2-plasma-antigen",
+"sub": "SARS-CoV-2 persistence",
+"grade": "several",
+"finding": "SARS-CoV-2 spike, S1 or nucleocapsid antigen is detectable in plasma more often after COVID than in pre-pandemic samples (excess +11% at 3-6 months, +5.4% at 10-14 months), with more antigenemia after more severe acute illness.",
+"nst": 2,
+"ncon": 1
+},
+{
+"domain": "infection",
+"id": "infection-sarscov2-tissue-gut",
+"sub": "SARS-CoV-2 persistence",
+"grade": "several",
+"finding": "SARS-CoV-2 RNA and protein persist in gut and other tissues for months to two years in a minority of people, and in a Beijing tissue study, viral RNA in tissue was associated with long COVID symptoms (OR 5.17).",
+"nst": 4,
+"ncon": 0
+},
+{
+"domain": "infection",
+"id": "infection-paxlovid-lc-null",
+"sub": "Antiviral trials",
+"grade": "replicated",
+"finding": "Three randomised placebo-controlled trials of 15-25 days of nirmatrelvir-ritonavir in established long COVID (STOP-PASC n=155, PAX LC n=100, RECOVER-VITAL n=959; about 1,214 people in total) found no benefit on primary or secondary outcomes.",
+"nst": 3,
+"ncon": 0
+},
+{
+"domain": "infection",
+"id": "infection-acute-antiviral-prevention",
+"sub": "Antiviral trials",
+"grade": "early",
+"finding": "Treating acute COVID-19 with nirmatrelvir may reduce later long COVID: a small terminated Norwegian RCT found 26% vs 43% at 3 months (RR 0.60), echoing observational VA data, but larger prospective evidence is lacking.",
+"nst": 2,
+"ncon": 1
+},
+{
+"domain": "infection",
+"id": "infection-valganciclovir-montoya",
+"sub": "Antiviral trials",
+"grade": "early",
+"finding": "In a 30-patient RCT of 6 months of valganciclovir in CFS patients selected for high HHV-6 and EBV IgG, the primary MFI-20 outcome was not significant, though some secondary fatigue and cognitive trajectories favoured the drug.",
+"nst": 3,
+"ncon": 0
+},
+{
+"domain": "infection",
+"id": "infection-herv-expression",
+"sub": "Endogenous retroviruses",
+"grade": "early",
+"finding": "Human endogenous retrovirus (HERV) expression in blood cells differs between ME/CFS, fibromyalgia and controls in small studies (HERV-K raised in moderate ME/CFS; HERV microarray profiles clustered n=43 participants perfectly by diagnosis).",
+"nst": 2,
+"ncon": 0
+},
+{
+"domain": "infection",
+"id": "infection-temelimab-null",
+"sub": "Endogenous retroviruses",
+"grade": "refuted",
+"finding": "Temelimab, an antibody against HERV-W envelope protein, did not reduce fatigue versus placebo in a 203-person RCT of HERV-W-positive post-COVID patients.",
+"nst": 1,
+"ncon": 0
+},
+{
+"domain": "infection",
+"id": "infection-xmrv-cautionary",
+"sub": "Retroviruses (XMRV)",
+"grade": "refuted",
+"finding": "The 2009 report of the mouse retrovirus XMRV in 67% of CFS patients was a laboratory contamination artefact: blinded multi-lab and original-investigator studies found no XMRV/pMLV, and the Science paper was retracted.",
+"nst": 3,
+"ncon": 0
+},
+{
+"domain": "infection",
+"id": "infection-viral-vs-bacterial-registry",
+"sub": "Post-infectious onset",
+"grade": "early",
+"finding": "In Finnish registry data, ME/CFS (G93.3) is enriched 3-6-fold for prior viral infections (HSV, EBV, influenza, COVID, viral CNS infection) but not for bacterial pneumonia or erysipelas.",
+"nst": 1,
+"ncon": 0
+},
+{
+"domain": "omics",
+"id": "omics-metabolome-small-effects",
+"sub": "Metabolomics: overall",
+"grade": "replicated",
+"finding": "Blood metabolome differences between ME/CFS and controls are real at group level but small (mostly 0.2-0.5 SD) and partly cohort-specific; early near-perfect classification did not carry over to new cohorts.",
+"nst": 4,
+"ncon": 2
+},
+{
+"domain": "omics",
+"id": "omics-cdr-hypometabolic",
+"sub": "Metabolomics: cell danger response",
+"grade": "contested",
+"finding": "Naviaux 2016's picture of a homogeneous 'hypometabolic' dauer-like state (80% of discriminating metabolites decreased) has not been confirmed as a uniform pattern in later independent cohorts.",
+"nst": 2,
+"ncon": 2
+},
+{
+"domain": "omics",
+"id": "omics-lipids-plasmalogens",
+"sub": "Metabolomics: lipids and sphingolipids",
+"grade": "several",
+"finding": "Lower plasmalogens, some phosphatidylcholines and sphingomyelins are reported across several cohorts and platforms, with modest effect sizes.",
+"nst": 4,
+"ncon": 1
+},
+{
+"domain": "omics",
+"id": "omics-aromatic-lactates",
+"sub": "Metabolomics: aromatic lactates",
+"grade": "several",
+"finding": "Four aromatic 2-hydroxy acids (phenyllactate, 4-hydroxyphenyllactate, indolelactate, imidazole lactate) are lower in ME/CFS in 5 of 5 cohorts (combined -0.53 SD, I\u00b2=0), robust to drug, caffeine, diet and kidney-function adjustment.",
+"nst": 1,
+"ncon": 0
+},
+{
+"domain": "omics",
+"id": "omics-ipa",
+"sub": "Metabolomics: tryptophan / gut metabolites",
+"grade": "several",
+"finding": "Indole-3-propionate (IPA), a gut-bacterial tryptophan product, is lower in ME/CFS plasma in 4 of 4 cohorts (-0.33 SD) and tracks butyrate-producing gut species.",
+"nst": 3,
+"ncon": 0
+},
+{
+"domain": "omics",
+"id": "omics-kynurenine-ido",
+"sub": "Metabolomics: kynurenine pathway / IDO trap",
+"grade": "contested",
+"finding": "The IDO metabolic-trap model predicts tryptophan-kynurenine pathway disruption, but blood data are inconsistent: one cohort found higher kynurenine, others found no difference or slightly lower kynurenine.",
+"nst": 2,
+"ncon": 3
+},
+{
+"domain": "omics",
+"id": "omics-carnitines",
+"sub": "Metabolomics: acylcarnitines and fatty acids",
+"grade": "several",
+"finding": "Free carnitine and long-chain acylcarnitines are slightly lower in ME/CFS across cohorts, contrary to the earlier idea of excess circulating fatty acids.",
+"nst": 5,
+"ncon": 1
+},
+{
+"domain": "omics",
+"id": "omics-energy-fuel-pdh",
+"sub": "Metabolomics: energy metabolism",
+"grade": "contested",
+"finding": "Several studies infer impaired carbohydrate oxidation (pyruvate dehydrogenase restraint, TCA/urea cycle shifts), but simple blood ratios (lactate/pyruvate, citrulline/arginine) do not differ across pooled cohorts.",
+"nst": 4,
+"ncon": 1
+},
+{
+"domain": "omics",
+"id": "omics-ketones",
+"sub": "Metabolomics: ketones",
+"grade": "contested",
+"finding": "Ketone bodies are associated with ME/CFS in UK Biobank NMR data, but 3-hydroxybutyrate shows no consistent difference in pooled case-control cohorts.",
+"nst": 1,
+"ncon": 1
+},
+{
+"domain": "omics",
+"id": "omics-exercise-metabolome",
+"sub": "Metabolomics: exercise response",
+"grade": "contested",
+"finding": "Germain 2022 reported growing metabolic divergence after a 2-day CPET; within-person re-analysis finds the exercise response itself barely differs (blunted lactate and glucose rise aside).",
+"nst": 1,
+"ncon": 1
+},
+{
+"domain": "omics",
+"id": "omics-collagen-metso",
+"sub": "Metabolomics: collagen turnover",
+"grade": "early",
+"finding": "Collagen breakdown products (hydroxyproline, galactosyl-hydroxylysine and related) are higher in ME/CFS plasma (+0.52 SD, 4/4 Metabolon cohorts; hydroxyproline also up on 3 other platforms).",
+"nst": 1,
+"ncon": 0
+},
+{
+"domain": "omics",
+"id": "omics-redox",
+"sub": "Redox / oxidative stress",
+"grade": "several",
+"finding": "Markers of oxidative stress (methionine sulfoxide, oxidised glutathione products, lower brain glutathione) are repeatedly reported, but they are non-specific and also seen in depression.",
+"nst": 3,
+"ncon": 0
+},
+{
+"domain": "omics",
+"id": "omics-nad",
+"sub": "NAD+",
+"grade": "early",
+"finding": "NAD+ depletion is a proposed mechanism but has not been directly established in ME/CFS cohorts; NAD precursor trials raise NAD+ without clear clinical benefit.",
+"nst": 3,
+"ncon": 1
+},
+{
+"domain": "omics",
+"id": "omics-ukb-blood-traits",
+"sub": "Proteomics and blood traits: UK Biobank",
+"grade": "several",
+"finding": "In UK Biobank, ME/CFS cases show many small blood-trait differences (inflammation, insulin resistance, liver markers) that replicate partly in All of Us and are not explained by low physical activity.",
+"nst": 1,
+"ncon": 0
+},
+{
+"domain": "omics",
+"id": "omics-proteome-muscle-low",
+"sub": "Proteomics: tissue-of-origin",
+"grade": "several",
+"finding": "Muscle-derived intracellular proteins (myoglobin, troponins, CA3 and similar) are lower in resting ME/CFS blood across three SomaScan cohorts and UK Biobank Olink, and this is not explained by activity measures.",
+"nst": 2,
+"ncon": 0
+},
+{
+"domain": "omics",
+"id": "omics-proteome-hoel-leak",
+"sub": "Proteomics: SomaScan artefacts",
+"grade": "contested",
+"finding": "Most of the ~845 FDR-significant serum proteins in Hoel 2026 appear driven by a sample-handling (cell-leak) signal that is absent from other cohorts; about 13 survive adjustment.",
+"nst": 1,
+"ncon": 1
+},
+{
+"domain": "omics",
+"id": "omics-proteome-liver-vascular",
+"sub": "Proteomics: replicated small shifts",
+"grade": "early",
+"finding": "Hepatocyte enzymes (ADH4, GSTA1, AGXT, BCHE) are modestly higher, and vascular mural/matrix proteins (ITGAV, NOTCH3, LUM, THBS1, TGF-beta family) modestly lower, in more than one cohort.",
+"nst": 2,
+"ncon": 0
+},
+{
+"domain": "omics",
+"id": "omics-exertion-proteome",
+"sub": "Proteomics: exertion",
+"grade": "contested",
+"finding": "Germain 2025 reported patient-specific proteomic changes during recovery after a 2-day CPET, but a within-person re-analysis of the same data finds no protein whose exercise response differs at FDR.",
+"nst": 3,
+"ncon": 1
+},
+{
+"domain": "omics",
+"id": "omics-ev",
+"sub": "Extracellular vesicles",
+"grade": "early",
+"finding": "Plasma extracellular vesicle (EV) counts may be higher in ME/CFS, but no EV protein or microRNA difference has survived multiple-testing correction in a replicated cohort.",
+"nst": 2,
+"ncon": 1
+},
+{
+"domain": "omics",
+"id": "omics-csf-proteome",
+"sub": "CSF proteomics",
+"grade": "early",
+"finding": "CSF proteomics in ME/CFS is limited to small cohorts and has not produced a replicated protein difference; the largest recent study (31 patients) had no controls.",
+"nst": 2,
+"ncon": 1
+},
+{
+"domain": "omics",
+"id": "omics-transcriptome-sc",
+"sub": "Transcriptomics and single-cell",
+"grade": "contested",
+"finding": "Blood transcriptome and single-cell RNA studies report monocyte and platelet abnormalities, but no gene or cell subtype difference replicates across independent cohorts.",
+"nst": 2,
+"ncon": 1
+},
+{
+"domain": "omics",
+"id": "omics-methylation",
+"sub": "Epigenetics / DNA methylation",
+"grade": "contested",
+"finding": "Reported genome-wide blood DNA methylation differences have not replicated across cohorts, at least one large set is explained by cell-composition differences, and epigenetic clocks are not accelerated.",
+"nst": 3,
+"ncon": 1
+},
+{
+"domain": "omics",
+"id": "omics-nanoneedle",
+"sub": "Diagnostics: nanoneedle impedance",
+"grade": "early",
+"finding": "A nanoelectronic impedance assay separated 20 ME/CFS from 20 controls perfectly after hyperosmotic stress, but there is no published independent replication.",
+"nst": 1,
+"ncon": 1
+},
+{
+"domain": "omics",
+"id": "omics-raman",
+"sub": "Diagnostics: Raman spectroscopy",
+"grade": "early",
+"finding": "Raman spectroscopy of PBMCs or plasma separates ME/CFS from controls in single-centre studies (plasma AUC 0.83-0.85), without external validation.",
+"nst": 2,
+"ncon": 0
+},
+{
+"domain": "omics",
+"id": "omics-cfrna",
+"sub": "Diagnostics: cell-free RNA",
+"grade": "early",
+"finding": "Plasma cell-free RNA classified ME/CFS vs sedentary controls with test-set AUC 0.81 and suggested platelet, pDC and monocyte-derived differences; not yet externally validated.",
+"nst": 1,
+"ncon": 0
+},
+{
+"domain": "omics",
+"id": "omics-ml-classifiers",
+"sub": "Diagnostics: machine-learning classifiers",
+"grade": "contested",
+"finding": "Multi-omic machine-learning classifiers (BioMapAI and others) perform well in cross-validation but drop to AUC ~0.6-0.77 on external cohorts, so none is usable for diagnosis.",
+"nst": 3,
+"ncon": 2
+},
+{
+"domain": "omics",
+"id": "omics-coverage-limits",
+"sub": "Most comprehensive blood studies",
+"grade": "replicated",
+"finding": "Even the deepest blood omics studies sample mainly at rest, in mild-to-moderate patients, in plasma or serum only, and rarely test fresh-cell function or the 48-72 h PEM window.",
+"nst": 4,
+"ncon": 0
+},
+{
+"domain": "endocrine",
+"id": "endocrine-hpa-low-cortisol",
+"sub": "HPA axis",
+"grade": "replicated",
+"finding": "On average, people with ME/CFS have mildly lower free cortisol (salivary awakening and morning cortisol, 24-h urinary cortisol and hair cortisol) than healthy controls.",
+"nst": 3,
+"ncon": 1
+},
+{
+"domain": "endocrine",
+"id": "endocrine-hpa-feedback",
+"sub": "HPA axis",
+"grade": "several",
+"finding": "Challenge tests show a blunted cortisol response to ACTH and exaggerated cortisol suppression after a glucocorticoid dose, consistent with enhanced negative feedback.",
+"nst": 1,
+"ncon": 1
+},
+{
+"domain": "endocrine",
+"id": "endocrine-longcovid-cortisol",
+"sub": "HPA axis",
+"grade": "contested",
+"finding": "Lower cortisol in long COVID, reported in a 2023 Nature cohort, has not held up in later clinic and cohort studies that controlled for sampling time.",
+"nst": 2,
+"ncon": 2
+},
+{
+"domain": "endocrine",
+"id": "endocrine-hydrocortisone-trials",
+"sub": "HPA axis treatment",
+"grade": "contested",
+"finding": "Low-dose hydrocortisone produced at most small, short-term fatigue benefits in two RCTs, at the cost of adrenal suppression and bone loss at higher doses.",
+"nst": 3,
+"ncon": 1
+},
+{
+"domain": "endocrine",
+"id": "endocrine-fludrocortisone-null",
+"sub": "Salt-retaining hormones (treatment)",
+"grade": "refuted",
+"finding": "Fludrocortisone, a synthetic salt-retaining steroid, did not improve CFS with neurally mediated hypotension in a 100-person RCT, and failed again in combination with hydrocortisone.",
+"nst": 1,
+"ncon": 0
+},
+{
+"domain": "endocrine",
+"id": "endocrine-adrenal-pituitary-minority",
+"sub": "Adrenal and pituitary disease",
+"grade": "early",
+"finding": "Diagnosed adrenal insufficiency and hypopituitarism are 7 to 13 times more common than expected among Finnish patients coded with postviral fatigue syndrome.",
+"nst": 2,
+"ncon": 0
+},
+{
+"domain": "endocrine",
+"id": "endocrine-low-vasopressin",
+"sub": "Water balance (ADH/vasopressin)",
+"grade": "early",
+"finding": "After overnight fluid deprivation, plasma vasopressin was undetectable in 82% of 111 Swedish ME/CFS patients despite high plasma osmolality in 57%, suggesting partial central diabetes insipidus-like physiology.",
+"nst": 2,
+"ncon": 1
+},
+{
+"domain": "endocrine",
+"id": "endocrine-renin-aldosterone-paradox",
+"sub": "Renin-angiotensin-aldosterone",
+"grade": "several",
+"finding": "Patients with POTS and with ME/CFS show normal or low renin and low aldosterone despite reduced blood volume (the 'renin-aldosterone paradox').",
+"nst": 2,
+"ncon": 2
+},
+{
+"domain": "endocrine",
+"id": "endocrine-low-t3",
+"sub": "Thyroid",
+"grade": "early",
+"finding": "In one Dutch case-control study, CFS patients had normal TSH but lower total T3, T4 and free T3, with a higher reverse-T3 fraction ('low T3 syndrome' pattern in 16% vs 7%).",
+"nst": 1,
+"ncon": 0
+},
+{
+"domain": "endocrine",
+"id": "endocrine-gh-igf1",
+"sub": "Growth hormone",
+"grade": "contested",
+"finding": "Reports of low IGF-1 and reduced growth hormone responses in CFS conflict, and the largest controlled study found an intact GH/IGF system.",
+"nst": 2,
+"ncon": 2
+},
+{
+"domain": "endocrine",
+"id": "endocrine-female-preponderance",
+"sub": "Sex differences",
+"grade": "replicated",
+"finding": "ME/CFS and long COVID are more common in women (ME/CFS prevalence about 1.4% vs 0.9%; DecodeME 82% female), but genetic risk variants are not sex-specific.",
+"nst": 3,
+"ncon": 0
+},
+{
+"domain": "endocrine",
+"id": "endocrine-gynaecological-menopause",
+"sub": "Sex hormones and menopause",
+"grade": "early",
+"finding": "Women with CFS report more endometriosis, heavy bleeding, pelvic pain, hysterectomy and earlier menopause than controls in US population-based case-control studies.",
+"nst": 3,
+"ncon": 0
+},
+{
+"domain": "endocrine",
+"id": "endocrine-androgens-not-replicated",
+"sub": "Sex hormones",
+"grade": "contested",
+"finding": "Lower plasma androgenic steroids in ME/CFS (Cornell metabolomics) is mostly an age and sex artefact and does not replicate in BioMapAI.",
+"nst": 1,
+"ncon": 0
+},
+{
+"domain": "endocrine",
+"id": "endocrine-melatonin-circadian",
+"sub": "Melatonin and circadian rhythm",
+"grade": "early",
+"finding": "Melatonin may help the subgroup with delayed melatonin onset, and melatonin plus zinc modestly reduced physical fatigue in one small RCT.",
+"nst": 2,
+"ncon": 1
+},
+{
+"domain": "endocrine",
+"id": "endocrine-genetic-pituitary",
+"sub": "Genetics of hormone systems",
+"grade": "early",
+"finding": "ME/CFS genetic risk is enriched in brain tissues and the pituitary, but genetically predicted morning cortisol does not change risk.",
+"nst": 2,
+"ncon": 0
+},
+{
+"domain": "gut",
+"id": "gut-butyrate-producer-loss",
+"sub": "Dysbiosis",
+"grade": "replicated",
+"finding": "Stool from ME/CFS patients has fewer butyrate-producing bacteria (notably Faecalibacterium prausnitzii, Eubacterium rectale, Roseburia, Coprococcus) and reduced microbial capacity to make butyrate.",
+"nst": 5,
+"ncon": 2
+},
+{
+"domain": "gut",
+"id": "gut-rgnavus-bloom",
+"sub": "Dysbiosis",
+"grade": "several",
+"finding": "Ruminococcus gnavus, Flavonifractor plautii, Ruthenibacterium lactatiformans and Enterocloster species are increased in ME/CFS, consistently across BioMapAI, Guo 2023 and NIH cohorts and in long COVID.",
+"nst": 2,
+"ncon": 0
+},
+{
+"domain": "gut",
+"id": "gut-low-ipa",
+"sub": "Microbial metabolites",
+"grade": "replicated",
+"finding": "Plasma indole-3-propionate (IPA), a gut-bacteria product of tryptophan, is lower in ME/CFS in 4 of 4 plasma cohorts (pooled \u22120.33 SD), and the deficit is fully explained by stool composition, mainly the R. gnavus-type overgrowth.",
+"nst": 2,
+"ncon": 1
+},
+{
+"domain": "gut",
+"id": "gut-aromatic-lactates-host",
+"sub": "Microbial metabolites",
+"grade": "early",
+"finding": "The replicated deficit of aromatic lactates (indolelactate, phenyllactate, 4-hydroxyphenyllactate) in ME/CFS blood is not predicted by stool bacteria or bacterial genes, so it is probably host-side or due to absorption, not dysbiosis.",
+"nst": 2,
+"ncon": 0
+},
+{
+"domain": "gut",
+"id": "gut-duration-dependence",
+"sub": "Dysbiosis",
+"grade": "early",
+"finding": "Gut dysbiosis is strongest in the first years of illness and largely resolves in patients ill for more than 10 years, while their metabolic and clinical abnormalities persist.",
+"nst": 1,
+"ncon": 0
+},
+{
+"domain": "gut",
+"id": "gut-severity-link",
+"sub": "Dysbiosis and symptoms",
+"grade": "contested",
+"finding": "Links between specific gut bacteria and symptom severity are inconsistent: F. prausnitzii tracked fatigue in one cohort, but nothing survived correction for multiple testing in a 143-patient re-analysis.",
+"nst": 1,
+"ncon": 1
+},
+{
+"domain": "gut",
+"id": "gut-ibs-overlap",
+"sub": "IBS and GI symptoms",
+"grade": "replicated",
+"finding": "IBS is about seven times more common in ME/CFS (pooled OR 7.20; prevalence about 37%), and IBS status drives much of the measured microbiome difference.",
+"nst": 3,
+"ncon": 0
+},
+{
+"domain": "gut",
+"id": "gut-translocation-lps",
+"sub": "Gut permeability and translocation",
+"grade": "contested",
+"finding": "Blood markers of bacterial translocation (LPS, LPS-binding protein, sCD14, IgA/IgM to enterobacterial LPS) are raised in several small ME/CFS studies, but standardised replication is lacking.",
+"nst": 3,
+"ncon": 2
+},
+{
+"domain": "gut",
+"id": "gut-quadram-virome-immune",
+"sub": "Virome and mucosal immunity (Quadram Institute)",
+"grade": "early",
+"finding": "Quadram Institute studies of severe ME/CFS with household-matched controls report altered gut phage communities and reduced serum IgG reactivity to gut microbes, in very small samples.",
+"nst": 3,
+"ncon": 0
+},
+{
+"domain": "gut",
+"id": "gut-fmt-trials",
+"sub": "Treatment: faecal transplant",
+"grade": "early",
+"finding": "The only published randomised faecal microbiota transplant trial in CFS (n=11) found no benefit, and a larger Norwegian RCT (n=80) has not yet reported.",
+"nst": 2,
+"ncon": 1
+},
+{
+"domain": "gut",
+"id": "gut-probiotics",
+"sub": "Treatment: probiotics and diet",
+"grade": "early",
+"finding": "Probiotic trials in CFS are small; one 39-person RCT of Lactobacillus casei Shirota reduced anxiety but did not target fatigue.",
+"nst": 2,
+"ncon": 0
+},
+{
+"domain": "gut",
+"id": "gut-genetics-not-causal",
+"sub": "Genetics of the gut-brain axis",
+"grade": "early",
+"finding": "ME/CFS genetic risk overlaps with IBS and is enriched in enteric neurons, but genetically predicted gut-derived metabolites (IPA, indolelactate, kynurenine, bile acids) do not change ME/CFS risk.",
+"nst": 2,
+"ncon": 0
+},
+{
+"domain": "gut",
+"id": "gut-longcovid-parallel",
+"sub": "Long COVID",
+"grade": "several",
+"finding": "In long COVID, the gut microbiome at hospital admission predicted persistent symptoms, and at 6 months patients had more R. gnavus and fewer butyrate producers, mirroring ME/CFS.",
+"nst": 1,
+"ncon": 0
+},
+{
+"domain": "gut",
+"id": "gut-machine-learning-classifiers",
+"sub": "Multi-omics classifiers",
+"grade": "several",
+"finding": "Microbiome-based machine-learning classifiers distinguish ME/CFS from controls in held-out and external cohorts (BioMapAI, Guo 2023), but they are research tools with modest real-world specificity.",
+"nst": 2,
+"ncon": 0
+},
+{
+"domain": "genetics",
+"id": "genetics-familial-heritability",
+"sub": "Heritability and family studies",
+"grade": "replicated",
+"finding": "ME/CFS aggregates in families: relatives of cases have about 2-3x the risk, MZ twins are more concordant than DZ twins, and familiality in a 153,803-person Dutch cohort was 42%.",
+"nst": 3,
+"ncon": 0
+},
+{
+"domain": "genetics",
+"id": "genetics-decodeme-loci",
+"sub": "Genome-wide association (GWAS)",
+"grade": "several",
+"finding": "DecodeME (15,579 PEM-defined cases vs 259,909 controls) identified 8 genome-wide significant loci, each with a small effect (OR about 1.07-1.10), and SNP heritability of about 8-10%.",
+"nst": 1,
+"ncon": 1
+},
+{
+"domain": "genetics",
+"id": "genetics-polygenic-replication",
+"sub": "Replication in biobanks",
+"grade": "replicated",
+"finding": "The genome-wide DecodeME signal replicates in independent cohorts: genetic correlation 0.65-0.73 with the Million Veteran Program CFS GWAS and 0.80-0.90 with UK Biobank CFS, plus concordant directions for sub-threshold SNPs in FinnGen.",
+"nst": 2,
+"ncon": 0
+},
+{
+"domain": "genetics",
+"id": "genetics-brain-neuron-enrichment",
+"sub": "Tissue and cell-type enrichment",
+"grade": "several",
+"finding": "Genome-wide ME/CFS heritability is enriched in brain tissues and neurons (including glutamatergic synapse genes and subcortical/cerebellar neuron types), with no enrichment in blood immune cells.",
+"nst": 2,
+"ncon": 1
+},
+{
+"domain": "genetics",
+"id": "genetics-pain-overlap",
+"sub": "Shared genetics with other conditions",
+"grade": "several",
+"finding": "ME/CFS genetics overlaps most with chronic pain, fibromyalgia, IBS and migraine, and substantially with depression, but none of the 8 DecodeME loci share a causal variant with depression.",
+"nst": 2,
+"ncon": 1
+},
+{
+"domain": "genetics",
+"id": "genetics-infection-loci",
+"sub": "Infection response genes",
+"grade": "early",
+"finding": "Three DecodeME loci lie near infection-response genes (OLFM4, RABGAP1L, BTN2A2/TRIM38), and the OLFM4 effect is larger in infection-onset cases, but infection- and non-infection-onset cases are genetically highly correlated.",
+"nst": 2,
+"ncon": 1
+},
+{
+"domain": "genetics",
+"id": "genetics-hla",
+"sub": "HLA",
+"grade": "contested",
+"finding": "Reported HLA associations are inconsistent: Lande 2020's HLA-C*07:04 and DQB1*03:03 risk alleles are not among DecodeME's hits, and DecodeME's protective HLA-DQA1*05:01 signal is barely visible at SNP level.",
+"nst": 2,
+"ncon": 1
+},
+{
+"domain": "genetics",
+"id": "genetics-kir-alleles",
+"sub": "NK-cell receptor genes",
+"grade": "early",
+"finding": "Specific inhibitory KIR alleles (e.g. KIR3DL1*020, KIR3DL2*009) were more or less common in 418 Norwegian patients than 473 controls, though KIR gene content did not differ.",
+"nst": 1,
+"ncon": 0
+},
+{
+"domain": "genetics",
+"id": "genetics-early-gwas-candidates",
+"sub": "Earlier GWAS and candidate genes",
+"grade": "refuted",
+"finding": "Before DecodeME, small GWAS and candidate-gene studies (GRIK2, NPAS2, TPPP, TRA locus and many others) produced no association that replicated in UK Biobank or later cohorts.",
+"nst": 3,
+"ncon": 0
+},
+{
+"domain": "genetics",
+"id": "genetics-ukb-allofus-2026",
+"sub": "Genome-wide association (GWAS)",
+"grade": "early",
+"finding": "A 2026 UK Biobank GWAS with stricter, multi-source case definitions (1,268 cases) reports 7 loci that replicate in disjoint UK Biobank or All of Us cohorts (near BICD1, GRIN2A, CSMD1, RORA, CLYBL), though none replicate in all three.",
+"nst": 1,
+"ncon": 0
+},
+{
+"domain": "genetics",
+"id": "genetics-mr-proteins-ephb1",
+"sub": "Mendelian randomisation",
+"grade": "early",
+"finding": "Proteome-wide cis-MR finds genetically higher plasma EPHB1 (a pain-sensitisation receptor) and CLEC3B (tetranectin) associated with ME/CFS risk in DecodeME, replicating in the independent MVP cohort.",
+"nst": 1,
+"ncon": 0
+},
+{
+"domain": "genetics",
+"id": "genetics-mr-biomarkers",
+"sub": "Mendelian randomisation",
+"grade": "early",
+"finding": "MR of DecodeME suggests higher mitochondrial DNA copy number is protective and higher GlycA and mean platelet volume raise risk, while genetically predicted metabolite leads (IPA, kynurenine, ketones, carnitine, bile acids) and vitamin D, BMI and blood pressure are null or unreplicated.",
+"nst": 2,
+"ncon": 1
+},
+{
+"domain": "genetics",
+"id": "genetics-rare-variants-heal2",
+"sub": "Rare variants and sequencing",
+"grade": "early",
+"finding": "Whole-genome sequencing of 464 cases and 611 controls with a deep-learning rare-variant model (HEAL2) proposes 115 loss-of-function-intolerant risk genes, partly overlapping the common-variant synaptic signal.",
+"nst": 1,
+"ncon": 0
+},
+{
+"domain": "genetics",
+"id": "genetics-combinatorial-precisionlife",
+"sub": "Combinatorial analyses",
+"grade": "contested",
+"finding": "Proprietary combinatorial SNP analyses (PrecisionLife) report thousands of multi-SNP signatures in UK Biobank and DecodeME, with top vs bottom decile of signature count giving OR 1.64.",
+"nst": 2,
+"ncon": 0
+},
+{
+"domain": "genetics",
+"id": "genetics-trpm3",
+"sub": "TRPM3 ion channel",
+"grade": "contested",
+"finding": "TRPM3 ion channel dysfunction in NK cells and TRPM3 SNPs are reported repeatedly by one research group, but the SNP studies are tiny and no TRPM3 association appears in GWAS.",
+"nst": 2,
+"ncon": 1
+},
+{
+"domain": "genetics",
+"id": "genetics-hypermobility-overlap",
+"sub": "Connective tissue",
+"grade": "several",
+"finding": "Joint hypermobility and Ehlers-Danlos syndrome are over-represented in ME/CFS (Beighton \u22654 in 60% of children with CFS vs 24% of controls; 50% in a Swedish severe cohort; EDS about 100x expected in Finnish registries).",
+"nst": 3,
+"ncon": 0
+},
+{
+"domain": "genetics",
+"id": "genetics-mtdna-haplogroups",
+"sub": "Mitochondrial DNA",
+"grade": "early",
+"finding": "Mitochondrial DNA haplogroups and common mtDNA SNPs are not associated with ME/CFS status, though some variants were associated with particular symptoms.",
+"nst": 1,
+"ncon": 0
+},
+{
+"domain": "trials",
+"id": "trials-rituximab",
+"sub": "Immune: B-cell depletion",
+"grade": "refuted",
+"finding": "B-cell depletion with rituximab did not improve fatigue or function versus placebo in a 151-person phase III trial (RituxME).",
+"nst": 2,
+"ncon": 1
+},
+{
+"domain": "trials",
+"id": "trials-cyclophosphamide",
+"sub": "Immune: broad immunosuppression",
+"grade": "early",
+"finding": "In an open-label phase II study, 55% of 40 patients responded to six IV cyclophosphamide infusions, and many responders stayed improved at 6 years, but there was no control arm.",
+"nst": 2,
+"ncon": 0
+},
+{
+"domain": "trials",
+"id": "trials-daratumumab",
+"sub": "Immune: plasma-cell depletion",
+"grade": "early",
+"finding": "In an open-label pilot, 6 of 10 women with moderate-to-severe ME/CFS improved markedly after the anti-CD38 antibody daratumumab, and low baseline NK-cell count predicted non-response.",
+"nst": 2,
+"ncon": 0
+},
+{
+"domain": "trials",
+"id": "trials-immunoadsorption",
+"sub": "Immune: antibody removal",
+"grade": "refuted",
+"finding": "Removing antibodies by immunoadsorption was no better than a sham procedure in two controlled trials (IAMPOCO, n=40; IA-PACS-CFS, n=65), although open-label series had reported 50-70% responders.",
+"nst": 3,
+"ncon": 2
+},
+{
+"domain": "trials",
+"id": "trials-bc007",
+"sub": "Immune: GPCR-antibody neutralisation",
+"grade": "contested",
+"finding": "The aptamer BC007 (rovunaptabin) failed to beat placebo in the company's 114-person long-COVID trial; a 30-person investigator-led trial reported secondary-endpoint gains.",
+"nst": 1,
+"ncon": 1
+},
+{
+"domain": "trials",
+"id": "trials-ivig",
+"sub": "Immune: immunoglobulin",
+"grade": "contested",
+"finding": "IVIG has no consistent controlled evidence: 1990s ME/CFS RCTs conflicted, and a 30-person trial in autoimmune POTS found no difference from albumin.",
+"nst": 2,
+"ncon": 2
+},
+{
+"domain": "trials",
+"id": "trials-rintatolimod",
+"sub": "Immune: TLR3 agonist",
+"grade": "contested",
+"finding": "Rintatolimod (Ampligen) gave a modest placebo-adjusted gain in treadmill time in a 234-person phase III trial, but the result was borderline and the FDA declined approval.",
+"nst": 1,
+"ncon": 1
+},
+{
+"domain": "trials",
+"id": "trials-temelimab",
+"sub": "Immune/viral: HERV-W",
+"grade": "refuted",
+"finding": "The anti-HERV-W envelope antibody temelimab did not improve fatigue versus placebo in 203 HERV-W-positive long-COVID patients.",
+"nst": 1,
+"ncon": 0
+},
+{
+"domain": "trials",
+"id": "trials-rapamycin",
+"sub": "Immune/metabolic: mTOR inhibition",
+"grade": "early",
+"finding": "Low-dose rapamycin (6 mg weekly) was followed by self-reported improvement in about three-quarters of completers in an uncontrolled decentralised study; randomised trials are pending.",
+"nst": 2,
+"ncon": 0
+},
+{
+"domain": "trials",
+"id": "trials-paxlovid",
+"sub": "Antiviral: SARS-CoV-2",
+"grade": "refuted",
+"finding": "Three randomised trials of nirmatrelvir-ritonavir (Paxlovid) for 15-25 days in established long COVID (total ~1,200 people) found no benefit on any phenotype.",
+"nst": 3,
+"ncon": 0
+},
+{
+"domain": "trials",
+"id": "trials-valganciclovir",
+"sub": "Antiviral: herpesviruses",
+"grade": "early",
+"finding": "Valganciclovir in 30 patients selected for high HHV-6 and EBV antibody levels improved some secondary fatigue and cognition scores in a small RCT; it has not been replicated.",
+"nst": 2,
+"ncon": 0
+},
+{
+"domain": "trials",
+"id": "trials-ldn",
+"sub": "Neuro-immune: low-dose naltrexone",
+"grade": "refuted",
+"finding": "The first sizeable placebo-controlled trial of low-dose naltrexone in post-COVID ME/CFS (66 vs 71, 16 weeks, up to 4.5 mg) found no fatigue benefit, with over 40% improving on placebo.",
+"nst": 1,
+"ncon": 1
+},
+{
+"domain": "trials",
+"id": "trials-aripiprazole",
+"sub": "Neuro: low-dose aripiprazole",
+"grade": "early",
+"finding": "In a retrospective single-clinic review, 74% of 101 patients on very low-dose aripiprazole (mostly 0.25-2 mg) reported improvement; there is no randomised trial.",
+"nst": 1,
+"ncon": 0
+},
+{
+"domain": "trials",
+"id": "trials-pyridostigmine",
+"sub": "Circulation: cholinergic / preload",
+"grade": "early",
+"finding": "A single 60 mg pyridostigmine dose raised peak oxygen uptake relative to placebo on a repeat invasive exercise test in 45 ME/CFS patients with preload failure, largely because the placebo group got worse; longer trials are negative or pending.",
+"nst": 1,
+"ncon": 2
+},
+{
+"domain": "trials",
+"id": "trials-ivabradine",
+"sub": "Circulation: heart-rate control",
+"grade": "refuted",
+"finding": "Ivabradine lowered standing heart rate but did not improve symptoms in 181 people with long-COVID POTS (RECOVER-AUTONOMIC), despite an earlier positive 22-person crossover in hyperadrenergic POTS.",
+"nst": 2,
+"ncon": 0
+},
+{
+"domain": "trials",
+"id": "trials-midodrine-fludrocortisone",
+"sub": "Circulation: vasoconstrictors and volume",
+"grade": "refuted",
+"finding": "Fludrocortisone did not beat placebo in a 100-person RCT in CFS with neurally mediated hypotension; midodrine reduces orthostatic heart rate acutely in small POTS studies but has no ME/CFS outcome trial.",
+"nst": 1,
+"ncon": 1
+},
+{
+"domain": "trials",
+"id": "trials-coq10-nadh",
+"sub": "Metabolic: supplements",
+"grade": "contested",
+"finding": "Two Spanish RCTs of CoQ10 200 mg + NADH 20 mg (n=73, n=207) reported modest reductions in fatigue scores; CoQ10 alone failed in a 121-person long-COVID crossover trial.",
+"nst": 2,
+"ncon": 1
+},
+{
+"domain": "trials",
+"id": "trials-oxaloacetate",
+"sub": "Metabolic: supplements",
+"grade": "early",
+"finding": "Oxaloacetate 2 g/day reduced Chalder fatigue more than control (\u221225% vs \u221210%) in an 82-person company-run RCT in ME/CFS; a 69-person long-COVID trial missed its primary endpoint.",
+"nst": 2,
+"ncon": 1
+},
+{
+"domain": "trials",
+"id": "trials-hbot",
+"sub": "Physical: hyperbaric oxygen",
+"grade": "contested",
+"finding": "Forty daily sessions of hyperbaric oxygen at 2.0 ATA improved cognition and symptoms versus sham in a 73-person long-COVID trial, but ten sessions at 2.4 bar showed no benefit in an 80-person sham-controlled trial.",
+"nst": 2,
+"ncon": 1
+},
+{
+"domain": "trials",
+"id": "trials-pace-get-cbt",
+"sub": "Rehabilitation: GET and CBT",
+"grade": "contested",
+"finding": "PACE (n=641) reported modest gains in self-rated fatigue and function with CBT and graded exercise, but these were not matched by objective measures, used Oxford criteria, and vanished between groups by 2.5 years.",
+"nst": 2,
+"ncon": 2
+},
+{
+"domain": "trials",
+"id": "trials-nice-2021-harms",
+"sub": "Rehabilitation: guidance and harms",
+"grade": "several",
+"finding": "NICE's 2021 guideline (NG206) told clinicians not to offer graded exercise therapy, and patient surveys plus a 2026 German rehabilitation study report frequent worsening after exercise-based or even pacing-focused rehab.",
+"nst": 3,
+"ncon": 1
+},
+{
+"domain": "trials",
+"id": "trials-pacing",
+"sub": "Self-management: pacing",
+"grade": "early",
+"finding": "Pacing (staying within one's energy limits) is the top-rated approach in patient surveys and NICE's recommended foundation, but it has never shown benefit in a controlled trial (adaptive pacing was no better than usual care in PACE).",
+"nst": 1,
+"ncon": 1
+},
+{
+"domain": "trials",
+"id": "trials-patient-surveys",
+"sub": "Patient-reported outcomes",
+"grade": "early",
+"finding": "A 3,925-person survey rated >150 treatments; illness severity predicted perceived response more strongly than diagnosis, and symptom clusters (severe multisystemic, POTS-dominant, cognitive/pain, mild) preferred different treatments.",
+"nst": 1,
+"ncon": 0
+},
+{
+"domain": "trials",
+"id": "trials-placebo-response",
+"sub": "Trial methodology",
+"grade": "replicated",
+"finding": "Placebo and natural-course improvement in ME/CFS and long-COVID trials is large (35% responders in RituxME, >40% in the LDN trial, both arms improving in IVIG, HBOT and immunoadsorption trials), so uncontrolled response rates of 50-75% are uninterpretable.",
+"nst": 3,
+"ncon": 0
+},
+{
+"domain": "trials",
+"id": "trials-recovery-rates",
+"sub": "Natural history: recovery",
+"grade": "several",
+"finding": "Full recovery from established adult ME/CFS is uncommon: a systematic review of 14 criteria-based cohorts found a median full-recovery rate of 5% (range 0-31%) and median improvement of 39.5%.",
+"nst": 2,
+"ncon": 0
+},
+{
+"domain": "trials",
+"id": "trials-post-covid-course",
+"sub": "Natural history: post-COVID ME/CFS",
+"grade": "several",
+"finding": "About 4.5% of SARS-CoV-2-infected adults in RECOVER met IOM ME/CFS criteria (vs 0.6% uninfected; HR 4.93), and those meeting Canadian criteria at Charit\u00e9 stayed severely ill to 20 months while other long-COVID patients improved.",
+"nst": 3,
+"ncon": 0
+},
+{
+"domain": "trials",
+"id": "trials-prevalence-sex",
+"sub": "Natural history: prevalence and sex ratio",
+"grade": "replicated",
+"finding": "ME/CFS affects roughly 0.2-1% of adults depending on criteria (US 2021-22: 1.3% self-reported diagnosis; England: 0.16% with a hospital-recorded diagnosis), with women affected 3-4 times as often as men.",
+"nst": 4,
+"ncon": 0
+},
+{
+"domain": "trials",
+"id": "trials-severity",
+"sub": "Natural history: severity",
+"grade": "early",
+"finding": "Roughly a quarter of people with ME/CFS are estimated to be housebound or bedbound, and severity, not diagnosis, was the strongest predictor of reported treatment response.",
+"nst": 2,
+"ncon": 0
+},
+{
+"domain": "trials",
+"id": "trials-mortality",
+"sub": "Natural history: mortality",
+"grade": "several",
+"finding": "In 2,147 secondary-care CFS patients in London, all-cause and cancer mortality were not raised, but suicide mortality was about seven times expected (SMR 6.85).",
+"nst": 1,
+"ncon": 1
+}
+]

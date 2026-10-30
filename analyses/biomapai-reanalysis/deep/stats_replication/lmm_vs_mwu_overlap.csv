@@ -1,0 +1,16 @@
+layer,contrast,LMM_all,MWU_tp1,both,LMM_only(gained),MWU_only(lost),OLS_tp1,OLStp1_not_MWU,MWU_not_OLStp1
+immune,long_vs_control,30,50,24,6,26,24,2,28
+immune,patient_vs_control,0,25,0,0,25,0,0,25
+immune,short_vs_control,0,0,0,0,0,0,0,0
+kegg,long_vs_control,20,243,20,0,223,182,44,105
+kegg,patient_vs_control,704,701,526,178,175,478,32,255
+kegg,short_vs_control,909,901,716,193,185,666,30,265
+metabolome,long_vs_control,39,117,26,13,91,28,5,94
+metabolome,patient_vs_control,84,86,44,40,42,38,11,59
+metabolome,short_vs_control,58,9,6,52,3,24,16,1
+quest,long_vs_control,1,3,1,0,2,1,0,2
+quest,patient_vs_control,2,4,2,0,2,0,0,4
+quest,short_vs_control,0,0,0,0,0,0,0,0
+species,long_vs_control,67,124,57,10,67,90,15,49
+species,patient_vs_control,98,150,78,20,72,89,16,77
+species,short_vs_control,61,123,45,16,78,30,4,97

@@ -1,0 +1,116 @@
+set,analysis,term,beta,p,n
+liver_intra,hoel: case adj sex/age/BMI/leak,case,0.20877307833007835,0.45044687205203593,74
+liver_intra,hoel: steps within ME,steps_k,-0.018810783205103526,0.7788515864320329,49
+liver_intra,hoel: SF36PF within ME,SF36PF,-0.004431717389639156,0.5201404844046462,50
+liver_intra,hoel: BMI,bmi,0.09889747181292335,0.001539954194169528,74
+liver_secr,hoel: case adj sex/age/BMI/leak,case,0.9770671544308952,0.0002457385275415772,74
+liver_secr,hoel: steps within ME,steps_k,-0.054866481591965534,0.4026924649667013,49
+liver_secr,hoel: SF36PF within ME,SF36PF,0.002255634923771125,0.7456622829797783,50
+liver_secr,hoel: BMI,bmi,-0.03863029773534578,0.16463921058052994,74
+muscle_intra,hoel: case adj sex/age/BMI/leak,case,-0.8372865712493168,0.003990832714884405,74
+muscle_intra,hoel: steps within ME,steps_k,-0.003471892166180684,0.9553256815539011,49
+muscle_intra,hoel: SF36PF within ME,SF36PF,0.0023826824336891906,0.7089334092479892,50
+muscle_intra,hoel: BMI,bmi,0.04962400116005749,0.10957552724928829,74
+platelet_intra,hoel: case adj sex/age/BMI/leak,case,-0.3658565294524506,0.20583194276769304,74
+platelet_intra,hoel: steps within ME,steps_k,0.04660675720764461,0.46647677586554354,49
+platelet_intra,hoel: SF36PF within ME,SF36PF,0.004492799802933891,0.4959452118261418,50
+platelet_intra,hoel: BMI,bmi,0.014052735873102998,0.6539030169883758,74
+enterocyte,hoel: case adj sex/age/BMI/leak,case,-0.0863909811397858,0.7290075863352097,74
+enterocyte,hoel: steps within ME,steps_k,-0.07747358793210082,0.24233214956307972,49
+enterocyte,hoel: SF36PF within ME,SF36PF,-0.014575253089508168,0.030679789163498387,50
+enterocyte,hoel: BMI,bmi,0.014869387455539042,0.5844069765140343,74
+liver_intra,germain: case,case,0.17375915124085256,0.35621932998877953,129
+liver_intra,"germain: case, no BMI",case,0.12797264063961397,0.5000828110725933,129
+liver_intra,germain: Bell activity within ME,bas,-0.0027097547163694533,0.8036744991168646,78
+liver_intra,germain: % reclined within ME,recl,0.18287915377974787,0.049299456953397075,73
+liver_intra,germain: SF36 PCS within ME,PCS,0.007644306226933103,0.6932714915480925,78
+liver_intra,germain: illness >=5y vs <5y,long,0.18571612777765367,0.5042446471247782,78
+liver_intra,germain: BMI bin (linear),bmi_bin,0.18933273926091682,0.010632276079355863,129
+liver_secr,germain: case,case,-0.16453248145807728,0.3687688885484371,129
+liver_secr,"germain: case, no BMI",case,-0.18272326596100774,0.31722512209767917,129
+liver_secr,germain: Bell activity within ME,bas,0.01257693878736027,0.3076947376342394,78
+liver_secr,germain: % reclined within ME,recl,-0.005416330130824619,0.9021755203039422,73
+liver_secr,germain: SF36 PCS within ME,PCS,-0.013544140813315097,0.5378110952329581,78
+liver_secr,germain: illness >=5y vs <5y,long,0.17776198060551868,0.5735387290149844,78
+liver_secr,germain: BMI bin (linear),bmi_bin,0.09581935613132357,0.1830565895044406,129
+muscle_intra,germain: case,case,-0.47346432289617196,0.008307665082129923,129
+muscle_intra,"germain: case, no BMI",case,-0.49113063296676396,0.005502569834797529,129
+muscle_intra,germain: Bell activity within ME,bas,0.003867416487196758,0.6762461979677905,78
+muscle_intra,germain: % reclined within ME,recl,0.15477636981812148,0.05074145210625457,73
+muscle_intra,germain: SF36 PCS within ME,PCS,0.011099525330490047,0.4999861802016424,78
+muscle_intra,germain: illness >=5y vs <5y,long,-0.09425644861658466,0.6903759458666208,78
+muscle_intra,germain: BMI bin (linear),bmi_bin,0.0656114624075864,0.3407109232105663,129
+platelet_intra,germain: case,case,-0.14245657177936408,0.43913860486685485,129
+platelet_intra,"germain: case, no BMI",case,-0.1537809613277528,0.3958710722215129,129
+platelet_intra,germain: Bell activity within ME,bas,0.004669521351353085,0.637265116170179,78
+platelet_intra,germain: % reclined within ME,recl,0.16541268976976048,0.050015073649559254,73
+platelet_intra,germain: SF36 PCS within ME,PCS,-0.005806410046015212,0.7417691706162451,78
+platelet_intra,germain: illness >=5y vs <5y,long,-0.1507383526026711,0.5511159120799011,78
+platelet_intra,germain: BMI bin (linear),bmi_bin,0.03654813248166775,0.6098171846743015,129
+enterocyte,germain: case,case,0.07009496201917849,0.7148649408646315,129
+enterocyte,"germain: case, no BMI",case,0.0644251269290658,0.733216639484728,129
+enterocyte,germain: Bell activity within ME,bas,-0.004256669675458798,0.6915372014959771,78
+enterocyte,germain: % reclined within ME,recl,0.19249597542513935,0.02775998769101521,73
+enterocyte,germain: SF36 PCS within ME,PCS,-0.015839632232085173,0.40557400087326784,78
+enterocyte,germain: illness >=5y vs <5y,long,0.06700559871549591,0.8069356192685092,78
+enterocyte,germain: BMI bin (linear),bmi_bin,0.013845248560859728,0.8532711699632037,129
+liver_intra,germain exertion acute (D1 post - pre): case-vs-control difference in change,case,0.22311142183780805,0.2516279377263926,120
+liver_intra,germain exertion acute (D1 post - pre): mean change HC,Intercept,-0.08077965808587845,0.6014858345689136,48
+liver_intra,germain exertion acute (D1 post - pre): mean change ME,Intercept,0.0514636851864011,0.6501325138626083,72
+liver_intra,germain exertion 24h recovery (D2 pre - D1 pre): case-vs-control difference in change,case,-0.0639905927735544,0.7377249989383526,126
+liver_intra,germain exertion 24h recovery (D2 pre - D1 pre): mean change HC,Intercept,0.1700121720833292,0.2344557160082971,50
+liver_intra,germain exertion 24h recovery (D2 pre - D1 pre): mean change ME,Intercept,0.11558947343799549,0.320162881395287,76
+liver_intra,germain exertion 2nd test acute: case-vs-control difference in change,case,0.09135249553071284,0.6525476916299272,117
+liver_intra,germain exertion 2nd test acute: mean change HC,Intercept,-0.043502888063582004,0.786444151013142,48
+liver_intra,germain exertion 2nd test acute: mean change ME,Intercept,-0.031228392216629257,0.7805626498139465,69
+liver_intra,germain exertion post D2 vs post D1: case-vs-control difference in change,case,-0.2647363799241637,0.19429691156957463,114
+liver_intra,germain exertion post D2 vs post D1: mean change HC,Intercept,0.269289691849749,0.1043834305512576,46
+liver_intra,germain exertion post D2 vs post D1: mean change ME,Intercept,0.07263418491981535,0.5193992909566494,68
+liver_secr,germain exertion acute (D1 post - pre): case-vs-control difference in change,case,0.16856744978212654,0.3889285737612647,120
+liver_secr,germain exertion acute (D1 post - pre): mean change HC,Intercept,0.01465970261908111,0.6705924553368507,48
+liver_secr,germain exertion acute (D1 post - pre): mean change ME,Intercept,0.11791063908943462,0.4364723722580222,72
+liver_secr,germain exertion 24h recovery (D2 pre - D1 pre): case-vs-control difference in change,case,0.19834252380706718,0.29704818424871926,126
+liver_secr,germain exertion 24h recovery (D2 pre - D1 pre): mean change HC,Intercept,0.015213308487711156,0.7505511779486839,50
+liver_secr,germain exertion 24h recovery (D2 pre - D1 pre): mean change ME,Intercept,0.15569931161925224,0.2843865591120517,76
+liver_secr,germain exertion 2nd test acute: case-vs-control difference in change,case,0.05826358214892432,0.769366506435165,117
+liver_secr,germain exertion 2nd test acute: mean change HC,Intercept,-0.18587665614809318,0.40019152712640554,48
+liver_secr,germain exertion 2nd test acute: mean change ME,Intercept,-0.055019736724444344,0.1697523798459596,69
+liver_secr,germain exertion post D2 vs post D1: case-vs-control difference in change,case,-0.20873747385046548,0.2947161656182081,114
+liver_secr,germain exertion post D2 vs post D1: mean change HC,Intercept,0.20363524208188744,0.221657575171302,46
+liver_secr,germain exertion post D2 vs post D1: mean change ME,Intercept,-0.008013112857345765,0.9425368122208284,68
+muscle_intra,germain exertion acute (D1 post - pre): case-vs-control difference in change,case,0.2769938256515539,0.15745527907578816,120
+muscle_intra,germain exertion acute (D1 post - pre): mean change HC,Intercept,-0.1418268574064543,0.39436875221202444,48
+muscle_intra,germain exertion acute (D1 post - pre): mean change ME,Intercept,0.06329377870558853,0.5486208983257561,72
+muscle_intra,germain exertion 24h recovery (D2 pre - D1 pre): case-vs-control difference in change,case,-0.17119843939897775,0.37198149524385277,126
+muscle_intra,germain exertion 24h recovery (D2 pre - D1 pre): mean change HC,Intercept,0.15764573318552083,0.32942904551364716,50
+muscle_intra,germain exertion 24h recovery (D2 pre - D1 pre): mean change ME,Intercept,-0.004139345862229942,0.9683088620933744,76
+muscle_intra,germain exertion 2nd test acute: case-vs-control difference in change,case,0.2700504156237104,0.18127203964712596,117
+muscle_intra,germain exertion 2nd test acute: mean change HC,Intercept,-0.20789525435656458,0.2416483424277737,48
+muscle_intra,germain exertion 2nd test acute: mean change ME,Intercept,0.05866027326434268,0.5496168120925388,69
+muscle_intra,germain exertion post D2 vs post D1: case-vs-control difference in change,case,-0.32776588755668473,0.10166083311528805,114
+muscle_intra,germain exertion post D2 vs post D1: mean change HC,Intercept,0.10099506033359097,0.5873378163531945,46
+muscle_intra,germain exertion post D2 vs post D1: mean change ME,Intercept,-0.08163913294544728,0.3949364928627253,68
+platelet_intra,germain exertion acute (D1 post - pre): case-vs-control difference in change,case,0.21812076403093178,0.26822388406581593,120
+platelet_intra,germain exertion acute (D1 post - pre): mean change HC,Intercept,-0.1484856234788726,0.33542335281572616,48
+platelet_intra,germain exertion acute (D1 post - pre): mean change ME,Intercept,0.03443737404066691,0.761879298955198,72
+platelet_intra,germain exertion 24h recovery (D2 pre - D1 pre): case-vs-control difference in change,case,0.08486594582789918,0.6549947695737716,126
+platelet_intra,germain exertion 24h recovery (D2 pre - D1 pre): mean change HC,Intercept,0.024599177126910954,0.8631664755178823,50
+platelet_intra,germain exertion 24h recovery (D2 pre - D1 pre): mean change ME,Intercept,0.13327361289779976,0.24976938868657028,76
+platelet_intra,germain exertion 2nd test acute: case-vs-control difference in change,case,0.10037244082754893,0.6201116508793263,117
+platelet_intra,germain exertion 2nd test acute: mean change HC,Intercept,-0.09973888606677055,0.49988405239771533,48
+platelet_intra,germain exertion 2nd test acute: mean change ME,Intercept,-0.02785434346352462,0.8168019016155947,69
+platelet_intra,germain exertion post D2 vs post D1: case-vs-control difference in change,case,-0.17455675596913509,0.38486819999426847,114
+platelet_intra,germain exertion post D2 vs post D1: mean change HC,Intercept,0.09873784762367084,0.5609453174064125,46
+platelet_intra,germain exertion post D2 vs post D1: mean change ME,Intercept,0.03406954969949114,0.7554608017828853,68
+enterocyte,germain exertion acute (D1 post - pre): case-vs-control difference in change,case,0.27401759394018865,0.16305542797097747,120
+enterocyte,germain exertion acute (D1 post - pre): mean change HC,Intercept,-0.20145478766041028,0.14494655767321818,48
+enterocyte,germain exertion acute (D1 post - pre): mean change ME,Intercept,0.0006629030980572309,0.9956816683607469,72
+enterocyte,germain exertion 24h recovery (D2 pre - D1 pre): case-vs-control difference in change,case,0.0729283793847309,0.7006324700708467,126
+enterocyte,germain exertion 24h recovery (D2 pre - D1 pre): mean change HC,Intercept,0.19465003248243107,0.11687699429822884,50
+enterocyte,germain exertion 24h recovery (D2 pre - D1 pre): mean change ME,Intercept,0.2503413215427851,0.04809312465518154,76
+enterocyte,germain exertion 2nd test acute: case-vs-control difference in change,case,0.011369913249656013,0.9552975237221603,117
+enterocyte,germain exertion 2nd test acute: mean change HC,Intercept,-0.22036378346131646,0.18243199966753001,48
+enterocyte,germain exertion 2nd test acute: mean change ME,Intercept,-0.17918589151607783,0.1059983927196047,69
+enterocyte,germain exertion post D2 vs post D1: case-vs-control difference in change,case,-0.3633724541175856,0.0720840049585444,114
+enterocyte,germain exertion post D2 vs post D1: mean change HC,Intercept,0.33223108938805435,0.06270308577293268,46
+enterocyte,germain exertion post D2 vs post D1: mean change ME,Intercept,0.09418481212871467,0.36568840024754046,68

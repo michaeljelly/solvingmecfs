@@ -1,0 +1,1786 @@
+{
+ "domain": "muscle-exertion",
+ "title": "Muscle, exertion and energy",
+ "overview": "People with ME/CFS reliably have lower aerobic capacity and a low peak heart rate on exercise testing, and they report delayed, prolonged PEM that took about two weeks to resolve after a 2-day test. Whether performance measurably drops on a second test 24 hours later is now contested: several linked groups and two meta-analyses say yes, mainly at the ventilatory threshold, while a 2026 replication found no change. Invasive testing points to poor cardiac filling and poor oxygen extraction, and newer biopsy work from one Amsterdam group finds fewer oxidative fibres, fewer capillaries and lower mitochondrial capacity in ME/CFS that bed rest does not reproduce, plus post-exertion muscle damage and amyloid-containing deposits in long COVID. Mitochondrial studies in blood cells disagree in direction, and the idea that patient serum alters muscle-cell mitochondria failed a large pre-registered replication (Ryback 2026). Post-exertion omics (metabolomics, proteomics, EVs) show resting differences and recovery-phase changes, but within-person exercise effects are modest and mostly unreplicated.",
+ "findings": [
+  {
+   "subdomain": "PEM definition and timing",
+   "finding": "PEM is usually delayed by hours to a day, lasts days to weeks, and after a 2-day CPET took ME/CFS patients a mean of about 13 days to recover versus about 2 days in sedentary controls.",
+   "grade": "several",
+   "plain": "After overdoing it, people with ME/CFS often feel worse later rather than at once, and the crash can last much longer than ordinary tiredness after exercise.",
+   "detail": "Chu 2018 (n=150 survey): 84% reported PEM lasting 24 h or more; onset varied, and only 11% had a consistent delay of at least 24 h. Moore 2023 (80 vs 64, Ithaca 2-day CPET): judged recovery 12.7 ± 1.2 d vs 2.1 ± 0.2 d, range 1-64 d; one patient had not recovered at one year. NIH qualitative work (Stussman 2024, 10 vs 9) found every patient's PEM had a different onset, trajectory and worst symptom, and VAS scales missed changes that interviews caught. Self-report designs and one centre for the recovery data are the main limits.",
+   "studies": [
+    {
+     "cite": "Chu 2018, PLOS ONE",
+     "n": "150 Fukuda CFS",
+     "design": "patient-centred cross-sectional survey",
+     "result": "90% PEM with physical, cognitive and emotional triggers; 84% PEM >=24 h; 11% consistent >=24 h delay",
+     "url": "https://doi.org/10.1371/journal.pone.0197811",
+     "verified": true
+    },
+    {
+     "cite": "Moore 2023, Medicina",
+     "n": "80 ME/CFS vs 64 controls",
+     "design": "prospective symptom tracking for 10 days after 2-day CPET",
+     "result": "Recovery 12.7 d vs 2.1 d (p<0.0001); <10% of patients took >3 weeks",
+     "url": "https://doi.org/10.3390/medicina59030571",
+     "verified": true
+    },
+    {
+     "cite": "Stussman 2024, BMJ Neurol Open",
+     "n": "10 ME/CFS vs 9 controls",
+     "design": "mixed-methods (VAS + qualitative interviews) over 72 h after CPET",
+     "result": "Each patient had a unique PEM course; no controls had PEM; interviews outperformed VAS at peak PEM",
+     "url": "https://doi.org/10.1136/bmjno-2023-000529",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Stussman 2025, Front Neurol",
+     "n": "34 long COVID exercise cohort, 9 ME/CFS, 9 controls; 244 questionnaire cohort",
+     "design": "CPET with serial VAS and interviews over 72 h",
+     "result": "Self-reported PEM 67% in long COVID questionnaires, but only 2 of 34 long COVID patients showed observable PEM after CPET; ME/CFS PEM was more severe and prolonged",
+     "url": "https://doi.org/10.3389/fneur.2025.1534352",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Is there an objective marker that tracks PEM onset and recovery within a person?",
+    "Why does self-reported PEM in long COVID often not reproduce after a laboratory stressor?",
+    "Do cognitive and orthostatic triggers produce the same biology as physical exertion?"
+   ],
+   "hypotheses": [
+    "sickness-behaviour",
+    "cell-danger-response",
+    "mitochondrial-energy"
+   ],
+   "test_available": "Clinical history and symptom diaries (DSQ-PEM questionnaire); no objective clinical test",
+   "id": "muscle-exertion-pem-timing"
+  },
+  {
+   "subdomain": "Exercise capacity (single CPET)",
+   "finding": "On a single maximal exercise test, ME/CFS patients have lower peak oxygen uptake (pooled about 5 ml/kg/min below controls) with a low peak heart rate (chronotropic incompetence).",
+   "grade": "replicated",
+   "plain": "Patients can take in and use less oxygen at maximal effort than healthy people, and their heart rate does not rise as high.",
+   "detail": "Large clinical series (VanNess 2003, n=189) and case-control studies (Keller 2024, Walitt 2024 NIH, Charlton 2026) agree. Effort criteria (RER, perceived exertion) are usually met, which argues against low effort. The main confounder is deconditioning; Keller 2024 used VO2-matched pairs and Charlton 2026 compared with 60-day bed rest, and both found patterns that inactivity did not reproduce. A single CPET's peak VO2 overlaps heavily with sedentary controls, so it is not diagnostic on its own.",
+   "studies": [
+    {
+     "cite": "VanNess 2003, Med Sci Sports Exerc",
+     "n": "189 CFS",
+     "design": "clinical series, single CPET",
+     "result": "Peak VO2 below predicted in all impairment groups; peak HR and SBP lower in more impaired groups",
+     "url": "https://doi.org/10.1249/01.mss.0000069510.58763.e8",
+     "verified": true
+    },
+    {
+     "cite": "Franklin 2018/2021 meta-analysis (Teesside)",
+     "n": "pooled studies",
+     "design": "systematic review/meta-analysis",
+     "result": "Pooled VO2peak 5.2 (95% CI 3.8-6.6) ml/kg/min lower in ME/CFS vs controls",
+     "url": "https://research.tees.ac.uk/en/publications/repeated-maximal-exercise-tests-of-peak-oxygen-consumption-in-peo/",
+     "verified": false
+    },
+    {
+     "cite": "Walitt 2024, Nat Commun (NIH)",
+     "n": "about 17 PI-ME/CFS vs 21 controls",
+     "design": "deep phenotyping",
+     "result": "Peak VO2 lower (p=0.004), peak HR lower (p=0.07), about 3.3 METs difference; patients performed at a lower % of predicted",
+     "url": "https://doi.org/10.1038/s41467-024-45107-3",
+     "verified": true
+    },
+    {
+     "cite": "Keller 2024, J Transl Med",
+     "n": "84 ME/CFS vs 71 sedentary controls (55 VO2-matched pairs)",
+     "design": "2-day CPET, cycle ergometer, 24 h apart",
+     "result": "ME/CFS failed to reproduce day-1 values: e.g. ~6% fall in peak VO2/kg and 6.7% fall in VO2 at ventilatory threshold in matched pairs; controls stable; both groups met maximal-effort criteria",
+     "url": "https://doi.org/10.1186/s12967-024-05410-5",
+     "verified": true
+    },
+    {
+     "cite": "Charlton 2026, Nat Commun",
+     "n": "19-23 ME/CFS, 24-25 long COVID, 29-30 matched controls, 24 healthy people after 60-day bed rest",
+     "design": "case-control biopsies plus bed-rest comparison",
+     "result": "ME/CFS: lower type I fibre proportion and type I-specific atrophy, lower SDH activity, lower OXPHOS capacity, lower capillary-to-fibre ratio; bed rest caused atrophy but no fibre-type shift; OXPHOS tracked VO2max only after bed rest",
+     "url": "https://doi.org/10.1038/s41467-026-75725-y",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "How much of low VO2 is preload/venous return versus muscle oxygen use?",
+    "Does peak VO2 track severity in severe and housebound patients, who are rarely tested?"
+   ],
+   "hypotheses": [
+    "low-blood-volume-preload",
+    "mitochondrial-energy",
+    "autonomic-small-fibre",
+    "deconditioning"
+   ],
+   "test_available": "Cardiopulmonary exercise test (CPET) at cardiology/sports-medicine labs; carries PEM risk",
+   "id": "muscle-exertion-low-peak-vo2",
+   "contradicting": []
+  },
+  {
+   "subdomain": "2-day CPET",
+   "finding": "ME/CFS patients perform worse on a second maximal exercise test 24 h after the first, most clearly in workload and VO2 at the ventilatory threshold, but two independent groups (Lien 2019; Mancini and Natelson 2026) did not reproduce the VO2 effect.",
+   "grade": "contested",
+   "plain": "Several labs found that patients cannot repeat their performance a day after a hard test, while healthy people can. A 2026 study using the same design found no drop, so the test's reliability as a PEM marker is in doubt.",
+   "detail": "Positive studies: Snell 2013 (51 vs 10 women; 95% classification), van Campen 2020/2021 (82 women by severity; idiopathic chronic fatigue improved on day 2 while ME/CFS declined), Keller 2024 (84 vs 71; declines of ~5-7% in peak VO2 and VO2 at threshold), Hodges 2018 (MS controls improved), Davenport 2026 preprint (84 ME/CFS, 79 long COVID, 71 controls). Meta-analyses: Lim 2020 (workload at VT difference -10.8 day 1 vs -33.0 day 2) and Franklin & Graham 2022 (work at anaerobic threshold -21 W, 78% predictive probability of exceeding a 10 W MCID). Most positive data come from the Workwell/Pacific/Ithaca network and the van Campen clinic, so they are not fully independent. Mancini/Natelson 2026 (58 vs 25) and Lien 2019 (VO2peak day-2 fall not different between groups) did not reproduce the VO2 effect. Effect sizes are small relative to test-retest noise, and threshold detection is operator-dependent.",
+   "studies": [
+    {
+     "cite": "Snell 2013, Phys Ther",
+     "n": "51 CFS vs 10 controls, women",
+     "design": "2-day CPET",
+     "result": "No difference on test 1; on test 2 lower VO2 and workload at peak and threshold; 95.1% classification",
+     "url": "https://doi.org/10.2522/ptj.20110368",
+     "verified": true
+    },
+    {
+     "cite": "Keller 2024, J Transl Med",
+     "n": "84 ME/CFS vs 71 sedentary controls (55 VO2-matched pairs)",
+     "design": "2-day CPET, cycle ergometer, 24 h apart",
+     "result": "ME/CFS failed to reproduce day-1 values: e.g. ~6% fall in peak VO2/kg and 6.7% fall in VO2 at ventilatory threshold in matched pairs; controls stable; both groups met maximal-effort criteria",
+     "url": "https://doi.org/10.1186/s12967-024-05410-5",
+     "verified": true
+    },
+    {
+     "cite": "van Campen 2020, Healthcare",
+     "n": "82 women (31 mild, 31 moderate, 20 severe)",
+     "design": "2-day CPET by severity",
+     "result": "All four parameters fell on day 2 (p 0.003 to <0.0001); peak workload fall largest in severe (-19%)",
+     "url": "https://doi.org/10.3390/healthcare8030192",
+     "verified": true
+    },
+    {
+     "cite": "van Campen 2021, Healthcare",
+     "n": "50 ME/CFS vs 51 idiopathic chronic fatigue (women); 26 vs 25 (men)",
+     "design": "2-day CPET, disease-control comparison",
+     "result": "ME/CFS worsened on day 2; idiopathic chronic fatigue improved",
+     "url": "https://doi.org/10.3390/healthcare9060682",
+     "verified": true
+    },
+    {
+     "cite": "Hodges 2018, Clin Physiol Funct Imaging",
+     "n": "10 CFS, 7 MS, 17 controls",
+     "design": "pilot 2-day CPET with disease control",
+     "result": "CFS workload fell on day 2; MS and controls improved",
+     "url": "https://doi.org/10.1111/cpf.12460",
+     "verified": true
+    },
+    {
+     "cite": "Lim 2020, J Clin Med",
+     "n": "pooled 2-day CPET studies",
+     "design": "meta-analysis",
+     "result": "All parameters fell on day 2 in ME/CFS, rose in controls; workload at VT difference grew from -10.8 to -33.0",
+     "url": "https://doi.org/10.3390/jcm9124040",
+     "verified": true
+    },
+    {
+     "cite": "Franklin & Graham 2022, Fatigue: Biomed Health Behav",
+     "n": "4-5 studies per outcome",
+     "design": "systematic review and meta-analysis",
+     "result": "Day-2 drop in peak work -8.55 W and in work at anaerobic threshold -21 W vs controls",
+     "url": "https://research.tees.ac.uk/en/publications/repeated-maximal-exercise-tests-of-peak-oxygen-consumption-in-peo/",
+     "verified": false
+    },
+    {
+     "cite": "Davenport 2026, Research Square preprint",
+     "n": "84 ME/CFS, 79 long COVID, 71 controls",
+     "design": "retrospective 2-day CPET",
+     "result": "Both patient groups had reduced VO2 and workload at threshold, larger in women; groups similar",
+     "url": "https://doi.org/10.21203/rs.3.rs-8606329/v1",
+     "verified": true
+    },
+    {
+     "cite": "Thomas 2026, Exp Physiol",
+     "n": "68 LC",
+     "design": "2-day submaximal CPET",
+     "result": "day-2 decline in LC",
+     "url": "https://doi.org/10.1113/ep092576",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Mancini 2026, Front Physiol",
+     "n": "58 ME/CFS vs 25 sedentary controls",
+     "design": "2-day CPET replication attempt",
+     "result": "No day-2 change in peak VO2 (22.3 to 22.5 ml/kg/min) or VO2 at threshold in either group; patients had lower peak HR and higher perceived exertion; authors say 2-day CPET should not be used to define PEM",
+     "url": "https://doi.org/10.3389/fphys.2026.1816082",
+     "verified": true
+    },
+    {
+     "cite": "Lien 2019, Physiol Rep",
+     "n": "18 vs 15 women",
+     "design": "2-day CPET with arterial lactate",
+     "result": "VO2peak fell on day 2 in patients, but the change did not differ significantly between groups",
+     "url": "https://doi.org/10.14814/phy2.14138",
+     "verified": true
+    },
+    {
+     "cite": "Gattoni 2025, Respir Physiol Neurobiol",
+     "n": "15 LC",
+     "design": "2-day CPET",
+     "result": "no day-2 decline",
+     "url": "https://doi.org/10.1016/j.resp.2024.104362",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Why did Mancini 2026 find no day-2 effect: cohort selection, threshold method, or sample from a different clinic?",
+    "What is the test-retest variability of workload at VT in sedentary people, and does the day-2 effect exceed it?",
+    "Can a gentler, submaximal provocation give the same information with less harm (Moore 2023: about two weeks to recover)?"
+   ],
+   "hypotheses": [
+    "low-blood-volume-preload",
+    "mitochondrial-energy",
+    "autonomic-small-fibre"
+   ],
+   "test_available": "Offered by a few specialist labs (e.g. Workwell-linked) mainly for disability documentation; provokes PEM and is not advised for moderate-severe patients",
+   "id": "muscle-exertion-two-day-cpet"
+  },
+  {
+   "subdomain": "Lactate and glycolysis",
+   "finding": "Some patients produce more lactate for a given workload, and this worsens on a repeat test, but plasma studies after one maximal test show a smaller total lactate rise that mainly reflects lower achieved workloads.",
+   "grade": "several",
+   "plain": "Muscles in some patients seem to lean on the quick, lactate-producing fuel route earlier than expected, especially the day after hard effort.",
+   "detail": "Lien 2019 (18 vs 15 women): arterial lactate per power output was higher in patients on both tests and rose on day 2 while it fell in controls (interaction p<0.001). Lane 1998: about a third of patients had an abnormal lactate rise on a sub-anaerobic-threshold test, and this subgroup had fewer type 1 fibres (n=105 biopsies). Wong 1992 (31P-MRS) inferred accelerated glycolysis. The Solving ME/CFS re-analysis of Germain 2022 found the post-exercise lactate rise was smaller in patients (log2 +1.02 vs +1.40), which disappears as a signal once effort is considered. Lactate per watt, not peak lactate, is the informative measure.",
+   "studies": [
+    {
+     "cite": "Lien 2019, Physiol Rep",
+     "n": "18 vs 15 women",
+     "design": "2-day CPET with arterial lactate every 30 s",
+     "result": "Higher lactate per power output in patients; lactate increased on day 2 in patients and fell in controls",
+     "url": "https://doi.org/10.14814/phy2.14138",
+     "verified": true
+    },
+    {
+     "cite": "Lane 1998, J Neurol Neurosurg Psychiatry",
+     "n": "105 CFS biopsies",
+     "design": "biopsy plus sub-anaerobic threshold exercise test",
+     "result": "Abnormal lactate responders had fewer type 1 fibres; no ultrastructural abnormality",
+     "url": "https://doi.org/10.1136/jnnp.64.3.362",
+     "verified": true
+    },
+    {
+     "cite": "Wong 1992, Chest",
+     "n": "22 vs 21",
+     "design": "31P-MRS during exercise to exhaustion",
+     "result": "Similar pH/PCr patterns but faster changes and lower ATP at exhaustion in CFS; authors infer accelerated glycolysis",
+     "url": "https://doi.org/10.1378/chest.102.6.1716",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Solving ME/CFS re-analysis of Germain 2022 data",
+     "n": "60 vs 45 (404 samples)",
+     "design": "within-person change scores, mixed models, permutation",
+     "result": "Resting differences real (~150 of 780 metabolites at p<0.05 vs ~35 expected, perm p=0.002); exercise-response differences at chance (perm p=0.12-0.61); survivors: smaller lactate rise (explained by effort), blunted post-exercise glucose rise, rise in oxidised cys-gly",
+     "url": "/#data",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Is early lactate due to poor oxygen delivery, fibre-type shift, or a mitochondrial/PDH block?",
+    "Does lactate per watt separate ME/CFS from deconditioned controls prospectively?"
+   ],
+   "hypotheses": [
+    "mitochondrial-energy",
+    "small-vessel-capillary",
+    "low-blood-volume-preload"
+   ],
+   "test_available": "Research only (lactate measured during CPET in some labs)",
+   "id": "muscle-exertion-lactate"
+  },
+  {
+   "subdomain": "Oxygen delivery and extraction",
+   "finding": "Invasive exercise testing shows two peripheral limits in ME/CFS: low cardiac filling (preload failure) and, in a high-flow subgroup, poor systemic oxygen extraction by tissue.",
+   "grade": "several",
+   "plain": "During exercise, either not enough blood returns to the heart, or the blood that reaches muscle passes through without giving up enough oxygen.",
+   "detail": "Joseph 2021 (Systrom lab, 160 ME/CFS vs 36 controls from 1,516 iCPETs): right atrial pressure 1.9 vs 8.3 mmHg, peak VO2 80% vs 101% predicted; the high-flow tertile had impaired extraction (0.74 vs 0.86-0.88), consistent with peripheral shunting; 31% had small-fibre neuropathy on skin biopsy. Melamed 2019: impaired extraction was the sole limit in 12.5% of unexplained exertional intolerance. Vermeulen 2014 (non-invasive, 178 CFS women) estimated lower peak extraction and a steep cardiac output/VO2 slope. McCully 1999 (NIRS) found slower muscle oxygen delivery. Invasive data come largely from one centre; capillary rarefaction in Charlton 2026 offers a structural explanation for low extraction.",
+   "studies": [
+    {
+     "cite": "Joseph 2021, Chest",
+     "n": "160 ME/CFS vs 36 controls",
+     "design": "invasive CPET plus skin biopsy, retrospective",
+     "result": "Low RAP (preload failure); impaired O2 extraction in high-flow tertile; 31% SFN",
+     "url": "https://doi.org/10.1016/j.chest.2021.01.082",
+     "verified": true
+    },
+    {
+     "cite": "Melamed 2019, Eur J Appl Physiol",
+     "n": "313 iCPETs for unexplained exertional intolerance",
+     "design": "retrospective iCPET",
+     "result": "Impaired systemic O2 extraction sole limit in 12.5%; higher mixed-venous saturation at peak",
+     "url": "https://doi.org/10.1007/s00421-019-04222-6",
+     "verified": true
+    },
+    {
+     "cite": "Vermeulen 2014, J Transl Med",
+     "n": "178 CFS women, 172 idiopathic fatigue, 11 healthy women (plus men)",
+     "design": "CPET with non-invasive cardiac output (Nexfin)",
+     "result": "Peak extraction 10.8 vs 13.5 ml/100 ml in women; dQ/dVO2 >6 L/L in 70% of patients",
+     "url": "https://doi.org/10.1186/1479-5876-12-20",
+     "verified": true
+    },
+    {
+     "cite": "McCully 1999, Clin Sci",
+     "n": "20 vs 12",
+     "design": "NIRS plus 31P-MRS",
+     "result": "Slower post-exercise and post-ischaemia muscle oxygen resaturation in CFS",
+     "url": "https://doi.org/10.1042/cs0970603",
+     "verified": true
+    },
+    {
+     "cite": "Appelman 2024, Nat Commun",
+     "n": "25 vs 21",
+     "design": "NIRS during CPET",
+     "result": "Muscle deoxygenation responses lower in long COVID",
+     "url": "https://doi.org/10.1038/s41467-023-44432-3",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "open_questions": [
+    "Is poor extraction due to microvascular shunting, capillary loss, or mitochondria that cannot use oxygen?",
+    "Independent invasive replication outside the Systrom lab is lacking.",
+    "Do extraction subgroups predict response to pyridostigmine or volume expansion?"
+   ],
+   "hypotheses": [
+    "low-blood-volume-preload",
+    "small-vessel-capillary",
+    "autonomic-small-fibre",
+    "vascular-endothelial",
+    "mitochondrial-energy"
+   ],
+   "test_available": "Invasive CPET (a few centres, e.g. Brigham/Harvard); NIRS research only",
+   "id": "muscle-exertion-oxygen-extraction"
+  },
+  {
+   "subdomain": "31P-MRS muscle energetics",
+   "finding": "31P-MRS studies from Newcastle found exaggerated muscle acidosis and up to ~4-fold slower pH recovery after repeated exercise in a subset of patients, but other MRS studies found no consistent group abnormality.",
+   "grade": "contested",
+   "plain": "Magnetic scans of calf muscle during exercise suggest that some patients' muscles become more acidic and clear acid slowly, but not all studies see this.",
+   "detail": "Jones 2010 (16 vs 8): proton efflux immediately post-exercise 1.1 vs 3.6 mmol/L/min, time to maximal efflux 25.6 vs 3.8 s, and the normal link between efflux and pH nadir was lost, possibly via autonomic dysfunction. Jones 2012 (18 vs 12): 10 of 18 had low PCr depletion; the other 8 showed more acidosis over three bouts, no adaptation and about 4-fold longer pH recovery. Lane 1998 found lower end-exercise pH and slower ATP synthesis only in the lactate-responder subgroup. Barnes 1993 (46 patients) found no consistent abnormality overall, with 12 outliers; Wong 1992 found similar end-points; a 2025 7 T study found no resting muscle differences. Small samples, subgroup analyses and heterogeneous criteria dominate.",
+   "studies": [
+    {
+     "cite": "Jones 2010, J Intern Med",
+     "n": "16 vs 8",
+     "design": "31P-MRS plantar flexion at 35% MVC plus HRV",
+     "result": "Suppressed proton efflux and delayed peak efflux; correlation with pH nadir lost in CFS",
+     "url": "https://doi.org/10.1111/j.1365-2796.2009.02160.x",
+     "verified": true
+    },
+    {
+     "cite": "Jones 2012, Eur J Clin Invest",
+     "n": "18 vs 12",
+     "design": "31P-MRS over three exercise bouts",
+     "result": "Subgroup with normal PCr depletion had more acidosis, no adaptation, ~4-fold slower pH recovery",
+     "url": "https://doi.org/10.1111/j.1365-2362.2011.02567.x",
+     "verified": true
+    },
+    {
+     "cite": "Lane 1998, Neuromuscul Disord",
+     "n": "10 SATET+ vs 9 SATET- vs 13 controls",
+     "design": "forearm 31P-MRS",
+     "result": "Lower end-exercise pH and slower ATP resynthesis in lactate-responder subgroup only",
+     "url": "https://doi.org/10.1016/s0960-8966(98)00021-2",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Barnes 1993, J Neurol Neurosurg Psychiatry",
+     "n": "46 CFS vs controls and mitochondrial myopathy",
+     "design": "31P-MRS",
+     "result": "No consistent abnormality of glycolysis, mitochondrial metabolism or pH regulation; 12 of 46 outside normal range",
+     "url": "https://doi.org/10.1136/jnnp.56.6.679",
+     "verified": true
+    },
+    {
+     "cite": "Wong 1992, Chest",
+     "n": "22 vs 21",
+     "design": "31P-MRS gastrocnemius",
+     "result": "No group differences in pH, PCr or Pi at rest, exhaustion or recovery; lower ATP at exhaustion",
+     "url": "https://doi.org/10.1378/chest.102.6.1716",
+     "verified": true
+    },
+    {
+     "cite": "Godlewska 2025, Mol Psychiatry",
+     "n": "24 ME/CFS, 25 long COVID, 24 controls",
+     "design": "7 T MRS brain and calf muscle at rest",
+     "result": "Resting muscle metabolites did not differ (brain lactate raised in ME/CFS)",
+     "url": "https://doi.org/10.1038/s41380-025-03108-8",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Would a pre-registered, larger repeat-bout 31P-MRS study with matched activity levels reproduce the Newcastle subgroup?",
+    "Is slow pH recovery a perfusion problem or a muscle-intrinsic one?",
+    "Does the MRS phenotype change during PEM?"
+   ],
+   "hypotheses": [
+    "mitochondrial-energy",
+    "autonomic-small-fibre",
+    "sodium-calcium-overload",
+    "small-vessel-capillary"
+   ],
+   "test_available": "Research MRI only",
+   "id": "muscle-exertion-31p-mrs-ph"
+  },
+  {
+   "subdomain": "Muscle sodium MRI",
+   "finding": "23Na-MRI in 6 women with ME/CFS and 6 controls found higher resting muscle sodium in all lower-leg compartments and a larger sodium rise after exercise, inversely related to grip strength.",
+   "grade": "early",
+   "plain": "A special MRI scan found more salt inside leg muscles of patients, which in theory could disturb muscle energy and calcium handling. The study was very small.",
+   "detail": "Petter 2022: anterior compartment 12.20 ± 1.66 vs 9.38 ± 0.71 mM (p=0.0034); medial gastrocnemius rose 30% vs 17% at 12 min after plantar flexion. Sodium correlated with lower handgrip strength (R2=0.38). This fits the Wirth/Scheibenbogen model in which hypoperfusion overloads the Na+/H+ exchanger, then Na+/Ca2+ exchange, loading muscle with calcium and damaging mitochondria. No independent replication; n=12 total.",
+   "studies": [
+    {
+     "cite": "Petter 2022, J Transl Med",
+     "n": "6 vs 6 women",
+     "design": "23Na-MRI lower leg before and after plantar flexion",
+     "result": "Higher baseline sodium in all compartments; larger exercise rise; correlates with weaker grip",
+     "url": "https://doi.org/10.1186/s12967-022-03616-z",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "open_questions": [
+    "Replication in a larger, sex-balanced cohort with deconditioned and disease controls.",
+    "Does muscle sodium change during PEM or with treatments that improve perfusion?"
+   ],
+   "hypotheses": [
+    "sodium-calcium-overload",
+    "small-vessel-capillary",
+    "vascular-endothelial"
+   ],
+   "test_available": "Research MRI only",
+   "id": "muscle-exertion-muscle-sodium"
+  },
+  {
+   "subdomain": "Muscle biopsies (pre-2020)",
+   "finding": "Older ME/CFS muscle biopsy studies mostly found normal or nonspecific histology, without the fibre atrophy and type 2 shift expected from inactivity, with abnormalities confined to subgroups.",
+   "grade": "contested",
+   "plain": "Muscle samples taken in the 1990s mostly looked normal or only mildly abnormal under the microscope.",
+   "detail": "Lane 1998 (105 quadriceps biopsies): type 1 predominance (23%) was more common than type 2 predominance (3%); atrophy in 10%; no ultrastructural abnormality in 41 EM samples; the abnormal-lactate subgroup had fewer type 1 fibres. Grau 1992 (n=20): only minor nonspecific changes in 9. Wassif 1994 (n=10): normal ischaemic lactate responses. Behan 1991 reported mitochondrial structural changes and Bowles 1993 enteroviral RNA in muscle (41/158 postviral fatigue vs 2/152 controls), neither reproduced with modern methods. Criteria, techniques and selection varied widely.",
+   "studies": [
+    {
+     "cite": "Lane 1998, J Neurol Neurosurg Psychiatry",
+     "n": "105",
+     "design": "quadriceps needle biopsy, histometry, EM",
+     "result": "Changes not those of inactivity; no ultrastructural abnormality; lactate responders fewer type 1 fibres",
+     "url": "https://doi.org/10.1136/jnnp.64.3.362",
+     "verified": true
+    },
+    {
+     "cite": "Grau 1992, Clin Neuropathol",
+     "n": "20",
+     "design": "histopathology",
+     "result": "Minor nonspecific changes in 9/20",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/1473316/",
+     "verified": true
+    },
+    {
+     "cite": "Bowles 1993, J Med",
+     "n": "158 postviral fatigue vs 152 control muscles",
+     "design": "molecular hybridisation",
+     "result": "Enterovirus RNA in 41/158 vs 2/152; histology otherwise normal",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/8409778/",
+     "verified": true
+    },
+    {
+     "cite": "Behan 1991, Acta Neuropathol",
+     "n": "about 50",
+     "design": "electron microscopy",
+     "result": "Mitochondrial structural abnormalities reported",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/1792865/",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Wassif 1994, Ann Clin Biochem",
+     "n": "10 CFS vs 10 alcohol misuse",
+     "design": "ischaemic lactate/ammonia test and biopsy histomorphometry",
+     "result": "No distinctive CFS abnormality",
+     "url": "https://doi.org/10.1177/000456329403100507",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Re-examine archived biopsies with modern immunostaining (capillaries, immune cells, amyloid)."
+   ],
+   "hypotheses": [
+    "viral-persistence",
+    "mitochondrial-energy",
+    "deconditioning"
+   ],
+   "test_available": "Diagnostic muscle biopsy (neuromuscular clinics) mainly to exclude myopathy",
+   "id": "muscle-exertion-old-biopsies"
+  },
+  {
+   "subdomain": "Muscle biopsies after exertion",
+   "finding": "In long COVID with PEM, muscle biopsies taken one day after a maximal exercise test showed lower mitochondrial enzyme activity, more fibre necrosis, more T-cell infiltration and more amyloid-containing deposits than before exercise and than in controls.",
+   "grade": "early",
+   "plain": "When patients with long COVID were biopsied before and after a hard exercise test, their muscle looked more damaged and inflamed afterwards, and had more abnormal protein clumps.",
+   "detail": "Appelman 2024 (25 vs 21, Amsterdam): lower VO2max and gas exchange threshold; more glycolytic fibres; SDH activity fell after exercise in patients; large necrotic areas in 36% of patients after exercise (group p=0.09, so not firmly significant); CD3+ T cells present in patients but absent in controls; CD68 macrophages higher. Biopsies were scored as present/absent because sizes varied, and a first biopsy can itself cause regeneration at the second site. It is long COVID, not ME/CFS, and the amyloid-deposit finding has not been reproduced by another lab. The study prompted published criticism and replies in Nat Commun 2025.",
+   "studies": [
+    {
+     "cite": "Appelman 2024, Nat Commun",
+     "n": "25 long COVID vs 21 controls",
+     "design": "longitudinal case-control; vastus lateralis biopsies before and 1 day after a maximal CPET",
+     "result": "Lower exercise capacity; after exercise, lower SDH activity, more atrophic fibres and focal necrosis, more T-cell infiltration, more amyloid-containing deposits in patients",
+     "url": "https://doi.org/10.1038/s41467-023-44432-3",
+     "verified": true
+    },
+    {
+     "cite": "Charlton 2025, Trends Endocrinol Metab",
+     "n": "review",
+     "design": "opinion article from the same group",
+     "result": "Argue for intrinsic mitochondrial dysfunction, endothelial abnormalities and glycolytic fibre shift as drivers; PEM trigger unknown",
+     "url": "https://doi.org/10.1016/j.tem.2024.11.008",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "open_questions": [
+    "Does the same post-exertion pathology occur in ME/CFS (registered study NCT05225688 includes ME/CFS)?",
+    "Are the amyloid-containing deposits fibrin(ogen)-derived and do they occlude capillaries?",
+    "Is necrosis specific to PEM or a nonspecific response to unaccustomed maximal effort?"
+   ],
+   "hypotheses": [
+    "microclots",
+    "mitochondrial-energy",
+    "innate-hyperactivation",
+    "small-vessel-capillary",
+    "viral-persistence"
+   ],
+   "test_available": "Research only",
+   "id": "muscle-exertion-appelman-pem-biopsy"
+  },
+  {
+   "subdomain": "Fibre type and capillaries",
+   "finding": "ME/CFS muscle has a lower proportion of type I (oxidative) fibres, type I-specific atrophy, lower mitochondrial capacity and fewer capillaries per fibre, a pattern that 60 days of strict bed rest in healthy people did not reproduce.",
+   "grade": "early",
+   "plain": "Patients' muscles have fewer endurance-type fibres and fewer tiny blood vessels. Healthy volunteers kept in bed for two months did not develop the same pattern, so lack of activity alone does not seem to explain it.",
+   "detail": "Charlton 2026 (Amsterdam group; 19-23 ME/CFS, 24-25 long COVID, 29-30 controls, 24 bed rest): type I proportion lower (p<0.001), type IIa/IIx higher; ME/CFS-only lower SDH; both patient groups lower OXPHOS; capillary-to-fibre ratio lower in ME/CFS than in long COVID and controls (p<0.001), whereas bed rest caused atrophy with unchanged capillary-to-fibre ratio and fibre type. OXPHOS correlated with VO2max in controls and after bed rest but not in patients. Same lab as Appelman; bed-rest cohort was a different (younger, male) population studied separately. Lane 1998 reported type 1 predominance more often than type 2 in older ME/CFS biopsies, which does not fit; differences in criteria and methods may explain this.",
+   "studies": [
+    {
+     "cite": "Charlton 2026, Nat Commun",
+     "n": "19-23 ME/CFS, 24-25 long COVID, 29-30 matched controls, 24 healthy people after 60-day bed rest",
+     "design": "case-control biopsies plus bed-rest comparison",
+     "result": "ME/CFS: lower type I fibre proportion and type I-specific atrophy, lower SDH activity, lower OXPHOS capacity, lower capillary-to-fibre ratio; bed rest caused atrophy but no fibre-type shift; OXPHOS tracked VO2max only after bed rest",
+     "url": "https://doi.org/10.1038/s41467-026-75725-y",
+     "verified": true
+    },
+    {
+     "cite": "Appelman 2024, Nat Commun",
+     "n": "25 long COVID vs 21 controls",
+     "design": "longitudinal case-control; vastus lateralis biopsies before and 1 day after a maximal CPET",
+     "result": "Lower exercise capacity; after exercise, lower SDH activity, more atrophic fibres and focal necrosis, more T-cell infiltration, more amyloid-containing deposits in patients",
+     "url": "https://doi.org/10.1038/s41467-023-44432-3",
+     "verified": true
+    },
+    {
+     "cite": "Bizjak 2024, Int J Mol Sci",
+     "n": "small CFS, post-COVID and control groups",
+     "design": "high-resolution respirometry and EM of muscle",
+     "result": "Complex I OXPHOS lower in post-COVID vs controls; CFS showed more advanced mitochondrial structural changes than post-COVID",
+     "url": "https://doi.org/10.3390/ijms25031675",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Lane 1998, J Neurol Neurosurg Psychiatry",
+     "n": "105",
+     "design": "biopsy histometry",
+     "result": "Type 1 predominance (23%) more common than type 2 predominance (3%)",
+     "url": "https://doi.org/10.1136/jnnp.64.3.362",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Independent replication of capillary rarefaction in ME/CFS muscle.",
+    "Is the glycolytic shift a cause of exercise intolerance or an adaptation to poor oxygen delivery?",
+    "Do severe, bedbound patients show the same profile?"
+   ],
+   "hypotheses": [
+    "small-vessel-capillary",
+    "mitochondrial-energy",
+    "vascular-endothelial",
+    "deconditioning"
+   ],
+   "test_available": "Research only",
+   "id": "muscle-exertion-fibre-capillary-bedrest"
+  },
+  {
+   "subdomain": "Muscle mitochondria",
+   "finding": "WASF3 protein is raised in ME/CFS muscle, and in cells and mice it disrupts respiratory supercomplex assembly and lowers exercise capacity via ER stress.",
+   "grade": "early",
+   "plain": "One protein, WASF3, was found at high levels in patients' muscle; in experiments it jammed the parts of mitochondria that make energy.",
+   "detail": "Wang/Hwang 2023 (NIH): started from one patient with high WASF3; transgenic mice overexpressing WASF3 ran less, with lower complex IV; endotoxin-induced ER stress raised WASF3; the ER-stress inhibitor 4-PBA lowered WASF3 and improved the patient's cell respiration. A cohort of ME/CFS muscle biopsies showed raised WASF3 and ER stress markers (small cohort; group n not given in abstract). Glass 2025 also found ER-stress proteins in post-exercise EVs tracking PEM severity. No independent replication of the WASF3 biopsy finding.",
+   "studies": [
+    {
+     "cite": "Wang 2023, PNAS",
+     "n": "index patient; transgenic mice; small ME/CFS biopsy cohort",
+     "design": "mechanistic case study plus cohort biopsies",
+     "result": "WASF3 disrupts supercomplexes; raised WASF3 and ER stress in ME/CFS muscle",
+     "url": "https://doi.org/10.1073/pnas.2302738120",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "open_questions": [
+    "Replication of raised muscle WASF3 in a larger, activity-matched cohort.",
+    "Does patient serum induce WASF3 in healthy muscle cells?",
+    "Would ER-stress modulators help in a trial?"
+   ],
+   "hypotheses": [
+    "mitochondrial-energy",
+    "er-stress",
+    "innate-hyperactivation"
+   ],
+   "test_available": "Research only",
+   "id": "muscle-exertion-muscle-mito-wasf3"
+  },
+  {
+   "subdomain": "Cultured patient muscle cells",
+   "finding": "Muscle cells grown from ME/CFS patients failed to activate AMPK and raise glucose uptake after electrical pulse stimulation, and secreted less IL-6, suggesting a defect that persists outside the body.",
+   "grade": "early",
+   "plain": "Patients' muscle cells grown in a dish did not respond to simulated exercise the normal way, which hints at a built-in problem rather than one caused only by something in the blood.",
+   "detail": "Brown 2015 (Newcastle): control cultures increased AMPK phosphorylation and glucose uptake after 16 h EPS; CFS cultures did not, though insulin-stimulated uptake was preserved; IL-6 secretion lower. Sample sizes small. Tomas 2019 (same group) found no differences in individual complex activity in patient myotubes (n=6), so the defect, if real, is in signalling rather than respiratory chain capacity.",
+   "studies": [
+    {
+     "cite": "Brown 2015, PLOS ONE",
+     "n": "small (CFS vs control myoblast donors)",
+     "design": "in vitro EPS of cultured myotubes",
+     "result": "No AMPK activation or glucose uptake rise after EPS; lower IL-6",
+     "url": "https://doi.org/10.1371/journal.pone.0122982",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Tomas 2019, PeerJ",
+     "n": "myotubes n=6; PBMC 13 CFS vs 6 controls",
+     "design": "permeabilised-cell extracellular flux",
+     "result": "No differences in complex I, II, IV activity or FAO/glutaminolysis-supported respiration",
+     "url": "https://doi.org/10.7717/peerj.6500",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Replication with more donors and blinded processing.",
+    "Is the defect epigenetic or genetic?"
+   ],
+   "hypotheses": [
+    "mitochondrial-energy",
+    "genetic-neuronal"
+   ],
+   "test_available": "Research only",
+   "id": "muscle-exertion-cultured-myotubes"
+  },
+  {
+   "subdomain": "Mitochondria in blood cells",
+   "finding": "Mitochondrial function in patients' blood cells has been reported as lower (PBMC maximal respiration, T-cell glycolysis), higher (lymphoblast maximal respiration with Complex V inefficiency) or normal, depending on lab and cell type.",
+   "grade": "contested",
+   "plain": "Studies of energy production in white blood cells disagree with each other, so it is unclear whether blood cells show an energy defect.",
+   "detail": "Tomas 2017: lower PBMC maximal respiration (p<=0.003), but control groups were small (fresh n=3, frozen n=12, vs 25 and 38 patients). Mandarano 2020 (53 vs 45, Hanson lab): reduced glycolysis in CD4 and CD8 T cells at rest and reduced CD8 membrane potential, with normal mitochondrial respiration in most measures. Missailidis 2020/2021 (51 CCC patients; immortalised lymphoblasts): higher maximal respiration and spare capacity but lower ATP synthesis fraction (Complex V inefficiency), with TCA, PPP and beta-oxidation enzymes up; claimed high discrimination, unreplicated. Vermeulen 2010 and Tomas 2019 found normal PBMC OXPHOS or complex activity. Directions conflict between studies, freezing affects results, and blood cells may not reflect muscle.",
+   "studies": [
+    {
+     "cite": "Tomas 2017, PLOS ONE",
+     "n": "CFS fresh 25/frozen 38 vs control fresh 3/frozen 12",
+     "design": "Seahorse PBMC",
+     "result": "Lower maximal respiration and other OXPHOS parameters",
+     "url": "https://doi.org/10.1371/journal.pone.0186802",
+     "verified": true
+    },
+    {
+     "cite": "Mandarano 2020, J Clin Invest",
+     "n": "53 vs 45",
+     "design": "Seahorse on isolated CD4/CD8 T cells",
+     "result": "Reduced T-cell glycolysis; reduced CD8 membrane potential",
+     "url": "https://doi.org/10.1172/jci132185",
+     "verified": true
+    },
+    {
+     "cite": "Missailidis 2020, Int J Mol Sci",
+     "n": "51 ME/CFS lymphoblast lines vs matched controls",
+     "design": "Seahorse, proteomics",
+     "result": "Complex V inefficiency; elevated maximal OCR and spare capacity; mTORC1 hyperactivation",
+     "url": "https://doi.org/10.3390/ijms21031074",
+     "verified": true
+    },
+    {
+     "cite": "Missailidis 2021, Int J Mol Sci",
+     "n": "up to 34 vs 31 lines",
+     "design": "transcriptomics/proteomics",
+     "result": "Elevated TCA, PPP, FAO enzymes: dysregulated substrate supply",
+     "url": "https://doi.org/10.3390/ijms22042046",
+     "verified": true
+    },
+    {
+     "cite": "Heng 2025, Cell Rep Med",
+     "n": "ME/CFS",
+     "design": "multi-omics",
+     "result": "Immune cells show low ATP/ADP ratio (energy stress); skewed T, NK and dendritic subsets; raised plasma proteins for thrombus formation and vascular reactivity",
+     "url": "https://doi.org/10.1016/j.xcrm.2025.102514",
+     "verified": true
+    },
+    {
+     "cite": "Macnaughtan 2025, Ann Med",
+     "n": "ME/CFS",
+     "design": "PBMC",
+     "result": "PBMC Seahorse, 27 LC vs 16 controls: higher baseline oxygen use and abnormal ATP-synthase behaviour; correlated with autonomic scores",
+     "url": "https://doi.org/10.1080/07853890.2025.2528167",
+     "verified": true
+    },
+    {
+     "cite": "Dirajlal-Fargo 2024, Mitochondrion",
+     "n": "LC",
+     "design": "PBMC",
+     "result": "mitochondrial dysfunction",
+     "url": "https://doi.org/10.1016/j.mito.2024.101849",
+     "verified": true
+    },
+    {
+     "cite": "Guo 2023, eBioMedicine",
+     "n": "ME/CFS",
+     "design": "multi-omics",
+     "result": "IDO/kynurenine; immune metabolism",
+     "url": "https://doi.org/10.1016/j.ebiom.2023.104729",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Vermeulen 2010, J Transl Med",
+     "n": "15 vs 15 women",
+     "design": "PBMC OXPHOS plus 2-day CPET",
+     "result": "PBMC oxidative phosphorylation normal despite worse day-2 performance",
+     "url": "https://doi.org/10.1186/1479-5876-8-93",
+     "verified": true
+    },
+    {
+     "cite": "Tomas 2019, PeerJ",
+     "n": "13 CFS vs 6 controls (PBMC)",
+     "design": "permeabilised cells",
+     "result": "No complex activity differences",
+     "url": "https://doi.org/10.7717/peerj.6500",
+     "verified": true
+    },
+    {
+     "cite": "Fernandez-Guerra 2021, Biomolecules",
+     "n": "6 vs 6",
+     "design": "PBMC bioenergetics and proteomics",
+     "result": "Exploratory; small",
+     "url": "https://doi.org/10.3390/biom11070961",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "A multi-lab, blinded, pre-registered PBMC Seahorse study with fresh cells and adequate controls.",
+    "Do blood-cell findings correlate with muscle mitochondrial measures in the same people?"
+   ],
+   "hypotheses": [
+    "mitochondrial-energy",
+    "immune-exhaustion",
+    "genetic-neuronal"
+   ],
+   "test_available": "Research only; commercial 'mitochondrial function' blood tests are not validated",
+   "id": "muscle-exertion-immune-cell-mito"
+  },
+  {
+   "subdomain": "Pyruvate dehydrogenase",
+   "finding": "Fluge 2016 proposed impaired pyruvate dehydrogenase (PDH) function from low TCA-fuelling amino acids and raised PDK mRNA in blood cells; this has not been independently confirmed.",
+   "grade": "early",
+   "plain": "One group suggested that the step that lets sugar enter mitochondria to be burned cleanly is partly blocked, pushing cells toward lactate. Others have not yet confirmed it.",
+   "detail": "Fluge 2016 (200 vs 102): lower serum amino acids feeding the TCA cycle (mainly women), raised 3-methylhistidine in men, PDK1/2/4, SIRT4 and PPARdelta mRNA up in PBMC. Mughal 2025 found PDK3/PDK4 up in 3D muscle exposed to patient serum (n=4 ME/CFS). The serum-transfer part of Fluge 2016 failed replication (Ryback 2026). Solving ME/CFS re-analysis of resting plasma metabolomics found low acylcarnitines and fatty acids (lower fat-fuel supply) rather than a pile-up pattern, and a 5-cohort aromatic-lactate deficit, which point to related but different steps. No study has measured PDH activity directly in ME/CFS muscle.",
+   "studies": [
+    {
+     "cite": "Fluge 2016, JCI Insight",
+     "n": "200 ME/CFS vs 102 controls (serum amino acids); 12 vs 12 (myoblast serum assay)",
+     "design": "case-control metabolomics, PBMC qPCR, serum-transfer cell assay",
+     "result": "Lower TCA-fuelling amino acids (mainly women); PDK1/2/4, SIRT4, PPARdelta mRNA up in PBMC; severe-patient serum raised myoblast respiration and lactate secretion",
+     "url": "https://doi.org/10.1172/jci.insight.89376",
+     "verified": true
+    },
+    {
+     "cite": "Mughal 2025, Biofabrication",
+     "n": "4 ME/CFS, 5 long COVID, 4 controls",
+     "design": "3D engineered muscle exposed to serum",
+     "result": "PDK3/PDK4 up by qPCR; glycolysis/TCA genes up",
+     "url": "https://doi.org/10.1088/1758-5090/adf66c",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Solving ME/CFS re-analysis (resting metabolomics, several cohorts)",
+     "n": "Germain 2022 60 vs 45 plus 5 cohorts for aromatic lactates",
+     "design": "re-analysis of public metabolomics",
+     "result": "Resting pattern fits low fat-derived fuel supply, not a PDH/fat-oxidation block with acylcarnitine build-up; aromatic lactates -0.53 SD",
+     "url": "/#data",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Direct PDH activity and phosphorylation in muscle biopsies.",
+    "Replication of the amino-acid pattern in an independent cohort with diet control."
+   ],
+   "hypotheses": [
+    "mitochondrial-energy",
+    "metabolic-trap-ido",
+    "serum-factor"
+   ],
+   "test_available": "Research only",
+   "id": "muscle-exertion-pdh-block"
+  },
+  {
+   "subdomain": "Serum factors and muscle cells",
+   "finding": "The claim that ME/CFS serum changes healthy myoblast mitochondrial respiration failed a pre-registered replication of 67 patients vs 53 controls, though a small 3D engineered-muscle study reported weaker contraction with patient serum.",
+   "grade": "refuted",
+   "plain": "An influential idea was that something in patients' blood harms muscle cells' energy production. A large, careful repeat of the original experiment found no difference.",
+   "detail": "Ryback 2026: blinded, randomised, 1,926 wells, primary maximal OCR +2.50 pmol/min (95% CI -1.62 to 6.62); recomputed participant-level d=0.14 (CI -0.22 to 0.50), excluding the original d=1.32. Limits: mostly mild-moderate (only 6 severe), resting samples, batch partly collinear with group, one myoblast donor, single readout. Mughal 2025 (4/5/4 donors, IBEC) found reduced contractile force at 48 h and mitochondrial fragmentation later, with pseudoreplication risk. Prusty 2026 found patient IgG fragments endothelial (not muscle) mitochondria, with MS controls. The refutation applies to the 2D myoblast respiration readout, not to all serum-factor ideas.",
+   "studies": [
+    {
+     "cite": "Fluge 2016, JCI Insight",
+     "n": "12 vs 12 (9 severe)",
+     "design": "serum on healthy myoblasts",
+     "result": "Higher respiration and lactate secretion with patient serum",
+     "url": "https://doi.org/10.1172/jci.insight.89376",
+     "verified": true
+    },
+    {
+     "cite": "Mughal 2025, Biofabrication",
+     "n": "4 ME/CFS, 5 long COVID, 4 controls",
+     "design": "3D muscle tissue force under electrical stimulation",
+     "result": "Lower force after 48 h patient serum; fragmented mitochondria by 96-144 h",
+     "url": "https://doi.org/10.1088/1758-5090/adf66c",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Ryback 2026, PLOS ONE",
+     "n": "67 ME vs 53 controls, all female",
+     "design": "pre-registered, blinded replication of Fluge 2016; healthy myoblasts in 20% serum 6 days, Seahorse",
+     "result": "No difference in maximal respiration (+2.50 pmol/min, 95% CI -1.62 to 6.62, p=0.23) or any secondary measure; powered for d=0.52 vs original d=1.32",
+     "url": "https://doi.org/10.1371/journal.pone.0341334",
+     "verified": true
+    },
+    {
+     "cite": "Solving ME/CFS re-analysis of Ryback 2026 supplementary data",
+     "n": "67 vs 53",
+     "design": "participant-level recomputation",
+     "result": "d=0.14 overall; severe subgroup (n=6) d=0.002",
+     "url": "/#data",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Do sera drawn during PEM or from severe patients behave differently?",
+    "Would differentiated myotubes, force readouts or IgG fractions show an effect that whole serum in 2D did not?",
+    "Can a blinded two-lab sample exchange reproduce the 3D force result?"
+   ],
+   "hypotheses": [
+    "serum-factor",
+    "autoimmunity",
+    "mitochondrial-energy"
+   ],
+   "test_available": "Research only",
+   "id": "muscle-exertion-serum-myoblast-refuted"
+  },
+  {
+   "subdomain": "Exercise-induced gene expression",
+   "finding": "After moderate exercise, leukocyte mRNA for metabolite-detecting (ASIC3, P2X4/5, TRPV1), adrenergic and immune genes rose for up to 48 h in most CFS patients but not in controls or MS patients.",
+   "grade": "early",
+   "plain": "In one lab's studies, a 25-minute bout of moderate exercise switched on 'muscle-fatigue sensing' genes in patients' white blood cells for two days, and this tracked how tired and sore they felt.",
+   "detail": "Light 2012 (48 CFS, 18 FM, 49 controls; 25 min at 70% age-predicted HR, blood at 0.5, 8, 24, 48 h, blinded qPCR of 13 genes): 71% of CFS had increases correlating with fatigue and pain; the other 29% showed decreased alpha-2A receptor mRNA and more orthostatic intolerance. White 2012 (22 CFS, 20 MS, 23 controls) added a disease control. All from the Utah Light lab with a small targeted gene panel; no independent replication. Vu 2024 single-cell RNA-seq after exercise found minimal immune changes other than platelets.",
+   "studies": [
+    {
+     "cite": "Light 2012, J Intern Med",
+     "n": "48 CFS, 18 FM, 49 controls",
+     "design": "pre/post moderate exercise qPCR",
+     "result": "Post-exercise rise in sensory/adrenergic/cytokine gene mRNA for 48 h in 71% of CFS; none in controls",
+     "url": "https://doi.org/10.1111/j.1365-2796.2011.02405.x",
+     "verified": true
+    },
+    {
+     "cite": "White 2012, Psychosom Med",
+     "n": "22 CFS, 20 MS, 23 controls",
+     "design": "pre/post moderate exercise qPCR",
+     "result": "Larger rises in P2X4, TRPV1, CD14 and adrenergic receptors in CFS than controls; MS differed",
+     "url": "https://doi.org/10.1097/psy.0b013e31824152ed",
+     "verified": true
+    },
+    {
+     "cite": "Light 2009, J Pain",
+     "n": "small pilot",
+     "design": "pilot",
+     "result": "First report of post-exercise gene rises",
+     "url": "https://doi.org/10.1016/j.jpain.2009.06.003",
+     "verified": true
+    },
+    {
+     "cite": "White AT 2010, Psychophysiology",
+     "n": "CFS",
+     "design": "post-exercise leukocyte gene expression",
+     "result": "sensory/adrenergic receptor mRNA rise",
+     "url": "https://doi.org/10.1111/j.1469-8986.2010.00978.x",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Vu 2024, Cell Rep Med",
+     "n": "ME/CFS vs controls, before and after exercise",
+     "design": "single-cell RNA-seq of PBMC",
+     "result": "Minimal post-exercise changes outside platelets (improper platelet activation)",
+     "url": "https://doi.org/10.1016/j.xcrm.2023.101373",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Independent replication with a pre-registered gene panel.",
+    "Do leukocyte receptor transcripts reflect muscle afferent signalling at all?"
+   ],
+   "hypotheses": [
+    "autonomic-small-fibre",
+    "innate-hyperactivation",
+    "sickness-behaviour"
+   ],
+   "test_available": "Research only",
+   "id": "muscle-exertion-exercise-gene-expression"
+  },
+  {
+   "subdomain": "Post-exertion metabolomics",
+   "finding": "Plasma metabolomics across a 2-day CPET shows clear resting differences in ME/CFS, but once each person is compared with themselves the exercise response differs little from controls.",
+   "grade": "contested",
+   "plain": "Blood chemistry differs between patients and healthy people even at rest. Whether hard exercise changes it in a disease-specific way is less clear.",
+   "detail": "Germain 2022 reported growing patient-control divergence (women: 6 to 54 metabolites at q<0.05 across four timepoints) and glutamate/TCA-linked recovery pathways. The Solving ME/CFS re-analysis reproduced those counts but found day-1 and day-2 differences correlate at 0.85 and the within-person response is at chance; alpha-ketoglutarate did not reproduce. Surviving modest signals: blunted post-exercise glucose rise (p=0.018, survives lactate adjustment), oxidised cys-gly rise in patients (q=0.033), lower day-2 N-acetylarginine and C6-DC acylcarnitine. Che 2025 (56 vs 52, Lipkin) reported TCA, beta-oxidation and urea-cycle abnormalities worse 24 h after exercise, but with only pre/24 h timepoints. Five of the most impaired male patients lacked post-exercise samples in Germain 2022.",
+   "studies": [
+    {
+     "cite": "Germain 2022, JCI Insight",
+     "n": "60 ME/CFS vs 45 controls, 4 timepoints",
+     "design": "2-day CPET plasma metabolomics (1,157 metabolites)",
+     "result": "Reported growing patient-control disparity over the two days, with lipid, energy and glutamate-linked pathways in recovery",
+     "url": "https://doi.org/10.1172/jci.insight.157621",
+     "verified": true
+    },
+    {
+     "cite": "Che 2025, npj Metab Health Dis",
+     "n": "56 ME/CFS vs 52 controls (47 matched pairs)",
+     "design": "plasma metabolomics/proteomics and stimulated immune responses before and 24 h after exercise",
+     "result": "Exaggerated innate responses; impaired energy pathways; many abnormalities worse after exercise and correlated with symptoms",
+     "url": "https://doi.org/10.1038/s44324-025-00079-w",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Solving ME/CFS re-analysis of Germain 2022 data",
+     "n": "60 vs 45 (404 samples)",
+     "design": "within-person change scores, mixed models, permutation",
+     "result": "Resting differences real (~150 of 780 metabolites at p<0.05 vs ~35 expected, perm p=0.002); exercise-response differences at chance (perm p=0.12-0.61); survivors: smaller lactate rise (explained by effort), blunted post-exercise glucose rise, rise in oxidised cys-gly",
+     "url": "/#data",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Does a within-person analysis of Che 2025 hold up?",
+    "Plasma may be the wrong compartment; paired muscle microdialysis or biopsy metabolomics are lacking."
+   ],
+   "hypotheses": [
+    "mitochondrial-energy",
+    "innate-hyperactivation",
+    "cell-danger-response"
+   ],
+   "test_available": "Research only",
+   "id": "muscle-exertion-post-exertion-metabolomics"
+  },
+  {
+   "subdomain": "Post-exertion proteomics",
+   "finding": "Plasma proteomics of 79 ME/CFS and 53 sedentary controls across a 2-day CPET found the largest patient-specific changes in the 24 h recovery phase, with suppressed T/B-cell and IL-17 signalling and raised glycolysis proteins.",
+   "grade": "contested",
+   "plain": "The biggest differences in blood proteins appeared during the recovery day, when PEM begins, rather than straight after exercise.",
+   "detail": "Germain 2025 (SomaScan 7K, 6,361 proteins; 96 F, 36 M): persistent dysregulation of immune, metabolic and neuromuscular pathways; protein-VO2max/AT relationships present in controls were disrupted in patients; sex-specific responses. Che 2025 proteomics added complement activation and extracellular-matrix ligands after exercise. The Solving ME/CFS proteome re-analysis found resting muscle-derived proteins lower in 3 SomaScan cohorts (including Germain) and UK Biobank (d -0.50). Pathway enrichment across thousands of aptamers is vulnerable to multiplicity; no independent post-exertion proteomics cohort yet.",
+   "studies": [
+    {
+     "cite": "Germain 2025, Mol Cell Proteomics",
+     "n": "79 ME/CFS vs 53 controls",
+     "design": "longitudinal SomaScan 7K across 2-day CPET",
+     "result": "Recovery-phase maladaptation; suppressed lymphocyte and IL-17 signalling; glycolysis up; links to muscle pain and sore throat",
+     "url": "https://doi.org/10.1016/j.mcpro.2025.101467",
+     "verified": true
+    },
+    {
+     "cite": "Che 2025, npj Metab Health Dis",
+     "n": "56 vs 52",
+     "design": "multi-omics pre/24 h post exercise",
+     "result": "Complement activation, ECM disruption, redox imbalance worse post-exercise",
+     "url": "https://doi.org/10.1038/s44324-025-00079-w",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Solving ME/CFS re-analysis (proteome)",
+     "n": "Germain 79/51 per-person",
+     "design": "within-person change",
+     "result": "0 proteins with a patient-specific exercise response at FDR; pathway claims not reproduced per person",
+     "url": "/#data",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Replication of recovery-phase protein changes in an independent cohort.",
+    "Which changes are effort-dependent (adjust for achieved workload)?"
+   ],
+   "hypotheses": [
+    "immune-exhaustion",
+    "innate-hyperactivation",
+    "complement-thromboinflammation",
+    "mitochondrial-energy"
+   ],
+   "test_available": "Research only",
+   "id": "muscle-exertion-post-exertion-proteomics"
+  },
+  {
+   "subdomain": "Extracellular vesicles after exercise",
+   "finding": "Extracellular-vesicle protein cargo responds to maximal exercise differently in ME/CFS (blunted in women; TCA proteins down and complement up in men), and recovery-phase changes correlate with PEM severity.",
+   "grade": "early",
+   "plain": "Tiny packages that cells release into the blood carry different proteins after exercise in patients than in healthy people.",
+   "detail": "Giloteaux 2024 (18 vs 17 women; pre, 15 min, 24 h; TMT proteomics): patients' EV changes differed and correlated with symptom severity, involving coagulation, muscle contraction, cytoskeleton, immune and brain proteins. Glass 2025 (10 vs 12 men): TCA-cycle proteins down and complement up at 15 min; ER-stress and protein-folding changes in recovery correlated with PEM; EV-VO2 correlations seen in controls were absent in patients. Both from the Hanson lab, small, many comparisons; no transfer experiment shows patient EVs act on cells.",
+   "studies": [
+    {
+     "cite": "Giloteaux 2024, J Extracell Vesicles",
+     "n": "18 vs 17 women",
+     "design": "EV proteomics pre/15 min/24 h post CPET",
+     "result": "Different EV response in patients; correlates with severity",
+     "url": "https://doi.org/10.1002/jev2.12403",
+     "verified": true
+    },
+    {
+     "cite": "Glass 2025, Clin Transl Med",
+     "n": "10 vs 12 men",
+     "design": "EV proteomics pre/15 min/24 h post CPET",
+     "result": "TCA down, complement up post-exercise; ER-stress changes track PEM",
+     "url": "https://doi.org/10.1002/ctm2.70346",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "open_questions": [
+    "Independent replication, and functional tests of patient EVs on muscle or endothelial cells.",
+    "Tissue of origin of the EVs (muscle, platelet, endothelium)."
+   ],
+   "hypotheses": [
+    "complement-thromboinflammation",
+    "er-stress",
+    "mitochondrial-energy",
+    "cell-danger-response"
+   ],
+   "test_available": "Research only",
+   "id": "muscle-exertion-ev-cargo"
+  },
+  {
+   "subdomain": "Muscle strength and fatigability",
+   "finding": "Repeated maximal handgrip testing shows lower strength, faster decline across repetitions and poorer recovery after 60 minutes in ME/CFS, correlating with severity and PEM.",
+   "grade": "several",
+   "plain": "Squeezing a grip meter ten times in a row, twice an hour apart, shows patients' strength fading faster and recovering less than healthy people's. It is cheap and quick.",
+   "detail": "Jäkel 2021 (105 ME/CFS, 18 cancer-related fatigue, 66 controls; Charité): lower Fmax and Fmean (p<0.0001), higher fatigue ratio, lower recovery ratio (Fmean2/Fmean1); lower grip linked to severity, PEM, muscle pain and post-exertion CK/LDH. Paffrath 2024 (144 women with post-COVID, 78 meeting CCC): grip impaired across post-COVID, but linked to key symptoms only in ME/CFS. Walitt 2024 (NIH) found normal MVC but shorter time to failure at 50% MVC (p=0.0002) and faster decline on repetitive grip, which the authors attributed to 'effort preference', an interpretation that has been disputed. Paul 1999 (10 vs 10) showed slower quadriceps strength recovery up to 24 h. Most data come from one centre; effort and motivation cannot be fully excluded from voluntary tests.",
+   "studies": [
+    {
+     "cite": "Jäkel 2021, J Transl Med",
+     "n": "105 ME/CFS, 18 CRF, 66 controls",
+     "design": "repeat maximal HGS (10 pulls x 2, 60 min apart)",
+     "result": "Lower strength, higher fatigue ratio, lower recovery ratio; correlates with severity and PEM",
+     "url": "https://doi.org/10.1186/s12967-021-02774-w",
+     "verified": true
+    },
+    {
+     "cite": "Paffrath 2024, J Clin Med",
+     "n": "144 post-COVID women (78 ME/CFS)",
+     "design": "repeat HGS",
+     "result": "Impaired HGS in all; associations with PEM, fatigue, cognition only in ME/CFS",
+     "url": "https://doi.org/10.3390/jcm13072153",
+     "verified": true
+    },
+    {
+     "cite": "Walitt 2024, Nat Commun",
+     "n": "16-20 per group",
+     "design": "grip MVC, time to failure, repetitive grip",
+     "result": "Normal MVC; shorter time to failure; faster decline on repetitive grip",
+     "url": "https://doi.org/10.1038/s41467-024-45107-3",
+     "verified": true
+    },
+    {
+     "cite": "Paul 1999, Eur J Neurol",
+     "n": "10 vs 10",
+     "design": "quadriceps fatiguing protocol with recovery to 24 h",
+     "result": "Similar decline during exercise; recovery prolonged in CFS at 200 min and 24 h",
+     "url": "https://doi.org/10.1046/j.1468-1331.1999.610063.x",
+     "verified": true
+    },
+    {
+     "cite": "Mihatsch 2026, J Transl Med",
+     "n": "147 vs 83",
+     "design": "repeated handgrip",
+     "result": "reduced fatigability/recovery",
+     "url": "https://doi.org/10.1186/s12967-026-08654-5",
+     "verified": true
+    },
+    {
+     "cite": "Schlomer 2025, Front Neurosci",
+     "n": "ME/CFS",
+     "design": "handgrip",
+     "result": "reduced grip strength/fatigability",
+     "url": "https://doi.org/10.3389/fnins.2025.1637838",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Popkirov 2025, Eur J Neurol",
+     "n": "commentary/analysis",
+     "design": "interpretation",
+     "result": "argues effort/central factors",
+     "url": "https://doi.org/10.1111/ene.70273",
+     "verified": true
+    },
+    {
+     "cite": "Steinkirchner 2026 (preprint)",
+     "n": "ME/CFS",
+     "design": "handgrip",
+     "result": "Grip-strength variability (CV) overlapped heavily between ME/CFS and controls told to give 50% effort; a trajectory metric separated them better, so CV is a poor effort-validity marker",
+     "url": "https://doi.org/10.64898/2026.07.22.26358672",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Independent validation outside Charité with deconditioned and depressed controls.",
+    "Can repeat HGS track PEM day by day or serve as a trial endpoint?",
+    "How much reflects central drive versus peripheral muscle fatigue (Walitt found no central or peripheral fatigue markers)?"
+   ],
+   "hypotheses": [
+    "sodium-calcium-overload",
+    "mitochondrial-energy",
+    "sickness-behaviour"
+   ],
+   "test_available": "Yes: handgrip dynamometer (cheap; offered by some ME/CFS clinics, e.g. Charité protocol)",
+   "id": "muscle-exertion-grip-fatigability"
+  },
+  {
+   "subdomain": "Muscle proteins in blood",
+   "finding": "Muscle-derived proteins (myoglobin, troponins, CA3 and similar) are lower in ME/CFS blood at rest across three SomaScan cohorts and UK Biobank, not explained by step counts or walking pace.",
+   "grade": "several",
+   "plain": "Proteins that leak from muscle into blood are slightly lower in patients, which suggests less muscle mass or slower muscle turnover rather than ongoing damage.",
+   "detail": "Solving ME/CFS re-analysis: muscle-damage set d -0.50 (95% CI -0.76 to -0.24, q=0.002, I2 0.07) across Hoel (-0.85), Germain (-0.43) and Walitt (-0.34); UK Biobank competitive shift negative; not mediated by walking pace; unrelated to steps, Bell score or illness duration within patients. Lean mass was not available, so reduced muscle mass from inactivity cannot be excluded. Resting CK and myoglobin are expected to be low-normal.",
+   "studies": [
+    {
+     "cite": "Solving ME/CFS re-analysis (proteome)",
+     "n": "Hoel 50/24, Germain 78/51, Walitt 21/21, plus UK Biobank",
+     "design": "meta-analysis of public proteomics",
+     "result": "Muscle protein set d -0.50, consistent across cohorts",
+     "url": "/#data",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "open_questions": [
+    "Does the signal survive adjustment for DXA lean mass?",
+    "Does it relate to type I fibre atrophy or capillary loss in biopsies from the same people?"
+   ],
+   "hypotheses": [
+    "deconditioning",
+    "mitochondrial-energy",
+    "small-vessel-capillary"
+   ],
+   "test_available": "Not clinically meaningful; DXA lean mass is available",
+   "id": "muscle-exertion-muscle-proteins-blood"
+  },
+  {
+   "subdomain": "Deconditioning versus disease",
+   "finding": "Several designs (aerobic-capacity-matched controls, idiopathic-fatigue and MS comparison groups, and a 60-day bed-rest model) indicate that deconditioning alone does not explain the exercise and muscle abnormalities in ME/CFS.",
+   "grade": "several",
+   "plain": "It is often said patients are just unfit from resting. Studies that compared them with equally unfit people or with healthy volunteers kept in bed found differences that inactivity did not produce.",
+   "detail": "Keller 2024: day-2 declines persisted in 55 pairs matched for peak VO2. van Campen 2021 and Hodges 2018: idiopathic chronic fatigue and MS patients improved on day 2. Lane 1998: biopsy changes were not those of inactivity. Charlton 2026: bed rest caused atrophy with preserved fibre type and capillary-to-fibre ratio; patients showed the opposite pattern; OXPHOS-VO2max coupling present after bed rest but absent in patients. Vermeulen 2014: a high cardiac output/VO2 slope argues against central deconditioning. These are mostly cross-sectional and from enthusiast centres; Mancini 2026 found no day-2 decline at all.",
+   "studies": [
+    {
+     "cite": "Keller 2024, J Transl Med",
+     "n": "84 ME/CFS vs 71 sedentary controls (55 VO2-matched pairs)",
+     "design": "2-day CPET, cycle ergometer, 24 h apart",
+     "result": "ME/CFS failed to reproduce day-1 values: e.g. ~6% fall in peak VO2/kg and 6.7% fall in VO2 at ventilatory threshold in matched pairs; controls stable; both groups met maximal-effort criteria",
+     "url": "https://doi.org/10.1186/s12967-024-05410-5",
+     "verified": true
+    },
+    {
+     "cite": "Charlton 2026, Nat Commun",
+     "n": "19-23 ME/CFS, 24-25 long COVID, 29-30 matched controls, 24 healthy people after 60-day bed rest",
+     "design": "case-control biopsies plus bed-rest comparison",
+     "result": "ME/CFS: lower type I fibre proportion and type I-specific atrophy, lower SDH activity, lower OXPHOS capacity, lower capillary-to-fibre ratio; bed rest caused atrophy but no fibre-type shift; OXPHOS tracked VO2max only after bed rest",
+     "url": "https://doi.org/10.1038/s41467-026-75725-y",
+     "verified": true
+    },
+    {
+     "cite": "van Campen 2021, Healthcare",
+     "n": "50 vs 51 women",
+     "design": "2-day CPET, idiopathic chronic fatigue control",
+     "result": "ICF improved on day 2; ME/CFS declined",
+     "url": "https://doi.org/10.3390/healthcare9060682",
+     "verified": true
+    },
+    {
+     "cite": "Charlton 2026, Br J Sports Med",
+     "n": "narrative",
+     "design": "review/editorial",
+     "result": "Argues cardiac deconditioning is a myth in long COVID PEM",
+     "url": "https://doi.org/10.1136/bjsports-2025-111387",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Mancini 2026, Front Physiol",
+     "n": "58 ME/CFS vs 25 sedentary controls",
+     "design": "2-day CPET replication attempt",
+     "result": "No day-2 change in peak VO2 (22.3 to 22.5 ml/kg/min) or VO2 at threshold in either group; patients had lower peak HR and higher perceived exertion; authors say 2-day CPET should not be used to define PEM",
+     "url": "https://doi.org/10.3389/fphys.2026.1816082",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "A prospective study following new post-infectious patients from onset, measuring muscle before inactivity accumulates."
+   ],
+   "hypotheses": [
+    "deconditioning",
+    "small-vessel-capillary",
+    "mitochondrial-energy"
+   ],
+   "test_available": "n/a",
+   "id": "muscle-exertion-deconditioning"
+  },
+  {
+   "id": "muscle-exertion-lc-peak-vo2",
+   "subdomain": "Exercise capacity (single CPET)",
+   "finding": "People with long COVID have lower peak VO2 than recovered controls on average (about 5 ml/kg/min), with patterns pointing to deconditioning, chronotropic incompetence and impaired peripheral extraction rather than a cardiac or ventilatory limit.",
+   "grade": "several",
+   "plain": "On an exercise bike, people with long COVID reach a lower maximum oxygen use than people who recovered. The heart's pumping is usually normal; the problem looks more like heart-rate control, fitness loss and muscles taking up less oxygen.",
+   "detail": "Bridges ME/CFS single-CPET findings to LC; selection (hospitalised vs mild, active vs sedentary) explains much of the heterogeneity.",
+   "studies": [
+    {
+     "cite": "Durstenfeld 2022, JAMA Netw Open",
+     "n": "9 studies; 464 with PASC vs 359 without",
+     "design": "systematic review and meta-analysis of CPET",
+     "result": "peak VO2 -4.9 ml/kg/min (95% CI -6.4 to -3.4); low certainty; deconditioning, dysfunctional breathing, chronotropic incompetence and impaired extraction all reported",
+     "url": "https://doi.org/10.1001/jamanetworkopen.2022.36057",
+     "verified": true
+    },
+    {
+     "cite": "Jamieson 2024, Physiol Rep",
+     "n": "32 LC vs 19 recovered",
+     "design": "case-control CPET + NIRS + vascular function",
+     "result": "lower OUES and anaerobic threshold; lower NIRS-measured muscle oxidative capacity; no macro/microvascular dysfunction",
+     "url": "https://doi.org/10.14814/phy2.15940",
+     "verified": true
+    },
+    {
+     "cite": "Howden 2026, Am J Physiol Heart",
+     "n": "35 LC vs 12 controls",
+     "design": "case-control CPET, cardiac reserve, MSNA",
+     "result": "lower peak VO2 and heart-rate reserve; cardiac reserve and resting MSNA normal",
+     "url": "https://doi.org/10.1152/ajpheart.90275.2026",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Mustonen 2024, BMC Cardiovasc Disord",
+     "n": "101 LC",
+     "design": "cohort CPET",
+     "result": "mean exercise capacity normal; distinct subgroups with chronotropic incompetence and dysautonomic breathing",
+     "url": "https://doi.org/10.1186/s12872-024-04081-w",
+     "verified": true
+    },
+    {
+     "cite": "Rodrigues 2026, J Pers Med",
+     "n": "38 young, physically active LC",
+     "design": "case-control CPET",
+     "result": "normal cardiopulmonary responses",
+     "url": "https://doi.org/10.3390/jpm16010038",
+     "verified": true
+    }
+   ],
+   "hypotheses": [],
+   "open_questions": [
+    "Does peak VO2 in LC with PEM differ from LC without PEM?"
+   ],
+   "test_available": false
+  },
+  {
+   "id": "lc-icpet-impaired-extraction",
+   "subdomain": "Oxygen delivery and extraction",
+   "finding": "Invasive CPET in long COVID with exercise intolerance repeatedly shows low systemic oxygen extraction with normal or high cardiac output, and in a subset reduced biventricular filling (preload failure), mirroring ME/CFS iCPET findings.",
+   "grade": "several",
+   "plain": "When doctors measure oxygen in arteries and veins during exercise, many long COVID patients' muscles take less oxygen out of the blood even though the heart pumps plenty. Some also have too little blood returning to the heart.",
+   "detail": "Should cross-link to vascular-oxygen-extraction and muscle-exertion-oxygen-extraction.",
+   "studies": [
+    {
+     "cite": "Kahn 2024, ERJ Open Res",
+     "n": "55 LC",
+     "design": "retrospective iCPET",
+     "result": "75% impaired peak O2 extraction with supranormal cardiac output; about 25% had HFpEF or exercise pulmonary hypertension",
+     "url": "https://doi.org/10.1183/23120541.00714-2023",
+     "verified": true
+    },
+    {
+     "cite": "Leitner 2024, Pulm Circ",
+     "n": "47 LC",
+     "design": "iCPET + metabolomics",
+     "result": "reduced peak extraction, worse after severe acute infection; metabolomic shifts",
+     "url": "https://doi.org/10.1002/pul2.70009",
+     "verified": true
+    },
+    {
+     "cite": "Singh I 2023, Pulm Circ",
+     "n": "21 LC",
+     "design": "iCPET + plasma proteomics",
+     "result": "low systemic O2 extraction; endotheliopathy proteomic signature",
+     "url": "https://doi.org/10.1002/pul2.12220",
+     "verified": true
+    },
+    {
+     "cite": "Norweg 2023, Respir Physiol Neurobiol",
+     "n": "59 LC",
+     "design": "CPET",
+     "result": "low O2 pulse and blunted heart-rate response",
+     "url": "https://doi.org/10.1016/j.resp.2023.104062",
+     "verified": true
+    },
+    {
+     "cite": "Oruqaj 2025, medRxiv (preprint)",
+     "n": "86 LC vs 12 controls",
+     "design": "iCPET",
+     "result": "preload insufficiency in a large share",
+     "url": "https://doi.org/10.1101/2025.05.26.25328135",
+     "verified": true
+    },
+    {
+     "cite": "Thomas 2026, Physiol Rep",
+     "n": "46 LC vs 10 controls",
+     "design": "2-day CPET + NIRS",
+     "result": "impaired muscle oxygenation, worse on day 2",
+     "url": "https://doi.org/10.14814/phy2.70873",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "hypotheses": [],
+   "open_questions": [],
+   "test_available": false
+  },
+  {
+   "id": "lc-fat-oxidation-lactate",
+   "subdomain": "Lactate and glycolysis",
+   "finding": "Long COVID patients show early lactate accumulation and reduced fat oxidation during exercise, with plasma metabolite and lipid shifts consistent with impaired mitochondrial fatty-acid use.",
+   "grade": "several",
+   "plain": "Muscles of long COVID patients switch early to burning sugar and make lactate sooner, and they burn less fat, suggesting the energy factories are not working normally.",
+   "detail": "",
+   "studies": [
+    {
+     "cite": "de Boer 2022, Am J Respir Crit Care Med (letter)",
+     "n": "LC",
+     "design": "CPET with substrate oxidation",
+     "result": "decreased fatty-acid oxidation and early lactate (letter; abstract not available)",
+     "url": "https://doi.org/10.1164/rccm.202108-1903le",
+     "verified": true
+    },
+    {
+     "cite": "Guntur 2022, Metabolites",
+     "n": "29 PASC, 16 recovered, 30 controls",
+     "design": "plasma metabolomics",
+     "result": "altered fatty-acid and energy metabolism in PASC",
+     "url": "https://doi.org/10.3390/metabo12111026",
+     "verified": true
+    },
+    {
+     "cite": "Garbsch 2024, Clin Nutr",
+     "n": "187 LC",
+     "design": "CPET substrate oxidation",
+     "result": "reduced fat oxidation, higher lactate at given loads",
+     "url": "https://doi.org/10.1016/j.clnu.2024.10.010",
+     "verified": true
+    },
+    {
+     "cite": "Martinez 2024, J Proteome Res",
+     "n": "40 LC vs 40 controls",
+     "design": "metabolomics/lipidomics",
+     "result": "lipid and energy-metabolism shifts",
+     "url": "https://doi.org/10.1021/acs.jproteome.3c00706",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "hypotheses": [],
+   "open_questions": [],
+   "test_available": false
+  },
+  {
+   "id": "lc-muscle-oxidative-capacity",
+   "subdomain": "31P-MRS muscle energetics",
+   "finding": "Muscle oxidative capacity measured by 31P-MRS (slower PCr recovery) or NIRS is reduced in long COVID, though the deficit does not consistently correlate with fatigue.",
+   "grade": "several",
+   "plain": "Scans of muscle energy show long COVID muscles take longer to recharge after effort, but how slow they are does not track neatly with how tired people feel.",
+   "detail": "",
+   "studies": [
+    {
+     "cite": "Finnigan 2024, Radiology",
+     "n": "41 LC vs 29 controls",
+     "design": "31P-MRS",
+     "result": "PCr recovery tau 92.5 vs 51.9 s; lower Qmax; not correlated with fatigue",
+     "url": "https://doi.org/10.1148/radiol.233173",
+     "verified": true
+    },
+    {
+     "cite": "Jamieson 2024, Physiol Rep",
+     "n": "32 LC vs 19 recovered",
+     "design": "NIRS",
+     "result": "lower muscle oxidative capacity",
+     "url": "https://doi.org/10.14814/phy2.15940",
+     "verified": true
+    },
+    {
+     "cite": "Thomas 2026, Physiol Rep",
+     "n": "46 LC vs 10 controls",
+     "design": "NIRS on 2-day CPET",
+     "result": "impaired muscle oxygenation",
+     "url": "https://doi.org/10.14814/phy2.70873",
+     "verified": true
+    },
+    {
+     "cite": "Tryfonos 2025, J Cachexia Sarcopenia Muscle",
+     "n": "28 LC vs 28 controls",
+     "design": "muscle biopsy, transcriptomics, respirometry",
+     "result": "OXPHOS gene expression down; respiration -11 to -28% (n.s.)",
+     "url": "https://doi.org/10.1002/jcsm.70085",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "hypotheses": [],
+   "open_questions": [],
+   "test_available": false
+  },
+  {
+   "id": "lc-myopathy-histology-emg",
+   "subdomain": "Muscle mitochondria",
+   "finding": "A substantial share of long COVID patients with fatigue have myopathic EMG and/or biopsy abnormalities (mitochondrial changes, fibre atrophy, inflammatory infiltrates, lower capillarisation), but muscle MRI inflammation and neuromuscular-junction jitter are usually normal.",
+   "grade": "several",
+   "plain": "Muscle tests and biopsies often show damage or energy-factory changes in long COVID, though scans for inflammation are usually clear.",
+   "detail": "",
+   "studies": [
+    {
+     "cite": "Hejbol 2022, Eur J Neurol",
+     "n": "16 LC",
+     "design": "EMG + muscle biopsy",
+     "result": "myopathic EMG 75%; mitochondrial changes 62%; inflammation 62%",
+     "url": "https://doi.org/10.1111/ene.15435",
+     "verified": true
+    },
+    {
+     "cite": "Agergaard 2023, Clin Neurophysiol",
+     "n": "84 LC",
+     "design": "quantitative EMG",
+     "result": "myopathic changes in a large share",
+     "url": "https://doi.org/10.1016/j.clinph.2023.01.010",
+     "verified": true
+    },
+    {
+     "cite": "Tryfonos 2025, J Cachexia Sarcopenia Muscle",
+     "n": "28 vs 28",
+     "design": "biopsy histology",
+     "result": "angulated fibres, fewer myonuclei, lower capillary/fibre ratio",
+     "url": "https://doi.org/10.1002/jcsm.70085",
+     "verified": true
+    },
+    {
+     "cite": "Brown 2024, medRxiv (preprint)",
+     "n": "LC sera on muscle cells",
+     "design": "in vitro",
+     "result": "soluble IL-2R in sera impairs myotube mitochondria",
+     "url": "https://doi.org/10.1101/2024.08.14.24311980",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Enax-Krumova 2023, Eur J Neurol",
+     "n": "20 vs 20",
+     "design": "muscle MRI + neurophysiology",
+     "result": "no MRI inflammation",
+     "url": "https://doi.org/10.1111/ene.15709",
+     "verified": true
+    },
+    {
+     "cite": "Kouyoumdjian 2025, Arq Neuropsiquiatr",
+     "n": "LC",
+     "design": "single-fibre EMG",
+     "result": "jitter normal",
+     "url": "https://doi.org/10.1055/s-0045-1802961",
+     "verified": true
+    }
+   ],
+   "hypotheses": [],
+   "open_questions": [],
+   "test_available": false
+  },
+  {
+   "id": "lc-pem-provocation-response",
+   "subdomain": "PEM definition and timing",
+   "finding": "Whether standardised exercise provokes measurable post-exertional symptom worsening in long COVID is contested: a crossover RCT found no greater 48-h fatigue than controls, while symptom-tracking studies find variable PESE peaking within 72 h in subsets.",
+   "grade": "contested",
+   "plain": "Trials disagree on whether a single exercise session reliably makes long COVID patients worse in the days after; some patients clearly crash, others do not.",
+   "detail": "Tryfonos 2024 did not select for PEM; result likely depends on case definition.",
+   "studies": [
+    {
+     "cite": "Berardi 2026, Med Sci Sports Exerc",
+     "n": "30 ME/CFS, 30 PASC, 30 controls",
+     "design": "prospective post-exercise symptom tracking",
+     "result": "variable PESE in PASC, peaking within 72 h",
+     "url": "https://doi.org/10.1249/mss.0000000000003891",
+     "verified": true
+    },
+    {
+     "cite": "Twomey 2022, Phys Ther",
+     "n": "213 LC",
+     "design": "survey",
+     "result": "PEM-like symptoms common",
+     "url": "https://doi.org/10.1093/ptj/pzac005",
+     "verified": true
+    },
+    {
+     "cite": "Vernon 2023, Work",
+     "n": "LC clinic sample",
+     "design": "survey",
+     "result": "PEM reported in most",
+     "url": "https://doi.org/10.3233/wor-220581",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Tryfonos 2024, JAMA Netw Open",
+     "n": "31 LC vs 31 controls",
+     "design": "randomised crossover (HIIT, MICT, strength)",
+     "result": "no greater fatigue at 48 h; more muscle pain after HIIT",
+     "url": "https://doi.org/10.1001/jamanetworkopen.2024.4386",
+     "verified": true
+    }
+   ],
+   "hypotheses": [],
+   "open_questions": [],
+   "test_available": false
+  }
+ ],
+ "hypotheses_notes": [
+  {
+   "id": "mitochondrial-energy",
+   "for": "Lower SDH/OXPHOS and type I atrophy in ME/CFS muscle (Charlton 2026); post-exertion SDH drop in long COVID (Appelman 2024); WASF3 (Wang 2023); 31P-MRS subgroups (Jones 2010/2012); early lactate per watt (Lien 2019); AMPK defect in cultured myotubes (Brown 2015).",
+   "against": "Ryback 2026 refutes the serum-myoblast respiration effect; blood-cell mitochondrial findings conflict in direction (Tomas vs Missailidis) or are null (Vermeulen 2010, Tomas 2019); OXPHOS does not correlate with VO2max in patients (Charlton 2026), so mitochondria may not be the limiting step; several MRS studies null (Barnes 1993, Godlewska 2025)."
+  },
+  {
+   "id": "small-vessel-capillary",
+   "for": "Lower capillary-to-fibre ratio in ME/CFS muscle not reproduced by bed rest (Charlton 2026); impaired O2 extraction in high-flow iCPET subgroup (Joseph 2021); slower NIRS reoxygenation (McCully 1999).",
+   "against": "Capillary finding from one lab; long COVID patients in the same study did not show it as strongly; extraction data largely single-centre."
+  },
+  {
+   "id": "low-blood-volume-preload",
+   "for": "Low right atrial pressure during invasive CPET in 160 patients (Joseph 2021); low peak HR across CPET studies.",
+   "against": "Preload failure explains low peak output but not why muscle pathology worsens a day later or why PEM is delayed."
+  },
+  {
+   "id": "sodium-calcium-overload",
+   "for": "Higher muscle sodium on 23Na-MRI, inversely correlated with grip (Petter 2022); grip fatigability (Jäkel 2021); review by Scheibenbogen & Wirth 2025.",
+   "against": "Sodium MRI n=6 vs 6, unreplicated; no direct muscle calcium measurement in patients."
+  },
+  {
+   "id": "serum-factor",
+   "for": "Fluge 2016 myoblast effect; Mughal 2025 3D muscle force loss (n=4); Prusty 2026 IgG fragments endothelial mitochondria (non-muscle).",
+   "against": "Ryback 2026 pre-registered replication (67 vs 53) null, excluding the original effect size."
+  },
+  {
+   "id": "microclots",
+   "for": "Amyloid-containing deposits in long COVID muscle increased after PEM induction (Appelman 2024).",
+   "against": "Not yet shown in ME/CFS muscle; single lab; the composition of the deposits is not established."
+  },
+  {
+   "id": "innate-hyperactivation",
+   "for": "T-cell and macrophage infiltration in long COVID muscle after exertion (Appelman 2024); exaggerated innate responses and complement after exercise (Che 2025); complement up in male EVs (Glass 2025).",
+   "against": "Germain 2025 found suppressed rather than activated lymphocyte signalling in recovery; single-cell RNA after exercise showed minimal immune changes (Vu 2024)."
+  },
+  {
+   "id": "cell-danger-response",
+   "for": "Delayed, prolonged PEM (Moore 2023) and recovery-phase molecular changes (Germain 2025) fit a stress response that persists after the stimulus.",
+   "against": "No study has measured purinergic/cell-danger signalling directly in muscle during PEM."
+  },
+  {
+   "id": "autonomic-small-fibre",
+   "for": "31% SFN and shunting physiology in iCPET (Joseph 2021); loss of normal pH-efflux coupling linked to autonomic function (Jones 2010); adrenergic receptor mRNA changes after exercise (Light 2012).",
+   "against": "Denervation severity did not correlate with exertional measures (Joseph 2021)."
+  },
+  {
+   "id": "sickness-behaviour",
+   "for": "Walitt 2024 framed grip and effort findings as altered effort preference.",
+   "against": "Effort criteria are met in most CPETs; objective muscle, capillary and post-exertion biopsy changes (Appelman, Charlton) are not explained by behaviour; the effort-preference interpretation has been formally criticised."
+  },
+  {
+   "id": "deconditioning",
+   "for": "(New id: exercise and muscle abnormalities are secondary to inactivity.) Low peak VO2 overlaps with sedentary controls; lower muscle proteins in blood could reflect reduced mass; Mancini 2026 found no day-2 decline.",
+   "against": "VO2-matched pairs still declined on day 2 (Keller 2024); bed rest does not reproduce fibre-type shift, capillary loss or OXPHOS uncoupling (Charlton 2026); disease controls improve on day 2 (van Campen 2021, Hodges 2018)."
+  },
+  {
+   "id": "er-stress",
+   "for": "(New id: endoplasmic reticulum stress impairs mitochondrial supercomplexes and energy production.) WASF3 and ER-stress markers raised in ME/CFS muscle (Wang 2023); ER-stress EV proteins track PEM severity (Glass 2025).",
+   "against": "Both small and unreplicated; no trial of ER-stress modulators."
+  },
+  {
+   "id": "metabolic-trap-ido",
+   "for": "Fluge 2016 amino-acid pattern implies altered fuel handling.",
+   "against": "Kynurenine pathway metabolites show no patient-specific exercise response in the Solving ME/CFS re-analysis of Germain 2022."
+  },
+  {
+   "id": "viral-persistence",
+   "for": "Enterovirus RNA in muscle in older studies (Bowles 1993).",
+   "against": "Not reproduced with modern methods; Appelman 2024 did not report persistent virus as the driver of post-exertion pathology."
+  }
+ ],
+ "glossary": [
+  {
+   "term": "PEM (post-exertional malaise)",
+   "plain": "A worsening of symptoms after physical, mental or emotional effort, often delayed by hours to a day and lasting days or longer."
+  },
+  {
+   "term": "CPET",
+   "plain": "Cardiopulmonary exercise test: cycling or treadmill to exhaustion while breathing gases and heart rate are measured."
+  },
+  {
+   "term": "2-day CPET",
+   "plain": "Two CPETs 24 hours apart, used to see whether performance drops on the second day."
+  },
+  {
+   "term": "Peak VO2",
+   "plain": "The most oxygen the body can take up and use per minute at maximal effort; the standard measure of aerobic capacity."
+  },
+  {
+   "term": "Ventilatory (anaerobic) threshold",
+   "plain": "The point during exercise when breathing rises faster than oxygen use because muscles lean more on lactate-producing fuel use."
+  },
+  {
+   "term": "Chronotropic incompetence",
+   "plain": "The heart rate fails to rise as much as expected during exercise."
+  },
+  {
+   "term": "Invasive CPET (iCPET)",
+   "plain": "CPET with catheters in the heart and an artery, measuring filling pressures, cardiac output and oxygen extraction directly."
+  },
+  {
+   "term": "Oxygen extraction",
+   "plain": "How much oxygen tissues remove from the blood that flows through them."
+  },
+  {
+   "term": "31P-MRS",
+   "plain": "A magnetic resonance scan that measures phosphorus-containing energy molecules (PCr, ATP) and acidity inside working muscle."
+  },
+  {
+   "term": "23Na-MRI",
+   "plain": "An MRI scan tuned to sodium, used to measure salt content in tissue."
+  },
+  {
+   "term": "Type I / type II fibres",
+   "plain": "Type I fibres are slow, endurance, mitochondria-rich; type II are faster and more reliant on glycolysis."
+  },
+  {
+   "term": "SDH (succinate dehydrogenase)",
+   "plain": "A mitochondrial enzyme whose staining is used as a marker of mitochondrial content in muscle sections."
+  },
+  {
+   "term": "OXPHOS",
+   "plain": "Oxidative phosphorylation: the mitochondrial process that uses oxygen to make most of the cell's ATP."
+  },
+  {
+   "term": "Seahorse assay",
+   "plain": "A plate-based instrument measuring how fast cells use oxygen and make acid, used to estimate mitochondrial function."
+  },
+  {
+   "term": "PDH (pyruvate dehydrogenase)",
+   "plain": "The enzyme that lets the product of sugar breakdown enter mitochondria; if blocked, cells make more lactate."
+  },
+  {
+   "term": "PBMC",
+   "plain": "Peripheral blood mononuclear cells: lymphocytes and monocytes isolated from a blood sample."
+  },
+  {
+   "term": "Extracellular vesicles (EVs)",
+   "plain": "Small membrane packages released by cells into blood, carrying proteins and RNA."
+  },
+  {
+   "term": "Handgrip fatigability",
+   "plain": "The fall in grip strength across repeated maximal squeezes, and how well it recovers after rest."
+  },
+  {
+   "term": "WASF3",
+   "plain": "A protein that, when raised, disrupts the assembly of mitochondrial energy-producing complexes."
+  }
+ ],
+ "key_reviews": [
+  {
+   "cite": "Scheibenbogen & Wirth 2025, J Cachexia Sarcopenia Muscle",
+   "url": "https://doi.org/10.1002/jcsm.13669",
+   "why": "Collects the evidence for skeletal muscle disturbance and the sodium/calcium overload model (advocacy-leaning, from the model's authors)."
+  },
+  {
+   "cite": "Charlton 2025, Trends Endocrinol Metab",
+   "url": "https://doi.org/10.1016/j.tem.2024.11.008",
+   "why": "Opinion piece from the Amsterdam biopsy group on muscle adaptations and PEM in long COVID."
+  },
+  {
+   "cite": "Lim 2020, J Clin Med",
+   "url": "https://doi.org/10.3390/jcm9124040",
+   "why": "Meta-analysis of 2-day CPET; workload at ventilatory threshold is the most discriminating measure."
+  },
+  {
+   "cite": "Franklin & Graham 2022, Fatigue: Biomed Health Behav",
+   "url": "https://research.tees.ac.uk/en/publications/repeated-maximal-exercise-tests-of-peak-oxygen-consumption-in-peo/",
+   "why": "Meta-analysis estimating clinically meaningful day-2 drop in work at anaerobic threshold (-21 W)."
+  },
+  {
+   "cite": "Stevens 2018, Front Pediatr",
+   "url": "https://doi.org/10.3389/fped.2018.00242",
+   "why": "Methods paper for administering 2-day CPET in ME/CFS."
+  },
+  {
+   "cite": "Fanò-Illic 2026, Diagnostics",
+   "url": "https://doi.org/10.3390/diagnostics16071019",
+   "why": "Recent review of skeletal muscle involvement in ME/CFS (title/abstract seen only)."
+  },
+  {
+   "cite": "Solving ME/CFS re-analyses (PEM, serum-check, proteome)",
+   "url": "/#data",
+   "why": "Within-person re-analysis of Germain 2022 metabolomics; participant-level check of Ryback 2026; muscle-protein meta-analysis."
+  }
+ ],
+ "gaps": [
+  "No ME/CFS (as opposed to long COVID) study has biopsied muscle before and after induced PEM; the registered Amsterdam study NCT05225688 and Systrom's OMF-funded biopsy study have not yet reported.",
+  "No independent replication of 2-day CPET from a group outside the Workwell/Ithaca/van Campen network that also reports test-retest variability in sedentary controls; Mancini 2026 null needs explaining.",
+  "Severe and housebound patients are almost absent from exercise, biopsy and MRS studies; a provocation-free design (e.g. orthostatic or small-muscle stressor) is needed.",
+  "No study pairs muscle biopsy, 31P-MRS, sodium MRI and invasive CPET in the same people to locate the limiting step in the oxygen cascade.",
+  "Serum-transfer studies have not used sera drawn during PEM, fractionation (IgG, complement, EVs), or blinded multi-lab sample exchange.",
+  "No pre-registered multi-site PBMC or muscle respirometry study with adequate controls exists.",
+  "Lean mass has not been measured alongside the low muscle-protein blood signal.",
+  "Handgrip fatigability needs external validation against deconditioned, depressed and other-fatigue controls before use as a trial endpoint.",
+  "Whether the amyloid-containing deposits in long COVID muscle also occur in ME/CFS, and what they are made of, is untested."
+ ]
+}

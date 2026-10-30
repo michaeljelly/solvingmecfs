@@ -1,0 +1,125 @@
+<!--meta {"title":"Solving ME/CFS","description":"ME/CFS ruins lives and has no cure. 20+ million people suffer from it. Help us solve it now.","nav":"home"}-->
+<style>
+.p-home h1{font-size:clamp(2.2rem,5.4vw,3.1rem)}
+.p-home .contents{list-style:none;padding:0;margin:1.2rem 0;font-family:var(--f-sans);font-size:.9rem;line-height:1.45}
+.p-home .contents li{display:grid;grid-template-columns:8.5rem 1fr;gap:1rem;padding:.45rem 0;border-top:1px solid var(--rule);margin:0}
+.p-home .contents li:last-child{border-bottom:1px solid var(--rule)}
+.p-home .contents a{font-weight:600;text-decoration:none;color:var(--ink)}
+.p-home .contents a:hover{text-decoration:underline}
+.p-home .contents span{color:var(--muted)}
+.p-home .contents span a{font-weight:400;color:var(--link);text-decoration:underline}
+@media (max-width:520px){.p-home .contents li{grid-template-columns:1fr;gap:.05rem}}
+.p-home .exps{counter-reset:e;list-style:none;padding:0;margin:1rem 0}
+.p-home .exps>li{counter-increment:e;position:relative;padding:.9rem 0 .9rem 2.2rem;border-top:1px solid var(--rule);margin:0}
+.p-home .exps>li::before{content:counter(e);position:absolute;left:0;top:.95rem;font-family:var(--f-sans);font-weight:700;font-size:1.05rem;color:var(--ink)}
+.p-home .exps h3{margin:0 0 .2rem;font-size:1rem}
+.p-home .exps p{margin:.25rem 0}
+.p-home .exps .dec{font-family:var(--f-sans);font-size:.8rem;color:var(--muted);margin-top:.4rem}
+.p-home .exps .dec a{color:var(--muted)}
+.p-home .twocol{display:grid;grid-template-columns:1fr 1fr;gap:2rem;margin:1rem 0}
+@media (max-width:760px){.p-home .twocol{grid-template-columns:1fr;gap:.5rem}}
+.p-home .twocol h3{margin-top:.6rem}
+.p-home .twocol ul{list-style:none;padding:0;margin:.4rem 0}
+.p-home .twocol li{padding:.45rem 0;border-top:1px solid var(--rule);margin:0;font-size:.95rem;line-height:1.5}
+</style>
+
+<div class="l-body" style="padding-top:2.6rem">
+<h1>Solving ME/CFS</h1>
+<p class="deck">An open effort to understand ME/CFS and find treatments that work.</p>
+<p class="byline">By <a href="https://michaeljelly.com">Michael Jelly</a> · Updated {{built}} · <a href="mailto:hello@solvingmecfs.org">hello@solvingmecfs.org</a></p>
+
+<p>ME/CFS is life-ruining, poorly understood and has no cure. An estimated 17–24 million people had it before COVID-19, and long COVID has added millions more. About a quarter are housebound or bedbound. The most severely ill cannot sit up, cannot bear light, sound or conversation, and need help to eat.</p>
+
+<p>Solving ME/CFS exists to help solve the disease sooner. Our goals:</p>
+<ol id="aims">
+<li><b>Understand the disease.</b> Build a useful <a href="/model">model of the underlying mechanisms</a> from <a href="/atlas">all the evidence</a>, graded by how well it holds up.</li>
+<li><b>Close the gaps.</b> Get the research done that would <a href="/questions">answer the open questions</a> and test the model, starting with the <a href="#critical-path">experiments below</a>.</li>
+<li><b>Find treatments.</b> Propose and test <a href="/treatments">treatments aimed at those mechanisms</a>.</li>
+</ol>
+
+<h2 id="start">For researchers</h2>
+<ul class="contents">
+<li><a href="/atlas">What is known</a><span>{{n_findings}} findings graded by whether they replicate, and {{n_trials}} <a href="/trials">treatment trials</a> with their results</span></li>
+<li><a href="/model">What it might mean</a><span>A working model of the mechanism, and the <a href="/questions">open questions</a> it raises</span></li>
+<li><a href="#critical-path">What to do next</a><span>Five proposed experiments, each chosen to separate competing explanations</span></li>
+<li><a href="/funding">How to get it done</a><span>{{n_calls}} funding calls with the ones to apply to now, and {{n_datasets}} <a href="/data">datasets</a> to start from</span></li>
+</ul>
+</div>
+
+<div class="l-body">
+<h2 id="model">How it might work</h2>
+<p>The current best explanation is a loop. A severe infection primes the immune system in people whose inherited risk lies in the brain's control of breathing, heart rate and blood volume (steps 1–2). Blood volume is low and vessels dilate poorly, so muscle and brain get too little blood when the body is upright or working (3–5). The under-supplied tissue may then be injured, setting off an immune response and, a day or two later, the sickness response patients call a crash (5–7). That part is untested in ME/CFS. Arousal and poor sleep then disturb step 2 again, so the illness can outlast the infection (8). The <a href="/model">model page</a> grades every step, lists the observations it explains poorly, and names the result that would disprove each step.</p>
+</div>
+<figure class="l-page" style="margin-top:1rem">
+<div class="only-wide">{{svg:fig-model-wide.svg}}</div>
+<div class="only-narrow">{{svg:fig-model-narrow.svg}}</div>
+<figcaption><b>Figure 1. A working model.</b> Solid circles are abnormalities replicated or found by several groups; dashed circles are inferred or shown only in long COVID. Dotted arrows are untested. Red marks the crash after exertion. Select a step for its evidence, or <a href="/model">read the full model</a>.</figcaption>
+</figure>
+
+<div class="l-body">
+<h3>Post-exertional malaise</h3>
+<p>Healthy people recover from exertion within hours. In ME/CFS, symptoms worsen over the following one to three days, which points to a process that builds after the effort, such as tissue injury and an immune response. That window is almost never sampled (Figure 2).</p>
+</div>
+
+<figure class="l-page">
+<div class="only-wide">{{svg:fig-crash-wide.svg}}</div>
+<div class="only-narrow">{{svg:fig-crash-narrow.svg}}</div>
+<figcaption><b>Figure 2. Time course after a single exertion</b>, drawn from patient reports and two-day exercise studies; schematic, not data. Ticks mark when published studies collected samples. The shaded interval, when symptoms are often worst, is where sampling is scarcest.</figcaption>
+</figure>
+
+<div class="l-body">
+<h2 id="atlas">The ME/CFS evidence atlas</h2>
+<p>We have reviewed and graded {{n_findings}} published findings in ME/CFS and related post-infectious illness, including long COVID, drawn from {{n_studies}} study results. The <a href="/atlas">atlas</a> aims to collect every abnormality research has reported, graded by whether it has been reproduced in an independent cohort, along with the leads that were tested and did not hold up. It is the evidence base for the model, for new hypotheses and for the treatment ideas.</p>
+</div>
+<figure class="l-page" style="margin-top:.5rem">
+{{evidence_map}}
+<figcaption><b>Figure 3. Findings in the evidence atlas, by body system and grade.</b> Select a row to open that system.</figcaption>
+</figure>
+<div class="l-body">
+<div class="twocol">
+<div><h3>Reproduced</h3><ul>
+<li>Cerebral blood flow falls on tilt, even without tachycardia. <a href="/atlas#f-neuro-cbf-tilt">Atlas</a></li>
+<li>Red-cell and total blood volume are low in a large minority, with small stroke volume. <a href="/atlas#f-vascular-low-red-cell-volume">Atlas</a></li>
+<li>Flow-mediated dilation is reduced, in two Norwegian cohorts and in Berlin. <a href="/atlas#f-vascular-endothelial-fmd-porh">Atlas</a></li>
+<li>DecodeME's genome-wide genetic signal replicates in the Million Veteran Program (genetic correlation 0.73) and FinnGen, though no single locus has yet passed correction in an outside cohort. <a href="/atlas#f-genetics-polygenic-replication">Atlas</a></li>
+<li>About 1 in 10 people meet ME/CFS criteria six months after EBV, Q fever or Ross River virus. <a href="/atlas#f-infection-dubbo-stereotyped-pifs">Atlas</a></li>
+<li>Resting heart rate is higher and heart-rate variability lower, across 64 case-control studies. <a href="/atlas#f-neuro-hrv">Atlas</a></li>
+</ul></div>
+<div><h3>Tested and not supported</h3><ul>
+<li>Deconditioning as the cause, and graded exercise as treatment. NICE withdrew graded exercise in 2021. <a href="/atlas#h-deconditioning">Atlas</a></li>
+<li>B-cell depletion: rituximab was no better than placebo in 151 patients. <a href="/questions#settled">Details</a></li>
+<li>Nirmatrelvir for long COVID: three placebo-controlled trials, no benefit. <a href="/questions#settled">Details</a></li>
+<li>Resting patient serum impairing respiration in healthy muscle cells: no effect in 120 people. Severe and post-exertion samples are untested. <a href="/questions#serum">Details</a></li>
+<li>Removing receptor autoantibodies: immunoadsorption was no better than sham, and BC007 no better than placebo in an unpublished phase II trial. <a href="/questions#settled">Details</a></li>
+<li>Most single-cohort blood signatures. Kynurenine, for example, was reported raised in one cohort but is low across seven in our re-analysis. <a href="/questions#settled">Details</a></li>
+</ul></div>
+</div>
+
+<h2 id="critical-path">Proposed experiments</h2>
+<p>Ordered by how many competing hypotheses each could separate. The reasoning for each is on the <a href="/questions">open questions</a> page.</p>
+<!--gen:experiments-->
+<ol class="exps"><li id="e-e1"><h3>Sample the 72 hours after exertion</h3>
+<p>Blood at a stable baseline and at 24, 48 and 72 hours after a standard provocation, and during natural crashes, in about 40 patients within two years of onset (at least 15 severe, sampled at home) and 40 matched controls. Measure the plasma proteome, complement activation (sC5b-9), endothelial injury and immune cells, with repeat EBV/HHV-6 PCR, and bank plasma for other groups.</p>
+<p>Steps 6 and 7 stand or fall here: if nothing moves at 48 to 72 hours relative to each person&#x27;s baseline, the crash is not an injury-and-immune response.</p>
+<p class="dec">Tests model steps <a href="/model#step-5">5</a>, <a href="/model#step-6">6</a>, <a href="/model#step-7">7</a> · Answers: <a href="/questions#q-post-exertion">What happens in tissue and blood in the 72 hours after exertion?</a>, <a href="/questions#q-herpes">Is a herpesvirus still active, or did it leave an immune imprint?</a> · Separates: <a href="/atlas#h-serum-factor">Circulating (serum) factor</a> · <a href="/atlas#h-complement-thromboinflammation">Complement activation and thromboinflammation</a> · <a href="/atlas#h-innate-hyperactivation">Innate immune hyperactivation</a> · <a href="/atlas#h-sickness-behaviour">Persistent sickness behaviour / vagal signalling</a></p></li>
+<li id="e-e2"><h3>Measure the circulatory steps in the same people</h3>
+<p>Blood volume by CO rebreathing, with reticulocytes and erythropoietin. Tilt with end-tidal CO₂ and transcranial Doppler, and a seated sensory challenge with the same measurements. Skin biopsy for small-fibre density, flow-mediated dilation, and OCT angiography of retinal capillaries. Then ask which of these predicts the severity of post-exertional malaise.</p>
+<p>Tests whether steps 3 to 5 explain the crash threshold, and whether sensory crashes run through breathing and brain blood flow.</p>
+<p class="dec">Tests model steps <a href="/model#step-2">2</a>, <a href="/model#step-3">3</a>, <a href="/model#step-4">4</a>, <a href="/model#step-5">5</a> · Answers: <a href="/questions#q-blood-volume">Why is blood volume low, and is the marrow involved?</a>, <a href="/questions#q-co2">Does low CO₂ on standing drive the fall in brain blood flow?</a>, <a href="/questions#q-sensory">Do non-physical triggers act through breathing and brain blood flow?</a> · Separates: <a href="/atlas#h-low-blood-volume-preload">Low blood volume and preload failure</a> · <a href="/atlas#h-vascular-endothelial">Endothelial dysfunction</a> · <a href="/atlas#h-small-vessel-capillary">Capillary and microvascular damage</a> · <a href="/atlas#h-autonomic-small-fibre">Autonomic dysfunction and small-fibre neuropathy</a></p></li>
+<li id="e-e3"><h3>Test for a circulating factor with qualified assays</h3>
+<p>Establish each assay&#x27;s detection limit with a spiked positive control. Then run a blinded two-laboratory transfer of paired rest and post-exertion sera, and purified IgG, including severe patients. Read out on contracting 3D muscle and endothelial cells.</p>
+<p>Settles whether anything in blood carries the illness to healthy tissue, which would make step 6 partly systemic.</p>
+<p class="dec">Tests model steps <a href="/model#step-6">6</a> · Answers: <a href="/questions#q-serum">Is there a circulating factor that impairs healthy tissue?</a> · Separates: <a href="/atlas#h-serum-factor">Circulating (serum) factor</a> · <a href="/atlas#h-autoimmunity">Autoimmunity (functional autoantibodies)</a></p></li>
+<li id="e-e4"><h3>Test pituitary function before treating it</h3>
+<p>Stimulated copeptin, a short Synacthen test and an anterior pituitary panel in severe patients, before any steroid or desmopressin is started. The evidence for a pituitary defect is early, which is why it needs testing; all of these are routine clinical tests.</p>
+<p>If normal, the endocrine form of step 2 is dropped.</p>
+<p class="dec">Tests model steps <a href="/model#step-2">2</a>, <a href="/model#step-3">3</a> · Answers: <a href="/questions#q-pituitary">Is the pituitary part of the mechanism?</a> · Separates: <a href="/atlas#h-pituitary-adh">Pituitary / vasopressin deficiency</a> · <a href="/atlas#h-hpa-endocrine">HPA axis blunting</a></p></li>
+<li id="e-e5"><h3>Record what patients already try</h3>
+<p>Patients often start new treatments, and almost none of this is recorded in a usable form. A shared protocol (one change at a time, overnight heart rate and HRV from a wearable, a daily symptom score, predefined stop rules), pooled across patients, would show which treatments move which step, and in whom. Uncontrolled records generate leads; they do not replace randomised trials.</p>
+<p>Shows whether wearable signals shift before crashes (step 8) and which treatments are worth a controlled trial.</p>
+<p class="dec">Tests model steps all steps · Answers: <a href="/questions#q-arousal">Is the nervous system stuck in an aroused state?</a></p></li></ol>
+<!--/gen:experiments-->
+
+<h2>Contributing</h2>
+<p>We are looking for laboratories able to run any of these experiments or part of one, clinicians who can bank plasma during crashes, and anyone holding per-person data from severe or recent-onset patients. Tell us where a grade in the atlas is wrong. Write to <a href="mailto:hello@solvingmecfs.org">hello@solvingmecfs.org</a>.</p>
+</div>

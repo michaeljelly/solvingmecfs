@@ -1,0 +1,341 @@
+<!--meta {"title": "Open questions in ME/CFS, and the experiments that would close them", "description": "What is still genuinely unanswered in ME/CFS after re-analysing 30+ public datasets, the specific experiment for each question, and what we consider settled.", "nav": "questions"}-->
+<style>
+.p-questions .wrap{max-width:52rem}
+.p-questions .hero{padding-top:0}
+.p-questions section.blk{border-top:0;padding:.5rem 0 1rem}
+.lead .qlinks{font-family:var(--f-sans);font-size:.8rem;color:var(--muted);margin:.6rem 0 0;line-height:1.5}
+.lead .qlinks b{color:var(--ink);font-weight:600}
+.lead{scroll-margin-top:1rem;display:grid;grid-template-columns:2.6rem 1fr;gap:.2rem 1rem;padding:1.3rem 0;border-bottom:1px solid var(--rule)}
+.lead:last-child{border-bottom:0}
+.lead .num{font-family:var(--f-sans);font-weight:600;font-size:1rem;color:var(--muted);line-height:1.6;font-variant-numeric:tabular-nums}
+.lead h3{display:flex;flex-wrap:wrap;align-items:center;gap:.4rem .8rem;margin-top:0}
+.lead .body{grid-column:2;min-width:0}
+.tablewrap{overflow-x:auto}
+.phase{position:relative;padding:0 0 1.4rem 2.6rem}
+.phase:last-child{padding-bottom:0}
+.phase::before{content:attr(data-n);position:absolute;left:0;top:.15rem;width:1.8rem;text-align:right;font-family:var(--f-sans);font-weight:600;font-size:.95rem;color:var(--muted)}
+.phase h3{margin:0 0 .2rem}
+.phase .meta{margin:0 0 .3rem}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,9rem),1fr));gap:.8rem 1.4rem;margin-top:1.5rem;border-top:1px solid var(--rule);padding-top:.8rem}
+.kpi{padding:0}
+.kpi .v{font-family:var(--f-sans);font-size:1.3rem;font-weight:600;font-variant-numeric:tabular-nums}
+.kpi .l{font-family:var(--f-sans);font-size:.82rem;color:var(--muted)}
+.p-questions details{border-top:1px solid var(--rule);padding:.6rem 0;margin:0}
+.p-questions summary{font-family:var(--f-sans);font-weight:600;cursor:pointer}
+@media (max-width:640px){.lead{grid-template-columns:1fr}.lead .body{grid-column:1}}
+</style>
+<div class="wrap">
+<div class="hero">
+  <h1>Open questions</h1>
+  <p class="deck">What remains unresolved after re-analysing more than 30 public ME/CFS datasets, and the experiment that would resolve each question.</p>
+  <p>We re-analysed public genetic, metabolomic, microbiome, immune, proteomic and national registry data, and checked each finding against a cohort in which it was not discovered. Most leads did not replicate. This page covers the ones that did, or that remain untested: what the data show, what is unknown, and the experiment for each.</p>
+  <p class="note">Our rules: people, not samples or visits, are the unit of analysis; results are corrected for multiple testing; a finding counts as replicated only if it appears in an independent cohort.</p>
+</div>
+
+<section class="blk" id="open">
+  <h2>Open questions</h2>
+  <p class="intro">Ordered by how much a single well-designed study could settle. Each entry gives what the data show, what is unknown, the experiment, and the steps of the <a href="/model">working model</a> it tests. Grades use the same scale as the <a href="/atlas">atlas</a>.</p>
+  <!--gen:questions-->
+<div class="legend"><span><span class="pill rep">Replicated</span> seen in independent cohorts</span><span><span class="pill sev">Several studies</span> more than one study</span><span><span class="pill early">Early</span> one or two studies</span><span><span class="pill cont">Contested</span> conflicting results</span></div>
+<div class="lead" id="q-post-exertion">
+<div class="num">1</div>
+<div class="body">
+<h3>What happens in tissue and blood in the 72 hours after exertion? <span class="pill early">Early</span></h3>
+<p>The crash sequence in the model predicts tissue injury and an immune response 24 to 72 hours after exertion. Only long COVID has the biopsies: fibre necrosis, T-cell infiltration and amyloid deposits a day after a maximal test (Appelman 2024, 25 vs 21). In ME/CFS, one study reports exaggerated innate immune responses 24 hours after exercise (Che 2025, 56 vs 52), while our within-person re-analysis of the largest two-day exercise proteome (Germain 2025, 79 vs 53) found no protein whose response differed at FDR. Both sampled blood, at 24 hours at most.</p>
+<div class="facts">
+<div><b>Still unknown</b>Whether injury or complement markers rise at 48 to 72 hours, when symptoms peak; whether the change is in tissue rather than blood; whether severe patients differ</div>
+<div><b>Experiment</b>Blood at baseline and 24, 48 and 72 hours after a standard provocation, plus natural crashes sampled at home, with complement (sC5b-9), endothelial injury (syndecan-1) and muscle injury markers. Part of <a href="/#e-e1">proposed experiment 1</a>.</div>
+</div>
+<p class="qlinks"><b>Model steps</b> <a href="/model#step-5">5 · Tissue under-perfusion</a>, <a href="/model#step-6">6 · Tissue injury and immune response</a>, <a href="/model#step-7">7 · Sickness response</a> · <b>Atlas</b> <a href="/atlas#f-muscle-exertion-appelman-pem-biopsy">In long COVID with PEM, muscle biopsies taken one day after a maximal…</a>, <a href="/atlas#f-immune-innate-hyperreactivity">Whole-blood immune responses to microbial antigens are exaggerated in…</a>, <a href="/atlas#f-omics-exertion-proteome">Germain 2025 reported patient-specific proteomic changes during…</a>, <a href="/atlas#f-vascular-complement-mecfs">In ME/CFS, complement findings are heterogeneous: an exercise-induced…</a></p>
+
+</div>
+</div>
+<div class="lead" id="q-serum">
+<div class="num">2</div>
+<div class="body">
+<h3>Is there a circulating factor that impairs healthy tissue? <span class="pill cont">Contested</span></h3>
+<p>The best-powered test (Ryback 2026, 120 people, preregistered) found no effect of patient serum on healthy myoblast respiration. But it tested one readout, in undifferentiated cells, on resting blood from mostly mild and moderate patients (6 of 67 severe). Two other lines of evidence are untouched by it: patient serum weakens contracting 3D muscle (IBEC 2025, n=4), and purified patient IgG fragments endothelial mitochondria, an effect that disappears when the antibody is cleaved (Prusty lab 2026, 39 patients with MS controls).</p>
+<div class="facts">
+<div><b>Still unknown</b>Whether serum from severe patients, or drawn during post-exertional malaise, has an effect; whether it acts on force rather than respiration</div>
+<div><b>Experiment</b>Blinded two-lab transfer of paired rest and post-exertion sera, severe patients included, with a spike-in positive control. <a href="#serum">Full analysis</a>. Part of <a href="/#e-e3">proposed experiment 3</a>.</div>
+</div>
+<p class="qlinks"><b>Model steps</b> <a href="/model#step-6">6 · Tissue injury and immune response</a> · <b>Atlas</b> <a href="/atlas#f-muscle-exertion-serum-myoblast-refuted">The claim that ME/CFS serum changes healthy myoblast mitochondrial…</a>, <a href="/atlas#f-immune-igg-endothelial">Purified IgG from ME/CFS patients fragments mitochondria and shifts…</a>, <a href="/atlas#f-vascular-serum-endothelial-in-vitro">Plasma or purified IgG from ME/CFS patients alters cultured…</a></p>
+
+</div>
+</div>
+<div class="lead" id="q-blood-volume">
+<div class="num">3</div>
+<div class="body">
+<h3>Why is blood volume low, and is the marrow involved? <span class="pill rep">Replicated</span></h3>
+<p>Red-cell volume is low in 5 isotope studies, stroke volume is low, and the heart is small. Finnish national lab records suggest a cause: people with postviral fatigue have fewer young red cells (reticulocytes 1.28% vs 1.83%) and lower soluble transferrin receptor with normal or high iron saturation, a pattern absent in 9 comparison diagnoses. That points to reduced red-cell production that isn&#x27;t iron deficiency. Blood-volume hormones (renin, natriuretic peptides, EPO) look normal in proteomics, when they should be raised.</p>
+<div class="facts">
+<div><b>Still unknown</b>Whether reticulocytes are low in a clinic cohort; whether low volume precedes illness or follows inactivity; the role of thirst and vasopressin</div>
+<div><b>Experiment</b>CO-rebreathing blood volume with reticulocytes, sTfR, EPO, hepcidin and copeptin, in recent-onset patients vs matched controls, repeated at 6 months. Part of <a href="/#e-e2">proposed experiment 2</a>.</div>
+</div>
+<p class="qlinks"><b>Model steps</b> <a href="/model#step-2">2 · Brain and autonomic control</a>, <a href="/model#step-3">3 · Low blood volume</a> · <b>Atlas</b> <a href="/atlas#f-vascular-low-red-cell-volume">Red cell volume and total blood volume are below predicted in a large…</a>, <a href="/atlas#f-vascular-raas-paradox">The hormones that should rise to restore blood volume (renin…</a></p>
+<div class="src"><a href="https://risteys.finngen.fi/endpoints/G6_POSTVIRFAT">FinnGen Risteys</a></div>
+</div>
+</div>
+<div class="lead" id="q-co2">
+<div class="num">4</div>
+<div class="body">
+<h3>Does low CO₂ on standing drive the fall in brain blood flow? <span class="pill rep">Replicated</span></h3>
+<p>Cerebral blood flow falls on tilt (26% vs 7% in controls, n=429), even without POTS. Five groups report breath CO₂ falling on standing, which narrows brain vessels. In small New York Medical College studies, phenylephrine reversed the low CO₂, the flow drop and the working-memory loss together. But CO₂ reactivity is normal and the CO₂ fall explains only part of the flow fall (van Campen 2023), so it is probably a contributor rather than the main driver.</p>
+<div class="facts">
+<div><b>Still unknown</b>Whether low CO₂ is cause or compensation; whether it appears when sitting up in bed-bound patients who cannot stand</div>
+<div><b>Experiment</b>Capnography and transcranial Doppler during a graded head-up tilt (30° to 70°), with a crossover of compression, midodrine and CO₂ clamping. Part of <a href="/#e-e2">proposed experiment 2</a>.</div>
+</div>
+<p class="qlinks"><b>Model steps</b> <a href="/model#step-2">2 · Brain and autonomic control</a>, <a href="/model#step-5">5 · Tissue under-perfusion</a> · <b>Atlas</b> <a href="/atlas#f-neuro-cbf-tilt">Blood flow to the brain falls much more than normal during head-up…</a>, <a href="/atlas#f-vascular-hypocapnia">Many ME/CFS patients over-breathe when upright (orthostatic…</a>, <a href="/atlas#f-vascular-vasoconstrictor-phenylephrine">Raising blood pressure with phenylephrine during tilt blocked…</a></p>
+
+</div>
+</div>
+<div class="lead" id="q-sensory">
+<div class="num">5</div>
+<div class="body">
+<h3>Do non-physical triggers act through breathing and brain blood flow? <span class="pill early">Early</span></h3>
+<p>Severe patients report crashes after noise, conversation, startle or a hair wash. This is the observation the model fits worst, because sensory load barely raises the body&#x27;s demand for blood. If arousal makes patients over-breathe, the resulting fall in CO₂ would cut brain blood flow, which would bring these crashes into the same circulatory pathway. If CO₂ and brain blood flow do not change, the trigger is central, and the sickness response itself is likely sensitised.</p>
+<div class="facts">
+<div><b>Still unknown</b>Whether CO₂ and brain blood flow change during a sensory or cognitive challenge in patients; whether those who crash from sensory load are the ones who over-breathe on standing</div>
+<div><b>Experiment</b>Seated capnography and transcranial Doppler during a short conversation and noise exposure, in patients who report sensory-triggered crashes and in controls, with 72-hour symptom follow-up. Part of <a href="/#e-e2">proposed experiment 2</a>.</div>
+</div>
+<p class="qlinks"><b>Model steps</b> <a href="/model#step-2">2 · Brain and autonomic control</a>, <a href="/model#step-5">5 · Tissue under-perfusion</a>, <a href="/model#step-7">7 · Sickness response</a>, <a href="/model#step-8">8 · Sympathetic arousal, poor sleep</a> · <b>Atlas</b> <a href="/atlas#f-neuro-sensory">Self-reported light and sound sensitivity is common in ME/CFS. One…</a>, <a href="/atlas#f-vascular-hypocapnia">Many ME/CFS patients over-breathe when upright (orthostatic…</a>, <a href="/atlas#f-neuro-hypocapnia">Many patients over-breathe when upright and lower their end-tidal CO2</a></p>
+
+</div>
+</div>
+<div class="lead" id="q-pituitary">
+<div class="num">6</div>
+<div class="body">
+<h3>Is the pituitary part of the mechanism? <span class="pill early">Early</span></h3>
+<p>DecodeME&#x27;s genome-wide signal is enriched in brain tissue and neurons and not in immune cells, and it replicates in the Million Veteran Program (genetic correlation 0.73) and FinnGen. A 2026 preprint meta-analysis also places it in the pituitary, which could reflect neural genes the pituitary shares with brain. Three of the eight DecodeME loci lie near infection-response genes. Cortisol is mildly low on average. In Finnish registry data, diagnosed adrenal insufficiency and hypopituitarism are 7 to 13 times over-represented, unadjusted for age, sex or steroid treatment. One uncontrolled study found vasopressin undetectable after fluid deprivation in most patients, but copeptin was normal in the 13 tested.</p>
+<div class="facts">
+<div><b>Still unknown</b>Whether any patients have a true, testable deficiency; whether vasopressin handling is abnormal</div>
+<div><b>Experiment</b>Short Synacthen, full anterior pituitary panel and stimulated copeptin in severe patients before any steroid or desmopressin is started. Part of <a href="/#e-e4">proposed experiment 4</a>.</div>
+</div>
+<p class="qlinks"><b>Model steps</b> <a href="/model#step-2">2 · Brain and autonomic control</a>, <a href="/model#step-3">3 · Low blood volume</a> · <b>Atlas</b> <a href="/atlas#f-endocrine-genetic-pituitary">ME/CFS genetic risk is enriched in brain tissues and the pituitary…</a>, <a href="/atlas#f-endocrine-low-vasopressin">After overnight fluid deprivation, plasma vasopressin was…</a>, <a href="/atlas#f-endocrine-adrenal-pituitary-minority">Diagnosed adrenal insufficiency and hypopituitarism are 7 to 13 times…</a>, <a href="/atlas#f-endocrine-hpa-low-cortisol">On average, people with ME/CFS have mildly lower free cortisol…</a>, <a href="/atlas#f-genetics-brain-neuron-enrichment">Genome-wide ME/CFS heritability is enriched in brain tissues and…</a></p>
+<div class="src"><a href="https://www.medrxiv.org/content/10.1101/2025.08.06.25333109">DecodeME preprint</a><a href="https://osf.io/rgqs3/">DecodeME summary statistics</a></div>
+</div>
+</div>
+<div class="lead" id="q-herpes">
+<div class="num">7</div>
+<div class="body">
+<h3>Is a herpesvirus still active, or did it leave an immune imprint? <span class="pill early">Early</span></h3>
+<p>In Finnish records, viral infections are 2 to 6 times more common before ME/CFS; bacterial ones are not. Genetically higher EBV DNA load raises risk in the Million Veteran Program (OR 1.59). Severe patients carry more EBV-matched CD8 T-cell clones (0.88% vs 0.45%, p=0.06) and fewer CMV-driven adaptive NK cells. Blood PCR is usually negative, so the question is whether reactivation happens in tissue or intermittently.</p>
+<div class="facts">
+<div><b>Still unknown</b>Persistence vs imprint; whether the IgG effect in the serum question targets viral or self antigens</div>
+<div><b>Experiment</b>EBV-lytic antigen T-cell responses (BZLF1, BMLF1), NKG2C+CD57+ NK flow and repeated saliva and blood PCR in patients within 2 years of onset, including during crashes. Part of <a href="/#e-e1">proposed experiment 1</a>.</div>
+</div>
+<p class="qlinks"><b>Model steps</b> <a href="/model#step-1">1 · Infection and immune priming</a> · <b>Atlas</b> <a href="/atlas#f-infection-viral-vs-bacterial-registry">In Finnish registry data, ME/CFS (G93.3) is enriched 3-6-fold for…</a>, <a href="/atlas#f-infection-ebv-genetic-load-mr">Genetic instruments for higher EBV DNA load in blood (Kamitaki 2026)…</a>, <a href="/atlas#f-infection-herpes-complement-link">In active long COVID, classical complement pathway activation tracked…</a>, <a href="/atlas#f-infection-ebv-serology-not-different">In large well-characterised cohorts, standard EBV and other…</a></p>
+
+</div>
+</div>
+<div class="lead" id="q-arousal">
+<div class="num">8</div>
+<div class="body">
+<h3>Is the nervous system stuck in an aroused state? <span class="pill early">Early</span></h3>
+<p>Resting heart rate is higher and heart-rate variability lower, which fits low vagal tone. But the NIH deep-phenotyping study found lower catecholamine metabolites in spinal fluid, and clonidine, which lowers sympathetic outflow, did not help adolescents with CFS. Sleep studies in severe patients often show long sleep latency and hours awake with normal deep sleep. Nobody has measured central and peripheral noradrenaline in the same people across a crash.</p>
+<div class="facts">
+<div><b>Still unknown</b>Whether sympathetic tone is high or low, and whether it drives post-exertional malaise</div>
+<div><b>Experiment</b>Lying and upright plasma noradrenaline, heart-rate variability, and wearable resting heart rate before, during and after crashes. Part of <a href="/#e-e5">proposed experiment 5</a>.</div>
+</div>
+<p class="qlinks"><b>Model steps</b> <a href="/model#step-8">8 · Sympathetic arousal, poor sleep</a>, <a href="/model#step-2">2 · Brain and autonomic control</a> · <b>Atlas</b> <a href="/atlas#f-neuro-hrv">Resting heart rate is higher and high-frequency heart-rate…</a>, <a href="/atlas#f-neuro-csf-catechol">In the NIH cohort, CSF levels of the catechol metabolites DOPA, DOPAC…</a>, <a href="/atlas#f-neuro-sleep">Objective sleep in adult ME/CFS shows modestly longer sleep latency…</a>, <a href="/atlas#f-trials-clonidine">Clonidine did not improve activity or symptoms in adolescent CFS…</a></p>
+
+</div>
+</div>
+<div class="lead" id="q-lactates">
+<div class="num">9</div>
+<div class="body">
+<h3>What causes the aromatic-lactate deficit? <span class="pill sev">Several studies</span></h3>
+<p>Four related compounds (phenyllactate, 4-hydroxyphenyllactate, indolelactate, imidazole lactate) are lower in patients across 5 cohorts and 2 lab platforms in our re-analysis (−0.53 SD, p=4×10⁻¹¹), after adjusting for drugs, diet and kidney function. The amino acids and keto acids they come from are normal. In 231 people with paired stool and blood, gut bacteria did not predict them. The model does not explain this.</p>
+<div class="facts">
+<div><b>Still unknown</b>Which enzyme or redox state; bacterial D- vs human L-form; whether it changes with exertion</div>
+<div><b>Experiment</b>Chiral D/L phenyllactate assay; stable-isotope tracing of phenylpyruvate in patient vs control cells; before and after exertion.</div>
+</div>
+<p class="qlinks"><b>Model steps</b> Not explained by the model · <b>Atlas</b> <a href="/atlas#f-omics-aromatic-lactates">Four aromatic 2-hydroxy acids (phenyllactate, 4-hydroxyphenyllactate…</a>, <a href="/atlas#f-gut-aromatic-lactates-host">The replicated deficit of aromatic lactates (indolelactate…</a></p>
+<div class="src"><a href="https://www.metabolomicsworkbench.org/data/DRCCMetadata.php?Mode=Study&amp;StudyID=ST000450">Naviaux 2016</a><a href="https://insight.jci.org/articles/view/157621">Germain 2022</a><a href="https://github.com/ohlab/BioMapAI">BioMapAI 2025</a><a href="https://www.metabolomicsworkbench.org/data/DRCCMetadata.php?Mode=Study&amp;StudyID=ST002000">Che 2022</a></div>
+</div>
+</div>
+<div class="lead" id="q-ephb1">
+<div class="num">10</div>
+<div class="body">
+<h3>Do EPHB1 and CLEC3B cause risk, and how? <span class="pill early">Early</span></h3>
+<p>Of about 2,500 plasma proteins tested by Mendelian randomisation in our re-analysis, genetically higher EPHB1 (OR 1.18) and CLEC3B/tetranectin (OR 1.21) raise risk in DecodeME and replicate in the Million Veteran Program (1.29 and 1.44). EPHB1 drives pain sensitisation through NMDA receptors, which fits the genetic overlap with chronic pain (correlation 0.45).</p>
+<div class="facts">
+<div><b>Still unknown</b>Whether the same variant drives both signals (colocalisation); whether the protein acts in brain or blood</div>
+<div><b>Experiment</b>Colocalisation with full pQTL data; CSF EPHB1; quantitative sensory testing stratified by genotype.</div>
+</div>
+<p class="qlinks"><b>Model steps</b> <a href="/model#step-2">2 · Brain and autonomic control</a>, <a href="/model#step-7">7 · Sickness response</a> · <b>Atlas</b> <a href="/atlas#f-genetics-mr-proteins-ephb1">Proteome-wide cis-MR finds genetically higher plasma EPHB1 (a…</a>, <a href="/atlas#f-genetics-pain-overlap">ME/CFS genetics overlaps most with chronic pain, fibromyalgia, IBS…</a></p>
+
+</div>
+</div>
+<details><summary>Smaller open leads (5)</summary><ul><li><b>Gut bloom suppressing IPA</b>: <i>R. gnavus</i>, <i>F. plautii</i> and <i>R. lactatiformans</i> overgrowth explains the whole IPA gap and replicates (14/17 species). Genetics says IPA isn't causal, so this is a symptom lead. Test with competition cultures and paired stool and plasma. <a href="/atlas#f-gut-rgnavus-bloom">Atlas</a></li><li><b>Collagen turnover and hypermobility</b>: Hydroxyproline and galactosyl-hydroxylysine up (+0.52 SD, 4/4 cohorts); Ehlers-Danlos and IgG subclass deficiency over-represented in Finland. Test Beighton score, IgG1–4, CTX-I and PIIINP in one cohort. <a href="/atlas#f-omics-collagen-metso">Atlas</a></li><li><b>Vessel-wall proteins lower</b>: ITGAV, NOTCH3 and the TGF-β set are lower in 4 cohorts and long COVID. Relate to orthostatic stroke volume (step 4). <a href="/atlas#f-omics-proteome-liver-vascular">Atlas</a></li><li><b>Brain lactate raised</b>: Raised on 7T (Oxford, 24 patients) and earlier 3T work, while resting muscle chemistry is normal. Scan across a crash (step 5). <a href="/atlas#f-neuro-mrs-lactate">Atlas</a></li><li><b>Lymphocyte mitochondrial RNA raised</b>: Seen in single-cell data (d up to +0.85), not replicated in bulk. Check with fresh samples. <a href="/atlas#f-omics-transcriptome-sc">Atlas</a></li></ul></details>
+<!--/gen:questions-->
+</section>
+
+<section class="blk" id="serum">
+  <h2>The serum question, checked in detail</h2>
+  <p class="intro">Three results seem to disagree: Fluge 2016 found patient serum raised muscle-cell respiration, Ryback 2026 found nothing in 120 people, and IBEC 2025 found serum weakened engineered muscle. We read all three in full and recomputed Ryback's result from its published per-person data.</p>
+
+  <div class="grid g2">
+    <div class="card">
+      <span class="badge b-no">What Ryback rules out</span>
+      <h3 style="margin-top:10px">One specific result</h3>
+      <p>Resting serum from mostly mild-to-moderate female patients does not change maximal respiration in healthy myoblasts. Effect +2.5 pmol/min (95% CI −1.6 to 6.6). From their per-person data we get d=0.14 (−0.22 to 0.50), which excludes Fluge's d=1.32. The study was preregistered, blinded and randomised, and it is the most rigorous in the field.</p>
+      <p>Fluge's original arm was weaker than it looked: 12 vs 12, no cell-count correction, and the analysis appears to treat replicate wells rather than donors as the unit, which would overstate precision.</p>
+    </div>
+    <div class="card">
+      <span class="badge b-mid">What it leaves open</span>
+      <h3 style="margin-top:10px">Most of the serum hypothesis</h3>
+      <ul>
+        <li><b>Severe disease.</b> Only 6 of 67 were severe (Fluge: 9 of 12). In those 6, d=0.00 with a confidence interval of −0.84 to +0.85: uninformative.</li>
+        <li><b>Post-exertional state.</b> All samples were taken at rest by design.</li>
+        <li><b>Other readouts.</b> No force, lactate, PDK, morphology or gene expression.</li>
+        <li><b>Detection floor.</b> No spike-in positive control, and plates explained 42% of variance.</li>
+      </ul>
+      <p>Their abstract says "strong evidence against"; their discussion says the results "do not rule out the possibility" of serum factors.</p>
+    </div>
+  </div>
+
+  <h3 style="margin-top:32px">Why Ryback and IBEC can both be right</h3>
+  <div class="tablewrap" style="margin-top:12px">
+  <table>
+    <thead><tr><th></th><th>Ryback 2026</th><th>IBEC (Mughal) 2025</th></tr></thead>
+    <tbody>
+      <tr><td>Cells</td><td>Undifferentiated primary myoblasts, flat dish</td><td>Differentiated myotubes in 3D, anchored to pillars</td></tr>
+      <tr><td>Readout</td><td>Oxygen consumption only</td><td>Contractile force; RNA-seq; mitochondrial shape</td></tr>
+      <tr><td>Serum dose and time</td><td>20% for 6 days, one time point</td><td>5% at 48, 96 and 144 h</td></tr>
+      <tr><td>Timing effect</td><td>Measured at 144 h</td><td>Respiration <b>up</b> at 48 h, then atrophy and fragmented mitochondria by 96–144 h</td></tr>
+      <tr><td>Patients</td><td>67 community, mostly mild–moderate</td><td>4 from a tertiary clinic, fasting morning draw</td></tr>
+      <tr><td>Rigour</td><td>Preregistered, blinded, 1,926 wells</td><td>Not preregistered; n=4, tissues as replicates</td></tr>
+    </tbody>
+  </table>
+  </div>
+  <p class="note">The early respiration rise IBEC saw at 48 h is Fluge's direction, but it rests on 3 sera per group, too few to weigh against Ryback. The force loss is the independent result, and it needs replicating at scale.</p>
+
+  <div class="grid g2" style="margin-top:24px">
+    <div class="card">
+      <h3>Other serum and plasma effects</h3>
+      <ul>
+        <li><a href="https://doi.org/10.1016/j.bbih.2026.101187">Prusty lab 2026</a>: purified patient IgG fragments endothelial mitochondria; lost on Fab/Fc cleavage. 39 ME/CFS, 20 MS controls. The strongest current candidate.</li>
+        <li><a href="https://pubmed.ncbi.nlm.nih.gov/35074481/">Bertinat 2022</a>: patient plasma lowers nitric oxide in vessel cells (11 vs 12).</li>
+        <li><a href="https://www.pnas.org/doi/full/10.1073/pnas.1901274116">Esfandyarpour 2019</a>: nanoneedle impedance; plasma-swap never independently replicated.</li>
+        <li><a href="https://www.science.org/doi/10.1126/science.adg7942">Cervia-Hasler 2024</a>: complement dysregulation in long COVID. Neither Fluge nor Ryback heat-inactivated serum, so complement was present in both.</li>
+        <li><a href="https://pubmed.ncbi.nlm.nih.gov/?term=Appelman+2024+muscle+abnormalities+post-exertional+malaise">Appelman 2024</a>: long-COVID muscle damage worsens after induced exertion, which is why post-exertion sampling matters.</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>What would settle it</h3>
+      <ul>
+        <li>At least 30 severe patients with home blood draws, at Ryback's level of rigour.</li>
+        <li>Paired samples from the same person at rest and 24 h after exertion.</li>
+        <li>A spike-in positive control so every assay states the smallest effect it could detect.</li>
+        <li>Differentiated myotubes read at 24, 48, 96 and 144 h with a force readout.</li>
+        <li>Fractions (IgG, heat-labile complement, vesicles) rather than 20% whole serum.</li>
+      </ul>
+    </div>
+  </div>
+  <div class="src">Sources: <a href="https://doi.org/10.1371/journal.pone.0341334">Ryback 2026</a><a href="https://osf.io/qwp4v">Ryback preregistration</a><a href="https://insight.jci.org/articles/view/89376">Fluge 2016</a><a href="https://doi.org/10.1088/1758-5090/adf66c">Mughal 2025 (IBEC)</a></div>
+</section>
+
+<section class="blk" id="severe">
+  <h2>What severe, recent-onset cases add</h2>
+  <p class="intro">Most ME/CFS data come from mild-to-moderate patients years into illness who can travel to a clinic. Severe and bed-bound patients rarely appear: 6 of 67 patients in the best-powered serum study, and none in most treatment trials. The first years after a viral trigger are also rare in datasets, though that is when mechanisms are most likely to be active. Findings in severe, early cases that deserve study:</p>
+  <div class="grid g3">
+    <div class="card"><h3>Crashes from non-physical load</h3><p>Noise, conversation, startle or a hair wash can trigger post-exertional malaise. Exercise tests are unsafe for these patients and miss this, so PEM models need other provocations.</p></div>
+    <div class="card"><h3>A falling threshold</h3><p>Each crash can lower the threshold for the next. Nobody has tracked this with objective data, though consumer wearables already record resting heart rate and HRV continuously.</p></div>
+    <div class="card"><h3>Sleep that is hard to start, not shallow</h3><p>Long sleep latency and hours awake at night, with normal or high deep sleep. That fits hyperarousal more than a sleep-architecture defect.</p></div>
+    <div class="card"><h3>Water and salt handling</h3><p>Heavy thirst, dilute urine and a strong response to IV saline raise questions about vasopressin and blood volume that routine tests don't answer. Copeptin is rarely measured.</p></div>
+    <div class="card"><h3>Many changes at once</h3><p>Sick patients often start several drugs within days. That makes it impossible to learn what helped. One change at a time, with a wearable-based endpoint, turns care into usable n-of-1 data.</p></div>
+    <div class="card"><h3>Samples that are never taken</h3><p>Blood from a crash day, from a bed-bound patient, or before a steroid or hormone is started is almost never banked. It is exactly what the open questions above need.</p></div>
+  </div>
+</section>
+
+<section class="blk" id="plan">
+  <h2>A plan for closing the open questions</h2>
+  <p class="intro">Progress is limited more by method than by a shortage of hypotheses. It needs assays with a stated detection limit, blood drawn at the right time, severe patients sampled at home, and designs in which each person is their own control.</p>
+
+  <div class="phase" data-n="1">
+    <h3>Qualify the assays before using patient samples</h3>
+    <div class="meta">Weeks · no patients needed</div>
+    <p>Run healthy sera across plates, cell lots, operators and freeze-thaw cycles for each readout: 3D muscle force, respiration, blinded mitochondrial morphology, endothelial IgG assay. Add a spike-in positive control. Report the smallest effect each assay can detect, and preregister.</p>
+  </div>
+
+  <div class="phase" data-n="2">
+    <h3>One cohort, sampled at the right moments</h3>
+    <div class="meta">40 patients within 2 years of onset (at least 15 severe, visited at home), 40 matched controls, 20 disease controls</div>
+    <ul>
+      <li>Blood at a stable baseline and during a crash (or 24 h after a standard provocation for those who can tolerate it), processed identically and banked in aliquots.</li>
+      <li>Reticulocytes, sTfR, EPO, hepcidin, copeptin, cortisol/ACTH, IgG subclasses, noradrenaline, and blood volume where feasible.</li>
+      <li>Graded head-up tilt with capnography and, where possible, transcranial Doppler.</li>
+      <li>Chiral aromatic-lactate panel, paired stool, genotype for DecodeME and pQTL variants, EBV-lytic T-cell responses.</li>
+      <li>Continuous wearable heart rate and HRV for the whole period.</li>
+    </ul>
+  </div>
+
+  <div class="phase" data-n="3">
+    <h3>Blinded two-lab serum transfer</h3>
+    <div class="meta">Uses phase 2 samples and phase 1 assays</div>
+    <p>The same coded sera go to a 3D-muscle lab and an endothelial lab, each with one preregistered endpoint. Compare crash vs baseline within person and severe vs mild. If a signal clears the detection floor, fractionate (IgG, complement, vesicles) to find it.</p>
+  </div>
+
+  <div class="phase" data-n="4">
+    <h3>Mechanism follow-ups</h3>
+    <div class="meta">In parallel, from phase 2 data</div>
+    <ul>
+      <li><b>Low red-cell production:</b> erythroid progenitor counts and EPO response in vitro.</li>
+      <li><b>Pituitary:</b> dynamic testing in those with borderline results.</li>
+      <li><b>Aromatic lactates:</b> isotope tracing and D/L chirality.</li>
+      <li><b>EPHB1:</b> colocalisation, CSF levels, sensory testing by genotype.</li>
+      <li><b>Low CO2:</b> crossover of compression, midodrine and CO2 clamping during tilt.</li>
+    </ul>
+  </div>
+
+  <div class="phase" data-n="5">
+    <h3>Small, well-measured treatment trials</h3>
+    <div class="meta">Only for leads that survive</div>
+    <p>Randomised crossovers or n-of-1 series with objective endpoints: wearable resting heart rate, upright CO2, step counts, a cognitive task. Candidates if the physiology holds: volume expansion, compression, midodrine, pyridostigmine, and targeted hormone replacement for proven deficiency. Follow the daratumumab RCT.</p>
+  </div>
+
+  <div class="phase" data-n="6">
+    <h3>Open data from day one</h3>
+    <p>Per-person data with IDs that link across modalities, deposited on publication. Ryback's per-person file is why we could check the severe subgroup here. Several other leads are stuck because data sit behind requests.</p>
+  </div>
+</section>
+
+<section class="blk" id="settled">
+  <h2>What we tested and consider settled</h2>
+  <p class="intro">These were tested with enough data to matter and did not hold up.</p>
+  <div class="grid g3">
+    <div class="card"><h3>Serum raising myoblast respiration at rest</h3><p>Refuted in mild–moderate patients (Ryback 2026). Severe and post-exertion samples remain open.</p></div>
+    <div class="card"><h3>Metabolites as causes</h3><p>Mendelian randomisation is null for IPA, indolelactate, kynurenine, ketones, carnitine and bile acids.</p></div>
+    <div class="card"><h3>Kynurenine up</h3><p>It is <b>lower</b> in patients across 7 blood cohorts and in spinal fluid.</p></div>
+    <div class="card"><h3>Immune-cell signatures</h3><p>Single-cell (503,739 cells), methylation, epigenetic clocks, B- and T-cell repertoires, interferon, Th17: nothing replicates.</p></div>
+    <div class="card"><h3>Two published claims</h3><p>De Vega 2017 methylation is granulocyte contamination; Sato 2021 IGHV3-30/3-33 did not replicate.</p></div>
+    <div class="card"><h3>GPCR autoantibodies</h3><p>Not raised in 164-person profiling; BC007 and immunoadsorption vs sham failed.</p></div>
+    <div class="card"><h3>Blood gene expression</h3><p>Five cohorts, 219 cases: no gene set passes correction.</p></div>
+    <div class="card"><h3>Single-cohort metabolites</h3><p>Fatty acids, bile acids, VMA and sphingolipids each failed across other cohorts.</p></div>
+    <div class="card"><h3>Null trials</h3><p>Rituximab (n=151), Paxlovid (3 trials), IVIG in POTS, low-dose naltrexone in post-COVID ME/CFS, CoQ10 alone.</p></div>
+  </div>
+</section>
+
+<section class="blk" id="data">
+  <h2>Data we used</h2>
+  <p class="intro">All the data are public. The <a href="/data">data catalogue</a> lists every dataset with its licence, and hosts downloadable copies where the licence allows. Per-person data from severe or recent-onset patients would make the most difference.</p>
+  <div class="tablewrap">
+  <table>
+    <thead><tr><th>Source</th><th>What</th><th>Size</th></tr></thead>
+    <tbody>
+      <tr><td><a href="https://osf.io/rgqs3/">DecodeME</a></td><td>GWAS summary statistics</td><td>15,579 cases</td></tr>
+      <tr><td><a href="https://risteys.finngen.fi/endpoints/G6_POSTVIRFAT">FinnGen R12 / Risteys</a></td><td>Postviral fatigue GWAS, comorbidities, lab values</td><td>~1,600 cases</td></tr>
+      <tr><td><a href="https://github.com/ohlab/BioMapAI">BioMapAI (Xiong 2025)</a></td><td>Gut metagenome, plasma metabolome, immune, clinical</td><td>153 patients, 96 controls</td></tr>
+      <tr><td><a href="https://www.nature.com/articles/s41467-024-45107-3">NIH (Walitt 2024)</a></td><td>Tilt, CSF, flow, proteomics</td><td>17 patients, 21 controls</td></tr>
+      <tr><td><a href="https://www.metabolomicsworkbench.org/">Metabolomics Workbench</a></td><td>Naviaux, Nagy-Szakal, Che, NIH CSF, Japanese cohorts</td><td>9 studies</td></tr>
+      <tr><td><a href="https://doi.org/10.1371/journal.pone.0341334">Ryback 2026</a></td><td>Per-person myoblast respiration</td><td>67 patients, 53 controls</td></tr>
+      <tr><td><a href="https://www.ncbi.nlm.nih.gov/geo/">GEO</a></td><td>Single-cell, bulk RNA, methylation</td><td>12 datasets</td></tr>
+      <tr><td><a href="https://www.ebi.ac.uk/pride/">PRIDE</a> and supplements</td><td>SomaScan and mass-spec proteomics</td><td>7 datasets</td></tr>
+      <tr><td><a href="https://clinicaltrials.gov/">ClinicalTrials.gov</a></td><td>Trials with posted results</td><td>165 trials</td></tr>
+    </tbody>
+  </table>
+  </div>
+  <p class="note">Out of reach so far: participant-linked NIH tables, Hoel 2021 per-person metabolomics, full plasma pQTL statistics, individual Finnish registry data.</p>
+</section>
+</div>

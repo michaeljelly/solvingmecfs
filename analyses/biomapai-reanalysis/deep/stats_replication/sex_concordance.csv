@@ -1,0 +1,13 @@
+layer,contrast,n_sig_all,frac_same_sign_males,n_males_p<.05_same_dir,n_males_q<.05,r_male_vs_female_est,median_|male|/|female|
+immune,long_vs_control,30,1.0,16,0,0.94,1.13
+kegg,long_vs_control,20,1.0,6,0,0.92,0.6
+kegg,patient_vs_control,704,0.99,91,0,0.88,0.64
+kegg,short_vs_control,909,0.99,450,0,0.88,0.95
+metabolome,long_vs_control,39,1.0,21,3,0.89,1.14
+metabolome,patient_vs_control,84,1.0,39,1,0.86,1.05
+metabolome,short_vs_control,58,1.0,27,0,0.79,1.03
+quest,long_vs_control,1,1.0,1,0,,1.94
+quest,patient_vs_control,2,1.0,2,0,1.0,1.65
+species,long_vs_control,67,1.0,9,0,0.74,0.58
+species,patient_vs_control,98,0.96,18,0,0.82,0.63
+species,short_vs_control,61,0.98,12,0,0.87,0.65

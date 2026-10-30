@@ -1,0 +1,2320 @@
+{
+ "updated": "2026-10-29",
+ "groups": [
+  {
+   "id": "pacing",
+   "title": "Pacing and symptom management",
+   "intro": "Keeping activity below the level that provokes post-exertional malaise. Patients rate it the most helpful measure, but no trial has tested heart-rate-guided pacing."
+  },
+  {
+   "id": "circulation",
+   "title": "Circulation and blood volume",
+   "intro": "Many patients have low blood volume and too little blood returning to the heart when upright, whether or not they meet POTS criteria. These measures support volume or venous return; the cheap ones are rated highly by patients, and the drug trials are small or negative."
+  },
+  {
+   "id": "sleep",
+   "title": "Sleep and arousal",
+   "intro": "Treatments aimed at sympathetic arousal and disturbed sleep (steps 7 and 8). The evidence is one retrospective series, small pilots, and one well-run trial that showed harm."
+  },
+  {
+   "id": "immune",
+   "title": "Immune and inflammation",
+   "intro": "The immune route has the most large, negative trials (rituximab, immunoadsorption against sham, low-dose naltrexone). The positive signals are open-label and small; the next answers come from randomised daratumumab and rapamycin trials."
+  },
+  {
+   "id": "antiviral",
+   "title": "Antiviral",
+   "intro": "Treating a persisting virus is plausible for some, but SARS-CoV-2 antivirals have failed in long COVID, and herpesvirus antiviral data are small and old."
+  },
+  {
+   "id": "energy",
+   "title": "Energy metabolism",
+   "intro": "Supplements and drugs aimed at the mitochondria. Mostly low risk; the trials are small, often sponsor-linked, and the effects modest at best."
+  },
+  {
+   "id": "vascular",
+   "title": "Vessels, oxygen and clotting",
+   "intro": "Treatments aimed at blood vessels, capillaries and oxygen delivery (steps 4 and 5). Hyperbaric oxygen has one positive and one negative sham-controlled trial; the other treatments rely on case series, animal studies or patient surveys."
+  },
+  {
+   "id": "gut",
+   "title": "Gut",
+   "intro": "Gut changes are reproducible but modest, and the main gut-related blood signal, low indole-3-propionate, appears to be a consequence rather than a cause. Dietary fibre is the cheapest intervention; faecal transplant remains a research question."
+  },
+  {
+   "id": "hormonal",
+   "title": "Hormones",
+   "intro": "Stress-hormone and vasopressin changes are measurable but small. Replacing hormones without a proven deficiency has not helped and carries real risks."
+  },
+  {
+   "id": "other",
+   "title": "Other treatments",
+   "intro": "Rehabilitation, procedures and newer drugs. Graded exercise is the one approach with consistent reports of harm."
+  }
+ ],
+ "treatments": [
+  {
+   "id": "pacing-heart-rate",
+   "name": "Pacing with heart-rate limits",
+   "group": "pacing",
+   "links": [
+    5,
+    6,
+    7
+   ],
+   "hypotheses": [
+    "mitochondrial-energy",
+    "low-blood-volume-preload"
+   ],
+   "verdict": "try",
+   "evidence": "rct-positive",
+   "evidence_line": "Rated most helpful of over 150 treatments by ~3,925 patients (net ~75%, Eckey 2025 survey); in the first positive randomised trial, 12 weeks of coached structured pacing cut how often and how badly PEM happened vs usual care in 298 people with long COVID (PEM frequency -0.46, 95% CI -0.65 to -0.27; RECOVER-ENERGIZE, posted results, unblinded); PACE's adaptive pacing arm (n=160) was no better than usual care, but neither trial tested heart-rate-guided envelope pacing.",
+   "what_it_does": "Keeps effort below the level that triggers post-exertional malaise, using a heart-rate alarm (often set around resting rate plus 15 bpm, or 55-60% of age-predicted maximum) and planned rest. In the model it stops steps 5 to 7 from firing, rather than treating anything.",
+   "who_it_might_suit": "Everyone with post-exertional malaise. Most useful for people who crash after delays they cannot predict, and for carers who need an objective stop signal.",
+   "risks": "Few. Heart-rate limits miss cognitive, sensory and orthostatic load, and beta-blockers or ivabradine make the numbers unreliable. Strict tracking can add anxiety.",
+   "severe_note": "For bedbound patients, sitting up, talking, light and noise count as exertion; overnight resting heart rate and HRV trends are often more useful than daytime alarms.",
+   "access": "OTC",
+   "cost": "£30-300 one-off for a chest strap or wearable",
+   "pending": "",
+   "refs": [
+    {
+     "cite": "Eckey 2025, PNAS (patient survey, ~3,925)",
+     "url": "https://doi.org/10.1073/pnas.2426874122",
+     "verified": true
+    },
+    {
+     "cite": "RECOVER-ENERGIZE posted results, NCT06404073",
+     "url": "https://clinicaltrials.gov/study/NCT06404073",
+     "verified": true
+    },
+    {
+     "cite": "White 2011, Lancet (PACE)",
+     "url": "https://doi.org/10.1016/S0140-6736(11)60096-2",
+     "verified": true
+    },
+    {
+     "cite": "NICE 2021, NG206",
+     "url": "https://www.nice.org.uk/guidance/ng206",
+     "verified": true
+    }
+   ],
+   "model_rationale": "If crashes are steps 5 to 7 firing when demand outruns delivery, keeping demand below the threshold should prevent them. Pacing treats nothing; it stops the loop being driven harder."
+  },
+  {
+   "id": "upright-time",
+   "name": "Lying-down and upright time management",
+   "group": "pacing",
+   "links": [
+    3,
+    5
+   ],
+   "hypotheses": [
+    "low-blood-volume-preload",
+    "autonomic-small-fibre"
+   ],
+   "verdict": "try",
+   "evidence": "mechanistic",
+   "evidence_line": "No treatment trial; tilt studies show cardiac output and brain blood flow fall in most patients when upright (82% abnormal brain flow despite normal heart rate in van Campen 2020), and lying down removes that load.",
+   "what_it_does": "Counts upright minutes as part of the energy budget: sitting with legs raised, lying for tasks that can be done flat, and short upright spells broken by lying down. It reduces the time the brain and muscles are under-supplied.",
+   "who_it_might_suit": "Anyone with orthostatic intolerance (light-headedness, brain fog or heart racing on standing), whether or not POTS criteria are met.",
+   "risks": "Very low. Long-term complete bed rest has its own costs (muscle and bone loss, clots), so keep whatever gentle movement is tolerated lying down.",
+   "severe_note": "Usually already in place by necessity; a reclining wheelchair or bed that raises the head slightly at night (some POTS clinics advise 10-15 degrees) may help.",
+   "access": "OTC",
+   "cost": "",
+   "pending": "",
+   "refs": [
+    {
+     "cite": "van Campen 2020, Clin Neurophysiol Pract (cerebral blood flow on tilt)",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/?term=van+Campen+2020+cerebral+blood+flow+orthostatic+ME%2FCFS",
+     "verified": false
+    },
+    {
+     "cite": "van Campen 2021, Medicina (compression, randomised crossover)",
+     "url": "https://doi.org/10.3390/medicina58010051",
+     "verified": true
+    }
+   ],
+   "model_rationale": "Standing is the commonest everyday demand on step 5, because low volume (step 3) leaves the brain under-supplied when upright. Less upright time means less under-perfusion."
+  },
+  {
+   "id": "oral-fluids-salt",
+   "name": "Oral fluids, electrolytes and salt",
+   "group": "circulation",
+   "links": [
+    3,
+    5
+   ],
+   "hypotheses": [
+    "low-blood-volume-preload",
+    "pituitary-adh"
+   ],
+   "verdict": "try",
+   "evidence": "case-series",
+   "evidence_line": "No ME/CFS trial; fluids and electrolytes are the second-highest-rated treatment in the Eckey 2025 survey (net ~69%), and in POTS oral rehydration improved orthostatic tolerance in a small comparison with IV saline (Medow 2019).",
+   "what_it_does": "Expands plasma volume so more blood returns to the heart when upright. Typical POTS advice is 2-3 litres of fluid and 6-10 g of salt a day (3-5 g sodium), spread through the day, or oral rehydration solution.",
+   "who_it_might_suit": "People with orthostatic intolerance, low blood pressure, dark urine or high plasma osmolality, and those who pass a lot of dilute urine.",
+   "risks": "Not for people with high blood pressure, heart failure or kidney disease. Salt tablets can cause nausea; take with food. Very large water intake without salt can lower blood sodium.",
+   "severe_note": "Swallowing and toileting are effortful in severe ME; electrolyte solutions in small, frequent sips and a bedside urinal bottle help.",
+   "access": "OTC",
+   "cost": "£5-30/month",
+   "pending": "",
+   "refs": [
+    {
+     "cite": "Eckey 2025, PNAS (patient survey, ~3,925)",
+     "url": "https://doi.org/10.1073/pnas.2426874122",
+     "verified": true
+    },
+    {
+     "cite": "Medow 2019, oral rehydration vs IV saline in POTS",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/31405524/",
+     "verified": true
+    }
+   ],
+   "model_rationale": "Directly targets step 3. If low plasma volume limits filling of the heart, more fluid and sodium should raise stroke volume and brain blood flow when upright. It does not correct red-cell volume."
+  },
+  {
+   "id": "iv-saline",
+   "name": "IV saline infusions",
+   "group": "circulation",
+   "links": [
+    3,
+    5
+   ],
+   "hypotheses": [
+    "low-blood-volume-preload",
+    "pituitary-adh"
+   ],
+   "verdict": "specialist",
+   "evidence": "case-series",
+   "evidence_line": "Uncontrolled Swedish series of 22 ME/CFS patients given ~1.6 L every third week for 9 weeks: symptoms, POTS scores and quality of life improved, with effects wearing off between infusions (Sjögren 2025); no randomised trial has reported.",
+   "what_it_does": "Puts volume straight into the circulation, temporarily correcting low blood volume and preload. The benefit usually lasts days, not weeks.",
+   "who_it_might_suit": "Patients with clear hypovolaemia or POTS who still struggle after oral fluids, salt and compression; some use it before a necessary outing or procedure.",
+   "risks": "Cannula infection, vein damage, fluid overload in heart or kidney disease. Regular infusions often lead to a port or PICC line, which carries a real risk of line infection and clots; avoid long-term lines for this alone.",
+   "severe_note": "Home infusion services avoid travel; the trip to a clinic can cost more than the infusion gives.",
+   "access": "specialist",
+   "cost": "£100-250 per private infusion",
+   "pending": "Saline vs placebo infusion in an ME/CFS PEM study (NCT04740736, n=106) completed July 2025, not yet reported; oral rehydration vs IV saline crossover (NCT02854683) status unknown since 2021",
+   "refs": [
+    {
+     "cite": "Sjögren 2025, Front Neurol (IV saline case series)",
+     "url": "https://doi.org/10.3389/fneur.2025.1601599",
+     "verified": true
+    }
+   ],
+   "model_rationale": "Corrects step 3 quickly and fully for a few days. A reliable short-term response is evidence that volume matters for that patient; its brevity suggests volume is not the whole story."
+  },
+  {
+   "id": "compression",
+   "name": "Compression garments",
+   "group": "circulation",
+   "links": [
+    3,
+    5
+   ],
+   "hypotheses": [
+    "low-blood-volume-preload",
+    "autonomic-small-fibre"
+   ],
+   "verdict": "try",
+   "evidence": "rct-positive",
+   "evidence_line": "Randomised crossover in 16 ME/CFS patients on tilt: compression stockings cut the fall in cardiac output from 27% to 15% and in brain blood flow from 25% to 14% (van Campen 2021); this is an acute measurement, not a symptom trial.",
+   "what_it_does": "Squeezes leg and abdominal veins so less blood pools below the heart when upright. Abdominal binders matter as much as stockings, because much of the pooling is in the gut.",
+   "who_it_might_suit": "Anyone with orthostatic symptoms; third in the patient survey ratings (net ~62%), especially in the POTS-dominant cluster.",
+   "risks": "Heat, itching and the effort of putting them on. Thigh-high or waist-high class 1-2 (20-30 mmHg) is typical; knee-high adds little. Not for people with peripheral arterial disease.",
+   "severe_note": "Only useful when upright; putting on stockings can itself cause a crash, so a carer's help or an easy-on abdominal binder may be better.",
+   "access": "OTC",
+   "cost": "£20-60 per garment",
+   "pending": "",
+   "refs": [
+    {
+     "cite": "van Campen 2021, Medicina (compression, randomised crossover)",
+     "url": "https://doi.org/10.3390/medicina58010051",
+     "verified": true
+    },
+    {
+     "cite": "Eckey 2025, PNAS (patient survey, ~3,925)",
+     "url": "https://doi.org/10.1073/pnas.2426874122",
+     "verified": true
+    }
+   ],
+   "model_rationale": "Reduces pooling in leg and gut veins, which raises the return of blood to the heart (step 3) and so brain and muscle perfusion (step 5). Compression halved the fall in cardiac output on tilt in one study."
+  },
+  {
+   "id": "midodrine",
+   "name": "Midodrine",
+   "group": "circulation",
+   "links": [
+    3,
+    5
+   ],
+   "hypotheses": [
+    "low-blood-volume-preload",
+    "autonomic-small-fibre"
+   ],
+   "verdict": "doctor",
+   "evidence": "mechanistic",
+   "evidence_line": "No ME/CFS outcome trial; small acute crossover studies in POTS and orthostatic intolerance show lower standing heart rate, and phenylephrine (a related drug) restored brain blood flow and working memory on tilt in ME/CFS (Medow & Stewart 2024).",
+   "what_it_does": "Tightens arteries and veins for about 4 hours per dose, raising blood pressure and reducing pooling when upright.",
+   "who_it_might_suit": "People whose problem is low blood pressure or pooling on standing, who are upright for set periods during the day.",
+   "risks": "High blood pressure when lying down (the main danger), goosebumps, scalp tingling, urinary retention. Not for heart disease, kidney failure or uncontrolled hypertension. Last dose at least 4 hours before lying down for the night.",
+   "severe_note": "Usually unsuitable for bedbound patients because of lying-down hypertension.",
+   "access": "prescription",
+   "cost": "NHS prescription charge, or ~£20-40/month private",
+   "pending": "",
+   "refs": [
+    {
+     "cite": "Medow & Stewart 2024, Am J Physiol Regul (phenylephrine on tilt)",
+     "url": "https://doi.org/10.1152/ajpregu.00071.2024",
+     "verified": true
+    }
+   ],
+   "model_rationale": "Constricts veins and arteries, partly compensating for low volume and poor venous tone (step 3) and reducing the fall in brain blood flow when upright (step 5)."
+  },
+  {
+   "id": "fludrocortisone",
+   "name": "Fludrocortisone",
+   "group": "circulation",
+   "links": [
+    3
+   ],
+   "hypotheses": [
+    "low-blood-volume-preload",
+    "hpa-endocrine"
+   ],
+   "verdict": "avoid",
+   "evidence": "rct-negative",
+   "evidence_line": "In a 100-person RCT in CFS with neurally mediated hypotension, 14% improved on fludrocortisone vs 10% on placebo (p=0.76) (Rowe 2001); combined with hydrocortisone it was also null in 80 completers (Blockmans 2003).",
+   "what_it_does": "A salt-retaining steroid that makes the kidneys hold sodium and water, to expand blood volume.",
+   "who_it_might_suit": "Not recommended as an ME/CFS treatment. A POTS specialist may still use it for documented low blood volume or low aldosterone; the trials did not select for those.",
+   "risks": "Low potassium, high blood pressure, headache, fluid retention; potassium needs checking.",
+   "severe_note": "",
+   "access": "prescription",
+   "cost": "",
+   "pending": "",
+   "refs": [
+    {
+     "cite": "Rowe 2001, JAMA (fludrocortisone RCT)",
+     "url": "https://doi.org/10.1001/jama.285.1.52",
+     "verified": true
+    },
+    {
+     "cite": "Blockmans 2003, Am J Med (hydrocortisone + fludrocortisone RCT)",
+     "url": "https://doi.org/10.1016/s0002-9343(03)00182-7",
+     "verified": true
+    }
+   ],
+   "model_rationale": "Was meant to expand volume (step 3) by retaining salt. Its failure in a 100-person trial is one of the results the model explains least well: either aldosterone is not the bottleneck, or volume is not the main limit on the crash."
+  },
+  {
+   "id": "ivabradine",
+   "name": "Ivabradine",
+   "group": "circulation",
+   "links": [
+    3,
+    8
+   ],
+   "hypotheses": [
+    "autonomic-small-fibre",
+    "low-blood-volume-preload"
+   ],
+   "verdict": "specialist",
+   "evidence": "rct-negative",
+   "evidence_line": "In RECOVER-AUTONOMIC (181 adults with long-COVID POTS, 12 weeks) ivabradine lowered the standing heart-rate rise but did not improve symptoms (ACC 2026, full paper pending); an earlier 22-person crossover in hyperadrenergic POTS was positive (Taub 2021).",
+   "what_it_does": "Slows the heart's pacemaker without lowering blood pressure, so the heart fills for longer between beats.",
+   "who_it_might_suit": "Possibly hyperadrenergic POTS (standing noradrenaline above ~600 pg/mL) with distressing palpitations. Do not expect better energy or function.",
+   "risks": "Flashing lights in vision (phosphenes), slow heart rate, atrial fibrillation; not in pregnancy. Makes heart-rate pacing alarms unreliable.",
+   "severe_note": "",
+   "access": "specialist",
+   "cost": "",
+   "pending": "Full RECOVER-AUTONOMIC paper or posted results (NCT06305806) not yet available; COVIVA ivabradine RCT (NCT05481177, n=250 planned) completed Sept 2024, not reported",
+   "refs": [
+    {
+     "cite": "RECOVER-AUTONOMIC ivabradine results, ACC 2026 (NIH release)",
+     "url": "https://recovercovid.org/news/recover-autonomic-clinical-trial-results-shared-2026-acc-conference",
+     "verified": false
+    },
+    {
+     "cite": "Taub 2021, J Am Coll Cardiol",
+     "url": "https://doi.org/10.1016/j.jacc.2020.12.029",
+     "verified": true
+    }
+   ],
+   "model_rationale": "Slowing the heart lets it fill for longer (step 3), and blunts the heart-rate rise of arousal (step 8). It lowered heart rate but did not improve symptoms, which suggests heart rate itself is a marker, not a driver."
+  },
+  {
+   "id": "pyridostigmine",
+   "name": "Pyridostigmine",
+   "group": "circulation",
+   "links": [
+    3,
+    5
+   ],
+   "hypotheses": [
+    "low-blood-volume-preload",
+    "autonomic-small-fibre"
+   ],
+   "verdict": "doctor",
+   "evidence": "rct-mixed",
+   "evidence_line": "A single 60 mg dose raised peak oxygen uptake vs placebo on a repeat invasive exercise test in 45 ME/CFS patients with preload failure, largely because the placebo group got worse (Joseph 2022); a 6-10-week long-COVID RCT (n=32, conference abstract) was negative overall.",
+   "what_it_does": "Boosts acetylcholine signalling in autonomic nerves, which helps tighten veins and return blood to the heart (preload).",
+   "who_it_might_suit": "POTS or suspected preload failure; possibly those with small-fibre neuropathy on skin biopsy.",
+   "risks": "Gut cramps, diarrhoea and urgency (about one in five stop for this in POTS series), sweating, increased saliva, muscle twitching. Caution in asthma and slow heart rate.",
+   "severe_note": "Bowel urgency is a real burden when getting to the toilet is hard; start at 30 mg or lower.",
+   "access": "prescription",
+   "cost": "NHS prescription charge, or ~£15-30/month private",
+   "pending": "LIFT trial (pyridostigmine x low-dose naltrexone, n=160, NCT06366724), recruiting, primary completion listed as Sept 2027",
+   "refs": [
+    {
+     "cite": "Joseph 2022, Chest (single-dose pyridostigmine RCT)",
+     "url": "https://doi.org/10.1016/j.chest.2022.04.146",
+     "verified": true
+    },
+    {
+     "cite": "LIFT trial registration, NCT06366724",
+     "url": "https://clinicaltrials.gov/study/NCT06366724",
+     "verified": true
+    }
+   ],
+   "model_rationale": "Strengthens the autonomic signal that tightens veins, addressing preload failure (step 3) and, through it, under-perfusion during exertion (step 5). This fits the subgroup with low filling pressure on invasive testing best."
+  },
+  {
+   "id": "beta-blockers",
+   "name": "Low-dose beta-blockers (propranolol)",
+   "group": "circulation",
+   "links": [
+    3,
+    8
+   ],
+   "hypotheses": [
+    "autonomic-small-fibre",
+    "low-blood-volume-preload"
+   ],
+   "verdict": "doctor",
+   "evidence": "rct-mixed",
+   "evidence_line": "In POTS (not ME/CFS) low-dose propranolol 20 mg raised peak oxygen uptake (27.6 vs 24.5 mL/kg/min) and stroke volume vs placebo, while 80 mg propranolol or metoprolol did not (Arnold 2013); no ME/CFS trial, and ME/CFS patients with mast-cell features reported no better response to beta-blockers (Rohrhofer 2025).",
+   "what_it_does": "Blunts the adrenaline-driven rise in heart rate, letting the heart fill more between beats. Low dose matters: higher doses can worsen fatigue.",
+   "who_it_might_suit": "POTS with a large, adrenaline-driven heart-rate rise, tremor or palpitations.",
+   "risks": "Fatigue, low blood pressure, cold hands, vivid dreams; not for asthma. Can mask low blood sugar. Do not stop suddenly.",
+   "severe_note": "Fatigue from beta-blockers can be hard to separate from ME; start at 10 mg or less.",
+   "access": "prescription",
+   "cost": "NHS prescription charge",
+   "pending": "",
+   "refs": [
+    {
+     "cite": "Arnold 2013, Neurology (low-dose propranolol in POTS)",
+     "url": "https://doi.org/10.1212/wnl.0b013e318293e310",
+     "verified": true
+    },
+    {
+     "cite": "Rohrhofer 2025, Diagnostics (mast cell activation in ME/CFS)",
+     "url": "https://doi.org/10.3390/diagnostics15222828",
+     "verified": true
+    }
+   ],
+   "model_rationale": "Blunt the adrenaline-driven heart-rate rise (step 8) so the heart fills more between beats (step 3). They treat a compensation, which is why higher doses can worsen fatigue."
+  },
+  {
+   "id": "low-dose-aripiprazole",
+   "name": "Low-dose aripiprazole",
+   "group": "sleep",
+   "links": [
+    7
+   ],
+   "hypotheses": [
+    "neuroinflammation",
+    "sickness-behaviour"
+   ],
+   "verdict": "doctor",
+   "evidence": "case-series",
+   "evidence_line": "Retrospective review at one Stanford clinic: about 74% of 101 patients on 0.25-2 mg reported improvement in brain fog, fatigue or sleep; no control group and no randomised trial yet (Crosby 2021).",
+   "what_it_does": "At very low doses it nudges dopamine signalling and may calm microglia, targeting the basal-ganglia dopamine dip in the sickness response.",
+   "who_it_might_suit": "Prominent brain fog and unrefreshing sleep, once sleep is reasonably steady.",
+   "risks": "Insomnia, restlessness (akathisia), vivid dreams; rarely movement disorders or impulse-control problems (gambling, shopping). Needs a liquid formulation or tablet splitting to reach 0.25-1 mg. The ME Association advised against use outside trials in 2021.",
+   "severe_note": "Start at 0.25 mg or lower; restlessness is hard to bear when bedbound.",
+   "access": "prescription",
+   "cost": "~£30-80/month private including liquid formulation",
+   "pending": "PAIS-AriSE (Charité): phase 2b placebo-controlled crossover in ~138 people with post-acute infection syndrome; protocol only (unverified)",
+   "refs": [
+    {
+     "cite": "Crosby 2021, J Transl Med",
+     "url": "https://doi.org/10.1186/s12967-021-02721-9",
+     "verified": true
+    }
+   ],
+   "model_rationale": "Targets the brain end of the sickness response (step 7): interferon studies show part of it runs through reduced dopamine signalling in the basal ganglia, and reward-related basal ganglia activity is lower in ME/CFS."
+  },
+  {
+   "id": "tvns",
+   "name": "Ear vagus nerve stimulation (tVNS)",
+   "group": "sleep",
+   "links": [
+    7,
+    8
+   ],
+   "hypotheses": [
+    "sickness-behaviour",
+    "autonomic-small-fibre",
+    "innate-hyperactivation"
+   ],
+   "verdict": "trial-only",
+   "evidence": "rct-negative",
+   "evidence_line": "Sham-controlled trials in long COVID are negative: COVIVA (n=45, ~4 h/day) found no difference from sham (Gierthmuehlen 2026); PAuSing-pCF (n=114, 8 weeks) found fatigue fell in all groups with no difference between active, sham and placebo stimulation (Shahmandi 2026); a 2026 systematic review rated all efficacy evidence very low certainty (Balan 2026).",
+   "what_it_does": "A clip on the ear stimulates the vagus nerve, which can shift heart-rate variability toward rest and is thought to dampen inflammatory signalling.",
+   "who_it_might_suit": "People who want a very low-risk thing to try for sympathetic over-arousal or sleep onset, accepting that sham stimulation did as well in trials.",
+   "risks": "Skin irritation, dizziness (each ~7% in COVIVA). Not with a pacemaker or implanted stimulator without advice.",
+   "severe_note": "Can be used in bed; some find the sensation itself over-stimulating.",
+   "access": "OTC",
+   "cost": "£200-500 one-off",
+   "pending": "UK vagus nerve stimulation RCT vs usual care (NCT07190105, n=546) finished Dec 2025, not yet reported",
+   "refs": [
+    {
+     "cite": "Gierthmuehlen 2026, Neurol Ther (COVIVA)",
+     "url": "https://doi.org/10.1007/s40120-026-00928-w",
+     "verified": true
+    },
+    {
+     "cite": "Shahmandi 2026, NIHR Open Res (PAuSing-pCF)",
+     "url": "https://doi.org/10.3310/nihropenres.14236.1",
+     "verified": true
+    },
+    {
+     "cite": "Balan 2026, J Clin Med (systematic review)",
+     "url": "https://doi.org/10.3390/jcm15114247",
+     "verified": true
+    }
+   ],
+   "model_rationale": "Proposed to shift autonomic balance toward vagal tone (step 8) and damp immune-to-brain signalling (step 7). Two sham-controlled trials found no difference, so the rationale has not translated into benefit."
+  },
+  {
+   "id": "guanfacine-nac",
+   "name": "Guanfacine with N-acetylcysteine",
+   "group": "sleep",
+   "links": [
+    7,
+    8
+   ],
+   "hypotheses": [
+    "neuroinflammation",
+    "sickness-behaviour"
+   ],
+   "verdict": "doctor",
+   "evidence": "case-series",
+   "evidence_line": "Uncontrolled Yale series: 8 of 12 long-COVID patients reported less brain fog on guanfacine 1-2 mg plus NAC 600 mg (Fesharaki-Zadeh 2022); no ME/CFS data and no placebo-controlled trial.",
+   "what_it_does": "Guanfacine strengthens prefrontal working-memory circuits through alpha-2A receptors; NAC is an antioxidant. Proposed for cognitive symptoms.",
+   "who_it_might_suit": "Cognitive-dominant illness with adequate blood pressure.",
+   "risks": "Guanfacine lowers blood pressure and heart rate and causes drowsiness; it is a cousin of clonidine, which reduced daily activity in a large adolescent CFS trial (see clonidine). Do not stop guanfacine suddenly. NAC can cause nausea.",
+   "severe_note": "Blood-pressure lowering can worsen orthostatic intolerance.",
+   "access": "prescription",
+   "cost": "~£50-80/month private (guanfacine); NAC £10-20/month",
+   "pending": "",
+   "refs": [
+    {
+     "cite": "Fesharaki-Zadeh 2022, Neuroimmunol Rep (long COVID case series)",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9691274",
+     "verified": false
+    }
+   ],
+   "model_rationale": "Aimed at cognitive symptoms of the sickness response (step 7) and at prefrontal effects of high noradrenaline (step 8). The model gives no reason to expect it to change the crash threshold."
+  },
+  {
+   "id": "clonidine",
+   "name": "Clonidine",
+   "group": "sleep",
+   "links": [
+    8
+   ],
+   "hypotheses": [
+    "autonomic-small-fibre"
+   ],
+   "verdict": "avoid",
+   "evidence": "rct-negative",
+   "evidence_line": "NorCAPITAL (120 adolescents with CFS, randomised placebo-controlled): low-dose clonidine reduced sympathetic activity and inflammation markers but lowered daily step counts; the authors concluded it is not clinically useful (Sulheim 2014).",
+   "what_it_does": "Damps sympathetic (fight-or-flight) output from the brainstem.",
+   "who_it_might_suit": "Not recommended for ME/CFS itself. The trial suggests the raised sympathetic tone may be compensating for poor circulation.",
+   "risks": "Low blood pressure, drowsiness, dry mouth; rebound hypertension if stopped suddenly.",
+   "severe_note": "",
+   "access": "prescription",
+   "cost": "",
+   "pending": "",
+   "refs": [
+    {
+     "cite": "Sulheim 2014, JAMA Pediatr (NorCAPITAL)",
+     "url": "https://doi.org/10.1001/jamapediatrics.2013.4647",
+     "verified": true
+    }
+   ],
+   "model_rationale": "Lowers sympathetic outflow (step 8). It did not help and trended to fewer steps in an adolescent trial, which argues against high sympathetic tone being a driver."
+  },
+  {
+   "id": "sleep-medicines",
+   "name": "Sleep medicines (melatonin, trazodone, low-dose amitriptyline)",
+   "group": "sleep",
+   "links": [
+    8
+   ],
+   "hypotheses": [
+    "hpa-endocrine",
+    "neuroinflammation"
+   ],
+   "verdict": "doctor",
+   "evidence": "rct-mixed",
+   "evidence_line": "Melatonin 1 mg plus zinc reduced physical fatigue in a 50-person RCT (Castro-Marrero 2021), and timed melatonin helped in an open study of patients with late melatonin onset (van Heukelom 2006); sodium oxybate increased slow-wave sleep but gave no clear daytime gain in two tiny placebo trials (n=13 and n=17); trazodone and amitriptyline have no ME/CFS trials.",
+   "what_it_does": "Melatonin shifts the body clock and promotes sleep onset; low-dose trazodone or amitriptyline (10-25 mg) deepen and lengthen sleep and may ease pain.",
+   "who_it_might_suit": "Broken or delayed sleep; amitriptyline where pain or headache is also present.",
+   "risks": "Morning grogginess. Amitriptyline: dry mouth, constipation, weight gain, faster heart rate (can worsen POTS). Trazodone: dizziness on standing, rarely priapism. Melatonin is prescription-only in the UK.",
+   "severe_note": "Very severe patients often react to standard doses; start at a quarter of the usual dose.",
+   "access": "prescription",
+   "cost": "NHS prescription charge",
+   "pending": "Second melatonin plus zinc RCT (NCT05454683, n=106 planned) completed Sept 2024, not yet reported",
+   "refs": [
+    {
+     "cite": "Castro-Marrero 2021, Antioxidants (melatonin + zinc RCT)",
+     "url": "https://doi.org/10.3390/antiox10071010",
+     "verified": true
+    },
+    {
+     "cite": "van Heukelom 2006, Eur J Neurol",
+     "url": "https://doi.org/10.1111/j.1468-1331.2006.01132.x",
+     "verified": true
+    },
+    {
+     "cite": "SAFFE sodium oxybate posted results, NCT02055898",
+     "url": "https://clinicaltrials.gov/study/NCT02055898",
+     "verified": true
+    }
+   ],
+   "model_rationale": "Better sleep should weaken the feedback from step 8 to step 2. Melatonin fits the subgroup with delayed sleep onset; low-dose sedating drugs act on sleep and pain."
+  },
+  {
+   "id": "stimulants",
+   "name": "Stimulants (methylphenidate, modafinil, lisdexamfetamine, solriamfetol)",
+   "group": "sleep",
+   "links": [
+    7
+   ],
+   "hypotheses": [
+    "sickness-behaviour",
+    "neuroinflammation"
+   ],
+   "verdict": "specialist",
+   "evidence": "rct-positive",
+   "evidence_line": "Methylphenidate 10 mg twice daily beat placebo for fatigue and concentration in a 60-person 4-week crossover RCT, but only in a minority of patients (Blockmans 2006); 65% of 149 later users had stopped (Blockmans 2016); lisdexamfetamine improved executive function and fatigue vs placebo (n=26, Young 2013), and solriamfetol improved fatigue at week 8 but not week 6 (n=44, Young 2025).",
+   "what_it_does": "Raises dopamine and noradrenaline, improving alertness and concentration. It does not raise the energy envelope.",
+   "who_it_might_suit": "Cognitive-dominant illness where specific tasks (work, exams) matter; the cognitive cluster in the patient survey rated stimulants highly.",
+   "risks": "The main risk is overdoing it: feeling more alert can lead to exertion that triggers a crash. Also raised heart rate (bad for POTS), insomnia, appetite loss, dependence.",
+   "severe_note": "Generally unsuitable in severe ME because of heart-rate rise and crash risk.",
+   "access": "specialist",
+   "cost": "NHS prescription charge if prescribed; off-label",
+   "pending": "Methylphenidate plus nutrient formula RCT (NCT01966276, n=134 planned) completed 2014, results never reported",
+   "refs": [
+    {
+     "cite": "Blockmans 2006, Am J Med (methylphenidate crossover RCT)",
+     "url": "https://doi.org/10.1016/j.amjmed.2005.07.047",
+     "verified": true
+    },
+    {
+     "cite": "Young 2013, Psychiatry Res (lisdexamfetamine RCT)",
+     "url": "https://doi.org/10.1016/j.psychres.2012.09.007",
+     "verified": true
+    },
+    {
+     "cite": "Young 2025, J Psychopharmacol (solriamfetol RCT)",
+     "url": "https://doi.org/10.1177/02698811251368371",
+     "verified": true
+    },
+    {
+     "cite": "Eckey 2025, PNAS (patient survey, ~3,925)",
+     "url": "https://doi.org/10.1073/pnas.2426874122",
+     "verified": true
+    }
+   ],
+   "model_rationale": "Act on the alertness and concentration side of step 7 without touching steps 3 to 6, so the model predicts symptom relief without a higher crash threshold, and a risk of overexertion."
+  },
+  {
+   "id": "amantadine",
+   "name": "Amantadine",
+   "group": "sleep",
+   "links": [
+    7
+   ],
+   "hypotheses": [
+    "sickness-behaviour",
+    "neuroinflammation"
+   ],
+   "verdict": "trial-only",
+   "evidence": "open-label",
+   "evidence_line": "An open-label RCT in post-COVID fatigue reported FSS falling to 28 with amantadine vs 43 with no treatment (Harandi 2024); a 64-person placebo RCT finished Dec 2025 and has not reported; in a 1997 ME/CFS trial (n=30) it gave no benefit and was poorly tolerated.",
+   "what_it_does": "An old antiviral and Parkinson's drug that raises dopamine and blocks NMDA receptors; used for fatigue in multiple sclerosis.",
+   "who_it_might_suit": "Wait for the placebo-controlled result; the only controlled ME/CFS data were negative.",
+   "risks": "Insomnia, dizziness, confusion, hallucinations, ankle swelling, livedo (mottled skin); reduce dose with kidney disease.",
+   "severe_note": "",
+   "access": "prescription",
+   "cost": "",
+   "pending": "Placebo RCT for cognitive impairment in long COVID (NCT06055244, n=64) completed Dec 2025, not yet reported",
+   "refs": [
+    {
+     "cite": "Harandi 2024, Sci Rep (amantadine open-label RCT)",
+     "url": "https://doi.org/10.1038/s41598-024-51904-z",
+     "verified": true
+    },
+    {
+     "cite": "Plioplys 1997, Neuropsychobiology (amantadine vs carnitine)",
+     "url": "https://doi.org/10.1159/000119325",
+     "verified": true
+    }
+   ],
+   "model_rationale": "Raises dopamine, which could offset the basal ganglia part of the sickness response (step 7). Untested in ME/CFS beyond small open series."
+  },
+  {
+   "id": "galantamine",
+   "name": "Galantamine",
+   "group": "sleep",
+   "links": [
+    7,
+    8
+   ],
+   "hypotheses": [
+    "neuroinflammation"
+   ],
+   "verdict": "avoid",
+   "evidence": "rct-negative",
+   "evidence_line": "A 434-person placebo RCT in ME/CFS tested three doses for 16 weeks and found no benefit on any outcome (Blacker 2004, JAMA).",
+   "what_it_does": "An Alzheimer's drug that raises acetylcholine in the brain; proposed to boost the anti-inflammatory vagal reflex.",
+   "who_it_might_suit": "No one with ME/CFS; the large trial was clearly null.",
+   "risks": "Nausea, vomiting, diarrhoea, weight loss, slow heart rate and fainting.",
+   "severe_note": "",
+   "access": "prescription",
+   "cost": "",
+   "pending": "",
+   "refs": [
+    {
+     "cite": "Blacker 2004, JAMA (galantamine RCT)",
+     "url": "https://doi.org/10.1001/jama.292.10.1195",
+     "verified": true
+    }
+   ],
+   "model_rationale": "Meant to strengthen the vagal anti-inflammatory reflex (steps 7 and 8). Failed in a controlled trial."
+  },
+  {
+   "id": "low-dose-naltrexone",
+   "name": "Low-dose naltrexone (LDN)",
+   "group": "immune",
+   "links": [
+    6,
+    7
+   ],
+   "hypotheses": [
+    "neuroinflammation",
+    "innate-hyperactivation"
+   ],
+   "verdict": "doctor",
+   "evidence": "rct-negative",
+   "evidence_line": "The first sizeable placebo-controlled trial in post-COVID ME/CFS (160 people, up to 4.5 mg, 16 weeks; Nacul trial, NCT05430152, medRxiv preprint Oct 2026) found no difference in fatigue (FSS 4.2 vs 4.4), pain, symptom score, daily steps or quality of life; a 2026 meta-analysis found no completed RCTs, only small pre-post studies.",
+   "what_it_does": "At 1-4.5 mg naltrexone briefly blocks opioid receptors and may calm microglia via TLR4; it has also been reported to restore TRPM3 channel function in NK cells in the lab.",
+   "who_it_might_suit": "People with prominent pain or sleep problems who accept that the trial found no benefit for fatigue or pain; cheap and generally well tolerated.",
+   "risks": "Vivid dreams, insomnia, headache in the first weeks. Cannot be combined with opioid painkillers.",
+   "severe_note": "Start at 0.5-1 mg; sensitive patients react to small doses.",
+   "access": "prescription",
+   "cost": "~£20-40/month private plus consultation",
+   "pending": "LIFT trial (NCT06366724, n=160, with pyridostigmine) recruiting, primary completion listed as Sept 2027; RECOVER paediatric trial ongoing",
+   "refs": [
+    {
+     "cite": "Naik 2026, medRxiv preprint (Nacul LDN RCT, NCT05430152)",
+     "url": "https://doi.org/10.64898/2026.10.22.26363582",
+     "verified": true
+    },
+    {
+     "cite": "Byambasuren 2026, BMJ Open (LDN in long COVID meta-analysis)",
+     "url": "https://doi.org/10.1136/bmjopen-2025-111253",
+     "verified": true
+    }
+   ],
+   "model_rationale": "Proposed to calm microglia through TLR4, which would damp the brain end of the sickness response (step 7) and possibly the immune response to injury (step 6). The first sizeable placebo-controlled trial was null."
+  },
+  {
+   "id": "rapamycin",
+   "name": "Low-dose rapamycin (sirolimus)",
+   "group": "immune",
+   "links": [
+    1,
+    6
+   ],
+   "hypotheses": [
+    "immune-exhaustion",
+    "mitochondrial-energy"
+   ],
+   "verdict": "trial-only",
+   "evidence": "open-label",
+   "evidence_line": "Uncontrolled decentralised study: 52 of 70 patients assessed (74%) reported improved fatigue, PEM and orthostatic intolerance on 6 mg weekly (Ruan 2025); a response rate of this size is close to the 35-40% placebo response seen in RCTs plus drop-out bias.",
+   "what_it_does": "Blocks mTOR, which increases cellular clean-up (autophagy) and restrains over-active immune cells.",
+   "who_it_might_suit": "Worth revisiting when the Mount Sinai placebo-controlled trial reports.",
+   "risks": "Mouth ulcers, raised cholesterol and blood sugar, impaired wound healing, infection risk; needs blood monitoring. Many drug interactions (grapefruit, some antifungals and antibiotics).",
+   "severe_note": "",
+   "access": "specialist",
+   "cost": "~£30-100/month private plus monitoring",
+   "pending": "Mount Sinai placebo-controlled sirolimus trial in long COVID (NCT06960928, n=80), ends Nov 2026",
+   "refs": [
+    {
+     "cite": "Ruan 2025, J Transl Med",
+     "url": "https://doi.org/10.1186/s12967-025-07213-8",
+     "verified": true
+    },
+    {
+     "cite": "NCT06960928 registration",
+     "url": "https://www.mountsinai.org/clinical-trials/low-dose-sirolimus-in-people-with-post-acute-sequelae-of-covid-19-pasc-long-covid-19",
+     "verified": true
+    }
+   ],
+   "model_rationale": "Restrains over-active immune cells and boosts cellular clean-up, which could act on a primed immune state (step 1) and on the response to tissue injury (step 6). Evidence is uncontrolled; a controlled trial ends in November 2026."
+  },
+  {
+   "id": "rituximab",
+   "name": "Rituximab",
+   "group": "immune",
+   "links": [
+    1
+   ],
+   "hypotheses": [
+    "autoimmunity",
+    "serum-factor"
+   ],
+   "verdict": "avoid",
+   "evidence": "rct-negative",
+   "evidence_line": "Phase III RituxME (77 vs 74, 24 months): response 26.0% on rituximab vs 35.1% on placebo (p=0.22), no secondary benefit, more serious adverse events (26% vs 19%) (Fluge 2019); no difference at 6 years (Rekeland 2024).",
+   "what_it_does": "Removes B cells, the precursors of antibody-producing cells.",
+   "who_it_might_suit": "No one, for ME/CFS. The earlier positive Norwegian phase II results did not survive a proper trial.",
+   "risks": "Infusion reactions, infections, low antibody levels, rare brain infection (PML).",
+   "severe_note": "",
+   "access": "specialist",
+   "cost": "",
+   "pending": "",
+   "refs": [
+    {
+     "cite": "Fluge 2019, Ann Intern Med (RituxME)",
+     "url": "https://doi.org/10.7326/M18-1451",
+     "verified": true
+    },
+    {
+     "cite": "Rekeland 2024, PLoS One (6-year follow-up)",
+     "url": "https://doi.org/10.1371/journal.pone.0307484",
+     "verified": true
+    }
+   ],
+   "model_rationale": "Tested whether autoantibody-producing B cells sustain the illness (step 1). The 151-person phase III trial was null, which fits the model's view that immune changes are mostly downstream."
+  },
+  {
+   "id": "cyclophosphamide",
+   "name": "Cyclophosphamide",
+   "group": "immune",
+   "links": [
+    1
+   ],
+   "hypotheses": [
+    "autoimmunity",
+    "immune-exhaustion"
+   ],
+   "verdict": "trial-only",
+   "evidence": "open-label",
+   "evidence_line": "Open-label phase II, 40 patients, six IV infusions: 55% responded and SF-36 physical function rose from 33 to 51.5, with many responders still improved at 6 years (Rekeland 2020, 2024); no control arm.",
+   "what_it_does": "A chemotherapy drug that kills dividing immune cells, including antibody-making cells.",
+   "who_it_might_suit": "No one outside a trial; the investigators themselves advise against routine use.",
+   "risks": "Nausea in ~90%, infertility, bladder damage and bladder cancer, other cancers, infections; 11 serious adverse events in 8 of 40 patients.",
+   "severe_note": "",
+   "access": "trial",
+   "cost": "",
+   "pending": "",
+   "refs": [
+    {
+     "cite": "Rekeland 2020, Front Med (CycloME)",
+     "url": "https://doi.org/10.3389/fmed.2020.00162",
+     "verified": true
+    },
+    {
+     "cite": "Rekeland 2024, PLoS One (6-year follow-up)",
+     "url": "https://doi.org/10.1371/journal.pone.0307484",
+     "verified": true
+    }
+   ],
+   "model_rationale": "Broad immune suppression, testing whether an ongoing immune process (steps 1 and 6) drives the illness. Open-label only, with serious toxicity."
+  },
+  {
+   "id": "daratumumab",
+   "name": "Daratumumab",
+   "group": "immune",
+   "links": [
+    1
+   ],
+   "hypotheses": [
+    "autoimmunity",
+    "serum-factor"
+   ],
+   "verdict": "trial-only",
+   "evidence": "open-label",
+   "evidence_line": "Open-label pilot in 10 women: 6 improved markedly (SF-36 physical function 25.9 to 55.0 overall), and low NK-cell counts predicted non-response (Fluge 2025); 5 of 6 responders were reported still well at 2-3 years (conference, 2026).",
+   "what_it_does": "An anti-CD38 antibody that removes long-lived plasma cells, the source of persistent antibodies that rituximab cannot reach.",
+   "who_it_might_suit": "Only within trials; an NK-cell threshold is being used to select patients.",
+   "risks": "Infusion reactions, infections (shingles prophylaxis usually needed), low antibody levels. Very expensive cancer drug.",
+   "severe_note": "",
+   "access": "trial",
+   "cost": "",
+   "pending": "ResetME randomised placebo-controlled phase II, Haukeland (n=66, CTIS 2024-520094-13-00), started 2025, ongoing",
+   "refs": [
+    {
+     "cite": "Fluge 2025, Front Med",
+     "url": "https://doi.org/10.3389/fmed.2025.1607353",
+     "verified": true
+    },
+    {
+     "cite": "ResetME trial registration (CTIS 2024-520094-13-00)",
+     "url": "https://ctis.eu/trial/2024-520094-13-00",
+     "verified": false
+    },
+    {
+     "cite": "Rucker 2026, The Sick Times (Berlin ME/CFS conference report)",
+     "url": "https://thesicktimes.org/2026/05/26/international-me-cfs-conference-roundup-setbacks-and-new-hopes-for-therapeutic-research/",
+     "verified": false
+    }
+   ],
+   "model_rationale": "Removes long-lived plasma cells that rituximab does not reach, testing whether persistent antibodies (step 1, and the IgG effect on endothelium in step 4) sustain the illness. Open-label pilot only."
+  },
+  {
+   "id": "ivig",
+   "name": "IV immunoglobulin (IVIG)",
+   "group": "immune",
+   "links": [
+    1,
+    3
+   ],
+   "hypotheses": [
+    "autoimmunity",
+    "autonomic-small-fibre"
+   ],
+   "verdict": "trial-only",
+   "evidence": "rct-mixed",
+   "evidence_line": "In autoimmune POTS, IVIG was no better than albumin (16 vs 14; COMPASS-31 -5.5 vs -10.6, p=0.63) (Vernino 2024); 1990s ME/CFS RCTs split one positive (n=49) and two negative (n=30, n=99).",
+   "what_it_does": "Pooled antibodies from donors that dampen autoimmune activity; the infusion also expands blood volume.",
+   "who_it_might_suit": "Proven small-fibre neuropathy or immune deficiency are separate indications a neurologist or immunologist may treat; not for ME/CFS alone.",
+   "risks": "Headache, aseptic meningitis, clots, kidney injury, infusion reactions. Very expensive and in short supply.",
+   "severe_note": "Severe patients rated IVIG highly in the patient survey, but the controlled data do not support it.",
+   "access": "specialist",
+   "cost": "~£2,000-5,000 per infusion privately",
+   "pending": "RECOVER-AUTONOMIC IVIG arm in long-COVID POTS (NCT06305793, n=200) finished Mar 2026, not yet reported; a subcutaneous immunoglobulin trial in post-COVID POTS (NCT06524739, n=16) was stopped early with uninterpretable results",
+   "refs": [
+    {
+     "cite": "Vernino 2024, Clin Auton Res (iSTAND)",
+     "url": "https://doi.org/10.1007/s10286-024-01020-9",
+     "verified": true
+    },
+    {
+     "cite": "Eckey 2025, PNAS (patient survey, ~3,925)",
+     "url": "https://doi.org/10.1073/pnas.2426874122",
+     "verified": true
+    }
+   ],
+   "model_rationale": "Would act on autoimmunity (step 1) and transiently expands volume (step 3). Controlled results conflict."
+  },
+  {
+   "id": "immunoadsorption",
+   "name": "Immunoadsorption, plasma exchange and BC007",
+   "group": "immune",
+   "links": [
+    1
+   ],
+   "hypotheses": [
+    "autoimmunity",
+    "serum-factor"
+   ],
+   "verdict": "avoid",
+   "evidence": "rct-negative",
+   "evidence_line": "Sham-controlled trials are negative: IAMPOCO (n=40, crossover; OR 1.17, p=0.77; Stortz 2026) and IA-PACS-CFS (44 vs 21, conference 2026, not yet published), after open-label series reported 50-70% responders (Stein 2025, n=20); plasma exchange was safe but no better than sham on any outcome in a 50-person RCT (España-Cueto 2025); BC007 looked positive in a 30-person crossover (Hohberger 2025), but its 119-person placebo-controlled phase 2 (NCT05911009, completed June 2024) has no posted results or paper, and the reported failure comes from the company only.",
+   "what_it_does": "Filters antibodies (immunoadsorption) or all plasma proteins (plasma exchange) out of the blood over several sessions. BC007 is an infused drug meant to neutralise the same autoantibodies.",
+   "who_it_might_suit": "Not recommended outside a trial; removing antibodies did not predict who improved even in the open-label work.",
+   "risks": "Central line infection and clots, low blood pressure, bleeding, low antibody levels afterwards. Several days of hospital procedures.",
+   "severe_note": "Travel and sessions are a heavy exertion load.",
+   "access": "specialist",
+   "cost": "€10,000-20,000 per course privately (Germany)",
+   "pending": "",
+   "refs": [
+    {
+     "cite": "Stein 2025, Lancet Reg Health Eur (open-label)",
+     "url": "https://doi.org/10.1016/j.lanepe.2024.101161",
+     "verified": true
+    },
+    {
+     "cite": "Stortz 2026, Lancet Reg Health Eur (IAMPOCO)",
+     "url": "https://doi.org/10.1016/j.lanepe.2026.101744",
+     "verified": true
+    },
+    {
+     "cite": "Rucker 2026, The Sick Times (Berlin ME/CFS conference report)",
+     "url": "https://thesicktimes.org/2026/05/26/international-me-cfs-conference-roundup-setbacks-and-new-hopes-for-therapeutic-research/",
+     "verified": false
+    },
+    {
+     "cite": "España-Cueto 2025, Nat Commun (plasma exchange vs sham)",
+     "url": "https://doi.org/10.1038/s41467-025-57198-7",
+     "verified": true
+    },
+    {
+     "cite": "Ciobanu 2026, Clin Case Rep (plasma exchange case report)",
+     "url": "https://doi.org/10.1002/ccr3.72725",
+     "verified": true
+    },
+    {
+     "cite": "Hohberger 2025, eClinicalMedicine (BC007, reCOVer)",
+     "url": "https://doi.org/10.1016/j.eclinm.2025.103358",
+     "verified": true
+    },
+    {
+     "cite": "NCT05911009 registration (BC007 phase 2, no results posted)",
+     "url": "https://clinicaltrials.gov/study/NCT05911009",
+     "verified": true
+    }
+   ],
+   "model_rationale": "Tested whether circulating receptor autoantibodies drive vascular dysfunction (steps 1 and 4). Sham-controlled trials were null."
+  },
+  {
+   "id": "mast-cell",
+   "name": "Antihistamines and mast-cell stabilisers (H1 + H2, cromolyn)",
+   "group": "immune",
+   "links": [
+    6,
+    4
+   ],
+   "hypotheses": [
+    "mast-cell",
+    "innate-hyperactivation"
+   ],
+   "verdict": "try",
+   "evidence": "rct-mixed",
+   "evidence_line": "In STIMULATE-ICP (778 long-COVID adults, open-label), famotidine 40 mg + loratadine 10 mg cut fatigue by 1.48 points more than usual care at 12 weeks (FAS scale 10-50; colchicine gave the same), and the gain was gone 12 weeks after stopping; in ME/CFS a retrospective series found patients with mast-cell activation reported more benefit (Rohrhofer 2025).",
+   "what_it_does": "H1 blockers (loratadine, cetirizine, fexofenadine) and H2 blockers (famotidine) block histamine; cromolyn stops mast cells releasing it in the gut.",
+   "who_it_might_suit": "Flushing, hives, itch, food or smell reactions, or POTS with allergic-type flares (up to a quarter meet mast-cell activation criteria).",
+   "risks": "Drowsiness with older antihistamines; H2 blockers reduce stomach acid and can affect absorption of some drugs. Famotidine and cromolyn need a UK prescription; H1 blockers are over the counter.",
+   "severe_note": "Non-drowsy H1 blockers first; sedating ones can worsen daytime grogginess.",
+   "access": "OTC",
+   "cost": "£2-10/month (H1); cromolyn ~£60-150/month on private prescription",
+   "pending": "",
+   "refs": [
+    {
+     "cite": "STIMULATE-ICP consortium 2026, Lancet Infect Dis",
+     "url": "https://doi.org/10.1016/s1473-3099(26)00242-2",
+     "verified": true
+    },
+    {
+     "cite": "Rohrhofer 2025, Diagnostics (mast cell activation in ME/CFS)",
+     "url": "https://doi.org/10.3390/diagnostics15222828",
+     "verified": true
+    }
+   ],
+   "model_rationale": "Mast-cell mediators dilate vessels and increase leakiness, which would worsen pooling and under-perfusion (steps 3 to 5) and amplify the response to tissue injury (step 6). Plausible for the subgroup with clear mast-cell symptoms."
+  },
+  {
+   "id": "fluvoxamine",
+   "name": "Fluvoxamine",
+   "group": "immune",
+   "links": [
+    6,
+    7
+   ],
+   "hypotheses": [
+    "neuroinflammation",
+    "innate-hyperactivation"
+   ],
+   "verdict": "doctor",
+   "evidence": "rct-positive",
+   "evidence_line": "In a 399-person placebo-controlled trial in long COVID (Brazil), fluvoxamine 100 mg twice daily for 60 days reduced fatigue (FSS -0.43 at day 60, -0.58 at day 90) and improved quality of life, with fewer side effects than placebo (REVIVE, Reis 2026); a second placebo RCT (137 analysed) posted a larger fall in symptom score (-47.3 vs -31.1) without a p-value.",
+   "what_it_does": "An SSRI antidepressant that also acts on the sigma-1 receptor, which is thought to damp inflammatory signalling inside cells.",
+   "who_it_might_suit": "Long COVID with prominent fatigue, after discussing interactions with a doctor. Only tested for 60 days, and not in ME/CFS that did not follow COVID.",
+   "risks": "Nausea, sleep changes, agitation in the first weeks. Strong interactions: it raises caffeine, theophylline, tizanidine, clozapine and some blood thinner levels. Serotonin syndrome risk with other serotonergic drugs. Taper rather than stop suddenly.",
+   "severe_note": "Start at a low dose; sensitive patients often react to standard SSRI doses.",
+   "access": "prescription",
+   "cost": "NHS prescription charge if prescribed; off-label",
+   "pending": "ESPRIT placebo RCT in long COVID (NCT07359482, n=160) recruiting",
+   "refs": [
+    {
+     "cite": "Reis 2026, Ann Intern Med (REVIVE, fluvoxamine and metformin)",
+     "url": "https://doi.org/10.7326/annals-25-03959",
+     "verified": true
+    },
+    {
+     "cite": "NCT05874037 posted results (fluvoxamine vs placebo)",
+     "url": "https://clinicaltrials.gov/study/NCT05874037",
+     "verified": true
+    }
+   ],
+   "model_rationale": "Sigma-1 activity is thought to damp inflammatory signalling inside cells, which would act on the immune response to injury (step 6) and the sickness response (step 7). A 399-person placebo-controlled trial in long COVID was positive; it has not been tested in ME/CFS."
+  },
+  {
+   "id": "colchicine",
+   "name": "Colchicine",
+   "group": "immune",
+   "links": [
+    6
+   ],
+   "hypotheses": [
+    "innate-hyperactivation"
+   ],
+   "verdict": "trial-only",
+   "evidence": "rct-negative",
+   "evidence_line": "In a 346-person placebo RCT in long COVID (India, 26 weeks of 0.5-1 mg/day), colchicine did not improve walk distance, fatigue, quality of life or inflammation at 52 weeks (Bassi 2025); in open-label STIMULATE-ICP it cut fatigue slightly more than usual care at 12 weeks, and the gain did not last.",
+   "what_it_does": "An old gout drug that blocks inflammasome activity and white cell movement.",
+   "who_it_might_suit": "Not for long COVID or ME/CFS outside a trial; the one blinded trial was null.",
+   "risks": "Diarrhoea and nausea are common; toxic in overdose; dangerous interactions with clarithromycin, some antifungals and statins; avoid with kidney or liver disease.",
+   "severe_note": "",
+   "access": "prescription",
+   "cost": "",
+   "pending": "RECLAIM (metformin and colchicine vs usual care, NCT07280572, n=1,250 planned) enrolling",
+   "refs": [
+    {
+     "cite": "Bassi 2025, JAMA Intern Med (colchicine RCT)",
+     "url": "https://doi.org/10.1001/jamainternmed.2025.5408",
+     "verified": true
+    },
+    {
+     "cite": "STIMULATE-ICP consortium 2026, Lancet Infect Dis",
+     "url": "https://doi.org/10.1016/s1473-3099(26)00242-2",
+     "verified": true
+    }
+   ],
+   "model_rationale": "Blocks inflammasome activity and white-cell movement, which would damp the immune response to tissue injury (step 6). A long COVID trial was null."
+  },
+  {
+   "id": "efgartigimod",
+   "name": "Efgartigimod (FcRn blocker)",
+   "group": "immune",
+   "links": [
+    1
+   ],
+   "hypotheses": [
+    "autoimmunity"
+   ],
+   "verdict": "trial-only",
+   "evidence": "rct-negative",
+   "evidence_line": "In 53 people with post-COVID POTS, 24 weeks of weekly infusions did no better than placebo (COMPASS-31 -14.4 vs -16.0; NCT05633407 posted results); the open-label extension was stopped early.",
+   "what_it_does": "Lowers all IgG antibodies, including autoantibodies, by blocking the receptor (FcRn) that recycles them.",
+   "who_it_might_suit": "Not for long COVID, POTS or ME/CFS outside a trial. It is licensed for myasthenia gravis and CIDP.",
+   "risks": "Infections, headache, infusion reactions; weekly IV infusions; very expensive.",
+   "severe_note": "Weekly infusions are a heavy load.",
+   "access": "specialist",
+   "cost": "",
+   "pending": "",
+   "refs": [
+    {
+     "cite": "NCT05633407 posted results (efgartigimod in post-COVID POTS)",
+     "url": "https://clinicaltrials.gov/study/NCT05633407",
+     "verified": true
+    }
+   ],
+   "model_rationale": "Lowers all IgG, testing whether antibodies (step 1, and the IgG effect on endothelium) sustain the illness. Its long COVID trial was null."
+  },
+  {
+   "id": "cell-therapy",
+   "name": "Stem cell and cord blood infusions",
+   "group": "immune",
+   "links": [
+    1,
+    6
+   ],
+   "hypotheses": [
+    "innate-hyperactivation",
+    "immune-exhaustion"
+   ],
+   "verdict": "trial-only",
+   "evidence": "rct-positive",
+   "evidence_line": "One small industry-funded RCT: 3 infusions of donor cord blood cells (REGENECYTE) vs placebo in 30 people with long COVID (single-blind, 2:1) reported safety and a lasting fall in fatigue (Huang 2026); a 76-person RCT is overdue and five mesenchymal stem cell trials were withdrawn.",
+   "what_it_does": "Infuses donor blood-forming or mesenchymal stem cells, which are thought to release anti-inflammatory and repair signals rather than replace tissue.",
+   "who_it_might_suit": "Only within registered trials. Private stem cell clinics offering this for ME/CFS or long COVID are selling an unproven product.",
+   "risks": "Infusion reactions, infection from poorly made products, and at unregulated clinics serious harms reported with other conditions. Large costs abroad.",
+   "severe_note": "Travel to clinics abroad is a heavy exertion load.",
+   "access": "trial",
+   "cost": "",
+   "pending": "Cord blood RCT in long COVID (NCT06492798, n=76 planned) primary completion July 2025, status unknown, not reported",
+   "refs": [
+    {
+     "cite": "Huang 2026, eClinicalMedicine (REGENECYTE RCT)",
+     "url": "https://doi.org/10.1016/j.eclinm.2025.103737",
+     "verified": true
+    }
+   ],
+   "model_rationale": "Proposed to release anti-inflammatory and repair signals, which would act on steps 1 and 6. Early and small."
+  },
+  {
+   "id": "herpes-antivirals",
+   "name": "Valacyclovir or valganciclovir",
+   "group": "antiviral",
+   "links": [
+    1,
+    6
+   ],
+   "hypotheses": [
+    "herpes-reactivation",
+    "viral-persistence"
+   ],
+   "verdict": "specialist",
+   "evidence": "rct-mixed",
+   "evidence_line": "In a 30-patient RCT of 6 months of valganciclovir in patients with high HHV-6 and EBV antibodies, the primary fatigue score did not differ; some secondary fatigue and cognition measures did (Montoya 2013); a 61-patient chart review found 52% responders and antibody levels did not predict response (Watt 2012).",
+   "what_it_does": "Blocks herpesvirus DNA copying. Valganciclovir covers HHV-6 and CMV better; valacyclovir mainly covers HSV and EBV lytic replication.",
+   "who_it_might_suit": "Illness that began with glandular fever or another proven herpesvirus infection, ideally with evidence of active replication rather than old antibody titres.",
+   "risks": "Valganciclovir: low white cells and platelets, needs regular blood counts, and is toxic to sperm and pregnancy. Valacyclovir: headache, nausea, kidney effects in dehydration.",
+   "severe_note": "Regular blood monitoring needs home phlebotomy.",
+   "access": "specialist",
+   "cost": "Valacyclovir ~£15-30/month; valganciclovir several hundred £/month",
+   "pending": "Valacyclovir + celecoxib pilot RCT in long COVID (NCT06316843, n=59) completed Oct 2024, not yet reported; Valacyclovir + celecoxib (+ Paxlovid) placebo-controlled long-COVID trials planned (Bateman Horne Center; NCT07597902, not yet recruiting)",
+   "refs": [
+    {
+     "cite": "Montoya 2013, J Med Virol",
+     "url": "https://doi.org/10.1002/jmv.23713",
+     "verified": true
+    },
+    {
+     "cite": "Watt 2012, J Med Virol",
+     "url": "https://doi.org/10.1002/jmv.23411",
+     "verified": true
+    }
+   ],
+   "model_rationale": "Would act on step 1 if intermittent herpesvirus reactivation keeps priming the immune system. Fits the herpes open question; controlled results are mixed."
+  },
+  {
+   "id": "covid-antivirals",
+   "name": "Paxlovid and SARS-CoV-2 monoclonal antibodies",
+   "group": "antiviral",
+   "links": [
+    1
+   ],
+   "hypotheses": [
+    "viral-persistence"
+   ],
+   "verdict": "avoid",
+   "evidence": "rct-negative",
+   "evidence_line": "Three RCTs of 15-25 days of nirmatrelvir-ritonavir in established long COVID (~1,200 people; largest RECOVER-VITAL n=959) found no benefit on any phenotype (Baden 2026); a single dose of the antibody AER002 (n=36) also missed its primary endpoint (Peluso 2026 preprint).",
+   "what_it_does": "Paxlovid blocks the SARS-CoV-2 protease; monoclonal antibodies bind the spike protein. Both test whether persisting virus drives symptoms.",
+   "who_it_might_suit": "Not for established long COVID or ME/CFS. Treating acute COVID early may lower later long-COVID risk (small, early evidence) - that is a different question.",
+   "risks": "Paxlovid: taste disturbance, diarrhoea, many serious drug interactions via ritonavir.",
+   "severe_note": "",
+   "access": "prescription",
+   "cost": "",
+   "pending": "",
+   "refs": [
+    {
+     "cite": "Baden 2026, Lancet Infect Dis (RECOVER-VITAL)",
+     "url": "https://doi.org/10.1016/S1473-3099(26)00406-8",
+     "verified": true
+    },
+    {
+     "cite": "Geng 2024, JAMA Intern Med (STOP-PASC)",
+     "url": "https://doi.org/10.1001/jamainternmed.2024.2007",
+     "verified": true
+    },
+    {
+     "cite": "Peluso 2026, medRxiv (AER002)",
+     "url": "https://www.medrxiv.org/content/10.64898/2026.03.07.26347857v1.full-text",
+     "verified": true
+    }
+   ],
+   "model_rationale": "Tested whether persisting SARS-CoV-2 drives step 1. Three placebo-controlled trials were null."
+  },
+  {
+   "id": "rintatolimod",
+   "name": "Rintatolimod (Ampligen)",
+   "group": "antiviral",
+   "links": [
+    1,
+    6
+   ],
+   "hypotheses": [
+    "innate-hyperactivation",
+    "viral-persistence"
+   ],
+   "verdict": "trial-only",
+   "evidence": "rct-mixed",
+   "evidence_line": "A 92-person placebo RCT reported better Karnofsky scores and treadmill work at 24 weeks (Strayer 1994); phase III AMP-516 (n=234, 40 weeks IV twice weekly): treadmill time +21% vs placebo, p=0.047, by manufacturer-employed authors (Strayer 2012); FDA declined approval; in an 80-person long-COVID placebo RCT, PROMIS fatigue fell by the same amount on drug and placebo (-25.4 vs -25.8, p=0.99; NCT05592418 posted results).",
+   "what_it_does": "A synthetic double-stranded RNA that stimulates the TLR3 antiviral pathway.",
+   "who_it_might_suit": "Only via US expanded-access or trials; not available in the UK.",
+   "risks": "Flushing and flu-like reactions, liver enzyme rises; twice-weekly IV infusions for months, usually through a line.",
+   "severe_note": "Infusion schedule is a heavy load.",
+   "access": "trial",
+   "cost": "",
+   "pending": "",
+   "refs": [
+    {
+     "cite": "Strayer 1994, Clin Infect Dis (placebo RCT, n=92)",
+     "url": "https://doi.org/10.1093/clinids/18.supplement_1.s88",
+     "verified": true
+    },
+    {
+     "cite": "Strayer 2012, PLoS One (AMP-516)",
+     "url": "https://doi.org/10.1371/journal.pone.0031334",
+     "verified": true
+    },
+    {
+     "cite": "NCT05592418 posted results (long COVID, n=80)",
+     "url": "https://clinicaltrials.gov/study/NCT05592418",
+     "verified": true
+    }
+   ],
+   "model_rationale": "Stimulates the TLR3 antiviral pathway, aimed at an abnormal antiviral state (step 1). One borderline phase III result, manufacturer-run.",
+   "evidence_caveat": "manufacturer-run"
+  },
+  {
+   "id": "temelimab",
+   "name": "Temelimab (anti-HERV-W)",
+   "group": "antiviral",
+   "links": [
+    1,
+    6
+   ],
+   "hypotheses": [
+    "viral-persistence",
+    "neuroinflammation"
+   ],
+   "verdict": "trial-only",
+   "evidence": "rct-negative",
+   "evidence_line": "In a 203-person placebo RCT in long COVID patients selected for HERV-W envelope protein in the blood, 24 weeks of monthly infusions did not reduce fatigue (PROMIS -3.2 vs -3.8) or any secondary outcome (Nehme 2026).",
+   "what_it_does": "An antibody against the envelope protein of HERV-W, an ancient retrovirus sequence in human DNA that viral infection can switch on.",
+   "who_it_might_suit": "No one outside a trial; not available, and the trial was null.",
+   "risks": "Infusion reactions; monthly IV infusions.",
+   "severe_note": "",
+   "access": "trial",
+   "cost": "",
+   "pending": "",
+   "refs": [
+    {
+     "cite": "Nehme 2026, Brain Behav Immun (temelimab RCT)",
+     "url": "https://doi.org/10.1016/j.bbi.2026.106892",
+     "verified": true
+    }
+   ],
+   "model_rationale": "Tested whether an activated endogenous retrovirus drives steps 1 and 6. Null in 203 patients."
+  },
+  {
+   "id": "coq10-nadh",
+   "name": "CoQ10 plus NADH",
+   "group": "energy",
+   "links": [
+    5
+   ],
+   "hypotheses": [
+    "mitochondrial-energy"
+   ],
+   "verdict": "try",
+   "evidence": "rct-mixed",
+   "evidence_line": "Two Spanish RCTs of CoQ10 200 mg + NADH 20 mg (n=73 and n=207) reported modest falls in fatigue scores, both from one group with industry links (Castro-Marrero 2015, 2021); CoQ10 alone at 500 mg did nothing in a 121-person long-COVID crossover trial.",
+   "what_it_does": "Supplies two cofactors of the mitochondrial energy chain.",
+   "who_it_might_suit": "Anyone wanting a low-risk supplement; expect at most a small effect.",
+   "risks": "Mild stomach upset, insomnia if taken late; CoQ10 can reduce warfarin effect.",
+   "severe_note": "",
+   "access": "OTC",
+   "cost": "£30-60/month",
+   "pending": "",
+   "refs": [
+    {
+     "cite": "Castro-Marrero 2015, Antioxid Redox Signal",
+     "url": "https://doi.org/10.1089/ars.2014.6181",
+     "verified": true
+    },
+    {
+     "cite": "Castro-Marrero 2021, Nutrients",
+     "url": "https://doi.org/10.3390/nu13082658",
+     "verified": true
+    },
+    {
+     "cite": "Hansen 2023, eClinicalMedicine (CoQ10 in long COVID)",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/36337437/",
+     "verified": true
+    }
+   ],
+   "model_rationale": "Supplies cofactors for mitochondrial energy production, which would help tissue cope with under-perfusion (step 5). The model puts the limit in delivery rather than in mitochondria, so it predicts at most a small effect.",
+   "evidence_caveat": "one research group, industry links"
+  },
+  {
+   "id": "oxaloacetate",
+   "name": "Oxaloacetate",
+   "group": "energy",
+   "links": [
+    5
+   ],
+   "hypotheses": [
+    "mitochondrial-energy",
+    "metabolic-trap-ido"
+   ],
+   "verdict": "try",
+   "evidence": "rct-mixed",
+   "evidence_line": "RESTORE ME (82 ME/CFS patients, 2 g/day for 90 days): fatigue fell 25% vs 10% on control (p=0.004), in a sponsor-involved trial (Cash 2024); a 69-person long-COVID trial missed its primary endpoint.",
+   "what_it_does": "A Krebs-cycle intermediate thought to shift the NAD+/NADH balance and support energy metabolism.",
+   "who_it_might_suit": "People who can afford it and want a low-risk trial of a supplement; give it 6-12 weeks.",
+   "risks": "Mild stomach upset. Mostly a cost issue.",
+   "severe_note": "",
+   "access": "OTC",
+   "cost": "~£100-200/month at 2 g/day",
+   "pending": "",
+   "refs": [
+    {
+     "cite": "Cash 2024, Front Neurol (RESTORE ME)",
+     "url": "https://doi.org/10.3389/fneur.2024.1483876",
+     "verified": true
+    }
+   ],
+   "model_rationale": "Aims to support energy metabolism in under-supplied tissue (step 5). The model predicts a small effect for the same reason as CoQ10.",
+   "evidence_caveat": "company-run"
+  },
+  {
+   "id": "mito-supplements",
+   "name": "Mitochondrial supplements (creatine, D-ribose, carnitine, NAD precursors, AXA1125)",
+   "group": "energy",
+   "links": [
+    5
+   ],
+   "hypotheses": [
+    "mitochondrial-energy"
+   ],
+   "verdict": "try",
+   "evidence": "rct-mixed",
+   "evidence_line": "Nicotinamide riboside 2 g/day raised blood NAD+ 2.6-3.1x but did not improve fatigue or cognition in a 58-person long-COVID RCT (Wu 2025); creatine 6 g/day improved fatigue and muscle strength vs placebo over 4 weeks in a 67-person, 3-arm long-COVID RCT, while 18 g/day did not (dos Santos 2026), alongside smaller positive long-COVID RCTs (n=12, Slankamenac 2023) and an open-label ME/CFS study (n=11); D-ribose (Teitelbaum 2006, n=41) and acetyl-carnitine data are open-label; AXA1125 cut Chalder fatigue by 4.3 points vs placebo in 41 long-COVID patients but missed its primary muscle-energy endpoint and is no longer available (Finnigan 2023).",
+   "what_it_does": "Creatine tops up the phosphocreatine energy buffer; D-ribose is a sugar used to build ATP; carnitine carries fats into mitochondria; NAD precursors raise a key energy cofactor. Cocktails combine these with B vitamins and antioxidants.",
+   "who_it_might_suit": "People who want to self-experiment cheaply; there is no good reason to spend much on them.",
+   "risks": "Generally low. Creatine raises blood creatinine, which can be misread as kidney damage (tell the GP; avoid with kidney disease). D-ribose can lower blood sugar; carnitine can cause fishy body odour and gut upset.",
+   "severe_note": "",
+   "access": "OTC",
+   "cost": "£5-80/month",
+   "pending": "MINIRICO, nicotinamide riboside plus mind-body therapy in long COVID (NCT05703074, n=310), completed Sept 2024, not yet reported",
+   "refs": [
+    {
+     "cite": "dos Santos 2026, Front Nutr (creatine 3-arm RCT, n=67)",
+     "url": "https://doi.org/10.3389/fnut.2026.1731306",
+     "verified": true
+    },
+    {
+     "cite": "Slankamenac 2023, Food Sci Nutr (creatine)",
+     "url": "https://doi.org/10.1002/fsn3.3597",
+     "verified": true
+    },
+    {
+     "cite": "Finnigan 2023, eClinicalMedicine (AXA1125)",
+     "url": "https://doi.org/10.1016/j.eclinm.2023.101946",
+     "verified": true
+    },
+    {
+     "cite": "Wu 2025, eClinicalMedicine (nicotinamide riboside RCT)",
+     "url": "https://doi.org/10.1016/j.eclinm.2025.103633",
+     "verified": true
+    },
+    {
+     "cite": "Teitelbaum 2006, J Altern Complement Med (D-ribose pilot)",
+     "url": "https://doi.org/10.1089/acm.2006.12.857",
+     "verified": true
+    },
+    {
+     "cite": "Godlewska 2024, Nutrients (open-label creatine MRS study, n=11)",
+     "url": "https://doi.org/10.3390/nu16193308",
+     "verified": true
+    }
+   ],
+   "model_rationale": "Creatine and ribose top up energy buffers in tissue under strain (step 5). Like CoQ10, these act after the delivery problem the model puts first."
+  },
+  {
+   "id": "metformin",
+   "name": "Metformin (for established long COVID)",
+   "group": "energy",
+   "links": [
+    5,
+    6
+   ],
+   "hypotheses": [
+    "mitochondrial-energy",
+    "viral-persistence"
+   ],
+   "verdict": "trial-only",
+   "evidence": "rct-negative",
+   "evidence_line": "Two placebo RCTs in established long COVID were null: 750 mg twice daily for 60 days did not reduce fatigue (n=399 trial, Reis 2026), and 2 weeks of metformin gave the same recovery rate as placebo (64% vs 68%, n=396, Lim 2026).",
+   "what_it_does": "A diabetes drug that changes cell energy signalling (AMPK) and has proposed antiviral and anti-inflammatory effects.",
+   "who_it_might_suit": "Not for treating established long COVID or ME/CFS. Taking it during acute COVID to lower long-COVID risk is a separate question this entry does not cover. People with diabetes take it for that.",
+   "risks": "Diarrhoea, nausea and stomach pain are common; lower vitamin B12 with long use; rarely lactic acidosis, mainly with kidney disease or dehydration.",
+   "severe_note": "Gut side effects and appetite loss are a problem for patients who struggle to keep weight on.",
+   "access": "prescription",
+   "cost": "",
+   "pending": "RECLAIM (metformin and colchicine vs usual care, NCT07280572, n=1,250 planned) enrolling",
+   "refs": [
+    {
+     "cite": "Reis 2026, Ann Intern Med (REVIVE)",
+     "url": "https://doi.org/10.7326/annals-25-03959",
+     "verified": true
+    },
+    {
+     "cite": "Lim 2026, Ann Intern Med (metformin or UDCA vs placebo)",
+     "url": "https://doi.org/10.7326/annals-25-04883",
+     "verified": true
+    }
+   ],
+   "model_rationale": "Changes cellular energy signalling and has proposed anti-inflammatory effects (steps 5 and 6). Its long COVID prevention signal was in acute infection; trials in established illness are null."
+  },
+  {
+   "id": "hbot-clinical",
+   "name": "Hyperbaric oxygen in a clinical chamber (2.0 ATA)",
+   "group": "vascular",
+   "links": [
+    4,
+    5,
+    6
+   ],
+   "hypotheses": [
+    "small-vessel-capillary",
+    "mitochondrial-energy",
+    "neuroinflammation"
+   ],
+   "verdict": "specialist",
+   "evidence": "rct-mixed",
+   "evidence_line": "Forty sessions at 2.0 ATA beat sham for cognition and energy in a 73-person long-COVID RCT (Zilberman-Itskovich 2022), but ten sessions at 2.4 bar did no better than sham in 80 people (Kjellberg 2025); an uncontrolled Charité cohort of 30 ME/CFS patients improved after 40 sessions (SF-36 PF effect g=0.71, Kim 2026).",
+   "what_it_does": "Breathing 100% oxygen at twice atmospheric pressure dissolves extra oxygen in plasma; repeated sessions may stimulate new vessel growth.",
+   "who_it_might_suit": "Mild to moderate patients who can manage 40+ trips; the positive trials used 40 sessions, not 10.",
+   "risks": "Ear and sinus barotrauma, temporary short-sightedness, confinement anxiety; rarely oxygen seizures. Not with untreated pneumothorax.",
+   "severe_note": "Daily travel to a centre for 8 weeks is usually impossible for severe patients and could cause a crash on its own.",
+   "access": "specialist",
+   "cost": "£50-150/session; ~£2,000-6,000 for 40",
+   "pending": "Sham-controlled ME/CFS RCT at Shamir (Assaf-Harofeh), Israel: 60 sessions, n=74, NCT07621068, completion ~2027",
+   "refs": [
+    {
+     "cite": "Zilberman-Itskovich 2022, Sci Rep (HBOT sham RCT)",
+     "url": "https://doi.org/10.1038/s41598-022-15565-0",
+     "verified": true
+    },
+    {
+     "cite": "Kjellberg 2025, BMJ Open (HOT-LoCO sham RCT)",
+     "url": "https://doi.org/10.1136/bmjopen-2024-094386",
+     "verified": true
+    },
+    {
+     "cite": "Kim 2026, J Transl Med (Charité HBOT cohort)",
+     "url": "https://doi.org/10.1186/s12967-026-08324-6",
+     "verified": true
+    },
+    {
+     "cite": "NCT07621068 registration",
+     "url": "https://clinicaltrials.gov/study/NCT07621068",
+     "verified": true
+    }
+   ],
+   "model_rationale": "Dissolves extra oxygen in plasma, which reaches tissue that red cells under-supply (steps 4 and 5), and at full dose may stimulate vessel growth if capillary loss matters (step 4). A sham-controlled ME/CFS trial is under way."
+  },
+  {
+   "id": "hbot-home",
+   "name": "Home soft-shell chamber (1.3-1.5 ATA) with oxygen concentrator",
+   "group": "vascular",
+   "links": [
+    4,
+    5,
+    6
+   ],
+   "hypotheses": [
+    "small-vessel-capillary",
+    "mitochondrial-energy"
+   ],
+   "verdict": "trial-only",
+   "evidence": "none",
+   "evidence_line": "No trial at these pressures in ME/CFS or long COVID; in HOT-LoCO the sham arm breathed air at 1.2-1.34 bar, close to a soft-shell chamber, and improved as much as the oxygen arm (Kjellberg 2025).",
+   "what_it_does": "Raises pressure to 1.3-1.5 ATA while the user breathes concentrated oxygen through a mask, delivering roughly a third to two-thirds of the dissolved oxygen of clinical HBOT depending on mask seal.",
+   "who_it_might_suit": "Patients who cannot travel and can afford rental, accepting that the dose is untested and may sit below a threshold.",
+   "risks": "Ear and sinus pain, confinement, noise. Fire risk with oxygen: no electronics, heat packs or synthetic fabrics inside, and keep the concentrator outside the chamber. Getting in and out takes effort.",
+   "severe_note": "Use a non-rebreather mask with reservoir and check the oxygen at the mask; stop if overnight heart rate or HRV worsens.",
+   "access": "unregulated",
+   "cost": "~£400-1,000/month rental; £5,000+ to buy",
+   "pending": "",
+   "refs": [
+    {
+     "cite": "Kjellberg 2025, BMJ Open (HOT-LoCO sham RCT)",
+     "url": "https://doi.org/10.1136/bmjopen-2024-094386",
+     "verified": true
+    },
+    {
+     "cite": "Kim 2026, J Transl Med (Charité HBOT cohort)",
+     "url": "https://doi.org/10.1186/s12967-026-08324-6",
+     "verified": true
+    }
+   ],
+   "model_rationale": "The same rationale as clinical HBOT (steps 4 and 5), at roughly a third to two-thirds of the dissolved oxygen. In the HOT-LoCO trial the sham arm at a similar pressure improved as much as the oxygen arm, so this dose may behave like sham."
+  },
+  {
+   "id": "red-light",
+   "name": "Red and near-infrared light (photobiomodulation)",
+   "group": "vascular",
+   "links": [
+    5,
+    6
+   ],
+   "hypotheses": [
+    "mitochondrial-energy",
+    "vascular-endothelial"
+   ],
+   "verdict": "try",
+   "evidence": "rct-mixed",
+   "evidence_line": "A device-maker-funded sham-controlled pilot of home transcranial and intranasal light in 43 people with post-COVID brain fog missed significance on the composite cognitive score (p=0.088), with gains in younger participants (Lim 2026); no ME/CFS trial.",
+   "what_it_does": "Light at 600-850 nm is absorbed by cytochrome c oxidase in mitochondria, which can release nitric oxide and raise ATP locally; near-infrared reaches a few centimetres into tissue.",
+   "who_it_might_suit": "Anyone wanting a very low-risk option that can be done lying down.",
+   "risks": "Eye safety (goggles for near-infrared), skin warmth; avoid over the eyes and in light-sensitive patients.",
+   "severe_note": "Light-sensitive patients may not tolerate red panels; near-infrared is largely invisible.",
+   "access": "OTC",
+   "cost": "£100-1,500 one-off",
+   "pending": "",
+   "refs": [
+    {
+     "cite": "Lim 2026, eClinicalMedicine (photobiomodulation pilot RCT)",
+     "url": "https://doi.org/10.1016/j.eclinm.2025.103730",
+     "verified": true
+    }
+   ],
+   "model_rationale": "Light absorbed by mitochondria can release nitric oxide, dilating local vessels (step 4) and raising local energy supply (step 5). No ME/CFS trials."
+  },
+  {
+   "id": "bpc-157",
+   "name": "BPC-157",
+   "group": "vascular",
+   "links": [
+    4,
+    6
+   ],
+   "hypotheses": [
+    "vascular-endothelial",
+    "small-vessel-capillary"
+   ],
+   "verdict": "trial-only",
+   "evidence": "mechanistic",
+   "evidence_line": "Almost all data are from one group's rodent and cell studies; a 2026 systematic review found 3 human studies (n=30 total, knee pain, cystitis, IV safety), all very low certainty (Poolton 2026); nothing in ME/CFS.",
+   "what_it_does": "A synthetic peptide that in animals activates endothelial nitric oxide and VEGFR2 signalling, speeds vessel growth around injuries, and protects the gut lining.",
+   "who_it_might_suit": "No one outside a study. Interesting mechanism for the vessel links, but there is no human efficacy data and products are of unknown content.",
+   "risks": "Unregulated grey-market products of unknown purity and dose; contamination risk with injectables. Theoretical concern that pro-angiogenic effects could feed tumours. In the US it is not legal to compound (removed from FDA Category 2 in April 2026, not added to the approved list).",
+   "severe_note": "",
+   "access": "unregulated",
+   "cost": "~£30-80/month grey market",
+   "pending": "",
+   "refs": [
+    {
+     "cite": "Poolton 2026, Acta Orthop Belg (systematic review of human evidence)",
+     "url": "https://doi.org/10.52628/92.3.15837",
+     "verified": true
+    },
+    {
+     "cite": "Regulatory alert: FDA April 2026 update on BPC-157",
+     "url": "https://djholtlaw.com/regulatory-alert-fdas-april-2026-update-on-bpc-157-and-ghk-cu/",
+     "verified": false
+    }
+   ],
+   "model_rationale": "In rodent and cell studies it acts on vessel lining and vessel growth (step 4) and tissue repair (step 6). Human data are three small studies, so the model rationale is untested in people."
+  },
+  {
+   "id": "nicotine-patch",
+   "name": "Low-dose nicotine patches",
+   "group": "vascular",
+   "links": [
+    4,
+    7
+   ],
+   "hypotheses": [
+    "autonomic-small-fibre",
+    "sickness-behaviour"
+   ],
+   "verdict": "doctor",
+   "evidence": "case-series",
+   "evidence_line": "One case report plus a retrospective survey of 231 users in which 73.5% reported improvement (Leitzke 2025); no controlled trial.",
+   "what_it_does": "Proposed to free up nicotinic acetylcholine receptors thought to be blocked after COVID, restoring cholinergic signalling.",
+   "who_it_might_suit": "Long-COVID-onset illness; only with a doctor's agreement, given the cardiovascular effects.",
+   "risks": "Nausea, dizziness, palpitations, sleep disturbance, skin reaction; dependence. Some users report crashes. Not for people with heart disease, pregnancy or a history of nicotine dependence.",
+   "severe_note": "Start with a fraction of a 7 mg patch.",
+   "access": "OTC",
+   "cost": "£15-30/month",
+   "pending": "",
+   "refs": [
+    {
+     "cite": "Leitzke 2025, Bioelectron Med",
+     "url": "https://doi.org/10.1186/s42234-025-00167-8",
+     "verified": true
+    }
+   ],
+   "model_rationale": "Proposed to restore cholinergic signalling, which would act on vagal tone (step 8) and vessel function (step 4). Case series only."
+  },
+  {
+   "id": "microclot-therapy",
+   "name": "Microclot treatments (triple antithrombotic therapy, HELP apheresis)",
+   "group": "vascular",
+   "links": [
+    4
+   ],
+   "hypotheses": [
+    "microclots",
+    "complement-thromboinflammation"
+   ],
+   "verdict": "avoid",
+   "evidence": "rct-negative",
+   "evidence_line": "Rivaroxaban 10 mg gave no fatigue benefit over usual care in 197 long-COVID patients (STIMULATE-ICP 2026); support for triple therapy (two antiplatelets plus an anticoagulant) and HELP apheresis comes from uncontrolled reports by the groups promoting them (Laubscher 2023 preprint).",
+   "what_it_does": "Antiplatelet and anticoagulant drugs, or filtering the blood, aimed at dissolving amyloid fibrin 'microclots' seen under the microscope.",
+   "who_it_might_suit": "No one outside trials. The microclot test is not standardised, and haemostasis experts judge these treatments not justified (Hunt 2024).",
+   "risks": "Serious bleeding, including brain bleeds, with combined antithrombotics; line complications with apheresis. Statins and simple antiplatelets have no trial in ME/CFS.",
+   "severe_note": "",
+   "access": "unregulated",
+   "cost": "Apheresis abroad ~€1,000-2,000/session",
+   "pending": "",
+   "refs": [
+    {
+     "cite": "STIMULATE-ICP consortium 2026, Lancet Infect Dis",
+     "url": "https://doi.org/10.1016/s1473-3099(26)00242-2",
+     "verified": true
+    },
+    {
+     "cite": "Laubscher 2023, Research Square preprint (triple therapy)",
+     "url": "https://doi.org/10.21203/rs.3.rs-2697680/v1",
+     "verified": true
+    },
+    {
+     "cite": "Hunt 2024, Res Pract Thromb Haemost",
+     "url": "https://doi.org/10.1016/j.rpth.2024.102442",
+     "verified": true
+    }
+   ],
+   "model_rationale": "Aimed at fibrin amyloid deposits blocking capillaries (step 4). The microclot finding itself is contested and anticoagulation carries bleeding risk; trials have not shown benefit."
+  },
+  {
+   "id": "eecp",
+   "name": "External counterpulsation (EECP)",
+   "group": "vascular",
+   "links": [
+    3,
+    4
+   ],
+   "hypotheses": [
+    "vascular-endothelial",
+    "low-blood-volume-preload"
+   ],
+   "verdict": "specialist",
+   "evidence": "case-series",
+   "evidence_line": "Uncontrolled long-COVID registry data (n=231) reported better fatigue and walk distance (reviewed in Shah 2025); the Sheba sham-controlled trial (NCT05668039, n=32) has not reported.",
+   "what_it_does": "Cuffs on the legs inflate in time with the heartbeat, pushing blood back to the heart and raising shear stress on vessel walls; usually 35 one-hour sessions.",
+   "who_it_might_suit": "Mild patients near a centre; cardiology departments use it for angina.",
+   "risks": "Leg bruising and skin abrasion; not for people with leg clots, aortic aneurysm or severe valve disease.",
+   "severe_note": "Thirty-five sessions of travel make it impractical for severe patients.",
+   "access": "specialist",
+   "cost": "~£3,000-6,000 per course privately",
+   "pending": "EXPECT sham-controlled trial, NCT05668039 (status unknown, primary completion Apr 2024, results not posted)",
+   "refs": [
+    {
+     "cite": "Shah 2025, Open Med (review)",
+     "url": "https://doi.org/10.1515/med-2025-1216",
+     "verified": true
+    },
+    {
+     "cite": "NCT05668039 registration",
+     "url": "https://clinicaltrials.gov/study/NCT05668039",
+     "verified": true
+    }
+   ],
+   "model_rationale": "Pushes blood back to the heart (step 3) and raises shear stress on vessel walls, which can improve endothelial function (step 4). Case series only in this illness."
+  },
+  {
+   "id": "fibre-polyphenols",
+   "name": "Fibre, fruit and polyphenols",
+   "group": "gut",
+   "links": [
+    1,
+    6
+   ],
+   "hypotheses": [
+    "gut-dysbiosis"
+   ],
+   "verdict": "try",
+   "evidence": "rct-mixed",
+   "evidence_line": "No fibre trial; polyphenol supplement RCTs are mixed: Pycnogenol was no better than placebo in long COVID (PYCNOVID, n=153, preprint), while smaller trials of quercetin phytosome (n=78), cocoa flavonoids (FLALOC, n=46) and high-polyphenol chocolate (n=10, ME/CFS) reported less fatigue; fibre-fermenting bacteria (butyrate producers) are reduced in several cohorts, and our re-analysis found Bifidobacterium/Lactobacillus abundance does not track the blood indole-lactate deficit, which favours food fibre over probiotics.",
+   "what_it_does": "Feeds the bacteria that make butyrate and other anti-inflammatory metabolites.",
+   "who_it_might_suit": "Anyone without IBS flares from fibre; increase slowly.",
+   "risks": "Bloating and wind, especially with IBS (about 37% of ME/CFS patients); low-FODMAP fibres such as oats, kiwi and psyllium are gentler.",
+   "severe_note": "Avoid if weight is falling or eating is effortful: calories come first.",
+   "access": "OTC",
+   "cost": "",
+   "pending": "",
+   "refs": [
+    {
+     "cite": "Solving ME/CFS re-analysis (gut function)",
+     "url": "https://github.com/michaeljelly/solvingmecfs/tree/main/analyses/microbiome-ipa",
+     "verified": false
+    },
+    {
+     "cite": "PYCNOVID 2025, medRxiv preprint",
+     "url": "https://doi.org/10.1101/2025.06.12.25329489",
+     "verified": true
+    },
+    {
+     "cite": "Rondanelli 2023, Biomed Pharmacother (quercetin phytosome RCT)",
+     "url": "https://doi.org/10.1016/j.biopha.2023.115453",
+     "verified": true
+    },
+    {
+     "cite": "FLALOC 2026, J Clin Med",
+     "url": "https://doi.org/10.3390/jcm15041468",
+     "verified": true
+    },
+    {
+     "cite": "Sathyapalan 2010, Nutr J (polyphenol chocolate crossover)",
+     "url": "https://doi.org/10.1186/1475-2891-9-55",
+     "verified": true
+    }
+   ],
+   "model_rationale": "Feeds butyrate-producing gut bacteria, which are depleted early in the illness and may help regulate immune tone (step 1). The model treats the gut as a modifier, not a driver."
+  },
+  {
+   "id": "probiotics",
+   "name": "Probiotics",
+   "group": "gut",
+   "links": [
+    1
+   ],
+   "hypotheses": [
+    "gut-dysbiosis"
+   ],
+   "verdict": "try",
+   "evidence": "rct-mixed",
+   "evidence_line": "Lactobacillus casei Shirota reduced anxiety but did not target fatigue in a 39-person RCT (Rao 2009); other studies are uncontrolled pilots.",
+   "what_it_does": "Adds live bacteria, usually Lactobacillus and Bifidobacterium strains, which do not colonise long term.",
+   "who_it_might_suit": "People who want to try, mainly for gut symptoms; not expected to change ME/CFS itself.",
+   "risks": "Bloating; rarely bloodstream infection in people with central lines or severe immune suppression (relevant for those with ports for IV saline).",
+   "severe_note": "Avoid with a central line or port.",
+   "access": "OTC",
+   "cost": "£10-30/month",
+   "pending": "Several placebo RCTs have not reported: ME/CFS (NCT04741841, n=74, completed 2021); long COVID (NCT05975034, n=240 planned, status unknown; NCT05813899, stopped early); PURE-LC (NCT06643299, n=194) completed July 2026",
+   "refs": [
+    {
+     "cite": "Rao 2009, Gut Pathog",
+     "url": "https://doi.org/10.1186/1757-4749-1-6",
+     "verified": true
+    }
+   ],
+   "model_rationale": "Aimed at gut-driven immune tone (step 1). Supplemented strains do not colonise, and the model gives the gut a minor role."
+  },
+  {
+   "id": "fmt",
+   "name": "Faecal microbiota transplant (FMT)",
+   "group": "gut",
+   "links": [
+    1
+   ],
+   "hypotheses": [
+    "gut-dysbiosis"
+   ],
+   "verdict": "trial-only",
+   "evidence": "rct-negative",
+   "evidence_line": "The only published RCT (donor vs own stool, n=11) found no change in fatigue or quality of life at 1 or 6 months (Salonen 2023); a retrospective series claimed benefit.",
+   "what_it_does": "Transfers stool bacteria from a screened donor by colonoscopy or capsules.",
+   "who_it_might_suit": "Only within trials.",
+   "risks": "Colonoscopy risks and preparation (hard for severe patients), transmission of infections or resistant bacteria from unscreened donors. DIY FMT is dangerous.",
+   "severe_note": "Bowel preparation alone can cause a crash.",
+   "access": "trial",
+   "cost": "",
+   "pending": "Comeback Study, Norway (n=80, NCT03691987): protocol published 2024, results not yet reported",
+   "refs": [
+    {
+     "cite": "Salonen 2023, J Transl Med",
+     "url": "https://doi.org/10.1186/s12967-023-04227-y",
+     "verified": true
+    },
+    {
+     "cite": "Skjevling 2024, BMJ Open (Comeback protocol)",
+     "url": "https://doi.org/10.1136/bmjopen-2023-073275",
+     "verified": true
+    }
+   ],
+   "model_rationale": "Tests whether the gut drives immune priming (step 1). The only randomised trial was small and null."
+  },
+  {
+   "id": "steroids",
+   "name": "Steroids (low-dose hydrocortisone, prednisolone)",
+   "group": "hormonal",
+   "links": [
+    2,
+    6
+   ],
+   "hypotheses": [
+    "hpa-endocrine",
+    "innate-hyperactivation"
+   ],
+   "verdict": "avoid",
+   "evidence": "rct-mixed",
+   "evidence_line": "Hydrocortisone 25-35 mg missed its primary endpoint in a 70-person RCT and suppressed the adrenal glands (McKenzie 1998); 5-10 mg helped fatigue briefly in a 32-person crossover (Cleare 1999); hydrocortisone + fludrocortisone was null in 80 completers (Blockmans 2003); prednisolone has no ME/CFS trial.",
+   "what_it_does": "Replaces or boosts the stress hormone cortisol, which is mildly blunted in ME/CFS, and suppresses inflammation.",
+   "who_it_might_suit": "Only for proven adrenal insufficiency (a separate diagnosis needing a short Synacthen test), which is more common than expected in post-viral fatigue.",
+   "risks": "Adrenal suppression, bone loss (spine density -2% in 12 weeks at 25-35 mg), weight gain, high blood sugar, mood change, infections. Short courses of prednisolone sometimes give a temporary lift followed by a dip.",
+   "severe_note": "Ask for a morning cortisol and Synacthen test if there is weight loss, low sodium, salt craving or collapse.",
+   "access": "prescription",
+   "cost": "",
+   "pending": "Two long-COVID placebo RCTs not yet reported: prednisolone plus B vitamins (PreVitaCOV, NCT05638633, n=321, completed Jan 2025) and methylprednisolone (NCT05986422, stopped early, n=96)",
+   "refs": [
+    {
+     "cite": "McKenzie 1998, JAMA",
+     "url": "https://doi.org/10.1001/jama.280.12.1061",
+     "verified": true
+    },
+    {
+     "cite": "Cleare 1999, Lancet",
+     "url": "https://doi.org/10.1016/s0140-6736(98)04074-4",
+     "verified": true
+    },
+    {
+     "cite": "Blockmans 2003, Am J Med (hydrocortisone + fludrocortisone RCT)",
+     "url": "https://doi.org/10.1016/s0002-9343(03)00182-7",
+     "verified": true
+    }
+   ],
+   "model_rationale": "Would correct mildly low cortisol (step 2) and suppress inflammation (step 6). Benefits in trials were small and short, with adrenal suppression; the model suggests testing the pituitary-adrenal axis first."
+  },
+  {
+   "id": "desmopressin",
+   "name": "Desmopressin",
+   "group": "hormonal",
+   "links": [
+    2,
+    3
+   ],
+   "hypotheses": [
+    "pituitary-adh",
+    "low-blood-volume-preload"
+   ],
+   "verdict": "specialist",
+   "evidence": "case-series",
+   "evidence_line": "Vasopressin was undetectable after fluid deprivation in 82% of 111 Swedish patients, but copeptin was normal in all 13 tested (Huhmar 2026, uncontrolled); desmopressin helped orthostatic symptoms in 5 of 10 in open use, and is used in POTS with heavy urine output.",
+   "what_it_does": "A synthetic form of antidiuretic hormone (ADH) that makes the kidneys hold water, expanding volume.",
+   "who_it_might_suit": "People who pass large volumes of dilute urine, especially at night, with high plasma and low urine osmolality on paired tests or low copeptin.",
+   "risks": "Low blood sodium, which can cause confusion, seizures and death; needs sodium checks within days of starting and after dose changes. Do not combine with high water intake.",
+   "severe_note": "Home blood tests are needed for safe sodium monitoring.",
+   "access": "specialist",
+   "cost": "NHS prescription charge",
+   "pending": "",
+   "refs": [
+    {
+     "cite": "Huhmar 2026, Endocr Pract (low vasopressin, uncontrolled)",
+     "url": "https://doi.org/10.1016/j.eprac.2025.12.020",
+     "verified": true
+    },
+    {
+     "cite": "Seeley 2021, Am J Med (desmopressin in POTS with polyuria)",
+     "url": "https://doi.org/10.1016/j.amjmed.2021.03.028",
+     "verified": true
+    }
+   ],
+   "model_rationale": "Would correct a vasopressin deficit if one exists (step 2), expanding volume (step 3). Only worth considering after stimulated copeptin shows a deficit; the risk is low sodium."
+  },
+  {
+   "id": "thyroid-testosterone",
+   "name": "Thyroid hormone or testosterone",
+   "group": "hormonal",
+   "links": [
+    2
+   ],
+   "hypotheses": [
+    "hpa-endocrine"
+   ],
+   "verdict": "doctor",
+   "evidence": "none",
+   "evidence_line": "One Dutch case-control study found slightly lower T3 with normal TSH (low-T3 pattern in 16% vs 7%), a pattern common in many chronic illnesses (Ruiz-Núñez 2018); lower androgens in ME/CFS did not replicate; no treatment trial for either.",
+   "what_it_does": "Replaces a hormone that is low.",
+   "who_it_might_suit": "Only when blood tests show a true deficiency (raised TSH or low free T4; low morning testosterone on repeat testing with symptoms). Worth a GP test, not empirical treatment.",
+   "risks": "Excess thyroid hormone causes fast heart rate, atrial fibrillation and bone loss, and worsens POTS. Testosterone: clots, high red cell count, fertility suppression, acne; not in women outside specialist care.",
+   "severe_note": "",
+   "access": "prescription",
+   "cost": "",
+   "pending": "",
+   "refs": [
+    {
+     "cite": "Ruiz-Núñez 2018, Front Endocrinol",
+     "url": "https://doi.org/10.3389/fendo.2018.00097",
+     "verified": true
+    }
+   ],
+   "model_rationale": "Replaces a hormone only when testing shows it is low (step 2). The model gives no reason to expect benefit from replacement in people with normal levels."
+  },
+  {
+   "id": "glp1",
+   "name": "GLP-1 drugs (semaglutide, tirzepatide, retatrutide)",
+   "group": "other",
+   "links": [
+    1,
+    4,
+    7
+   ],
+   "hypotheses": [
+    "innate-hyperactivation",
+    "vascular-endothelial",
+    "neuroinflammation"
+   ],
+   "verdict": "trial-only",
+   "evidence": "none",
+   "evidence_line": "No published ME/CFS study; Charité is starting an observational study of semaglutide in overweight ME/CFS patients (Solve M.E. award, Feb 2026), and RECOVER and Scripps trials are running in long COVID.",
+   "what_it_does": "GLP-1 receptors sit on immune cells, vessel lining and brain; proposed anti-inflammatory and endothelial effects on top of weight loss.",
+   "who_it_might_suit": "Overweight patients with stable weight could ask about the Charité study; otherwise wait for controlled results.",
+   "risks": "Nausea and vomiting, muscle loss (up to ~40% of weight lost), higher heart rate, reduced thirst and sodium loss (the opposite of volume treatment), gallstones, pancreatitis. Grey-market retatrutide is unlicensed.",
+   "severe_note": "Not for severe patients who are losing weight or muscle.",
+   "access": "prescription",
+   "cost": "~£120-250/month private",
+   "pending": "Charité semaglutide observational study (planned 2026); RECOVER and Scripps long-COVID trials",
+   "refs": [
+    {
+     "cite": "ME Research UK 2026, GLP-1 receptor agonists for ME/CFS",
+     "url": "https://www.meresearch.org.uk/glp-1-receptor-agonists-for-me-cfs/",
+     "verified": false
+    },
+    {
+     "cite": "Solve M.E. Catalyst Awards, Feb 2026",
+     "url": "https://solvecfs.org/wp-content/uploads/2026/02/SolveMECFSCatalystAwardsFebruary2026FINAL.pdf",
+     "verified": false
+    }
+   ],
+   "model_rationale": "GLP-1 receptors on immune cells, vessels and brain could act on steps 1, 4 and 7. Against that, these drugs raise heart rate, promote sodium loss and reduce thirst, which works against step 3."
+  },
+  {
+   "id": "cbt-supportive",
+   "name": "CBT (supportive only)",
+   "group": "other",
+   "links": [
+    8
+   ],
+   "hypotheses": [
+    "cognitive-behavioural-model"
+   ],
+   "verdict": "doctor",
+   "evidence": "rct-mixed",
+   "evidence_line": "PACE (n=641) reported small self-rated gains with CBT aimed at changing illness beliefs, but objective measures barely moved and no between-group difference remained at 2.5 years (White 2011; Sharpe 2015; Wilshire 2018 re-analysis); about 40 other randomised CBT or psychological trials exist, many positive (e.g. Prins 2001, n=278; FITNET-NHS, n=~240), but most are unblinded with self-rated outcomes, and FINE (n=296) was null at 70 weeks.",
+   "what_it_does": "NICE 2021 allows CBT only to help people cope with a long-term illness, not as a treatment that reverses ME/CFS.",
+   "who_it_might_suit": "People who want help with sleep, anxiety, grief or adjusting to illness, from a therapist who accepts the illness is physical.",
+   "risks": "Programmes that frame ME/CFS as fear of activity or push increasing activity can cause harm; check the approach before starting. Sessions are themselves exertion.",
+   "severe_note": "Short sessions by phone or message, at home, if at all.",
+   "access": "prescription",
+   "cost": "Free on NHS referral; £60-120/session privately",
+   "pending": "",
+   "refs": [
+    {
+     "cite": "White 2011, Lancet (PACE)",
+     "url": "https://doi.org/10.1016/S0140-6736(11)60096-2",
+     "verified": true
+    },
+    {
+     "cite": "Prins 2001, Lancet (CBT vs support groups)",
+     "url": "https://doi.org/10.1016/s0140-6736(00)04198-2",
+     "verified": true
+    },
+    {
+     "cite": "Wearden 2010, BMJ (FINE)",
+     "url": "https://doi.org/10.1136/bmj.c1777",
+     "verified": true
+    },
+    {
+     "cite": "FITNET-NHS 2024, Health Technol Assess",
+     "url": "https://doi.org/10.3310/vlrw6701",
+     "verified": true
+    },
+    {
+     "cite": "Wilshire 2018, BMC Psychol (PACE re-analysis)",
+     "url": "https://doi.org/10.1186/s40359-018-0218-3",
+     "verified": true
+    },
+    {
+     "cite": "NICE 2021, NG206",
+     "url": "https://www.nice.org.uk/guidance/ng206",
+     "verified": true
+    }
+   ],
+   "model_rationale": "Can help with coping and the sleep and arousal side of the illness (step 8). The model does not predict that it changes the underlying steps."
+  },
+  {
+   "id": "graded-exercise",
+   "name": "Graded exercise therapy (GET)",
+   "group": "other",
+   "links": [
+    5,
+    6,
+    7
+   ],
+   "hypotheses": [
+    "deconditioning",
+    "cognitive-behavioural-model"
+   ],
+   "verdict": "avoid",
+   "evidence": "rct-negative",
+   "evidence_line": "NICE 2021 says do not offer GET or any programme of fixed incremental increases in activity; GET was the most harmful-rated treatment in the ~3,925-person survey (net about -72%), PACE's modest self-reported gains did not show on objective measures or persist, guided self-help GET gave a self-rated fatigue gain at 12 weeks (GETSET, n=211), and in children GET was no better than activity management (MAGENTA, n=241).",
+   "what_it_does": "Fixed, stepwise increases in exercise, based on the now largely refuted theory that deconditioning and fear of activity maintain the illness.",
+   "who_it_might_suit": "No one with post-exertional malaise. Gentle, symptom-led movement within the energy envelope is a different thing.",
+   "risks": "Worsening that can be prolonged or permanent, including moving from moderate to severe. A 2026 Charité rehab study left 42 of 97 worse even with pacing elements.",
+   "severe_note": "Severe patients have the most to lose; refuse any programme that sets activity targets regardless of symptoms.",
+   "access": "specialist",
+   "cost": "",
+   "pending": "",
+   "refs": [
+    {
+     "cite": "NICE 2021, NG206",
+     "url": "https://www.nice.org.uk/guidance/ng206",
+     "verified": true
+    },
+    {
+     "cite": "Eckey 2025, PNAS (patient survey, ~3,925)",
+     "url": "https://doi.org/10.1073/pnas.2426874122",
+     "verified": true
+    },
+    {
+     "cite": "White 2011, Lancet (PACE)",
+     "url": "https://doi.org/10.1016/S0140-6736(11)60096-2",
+     "verified": true
+    },
+    {
+     "cite": "Wilshire 2018, BMC Psychol",
+     "url": "https://doi.org/10.1186/s40359-018-0218-3",
+     "verified": true
+    },
+    {
+     "cite": "Clark 2017, Lancet (GETSET)",
+     "url": "https://doi.org/10.1016/s0140-6736(16)32589-2",
+     "verified": true
+    },
+    {
+     "cite": "Gaunt 2024, Eur J Pediatr (MAGENTA)",
+     "url": "https://doi.org/10.1007/s00431-024-05458-x",
+     "verified": true
+    }
+   ],
+   "model_rationale": "Fixed increases in exertion repeatedly drive steps 5 to 7, the sequence the model holds responsible for the crash, so the model predicts harm in people with post-exertional malaise."
+  },
+  {
+   "id": "stellate-ganglion-block",
+   "name": "Stellate ganglion block",
+   "group": "other",
+   "links": [
+    8,
+    2
+   ],
+   "hypotheses": [
+    "autonomic-small-fibre"
+   ],
+   "verdict": "trial-only",
+   "evidence": "case-series",
+   "evidence_line": "A 2026 systematic review found only uncontrolled long-COVID studies, with 56-100% reporting relief (Peddireddy 2026); the only RCT, for post-COVID smell distortion (57 enrolled, 48 analysed), found no difference from placebo (43% vs 38%; Farrell 2025); an open-label dual-block study (n=20) reported COMPASS-31 down 38%.",
+   "what_it_does": "Local anaesthetic injected next to the sympathetic nerve chain in the neck, meant to reset sympathetic over-activity.",
+   "who_it_might_suit": "Only within trials; the most-cited series comes from the clinic selling the procedure.",
+   "risks": "Hoarse voice, droopy eyelid, difficulty swallowing for hours; rarely injection into a blood vessel causing seizures, or bleeding in the neck.",
+   "severe_note": "",
+   "access": "specialist",
+   "cost": "~£800-2,000 per block privately",
+   "pending": "Two placebo-controlled long-COVID RCTs recruiting: STAR-CO (NCT07374562, n=40, single-blind) and CeASE cervicothoracic sympathetic block vs saline (NCT07468604, n=78)",
+   "refs": [
+    {
+     "cite": "Peddireddy 2026, Curr Pain Headache Rep (systematic review)",
+     "url": "https://doi.org/10.1007/s11916-026-01477-5",
+     "verified": true
+    },
+    {
+     "cite": "Farrell 2025, JAMA Otolaryngol Head Neck Surg (parosmia RCT, NCT06253806)",
+     "url": "https://doi.org/10.1001/jamaoto.2025.1304",
+     "verified": true
+    },
+    {
+     "cite": "STAR-CO registration, NCT07374562",
+     "url": "https://clinicaltrials.gov/study/NCT07374562",
+     "verified": true
+    }
+   ],
+   "model_rationale": "Aims to reset sympathetic over-activity (step 8) and its effect on brain control (step 2). Case series only."
+  },
+  {
+   "id": "prospekta",
+   "name": "Prospekta (ultra-low-dose antibody product)",
+   "group": "other",
+   "links": [],
+   "hypotheses": [],
+   "verdict": "trial-only",
+   "evidence": "rct-positive",
+   "evidence_line": "In a 676-person placebo RCT for post-COVID tiredness (Russia, 4 weeks, company-sponsored), FSS fell 16.5 vs 14.0 points (p=0.0016; posted results, no paper); the difference is small, the trial was short, and the product's claimed mechanism is not established.",
+   "what_it_does": "A Russian tablet said to contain highly diluted antibodies to a brain protein (S100); there is no accepted way for doses this low to act.",
+   "who_it_might_suit": "Not available in the UK; wait for independent replication.",
+   "risks": "Few reported in the trial.",
+   "severe_note": "",
+   "access": "unregulated",
+   "cost": "",
+   "pending": "",
+   "refs": [
+    {
+     "cite": "NCT05074888 posted results (Prospekta vs placebo)",
+     "url": "https://clinicaltrials.gov/study/NCT05074888",
+     "verified": true
+    }
+   ],
+   "model_rationale": "No model rationale. It is said to contain very highly diluted antibodies to a brain protein, and there is no accepted way for doses this low to act.",
+   "evidence_caveat": "single manufacturer-run trial; implausible mechanism"
+  },
+  {
+   "id": "vortioxetine",
+   "name": "Vortioxetine",
+   "group": "other",
+   "links": [
+    2
+   ],
+   "hypotheses": [
+    "neuroinflammation"
+   ],
+   "verdict": "trial-only",
+   "evidence": "rct-negative",
+   "evidence_line": "In a 149-person placebo RCT for post-COVID brain fog, 8 weeks of vortioxetine did not improve the primary cognitive test (DSST); mood and quality of life improved in a secondary analysis (McIntyre 2024).",
+   "what_it_does": "An antidepressant with extra serotonin receptor effects, licensed for depression and claimed to help thinking speed.",
+   "who_it_might_suit": "Not for brain fog alone. Depression alongside long COVID or ME/CFS is a separate reason a doctor may prescribe it.",
+   "risks": "Nausea (common), itch, sleep changes; serotonin syndrome risk with other serotonergic drugs.",
+   "severe_note": "",
+   "access": "prescription",
+   "cost": "",
+   "pending": "",
+   "refs": [
+    {
+     "cite": "McIntyre 2024, Brain (vortioxetine RCT)",
+     "url": "https://doi.org/10.1093/brain/awad377",
+     "verified": true
+    }
+   ],
+   "model_rationale": "Aimed at cognitive symptoms through brain serotonin receptors (step 2 and step 7). A long COVID trial was null."
+  },
+  {
+   "id": "lithium-low-dose",
+   "name": "Low-dose lithium",
+   "group": "other",
+   "links": [
+    2
+   ],
+   "hypotheses": [
+    "neuroinflammation"
+   ],
+   "verdict": "trial-only",
+   "evidence": "rct-negative",
+   "evidence_line": "Lithium aspartate 10-15 mg/day did no better than placebo for fatigue or brain fog over 3 weeks in a 52-person RCT in long COVID (Guttuso 2024); a follow-on open-label dose-finding phase is not controlled evidence.",
+   "what_it_does": "Very low doses of lithium, far below psychiatric doses, are proposed to calm brain inflammation.",
+   "who_it_might_suit": "Not supported; the only placebo trial was null.",
+   "risks": "Low at these doses, but higher doses need blood monitoring for kidney and thyroid effects. Over-the-counter lithium orotate is unregulated.",
+   "severe_note": "",
+   "access": "unregulated",
+   "cost": "",
+   "pending": "",
+   "refs": [
+    {
+     "cite": "Guttuso 2024, JAMA Netw Open (lithium RCT)",
+     "url": "https://doi.org/10.1001/jamanetworkopen.2024.36874",
+     "verified": true
+    }
+   ],
+   "model_rationale": "Proposed to calm brain inflammation (step 7). A long COVID trial was null."
+  },
+  {
+   "id": "cognitive-rehab-tdcs",
+   "name": "Brain training and tDCS",
+   "group": "other",
+   "links": [
+    2
+   ],
+   "hypotheses": [],
+   "verdict": "trial-only",
+   "evidence": "rct-negative",
+   "evidence_line": "RECOVER-NEURO (n=328) found no cognitive benefit from BrainHQ training, structured cognitive rehabilitation or tDCS over controls in long COVID (Knopman 2026); single-centre tDCS trials are split (n=61 null; n=60 small gains with cognitive training).",
+   "what_it_does": "Computer-based brain training and coaching, sometimes with weak electrical current applied to the scalp (tDCS), aimed at brain fog.",
+   "who_it_might_suit": "Not expected to fix brain fog. Practical strategies (notes, reminders, doing hard tasks at your best time) are a different, low-cost thing.",
+   "risks": "Cognitive effort can trigger PEM. tDCS can cause skin burns and headache; home kits are unregulated.",
+   "severe_note": "Screen time and concentration are exertion for severe patients.",
+   "access": "OTC",
+   "cost": "",
+   "pending": "",
+   "refs": [
+    {
+     "cite": "Knopman 2026, JAMA Neurol (RECOVER-NEURO)",
+     "url": "https://doi.org/10.1001/jamaneurol.2025.4415",
+     "verified": true
+    },
+    {
+     "cite": "NCT04876417 posted results (tDCS vs sham)",
+     "url": "https://clinicaltrials.gov/study/NCT04876417",
+     "verified": true
+    },
+    {
+     "cite": "tDCS + cognitive training RCT 2025, Brain Stimul",
+     "url": "https://doi.org/10.1016/j.brs.2025.08.018",
+     "verified": true
+    }
+   ],
+   "model_rationale": "Targets brain fog directly. The model places brain fog downstream of brain blood flow and the sickness response (steps 5 and 7), so it predicts little benefit without addressing them."
+  },
+  {
+   "id": "lau7b-deupirfenidone",
+   "name": "LAU-7b (fenretinide) and deupirfenidone",
+   "group": "other",
+   "links": [
+    6
+   ],
+   "hypotheses": [
+    "innate-hyperactivation"
+   ],
+   "verdict": "trial-only",
+   "evidence": "rct-negative",
+   "evidence_line": "Both failed placebo RCTs in long COVID: LAU-7b did not improve SF-36 physical score at 12 weeks (n=272, posted results), and deupirfenidone gave no walk-distance gain over placebo (n=177, Kulkarni 2025).",
+   "what_it_does": "LAU-7b is an oral drug aimed at lipid-driven inflammation; deupirfenidone is an anti-scarring drug developed for lung fibrosis.",
+   "who_it_might_suit": "No one; neither is available and both trials were null.",
+   "risks": "Not relevant outside trials.",
+   "severe_note": "",
+   "access": "trial",
+   "cost": "",
+   "pending": "",
+   "refs": [
+    {
+     "cite": "NCT05999435 posted results (LAU-7b)",
+     "url": "https://clinicaltrials.gov/study/NCT05999435",
+     "verified": true
+    },
+    {
+     "cite": "Kulkarni 2025, ERJ Open Res (deupirfenidone RCT)",
+     "url": "https://doi.org/10.1183/23120541.01142-2024",
+     "verified": true
+    }
+   ],
+   "model_rationale": "Aimed at inflammation and scarring after injury (step 6). Trials in long COVID were null."
+  },
+  {
+   "id": "long-covid-rehab",
+   "name": "Long COVID rehabilitation programmes",
+   "group": "other",
+   "links": [
+    2,
+    5,
+    7
+   ],
+   "hypotheses": [
+    "deconditioning"
+   ],
+   "verdict": "specialist",
+   "evidence": "rct-mixed",
+   "evidence_line": "Unblinded RCTs in long COVID were positive on self-rated outcomes: online group rehab improved quality of life at 3 and 12 months (REGAIN, n=585), brief outpatient rehab improved physical function (SIPCOV, n=314), and personalised resistance exercise improved exercise capacity without more PEM (n=233, preprint); digital rehab in STIMULATE-ICP did not reduce fatigue.",
+   "what_it_does": "Supervised programmes of breathing, light exercise, symptom management and psychological support, delivered in groups, online or in clinic.",
+   "who_it_might_suit": "Long COVID without post-exertional malaise. People with PEM or ME/CFS should ask whether the programme is symptom-led and stops when symptoms rise; fixed activity targets are graded exercise under another name.",
+   "risks": "PEM and lasting worsening if the programme pushes through symptoms. The trials were unblinded and most did not screen for or measure PEM.",
+   "severe_note": "Not suitable for severe patients beyond gentle, symptom-led input at home.",
+   "access": "specialist",
+   "cost": "Free on NHS referral to a long COVID service",
+   "pending": "",
+   "refs": [
+    {
+     "cite": "McGregor 2024, BMJ (REGAIN)",
+     "url": "https://doi.org/10.1136/bmj-2023-076506",
+     "verified": true
+    },
+    {
+     "cite": "Nerli 2024, JAMA Netw Open (SIPCOV)",
+     "url": "https://doi.org/10.1001/jamanetworkopen.2024.50744",
+     "verified": true
+    },
+    {
+     "cite": "CISCO-21 2025, Research Square preprint (resistance exercise)",
+     "url": "https://doi.org/10.21203/rs.3.rs-6269439/v1",
+     "verified": true
+    },
+    {
+     "cite": "STIMULATE-ICP 2026, Nat Med",
+     "url": "https://doi.org/10.1038/s41591-026-04552-x",
+     "verified": true
+    }
+   ],
+   "model_rationale": "Breathing retraining could reduce over-breathing on standing (step 2 into 5). Exercise components risk driving steps 5 to 7 in people with post-exertional malaise, so the model favours programmes built around pacing."
+  }
+ ]
+}

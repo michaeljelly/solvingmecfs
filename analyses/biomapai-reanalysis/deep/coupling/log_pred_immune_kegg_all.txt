@@ -1,0 +1,39 @@
+immune kegg all persons ctrl 90 pat 144 -> n 90 X (461, 3959) Y (461, 311)
+0 3 median R2 ctrl -0.006 pat -0.009
+null 0 43
+swap 0 142
+tag                              immune_kegg_all
+n_persons_per_group                           90
+R                                             10
+n_targets                                    311
+ctrl_median_R2                         -0.022463
+pat_median_R2                          -0.016096
+ctrl_mean_R2                            -0.02509
+pat_mean_R2                             -0.01649
+null_q99                                  0.0349
+ctrl_n_q05                                     0
+pat_n_q05                                      0
+both_q05                                       0
+ctrl_only                                      0
+pat_only                                       0
+n_diff_q05                                     0
+corr_ctrl_pat_R2                        -0.06169
+global_meanR2_diff                       -0.0086
+swap_null_sd                             0.00524
+global_p_swap                           0.181818
+n_predictable_either                           0
+meanR2_ctrl_among_predictable                NaN
+meanR2_pat_among_predictable                 NaN
+                                         ctrl_R2  pat_R2  ctrl_q  pat_q  diff_q
+%DN MAIT d0                                0.030   0.001     1.0  0.820   0.988
+% DN MAIT d6                               0.028  -0.022     1.0  0.967   0.988
+% CD4+ RO+ INFg+ IL4+ d1                   0.028  -0.006     1.0  0.820   0.988
+% CD4+ RO+ CCR6+ total IL-17+  d6          0.027  -0.031     1.0  0.821   0.988
+% CD8+ INFg+ GzA- d1                       0.026  -0.040     1.0  0.983   0.825
+% CD4+ RO+ CCR6+ IL-17+ INFg- d6           0.026  -0.035     1.0  0.839   0.988
+% CD4+ RO+ CCR6+ CD161+ IL-17+ INFg- d6    0.020  -0.009     1.0  0.820   0.988
+% DN RO+ CCR6- INFg- TNFa+ d1              0.019  -0.009     1.0  0.820   0.988
+% CD8+ nonMAIT INFg+ GzA- d1               0.018  -0.047     1.0  0.994   0.988
+% CD8+ RO- CCR6- IL4+ GMCSF+ d1            0.017  -0.053     1.0  0.842   0.988
+% CD8+ MAIT INFg- TNFa+ d6                 0.015  -0.016     1.0  0.820   0.988
+% CD4+ RO+ CCR6+ CD161+ total IL-17+ d6    0.014  -0.027     1.0  0.820   0.988

@@ -1,0 +1,10 @@
+cohort,study,year,n,trigger,followup,persistent_fraction,predictors,not_predictive
+Dubbo,Hickie,2006,253,EBV/Q fever/Ross River,6-12 mo,12% at 6 mo (29/253),acute illness severity,psychological factors; pathogen type
+Chicago adolescents,Katz,2009,301,IM,6/12/24 mo,13% / 7% / 4%,female sex (all 13 at 24 mo female); fatigue at 12 mo,steroids during IM
+UK glandular fever,White,1998,~250,IM vs URTI,6 mo,9-22% vs 0-6%,IM specifically,
+CEBA Norway,Pedersen,2019,200,EBV,6 mo,,baseline symptoms; low steps; CRP>0.86; low B12,infection markers
+Student prospective,Jason,2022,4501 (238 IM),IM,~1 yr,48 not recovered (18 severe),baseline GI symptoms; low IL-13/IL-5 (~80% accuracy),
+Systematic review,Cairns & Hotopf,2005,14 studies,mixed,years,full recovery median 5% (0-31%); improvement 39.5%,shorter duration; less fatigue,
+PCS-ME/CFS Berlin,Legler,2023,106,COVID,20 mo,PCS-ME/CFS no improvement,low handgrip strength,
+Zurich COVID,Ballouz,2023,1106,COVID,6/12/24 mo,22.9% / 18.5% / 17.2% not recovered,,
+Norway adolescents,Sulheim/Wyller,2012,~120,mixed,~1 yr,,circulatory measures improved with clinical recovery,

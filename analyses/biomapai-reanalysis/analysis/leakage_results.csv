@@ -1,0 +1,25 @@
+layer,n_samples,n_features,split,model,AUC
+immune,489,311,sample-split (as paper),RF,0.8399674291773973
+immune,489,311,sample-split (as paper),LR,0.7872986416199566
+immune,489,311,person-split,RF,0.6808311871938596
+immune,489,311,person-split,LR,0.645735494622027
+specie,479,118,sample-split (as paper),RF,0.802266196447231
+specie,479,118,sample-split (as paper),LR,0.7601619644723092
+specie,479,118,person-split,RF,0.6824190177638453
+specie,479,118,person-split,LR,0.6290295193312435
+kegg,479,3959,sample-split (as paper),RF,0.7376044932079413
+kegg,479,3959,sample-split (as paper),LR,0.8313544932079414
+kegg,479,3959,person-split,RF,0.6864877220480669
+kegg,479,3959,person-split,LR,0.6827520898641589
+metabolome,414,730,sample-split (as paper),RF,0.7927445199333419
+metabolome,414,730,sample-split (as paper),LR,0.7826176131265222
+metabolome,414,730,person-split,RF,0.7215485194205872
+metabolome,414,730,person-split,LR,0.7146690595222834
+quest,503,48,sample-split (as paper),RF,0.7247806620566477
+quest,503,48,sample-split (as paper),LR,0.6318682644847519
+quest,503,48,person-split,RF,0.6272401433691756
+quest,503,48,person-split,LR,0.5947678698574757
+omics,380,154,sample-split (as paper),RF,0.8848963947778176
+omics,380,154,sample-split (as paper),LR,0.914830119375574
+omics,380,154,person-split,RF,0.7911825767556993
+omics,380,154,person-split,LR,0.8602826685830639

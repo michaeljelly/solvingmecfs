@@ -1,0 +1,1457 @@
+{
+ "domain": "trials",
+ "title": "Treatment trials and natural history",
+ "overview": "No treatment has replicated, placebo-controlled evidence of benefit in ME/CFS or post-COVID ME/CFS. Since 2019 the large, well-controlled trials have been negative: rituximab, Paxlovid (three trials), immunoadsorption against sham (two trials), ivabradine for long-COVID POTS, temelimab, and low-dose naltrexone for fatigue. The positive signals (daratumumab, cyclophosphamide, low-dose rapamycin, low-dose aripiprazole, single-dose pyridostigmine, 40-session HBOT) come from small, open-label or single-centre studies, and they need to be read against placebo response rates of 35-40% or more. Graded exercise is no longer recommended in England (NICE 2021), and patient surveys and a German rehab study report frequent worsening, while pacing and volume/compression measures are the most highly rated but untested by trials. Natural history data show low full recovery in adults (median ~5%), prevalence of ~0.2-1%, a female excess of 3-4:1, no clear rise in all-cause mortality, and a marked rise in suicide.",
+ "findings": [
+  {
+   "id": "trials-rituximab",
+   "subdomain": "Immune: B-cell depletion",
+   "finding": "B-cell depletion with rituximab did not improve fatigue or function versus placebo in a 151-person phase III trial (RituxME).",
+   "grade": "refuted",
+   "plain": "A drug that removes antibody-making B cells looked promising in small Norwegian studies, but a large placebo-controlled trial found it worked no better than a dummy infusion.",
+   "detail": "RituxME (Fluge 2019): 77 rituximab vs 74 placebo over 24 months; overall response 26.0% vs 35.1% (difference 9.2 points favouring placebo, 95% CI -5.5 to 23.3, p=0.22); no difference on any secondary endpoint; serious adverse events 26% vs 19%. Six-year follow-up (Rekeland 2024): SF-36 physical function 32.9 to 45.5 on rituximab vs 32.3 to 43.1 on placebo. The earlier positive phase II results (Fluge 2011, 2015) were small and partly open-label; the phase III result is the standard example of how large the placebo/natural-course improvement can be in ME/CFS trials.",
+   "studies": [
+    {
+     "cite": "Fluge 2019, Ann Intern Med (RituxME)",
+     "n": "77 vs 74",
+     "design": "phase III double-blind RCT, 5 Norwegian centres",
+     "result": "Response 26.0% rituximab vs 35.1% placebo, p=0.22; no secondary benefit",
+     "url": "https://doi.org/10.7326/M18-1451",
+     "verified": true
+    },
+    {
+     "cite": "Rekeland 2024, PLoS One",
+     "n": "RituxME 151 + CycloME 40 (75.7% / 94.4% followed)",
+     "design": "6-year follow-up of two trials",
+     "result": "SF-36 PF at 6 yr 45.5 rituximab vs 43.1 placebo; SF-36 PF >=70 in 27.6% vs 20.4%",
+     "url": "https://doi.org/10.1371/journal.pone.0307484",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Fluge 2015, PLoS One (KTS-2-2010)",
+     "n": "29",
+     "design": "open-label phase II with maintenance",
+     "result": "18/29 reported clinically significant responses (not controlled)",
+     "url": "https://doi.org/10.1371/journal.pone.0129898",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Is there a B-cell-dependent subgroup that a whole-population trial would dilute?",
+    "Why did both arms improve by ~10 SF-36 points over 18 months?"
+   ],
+   "hypotheses": [
+    "autoimmunity",
+    "serum-factor"
+   ],
+   "test_available": "Not recommended outside trials"
+  },
+  {
+   "id": "trials-cyclophosphamide",
+   "subdomain": "Immune: broad immunosuppression",
+   "finding": "In an open-label phase II study, 55% of 40 patients responded to six IV cyclophosphamide infusions, and many responders stayed improved at 6 years, but there was no control arm.",
+   "grade": "early",
+   "plain": "A chemotherapy drug that suppresses the immune system was followed by improvement in about half of a small Norwegian group, but without a comparison group the effect cannot be separated from natural improvement or placebo.",
+   "detail": "CycloME (Rekeland 2020): 600-700 mg/m2 every 4 weeks x6; 22/40 (55%) responders; SF-36 PF 35.4 to 54.4 at 18 months and 56.7 at 6 years; 44.1% had SF-36 PF >=70 at 6 years versus 20.4% of RituxME placebo patients (different trial, not randomised). Nausea in ~90%; 11 serious adverse events in 8 patients. Response was higher in carriers of HLA-DQB1*03:03 and/or HLA-C*07:04 (83% vs 43%), an unreplicated post hoc finding. The authors themselves advise against use outside trials because of toxicity (infertility, bladder and cancer risk).",
+   "studies": [
+    {
+     "cite": "Rekeland 2020, Front Med",
+     "n": "40",
+     "design": "open-label phase II",
+     "result": "55% responders; 68% of responders still improved at 3-4 years",
+     "url": "https://doi.org/10.3389/fmed.2020.00162",
+     "verified": true
+    },
+    {
+     "cite": "Rekeland 2024, PLoS One",
+     "n": "36 of 40 followed",
+     "design": "6-year follow-up",
+     "result": "SF-36 PF 56.7 at 6 yr; 17.6% at >=90 (normal range)",
+     "url": "https://doi.org/10.1371/journal.pone.0307484",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "open_questions": [
+    "Would a randomised trial against an active-placebo reproduce the effect?",
+    "Does the HLA association replicate (HLA-C*07:04 also appears in other ME/CFS genetic reports)?"
+   ],
+   "hypotheses": [
+    "autoimmunity",
+    "immune-exhaustion"
+   ],
+   "test_available": "Not recommended outside trials"
+  },
+  {
+   "id": "trials-daratumumab",
+   "subdomain": "Immune: plasma-cell depletion",
+   "finding": "In an open-label pilot, 6 of 10 women with moderate-to-severe ME/CFS improved markedly after the anti-CD38 antibody daratumumab, and low baseline NK-cell count predicted non-response.",
+   "grade": "early",
+   "plain": "A drug that removes long-lived antibody-producing plasma cells was followed by large, lasting improvements in six of ten patients. This is the most striking recent signal, but it is ten people with no placebo group.",
+   "detail": "Fluge 2025: 4-7 subcutaneous injections after a 12-week run-in. Mean SF-36 PF 25.9 to 55.0 at 8-9 months (p=0.002); in the 6 responders 32.2 to 78.3; 5 sustained improvement (SF-36 PF ~88) with step counts above 10,000/day for weeks. Mean steps 3,359 to 5,862. IgG fell 54% in responders vs 40% in non-responders. Low baseline NK-cell counts associated with no response. No serious adverse events. A randomised trial is planned in Norway; Charité is pursuing a related approach with inebilizumab. Given RituxME's ~35% placebo response, n=10 open-label cannot establish efficacy.",
+   "studies": [
+    {
+     "cite": "Fluge 2025, Front Med",
+     "n": "10",
+     "design": "open-label pilot (EudraCT 2022-000281-18)",
+     "result": "6/10 marked improvement; SF-36 PF 25.9 to 55.0 (p=0.002)",
+     "url": "https://doi.org/10.3389/fmed.2025.1607353",
+     "verified": true
+    },
+    {
+     "cite": "Rucker, The Sick Times 2026 (conference report)",
+     "n": "10",
+     "design": "follow-up talk, Berlin 2026",
+     "result": "Fluge reported 5 of 6 responders still in remission at 2-3 years",
+     "url": "https://thesicktimes.org/2026/05/26/international-me-cfs-conference-roundup-setbacks-and-new-hopes-for-therapeutic-research/",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "open_questions": [
+    "Does the response survive randomisation and blinding?",
+    "Is NK-cell count a genuine predictor or a chance correlation in n=10?",
+    "Which antibodies, if any, are being removed?"
+   ],
+   "hypotheses": [
+    "autoimmunity",
+    "serum-factor"
+   ],
+   "test_available": "Research only (trial planned in Norway)"
+  },
+  {
+   "id": "trials-immunoadsorption",
+   "subdomain": "Immune: antibody removal",
+   "finding": "Removing antibodies by immunoadsorption was no better than a sham procedure in two controlled trials (IAMPOCO, n=40; IA-PACS-CFS, n=65), although open-label series had reported 50-70% responders.",
+   "grade": "refuted",
+   "plain": "Filtering antibodies out of the blood seemed to help in uncontrolled studies. When patients were compared with others who had a fake procedure, both groups improved similarly.",
+   "detail": "Stein 2025 (open-label, post-COVID ME/CFS with raised beta2-adrenergic receptor antibodies, n=20): 70% 'responders', SF-36 PF +17.75 at 4 weeks; antibody fall did not distinguish responders. IAMPOCO (Mainz, tryptophan adsorbers, patient-blinded sham crossover, n=40): no difference on the Post-COVID Functional Scale (OR 1.17, p=0.771) or fatigue, cognition, grip strength; 24 vs 10 adverse events. IA-PACS-CFS (Charité, 44 IA vs 21 sham, 5 sessions): 'no statistically or clinically significant differences' on Chalder fatigue at day 60 (preliminary, conference). Critics note IA-PACS-CFS did not select for autoantibody-positive patients; IAMPOCO removed GPCR antibodies and still showed no benefit. A 2025 antigen-profiling study found no elevated GPCR autoantibodies in ME/CFS at all.",
+   "studies": [
+    {
+     "cite": "Stein 2025, Lancet Reg Health Eur",
+     "n": "20",
+     "design": "prospective open-label cohort (repeat IA, beta2-AR antibody positive)",
+     "result": "70% responders at 4 weeks; no control",
+     "url": "https://doi.org/10.1016/j.lanepe.2024.101161",
+     "verified": true
+    },
+    {
+     "cite": "Stortz/Kraus et al. 2026, IAMPOCO (Mainz repository; Lancet Reg Health Eur correspondence)",
+     "n": "40",
+     "design": "randomised patient-blinded sham-controlled crossover",
+     "result": "No difference: PCFS OR 1.17, p=0.771; no secondary benefit",
+     "url": "https://openscience.ub.uni-mainz.de/handle/20.500.12030/16359",
+     "verified": true
+    },
+    {
+     "cite": "IA-PACS-CFS (Charité), presented 2026",
+     "n": "44 vs 21",
+     "design": "double-blind sham-controlled RCT",
+     "result": "Failed primary endpoint (Chalder fatigue, day 60)",
+     "url": "https://thesicktimes.org/2026/05/26/international-me-cfs-conference-roundup-setbacks-and-new-hopes-for-therapeutic-research/",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Stein, conference case series 2026",
+     "n": "15",
+     "design": "uncontrolled, autoantibody-positive",
+     "result": "7/15 responded",
+     "url": "https://thesicktimes.org/2026/05/26/international-me-cfs-conference-roundup-setbacks-and-new-hopes-for-therapeutic-research/",
+     "verified": true
+    },
+    {
+     "cite": "Wossidlo 2026, Infection",
+     "n": "18",
+     "design": "prospective exploratory, uncontrolled",
+     "result": "Reports changes in autoantibodies and performance after 5 sessions",
+     "url": "https://doi.org/10.1007/s15010-026-02914-8",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Does an autoantibody-selected subgroup benefit in a sham-controlled design?",
+    "Are the measured GPCR antibodies meaningful at all, given negative antigen-profiling data?"
+   ],
+   "hypotheses": [
+    "autoimmunity",
+    "serum-factor"
+   ],
+   "test_available": "Not recommended outside trials; GPCR antibody tests (CellTrend) are commercial but of unproven meaning"
+  },
+  {
+   "id": "trials-bc007",
+   "subdomain": "Immune: GPCR-antibody neutralisation",
+   "finding": "The aptamer BC007 (rovunaptabin) failed to beat placebo in the company's 114-person long-COVID trial; a 30-person investigator-led trial reported secondary-endpoint gains.",
+   "grade": "contested",
+   "plain": "A drug designed to neutralise antibodies against blood-vessel and heart receptors was tested twice in long COVID. The larger trial found no benefit; a smaller exploratory one reported improvements on fatigue scales.",
+   "detail": "reCOVer (Erlangen, Hohberger 2025): n=30 with GPCR autoantibodies, primary endpoint safety (9 vs 5 adverse events, NS); secondary endpoints improved (FACIT fatigue p=0.038, Bell score p=0.0004, FSS p=0.009) in an exploratory crossover analysis. BLOC (Berlin Cures, NCT05911009, ~114 participants, 19 sites): topline November 2024 showed no difference from placebo; data unpublished; the company stopped operating. The negative result is larger but unpublished; the positive one is small, exploratory and multiplicity-prone. Combined with the immunoadsorption sham trials and the negative antigen-profiling study, the GPCR-autoantibody route has weakened.",
+   "studies": [
+    {
+     "cite": "Hohberger 2025, eClinicalMedicine (reCOVer)",
+     "n": "30",
+     "design": "phase IIa double-blind placebo-controlled crossover RCT",
+     "result": "Safety primary met; secondary fatigue/QoL improvements",
+     "url": "https://doi.org/10.1016/j.eclinm.2025.103358",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Berlin Cures BLOC trial topline, 2024 (NCT05911009)",
+     "n": "~114",
+     "design": "phase II double-blind RCT",
+     "result": "No significant effect vs placebo (company announcement; unpublished)",
+     "url": "https://clinicaltrials.gov/study/NCT05911009",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Will the BLOC data be published?",
+    "Is there any validated assay for functional GPCR antibodies?"
+   ],
+   "hypotheses": [
+    "autoimmunity",
+    "vascular-endothelial"
+   ],
+   "test_available": "Not available"
+  },
+  {
+   "id": "trials-ivig",
+   "subdomain": "Immune: immunoglobulin",
+   "finding": "IVIG has no consistent controlled evidence: 1990s ME/CFS RCTs conflicted, and a 30-person trial in autoimmune POTS found no difference from albumin.",
+   "grade": "contested",
+   "plain": "Infusions of pooled antibodies from donors are sometimes used for severe patients. Old trials gave mixed answers and the most recent small trial in POTS found the same improvement with a volume-matched control infusion.",
+   "detail": "iSTAND (Vernino 2024): 16 IVIG vs 14 albumin, 0.4 g/kg x8 over 12 weeks; COMPASS-31 change -5.5 vs -10.6 (p=0.63); responders 46.7% vs 38.5% (NS). Albumin also expands volume, so the comparator may have masked or matched a volume effect. 1990s ME/CFS RCTs: Lloyd 1990 (n=49) positive, Peterson 1990 (n=30) negative, Vollmer-Conna 1997 (n=99) negative. In the Eckey/Xiao 2025 patient survey IVIG was rated among the most helpful in the severe multisystemic cluster (self-report, selected users). The RECOVER-AUTONOMIC IVIG arm in long-COVID POTS has not yet reported (as of Oct 2026).",
+   "studies": [
+    {
+     "cite": "Vernino 2024, Clin Auton Res (iSTAND)",
+     "n": "16 vs 14",
+     "design": "RCT vs albumin",
+     "result": "No difference in COMPASS-31 (p=0.629)",
+     "url": "https://doi.org/10.1007/s10286-024-01020-9",
+     "verified": true
+    },
+    {
+     "cite": "Lloyd 1990, Am J Med",
+     "n": "49",
+     "design": "RCT",
+     "result": "Benefit reported",
+     "url": "https://doi.org/10.1016/0002-9343(90)90173-b",
+     "verified": true
+    },
+    {
+     "cite": "Sjogren 2024, Clin Ther",
+     "n": "ME/CFS",
+     "design": "SCIG open study",
+     "result": "Case series, 17 infection-related ME/CFS on low-dose subcutaneous IgG for 5 weeks: improved symptoms and quality of life; uncontrolled",
+     "url": "https://doi.org/10.1016/j.clinthera.2024.05.010",
+     "verified": true
+    },
+    {
+     "cite": "McAlpine 2024, Neurol Neuroimmunol Neuroinflamm",
+     "n": "LC SFN",
+     "design": "IVIG",
+     "result": "improvement",
+     "url": "https://doi.org/10.1212/nxi.0000000000200244",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Vollmer-Conna 1997, Am J Med",
+     "n": "99",
+     "design": "RCT, adolescents/adults",
+     "result": "No benefit over placebo",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/9236484/",
+     "verified": true
+    },
+    {
+     "cite": "Peterson 1990, Am J Med",
+     "n": "30",
+     "design": "RCT",
+     "result": "No benefit",
+     "url": "https://doi.org/10.1016/0002-9343(90)90172-a",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "What will RECOVER-AUTONOMIC's IVIG arm show?",
+    "Is there a small-fibre-neuropathy subgroup that responds?"
+   ],
+   "hypotheses": [
+    "autoimmunity",
+    "autonomic-small-fibre"
+   ],
+   "test_available": "Prescribed in some specialist clinics; costly"
+  },
+  {
+   "id": "trials-rintatolimod",
+   "subdomain": "Immune: TLR3 agonist",
+   "finding": "Rintatolimod (Ampligen) gave a modest placebo-adjusted gain in treadmill time in a 234-person phase III trial, but the result was borderline and the FDA declined approval.",
+   "grade": "contested",
+   "plain": "An immune-stimulating drug given by drip twice a week helped exercise time a little in one large company trial; regulators did not find this convincing.",
+   "detail": "AMP-516 (Strayer 2012): 40 weeks IV 400 mg twice weekly; intention-to-treat placebo-adjusted exercise tolerance +21.3% (p=0.047), +28% after compliance correction; reduced use of symptomatic drugs (p=0.048). Lead authors employed by the manufacturer. FDA issued a complete response letter in 2009 and has not approved it. A 2020 post hoc analysis suggested better response in illness of 2-8 years' duration. Not replicated by an independent group.",
+   "studies": [
+    {
+     "cite": "Strayer 2012, PLoS One",
+     "n": "234",
+     "design": "phase III double-blind RCT, 12 sites",
+     "result": "Exercise tolerance +21.3% vs placebo (p=0.047)",
+     "url": "https://doi.org/10.1371/journal.pone.0031334",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Strayer 2020, PLoS One (post hoc)",
+     "n": "ITT population",
+     "design": "post hoc subgroup",
+     "result": "Benefit concentrated in 2-8 years' duration (hypothesis-generating)",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7595369",
+     "verified": false
+    }
+   ],
+   "open_questions": [
+    "Would an independent trial with a pre-specified duration subgroup replicate?"
+   ],
+   "hypotheses": [
+    "innate-hyperactivation",
+    "viral-persistence"
+   ],
+   "test_available": "Expanded access in the US only"
+  },
+  {
+   "id": "trials-temelimab",
+   "subdomain": "Immune/viral: HERV-W",
+   "finding": "The anti-HERV-W envelope antibody temelimab did not improve fatigue versus placebo in 203 HERV-W-positive long-COVID patients.",
+   "grade": "refuted",
+   "plain": "A drug aimed at a dormant virus-like gene product that can be switched on after infection did not help long-COVID fatigue in a proper trial.",
+   "detail": "GNC-501 (GeNeuro, 2024): IV temelimab vs placebo, primary endpoint 3-point fall in PROMIS Fatigue SF-7a at week 24; no clinically meaningful difference and most secondary endpoints negative; well tolerated. Company suggested shorter disease duration or changes in HERV-W status may matter (post hoc). Company press release; full peer-reviewed paper not seen.",
+   "studies": [
+    {
+     "cite": "GeNeuro 2024, GNC-501 topline (company release)",
+     "n": "203",
+     "design": "phase II double-blind RCT",
+     "result": "Primary fatigue endpoint not met",
+     "url": "https://www.fiercebiotech.com/biotech/geneuros-long-covid-trial-fails-triggering-layoffs-and-search-strategic-alternatives",
+     "verified": false
+    }
+   ],
+   "contradicting": [],
+   "open_questions": [
+    "Is HERV-W activation a marker without causal role?"
+   ],
+   "hypotheses": [
+    "viral-persistence",
+    "innate-hyperactivation"
+   ],
+   "test_available": "Not available"
+  },
+  {
+   "id": "trials-rapamycin",
+   "subdomain": "Immune/metabolic: mTOR inhibition",
+   "finding": "Low-dose rapamycin (6 mg weekly) was followed by self-reported improvement in about three-quarters of completers in an uncontrolled decentralised study; randomised trials are pending.",
+   "grade": "early",
+   "plain": "A low weekly dose of an immune-modulating drug thought to restart cellular clean-up (autophagy) was followed by improvement in many patients, but no one in the study got a placebo.",
+   "detail": "Ruan 2025: 86 enrolled, 70 reached day 30; 52 (74.3%) reported improvement in fatigue, PEM and orthostatic intolerance, with MFI and SF-36 gains; autophagy markers (pSer258-ATG13 down, BECLIN-1 up) moved and correlated with outcomes. No serious adverse events. Follow-on metabolomics (Gile 2026) in responders only. Uncontrolled response rates of this size are similar to placebo responses in RCTs (35-40%+) plus attrition bias. The Mount Sinai placebo-controlled trial in long COVID (NCT06960928, ~80-90) ends Nov 2026.",
+   "studies": [
+    {
+     "cite": "Ruan 2025, J Transl Med",
+     "n": "86 (70 assessed)",
+     "design": "decentralised open-label",
+     "result": "74.3% improved; autophagy markers changed",
+     "url": "https://doi.org/10.1186/s12967-025-07213-8",
+     "verified": true
+    },
+    {
+     "cite": "Gile 2026, J Transl Med",
+     "n": "responder subset",
+     "design": "observational mechanistic follow-up",
+     "result": "Purine metabolism and mitochondrial changes in responders",
+     "url": "https://doi.org/10.1186/s12967-026-08575-3",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "open_questions": [
+    "Will the Mount Sinai RCT confirm benefit?",
+    "Can autophagy markers select responders prospectively?"
+   ],
+   "hypotheses": [
+    "mitochondrial-energy",
+    "immune-exhaustion"
+   ],
+   "test_available": "Off-label prescription in some US clinics; research only in UK"
+  },
+  {
+   "id": "trials-paxlovid",
+   "subdomain": "Antiviral: SARS-CoV-2",
+   "finding": "Three randomised trials of nirmatrelvir-ritonavir (Paxlovid) for 15-25 days in established long COVID (total ~1,200 people) found no benefit on any phenotype.",
+   "grade": "refuted",
+   "plain": "If leftover coronavirus were driving long COVID, an antiviral might help. Three good trials found it did not, at least at the doses and durations tested.",
+   "detail": "RECOVER-VITAL (Baden 2026): 959 randomised to 15 or 25 days vs placebo-ritonavir, cognitive, autonomic and exercise phenotypes; no primary benefit (e.g. autonomic -6.4%, 95% CI -18.5 to 5.7). STOP-PASC (Stanford, n=155, 15 days) and PAX LC (Yale, n=100, 15 days, PROMIS-29) also null. STOP-PASC immune profiling found no EBV reactivation or microclot differences versus controls. The trials do not exclude a role for persistence in tissue reservoirs that this drug fails to reach, or effects in very early or highly selected patients.",
+   "studies": [
+    {
+     "cite": "Baden 2026, Lancet Infect Dis (RECOVER-VITAL)",
+     "n": "959",
+     "design": "phase 2 double-blind RCT, 69 US sites",
+     "result": "No benefit for any phenotype at day 90",
+     "url": "https://doi.org/10.1016/S1473-3099(26)00406-8",
+     "verified": true
+    },
+    {
+     "cite": "Sawano 2025, Lancet Infect Dis (PAX LC)",
+     "n": "100",
+     "design": "phase 2 double-blind RCT",
+     "result": "No change in PROMIS-29 physical score vs placebo",
+     "url": "https://medicine.yale.edu/news-article/does-paxlovid-reduce-long-covid-symptoms-yale-led-trial-finds-out/",
+     "verified": false
+    },
+    {
+     "cite": "Geng 2024, JAMA Intern Med (STOP-PASC)",
+     "n": "155",
+     "design": "double-blind RCT",
+     "result": "No benefit",
+     "url": "https://doi.org/10.1001/jamainternmed.2024.2007",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "open_questions": [
+    "Would longer courses, combination antivirals or monoclonal antibodies (trials under way) reach tissue reservoirs?",
+    "Is there a biomarker of persistent antigen that would select responders?"
+   ],
+   "hypotheses": [
+    "viral-persistence"
+   ],
+   "test_available": "Not recommended for long COVID"
+  },
+  {
+   "id": "trials-valganciclovir",
+   "subdomain": "Antiviral: herpesviruses",
+   "finding": "Valganciclovir in 30 patients selected for high HHV-6 and EBV antibody levels improved some secondary fatigue and cognition scores in a small RCT; it has not been replicated.",
+   "grade": "early",
+   "plain": "Antivirals against herpesviruses have been tried in patients with high antibody levels, with modest results in one small trial. High antibodies show past infection, not necessarily active virus.",
+   "detail": "Montoya 2013: 2:1 randomised, 6 months; reported benefit on MFI mental fatigue (p=0.039), Fatigue Severity Scale (p=0.006) and cognition (p=0.025); primary endpoint detail not confirmed this session. Preceded by an open-label series (Kogelnik 2006, 9/12 near-resolution). Neutropenia risk requires monitoring. Lerner's valacyclovir/valganciclovir EBV-subset series are uncontrolled. Selection by IgG titre is a weak marker of active replication.",
+   "studies": [
+    {
+     "cite": "Montoya 2013, J Med Virol",
+     "n": "30",
+     "design": "double-blind RCT 2:1",
+     "result": "Secondary fatigue/cognition improvements",
+     "url": "https://doi.org/10.1002/jmv.23713",
+     "verified": true
+    },
+    {
+     "cite": "Kogelnik 2006, J Clin Virol",
+     "n": "12",
+     "design": "open-label",
+     "result": "9/12 near resolution",
+     "url": "https://doi.org/10.1016/s1386-6532(06)70009-9",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "open_questions": [
+    "Would selection by viral DNA (PCR) rather than antibody titre identify responders?"
+   ],
+   "hypotheses": [
+    "herpes-reactivation",
+    "viral-persistence"
+   ],
+   "test_available": "EBV/CMV/HHV-6 PCR and serology are clinically available; antiviral use off-label"
+  },
+  {
+   "id": "trials-ldn",
+   "subdomain": "Neuro-immune: low-dose naltrexone",
+   "finding": "The first sizeable placebo-controlled trial of low-dose naltrexone in post-COVID ME/CFS (66 vs 71, 16 weeks, up to 4.5 mg) found no fatigue benefit, with over 40% improving on placebo.",
+   "grade": "refuted",
+   "plain": "Low-dose naltrexone is widely used off-label and many patients report benefit. In a proper trial, the drug did not reduce fatigue more than placebo. Pain and subgroup results are still being analysed.",
+   "detail": "The trial is Canadian (Nacul, University of British Columbia; NCT05430152), presented at the Berlin International ME/CFS Conference, May 2026; preliminary and unpublished. Earlier evidence was retrospective (Polo 2019, n=218, 74% self-reported benefit) or uncontrolled long-COVID series. The LIFT trial (pyridostigmine x LDN factorial, n=160, Harvard/OMF, NCT06366724) and a RECOVER paediatric trial are pending. Effects on pain, sleep or specific subgroups remain possible.",
+   "studies": [
+    {
+     "cite": "Nacul et al., presented May 2026 (UBC; NCT05430152)",
+     "n": "66 vs 71",
+     "design": "double-blind placebo-controlled RCT, 16 weeks",
+     "result": "Primary (fatigue) not met; >40% placebo responders",
+     "url": "https://thesicktimes.org/2026/05/26/international-me-cfs-conference-roundup-setbacks-and-new-hopes-for-therapeutic-research/",
+     "verified": true
+    },
+    {
+     "cite": "Naik 2026 (preprint) RCT",
+     "n": "160",
+     "design": "RCT",
+     "result": "no benefit of LDN",
+     "url": "https://doi.org/10.64898/2026.10.22.26363582",
+     "verified": true
+    },
+    {
+     "cite": "Tamariz 2024, Clin Ther",
+     "n": "ME/CFS",
+     "design": "retrospective",
+     "result": "reported benefit (uncontrolled)",
+     "url": "https://doi.org/10.1016/j.clinthera.2023.12.009",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Polo 2019, Fatigue: Biomed Health Behav",
+     "n": "218",
+     "design": "retrospective chart review",
+     "result": "74% reported benefit",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Polo+low+dose+naltrexone+chronic+fatigue+2019",
+     "verified": false
+    }
+   ],
+   "open_questions": [
+    "Does LDN help pain or a pain-predominant subgroup?",
+    "What will the LIFT factorial show?"
+   ],
+   "hypotheses": [
+    "neuroinflammation",
+    "innate-hyperactivation"
+   ],
+   "test_available": "Private/off-label prescription"
+  },
+  {
+   "id": "trials-aripiprazole",
+   "subdomain": "Neuro: low-dose aripiprazole",
+   "finding": "In a retrospective single-clinic review, 74% of 101 patients on very low-dose aripiprazole (mostly 0.25-2 mg) reported improvement; there is no randomised trial.",
+   "grade": "early",
+   "plain": "A tiny dose of an antipsychotic drug, thought to act on dopamine and brain immune cells, was linked to improvement in a clinic's records, but this kind of study cannot rule out placebo or selective reporting.",
+   "detail": "Crosby 2021 (Stanford): 101 patients; ~74% reported improvement in brain fog, fatigue, unrefreshing sleep or energy; side effects included insomnia, akathisia, vivid dreams. Retrospective, no control, outcomes from clinic notes. Rationale (microglial modulation, dopamine partial agonism) is speculative. No RCT reported as of Oct 2026.",
+   "studies": [
+    {
+     "cite": "Crosby 2021, J Transl Med",
+     "n": "101",
+     "design": "retrospective single-clinic",
+     "result": "74% improved",
+     "url": "https://doi.org/10.1186/s12967-021-02721-9",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "open_questions": [
+    "Would a placebo-controlled trial confirm benefit?"
+   ],
+   "hypotheses": [
+    "neuroinflammation"
+   ],
+   "test_available": "Off-label prescription"
+  },
+  {
+   "id": "trials-pyridostigmine",
+   "subdomain": "Circulation: cholinergic / preload",
+   "finding": "A single 60 mg pyridostigmine dose raised peak oxygen uptake relative to placebo on a repeat invasive exercise test in 45 ME/CFS patients with preload failure, largely because the placebo group got worse; longer trials are negative or pending.",
+   "grade": "early",
+   "plain": "Pyridostigmine boosts nerve signalling that tightens veins and returns blood to the heart. In a one-day lab study it stopped exercise capacity dropping on a second test. Whether it helps daily life is untested; the factorial LIFT trial should answer that.",
+   "detail": "Joseph/Systrom 2022: 23 vs 22; peak VO2 +13.3 vs -40.2 mL/min (difference ~54 mL/min), with cardiac output and right atrial pressure maintained instead of falling; oxygen extraction unchanged. Same-day laboratory endpoint. São Paulo 2025 (ATS abstract, long COVID with RV preload dysfunction, n=32, up to 360 mg/day for 6-10 weeks): negative overall (p=0.35), borderline +103 mL in a post hoc subgroup. Kanjwal 2011 POTS retrospective (n=203): 43% improved, 19% stopped for GI effects. LIFT (n=160, 13 weeks, FUNCAP-55 and CPET endpoints) has not reported.",
+   "studies": [
+    {
+     "cite": "Joseph 2022, Chest",
+     "n": "45 (23 vs 22)",
+     "design": "single-dose double-blind RCT between two iCPETs",
+     "result": "Peak VO2 +13 vs -40 mL/min",
+     "url": "https://doi.org/10.1016/j.chest.2022.04.146",
+     "verified": true
+    },
+    {
+     "cite": "Schlomer 2025, Front Neurosci",
+     "n": "ME/CFS",
+     "design": "pyridostigmine/handgrip",
+     "result": "grip effect",
+     "url": "https://doi.org/10.3389/fnins.2025.1637838",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "São Paulo group 2025, ATS abstract",
+     "n": "32",
+     "design": "RCT 6-10 weeks, long COVID",
+     "result": "Negative overall (p=0.35)",
+     "url": "https://www.atsjournals.org/",
+     "verified": false
+    },
+    {
+     "cite": "Kanjwal 2011, Pacing Clin Electrophysiol",
+     "n": "203",
+     "design": "retrospective POTS",
+     "result": "43% improved; 19% stopped for GI effects",
+     "url": "https://doi.org/10.1111/j.1540-8159.2011.03047.x",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Does LIFT show benefit on daily function?",
+    "Does preload failure on iCPET predict response?"
+   ],
+   "hypotheses": [
+    "low-blood-volume-preload",
+    "autonomic-small-fibre"
+   ],
+   "test_available": "Licensed drug (myasthenia); off-label use; iCPET research only"
+  },
+  {
+   "id": "trials-ivabradine",
+   "subdomain": "Circulation: heart-rate control",
+   "finding": "Ivabradine lowered standing heart rate but did not improve symptoms in 181 people with long-COVID POTS (RECOVER-AUTONOMIC), despite an earlier positive 22-person crossover in hyperadrenergic POTS.",
+   "grade": "refuted",
+   "plain": "Slowing a racing heart is not the same as making people feel better. A large trial in long-COVID POTS showed exactly that.",
+   "detail": "Taub 2021: 22 hyperadrenergic POTS (noradrenaline >600 pg/mL), 1-month crossover; lower HR and better RAND-36 QoL. RECOVER-AUTONOMIC (2026, ACC late-breaker): 181 adults, 12 weeks; no meaningful change in orthostatic intolerance or long-COVID symptoms vs placebo, though supine-to-standing HR change fell significantly. The factorial coordinated non-pharmacological care arm (diet-mediated volume expansion, rehab, education) is reported separately. Full paper pending. Whether a hyperadrenergic subgroup benefits remains open.",
+   "studies": [
+    {
+     "cite": "Taub 2021, J Am Coll Cardiol",
+     "n": "22",
+     "design": "double-blind crossover RCT",
+     "result": "Lower HR and better QoL",
+     "url": "https://doi.org/10.1016/j.jacc.2020.12.029",
+     "verified": true
+    },
+    {
+     "cite": "RECOVER-AUTONOMIC ivabradine, ACC 2026 (NIH release)",
+     "n": "181",
+     "design": "double-blind placebo-controlled RCT",
+     "result": "No symptom benefit; HR change reduced",
+     "url": "https://recovercovid.org/news/recover-autonomic-clinical-trial-results-shared-2026-acc-conference",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "open_questions": [
+    "Does a noradrenaline-defined hyperadrenergic subgroup respond?"
+   ],
+   "hypotheses": [
+    "autonomic-small-fibre",
+    "low-blood-volume-preload"
+   ],
+   "test_available": "Licensed drug; off-label for POTS"
+  },
+  {
+   "id": "trials-midodrine-fludrocortisone",
+   "subdomain": "Circulation: vasoconstrictors and volume",
+   "finding": "Fludrocortisone did not beat placebo in a 100-person RCT in CFS with neurally mediated hypotension; midodrine reduces orthostatic heart rate acutely in small POTS studies but has no ME/CFS outcome trial.",
+   "grade": "refuted",
+   "plain": "Two standard drugs for low blood pressure on standing have been tried. Fludrocortisone, which makes the body hold salt, did not help in a proper trial in CFS. Midodrine tightens blood vessels and helps some POTS patients in the short term, but it has not been properly tested in ME/CFS.",
+   "detail": "Rowe 2001: fludrocortisone 0.1 mg vs placebo for 9 weeks in CFS + NMH on tilt; >=15-point wellness improvement in 14% vs 10% (p=0.76). Peterson 1998 (n=25) also negative. Midodrine: small acute crossover studies in POTS/orthostatic intolerance show lower standing HR (memory, not re-checked); risks include supine hypertension (relevant for bedbound patients). No ME/CFS RCT with function as endpoint. Grade refers to fludrocortisone; midodrine evidence is early.",
+   "studies": [
+    {
+     "cite": "Rowe 2001, JAMA",
+     "n": "100",
+     "design": "double-blind RCT",
+     "result": "14% vs 10% improved (p=0.76)",
+     "url": "https://doi.org/10.1001/jama.285.1.52",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Ross 2014, Am J Physiol (midodrine in POTS)",
+     "n": "small",
+     "design": "acute crossover",
+     "result": "Improved orthostatic tolerance acutely",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/?term=midodrine+postural+tachycardia+randomized",
+     "verified": false
+    }
+   ],
+   "open_questions": [
+    "Would a midodrine trial in ME/CFS with low-flow physiology show functional benefit?"
+   ],
+   "hypotheses": [
+    "low-blood-volume-preload",
+    "autonomic-small-fibre"
+   ],
+   "test_available": "Licensed drugs; tilt test available on NHS"
+  },
+  {
+   "id": "trials-coq10-nadh",
+   "subdomain": "Metabolic: supplements",
+   "finding": "Two Spanish RCTs of CoQ10 200 mg + NADH 20 mg (n=73, n=207) reported modest reductions in fatigue scores; CoQ10 alone failed in a 121-person long-COVID crossover trial.",
+   "grade": "contested",
+   "plain": "Supplements meant to support mitochondria produced small improvements in two trials from one group, with supplier involvement. CoQ10 on its own did nothing in long COVID.",
+   "detail": "Castro-Marrero 2015: 8 weeks, n=73; FIS-40 improved (p<0.05) with higher NAD+/NADH, CoQ10, ATP in PBMCs. Castro-Marrero 2021: 12 weeks, 104 vs 103; cognitive fatigue and FIS-40 total improved (p~0.02), SF-36 improved. Same research group, industry links; effect sizes small and not replicated independently. Hansen 2023 (Denmark, CoQ10 500 mg/day, n=121 crossover) in long COVID: no benefit.",
+   "studies": [
+    {
+     "cite": "Castro-Marrero 2015, Antioxid Redox Signal",
+     "n": "73",
+     "design": "double-blind RCT",
+     "result": "FIS-40 improved (p<0.05)",
+     "url": "https://doi.org/10.1089/ars.2014.6181",
+     "verified": true
+    },
+    {
+     "cite": "Castro-Marrero 2021, Nutrients",
+     "n": "207",
+     "design": "double-blind RCT",
+     "result": "Cognitive fatigue and FIS-40 improved",
+     "url": "https://doi.org/10.3390/nu13082658",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Hansen 2023, eClinicalMedicine",
+     "n": "121",
+     "design": "crossover RCT, long COVID",
+     "result": "CoQ10 alone: no benefit",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/36337437/",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Would an independent group replicate the CoQ10+NADH result?"
+   ],
+   "hypotheses": [
+    "mitochondrial-energy"
+   ],
+   "test_available": "Over-the-counter"
+  },
+  {
+   "id": "trials-oxaloacetate",
+   "subdomain": "Metabolic: supplements",
+   "finding": "Oxaloacetate 2 g/day reduced Chalder fatigue more than control (−25% vs −10%) in an 82-person company-run RCT in ME/CFS; a 69-person long-COVID trial missed its primary endpoint.",
+   "grade": "early",
+   "plain": "A supplement that feeds a step in energy metabolism reduced fatigue in one trial run with the manufacturer. A similar trial in long COVID did not meet its main goal.",
+   "detail": "RESTORE ME (Cash 2024): 90 days, 2,000 mg vs rice-flour control; fatigue −25% vs −10% (between-group p=0.0039); secondary analysis (Vernon 2025) showed cognitive gains at day 60. Sponsor (Terra Biological) involvement. REGAIN (long COVID, n=69, 42 days): primary Chalder negative, secondary cognition gains. No independent replication.",
+   "studies": [
+    {
+     "cite": "Cash 2024, Front Neurol (RESTORE ME)",
+     "n": "82",
+     "design": "double-blind controlled RCT",
+     "result": "Fatigue −25% vs −10%, p=0.0039",
+     "url": "https://doi.org/10.3389/fneur.2024.1483876",
+     "verified": true
+    },
+    {
+     "cite": "Vernon 2025, Front Neurol",
+     "n": "82",
+     "design": "secondary analysis",
+     "result": "Cognitive improvement at day 60 (p=0.034)",
+     "url": "https://doi.org/10.3389/fneur.2025.1691147",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "REGAIN 2025 (long COVID)",
+     "n": "69",
+     "design": "RCT",
+     "result": "Primary endpoint not met",
+     "url": "https://clinicaltrials.gov/",
+     "verified": false
+    }
+   ],
+   "open_questions": [
+    "Independent replication with objective endpoints (actigraphy)?"
+   ],
+   "hypotheses": [
+    "mitochondrial-energy",
+    "metabolic-trap-ido"
+   ],
+   "test_available": "Over-the-counter"
+  },
+  {
+   "id": "trials-hbot",
+   "subdomain": "Physical: hyperbaric oxygen",
+   "finding": "Forty daily sessions of hyperbaric oxygen at 2.0 ATA improved cognition and symptoms versus sham in a 73-person long-COVID trial, but ten sessions at 2.4 bar showed no benefit in an 80-person sham-controlled trial.",
+   "grade": "contested",
+   "plain": "Breathing pure oxygen under pressure helped in an Israeli trial with 40 sessions, but not in a Swedish trial with 10 sessions. Dose may matter, or the positive trial may not hold up. It needs daily travel, which many patients cannot do.",
+   "detail": "Zilberman-Itskovich 2022 (Tel Aviv): 37 vs 36, 40 sessions, 5/week, 100% O2 at 2.0 ATA for 90 min with air breaks, sham at 1.03 ATA air; global cognition improved (d≈0.5, p=0.038), plus energy, sleep, psychiatric symptoms and pain; benefits persisted at ~1-year follow-up in 31 patients (Hadanny 2024); a cardiac substudy showed improved GLS. HOT-LoCO (Kjellberg 2025, Sweden): 40 vs 40, 10 sessions over 6 weeks, 100% O2 at 2.4 bar 90 min vs air at 1.2-1.34 bar; RAND-36 PF difference 0.63 (95% CI −7.0 to 8.3, p=0.87); both groups improved. Charité (Kedor, 2026 conference): 20 vs 40 sessions; improvements only in the 40-session group (no sham arm reported). The 'sham' pressure differs between trials and blinding of pressure is imperfect. No ME/CFS (non-COVID) RCT.",
+   "studies": [
+    {
+     "cite": "Zilberman-Itskovich 2022, Sci Rep",
+     "n": "73",
+     "design": "double-blind sham RCT, 40 sessions at 2.0 ATA",
+     "result": "Cognition, energy, sleep, pain improved",
+     "url": "https://doi.org/10.1038/s41598-022-15565-0",
+     "verified": true
+    },
+    {
+     "cite": "Hadanny 2024, Sci Rep",
+     "n": "31",
+     "design": "1-year follow-up of RCT HBOT arm",
+     "result": "Improvements maintained",
+     "url": "https://doi.org/10.1038/s41598-024-53091-3",
+     "verified": true
+    },
+    {
+     "cite": "Kim 2025, medRxiv (preprint)",
+     "n": "LC",
+     "design": "HBOT trial",
+     "result": "Open-label, 30 patients, 40 HBOT sessions: SF-36 physical function improved (g=0.71); no control arm",
+     "url": "https://doi.org/10.1101/2025.10.29.25339096",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Kjellberg 2025, BMJ Open (HOT-LoCO)",
+     "n": "80",
+     "design": "double-blind sham RCT, 10 sessions at 2.4 bar",
+     "result": "No difference (RAND-36 PF diff 0.63, p=0.87)",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11997836/",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Is there a dose-response (sessions x pressure) in a single trial with proper sham?",
+    "Does it apply to non-COVID ME/CFS?"
+   ],
+   "hypotheses": [
+    "small-vessel-capillary",
+    "mitochondrial-energy",
+    "neuroinflammation"
+   ],
+   "test_available": "Private clinics; not NHS-funded for this use"
+  },
+  {
+   "id": "trials-pace-get-cbt",
+   "subdomain": "Rehabilitation: GET and CBT",
+   "finding": "PACE (n=641) reported modest gains in self-rated fatigue and function with CBT and graded exercise, but these were not matched by objective measures, used Oxford criteria, and vanished between groups by 2.5 years.",
+   "grade": "contested",
+   "plain": "The largest trial of talking therapy and gradually increasing exercise said both helped moderately. Re-analysis using the trial's own original plan found the benefits much smaller and limited to questionnaires that unblinded patients filled in.",
+   "detail": "White 2011: CBT and GET vs specialist medical care: Chalder fatigue −3.4 and −3.2 points, SF-36 PF +7.1 and +9.4 at 52 weeks; adaptive pacing no better than SMC. Long-term follow-up (Sharpe 2015): no between-group differences at median 31 months. Wilshire 2018 re-analysis using protocol-specified outcomes (data via FOI): CBT/GET did not significantly beat control after correction; recovery rates low (single digits to ~10%) and not different; objective measures (6-minute walk modest, step test, employment, benefits) largely null. Criticisms: Oxford criteria (fatigue only; PEM not required), outcome switching, unblinded self-report, mid-trial newsletter. Cochrane exercise review (Larun, re-dated 2024) rates evidence low-moderate and notes limited applicability to ME/CFS defined with PEM; a full update is pending.",
+   "studies": [
+    {
+     "cite": "White 2011, Lancet (PACE)",
+     "n": "641",
+     "design": "4-arm RCT",
+     "result": "Modest self-reported gains for CBT/GET; APT no effect",
+     "url": "https://doi.org/10.1016/S0140-6736(11)60096-2",
+     "verified": true
+    },
+    {
+     "cite": "Sharpe 2015, Lancet Psychiatry",
+     "n": "481 followed",
+     "design": "long-term follow-up",
+     "result": "No between-group differences at ~2.5 years",
+     "url": "https://doi.org/10.1016/S2215-0366(15)00317-X",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Wilshire 2018, BMC Psychol",
+     "n": "641 (re-analysis)",
+     "design": "protocol-based re-analysis",
+     "result": "CBT/GET not significantly better after correction; effects confined to self-report",
+     "url": "https://doi.org/10.1186/s40359-018-0218-3",
+     "verified": true
+    },
+    {
+     "cite": "Larun 2019/2024, Cochrane (CD003200)",
+     "n": "8 RCTs",
+     "design": "systematic review",
+     "result": "Exercise may slightly reduce fatigue; low-certainty; applicability to PEM-defined ME/CFS uncertain",
+     "url": "https://doi.org/10.1002/14651858.CD003200.pub9",
+     "verified": false
+    }
+   ],
+   "open_questions": [
+    "Would a blinded-assessor trial with objective endpoints in PEM-defined patients show any benefit?"
+   ],
+   "hypotheses": [
+    "sickness-behaviour"
+   ],
+   "test_available": "n/a"
+  },
+  {
+   "id": "trials-nice-2021-harms",
+   "subdomain": "Rehabilitation: guidance and harms",
+   "finding": "NICE's 2021 guideline (NG206) told clinicians not to offer graded exercise therapy, and patient surveys plus a 2026 German rehabilitation study report frequent worsening after exercise-based or even pacing-focused rehab.",
+   "grade": "several",
+   "plain": "England's health guidance body reviewed the evidence and concluded that the old exercise trials were low quality and that GET should not be offered. Large patient surveys and a German study suggest rehab programmes often make people worse.",
+   "detail": "NICE NG206 (Oct 2021): rated the GET/CBT evidence 'low' or 'very low' quality; recommends against GET or any programme based on fixed incremental increases; CBT may be offered only as supportive therapy, not as cure. Eckey/Xiao 2025 survey (n≈3,925): GET had a net score of about −72% (most harmful item). CFS_CARE (Charité, 2026 conference): a specialised rehab programme including pacing left 42 of 97 participants worse on the Bell scale, few better. Survey data are self-selected; CFS_CARE is uncontrolled and preliminary. Nevertheless the direction is consistent across sources.",
+   "studies": [
+    {
+     "cite": "NICE 2021, NG206",
+     "n": "guideline",
+     "design": "evidence review",
+     "result": "Do not offer GET; CBT only as supportive",
+     "url": "https://www.nice.org.uk/guidance/ng206",
+     "verified": true
+    },
+    {
+     "cite": "Eckey 2025, PNAS",
+     "n": "~3,925",
+     "design": "patient survey",
+     "result": "GET net −72%",
+     "url": "https://doi.org/10.1073/pnas.2426874122",
+     "verified": true
+    },
+    {
+     "cite": "Wittke/Scheibenbogen, CFS_CARE, presented 2026",
+     "n": "97",
+     "design": "uncontrolled rehab study",
+     "result": "42/97 worsened",
+     "url": "https://thesicktimes.org/2026/05/26/international-me-cfs-conference-roundup-setbacks-and-new-hopes-for-therapeutic-research/",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "White 2011, Lancet (PACE)",
+     "n": "641",
+     "design": "RCT",
+     "result": "No excess serious adverse reactions reported with GET",
+     "url": "https://doi.org/10.1016/S0140-6736(11)60096-2",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "What exactly distinguishes harmful from tolerable activity programmes?",
+    "How common is lasting deterioration after rehab in a controlled study?"
+   ],
+   "hypotheses": [
+    "sickness-behaviour",
+    "mitochondrial-energy"
+   ],
+   "test_available": "n/a"
+  },
+  {
+   "id": "trials-pacing",
+   "subdomain": "Self-management: pacing",
+   "finding": "Pacing (staying within one's energy limits) is the top-rated approach in patient surveys and NICE's recommended foundation, but it has never shown benefit in a controlled trial (adaptive pacing was no better than usual care in PACE).",
+   "grade": "early",
+   "plain": "Patients consistently rate pacing as the most helpful thing they do, and guidelines recommend it. It has not been properly tested in a trial designed with patients, so its benefit rests on consensus and self-report.",
+   "detail": "Eckey/Xiao 2025: pacing net score ~75% (highest of >150 treatments). PACE APT arm (n=160): no difference vs SMC. Critics argue APT in PACE was not the envelope-style pacing patients use. Pacing is plausible as harm avoidance (preventing PEM) rather than a treatment. Heart-rate-guided pacing studies are small and uncontrolled.",
+   "studies": [
+    {
+     "cite": "Eckey 2025, PNAS",
+     "n": "~3,925",
+     "design": "patient survey",
+     "result": "Pacing net assessment ~75%",
+     "url": "https://doi.org/10.1073/pnas.2426874122",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "White 2011, Lancet (PACE)",
+     "n": "160 APT vs 160 SMC",
+     "design": "RCT",
+     "result": "APT no better than specialist care",
+     "url": "https://doi.org/10.1016/S0140-6736(11)60096-2",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Does HR- or wearable-guided pacing reduce PEM frequency in a randomised trial?"
+   ],
+   "hypotheses": [
+    "mitochondrial-energy",
+    "low-blood-volume-preload"
+   ],
+   "test_available": "Self-management; NHS ME/CFS services"
+  },
+  {
+   "id": "trials-patient-surveys",
+   "subdomain": "Patient-reported outcomes",
+   "finding": "A 3,925-person survey rated >150 treatments; illness severity predicted perceived response more strongly than diagnosis, and symptom clusters (severe multisystemic, POTS-dominant, cognitive/pain, mild) preferred different treatments.",
+   "grade": "early",
+   "plain": "Thousands of patients rated what helped. The cheap supportive measures came top (pacing, fluids, compression), graded exercise came bottom, and different kinds of patients reported benefit from different things.",
+   "detail": "Eckey, Li, Morrison, Davis, Xiao, PNAS 2025: ME/CFS and long COVID ratings correlated (R²=0.68). Top: pacing 75%, fluids/electrolytes ~69%, compression ~62%; GET −72%. Clusters: severe multisystemic (IVIG, lymphatic drainage), POTS-dominant (compression, autonomic modulators), cognitive (CNS stimulants), mild. Self-selected social-media sample, no placebo, recall bias; useful for prioritising trials, not for efficacy claims.",
+   "studies": [
+    {
+     "cite": "Eckey 2025, PNAS",
+     "n": "~3,925",
+     "design": "online patient survey",
+     "result": "Pacing, fluids, compression highest; GET lowest; severity shaped response",
+     "url": "https://doi.org/10.1073/pnas.2426874122",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "open_questions": [
+    "Do survey-defined clusters map onto biological subgroups?"
+   ],
+   "hypotheses": [
+    "low-blood-volume-preload",
+    "autonomic-small-fibre"
+   ],
+   "test_available": "n/a"
+  },
+  {
+   "id": "trials-placebo-response",
+   "subdomain": "Trial methodology",
+   "finding": "Placebo and natural-course improvement in ME/CFS and long-COVID trials is large (35% responders in RituxME, >40% in the LDN trial, both arms improving in IVIG, HBOT and immunoadsorption trials), so uncontrolled response rates of 50-75% are uninterpretable.",
+   "grade": "replicated",
+   "plain": "In almost every controlled trial, many people on the dummy treatment also improve. This is why open-label studies that report most patients getting better cannot show a treatment works.",
+   "detail": "RituxME placebo SF-36 PF 32.3 to 45.5 at 18 months; LDN >40% placebo responders; iSTAND albumin COMPASS −10.6; HOT-LoCO both arms improved; IAMPOCO both arms improved; BLOC failure attributed partly to placebo response. Contributing factors: regression to the mean (patients enrol when worse), natural fluctuation, expectation, and post-COVID spontaneous recovery in early cohorts.",
+   "studies": [
+    {
+     "cite": "Fluge 2019, Ann Intern Med",
+     "n": "151",
+     "design": "RCT",
+     "result": "35.1% placebo response",
+     "url": "https://doi.org/10.7326/M18-1451",
+     "verified": true
+    },
+    {
+     "cite": "Vernino 2024, Clin Auton Res",
+     "n": "30",
+     "design": "RCT",
+     "result": "Albumin arm improved as much as IVIG",
+     "url": "https://doi.org/10.1007/s10286-024-01020-9",
+     "verified": true
+    },
+    {
+     "cite": "Kjellberg 2025, BMJ Open",
+     "n": "80",
+     "design": "RCT",
+     "result": "Both arms improved",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11997836/",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "open_questions": [
+    "What run-in periods and objective endpoints best reduce placebo noise?"
+   ],
+   "hypotheses": [],
+   "test_available": "n/a"
+  },
+  {
+   "id": "trials-recovery-rates",
+   "subdomain": "Natural history: recovery",
+   "finding": "Full recovery from established adult ME/CFS is uncommon: a systematic review of 14 criteria-based cohorts found a median full-recovery rate of 5% (range 0-31%) and median improvement of 39.5%.",
+   "grade": "several",
+   "plain": "Most adults with long-standing ME/CFS do not fully recover, although many improve somewhat over years. Children and people early in the illness do better.",
+   "detail": "Cairns & Hotopf 2005: 28 studies, 14 with operational CFS criteria; full recovery median 5%, improvement 39.5% (8-63%); return to work 8-30%. Better outcome with lower baseline fatigue. Adolescents have better prognosis (studies report a majority improving or recovering over 5-10 years; memory, not re-checked). RituxME placebo arm at 6 years: 7.4% reached SF-36 PF >=90. Old cohorts used heterogeneous criteria; newer prospective data in post-COVID ME/CFS (Legler 2023) show little improvement to 20 months.",
+   "studies": [
+    {
+     "cite": "Cairns & Hotopf 2005, Occup Med",
+     "n": "14 CFS cohorts",
+     "design": "systematic review",
+     "result": "Median full recovery 5%; improvement 39.5%",
+     "url": "https://doi.org/10.1093/occmed/kqi013",
+     "verified": true
+    },
+    {
+     "cite": "Rekeland 2024, PLoS One",
+     "n": "placebo arm ~54",
+     "design": "6-year follow-up",
+     "result": "7.4% placebo at SF-36 PF >=90; 14.8% worsened >=20 points",
+     "url": "https://doi.org/10.1371/journal.pone.0307484",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "open_questions": [
+    "What are recovery rates in PEM-defined adult cohorts followed prospectively from onset?"
+   ],
+   "hypotheses": [],
+   "test_available": "n/a"
+  },
+  {
+   "id": "trials-post-covid-course",
+   "subdomain": "Natural history: post-COVID ME/CFS",
+   "finding": "About 4.5% of SARS-CoV-2-infected adults in RECOVER met IOM ME/CFS criteria (vs 0.6% uninfected; HR 4.93), and those meeting Canadian criteria at Charité stayed severely ill to 20 months while other long-COVID patients improved.",
+   "grade": "several",
+   "plain": "COVID roughly quintupled the rate of new ME/CFS. People whose long COVID meets ME/CFS criteria tend not to recover over the first two years, unlike milder long COVID.",
+   "detail": "Vernon 2025 (RECOVER-Adult, n=11,785 infected, 1,439 uninfected): incidence 2.66 vs 0.93 per 100 person-years; 88.7% of post-COVID ME/CFS also met long-COVID criteria; criteria based on self-report. Legler 2023 (Charité, n=106, 3-8, 9-16, 17-20 months): PCS-ME/CFS persistently severe; lower initial grip strength predicted persistence. Kedor 2022 (n=42): about half met CCC at 6 months.",
+   "studies": [
+    {
+     "cite": "Vernon 2025, J Gen Intern Med",
+     "n": "11,785 infected vs 1,439",
+     "design": "prospective cohort",
+     "result": "4.5% vs 0.6% met ME/CFS criteria; HR 4.93",
+     "url": "https://doi.org/10.1007/s11606-024-09290-9",
+     "verified": true
+    },
+    {
+     "cite": "Legler 2023, eClinicalMedicine",
+     "n": "106",
+     "design": "prospective cohort",
+     "result": "PCS-ME/CFS severity persistent at 20 months",
+     "url": "https://doi.org/10.1016/j.eclinm.2023.102146",
+     "verified": true
+    },
+    {
+     "cite": "Kedor 2022, Nat Commun",
+     "n": "42",
+     "design": "prospective observational",
+     "result": "~half met CCC ME/CFS at 6 months",
+     "url": "https://doi.org/10.1038/s41467-022-32507-6",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "open_questions": [
+    "What fraction of post-COVID ME/CFS recovers by 5 years?"
+   ],
+   "hypotheses": [
+    "viral-persistence",
+    "autoimmunity"
+   ],
+   "test_available": "n/a"
+  },
+  {
+   "id": "trials-prevalence-sex",
+   "subdomain": "Natural history: prevalence and sex ratio",
+   "finding": "ME/CFS affects roughly 0.2-1% of adults depending on criteria (US 2021-22: 1.3% self-reported diagnosis; England: 0.16% with a hospital-recorded diagnosis), with women affected 3-4 times as often as men.",
+   "grade": "replicated",
+   "plain": "Somewhere between 1 in 100 and 1 in 500 adults have ME/CFS, depending on how it is counted. About three to four in every four patients are women.",
+   "detail": "Lim 2020 meta-analysis (46 studies): pooled prevalence 0.39%, meta-analytic 0.68% (0.48-0.97); women ~1.5-2x more often in pooled data. Vahratian 2023 (NHIS 2021-22): 1.3% of US adults (women ~1.7% vs men ~0.9%) — self-report of a clinician diagnosis plus current illness. UK: Nacul 2011 primary-care minimum 0.2%; Samms & Ponting 2025 (Hospital Episode Statistics): 100,055 diagnosed in England (0.16%), F:M 3.88:1, peaking ~6:1 in the 40s; white people ~5x more likely diagnosed, suggesting under-diagnosis. DecodeME's cohort is ~83% female. Commonly cited UK total: ~250,000-400,000 (estimate). Long COVID: ONS estimated ~2 million self-reported (~3%) in England/Scotland in 2024 (memory).",
+   "studies": [
+    {
+     "cite": "Lim 2020, J Transl Med",
+     "n": "46 studies, >1 million participants",
+     "design": "meta-analysis",
+     "result": "Pooled 0.39%; meta-analytic 0.68%",
+     "url": "https://doi.org/10.1186/s12967-020-02269-0",
+     "verified": true
+    },
+    {
+     "cite": "Vahratian 2023, NCHS Data Brief 488",
+     "n": "NHIS 2021-22",
+     "design": "national survey",
+     "result": "1.3% of US adults",
+     "url": "https://doi.org/10.15620/cdc:134504",
+     "verified": true
+    },
+    {
+     "cite": "Samms & Ponting 2025, BMC Public Health",
+     "n": "100,055 diagnosed",
+     "design": "national hospital records",
+     "result": "0.16%; F:M 3.88:1",
+     "url": "https://www.meresearch.org.uk/research/new-estimates-of-me-cfs-prevalence-in-the-uk/",
+     "verified": false
+    },
+    {
+     "cite": "Nacul 2011, BMC Med",
+     "n": "3 English regions",
+     "design": "primary care cross-sectional",
+     "result": "Minimum prevalence 0.2%",
+     "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3170215/",
+     "verified": false
+    },
+    {
+     "cite": "Bakken 2014, BMC Med",
+     "n": "Norwegian registry",
+     "design": "epidemiology",
+     "result": "bimodal age/sex incidence",
+     "url": "https://doi.org/10.1186/s12916-014-0167-5",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "open_questions": [
+    "Why the female predominance (DecodeME found few sex-specific loci)?",
+    "How much is under-diagnosis in men and ethnic minorities?"
+   ],
+   "hypotheses": [
+    "genetic-neuronal",
+    "autoimmunity"
+   ],
+   "test_available": "n/a"
+  },
+  {
+   "id": "trials-severity",
+   "subdomain": "Natural history: severity",
+   "finding": "Roughly a quarter of people with ME/CFS are estimated to be housebound or bedbound, and severity, not diagnosis, was the strongest predictor of reported treatment response.",
+   "grade": "early",
+   "plain": "A large minority are too ill to leave home. Severely ill patients are under-represented in almost every trial, so trial results may not apply to them.",
+   "detail": "The 25% severe figure (often cited from IOM 2015 and UK charity surveys) rests on clinic and survey estimates, not population sampling (memory). Eckey/Xiao 2025: severity shaped treatment ratings more than ME/CFS vs long COVID. RituxME and CycloME excluded the most severe; Fluge's daratumumab study included moderate-to-severe. The original Fluge 2016 serum effect came from severe patients and the 2026 replication used mostly moderate patients.",
+   "studies": [
+    {
+     "cite": "IOM 2015, Beyond ME/CFS",
+     "n": "report",
+     "design": "evidence review",
+     "result": "At least a quarter housebound/bedbound at some point (estimate)",
+     "url": "https://nap.nationalacademies.org/catalog/19012",
+     "verified": false
+    },
+    {
+     "cite": "Eckey 2025, PNAS",
+     "n": "~3,925",
+     "design": "patient survey",
+     "result": "Severity strongest correlate of response",
+     "url": "https://doi.org/10.1073/pnas.2426874122",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "open_questions": [
+    "Population-based severity distribution?",
+    "Trials designed for severe, bedbound patients (home-based endpoints)?"
+   ],
+   "hypotheses": [],
+   "test_available": "n/a"
+  },
+  {
+   "id": "trials-mortality",
+   "subdomain": "Natural history: mortality",
+   "finding": "In 2,147 secondary-care CFS patients in London, all-cause and cancer mortality were not raised, but suicide mortality was about seven times expected (SMR 6.85).",
+   "grade": "several",
+   "plain": "ME/CFS is not, on average, shown to shorten life in registry data, but suicide risk is markedly higher, and rare deaths from severe illness (for example malnutrition) are documented.",
+   "detail": "Roberts 2016 (SLaM CRIS, 2007-2013): 17 deaths; all-cause SMR 1.14 (0.65-1.85); cancer SMR 1.39 (0.60-2.73); suicide SMR 6.85 (2.22-15.98). Jason 2006 memorial-list analysis reported younger age at death from heart failure, cancer and suicide, but the sample is self-selected and biased. Deaths from severe ME with nutritional failure (e.g. UK coroner cases) are reported but not systematically counted. Small numbers of deaths limit precision.",
+   "studies": [
+    {
+     "cite": "Roberts 2016, Lancet",
+     "n": "2,147",
+     "design": "retrospective cohort",
+     "result": "All-cause SMR 1.14 (NS); suicide SMR 6.85",
+     "url": "https://doi.org/10.1016/S0140-6736(15)01223-4",
+     "verified": true
+    }
+   ],
+   "contradicting": [
+    {
+     "cite": "Jason 2006, Health Care Women Int",
+     "n": "166 deaths (memorial list)",
+     "design": "case series",
+     "result": "Younger mean age at death for several causes; biased sample",
+     "url": "https://doi.org/10.1080/07399330600803766",
+     "verified": true
+    }
+   ],
+   "open_questions": [
+    "Mortality in severe/very severe cohorts?",
+    "Suicide risk factors (disbelief, lack of care, pain)?"
+   ],
+   "hypotheses": [],
+   "test_available": "n/a"
+  },
+  {
+   "id": "trials-clonidine",
+   "subdomain": "Circulation: heart-rate control",
+   "finding": "Clonidine did not improve activity or symptoms in adolescent CFS (NorCAPITAL RCT) and trended toward fewer steps, despite lowering noradrenaline and CRP.",
+   "grade": "refuted",
+   "plain": "A blood-pressure drug that calms the stress system did not help teenagers with CFS and may have reduced activity.",
+   "detail": "",
+   "studies": [
+    {
+     "cite": "Sulheim 2014, JAMA Pediatr",
+     "n": "120 adolescents",
+     "design": "RCT",
+     "result": "steps -637/day vs placebo (p=.07); noradrenaline and CRP lowered; baseline higher noradrenaline and lower urinary cortisol",
+     "url": "https://doi.org/10.1001/jamapediatrics.2013.4647",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "hypotheses": [],
+   "open_questions": [],
+   "test_available": false
+  },
+  {
+   "id": "trials-ssri",
+   "subdomain": "Neuro: antidepressants",
+   "finding": "Fluoxetine did not improve fatigue in CFS in two RCTs.",
+   "grade": "refuted",
+   "plain": "An antidepressant (fluoxetine) did not help fatigue in two trials.",
+   "detail": "Subdomain label is a placeholder; propose new subdomain 'Neuro: antidepressants'.",
+   "studies": [
+    {
+     "cite": "Vercoulen 1996, Lancet",
+     "n": "96",
+     "design": "RCT",
+     "result": "no effect on fatigue",
+     "url": "https://doi.org/10.1016/s0140-6736(96)91345-8",
+     "verified": true
+    },
+    {
+     "cite": "Wearden 1998, Br J Psychiatry",
+     "n": "CFS",
+     "design": "RCT fluoxetine +/- exercise",
+     "result": "no fatigue benefit from fluoxetine",
+     "url": "https://doi.org/10.1192/bjp.172.6.485",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "hypotheses": [],
+   "open_questions": [],
+   "test_available": false
+  },
+  {
+   "id": "trials-solriamfetol",
+   "subdomain": "Neuro: wake-promoting drugs",
+   "finding": "Solriamfetol produced a fatigue benefit at week 8 but not at the primary 6-week point in a small RCT.",
+   "grade": "early",
+   "plain": "A wakefulness drug showed a small late benefit in one small trial.",
+   "detail": "Propose new subdomain 'Neuro: stimulants'.",
+   "studies": [
+    {
+     "cite": "Young 2025, J Psychopharmacol",
+     "n": "38",
+     "design": "RCT",
+     "result": "FSI improved at week 8 (p=.039), not week 6",
+     "url": "https://doi.org/10.1177/02698811251368371",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "hypotheses": [],
+   "open_questions": [],
+   "test_available": false
+  },
+  {
+   "id": "trials-iv-saline",
+   "subdomain": "Circulation: vasoconstrictors and volume",
+   "finding": "IV saline produced short-term symptom relief in an open case series.",
+   "grade": "early",
+   "plain": "Salt-water drips helped short-term in an uncontrolled series.",
+   "detail": "",
+   "studies": [
+    {
+     "cite": "Sjogren 2025, Front Neurol",
+     "n": "22",
+     "design": "case series",
+     "result": "short-term improvement",
+     "url": "https://doi.org/10.3389/fneur.2025.1601599",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "hypotheses": [],
+   "open_questions": [],
+   "test_available": false
+  },
+  {
+   "id": "trials-vitamin-d",
+   "subdomain": "Metabolic: supplements",
+   "finding": "Vitamin D supplementation in an open-label RCT in ME/CFS.",
+   "grade": "early",
+   "plain": "One unblinded vitamin D trial.",
+   "detail": "",
+   "studies": [
+    {
+     "cite": "Kodama 2026, Nutrients",
+     "n": "91",
+     "design": "open-label RCT",
+     "result": "modest symptom changes; unblinded",
+     "url": "https://doi.org/10.3390/nu18030521",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "hypotheses": [],
+   "open_questions": [],
+   "test_available": false
+  }
+ ],
+ "hypotheses_notes": [
+  {
+   "id": "autoimmunity",
+   "for": "Daratumumab 6/10 sustained responders with IgG fall (Fluge 2025); cyclophosphamide 55% open-label response; long-COVID IgG transfers pain-like symptoms to mice (Chen 2026).",
+   "against": "Rituximab phase III negative; immunoadsorption failed against sham twice; BC007 company trial negative; GPCR autoantibodies not elevated on REAP/Luminex (Germain 2025)."
+  },
+  {
+   "id": "viral-persistence",
+   "for": "Post-COVID ME/CFS incidence HR 4.93 (Vernon 2025); rintatolimod modest effect.",
+   "against": "Three nirmatrelvir RCTs null; temelimab null."
+  },
+  {
+   "id": "herpes-reactivation",
+   "for": "Valganciclovir small RCT positive on secondary endpoints (Montoya 2013).",
+   "against": "Unreplicated; STOP-PASC found no EBV reactivation difference."
+  },
+  {
+   "id": "low-blood-volume-preload",
+   "for": "Pyridostigmine single-dose iCPET effect; patients rate fluids and compression highly.",
+   "against": "Fludrocortisone RCT negative; ivabradine lowered HR without symptom benefit; no sham-controlled saline trial."
+  },
+  {
+   "id": "mitochondrial-energy",
+   "for": "Small CoQ10+NADH and oxaloacetate RCTs; rapamycin open-label with autophagy marker changes.",
+   "against": "CoQ10 alone negative in long COVID; positive supplement trials sponsor-linked and unreplicated."
+  },
+  {
+   "id": "sickness-behaviour",
+   "for": "Large placebo responses show symptoms are modifiable by expectation and context (not specific to this hypothesis).",
+   "against": "PACE effects confined to self-report and not durable; GET rated harmful by patients; rehab worsened 42/97 in CFS_CARE."
+  },
+  {
+   "id": "small-vessel-capillary",
+   "for": "HBOT 40 sessions positive in one long-COVID RCT.",
+   "against": "HBOT 10 sessions negative in HOT-LoCO."
+  },
+  {
+   "id": "neuroinflammation",
+   "for": "Low-dose aripiprazole, LDN rationales; retrospective reports.",
+   "against": "LDN RCT negative for fatigue; no controlled aripiprazole data."
+  }
+ ],
+ "glossary": [
+  {
+   "term": "Open-label",
+   "plain": "Everyone, patients and doctors, knows who got the drug. Prone to placebo and expectation effects."
+  },
+  {
+   "term": "Sham-controlled",
+   "plain": "The comparison group gets a fake version of a procedure (for example blood passed through a filter that removes nothing) so no one knows who got the real thing."
+  },
+  {
+   "term": "Placebo response",
+   "plain": "Improvement in people given a dummy treatment, from expectation, natural fluctuation and enrolling when at a low point."
+  },
+  {
+   "term": "SF-36 physical function",
+   "plain": "A 0-100 questionnaire score of physical ability; healthy adults score around 90-100, many ME/CFS patients 20-50."
+  },
+  {
+   "term": "ATA / bar",
+   "plain": "Units of pressure. 1 ATA is sea-level air pressure; HBOT trials use 2.0-2.4."
+  },
+  {
+   "term": "iCPET",
+   "plain": "Invasive cardiopulmonary exercise test: a bike test with catheters in the heart's arteries to measure filling pressures and oxygen use."
+  },
+  {
+   "term": "Oxford criteria",
+   "plain": "A 1991 definition of CFS needing only six months of disabling fatigue; it does not require post-exertional malaise and captures broader fatigue states."
+  },
+  {
+   "term": "SMR",
+   "plain": "Standardised mortality ratio: observed deaths divided by the number expected for people of the same age and sex."
+  }
+ ],
+ "key_reviews": [
+  {
+   "cite": "NICE 2021, NG206 ME/CFS guideline",
+   "url": "https://www.nice.org.uk/guidance/ng206",
+   "why": "Most thorough independent appraisal of GET/CBT evidence; current UK standard of care."
+  },
+  {
+   "cite": "Eckey 2025, PNAS: Patient-reported treatment outcomes in ME/CFS and long COVID",
+   "url": "https://doi.org/10.1073/pnas.2426874122",
+   "why": "Largest dataset on what patients use and rate; maps treatments to symptom clusters."
+  },
+  {
+   "cite": "Wilshire 2018, BMC Psychology: PACE re-analysis",
+   "url": "https://doi.org/10.1186/s40359-018-0218-3",
+   "why": "Protocol-based re-analysis of the most influential behavioural trial."
+  },
+  {
+   "cite": "Blitshteyn 2025, Front Cell Infect Microbiol: Immunotherapies for POTS and long COVID",
+   "url": "https://doi.org/10.3389/fcimb.2025.1647203",
+   "why": "Overview of immune treatments and the trials still needed."
+  },
+  {
+   "cite": "Proal 2025, Lancet Infect Dis: Targeting the SARS-CoV-2 reservoir",
+   "url": "https://doi.org/10.1016/S1473-3099(24)00769-2",
+   "why": "Rationale for antiviral/monoclonal trials after the Paxlovid failures."
+  },
+  {
+   "cite": "Cairns & Hotopf 2005, Occup Med: prognosis of CFS",
+   "url": "https://doi.org/10.1093/occmed/kqi013",
+   "why": "Still the standard systematic review of natural history."
+  }
+ ],
+ "gaps": [
+  "No completed randomised trial of daratumumab, low-dose rapamycin (ME/CFS), aripiprazole or IV saline.",
+  "No trial designed for severe or very severe (bedbound) patients with home-based objective endpoints.",
+  "Almost no trial pre-specifies a biological selection marker; subgroup claims (NK cells, HLA, preload failure, illness duration) are all post hoc.",
+  "Objective outcomes (actigraphy, 2-day CPET, step counts) are rarely primary endpoints, leaving self-report vulnerable to placebo response.",
+  "Several key trials remain unpublished (BLOC/BC007, IA-PACS-CFS, Nacul LDN, RECOVER-AUTONOMIC full results, LIFT).",
+  "Long-term natural history of PEM-defined, adult-onset ME/CFS from onset (including post-COVID) beyond two years.",
+  "Systematic counting of deaths and harms (including rehab-induced deterioration) in ME/CFS."
+ ]
+}

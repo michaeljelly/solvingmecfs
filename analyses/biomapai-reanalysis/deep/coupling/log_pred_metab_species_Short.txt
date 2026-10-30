@@ -1,0 +1,45 @@
+metab species Short persons ctrl 88 pat 69 -> n 69 X (392, 118) Y (392, 821)
+0 0 median R2 ctrl -0.012 pat -0.020
+10 4 median R2 ctrl -0.008 pat -0.012
+20 7 median R2 ctrl -0.016 pat -0.013
+null 0 11
+null 10 21
+null 20 32
+swap 0 42
+swap 10 52
+swap 20 62
+tag                              metab_species_Short
+n_persons_per_group                               69
+R                                                 30
+n_targets                                        821
+ctrl_median_R2                             -0.029804
+pat_median_R2                               -0.03026
+ctrl_mean_R2                               -0.028481
+pat_mean_R2                                 -0.02908
+null_q99                                    0.048379
+ctrl_n_q05                                         4
+pat_n_q05                                          0
+both_q05                                           0
+ctrl_only                                          4
+pat_only                                           0
+n_diff_q05                                         0
+corr_ctrl_pat_R2                            0.338443
+global_meanR2_diff                          0.000599
+swap_null_sd                                0.004097
+global_p_swap                               0.870968
+n_predictable_either                               4
+meanR2_ctrl_among_predictable               0.210588
+meanR2_pat_among_predictable                0.077557
+                                               ctrl_R2  pat_R2  ctrl_q  pat_q  diff_q
+isoursodeoxycholate                              0.249   0.094   0.000  0.436     1.0
+cinnamoylglycine                                 0.206   0.065   0.003  0.767     1.0
+3-phenylpropionate (hydrocinnamate)              0.205   0.045   0.001  0.812     1.0
+X-17612                                          0.183   0.107   0.000  0.767     1.0
+5alpha-androstan-3beta,17alpha-diol disulfate    0.082  -0.024   0.784  0.812     1.0
+glycolithocholate sulfate*                       0.081   0.019   0.784  0.812     1.0
+branched chain 14:0 dicarboxylic acid**          0.079   0.014   0.784  0.812     1.0
+hippurate                                        0.067   0.061   0.784  0.812     1.0
+indolepropionate                                 0.060   0.097   0.784  0.767     1.0
+X-12216                                          0.054  -0.006   0.784  0.812     1.0
+lithocholate sulfate (1)                         0.042   0.112   0.784  0.436     1.0
+X-17351                                          0.038   0.015   0.784  0.812     1.0

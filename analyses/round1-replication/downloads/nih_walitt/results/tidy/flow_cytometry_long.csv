@@ -1,0 +1,2671 @@
+tissue,table,population,person_col,group,value
+blood,15A,B cell switched memory (%),1,HV,20.5
+blood,15A,B cell switched memory (%),2,HV,32.7
+blood,15A,B cell switched memory (%),3,HV,25.5
+blood,15A,B cell switched memory (%),4,HV,27.0
+blood,15A,B cell switched memory (%),5,HV,14.2
+blood,15A,B cell switched memory (%),6,HV,19.8
+blood,15A,B cell switched memory (%),7,HV,22.9
+blood,15A,B cell switched memory (%),8,HV,20.2
+blood,15A,B cell switched memory (%),9,HV,27.1
+blood,15A,B cell switched memory (%),10,HV,32.0
+blood,15A,B cell switched memory (%),11,HV,31.9
+blood,15A,B cell switched memory (%),12,HV,35.0
+blood,15A,B cell switched memory (%),13,HV,30.6
+blood,15A,B cell switched memory (%),14,HV,21.5
+blood,15A,B cell switched memory (%),15,HV,12.9
+blood,15A,B cell switched memory (%),16,HV,22.7
+blood,15A,B cell switched memory (%),17,HV,27.6
+blood,15A,B cell switched memory (%),18,HV,12.2
+blood,15A,B cell switched memory (%),19,HV,34.8
+blood,15A,B cell switched memory (%),20,PI-ME/CFS,22.3
+blood,15A,B cell switched memory (%),21,PI-ME/CFS,18.6
+blood,15A,B cell switched memory (%),22,PI-ME/CFS,31.6
+blood,15A,B cell switched memory (%),23,PI-ME/CFS,13.2
+blood,15A,B cell switched memory (%),24,PI-ME/CFS,14.0
+blood,15A,B cell switched memory (%),25,PI-ME/CFS,10.8
+blood,15A,B cell switched memory (%),26,PI-ME/CFS,13.0
+blood,15A,B cell switched memory (%),27,PI-ME/CFS,29.5
+blood,15A,B cell switched memory (%),28,PI-ME/CFS,17.5
+blood,15A,B cell switched memory (%),29,PI-ME/CFS,23.2
+blood,15A,B cell switched memory (%),30,PI-ME/CFS,19.2
+blood,15A,B cell switched memory (%),31,PI-ME/CFS,13.2
+blood,15A,B cell switched memory (%),32,PI-ME/CFS,18.2
+blood,15A,B cell switched memory (%),33,PI-ME/CFS,7.87
+blood,15A,B cell switched memory (%),34,PI-ME/CFS,24.4
+blood,15A,B cell switched memory (%),35,PI-ME/CFS,18.0
+blood,15A,B cell subset Naive (%),1,HV,29.7
+blood,15A,B cell subset Naive (%),2,HV,27.4
+blood,15A,B cell subset Naive (%),3,HV,31.7
+blood,15A,B cell subset Naive (%),4,HV,39.5
+blood,15A,B cell subset Naive (%),5,HV,40.9
+blood,15A,B cell subset Naive (%),6,HV,32.4
+blood,15A,B cell subset Naive (%),7,HV,40.1
+blood,15A,B cell subset Naive (%),8,HV,27.9
+blood,15A,B cell subset Naive (%),9,HV,33.2
+blood,15A,B cell subset Naive (%),10,HV,29.3
+blood,15A,B cell subset Naive (%),11,HV,26.6
+blood,15A,B cell subset Naive (%),12,HV,21.6
+blood,15A,B cell subset Naive (%),13,HV,19.2
+blood,15A,B cell subset Naive (%),14,HV,27.9
+blood,15A,B cell subset Naive (%),15,HV,52.6
+blood,15A,B cell subset Naive (%),16,HV,39.6
+blood,15A,B cell subset Naive (%),17,HV,37.4
+blood,15A,B cell subset Naive (%),18,HV,49.7
+blood,15A,B cell subset Naive (%),19,HV,27.1
+blood,15A,B cell subset Naive (%),20,PI-ME/CFS,36.2
+blood,15A,B cell subset Naive (%),21,PI-ME/CFS,39.4
+blood,15A,B cell subset Naive (%),22,PI-ME/CFS,32.1
+blood,15A,B cell subset Naive (%),23,PI-ME/CFS,46.4
+blood,15A,B cell subset Naive (%),24,PI-ME/CFS,47.3
+blood,15A,B cell subset Naive (%),25,PI-ME/CFS,50.5
+blood,15A,B cell subset Naive (%),26,PI-ME/CFS,42.8
+blood,15A,B cell subset Naive (%),27,PI-ME/CFS,19.9
+blood,15A,B cell subset Naive (%),28,PI-ME/CFS,32.2
+blood,15A,B cell subset Naive (%),29,PI-ME/CFS,41.6
+blood,15A,B cell subset Naive (%),30,PI-ME/CFS,37.9
+blood,15A,B cell subset Naive (%),31,PI-ME/CFS,45.4
+blood,15A,B cell subset Naive (%),32,PI-ME/CFS,35.8
+blood,15A,B cell subset Naive (%),33,PI-ME/CFS,36.8
+blood,15A,B cell subset Naive (%),34,PI-ME/CFS,39.9
+blood,15A,B cell subset Naive (%),35,PI-ME/CFS,42.8
+blood,15A,B cell antibody secreting subset (%),1,HV,0.13
+blood,15A,B cell antibody secreting subset (%),2,HV,0.41
+blood,15A,B cell antibody secreting subset (%),3,HV,0.17
+blood,15A,B cell antibody secreting subset (%),4,HV,0.51
+blood,15A,B cell antibody secreting subset (%),5,HV,0.086
+blood,15A,B cell antibody secreting subset (%),6,HV,1.23
+blood,15A,B cell antibody secreting subset (%),7,HV,0.52
+blood,15A,B cell antibody secreting subset (%),8,HV,0.53
+blood,15A,B cell antibody secreting subset (%),9,HV,1.25
+blood,15A,B cell antibody secreting subset (%),10,HV,0.56
+blood,15A,B cell antibody secreting subset (%),11,HV,11.0
+blood,15A,B cell antibody secreting subset (%),12,HV,1.59
+blood,15A,B cell antibody secreting subset (%),13,HV,0.59
+blood,15A,B cell antibody secreting subset (%),14,HV,3.09
+blood,15A,B cell antibody secreting subset (%),15,HV,0.24
+blood,15A,B cell antibody secreting subset (%),16,HV,0.29
+blood,15A,B cell antibody secreting subset (%),17,HV,0.62
+blood,15A,B cell antibody secreting subset (%),18,HV,0.2
+blood,15A,B cell antibody secreting subset (%),19,HV,0.092
+blood,15A,B cell antibody secreting subset (%),20,PI-ME/CFS,0.85
+blood,15A,B cell antibody secreting subset (%),21,PI-ME/CFS,0.39
+blood,15A,B cell antibody secreting subset (%),22,PI-ME/CFS,0.37
+blood,15A,B cell antibody secreting subset (%),23,PI-ME/CFS,2.01
+blood,15A,B cell antibody secreting subset (%),24,PI-ME/CFS,0.22
+blood,15A,B cell antibody secreting subset (%),25,PI-ME/CFS,0.7
+blood,15A,B cell antibody secreting subset (%),26,PI-ME/CFS,0.27
+blood,15A,B cell antibody secreting subset (%),27,PI-ME/CFS,0.48
+blood,15A,B cell antibody secreting subset (%),28,PI-ME/CFS,0.27
+blood,15A,B cell antibody secreting subset (%),29,PI-ME/CFS,0.71
+blood,15A,B cell antibody secreting subset (%),30,PI-ME/CFS,0.0
+blood,15A,B cell antibody secreting subset (%),31,PI-ME/CFS,0.12
+blood,15A,B cell antibody secreting subset (%),32,PI-ME/CFS,0.057
+blood,15A,B cell antibody secreting subset (%),33,PI-ME/CFS,0.072
+blood,15A,B cell antibody secreting subset (%),34,PI-ME/CFS,0.2
+blood,15A,B cell antibody secreting subset (%),35,PI-ME/CFS,0.11
+blood,15A,Monocyte subset CD14-CD16+ (%),1,HV,0.94
+blood,15A,Monocyte subset CD14-CD16+ (%),2,HV,1.17
+blood,15A,Monocyte subset CD14-CD16+ (%),3,HV,0.32
+blood,15A,Monocyte subset CD14-CD16+ (%),4,HV,3.33
+blood,15A,Monocyte subset CD14-CD16+ (%),5,HV,2.42
+blood,15A,Monocyte subset CD14-CD16+ (%),6,HV,1.56
+blood,15A,Monocyte subset CD14-CD16+ (%),7,HV,16.6
+blood,15A,Monocyte subset CD14-CD16+ (%),8,HV,4.01
+blood,15A,Monocyte subset CD14-CD16+ (%),9,HV,0.37
+blood,15A,Monocyte subset CD14-CD16+ (%),10,HV,3.37
+blood,15A,Monocyte subset CD14-CD16+ (%),11,HV,1.52
+blood,15A,Monocyte subset CD14-CD16+ (%),12,HV,2.05
+blood,15A,Monocyte subset CD14-CD16+ (%),13,HV,2.14
+blood,15A,Monocyte subset CD14-CD16+ (%),14,HV,1.75
+blood,15A,Monocyte subset CD14-CD16+ (%),15,HV,9.22
+blood,15A,Monocyte subset CD14-CD16+ (%),16,HV,1.86
+blood,15A,Monocyte subset CD14-CD16+ (%),17,HV,2.33
+blood,15A,Monocyte subset CD14-CD16+ (%),18,HV,1.33
+blood,15A,Monocyte subset CD14-CD16+ (%),19,HV,9.23
+blood,15A,Monocyte subset CD14-CD16+ (%),20,PI-ME/CFS,0.42
+blood,15A,Monocyte subset CD14-CD16+ (%),21,PI-ME/CFS,0.78
+blood,15A,Monocyte subset CD14-CD16+ (%),22,PI-ME/CFS,12.3
+blood,15A,Monocyte subset CD14-CD16+ (%),23,PI-ME/CFS,1.62
+blood,15A,Monocyte subset CD14-CD16+ (%),24,PI-ME/CFS,0.91
+blood,15A,Monocyte subset CD14-CD16+ (%),25,PI-ME/CFS,8.57
+blood,15A,Monocyte subset CD14-CD16+ (%),26,PI-ME/CFS,0.74
+blood,15A,Monocyte subset CD14-CD16+ (%),27,PI-ME/CFS,1.26
+blood,15A,Monocyte subset CD14-CD16+ (%),28,PI-ME/CFS,0.58
+blood,15A,Monocyte subset CD14-CD16+ (%),29,PI-ME/CFS,2.73
+blood,15A,Monocyte subset CD14-CD16+ (%),30,PI-ME/CFS,0.56
+blood,15A,Monocyte subset CD14-CD16+ (%),31,PI-ME/CFS,1.68
+blood,15A,Monocyte subset CD14-CD16+ (%),32,PI-ME/CFS,6.9
+blood,15A,Monocyte subset CD14-CD16+ (%),33,PI-ME/CFS,1.85
+blood,15A,Monocyte subset CD14-CD16+ (%),34,PI-ME/CFS,0.58
+blood,15A,Monocyte subset CD14-CD16+ (%),35,PI-ME/CFS,1.4
+blood,15A,Monocyte subset HLADR in CD14+ (%),1,HV,97.0
+blood,15A,Monocyte subset HLADR in CD14+ (%),2,HV,84.8
+blood,15A,Monocyte subset HLADR in CD14+ (%),3,HV,86.7
+blood,15A,Monocyte subset HLADR in CD14+ (%),4,HV,85.4
+blood,15A,Monocyte subset HLADR in CD14+ (%),5,HV,71.2
+blood,15A,Monocyte subset HLADR in CD14+ (%),6,HV,96.1
+blood,15A,Monocyte subset HLADR in CD14+ (%),7,HV,57.5
+blood,15A,Monocyte subset HLADR in CD14+ (%),8,HV,80.5
+blood,15A,Monocyte subset HLADR in CD14+ (%),9,HV,94.9
+blood,15A,Monocyte subset HLADR in CD14+ (%),10,HV,97.2
+blood,15A,Monocyte subset HLADR in CD14+ (%),11,HV,96.8
+blood,15A,Monocyte subset HLADR in CD14+ (%),12,HV,94.6
+blood,15A,Monocyte subset HLADR in CD14+ (%),13,HV,84.5
+blood,15A,Monocyte subset HLADR in CD14+ (%),14,HV,89.5
+blood,15A,Monocyte subset HLADR in CD14+ (%),15,HV,97.0
+blood,15A,Monocyte subset HLADR in CD14+ (%),16,HV,98.2
+blood,15A,Monocyte subset HLADR in CD14+ (%),17,HV,99.6
+blood,15A,Monocyte subset HLADR in CD14+ (%),18,HV,99.6
+blood,15A,Monocyte subset HLADR in CD14+ (%),19,HV,97.9
+blood,15A,Monocyte subset HLADR in CD14+ (%),20,PI-ME/CFS,97.4
+blood,15A,Monocyte subset HLADR in CD14+ (%),21,PI-ME/CFS,84.3
+blood,15A,Monocyte subset HLADR in CD14+ (%),22,PI-ME/CFS,84.0
+blood,15A,Monocyte subset HLADR in CD14+ (%),23,PI-ME/CFS,95.0
+blood,15A,Monocyte subset HLADR in CD14+ (%),24,PI-ME/CFS,86.6
+blood,15A,Monocyte subset HLADR in CD14+ (%),25,PI-ME/CFS,90.5
+blood,15A,Monocyte subset HLADR in CD14+ (%),26,PI-ME/CFS,93.7
+blood,15A,Monocyte subset HLADR in CD14+ (%),27,PI-ME/CFS,95.6
+blood,15A,Monocyte subset HLADR in CD14+ (%),28,PI-ME/CFS,98.2
+blood,15A,Monocyte subset HLADR in CD14+ (%),29,PI-ME/CFS,99.3
+blood,15A,Monocyte subset HLADR in CD14+ (%),30,PI-ME/CFS,98.5
+blood,15A,Monocyte subset HLADR in CD14+ (%),31,PI-ME/CFS,99.1
+blood,15A,Monocyte subset HLADR in CD14+ (%),32,PI-ME/CFS,99.5
+blood,15A,Monocyte subset HLADR in CD14+ (%),33,PI-ME/CFS,99.2
+blood,15A,Monocyte subset HLADR in CD14+ (%),34,PI-ME/CFS,98.2
+blood,15A,Monocyte subset HLADR in CD14+ (%),35,PI-ME/CFS,96.1
+blood,15A,CD4+ T cell subset CD25 high (%),1,HV,0.86
+blood,15A,CD4+ T cell subset CD25 high (%),2,HV,2.33
+blood,15A,CD4+ T cell subset CD25 high (%),3,HV,1.7
+blood,15A,CD4+ T cell subset CD25 high (%),4,HV,2.11
+blood,15A,CD4+ T cell subset CD25 high (%),5,HV,1.41
+blood,15A,CD4+ T cell subset CD25 high (%),6,HV,0.78
+blood,15A,CD4+ T cell subset CD25 high (%),7,HV,1.59
+blood,15A,CD4+ T cell subset CD25 high (%),8,HV,2.32
+blood,15A,CD4+ T cell subset CD25 high (%),9,HV,2.61
+blood,15A,CD4+ T cell subset CD25 high (%),10,HV,3.33
+blood,15A,CD4+ T cell subset CD25 high (%),11,HV,3.07
+blood,15A,CD4+ T cell subset CD25 high (%),12,HV,3.18
+blood,15A,CD4+ T cell subset CD25 high (%),13,HV,3.59
+blood,15A,CD4+ T cell subset CD25 high (%),14,HV,3.52
+blood,15A,CD4+ T cell subset CD25 high (%),15,HV,2.5
+blood,15A,CD4+ T cell subset CD25 high (%),16,HV,4.75
+blood,15A,CD4+ T cell subset CD25 high (%),17,HV,6.54
+blood,15A,CD4+ T cell subset CD25 high (%),18,HV,3.97
+blood,15A,CD4+ T cell subset CD25 high (%),19,HV,1.85
+blood,15A,CD4+ T cell subset CD25 high (%),20,PI-ME/CFS,1.14
+blood,15A,CD4+ T cell subset CD25 high (%),21,PI-ME/CFS,2.07
+blood,15A,CD4+ T cell subset CD25 high (%),22,PI-ME/CFS,1.22
+blood,15A,CD4+ T cell subset CD25 high (%),23,PI-ME/CFS,2.66
+blood,15A,CD4+ T cell subset CD25 high (%),24,PI-ME/CFS,2.63
+blood,15A,CD4+ T cell subset CD25 high (%),25,PI-ME/CFS,0.99
+blood,15A,CD4+ T cell subset CD25 high (%),26,PI-ME/CFS,5.68
+blood,15A,CD4+ T cell subset CD25 high (%),27,PI-ME/CFS,3.51
+blood,15A,CD4+ T cell subset CD25 high (%),28,PI-ME/CFS,3.94
+blood,15A,CD4+ T cell subset CD25 high (%),29,PI-ME/CFS,3.16
+blood,15A,CD4+ T cell subset CD25 high (%),30,PI-ME/CFS,4.81
+blood,15A,CD4+ T cell subset CD25 high (%),31,PI-ME/CFS,4.11
+blood,15A,CD4+ T cell subset CD25 high (%),32,PI-ME/CFS,3.66
+blood,15A,CD4+ T cell subset CD25 high (%),33,PI-ME/CFS,2.36
+blood,15A,CD4+ T cell subset CD25 high (%),34,PI-ME/CFS,3.97
+blood,15A,CD4+ T cell subset CD25 high (%),35,PI-ME/CFS,3.92
+blood,15A,Lymphocyte CD4+ T cell (%),1,HV,46.0
+blood,15A,Lymphocyte CD4+ T cell (%),2,HV,37.2
+blood,15A,Lymphocyte CD4+ T cell (%),3,HV,43.2
+blood,15A,Lymphocyte CD4+ T cell (%),4,HV,30.9
+blood,15A,Lymphocyte CD4+ T cell (%),5,HV,38.3
+blood,15A,Lymphocyte CD4+ T cell (%),6,HV,33.0
+blood,15A,Lymphocyte CD4+ T cell (%),7,HV,16.2
+blood,15A,Lymphocyte CD4+ T cell (%),8,HV,40.8
+blood,15A,Lymphocyte CD4+ T cell (%),9,HV,25.7
+blood,15A,Lymphocyte CD4+ T cell (%),10,HV,37.1
+blood,15A,Lymphocyte CD4+ T cell (%),11,HV,31.0
+blood,15A,Lymphocyte CD4+ T cell (%),12,HV,34.0
+blood,15A,Lymphocyte CD4+ T cell (%),13,HV,44.4
+blood,15A,Lymphocyte CD4+ T cell (%),14,HV,37.3
+blood,15A,Lymphocyte CD4+ T cell (%),15,HV,52.9
+blood,15A,Lymphocyte CD4+ T cell (%),16,HV,39.6
+blood,15A,Lymphocyte CD4+ T cell (%),17,HV,48.7
+blood,15A,Lymphocyte CD4+ T cell (%),18,HV,44.2
+blood,15A,Lymphocyte CD4+ T cell (%),19,HV,34.7
+blood,15A,Lymphocyte CD4+ T cell (%),20,PI-ME/CFS,40.5
+blood,15A,Lymphocyte CD4+ T cell (%),21,PI-ME/CFS,24.8
+blood,15A,Lymphocyte CD4+ T cell (%),22,PI-ME/CFS,31.2
+blood,15A,Lymphocyte CD4+ T cell (%),23,PI-ME/CFS,28.6
+blood,15A,Lymphocyte CD4+ T cell (%),24,PI-ME/CFS,38.8
+blood,15A,Lymphocyte CD4+ T cell (%),25,PI-ME/CFS,29.2
+blood,15A,Lymphocyte CD4+ T cell (%),26,PI-ME/CFS,42.4
+blood,15A,Lymphocyte CD4+ T cell (%),27,PI-ME/CFS,29.3
+blood,15A,Lymphocyte CD4+ T cell (%),28,PI-ME/CFS,39.4
+blood,15A,Lymphocyte CD4+ T cell (%),29,PI-ME/CFS,34.4
+blood,15A,Lymphocyte CD4+ T cell (%),30,PI-ME/CFS,37.4
+blood,15A,Lymphocyte CD4+ T cell (%),31,PI-ME/CFS,34.6
+blood,15A,Lymphocyte CD4+ T cell (%),32,PI-ME/CFS,32.9
+blood,15A,Lymphocyte CD4+ T cell (%),33,PI-ME/CFS,51.5
+blood,15A,Lymphocyte CD4+ T cell (%),34,PI-ME/CFS,41.3
+blood,15A,Lymphocyte CD4+ T cell (%),35,PI-ME/CFS,32.1
+blood,15A,CD8+ T cell subset CXCR5 (%),1,HV,2.83
+blood,15A,CD8+ T cell subset CXCR5 (%),2,HV,2.91
+blood,15A,CD8+ T cell subset CXCR5 (%),3,HV,6.08
+blood,15A,CD8+ T cell subset CXCR5 (%),4,HV,3.56
+blood,15A,CD8+ T cell subset CXCR5 (%),5,HV,2.64
+blood,15A,CD8+ T cell subset CXCR5 (%),6,HV,1.19
+blood,15A,CD8+ T cell subset CXCR5 (%),7,HV,7.25
+blood,15A,CD8+ T cell subset CXCR5 (%),8,HV,1.45
+blood,15A,CD8+ T cell subset CXCR5 (%),9,HV,0.94
+blood,15A,CD8+ T cell subset CXCR5 (%),10,HV,3.29
+blood,15A,CD8+ T cell subset CXCR5 (%),11,HV,3.67
+blood,15A,CD8+ T cell subset CXCR5 (%),12,HV,5.24
+blood,15A,CD8+ T cell subset CXCR5 (%),13,HV,4.01
+blood,15A,CD8+ T cell subset CXCR5 (%),14,HV,2.06
+blood,15A,CD8+ T cell subset CXCR5 (%),15,HV,6.92
+blood,15A,CD8+ T cell subset CXCR5 (%),16,HV,1.92
+blood,15A,CD8+ T cell subset CXCR5 (%),17,HV,4.13
+blood,15A,CD8+ T cell subset CXCR5 (%),18,HV,9.15
+blood,15A,CD8+ T cell subset CXCR5 (%),19,HV,4.46
+blood,15A,CD8+ T cell subset CXCR5 (%),20,PI-ME/CFS,2.7
+blood,15A,CD8+ T cell subset CXCR5 (%),21,PI-ME/CFS,2.8
+blood,15A,CD8+ T cell subset CXCR5 (%),22,PI-ME/CFS,3.27
+blood,15A,CD8+ T cell subset CXCR5 (%),23,PI-ME/CFS,2.39
+blood,15A,CD8+ T cell subset CXCR5 (%),24,PI-ME/CFS,11.7
+blood,15A,CD8+ T cell subset CXCR5 (%),25,PI-ME/CFS,2.55
+blood,15A,CD8+ T cell subset CXCR5 (%),26,PI-ME/CFS,5.43
+blood,15A,CD8+ T cell subset CXCR5 (%),27,PI-ME/CFS,7.68
+blood,15A,CD8+ T cell subset CXCR5 (%),28,PI-ME/CFS,4.67
+blood,15A,CD8+ T cell subset CXCR5 (%),29,PI-ME/CFS,5.46
+blood,15A,CD8+ T cell subset CXCR5 (%),30,PI-ME/CFS,17.4
+blood,15A,CD8+ T cell subset CXCR5 (%),31,PI-ME/CFS,5.16
+blood,15A,CD8+ T cell subset CXCR5 (%),32,PI-ME/CFS,3.05
+blood,15A,CD8+ T cell subset CXCR5 (%),33,PI-ME/CFS,5.84
+blood,15A,CD8+ T cell subset CXCR5 (%),34,PI-ME/CFS,3.13
+blood,15A,CD8+ T cell subset CXCR5 (%),35,PI-ME/CFS,3.38
+blood,15A,Monocyte subset CD14+CD16+ (%),1,HV,6.06
+blood,15A,Monocyte subset CD14+CD16+ (%),2,HV,5.46
+blood,15A,Monocyte subset CD14+CD16+ (%),3,HV,5.86
+blood,15A,Monocyte subset CD14+CD16+ (%),4,HV,3.95
+blood,15A,Monocyte subset CD14+CD16+ (%),5,HV,3.01
+blood,15A,Monocyte subset CD14+CD16+ (%),6,HV,1.74
+blood,15A,Monocyte subset CD14+CD16+ (%),7,HV,5.97
+blood,15A,Monocyte subset CD14+CD16+ (%),8,HV,0.85
+blood,15A,Monocyte subset CD14+CD16+ (%),9,HV,3.78
+blood,15A,Monocyte subset CD14+CD16+ (%),10,HV,8.39
+blood,15A,Monocyte subset CD14+CD16+ (%),11,HV,3.42
+blood,15A,Monocyte subset CD14+CD16+ (%),12,HV,3.73
+blood,15A,Monocyte subset CD14+CD16+ (%),13,HV,3.19
+blood,15A,Monocyte subset CD14+CD16+ (%),14,HV,4.28
+blood,15A,Monocyte subset CD14+CD16+ (%),15,HV,4.68
+blood,15A,Monocyte subset CD14+CD16+ (%),16,HV,1.88
+blood,15A,Monocyte subset CD14+CD16+ (%),17,HV,1.77
+blood,15A,Monocyte subset CD14+CD16+ (%),18,HV,0.29
+blood,15A,Monocyte subset CD14+CD16+ (%),19,HV,2.78
+blood,15A,Monocyte subset CD14+CD16+ (%),20,PI-ME/CFS,2.29
+blood,15A,Monocyte subset CD14+CD16+ (%),21,PI-ME/CFS,2.65
+blood,15A,Monocyte subset CD14+CD16+ (%),22,PI-ME/CFS,0.97
+blood,15A,Monocyte subset CD14+CD16+ (%),23,PI-ME/CFS,2.39
+blood,15A,Monocyte subset CD14+CD16+ (%),24,PI-ME/CFS,5.65
+blood,15A,Monocyte subset CD14+CD16+ (%),25,PI-ME/CFS,9.34
+blood,15A,Monocyte subset CD14+CD16+ (%),26,PI-ME/CFS,3.95
+blood,15A,Monocyte subset CD14+CD16+ (%),27,PI-ME/CFS,6.55
+blood,15A,Monocyte subset CD14+CD16+ (%),28,PI-ME/CFS,3.4
+blood,15A,Monocyte subset CD14+CD16+ (%),29,PI-ME/CFS,2.21
+blood,15A,Monocyte subset CD14+CD16+ (%),30,PI-ME/CFS,2.53
+blood,15A,Monocyte subset CD14+CD16+ (%),31,PI-ME/CFS,2.04
+blood,15A,Monocyte subset CD14+CD16+ (%),32,PI-ME/CFS,3.34
+blood,15A,Monocyte subset CD14+CD16+ (%),33,PI-ME/CFS,1.29
+blood,15A,Monocyte subset CD14+CD16+ (%),34,PI-ME/CFS,2.49
+blood,15A,Monocyte subset CD14+CD16+ (%),35,PI-ME/CFS,1.97
+blood,15A,CD8+ T cell Effector (%),1,HV,5.47
+blood,15A,CD8+ T cell Effector (%),2,HV,6.91
+blood,15A,CD8+ T cell Effector (%),3,HV,7.88
+blood,15A,CD8+ T cell Effector (%),4,HV,21.4
+blood,15A,CD8+ T cell Effector (%),5,HV,12.8
+blood,15A,CD8+ T cell Effector (%),6,HV,35.0
+blood,15A,CD8+ T cell Effector (%),7,HV,3.58
+blood,15A,CD8+ T cell Effector (%),8,HV,20.7
+blood,15A,CD8+ T cell Effector (%),9,HV,3.31
+blood,15A,CD8+ T cell Effector (%),10,HV,9.8
+blood,15A,CD8+ T cell Effector (%),11,HV,12.4
+blood,15A,CD8+ T cell Effector (%),12,HV,3.67
+blood,15A,CD8+ T cell Effector (%),13,HV,37.7
+blood,15A,CD8+ T cell Effector (%),14,HV,12.9
+blood,15A,CD8+ T cell Effector (%),15,HV,32.0
+blood,15A,CD8+ T cell Effector (%),16,HV,17.0
+blood,15A,CD8+ T cell Effector (%),17,HV,3.22
+blood,15A,CD8+ T cell Effector (%),18,HV,4.47
+blood,15A,CD8+ T cell Effector (%),19,HV,5.28
+blood,15A,CD8+ T cell Effector (%),20,PI-ME/CFS,3.66
+blood,15A,CD8+ T cell Effector (%),21,PI-ME/CFS,29.4
+blood,15A,CD8+ T cell Effector (%),22,PI-ME/CFS,10.5
+blood,15A,CD8+ T cell Effector (%),23,PI-ME/CFS,3.6
+blood,15A,CD8+ T cell Effector (%),24,PI-ME/CFS,4.31
+blood,15A,CD8+ T cell Effector (%),25,PI-ME/CFS,31.7
+blood,15A,CD8+ T cell Effector (%),26,PI-ME/CFS,8.61
+blood,15A,CD8+ T cell Effector (%),27,PI-ME/CFS,14.6
+blood,15A,CD8+ T cell Effector (%),28,PI-ME/CFS,7.5
+blood,15A,CD8+ T cell Effector (%),29,PI-ME/CFS,3.5
+blood,15A,CD8+ T cell Effector (%),30,PI-ME/CFS,24.9
+blood,15A,CD8+ T cell Effector (%),31,PI-ME/CFS,1.82
+blood,15A,CD8+ T cell Effector (%),32,PI-ME/CFS,9.57
+blood,15A,CD8+ T cell Effector (%),33,PI-ME/CFS,4.27
+blood,15A,CD8+ T cell Effector (%),34,PI-ME/CFS,4.78
+blood,15A,CD8+ T cell Effector (%),35,PI-ME/CFS,6.15
+blood,15A,Lymphocyte CD56bright/dim ratio,1,HV,0.09
+blood,15A,Lymphocyte CD56bright/dim ratio,2,HV,0.05
+blood,15A,Lymphocyte CD56bright/dim ratio,3,HV,0.04
+blood,15A,Lymphocyte CD56bright/dim ratio,4,HV,0.05
+blood,15A,Lymphocyte CD56bright/dim ratio,5,HV,0.08
+blood,15A,Lymphocyte CD56bright/dim ratio,6,HV,0.04
+blood,15A,Lymphocyte CD56bright/dim ratio,7,HV,0.07
+blood,15A,Lymphocyte CD56bright/dim ratio,8,HV,0.17
+blood,15A,Lymphocyte CD56bright/dim ratio,9,HV,0.08
+blood,15A,Lymphocyte CD56bright/dim ratio,10,HV,0.08
+blood,15A,Lymphocyte CD56bright/dim ratio,11,HV,0.05
+blood,15A,Lymphocyte CD56bright/dim ratio,12,HV,0.16
+blood,15A,Lymphocyte CD56bright/dim ratio,13,HV,0.09
+blood,15A,Lymphocyte CD56bright/dim ratio,14,HV,0.12
+blood,15A,Lymphocyte CD56bright/dim ratio,15,HV,0.1
+blood,15A,Lymphocyte CD56bright/dim ratio,16,HV,0.06
+blood,15A,Lymphocyte CD56bright/dim ratio,17,HV,0.05
+blood,15A,Lymphocyte CD56bright/dim ratio,18,HV,0.06
+blood,15A,Lymphocyte CD56bright/dim ratio,19,HV,0.08
+blood,15A,Lymphocyte CD56bright/dim ratio,20,PI-ME/CFS,0.1
+blood,15A,Lymphocyte CD56bright/dim ratio,21,PI-ME/CFS,0.04
+blood,15A,Lymphocyte CD56bright/dim ratio,22,PI-ME/CFS,0.04
+blood,15A,Lymphocyte CD56bright/dim ratio,23,PI-ME/CFS,0.05
+blood,15A,Lymphocyte CD56bright/dim ratio,24,PI-ME/CFS,0.09
+blood,15A,Lymphocyte CD56bright/dim ratio,25,PI-ME/CFS,0.07
+blood,15A,Lymphocyte CD56bright/dim ratio,26,PI-ME/CFS,0.14
+blood,15A,Lymphocyte CD56bright/dim ratio,27,PI-ME/CFS,0.18
+blood,15A,Lymphocyte CD56bright/dim ratio,28,PI-ME/CFS,0.11
+blood,15A,Lymphocyte CD56bright/dim ratio,29,PI-ME/CFS,0.17
+blood,15A,Lymphocyte CD56bright/dim ratio,30,PI-ME/CFS,0.1
+blood,15A,Lymphocyte CD56bright/dim ratio,31,PI-ME/CFS,0.05
+blood,15A,Lymphocyte CD56bright/dim ratio,32,PI-ME/CFS,0.05
+blood,15A,Lymphocyte CD56bright/dim ratio,33,PI-ME/CFS,0.11
+blood,15A,Lymphocyte CD56bright/dim ratio,34,PI-ME/CFS,0.16
+blood,15A,Lymphocyte CD56bright/dim ratio,35,PI-ME/CFS,0.06
+blood,15A,CD8+ T cell Naive (%),1,HV,68.6
+blood,15A,CD8+ T cell Naive (%),2,HV,42.5
+blood,15A,CD8+ T cell Naive (%),3,HV,38.1
+blood,15A,CD8+ T cell Naive (%),4,HV,27.3
+blood,15A,CD8+ T cell Naive (%),5,HV,61.8
+blood,15A,CD8+ T cell Naive (%),6,HV,64.5
+blood,15A,CD8+ T cell Naive (%),7,HV,46.0
+blood,15A,CD8+ T cell Naive (%),8,HV,41.0
+blood,15A,CD8+ T cell Naive (%),9,HV,79.8
+blood,15A,CD8+ T cell Naive (%),10,HV,68.1
+blood,15A,CD8+ T cell Naive (%),11,HV,44.4
+blood,15A,CD8+ T cell Naive (%),12,HV,47.1
+blood,15A,CD8+ T cell Naive (%),13,HV,60.7
+blood,15A,CD8+ T cell Naive (%),14,HV,40.6
+blood,15A,CD8+ T cell Naive (%),15,HV,34.1
+blood,15A,CD8+ T cell Naive (%),16,HV,68.7
+blood,15A,CD8+ T cell Naive (%),17,HV,72.2
+blood,15A,CD8+ T cell Naive (%),18,HV,93.8
+blood,15A,CD8+ T cell Naive (%),19,HV,63.0
+blood,15A,CD8+ T cell Naive (%),20,PI-ME/CFS,76.6
+blood,15A,CD8+ T cell Naive (%),21,PI-ME/CFS,29.9
+blood,15A,CD8+ T cell Naive (%),22,PI-ME/CFS,57.2
+blood,15A,CD8+ T cell Naive (%),23,PI-ME/CFS,59.7
+blood,15A,CD8+ T cell Naive (%),24,PI-ME/CFS,71.6
+blood,15A,CD8+ T cell Naive (%),25,PI-ME/CFS,48.5
+blood,15A,CD8+ T cell Naive (%),26,PI-ME/CFS,42.9
+blood,15A,CD8+ T cell Naive (%),27,PI-ME/CFS,51.3
+blood,15A,CD8+ T cell Naive (%),28,PI-ME/CFS,57.9
+blood,15A,CD8+ T cell Naive (%),29,PI-ME/CFS,73.0
+blood,15A,CD8+ T cell Naive (%),30,PI-ME/CFS,44.5
+blood,15A,CD8+ T cell Naive (%),31,PI-ME/CFS,77.1
+blood,15A,CD8+ T cell Naive (%),32,PI-ME/CFS,57.4
+blood,15A,CD8+ T cell Naive (%),33,PI-ME/CFS,63.2
+blood,15A,CD8+ T cell Naive (%),34,PI-ME/CFS,81.7
+blood,15A,CD8+ T cell Naive (%),35,PI-ME/CFS,65.5
+blood,15A,CD4+ T cell subset FoxP3 (%),1,HV,45.0
+blood,15A,CD4+ T cell subset FoxP3 (%),2,HV,63.4
+blood,15A,CD4+ T cell subset FoxP3 (%),3,HV,66.1
+blood,15A,CD4+ T cell subset FoxP3 (%),4,HV,60.8
+blood,15A,CD4+ T cell subset FoxP3 (%),5,HV,55.0
+blood,15A,CD4+ T cell subset FoxP3 (%),6,HV,43.3
+blood,15A,CD4+ T cell subset FoxP3 (%),7,HV,25.7
+blood,15A,CD4+ T cell subset FoxP3 (%),8,HV,40.2
+blood,15A,CD4+ T cell subset FoxP3 (%),9,HV,40.0
+blood,15A,CD4+ T cell subset FoxP3 (%),10,HV,76.4
+blood,15A,CD4+ T cell subset FoxP3 (%),11,HV,54.2
+blood,15A,CD4+ T cell subset FoxP3 (%),12,HV,44.3
+blood,15A,CD4+ T cell subset FoxP3 (%),13,HV,48.6
+blood,15A,CD4+ T cell subset FoxP3 (%),14,HV,64.7
+blood,15A,CD4+ T cell subset FoxP3 (%),15,HV,44.6
+blood,15A,CD4+ T cell subset FoxP3 (%),16,HV,42.3
+blood,15A,CD4+ T cell subset FoxP3 (%),17,HV,43.7
+blood,15A,CD4+ T cell subset FoxP3 (%),18,HV,44.7
+blood,15A,CD4+ T cell subset FoxP3 (%),19,HV,72.5
+blood,15A,CD4+ T cell subset FoxP3 (%),20,PI-ME/CFS,28.8
+blood,15A,CD4+ T cell subset FoxP3 (%),21,PI-ME/CFS,27.7
+blood,15A,CD4+ T cell subset FoxP3 (%),22,PI-ME/CFS,29.9
+blood,15A,CD4+ T cell subset FoxP3 (%),23,PI-ME/CFS,73.5
+blood,15A,CD4+ T cell subset FoxP3 (%),24,PI-ME/CFS,24.3
+blood,15A,CD4+ T cell subset FoxP3 (%),25,PI-ME/CFS,94.0
+blood,15A,CD4+ T cell subset FoxP3 (%),26,PI-ME/CFS,62.3
+blood,15A,CD4+ T cell subset FoxP3 (%),27,PI-ME/CFS,58.9
+blood,15A,CD4+ T cell subset FoxP3 (%),28,PI-ME/CFS,35.9
+blood,15A,CD4+ T cell subset FoxP3 (%),29,PI-ME/CFS,55.1
+blood,15A,CD4+ T cell subset FoxP3 (%),30,PI-ME/CFS,32.8
+blood,15A,CD4+ T cell subset FoxP3 (%),31,PI-ME/CFS,51.5
+blood,15A,CD4+ T cell subset FoxP3 (%),32,PI-ME/CFS,74.4
+blood,15A,CD4+ T cell subset FoxP3 (%),33,PI-ME/CFS,64.1
+blood,15A,CD4+ T cell subset FoxP3 (%),34,PI-ME/CFS,15.1
+blood,15A,CD4+ T cell subset FoxP3 (%),35,PI-ME/CFS,36.9
+blood,15A,CD4+ T cell subset CTLA-4 (%),1,HV,70.0
+blood,15A,CD4+ T cell subset CTLA-4 (%),2,HV,59.9
+blood,15A,CD4+ T cell subset CTLA-4 (%),3,HV,45.6
+blood,15A,CD4+ T cell subset CTLA-4 (%),4,HV,33.4
+blood,15A,CD4+ T cell subset CTLA-4 (%),5,HV,49.7
+blood,15A,CD4+ T cell subset CTLA-4 (%),6,HV,42.9
+blood,15A,CD4+ T cell subset CTLA-4 (%),7,HV,66.3
+blood,15A,CD4+ T cell subset CTLA-4 (%),8,HV,62.0
+blood,15A,CD4+ T cell subset CTLA-4 (%),9,HV,61.3
+blood,15A,CD4+ T cell subset CTLA-4 (%),10,HV,91.9
+blood,15A,CD4+ T cell subset CTLA-4 (%),11,HV,75.8
+blood,15A,CD4+ T cell subset CTLA-4 (%),12,HV,72.4
+blood,15A,CD4+ T cell subset CTLA-4 (%),13,HV,73.2
+blood,15A,CD4+ T cell subset CTLA-4 (%),14,HV,86.4
+blood,15A,CD4+ T cell subset CTLA-4 (%),15,HV,80.3
+blood,15A,CD4+ T cell subset CTLA-4 (%),16,HV,49.8
+blood,15A,CD4+ T cell subset CTLA-4 (%),17,HV,66.2
+blood,15A,CD4+ T cell subset CTLA-4 (%),18,HV,72.0
+blood,15A,CD4+ T cell subset CTLA-4 (%),19,HV,82.2
+blood,15A,CD4+ T cell subset CTLA-4 (%),20,PI-ME/CFS,38.7
+blood,15A,CD4+ T cell subset CTLA-4 (%),21,PI-ME/CFS,46.4
+blood,15A,CD4+ T cell subset CTLA-4 (%),22,PI-ME/CFS,44.9
+blood,15A,CD4+ T cell subset CTLA-4 (%),23,PI-ME/CFS,76.8
+blood,15A,CD4+ T cell subset CTLA-4 (%),24,PI-ME/CFS,24.5
+blood,15A,CD4+ T cell subset CTLA-4 (%),25,PI-ME/CFS,96.0
+blood,15A,CD4+ T cell subset CTLA-4 (%),26,PI-ME/CFS,77.3
+blood,15A,CD4+ T cell subset CTLA-4 (%),27,PI-ME/CFS,80.0
+blood,15A,CD4+ T cell subset CTLA-4 (%),28,PI-ME/CFS,70.0
+blood,15A,CD4+ T cell subset CTLA-4 (%),29,PI-ME/CFS,58.3
+blood,15A,CD4+ T cell subset CTLA-4 (%),30,PI-ME/CFS,61.3
+blood,15A,CD4+ T cell subset CTLA-4 (%),31,PI-ME/CFS,65.4
+blood,15A,CD4+ T cell subset CTLA-4 (%),32,PI-ME/CFS,84.2
+blood,15A,CD4+ T cell subset CTLA-4 (%),33,PI-ME/CFS,65.2
+blood,15A,CD4+ T cell subset CTLA-4 (%),34,PI-ME/CFS,22.0
+blood,15A,CD4+ T cell subset CTLA-4 (%),35,PI-ME/CFS,56.2
+blood,15A,CD8+ T cell subset PD-1 (%),1,HV,20.1
+blood,15A,CD8+ T cell subset PD-1 (%),2,HV,32.4
+blood,15A,CD8+ T cell subset PD-1 (%),3,HV,56.5
+blood,15A,CD8+ T cell subset PD-1 (%),4,HV,45.1
+blood,15A,CD8+ T cell subset PD-1 (%),5,HV,15.8
+blood,15A,CD8+ T cell subset PD-1 (%),6,HV,24.1
+blood,15A,CD8+ T cell subset PD-1 (%),7,HV,41.3
+blood,15A,CD8+ T cell subset PD-1 (%),8,HV,37.9
+blood,15A,CD8+ T cell subset PD-1 (%),9,HV,24.8
+blood,15A,CD8+ T cell subset PD-1 (%),10,HV,36.0
+blood,15A,CD8+ T cell subset PD-1 (%),11,HV,46.4
+blood,15A,CD8+ T cell subset PD-1 (%),12,HV,43.9
+blood,15A,CD8+ T cell subset PD-1 (%),13,HV,43.0
+blood,15A,CD8+ T cell subset PD-1 (%),14,HV,26.8
+blood,15A,CD8+ T cell subset PD-1 (%),15,HV,42.2
+blood,15A,CD8+ T cell subset PD-1 (%),16,HV,51.9
+blood,15A,CD8+ T cell subset PD-1 (%),17,HV,35.4
+blood,15A,CD8+ T cell subset PD-1 (%),18,HV,38.6
+blood,15A,CD8+ T cell subset PD-1 (%),19,HV,35.6
+blood,15A,CD8+ T cell subset PD-1 (%),20,PI-ME/CFS,27.0
+blood,15A,CD8+ T cell subset PD-1 (%),21,PI-ME/CFS,32.7
+blood,15A,CD8+ T cell subset PD-1 (%),22,PI-ME/CFS,18.6
+blood,15A,CD8+ T cell subset PD-1 (%),23,PI-ME/CFS,33.0
+blood,15A,CD8+ T cell subset PD-1 (%),24,PI-ME/CFS,39.1
+blood,15A,CD8+ T cell subset PD-1 (%),25,PI-ME/CFS,35.7
+blood,15A,CD8+ T cell subset PD-1 (%),26,PI-ME/CFS,44.1
+blood,15A,CD8+ T cell subset PD-1 (%),27,PI-ME/CFS,57.8
+blood,15A,CD8+ T cell subset PD-1 (%),28,PI-ME/CFS,22.9
+blood,15A,CD8+ T cell subset PD-1 (%),29,PI-ME/CFS,44.2
+blood,15A,CD8+ T cell subset PD-1 (%),30,PI-ME/CFS,35.9
+blood,15A,CD8+ T cell subset PD-1 (%),31,PI-ME/CFS,23.1
+blood,15A,CD8+ T cell subset PD-1 (%),32,PI-ME/CFS,46.6
+blood,15A,CD8+ T cell subset PD-1 (%),33,PI-ME/CFS,28.2
+blood,15A,CD8+ T cell subset PD-1 (%),34,PI-ME/CFS,32.4
+blood,15A,CD8+ T cell subset PD-1 (%),35,PI-ME/CFS,30.9
+blood,15A,CD4+ T cell subset PD-1 (%),1,HV,7.37
+blood,15A,CD4+ T cell subset PD-1 (%),2,HV,20.6
+blood,15A,CD4+ T cell subset PD-1 (%),3,HV,28.8
+blood,15A,CD4+ T cell subset PD-1 (%),4,HV,32.6
+blood,15A,CD4+ T cell subset PD-1 (%),5,HV,20.1
+blood,15A,CD4+ T cell subset PD-1 (%),6,HV,19.9
+blood,15A,CD4+ T cell subset PD-1 (%),7,HV,37.7
+blood,15A,CD4+ T cell subset PD-1 (%),8,HV,27.8
+blood,15A,CD4+ T cell subset PD-1 (%),9,HV,31.1
+blood,15A,CD4+ T cell subset PD-1 (%),10,HV,40.5
+blood,15A,CD4+ T cell subset PD-1 (%),11,HV,38.8
+blood,15A,CD4+ T cell subset PD-1 (%),12,HV,42.0
+blood,15A,CD4+ T cell subset PD-1 (%),13,HV,55.5
+blood,15A,CD4+ T cell subset PD-1 (%),14,HV,30.1
+blood,15A,CD4+ T cell subset PD-1 (%),15,HV,40.0
+blood,15A,CD4+ T cell subset PD-1 (%),16,HV,38.9
+blood,15A,CD4+ T cell subset PD-1 (%),17,HV,26.6
+blood,15A,CD4+ T cell subset PD-1 (%),18,HV,38.0
+blood,15A,CD4+ T cell subset PD-1 (%),19,HV,27.3
+blood,15A,CD4+ T cell subset PD-1 (%),20,PI-ME/CFS,32.5
+blood,15A,CD4+ T cell subset PD-1 (%),21,PI-ME/CFS,34.1
+blood,15A,CD4+ T cell subset PD-1 (%),22,PI-ME/CFS,29.4
+blood,15A,CD4+ T cell subset PD-1 (%),23,PI-ME/CFS,24.0
+blood,15A,CD4+ T cell subset PD-1 (%),24,PI-ME/CFS,25.1
+blood,15A,CD4+ T cell subset PD-1 (%),25,PI-ME/CFS,25.2
+blood,15A,CD4+ T cell subset PD-1 (%),26,PI-ME/CFS,29.7
+blood,15A,CD4+ T cell subset PD-1 (%),27,PI-ME/CFS,43.7
+blood,15A,CD4+ T cell subset PD-1 (%),28,PI-ME/CFS,26.8
+blood,15A,CD4+ T cell subset PD-1 (%),29,PI-ME/CFS,33.0
+blood,15A,CD4+ T cell subset PD-1 (%),30,PI-ME/CFS,32.7
+blood,15A,CD4+ T cell subset PD-1 (%),31,PI-ME/CFS,29.8
+blood,15A,CD4+ T cell subset PD-1 (%),32,PI-ME/CFS,39.3
+blood,15A,CD4+ T cell subset PD-1 (%),33,PI-ME/CFS,19.7
+blood,15A,CD4+ T cell subset PD-1 (%),34,PI-ME/CFS,29.4
+blood,15A,CD4+ T cell subset PD-1 (%),35,PI-ME/CFS,27.0
+blood,15A,CD8+ T cell subset pSTAT5 (%),1,HV,0.45
+blood,15A,CD8+ T cell subset pSTAT5 (%),2,HV,1.34
+blood,15A,CD8+ T cell subset pSTAT5 (%),3,HV,1.0
+blood,15A,CD8+ T cell subset pSTAT5 (%),4,HV,3.12
+blood,15A,CD8+ T cell subset pSTAT5 (%),5,HV,3.54
+blood,15A,CD8+ T cell subset pSTAT5 (%),6,HV,0.62
+blood,15A,CD8+ T cell subset pSTAT5 (%),7,HV,5.06
+blood,15A,CD8+ T cell subset pSTAT5 (%),8,HV,1.42
+blood,15A,CD8+ T cell subset pSTAT5 (%),9,HV,2.17
+blood,15A,CD8+ T cell subset pSTAT5 (%),10,HV,7.92
+blood,15A,CD8+ T cell subset pSTAT5 (%),11,HV,1.2
+blood,15A,CD8+ T cell subset pSTAT5 (%),12,HV,0.16
+blood,15A,CD8+ T cell subset pSTAT5 (%),13,HV,2.12
+blood,15A,CD8+ T cell subset pSTAT5 (%),14,HV,0.75
+blood,15A,CD8+ T cell subset pSTAT5 (%),15,HV,0.58
+blood,15A,CD8+ T cell subset pSTAT5 (%),16,HV,1.98
+blood,15A,CD8+ T cell subset pSTAT5 (%),17,HV,1.93
+blood,15A,CD8+ T cell subset pSTAT5 (%),18,HV,1.02
+blood,15A,CD8+ T cell subset pSTAT5 (%),19,HV,1.5
+blood,15A,CD8+ T cell subset pSTAT5 (%),20,PI-ME/CFS,1.62
+blood,15A,CD8+ T cell subset pSTAT5 (%),21,PI-ME/CFS,0.88
+blood,15A,CD8+ T cell subset pSTAT5 (%),23,PI-ME/CFS,0.53
+blood,15A,CD8+ T cell subset pSTAT5 (%),24,PI-ME/CFS,6.28
+blood,15A,CD8+ T cell subset pSTAT5 (%),25,PI-ME/CFS,2.65
+blood,15A,CD8+ T cell subset pSTAT5 (%),26,PI-ME/CFS,8.15
+blood,15A,CD8+ T cell subset pSTAT5 (%),27,PI-ME/CFS,3.89
+blood,15A,CD8+ T cell subset pSTAT5 (%),28,PI-ME/CFS,5.09
+blood,15A,CD8+ T cell subset pSTAT5 (%),29,PI-ME/CFS,1.92
+blood,15A,CD8+ T cell subset pSTAT5 (%),30,PI-ME/CFS,6.47
+blood,15A,CD8+ T cell subset pSTAT5 (%),31,PI-ME/CFS,0.76
+blood,15A,CD8+ T cell subset pSTAT5 (%),32,PI-ME/CFS,1.59
+blood,15A,CD8+ T cell subset pSTAT5 (%),33,PI-ME/CFS,0.93
+blood,15A,CD8+ T cell subset pSTAT5 (%),34,PI-ME/CFS,1.14
+blood,15A,CD8+ T cell subset pSTAT5 (%),35,PI-ME/CFS,0.14
+blood,15A,CD8+ T cell Memory (%),1,HV,21.7
+blood,15A,CD8+ T cell Memory (%),2,HV,45.6
+blood,15A,CD8+ T cell Memory (%),3,HV,43.2
+blood,15A,CD8+ T cell Memory (%),4,HV,33.4
+blood,15A,CD8+ T cell Memory (%),5,HV,17.7
+blood,15A,CD8+ T cell Memory (%),6,HV,0.4
+blood,15A,CD8+ T cell Memory (%),7,HV,40.5
+blood,15A,CD8+ T cell Memory (%),8,HV,27.2
+blood,15A,CD8+ T cell Memory (%),9,HV,15.7
+blood,15A,CD8+ T cell Memory (%),10,HV,19.5
+blood,15A,CD8+ T cell Memory (%),11,HV,34.5
+blood,15A,CD8+ T cell Memory (%),12,HV,42.6
+blood,15A,CD8+ T cell Memory (%),13,HV,1.32
+blood,15A,CD8+ T cell Memory (%),14,HV,30.7
+blood,15A,CD8+ T cell Memory (%),15,HV,28.5
+blood,15A,CD8+ T cell Memory (%),16,HV,11.7
+blood,15A,CD8+ T cell Memory (%),17,HV,21.0
+blood,15A,CD8+ T cell Memory (%),18,HV,1.55
+blood,15A,CD8+ T cell Memory (%),19,HV,24.9
+blood,15A,CD8+ T cell Memory (%),20,PI-ME/CFS,17.7
+blood,15A,CD8+ T cell Memory (%),21,PI-ME/CFS,21.0
+blood,15A,CD8+ T cell Memory (%),22,PI-ME/CFS,19.2
+blood,15A,CD8+ T cell Memory (%),23,PI-ME/CFS,31.6
+blood,15A,CD8+ T cell Memory (%),24,PI-ME/CFS,21.3
+blood,15A,CD8+ T cell Memory (%),25,PI-ME/CFS,17.0
+blood,15A,CD8+ T cell Memory (%),26,PI-ME/CFS,44.9
+blood,15A,CD8+ T cell Memory (%),27,PI-ME/CFS,28.4
+blood,15A,CD8+ T cell Memory (%),28,PI-ME/CFS,17.2
+blood,15A,CD8+ T cell Memory (%),29,PI-ME/CFS,22.2
+blood,15A,CD8+ T cell Memory (%),30,PI-ME/CFS,21.0
+blood,15A,CD8+ T cell Memory (%),31,PI-ME/CFS,18.7
+blood,15A,CD8+ T cell Memory (%),32,PI-ME/CFS,28.6
+blood,15A,CD8+ T cell Memory (%),33,PI-ME/CFS,27.5
+blood,15A,CD8+ T cell Memory (%),34,PI-ME/CFS,12.0
+blood,15A,CD8+ T cell Memory (%),35,PI-ME/CFS,14.6
+blood,15A,Lymphocyte NKT cell (%),1,HV,0.2
+blood,15A,Lymphocyte NKT cell (%),2,HV,0.81
+blood,15A,Lymphocyte NKT cell (%),3,HV,0.12
+blood,15A,Lymphocyte NKT cell (%),4,HV,1.22
+blood,15A,Lymphocyte NKT cell (%),5,HV,1.19
+blood,15A,Lymphocyte NKT cell (%),6,HV,0.49
+blood,15A,Lymphocyte NKT cell (%),7,HV,0.5
+blood,15A,Lymphocyte NKT cell (%),8,HV,2.43
+blood,15A,Lymphocyte NKT cell (%),9,HV,0.78
+blood,15A,Lymphocyte NKT cell (%),10,HV,0.55
+blood,15A,Lymphocyte NKT cell (%),11,HV,1.09
+blood,15A,Lymphocyte NKT cell (%),12,HV,0.62
+blood,15A,Lymphocyte NKT cell (%),13,HV,6.37
+blood,15A,Lymphocyte NKT cell (%),14,HV,0.32
+blood,15A,Lymphocyte NKT cell (%),15,HV,1.78
+blood,15A,Lymphocyte NKT cell (%),16,HV,6.18
+blood,15A,Lymphocyte NKT cell (%),17,HV,0.34
+blood,15A,Lymphocyte NKT cell (%),18,HV,0.23
+blood,15A,Lymphocyte NKT cell (%),19,HV,1.0
+blood,15A,Lymphocyte NKT cell (%),20,PI-ME/CFS,0.16
+blood,15A,Lymphocyte NKT cell (%),21,PI-ME/CFS,0.86
+blood,15A,Lymphocyte NKT cell (%),22,PI-ME/CFS,1.36
+blood,15A,Lymphocyte NKT cell (%),23,PI-ME/CFS,0.36
+blood,15A,Lymphocyte NKT cell (%),24,PI-ME/CFS,0.79
+blood,15A,Lymphocyte NKT cell (%),25,PI-ME/CFS,0.67
+blood,15A,Lymphocyte NKT cell (%),26,PI-ME/CFS,1.24
+blood,15A,Lymphocyte NKT cell (%),27,PI-ME/CFS,2.3
+blood,15A,Lymphocyte NKT cell (%),28,PI-ME/CFS,0.27
+blood,15A,Lymphocyte NKT cell (%),29,PI-ME/CFS,0.38
+blood,15A,Lymphocyte NKT cell (%),30,PI-ME/CFS,2.04
+blood,15A,Lymphocyte NKT cell (%),31,PI-ME/CFS,0.57
+blood,15A,Lymphocyte NKT cell (%),32,PI-ME/CFS,0.21
+blood,15A,Lymphocyte NKT cell (%),33,PI-ME/CFS,0.52
+blood,15A,Lymphocyte NKT cell (%),34,PI-ME/CFS,0.35
+blood,15A,Lymphocyte NKT cell (%),35,PI-ME/CFS,0.4
+blood,15A,Lymphocyte CD8+ T cell (%),1,HV,12.4
+blood,15A,Lymphocyte CD8+ T cell (%),2,HV,12.8
+blood,15A,Lymphocyte CD8+ T cell (%),3,HV,17.0
+blood,15A,Lymphocyte CD8+ T cell (%),4,HV,16.2
+blood,15A,Lymphocyte CD8+ T cell (%),5,HV,24.5
+blood,15A,Lymphocyte CD8+ T cell (%),6,HV,22.8
+blood,15A,Lymphocyte CD8+ T cell (%),7,HV,16.9
+blood,15A,Lymphocyte CD8+ T cell (%),8,HV,38.1
+blood,15A,Lymphocyte CD8+ T cell (%),9,HV,22.8
+blood,15A,Lymphocyte CD8+ T cell (%),10,HV,19.6
+blood,15A,Lymphocyte CD8+ T cell (%),11,HV,18.7
+blood,15A,Lymphocyte CD8+ T cell (%),12,HV,23.3
+blood,15A,Lymphocyte CD8+ T cell (%),13,HV,21.6
+blood,15A,Lymphocyte CD8+ T cell (%),14,HV,25.6
+blood,15A,Lymphocyte CD8+ T cell (%),15,HV,19.2
+blood,15A,Lymphocyte CD8+ T cell (%),16,HV,20.5
+blood,15A,Lymphocyte CD8+ T cell (%),17,HV,19.0
+blood,15A,Lymphocyte CD8+ T cell (%),18,HV,15.2
+blood,15A,Lymphocyte CD8+ T cell (%),19,HV,19.8
+blood,15A,Lymphocyte CD8+ T cell (%),20,PI-ME/CFS,17.3
+blood,15A,Lymphocyte CD8+ T cell (%),21,PI-ME/CFS,24.2
+blood,15A,Lymphocyte CD8+ T cell (%),22,PI-ME/CFS,19.3
+blood,15A,Lymphocyte CD8+ T cell (%),23,PI-ME/CFS,20.7
+blood,15A,Lymphocyte CD8+ T cell (%),24,PI-ME/CFS,18.8
+blood,15A,Lymphocyte CD8+ T cell (%),25,PI-ME/CFS,19.1
+blood,15A,Lymphocyte CD8+ T cell (%),26,PI-ME/CFS,16.8
+blood,15A,Lymphocyte CD8+ T cell (%),27,PI-ME/CFS,19.2
+blood,15A,Lymphocyte CD8+ T cell (%),28,PI-ME/CFS,14.1
+blood,15A,Lymphocyte CD8+ T cell (%),29,PI-ME/CFS,21.2
+blood,15A,Lymphocyte CD8+ T cell (%),30,PI-ME/CFS,23.0
+blood,15A,Lymphocyte CD8+ T cell (%),31,PI-ME/CFS,13.2
+blood,15A,Lymphocyte CD8+ T cell (%),32,PI-ME/CFS,14.7
+blood,15A,Lymphocyte CD8+ T cell (%),33,PI-ME/CFS,9.6
+blood,15A,Lymphocyte CD8+ T cell (%),34,PI-ME/CFS,28.3
+blood,15A,Lymphocyte CD8+ T cell (%),35,PI-ME/CFS,21.8
+blood,15A,Lymphocyte B cell (%),1,HV,10.8
+blood,15A,Lymphocyte B cell (%),2,HV,7.14
+blood,15A,Lymphocyte B cell (%),3,HV,8.59
+blood,15A,Lymphocyte B cell (%),4,HV,6.97
+blood,15A,Lymphocyte B cell (%),5,HV,16.2
+blood,15A,Lymphocyte B cell (%),6,HV,5.01
+blood,15A,Lymphocyte B cell (%),7,HV,12.7
+blood,15A,Lymphocyte B cell (%),8,HV,4.98
+blood,15A,Lymphocyte B cell (%),9,HV,9.75
+blood,15A,Lymphocyte B cell (%),10,HV,7.98
+blood,15A,Lymphocyte B cell (%),11,HV,12.0
+blood,15A,Lymphocyte B cell (%),12,HV,6.55
+blood,15A,Lymphocyte B cell (%),13,HV,9.4
+blood,15A,Lymphocyte B cell (%),14,HV,3.62
+blood,15A,Lymphocyte B cell (%),15,HV,9.26
+blood,15A,Lymphocyte B cell (%),16,HV,7.82
+blood,15A,Lymphocyte B cell (%),17,HV,5.69
+blood,15A,Lymphocyte B cell (%),18,HV,13.3
+blood,15A,Lymphocyte B cell (%),19,HV,15.0
+blood,15A,Lymphocyte B cell (%),20,PI-ME/CFS,7.1
+blood,15A,Lymphocyte B cell (%),21,PI-ME/CFS,6.41
+blood,15A,Lymphocyte B cell (%),22,PI-ME/CFS,13.3
+blood,15A,Lymphocyte B cell (%),23,PI-ME/CFS,8.33
+blood,15A,Lymphocyte B cell (%),24,PI-ME/CFS,7.81
+blood,15A,Lymphocyte B cell (%),25,PI-ME/CFS,7.21
+blood,15A,Lymphocyte B cell (%),26,PI-ME/CFS,5.93
+blood,15A,Lymphocyte B cell (%),27,PI-ME/CFS,13.2
+blood,15A,Lymphocyte B cell (%),28,PI-ME/CFS,13.3
+blood,15A,Lymphocyte B cell (%),29,PI-ME/CFS,11.7
+blood,15A,Lymphocyte B cell (%),30,PI-ME/CFS,5.54
+blood,15A,Lymphocyte B cell (%),31,PI-ME/CFS,15.8
+blood,15A,Lymphocyte B cell (%),32,PI-ME/CFS,13.0
+blood,15A,Lymphocyte B cell (%),33,PI-ME/CFS,11.3
+blood,15A,Lymphocyte B cell (%),34,PI-ME/CFS,12.9
+blood,15A,Lymphocyte B cell (%),35,PI-ME/CFS,4.97
+blood,15A,Monocyte subset CD14+CD16- (%),1,HV,91.0
+blood,15A,Monocyte subset CD14+CD16- (%),2,HV,91.1
+blood,15A,Monocyte subset CD14+CD16- (%),3,HV,93.5
+blood,15A,Monocyte subset CD14+CD16- (%),4,HV,90.0
+blood,15A,Monocyte subset CD14+CD16- (%),5,HV,91.2
+blood,15A,Monocyte subset CD14+CD16- (%),6,HV,85.4
+blood,15A,Monocyte subset CD14+CD16- (%),7,HV,67.0
+blood,15A,Monocyte subset CD14+CD16- (%),8,HV,71.2
+blood,15A,Monocyte subset CD14+CD16- (%),9,HV,95.5
+blood,15A,Monocyte subset CD14+CD16- (%),10,HV,84.7
+blood,15A,Monocyte subset CD14+CD16- (%),11,HV,91.0
+blood,15A,Monocyte subset CD14+CD16- (%),12,HV,93.0
+blood,15A,Monocyte subset CD14+CD16- (%),13,HV,89.9
+blood,15A,Monocyte subset CD14+CD16- (%),14,HV,87.3
+blood,15A,Monocyte subset CD14+CD16- (%),15,HV,81.0
+blood,15A,Monocyte subset CD14+CD16- (%),16,HV,75.9
+blood,15A,Monocyte subset CD14+CD16- (%),17,HV,81.9
+blood,15A,Monocyte subset CD14+CD16- (%),18,HV,94.6
+blood,15A,Monocyte subset CD14+CD16- (%),19,HV,70.0
+blood,15A,Monocyte subset CD14+CD16- (%),20,PI-ME/CFS,94.3
+blood,15A,Monocyte subset CD14+CD16- (%),21,PI-ME/CFS,87.6
+blood,15A,Monocyte subset CD14+CD16- (%),22,PI-ME/CFS,59.9
+blood,15A,Monocyte subset CD14+CD16- (%),23,PI-ME/CFS,93.0
+blood,15A,Monocyte subset CD14+CD16- (%),24,PI-ME/CFS,88.8
+blood,15A,Monocyte subset CD14+CD16- (%),25,PI-ME/CFS,76.3
+blood,15A,Monocyte subset CD14+CD16- (%),26,PI-ME/CFS,93.2
+blood,15A,Monocyte subset CD14+CD16- (%),27,PI-ME/CFS,88.3
+blood,15A,Monocyte subset CD14+CD16- (%),28,PI-ME/CFS,95.2
+blood,15A,Monocyte subset CD14+CD16- (%),29,PI-ME/CFS,74.2
+blood,15A,Monocyte subset CD14+CD16- (%),30,PI-ME/CFS,87.3
+blood,15A,Monocyte subset CD14+CD16- (%),31,PI-ME/CFS,89.4
+blood,15A,Monocyte subset CD14+CD16- (%),32,PI-ME/CFS,77.3
+blood,15A,Monocyte subset CD14+CD16- (%),33,PI-ME/CFS,94.2
+blood,15A,Monocyte subset CD14+CD16- (%),34,PI-ME/CFS,95.0
+blood,15A,Monocyte subset CD14+CD16- (%),35,PI-ME/CFS,90.5
+blood,15A,CD4+ T cell Effector/memory (%),1,HV,3.66
+blood,15A,CD4+ T cell Effector/memory (%),2,HV,9.14
+blood,15A,CD4+ T cell Effector/memory (%),3,HV,16.8
+blood,15A,CD4+ T cell Effector/memory (%),4,HV,19.6
+blood,15A,CD4+ T cell Effector/memory (%),5,HV,5.86
+blood,15A,CD4+ T cell Effector/memory (%),6,HV,1.54
+blood,15A,CD4+ T cell Effector/memory (%),7,HV,15.1
+blood,15A,CD4+ T cell Effector/memory (%),8,HV,14.4
+blood,15A,CD4+ T cell Effector/memory (%),9,HV,4.64
+blood,15A,CD4+ T cell Effector/memory (%),10,HV,8.3
+blood,15A,CD4+ T cell Effector/memory (%),11,HV,12.5
+blood,15A,CD4+ T cell Effector/memory (%),12,HV,7.02
+blood,15A,CD4+ T cell Effector/memory (%),13,HV,2.11
+blood,15A,CD4+ T cell Effector/memory (%),14,HV,12.3
+blood,15A,CD4+ T cell Effector/memory (%),15,HV,12.8
+blood,15A,CD4+ T cell Effector/memory (%),16,HV,6.73
+blood,15A,CD4+ T cell Effector/memory (%),17,HV,3.75
+blood,15A,CD4+ T cell Effector/memory (%),18,HV,0.69
+blood,15A,CD4+ T cell Effector/memory (%),19,HV,8.17
+blood,15A,CD4+ T cell Effector/memory (%),20,PI-ME/CFS,7.31
+blood,15A,CD4+ T cell Effector/memory (%),21,PI-ME/CFS,13.7
+blood,15A,CD4+ T cell Effector/memory (%),22,PI-ME/CFS,8.09
+blood,15A,CD4+ T cell Effector/memory (%),23,PI-ME/CFS,4.93
+blood,15A,CD4+ T cell Effector/memory (%),24,PI-ME/CFS,4.24
+blood,15A,CD4+ T cell Effector/memory (%),25,PI-ME/CFS,4.33
+blood,15A,CD4+ T cell Effector/memory (%),26,PI-ME/CFS,3.06
+blood,15A,CD4+ T cell Effector/memory (%),27,PI-ME/CFS,11.7
+blood,15A,CD4+ T cell Effector/memory (%),28,PI-ME/CFS,8.85
+blood,15A,CD4+ T cell Effector/memory (%),29,PI-ME/CFS,6.54
+blood,15A,CD4+ T cell Effector/memory (%),30,PI-ME/CFS,12.4
+blood,15A,CD4+ T cell Effector/memory (%),31,PI-ME/CFS,7.9
+blood,15A,CD4+ T cell Effector/memory (%),32,PI-ME/CFS,12.9
+blood,15A,CD4+ T cell Effector/memory (%),33,PI-ME/CFS,3.63
+blood,15A,CD4+ T cell Effector/memory (%),34,PI-ME/CFS,2.78
+blood,15A,CD4+ T cell Effector/memory (%),35,PI-ME/CFS,12.1
+blood,15A,B cell Unswitched memory (%),1,HV,46.5
+blood,15A,B cell Unswitched memory (%),2,HV,32.2
+blood,15A,B cell Unswitched memory (%),3,HV,36.1
+blood,15A,B cell Unswitched memory (%),4,HV,22.5
+blood,15A,B cell Unswitched memory (%),5,HV,43.0
+blood,15A,B cell Unswitched memory (%),6,HV,42.7
+blood,15A,B cell Unswitched memory (%),7,HV,26.3
+blood,15A,B cell Unswitched memory (%),8,HV,48.2
+blood,15A,B cell Unswitched memory (%),9,HV,34.9
+blood,15A,B cell Unswitched memory (%),10,HV,29.2
+blood,15A,B cell Unswitched memory (%),11,HV,22.4
+blood,15A,B cell Unswitched memory (%),12,HV,39.8
+blood,15A,B cell Unswitched memory (%),13,HV,47.1
+blood,15A,B cell Unswitched memory (%),14,HV,46.1
+blood,15A,B cell Unswitched memory (%),15,HV,31.6
+blood,15A,B cell Unswitched memory (%),16,HV,30.1
+blood,15A,B cell Unswitched memory (%),17,HV,29.6
+blood,15A,B cell Unswitched memory (%),18,HV,34.6
+blood,15A,B cell Unswitched memory (%),19,HV,32.4
+blood,15A,B cell Unswitched memory (%),20,PI-ME/CFS,37.5
+blood,15A,B cell Unswitched memory (%),21,PI-ME/CFS,37.9
+blood,15A,B cell Unswitched memory (%),22,PI-ME/CFS,25.4
+blood,15A,B cell Unswitched memory (%),23,PI-ME/CFS,36.3
+blood,15A,B cell Unswitched memory (%),24,PI-ME/CFS,35.8
+blood,15A,B cell Unswitched memory (%),25,PI-ME/CFS,35.1
+blood,15A,B cell Unswitched memory (%),26,PI-ME/CFS,41.6
+blood,15A,B cell Unswitched memory (%),27,PI-ME/CFS,46.9
+blood,15A,B cell Unswitched memory (%),28,PI-ME/CFS,41.0
+blood,15A,B cell Unswitched memory (%),29,PI-ME/CFS,25.5
+blood,15A,B cell Unswitched memory (%),30,PI-ME/CFS,35.9
+blood,15A,B cell Unswitched memory (%),31,PI-ME/CFS,38.9
+blood,15A,B cell Unswitched memory (%),32,PI-ME/CFS,41.8
+blood,15A,B cell Unswitched memory (%),33,PI-ME/CFS,51.5
+blood,15A,B cell Unswitched memory (%),34,PI-ME/CFS,28.7
+blood,15A,B cell Unswitched memory (%),35,PI-ME/CFS,28.2
+blood,15A,CD4+ T cell memory Tfh (%),1,HV,5.72
+blood,15A,CD4+ T cell memory Tfh (%),2,HV,11.9
+blood,15A,CD4+ T cell memory Tfh (%),3,HV,17.8
+blood,15A,CD4+ T cell memory Tfh (%),4,HV,13.2
+blood,15A,CD4+ T cell memory Tfh (%),5,HV,12.4
+blood,15A,CD4+ T cell memory Tfh (%),6,HV,1.22
+blood,15A,CD4+ T cell memory Tfh (%),7,HV,13.6
+blood,15A,CD4+ T cell memory Tfh (%),8,HV,7.97
+blood,15A,CD4+ T cell memory Tfh (%),9,HV,9.59
+blood,15A,CD4+ T cell memory Tfh (%),10,HV,9.28
+blood,15A,CD4+ T cell memory Tfh (%),11,HV,21.5
+blood,15A,CD4+ T cell memory Tfh (%),12,HV,15.6
+blood,15A,CD4+ T cell memory Tfh (%),13,HV,1.91
+blood,15A,CD4+ T cell memory Tfh (%),14,HV,16.8
+blood,15A,CD4+ T cell memory Tfh (%),15,HV,10.6
+blood,15A,CD4+ T cell memory Tfh (%),16,HV,13.9
+blood,15A,CD4+ T cell memory Tfh (%),17,HV,7.75
+blood,15A,CD4+ T cell memory Tfh (%),18,HV,1.53
+blood,15A,CD4+ T cell memory Tfh (%),19,HV,16.0
+blood,15A,CD4+ T cell memory Tfh (%),20,PI-ME/CFS,9.55
+blood,15A,CD4+ T cell memory Tfh (%),21,PI-ME/CFS,15.5
+blood,15A,CD4+ T cell memory Tfh (%),22,PI-ME/CFS,16.7
+blood,15A,CD4+ T cell memory Tfh (%),23,PI-ME/CFS,11.6
+blood,15A,CD4+ T cell memory Tfh (%),24,PI-ME/CFS,6.57
+blood,15A,CD4+ T cell memory Tfh (%),25,PI-ME/CFS,11.3
+blood,15A,CD4+ T cell memory Tfh (%),26,PI-ME/CFS,13.1
+blood,15A,CD4+ T cell memory Tfh (%),27,PI-ME/CFS,25.0
+blood,15A,CD4+ T cell memory Tfh (%),28,PI-ME/CFS,13.1
+blood,15A,CD4+ T cell memory Tfh (%),29,PI-ME/CFS,15.4
+blood,15A,CD4+ T cell memory Tfh (%),30,PI-ME/CFS,14.2
+blood,15A,CD4+ T cell memory Tfh (%),31,PI-ME/CFS,9.01
+blood,15A,CD4+ T cell memory Tfh (%),32,PI-ME/CFS,10.4
+blood,15A,CD4+ T cell memory Tfh (%),33,PI-ME/CFS,5.85
+blood,15A,CD4+ T cell memory Tfh (%),34,PI-ME/CFS,12.6
+blood,15A,CD4+ T cell memory Tfh (%),35,PI-ME/CFS,10.2
+blood,15A,CD4+ T cell Effector (%),1,HV,0.3
+blood,15A,CD4+ T cell Effector (%),2,HV,0.3
+blood,15A,CD4+ T cell Effector (%),3,HV,2.06
+blood,15A,CD4+ T cell Effector (%),4,HV,4.54
+blood,15A,CD4+ T cell Effector (%),5,HV,0.19
+blood,15A,CD4+ T cell Effector (%),6,HV,8.32
+blood,15A,CD4+ T cell Effector (%),7,HV,1.66
+blood,15A,CD4+ T cell Effector (%),8,HV,0.42
+blood,15A,CD4+ T cell Effector (%),9,HV,0.19
+blood,15A,CD4+ T cell Effector (%),10,HV,0.44
+blood,15A,CD4+ T cell Effector (%),11,HV,0.62
+blood,15A,CD4+ T cell Effector (%),12,HV,0.19
+blood,15A,CD4+ T cell Effector (%),13,HV,19.6
+blood,15A,CD4+ T cell Effector (%),14,HV,0.62
+blood,15A,CD4+ T cell Effector (%),15,HV,1.01
+blood,15A,CD4+ T cell Effector (%),16,HV,1.22
+blood,15A,CD4+ T cell Effector (%),17,HV,0.28
+blood,15A,CD4+ T cell Effector (%),18,HV,2.68
+blood,15A,CD4+ T cell Effector (%),19,HV,0.36
+blood,15A,CD4+ T cell Effector (%),20,PI-ME/CFS,0.21
+blood,15A,CD4+ T cell Effector (%),21,PI-ME/CFS,0.67
+blood,15A,CD4+ T cell Effector (%),22,PI-ME/CFS,0.73
+blood,15A,CD4+ T cell Effector (%),23,PI-ME/CFS,0.35
+blood,15A,CD4+ T cell Effector (%),24,PI-ME/CFS,0.61
+blood,15A,CD4+ T cell Effector (%),25,PI-ME/CFS,1.65
+blood,15A,CD4+ T cell Effector (%),26,PI-ME/CFS,0.068
+blood,15A,CD4+ T cell Effector (%),27,PI-ME/CFS,1.09
+blood,15A,CD4+ T cell Effector (%),28,PI-ME/CFS,0.81
+blood,15A,CD4+ T cell Effector (%),29,PI-ME/CFS,0.53
+blood,15A,CD4+ T cell Effector (%),30,PI-ME/CFS,2.9
+blood,15A,CD4+ T cell Effector (%),31,PI-ME/CFS,0.13
+blood,15A,CD4+ T cell Effector (%),32,PI-ME/CFS,1.26
+blood,15A,CD4+ T cell Effector (%),33,PI-ME/CFS,0.61
+blood,15A,CD4+ T cell Effector (%),34,PI-ME/CFS,0.23
+blood,15A,CD4+ T cell Effector (%),35,PI-ME/CFS,1.82
+blood,15A,Lymphocyte monocyte (%),1,HV,9.03
+blood,15A,Lymphocyte monocyte (%),2,HV,15.1
+blood,15A,Lymphocyte monocyte (%),3,HV,16.0
+blood,15A,Lymphocyte monocyte (%),4,HV,7.57
+blood,15A,Lymphocyte monocyte (%),5,HV,10.3
+blood,15A,Lymphocyte monocyte (%),6,HV,15.7
+blood,15A,Lymphocyte monocyte (%),7,HV,16.7
+blood,15A,Lymphocyte monocyte (%),8,HV,2.96
+blood,15A,Lymphocyte monocyte (%),9,HV,17.9
+blood,15A,Lymphocyte monocyte (%),10,HV,11.8
+blood,15A,Lymphocyte monocyte (%),11,HV,12.2
+blood,15A,Lymphocyte monocyte (%),12,HV,18.7
+blood,15A,Lymphocyte monocyte (%),13,HV,16.0
+blood,15A,Lymphocyte monocyte (%),14,HV,16.2
+blood,15A,Lymphocyte monocyte (%),15,HV,3.6
+blood,15A,Lymphocyte monocyte (%),16,HV,11.6
+blood,15A,Lymphocyte monocyte (%),17,HV,5.22
+blood,15A,Lymphocyte monocyte (%),18,HV,14.0
+blood,15A,Lymphocyte monocyte (%),19,HV,7.92
+blood,15A,Lymphocyte monocyte (%),20,PI-ME/CFS,18.0
+blood,15A,Lymphocyte monocyte (%),21,PI-ME/CFS,9.0
+blood,15A,Lymphocyte monocyte (%),22,PI-ME/CFS,6.78
+blood,15A,Lymphocyte monocyte (%),23,PI-ME/CFS,12.6
+blood,15A,Lymphocyte monocyte (%),24,PI-ME/CFS,13.8
+blood,15A,Lymphocyte monocyte (%),25,PI-ME/CFS,4.43
+blood,15A,Lymphocyte monocyte (%),26,PI-ME/CFS,12.8
+blood,15A,Lymphocyte monocyte (%),27,PI-ME/CFS,18.6
+blood,15A,Lymphocyte monocyte (%),28,PI-ME/CFS,18.8
+blood,15A,Lymphocyte monocyte (%),29,PI-ME/CFS,11.6
+blood,15A,Lymphocyte monocyte (%),30,PI-ME/CFS,16.5
+blood,15A,Lymphocyte monocyte (%),31,PI-ME/CFS,16.6
+blood,15A,Lymphocyte monocyte (%),32,PI-ME/CFS,11.8
+blood,15A,Lymphocyte monocyte (%),33,PI-ME/CFS,12.0
+blood,15A,Lymphocyte monocyte (%),34,PI-ME/CFS,6.58
+blood,15A,Lymphocyte monocyte (%),35,PI-ME/CFS,12.1
+blood,15A,CD4+ T cell Naive (%),1,HV,68.4
+blood,15A,CD4+ T cell Naive (%),2,HV,42.3
+blood,15A,CD4+ T cell Naive (%),3,HV,30.6
+blood,15A,CD4+ T cell Naive (%),4,HV,25.9
+blood,15A,CD4+ T cell Naive (%),5,HV,47.5
+blood,15A,CD4+ T cell Naive (%),6,HV,85.7
+blood,15A,CD4+ T cell Naive (%),7,HV,39.8
+blood,15A,CD4+ T cell Naive (%),8,HV,35.3
+blood,15A,CD4+ T cell Naive (%),9,HV,62.8
+blood,15A,CD4+ T cell Naive (%),10,HV,46.1
+blood,15A,CD4+ T cell Naive (%),11,HV,27.7
+blood,15A,CD4+ T cell Naive (%),12,HV,36.7
+blood,15A,CD4+ T cell Naive (%),13,HV,69.2
+blood,15A,CD4+ T cell Naive (%),14,HV,26.8
+blood,15A,CD4+ T cell Naive (%),15,HV,44.4
+blood,15A,CD4+ T cell Naive (%),16,HV,52.8
+blood,15A,CD4+ T cell Naive (%),17,HV,62.0
+blood,15A,CD4+ T cell Naive (%),18,HV,89.1
+blood,15A,CD4+ T cell Naive (%),19,HV,34.9
+blood,15A,CD4+ T cell Naive (%),20,PI-ME/CFS,46.0
+blood,15A,CD4+ T cell Naive (%),21,PI-ME/CFS,44.1
+blood,15A,CD4+ T cell Naive (%),22,PI-ME/CFS,43.6
+blood,15A,CD4+ T cell Naive (%),23,PI-ME/CFS,52.4
+blood,15A,CD4+ T cell Naive (%),24,PI-ME/CFS,64.4
+blood,15A,CD4+ T cell Naive (%),25,PI-ME/CFS,59.3
+blood,15A,CD4+ T cell Naive (%),26,PI-ME/CFS,48.2
+blood,15A,CD4+ T cell Naive (%),27,PI-ME/CFS,26.2
+blood,15A,CD4+ T cell Naive (%),28,PI-ME/CFS,51.7
+blood,15A,CD4+ T cell Naive (%),29,PI-ME/CFS,52.2
+blood,15A,CD4+ T cell Naive (%),30,PI-ME/CFS,42.7
+blood,15A,CD4+ T cell Naive (%),31,PI-ME/CFS,39.9
+blood,15A,CD4+ T cell Naive (%),32,PI-ME/CFS,29.7
+blood,15A,CD4+ T cell Naive (%),33,PI-ME/CFS,68.6
+blood,15A,CD4+ T cell Naive (%),34,PI-ME/CFS,60.7
+blood,15A,CD4+ T cell Naive (%),35,PI-ME/CFS,46.0
+blood,15A,CD8+ T cell subset CD25high (%),1,HV,0.094
+blood,15A,CD8+ T cell subset CD25high (%),2,HV,0.2
+blood,15A,CD8+ T cell subset CD25high (%),3,HV,0.86
+blood,15A,CD8+ T cell subset CD25high (%),4,HV,0.043
+blood,15A,CD8+ T cell subset CD25high (%),5,HV,0.11
+blood,15A,CD8+ T cell subset CD25high (%),6,HV,0.08
+blood,15A,CD8+ T cell subset CD25high (%),7,HV,0.057
+blood,15A,CD8+ T cell subset CD25high (%),8,HV,0.14
+blood,15A,CD8+ T cell subset CD25high (%),9,HV,0.16
+blood,15A,CD8+ T cell subset CD25high (%),10,HV,0.11
+blood,15A,CD8+ T cell subset CD25high (%),11,HV,0.12
+blood,15A,CD8+ T cell subset CD25high (%),12,HV,0.11
+blood,15A,CD8+ T cell subset CD25high (%),13,HV,0.31
+blood,15A,CD8+ T cell subset CD25high (%),14,HV,0.13
+blood,15A,CD8+ T cell subset CD25high (%),15,HV,0.41
+blood,15A,CD8+ T cell subset CD25high (%),16,HV,0.82
+blood,15A,CD8+ T cell subset CD25high (%),17,HV,1.51
+blood,15A,CD8+ T cell subset CD25high (%),18,HV,0.4
+blood,15A,CD8+ T cell subset CD25high (%),19,HV,0.11
+blood,15A,CD8+ T cell subset CD25high (%),20,PI-ME/CFS,0.044
+blood,15A,CD8+ T cell subset CD25high (%),21,PI-ME/CFS,0.099
+blood,15A,CD8+ T cell subset CD25high (%),22,PI-ME/CFS,0.028
+blood,15A,CD8+ T cell subset CD25high (%),23,PI-ME/CFS,0.078
+blood,15A,CD8+ T cell subset CD25high (%),24,PI-ME/CFS,0.14
+blood,15A,CD8+ T cell subset CD25high (%),25,PI-ME/CFS,0.011
+blood,15A,CD8+ T cell subset CD25high (%),26,PI-ME/CFS,0.16
+blood,15A,CD8+ T cell subset CD25high (%),27,PI-ME/CFS,0.99
+blood,15A,CD8+ T cell subset CD25high (%),28,PI-ME/CFS,0.27
+blood,15A,CD8+ T cell subset CD25high (%),29,PI-ME/CFS,0.43
+blood,15A,CD8+ T cell subset CD25high (%),30,PI-ME/CFS,1.88
+blood,15A,CD8+ T cell subset CD25high (%),31,PI-ME/CFS,0.44
+blood,15A,CD8+ T cell subset CD25high (%),32,PI-ME/CFS,0.28
+blood,15A,CD8+ T cell subset CD25high (%),33,PI-ME/CFS,0.37
+blood,15A,CD8+ T cell subset CD25high (%),34,PI-ME/CFS,0.29
+blood,15A,CD8+ T cell subset CD25high (%),35,PI-ME/CFS,0.15
+blood,15A,Lymphocyte NK CD56dim (%),1,HV,2.71
+blood,15A,Lymphocyte NK CD56dim (%),2,HV,6.82
+blood,15A,Lymphocyte NK CD56dim (%),3,HV,2.84
+blood,15A,Lymphocyte NK CD56dim (%),4,HV,5.81
+blood,15A,Lymphocyte NK CD56dim (%),5,HV,6.26
+blood,15A,Lymphocyte NK CD56dim (%),6,HV,5.02
+blood,15A,Lymphocyte NK CD56dim (%),7,HV,7.84
+blood,15A,Lymphocyte NK CD56dim (%),8,HV,5.12
+blood,15A,Lymphocyte NK CD56dim (%),9,HV,13.7
+blood,15A,Lymphocyte NK CD56dim (%),10,HV,4.68
+blood,15A,Lymphocyte NK CD56dim (%),11,HV,14.1
+blood,15A,Lymphocyte NK CD56dim (%),12,HV,5.36
+blood,15A,Lymphocyte NK CD56dim (%),13,HV,4.8
+blood,15A,Lymphocyte NK CD56dim (%),14,HV,7.5
+blood,15A,Lymphocyte NK CD56dim (%),15,HV,4.6
+blood,15A,Lymphocyte NK CD56dim (%),16,HV,5.24
+blood,15A,Lymphocyte NK CD56dim (%),17,HV,10.5
+blood,15A,Lymphocyte NK CD56dim (%),18,HV,9.38
+blood,15A,Lymphocyte NK CD56dim (%),19,HV,5.55
+blood,15A,Lymphocyte NK CD56dim (%),20,PI-ME/CFS,2.54
+blood,15A,Lymphocyte NK CD56dim (%),21,PI-ME/CFS,11.5
+blood,15A,Lymphocyte NK CD56dim (%),22,PI-ME/CFS,3.12
+blood,15A,Lymphocyte NK CD56dim (%),23,PI-ME/CFS,8.44
+blood,15A,Lymphocyte NK CD56dim (%),24,PI-ME/CFS,3.57
+blood,15A,Lymphocyte NK CD56dim (%),25,PI-ME/CFS,6.48
+blood,15A,Lymphocyte NK CD56dim (%),26,PI-ME/CFS,5.25
+blood,15A,Lymphocyte NK CD56dim (%),27,PI-ME/CFS,6.0
+blood,15A,Lymphocyte NK CD56dim (%),28,PI-ME/CFS,2.38
+blood,15A,Lymphocyte NK CD56dim (%),29,PI-ME/CFS,3.67
+blood,15A,Lymphocyte NK CD56dim (%),30,PI-ME/CFS,9.08
+blood,15A,Lymphocyte NK CD56dim (%),31,PI-ME/CFS,10.9
+blood,15A,Lymphocyte NK CD56dim (%),32,PI-ME/CFS,8.42
+blood,15A,Lymphocyte NK CD56dim (%),33,PI-ME/CFS,5.82
+blood,15A,Lymphocyte NK CD56dim (%),34,PI-ME/CFS,3.59
+blood,15A,Lymphocyte NK CD56dim (%),35,PI-ME/CFS,7.42
+blood,15A,Lymphocyte NK cell (%),1,HV,2.96
+blood,15A,Lymphocyte NK cell (%),2,HV,7.19
+blood,15A,Lymphocyte NK cell (%),3,HV,2.96
+blood,15A,Lymphocyte NK cell (%),4,HV,6.08
+blood,15A,Lymphocyte NK cell (%),5,HV,6.78
+blood,15A,Lymphocyte NK cell (%),6,HV,5.22
+blood,15A,Lymphocyte NK cell (%),7,HV,8.38
+blood,15A,Lymphocyte NK cell (%),8,HV,6.03
+blood,15A,Lymphocyte NK cell (%),9,HV,14.8
+blood,15A,Lymphocyte NK cell (%),10,HV,5.03
+blood,15A,Lymphocyte NK cell (%),11,HV,14.9
+blood,15A,Lymphocyte NK cell (%),12,HV,6.25
+blood,15A,Lymphocyte NK cell (%),13,HV,5.25
+blood,15A,Lymphocyte NK cell (%),14,HV,8.4
+blood,15A,Lymphocyte NK cell (%),15,HV,5.08
+blood,15A,Lymphocyte NK cell (%),16,HV,5.58
+blood,15A,Lymphocyte NK cell (%),17,HV,11.0
+blood,15A,Lymphocyte NK cell (%),18,HV,9.96
+blood,15A,Lymphocyte NK cell (%),19,HV,5.98
+blood,15A,Lymphocyte NK cell (%),20,PI-ME/CFS,2.81
+blood,15A,Lymphocyte NK cell (%),21,PI-ME/CFS,12.0
+blood,15A,Lymphocyte NK cell (%),22,PI-ME/CFS,3.24
+blood,15A,Lymphocyte NK cell (%),23,PI-ME/CFS,8.87
+blood,15A,Lymphocyte NK cell (%),24,PI-ME/CFS,3.89
+blood,15A,Lymphocyte NK cell (%),25,PI-ME/CFS,6.94
+blood,15A,Lymphocyte NK cell (%),26,PI-ME/CFS,6.03
+blood,15A,Lymphocyte NK cell (%),27,PI-ME/CFS,7.09
+blood,15A,Lymphocyte NK cell (%),28,PI-ME/CFS,2.65
+blood,15A,Lymphocyte NK cell (%),29,PI-ME/CFS,4.31
+blood,15A,Lymphocyte NK cell (%),30,PI-ME/CFS,9.99
+blood,15A,Lymphocyte NK cell (%),31,PI-ME/CFS,11.4
+blood,15A,Lymphocyte NK cell (%),32,PI-ME/CFS,8.88
+blood,15A,Lymphocyte NK cell (%),33,PI-ME/CFS,6.46
+blood,15A,Lymphocyte NK cell (%),34,PI-ME/CFS,4.19
+blood,15A,Lymphocyte NK cell (%),35,PI-ME/CFS,7.89
+blood,15A,CD4+ T cell subset pSTAT5 (%),1,HV,0.26
+blood,15A,CD4+ T cell subset pSTAT5 (%),2,HV,2.12
+blood,15A,CD4+ T cell subset pSTAT5 (%),3,HV,1.39
+blood,15A,CD4+ T cell subset pSTAT5 (%),4,HV,10.8
+blood,15A,CD4+ T cell subset pSTAT5 (%),5,HV,5.8
+blood,15A,CD4+ T cell subset pSTAT5 (%),6,HV,1.18
+blood,15A,CD4+ T cell subset pSTAT5 (%),7,HV,17.3
+blood,15A,CD4+ T cell subset pSTAT5 (%),8,HV,1.05
+blood,15A,CD4+ T cell subset pSTAT5 (%),9,HV,6.09
+blood,15A,CD4+ T cell subset pSTAT5 (%),10,HV,15.4
+blood,15A,CD4+ T cell subset pSTAT5 (%),11,HV,1.4
+blood,15A,CD4+ T cell subset pSTAT5 (%),12,HV,0.18
+blood,15A,CD4+ T cell subset pSTAT5 (%),13,HV,4.72
+blood,15A,CD4+ T cell subset pSTAT5 (%),14,HV,1.72
+blood,15A,CD4+ T cell subset pSTAT5 (%),15,HV,2.18
+blood,15A,CD4+ T cell subset pSTAT5 (%),16,HV,1.64
+blood,15A,CD4+ T cell subset pSTAT5 (%),17,HV,1.89
+blood,15A,CD4+ T cell subset pSTAT5 (%),18,HV,0.67
+blood,15A,CD4+ T cell subset pSTAT5 (%),19,HV,0.81
+blood,15A,CD4+ T cell subset pSTAT5 (%),20,PI-ME/CFS,1.9
+blood,15A,CD4+ T cell subset pSTAT5 (%),21,PI-ME/CFS,2.07
+blood,15A,CD4+ T cell subset pSTAT5 (%),23,PI-ME/CFS,0.48
+blood,15A,CD4+ T cell subset pSTAT5 (%),24,PI-ME/CFS,13.4
+blood,15A,CD4+ T cell subset pSTAT5 (%),25,PI-ME/CFS,6.34
+blood,15A,CD4+ T cell subset pSTAT5 (%),26,PI-ME/CFS,15.1
+blood,15A,CD4+ T cell subset pSTAT5 (%),27,PI-ME/CFS,8.99
+blood,15A,CD4+ T cell subset pSTAT5 (%),28,PI-ME/CFS,4.23
+blood,15A,CD4+ T cell subset pSTAT5 (%),29,PI-ME/CFS,3.83
+blood,15A,CD4+ T cell subset pSTAT5 (%),30,PI-ME/CFS,7.7
+blood,15A,CD4+ T cell subset pSTAT5 (%),31,PI-ME/CFS,0.48
+blood,15A,CD4+ T cell subset pSTAT5 (%),32,PI-ME/CFS,0.97
+blood,15A,CD4+ T cell subset pSTAT5 (%),33,PI-ME/CFS,0.8
+blood,15A,CD4+ T cell subset pSTAT5 (%),34,PI-ME/CFS,1.2
+blood,15A,CD4+ T cell subset pSTAT5 (%),35,PI-ME/CFS,0.14
+blood,15A,CD4+ T cell subset Memory (%),1,HV,27.6
+blood,15A,CD4+ T cell subset Memory (%),2,HV,48.2
+blood,15A,CD4+ T cell subset Memory (%),3,HV,50.6
+blood,15A,CD4+ T cell subset Memory (%),4,HV,49.9
+blood,15A,CD4+ T cell subset Memory (%),5,HV,46.4
+blood,15A,CD4+ T cell subset Memory (%),6,HV,4.43
+blood,15A,CD4+ T cell subset Memory (%),7,HV,43.5
+blood,15A,CD4+ T cell subset Memory (%),8,HV,46.9
+blood,15A,CD4+ T cell subset Memory (%),9,HV,32.4
+blood,15A,CD4+ T cell subset Memory (%),10,HV,45.2
+blood,15A,CD4+ T cell subset Memory (%),11,HV,59.2
+blood,15A,CD4+ T cell subset Memory (%),12,HV,56.0
+blood,15A,CD4+ T cell subset Memory (%),13,HV,9.06
+blood,15A,CD4+ T cell subset Memory (%),14,HV,60.3
+blood,15A,CD4+ T cell subset Memory (%),15,HV,41.8
+blood,15A,CD4+ T cell subset Memory (%),16,HV,39.2
+blood,15A,CD4+ T cell subset Memory (%),17,HV,34.0
+blood,15A,CD4+ T cell subset Memory (%),18,HV,7.5
+blood,15A,CD4+ T cell subset Memory (%),19,HV,56.6
+blood,15A,CD4+ T cell subset Memory (%),20,PI-ME/CFS,46.5
+blood,15A,CD4+ T cell subset Memory (%),21,PI-ME/CFS,41.6
+blood,15A,CD4+ T cell subset Memory (%),22,PI-ME/CFS,47.0
+blood,15A,CD4+ T cell subset Memory (%),23,PI-ME/CFS,42.4
+blood,15A,CD4+ T cell subset Memory (%),24,PI-ME/CFS,30.8
+blood,15A,CD4+ T cell subset Memory (%),25,PI-ME/CFS,34.7
+blood,15A,CD4+ T cell subset Memory (%),26,PI-ME/CFS,48.7
+blood,15A,CD4+ T cell subset Memory (%),27,PI-ME/CFS,61.0
+blood,15A,CD4+ T cell subset Memory (%),28,PI-ME/CFS,38.6
+blood,15A,CD4+ T cell subset Memory (%),29,PI-ME/CFS,40.8
+blood,15A,CD4+ T cell subset Memory (%),30,PI-ME/CFS,42.0
+blood,15A,CD4+ T cell subset Memory (%),31,PI-ME/CFS,52.0
+blood,15A,CD4+ T cell subset Memory (%),32,PI-ME/CFS,56.2
+blood,15A,CD4+ T cell subset Memory (%),33,PI-ME/CFS,27.2
+blood,15A,CD4+ T cell subset Memory (%),34,PI-ME/CFS,36.2
+blood,15A,CD4+ T cell subset Memory (%),35,PI-ME/CFS,40.1
+blood,15A,CD8+ T cell Effector/memory (%),1,HV,4.23
+blood,15A,CD8+ T cell Effector/memory (%),2,HV,4.93
+blood,15A,CD8+ T cell Effector/memory (%),3,HV,10.8
+blood,15A,CD8+ T cell Effector/memory (%),4,HV,18.0
+blood,15A,CD8+ T cell Effector/memory (%),5,HV,7.67
+blood,15A,CD8+ T cell Effector/memory (%),6,HV,0.074
+blood,15A,CD8+ T cell Effector/memory (%),7,HV,9.94
+blood,15A,CD8+ T cell Effector/memory (%),8,HV,11.2
+blood,15A,CD8+ T cell Effector/memory (%),9,HV,1.2
+blood,15A,CD8+ T cell Effector/memory (%),10,HV,2.61
+blood,15A,CD8+ T cell Effector/memory (%),11,HV,8.67
+blood,15A,CD8+ T cell Effector/memory (%),12,HV,6.68
+blood,15A,CD8+ T cell Effector/memory (%),13,HV,0.35
+blood,15A,CD8+ T cell Effector/memory (%),14,HV,15.8
+blood,15A,CD8+ T cell Effector/memory (%),15,HV,5.45
+blood,15A,CD8+ T cell Effector/memory (%),16,HV,2.67
+blood,15A,CD8+ T cell Effector/memory (%),17,HV,3.6
+blood,15A,CD8+ T cell Effector/memory (%),18,HV,0.14
+blood,15A,CD8+ T cell Effector/memory (%),19,HV,6.87
+blood,15A,CD8+ T cell Effector/memory (%),20,PI-ME/CFS,2.02
+blood,15A,CD8+ T cell Effector/memory (%),21,PI-ME/CFS,19.7
+blood,15A,CD8+ T cell Effector/memory (%),22,PI-ME/CFS,13.1
+blood,15A,CD8+ T cell Effector/memory (%),23,PI-ME/CFS,5.1
+blood,15A,CD8+ T cell Effector/memory (%),24,PI-ME/CFS,2.78
+blood,15A,CD8+ T cell Effector/memory (%),25,PI-ME/CFS,2.83
+blood,15A,CD8+ T cell Effector/memory (%),26,PI-ME/CFS,3.63
+blood,15A,CD8+ T cell Effector/memory (%),27,PI-ME/CFS,5.63
+blood,15A,CD8+ T cell Effector/memory (%),28,PI-ME/CFS,17.4
+blood,15A,CD8+ T cell Effector/memory (%),29,PI-ME/CFS,1.27
+blood,15A,CD8+ T cell Effector/memory (%),30,PI-ME/CFS,9.63
+blood,15A,CD8+ T cell Effector/memory (%),31,PI-ME/CFS,2.38
+blood,15A,CD8+ T cell Effector/memory (%),32,PI-ME/CFS,4.38
+blood,15A,CD8+ T cell Effector/memory (%),33,PI-ME/CFS,4.99
+blood,15A,CD8+ T cell Effector/memory (%),34,PI-ME/CFS,1.55
+blood,15A,CD8+ T cell Effector/memory (%),35,PI-ME/CFS,13.8
+blood,15A,Lymphocyte NK CD56bright (%),1,HV,0.25
+blood,15A,Lymphocyte NK CD56bright (%),2,HV,0.36
+blood,15A,Lymphocyte NK CD56bright (%),3,HV,0.12
+blood,15A,Lymphocyte NK CD56bright (%),4,HV,0.28
+blood,15A,Lymphocyte NK CD56bright (%),5,HV,0.52
+blood,15A,Lymphocyte NK CD56bright (%),6,HV,0.2
+blood,15A,Lymphocyte NK CD56bright (%),7,HV,0.54
+blood,15A,Lymphocyte NK CD56bright (%),8,HV,0.88
+blood,15A,Lymphocyte NK CD56bright (%),9,HV,1.07
+blood,15A,Lymphocyte NK CD56bright (%),10,HV,0.36
+blood,15A,Lymphocyte NK CD56bright (%),11,HV,0.76
+blood,15A,Lymphocyte NK CD56bright (%),12,HV,0.87
+blood,15A,Lymphocyte NK CD56bright (%),13,HV,0.44
+blood,15A,Lymphocyte NK CD56bright (%),14,HV,0.9
+blood,15A,Lymphocyte NK CD56bright (%),15,HV,0.48
+blood,15A,Lymphocyte NK CD56bright (%),16,HV,0.33
+blood,15A,Lymphocyte NK CD56bright (%),17,HV,0.54
+blood,15A,Lymphocyte NK CD56bright (%),18,HV,0.58
+blood,15A,Lymphocyte NK CD56bright (%),19,HV,0.43
+blood,15A,Lymphocyte NK CD56bright (%),20,PI-ME/CFS,0.25
+blood,15A,Lymphocyte NK CD56bright (%),21,PI-ME/CFS,0.43
+blood,15A,Lymphocyte NK CD56bright (%),22,PI-ME/CFS,0.11
+blood,15A,Lymphocyte NK CD56bright (%),23,PI-ME/CFS,0.43
+blood,15A,Lymphocyte NK CD56bright (%),24,PI-ME/CFS,0.31
+blood,15A,Lymphocyte NK CD56bright (%),25,PI-ME/CFS,0.46
+blood,15A,Lymphocyte NK CD56bright (%),26,PI-ME/CFS,0.76
+blood,15A,Lymphocyte NK CD56bright (%),27,PI-ME/CFS,1.09
+blood,15A,Lymphocyte NK CD56bright (%),28,PI-ME/CFS,0.26
+blood,15A,Lymphocyte NK CD56bright (%),29,PI-ME/CFS,0.63
+blood,15A,Lymphocyte NK CD56bright (%),30,PI-ME/CFS,0.91
+blood,15A,Lymphocyte NK CD56bright (%),31,PI-ME/CFS,0.5
+blood,15A,Lymphocyte NK CD56bright (%),32,PI-ME/CFS,0.45
+blood,15A,Lymphocyte NK CD56bright (%),33,PI-ME/CFS,0.64
+blood,15A,Lymphocyte NK CD56bright (%),34,PI-ME/CFS,0.59
+blood,15A,Lymphocyte NK CD56bright (%),35,PI-ME/CFS,0.47
+blood,15A,Lymphocyte CD4/CD8 ratio,1,HV,3.71
+blood,15A,Lymphocyte CD4/CD8 ratio,2,HV,2.91
+blood,15A,Lymphocyte CD4/CD8 ratio,3,HV,2.54
+blood,15A,Lymphocyte CD4/CD8 ratio,4,HV,1.91
+blood,15A,Lymphocyte CD4/CD8 ratio,5,HV,1.56
+blood,15A,Lymphocyte CD4/CD8 ratio,6,HV,1.45
+blood,15A,Lymphocyte CD4/CD8 ratio,7,HV,0.96
+blood,15A,Lymphocyte CD4/CD8 ratio,8,HV,1.07
+blood,15A,Lymphocyte CD4/CD8 ratio,9,HV,1.13
+blood,15A,Lymphocyte CD4/CD8 ratio,10,HV,1.89
+blood,15A,Lymphocyte CD4/CD8 ratio,11,HV,1.66
+blood,15A,Lymphocyte CD4/CD8 ratio,12,HV,1.46
+blood,15A,Lymphocyte CD4/CD8 ratio,13,HV,2.06
+blood,15A,Lymphocyte CD4/CD8 ratio,14,HV,1.46
+blood,15A,Lymphocyte CD4/CD8 ratio,15,HV,2.76
+blood,15A,Lymphocyte CD4/CD8 ratio,16,HV,1.93
+blood,15A,Lymphocyte CD4/CD8 ratio,17,HV,2.56
+blood,15A,Lymphocyte CD4/CD8 ratio,18,HV,2.91
+blood,15A,Lymphocyte CD4/CD8 ratio,19,HV,1.75
+blood,15A,Lymphocyte CD4/CD8 ratio,20,PI-ME/CFS,2.34
+blood,15A,Lymphocyte CD4/CD8 ratio,21,PI-ME/CFS,1.02
+blood,15A,Lymphocyte CD4/CD8 ratio,22,PI-ME/CFS,1.62
+blood,15A,Lymphocyte CD4/CD8 ratio,23,PI-ME/CFS,1.38
+blood,15A,Lymphocyte CD4/CD8 ratio,24,PI-ME/CFS,2.06
+blood,15A,Lymphocyte CD4/CD8 ratio,25,PI-ME/CFS,1.53
+blood,15A,Lymphocyte CD4/CD8 ratio,26,PI-ME/CFS,2.52
+blood,15A,Lymphocyte CD4/CD8 ratio,27,PI-ME/CFS,1.53
+blood,15A,Lymphocyte CD4/CD8 ratio,28,PI-ME/CFS,2.79
+blood,15A,Lymphocyte CD4/CD8 ratio,29,PI-ME/CFS,1.62
+blood,15A,Lymphocyte CD4/CD8 ratio,30,PI-ME/CFS,1.63
+blood,15A,Lymphocyte CD4/CD8 ratio,31,PI-ME/CFS,2.62
+blood,15A,Lymphocyte CD4/CD8 ratio,32,PI-ME/CFS,2.24
+blood,15A,Lymphocyte CD4/CD8 ratio,33,PI-ME/CFS,5.39
+blood,15A,Lymphocyte CD4/CD8 ratio,34,PI-ME/CFS,1.46
+blood,15A,Lymphocyte CD4/CD8 ratio,35,PI-ME/CFS,1.47
+blood,15A,Lymphocyte B/mono ratio,1,HV,1.2
+blood,15A,Lymphocyte B/mono ratio,2,HV,0.47
+blood,15A,Lymphocyte B/mono ratio,3,HV,0.54
+blood,15A,Lymphocyte B/mono ratio,4,HV,0.92
+blood,15A,Lymphocyte B/mono ratio,5,HV,1.57
+blood,15A,Lymphocyte B/mono ratio,6,HV,0.32
+blood,15A,Lymphocyte B/mono ratio,7,HV,0.76
+blood,15A,Lymphocyte B/mono ratio,8,HV,1.68
+blood,15A,Lymphocyte B/mono ratio,9,HV,0.54
+blood,15A,Lymphocyte B/mono ratio,10,HV,0.68
+blood,15A,Lymphocyte B/mono ratio,11,HV,0.98
+blood,15A,Lymphocyte B/mono ratio,12,HV,0.35
+blood,15A,Lymphocyte B/mono ratio,13,HV,0.59
+blood,15A,Lymphocyte B/mono ratio,14,HV,0.22
+blood,15A,Lymphocyte B/mono ratio,15,HV,2.57
+blood,15A,Lymphocyte B/mono ratio,16,HV,0.67
+blood,15A,Lymphocyte B/mono ratio,17,HV,1.09
+blood,15A,Lymphocyte B/mono ratio,18,HV,0.95
+blood,15A,Lymphocyte B/mono ratio,19,HV,1.89
+blood,15A,Lymphocyte B/mono ratio,20,PI-ME/CFS,0.39
+blood,15A,Lymphocyte B/mono ratio,21,PI-ME/CFS,0.71
+blood,15A,Lymphocyte B/mono ratio,22,PI-ME/CFS,1.96
+blood,15A,Lymphocyte B/mono ratio,23,PI-ME/CFS,0.66
+blood,15A,Lymphocyte B/mono ratio,24,PI-ME/CFS,0.57
+blood,15A,Lymphocyte B/mono ratio,25,PI-ME/CFS,1.63
+blood,15A,Lymphocyte B/mono ratio,26,PI-ME/CFS,0.46
+blood,15A,Lymphocyte B/mono ratio,27,PI-ME/CFS,0.71
+blood,15A,Lymphocyte B/mono ratio,28,PI-ME/CFS,0.71
+blood,15A,Lymphocyte B/mono ratio,29,PI-ME/CFS,1.01
+blood,15A,Lymphocyte B/mono ratio,30,PI-ME/CFS,0.34
+blood,15A,Lymphocyte B/mono ratio,31,PI-ME/CFS,0.95
+blood,15A,Lymphocyte B/mono ratio,32,PI-ME/CFS,1.1
+blood,15A,Lymphocyte B/mono ratio,33,PI-ME/CFS,0.94
+blood,15A,Lymphocyte B/mono ratio,34,PI-ME/CFS,1.96
+blood,15A,Lymphocyte B/mono ratio,35,PI-ME/CFS,0.41
+blood,15B,CD8+ T cell subset CD226 (%),2,HV,76.6
+blood,15B,CD8+ T cell subset CD226 (%),3,HV,67.5
+blood,15B,CD8+ T cell subset CD226 (%),4,HV,68.1
+blood,15B,CD8+ T cell subset CD226 (%),5,HV,72.8
+blood,15B,CD8+ T cell subset CD226 (%),6,HV,60.0
+blood,15B,CD8+ T cell subset CD226 (%),7,HV,59.6
+blood,15B,CD8+ T cell subset CD226 (%),10,PI-ME/CFS,58.6
+blood,15B,CD8+ T cell subset CD226 (%),11,PI-ME/CFS,41.1
+blood,15B,CD8+ T cell subset CD226 (%),12,PI-ME/CFS,50.9
+blood,15B,CD8+ T cell subset CD226 (%),13,PI-ME/CFS,59.3
+blood,15B,CD8+ T cell subset CD226 (%),14,PI-ME/CFS,48.4
+blood,15B,CD8+ T cell subset CD226 (%),15,PI-ME/CFS,64.9
+blood,15B,CD8+ T cell subset CD226 (%),16,PI-ME/CFS,52.1
+blood,15B,CD8+ T cell subset CD226 (%),17,PI-ME/CFS,56.3
+blood,15B,CD4+ T cell subset CD226 (%),2,HV,77.4
+blood,15B,CD4+ T cell subset CD226 (%),3,HV,61.6
+blood,15B,CD4+ T cell subset CD226 (%),4,HV,77.4
+blood,15B,CD4+ T cell subset CD226 (%),5,HV,84.5
+blood,15B,CD4+ T cell subset CD226 (%),6,HV,79.0
+blood,15B,CD4+ T cell subset CD226 (%),7,HV,64.2
+blood,15B,CD4+ T cell subset CD226 (%),10,PI-ME/CFS,61.5
+blood,15B,CD4+ T cell subset CD226 (%),11,PI-ME/CFS,62.1
+blood,15B,CD4+ T cell subset CD226 (%),12,PI-ME/CFS,60.4
+blood,15B,CD4+ T cell subset CD226 (%),13,PI-ME/CFS,68.3
+blood,15B,CD4+ T cell subset CD226 (%),14,PI-ME/CFS,71.9
+blood,15B,CD4+ T cell subset CD226 (%),15,PI-ME/CFS,63.2
+blood,15B,CD4+ T cell subset CD226 (%),16,PI-ME/CFS,62.3
+blood,15B,CD4+ T cell subset CD226 (%),17,PI-ME/CFS,68.7
+blood,15B,CD4+ T cell subset CD244 (%),1,HV,5.04
+blood,15B,CD4+ T cell subset CD244 (%),2,HV,8.4
+blood,15B,CD4+ T cell subset CD244 (%),3,HV,9.03
+blood,15B,CD4+ T cell subset CD244 (%),4,HV,6.71
+blood,15B,CD4+ T cell subset CD244 (%),5,HV,3.07
+blood,15B,CD4+ T cell subset CD244 (%),6,HV,1.73
+blood,15B,CD4+ T cell subset CD244 (%),7,HV,6.05
+blood,15B,CD4+ T cell subset CD244 (%),8,PI-ME/CFS,5.0
+blood,15B,CD4+ T cell subset CD244 (%),9,PI-ME/CFS,10.7
+blood,15B,CD4+ T cell subset CD244 (%),10,PI-ME/CFS,2.5
+blood,15B,CD4+ T cell subset CD244 (%),11,PI-ME/CFS,5.73
+blood,15B,CD4+ T cell subset CD244 (%),12,PI-ME/CFS,5.04
+blood,15B,CD4+ T cell subset CD244 (%),13,PI-ME/CFS,1.17
+blood,15B,CD4+ T cell subset CD244 (%),14,PI-ME/CFS,3.72
+blood,15B,CD4+ T cell subset CD244 (%),15,PI-ME/CFS,2.53
+blood,15B,CD4+ T cell subset CD244 (%),16,PI-ME/CFS,3.06
+blood,15B,CD4+ T cell subset CD244 (%),17,PI-ME/CFS,1.3
+blood,15B,CD8+ T cell subset CD244 (%),1,HV,56.9
+blood,15B,CD8+ T cell subset CD244 (%),2,HV,77.0
+blood,15B,CD8+ T cell subset CD244 (%),3,HV,72.4
+blood,15B,CD8+ T cell subset CD244 (%),4,HV,58.7
+blood,15B,CD8+ T cell subset CD244 (%),5,HV,39.3
+blood,15B,CD8+ T cell subset CD244 (%),6,HV,27.4
+blood,15B,CD8+ T cell subset CD244 (%),7,HV,37.0
+blood,15B,CD8+ T cell subset CD244 (%),8,PI-ME/CFS,44.5
+blood,15B,CD8+ T cell subset CD244 (%),9,PI-ME/CFS,39.7
+blood,15B,CD8+ T cell subset CD244 (%),10,PI-ME/CFS,39.0
+blood,15B,CD8+ T cell subset CD244 (%),11,PI-ME/CFS,42.9
+blood,15B,CD8+ T cell subset CD244 (%),12,PI-ME/CFS,52.4
+blood,15B,CD8+ T cell subset CD244 (%),13,PI-ME/CFS,28.1
+blood,15B,CD8+ T cell subset CD244 (%),14,PI-ME/CFS,46.3
+blood,15B,CD8+ T cell subset CD244 (%),15,PI-ME/CFS,32.6
+blood,15B,CD8+ T cell subset CD244 (%),16,PI-ME/CFS,40.2
+blood,15B,CD8+ T cell subset CD244 (%),17,PI-ME/CFS,34.8
+blood,15B,CD4+ T cell subset TIGIT (%),1,HV,18.1
+blood,15B,CD4+ T cell subset TIGIT (%),2,HV,29.1
+blood,15B,CD4+ T cell subset TIGIT (%),3,HV,38.2
+blood,15B,CD4+ T cell subset TIGIT (%),4,HV,25.5
+blood,15B,CD4+ T cell subset TIGIT (%),5,HV,28.5
+blood,15B,CD4+ T cell subset TIGIT (%),6,HV,19.5
+blood,15B,CD4+ T cell subset TIGIT (%),7,HV,21.4
+blood,15B,CD4+ T cell subset TIGIT (%),8,PI-ME/CFS,33.3
+blood,15B,CD4+ T cell subset TIGIT (%),9,PI-ME/CFS,18.8
+blood,15B,CD4+ T cell subset TIGIT (%),10,PI-ME/CFS,20.7
+blood,15B,CD4+ T cell subset TIGIT (%),11,PI-ME/CFS,26.5
+blood,15B,CD4+ T cell subset TIGIT (%),12,PI-ME/CFS,29.7
+blood,15B,CD4+ T cell subset TIGIT (%),13,PI-ME/CFS,18.0
+blood,15B,CD4+ T cell subset TIGIT (%),14,PI-ME/CFS,23.4
+blood,15B,CD4+ T cell subset TIGIT (%),15,PI-ME/CFS,18.5
+blood,15B,CD4+ T cell subset TIGIT (%),16,PI-ME/CFS,18.7
+blood,15B,CD4+ T cell subset TIGIT (%),17,PI-ME/CFS,17.8
+blood,15B,CD8+ T cell subset TIGIT (%),1,HV,30.4
+blood,15B,CD8+ T cell subset TIGIT (%),2,HV,64.1
+blood,15B,CD8+ T cell subset TIGIT (%),3,HV,49.8
+blood,15B,CD8+ T cell subset TIGIT (%),4,HV,36.8
+blood,15B,CD8+ T cell subset TIGIT (%),5,HV,36.1
+blood,15B,CD8+ T cell subset TIGIT (%),6,HV,34.1
+blood,15B,CD8+ T cell subset TIGIT (%),7,HV,33.5
+blood,15B,CD8+ T cell subset TIGIT (%),8,PI-ME/CFS,45.0
+blood,15B,CD8+ T cell subset TIGIT (%),9,PI-ME/CFS,23.9
+blood,15B,CD8+ T cell subset TIGIT (%),10,PI-ME/CFS,42.6
+blood,15B,CD8+ T cell subset TIGIT (%),11,PI-ME/CFS,41.3
+blood,15B,CD8+ T cell subset TIGIT (%),12,PI-ME/CFS,44.1
+blood,15B,CD8+ T cell subset TIGIT (%),13,PI-ME/CFS,24.6
+blood,15B,CD8+ T cell subset TIGIT (%),14,PI-ME/CFS,38.7
+blood,15B,CD8+ T cell subset TIGIT (%),15,PI-ME/CFS,31.9
+blood,15B,CD8+ T cell subset TIGIT (%),16,PI-ME/CFS,29.8
+blood,15B,CD8+ T cell subset TIGIT (%),17,PI-ME/CFS,23.7
+csf,15C,CD8+ T cell subset CXCR5 (%),1,HV,9.29
+csf,15C,CD8+ T cell subset CXCR5 (%),2,HV,12.8
+csf,15C,CD8+ T cell subset CXCR5 (%),3,HV,7.71
+csf,15C,CD8+ T cell subset CXCR5 (%),4,HV,14.0
+csf,15C,CD8+ T cell subset CXCR5 (%),5,HV,8.85
+csf,15C,CD8+ T cell subset CXCR5 (%),6,HV,10.2
+csf,15C,CD8+ T cell subset CXCR5 (%),7,HV,10.5
+csf,15C,CD8+ T cell subset CXCR5 (%),8,HV,16.7
+csf,15C,CD8+ T cell subset CXCR5 (%),9,HV,8.64
+csf,15C,CD8+ T cell subset CXCR5 (%),10,HV,9.92
+csf,15C,CD8+ T cell subset CXCR5 (%),11,HV,15.3
+csf,15C,CD8+ T cell subset CXCR5 (%),12,HV,18.6
+csf,15C,CD8+ T cell subset CXCR5 (%),13,HV,10.3
+csf,15C,CD8+ T cell subset CXCR5 (%),14,HV,12.8
+csf,15C,CD8+ T cell subset CXCR5 (%),15,HV,23.1
+csf,15C,CD8+ T cell subset CXCR5 (%),16,HV,5.63
+csf,15C,CD8+ T cell subset CXCR5 (%),17,HV,6.38
+csf,15C,CD8+ T cell subset CXCR5 (%),18,HV,13.9
+csf,15C,CD8+ T cell subset CXCR5 (%),19,HV,10.9
+csf,15C,CD8+ T cell subset CXCR5 (%),20,PI-ME/CFS,17.1
+csf,15C,CD8+ T cell subset CXCR5 (%),21,PI-ME/CFS,21.8
+csf,15C,CD8+ T cell subset CXCR5 (%),22,PI-ME/CFS,21.1
+csf,15C,CD8+ T cell subset CXCR5 (%),23,PI-ME/CFS,14.6
+csf,15C,CD8+ T cell subset CXCR5 (%),24,PI-ME/CFS,14.6
+csf,15C,CD8+ T cell subset CXCR5 (%),25,PI-ME/CFS,29.8
+csf,15C,CD8+ T cell subset CXCR5 (%),26,PI-ME/CFS,11.5
+csf,15C,CD8+ T cell subset CXCR5 (%),27,PI-ME/CFS,12.6
+csf,15C,CD8+ T cell subset CXCR5 (%),28,PI-ME/CFS,4.65
+csf,15C,CD8+ T cell subset CXCR5 (%),29,PI-ME/CFS,15.4
+csf,15C,CD8+ T cell subset CXCR5 (%),30,PI-ME/CFS,9.84
+csf,15C,CD8+ T cell subset CXCR5 (%),31,PI-ME/CFS,12.1
+csf,15C,CD8+ T cell subset CXCR5 (%),32,PI-ME/CFS,15.8
+csf,15C,CD8+ T cell subset CXCR5 (%),33,PI-ME/CFS,15.9
+csf,15C,CD8+ T cell subset CXCR5 (%),34,PI-ME/CFS,21.4
+csf,15C,CD8+ T cell subset CXCR5 (%),35,PI-ME/CFS,18.8
+csf,15C,Lymphocyte monocyte (cells/ul),1,HV,52.05
+csf,15C,Lymphocyte monocyte (cells/ul),2,HV,186.52
+csf,15C,Lymphocyte monocyte (cells/ul),3,HV,99.19
+csf,15C,Lymphocyte monocyte (cells/ul),4,HV,33.17
+csf,15C,Lymphocyte monocyte (cells/ul),5,HV,44.63
+csf,15C,Lymphocyte monocyte (cells/ul),6,HV,48.04
+csf,15C,Lymphocyte monocyte (cells/ul),7,HV,103.66
+csf,15C,Lymphocyte monocyte (cells/ul),8,HV,21.95
+csf,15C,Lymphocyte monocyte (cells/ul),9,HV,56.0
+csf,15C,Lymphocyte monocyte (cells/ul),10,HV,123.06
+csf,15C,Lymphocyte monocyte (cells/ul),11,HV,41.86
+csf,15C,Lymphocyte monocyte (cells/ul),12,HV,27.9
+csf,15C,Lymphocyte monocyte (cells/ul),13,HV,71.05
+csf,15C,Lymphocyte monocyte (cells/ul),14,HV,41.55
+csf,15C,Lymphocyte monocyte (cells/ul),15,HV,30.89
+csf,15C,Lymphocyte monocyte (cells/ul),16,HV,91.07
+csf,15C,Lymphocyte monocyte (cells/ul),17,HV,13.87
+csf,15C,Lymphocyte monocyte (cells/ul),18,HV,96.24
+csf,15C,Lymphocyte monocyte (cells/ul),19,HV,33.33
+csf,15C,Lymphocyte monocyte (cells/ul),20,PI-ME/CFS,23.55
+csf,15C,Lymphocyte monocyte (cells/ul),21,PI-ME/CFS,51.68
+csf,15C,Lymphocyte monocyte (cells/ul),22,PI-ME/CFS,61.623
+csf,15C,Lymphocyte monocyte (cells/ul),23,PI-ME/CFS,67.734
+csf,15C,Lymphocyte monocyte (cells/ul),24,PI-ME/CFS,27.174
+csf,15C,Lymphocyte monocyte (cells/ul),25,PI-ME/CFS,49.306
+csf,15C,Lymphocyte monocyte (cells/ul),26,PI-ME/CFS,80.256
+csf,15C,Lymphocyte monocyte (cells/ul),27,PI-ME/CFS,13.176
+csf,15C,Lymphocyte monocyte (cells/ul),28,PI-ME/CFS,34.845
+csf,15C,Lymphocyte monocyte (cells/ul),29,PI-ME/CFS,31.694
+csf,15C,Lymphocyte monocyte (cells/ul),30,PI-ME/CFS,37.686
+csf,15C,Lymphocyte monocyte (cells/ul),31,PI-ME/CFS,4.544
+csf,15C,Lymphocyte monocyte (cells/ul),32,PI-ME/CFS,67.796
+csf,15C,Lymphocyte monocyte (cells/ul),33,PI-ME/CFS,27.081
+csf,15C,Lymphocyte monocyte (cells/ul),34,PI-ME/CFS,11.063
+csf,15C,Lymphocyte monocyte (cells/ul),35,PI-ME/CFS,4.294
+csf,15C,Lymphocyte NK CD56dim (%),1,HV,1.4
+csf,15C,Lymphocyte NK CD56dim (%),2,HV,8.62
+csf,15C,Lymphocyte NK CD56dim (%),3,HV,0.14
+csf,15C,Lymphocyte NK CD56dim (%),4,HV,1.25
+csf,15C,Lymphocyte NK CD56dim (%),5,HV,1.79
+csf,15C,Lymphocyte NK CD56dim (%),6,HV,4.98
+csf,15C,Lymphocyte NK CD56dim (%),7,HV,6.77
+csf,15C,Lymphocyte NK CD56dim (%),8,HV,1.84
+csf,15C,Lymphocyte NK CD56dim (%),9,HV,5.35
+csf,15C,Lymphocyte NK CD56dim (%),10,HV,2.87
+csf,15C,Lymphocyte NK CD56dim (%),11,HV,1.64
+csf,15C,Lymphocyte NK CD56dim (%),12,HV,4.34
+csf,15C,Lymphocyte NK CD56dim (%),13,HV,4.55
+csf,15C,Lymphocyte NK CD56dim (%),14,HV,3.05
+csf,15C,Lymphocyte NK CD56dim (%),15,HV,2.01
+csf,15C,Lymphocyte NK CD56dim (%),16,HV,2.22
+csf,15C,Lymphocyte NK CD56dim (%),17,HV,5.62
+csf,15C,Lymphocyte NK CD56dim (%),18,HV,2.87
+csf,15C,Lymphocyte NK CD56dim (%),19,HV,2.08
+csf,15C,Lymphocyte NK CD56dim (%),20,PI-ME/CFS,0.77
+csf,15C,Lymphocyte NK CD56dim (%),21,PI-ME/CFS,3.04
+csf,15C,Lymphocyte NK CD56dim (%),22,PI-ME/CFS,1.5
+csf,15C,Lymphocyte NK CD56dim (%),23,PI-ME/CFS,1.26
+csf,15C,Lymphocyte NK CD56dim (%),24,PI-ME/CFS,1.49
+csf,15C,Lymphocyte NK CD56dim (%),25,PI-ME/CFS,4.29
+csf,15C,Lymphocyte NK CD56dim (%),26,PI-ME/CFS,2.94
+csf,15C,Lymphocyte NK CD56dim (%),27,PI-ME/CFS,2.65
+csf,15C,Lymphocyte NK CD56dim (%),28,PI-ME/CFS,0.0
+csf,15C,Lymphocyte NK CD56dim (%),29,PI-ME/CFS,1.03
+csf,15C,Lymphocyte NK CD56dim (%),30,PI-ME/CFS,4.92
+csf,15C,Lymphocyte NK CD56dim (%),31,PI-ME/CFS,3.08
+csf,15C,Lymphocyte NK CD56dim (%),32,PI-ME/CFS,1.31
+csf,15C,Lymphocyte NK CD56dim (%),33,PI-ME/CFS,2.14
+csf,15C,Lymphocyte NK CD56dim (%),34,PI-ME/CFS,0.48
+csf,15C,Lymphocyte NK CD56dim (%),35,PI-ME/CFS,0.56
+csf,15C,CD8+ T cell subset PD-1 (%),1,HV,81.1
+csf,15C,CD8+ T cell subset PD-1 (%),2,HV,43.6
+csf,15C,CD8+ T cell subset PD-1 (%),3,HV,68.1
+csf,15C,CD8+ T cell subset PD-1 (%),4,HV,80.2
+csf,15C,CD8+ T cell subset PD-1 (%),5,HV,80.5
+csf,15C,CD8+ T cell subset PD-1 (%),6,HV,64.4
+csf,15C,CD8+ T cell subset PD-1 (%),7,HV,89.5
+csf,15C,CD8+ T cell subset PD-1 (%),8,HV,81.5
+csf,15C,CD8+ T cell subset PD-1 (%),9,HV,63.8
+csf,15C,CD8+ T cell subset PD-1 (%),10,HV,84.0
+csf,15C,CD8+ T cell subset PD-1 (%),11,HV,85.8
+csf,15C,CD8+ T cell subset PD-1 (%),12,HV,91.7
+csf,15C,CD8+ T cell subset PD-1 (%),13,HV,84.8
+csf,15C,CD8+ T cell subset PD-1 (%),14,HV,80.0
+csf,15C,CD8+ T cell subset PD-1 (%),15,HV,77.9
+csf,15C,CD8+ T cell subset PD-1 (%),16,HV,81.7
+csf,15C,CD8+ T cell subset PD-1 (%),17,HV,85.1
+csf,15C,CD8+ T cell subset PD-1 (%),18,HV,95.5
+csf,15C,CD8+ T cell subset PD-1 (%),19,HV,75.0
+csf,15C,CD8+ T cell subset PD-1 (%),20,PI-ME/CFS,91.1
+csf,15C,CD8+ T cell subset PD-1 (%),21,PI-ME/CFS,88.5
+csf,15C,CD8+ T cell subset PD-1 (%),22,PI-ME/CFS,71.4
+csf,15C,CD8+ T cell subset PD-1 (%),23,PI-ME/CFS,82.6
+csf,15C,CD8+ T cell subset PD-1 (%),24,PI-ME/CFS,93.8
+csf,15C,CD8+ T cell subset PD-1 (%),25,PI-ME/CFS,77.5
+csf,15C,CD8+ T cell subset PD-1 (%),26,PI-ME/CFS,94.2
+csf,15C,CD8+ T cell subset PD-1 (%),27,PI-ME/CFS,88.3
+csf,15C,CD8+ T cell subset PD-1 (%),28,PI-ME/CFS,93.0
+csf,15C,CD8+ T cell subset PD-1 (%),29,PI-ME/CFS,82.9
+csf,15C,CD8+ T cell subset PD-1 (%),30,PI-ME/CFS,83.6
+csf,15C,CD8+ T cell subset PD-1 (%),31,PI-ME/CFS,79.3
+csf,15C,CD8+ T cell subset PD-1 (%),32,PI-ME/CFS,84.2
+csf,15C,CD8+ T cell subset PD-1 (%),33,PI-ME/CFS,90.5
+csf,15C,CD8+ T cell subset PD-1 (%),34,PI-ME/CFS,85.7
+csf,15C,CD8+ T cell subset PD-1 (%),35,PI-ME/CFS,84.4
+csf,15C,Lymphocyte NK CD56dim (cells/ul),1,HV,38.97
+csf,15C,Lymphocyte NK CD56dim (cells/ul),2,HV,466.02
+csf,15C,Lymphocyte NK CD56dim (cells/ul),3,HV,3.46
+csf,15C,Lymphocyte NK CD56dim (cells/ul),4,HV,7.21
+csf,15C,Lymphocyte NK CD56dim (cells/ul),5,HV,14.5
+csf,15C,Lymphocyte NK CD56dim (cells/ul),6,HV,30.99
+csf,15C,Lymphocyte NK CD56dim (cells/ul),7,HV,84.25
+csf,15C,Lymphocyte NK CD56dim (cells/ul),8,HV,18.52
+csf,15C,Lymphocyte NK CD56dim (cells/ul),9,HV,30.02
+csf,15C,Lymphocyte NK CD56dim (cells/ul),10,HV,24.19
+csf,15C,Lymphocyte NK CD56dim (cells/ul),11,HV,25.81
+csf,15C,Lymphocyte NK CD56dim (cells/ul),12,HV,13.02
+csf,15C,Lymphocyte NK CD56dim (cells/ul),13,HV,37.77
+csf,15C,Lymphocyte NK CD56dim (cells/ul),14,HV,16.17
+csf,15C,Lymphocyte NK CD56dim (cells/ul),15,HV,20.9
+csf,15C,Lymphocyte NK CD56dim (cells/ul),16,HV,156.73
+csf,15C,Lymphocyte NK CD56dim (cells/ul),17,HV,37.65
+csf,15C,Lymphocyte NK CD56dim (cells/ul),18,HV,43.91
+csf,15C,Lymphocyte NK CD56dim (cells/ul),19,HV,21.01
+csf,15C,Lymphocyte NK CD56dim (cells/ul),20,PI-ME/CFS,12.09
+csf,15C,Lymphocyte NK CD56dim (cells/ul),21,PI-ME/CFS,11.55
+csf,15C,Lymphocyte NK CD56dim (cells/ul),22,PI-ME/CFS,18.45
+csf,15C,Lymphocyte NK CD56dim (cells/ul),23,PI-ME/CFS,40.07
+csf,15C,Lymphocyte NK CD56dim (cells/ul),24,PI-ME/CFS,6.26
+csf,15C,Lymphocyte NK CD56dim (cells/ul),25,PI-ME/CFS,38.18
+csf,15C,Lymphocyte NK CD56dim (cells/ul),26,PI-ME/CFS,38.81
+csf,15C,Lymphocyte NK CD56dim (cells/ul),27,PI-ME/CFS,16.17
+csf,15C,Lymphocyte NK CD56dim (cells/ul),28,PI-ME/CFS,0.0
+csf,15C,Lymphocyte NK CD56dim (cells/ul),29,PI-ME/CFS,70.97
+csf,15C,Lymphocyte NK CD56dim (cells/ul),30,PI-ME/CFS,32.47
+csf,15C,Lymphocyte NK CD56dim (cells/ul),31,PI-ME/CFS,19.71
+csf,15C,Lymphocyte NK CD56dim (cells/ul),32,PI-ME/CFS,8.91
+csf,15C,Lymphocyte NK CD56dim (cells/ul),33,PI-ME/CFS,12.63
+csf,15C,Lymphocyte NK CD56dim (cells/ul),34,PI-ME/CFS,1.1
+csf,15C,Lymphocyte NK CD56dim (cells/ul),35,PI-ME/CFS,2.13
+csf,15C,Lymphocyte CD56bright/dim ratio,1,HV,0.59
+csf,15C,Lymphocyte CD56bright/dim ratio,2,HV,0.09
+csf,15C,Lymphocyte CD56bright/dim ratio,3,HV,0.0
+csf,15C,Lymphocyte CD56bright/dim ratio,4,HV,0.08
+csf,15C,Lymphocyte CD56bright/dim ratio,5,HV,0.31
+csf,15C,Lymphocyte CD56bright/dim ratio,6,HV,0.06
+csf,15C,Lymphocyte CD56bright/dim ratio,7,HV,0.0
+csf,15C,Lymphocyte CD56bright/dim ratio,8,HV,0.27
+csf,15C,Lymphocyte CD56bright/dim ratio,9,HV,0.12
+csf,15C,Lymphocyte CD56bright/dim ratio,10,HV,0.0
+csf,15C,Lymphocyte CD56bright/dim ratio,11,HV,0.38
+csf,15C,Lymphocyte CD56bright/dim ratio,12,HV,0.29
+csf,15C,Lymphocyte CD56bright/dim ratio,13,HV,0.02
+csf,15C,Lymphocyte CD56bright/dim ratio,14,HV,0.36
+csf,15C,Lymphocyte CD56bright/dim ratio,15,HV,0.62
+csf,15C,Lymphocyte CD56bright/dim ratio,16,HV,0.42
+csf,15C,Lymphocyte CD56bright/dim ratio,17,HV,0.1
+csf,15C,Lymphocyte CD56bright/dim ratio,18,HV,0.62
+csf,15C,Lymphocyte CD56bright/dim ratio,19,HV,0.29
+csf,15C,Lymphocyte CD56bright/dim ratio,20,PI-ME/CFS,0.0
+csf,15C,Lymphocyte CD56bright/dim ratio,21,PI-ME/CFS,0.26
+csf,15C,Lymphocyte CD56bright/dim ratio,22,PI-ME/CFS,0.26
+csf,15C,Lymphocyte CD56bright/dim ratio,23,PI-ME/CFS,0.1
+csf,15C,Lymphocyte CD56bright/dim ratio,24,PI-ME/CFS,0.5
+csf,15C,Lymphocyte CD56bright/dim ratio,25,PI-ME/CFS,0.14
+csf,15C,Lymphocyte CD56bright/dim ratio,26,PI-ME/CFS,0.4
+csf,15C,Lymphocyte CD56bright/dim ratio,27,PI-ME/CFS,0.11
+csf,15C,Lymphocyte CD56bright/dim ratio,29,PI-ME/CFS,1.75
+csf,15C,Lymphocyte CD56bright/dim ratio,30,PI-ME/CFS,0.23
+csf,15C,Lymphocyte CD56bright/dim ratio,31,PI-ME/CFS,0.62
+csf,15C,Lymphocyte CD56bright/dim ratio,32,PI-ME/CFS,0.6
+csf,15C,Lymphocyte CD56bright/dim ratio,33,PI-ME/CFS,0.71
+csf,15C,Lymphocyte CD56bright/dim ratio,34,PI-ME/CFS,1.0
+csf,15C,Lymphocyte CD56bright/dim ratio,35,PI-ME/CFS,3.02
+csf,15C,CD8+ T cell Memory (%),1,HV,73.3
+csf,15C,CD8+ T cell Memory (%),2,HV,51.3
+csf,15C,CD8+ T cell Memory (%),3,HV,62.4
+csf,15C,CD8+ T cell Memory (%),4,HV,53.7
+csf,15C,CD8+ T cell Memory (%),5,HV,58.4
+csf,15C,CD8+ T cell Memory (%),6,HV,1.69
+csf,15C,CD8+ T cell Memory (%),7,HV,50.0
+csf,15C,CD8+ T cell Memory (%),8,HV,56.8
+csf,15C,CD8+ T cell Memory (%),9,HV,36.4
+csf,15C,CD8+ T cell Memory (%),10,HV,38.2
+csf,15C,CD8+ T cell Memory (%),11,HV,59.4
+csf,15C,CD8+ T cell Memory (%),12,HV,65.5
+csf,15C,CD8+ T cell Memory (%),13,HV,1.38
+csf,15C,CD8+ T cell Memory (%),14,HV,64.4
+csf,15C,CD8+ T cell Memory (%),15,HV,44.2
+csf,15C,CD8+ T cell Memory (%),16,HV,47.9
+csf,15C,CD8+ T cell Memory (%),17,HV,51.1
+csf,15C,CD8+ T cell Memory (%),18,HV,3.28
+csf,15C,CD8+ T cell Memory (%),19,HV,48.7
+csf,15C,CD8+ T cell Memory (%),20,PI-ME/CFS,56.1
+csf,15C,CD8+ T cell Memory (%),21,PI-ME/CFS,72.4
+csf,15C,CD8+ T cell Memory (%),22,PI-ME/CFS,63.3
+csf,15C,CD8+ T cell Memory (%),23,PI-ME/CFS,52.6
+csf,15C,CD8+ T cell Memory (%),24,PI-ME/CFS,64.6
+csf,15C,CD8+ T cell Memory (%),25,PI-ME/CFS,39.3
+csf,15C,CD8+ T cell Memory (%),26,PI-ME/CFS,56.7
+csf,15C,CD8+ T cell Memory (%),27,PI-ME/CFS,60.4
+csf,15C,CD8+ T cell Memory (%),28,PI-ME/CFS,58.1
+csf,15C,CD8+ T cell Memory (%),29,PI-ME/CFS,30.0
+csf,15C,CD8+ T cell Memory (%),30,PI-ME/CFS,77.9
+csf,15C,CD8+ T cell Memory (%),31,PI-ME/CFS,53.4
+csf,15C,CD8+ T cell Memory (%),32,PI-ME/CFS,52.5
+csf,15C,CD8+ T cell Memory (%),33,PI-ME/CFS,66.7
+csf,15C,CD8+ T cell Memory (%),34,PI-ME/CFS,45.5
+csf,15C,CD8+ T cell Memory (%),35,PI-ME/CFS,65.6
+csf,15C,Lymphocyte NK cell (%),1,HV,2.22
+csf,15C,Lymphocyte NK cell (%),2,HV,9.36
+csf,15C,Lymphocyte NK cell (%),3,HV,0.14
+csf,15C,Lymphocyte NK cell (%),4,HV,1.34
+csf,15C,Lymphocyte NK cell (%),5,HV,2.34
+csf,15C,Lymphocyte NK cell (%),6,HV,5.31
+csf,15C,Lymphocyte NK cell (%),7,HV,6.77
+csf,15C,Lymphocyte NK cell (%),8,HV,2.68
+csf,15C,Lymphocyte NK cell (%),9,HV,5.97
+csf,15C,Lymphocyte NK cell (%),10,HV,2.87
+csf,15C,Lymphocyte NK cell (%),11,HV,2.27
+csf,15C,Lymphocyte NK cell (%),12,HV,5.69
+csf,15C,Lymphocyte NK cell (%),13,HV,4.63
+csf,15C,Lymphocyte NK cell (%),14,HV,4.14
+csf,15C,Lymphocyte NK cell (%),15,HV,3.26
+csf,15C,Lymphocyte NK cell (%),16,HV,3.16
+csf,15C,Lymphocyte NK cell (%),17,HV,6.21
+csf,15C,Lymphocyte NK cell (%),18,HV,4.66
+csf,15C,Lymphocyte NK cell (%),19,HV,2.69
+csf,15C,Lymphocyte NK cell (%),20,PI-ME/CFS,0.81
+csf,15C,Lymphocyte NK cell (%),21,PI-ME/CFS,3.84
+csf,15C,Lymphocyte NK cell (%),22,PI-ME/CFS,1.89
+csf,15C,Lymphocyte NK cell (%),23,PI-ME/CFS,1.39
+csf,15C,Lymphocyte NK cell (%),24,PI-ME/CFS,2.24
+csf,15C,Lymphocyte NK cell (%),25,PI-ME/CFS,4.88
+csf,15C,Lymphocyte NK cell (%),26,PI-ME/CFS,4.12
+csf,15C,Lymphocyte NK cell (%),27,PI-ME/CFS,2.95
+csf,15C,Lymphocyte NK cell (%),28,PI-ME/CFS,2.16
+csf,15C,Lymphocyte NK cell (%),29,PI-ME/CFS,2.83
+csf,15C,Lymphocyte NK cell (%),30,PI-ME/CFS,6.19
+csf,15C,Lymphocyte NK cell (%),31,PI-ME/CFS,4.98
+csf,15C,Lymphocyte NK cell (%),32,PI-ME/CFS,2.1
+csf,15C,Lymphocyte NK cell (%),33,PI-ME/CFS,3.67
+csf,15C,Lymphocyte NK cell (%),34,PI-ME/CFS,0.96
+csf,15C,Lymphocyte NK cell (%),35,PI-ME/CFS,2.25
+csf,15C,Lymphocyte NK cell (cells/ul),1,HV,61.79
+csf,15C,Lymphocyte NK cell (cells/ul),2,HV,506.03
+csf,15C,Lymphocyte NK cell (cells/ul),3,HV,3.46
+csf,15C,Lymphocyte NK cell (cells/ul),4,HV,7.73
+csf,15C,Lymphocyte NK cell (cells/ul),5,HV,18.95
+csf,15C,Lymphocyte NK cell (cells/ul),6,HV,33.04
+csf,15C,Lymphocyte NK cell (cells/ul),7,HV,84.25
+csf,15C,Lymphocyte NK cell (cells/ul),8,HV,26.98
+csf,15C,Lymphocyte NK cell (cells/ul),9,HV,33.5
+csf,15C,Lymphocyte NK cell (cells/ul),10,HV,24.19
+csf,15C,Lymphocyte NK cell (cells/ul),11,HV,35.72
+csf,15C,Lymphocyte NK cell (cells/ul),12,HV,17.07
+csf,15C,Lymphocyte NK cell (cells/ul),13,HV,38.43
+csf,15C,Lymphocyte NK cell (cells/ul),14,HV,21.94
+csf,15C,Lymphocyte NK cell (cells/ul),15,HV,33.9
+csf,15C,Lymphocyte NK cell (cells/ul),16,HV,223.1
+csf,15C,Lymphocyte NK cell (cells/ul),17,HV,41.61
+csf,15C,Lymphocyte NK cell (cells/ul),18,HV,71.3
+csf,15C,Lymphocyte NK cell (cells/ul),19,HV,27.17
+csf,15C,Lymphocyte NK cell (cells/ul),20,PI-ME/CFS,12.72
+csf,15C,Lymphocyte NK cell (cells/ul),21,PI-ME/CFS,14.59
+csf,15C,Lymphocyte NK cell (cells/ul),22,PI-ME/CFS,23.25
+csf,15C,Lymphocyte NK cell (cells/ul),23,PI-ME/CFS,44.2
+csf,15C,Lymphocyte NK cell (cells/ul),24,PI-ME/CFS,9.41
+csf,15C,Lymphocyte NK cell (cells/ul),25,PI-ME/CFS,43.43
+csf,15C,Lymphocyte NK cell (cells/ul),26,PI-ME/CFS,54.38
+csf,15C,Lymphocyte NK cell (cells/ul),27,PI-ME/CFS,18.0
+csf,15C,Lymphocyte NK cell (cells/ul),28,PI-ME/CFS,21.82
+csf,15C,Lymphocyte NK cell (cells/ul),29,PI-ME/CFS,194.99
+csf,15C,Lymphocyte NK cell (cells/ul),30,PI-ME/CFS,40.85
+csf,15C,Lymphocyte NK cell (cells/ul),31,PI-ME/CFS,31.87
+csf,15C,Lymphocyte NK cell (cells/ul),32,PI-ME/CFS,14.28
+csf,15C,Lymphocyte NK cell (cells/ul),33,PI-ME/CFS,21.65
+csf,15C,Lymphocyte NK cell (cells/ul),34,PI-ME/CFS,2.21
+csf,15C,Lymphocyte NK cell (cells/ul),35,PI-ME/CFS,8.55
+csf,15C,CD4+ T cell Memory (%),1,HV,84.7
+csf,15C,CD4+ T cell Memory (%),2,HV,75.8
+csf,15C,CD4+ T cell Memory (%),3,HV,65.7
+csf,15C,CD4+ T cell Memory (%),4,HV,70.8
+csf,15C,CD4+ T cell Memory (%),5,HV,66.0
+csf,15C,CD4+ T cell Memory (%),6,HV,10.2
+csf,15C,CD4+ T cell Memory (%),7,HV,61.5
+csf,15C,CD4+ T cell Memory (%),8,HV,65.9
+csf,15C,CD4+ T cell Memory (%),9,HV,75.9
+csf,15C,CD4+ T cell Memory (%),10,HV,71.0
+csf,15C,CD4+ T cell Memory (%),11,HV,68.3
+csf,15C,CD4+ T cell Memory (%),12,HV,83.0
+csf,15C,CD4+ T cell Memory (%),13,HV,19.0
+csf,15C,CD4+ T cell Memory (%),14,HV,80.0
+csf,15C,CD4+ T cell Memory (%),15,HV,54.2
+csf,15C,CD4+ T cell Memory (%),16,HV,71.0
+csf,15C,CD4+ T cell Memory (%),17,HV,79.8
+csf,15C,CD4+ T cell Memory (%),18,HV,3.67
+csf,15C,CD4+ T cell Memory (%),19,HV,89.4
+csf,15C,CD4+ T cell Memory (%),20,PI-ME/CFS,74.7
+csf,15C,CD4+ T cell Memory (%),21,PI-ME/CFS,66.6
+csf,15C,CD4+ T cell Memory (%),22,PI-ME/CFS,73.4
+csf,15C,CD4+ T cell Memory (%),23,PI-ME/CFS,80.2
+csf,15C,CD4+ T cell Memory (%),24,PI-ME/CFS,79.8
+csf,15C,CD4+ T cell Memory (%),25,PI-ME/CFS,62.8
+csf,15C,CD4+ T cell Memory (%),26,PI-ME/CFS,82.0
+csf,15C,CD4+ T cell Memory (%),27,PI-ME/CFS,82.1
+csf,15C,CD4+ T cell Memory (%),28,PI-ME/CFS,61.3
+csf,15C,CD4+ T cell Memory (%),29,PI-ME/CFS,78.0
+csf,15C,CD4+ T cell Memory (%),30,PI-ME/CFS,82.0
+csf,15C,CD4+ T cell Memory (%),31,PI-ME/CFS,78.0
+csf,15C,CD4+ T cell Memory (%),32,PI-ME/CFS,75.6
+csf,15C,CD4+ T cell Memory (%),33,PI-ME/CFS,71.7
+csf,15C,CD4+ T cell Memory (%),34,PI-ME/CFS,74.7
+csf,15C,CD4+ T cell Memory (%),35,PI-ME/CFS,78.1
+csf,15C,Lymphocyte NK CD56bright (%),1,HV,0.82
+csf,15C,Lymphocyte NK CD56bright (%),2,HV,0.74
+csf,15C,Lymphocyte NK CD56bright (%),3,HV,0.0
+csf,15C,Lymphocyte NK CD56bright (%),4,HV,0.1
+csf,15C,Lymphocyte NK CD56bright (%),5,HV,0.55
+csf,15C,Lymphocyte NK CD56bright (%),6,HV,0.32
+csf,15C,Lymphocyte NK CD56bright (%),7,HV,0.0
+csf,15C,Lymphocyte NK CD56bright (%),8,HV,0.5
+csf,15C,Lymphocyte NK CD56bright (%),9,HV,0.63
+csf,15C,Lymphocyte NK CD56bright (%),10,HV,0.0
+csf,15C,Lymphocyte NK CD56bright (%),11,HV,0.62
+csf,15C,Lymphocyte NK CD56bright (%),12,HV,1.26
+csf,15C,Lymphocyte NK CD56bright (%),13,HV,0.09
+csf,15C,Lymphocyte NK CD56bright (%),14,HV,1.09
+csf,15C,Lymphocyte NK CD56bright (%),15,HV,1.25
+csf,15C,Lymphocyte NK CD56bright (%),16,HV,0.94
+csf,15C,Lymphocyte NK CD56bright (%),17,HV,0.59
+csf,15C,Lymphocyte NK CD56bright (%),18,HV,1.79
+csf,15C,Lymphocyte NK CD56bright (%),19,HV,0.61
+csf,15C,Lymphocyte NK CD56bright (%),20,PI-ME/CFS,0.0
+csf,15C,Lymphocyte NK CD56bright (%),21,PI-ME/CFS,0.8
+csf,15C,Lymphocyte NK CD56bright (%),22,PI-ME/CFS,0.39
+csf,15C,Lymphocyte NK CD56bright (%),23,PI-ME/CFS,0.13
+csf,15C,Lymphocyte NK CD56bright (%),24,PI-ME/CFS,0.75
+csf,15C,Lymphocyte NK CD56bright (%),25,PI-ME/CFS,0.59
+csf,15C,Lymphocyte NK CD56bright (%),26,PI-ME/CFS,1.18
+csf,15C,Lymphocyte NK CD56bright (%),27,PI-ME/CFS,0.29
+csf,15C,Lymphocyte NK CD56bright (%),28,PI-ME/CFS,2.16
+csf,15C,Lymphocyte NK CD56bright (%),29,PI-ME/CFS,1.8
+csf,15C,Lymphocyte NK CD56bright (%),30,PI-ME/CFS,1.11
+csf,15C,Lymphocyte NK CD56bright (%),31,PI-ME/CFS,1.9
+csf,15C,Lymphocyte NK CD56bright (%),32,PI-ME/CFS,0.79
+csf,15C,Lymphocyte NK CD56bright (%),33,PI-ME/CFS,1.53
+csf,15C,Lymphocyte NK CD56bright (%),34,PI-ME/CFS,0.48
+csf,15C,Lymphocyte NK CD56bright (%),35,PI-ME/CFS,1.69
+csf,15C,CD8+ T cell subset Effector (%),1,HV,0.35
+csf,15C,CD8+ T cell subset Effector (%),2,HV,2.56
+csf,15C,CD8+ T cell subset Effector (%),3,HV,2.99
+csf,15C,CD8+ T cell subset Effector (%),4,HV,4.96
+csf,15C,CD8+ T cell subset Effector (%),5,HV,2.65
+csf,15C,CD8+ T cell subset Effector (%),6,HV,18.6
+csf,15C,CD8+ T cell subset Effector (%),7,HV,10.5
+csf,15C,CD8+ T cell subset Effector (%),8,HV,9.88
+csf,15C,CD8+ T cell subset Effector (%),9,HV,2.73
+csf,15C,CD8+ T cell subset Effector (%),10,HV,6.11
+csf,15C,CD8+ T cell subset Effector (%),11,HV,3.83
+csf,15C,CD8+ T cell subset Effector (%),12,HV,2.76
+csf,15C,CD8+ T cell subset Effector (%),13,HV,21.4
+csf,15C,CD8+ T cell subset Effector (%),14,HV,2.78
+csf,15C,CD8+ T cell subset Effector (%),15,HV,12.6
+csf,15C,CD8+ T cell subset Effector (%),16,HV,7.04
+csf,15C,CD8+ T cell subset Effector (%),17,HV,0.0
+csf,15C,CD8+ T cell subset Effector (%),18,HV,6.56
+csf,15C,CD8+ T cell subset Effector (%),19,HV,5.13
+csf,15C,CD8+ T cell subset Effector (%),20,PI-ME/CFS,3.25
+csf,15C,CD8+ T cell subset Effector (%),21,PI-ME/CFS,5.75
+csf,15C,CD8+ T cell subset Effector (%),22,PI-ME/CFS,1.51
+csf,15C,CD8+ T cell subset Effector (%),23,PI-ME/CFS,1.67
+csf,15C,CD8+ T cell subset Effector (%),24,PI-ME/CFS,2.08
+csf,15C,CD8+ T cell subset Effector (%),25,PI-ME/CFS,23.3
+csf,15C,CD8+ T cell subset Effector (%),26,PI-ME/CFS,4.81
+csf,15C,CD8+ T cell subset Effector (%),27,PI-ME/CFS,7.21
+csf,15C,CD8+ T cell subset Effector (%),28,PI-ME/CFS,6.98
+csf,15C,CD8+ T cell subset Effector (%),29,PI-ME/CFS,2.48
+csf,15C,CD8+ T cell subset Effector (%),30,PI-ME/CFS,1.64
+csf,15C,CD8+ T cell subset Effector (%),31,PI-ME/CFS,1.72
+csf,15C,CD8+ T cell subset Effector (%),32,PI-ME/CFS,0.99
+csf,15C,CD8+ T cell subset Effector (%),33,PI-ME/CFS,0.0
+csf,15C,CD8+ T cell subset Effector (%),34,PI-ME/CFS,6.06
+csf,15C,CD8+ T cell subset Effector (%),35,PI-ME/CFS,7.81
+csf,15C,Lymphocyte CD8+ T cell (cells/ul),1,HV,470.38
+csf,15C,Lymphocyte CD8+ T cell (cells/ul),2,HV,605.5
+csf,15C,Lymphocyte CD8+ T cell (cells/ul),3,HV,922.68
+csf,15C,Lymphocyte CD8+ T cell (cells/ul),4,HV,77.88
+csf,15C,Lymphocyte CD8+ T cell (cells/ul),5,HV,142.56
+csf,15C,Lymphocyte CD8+ T cell (cells/ul),6,HV,184.18
+csf,15C,Lymphocyte CD8+ T cell (cells/ul),7,HV,231.47
+csf,15C,Lymphocyte CD8+ T cell (cells/ul),8,HV,145.97
+csf,15C,Lymphocyte CD8+ T cell (cells/ul),9,HV,117.27
+csf,15C,Lymphocyte CD8+ T cell (cells/ul),10,HV,134.86
+csf,15C,Lymphocyte CD8+ T cell (cells/ul),11,HV,292.71
+csf,15C,Lymphocyte CD8+ T cell (cells/ul),12,HV,58.2
+csf,15C,Lymphocyte CD8+ T cell (cells/ul),13,HV,99.6
+csf,15C,Lymphocyte CD8+ T cell (cells/ul),14,HV,149.99
+csf,15C,Lymphocyte CD8+ T cell (cells/ul),15,HV,250.64
+csf,15C,Lymphocyte CD8+ T cell (cells/ul),16,HV,669.29
+csf,15C,Lymphocyte CD8+ T cell (cells/ul),17,HV,109.88
+csf,15C,Lymphocyte CD8+ T cell (cells/ul),18,HV,192.78
+csf,15C,Lymphocyte CD8+ T cell (cells/ul),19,HV,165.64
+csf,15C,Lymphocyte CD8+ T cell (cells/ul),20,PI-ME/CFS,122.62
+csf,15C,Lymphocyte CD8+ T cell (cells/ul),21,PI-ME/CFS,62.7
+csf,15C,Lymphocyte CD8+ T cell (cells/ul),22,PI-ME/CFS,202.95
+csf,15C,Lymphocyte CD8+ T cell (cells/ul),23,PI-ME/CFS,775.92
+csf,15C,Lymphocyte CD8+ T cell (cells/ul),24,PI-ME/CFS,51.66
+csf,15C,Lymphocyte CD8+ T cell (cells/ul),25,PI-ME/CFS,169.1
+csf,15C,Lymphocyte CD8+ T cell (cells/ul),26,PI-ME/CFS,277.2
+csf,15C,Lymphocyte CD8+ T cell (cells/ul),27,PI-ME/CFS,79.91
+csf,15C,Lymphocyte CD8+ T cell (cells/ul),28,PI-ME/CFS,183.82
+csf,15C,Lymphocyte CD8+ T cell (cells/ul),29,PI-ME/CFS,1681.16
+csf,15C,Lymphocyte CD8+ T cell (cells/ul),30,PI-ME/CFS,176.88
+csf,15C,Lymphocyte CD8+ T cell (cells/ul),31,PI-ME/CFS,81.92
+csf,15C,Lymphocyte CD8+ T cell (cells/ul),32,PI-ME/CFS,133.28
+csf,15C,Lymphocyte CD8+ T cell (cells/ul),33,PI-ME/CFS,115.64
+csf,15C,Lymphocyte CD8+ T cell (cells/ul),34,PI-ME/CFS,49.68
+csf,15C,Lymphocyte CD8+ T cell (cells/ul),35,PI-ME/CFS,115.14
+csf,15C,Lymphocyte monocyte (%),1,HV,1.87
+csf,15C,Lymphocyte monocyte (%),2,HV,3.45
+csf,15C,Lymphocyte monocyte (%),3,HV,4.01
+csf,15C,Lymphocyte monocyte (%),4,HV,5.75
+csf,15C,Lymphocyte monocyte (%),5,HV,5.51
+csf,15C,Lymphocyte monocyte (%),6,HV,7.72
+csf,15C,Lymphocyte monocyte (%),7,HV,8.33
+csf,15C,Lymphocyte monocyte (%),8,HV,2.18
+csf,15C,Lymphocyte monocyte (%),9,HV,9.98
+csf,15C,Lymphocyte monocyte (%),10,HV,14.6
+csf,15C,Lymphocyte monocyte (%),11,HV,2.66
+csf,15C,Lymphocyte monocyte (%),12,HV,9.3
+csf,15C,Lymphocyte monocyte (%),13,HV,8.56
+csf,15C,Lymphocyte monocyte (%),14,HV,7.84
+csf,15C,Lymphocyte monocyte (%),15,HV,2.97
+csf,15C,Lymphocyte monocyte (%),16,HV,1.29
+csf,15C,Lymphocyte monocyte (%),17,HV,2.07
+csf,15C,Lymphocyte monocyte (%),18,HV,6.29
+csf,15C,Lymphocyte monocyte (%),19,HV,3.3
+csf,15C,Lymphocyte monocyte (%),20,PI-ME/CFS,1.5
+csf,15C,Lymphocyte monocyte (%),21,PI-ME/CFS,13.6
+csf,15C,Lymphocyte monocyte (%),22,PI-ME/CFS,5.01
+csf,15C,Lymphocyte monocyte (%),23,PI-ME/CFS,2.13
+csf,15C,Lymphocyte monocyte (%),24,PI-ME/CFS,6.47
+csf,15C,Lymphocyte monocyte (%),25,PI-ME/CFS,5.54
+csf,15C,Lymphocyte monocyte (%),26,PI-ME/CFS,6.08
+csf,15C,Lymphocyte monocyte (%),27,PI-ME/CFS,2.16
+csf,15C,Lymphocyte monocyte (%),28,PI-ME/CFS,3.45
+csf,15C,Lymphocyte monocyte (%),29,PI-ME/CFS,0.46
+csf,15C,Lymphocyte monocyte (%),30,PI-ME/CFS,5.71
+csf,15C,Lymphocyte monocyte (%),31,PI-ME/CFS,0.71
+csf,15C,Lymphocyte monocyte (%),32,PI-ME/CFS,9.97
+csf,15C,Lymphocyte monocyte (%),33,PI-ME/CFS,4.59
+csf,15C,Lymphocyte monocyte (%),34,PI-ME/CFS,4.81
+csf,15C,Lymphocyte monocyte (%),35,PI-ME/CFS,1.13
+csf,15C,Lymphocyte CSF cell (cells/ul),1,HV,2.78
+csf,15C,Lymphocyte CSF cell (cells/ul),2,HV,5.41
+csf,15C,Lymphocyte CSF cell (cells/ul),3,HV,2.47
+csf,15C,Lymphocyte CSF cell (cells/ul),4,HV,0.58
+csf,15C,Lymphocyte CSF cell (cells/ul),5,HV,0.81
+csf,15C,Lymphocyte CSF cell (cells/ul),6,HV,0.62
+csf,15C,Lymphocyte CSF cell (cells/ul),7,HV,1.24
+csf,15C,Lymphocyte CSF cell (cells/ul),8,HV,1.01
+csf,15C,Lymphocyte CSF cell (cells/ul),9,HV,0.56
+csf,15C,Lymphocyte CSF cell (cells/ul),10,HV,0.84
+csf,15C,Lymphocyte CSF cell (cells/ul),11,HV,1.57
+csf,15C,Lymphocyte CSF cell (cells/ul),12,HV,0.3
+csf,15C,Lymphocyte CSF cell (cells/ul),13,HV,0.83
+csf,15C,Lymphocyte CSF cell (cells/ul),14,HV,0.53
+csf,15C,Lymphocyte CSF cell (cells/ul),15,HV,1.04
+csf,15C,Lymphocyte CSF cell (cells/ul),16,HV,7.06
+csf,15C,Lymphocyte CSF cell (cells/ul),17,HV,0.67
+csf,15C,Lymphocyte CSF cell (cells/ul),18,HV,1.53
+csf,15C,Lymphocyte CSF cell (cells/ul),19,HV,1.01
+csf,15C,Lymphocyte CSF cell (cells/ul),20,PI-ME/CFS,1.57
+csf,15C,Lymphocyte CSF cell (cells/ul),21,PI-ME/CFS,0.38
+csf,15C,Lymphocyte CSF cell (cells/ul),22,PI-ME/CFS,1.23
+csf,15C,Lymphocyte CSF cell (cells/ul),23,PI-ME/CFS,3.18
+csf,15C,Lymphocyte CSF cell (cells/ul),24,PI-ME/CFS,0.42
+csf,15C,Lymphocyte CSF cell (cells/ul),25,PI-ME/CFS,0.89
+csf,15C,Lymphocyte CSF cell (cells/ul),26,PI-ME/CFS,1.32
+csf,15C,Lymphocyte CSF cell (cells/ul),27,PI-ME/CFS,0.61
+csf,15C,Lymphocyte CSF cell (cells/ul),28,PI-ME/CFS,1.01
+csf,15C,Lymphocyte CSF cell (cells/ul),29,PI-ME/CFS,6.89
+csf,15C,Lymphocyte CSF cell (cells/ul),30,PI-ME/CFS,0.66
+csf,15C,Lymphocyte CSF cell (cells/ul),31,PI-ME/CFS,0.64
+csf,15C,Lymphocyte CSF cell (cells/ul),32,PI-ME/CFS,0.68
+csf,15C,Lymphocyte CSF cell (cells/ul),33,PI-ME/CFS,0.59
+csf,15C,Lymphocyte CSF cell (cells/ul),34,PI-ME/CFS,0.23
+csf,15C,Lymphocyte CSF cell (cells/ul),35,PI-ME/CFS,0.38
+csf,15C,Lymphocyte NKT cell (cells/ul),1,HV,29.23
+csf,15C,Lymphocyte NKT cell (cells/ul),2,HV,26.49
+csf,15C,Lymphocyte NKT cell (cells/ul),3,HV,45.52
+csf,15C,Lymphocyte NKT cell (cells/ul),4,HV,1.67
+csf,15C,Lymphocyte NKT cell (cells/ul),5,HV,56.86
+csf,15C,Lymphocyte NKT cell (cells/ul),6,HV,22.03
+csf,15C,Lymphocyte NKT cell (cells/ul),7,HV,19.41
+csf,15C,Lymphocyte NKT cell (cells/ul),8,HV,26.07
+csf,15C,Lymphocyte NKT cell (cells/ul),9,HV,11.45
+csf,15C,Lymphocyte NKT cell (cells/ul),10,HV,17.95
+csf,15C,Lymphocyte NKT cell (cells/ul),11,HV,23.29
+csf,15C,Lymphocyte NKT cell (cells/ul),12,HV,11.91
+csf,15C,Lymphocyte NKT cell (cells/ul),13,HV,14.77
+csf,15C,Lymphocyte NKT cell (cells/ul),14,HV,18.5
+csf,15C,Lymphocyte NKT cell (cells/ul),15,HV,34.84
+csf,15C,Lymphocyte NKT cell (cells/ul),16,HV,107.31
+csf,15C,Lymphocyte NKT cell (cells/ul),17,HV,2.01
+csf,15C,Lymphocyte NKT cell (cells/ul),18,HV,23.26
+csf,15C,Lymphocyte NKT cell (cells/ul),19,HV,24.54
+csf,15C,Lymphocyte NKT cell (cells/ul),20,PI-ME/CFS,4.867
+csf,15C,Lymphocyte NKT cell (cells/ul),21,PI-ME/CFS,12.768
+csf,15C,Lymphocyte NKT cell (cells/ul),22,PI-ME/CFS,8.241
+csf,15C,Lymphocyte NKT cell (cells/ul),23,PI-ME/CFS,44.838
+csf,15C,Lymphocyte NKT cell (cells/ul),24,PI-ME/CFS,5.208
+csf,15C,Lymphocyte NKT cell (cells/ul),25,PI-ME/CFS,62.834
+csf,15C,Lymphocyte NKT cell (cells/ul),26,PI-ME/CFS,41.448
+csf,15C,Lymphocyte NKT cell (cells/ul),27,PI-ME/CFS,8.418
+csf,15C,Lymphocyte NKT cell (cells/ul),28,PI-ME/CFS,21.816
+csf,15C,Lymphocyte NKT cell (cells/ul),29,PI-ME/CFS,54.431
+csf,15C,Lymphocyte NKT cell (cells/ul),30,PI-ME/CFS,18.876
+csf,15C,Lymphocyte NKT cell (cells/ul),31,PI-ME/CFS,31.872
+csf,15C,Lymphocyte NKT cell (cells/ul),32,PI-ME/CFS,0.0
+csf,15C,Lymphocyte NKT cell (cells/ul),33,PI-ME/CFS,21.653
+csf,15C,Lymphocyte NKT cell (cells/ul),34,PI-ME/CFS,13.271
+csf,15C,Lymphocyte NKT cell (cells/ul),35,PI-ME/CFS,7.486
+csf,15C,CD8+ T cell Naive (%),1,HV,21.7
+csf,15C,CD8+ T cell Naive (%),2,HV,46.2
+csf,15C,CD8+ T cell Naive (%),3,HV,17.5
+csf,15C,CD8+ T cell Naive (%),4,HV,23.1
+csf,15C,CD8+ T cell Naive (%),5,HV,16.6
+csf,15C,CD8+ T cell Naive (%),6,HV,79.7
+csf,15C,CD8+ T cell Naive (%),7,HV,15.8
+csf,15C,CD8+ T cell Naive (%),8,HV,14.2
+csf,15C,CD8+ T cell Naive (%),9,HV,56.4
+csf,15C,CD8+ T cell Naive (%),10,HV,51.1
+csf,15C,CD8+ T cell Naive (%),11,HV,27.2
+csf,15C,CD8+ T cell Naive (%),12,HV,26.2
+csf,15C,CD8+ T cell Naive (%),13,HV,76.6
+csf,15C,CD8+ T cell Naive (%),14,HV,65.6
+csf,15C,CD8+ T cell Naive (%),15,HV,29.5
+csf,15C,CD8+ T cell Naive (%),16,HV,28.2
+csf,15C,CD8+ T cell Naive (%),17,HV,34.0
+csf,15C,CD8+ T cell Naive (%),18,HV,88.9
+csf,15C,CD8+ T cell Naive (%),19,HV,42.3
+csf,15C,CD8+ T cell Naive (%),20,PI-ME/CFS,32.5
+csf,15C,CD8+ T cell Naive (%),21,PI-ME/CFS,12.6
+csf,15C,CD8+ T cell Naive (%),22,PI-ME/CFS,22.1
+csf,15C,CD8+ T cell Naive (%),23,PI-ME/CFS,42.7
+csf,15C,CD8+ T cell Naive (%),24,PI-ME/CFS,27.1
+csf,15C,CD8+ T cell Naive (%),25,PI-ME/CFS,32.1
+csf,15C,CD8+ T cell Naive (%),26,PI-ME/CFS,29.8
+csf,15C,CD8+ T cell Naive (%),27,PI-ME/CFS,26.1
+csf,15C,CD8+ T cell Naive (%),28,PI-ME/CFS,20.9
+csf,15C,CD8+ T cell Naive (%),29,PI-ME/CFS,66.8
+csf,15C,CD8+ T cell Naive (%),30,PI-ME/CFS,12.3
+csf,15C,CD8+ T cell Naive (%),31,PI-ME/CFS,41.4
+csf,15C,CD8+ T cell Naive (%),32,PI-ME/CFS,34.7
+csf,15C,CD8+ T cell Naive (%),33,PI-ME/CFS,25.4
+csf,15C,CD8+ T cell Naive (%),34,PI-ME/CFS,45.5
+csf,15C,CD8+ T cell Naive (%),35,PI-ME/CFS,17.2
+csf,15C,Lymphocyte B cell (cells/ul),1,HV,21.15
+csf,15C,Lymphocyte B cell (cells/ul),2,HV,132.99
+csf,15C,Lymphocyte B cell (cells/ul),3,HV,3.46
+csf,15C,Lymphocyte B cell (cells/ul),4,HV,0.0
+csf,15C,Lymphocyte B cell (cells/ul),5,HV,7.78
+csf,15C,Lymphocyte B cell (cells/ul),6,HV,5.97
+csf,15C,Lymphocyte B cell (cells/ul),7,HV,12.94
+csf,15C,Lymphocyte B cell (cells/ul),8,HV,16.01
+csf,15C,Lymphocyte B cell (cells/ul),9,HV,3.09
+csf,15C,Lymphocyte B cell (cells/ul),10,HV,5.48
+csf,15C,Lymphocyte B cell (cells/ul),11,HV,19.67
+csf,15C,Lymphocyte B cell (cells/ul),12,HV,1.35
+csf,15C,Lymphocyte B cell (cells/ul),13,HV,5.15
+csf,15C,Lymphocyte B cell (cells/ul),14,HV,2.33
+csf,15C,Lymphocyte B cell (cells/ul),15,HV,0.0
+csf,15C,Lymphocyte B cell (cells/ul),16,HV,49.42
+csf,15C,Lymphocyte B cell (cells/ul),17,HV,11.93
+csf,15C,Lymphocyte B cell (cells/ul),18,HV,8.87
+csf,15C,Lymphocyte B cell (cells/ul),19,HV,4.34
+csf,15C,Lymphocyte B cell (cells/ul),20,PI-ME/CFS,5.5
+csf,15C,Lymphocyte B cell (cells/ul),21,PI-ME/CFS,3.65
+csf,15C,Lymphocyte B cell (cells/ul),22,PI-ME/CFS,12.3
+csf,15C,Lymphocyte B cell (cells/ul),23,PI-ME/CFS,29.89
+csf,15C,Lymphocyte B cell (cells/ul),24,PI-ME/CFS,1.05
+csf,15C,Lymphocyte B cell (cells/ul),25,PI-ME/CFS,11.75
+csf,15C,Lymphocyte B cell (cells/ul),26,PI-ME/CFS,2.64
+csf,15C,Lymphocyte B cell (cells/ul),27,PI-ME/CFS,6.59
+csf,15C,Lymphocyte B cell (cells/ul),28,PI-ME/CFS,4.34
+csf,15C,Lymphocyte B cell (cells/ul),29,PI-ME/CFS,55.81
+csf,15C,Lymphocyte B cell (cells/ul),30,PI-ME/CFS,5.21
+csf,15C,Lymphocyte B cell (cells/ul),31,PI-ME/CFS,1.54
+csf,15C,Lymphocyte B cell (cells/ul),32,PI-ME/CFS,3.54
+csf,15C,Lymphocyte B cell (cells/ul),33,PI-ME/CFS,5.43
+csf,15C,Lymphocyte B cell (cells/ul),34,PI-ME/CFS,2.21
+csf,15C,Lymphocyte B cell (cells/ul),35,PI-ME/CFS,0.0
+csf,15C,Lymphocyte CD8+ T cell (%),1,HV,16.9
+csf,15C,Lymphocyte CD8+ T cell (%),2,HV,11.2
+csf,15C,Lymphocyte CD8+ T cell (%),3,HV,37.3
+csf,15C,Lymphocyte CD8+ T cell (%),4,HV,13.5
+csf,15C,Lymphocyte CD8+ T cell (%),5,HV,17.6
+csf,15C,Lymphocyte CD8+ T cell (%),6,HV,29.6
+csf,15C,Lymphocyte CD8+ T cell (%),7,HV,18.6
+csf,15C,Lymphocyte CD8+ T cell (%),8,HV,14.5
+csf,15C,Lymphocyte CD8+ T cell (%),9,HV,20.9
+csf,15C,Lymphocyte CD8+ T cell (%),10,HV,16.0
+csf,15C,Lymphocyte CD8+ T cell (%),11,HV,18.6
+csf,15C,Lymphocyte CD8+ T cell (%),12,HV,19.4
+csf,15C,Lymphocyte CD8+ T cell (%),13,HV,12.0
+csf,15C,Lymphocyte CD8+ T cell (%),14,HV,28.3
+csf,15C,Lymphocyte CD8+ T cell (%),15,HV,24.1
+csf,15C,Lymphocyte CD8+ T cell (%),16,HV,9.5
+csf,15C,Lymphocyte CD8+ T cell (%),17,HV,16.4
+csf,15C,Lymphocyte CD8+ T cell (%),18,HV,12.6
+csf,15C,Lymphocyte CD8+ T cell (%),19,HV,16.4
+csf,15C,Lymphocyte CD8+ T cell (%),20,PI-ME/CFS,7.8
+csf,15C,Lymphocyte CD8+ T cell (%),21,PI-ME/CFS,16.5
+csf,15C,Lymphocyte CD8+ T cell (%),22,PI-ME/CFS,16.5
+csf,15C,Lymphocyte CD8+ T cell (%),23,PI-ME/CFS,24.4
+csf,15C,Lymphocyte CD8+ T cell (%),24,PI-ME/CFS,12.3
+csf,15C,Lymphocyte CD8+ T cell (%),25,PI-ME/CFS,19.0
+csf,15C,Lymphocyte CD8+ T cell (%),26,PI-ME/CFS,21.0
+csf,15C,Lymphocyte CD8+ T cell (%),27,PI-ME/CFS,13.1
+csf,15C,Lymphocyte CD8+ T cell (%),28,PI-ME/CFS,18.2
+csf,15C,Lymphocyte CD8+ T cell (%),29,PI-ME/CFS,24.4
+csf,15C,Lymphocyte CD8+ T cell (%),30,PI-ME/CFS,26.8
+csf,15C,Lymphocyte CD8+ T cell (%),31,PI-ME/CFS,12.8
+csf,15C,Lymphocyte CD8+ T cell (%),32,PI-ME/CFS,19.6
+csf,15C,Lymphocyte CD8+ T cell (%),33,PI-ME/CFS,19.6
+csf,15C,Lymphocyte CD8+ T cell (%),34,PI-ME/CFS,21.6
+csf,15C,Lymphocyte CD8+ T cell (%),35,PI-ME/CFS,30.3
+csf,15C,CD8+ T cell Effector/memory (%),1,HV,4.65
+csf,15C,CD8+ T cell Effector/memory (%),2,HV,0.0
+csf,15C,CD8+ T cell Effector/memory (%),3,HV,17.1
+csf,15C,CD8+ T cell Effector/memory (%),4,HV,18.2
+csf,15C,CD8+ T cell Effector/memory (%),5,HV,20.4
+csf,15C,CD8+ T cell Effector/memory (%),6,HV,0.0
+csf,15C,CD8+ T cell Effector/memory (%),7,HV,23.7
+csf,15C,CD8+ T cell Effector/memory (%),8,HV,19.1
+csf,15C,CD8+ T cell Effector/memory (%),9,HV,4.55
+csf,15C,CD8+ T cell Effector/memory (%),10,HV,4.58
+csf,15C,CD8+ T cell Effector/memory (%),11,HV,9.58
+csf,15C,CD8+ T cell Effector/memory (%),12,HV,5.52
+csf,15C,CD8+ T cell Effector/memory (%),13,HV,0.69
+csf,15C,CD8+ T cell Effector/memory (%),14,HV,11.1
+csf,15C,CD8+ T cell Effector/memory (%),15,HV,13.6
+csf,15C,CD8+ T cell Effector/memory (%),16,HV,16.9
+csf,15C,CD8+ T cell Effector/memory (%),17,HV,14.9
+csf,15C,CD8+ T cell Effector/memory (%),18,HV,1.23
+csf,15C,CD8+ T cell Effector/memory (%),19,HV,3.85
+csf,15C,CD8+ T cell Effector/memory (%),20,PI-ME/CFS,8.13
+csf,15C,CD8+ T cell Effector/memory (%),21,PI-ME/CFS,9.2
+csf,15C,CD8+ T cell Effector/memory (%),22,PI-ME/CFS,13.1
+csf,15C,CD8+ T cell Effector/memory (%),23,PI-ME/CFS,3.07
+csf,15C,CD8+ T cell Effector/memory (%),24,PI-ME/CFS,6.25
+csf,15C,CD8+ T cell Effector/memory (%),25,PI-ME/CFS,5.34
+csf,15C,CD8+ T cell Effector/memory (%),26,PI-ME/CFS,8.65
+csf,15C,CD8+ T cell Effector/memory (%),27,PI-ME/CFS,6.31
+csf,15C,CD8+ T cell Effector/memory (%),28,PI-ME/CFS,14.0
+csf,15C,CD8+ T cell Effector/memory (%),29,PI-ME/CFS,0.71
+csf,15C,CD8+ T cell Effector/memory (%),30,PI-ME/CFS,8.2
+csf,15C,CD8+ T cell Effector/memory (%),31,PI-ME/CFS,3.45
+csf,15C,CD8+ T cell Effector/memory (%),32,PI-ME/CFS,11.9
+csf,15C,CD8+ T cell Effector/memory (%),33,PI-ME/CFS,7.94
+csf,15C,CD8+ T cell Effector/memory (%),34,PI-ME/CFS,3.03
+csf,15C,CD8+ T cell Effector/memory (%),35,PI-ME/CFS,9.38
+csf,15C,CD4+ T cell subset Naive (%),1,HV,4.31
+csf,15C,CD4+ T cell subset Naive (%),2,HV,18.1
+csf,15C,CD4+ T cell subset Naive (%),3,HV,3.52
+csf,15C,CD4+ T cell subset Naive (%),4,HV,1.87
+csf,15C,CD4+ T cell subset Naive (%),5,HV,2.51
+csf,15C,CD4+ T cell subset Naive (%),6,HV,56.6
+csf,15C,CD4+ T cell subset Naive (%),7,HV,3.67
+csf,15C,CD4+ T cell subset Naive (%),8,HV,3.85
+csf,15C,CD4+ T cell subset Naive (%),9,HV,7.72
+csf,15C,CD4+ T cell subset Naive (%),10,HV,12.7
+csf,15C,CD4+ T cell subset Naive (%),11,HV,3.97
+csf,15C,CD4+ T cell subset Naive (%),12,HV,4.6
+csf,15C,CD4+ T cell subset Naive (%),13,HV,57.7
+csf,15C,CD4+ T cell subset Naive (%),14,HV,3.79
+csf,15C,CD4+ T cell subset Naive (%),15,HV,5.08
+csf,15C,CD4+ T cell subset Naive (%),16,HV,4.07
+csf,15C,CD4+ T cell subset Naive (%),17,HV,10.1
+csf,15C,CD4+ T cell subset Naive (%),18,HV,81.1
+csf,15C,CD4+ T cell subset Naive (%),19,HV,2.58
+csf,15C,CD4+ T cell subset Naive (%),20,PI-ME/CFS,3.01
+csf,15C,CD4+ T cell subset Naive (%),21,PI-ME/CFS,3.41
+csf,15C,CD4+ T cell subset Naive (%),22,PI-ME/CFS,6.43
+csf,15C,CD4+ T cell subset Naive (%),23,PI-ME/CFS,11.1
+csf,15C,CD4+ T cell subset Naive (%),24,PI-ME/CFS,8.75
+csf,15C,CD4+ T cell subset Naive (%),25,PI-ME/CFS,14.0
+csf,15C,CD4+ T cell subset Naive (%),26,PI-ME/CFS,4.41
+csf,15C,CD4+ T cell subset Naive (%),27,PI-ME/CFS,2.51
+csf,15C,CD4+ T cell subset Naive (%),28,PI-ME/CFS,13.9
+csf,15C,CD4+ T cell subset Naive (%),29,PI-ME/CFS,11.8
+csf,15C,CD4+ T cell subset Naive (%),30,PI-ME/CFS,4.58
+csf,15C,CD4+ T cell subset Naive (%),31,PI-ME/CFS,4.22
+csf,15C,CD4+ T cell subset Naive (%),32,PI-ME/CFS,8.04
+csf,15C,CD4+ T cell subset Naive (%),33,PI-ME/CFS,13.9
+csf,15C,CD4+ T cell subset Naive (%),34,PI-ME/CFS,10.1
+csf,15C,CD4+ T cell subset Naive (%),35,PI-ME/CFS,7.3
+csf,15C,Lymphocyte CD4+ T cell (cells/ul),1,HV,2042.97
+csf,15C,Lymphocyte CD4+ T cell (cells/ul),2,HV,3330.25
+csf,15C,Lymphocyte CD4+ T cell (cells/ul),3,HV,1731.58
+csf,15C,Lymphocyte CD4+ T cell (cells/ul),4,HV,414.2
+csf,15C,Lymphocyte CD4+ T cell (cells/ul),5,HV,604.26
+csf,15C,Lymphocyte CD4+ T cell (cells/ul),6,HV,352.18
+csf,15C,Lymphocyte CD4+ T cell (cells/ul),7,HV,664.53
+csf,15C,Lymphocyte CD4+ T cell (cells/ul),8,HV,656.35
+csf,15C,Lymphocyte CD4+ T cell (cells/ul),9,HV,276.07
+csf,15C,Lymphocyte CD4+ T cell (cells/ul),10,HV,323.66
+csf,15C,Lymphocyte CD4+ T cell (cells/ul),11,HV,1074.83
+csf,15C,Lymphocyte CD4+ T cell (cells/ul),12,HV,200.4
+csf,15C,Lymphocyte CD4+ T cell (cells/ul),13,HV,590.13
+csf,15C,Lymphocyte CD4+ T cell (cells/ul),14,HV,242.21
+csf,15C,Lymphocyte CD4+ T cell (cells/ul),15,HV,667.68
+csf,15C,Lymphocyte CD4+ T cell (cells/ul),16,HV,5323.24
+csf,15C,Lymphocyte CD4+ T cell (cells/ul),17,HV,391.95
+csf,15C,Lymphocyte CD4+ T cell (cells/ul),18,HV,1052.64
+csf,15C,Lymphocyte CD4+ T cell (cells/ul),19,HV,698.92
+csf,15C,Lymphocyte CD4+ T cell (cells/ul),20,PI-ME/CFS,1290.54
+csf,15C,Lymphocyte CD4+ T cell (cells/ul),21,PI-ME/CFS,232.56
+csf,15C,Lymphocyte CD4+ T cell (cells/ul),22,PI-ME/CFS,681.42
+csf,15C,Lymphocyte CD4+ T cell (cells/ul),23,PI-ME/CFS,2114.7
+csf,15C,Lymphocyte CD4+ T cell (cells/ul),24,PI-ME/CFS,283.92
+csf,15C,Lymphocyte CD4+ T cell (cells/ul),25,PI-ME/CFS,586.51
+csf,15C,Lymphocyte CD4+ T cell (cells/ul),26,PI-ME/CFS,786.72
+csf,15C,Lymphocyte CD4+ T cell (cells/ul),27,PI-ME/CFS,458.11
+csf,15C,Lymphocyte CD4+ T cell (cells/ul),28,PI-ME/CFS,740.33
+csf,15C,Lymphocyte CD4+ T cell (cells/ul),29,PI-ME/CFS,4568.07
+csf,15C,Lymphocyte CD4+ T cell (cells/ul),30,PI-ME/CFS,444.18
+csf,15C,Lymphocyte CD4+ T cell (cells/ul),31,PI-ME/CFS,469.12
+csf,15C,Lymphocyte CD4+ T cell (cells/ul),32,PI-ME/CFS,410.72
+csf,15C,Lymphocyte CD4+ T cell (cells/ul),33,PI-ME/CFS,330.99
+csf,15C,Lymphocyte CD4+ T cell (cells/ul),34,PI-ME/CFS,118.68
+csf,15C,Lymphocyte CD4+ T cell (cells/ul),35,PI-ME/CFS,246.62
+csf,15C,Lymphocyte B/mono ratio,1,HV,0.41
+csf,15C,Lymphocyte B/mono ratio,2,HV,0.71
+csf,15C,Lymphocyte B/mono ratio,3,HV,0.03
+csf,15C,Lymphocyte B/mono ratio,4,HV,0.0
+csf,15C,Lymphocyte B/mono ratio,5,HV,0.17
+csf,15C,Lymphocyte B/mono ratio,6,HV,0.12
+csf,15C,Lymphocyte B/mono ratio,7,HV,0.12
+csf,15C,Lymphocyte B/mono ratio,8,HV,0.73
+csf,15C,Lymphocyte B/mono ratio,9,HV,0.06
+csf,15C,Lymphocyte B/mono ratio,10,HV,0.04
+csf,15C,Lymphocyte B/mono ratio,11,HV,0.47
+csf,15C,Lymphocyte B/mono ratio,12,HV,0.05
+csf,15C,Lymphocyte B/mono ratio,13,HV,0.07
+csf,15C,Lymphocyte B/mono ratio,14,HV,0.06
+csf,15C,Lymphocyte B/mono ratio,15,HV,0.0
+csf,15C,Lymphocyte B/mono ratio,16,HV,0.54
+csf,15C,Lymphocyte B/mono ratio,17,HV,0.86
+csf,15C,Lymphocyte B/mono ratio,18,HV,0.09
+csf,15C,Lymphocyte B/mono ratio,19,HV,0.13
+csf,15C,Lymphocyte B/mono ratio,20,PI-ME/CFS,0.23
+csf,15C,Lymphocyte B/mono ratio,21,PI-ME/CFS,0.07
+csf,15C,Lymphocyte B/mono ratio,22,PI-ME/CFS,0.2
+csf,15C,Lymphocyte B/mono ratio,23,PI-ME/CFS,0.44
+csf,15C,Lymphocyte B/mono ratio,24,PI-ME/CFS,0.04
+csf,15C,Lymphocyte B/mono ratio,25,PI-ME/CFS,0.24
+csf,15C,Lymphocyte B/mono ratio,26,PI-ME/CFS,0.03
+csf,15C,Lymphocyte B/mono ratio,27,PI-ME/CFS,0.5
+csf,15C,Lymphocyte B/mono ratio,28,PI-ME/CFS,0.12
+csf,15C,Lymphocyte B/mono ratio,29,PI-ME/CFS,1.76
+csf,15C,Lymphocyte B/mono ratio,30,PI-ME/CFS,0.14
+csf,15C,Lymphocyte B/mono ratio,31,PI-ME/CFS,0.34
+csf,15C,Lymphocyte B/mono ratio,32,PI-ME/CFS,0.05
+csf,15C,Lymphocyte B/mono ratio,33,PI-ME/CFS,0.2
+csf,15C,Lymphocyte B/mono ratio,34,PI-ME/CFS,0.2
+csf,15C,Lymphocyte B/mono ratio,35,PI-ME/CFS,0.0
+csf,15C,Lymphocyte NK CD56bright (cells/ul),1,HV,22.82
+csf,15C,Lymphocyte NK CD56bright (cells/ul),2,HV,40.01
+csf,15C,Lymphocyte NK CD56bright (cells/ul),3,HV,0.0
+csf,15C,Lymphocyte NK CD56bright (cells/ul),4,HV,0.55
+csf,15C,Lymphocyte NK CD56bright (cells/ul),5,HV,4.46
+csf,15C,Lymphocyte NK CD56bright (cells/ul),6,HV,1.99
+csf,15C,Lymphocyte NK CD56bright (cells/ul),7,HV,0.0
+csf,15C,Lymphocyte NK CD56bright (cells/ul),8,HV,5.03
+csf,15C,Lymphocyte NK CD56bright (cells/ul),9,HV,3.54
+csf,15C,Lymphocyte NK CD56bright (cells/ul),10,HV,0.0
+csf,15C,Lymphocyte NK CD56bright (cells/ul),11,HV,9.76
+csf,15C,Lymphocyte NK CD56bright (cells/ul),12,HV,3.78
+csf,15C,Lymphocyte NK CD56bright (cells/ul),13,HV,0.74
+csf,15C,Lymphocyte NK CD56bright (cells/ul),14,HV,5.78
+csf,15C,Lymphocyte NK CD56bright (cells/ul),15,HV,13.0
+csf,15C,Lymphocyte NK CD56bright (cells/ul),16,HV,66.36
+csf,15C,Lymphocyte NK CD56bright (cells/ul),17,HV,3.95
+csf,15C,Lymphocyte NK CD56bright (cells/ul),18,HV,27.39
+csf,15C,Lymphocyte NK CD56bright (cells/ul),19,HV,6.16
+csf,15C,Lymphocyte NK CD56bright (cells/ul),20,PI-ME/CFS,0.0
+csf,15C,Lymphocyte NK CD56bright (cells/ul),21,PI-ME/CFS,3.04
+csf,15C,Lymphocyte NK CD56bright (cells/ul),22,PI-ME/CFS,4.8
+csf,15C,Lymphocyte NK CD56bright (cells/ul),23,PI-ME/CFS,4.13
+csf,15C,Lymphocyte NK CD56bright (cells/ul),24,PI-ME/CFS,3.15
+csf,15C,Lymphocyte NK CD56bright (cells/ul),25,PI-ME/CFS,5.25
+csf,15C,Lymphocyte NK CD56bright (cells/ul),26,PI-ME/CFS,15.58
+csf,15C,Lymphocyte NK CD56bright (cells/ul),27,PI-ME/CFS,1.77
+csf,15C,Lymphocyte NK CD56bright (cells/ul),28,PI-ME/CFS,21.82
+csf,15C,Lymphocyte NK CD56bright (cells/ul),29,PI-ME/CFS,124.02
+csf,15C,Lymphocyte NK CD56bright (cells/ul),30,PI-ME/CFS,7.33
+csf,15C,Lymphocyte NK CD56bright (cells/ul),31,PI-ME/CFS,12.16
+csf,15C,Lymphocyte NK CD56bright (cells/ul),32,PI-ME/CFS,5.37
+csf,15C,Lymphocyte NK CD56bright (cells/ul),33,PI-ME/CFS,9.03
+csf,15C,Lymphocyte NK CD56bright (cells/ul),34,PI-ME/CFS,1.1
+csf,15C,Lymphocyte NK CD56bright (cells/ul),35,PI-ME/CFS,6.42
+csf,15C,CD4+ T cell memory Tfh (%),1,HV,19.3
+csf,15C,CD4+ T cell memory Tfh (%),2,HV,25.1
+csf,15C,CD4+ T cell memory Tfh (%),3,HV,13.2
+csf,15C,CD4+ T cell memory Tfh (%),4,HV,15.4
+csf,15C,CD4+ T cell memory Tfh (%),5,HV,12.3
+csf,15C,CD4+ T cell memory Tfh (%),6,HV,3.1
+csf,15C,CD4+ T cell memory Tfh (%),7,HV,11.0
+csf,15C,CD4+ T cell memory Tfh (%),8,HV,18.6
+csf,15C,CD4+ T cell memory Tfh (%),9,HV,8.3
+csf,15C,CD4+ T cell memory Tfh (%),10,HV,14.0
+csf,15C,CD4+ T cell memory Tfh (%),11,HV,14.9
+csf,15C,CD4+ T cell memory Tfh (%),12,HV,18.4
+csf,15C,CD4+ T cell memory Tfh (%),13,HV,5.23
+csf,15C,CD4+ T cell memory Tfh (%),14,HV,14.8
+csf,15C,CD4+ T cell memory Tfh (%),15,HV,15.1
+csf,15C,CD4+ T cell memory Tfh (%),16,HV,11.5
+csf,15C,CD4+ T cell memory Tfh (%),17,HV,13.1
+csf,15C,CD4+ T cell memory Tfh (%),18,HV,0.67
+csf,15C,CD4+ T cell memory Tfh (%),19,HV,22.5
+csf,15C,CD4+ T cell memory Tfh (%),20,PI-ME/CFS,13.8
+csf,15C,CD4+ T cell memory Tfh (%),21,PI-ME/CFS,15.2
+csf,15C,CD4+ T cell memory Tfh (%),22,PI-ME/CFS,27.5
+csf,15C,CD4+ T cell memory Tfh (%),23,PI-ME/CFS,20.5
+csf,15C,CD4+ T cell memory Tfh (%),24,PI-ME/CFS,12.2
+csf,15C,CD4+ T cell memory Tfh (%),25,PI-ME/CFS,13.9
+csf,15C,CD4+ T cell memory Tfh (%),26,PI-ME/CFS,14.9
+csf,15C,CD4+ T cell memory Tfh (%),27,PI-ME/CFS,19.8
+csf,15C,CD4+ T cell memory Tfh (%),28,PI-ME/CFS,11.5
+csf,15C,CD4+ T cell memory Tfh (%),29,PI-ME/CFS,19.6
+csf,15C,CD4+ T cell memory Tfh (%),30,PI-ME/CFS,11.8
+csf,15C,CD4+ T cell memory Tfh (%),31,PI-ME/CFS,11.1
+csf,15C,CD4+ T cell memory Tfh (%),32,PI-ME/CFS,7.4
+csf,15C,CD4+ T cell memory Tfh (%),33,PI-ME/CFS,10.0
+csf,15C,CD4+ T cell memory Tfh (%),34,PI-ME/CFS,30.0
+csf,15C,CD4+ T cell memory Tfh (%),35,PI-ME/CFS,8.76
+csf,15C,CD4+ T cell subset PD-1 (%),1,HV,58.2
+csf,15C,CD4+ T cell subset PD-1 (%),2,HV,46.0
+csf,15C,CD4+ T cell subset PD-1 (%),3,HV,61.8
+csf,15C,CD4+ T cell subset PD-1 (%),4,HV,62.1
+csf,15C,CD4+ T cell subset PD-1 (%),5,HV,71.6
+csf,15C,CD4+ T cell subset PD-1 (%),6,HV,75.2
+csf,15C,CD4+ T cell subset PD-1 (%),7,HV,85.3
+csf,15C,CD4+ T cell subset PD-1 (%),8,HV,83.1
+csf,15C,CD4+ T cell subset PD-1 (%),9,HV,59.7
+csf,15C,CD4+ T cell subset PD-1 (%),10,HV,82.2
+csf,15C,CD4+ T cell subset PD-1 (%),11,HV,79.5
+csf,15C,CD4+ T cell subset PD-1 (%),12,HV,92.2
+csf,15C,CD4+ T cell subset PD-1 (%),13,HV,88.7
+csf,15C,CD4+ T cell subset PD-1 (%),14,HV,77.9
+csf,15C,CD4+ T cell subset PD-1 (%),15,HV,84.0
+csf,15C,CD4+ T cell subset PD-1 (%),16,HV,91.0
+csf,15C,CD4+ T cell subset PD-1 (%),17,HV,89.3
+csf,15C,CD4+ T cell subset PD-1 (%),18,HV,89.3
+csf,15C,CD4+ T cell subset PD-1 (%),19,HV,64.0
+csf,15C,CD4+ T cell subset PD-1 (%),20,PI-ME/CFS,69.5
+csf,15C,CD4+ T cell subset PD-1 (%),21,PI-ME/CFS,82.0
+csf,15C,CD4+ T cell subset PD-1 (%),22,PI-ME/CFS,80.7
+csf,15C,CD4+ T cell subset PD-1 (%),23,PI-ME/CFS,71.7
+csf,15C,CD4+ T cell subset PD-1 (%),24,PI-ME/CFS,78.3
+csf,15C,CD4+ T cell subset PD-1 (%),25,PI-ME/CFS,75.5
+csf,15C,CD4+ T cell subset PD-1 (%),26,PI-ME/CFS,88.8
+csf,15C,CD4+ T cell subset PD-1 (%),27,PI-ME/CFS,84.5
+csf,15C,CD4+ T cell subset PD-1 (%),28,PI-ME/CFS,85.5
+csf,15C,CD4+ T cell subset PD-1 (%),29,PI-ME/CFS,82.1
+csf,15C,CD4+ T cell subset PD-1 (%),30,PI-ME/CFS,77.1
+csf,15C,CD4+ T cell subset PD-1 (%),31,PI-ME/CFS,73.2
+csf,15C,CD4+ T cell subset PD-1 (%),32,PI-ME/CFS,81.7
+csf,15C,CD4+ T cell subset PD-1 (%),33,PI-ME/CFS,81.7
+csf,15C,CD4+ T cell subset PD-1 (%),34,PI-ME/CFS,92.0
+csf,15C,CD4+ T cell subset PD-1 (%),35,PI-ME/CFS,79.6
+csf,15C,Lymphocyte B cell (%),1,HV,0.76
+csf,15C,Lymphocyte B cell (%),2,HV,2.46
+csf,15C,Lymphocyte B cell (%),3,HV,0.14
+csf,15C,Lymphocyte B cell (%),4,HV,0.0
+csf,15C,Lymphocyte B cell (%),5,HV,0.96
+csf,15C,Lymphocyte B cell (%),6,HV,0.96
+csf,15C,Lymphocyte B cell (%),7,HV,1.04
+csf,15C,Lymphocyte B cell (%),8,HV,1.59
+csf,15C,Lymphocyte B cell (%),9,HV,0.55
+csf,15C,Lymphocyte B cell (%),10,HV,0.65
+csf,15C,Lymphocyte B cell (%),11,HV,1.25
+csf,15C,Lymphocyte B cell (%),12,HV,0.45
+csf,15C,Lymphocyte B cell (%),13,HV,0.62
+csf,15C,Lymphocyte B cell (%),14,HV,0.44
+csf,15C,Lymphocyte B cell (%),15,HV,0.0
+csf,15C,Lymphocyte B cell (%),16,HV,0.7
+csf,15C,Lymphocyte B cell (%),17,HV,1.78
+csf,15C,Lymphocyte B cell (%),18,HV,0.58
+csf,15C,Lymphocyte B cell (%),19,HV,0.43
+csf,15C,Lymphocyte B cell (%),20,PI-ME/CFS,0.35
+csf,15C,Lymphocyte B cell (%),21,PI-ME/CFS,0.96
+csf,15C,Lymphocyte B cell (%),22,PI-ME/CFS,1.0
+csf,15C,Lymphocyte B cell (%),23,PI-ME/CFS,0.94
+csf,15C,Lymphocyte B cell (%),24,PI-ME/CFS,0.25
+csf,15C,Lymphocyte B cell (%),25,PI-ME/CFS,1.32
+csf,15C,Lymphocyte B cell (%),26,PI-ME/CFS,0.2
+csf,15C,Lymphocyte B cell (%),27,PI-ME/CFS,1.08
+csf,15C,Lymphocyte B cell (%),28,PI-ME/CFS,0.43
+csf,15C,Lymphocyte B cell (%),29,PI-ME/CFS,0.81
+csf,15C,Lymphocyte B cell (%),30,PI-ME/CFS,0.79
+csf,15C,Lymphocyte B cell (%),31,PI-ME/CFS,0.24
+csf,15C,Lymphocyte B cell (%),32,PI-ME/CFS,0.52
+csf,15C,Lymphocyte B cell (%),33,PI-ME/CFS,0.92
+csf,15C,Lymphocyte B cell (%),34,PI-ME/CFS,0.96
+csf,15C,Lymphocyte B cell (%),35,PI-ME/CFS,0.0
+csf,15C,CD4+ T cell Effector/memory (%),1,HV,11.0
+csf,15C,CD4+ T cell Effector/memory (%),2,HV,6.05
+csf,15C,CD4+ T cell Effector/memory (%),3,HV,29.5
+csf,15C,CD4+ T cell Effector/memory (%),4,HV,26.7
+csf,15C,CD4+ T cell Effector/memory (%),5,HV,24.0
+csf,15C,CD4+ T cell Effector/memory (%),6,HV,4.42
+csf,15C,CD4+ T cell Effector/memory (%),7,HV,34.9
+csf,15C,CD4+ T cell Effector/memory (%),8,HV,26.1
+csf,15C,CD4+ T cell Effector/memory (%),9,HV,16.2
+csf,15C,CD4+ T cell Effector/memory (%),10,HV,15.3
+csf,15C,CD4+ T cell Effector/memory (%),11,HV,25.3
+csf,15C,CD4+ T cell Effector/memory (%),12,HV,10.8
+csf,15C,CD4+ T cell Effector/memory (%),13,HV,7.32
+csf,15C,CD4+ T cell Effector/memory (%),14,HV,16.2
+csf,15C,CD4+ T cell Effector/memory (%),15,HV,36.3
+csf,15C,CD4+ T cell Effector/memory (%),16,HV,23.7
+csf,15C,CD4+ T cell Effector/memory (%),17,HV,10.1
+csf,15C,CD4+ T cell Effector/memory (%),18,HV,0.82
+csf,15C,CD4+ T cell Effector/memory (%),19,HV,7.74
+csf,15C,CD4+ T cell Effector/memory (%),20,PI-ME/CFS,21.1
+csf,15C,CD4+ T cell Effector/memory (%),21,PI-ME/CFS,27.2
+csf,15C,CD4+ T cell Effector/memory (%),22,PI-ME/CFS,18.4
+csf,15C,CD4+ T cell Effector/memory (%),23,PI-ME/CFS,8.19
+csf,15C,CD4+ T cell Effector/memory (%),24,PI-ME/CFS,11.4
+csf,15C,CD4+ T cell Effector/memory (%),25,PI-ME/CFS,16.5
+csf,15C,CD4+ T cell Effector/memory (%),26,PI-ME/CFS,12.2
+csf,15C,CD4+ T cell Effector/memory (%),27,PI-ME/CFS,14.9
+csf,15C,CD4+ T cell Effector/memory (%),28,PI-ME/CFS,23.1
+csf,15C,CD4+ T cell Effector/memory (%),29,PI-ME/CFS,9.36
+csf,15C,CD4+ T cell Effector/memory (%),30,PI-ME/CFS,13.4
+csf,15C,CD4+ T cell Effector/memory (%),31,PI-ME/CFS,16.0
+csf,15C,CD4+ T cell Effector/memory (%),32,PI-ME/CFS,14.8
+csf,15C,CD4+ T cell Effector/memory (%),33,PI-ME/CFS,13.3
+csf,15C,CD4+ T cell Effector/memory (%),34,PI-ME/CFS,12.7
+csf,15C,CD4+ T cell Effector/memory (%),35,PI-ME/CFS,14.6
+csf,15C,CD4+ T cell Effector (%),1,HV,0.19
+csf,15C,CD4+ T cell Effector (%),2,HV,0.0
+csf,15C,CD4+ T cell Effector (%),3,HV,1.21
+csf,15C,CD4+ T cell Effector (%),4,HV,0.62
+csf,15C,CD4+ T cell Effector (%),5,HV,7.52
+csf,15C,CD4+ T cell Effector (%),6,HV,28.8
+csf,15C,CD4+ T cell Effector (%),7,HV,0.0
+csf,15C,CD4+ T cell Effector (%),8,HV,4.13
+csf,15C,CD4+ T cell Effector (%),9,HV,0.19
+csf,15C,CD4+ T cell Effector (%),10,HV,0.96
+csf,15C,CD4+ T cell Effector (%),11,HV,2.41
+csf,15C,CD4+ T cell Effector (%),12,HV,1.6
+csf,15C,CD4+ T cell Effector (%),13,HV,15.9
+csf,15C,CD4+ T cell Effector (%),14,HV,0.0
+csf,15C,CD4+ T cell Effector (%),15,HV,4.33
+csf,15C,CD4+ T cell Effector (%),16,HV,1.24
+csf,15C,CD4+ T cell Effector (%),17,HV,0.0
+csf,15C,CD4+ T cell Effector (%),18,HV,14.4
+csf,15C,CD4+ T cell Effector (%),19,HV,0.3
+csf,15C,CD4+ T cell Effector (%),20,PI-ME/CFS,1.16
+csf,15C,CD4+ T cell Effector (%),21,PI-ME/CFS,2.79
+csf,15C,CD4+ T cell Effector (%),22,PI-ME/CFS,1.79
+csf,15C,CD4+ T cell Effector (%),23,PI-ME/CFS,0.46
+csf,15C,CD4+ T cell Effector (%),24,PI-ME/CFS,0.0
+csf,15C,CD4+ T cell Effector (%),25,PI-ME/CFS,6.71
+csf,15C,CD4+ T cell Effector (%),26,PI-ME/CFS,1.36
+csf,15C,CD4+ T cell Effector (%),27,PI-ME/CFS,0.47
+csf,15C,CD4+ T cell Effector (%),28,PI-ME/CFS,1.73
+csf,15C,CD4+ T cell Effector (%),29,PI-ME/CFS,0.82
+csf,15C,CD4+ T cell Effector (%),30,PI-ME/CFS,0.0
+csf,15C,CD4+ T cell Effector (%),31,PI-ME/CFS,1.81
+csf,15C,CD4+ T cell Effector (%),32,PI-ME/CFS,1.61
+csf,15C,CD4+ T cell Effector (%),33,PI-ME/CFS,1.11
+csf,15C,CD4+ T cell Effector (%),34,PI-ME/CFS,2.53
+csf,15C,CD4+ T cell Effector (%),35,PI-ME/CFS,0.0
+csf,15C,Lymphocyte NKT cell (%),1,HV,1.05
+csf,15C,Lymphocyte NKT cell (%),2,HV,0.49
+csf,15C,Lymphocyte NKT cell (%),3,HV,1.84
+csf,15C,Lymphocyte NKT cell (%),4,HV,0.29
+csf,15C,Lymphocyte NKT cell (%),5,HV,7.02
+csf,15C,Lymphocyte NKT cell (%),6,HV,3.54
+csf,15C,Lymphocyte NKT cell (%),7,HV,1.56
+csf,15C,Lymphocyte NKT cell (%),8,HV,2.59
+csf,15C,Lymphocyte NKT cell (%),9,HV,2.04
+csf,15C,Lymphocyte NKT cell (%),10,HV,2.13
+csf,15C,Lymphocyte NKT cell (%),11,HV,1.48
+csf,15C,Lymphocyte NKT cell (%),12,HV,3.97
+csf,15C,Lymphocyte NKT cell (%),13,HV,1.78
+csf,15C,Lymphocyte NKT cell (%),14,HV,3.49
+csf,15C,Lymphocyte NKT cell (%),15,HV,3.35
+csf,15C,Lymphocyte NKT cell (%),16,HV,1.52
+csf,15C,Lymphocyte NKT cell (%),17,HV,0.3
+csf,15C,Lymphocyte NKT cell (%),18,HV,1.52
+csf,15C,Lymphocyte NKT cell (%),19,HV,2.43
+csf,15C,Lymphocyte NKT cell (%),20,PI-ME/CFS,0.31
+csf,15C,Lymphocyte NKT cell (%),21,PI-ME/CFS,3.36
+csf,15C,Lymphocyte NKT cell (%),22,PI-ME/CFS,0.67
+csf,15C,Lymphocyte NKT cell (%),23,PI-ME/CFS,1.41
+csf,15C,Lymphocyte NKT cell (%),24,PI-ME/CFS,1.24
+csf,15C,Lymphocyte NKT cell (%),25,PI-ME/CFS,7.06
+csf,15C,Lymphocyte NKT cell (%),26,PI-ME/CFS,3.14
+csf,15C,Lymphocyte NKT cell (%),27,PI-ME/CFS,1.38
+csf,15C,Lymphocyte NKT cell (%),28,PI-ME/CFS,2.16
+csf,15C,Lymphocyte NKT cell (%),29,PI-ME/CFS,0.79
+csf,15C,Lymphocyte NKT cell (%),30,PI-ME/CFS,2.86
+csf,15C,Lymphocyte NKT cell (%),31,PI-ME/CFS,4.98
+csf,15C,Lymphocyte NKT cell (%),32,PI-ME/CFS,0.0
+csf,15C,Lymphocyte NKT cell (%),33,PI-ME/CFS,3.67
+csf,15C,Lymphocyte NKT cell (%),34,PI-ME/CFS,5.77
+csf,15C,Lymphocyte NKT cell (%),35,PI-ME/CFS,1.97
+csf,15C,Lymphocyte CD4/CD8 ratio,1,HV,4.34
+csf,15C,Lymphocyte CD4/CD8 ratio,2,HV,5.5
+csf,15C,Lymphocyte CD4/CD8 ratio,3,HV,1.88
+csf,15C,Lymphocyte CD4/CD8 ratio,4,HV,5.32
+csf,15C,Lymphocyte CD4/CD8 ratio,5,HV,4.24
+csf,15C,Lymphocyte CD4/CD8 ratio,6,HV,1.91
+csf,15C,Lymphocyte CD4/CD8 ratio,7,HV,2.87
+csf,15C,Lymphocyte CD4/CD8 ratio,8,HV,4.5
+csf,15C,Lymphocyte CD4/CD8 ratio,9,HV,2.35
+csf,15C,Lymphocyte CD4/CD8 ratio,10,HV,2.4
+csf,15C,Lymphocyte CD4/CD8 ratio,11,HV,3.67
+csf,15C,Lymphocyte CD4/CD8 ratio,12,HV,3.44
+csf,15C,Lymphocyte CD4/CD8 ratio,13,HV,5.93
+csf,15C,Lymphocyte CD4/CD8 ratio,14,HV,1.61
+csf,15C,Lymphocyte CD4/CD8 ratio,15,HV,2.66
+csf,15C,Lymphocyte CD4/CD8 ratio,16,HV,7.95
+csf,15C,Lymphocyte CD4/CD8 ratio,17,HV,3.57
+csf,15C,Lymphocyte CD4/CD8 ratio,18,HV,5.46
+csf,15C,Lymphocyte CD4/CD8 ratio,19,HV,4.22
+csf,15C,Lymphocyte CD4/CD8 ratio,20,PI-ME/CFS,10.52
+csf,15C,Lymphocyte CD4/CD8 ratio,21,PI-ME/CFS,3.71
+csf,15C,Lymphocyte CD4/CD8 ratio,22,PI-ME/CFS,3.36
+csf,15C,Lymphocyte CD4/CD8 ratio,23,PI-ME/CFS,2.73
+csf,15C,Lymphocyte CD4/CD8 ratio,24,PI-ME/CFS,5.5
+csf,15C,Lymphocyte CD4/CD8 ratio,25,PI-ME/CFS,3.47
+csf,15C,Lymphocyte CD4/CD8 ratio,26,PI-ME/CFS,2.84
+csf,15C,Lymphocyte CD4/CD8 ratio,27,PI-ME/CFS,5.73
+csf,15C,Lymphocyte CD4/CD8 ratio,28,PI-ME/CFS,4.03
+csf,15C,Lymphocyte CD4/CD8 ratio,29,PI-ME/CFS,2.72
+csf,15C,Lymphocyte CD4/CD8 ratio,30,PI-ME/CFS,2.51
+csf,15C,Lymphocyte CD4/CD8 ratio,31,PI-ME/CFS,5.73
+csf,15C,Lymphocyte CD4/CD8 ratio,32,PI-ME/CFS,3.08
+csf,15C,Lymphocyte CD4/CD8 ratio,33,PI-ME/CFS,2.86
+csf,15C,Lymphocyte CD4/CD8 ratio,34,PI-ME/CFS,2.39
+csf,15C,Lymphocyte CD4/CD8 ratio,35,PI-ME/CFS,2.14
+csf,15C,CD8+ T cell subset CD25high (%),1,HV,0.32
+csf,15C,CD8+ T cell subset CD25high (%),2,HV,0.0
+csf,15C,CD8+ T cell subset CD25high (%),3,HV,1.18
+csf,15C,CD8+ T cell subset CD25high (%),4,HV,0.83
+csf,15C,CD8+ T cell subset CD25high (%),5,HV,0.0
+csf,15C,CD8+ T cell subset CD25high (%),6,HV,0.0
+csf,15C,CD8+ T cell subset CD25high (%),7,HV,2.63
+csf,15C,CD8+ T cell subset CD25high (%),8,HV,4.94
+csf,15C,CD8+ T cell subset CD25high (%),9,HV,0.45
+csf,15C,CD8+ T cell subset CD25high (%),10,HV,0.0
+csf,15C,CD8+ T cell subset CD25high (%),11,HV,1.15
+csf,15C,CD8+ T cell subset CD25high (%),12,HV,1.38
+csf,15C,CD8+ T cell subset CD25high (%),13,HV,0.0
+csf,15C,CD8+ T cell subset CD25high (%),14,HV,1.67
+csf,15C,CD8+ T cell subset CD25high (%),15,HV,1.42
+csf,15C,CD8+ T cell subset CD25high (%),16,HV,1.1
+csf,15C,CD8+ T cell subset CD25high (%),17,HV,0.0
+csf,15C,CD8+ T cell subset CD25high (%),18,HV,0.39
+csf,15C,CD8+ T cell subset CD25high (%),19,HV,1.94
+csf,15C,CD8+ T cell subset CD25high (%),20,PI-ME/CFS,9.76
+csf,15C,CD8+ T cell subset CD25high (%),21,PI-ME/CFS,2.3
+csf,15C,CD8+ T cell subset CD25high (%),22,PI-ME/CFS,0.5
+csf,15C,CD8+ T cell subset CD25high (%),23,PI-ME/CFS,1.53
+csf,15C,CD8+ T cell subset CD25high (%),24,PI-ME/CFS,2.08
+csf,15C,CD8+ T cell subset CD25high (%),25,PI-ME/CFS,13.7
+csf,15C,CD8+ T cell subset CD25high (%),26,PI-ME/CFS,2.88
+csf,15C,CD8+ T cell subset CD25high (%),27,PI-ME/CFS,0.0
+csf,15C,CD8+ T cell subset CD25high (%),28,PI-ME/CFS,0.0
+csf,15C,CD8+ T cell subset CD25high (%),29,PI-ME/CFS,0.85
+csf,15C,CD8+ T cell subset CD25high (%),30,PI-ME/CFS,0.0
+csf,15C,CD8+ T cell subset CD25high (%),31,PI-ME/CFS,0.0
+csf,15C,CD8+ T cell subset CD25high (%),32,PI-ME/CFS,0.0
+csf,15C,CD8+ T cell subset CD25high (%),33,PI-ME/CFS,0.0
+csf,15C,CD8+ T cell subset CD25high (%),34,PI-ME/CFS,0.0
+csf,15C,CD8+ T cell subset CD25high (%),35,PI-ME/CFS,0.0
+csf,15C,CD4+ T cell subset CD25high (%),1,HV,1.23
+csf,15C,CD4+ T cell subset CD25high (%),2,HV,0.47
+csf,15C,CD4+ T cell subset CD25high (%),3,HV,2.26
+csf,15C,CD4+ T cell subset CD25high (%),4,HV,0.78
+csf,15C,CD4+ T cell subset CD25high (%),5,HV,8.35
+csf,15C,CD4+ T cell subset CD25high (%),6,HV,7.96
+csf,15C,CD4+ T cell subset CD25high (%),7,HV,0.92
+csf,15C,CD4+ T cell subset CD25high (%),8,HV,5.23
+csf,15C,CD4+ T cell subset CD25high (%),9,HV,1.16
+csf,15C,CD4+ T cell subset CD25high (%),10,HV,2.55
+csf,15C,CD4+ T cell subset CD25high (%),11,HV,2.41
+csf,15C,CD4+ T cell subset CD25high (%),12,HV,4.8
+csf,15C,CD4+ T cell subset CD25high (%),13,HV,0.93
+csf,15C,CD4+ T cell subset CD25high (%),14,HV,5.49
+csf,15C,CD4+ T cell subset CD25high (%),15,HV,2.54
+csf,15C,CD4+ T cell subset CD25high (%),16,HV,2.34
+csf,15C,CD4+ T cell subset CD25high (%),17,HV,2.52
+csf,15C,CD4+ T cell subset CD25high (%),18,HV,3.03
+csf,15C,CD4+ T cell subset CD25high (%),19,HV,0.87
+csf,15C,CD4+ T cell subset CD25high (%),20,PI-ME/CFS,0.77
+csf,15C,CD4+ T cell subset CD25high (%),21,PI-ME/CFS,4.02
+csf,15C,CD4+ T cell subset CD25high (%),22,PI-ME/CFS,0.9
+csf,15C,CD4+ T cell subset CD25high (%),23,PI-ME/CFS,3.07
+csf,15C,CD4+ T cell subset CD25high (%),24,PI-ME/CFS,1.14
+csf,15C,CD4+ T cell subset CD25high (%),25,PI-ME/CFS,6.05
+csf,15C,CD4+ T cell subset CD25high (%),26,PI-ME/CFS,2.03
+csf,15C,CD4+ T cell subset CD25high (%),27,PI-ME/CFS,0.63
+csf,15C,CD4+ T cell subset CD25high (%),28,PI-ME/CFS,0.81
+csf,15C,CD4+ T cell subset CD25high (%),29,PI-ME/CFS,1.81
+csf,15C,CD4+ T cell subset CD25high (%),30,PI-ME/CFS,0.92
+csf,15C,CD4+ T cell subset CD25high (%),31,PI-ME/CFS,4.76
+csf,15C,CD4+ T cell subset CD25high (%),32,PI-ME/CFS,3.85
+csf,15C,CD4+ T cell subset CD25high (%),33,PI-ME/CFS,5.0
+csf,15C,CD4+ T cell subset CD25high (%),34,PI-ME/CFS,5.06
+csf,15C,CD4+ T cell subset CD25high (%),35,PI-ME/CFS,5.69
+csf,15C,Lymphocyte CD4+ T cell (%),1,HV,73.4
+csf,15C,Lymphocyte CD4+ T cell (%),2,HV,61.6
+csf,15C,Lymphocyte CD4+ T cell (%),3,HV,70.0
+csf,15C,Lymphocyte CD4+ T cell (%),4,HV,71.8
+csf,15C,Lymphocyte CD4+ T cell (%),5,HV,74.6
+csf,15C,Lymphocyte CD4+ T cell (%),6,HV,56.6
+csf,15C,Lymphocyte CD4+ T cell (%),7,HV,53.4
+csf,15C,Lymphocyte CD4+ T cell (%),8,HV,65.2
+csf,15C,Lymphocyte CD4+ T cell (%),9,HV,49.2
+csf,15C,Lymphocyte CD4+ T cell (%),10,HV,38.4
+csf,15C,Lymphocyte CD4+ T cell (%),11,HV,68.3
+csf,15C,Lymphocyte CD4+ T cell (%),12,HV,66.8
+csf,15C,Lymphocyte CD4+ T cell (%),13,HV,71.1
+csf,15C,Lymphocyte CD4+ T cell (%),14,HV,45.7
+csf,15C,Lymphocyte CD4+ T cell (%),15,HV,64.2
+csf,15C,Lymphocyte CD4+ T cell (%),16,HV,75.4
+csf,15C,Lymphocyte CD4+ T cell (%),17,HV,58.5
+csf,15C,Lymphocyte CD4+ T cell (%),18,HV,68.8
+csf,15C,Lymphocyte CD4+ T cell (%),19,HV,69.2
+csf,15C,Lymphocyte CD4+ T cell (%),20,PI-ME/CFS,82.2
+csf,15C,Lymphocyte CD4+ T cell (%),21,PI-ME/CFS,61.2
+csf,15C,Lymphocyte CD4+ T cell (%),22,PI-ME/CFS,55.4
+csf,15C,Lymphocyte CD4+ T cell (%),23,PI-ME/CFS,66.5
+csf,15C,Lymphocyte CD4+ T cell (%),24,PI-ME/CFS,67.6
+csf,15C,Lymphocyte CD4+ T cell (%),25,PI-ME/CFS,65.9
+csf,15C,Lymphocyte CD4+ T cell (%),26,PI-ME/CFS,59.6
+csf,15C,Lymphocyte CD4+ T cell (%),27,PI-ME/CFS,75.1
+csf,15C,Lymphocyte CD4+ T cell (%),28,PI-ME/CFS,73.3
+csf,15C,Lymphocyte CD4+ T cell (%),29,PI-ME/CFS,66.3
+csf,15C,Lymphocyte CD4+ T cell (%),30,PI-ME/CFS,67.3
+csf,15C,Lymphocyte CD4+ T cell (%),31,PI-ME/CFS,73.3
+csf,15C,Lymphocyte CD4+ T cell (%),32,PI-ME/CFS,60.4
+csf,15C,Lymphocyte CD4+ T cell (%),33,PI-ME/CFS,56.1
+csf,15C,Lymphocyte CD4+ T cell (%),34,PI-ME/CFS,51.6
+csf,15C,Lymphocyte CD4+ T cell (%),35,PI-ME/CFS,64.9
+csf,15D,CD4+ T cell subset TIGIT (%),1,HV,27.0
+csf,15D,CD4+ T cell subset TIGIT (%),2,HV,34.7
+csf,15D,CD4+ T cell subset TIGIT (%),3,HV,34.0
+csf,15D,CD4+ T cell subset TIGIT (%),4,HV,39.5
+csf,15D,CD4+ T cell subset TIGIT (%),5,HV,42.5
+csf,15D,CD4+ T cell subset TIGIT (%),6,HV,28.3
+csf,15D,CD4+ T cell subset TIGIT (%),7,HV,45.6
+csf,15D,CD4+ T cell subset TIGIT (%),8,PI-ME/CFS,50.0
+csf,15D,CD4+ T cell subset TIGIT (%),9,PI-ME/CFS,51.1
+csf,15D,CD4+ T cell subset TIGIT (%),10,PI-ME/CFS,22.4
+csf,15D,CD4+ T cell subset TIGIT (%),11,PI-ME/CFS,36.2
+csf,15D,CD4+ T cell subset TIGIT (%),12,PI-ME/CFS,30.6
+csf,15D,CD4+ T cell subset TIGIT (%),13,PI-ME/CFS,25.3
+csf,15D,CD4+ T cell subset TIGIT (%),14,PI-ME/CFS,48.8
+csf,15D,CD4+ T cell subset TIGIT (%),15,PI-ME/CFS,25.6
+csf,15D,CD4+ T cell subset TIGIT (%),16,PI-ME/CFS,27.2
+csf,15D,CD8+ T cell subset CD226 (%),2,HV,33.3
+csf,15D,CD8+ T cell subset CD226 (%),3,HV,35.4
+csf,15D,CD8+ T cell subset CD226 (%),4,HV,27.4
+csf,15D,CD8+ T cell subset CD226 (%),5,HV,12.5
+csf,15D,CD8+ T cell subset CD226 (%),6,HV,35.5
+csf,15D,CD8+ T cell subset CD226 (%),7,HV,40.0
+csf,15D,CD8+ T cell subset CD226 (%),8,PI-ME/CFS,30.3
+csf,15D,CD8+ T cell subset CD226 (%),9,PI-ME/CFS,26.7
+csf,15D,CD8+ T cell subset CD226 (%),11,PI-ME/CFS,50.9
+csf,15D,CD8+ T cell subset CD226 (%),12,PI-ME/CFS,36.3
+csf,15D,CD8+ T cell subset CD226 (%),13,PI-ME/CFS,27.5
+csf,15D,CD8+ T cell subset CD226 (%),14,PI-ME/CFS,43.2
+csf,15D,CD8+ T cell subset CD226 (%),15,PI-ME/CFS,29.5
+csf,15D,CD8+ T cell subset CD226 (%),16,PI-ME/CFS,50.5
+csf,15D,CD4+ T cell subset CD226 (%),2,HV,54.8
+csf,15D,CD4+ T cell subset CD226 (%),3,HV,75.3
+csf,15D,CD4+ T cell subset CD226 (%),4,HV,51.1
+csf,15D,CD4+ T cell subset CD226 (%),5,HV,61.0
+csf,15D,CD4+ T cell subset CD226 (%),6,HV,65.4
+csf,15D,CD4+ T cell subset CD226 (%),7,HV,71.2
+csf,15D,CD4+ T cell subset CD226 (%),8,PI-ME/CFS,73.4
+csf,15D,CD4+ T cell subset CD226 (%),9,PI-ME/CFS,55.3
+csf,15D,CD4+ T cell subset CD226 (%),11,PI-ME/CFS,74.6
+csf,15D,CD4+ T cell subset CD226 (%),12,PI-ME/CFS,54.4
+csf,15D,CD4+ T cell subset CD226 (%),13,PI-ME/CFS,57.9
+csf,15D,CD4+ T cell subset CD226 (%),14,PI-ME/CFS,89.1
+csf,15D,CD4+ T cell subset CD226 (%),15,PI-ME/CFS,75.4
+csf,15D,CD4+ T cell subset CD226 (%),16,PI-ME/CFS,64.3
+csf,15D,CD4+ T cell subset CD244 (%),1,HV,10.9
+csf,15D,CD4+ T cell subset CD244 (%),2,HV,33.5
+csf,15D,CD4+ T cell subset CD244 (%),3,HV,12.9
+csf,15D,CD4+ T cell subset CD244 (%),4,HV,11.4
+csf,15D,CD4+ T cell subset CD244 (%),5,HV,22.9
+csf,15D,CD4+ T cell subset CD244 (%),6,HV,12.9
+csf,15D,CD4+ T cell subset CD244 (%),7,HV,14.4
+csf,15D,CD4+ T cell subset CD244 (%),8,PI-ME/CFS,14.0
+csf,15D,CD4+ T cell subset CD244 (%),9,PI-ME/CFS,12.4
+csf,15D,CD4+ T cell subset CD244 (%),10,PI-ME/CFS,30.0
+csf,15D,CD4+ T cell subset CD244 (%),11,PI-ME/CFS,18.3
+csf,15D,CD4+ T cell subset CD244 (%),12,PI-ME/CFS,20.4
+csf,15D,CD4+ T cell subset CD244 (%),13,PI-ME/CFS,8.48
+csf,15D,CD4+ T cell subset CD244 (%),14,PI-ME/CFS,18.5
+csf,15D,CD4+ T cell subset CD244 (%),15,PI-ME/CFS,8.01
+csf,15D,CD4+ T cell subset CD244 (%),16,PI-ME/CFS,15.5
+csf,15D,CD8+ T cell subset CD244 (%),1,HV,66.7
+csf,15D,CD8+ T cell subset CD244 (%),2,HV,76.7
+csf,15D,CD8+ T cell subset CD244 (%),3,HV,69.3
+csf,15D,CD8+ T cell subset CD244 (%),4,HV,50.8
+csf,15D,CD8+ T cell subset CD244 (%),5,HV,79.3
+csf,15D,CD8+ T cell subset CD244 (%),6,HV,63.4
+csf,15D,CD8+ T cell subset CD244 (%),7,HV,77.8
+csf,15D,CD8+ T cell subset CD244 (%),8,PI-ME/CFS,85.7
+csf,15D,CD8+ T cell subset CD244 (%),9,PI-ME/CFS,71.9
+csf,15D,CD8+ T cell subset CD244 (%),10,PI-ME/CFS,80.0
+csf,15D,CD8+ T cell subset CD244 (%),11,PI-ME/CFS,79.9
+csf,15D,CD8+ T cell subset CD244 (%),12,PI-ME/CFS,81.7
+csf,15D,CD8+ T cell subset CD244 (%),13,PI-ME/CFS,73.0
+csf,15D,CD8+ T cell subset CD244 (%),14,PI-ME/CFS,76.6
+csf,15D,CD8+ T cell subset CD244 (%),15,PI-ME/CFS,56.6
+csf,15D,CD8+ T cell subset CD244 (%),16,PI-ME/CFS,57.7
+csf,15D,CD8+ T cell subset TIGIT (%),1,HV,43.9
+csf,15D,CD8+ T cell subset TIGIT (%),2,HV,67.4
+csf,15D,CD8+ T cell subset TIGIT (%),3,HV,61.5
+csf,15D,CD8+ T cell subset TIGIT (%),4,HV,59.0
+csf,15D,CD8+ T cell subset TIGIT (%),5,HV,60.3
+csf,15D,CD8+ T cell subset TIGIT (%),6,HV,50.5
+csf,15D,CD8+ T cell subset TIGIT (%),7,HV,60.3
+csf,15D,CD8+ T cell subset TIGIT (%),8,PI-ME/CFS,50.0
+csf,15D,CD8+ T cell subset TIGIT (%),9,PI-ME/CFS,51.6
+csf,15D,CD8+ T cell subset TIGIT (%),10,PI-ME/CFS,42.2
+csf,15D,CD8+ T cell subset TIGIT (%),11,PI-ME/CFS,56.3
+csf,15D,CD8+ T cell subset TIGIT (%),12,PI-ME/CFS,42.3
+csf,15D,CD8+ T cell subset TIGIT (%),13,PI-ME/CFS,55.2
+csf,15D,CD8+ T cell subset TIGIT (%),14,PI-ME/CFS,80.9
+csf,15D,CD8+ T cell subset TIGIT (%),15,PI-ME/CFS,65.6
+csf,15D,CD8+ T cell subset TIGIT (%),16,PI-ME/CFS,58.3

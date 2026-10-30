@@ -1,0 +1,65 @@
+compound,sub,n_detect_C_prefix(labelled case in file),n_detect_P_prefix(labelled control in file)
+2-hydroxyacetaminophen sulfate*,"Drug - Analgesics, Anesthetics",8,2
+2-hydroxyibuprofen,"Drug - Analgesics, Anesthetics",4,8
+2-methoxyacetaminophen glucuronide*,"Drug - Analgesics, Anesthetics",6,1
+2-methoxyacetaminophen sulfate*,"Drug - Analgesics, Anesthetics",7,1
+3-(cystein-S-yl)acetaminophen*,"Drug - Analgesics, Anesthetics",5,0
+3-(methylthio)acetaminophen sulfate*,"Drug - Analgesics, Anesthetics",9,2
+3-(N-acetyl-L-cystein-S-yl) acetaminophen,"Drug - Analgesics, Anesthetics",5,1
+4-acetamidophenol,"Drug - Analgesics, Anesthetics",7,3
+4-acetamidophenylglucuronide,"Drug - Analgesics, Anesthetics",8,3
+4-acetaminophen sulfate,"Drug - Analgesics, Anesthetics",9,4
+carboxyibuprofen,"Drug - Analgesics, Anesthetics",3,7
+carboxyibuprofen glucuronide*,"Drug - Analgesics, Anesthetics",0,6
+desmethylnaproxen,"Drug - Analgesics, Anesthetics",1,2
+desmethylnaproxen sulfate,"Drug - Analgesics, Anesthetics",5,5
+ibuprofen,"Drug - Analgesics, Anesthetics",20,16
+ibuprofen acyl glucuronide,"Drug - Analgesics, Anesthetics",2,5
+lidocaine,"Drug - Analgesics, Anesthetics",0,2
+N-ethylglycinexylidide,"Drug - Analgesics, Anesthetics",0,3
+naproxen,"Drug - Analgesics, Anesthetics",6,5
+salicyluric glucuronide*,"Drug - Analgesics, Anesthetics",5,5
+3-hydroxyquinine,Drug - Antibiotic,1,1
+quinine,Drug - Antibiotic,1,2
+10-hydroxywarfarin,Drug - Cardiovascular,0,1
+4-hydroxycoumarin,Drug - Cardiovascular,17,13
+7-hydroxywarfarin,Drug - Cardiovascular,0,1
+alpha-hydroxymetoprolol,Drug - Cardiovascular,2,9
+atenolol,Drug - Cardiovascular,1,3
+candesartan,Drug - Cardiovascular,0,1
+metoprolol,Drug - Cardiovascular,0,1
+metoprolol acid metabolite*,Drug - Cardiovascular,0,1
+olmesartan,Drug - Cardiovascular,1,0
+ticlopidine,Drug - Cardiovascular,0,1
+valsartan,Drug - Cardiovascular,0,1
+warfarin,Drug - Cardiovascular,0,1
+dexlansoprazole,Drug - Gastrointestinal,0,1
+famotidine,Drug - Gastrointestinal,0,1
+ranitidine,Drug - Gastrointestinal,0,1
+ranitidine N-oxide*,Drug - Gastrointestinal,0,1
+metformin,Drug - Metabolic,1,0
+sitagliptin,Drug - Metabolic,0,1
+chlorzoxazone,Drug - Neurological,0,1
+homoveratric acid,Drug - Neurological,0,1
+lamotrigine,Drug - Neurological,0,1
+ritalinic acid,Drug - Neurological,0,1
+topiramate,Drug - Neurological,0,2
+4-hydroxy duloxetine glucuronide*,Drug - Psychoactive,0,1
+5-hydroxy-6-methoxy duloxetine sulfate*,Drug - Psychoactive,0,1
+citalopram propionate*,Drug - Psychoactive,2,2
+desmethylcitalopram*,Drug - Psychoactive,2,2
+duloxetine,Drug - Psychoactive,0,1
+escitalopram,Drug - Psychoactive,2,2
+hydroxybupropion,Drug - Psychoactive,0,1
+mirtazapine,Drug - Psychoactive,0,1
+"N,O-didesmethylvenlafaxine glucuronide",Drug - Psychoactive,0,1
+O-desmethylvenlafaxine,Drug - Psychoactive,0,1
+venlafaxine,Drug - Psychoactive,0,1
+zolpidem,Drug - Psychoactive,1,5
+cetirizine,Drug - Respiratory,0,3
+fexofenadine,Drug - Respiratory,1,0
+guaifenesin,Drug - Respiratory,1,2
+pseudoephedrine,Drug - Respiratory,0,3
+"2,6-dihydroxybenzoic acid",Drug - Topical Agents,26,26
+hydroquinone sulfate,Drug - Topical Agents,18,18
+salicylate,Drug - Topical Agents,26,26
