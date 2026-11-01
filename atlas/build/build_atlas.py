@@ -176,36 +176,97 @@ body.append(f'''<div class="wrap">
 </div>
 
 <h2 id="overview">Overview by body system</h2>
-<div class="cards">''')
+<p>Each bar shows how the findings in one body system are graded. Bar length is the number of findings; green segments are the ones that have replicated.</p>
+<figure class="gfig">''')
+GVAR = {"replicated": "--rep", "several": "--sev", "early": "--early", "contested": "--cont", "refuted": "--ref"}
+def gcounts(fs):
+    return {k: sum(1 for f in fs if f.get("grade") == k) for k in GRADES}
+def gbar(c, scale=None, cls="gbar"):
+    tot = sum(c.values()) or 1
+    scale = scale or tot
+    segs = "".join(f'<span style="width:{100 * c[k] / scale:.2f}%;background:var({GVAR[k]})" title="{c[k]} {GRADES[k][1].lower()}"></span>' for k in GRADES if c.get(k))
+    return f'<span class="{cls}" role="img" aria-label="{", ".join(f"{c[k]} {GRADES[k][1].lower()}" for k in GRADES if c.get(k))}">{segs}</span>'
+OV = {}
+ovp = os.path.join(RES, "overview.json")
+if os.path.exists(ovp): OV = json.load(open(ovp, encoding="utf8"))
+fby = {f["id"]: f for f in all_findings}
+mx = max(len(d.get("findings", [])) for d in domains)
 for d in domains:
-    n = len(d.get("findings", []))
-    rep = sum(1 for f in d.get("findings", []) if f.get("grade") in ("replicated", "several"))
-    body.append(f'<a class="card" href="#d-{e(d["domain"])}"><h3>{e(d["title"])}</h3><p>{e(d.get("overview"))}</p><p class="small">{n} findings · {rep} replicated or multi-study</p></a>')
+    c = gcounts(d.get("findings", []))
+    body.append(f'<a class="grow" href="#c-{e(d["domain"])}"><span class="gname">{e(d["title"])}</span>{gbar(c, mx)}<span class="gn">{sum(c.values())}</span></a>')
+body.append('<figcaption class="glegend">' + " ".join(f'<span><i style="background:var({GVAR[k]})"></i>{e(v[1])}</span>' for k, v in GRADES.items()) + '</figcaption></figure>')
+body.append('<div class="sys">')
+for d in domains:
+    fs = d.get("findings", [])
+    c = gcounts(fs)
+    od = OV.get("domains", {}).get(d["domain"], {})
+    groups = ""
+    for gl, items in od.get("groups", []):
+        lis = "".join(f'<li><a href="#f-{e(fid)}"><span class="pill {GRADES.get(fby[fid].get("grade"), ("contest",))[0]}" title="{e(GRADES.get(fby[fid].get("grade"), ("", "?"))[1])}"></span>{e(t)}</a></li>' for t, fid in items if fid in fby)
+        groups += f'<p class="sublabel">{e(gl)}</p><ul class="kf">{lis}</ul>'
+    take = od.get("takeaway") or (d.get("overview") or "").split(". ")[0] + "."
+    body.append(f'''<section class="sysc" id="c-{e(d["domain"])}"><h3><a href="#d-{e(d["domain"])}">{e(d["title"])}</a></h3>
+<p class="take">{e(take)}</p>{groups}
+<details class="more"><summary>Full summary</summary><p>{e(d.get("overview"))}</p></details>
+<p class="small foot"><a href="#d-{e(d["domain"])}">All {len(fs)} findings →</a></p></section>''')
 body.append("</div>")
 
 # hypotheses
+STATUS_ORDER = [("active", "Active", "Supported by current data and still being tested"),
+    ("speculative", "Speculative", "Plausible, with little direct data"),
+    ("weakened", "Weakened", "Key predictions have failed or not replicated"),
+    ("largely refuted", "Largely refuted", "Contradicted by well-designed studies")]
+VERD = OV.get("verdicts", {})
+def ul(xs, cls=""):
+    return f'<ul class="{cls}">' + "".join(f"<li>{e(x)}</li>" for x in xs) + "</ul>"
 if hyps:
-    body.append('<h2 id="hypotheses">Hypotheses</h2><p>The main explanations proposed for ME/CFS, with the evidence for and against each. Several can be true at once, and many describe different links in the same chain. Tap one to open it.</p>')
-    for h in hyps:
-        ef = "".join(f"<li>{e(x)}</li>" for x in h.get("evidence_for", []))
-        ea = "".join(f"<li>{e(x)}</li>" for x in h.get("evidence_against", []))
-        pr = "".join(f"<li>{e(x)}</li>" for x in h.get("predictions", []))
-        dt = "".join(f"<li>{e(x)}</li>" for x in h.get("decisive_tests", []))
-        dn = "".join(f'<li><strong>{e(t)}:</strong> {"for: " + e(n.get("for")) if n.get("for") else ""}{"; " if n.get("for") and n.get("against") else ""}{"against: " + e(n.get("against")) if n.get("against") else ""}</li>' for t, n in notes.get(h["id"], []))
-        rel = " ".join(f'<a class="tag" href="#h-{e(r)}">{e(hyp_names.get(r, r))}</a>' for r in h.get("related", []))
-        linked = [f for f in all_findings if h["id"] in (f.get("hypotheses") or [])]
-        lf = "".join(f'<li><a href="#f-{e(f["id"])}">{e(f["finding"])}</a> {pill(f.get("grade"))}</li>' for f in linked[:25])
-        refs = "; ".join(link(r.get("cite"), r.get("url")) for r in h.get("key_refs", []))
-        body.append(f'''<details class="finding hyp" id="h-{e(h["id"])}"><summary><span class="ftext">{e(h["name"])}<span class="oneline">{e(h.get("one_line"))}</span></span> <span class="pill {STATUS.get(h.get("status"),"contest")}">{e(h.get("status"))}</span></summary><div class="fbody">
-<p class="plain">{e(h.get("claim"))}</p>
-{f'<p class="small inmodel">In the working model: {", ".join(f"<a href=/model#step-{n}>step {n}, {e(nm)}</a>" for n, nm in h_steps[h["id"]])}</p>' if h["id"] in h_steps else ""}
-<p class="small">Proponents: {e(", ".join(h.get("proponents", [])))}</p>
-<div class="cols"><div><p class="sublabel">Evidence for</p><ul>{ef}</ul></div><div><p class="sublabel">Evidence against</p><ul>{ea}</ul></div></div>
-{f'<p class="sublabel">Predicts</p><ul>{pr}</ul>' if pr else ""}
-{f'<p class="sublabel">Tests that would settle it</p><ul>{dt}</ul>' if dt else ""}
-{f'<p class="sublabel">Notes from each body system</p><ul>{dn}</ul>' if dn else ""}
-{f'<p class="sublabel">Linked findings</p><ul>{lf}</ul>' if lf else ""}
-<p class="small">{f"Related: {rel}" if rel else ""}{"<br>" if rel and refs else ""}{f"Key references: {refs}" if refs else ""}</p>
+    body.append('<h2 id="hypotheses">Hypotheses</h2><p>The main explanations proposed for ME/CFS. Several can be true at once, and many describe different links in the same chain. The bar beside each shows the grades of the atlas findings linked to it, which includes findings that count against it. Tap one to open it.</p>')
+    body.append('<p class="hjump">' + " · ".join(f'<a href="#hs-{k.replace(" ", "-")}">{lab} ({sum(1 for h in hyps if h.get("status") == k)})</a>' for k, lab, _ in STATUS_ORDER) + "</p>")
+    hmax = max([len([f for f in all_findings if h["id"] in (f.get("hypotheses") or [])]) for h in hyps] + [1])
+    for sk, slab, sdesc in STATUS_ORDER:
+        group = [h for h in hyps if h.get("status") == sk]
+        if not group: continue
+        def strength(h):
+            lf = [f for f in all_findings if h["id"] in (f.get("hypotheses") or [])]
+            return (-sum(1 for f in lf if f.get("grade") in ("replicated", "several")), -len(lf))
+        group.sort(key=strength)
+        body.append(f'<h3 class="hstat" id="hs-{sk.replace(" ", "-")}"><span class="pill {STATUS.get(sk, "contest")}">{e(slab)}</span><span class="small">{e(sdesc)}</span></h3>')
+        for h in group:
+            linked = [f for f in all_findings if h["id"] in (f.get("hypotheses") or [])]
+            gorder = list(GRADES)
+            linked.sort(key=lambda f: gorder.index(f.get("grade")) if f.get("grade") in gorder else 9)
+            c = gcounts(linked)
+            ef, ea = h.get("evidence_for", []), h.get("evidence_against", [])
+            bar = (gbar(c, hmax, "gbar sm") + f'<span class="gn">{len(linked)}</span>') if linked else '<span class="small nolink">umbrella model</span>'
+            steps = "".join(f'<a class="chip" href="/model#step-{n}">Step {n} · {e(nm)}</a>' for n, nm in h_steps.get(h["id"], []))
+            meta = []
+            if steps: meta.append(f'<div><span class="ml">Working model</span><span class="chips">{steps}</span></div>')
+            if h.get("proponents"): meta.append(f'<div><span class="ml">Proposed by</span><span>{e(", ".join(h["proponents"]))}</span></div>')
+            vis, rest = linked[:10], linked[10:]
+            def lfli(fs):
+                return "".join(f'<li><a href="#f-{e(f["id"])}"><span class="pill {GRADES.get(f.get("grade"), ("contest",))[0]}"></span>{e(f["finding"])}</a><span class="ld">{e(f["_dtitle"])}</span></li>' for f in fs)
+            lf = ""
+            if linked:
+                summ = ", ".join(f"{c[k]} {GRADES[k][1].lower()}" for k in GRADES if c[k])
+                lf = (f'<div class="hsec"><p class="bh">Linked findings <span class="cnt">{len(linked)}</span></p><p class="small lsum">{gbar(c, None, "gbar")} {summ}</p><ul class="lf">{lfli(vis)}</ul>'
+                      + (f'<details class="more"><summary>Show {len(rest)} more</summary><ul class="lf">{lfli(rest)}</ul></details>' if rest else "") + "</div>")
+            dn = "".join(f'<li><strong>{e(t)}.</strong> {"For: " + e(n.get("for")) if n.get("for") else ""}{" " if n.get("for") and n.get("against") else ""}{"Against: " + e(n.get("against")) if n.get("against") else ""}</li>' for t, n in notes.get(h["id"], []))
+            rel = "".join(f'<a class="chip" href="#h-{e(r)}">{e(hyp_names.get(r, r))}</a>' for r in h.get("related", []))
+            refs = "; ".join(link(r.get("cite"), r.get("url")) for r in h.get("key_refs", []))
+            pr, dt = h.get("predictions", []), h.get("decisive_tests", [])
+            settle = ""
+            if pr or dt:
+                settle = '<div class="hsec settle">' + (f'<div><p class="bh">If true, we should see</p>{ul(pr)}</div>' if pr else "") + (f'<div><p class="bh">Tests that would settle it</p>{ul(dt, "tests")}</div>' if dt else "") + "</div>"
+            body.append(f'''<details class="hyp" id="h-{e(h["id"])}"><summary><span class="hname">{e(h["name"])}<span class="oneline">{e(h.get("one_line"))}</span></span><span class="hbar">{bar}<span class="tally" title="Evidence items for and against"><b class="tf">+{len(ef)}</b> <b class="ta">−{len(ea)}</b></span></span></summary><div class="hbody">
+{f'<p class="verdict"><b>Where it stands.</b> {e(VERD[h["id"]])}</p>' if h["id"] in VERD else ""}
+<p class="claim">{e(h.get("claim"))}</p>
+{f'<div class="hmeta">{"".join(meta)}</div>' if meta else ""}
+<div class="hsec bal"><div class="for"><p class="bh">Evidence for <span class="cnt">{len(ef)}</span></p>{ul(ef)}</div><div class="ag"><p class="bh">Evidence against <span class="cnt">{len(ea)}</span></p>{ul(ea)}</div></div>
+{settle}
+{lf}
+{f'<details class="more"><summary>Notes from each body system</summary><ul class="notes">{dn}</ul></details>' if dn else ""}
+{f'<div class="hsec"><p class="bh">Related hypotheses</p><span class="chips">{rel}</span></div>' if rel else ""}
+{f'<p class="small refs">Key references: {refs}</p>' if refs else ""}
 </div></details>''')
 
 # findings by domain
@@ -292,6 +353,79 @@ details.finding>summary .ftext{min-width:0}
 .dtag{font-family:var(--f-sans);font-size:.72rem;color:var(--link);border:1px solid currentColor;border-radius:2px;padding:0 .25rem;text-decoration:none;white-space:nowrap}
 .hyp>summary .ftext{font-family:var(--f-sans);font-weight:600;font-size:.95rem}
 .inmodel{margin:.6rem 0 .2rem;padding-left:.6rem;border-left:2px solid var(--accent)}
+.gfig{margin:1rem 0 1.6rem}
+.grow{display:grid;grid-template-columns:13rem 1fr 2rem;gap:.8rem;align-items:center;padding:.28rem 0;color:var(--ink);text-decoration:none;font-family:var(--f-sans);font-size:.85rem}
+.grow:hover .gname{text-decoration:underline}
+.gbar{display:flex;height:.75rem;min-width:0;border-radius:2px;overflow:hidden;background:var(--sunk)}
+.grow .gbar{background:none}
+.gbar span{display:block;height:100%;min-width:2px}
+.gbar span+span{border-left:1.5px solid var(--bg)}
+.gbar.sm{height:.55rem;width:6rem;flex:none}
+.gn{font-family:var(--f-sans);font-size:.78rem;color:var(--muted);font-variant-numeric:tabular-nums;text-align:right}
+.glegend{display:flex;flex-wrap:wrap;gap:.2rem 1rem;margin-top:.6rem}
+.glegend i{display:inline-block;width:.65rem;height:.65rem;border-radius:2px;margin-right:.3rem;vertical-align:-.05rem}
+@media (max-width:560px){.grow{grid-template-columns:1fr 1.6rem;gap:.15rem .6rem}.grow .gname{grid-column:1/-1}}
+.sys{display:grid;grid-template-columns:1fr 1fr;gap:0 2rem;margin:1rem 0 2rem}
+@media (max-width:700px){.sys{grid-template-columns:1fr}}
+.sysc{border-top:1.5px solid var(--ink);padding:.7rem 0 1.2rem;min-width:0;scroll-margin-top:1rem}
+.sysc h3{font-size:1.02rem;margin:0 0 .35rem}.sysc h3 a{color:var(--ink);text-decoration:none}
+.sysc .take{font-size:.95rem;line-height:1.45;margin:.2rem 0 .5rem}
+.sysc .sublabel{margin:.7rem 0 .15rem;font-size:.72rem;text-transform:uppercase;letter-spacing:.04em}
+.kf{list-style:none;padding:0;margin:0;font-family:var(--f-sans);font-size:.84rem;line-height:1.35}
+.kf li{margin:.22rem 0}.kf a{color:var(--ink);text-decoration:none;display:flex;gap:.45rem;align-items:baseline}
+.kf a:hover{color:var(--link)}.kf .pill{flex:none}
+.sysc .foot{margin:.6rem 0 0}
+details.more{margin:.6rem 0 0;font-family:var(--f-sans);font-size:.82rem}
+details.more>summary{color:var(--link);list-style:none}details.more>summary::-webkit-details-marker{display:none}
+details.more>summary::before{content:"▸ ";color:var(--muted)}details.more[open]>summary::before{content:"▾ "}
+details.more>p{font-family:var(--f-serif);font-size:.92rem;line-height:1.5;margin:.4rem 0 0}
+.hjump{font-family:var(--f-sans);font-size:.85rem}
+.hstat{display:flex;flex-wrap:wrap;gap:.2rem .8rem;align-items:baseline;margin:2rem 0 .3rem;font-size:1rem}
+.hstat .pill{font-size:.95rem}
+details.hyp{border-top:1px solid var(--rule)}
+details.hyp>summary{list-style:none;display:grid;grid-template-columns:1fr auto;gap:.3rem 1rem;align-items:center;padding:.65rem 0}
+details.hyp>summary::-webkit-details-marker{display:none}
+.hname{font-family:var(--f-sans);font-weight:600;font-size:.95rem;min-width:0}
+.hname::before{content:"▸";display:inline-block;width:1rem;color:var(--muted);font-weight:400}
+details.hyp[open] .hname::before{content:"▾"}
+.hname .oneline{padding-left:1rem}
+.hbar{display:flex;align-items:center;gap:.5rem;justify-self:end}
+.tally{font-family:var(--f-sans);font-size:.75rem;white-space:nowrap}.tally b{font-weight:600}
+.tf{color:var(--rep)}.ta{color:var(--ref)}
+.nolink{font-style:italic;white-space:nowrap}
+@media (max-width:560px){details.hyp>summary{grid-template-columns:1fr}.hbar{justify-self:start;padding-left:1rem}}
+.hbody{padding:.2rem 0 1.4rem 1rem;border-left:2px solid var(--rule);margin-left:.25rem;min-width:0}
+.verdict{background:var(--sunk);border-left:3px solid var(--ink);padding:.6rem .8rem;margin:.4rem 0 .8rem;font-size:.98rem;line-height:1.5}
+.claim{font-size:.95rem;color:var(--ink-2);margin:.4rem 0}
+.hmeta{display:grid;gap:.3rem;margin:.7rem 0;font-family:var(--f-sans);font-size:.82rem}
+.hmeta>div{display:grid;grid-template-columns:7.5rem 1fr;gap:.6rem}
+.ml{color:var(--muted);font-weight:600}
+@media (max-width:560px){.hmeta>div{grid-template-columns:1fr;gap:0}}
+.chips{display:flex;flex-wrap:wrap;gap:.3rem .4rem}
+.chip{font-family:var(--f-sans);font-size:.78rem;border:1px solid var(--rule);border-radius:3px;padding:.05rem .4rem;text-decoration:none;color:var(--link);white-space:nowrap}
+.chip:hover{border-color:var(--link)}
+.hsec{margin:1rem 0 0}
+.bh{font-family:var(--f-sans);font-weight:600;font-size:.8rem;margin:0 0 .3rem;color:var(--ink)}
+.cnt{color:var(--muted);font-weight:400;margin-left:.2rem}
+.bal{display:grid;grid-template-columns:1fr 1fr;gap:1.2rem}
+.settle{display:grid;grid-template-columns:1fr 1fr;gap:1.2rem}
+@media (max-width:640px){.bal,.settle{grid-template-columns:1fr;gap:.6rem}}
+.bal>div,.settle>div{min-width:0;padding-top:.45rem;border-top:3px solid var(--rule)}
+.bal .for{border-top-color:var(--rep)}.bal .ag{border-top-color:var(--ref)}
+.hbody ul{margin:0;padding-left:0;list-style:none;font-size:.9rem;line-height:1.45}
+.hbody li{margin:.35rem 0;padding-left:1.1rem;position:relative}
+.hbody .bal li::before,.hbody .settle li::before{position:absolute;left:0;font-family:var(--f-sans);font-weight:700}
+.bal .for li::before{content:"+";color:var(--rep)}.bal .ag li::before{content:"−";color:var(--ref)}
+.settle li::before{content:"○";color:var(--muted);font-weight:400!important;font-size:.8em;top:.15em}
+.settle .tests li::before{content:"→";color:var(--link)}
+.lsum{display:flex;align-items:center;gap:.6rem;margin:.1rem 0 .5rem}.lsum .gbar{width:8rem;flex:none}
+.hbody ul.lf{font-family:var(--f-sans);font-size:.82rem;line-height:1.35}
+.hbody ul.lf li{padding-left:0;display:grid;grid-template-columns:1fr auto;gap:.8rem;margin:.3rem 0}
+.lf a{color:var(--ink);text-decoration:none;display:flex;gap:.45rem;align-items:baseline}.lf a:hover{color:var(--link)}.lf .pill{flex:none}
+.ld{color:var(--faint);font-size:.74rem;white-space:nowrap}
+@media (max-width:560px){.hbody ul.lf li{grid-template-columns:1fr;gap:0}.ld{padding-left:1rem}}
+.notes li{font-size:.86rem}
+.refs{margin-top:1rem}
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
 '''
 desc = f"A living review of ME/CFS research: {len(all_findings)} findings by body system graded by replication, {len(hyps)} hypotheses with evidence for and against, and an index of {len(all_studies)} studies."

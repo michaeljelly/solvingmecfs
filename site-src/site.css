@@ -9,7 +9,7 @@
   --f-sans:-apple-system,BlinkMacSystemFont,"Segoe UI","Helvetica Neue",Arial,sans-serif;
   --f-mono:"JetBrains Mono",ui-monospace,Menlo,Consolas,monospace;
   --f-body:var(--f-serif); --f-display:var(--f-sans);
-  --body:42rem; --page:62rem; --radius:4px;
+  --body:50rem; --page:50rem; --radius:4px;
   color-scheme:light;
 }
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
@@ -79,8 +79,8 @@ figcaption b,.caption b{color:var(--ink);font-weight:600}
 @media (max-width:640px){.only-wide{display:none}.only-narrow{display:block}}
 /* margin notes on wide screens */
 .sidenote{font-family:var(--f-sans);font-size:.78rem;line-height:1.45;color:var(--muted)}
-@media (min-width:1180px){.l-body .sidenote,.wrap .sidenote{float:right;clear:right;width:14rem;margin-right:-16.5rem;margin-top:.3rem}}
-@media (max-width:1179px){.sidenote{display:block;margin:.4rem 0 .8rem;padding-left:.8rem;border-left:2px solid var(--rule)}}
+@media (min-width:1400px){.l-body .sidenote,.wrap .sidenote{float:right;clear:right;width:14rem;margin-right:-16.5rem;margin-top:.3rem}}
+@media (max-width:1399px){.sidenote{display:block;margin:.4rem 0 .8rem;padding-left:.8rem;border-left:2px solid var(--rule)}}
 /* site chrome */
 .site-head{border-bottom:1px solid var(--rule);padding-top:env(safe-area-inset-top,0px);font-family:var(--f-sans)}
 .site-head .wide{display:flex;align-items:center;gap:1.6rem;min-height:3.2rem}
