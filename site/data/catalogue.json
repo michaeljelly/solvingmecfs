@@ -85,7 +85,10 @@
     "path_or_url": "https://data.solvingmecfs.org/analysis-mr-proteome/README.md"
    }
   ],
-  "notes": "Unmodified files from OSF. Keep only variants listed in gwas_qced.var.gz (README). A1FREQ_CONTROLS is miscalculated by REGENIE v4.1 (README). Files are not sorted by chromosome. Supplementary tables S1-S11 on research.ed.ac.uk are not mirrored (browser check; licence not visible). Attribution: Cite the DecodeME preprint and link https://osf.io/rgqs3/."
+  "notes": "Unmodified files from OSF. Keep only variants listed in gwas_qced.var.gz (README). A1FREQ_CONTROLS is miscalculated by REGENIE v4.1 (README). Files are not sorted by chromosome. Supplementary tables S1-S11 on research.ed.ac.uk are not mirrored (browser check; licence not visible). Attribution: Cite the DecodeME preprint and link https://osf.io/rgqs3/.",
+  "cohort_ids": [
+   "decodeme"
+  ]
  },
  {
   "id": "nih-walitt-2024",
@@ -148,7 +151,10 @@
     "path_or_url": "https://data.solvingmecfs.org/analysis-proteome/README.md"
    }
   ],
-  "notes": "Supplementary Data 14A adjusted-p column appears mis-sorted. CSF metabolomics shows a global shift with sample order. Participant-linked tables (tilt HR/BP etc.) are only on mapMECFS (see mapmecfs). Stool reads: SRA PRJNA954397 (not mirrored). Attribution: Cite Walitt et al. 2024 Nat Commun."
+  "notes": "Supplementary Data 14A adjusted-p column appears mis-sorted. CSF metabolomics shows a global shift with sample order. Participant-linked tables (tilt HR/BP etc.) are only on mapMECFS (see mapmecfs). Stool reads: SRA PRJNA954397 (not mirrored). Attribution: Cite Walitt et al. 2024 Nat Commun.",
+  "cohort_ids": [
+   "nih-pi-mecfs"
+  ]
  },
  {
   "id": "nih-walitt-2024-code",
@@ -296,7 +302,10 @@
     "path_or_url": "https://data.solvingmecfs.org/analysis-round1-replication/README.md"
    }
   ],
-  "notes": "Git history not mirrored. The repository LICENSE file is included. Attribution: Keep the GPL-3.0 LICENSE with any redistribution; cite Walitt et al. 2024."
+  "notes": "Git history not mirrored. The repository LICENSE file is included. Attribution: Keep the GPL-3.0 LICENSE with any redistribution; cite Walitt et al. 2024.",
+  "cohort_ids": [
+   "nih-pi-mecfs"
+  ]
  },
  {
   "id": "geo-gse251790",
@@ -339,7 +348,10 @@
     "path_or_url": "https://data.solvingmecfs.org/analysis-proteome/README.md"
    }
   ],
-  "notes": "No group column in ADAT; the GEO files hold 21 patients, 4 more than the 17 adjudicated in the paper. Attribution: Cite the original study and GEO accession GSE251790."
+  "notes": "No group column in ADAT; the GEO files hold 21 patients, 4 more than the 17 adjudicated in the paper. Attribution: Cite the original study and GEO accession GSE251790.",
+  "cohort_ids": [
+   "nih-pi-mecfs"
+  ]
  },
  {
   "id": "geo-gse254030",
@@ -382,7 +394,10 @@
     "path_or_url": "https://data.solvingmecfs.org/analysis-proteome/README.md"
    }
   ],
-  "notes": "Same 4 extra patients as GSE251790. Attribution: Cite the original study and GEO accession GSE254030."
+  "notes": "Same 4 extra patients as GSE251790. Attribution: Cite the original study and GEO accession GSE254030.",
+  "cohort_ids": [
+   "nih-pi-mecfs"
+  ]
  },
  {
   "id": "geo-gse245661",
@@ -409,7 +424,10 @@
   ],
   "total_bytes": 6041,
   "our_analyses": [],
-  "notes": "Raw counts tar (GSE245661_RAW.tar) not mirrored. Attribution: Cite the original study and GEO accession GSE245661."
+  "notes": "Raw counts tar (GSE245661_RAW.tar) not mirrored. Attribution: Cite the original study and GEO accession GSE245661.",
+  "cohort_ids": [
+   "nih-pi-mecfs"
+  ]
  },
  {
   "id": "geo-gse214283",
@@ -512,7 +530,10 @@
     "path_or_url": "https://data.solvingmecfs.org/analysis-proteome/README.md"
    }
   ],
-  "notes": "The 1.3 GB raw 10x h5 tar is not mirrored (download from GEO). Pseudobulk files are derived by us (cell types by marker scoring, not the authors' labels). The article itself is CC BY-NC-ND; the GEO deposit is covered by NCBI's open-data policy. Attribution: Cite the original study and GEO accession GSE214283."
+  "notes": "The 1.3 GB raw 10x h5 tar is not mirrored (download from GEO). Pseudobulk files are derived by us (cell types by marker scoring, not the authors' labels). The article itself is CC BY-NC-ND; the GEO deposit is covered by NCBI's open-data policy. Attribution: Cite the original study and GEO accession GSE214283.",
+  "cohort_ids": [
+   "cornell-crc-2day-cpet"
+  ]
  },
  {
   "id": "geo-gse227375",
@@ -570,7 +591,10 @@
     "path_or_url": "https://data.solvingmecfs.org/analysis-proteome/README.md"
    }
   ],
-  "notes": "GEO gives no subject IDs; our meta file infers subjects from consecutive sample triplets, checked with genotype-like genes. Attribution: Cite the original study and GEO accession GSE227375."
+  "notes": "GEO gives no subject IDs; our meta file infers subjects from consecutive sample triplets, checked with genotype-like genes. Attribution: Cite the original study and GEO accession GSE227375.",
+  "cohort_ids": [
+   "nova-klimas-exercise"
+  ]
  },
  {
   "id": "geo-gse293840",
@@ -618,7 +642,10 @@
     "path_or_url": "https://data.solvingmecfs.org/analysis-proteome/README.md"
    }
   ],
-  "notes": "Global composition shift: most gene sets ~+0.17 SD higher in cases; adjust before reading set-level results. Attribution: Cite the original study and GEO accession GSE293840."
+  "notes": "Global composition shift: most gene sets ~+0.17 SD higher in cases; adjust before reading set-level results. Attribution: Cite the original study and GEO accession GSE293840.",
+  "cohort_ids": [
+   "cornell-crc-2day-cpet"
+  ]
  },
  {
   "id": "geo-gse128078",
@@ -661,7 +688,10 @@
     "path_or_url": "https://data.solvingmecfs.org/analysis-round1-replication/README.md"
    }
   ],
-  "notes": "Attribution: Cite the original study and GEO accession GSE128078."
+  "notes": "Attribution: Cite the original study and GEO accession GSE128078.",
+  "cohort_ids": [
+   "ucsf-bouquet-2019"
+  ]
  },
  {
   "id": "geo-gse98139",
@@ -704,7 +734,10 @@
     "path_or_url": "https://data.solvingmecfs.org/analysis-proteome/README.md"
    }
   ],
-  "notes": "Attribution: Cite the original study and GEO accession GSE98139."
+  "notes": "Attribution: Cite the original study and GEO accession GSE98139.",
+  "cohort_ids": [
+   "norcapital-adolescents"
+  ]
  },
  {
   "id": "geo-gse16059",
@@ -737,7 +770,10 @@
     "path_or_url": "https://data.solvingmecfs.org/analysis-round1-replication/README.md"
    }
   ],
-  "notes": "Attribution: Cite the original study and GEO accession GSE16059."
+  "notes": "Attribution: Cite the original study and GEO accession GSE16059.",
+  "cohort_ids": [
+   "cfs-twin-registry"
+  ]
  },
  {
   "id": "geo-gse14577",
@@ -769,7 +805,10 @@
   ],
   "total_bytes": 3828383,
   "our_analyses": [],
-  "notes": "Attribution: Cite the original study and GEO accession GSE14577."
+  "notes": "Attribution: Cite the original study and GEO accession GSE14577.",
+  "cohort_ids": [
+   "glasgow-gow-2009"
+  ]
  },
  {
   "id": "geo-gse268212",
@@ -807,7 +846,10 @@
     "path_or_url": "https://data.solvingmecfs.org/analysis-singlecell-methylation/README.md"
    }
   ],
-  "notes": "Attribution: Cite the original study and GEO accession GSE268212."
+  "notes": "Attribution: Cite the original study and GEO accession GSE268212.",
+  "cohort_ids": [
+   "cornell-crc-2day-cpet"
+  ]
  },
  {
   "id": "geo-gse270045",
@@ -845,7 +887,10 @@
     "path_or_url": "https://data.solvingmecfs.org/analysis-singlecell-methylation/README.md"
    }
   ],
-  "notes": "Attribution: Cite the original study and GEO accession GSE270045."
+  "notes": "Attribution: Cite the original study and GEO accession GSE270045.",
+  "cohort_ids": [
+   "alberta-post-covid-mecfs"
+  ]
  },
  {
   "id": "geo-gse275334",
@@ -877,7 +922,10 @@
   ],
   "total_bytes": 1059196,
   "our_analyses": [],
-  "notes": "Downloaded, not analysed. Attribution: Cite the original study and GEO accession GSE275334."
+  "notes": "Downloaded, not analysed. Attribution: Cite the original study and GEO accession GSE275334.",
+  "cohort_ids": [
+   "ncned-griffith-lab"
+  ]
  },
  {
   "id": "geo-gse130353",
@@ -904,7 +952,10 @@
   ],
   "total_bytes": 4971,
   "our_analyses": [],
-  "notes": "Downloaded, not analysed. Attribution: Cite the original study and GEO accession GSE130353."
+  "notes": "Downloaded, not analysed. Attribution: Cite the original study and GEO accession GSE130353.",
+  "cohort_ids": [
+   "radboud-qfever"
+  ]
  },
  {
   "id": "geo-gse269047",
@@ -931,7 +982,10 @@
   ],
   "total_bytes": 5949,
   "our_analyses": [],
-  "notes": "Downloaded, not analysed. Attribution: Cite the original study and GEO accession GSE269047."
+  "notes": "Downloaded, not analysed. Attribution: Cite the original study and GEO accession GSE269047.",
+  "cohort_ids": [
+   "valencia-herv"
+  ]
  },
  {
   "id": "pride-pad000026",
@@ -979,7 +1033,10 @@
     "path_or_url": "https://data.solvingmecfs.org/analysis-proteome/README.md"
    }
   ],
-  "notes": "Strong sample-handling artefact: intracellular proteins (histones, ALDOA, LDHB, VIM) lower in patients; adjust for a leak score before reading single proteins. Decimal commas in the log2 matrix. Sex coding inverted relative to its obvious reading (0 = male). Attribution: No legal requirement (CC0); please cite Hoel et al. 2026."
+  "notes": "Strong sample-handling artefact: intracellular proteins (histones, ALDOA, LDHB, VIM) lower in patients; adjust for a leak score before reading single proteins. Decimal commas in the log2 matrix. Sex coding inverted relative to its obvious reading (0 = male). Attribution: No legal requirement (CC0); please cite Hoel et al. 2026.",
+  "cohort_ids": [
+   "bergen-cyclome"
+  ]
  },
  {
   "id": "figshare-esteban-2026",
@@ -1242,7 +1299,10 @@
     "path_or_url": "https://data.solvingmecfs.org/analysis-round1-replication/README.md"
    }
   ],
-  "notes": "Stool, not plasma. Relative_abudance_with_OTUID.csv is a tryptophan-correlated subcommunity, not the whole community. A Google Docs shortcut file (.gdoc) in the deposit is not mirrored. Attribution: Cite Esteban et al. 2026 and the figshare DOI."
+  "notes": "Stool, not plasma. Relative_abudance_with_OTUID.csv is a tryptophan-correlated subcommunity, not the whole community. A Google Docs shortcut file (.gdoc) in the deposit is not mirrored. Attribution: Cite Esteban et al. 2026 and the figshare DOI.",
+  "cohort_ids": [
+   "ramsay-esteban-2026"
+  ]
  },
  {
   "id": "hoel-2021",
@@ -1310,7 +1370,10 @@
     "path_or_url": "https://data.solvingmecfs.org/analysis-aromatic-lactates/README.md"
    }
   ],
-  "notes": "Summary statistics only; per-person data are available from the authors on request (not public). Attribution: Cite Hoel et al. 2021."
+  "notes": "Summary statistics only; per-person data are available from the authors on request (not public). Attribution: Cite Hoel et al. 2021.",
+  "cohort_ids": [
+   "bergen-rituxme"
+  ]
  },
  {
   "id": "germain-2018",
@@ -1353,7 +1416,10 @@
     "path_or_url": "https://data.solvingmecfs.org/analysis-aromatic-lactates/README.md"
    }
   ],
-  "notes": "No covariates. Obtained via Europe PMC (MDPI blocks scripted download). Labels in this copy are correct (drug traces sit in the patient samples). Attribution: Cite Germain et al. 2018."
+  "notes": "No covariates. Obtained via Europe PMC (MDPI blocks scripted download). Labels in this copy are correct (drug traces sit in the patient samples). Attribution: Cite Germain et al. 2018.",
+  "cohort_ids": [
+   "hanson-lab-nyc-metabolomics"
+  ]
  },
  {
   "id": "germain-2020",
@@ -1401,7 +1467,10 @@
     "path_or_url": "https://data.solvingmecfs.org/analysis-aromatic-lactates/README.md"
    }
   ],
-  "notes": "A GitHub copy of these data (Nadjoubiii repository) has case/control labels swapped; these journal files are correct. May share participants with other Hanson-lab cohorts (unverified). Attribution: Cite Germain et al. 2020."
+  "notes": "A GitHub copy of these data (Nadjoubiii repository) has case/control labels swapped; these journal files are correct. May share participants with other Hanson-lab cohorts (unverified). Attribution: Cite Germain et al. 2020.",
+  "cohort_ids": [
+   "hanson-lab-nyc-metabolomics"
+  ]
  },
  {
   "id": "germain-2022",
@@ -1444,7 +1513,10 @@
     "path_or_url": "https://data.solvingmecfs.org/analysis-round1-replication/README.md"
    }
   ],
-  "notes": "This copy came from the BioMapAI GitHub repository (data/indenpendent_cohorts/jci.insight.2022.xlsx); the original is the article's supplementary dataset, published under the article's CC BY 4.0 licence. No CPET variables (VO2, workload) in the file. Attribution: Cite Germain et al. 2022."
+  "notes": "This copy came from the BioMapAI GitHub repository (data/indenpendent_cohorts/jci.insight.2022.xlsx); the original is the article's supplementary dataset, published under the article's CC BY 4.0 licence. No CPET variables (VO2, workload) in the file. Attribution: Cite Germain et al. 2022.",
+  "cohort_ids": [
+   "cornell-crc-2day-cpet"
+  ]
  },
  {
   "id": "guo-2023",
@@ -1507,7 +1579,10 @@
     "path_or_url": "https://data.solvingmecfs.org/analysis-microbiome-ipa/README.md"
    }
   ],
-  "notes": "Tables S1-S7 from the PMC author-manuscript supplement. Summary tables only (no per-sample data); Table S2 lists only nominally significant species. Attribution: Cite Guo et al. 2023."
+  "notes": "Tables S1-S7 from the PMC author-manuscript supplement. Summary tables only (no per-sample data); Table S2 lists only nominally significant species. Attribution: Cite Guo et al. 2023.",
+  "cohort_ids": [
+   "columbia-csm-crc"
+  ]
  },
  {
   "id": "github-niaid-iggseq",
@@ -1609,7 +1684,10 @@
   ],
   "total_bytes": 4611491,
   "our_analyses": [],
-  "notes": "Snapshot of the default branch as cloned in September 2026, without git history; the repository's own README is at README.upstream.md. Raw reads: SRA PRJNA954397 (not mirrored). Attribution: Keep the repository's MIT licence notice; credit https://github.com/niaid/pi-mecfs-iggseq."
+  "notes": "Snapshot of the default branch as cloned in September 2026, without git history; the repository's own README is at README.upstream.md. Raw reads: SRA PRJNA954397 (not mirrored). Attribution: Keep the repository's MIT licence notice; credit https://github.com/niaid/pi-mecfs-iggseq.",
+  "cohort_ids": [
+   "nih-pi-mecfs"
+  ]
  },
  {
   "id": "github-goodship-hormones",
@@ -2971,7 +3049,10 @@
   ],
   "total_bytes": 63365871,
   "our_analyses": [],
-  "notes": "Snapshot of the default branch as cloned in September 2026, without git history; the repository's own README is at README.upstream.md. Not analysed by us. Attribution: Keep the repository's MIT licence notice; credit https://github.com/AbiGoodship/effect_of_ovarian_hormones_on_long_COVID_and_ME_symptoms."
+  "notes": "Snapshot of the default branch as cloned in September 2026, without git history; the repository's own README is at README.upstream.md. Not analysed by us. Attribution: Keep the repository's MIT licence notice; credit https://github.com/AbiGoodship/effect_of_ovarian_hormones_on_long_COVID_and_ME_symptoms.",
+  "cohort_ids": [
+   "visible-app-hormones"
+  ]
  },
  {
   "id": "github-das-longcovid-loso",
@@ -3218,7 +3299,12 @@
   ],
   "total_bytes": 1231419,
   "our_analyses": [],
-  "notes": "Snapshot of the default branch as cloned in September 2026, without git history; the repository's own README is at README.upstream.md. Underlying data are GEO deposits. Attribution: Keep the repository's Apache-2.0 licence notice; credit https://github.com/saptarshidas13/long-covid-cross-cohort-loso."
+  "notes": "Snapshot of the default branch as cloned in September 2026, without git history; the repository's own README is at README.upstream.md. Underlying data are GEO deposits. Attribution: Keep the repository's Apache-2.0 licence notice; credit https://github.com/saptarshidas13/long-covid-cross-cohort-loso.",
+  "cohort_ids": [
+   "lc-gse224615",
+   "lc-gse251849",
+   "lc-gse169687"
+  ]
  },
  {
   "id": "github-mecfs-bioinformatics",
@@ -9970,7 +10056,8 @@
   ],
   "total_bytes": 7686259,
   "our_analyses": [],
-  "notes": "Snapshot of the default branch as cloned in September 2026, without git history; the repository's own README is at README.upstream.md. Code only; 362 empty placeholder files skipped. Attribution: Keep the repository's MIT licence notice; credit https://github.com/trafalmadorian97/mecfs_bioinformatics."
+  "notes": "Snapshot of the default branch as cloned in September 2026, without git history; the repository's own README is at README.upstream.md. Code only; 362 empty placeholder files skipped. Attribution: Keep the repository's MIT licence notice; credit https://github.com/trafalmadorian97/mecfs_bioinformatics.",
+  "cohort_ids": []
  },
  {
   "id": "github-tijn-thesis",
@@ -10022,7 +10109,8 @@
   ],
   "total_bytes": 5105846,
   "our_analyses": [],
-  "notes": "Snapshot of the default branch as cloned in September 2026, without git history; the repository's own README is at README.upstream.md. Not analysed by us. Attribution: Keep the repository's GPL-3.0 licence notice; credit https://github.com/githubtijn2002/Thesis."
+  "notes": "Snapshot of the default branch as cloned in September 2026, without git history; the repository's own README is at README.upstream.md. Not analysed by us. Attribution: Keep the repository's GPL-3.0 licence notice; credit https://github.com/githubtijn2002/Thesis.",
+  "cohort_ids": []
  },
  {
   "id": "github-uab-mecfs-cohort",
@@ -13524,7 +13612,10 @@
   ],
   "total_bytes": 294318040,
   "our_analyses": [],
-  "notes": "Snapshot of the default branch as cloned in September 2026, without git history; the repository's own README is at README.upstream.md. Not analysed (too few controls). Text tables over 20 MB are gzipped here. Attribution: Keep the repository's GPL-3.0 licence notice; credit https://github.com/uab-cgds-worthey/mecfs-cohort-analysis."
+  "notes": "Snapshot of the default branch as cloned in September 2026, without git history; the repository's own README is at README.upstream.md. Not analysed (too few controls). Text tables over 20 MB are gzipped here. Attribution: Keep the repository's GPL-3.0 licence notice; credit https://github.com/uab-cgds-worthey/mecfs-cohort-analysis.",
+  "cohort_ids": [
+   "uab-family-cohort"
+  ]
  },
  {
   "id": "github-armstrong-nmr-code",
@@ -13561,7 +13652,10 @@
   ],
   "total_bytes": 16047,
   "our_analyses": [],
-  "notes": "Snapshot of the default branch as cloned in September 2026, without git history; the repository's own README is at README.upstream.md. The repository's copy of the MetaboLights MTBLS161 table is NOT mirrored: it is third-party data the repository owner cannot relicense (see metabolights-mtbls161). Attribution: Keep the repository's MIT licence notice; credit https://github.com/markothaurelio/cfs-metabolomics-biomarker-discovery."
+  "notes": "Snapshot of the default branch as cloned in September 2026, without git history; the repository's own README is at README.upstream.md. The repository's copy of the MetaboLights MTBLS161 table is NOT mirrored: it is third-party data the repository owner cannot relicense (see metabolights-mtbls161). Attribution: Keep the repository's MIT licence notice; credit https://github.com/markothaurelio/cfs-metabolomics-biomarker-discovery.",
+  "cohort_ids": [
+   "melbourne-armstrong-2015"
+  ]
  },
  {
   "id": "github-rti-mapmecfs-api",
@@ -13643,7 +13737,8 @@
   ],
   "total_bytes": 972717,
   "our_analyses": [],
-  "notes": "Snapshot of the default branch as cloned in September 2026, without git history; the repository's own README is at README.upstream.md. Code only; data access needs a mapMECFS account (see mapmecfs). Attribution: Keep the repository's MIT licence notice; credit https://github.com/RTIInternational/mapMECFS-API."
+  "notes": "Snapshot of the default branch as cloned in September 2026, without git history; the repository's own README is at README.upstream.md. Code only; data access needs a mapMECFS account (see mapmecfs). Attribution: Keep the repository's MIT licence notice; credit https://github.com/RTIInternational/mapMECFS-API.",
+  "cohort_ids": []
  },
  {
   "id": "analysis-round1-replication",
@@ -14221,7 +14316,8 @@
     "path_or_url": "https://data.solvingmecfs.org/analysis-round1-replication/README.md"
    }
   ],
-  "notes": "Exploratory re-analysis, not peer reviewed. Excludes the pickled harmonised per-person Metabolomics Workbench table (CC BY-NC-ND source) and a mapMECFS catalogue table. Person-level tidy tables are included only for the NIH Walitt Source Data (CC BY 4.0). Attribution: Cite 'Solving ME/CFS data catalogue' with the URL; credit the underlying datasets listed in the README."
+  "notes": "Exploratory re-analysis, not peer reviewed. Excludes the pickled harmonised per-person Metabolomics Workbench table (CC BY-NC-ND source) and a mapMECFS catalogue table. Person-level tidy tables are included only for the NIH Walitt Source Data (CC BY 4.0). Attribution: Cite 'Solving ME/CFS data catalogue' with the URL; credit the underlying datasets listed in the README.",
+  "cohort_ids": []
  },
  {
   "id": "analysis-decodeme-genetics",
@@ -14859,7 +14955,10 @@
     "path_or_url": "https://data.solvingmecfs.org/analysis-decodeme-genetics/README.md"
    }
   ],
-  "notes": "Exploratory re-analysis, not peer reviewed. eQTLGen region extract excluded (licence not stated). QC-filtered parquet copies of the sumstats are not mirrored (duplicates of decodeme-gwas); the GRCh38-to-rsID map is included. Attribution: Cite 'Solving ME/CFS data catalogue' with the URL; credit the underlying datasets listed in the README."
+  "notes": "Exploratory re-analysis, not peer reviewed. eQTLGen region extract excluded (licence not stated). QC-filtered parquet copies of the sumstats are not mirrored (duplicates of decodeme-gwas); the GRCh38-to-rsID map is included. Attribution: Cite 'Solving ME/CFS data catalogue' with the URL; credit the underlying datasets listed in the README.",
+  "cohort_ids": [
+   "decodeme"
+  ]
  },
  {
   "id": "analysis-aromatic-lactates",
@@ -15042,7 +15141,8 @@
     "path_or_url": "https://data.solvingmecfs.org/analysis-aromatic-lactates/README.md"
    }
   ],
-  "notes": "Exploratory re-analysis, not peer reviewed. All tables are per-study or pooled estimates; no per-person rows. Attribution: Cite 'Solving ME/CFS data catalogue' with the URL; credit the underlying datasets listed in the README."
+  "notes": "Exploratory re-analysis, not peer reviewed. All tables are per-study or pooled estimates; no per-person rows. Attribution: Cite 'Solving ME/CFS data catalogue' with the URL; credit the underlying datasets listed in the README.",
+  "cohort_ids": []
  },
  {
   "id": "analysis-microbiome-ipa",
@@ -15230,7 +15330,8 @@
     "path_or_url": "https://data.solvingmecfs.org/analysis-microbiome-ipa/README.md"
    }
   ],
-  "notes": "Exploratory re-analysis, not peer reviewed. Per-person BioMapAI panel values, scores and Bracken guild abundances are excluded (sources have no redistribution licence). Copies of Esteban and Guo files are under figshare-esteban-2026 and guo-2023. Attribution: Cite 'Solving ME/CFS data catalogue' with the URL; credit the underlying datasets listed in the README."
+  "notes": "Exploratory re-analysis, not peer reviewed. Per-person BioMapAI panel values, scores and Bracken guild abundances are excluded (sources have no redistribution licence). Copies of Esteban and Guo files are under figshare-esteban-2026 and guo-2023. Attribution: Cite 'Solving ME/CFS data catalogue' with the URL; credit the underlying datasets listed in the README.",
+  "cohort_ids": []
  },
  {
   "id": "analysis-mr-proteome",
@@ -15533,7 +15634,8 @@
     "path_or_url": "https://data.solvingmecfs.org/analysis-mr-proteome/README.md"
    }
   ],
-  "notes": "Exploratory re-analysis, not peer reviewed. Includes MVP-only statistics we derived from the CC BY Zenodo 20204356 meta-analysis and MHC-region extracts of GWAS Catalog summary statistics (CC0) and DecodeME. Excluded: the FinnGen MHC extract (no explicit licence) and the pQTL instrument table built from the deCODE supplement (not openly licensed). Attribution: Cite 'Solving ME/CFS data catalogue' with the URL; credit the underlying datasets listed in the README."
+  "notes": "Exploratory re-analysis, not peer reviewed. Includes MVP-only statistics we derived from the CC BY Zenodo 20204356 meta-analysis and MHC-region extracts of GWAS Catalog summary statistics (CC0) and DecodeME. Excluded: the FinnGen MHC extract (no explicit licence) and the pQTL instrument table built from the deCODE supplement (not openly licensed). Attribution: Cite 'Solving ME/CFS data catalogue' with the URL; credit the underlying datasets listed in the README.",
+  "cohort_ids": []
  },
  {
   "id": "analysis-singlecell-methylation",
@@ -15881,7 +15983,8 @@
     "path_or_url": "https://data.solvingmecfs.org/analysis-singlecell-methylation/README.md"
    }
   ],
-  "notes": "Exploratory re-analysis, not peer reviewed. Per-cell and pseudobulk tables are derived from GEO GSE214283 (open). Repertoire per-sample metrics derive from ENA/SRA PRJEB83659 and PRJNA940635. Attribution: Cite 'Solving ME/CFS data catalogue' with the URL; credit the underlying datasets listed in the README."
+  "notes": "Exploratory re-analysis, not peer reviewed. Per-cell and pseudobulk tables are derived from GEO GSE214283 (open). Repertoire per-sample metrics derive from ENA/SRA PRJEB83659 and PRJNA940635. Attribution: Cite 'Solving ME/CFS data catalogue' with the URL; credit the underlying datasets listed in the README.",
+  "cohort_ids": []
  },
  {
   "id": "analysis-proteome",
@@ -16224,7 +16327,8 @@
     "path_or_url": "https://data.solvingmecfs.org/analysis-proteome/README.md"
    }
   ],
-  "notes": "Exploratory re-analysis, not peer reviewed. Only per-cohort case-control statistics; no per-person rows. Raw inputs (several under CC BY-NC-ND) are not mirrored. Attribution: Cite 'Solving ME/CFS data catalogue' with the URL; credit the underlying datasets listed in the README."
+  "notes": "Exploratory re-analysis, not peer reviewed. Only per-cohort case-control statistics; no per-person rows. Raw inputs (several under CC BY-NC-ND) are not mirrored. Attribution: Cite 'Solving ME/CFS data catalogue' with the URL; credit the underlying datasets listed in the README.",
+  "cohort_ids": []
  },
  {
   "id": "analysis-epi-literature",
@@ -16362,7 +16466,8 @@
     "path_or_url": "https://data.solvingmecfs.org/analysis-epi-literature/README.md"
    }
   ],
-  "notes": "Exploratory re-analysis, not peer reviewed. Raw ClinicalTrials.gov and PubMed downloads, raw Risteys scrapes, and the sentence-level abstract excerpts are excluded; the paper-level table is published without its excerpt column. One curated table that referred to an individual patient is excluded. Attribution: Cite 'Solving ME/CFS data catalogue' with the URL; credit the underlying datasets listed in the README."
+  "notes": "Exploratory re-analysis, not peer reviewed. Raw ClinicalTrials.gov and PubMed downloads, raw Risteys scrapes, and the sentence-level abstract excerpts are excluded; the paper-level table is published without its excerpt column. One curated table that referred to an individual patient is excluded. Attribution: Cite 'Solving ME/CFS data catalogue' with the URL; credit the underlying datasets listed in the README.",
+  "cohort_ids": []
  },
  {
   "id": "analysis-pem-germain2022",
@@ -16520,7 +16625,10 @@
     "path_or_url": "https://data.solvingmecfs.org/analysis-pem-germain2022/README.md"
    }
   ],
-  "notes": "Exploratory re-analysis, not peer reviewed. Pickled working copies of the per-person data are excluded (the source xlsx is under germain-2022). Attribution: Cite 'Solving ME/CFS data catalogue' with the URL; credit the underlying datasets listed in the README."
+  "notes": "Exploratory re-analysis, not peer reviewed. Pickled working copies of the per-person data are excluded (the source xlsx is under germain-2022). Attribution: Cite 'Solving ME/CFS data catalogue' with the URL; credit the underlying datasets listed in the README.",
+  "cohort_ids": [
+   "cornell-crc-2day-cpet"
+  ]
  },
  {
   "id": "analysis-biomapai-reanalysis",
@@ -17333,7 +17441,10 @@
     "path_or_url": "https://data.solvingmecfs.org/analysis-biomapai-reanalysis/README.md"
    }
   ],
-  "notes": "Exploratory re-analysis, not peer reviewed. BioMapAI data have no redistribution licence, so all per-person or per-visit outputs (out-of-fold predictions, cluster assignments, trajectories, axis values) are excluded; only aggregate statistics, scripts and figures are published. Attribution: Cite 'Solving ME/CFS data catalogue' with the URL; credit the underlying datasets listed in the README."
+  "notes": "Exploratory re-analysis, not peer reviewed. BioMapAI data have no redistribution licence, so all per-person or per-visit outputs (out-of-fold predictions, cluster assignments, trajectories, axis values) are excluded; only aggregate statistics, scripts and figures are published. Attribution: Cite 'Solving ME/CFS data catalogue' with the URL; credit the underlying datasets listed in the README.",
+  "cohort_ids": [
+   "jax-bhc-biomapai"
+  ]
  },
  {
   "id": "mwb-st000450",
@@ -17360,7 +17471,10 @@
     "path_or_url": "https://data.solvingmecfs.org/analysis-aromatic-lactates/README.md"
    }
   ],
-  "notes": "Metabolomics Workbench REST /study/study_id/ST000450/summary reports licence 'CC BY-NC-ND' (NoDerivatives, NonCommercial: outside the rehost rule)."
+  "notes": "Metabolomics Workbench REST /study/study_id/ST000450/summary reports licence 'CC BY-NC-ND' (NoDerivatives, NonCommercial: outside the rehost rule).",
+  "cohort_ids": [
+   "naviaux-2016"
+  ]
  },
  {
   "id": "mwb-st000617",
@@ -17387,7 +17501,10 @@
     "path_or_url": "https://data.solvingmecfs.org/analysis-aromatic-lactates/README.md"
    }
   ],
-  "notes": "Metabolomics Workbench REST /study/study_id/ST000617/summary reports licence 'CC BY-NC-ND' (NoDerivatives, NonCommercial: outside the rehost rule). Re-measures the ST000450 men; not an independent cohort."
+  "notes": "Metabolomics Workbench REST /study/study_id/ST000617/summary reports licence 'CC BY-NC-ND' (NoDerivatives, NonCommercial: outside the rehost rule). Re-measures the ST000450 men; not an independent cohort.",
+  "cohort_ids": [
+   "naviaux-2016"
+  ]
  },
  {
   "id": "mwb-st000800",
@@ -17414,7 +17531,10 @@
     "path_or_url": "https://data.solvingmecfs.org/analysis-aromatic-lactates/README.md"
    }
   ],
-  "notes": "Metabolomics Workbench REST /study/study_id/ST000800/summary reports licence 'CC BY-NC-ND' (NoDerivatives, NonCommercial: outside the rehost rule)."
+  "notes": "Metabolomics Workbench REST /study/study_id/ST000800/summary reports licence 'CC BY-NC-ND' (NoDerivatives, NonCommercial: outside the rehost rule).",
+  "cohort_ids": [
+   "cii-chronic-fatigue-initiative"
+  ]
  },
  {
   "id": "mwb-st000910",
@@ -17441,7 +17561,10 @@
     "path_or_url": "https://data.solvingmecfs.org/analysis-aromatic-lactates/README.md"
    }
   ],
-  "notes": "Metabolomics Workbench REST /study/study_id/ST000910/summary reports licence 'CC BY-NC-ND' (NoDerivatives, NonCommercial: outside the rehost rule)."
+  "notes": "Metabolomics Workbench REST /study/study_id/ST000910/summary reports licence 'CC BY-NC-ND' (NoDerivatives, NonCommercial: outside the rehost rule).",
+  "cohort_ids": [
+   "lipkin-csf-2016"
+  ]
  },
  {
   "id": "mwb-st002000",
@@ -17468,7 +17591,10 @@
     "path_or_url": "https://data.solvingmecfs.org/analysis-aromatic-lactates/README.md"
    }
   ],
-  "notes": "Metabolomics Workbench REST /study/study_id/ST002000/summary reports licence 'CC BY-NC-ND' (NoDerivatives, NonCommercial: outside the rehost rule). A processed copy also sits in the BioMapAI repository (no licence)."
+  "notes": "Metabolomics Workbench REST /study/study_id/ST002000/summary reports licence 'CC BY-NC-ND' (NoDerivatives, NonCommercial: outside the rehost rule). A processed copy also sits in the BioMapAI repository (no licence).",
+  "cohort_ids": [
+   "columbia-csm-crc"
+  ]
  },
  {
   "id": "mwb-st003103",
@@ -17495,7 +17621,10 @@
     "path_or_url": "https://data.solvingmecfs.org/analysis-aromatic-lactates/README.md"
    }
   ],
-  "notes": "Metabolomics Workbench REST /study/study_id/ST003103/summary reports licence 'CC BY-NC-ND' (NoDerivatives, NonCommercial: outside the rehost rule). Downloaded, not analysed (not an ME/CFS study)."
+  "notes": "Metabolomics Workbench REST /study/study_id/ST003103/summary reports licence 'CC BY-NC-ND' (NoDerivatives, NonCommercial: outside the rehost rule). Downloaded, not analysed (not an ME/CFS study).",
+  "cohort_ids": [
+   "lc-ceu-metabolomics"
+  ]
  },
  {
   "id": "mwb-st003178",
@@ -17522,7 +17651,10 @@
     "path_or_url": "https://data.solvingmecfs.org/analysis-aromatic-lactates/README.md"
    }
   ],
-  "notes": "Metabolomics Workbench REST /study/study_id/ST003178/summary reports licence 'CC BY-NC-ND' (NoDerivatives, NonCommercial: outside the rehost rule). CSF only; no plasma metabolomics was deposited. The same CSF values are in the CC BY Source Data under nih-walitt-2024."
+  "notes": "Metabolomics Workbench REST /study/study_id/ST003178/summary reports licence 'CC BY-NC-ND' (NoDerivatives, NonCommercial: outside the rehost rule). CSF only; no plasma metabolomics was deposited. The same CSF values are in the CC BY Source Data under nih-walitt-2024.",
+  "cohort_ids": [
+   "nih-pi-mecfs"
+  ]
  },
  {
   "id": "mwb-st003346",
@@ -17549,7 +17681,10 @@
     "path_or_url": "https://data.solvingmecfs.org/analysis-aromatic-lactates/README.md"
    }
   ],
-  "notes": "Metabolomics Workbench REST /study/study_id/ST003346/summary reports licence 'CC BY-NC-ND' (NoDerivatives, NonCommercial: outside the rehost rule)."
+  "notes": "Metabolomics Workbench REST /study/study_id/ST003346/summary reports licence 'CC BY-NC-ND' (NoDerivatives, NonCommercial: outside the rehost rule).",
+  "cohort_ids": [
+   "uconn-indoles"
+  ]
  },
  {
   "id": "mwb-st004940",
@@ -17576,7 +17711,10 @@
     "path_or_url": "https://data.solvingmecfs.org/analysis-aromatic-lactates/README.md"
    }
   ],
-  "notes": "Metabolomics Workbench REST /study/study_id/ST004940/summary reports licence 'CC BY-NC-ND' (NoDerivatives, NonCommercial: outside the rehost rule). Released 2026; probably unpublished."
+  "notes": "Metabolomics Workbench REST /study/study_id/ST004940/summary reports licence 'CC BY-NC-ND' (NoDerivatives, NonCommercial: outside the rehost rule). Released 2026; probably unpublished.",
+  "cohort_ids": [
+   "ncnp-japan"
+  ]
  },
  {
   "id": "metabolights-mtbls161",
@@ -17598,7 +17736,10 @@
     "path_or_url": "https://data.solvingmecfs.org/analysis-round1-replication/README.md"
    }
   ],
-  "notes": "MetaboLights API gives datasetLicense 'EMBL-EBI Terms of Use', which defers to the data owner's terms; none stated, so link only. Nearly all metabolites lower in CFS, suggesting a scaling or batch artefact; low weight in our meta-analyses."
+  "notes": "MetaboLights API gives datasetLicense 'EMBL-EBI Terms of Use', which defers to the data owner's terms; none stated, so link only. Nearly all metabolites lower in CFS, suggesting a scaling or batch artefact; low weight in our meta-analyses.",
+  "cohort_ids": [
+   "melbourne-armstrong-2015"
+  ]
  },
  {
   "id": "baraniuk-2025-csf",
@@ -17620,7 +17761,10 @@
     "path_or_url": "https://data.solvingmecfs.org/analysis-round1-replication/README.md"
    }
   ],
-  "notes": "Crossref licence for the article and its supplements: CC BY-NC-ND 4.0."
+  "notes": "Crossref licence for the article and its supplements: CC BY-NC-ND 4.0.",
+  "cohort_ids": [
+   "georgetown-baraniuk"
+  ]
  },
  {
   "id": "biomapai-2025",
@@ -17657,7 +17801,10 @@
     "path_or_url": "https://data.solvingmecfs.org/analysis-round1-replication/README.md"
    }
   ],
-  "notes": "The GitHub repository has no LICENSE file (checked at raw.githubusercontent.com) and the Nature Medicine article is not openly licensed. The repository also carries processed copies of the Raijmakers 2020 and Guo/Columbia stool metagenomes and Che 2022 metabolomics; those are link only for the same reason. Raw reads: SRA PRJNA878603."
+  "notes": "The GitHub repository has no LICENSE file (checked at raw.githubusercontent.com) and the Nature Medicine article is not openly licensed. The repository also carries processed copies of the Raijmakers 2020 and Guo/Columbia stool metagenomes and Che 2022 metabolomics; those are link only for the same reason. Raw reads: SRA PRJNA878603.",
+  "cohort_ids": [
+   "jax-bhc-biomapai"
+  ]
  },
  {
   "id": "ohlab-mecfs-2021",
@@ -17673,7 +17820,10 @@
   "files": [],
   "total_bytes": 0,
   "our_analyses": [],
-  "notes": "No LICENSE file in the repository."
+  "notes": "No LICENSE file in the repository.",
+  "cohort_ids": [
+   "jax-bhc-biomapai"
+  ]
  },
  {
   "id": "decodeme-mvp-meta",
@@ -17700,7 +17850,11 @@
     "path_or_url": "https://data.solvingmecfs.org/analysis-decodeme-genetics/README.md"
    }
   ],
-  "notes": "Licence allows redistribution (Zenodo API: cc-by-4.0) but the 630 MB files were not kept locally, so they are linked, not mirrored. Our MVP-only statistics derived from it are in analysis-mr-proteome (data/mvp_only_derived.parquet). FRQ and Z refer to allele A2."
+  "notes": "Licence allows redistribution (Zenodo API: cc-by-4.0) but the 630 MB files were not kept locally, so they are linked, not mirrored. Our MVP-only statistics derived from it are in analysis-mr-proteome (data/mvp_only_derived.parquet). FRQ and Z refer to allele A2.",
+  "cohort_ids": [
+   "decodeme",
+   "million-veteran-program"
+  ]
  },
  {
   "id": "zenodo-22885464",
@@ -17716,7 +17870,10 @@
   "files": [],
   "total_bytes": 0,
   "our_analyses": [],
-  "notes": "CC BY 4.0 (Zenodo API) but not kept locally; linked only."
+  "notes": "CC BY 4.0 (Zenodo API) but not kept locally; linked only.",
+  "cohort_ids": [
+   "decodeme"
+  ]
  },
  {
   "id": "zenodo-18198370",
@@ -17732,7 +17889,10 @@
   "files": [],
   "total_bytes": 0,
   "our_analyses": [],
-  "notes": "Zenodo record is access-restricted (no files public)."
+  "notes": "Zenodo record is access-restricted (no files public).",
+  "cohort_ids": [
+   "decodeme"
+  ]
  },
  {
   "id": "finngen-r12",
@@ -17754,7 +17914,10 @@
     "path_or_url": "https://data.solvingmecfs.org/analysis-mr-proteome/README.md"
    }
   ],
-  "notes": "FinnGen asks users to fill an access form; no explicit redistribution licence was visible, so link only."
+  "notes": "FinnGen asks users to fill an access form; no explicit redistribution licence was visible, so link only.",
+  "cohort_ids": [
+   "finngen-finregistry"
+  ]
  },
  {
   "id": "panukb-20002-1482",
@@ -17776,7 +17939,10 @@
     "path_or_url": "https://data.solvingmecfs.org/analysis-mr-proteome/README.md"
    }
   ],
-  "notes": "Pan-UKB states CC BY 4.0 for its results (documentation page could not be retrieved by curl to re-confirm); files (543 MB) not kept locally, so linked only. Shares UK Biobank controls with DecodeME."
+  "notes": "Pan-UKB states CC BY 4.0 for its results (documentation page could not be retrieved by curl to re-confirm); files (543 MB) not kept locally, so linked only. Shares UK Biobank controls with DecodeME.",
+  "cohort_ids": [
+   "uk-biobank"
+  ]
  },
  {
   "id": "pqtl-ukbppp-decode",
@@ -17798,7 +17964,8 @@
     "path_or_url": "https://data.solvingmecfs.org/analysis-mr-proteome/README.md"
    }
   ],
-  "notes": "Ferkingstad 2021 is not openly licensed (Crossref: Springer TDM only), so the combined instrument table we built is not mirrored. Sun 2023 supplement is CC BY 4.0."
+  "notes": "Ferkingstad 2021 is not openly licensed (Crossref: Springer TDM only), so the combined instrument table we built is not mirrored. Sun 2023 supplement is CC BY 4.0.",
+  "cohort_ids": []
  },
  {
   "id": "gwas-catalog",
@@ -17820,7 +17987,8 @@
     "path_or_url": "https://data.solvingmecfs.org/analysis-mr-proteome/README.md"
    }
   ],
-  "notes": "GWAS Catalog: summary statistics are CC0 unless otherwise stated. Full files were streamed, not kept; only the MHC-region extracts are mirrored inside analysis-mr-proteome."
+  "notes": "GWAS Catalog: summary statistics are CC0 unless otherwise stated. Full files were streamed, not kept; only the MHC-region extracts are mirrored inside analysis-mr-proteome.",
+  "cohort_ids": []
  },
  {
   "id": "risteys-finngen",
@@ -17842,7 +18010,10 @@
     "path_or_url": "https://data.solvingmecfs.org/analysis-epi-literature/README.md"
    }
   ],
-  "notes": "No licence stated on Risteys; raw scraped tables are not mirrored. Our derived observed/expected enrichment tables are in analysis-epi-literature."
+  "notes": "No licence stated on Risteys; raw scraped tables are not mirrored. Our derived observed/expected enrichment tables are in analysis-epi-literature.",
+  "cohort_ids": [
+   "finngen-finregistry"
+  ]
  },
  {
   "id": "clinicaltrials-gov",
@@ -17864,7 +18035,8 @@
     "path_or_url": "https://data.solvingmecfs.org/analysis-epi-literature/README.md"
    }
   ],
-  "notes": "Terms page could not be read by curl, so the raw API dump is linked, not mirrored. Our extracted trial and outcome tables are in analysis-epi-literature."
+  "notes": "Terms page could not be read by curl, so the raw API dump is linked, not mirrored. Our extracted trial and outcome tables are in analysis-epi-literature.",
+  "cohort_ids": []
  },
  {
   "id": "pubmed-mecfs",
@@ -17886,7 +18058,8 @@
     "path_or_url": "https://data.solvingmecfs.org/analysis-epi-literature/README.md"
    }
   ],
-  "notes": "Abstract text is copyrighted; raw records and sentence excerpts are not mirrored. Our concept-level catalogue is in analysis-epi-literature."
+  "notes": "Abstract text is copyrighted; raw records and sentence excerpts are not mirrored. Our concept-level catalogue is in analysis-epi-literature.",
+  "cohort_ids": []
  },
  {
   "id": "mapmecfs",
@@ -17902,7 +18075,8 @@
   "files": [],
   "total_bytes": 0,
   "our_analyses": [],
-  "notes": "Downloads need an account (and for some datasets a DUA), and we hold none of the files. Participant-linked NIH tables (tilt HR/BP, catecholamines, CSF catechols, labs) live here."
+  "notes": "Downloads need an account (and for some datasets a DUA), and we hold none of the files. Participant-linked NIH tables (tilt HR/BP, catecholamines, CSF catechols, labs) live here.",
+  "cohort_ids": []
  },
  {
   "id": "germain-2025-proteome",
@@ -17924,7 +18098,10 @@
     "path_or_url": "https://data.solvingmecfs.org/analysis-proteome/README.md"
    }
   ],
-  "notes": "Europe PMC licence: CC BY-NC-ND."
+  "notes": "Europe PMC licence: CC BY-NC-ND.",
+  "cohort_ids": [
+   "cornell-crc-2day-cpet"
+  ]
  },
  {
   "id": "giloteaux-2024-ev",
@@ -17946,7 +18123,10 @@
     "path_or_url": "https://data.solvingmecfs.org/analysis-proteome/README.md"
    }
   ],
-  "notes": "Europe PMC licence: CC BY-NC-ND."
+  "notes": "Europe PMC licence: CC BY-NC-ND.",
+  "cohort_ids": [
+   "cornell-crc-2day-cpet"
+  ]
  },
  {
   "id": "rydland-2026-ev",
@@ -17968,7 +18148,10 @@
     "path_or_url": "https://data.solvingmecfs.org/analysis-proteome/README.md"
    }
   ],
-  "notes": "CC BY (Europe PMC) but the supplement was not kept locally; linked only."
+  "notes": "CC BY (Europe PMC) but the supplement was not kept locally; linked only.",
+  "cohort_ids": [
+   "oslo-mecfs-biobank"
+  ]
  },
  {
   "id": "bragee-2026-csf",
@@ -17990,7 +18173,10 @@
     "path_or_url": "https://data.solvingmecfs.org/analysis-proteome/README.md"
    }
   ],
-  "notes": "PRIDE licence CC0 and article CC BY, but files were not kept locally; linked only."
+  "notes": "PRIDE licence CC0 and article CC BY, but files were not kept locally; linked only.",
+  "cohort_ids": [
+   "stockholm-me-center"
+  ]
  },
  {
   "id": "pride-pxd065439",
@@ -18012,7 +18198,10 @@
     "path_or_url": "https://data.solvingmecfs.org/analysis-proteome/README.md"
    }
   ],
-  "notes": "PRIDE licence CC0, but files were not kept locally; linked only."
+  "notes": "PRIDE licence CC0, but files were not kept locally; linked only.",
+  "cohort_ids": [
+   "charite-fatigue-centre"
+  ]
  },
  {
   "id": "ukb-beentjes-2025",
@@ -18034,7 +18223,10 @@
     "path_or_url": "https://data.solvingmecfs.org/analysis-proteome/README.md"
    }
   ],
-  "notes": "CC BY (Europe PMC) but the supplement was not kept locally; linked only. Raw data need a UK Biobank application."
+  "notes": "CC BY (Europe PMC) but the supplement was not kept locally; linked only. Raw data need a UK Biobank application.",
+  "cohort_ids": [
+   "uk-biobank"
+  ]
  },
  {
   "id": "zenodo-14772494",
@@ -18056,7 +18248,10 @@
     "path_or_url": "https://data.solvingmecfs.org/analysis-proteome/README.md"
    }
   ],
-  "notes": "CC BY 4.0 (Zenodo API) but files were not kept locally; linked only."
+  "notes": "CC BY 4.0 (Zenodo API) but files were not kept locally; linked only.",
+  "cohort_ids": [
+   "lc-uk-olink-zenodo"
+  ]
  },
  {
   "id": "zenodo-13363117",
@@ -18078,7 +18273,10 @@
     "path_or_url": "https://data.solvingmecfs.org/analysis-proteome/README.md"
    }
   ],
-  "notes": "CC BY 4.0 (Zenodo API) but files were not kept locally; linked only."
+  "notes": "CC BY 4.0 (Zenodo API) but files were not kept locally; linked only.",
+  "cohort_ids": [
+   "lc-iris-olink"
+  ]
  },
  {
   "id": "zenodo-15237088",
@@ -18100,7 +18298,10 @@
     "path_or_url": "https://data.solvingmecfs.org/analysis-proteome/README.md"
    }
   ],
-  "notes": "CC BY 4.0 (Zenodo API) but files were not kept locally; linked only."
+  "notes": "CC BY 4.0 (Zenodo API) but files were not kept locally; linked only.",
+  "cohort_ids": [
+   "lc-bansal-olink"
+  ]
  },
  {
   "id": "vdjdb",
@@ -18122,7 +18323,8 @@
     "path_or_url": "https://data.solvingmecfs.org/analysis-singlecell-methylation/README.md"
    }
   ],
-  "notes": "Reference database used for EBV/CMV TCR annotation; not kept locally; linked only."
+  "notes": "Reference database used for EBV/CMV TCR annotation; not kept locally; linked only.",
+  "cohort_ids": []
  },
  {
   "id": "geo-gse156792",
@@ -18144,7 +18346,10 @@
     "path_or_url": "https://data.solvingmecfs.org/analysis-singlecell-methylation/README.md"
    }
   ],
-  "notes": "Open GEO data (redistribution allowed), but the 66-430 MB matrices were not kept locally; linked only."
+  "notes": "Open GEO data (redistribution allowed), but the 66-430 MB matrices were not kept locally; linked only.",
+  "cohort_ids": [
+   "toronto-methylation"
+  ]
  },
  {
   "id": "geo-gse93266",
@@ -18166,7 +18371,10 @@
     "path_or_url": "https://data.solvingmecfs.org/analysis-singlecell-methylation/README.md"
    }
   ],
-  "notes": "Open GEO data (redistribution allowed), but the 66-430 MB matrices were not kept locally; linked only."
+  "notes": "Open GEO data (redistribution allowed), but the 66-430 MB matrices were not kept locally; linked only.",
+  "cohort_ids": [
+   "toronto-methylation"
+  ]
  },
  {
   "id": "geo-gse111183",
@@ -18188,7 +18396,10 @@
     "path_or_url": "https://data.solvingmecfs.org/analysis-singlecell-methylation/README.md"
    }
   ],
-  "notes": "Open GEO data (redistribution allowed), but the 66-430 MB matrices were not kept locally; linked only."
+  "notes": "Open GEO data (redistribution allowed), but the 66-430 MB matrices were not kept locally; linked only.",
+  "cohort_ids": [
+   "nova-trivedi-2018"
+  ]
  },
  {
   "id": "geo-gse327255",
@@ -18210,7 +18421,10 @@
     "path_or_url": "https://data.solvingmecfs.org/analysis-singlecell-methylation/README.md"
    }
   ],
-  "notes": "Open GEO data (redistribution allowed), but the 66-430 MB matrices were not kept locally; linked only."
+  "notes": "Open GEO data (redistribution allowed), but the 66-430 MB matrices were not kept locally; linked only.",
+  "cohort_ids": [
+   "montreal-saliva-methylation"
+  ]
  },
  {
   "id": "ena-prjeb83659",
@@ -18232,7 +18446,10 @@
     "path_or_url": "https://data.solvingmecfs.org/analysis-singlecell-methylation/README.md"
    }
   ],
-  "notes": "6.1 GB of reads, not kept locally; linked only. Our per-sample repertoire metrics are in analysis-singlecell-methylation."
+  "notes": "6.1 GB of reads, not kept locally; linked only. Our per-sample repertoire metrics are in analysis-singlecell-methylation.",
+  "cohort_ids": [
+   "uk-mecfs-biobank"
+  ]
  },
  {
   "id": "sra-prjna940635",
@@ -18254,7 +18471,10 @@
     "path_or_url": "https://data.solvingmecfs.org/analysis-singlecell-methylation/README.md"
    }
   ],
-  "notes": "150 GB of reads, not kept locally; linked only. Our per-sample metrics are in analysis-singlecell-methylation."
+  "notes": "150 GB of reads, not kept locally; linked only. Our per-sample metrics are in analysis-singlecell-methylation.",
+  "cohort_ids": [
+   "uk-mecfs-biobank"
+  ]
  },
  {
   "id": "ryback-2026",
@@ -18270,7 +18490,10 @@
   "files": [],
   "total_bytes": 0,
   "our_analyses": [],
-  "notes": "Article and supplements are CC BY 4.0 (Crossref), but we hold no data files; linked only. Preregistration: OSF qwp4v."
+  "notes": "Article and supplements are CC BY 4.0 (Crossref), but we hold no data files; linked only. Preregistration: OSF qwp4v.",
+  "cohort_ids": [
+   "sheffield-ryback-2026"
+  ]
  },
  {
   "id": "github-developmentalimagingmcri-mecfs",
@@ -18286,7 +18509,10 @@
   "files": [],
   "total_bytes": 0,
   "our_analyses": [],
-  "notes": "No LICENSE file in the repository (checked at raw.githubusercontent.com), so all rights are reserved by default."
+  "notes": "No LICENSE file in the repository (checked at raw.githubusercontent.com), so all rights are reserved by default.",
+  "cohort_ids": [
+   "mcri-adolescent-imaging"
+  ]
  },
  {
   "id": "github-lgchaplin-monitoring_2022",
@@ -18302,7 +18528,8 @@
   "files": [],
   "total_bytes": 0,
   "our_analyses": [],
-  "notes": "No LICENSE file in the repository (checked at raw.githubusercontent.com), so all rights are reserved by default."
+  "notes": "No LICENSE file in the repository (checked at raw.githubusercontent.com), so all rights are reserved by default.",
+  "cohort_ids": []
  },
  {
   "id": "github-microbe2991-myalgic-encephalomyelitis-chronic-fatigue",
@@ -18324,7 +18551,10 @@
     "path_or_url": "https://data.solvingmecfs.org/analysis-microbiome-ipa/README.md"
    }
   ],
-  "notes": "No LICENSE file in the repository (checked at raw.githubusercontent.com), so all rights are reserved by default. Not an independent cohort (SAM000xxx = BioMapAI/JAX)."
+  "notes": "No LICENSE file in the repository (checked at raw.githubusercontent.com), so all rights are reserved by default. Not an independent cohort (SAM000xxx = BioMapAI/JAX).",
+  "cohort_ids": [
+   "jax-bhc-biomapai"
+  ]
  },
  {
   "id": "github-nadjoubiii-myalgic-encephalomyelitis-project",
@@ -18346,7 +18576,10 @@
     "path_or_url": "https://data.solvingmecfs.org/analysis-round1-replication/README.md"
    }
   ],
-  "notes": "No LICENSE file in the repository (checked at raw.githubusercontent.com), so all rights are reserved by default. WARNING: its Germain 2020 copy has case/control labels swapped (use germain-2020). Original data are on mapMECFS."
+  "notes": "No LICENSE file in the repository (checked at raw.githubusercontent.com), so all rights are reserved by default. WARNING: its Germain 2020 copy has case/control labels swapped (use germain-2020). Original data are on mapMECFS.",
+  "cohort_ids": [
+   "hanson-lab-nyc-metabolomics"
+  ]
  },
  {
   "id": "github-bixbeta-b_samples",
@@ -18362,7 +18595,10 @@
   "files": [],
   "total_bytes": 0,
   "our_analyses": [],
-  "notes": "No LICENSE file in the repository (checked at raw.githubusercontent.com), so all rights are reserved by default."
+  "notes": "No LICENSE file in the repository (checked at raw.githubusercontent.com), so all rights are reserved by default.",
+  "cohort_ids": [
+   "cornell-crc-2day-cpet"
+  ]
  },
  {
   "id": "github-bixbeta-mecfs-paper",
@@ -18378,7 +18614,10 @@
   "files": [],
   "total_bytes": 0,
   "our_analyses": [],
-  "notes": "No LICENSE file in the repository (checked at raw.githubusercontent.com), so all rights are reserved by default."
+  "notes": "No LICENSE file in the repository (checked at raw.githubusercontent.com), so all rights are reserved by default.",
+  "cohort_ids": [
+   "cornell-crc-2day-cpet"
+  ]
  },
  {
   "id": "github-bixbeta-mecfs-ratios",
@@ -18394,7 +18633,10 @@
   "files": [],
   "total_bytes": 0,
   "our_analyses": [],
-  "notes": "No LICENSE file in the repository (checked at raw.githubusercontent.com), so all rights are reserved by default."
+  "notes": "No LICENSE file in the repository (checked at raw.githubusercontent.com), so all rights are reserved by default.",
+  "cohort_ids": [
+   "cornell-crc-2day-cpet"
+  ]
  },
  {
   "id": "github-bixbeta-mecfs-tcells",
@@ -18410,7 +18652,10 @@
   "files": [],
   "total_bytes": 0,
   "our_analyses": [],
-  "notes": "No LICENSE file in the repository (checked at raw.githubusercontent.com), so all rights are reserved by default."
+  "notes": "No LICENSE file in the repository (checked at raw.githubusercontent.com), so all rights are reserved by default.",
+  "cohort_ids": [
+   "cornell-crc-2day-cpet"
+  ]
  },
  {
   "id": "github-bixbeta-scrna",
@@ -18426,7 +18671,10 @@
   "files": [],
   "total_bytes": 0,
   "our_analyses": [],
-  "notes": "No LICENSE file in the repository (checked at raw.githubusercontent.com), so all rights are reserved by default."
+  "notes": "No LICENSE file in the repository (checked at raw.githubusercontent.com), so all rights are reserved by default.",
+  "cohort_ids": [
+   "cornell-crc-2day-cpet"
+  ]
  },
  {
   "id": "github-bs5ga-mecfs-explorer",
@@ -18442,7 +18690,8 @@
   "files": [],
   "total_bytes": 0,
   "our_analyses": [],
-  "notes": "No LICENSE file in the repository (checked at raw.githubusercontent.com), so all rights are reserved by default."
+  "notes": "No LICENSE file in the repository (checked at raw.githubusercontent.com), so all rights are reserved by default.",
+  "cohort_ids": []
  },
  {
   "id": "github-gc26762524-mecfs_butyrate",
@@ -18458,7 +18707,10 @@
   "files": [],
   "total_bytes": 0,
   "our_analyses": [],
-  "notes": "No LICENSE file in the repository (checked at raw.githubusercontent.com), so all rights are reserved by default."
+  "notes": "No LICENSE file in the repository (checked at raw.githubusercontent.com), so all rights are reserved by default.",
+  "cohort_ids": [
+   "columbia-csm-crc"
+  ]
  },
  {
   "id": "github-jasemurphy-mecfs",
@@ -18474,7 +18726,8 @@
   "files": [],
   "total_bytes": 0,
   "our_analyses": [],
-  "notes": "No LICENSE file in the repository (checked at raw.githubusercontent.com), so all rights are reserved by default."
+  "notes": "No LICENSE file in the repository (checked at raw.githubusercontent.com), so all rights are reserved by default.",
+  "cohort_ids": []
  },
  {
   "id": "github-k-roy-molecular_probes",
@@ -18490,7 +18743,8 @@
   "files": [],
   "total_bytes": 0,
   "our_analyses": [],
-  "notes": "No LICENSE file in the repository (checked at raw.githubusercontent.com), so all rights are reserved by default."
+  "notes": "No LICENSE file in the repository (checked at raw.githubusercontent.com), so all rights are reserved by default.",
+  "cohort_ids": []
  },
  {
   "id": "github-pkozakowski-cfs-notebooks",
@@ -18506,7 +18760,8 @@
   "files": [],
   "total_bytes": 0,
   "our_analyses": [],
-  "notes": "No LICENSE file in the repository (checked at raw.githubusercontent.com), so all rights are reserved by default."
+  "notes": "No LICENSE file in the repository (checked at raw.githubusercontent.com), so all rights are reserved by default.",
+  "cohort_ids": []
  },
  {
   "id": "github-prabaey-time-dependent-complexity",
@@ -18522,7 +18777,10 @@
   "files": [],
   "total_bytes": 0,
   "our_analyses": [],
-  "notes": "No LICENSE file in the repository (checked at raw.githubusercontent.com), so all rights are reserved by default."
+  "notes": "No LICENSE file in the repository (checked at raw.githubusercontent.com), so all rights are reserved by default.",
+  "cohort_ids": [
+   "ghent-actigraphy"
+  ]
  },
  {
   "id": "github-prmunn-mecfs",
@@ -18538,7 +18796,8 @@
   "files": [],
   "total_bytes": 0,
   "our_analyses": [],
-  "notes": "No LICENSE file in the repository (checked at raw.githubusercontent.com), so all rights are reserved by default."
+  "notes": "No LICENSE file in the repository (checked at raw.githubusercontent.com), so all rights are reserved by default.",
+  "cohort_ids": []
  },
  {
   "id": "ukbiobank",
@@ -18554,7 +18813,10 @@
   "files": [],
   "total_bytes": 0,
   "our_analyses": [],
-  "notes": "Application and fee required."
+  "notes": "Application and fee required.",
+  "cohort_ids": [
+   "uk-biobank"
+  ]
  },
  {
   "id": "recover-adult",
@@ -18570,7 +18832,10 @@
   "files": [],
   "total_bytes": 0,
   "our_analyses": [],
-  "notes": "Controlled access via NHLBI BioData Catalyst."
+  "notes": "Controlled access via NHLBI BioData Catalyst.",
+  "cohort_ids": [
+   "recover-adult"
+  ]
  },
  {
   "id": "cdc-mcam",
@@ -18586,7 +18851,11 @@
   "files": [],
   "total_bytes": 0,
   "our_analyses": [],
-  "notes": "Application to CDC required (some Wichita arrays are on GEO)."
+  "notes": "Application to CDC required (some Wichita arrays are on GEO).",
+  "cohort_ids": [
+   "cdc-mcam",
+   "cdc-wichita"
+  ]
  },
  {
   "id": "uk-mecfs-biobank",
@@ -18602,7 +18871,10 @@
   "files": [],
   "total_bytes": 0,
   "our_analyses": [],
-  "notes": "Sample and data access by application."
+  "notes": "Sample and data access by application.",
+  "cohort_ids": [
+   "uk-mecfs-biobank"
+  ]
  },
  {
   "id": "youandme-registry",
@@ -18618,7 +18890,10 @@
   "files": [],
   "total_bytes": 0,
   "our_analyses": [],
-  "notes": "Data access by application. Solve M.E.'s current patient data platform is the unhide Solve Together Unified Platform (with the Brain Inflammation Collaborative); the old youandmeregistry.com domain now hosts unrelated gambling content."
+  "notes": "Data access by application. Solve M.E.'s current patient data platform is the unhide Solve Together Unified Platform (with the Brain Inflammation Collaborative); the old youandmeregistry.com domain now hosts unrelated gambling content.",
+  "cohort_ids": [
+   "youandme-registry"
+  ]
  },
  {
   "id": "omf-sips",
@@ -18634,7 +18909,10 @@
   "files": [],
   "total_bytes": 0,
   "our_analyses": [],
-  "notes": "Data on request."
+  "notes": "Data on request.",
+  "cohort_ids": [
+   "omf-sips"
+  ]
  },
  {
   "id": "klein-2023-mylc",
@@ -18650,7 +18928,10 @@
   "files": [],
   "total_bytes": 0,
   "our_analyses": [],
-  "notes": "Not downloaded; check the article's Source Data licence before any rehosting."
+  "notes": "Not downloaded; check the article's Source Data licence before any rehosting.",
+  "cohort_ids": [
+   "yale-mylc"
+  ]
  },
  {
   "id": "appelman-2024",
@@ -18666,7 +18947,10 @@
   "files": [],
   "total_bytes": 0,
   "our_analyses": [],
-  "notes": "Source Data not downloaded; raw data on request."
+  "notes": "Source Data not downloaded; raw data on request.",
+  "cohort_ids": [
+   "amsterdam-appelman-2024"
+  ]
  },
  {
   "id": "montoya-2017-cytokines",
@@ -18682,7 +18966,10 @@
   "files": [],
   "total_bytes": 0,
   "our_analyses": [],
-  "notes": "PNAS supplement not openly licensed; not downloaded."
+  "notes": "PNAS supplement not openly licensed; not downloaded.",
+  "cohort_ids": [
+   "stanford-montoya-2017"
+  ]
  },
  {
   "id": "hoel-2021-perperson",
@@ -18698,6 +18985,1074 @@
   "files": [],
   "total_bytes": 0,
   "our_analyses": [],
-  "notes": "Available from the authors on request only."
+  "notes": "Available from the authors on request only.",
+  "cohort_ids": [
+   "bergen-rituxme"
+  ]
+ },
+ {
+  "id": "northwestern-im",
+  "name": "Northwestern/DePaul college infectious mononucleosis prospective cohort",
+  "citation": "Jason LA, Katz BZ et al. Pre-illness data reveals differences in multiple metabolites and metabolic pathways in those who do and do not recover from infectious mononucleosis. Mol Omics 2022; 7-year follow-up Front Med 2026.",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35640165/",
+  "doi": "10.1039/d2mo00124a",
+  "n": "4,501 students enrolled before illness; IM cases followed to 7 years",
+  "data_type": "serum/plasma before illness, during IM and at 6 months; questionnaires; pre-illness metabolomics",
+  "licence": "Controlled or on-request access",
+  "licence_url": "https://pubmed.ncbi.nlm.nih.gov/35640165/",
+  "status": "link_only",
+  "files": [],
+  "total_bytes": 0,
+  "our_analyses": [],
+  "notes": "Access: collaboration with the DePaul (Jason) and Lurie Children's/Northwestern (Katz) groups; no public data deposit found. Could test: pre-illness biomarkers that predict ME/CFS after EBV, early-onset (<2 y) trajectories, and whether severe-by-definition cases differ before illness. Link check 2026-11-01: PubMed record confirmed (HTTP 200 and NCBI E-utilities esummary). From global-resources/INVENTORY.csv (row northwestern-im).",
+  "cohort_ids": [
+   "northwestern-im-cohort"
+  ],
+  "severity": "northwestern-im-cohort: raw only, Severe ME/CFS (7-y paper) 14; Moderate ME/CFS (7-y paper) 23; Persisting 16; Control 51 (\"severe ME/CFS\" = meeting more than one case definition (not functional severity))"
+ },
+ {
+  "id": "ausme",
+  "name": "AusME Registry & Biobank (Emerge Australia)",
+  "citation": "Emerge Australia. AusME Registry & Biobank (formerly You+ME Australia); Mason Foundation funded.",
+  "source_url": "https://emerge.org.au/ausme/",
+  "doi": "",
+  "n": "2,718 participants incl. 2,179 ME/CFS, long COVID and healthy, age 12+",
+  "data_type": "questionnaires every 3 or 12 months; optional blood biobank",
+  "licence": "Controlled or on-request access",
+  "licence_url": "https://emerge.org.au/ausme/",
+  "status": "link_only",
+  "files": [],
+  "total_bytes": 0,
+  "our_analyses": [],
+  "notes": "Access: application to the AusME Management and Scientific Advisory Committee and Biobank Access Committee. ausmeregistry.org redirects to ausmeregistry.org.au. Could test: longitudinal course, severity strata in an online registry, replication of blood findings in an Australian sample. Link check 2026-11-01 (curl): HTTP 200, page title matches. From global-resources/INVENTORY.csv (row ausme).",
+  "cohort_ids": [
+   "ausme-registry"
+  ]
+ },
+ {
+  "id": "prime-uk",
+  "name": "PRIME (Partnership for Patients, Researchers and Industry for ME/CFS)",
+  "citation": "Department of Health and Social Care. ME/CFS: the final delivery plan (2025), which describes PRIME (MRC partnership award, GBP 845k) built on DecodeME.",
+  "source_url": "https://www.gov.uk/government/publications/mecfs-the-final-delivery-plan",
+  "doi": "",
+  "n": "builds on DecodeME (~17,000 genotyped cases)",
+  "data_type": "infrastructure for recontact, sample and data access (planned)",
+  "licence": "Controlled or on-request access",
+  "licence_url": "https://www.gov.uk/government/publications/mecfs-the-final-delivery-plan",
+  "status": "link_only",
+  "files": [],
+  "total_bytes": 0,
+  "our_analyses": [],
+  "notes": "Access: partnership/application route under development; details not yet public. Could test: recall-by-genotype and recall-by-severity studies in DecodeME participants, including severe and very severe people. Link check 2026-11-01 (curl): HTTP 200, page title matches. From global-resources/INVENTORY.csv (row prime-uk).",
+  "cohort_ids": [
+   "decodeme"
+  ],
+  "severity": "decodeme: mild 4795, moderate 9731, severe 2073, very severe 131 of 16730 (NICE 2021 severity categories (self-report: impact on work, education, mobility, daily living); self report)"
+ },
+ {
+  "id": "heritage-uk",
+  "name": "HERITAGE study (NIHR HSDR)",
+  "citation": "Department of Health and Social Care. ME/CFS: the final delivery plan (2025), which lists HERITAGE (NIHR HSDR, GBP 1.4M).",
+  "source_url": "https://www.gov.uk/government/publications/mecfs-the-final-delivery-plan",
+  "doi": "",
+  "n": "not stated",
+  "data_type": "health-services research on ME/CFS and long COVID service models",
+  "licence": "Controlled or on-request access",
+  "licence_url": "https://www.gov.uk/government/publications/mecfs-the-final-delivery-plan",
+  "status": "link_only",
+  "files": [],
+  "total_bytes": 0,
+  "our_analyses": [],
+  "notes": "Access: not stated (NIHR-funded; data sharing route unverified). Could test: costs and outcomes of specialist services, including for severely affected people. Link check 2026-11-01 (curl): HTTP 200, page title matches. From global-resources/INVENTORY.csv (row heritage-uk).",
+  "cohort_ids": [
+   "heritage-uk"
+  ]
+ },
+ {
+  "id": "ncned-registry",
+  "name": "NCNED ME/CFS registry and biobank (Griffith University)",
+  "citation": "Eaton-Fitch N et al. Australian registry reports poor health and wellbeing in people living with ME/CFS. J Transl Med 2026.",
+  "source_url": "https://www.griffith.edu.au/research/health-and-biomedical-sciences/national-centre-neuroimmunology-emerging-diseases",
+  "doi": "10.1186/s12967-026-08618-9",
+  "n": "national questionnaire registry 2014-2026 plus NK/TRPM3 and 7T MRI lab cohorts",
+  "data_type": "questionnaires; blood/PBMC for lab studies; MRI",
+  "licence": "Controlled or on-request access",
+  "licence_url": "https://www.griffith.edu.au/research/health-and-biomedical-sciences/national-centre-neuroimmunology-emerging-diseases",
+  "status": "link_only",
+  "files": [],
+  "total_bytes": 0,
+  "our_analyses": [],
+  "notes": "Access: collaboration with NCNED (Marshall-Gradisnik); the 5-level table in the registry paper grades PEM, not overall illness. Could test: TRPM3/NK findings against registry severity, longitudinal burden. Link check 2026-11-01: BLOCKED to curl (HTTP 403, Cloudflare challenge); URL not confirmed from this sandbox. From global-resources/INVENTORY.csv (row ncned-registry).",
+  "cohort_ids": [
+   "ncned-griffith-lab",
+   "ncned-registry"
+  ]
+ },
+ {
+  "id": "mecfs-r",
+  "name": "German Multicenter ME/CFS Registry (MECFS-R)",
+  "citation": "Hieber H et al. The German Multicenter Registry for ME/CFS (MECFS-R). J Clin Med 2024;13:3168.",
+  "source_url": "https://clinicaltrials.gov/study/NCT05778006",
+  "doi": "10.3390/jcm13113168",
+  "n": "pilot 174 (43 children/adolescents, 131 adults); target 650",
+  "data_type": "registry questionnaires (Bell, SF-36, DSQ-PEM, COMPASS-31), clinical data",
+  "licence": "Controlled or on-request access",
+  "licence_url": "https://clinicaltrials.gov/study/NCT05778006",
+  "status": "link_only",
+  "files": [],
+  "total_bytes": 0,
+  "our_analyses": [],
+  "notes": "Access: collaboration with TUM (Munich) and Charite; NCT05778006 recruiting. Pilot paper gives Bell boxplots only (no class counts). Could test: paediatric vs adult ME/CFS, viral trigger (92% in pilot), early-onset course. Link check 2026-11-01: ClinicalTrials.gov record confirmed through the CT.gov v2 API (the study page itself is rendered by JavaScript). From global-resources/INVENTORY.csv (row mecfs-r).",
+  "cohort_ids": [
+   "mecfs-r-germany"
+  ]
+ },
+ {
+  "id": "mlc-r",
+  "name": "Munich Long COVID Registry (MLC-R, TUM)",
+  "citation": "Technical University of Munich. Munich Long COVID Registry for Children, Adolescents, and Adults (NCT05638724); healthy-control population study NCT06653712.",
+  "source_url": "https://clinicaltrials.gov/study/NCT05638724",
+  "doi": "",
+  "n": "target 1,000 (children, adolescents, adults); separate ~200 healthy controls",
+  "data_type": "registry questionnaires, clinical assessments",
+  "licence": "Controlled or on-request access",
+  "licence_url": "https://clinicaltrials.gov/study/NCT05638724",
+  "status": "link_only",
+  "files": [],
+  "total_bytes": 0,
+  "our_analyses": [],
+  "notes": "Access: collaboration with the Munich Chronic Fatigue Center for Young People (MCFC). Could test: post-COVID ME/CFS in young people from early after infection; Bell medians reported (40, IQR 30-60, in 120 young people). Link check 2026-11-01: ClinicalTrials.gov record confirmed through the CT.gov v2 API (the study page itself is rendered by JavaScript). From global-resources/INVENTORY.csv (row mlc-r).",
+  "cohort_ids": [
+   "mecfs-r-germany",
+   "mlc-r"
+  ]
+ },
+ {
+  "id": "charite-cfc",
+  "name": "Charite Fatigue Centre cohorts and biobank (Berlin)",
+  "citation": "Kedor C et al. A prospective observational study of post-COVID-19 chronic fatigue syndrome. Nat Commun 2022; Legler F et al. EClinicalMedicine 2023.",
+  "source_url": "https://cfc.charite.de/",
+  "doi": "10.1038/s41467-022-32507-6",
+  "n": "post-COVID cohort 106 (55 PCS-ME/CFS); non-COVID ME/CFS cohorts; immunoadsorption cohorts",
+  "data_type": "serum, plasma, IgG eluates, EVs; clinical scores",
+  "licence": "Controlled or on-request access",
+  "licence_url": "https://cfc.charite.de/",
+  "status": "link_only",
+  "files": [],
+  "total_bytes": 0,
+  "our_analyses": [],
+  "notes": "Access: collaboration with the Charite Fatigue Centre (Scheibenbogen). Could test: post-COVID ME/CFS from 6 months after infection, autoantibody/IgG transfer, response to immunoadsorption. Link check 2026-11-01 (curl): HTTP 200, page title matches. From global-resources/INVENTORY.csv (row charite-cfc).",
+  "cohort_ids": [
+   "charite-fatigue-centre"
+  ],
+  "severity": "charite-fatigue-centre: housebound 4 of 55 (Bell score; SF-36; PCFS; self report)"
+ },
+ {
+  "id": "oslo-mecfs-biobank",
+  "name": "Norwegian ME/CFS biobank (Oslo University Hospital)",
+  "citation": "Lande A et al. Human Leukocyte Antigen alleles associated with ME/CFS. Sci Rep 2020; Ramadan 2025 (KIR); Rydland 2026 (EV proteomics).",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/32210306/",
+  "doi": "10.1038/s41598-020-62157-x",
+  "n": "426 CCC ME/CFS genotyped",
+  "data_type": "DNA (HLA, KIR, GWAS), plasma EVs",
+  "licence": "Controlled or on-request access",
+  "licence_url": "https://pubmed.ncbi.nlm.nih.gov/32210306/",
+  "status": "link_only",
+  "files": [],
+  "total_bytes": 0,
+  "our_analyses": [],
+  "notes": "Access: collaboration (Viken/Lie group, Oslo). Could test: HLA/KIR replication, EV proteomics, genotype vs function (DSQ item 79 activity levels reported as percentages). Link check 2026-11-01: PubMed record confirmed (HTTP 200 and NCBI E-utilities esummary). From global-resources/INVENTORY.csv (row oslo-mecfs-biobank).",
+  "cohort_ids": [
+   "oslo-mecfs-biobank"
+  ],
+  "severity": "oslo-mecfs-biobank: housebound 8, bedbound 6 of 45 (DePaul Symptom Questionnaire item 79 (activity level: bedridden / strictly housebound / light housework / part-time work); self report)"
+ },
+ {
+  "id": "npr-norway",
+  "name": "Norwegian Patient Registry (G93.3) and linked national registers",
+  "citation": "Hilland GH et al. Socioeconomic determinants of ME/CFS in Norway: a registry study. BMC Public Health 2024.",
+  "source_url": "https://helsedata.no/en/",
+  "doi": "10.1186/s12889-024-18757-7",
+  "n": "all specialist-care ME/CFS diagnoses in Norway",
+  "data_type": "coded diagnoses linked to prescriptions, socioeconomic and birth registers",
+  "licence": "Controlled or on-request access",
+  "licence_url": "https://helsedata.no/en/",
+  "status": "link_only",
+  "files": [],
+  "total_bytes": 0,
+  "our_analyses": [],
+  "notes": "Access: application through Helsedata (Health Data Service). Could test: incidence after infections or vaccination, socioeconomic and family risk, linkage to MoBa/HUNT for pre-onset data. Link check 2026-11-01 (curl): HTTP 200, page title matches. From global-resources/INVENTORY.csv (row npr-norway).",
+  "cohort_ids": [
+   "norway-npr",
+   "european-me-survey-2021"
+  ]
+ },
+ {
+  "id": "hunt",
+  "name": "HUNT Study (Trondelag Health Study)",
+  "citation": "Norwegian University of Science and Technology. HUNT Study.",
+  "source_url": "https://www.ntnu.edu/hunt",
+  "doi": "",
+  "n": "~250,000 people since 1984",
+  "data_type": "questionnaires, clinical measurements, serum and DNA (HUNT Biobank)",
+  "licence": "Controlled or on-request access",
+  "licence_url": "https://www.ntnu.edu/hunt",
+  "status": "link_only",
+  "files": [],
+  "total_bytes": 0,
+  "our_analyses": [],
+  "notes": "Access: application to HUNT Research Centre. No ME/CFS publication found; cases would come from linkage to the Norwegian Patient Registry. Could test: pre-onset blood and genotypes in people later diagnosed with ME/CFS. Link check 2026-11-01 (curl): HTTP 200, page title matches. From global-resources/INVENTORY.csv (row hunt).",
+  "cohort_ids": []
+ },
+ {
+  "id": "moba",
+  "name": "MoBa (Norwegian Mother, Father and Child Cohort)",
+  "citation": "Norwegian Institute of Public Health. MoBa.",
+  "source_url": "https://www.fhi.no/en/ch/studies/moba/",
+  "doi": "",
+  "n": "mother-father-child trios (size not re-checked)",
+  "data_type": "questionnaires; maternal, paternal and cord blood; DNA (trio genotypes)",
+  "licence": "Controlled or on-request access",
+  "licence_url": "https://www.fhi.no/en/ch/studies/moba/",
+  "status": "link_only",
+  "files": [],
+  "total_bytes": 0,
+  "our_analyses": [],
+  "notes": "Access: application to NIPH. No ME/CFS publication found; linkable to the Norwegian Patient Registry. Could test: childhood and parental pre-onset factors and family genetics for paediatric/adolescent ME/CFS. Link check 2026-11-01 (curl): HTTP 200, page title matches. From global-resources/INVENTORY.csv (row moba).",
+  "cohort_ids": []
+ },
+ {
+  "id": "dbds",
+  "name": "Danish Blood Donor Study (DBDS)",
+  "citation": "Danish Blood Donor Study.",
+  "source_url": "https://bloddonor.dk/dbds/",
+  "doi": "",
+  "n": "~165,000 donors, ~2.5 million samples since 2010",
+  "data_type": "plasma/serum and DNA with repeated samples; haemoglobin at each donation; registry linkage",
+  "licence": "Controlled or on-request access",
+  "licence_url": "https://bloddonor.dk/dbds/",
+  "status": "link_only",
+  "files": [],
+  "total_bytes": 0,
+  "our_analyses": [],
+  "notes": "Access: application to the DBDS steering group. No ME/CFS paper found. Could test: repeated pre-onset samples in donors later coded with G93.3 in the Danish National Patient Registry. Link check 2026-11-01 (curl): HTTP 200 after redirect to bloddonor.dk/bloddonorstudiet/ (Danish page on the donor study). From global-resources/INVENTORY.csv (row dbds).",
+  "cohort_ids": []
+ },
+ {
+  "id": "danfund",
+  "name": "DanFunD (Danish study of Functional Disorders)",
+  "citation": "Dantoft TM et al. Cohort description: The Danish study of Functional Disorders. Clin Epidemiol 2017.",
+  "source_url": "https://clinicaltrials.gov/study/NCT05611606",
+  "doi": "10.2147/CLEP.S129335",
+  "n": "9,656 adults screened for functional somatic syndromes incl. CFS-like illness",
+  "data_type": "questionnaires, clinical examination, registry follow-up",
+  "licence": "Controlled or on-request access",
+  "licence_url": "https://clinicaltrials.gov/study/NCT05611606",
+  "status": "link_only",
+  "files": [],
+  "total_bytes": 0,
+  "our_analyses": [],
+  "notes": "Access: application (Center for Clinical Research and Prevention, Copenhagen). Could test: population prevalence and course of CFS-like illness, welfare outcomes. Link check 2026-11-01: ClinicalTrials.gov record confirmed through the CT.gov v2 API (the study page itself is rendered by JavaScript). From global-resources/INVENTORY.csv (row danfund).",
+  "cohort_ids": [
+   "danfund"
+  ]
+ },
+ {
+  "id": "danish-registries",
+  "name": "Danish national registries (patient, prescription)",
+  "citation": "Hviid A et al. Association between quadrivalent HPV vaccination and selected syndromes with autonomic dysfunction. BMJ 2020.",
+  "source_url": "https://sundhedsdatastyrelsen.dk/",
+  "doi": "10.1136/bmj.m2930",
+  "n": "nationwide (G93.3-coded)",
+  "data_type": "coded diagnoses, prescriptions, linkage",
+  "licence": "Controlled or on-request access",
+  "licence_url": "https://sundhedsdatastyrelsen.dk/",
+  "status": "link_only",
+  "files": [],
+  "total_bytes": 0,
+  "our_analyses": [],
+  "notes": "Access: application to the Danish Health Data Authority (Sundhedsdatastyrelsen). Could test: incidence after infections or vaccines, linkage to DBDS samples. Link check 2026-11-01 (curl): HTTP 200, page title matches. From global-resources/INVENTORY.csv (row danish-registries).",
+  "cohort_ids": [
+   "danish-registries"
+  ]
+ },
+ {
+  "id": "swedish-registers",
+  "name": "Swedish national registers and Swedish Twin Registry",
+  "citation": "Evengard B et al. The epidemiology of chronic fatigue in the Swedish Twin Registry. Psychol Med 2005; Kendler KS et al. Psychol Med 2023.",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/16168154/",
+  "doi": "10.1017/S0033291705005052",
+  "n": "national registers; twin registry",
+  "data_type": "twin questionnaires and DNA; national patient register",
+  "licence": "Controlled or on-request access",
+  "licence_url": "https://pubmed.ncbi.nlm.nih.gov/16168154/",
+  "status": "link_only",
+  "files": [],
+  "total_bytes": 0,
+  "our_analyses": [],
+  "notes": "Access: application to Karolinska Institutet (Swedish Twin Registry) and national register holders. Could test: heritability, family genetic risk scores, post-COVID ME/CFS incidence. Link check 2026-11-01: PubMed record confirmed (HTTP 200 and NCBI E-utilities esummary). (The Swedish Twin Registry page at ki.se returned 404, so the key paper is used.) From global-resources/INVENTORY.csv (row swedish-registers).",
+  "cohort_ids": [
+   "swedish-twin-registry"
+  ]
+ },
+ {
+  "id": "lifegene",
+  "name": "LifeGene",
+  "citation": "Karolinska Institutet. LifeGene.",
+  "source_url": "https://lifegene.se/",
+  "doi": "",
+  "n": "Swedish population cohort",
+  "data_type": "questionnaires and blood",
+  "licence": "Controlled or on-request access",
+  "licence_url": "https://lifegene.se/",
+  "status": "link_only",
+  "files": [],
+  "total_bytes": 0,
+  "our_analyses": [],
+  "notes": "Access: application via KI Biobank. No ME/CFS publication found. Could test: pre-onset samples via register linkage. Link check 2026-11-01 (curl): HTTP 200 after redirect to the LifeGene page at ki.se. From global-resources/INVENTORY.csv (row lifegene).",
+  "cohort_ids": []
+ },
+ {
+  "id": "estonian-biobank",
+  "name": "Estonian Biobank",
+  "citation": "Institute of Genomics, University of Tartu. Estonian Biobank.",
+  "source_url": "https://genomics.ut.ee/en/content/estonian-biobank",
+  "doi": "",
+  "n": "genotyped, EHR-linked, recontactable participants (size not re-checked)",
+  "data_type": "DNA, plasma; EHR linkage; recontact possible",
+  "licence": "Controlled or on-request access",
+  "licence_url": "https://genomics.ut.ee/en/content/estonian-biobank",
+  "status": "link_only",
+  "files": [],
+  "total_bytes": 0,
+  "our_analyses": [],
+  "notes": "Access: application to the Estonian Biobank. No ME/CFS publication found. Could test: GWAS replication of DecodeME loci and recall of cases by genotype. Link check 2026-11-01 (curl): HTTP 200, page title matches. From global-resources/INVENTORY.csv (row estonian-biobank).",
+  "cohort_ids": []
+ },
+ {
+  "id": "lifelines",
+  "name": "Lifelines",
+  "citation": "Lifelines Biobank (northern Netherlands); e.g. Creed F 2023 PLoS One.",
+  "source_url": "https://www.lifelines.nl/",
+  "doi": "10.1371/journal.pone.0286410",
+  "n": "~167,000 participants across 3 generations",
+  "data_type": "questionnaires, blood, routine labs, DNA",
+  "licence": "Controlled or on-request access",
+  "licence_url": "https://www.lifelines.nl/",
+  "status": "link_only",
+  "files": [],
+  "total_bytes": 0,
+  "our_analyses": [],
+  "notes": "Access: application to Lifelines. Could test: chronic fatigue and family recurrence, pre-onset labs. Link check 2026-11-01 (curl): HTTP 200, page title matches. (an earlier \"judi\" hit was a person's name, not spam.) From global-resources/INVENTORY.csv (row lifelines).",
+  "cohort_ids": [
+   "lifelines-nl"
+  ]
+ },
+ {
+  "id": "qfever-nl",
+  "name": "Q fever fatigue syndrome cohort (Netherlands outbreak 2007-10)",
+  "citation": "Raijmakers RPH et al. Multi-omics examination of Q fever fatigue syndrome identifies similarities with chronic fatigue syndrome. J Transl Med 2020.",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33243243/",
+  "doi": "10.1186/s12967-020-02585-5",
+  "n": "QFS patients >10 years after infection plus controls",
+  "data_type": "PBMC, monocytes, serum; multi-omics",
+  "licence": "Controlled or on-request access",
+  "licence_url": "https://pubmed.ncbi.nlm.nih.gov/33243243/",
+  "status": "link_only",
+  "files": [],
+  "total_bytes": 0,
+  "our_analyses": [],
+  "notes": "Access: collaboration (Radboud UMC); GEO GSE130353 is already catalogued. Could test: post-bacterial vs post-viral ME/CFS-like illness. Link check 2026-11-01: PubMed record confirmed (HTTP 200 and NCBI E-utilities esummary). From global-resources/INVENTORY.csv (row qfever-nl).",
+  "cohort_ids": [
+   "radboud-qfever"
+  ]
+ },
+ {
+  "id": "latvia-rsu",
+  "name": "Latvian ME/CFS cohort (Riga Stradins University)",
+  "citation": "Gravelsina S et al. Potential of Activin B as a clinical biomarker in ME/CFS. Biomolecules 2021; Shikova E et al. J Med Virol 2020.",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34439855/",
+  "doi": "10.3390/biom11081189",
+  "n": "outpatient ME/CFS cohorts (n~65-200 per paper)",
+  "data_type": "blood, PBMC, plasma, DNA; herpesvirus PCR/serology",
+  "licence": "Controlled or on-request access",
+  "licence_url": "https://pubmed.ncbi.nlm.nih.gov/34439855/",
+  "status": "link_only",
+  "files": [],
+  "total_bytes": 0,
+  "our_analyses": [],
+  "notes": "Access: collaboration (Murovska group, RSU Institute of Microbiology and Virology). Riga sera also used in PXD065439. Could test: HHV-6/7 reactivation and activin B across severity. Link check 2026-11-01: PubMed record confirmed (HTTP 200 and NCBI E-utilities esummary). (rsu.lv returns 200 but has no ME/CFS page.) From global-resources/INVENTORY.csv (row latvia-rsu).",
+  "cohort_ids": [
+   "latvia-rsu"
+  ]
+ },
+ {
+  "id": "spain-vhir",
+  "name": "Vall d'Hebron ME/CFS and post-COVID cohorts (VHIR, Barcelona)",
+  "citation": "Domingo JC et al. Association of circulating biomarkers with illness severity measures differentiates ME/CFS and long COVID. J Transl Med 2024.",
+  "source_url": "https://vhir.vallhebron.com/en",
+  "doi": "10.1186/s12967-024-05148-0",
+  "n": "ME/CFS and post-COVID cohorts (tens to hundreds per paper)",
+  "data_type": "serum, plasma; actigraphy, wrist temperature",
+  "licence": "Controlled or on-request access",
+  "licence_url": "https://vhir.vallhebron.com/en",
+  "status": "link_only",
+  "files": [],
+  "total_bytes": 0,
+  "our_analyses": [],
+  "notes": "Access: collaboration (Castro-Marrero/Alegre). Could test: endothelial and inflammatory markers across severity in ME/CFS vs long COVID. Link check 2026-11-01 (curl): HTTP 200, page title matches. From global-resources/INVENTORY.csv (row spain-vhir).",
+  "cohort_ids": [
+   "spain-vhir"
+  ]
+ },
+ {
+  "id": "ofh",
+  "name": "Our Future Health",
+  "citation": "Our Future Health (UK).",
+  "source_url": "https://ourfuturehealth.org.uk/",
+  "doi": "",
+  "n": "recruiting up to 5 million adults",
+  "data_type": "questionnaires, blood, genotypes; NHS record linkage",
+  "licence": "Controlled or on-request access",
+  "licence_url": "https://ourfuturehealth.org.uk/",
+  "status": "link_only",
+  "files": [],
+  "total_bytes": 0,
+  "our_analyses": [],
+  "notes": "Access: application through the Our Future Health Trusted Research Environment. No ME/CFS publication found. Could test: genotype and pre-onset blood in incident ME/CFS and long COVID. Link check 2026-11-01 (curl): HTTP 200, page title matches. From global-resources/INVENTORY.csv (row ofh).",
+  "cohort_ids": []
+ },
+ {
+  "id": "generation-scotland",
+  "name": "Generation Scotland",
+  "citation": "Generation Scotland (University of Edinburgh).",
+  "source_url": "https://www.ed.ac.uk/generation-scotland",
+  "doi": "",
+  "n": "family-based, EHR-linked participants (size not re-checked)",
+  "data_type": "blood, DNA; EHR linkage",
+  "licence": "Controlled or on-request access",
+  "licence_url": "https://www.ed.ac.uk/generation-scotland",
+  "status": "link_only",
+  "files": [],
+  "total_bytes": 0,
+  "our_analyses": [],
+  "notes": "Access: application to Generation Scotland. No ME/CFS publication found. Could test: family-based genetics and pre-onset records. Link check 2026-11-01 (curl): HTTP 200 after redirect to genscot.ed.ac.uk. From global-resources/INVENTORY.csv (row generation-scotland).",
+  "cohort_ids": []
+ },
+ {
+  "id": "cprd",
+  "name": "CPRD (Clinical Practice Research Datalink) with HES linkage",
+  "citation": "Collin SM et al. Health care resource use by patients before and after a diagnosis of CFS/ME: a CPRD study. BMC Fam Pract 2017.",
+  "source_url": "https://www.cprd.com/",
+  "doi": "10.1186/s12875-017-0635-z",
+  "n": "6,710 adult + 916 child ME/CFS cases in the 2017 studies; UK GP records",
+  "data_type": "coded GP records, tests and consultations up to 15 years before diagnosis",
+  "licence": "Controlled or on-request access",
+  "licence_url": "https://www.cprd.com/",
+  "status": "link_only",
+  "files": [],
+  "total_bytes": 0,
+  "our_analyses": [],
+  "notes": "Access: application (Research Data Governance) and fee. Could test: pre-diagnosis symptoms and tests, infection and vaccine triggers, incidence trends. Link check 2026-11-01: BLOCKED to curl (HTTP 403, Cloudflare challenge); URL not confirmed from this sandbox. From global-resources/INVENTORY.csv (row cprd).",
+  "cohort_ids": [
+   "cprd-uk"
+  ]
+ },
+ {
+  "id": "opensafely",
+  "name": "OpenSAFELY",
+  "citation": "OpenSAFELY Collaborative (Bennett Institute, Oxford).",
+  "source_url": "https://www.opensafely.org/",
+  "doi": "",
+  "n": "GP records for most of England",
+  "data_type": "coded primary-care records (analysed in place, no download)",
+  "licence": "Controlled or on-request access",
+  "licence_url": "https://www.opensafely.org/",
+  "status": "link_only",
+  "files": [],
+  "total_bytes": 0,
+  "our_analyses": [],
+  "notes": "Access: approved projects only; code is run in place and published. No ME/CFS publication found. Could test: ME/CFS incidence after COVID-19 and other infections at national scale. Link check 2026-11-01 (curl): HTTP 200, page title matches. From global-resources/INVENTORY.csv (row opensafely).",
+  "cohort_ids": []
+ },
+ {
+  "id": "zoe-csss",
+  "name": "ZOE COVID Symptom Study and COVID Symptom Study Biobank",
+  "citation": "Canas LS et al. Profiling post-COVID-19 condition across different variants of SARS-CoV-2. Lancet Digit Health 2023.",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37202336/",
+  "doi": "10.1016/S2589-7500(23)00056-0",
+  "n": "app cohort with biobank sub-cohort (size not re-checked)",
+  "data_type": "daily symptom logs from before infection; blood and saliva (biobank arm)",
+  "licence": "Controlled or on-request access",
+  "licence_url": "https://pubmed.ncbi.nlm.nih.gov/37202336/",
+  "status": "link_only",
+  "files": [],
+  "total_bytes": 0,
+  "our_analyses": [],
+  "notes": "Access: collaboration with King's College London. Could test: pre-infection symptom trajectories in people who later develop long COVID with PEM. Link check 2026-11-01: PubMed record confirmed (HTTP 200 and NCBI E-utilities esummary). From global-resources/INVENTORY.csv (row zoe-csss).",
+  "cohort_ids": [
+   "zoe-csss"
+  ]
+ },
+ {
+  "id": "phosp-covid",
+  "name": "PHOSP-COVID",
+  "citation": "Elneima O et al. Cohort Profile: Post-Hospitalisation COVID-19 (PHOSP-COVID) study. Int J Epidemiol 2024.",
+  "source_url": "https://www.phosp.org/",
+  "doi": "10.1093/ije/dyad165",
+  "n": "post-hospitalisation adults; deep-phenotyped subset (size not re-checked)",
+  "data_type": "blood, sputum; clinical assessments",
+  "licence": "Controlled or on-request access",
+  "licence_url": "https://www.phosp.org/",
+  "status": "link_only",
+  "files": [],
+  "total_bytes": 0,
+  "our_analyses": [],
+  "notes": "Access: application to the PHOSP-COVID data access committee. Could test: post-hospital fatigue/PEM phenotypes and blood markers. Link check 2026-11-01 (curl): HTTP 200, page title matches. From global-resources/INVENTORY.csv (row phosp-covid).",
+  "cohort_ids": [
+   "phosp-covid"
+  ]
+ },
+ {
+  "id": "stimulate-icp",
+  "name": "STIMULATE-ICP",
+  "citation": "STIMULATE-ICP Consortium. Integrated care pathway in individuals with Long COVID: a cluster-randomized, phase 3 trial. Nat Med 2026.",
+  "source_url": "https://www.stimulate-icp.org/",
+  "doi": "10.1038/s41591-026-04552-x",
+  "n": "largest UK long COVID pathway trial",
+  "data_type": "trial outcomes; limited samples",
+  "licence": "Closed (no data sharing route found)",
+  "licence_url": "https://www.stimulate-icp.org/",
+  "status": "link_only",
+  "files": [],
+  "total_bytes": 0,
+  "our_analyses": [],
+  "notes": "Access: closed; results in Nat Med 2026. Could test: treatment response in long COVID with PEM (if data released). Link check 2026-11-01 (curl): HTTP 200, page title matches. From global-resources/INVENTORY.csv (row stimulate-icp).",
+  "cohort_ids": [
+   "stimulate-icp"
+  ]
+ },
+ {
+  "id": "uk-birth-cohorts",
+  "name": "UK birth cohorts (1958 NCDS, 1970 BCS, ALSPAC)",
+  "citation": "Clark C et al. Premorbid risk markers for CFS in the 1958 British birth cohort. Br J Psychiatry 2011; Collin SM et al. CFS at age 16 years. Pediatrics 2016.",
+  "source_url": "https://www.bristol.ac.uk/alspac/",
+  "doi": "10.1542/peds.2015-3434",
+  "n": "national birth cohorts; ALSPAC CFS at 13 and 16 years",
+  "data_type": "lifelong questionnaires; ALSPAC blood/DNA",
+  "licence": "Controlled or on-request access",
+  "licence_url": "https://www.bristol.ac.uk/alspac/",
+  "status": "link_only",
+  "files": [],
+  "total_bytes": 0,
+  "our_analyses": [],
+  "notes": "Access: application to ALSPAC or the UK Data Service/CLS. Could test: childhood sleep, activity and infection history before adolescent CFS. Link check 2026-11-01 (curl): HTTP 200, page title matches. (NCDS and BCS70 are held by CLS at cls.ucl.ac.uk, also 200.) From global-resources/INVENTORY.csv (row uk-birth-cohorts).",
+  "cohort_ids": [
+   "alspac-uk"
+  ]
+ },
+ {
+  "id": "n3c",
+  "name": "N3C Long COVID Tenant (NCATS)",
+  "citation": "Powers JP et al. Identifying commonalities and differences between EHR representations of PASC and ME/CFS. Commun Med 2025.",
+  "source_url": "https://ncats.nih.gov/research/research-activities/n3c",
+  "doi": "10.1038/s43856-025-00827-5",
+  "n": "~6.5M adults analysed for PASC vs ME/CFS computable phenotypes",
+  "data_type": "US EHR records incl. lab values",
+  "licence": "Controlled or on-request access",
+  "licence_url": "https://ncats.nih.gov/research/research-activities/n3c",
+  "status": "link_only",
+  "files": [],
+  "total_bytes": 0,
+  "our_analyses": [],
+  "notes": "Access: application (Data Use Request) through the N3C Enclave. Could test: lab trajectories before and after ME/CFS or PASC coding, early-onset cases. Link check 2026-11-01 (curl): HTTP 200, page title matches. (redirects to the N3C overview page.) From global-resources/INVENTORY.csv (row n3c).",
+  "cohort_ids": [
+   "n3c"
+  ]
+ },
+ {
+  "id": "all-of-us",
+  "name": "All of Us Research Program",
+  "citation": "Beentjes SV et al. Replicated blood-based biomarkers for ME not explicable by inactivity. EMBO Mol Med 2025 (All of Us used for replication).",
+  "source_url": "https://www.researchallofus.org/",
+  "doi": "10.1038/s44321-025-00258-8",
+  "n": "participants with EHR and genomes (size not re-checked)",
+  "data_type": "EHR, whole genomes, blood labs, wearables subset",
+  "licence": "Controlled or on-request access",
+  "licence_url": "https://www.researchallofus.org/",
+  "status": "link_only",
+  "files": [],
+  "total_bytes": 0,
+  "our_analyses": [],
+  "notes": "Access: registered or controlled tier through the Researcher Workbench. Could test: genetic replication and pre-diagnosis labs in G93.32-coded participants. Link check 2026-11-01 (curl): HTTP 200, page title matches. (allofus.nih.gov returned 403; the Research Hub is used. Two \"judi\" hits were inside base64 strings.) From global-resources/INVENTORY.csv (row all-of-us).",
+  "cohort_ids": [
+   "all-of-us"
+  ]
+ },
+ {
+  "id": "kaiser",
+  "name": "Kaiser Permanente integrated EHR",
+  "citation": "Liles EG et al. Classification accuracy and description of ME/CFS in an integrated health care system. Perm J 2024.",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38980763/",
+  "doi": "10.7812/TPP/23.170",
+  "n": "integrated-care members (study-specific)",
+  "data_type": "EHR records",
+  "licence": "Internal or collaboration only",
+  "licence_url": "https://pubmed.ncbi.nlm.nih.gov/38980763/",
+  "status": "link_only",
+  "files": [],
+  "total_bytes": 0,
+  "our_analyses": [],
+  "notes": "Access: internal Kaiser researchers or collaboration. Could test: EHR case-finding accuracy and healthcare use before diagnosis. Link check 2026-11-01: PubMed record confirmed (HTTP 200 and NCBI E-utilities esummary). From global-resources/INVENTORY.csv (row kaiser).",
+  "cohort_ids": [
+   "kaiser-ehr"
+  ]
+ },
+ {
+  "id": "inspire",
+  "name": "INSPIRE (Innovative Support for Patients with SARS-CoV-2 Infections Registry)",
+  "citation": "INSPIRE Registry (NCT04610515).",
+  "source_url": "https://clinicaltrials.gov/study/NCT04610515",
+  "doi": "",
+  "n": "6,000 COVID-tested adults (completed)",
+  "data_type": "surveys every 3 months, EHR linkage",
+  "licence": "Controlled or on-request access",
+  "licence_url": "https://clinicaltrials.gov/study/NCT04610515",
+  "status": "link_only",
+  "files": [],
+  "total_bytes": 0,
+  "our_analyses": [],
+  "notes": "Access: application. Could test: incidence of ME/CFS-like illness after COVID-19 vs test-negative controls. Link check 2026-11-01: ClinicalTrials.gov record confirmed through the CT.gov v2 API (the study page itself is rendered by JavaScript). From global-resources/INVENTORY.csv (row inspire).",
+  "cohort_ids": [
+   "inspire"
+  ]
+ },
+ {
+  "id": "jhcls",
+  "name": "Johns Hopkins COVID Long Study (JHCLS)",
+  "citation": "Wentz E et al. Cohort profile: the Johns Hopkins COVID Long Study. BMJ Open 2024.",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38904142/",
+  "doi": "10.1136/bmjopen-2023-077742",
+  "n": "US nationwide prospective online cohort",
+  "data_type": "surveys",
+  "licence": "Controlled or on-request access",
+  "licence_url": "https://pubmed.ncbi.nlm.nih.gov/38904142/",
+  "status": "link_only",
+  "files": [],
+  "total_bytes": 0,
+  "our_analyses": [],
+  "notes": "Access: not stated (contact the study team). Could test: long COVID course and PEM in a national online sample. Link check 2026-11-01: PubMed record confirmed (HTTP 200 and NCBI E-utilities esummary). From global-resources/INVENTORY.csv (row jhcls).",
+  "cohort_ids": [
+   "jhcls"
+  ]
+ },
+ {
+  "id": "scripps-wearable",
+  "name": "Scripps Long COVID Wearable Device Study",
+  "citation": "Scripps Research. The Long COVID-19 Wearable Device Study (NCT05741112).",
+  "source_url": "https://clinicaltrials.gov/study/NCT05741112",
+  "doi": "",
+  "n": "target 100,500",
+  "data_type": "wearable heart rate, activity and sleep; surveys",
+  "licence": "Controlled or on-request access",
+  "licence_url": "https://clinicaltrials.gov/study/NCT05741112",
+  "status": "link_only",
+  "files": [],
+  "total_bytes": 0,
+  "our_analyses": [],
+  "notes": "Access: not stated. Could test: wearable signatures of PEM and crashes, pre-infection baselines in people who later develop long COVID. Link check 2026-11-01: ClinicalTrials.gov record confirmed through the CT.gov v2 API (the study page itself is rendered by JavaScript). From global-resources/INVENTORY.csv (row scripps-wearable).",
+  "cohort_ids": []
+ },
+ {
+  "id": "visible",
+  "name": "Visible app (pacing platform)",
+  "citation": "Cousins O et al. A new patient-led approach to building research infrastructure and evidence generation. Oxf Open Immunol 2026.",
+  "source_url": "https://www.makevisible.com/",
+  "doi": "10.1093/oxfimm/iqag009",
+  "n": "app users with ME/CFS and long COVID (size not re-checked)",
+  "data_type": "HRV/heart rate, symptom and crash logs",
+  "licence": "Controlled or on-request access",
+  "licence_url": "https://www.makevisible.com/",
+  "status": "link_only",
+  "files": [],
+  "total_bytes": 0,
+  "our_analyses": [],
+  "notes": "Access: research collaboration with Visible. Could test: daily HRV before crashes, severity-stratified activity envelopes, hormone-cycle effects. Link check 2026-11-01 (curl): HTTP 200, page title matches. From global-resources/INVENTORY.csv (row visible).",
+  "cohort_ids": [
+   "visible-app-hormones"
+  ]
+ },
+ {
+  "id": "plrc",
+  "name": "Patient-Led Research Collaborative Registry",
+  "citation": "Patient-Led Research Collaborative.",
+  "source_url": "https://patientresearchcovid19.com/",
+  "doi": "",
+  "n": "not stated",
+  "data_type": "patient registry for trial matching",
+  "licence": "Open sign-up; data access not stated",
+  "licence_url": "https://patientresearchcovid19.com/",
+  "status": "link_only",
+  "files": [],
+  "total_bytes": 0,
+  "our_analyses": [],
+  "notes": "Access: participant sign-up; researcher access not stated. Could test: trial recruitment of severe and long-duration patients. Link check 2026-11-01 (curl): HTTP 200, page title matches. From global-resources/INVENTORY.csv (row plrc).",
+  "cohort_ids": []
+ },
+ {
+  "id": "unhide",
+  "name": "Unhide (Brain Inflammation Collaborative, with Solve M.E.)",
+  "citation": "Unhide Project (NCT04806620).",
+  "source_url": "https://clinicaltrials.gov/study/NCT04806620",
+  "doi": "",
+  "n": "target 10,000",
+  "data_type": "digital lifestyle and symptom data",
+  "licence": "Controlled or on-request access",
+  "licence_url": "https://clinicaltrials.gov/study/NCT04806620",
+  "status": "link_only",
+  "files": [],
+  "total_bytes": 0,
+  "our_analyses": [],
+  "notes": "Access: application to the Unhide platform (Solve M.E. and Brain Inflammation Collaborative). Could test: lifestyle and symptom patterns across 30+ conditions incl. ME/CFS. Link check 2026-11-01: ClinicalTrials.gov record confirmed through the CT.gov v2 API (the study page itself is rendered by JavaScript). From global-resources/INVENTORY.csv (row unhide).",
+  "cohort_ids": [
+   "unhide"
+  ]
+ },
+ {
+  "id": "ucsf-mecfs-2026",
+  "name": "UCSF Chronic Infections and Inflammation in ME/CFS observational study",
+  "citation": "UCSF. Chronic Infections and Inflammation in ME/CFS: An Observational Study (NCT07227441).",
+  "source_url": "https://clinicaltrials.gov/study/NCT07227441",
+  "doi": "",
+  "n": "target 200",
+  "data_type": "blood",
+  "licence": "Controlled or on-request access",
+  "licence_url": "https://clinicaltrials.gov/study/NCT07227441",
+  "status": "link_only",
+  "files": [],
+  "total_bytes": 0,
+  "our_analyses": [],
+  "notes": "Access: not stated; recruiting from 2026. Could test: viral persistence and inflammation in ME/CFS. Link check 2026-11-01: ClinicalTrials.gov record confirmed through the CT.gov v2 API (the study page itself is rendered by JavaScript). From global-resources/INVENTORY.csv (row ucsf-mecfs-2026).",
+  "cohort_ids": [
+   "ucsf-mecfs-2026"
+  ]
+ },
+ {
+  "id": "jhu-bbb-2026",
+  "name": "Johns Hopkins post-COVID blood-brain barrier study",
+  "citation": "Johns Hopkins. Blood-Brain Barrier Integrity and Immune Dynamics in Neuropsychiatric Sequelae of Post-SARS-CoV-2 Onset (NCT07256795).",
+  "source_url": "https://clinicaltrials.gov/study/NCT07256795",
+  "doi": "",
+  "n": "target 200",
+  "data_type": "blood; CSF unverified",
+  "licence": "Controlled or on-request access",
+  "licence_url": "https://clinicaltrials.gov/study/NCT07256795",
+  "status": "link_only",
+  "files": [],
+  "total_bytes": 0,
+  "our_analyses": [],
+  "notes": "Access: not stated; enrolling by invitation. Could test: BBB integrity markers in post-COVID ME/CFS. Link check 2026-11-01: ClinicalTrials.gov record confirmed through the CT.gov v2 API (the study page itself is rendered by JavaScript). From global-resources/INVENTORY.csv (row jhu-bbb-2026).",
+  "cohort_ids": [
+   "jhu-bbb-2026"
+  ]
+ },
+ {
+  "id": "mount-sinai-core",
+  "name": "Mount Sinai CoRE patient-reported outcomes survey",
+  "citation": "Eckey M et al. Patient-reported treatment outcomes in ME/CFS and long COVID. PNAS 2025.",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40627388/",
+  "doi": "10.1073/pnas.2426874122",
+  "n": "3,925 respondents (2,041 ME/CFS with severity counts)",
+  "data_type": "online survey of treatments and function",
+  "licence": "Controlled or on-request access",
+  "licence_url": "https://pubmed.ncbi.nlm.nih.gov/40627388/",
+  "status": "link_only",
+  "files": [],
+  "total_bytes": 0,
+  "our_analyses": [],
+  "notes": "Access: collaboration with Mount Sinai Cohen Center for Recovery from Complex Chronic Illness. Could test: treatment response by self-rated severity in ME/CFS and long COVID. Link check 2026-11-01: PubMed returned a 203 bot-check page to curl; record confirmed through NCBI E-utilities esummary. From global-resources/INVENTORY.csv (row mount-sinai-core).",
+  "cohort_ids": [
+   "mount-sinai-core-survey"
+  ],
+  "severity": "mount-sinai-core-survey: mild 144, moderate 530, severe 356, very severe 78 of 2041 (self-rated % of pre-illness functioning (6 levels); self report)"
+ },
+ {
+  "id": "bcw-ccdp",
+  "name": "BC Women's Complex Chronic Diseases Program Data Registry",
+  "citation": "BC Women's Hospital. Complex Chronic Diseases Program Data Registry (NCT03409653).",
+  "source_url": "https://clinicaltrials.gov/study/NCT03409653",
+  "doi": "",
+  "n": "target 1,300 clinic patients (ME/CFS, fibromyalgia, Lyme-like illness)",
+  "data_type": "clinic registry data",
+  "licence": "Controlled or on-request access",
+  "licence_url": "https://clinicaltrials.gov/study/NCT03409653",
+  "status": "link_only",
+  "files": [],
+  "total_bytes": 0,
+  "our_analyses": [],
+  "notes": "Access: not stated. Could test: clinic-based ME/CFS phenotypes and comorbidity. Link check 2026-11-01: ClinicalTrials.gov record confirmed through the CT.gov v2 API (the study page itself is rendered by JavaScript). (CT.gov status UNKNOWN.) From global-resources/INVENTORY.csv (row bcw-ccdp).",
+  "cohort_ids": [
+   "bcw-ccdp-registry"
+  ]
+ },
+ {
+  "id": "bcc19c-bqc19",
+  "name": "BC COVID-19 Cohort and Biobanque quebecoise de la COVID-19",
+  "citation": "Wilton J et al. Cohort profile: the British Columbia COVID-19 Cohort (BCC19C). Front Public Health 2024.",
+  "source_url": "https://www.bqc19.ca/en",
+  "doi": "10.3389/fpubh.2024.1248905",
+  "n": "population-linked BC cohort; BQC19 biobank",
+  "data_type": "linked health records; BQC19 plasma",
+  "licence": "Controlled or on-request access",
+  "licence_url": "https://www.bqc19.ca/en",
+  "status": "link_only",
+  "files": [],
+  "total_bytes": 0,
+  "our_analyses": [],
+  "notes": "Access: application to BQC19 and BC data stewards. Could test: post-COVID proteomic markers and ME/CFS coding after infection. Link check 2026-11-01 (curl): HTTP 200, page title matches. From global-resources/INVENTORY.csv (row bcc19c-bqc19).",
+  "cohort_ids": [
+   "bqc19"
+  ]
+ },
+ {
+  "id": "clsa",
+  "name": "Canadian Longitudinal Study on Aging (CLSA)",
+  "citation": "Canadian Longitudinal Study on Aging.",
+  "source_url": "https://www.clsa-elcv.ca/",
+  "doi": "",
+  "n": "adults aged 45-85 (size not re-checked)",
+  "data_type": "questionnaires, blood, DNA",
+  "licence": "Controlled or on-request access",
+  "licence_url": "https://www.clsa-elcv.ca/",
+  "status": "link_only",
+  "files": [],
+  "total_bytes": 0,
+  "our_analyses": [],
+  "notes": "Access: application to CLSA. No ME/CFS publication found. Could test: self-reported CFS and pre-onset samples in older adults. Link check 2026-11-01 (curl): HTTP 200, page title matches. From global-resources/INVENTORY.csv (row clsa).",
+  "cohort_ids": []
+ },
+ {
+  "id": "ncnp-japan",
+  "name": "NCNP Japan ME/CFS cohort (Yamamura/Ono)",
+  "citation": "Sato W et al. Skewing of the B cell receptor repertoire in ME/CFS. Brain Behav Immun 2021; Kimura Y et al. Front Neurol 2026.",
+  "source_url": "https://www.ncnp.go.jp/en/",
+  "doi": "10.1016/j.bbi.2021.03.023",
+  "n": "clinic cohorts of ME/CFS and long COVID (tens per paper)",
+  "data_type": "serum, PBMC, MRI",
+  "licence": "Controlled or on-request access",
+  "licence_url": "https://www.ncnp.go.jp/en/",
+  "status": "link_only",
+  "files": [],
+  "total_bytes": 0,
+  "our_analyses": [],
+  "notes": "Access: collaboration with NCNP (Tokyo). Could test: GPCR autoantibodies, BCR repertoire and MRI in a Japanese cohort. Link check 2026-11-01 (curl): HTTP 200, page title matches. (earlier proxy 502 not repeated.) From global-resources/INVENTORY.csv (row ncnp-japan).",
+  "cohort_ids": [
+   "ncnp-japan"
+  ]
+ },
+ {
+  "id": "japan-deep",
+  "name": "Japanese ME/CFS deep phenotyping (RIKEN/Osaka)",
+  "citation": "Kitami T et al. Deep phenotyping of ME/CFS in Japanese population. Sci Rep 2020.",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33199820/",
+  "doi": "10.1038/s41598-020-77105-y",
+  "n": "48 ME/CFS, 52 controls",
+  "data_type": "plasma, stool; labs, metabolomics, transcriptomics, microbiome",
+  "licence": "Controlled or on-request access",
+  "licence_url": "https://pubmed.ncbi.nlm.nih.gov/33199820/",
+  "status": "link_only",
+  "files": [],
+  "total_bytes": 0,
+  "our_analyses": [],
+  "notes": "Access: not stated (contact authors). Could test: replication of metabolomic and microbiome signals in an East Asian cohort. Link check 2026-11-01: PubMed returned a 203 bot-check page to curl; record confirmed through NCBI E-utilities esummary. From global-resources/INVENTORY.csv (row japan-deep).",
+  "cohort_ids": [
+   "japan-deep-phenotyping"
+  ]
+ },
+ {
+  "id": "bbj",
+  "name": "BioBank Japan",
+  "citation": "BioBank Japan.",
+  "source_url": "https://biobankjp.org/en/",
+  "doi": "",
+  "n": "disease biobank (size not re-checked)",
+  "data_type": "DNA, serum; clinical records",
+  "licence": "Controlled or on-request access",
+  "licence_url": "https://biobankjp.org/en/",
+  "status": "link_only",
+  "files": [],
+  "total_bytes": 0,
+  "our_analyses": [],
+  "notes": "Access: application. No ME/CFS publication found. Could test: GWAS replication in East Asians if CFS cases can be identified. Link check 2026-11-01 (curl): HTTP 200, page title matches. From global-resources/INVENTORY.csv (row bbj).",
+  "cohort_ids": []
+ },
+ {
+  "id": "korea-hira",
+  "name": "Korea HIRA national claims",
+  "citation": "Lim EJ et al. Nationwide epidemiological characteristics of chronic fatigue syndrome in South Korea. J Transl Med 2021.",
+  "source_url": "https://opendata.hira.or.kr/",
+  "doi": "10.1186/s12967-021-03170-0",
+  "n": "all CFS claims 2010-2020",
+  "data_type": "national insurance claims",
+  "licence": "Controlled or on-request access",
+  "licence_url": "https://opendata.hira.or.kr/",
+  "status": "link_only",
+  "files": [],
+  "total_bytes": 0,
+  "our_analyses": [],
+  "notes": "Access: application to HIRA. Could test: incidence, comorbidity and post-infection risk at national scale. Link check 2026-11-01 (curl): HTTP 200, page title matches. (Korean-language portal.) From global-resources/INVENTORY.csv (row korea-hira).",
+  "cohort_ids": [
+   "korea-hira"
+  ]
+ },
+ {
+  "id": "taiwan-nhird",
+  "name": "Taiwan National Health Insurance Research Database (NHIRD)",
+  "citation": "Chang H et al. Increased risk of chronic fatigue syndrome following infection: a 17-year population-based cohort study. J Transl Med 2023.",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37951920/",
+  "doi": "10.1186/s12967-023-04636-z",
+  "n": "395,811 infected and matched controls; COVID analysis 3.2M",
+  "data_type": "national insurance claims",
+  "licence": "Controlled or on-request access",
+  "licence_url": "https://pubmed.ncbi.nlm.nih.gov/37951920/",
+  "status": "link_only",
+  "files": [],
+  "total_bytes": 0,
+  "our_analyses": [],
+  "notes": "Access: application through the Health and Welfare Data Science Center. Could test: CFS risk after specific infections and vaccines. Link check 2026-11-01: PubMed returned a 203 bot-check page to curl; record confirmed through NCBI E-utilities esummary. (nhird.nhri.edu.tw/en returned 404 and its root page shows an unrelated programme, so the key paper is used.) From global-resources/INVENTORY.csv (row taiwan-nhird).",
+  "cohort_ids": [
+   "taiwan-nhird"
+  ]
+ },
+ {
+  "id": "ckb",
+  "name": "China Kadoorie Biobank (CKB)",
+  "citation": "China Kadoorie Biobank.",
+  "source_url": "https://www.ckbiobank.org/",
+  "doi": "",
+  "n": "population cohort (size not re-checked)",
+  "data_type": "plasma, DNA; hospital record linkage",
+  "licence": "Controlled or on-request access",
+  "licence_url": "https://www.ckbiobank.org/",
+  "status": "link_only",
+  "files": [],
+  "total_bytes": 0,
+  "our_analyses": [],
+  "notes": "Access: application to CKB. No ME/CFS publication found. Could test: pre-onset samples if CFS can be identified from linked records. Link check 2026-11-01: BLOCKED to curl (HTTP 403, CloudFront error page); URL not confirmed from this sandbox. From global-resources/INVENTORY.csv (row ckb).",
+  "cohort_ids": []
+ },
+ {
+  "id": "maccabi",
+  "name": "Maccabi Healthcare Services EHR (Israel)",
+  "citation": "Mizrahi B et al. Long covid outcomes at one year after mild SARS-CoV-2 infection. BMJ 2023.",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36631153/",
+  "doi": "10.1136/bmj-2022-072529",
+  "n": "1,913,234 PCR-tested members",
+  "data_type": "EHR records",
+  "licence": "Internal or collaboration only",
+  "licence_url": "https://pubmed.ncbi.nlm.nih.gov/36631153/",
+  "status": "link_only",
+  "files": [],
+  "total_bytes": 0,
+  "our_analyses": [],
+  "notes": "Access: collaboration via Kahn-Sagol-Maccabi Research and Innovation Center. Could test: long COVID outcomes after mild infection, ME/CFS coding. Link check 2026-11-01: PubMed record confirmed (HTTP 200 and NCBI E-utilities esummary). From global-resources/INVENTORY.csv (row maccabi).",
+  "cohort_ids": [
+   "maccabi"
+  ]
+ },
+ {
+  "id": "nz-idi",
+  "name": "New Zealand Integrated Data Infrastructure (IDI)",
+  "citation": "Bowden N et al. Health, labour market, and social service outcomes for people with ME/CFS. BMC Public Health 2026.",
+  "source_url": "https://www.stats.govt.nz/integrated-data/integrated-data-infrastructure/",
+  "doi": "10.1186/s12889-026-27499-7",
+  "n": "1,902 working-age benefit recipients with ME/CFS",
+  "data_type": "linked health, labour, benefit and social records",
+  "licence": "Controlled or on-request access",
+  "licence_url": "https://www.stats.govt.nz/integrated-data/integrated-data-infrastructure/",
+  "status": "link_only",
+  "files": [],
+  "total_bytes": 0,
+  "our_analyses": [],
+  "notes": "Access: application to Stats NZ (approved researchers in a secure data lab). Could test: social and economic outcomes by duration. Link check 2026-11-01 (curl): HTTP 200, page title matches. From global-resources/INVENTORY.csv (row nz-idi).",
+  "cohort_ids": [
+   "nz-idi"
+  ]
+ },
+ {
+  "id": "dubbo",
+  "name": "Dubbo Infection Outcomes Study",
+  "citation": "Hickie I et al. Post-infective and chronic fatigue syndromes precipitated by viral and non-viral pathogens: prospective cohort study. BMJ 2006.",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/16950834/",
+  "doi": "10.1136/bmj.38933.585764.AE",
+  "n": "253 followed after EBV, Q fever or Ross River virus",
+  "data_type": "serum, DNA; prospective symptoms from acute infection",
+  "licence": "Controlled or on-request access",
+  "licence_url": "https://pubmed.ncbi.nlm.nih.gov/16950834/",
+  "status": "link_only",
+  "files": [],
+  "total_bytes": 0,
+  "our_analyses": [],
+  "notes": "Access: collaboration (UNSW, Lloyd group). Could test: early-onset (<2 y) post-infective fatigue and genetic predictors (depression PRS paper 2026). Link check 2026-11-01: PubMed record confirmed (HTTP 200 and NCBI E-utilities esummary). From global-resources/INVENTORY.csv (row dubbo).",
+  "cohort_ids": [
+   "dubbo-infection-outcomes"
+  ]
+ },
+ {
+  "id": "coffi",
+  "name": "COFFI (International Collaborative on Fatigue Following Infection)",
+  "citation": "Katz BZ et al. The International Collaborative on Fatigue Following Infection (COFFI). Fatigue 2018.",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/30666281/",
+  "doi": "10.1080/21641846.2018.1426086",
+  "n": "pooled prospective post-infection cohorts (Dubbo, Norway EBV, NL Q fever, US college IM and others)",
+  "data_type": "per-cohort data and samples",
+  "licence": "Controlled or on-request access",
+  "licence_url": "https://pubmed.ncbi.nlm.nih.gov/30666281/",
+  "status": "link_only",
+  "files": [],
+  "total_bytes": 0,
+  "our_analyses": [],
+  "notes": "Access: collaboration through member cohorts; activity after 2018 unverified. Could test: pooled predictors of fatigue after infection across pathogens. Link check 2026-11-01: PubMed record confirmed (HTTP 200 and NCBI E-utilities esummary). From global-resources/INVENTORY.csv (row coffi).",
+  "cohort_ids": [
+   "dubbo-infection-outcomes"
+  ]
+ },
+ {
+  "id": "norway-ebv-teens",
+  "name": "Norwegian adolescent acute EBV cohort (CEBA)",
+  "citation": "Pedersen M et al. Predictors of chronic fatigue in adolescents six months after acute Epstein-Barr virus infection: a prospective cohort study. Brain Behav Immun 2019.",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/30261303/",
+  "doi": "10.1016/j.bbi.2018.09.023",
+  "n": "200 adolescents (12-20 y) with acute EBV, plus controls",
+  "data_type": "blood; prospective symptoms",
+  "licence": "Controlled or on-request access",
+  "licence_url": "https://pubmed.ncbi.nlm.nih.gov/30261303/",
+  "status": "link_only",
+  "files": [],
+  "total_bytes": 0,
+  "our_analyses": [],
+  "notes": "Access: collaboration (Oslo University Hospital, Wyller group). Could test: early-onset predictors of fatigue after EBV. Link check 2026-11-01: PubMed record confirmed (HTTP 200 and NCBI E-utilities esummary). From global-resources/INVENTORY.csv (row norway-ebv-teens).",
+  "cohort_ids": [
+   "norway-ebv-teens"
+  ]
+ },
+ {
+  "id": "chile-biorepo",
+  "name": "Chilean COVID-19 Genomics Network Biorepository",
+  "citation": "Signore IA et al. The Chilean COVID-19 Genomics Network Biorepository. Genes 2024.",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39596552/",
+  "doi": "10.3390/genes15111352",
+  "n": "COVID and long COVID participants",
+  "data_type": "blood, DNA; multi-omics",
+  "licence": "Controlled or on-request access",
+  "licence_url": "https://pubmed.ncbi.nlm.nih.gov/39596552/",
+  "status": "link_only",
+  "files": [],
+  "total_bytes": 0,
+  "our_analyses": [],
+  "notes": "Access: not stated. Could test: long COVID genetics in a Latin American population. Link check 2026-11-01: PubMed record confirmed (HTTP 200 and NCBI E-utilities esummary). From global-resources/INVENTORY.csv (row chile-biorepo).",
+  "cohort_ids": [
+   "chile-biorepo"
+  ]
  }
 ]

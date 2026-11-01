@@ -13,8 +13,10 @@ The project treats long COVID with post-exertional malaise (PEM) as essentially 
 
 | Curation level | Rows | Meaning |
 |---|---|---|
-| `curated` | 101 | Every population behind the 110 catalogue datasets (where one exists), every cohort-type row of the 88-row INVENTORY, and the main named cohorts behind atlas findings. Severity was looked for in each one: in the paper (PMC full text), in our per-person downloads, or both. |
-| `atlas_stub` | 299 | Primary studies cited in `atlas/build/research/*.json` that did not map to a curated cohort. Fields come from the atlas `n`/`design` text and the DOI. These rows were **not reviewed for severity**, apart from 3 that have explicit overrides. |
+| `curated` | 263 | 101 hand-curated rows plus 162 former atlas stubs promoted on 2026-11-01 after their PMC full text was searched for severity (see `severity_search`). The 101: every population behind the 110 catalogue datasets (where one exists), every cohort-type row of the 88-row INVENTORY, and the main named cohorts behind atlas findings. Severity was looked for in each one: in the paper (PMC full text), in our per-person downloads, or both. |
+| `atlas_stub` | 137 | Primary studies cited in `atlas/build/research/*.json` that did not map to a curated cohort and have no usable PMC full text (114 with no PMC copy, 23 where PMC holds only the abstract/front matter). Fields come from the atlas `n`/`design` text and the DOI. These rows were **not reviewed for severity**. |
+
+**Promoted stubs (2026-11-01).** Each of the 162 PMC full-text XMLs was keyword-searched (text and tables) for mild/moderate/severe/very severe/housebound/bedbound/bedridden/Bell, and every hit was read. Supplements and image-only tables were not searched. Where the paper gives no counts the note says so. `population` was re-derived from the title/abstract (marked "from title/abstract"). `sample_types` on these rows comes from a keyword scan of the Methods (terms seen at least twice) and is flagged as unverified in `notes`. Other fields still come from the atlas text. Rows whose only mild/moderate/severe table grades acute COVID-19 (Kahn 2024, Singh 2023, Chaganti 2024, Kruger 2022, Hosp 2024, Oaklander 2022, Natarajan 2022) were not entered.
 
 We left out the following:
 
@@ -24,7 +26,13 @@ We left out the following:
 - Catalogue entries that are data services or analyses rather than study populations: pubmed-mecfs, clinicaltrials-gov, gwas-catalog, vdjdb, pqtl-ukbppp-decode, mapmecfs, github-rti-mapmecfs-api, github-mecfs-bioinformatics, the `analysis-*` READMEs except where linked to a cohort, and several code-only GitHub repos (github-tijn-thesis, bs5ga, jasemurphy, k-roy, pkozakowski, prmunn, lgchaplin) whose cohort could not be identified.
 - Atlas reviews, meta-analyses, guidelines, models, animal-only work and our own re-analyses. The re-analyses are mapped through `cites` onto the cohorts they used.
 
-`cites` lists every matching atlas cite string with its DOI. `aliases` maps the cohort ids used in `effects.csv` (for example `germain-2022`) onto these cohorts. These link atlas findings to a `cohort_id`: 472 cite strings in all, 167 of them on curated cohorts.
+`cites` lists every matching atlas cite string with its DOI. `aliases` maps the cohort ids used in `effects.csv` (for example `germain-2022`) onto these cohorts. These link atlas findings to a `cohort_id`: 472 cite strings in all, 332 of them on curated cohorts (167 before the 2026-11-01 stub promotion).
+
+## New fields (2026-11-01)
+
+- `severity_basis_type`: `clinician_or_inclusion` (clinician grading, clinic records, or severity fixed by the inclusion criteria) or `self_report` (questionnaire, survey or self-rated Bell/DSQ). Null when no standard-class count exists.
+- `severity_subsets`: a list of `{source, subset, denominator, counts, quote}` for sub-study counts that do not replace the headline counts (for example Hoel 2021, 83 RituxME patients).
+- `severity_search`: what was searched and when, for rows checked on 2026-11-01.
 
 ## How severity was filled (rules)
 
@@ -48,22 +56,29 @@ We left out the following:
 
 ## Totals by severity class
 
-Fifteen cohorts give at least one count in a standard class. Three more give counts only in raw form: Cornell (computed Bell), Northwestern IM (definition-based severe) and Hurwitz (symptom-based severe).
+Eighteen cohorts give at least one count in a standard class. More give counts only in raw form, for example Cornell (computed Bell), Northwestern IM (definition-based severe), Hurwitz (symptom-based severe), Strayer 2012 (KPS 40-60) and Light 2012 (numeric levels 1-4).
 
-| Class | Naive sum over cohorts | After overlap control* |
-|---|---|---|
-| Mild | 5,210 | 5,199 |
-| Moderate | 10,783 | 10,734 |
-| Severe | 2,705 | 2,681 |
-| Very severe | 210 | 210 |
-| Housebound (explicit) | 8 | 8 |
-| Bedbound / bedridden (explicit) | 7 | 7 |
+Totals are kept separate by basis, because self-reported and clinician-graded categories are not the same measure.
 
-\*Within each `overlap_group` (for example bergen, stockholm, cardiozorg) we took the largest count per class instead of summing. This assumes trial and sub-study patients from the same clinic may be the same people.
+| Class | Clinician-graded or by inclusion (11 cohorts): naive | after overlap control* | Self-report (7 cohorts): naive | after overlap control* |
+|---|---|---|---|---|
+| Mild | 253 | 243 | 4,959 | 4,959 |
+| Moderate | 526 | 449 | 10,327 | 10,327 |
+| Severe | 267 | 245 | 2,443 | 2,443 |
+| Very severe | 0 | 0 | 210 | 210 |
+| Housebound (explicit) | 0 | 0 | 12 | 12 |
+| Bedbound / bedridden (explicit) | 0 | 0 | 7 | 7 |
+
+- Clinician or inclusion cohorts: the Bergen series (RituxME, CycloME, daratumumab, Sandvik 2023, Fluge 2016), UK ME/CFS Biobank, OMF SIPS, CardioZorg, the Stockholm ME Center, Hsieh 2023 (Epsom) and Sjögren 2025 (Bragée).
+- Self-report cohorts: DecodeME, Mount Sinai CoRE, Sheffield Ryback 2026, Mainz IAMPOCO, Oslo (DSQ item 79), Charité/Legler 2023 (Bell 20, "inability to leave the house") and Jolley 2026 (Bragée questionnaire).
+- With both bases pooled, after overlap control, the totals are mild 5,199, moderate 10,755, severe 2,681, very severe 210, housebound 12 and bedbound 7. Jolley 2026 and Sjögren 2025 share the `stockholm` group with the Stockholm ME Center row, so only the maximum per class counts.
+
+\*Within each `overlap_group` (for example bergen, stockholm, cardiozorg) we took the largest count per class instead of summing. This assumes trial and sub-study patients from the same clinic may be the same people. In Bergen the moderate maximum is now Fluge 2016 (51 of 152).
 
 Caveats:
 
-- **DecodeME dominates.** It accounts for 2,073 severe and 131 very severe, all self-reported against NICE categories with no clinical verification. Mount Sinai CoRE adds 356 severe and 78 very severe, also from a self-selected online survey of ME/CFS respondents. Its long COVID column is kept in raw only. Without these two surveys, clinically assessed cohorts give about **252 severe** people (276 before overlap control), which is small.
+- **DecodeME dominates the self-report column.** It accounts for 2,073 severe and 131 very severe, all self-reported against NICE categories with no clinical verification. Mount Sinai CoRE adds 356 severe and 78 very severe, also from a self-selected online survey. Its long COVID column is kept in raw only.
+- **The clinician-graded severe group is small: 245 people after overlap control.** CardioZorg (136) and the UK ME/CFS Biobank (54) make up most of it.
 - **UK ME/CFS Biobank**: the 54 severe (house- or bed-bound, mostly sampled at home) are the largest clinically verified, biosampled severe group. The many UKMEB sub-studies (Dibble, Bourgonje, Lee JS, Ryback & Cowan, BCR/TCR) reuse these same people and are not added again.
 - Overlap between datasets that share participants is handled only by `overlap_group`. Overlap across groups cannot be ruled out. Examples are UKMEB volunteers who also joined DecodeME, and Bergen patients also in Oslo genotyping. Not all categories are equivalent either: NICE self-report, the clinician 5-level scale, ICC grading and DSQ item 79 measure different things.
 - Housebound and bedbound counts are tiny because few papers report them as counts. Oslo (Lande 2020) gives 12.5% bedridden and 28.6% strictly housebound of a 426-person genotyped cohort, but only as percentages.
@@ -75,14 +90,16 @@ Caveats:
 3. Stichting CardioZorg: 136 severe by ICC (clinic records and tilt; bedbound excluded).
 4. UK ME/CFS Biobank: 54 severe, house- or bed-bound, with blood, PBMC and DNA, available by application.
 5. OMF SIPS: 20 severe, all severely ill by design.
-6. Bergen RituxME: 19 severe of 111. Bergen Sandvik 2023: 9 of 39. Stockholm/Bragée: 7 of 31 (CSF) and 9 of 34. Hsieh 2023 (Epsom): 9.
-7. Oslo biobank: 6 bedridden and 8 strictly housebound in a 45-person subset. About 12.5% bedridden across the 426.
+6. Bergen RituxME: 19 severe of 111, and 18 severe of the 83 in Hoel 2021 (`severity_subsets`). Bergen Fluge 2016: 41 "moderate/severe-severe" of 152 (merged class, raw only). Bergen Sandvik 2023: 9 of 39. Stockholm/Bragée: 7 of 31 (CSF) and 9 of 34. Hsieh 2023 (Epsom): 9.
+7. Stockholm/Bragée: Jolley 2026 has 9 severe of 34 (CSF opening pressure, self-report), and Sjögren 2025 has 5 of 35.
+8. Charité post-COVID (Legler 2023): 4 of 55 PCS-ME/CFS could not leave the house (Bell 20).
+9. Oslo biobank: 6 bedridden and 8 strictly housebound in a 45-person subset. About 12.5% bedridden across the 426.
 
 ## Flags
 
 | Flag | Meaning | Counts |
 |---|---|---|
-| `includes_severe` | true if the cohort includes house- or bed-bound or NICE-severe people (by count or by documented design, such as home visits); false if the design excludes them (for example two maximal CPETs) | true 19, false 5, null for the rest |
+| `includes_severe` | true if the cohort includes house- or bed-bound or NICE-severe people (by count or by documented design, such as home visits); false if the design excludes them (for example two maximal CPETs) | true 20, false 5, null for the rest |
 | `includes_early_onset_lt2y` | true if people within 2 years of onset are documented: DecodeME 0.5–1 y (n=254), post-infection prospective cohorts, RECOVER, post-COVID cohorts sampled at 6 months, and Montreal (2 people) | 12 true |
 | `prospective_pre_illness` | true if samples or data exist from before onset for at least some cases: Northwestern IM, UK Biobank incident cases, RECOVER uninfected enrolees, birth and population cohorts, EHRs | 12 true |
 
@@ -103,8 +120,8 @@ Caveats:
 
 ## Known gaps
 
-- **Severity tables not reachable.** The following tables were in PDFs or images, or the full text was not in PMC: Montoya 2017 (PNAS, abstract only), Hoel 2021 Table 1, RituxME (Ann Intern Med; only the follow-up subset was used), Fluge 2016, Bragée 2020, Kedor 2022 and Legler 2023 (only Bell summaries), MECFS-R (only "median Bell 30"), Walitt 2024 (inclusion wording only), and OMF SIPS Chang 2021 (the PMC file was empty, so the number came from Hung 2025).
-- **Stub rows were not reviewed.** Their n was parsed from atlas text only where it was unambiguous ("N vs M"), and `population` for many is "ME/CFS (assumed from atlas context)". Check the paper before using them.
+- **Severity tables not reachable or not reported.** Montoya 2017 is still missing: the PNAS PDF returns 403, PMC and Europe PMC hold only front matter, and PMC HTML shows a reCAPTCHA. RituxME (Fluge 2019, all 151) is also missing: the Ann Intern Med site returns 403, there is no PMC copy and no CT.gov results. Bragée 2020, Walitt 2024 (inclusion wording only) and OMF SIPS Chang 2021 (the PMC file was empty, so the number came from Hung 2025) are unchanged. Resolved on 2026-11-01: Hoel 2021 Table 1 (read from the JCI Insight table image), Fluge 2016 (supplement Table S7) and Legler 2023 (housebound count). MECFS-R (PMC11172639) and the TUM MLC-R/MCFC papers give only Bell medians or boxplots, so they have no class counts. Kedor 2022 gives only Bell medians.
+- **Remaining stub rows (137) were not reviewed.** Their n was parsed from atlas text only where it was unambiguous ("N vs M"), and `population` for many is "ME/CFS (assumed from atlas context)". Check the paper before using them.
 - **Recruitment years, case definitions and settings** are filled only where the source text was seen. Fields marked "not re-checked" came from catalogue or inventory descriptions.
 - **NCNED registry**: its 5-level table (n=519) appears to grade PEM, not overall illness, so it was not used.
 - **Cohort naming**: the Cornell CRC row merges several papers with different n. The cohort n is the largest single paper (Keller 2024: 84/71).

@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>ME/CFS data catalogue · Solving ME/CFS</title>
+<link rel="alternate" type="application/atom+xml" title="Solving ME/CFS: what's new" href="/feed.xml">
 <meta name="description" content="Public ME/CFS datasets in one place: genetics, metabolomics, microbiome, immune and proteomics data, with licences, download links and the analyses run on each.">
 <meta property="og:title" content="ME/CFS data catalogue">
 <meta property="og:description" content="Public ME/CFS datasets in one place: genetics, metabolomics, microbiome, immune and proteomics data, with licences, download links and the analyses run on each.">
@@ -33,6 +34,7 @@
 .toolbar select{font:inherit;padding:9px 10px;border:1px solid var(--line);border-radius:8px;background:var(--surface);color:var(--ink)}
 .ds{scroll-margin-top:72px;margin-bottom:16px;overflow-wrap:anywhere;min-width:0}
 .ds h3{display:flex;flex-wrap:wrap;gap:8px 12px;align-items:center}
+.ds .sev{font-size:14px;margin-top:10px}
 .ds .cite{color:var(--muted);font-size:14px;margin-top:4px}
 .ds .facts{font-size:14px}
 .files{margin-top:12px;font-size:14px}
@@ -48,7 +50,7 @@
 <body class="p-data">
 <header class="site-head"><div class="wide">
 <a class="brand" href="/">Solving ME/CFS</a>
-<nav class="site-nav" aria-label="Site"><a href="/model">Working model</a><a href="/atlas">Evidence</a><a href="/questions">Open questions</a><a href="/trials">Trials</a><a href="/treatments">Treatments</a><a href="/funding">Funding</a><a href="/data" aria-current="page">Data</a><a href="/method">Method</a></nav>
+<nav class="site-nav" aria-label="Site"><a href="/primer">Primer</a><a href="/model">Working model</a><a href="/atlas">Evidence</a><a href="/questions">Open questions</a><a href="/research">Projects</a><a href="/trials">Trials</a><a href="/treatments">Treatments</a><a href="/funding">Funding</a><a href="/data" aria-current="page">Data</a><a href="/method">Method</a></nav>
 <button class="theme-btn" type="button" onclick="__toggleTheme()" aria-label="Switch light or dark theme"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 1.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13Zm0 1.6v9.8a4.9 4.9 0 0 1 0-9.8Z" fill="currentColor"/></svg></button>
 </div></header>
 <script>(function(){var n=document.querySelector('.site-nav'),a=n&&n.querySelector('[aria-current]');if(a&&a.offsetLeft+a.offsetWidth>n.clientWidth)n.scrollLeft=a.offsetLeft-24})()</script>
@@ -67,6 +69,7 @@
       <option value="">All datasets</option>
       <option value="rehosted">Download here</option>
       <option value="link_only">Link to source</option>
+      <option value="severe">Includes severe patients</option>
     </select>
   </div>
   <p class="count" id="count"></p>
@@ -75,7 +78,7 @@
 </section>
 <script>
 (function(){
-  var list=document.getElementById('list'), q=document.getElementById('q'), st=document.getElementById('st'), count=document.getElementById('count'), data=[];
+  var list=document.getElementById('list'), q=document.getElementById('q'), st=document.getElementById('st'), count=document.getElementById('count'), data=[], sev={};
   function esc(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
   function size(b){if(!b)return '';var u=['B','KB','MB','GB'],i=0;while(b>=1024&&i<3){b/=1024;i++;}return b.toFixed(i?1:0)+' '+u[i];}
   function link(u,t){return u?'<a href="'+esc(u)+'" rel="noopener">'+esc(t||u)+'</a>':'';}
@@ -88,6 +91,8 @@
     if(d.data_type)h+='<div><b>Data</b>'+esc(d.data_type)+'</div>';
     h+='<div><b>Licence</b>'+(d.licence_url?link(d.licence_url,d.licence):esc(d.licence||'Not stated'))+'</div>';
     h+='<div><b>Source</b>'+link(d.source_url,'Original')+(re&&d.total_bytes?' · '+size(d.total_bytes)+' hosted':'')+'</div></div>';
+    var sv=(d.cohort_ids||[]).map(function(c){return sev[c];}).filter(Boolean);
+    if(sv.length){h+='<div class="sev"><b>Severity</b> '+sv.map(function(c){var L=[['n_mild','mild'],['n_moderate','moderate'],['n_severe','severe'],['n_very_severe','very severe'],['n_housebound','housebound'],['n_bedbound','bedbound']].filter(function(k){return c[k[0]]!=null;}).map(function(k){return c[k[0]]+' '+k[1];});return (sv.length>1?esc(c.name)+': ':'')+L.join(', ')+' <span style="color:var(--muted)">('+(c.basis==='self_report'?'self-reported':'clinician-assessed or by inclusion')+')</span>';}).join('; ')+'</div>';}
     if(d.notes)h+='<p style="font-size:14px;color:var(--muted)">'+esc(d.notes)+'</p>';
     var an=d.our_analyses||[];
     if(an.length){h+='<div class="an"><b>What we found</b><ul>'+an.map(function(a){return '<li>'+(a.path_or_url&&/^https?:/.test(a.path_or_url)?link(a.path_or_url,a.title):esc(a.title))+(a.summary_one_line?': '+esc(a.summary_one_line):'')+'</li>';}).join('')+'</ul></div>';}
@@ -97,11 +102,11 @@
   }
   function render(){
     var t=q.value.trim().toLowerCase(), s=st.value;
-    var r=data.filter(function(d){return (!s||d.status===s)&&(!t||JSON.stringify(d).toLowerCase().indexOf(t)>=0);});
+    var r=data.filter(function(d){return (!s||d.status===s||(s==='severe'&&(d.cohort_ids||[]).some(function(c){return sev[c]&&(sev[c].n_severe||sev[c].n_very_severe||sev[c].n_housebound||sev[c].n_bedbound);})))&&(!t||JSON.stringify(d).toLowerCase().indexOf(t)>=0);});
     count.textContent=r.length+' of '+data.length+' datasets';
     list.innerHTML=r.map(card).join('')||'<p class="intro">No datasets match.</p>';
   }
-  fetch('/data/catalogue.json').then(function(r){return r.json();}).then(function(j){
+  fetch('/data/cohorts-severity.json').then(function(r){return r.json();}).then(function(j){(j.cohorts||[]).forEach(function(c){sev[c.id]=c;});}).catch(function(){}).then(function(){return fetch('/data/catalogue.json');}).then(function(r){return r.json();}).then(function(j){
     data=Array.isArray(j)?j:(j.datasets||[]);
     data.sort(function(a,b){var x=(a.id.indexOf('analysis-')===0)-(b.id.indexOf('analysis-')===0);return x||a.name.localeCompare(b.name);});
     render();
@@ -112,7 +117,7 @@
 </script>
 </main>
 <footer class="site-foot"><div class="l-body">
-<p>Solving ME/CFS is written by <a href="https://michaeljelly.com">Michael Jelly</a>, with AI agents assisting with literature review and analysis. <a href="mailto:hello@solvingmecfs.org">hello@solvingmecfs.org</a> · <a href="https://github.com/michaeljelly/solvingmecfs">Source and analysis code</a> · Updated 1 Nov 2026</p>
+<p>Solving ME/CFS is written by <a href="https://michaeljelly.com">Michael Jelly</a>, with AI agents assisting with literature review and analysis. <a href="mailto:hello@solvingmecfs.org">hello@solvingmecfs.org</a> · <a href="https://github.com/michaeljelly/solvingmecfs">Source and analysis code</a> · <a href="/updates">What's new</a> (<a href="/feed.xml">feed</a>) · Updated 1 Nov 2026</p>
 </div></footer>
 </body>
 </html>

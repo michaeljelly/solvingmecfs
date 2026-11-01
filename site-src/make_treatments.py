@@ -14,6 +14,24 @@ EV = {"rct-positive": "Positive RCT", "rct-mixed": "Mixed RCTs", "rct-negative":
 GRAPH = json.load(open(os.path.join(SRC, "data", "graph.json"), encoding="utf8"))
 LINKS = {s["n"]: s["name"] for s in GRAPH["steps"]}
 T = D["treatments"]
+TM = {}
+_tp = os.path.join(SRC, "..", "treatme")
+if os.path.exists(os.path.join(_tp, "treatme.json")):
+    _tr = json.load(open(os.path.join(_tp, "treatme.json"), encoding="utf8"))
+    TM = {k: [_tr["rows"][n] for n in v if n in _tr["rows"]] for k, v in json.load(open(os.path.join(_tp, "map.json"), encoding="utf8")).items() if not k.startswith("_")}
+    VITC = _tr["rows"].get("Vitamin C (oral, NOT liposomal)", {}).get("nas")
+DCOL = ["var(--ref)", "color-mix(in srgb,var(--ref) 65%,var(--bg))", "color-mix(in srgb,var(--ref) 35%,var(--bg))", "var(--sunk)", "color-mix(in srgb,var(--rep) 35%,var(--bg))", "color-mix(in srgb,var(--rep) 65%,var(--bg))", "var(--rep)"]
+DLAB = ["Much worse", "Moderately worse", "Slightly worse", "Unchanged or unsure", "Slightly better", "Moderately better", "Much better"]
+def dbar(r):
+    return '<span class="pdb">' + "".join(f'<span style="width:{100 * (v or 0):.1f}%;background:{DCOL[i]}" title="{DLAB[i]}: {100 * (v or 0):.0f}%"></span>' for i, v in enumerate(r["dist"]) if v) + "</span>"
+def patients(t):
+    rs = [r for r in TM.get(t["id"], []) if r.get("nas") is not None]
+    if not rs: return "", ""
+    best = max(rs, key=lambda r: r["n"] or 0)
+    short = f'<span class="pr" title="TREATME survey: net share reporting benefit, {best["n"]} respondents">Patients {100 * best["nas"]:+.0f}% net · n={best["n"]}</span>'
+    lines = "".join(f'<div class="prow"><span class="pn">{e(r["name"])}</span>{dbar(r)}<span class="pv"><b>{100 * r["nas"]:+.0f}%</b> net · {100 * r["pos2"]:.0f}% moderately or much better · {100 * -r["neg"]:.0f}% worse · n={r["n"]}</span></div>' for r in rs)
+    body = f'<div class="pblock"><b>What patients report</b>{lines}<p class="pnote">TREATME survey of 3,925 people with ME/CFS or long COVID (<a href="https://doi.org/10.1073/pnas.2426874122" rel="noopener">Eckey 2025</a>). Net = share better minus share worse. For comparison, oral vitamin C scored {100 * VITC:+.0f}%. Self-selected and unblinded, so it shows what patients experience, not whether the treatment works.</p></div>'
+    return short, body
 counts = {k: sum(1 for t in T if t["verdict"] == k) for k in V}
 
 def card(t):
@@ -23,11 +41,13 @@ def card(t):
     rows = [("Why it might help, in the model", t.get("model_rationale")), ("What it does", t.get("what_it_does")), ("Who it might suit", t.get("who_it_might_suit")), ("Risks", t.get("risks")),
             ("Severe patients", t.get("severe_note")), ("Access and cost", " · ".join(x for x in [t.get("access"), t.get("cost")] if x)), ("Pending", t.get("pending"))]
     body = "".join(f'<div><b>{k}</b><p>{e(v)}</p></div>' for k, v in rows if v)
+    pshort, pbody = patients(t)
+    body += pbody
     search = " ".join([t["name"], t.get("model_rationale", ""), t.get("what_it_does", ""), t.get("evidence_line", ""), t.get("who_it_might_suit", "")]).lower()
     return f'''<details class="tx" id="{e(t["id"])}" data-v="{e(t["verdict"])}" data-s="{e(search)}">
 <summary><span class="tn">{e(t["name"])}</span><span class="pill {cls}">{lab}</span>
 <span class="tl">{e(t.get("evidence_line"))}</span>
-<span class="tm"><span class="ev">{e(EV.get(t.get("evidence"), t.get("evidence")))}{(" · " + e(t["evidence_caveat"])) if t.get("evidence_caveat") else ""}</span>{f'<span class="lks">Steps {links}</span>' if links else ""}</span></summary>
+<span class="tm"><span class="ev">{e(EV.get(t.get("evidence"), t.get("evidence")))}{(" · " + e(t["evidence_caveat"])) if t.get("evidence_caveat") else ""}</span>{f'<span class="lks">Steps {links}</span>' if links else ""}{pshort}</span></summary>
 <div class="txb">{body}{f'<p class="refs"><b>Sources</b> {refs}</p>' if refs else ""}</div></details>'''
 
 board = []
@@ -51,6 +71,13 @@ meta = {"title": "Treatments people are trying for ME/CFS", "description": f"{le
 page = f'''<!--meta {json.dumps(meta)}-->
 <style>
 .p-treatments .wrap{{max-width:52rem}}
+.pr{{color:var(--muted);white-space:nowrap}}
+.pblock{{grid-column:1/-1;margin-top:.4rem}}
+.prow{{display:grid;grid-template-columns:12rem 1fr;gap:.2rem .8rem;align-items:center;font-family:var(--f-sans);font-size:.8rem;margin:.35rem 0}}
+.prow .pv{{grid-column:2;color:var(--muted)}}
+.pdb{{display:flex;height:.7rem;border-radius:2px;overflow:hidden}} .pdb span{{display:block;height:100%}}
+.txb .pnote,.pnote{{font-family:var(--f-sans);font-size:.74rem;color:var(--muted);margin:.4rem 0 0}}
+@media (max-width:560px){{.prow{{grid-template-columns:1fr}} .prow .pv{{grid-column:1}}}}
 .rules2{{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,20rem),1fr));gap:.8rem;margin:1.2rem 0}}
 .rules2 div{{border-top:1px solid var(--rule);padding:.6rem 0 0;font-size:.92rem}}
 .rules2 b{{display:block;font-family:var(--f-sans);font-size:.88rem;margin-bottom:.15rem}}

@@ -1,0 +1,92 @@
+<!--meta {"title":"ME/CFS primer for researchers","description":"ME/CFS in one page: what defines it, how it is diagnosed, how severe it gets, how it starts, how often people recover, and the history of the field.","nav":"primer"}-->
+<style>
+.p-primer .tiles{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem 1.4rem;margin:1.4rem 0 1.8rem;font-family:var(--f-sans)}
+.p-primer .tiles div{border-top:1.5px solid var(--ink);padding-top:.45rem}
+.p-primer .tiles b{display:block;font-size:1.5rem;font-weight:600;font-variant-numeric:lining-nums;line-height:1.2}
+.p-primer .tiles span{display:block;font-size:.8rem;color:var(--muted);line-height:1.35;margin-top:.2rem}
+.p-primer .tiles a{color:var(--muted)}
+@media (max-width:640px){.p-primer .tiles{grid-template-columns:1fr 1fr}}
+.p-primer .sevs{display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin:1rem 0 .4rem;font-family:var(--f-sans);font-size:.82rem}
+.p-primer .sevs div{padding:.6rem .7rem .7rem;border-top:6px solid}
+.p-primer .sevs b{display:block;font-size:.9rem;margin-bottom:.2rem}
+.p-primer .sevs .s1{border-color:color-mix(in srgb,var(--sev) 70%,var(--bg))}.p-primer .sevs .s2{border-color:var(--early)}.p-primer .sevs .s3{border-color:var(--warm)}.p-primer .sevs .s4{border-color:var(--ink)}
+@media (max-width:640px){.p-primer .sevs{grid-template-columns:1fr 1fr}}
+.p-primer table td,.p-primer table th{font-size:.86rem;vertical-align:top}
+.p-primer .tl{list-style:none;padding:0;margin:1rem 0;border-left:2px solid var(--rule)}
+.p-primer .tl li{display:grid;grid-template-columns:4.2rem 1fr;gap:.8rem;margin:0 0 .7rem;padding-left:.9rem;position:relative;font-size:.95rem;line-height:1.45}
+.p-primer .tl li::before{content:"";position:absolute;left:-.36rem;top:.5rem;width:.6rem;height:.6rem;border-radius:50%;background:var(--bg);border:2px solid var(--muted)}
+.p-primer .tl li.k::before{background:var(--warm);border-color:var(--warm)}
+.p-primer .tl time{font-family:var(--f-sans);font-weight:600;font-size:.85rem;font-variant-numeric:lining-nums}
+.p-primer .next{display:grid;grid-template-columns:1fr 1fr;gap:.6rem 1.4rem;font-family:var(--f-sans);font-size:.9rem}
+.p-primer .next a{display:block;border-top:1px solid var(--rule);padding:.5rem 0;text-decoration:none}
+.p-primer .next small{display:block;color:var(--muted);font-size:.78rem}
+@media (max-width:560px){.p-primer .next{grid-template-columns:1fr}}
+</style>
+<div class="wrap">
+<h1>ME/CFS in one page</h1>
+<p class="deck">What defines the illness, how it is diagnosed, how severe it gets, how it starts and how often people recover. Written for researchers coming to the field.</p>
+<p class="byline">Updated {{built}} · Numbers link to the <a href="/atlas">evidence atlas</a>, where each is graded with its sources.</p>
+
+<p>Myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS) is a chronic illness defined by <b>post-exertional malaise (PEM)</b>: physical, cognitive or emotional effort that a healthy person would shrug off triggers a worsening of all symptoms, usually starting hours to a day later and lasting days to weeks. Around this sit unrefreshing sleep, cognitive impairment, intolerance of being upright, pain and a large loss of function. Most cases start after an infection. Long COVID with PEM is, as far as anyone can tell, the same illness, and has added millions of new cases since 2020.</p>
+
+<div class="tiles">
+<div><b>0.2–1%</b><span>of adults, depending on criteria (<a href="/atlas#f-trials-prevalence-sex">source</a>)</span></div>
+<div><b>3–4 : 1</b><span>women to men among diagnosed patients (<a href="/atlas#f-trials-prevalence-sex">source</a>)</span></div>
+<div><b>~1 in 4</b><span>housebound or bedbound, an estimate from clinic and survey data (<a href="/atlas#f-trials-severity">source</a>)</span></div>
+<div><b>~11%</b><span>meet criteria 6 months after EBV, Q fever or Ross River virus infection (<a href="/atlas#f-infection-dubbo-stereotyped-pifs">source</a>)</span></div>
+<div><b>4.5%</b><span>of adults infected with SARS-CoV-2 in RECOVER met criteria, vs 0.6% uninfected (<a href="/atlas#f-infection-post-covid-mecfs-incidence">source</a>)</span></div>
+<div><b>~5%</b><span>median full recovery in adult cohorts (<a href="/atlas#f-trials-recovery-rates">source</a>)</span></div>
+</div>
+
+<h2 id="pem">Post-exertional malaise</h2>
+<p>PEM is what separates ME/CFS from other fatiguing illnesses, and the reason exercise-based rehabilitation harms many patients. After a two-day exercise test, patients took a mean of about 13 days to recover, against about 2 days for sedentary controls (<a href="/atlas#f-muscle-exertion-pem-timing">source</a>). Onset, length and worst symptom differ from person to person. For research this has two consequences: a sample taken at rest misses the state that defines the illness, and any study visit is itself an exertion. The <a href="/model">working model</a> is built around explaining PEM, and <a href="/questions">sampling during a crash</a> is the experiment we rank first.</p>
+
+<h2 id="diagnosis">How it is diagnosed</h2>
+<p>There is no diagnostic test. Diagnosis rests on the symptom pattern after ruling out other causes, such as thyroid, adrenal and autoimmune disease, sleep disorders, anaemia and depression. Criteria differ mainly on whether PEM is required, and the criteria a study uses decide who is in it: studies using Fukuda include many people without PEM.</p>
+<div class="tbl"><table><thead><tr><th>Criteria</th><th>Year</th><th>PEM required</th><th>Minimum duration</th><th>Used by</th></tr></thead><tbody>
+<tr><td>Fukuda (CDC)</td><td>1994</td><td>No, one of eight optional symptoms</td><td>6 months</td><td>Most research before about 2015</td></tr>
+<tr><td>Canadian Consensus (CCC)</td><td>2003</td><td>Yes</td><td>6 months</td><td>Many clinical and biomedical studies</td></tr>
+<tr><td>International Consensus (ICC)</td><td>2011</td><td>Yes (as post-exertional neuroimmune exhaustion)</td><td>None stated</td><td>Some research cohorts</td></tr>
+<tr><td>IOM / National Academy of Medicine</td><td>2015</td><td>Yes, with unrefreshing sleep, reduced function, and cognitive impairment or orthostatic intolerance</td><td>6 months</td><td>US clinical use, RECOVER, DecodeME (with CCC)</td></tr>
+<tr><td>NICE NG206</td><td>2021</td><td>Yes</td><td>3 months to diagnose</td><td>UK clinical practice</td></tr>
+</tbody></table></div>
+
+<h2 id="severity">Severity</h2>
+<div class="sevs">
+<div class="s1"><b>Mild</b>Roughly half of normal activity. Often still working or studying, with no energy left for anything else.</div>
+<div class="s2"><b>Moderate</b>Reduced mobility, usually stopped working. Needs long rests and pays for any extra effort.</div>
+<div class="s3"><b>Severe</b>Mostly housebound or bedbound. Short trips out cause long crashes. Often sensitive to light and sound.</div>
+<div class="s4"><b>Very severe</b>Bedbound and dependent on care. Some cannot tolerate light, sound, touch or conversation, and need help to eat.</div>
+</div>
+<p class="small">After the NICE 2021 definitions. Severe patients are the least studied: the atlas shows <a href="/atlas#severity">how few have been sampled</a>, and the <a href="/research">project register</a> shows how few current projects name them.</p>
+
+<h2 id="course">How it starts and how it goes</h2>
+<p>Most patients date their illness to an infection. In a prospective Australian cohort, about 11% of people with laboratory-confirmed EBV, Q fever or Ross River virus met criteria six months later, at the same rate for all three pathogens, and the severity of the acute illness predicted who did (<a href="/atlas#f-infection-dubbo-stereotyped-pifs">source</a>). That points at the host response rather than the particular microbe. Risk runs in families: first-degree relatives have two to three times the risk (<a href="/atlas#f-genetics-familial-heritability">source</a>), and the DecodeME genome-wide study found eight risk loci, concentrated in neuronal genes (<a href="/atlas#d-genetics">genetics</a>).</p>
+<p>Once established, full recovery in adults is uncommon; improvement is more common, and adolescents do better (<a href="/atlas#f-trials-recovery-rates">source</a>). All-cause mortality was not raised in a London cohort, but suicide mortality was about seven times expected (<a href="/atlas#f-trials-mortality">source</a>). No treatment has a large, positive, placebo-controlled trial (<a href="/trials">trials</a>).</p>
+
+<h2 id="history">History of the field</h2>
+<ol class="tl">
+<li class="k"><time>1955</time><span>Outbreak among staff at the Royal Free Hospital, London. "Benign myalgic encephalomyelitis" enters the literature over the following years, after similar clusters elsewhere.</span></li>
+<li><time>1969</time><span>WHO classifies benign myalgic encephalomyelitis as a neurological disease (now ICD code G93.3).</span></li>
+<li><time>1984–85</time><span>Cluster around Lake Tahoe, Nevada. The CDC names "chronic fatigue syndrome" in its 1988 case definition.</span></li>
+<li><time>1994</time><span>Fukuda criteria, the research standard for the next two decades. PEM is optional.</span></li>
+<li><time>2003</time><span>Canadian Consensus Criteria make PEM mandatory.</span></li>
+<li><time>2009–11</time><span>The XMRV retrovirus claim is shown to be lab contamination and retracted. PACE reports modest benefit from CBT and graded exercise; re-analyses later find the effects confined to self-report.</span></li>
+<li class="k"><time>2015</time><span>The US Institute of Medicine report calls ME/CFS a serious systemic disease and sets new criteria built around PEM. Rituximab looks promising in Norwegian phase II trials.</span></li>
+<li><time>2017</time><span>NIH funds the Collaborative Research Centers. Rituximab fails its phase III trial in 2019.</span></li>
+<li class="k"><time>2020</time><span>COVID-19. A large share of long COVID patients develop PEM and meet ME/CFS criteria.</span></li>
+<li><time>2021</time><span>NICE NG206 removes graded exercise therapy from UK guidance.</span></li>
+<li><time>2024</time><span>The NIH intramural deep-phenotyping study is published, and its "effort preference" interpretation is widely disputed.</span></li>
+<li class="k"><time>2025</time><span>DecodeME reports the first replicated genetic risk loci, from 15,579 cases. RECOVER publishes ME/CFS incidence after COVID.</span></li>
+</ol>
+
+<h2 id="next">Where to go next</h2>
+<div class="next">
+<a href="/model">How we think it works<small>The working model, step by step, with what would disprove each step</small></a>
+<a href="/atlas">The evidence<small>{{n_findings}} findings graded by replication, and 31 hypotheses</small></a>
+<a href="/questions">Open questions<small>The experiments that would most change what we know</small></a>
+<a href="/research">Who is working on what<small>Projects, groups, biobanks and registries</small></a>
+<a href="/data">Data<small>{{n_datasets}} datasets, many downloadable here</small></a>
+<a href="/funding">Funding<small>Open calls, and which experiments they fit</small></a>
+</div>
+</div>

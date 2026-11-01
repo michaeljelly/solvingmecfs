@@ -190,6 +190,8 @@ OV = {}
 ovp = os.path.join(RES, "overview.json")
 if os.path.exists(ovp): OV = json.load(open(ovp, encoding="utf8"))
 fby = {f["id"]: f for f in all_findings}
+_pc = os.path.join(SRC, "data", "project-counts.json")
+PCOUNT = json.load(open(_pc)) if os.path.exists(_pc) else {}
 mx = max(len(d.get("findings", [])) for d in domains)
 for d in domains:
     c = gcounts(d.get("findings", []))
@@ -208,7 +210,7 @@ for d in domains:
     body.append(f'''<section class="sysc" id="c-{e(d["domain"])}"><h3><a href="#d-{e(d["domain"])}">{e(d["title"])}</a></h3>
 <p class="take">{e(take)}</p>{groups}
 <details class="more"><summary>Full summary</summary><p>{e(d.get("overview"))}</p></details>
-<p class="small foot"><a href="#d-{e(d["domain"])}">All {len(fs)} findings →</a></p></section>''')
+<p class="small foot"><a href="#d-{e(d["domain"])}">All {len(fs)} findings →</a>{f' · <a href="/research#t={e(d["domain"])}">{PCOUNT[d["domain"]]} active projects →</a>' if PCOUNT.get(d["domain"]) else ""}</p></section>''')
 body.append("</div>")
 
 # hypotheses
@@ -292,6 +294,31 @@ if comp:
         body.append("<tr>" + "".join(f"<td>{e(c.get(k))}</td>" for k in ("name", "n", "compartments", "timepoints", "severity", "fresh_cell_function", "limits")) + "</tr>")
     body.append("</tbody></table></div>")
 
+# tests: which abnormalities can be measured, clinically or in research
+def short(t, n=120):
+    t = t.split(". ")[0]
+    return t if len(t) <= n else t[:n].rsplit(" ", 1)[0] + "…"
+TT = {"clin": [], "res": []}
+for f in all_findings:
+    ta = (f.get("test_available") or "").strip()
+    if f.get("grade") not in ("replicated", "several", "early") or not ta: continue
+    low = ta.lower()
+    if low.startswith(("not applicable", "no", "n/a", "family history", "clinical history")) or f["_domain"] == "trials": continue
+    k = "res" if low.startswith(("research", "private")) or "research only" in low[:40] or "not standard clinical" in low or "no validated clinical" in low else "clin"
+    TT[k].append(f)
+go = list(GRADES)
+if TT["clin"] or TT["res"]:
+    body.append(f'''<h2 id="tests">What can be measured</h2>
+<p>Abnormalities graded replicated, several studies or early, with the test that measures each. {len(TT["clin"])} can be ordered through clinical services; {len(TT["res"])} need a research setting. None is diagnostic on its own: each separates groups on average, with overlap between patients and controls.</p>''')
+    def ttable(fs):
+        rows = "".join(f'<tr><td><a href="#f-{e(f["id"])}"><span class="pill {GRADES[f["grade"]][0]}"></span> {e(short(f["finding"]))}</a></td><td>{e(f["_dtitle"])}</td><td>{e(re.sub(r"^(Yes|Research only)[:;,.]?\\s*", "", f["test_available"]))}</td></tr>' for f in sorted(fs, key=lambda f: (go.index(f["grade"]), f["_dtitle"])))
+        return f'<div class="tbl ttab"><table><thead><tr><th>Finding</th><th>Area</th><th>Test</th></tr></thead><tbody>{rows}</tbody></table></div>'
+    strong = [f for f in TT["clin"] if f["grade"] in ("replicated", "several")]
+    body.append(f'<h3 class="ttl">Replicated or multi-study, available clinically <span class="small">({len(strong)})</span></h3>' + ttable(strong))
+    rest_c = [f for f in TT["clin"] if f not in strong]
+    body.append(f'<details class="more"><summary>Early findings with a clinical test ({len(rest_c)})</summary>{ttable(rest_c)}</details>')
+    body.append(f'<details class="more"><summary>Measurable only in research settings ({len(TT["res"])})</summary>{ttable(TT["res"])}</details>')
+
 # who has been studied: severity, from the kb cohorts table (data thread)
 KBC = os.path.join(RES, "..", "..", "..", "kb", "cohorts.json")
 if os.path.exists(KBC):
@@ -299,14 +326,24 @@ if os.path.exists(KBC):
     SK = [("n_mild", "Mild", "--sev"), ("n_moderate", "Moderate", "--early"), ("n_severe", "Severe", "--warm"), ("n_very_severe", "Very severe", "--ink")]
     rows = [c for c in coh if any(c.get(k) for k, _, _ in SK)]
     def basis(c):
+        bt = c.get("severity_basis_type")
         s = (c.get("severity_scale") or "").lower()
+        if bt == "self_report": return "self-report"
+        if bt == "clinician_or_inclusion": return "by inclusion" if "inclusion" in s else "clinician"
         return "by inclusion" if "inclusion" in s else ("self-report" if "self" in s else "clinician")
     rows.sort(key=lambda c: -((c.get("n_severe") or 0) + (c.get("n_very_severe") or 0)))
-    clin = sum((c.get("n_severe") or 0) + (c.get("n_very_severe") or 0) for c in rows if basis(c) != "self-report")
-    selfr = sum((c.get("n_severe") or 0) + (c.get("n_very_severe") or 0) for c in rows if basis(c) == "self-report")
+    def dedup(cs):  # within an overlap group, count only the largest cohort
+        best = {}
+        for c in cs:
+            k = c.get("overlap_group") or c["cohort_id"]
+            v = (c.get("n_severe") or 0) + (c.get("n_very_severe") or 0)
+            best[k] = max(best.get(k, 0), v)
+        return sum(best.values())
+    clin = dedup([c for c in rows if basis(c) != "self-report"])
+    selfr = dedup([c for c in rows if basis(c) == "self-report"])
     hb = [c for c in coh if c.get("n_housebound") or c.get("n_bedbound")]
     body.append(f'''<h2 id="severity">Who has been studied</h2>
-<p>About a quarter of people with ME/CFS are housebound or bedbound, but research samples are drawn mostly from people well enough to travel to a clinic. Of {len(coh)} cohorts behind the atlas, {len(rows)} report how many participants were mild, moderate or severe. Across those, {clin:,} severe or very severe participants were assessed by a clinician or recruited for severity, against {selfr:,} by self-report, most of them in DecodeME, which collected saliva only. Some cohorts overlap.</p>
+<p>About a quarter of people with ME/CFS are housebound or bedbound, but research samples are drawn mostly from people well enough to travel to a clinic. Of {len(coh)} cohorts behind the atlas, {len(rows)} report how many participants were mild, moderate or severe. Across those, {clin:,} severe or very severe participants were assessed by a clinician or recruited for severity, against {selfr:,} by self-report, most of them in DecodeME, which collected saliva only. Overlapping cohorts are counted once.</p>
 <figure class="sevfig">''')
     for c in rows:
         tot = sum(c.get(k) or 0 for k, _, _ in SK) or 1
@@ -455,6 +492,8 @@ details.hyp[open] .hname::before{content:"▾"}
 .sname small,.sn small{display:block;color:var(--muted);font-size:.72rem;line-height:1.3}
 .sn{text-align:right;font-variant-numeric:tabular-nums;line-height:1.25}
 @media (max-width:560px){.srow{grid-template-columns:1fr 5.5rem}.srow .sname{grid-column:1/-1}}
+.ttl{margin-top:1.6rem;font-size:1rem}
+.ttab td{font-size:.84rem;vertical-align:top}.ttab td:first-child{min-width:16rem}.ttab td:first-child a{color:var(--ink);text-decoration:none}.ttab td:first-child a:hover{color:var(--link)}
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
 '''
 desc = f"A living review of ME/CFS research: {len(all_findings)} findings by body system graded by replication, {len(hyps)} hypotheses with evidence for and against, and an index of {len(all_studies)} studies."

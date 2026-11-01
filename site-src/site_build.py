@@ -7,7 +7,7 @@ A fragment starts with <!--meta {json}--> (title, description, nav, optional hea
 import hashlib, json, os, re, sys, datetime, shutil
 
 SRC, SITE = sys.argv[1], sys.argv[2]
-NAV = [("model", "/model", "Working model"), ("atlas", "/atlas", "Evidence"), ("questions", "/questions", "Open questions"), ("trials", "/trials", "Trials"),
+NAV = [("primer", "/primer", "Primer"), ("model", "/model", "Working model"), ("atlas", "/atlas", "Evidence"), ("questions", "/questions", "Open questions"), ("research", "/research", "Projects"), ("trials", "/trials", "Trials"),
        ("treatments", "/treatments", "Treatments"), ("funding", "/funding", "Funding"), ("data", "/data", "Data"), ("method", "/method", "Method")]
 LOGO = '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="var(--accent)" stroke-width="2.6" stroke-dasharray="44 9.4" stroke-linecap="round" transform="rotate(-62 12 12)"/><circle cx="18.9" cy="7.2" r="2.1" fill="var(--warm)"/></svg>'
 FAVICON = "data:image/svg+xml," + ('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5" fill="none" stroke="%230d6a6f" stroke-width="2.6" stroke-dasharray="44 9.4" stroke-linecap="round" transform="rotate(-62 12 12)"/><circle cx="18.9" cy="7.2" r="2.1" fill="%23b4532a"/></svg>').replace("<", "%3C").replace(">", "%3E").replace('"', "'")
@@ -41,7 +41,7 @@ def header(active):
 
 REPO = os.environ.get("SITE_REPO", "https://github.com/michaeljelly/solvingmecfs")
 FOOT = f'''<footer class="site-foot"><div class="l-body">
-<p>Solving ME/CFS is written by <a href="https://michaeljelly.com">Michael Jelly</a>, with AI agents assisting with literature review and analysis. <a href="mailto:hello@solvingmecfs.org">hello@solvingmecfs.org</a>{f' · <a href="{REPO}">Source and analysis code</a>' if REPO else ""} · Updated {built}</p>
+<p>Solving ME/CFS is written by <a href="https://michaeljelly.com">Michael Jelly</a>, with AI agents assisting with literature review and analysis. <a href="mailto:hello@solvingmecfs.org">hello@solvingmecfs.org</a>{f' · <a href="{REPO}">Source and analysis code</a>' if REPO else ""} · <a href="/updates">What's new</a> (<a href="/feed.xml">feed</a>) · Updated {built}</p>
 </div></footer>'''
 
 # live numbers and the evidence map, from the atlas and catalogue data
@@ -98,6 +98,7 @@ for f in pages:
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>{title}</title>
+<link rel="alternate" type="application/atom+xml" title="Solving ME/CFS: what's new" href="/feed.xml">
 <meta name="description" content="{meta["description"]}">
 <meta property="og:title" content="{meta["title"]}">
 <meta property="og:description" content="{meta["description"]}">
