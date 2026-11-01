@@ -292,6 +292,29 @@ if comp:
         body.append("<tr>" + "".join(f"<td>{e(c.get(k))}</td>" for k in ("name", "n", "compartments", "timepoints", "severity", "fresh_cell_function", "limits")) + "</tr>")
     body.append("</tbody></table></div>")
 
+# who has been studied: severity, from the kb cohorts table (data thread)
+KBC = os.path.join(RES, "..", "..", "..", "kb", "cohorts.json")
+if os.path.exists(KBC):
+    coh = json.load(open(KBC, encoding="utf8"))
+    SK = [("n_mild", "Mild", "--sev"), ("n_moderate", "Moderate", "--early"), ("n_severe", "Severe", "--warm"), ("n_very_severe", "Very severe", "--ink")]
+    rows = [c for c in coh if any(c.get(k) for k, _, _ in SK)]
+    def basis(c):
+        s = (c.get("severity_scale") or "").lower()
+        return "by inclusion" if "inclusion" in s else ("self-report" if "self" in s else "clinician")
+    rows.sort(key=lambda c: -((c.get("n_severe") or 0) + (c.get("n_very_severe") or 0)))
+    clin = sum((c.get("n_severe") or 0) + (c.get("n_very_severe") or 0) for c in rows if basis(c) != "self-report")
+    selfr = sum((c.get("n_severe") or 0) + (c.get("n_very_severe") or 0) for c in rows if basis(c) == "self-report")
+    hb = [c for c in coh if c.get("n_housebound") or c.get("n_bedbound")]
+    body.append(f'''<h2 id="severity">Who has been studied</h2>
+<p>About a quarter of people with ME/CFS are housebound or bedbound, but research samples are drawn mostly from people well enough to travel to a clinic. Of {len(coh)} cohorts behind the atlas, {len(rows)} report how many participants were mild, moderate or severe. Across those, {clin:,} severe or very severe participants were assessed by a clinician or recruited for severity, against {selfr:,} by self-report, most of them in DecodeME, which collected saliva only. Some cohorts overlap.</p>
+<figure class="sevfig">''')
+    for c in rows:
+        tot = sum(c.get(k) or 0 for k, _, _ in SK) or 1
+        segs = "".join(f'<span style="width:{100 * (c.get(k) or 0) / tot:.2f}%;background:var({v})" title="{c.get(k)} {l.lower()}"></span>' for k, l, v in SK if c.get(k))
+        sev = (c.get("n_severe") or 0) + (c.get("n_very_severe") or 0)
+        body.append(f'<div class="srow"><span class="sname">{e(c["name"].split(" (")[0])}<small>{e(basis(c))} · samples: {e((c.get("sample_types") or "none listed")[:60])}</small></span><span class="gbar">{segs}</span><span class="sn"><b>{sev:,}</b> severe<br><small>of {tot:,} graded</small></span></div>')
+    body.append('<figcaption class="glegend">' + " ".join(f'<span><i style="background:var({v})"></i>{l}</span>' for _, l, v in SK) + f'</figcaption><figcaption>Each bar is one cohort, split by reported severity. Cohorts that report only housebound or bedbound counts: {"; ".join(e(c["name"].split(" (")[0]) + " (" + ", ".join(f"{c[k]} {k[2:]}" for k in ("n_housebound", "n_bedbound") if c.get(k)) + ")" for c in hb)}. Source: <a href="https://data.solvingmecfs.org/kb/cohorts.csv">cohorts table</a>, with the quote behind each count.</figcaption></figure>')
+
 # gaps
 if gaps:
     body.append('<h2 id="gaps">Gaps nobody has closed</h2><ul>' + "".join(f'<li><strong>{e(t)}:</strong> {e(g)}</li>' for t, g in gaps) + "</ul>")
@@ -426,6 +449,12 @@ details.hyp[open] .hname::before{content:"▾"}
 @media (max-width:560px){.hbody ul.lf li{grid-template-columns:1fr;gap:0}.ld{padding-left:1rem}}
 .notes li{font-size:.86rem}
 .refs{margin-top:1rem}
+.sevfig{margin:1rem 0 2rem}
+.srow{display:grid;grid-template-columns:15rem 1fr 6.5rem;gap:.8rem;align-items:center;padding:.35rem 0;border-bottom:1px solid var(--rule);font-family:var(--f-sans);font-size:.84rem}
+.srow .gbar{height:.8rem}
+.sname small,.sn small{display:block;color:var(--muted);font-size:.72rem;line-height:1.3}
+.sn{text-align:right;font-variant-numeric:tabular-nums;line-height:1.25}
+@media (max-width:560px){.srow{grid-template-columns:1fr 5.5rem}.srow .sname{grid-column:1/-1}}
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
 '''
 desc = f"A living review of ME/CFS research: {len(all_findings)} findings by body system graded by replication, {len(hyps)} hypotheses with evidence for and against, and an index of {len(all_studies)} studies."
