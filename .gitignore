@@ -2,3 +2,5 @@ __pycache__/
 .wrangler/
 *.pyc
 .DS_Store
+*.bak-*
+*.bak-*/

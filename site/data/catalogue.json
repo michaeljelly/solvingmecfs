@@ -88,7 +88,8 @@
   "notes": "Unmodified files from OSF. Keep only variants listed in gwas_qced.var.gz (README). A1FREQ_CONTROLS is miscalculated by REGENIE v4.1 (README). Files are not sorted by chromosome. Supplementary tables S1-S11 on research.ed.ac.uk are not mirrored (browser check; licence not visible). Attribution: Cite the DecodeME preprint and link https://osf.io/rgqs3/.",
   "cohort_ids": [
    "decodeme"
-  ]
+  ],
+  "index_url": "https://data.solvingmecfs.org/decodeme-gwas/index.html"
  },
  {
   "id": "nih-walitt-2024",
@@ -154,7 +155,8 @@
   "notes": "Supplementary Data 14A adjusted-p column appears mis-sorted. CSF metabolomics shows a global shift with sample order. Participant-linked tables (tilt HR/BP etc.) are only on mapMECFS (see mapmecfs). Stool reads: SRA PRJNA954397 (not mirrored). Attribution: Cite Walitt et al. 2024 Nat Commun.",
   "cohort_ids": [
    "nih-pi-mecfs"
-  ]
+  ],
+  "index_url": "https://data.solvingmecfs.org/nih-walitt-2024/index.html"
  },
  {
   "id": "nih-walitt-2024-code",
@@ -305,7 +307,8 @@
   "notes": "Git history not mirrored. The repository LICENSE file is included. Attribution: Keep the GPL-3.0 LICENSE with any redistribution; cite Walitt et al. 2024.",
   "cohort_ids": [
    "nih-pi-mecfs"
-  ]
+  ],
+  "index_url": "https://data.solvingmecfs.org/nih-walitt-2024-code/index.html"
  },
  {
   "id": "geo-gse251790",
@@ -351,7 +354,8 @@
   "notes": "No group column in ADAT; the GEO files hold 21 patients, 4 more than the 17 adjudicated in the paper. Attribution: Cite the original study and GEO accession GSE251790.",
   "cohort_ids": [
    "nih-pi-mecfs"
-  ]
+  ],
+  "index_url": "https://data.solvingmecfs.org/geo-gse251790/index.html"
  },
  {
   "id": "geo-gse254030",
@@ -397,7 +401,8 @@
   "notes": "Same 4 extra patients as GSE251790. Attribution: Cite the original study and GEO accession GSE254030.",
   "cohort_ids": [
    "nih-pi-mecfs"
-  ]
+  ],
+  "index_url": "https://data.solvingmecfs.org/geo-gse254030/index.html"
  },
  {
   "id": "geo-gse245661",
@@ -427,7 +432,8 @@
   "notes": "Raw counts tar (GSE245661_RAW.tar) not mirrored. Attribution: Cite the original study and GEO accession GSE245661.",
   "cohort_ids": [
    "nih-pi-mecfs"
-  ]
+  ],
+  "index_url": "https://data.solvingmecfs.org/geo-gse245661/index.html"
  },
  {
   "id": "geo-gse214283",
@@ -533,7 +539,8 @@
   "notes": "The 1.3 GB raw 10x h5 tar is not mirrored (download from GEO). Pseudobulk files are derived by us (cell types by marker scoring, not the authors' labels). The article itself is CC BY-NC-ND; the GEO deposit is covered by NCBI's open-data policy. Attribution: Cite the original study and GEO accession GSE214283.",
   "cohort_ids": [
    "cornell-crc-2day-cpet"
-  ]
+  ],
+  "index_url": "https://data.solvingmecfs.org/geo-gse214283/index.html"
  },
  {
   "id": "geo-gse227375",
@@ -594,7 +601,8 @@
   "notes": "GEO gives no subject IDs; our meta file infers subjects from consecutive sample triplets, checked with genotype-like genes. Attribution: Cite the original study and GEO accession GSE227375.",
   "cohort_ids": [
    "nova-klimas-exercise"
-  ]
+  ],
+  "index_url": "https://data.solvingmecfs.org/geo-gse227375/index.html"
  },
  {
   "id": "geo-gse293840",
@@ -645,7 +653,8 @@
   "notes": "Global composition shift: most gene sets ~+0.17 SD higher in cases; adjust before reading set-level results. Attribution: Cite the original study and GEO accession GSE293840.",
   "cohort_ids": [
    "cornell-crc-2day-cpet"
-  ]
+  ],
+  "index_url": "https://data.solvingmecfs.org/geo-gse293840/index.html"
  },
  {
   "id": "geo-gse128078",
@@ -691,7 +700,8 @@
   "notes": "Attribution: Cite the original study and GEO accession GSE128078.",
   "cohort_ids": [
    "ucsf-bouquet-2019"
-  ]
+  ],
+  "index_url": "https://data.solvingmecfs.org/geo-gse128078/index.html"
  },
  {
   "id": "geo-gse98139",
@@ -737,7 +747,8 @@
   "notes": "Attribution: Cite the original study and GEO accession GSE98139.",
   "cohort_ids": [
    "norcapital-adolescents"
-  ]
+  ],
+  "index_url": "https://data.solvingmecfs.org/geo-gse98139/index.html"
  },
  {
   "id": "geo-gse16059",
@@ -773,7 +784,8 @@
   "notes": "Attribution: Cite the original study and GEO accession GSE16059.",
   "cohort_ids": [
    "cfs-twin-registry"
-  ]
+  ],
+  "index_url": "https://data.solvingmecfs.org/geo-gse16059/index.html"
  },
  {
   "id": "geo-gse14577",
@@ -808,7 +820,8 @@
   "notes": "Attribution: Cite the original study and GEO accession GSE14577.",
   "cohort_ids": [
    "glasgow-gow-2009"
-  ]
+  ],
+  "index_url": "https://data.solvingmecfs.org/geo-gse14577/index.html"
  },
  {
   "id": "geo-gse268212",
@@ -849,7 +862,8 @@
   "notes": "Attribution: Cite the original study and GEO accession GSE268212.",
   "cohort_ids": [
    "cornell-crc-2day-cpet"
-  ]
+  ],
+  "index_url": "https://data.solvingmecfs.org/geo-gse268212/index.html"
  },
  {
   "id": "geo-gse270045",
@@ -890,7 +904,8 @@
   "notes": "Attribution: Cite the original study and GEO accession GSE270045.",
   "cohort_ids": [
    "alberta-post-covid-mecfs"
-  ]
+  ],
+  "index_url": "https://data.solvingmecfs.org/geo-gse270045/index.html"
  },
  {
   "id": "geo-gse275334",
@@ -925,7 +940,8 @@
   "notes": "Downloaded, not analysed. Attribution: Cite the original study and GEO accession GSE275334.",
   "cohort_ids": [
    "ncned-griffith-lab"
-  ]
+  ],
+  "index_url": "https://data.solvingmecfs.org/geo-gse275334/index.html"
  },
  {
   "id": "geo-gse130353",
@@ -955,7 +971,8 @@
   "notes": "Downloaded, not analysed. Attribution: Cite the original study and GEO accession GSE130353.",
   "cohort_ids": [
    "radboud-qfever"
-  ]
+  ],
+  "index_url": "https://data.solvingmecfs.org/geo-gse130353/index.html"
  },
  {
   "id": "geo-gse269047",
@@ -985,7 +1002,8 @@
   "notes": "Downloaded, not analysed. Attribution: Cite the original study and GEO accession GSE269047.",
   "cohort_ids": [
    "valencia-herv"
-  ]
+  ],
+  "index_url": "https://data.solvingmecfs.org/geo-gse269047/index.html"
  },
  {
   "id": "pride-pad000026",
@@ -1036,7 +1054,8 @@
   "notes": "Strong sample-handling artefact: intracellular proteins (histones, ALDOA, LDHB, VIM) lower in patients; adjust for a leak score before reading single proteins. Decimal commas in the log2 matrix. Sex coding inverted relative to its obvious reading (0 = male). Attribution: No legal requirement (CC0); please cite Hoel et al. 2026.",
   "cohort_ids": [
    "bergen-cyclome"
-  ]
+  ],
+  "index_url": "https://data.solvingmecfs.org/pride-pad000026/index.html"
  },
  {
   "id": "figshare-esteban-2026",
@@ -1302,7 +1321,8 @@
   "notes": "Stool, not plasma. Relative_abudance_with_OTUID.csv is a tryptophan-correlated subcommunity, not the whole community. A Google Docs shortcut file (.gdoc) in the deposit is not mirrored. Attribution: Cite Esteban et al. 2026 and the figshare DOI.",
   "cohort_ids": [
    "ramsay-esteban-2026"
-  ]
+  ],
+  "index_url": "https://data.solvingmecfs.org/figshare-esteban-2026/index.html"
  },
  {
   "id": "hoel-2021",
@@ -1373,7 +1393,8 @@
   "notes": "Summary statistics only; per-person data are available from the authors on request (not public). Attribution: Cite Hoel et al. 2021.",
   "cohort_ids": [
    "bergen-rituxme"
-  ]
+  ],
+  "index_url": "https://data.solvingmecfs.org/hoel-2021/index.html"
  },
  {
   "id": "germain-2018",
@@ -1419,7 +1440,8 @@
   "notes": "No covariates. Obtained via Europe PMC (MDPI blocks scripted download). Labels in this copy are correct (drug traces sit in the patient samples). Attribution: Cite Germain et al. 2018.",
   "cohort_ids": [
    "hanson-lab-nyc-metabolomics"
-  ]
+  ],
+  "index_url": "https://data.solvingmecfs.org/germain-2018/index.html"
  },
  {
   "id": "germain-2020",
@@ -1470,7 +1492,8 @@
   "notes": "A GitHub copy of these data (Nadjoubiii repository) has case/control labels swapped; these journal files are correct. May share participants with other Hanson-lab cohorts (unverified). Attribution: Cite Germain et al. 2020.",
   "cohort_ids": [
    "hanson-lab-nyc-metabolomics"
-  ]
+  ],
+  "index_url": "https://data.solvingmecfs.org/germain-2020/index.html"
  },
  {
   "id": "germain-2022",
@@ -1516,7 +1539,8 @@
   "notes": "This copy came from the BioMapAI GitHub repository (data/indenpendent_cohorts/jci.insight.2022.xlsx); the original is the article's supplementary dataset, published under the article's CC BY 4.0 licence. No CPET variables (VO2, workload) in the file. Attribution: Cite Germain et al. 2022.",
   "cohort_ids": [
    "cornell-crc-2day-cpet"
-  ]
+  ],
+  "index_url": "https://data.solvingmecfs.org/germain-2022/index.html"
  },
  {
   "id": "guo-2023",
@@ -1582,7 +1606,8 @@
   "notes": "Tables S1-S7 from the PMC author-manuscript supplement. Summary tables only (no per-sample data); Table S2 lists only nominally significant species. Attribution: Cite Guo et al. 2023.",
   "cohort_ids": [
    "columbia-csm-crc"
-  ]
+  ],
+  "index_url": "https://data.solvingmecfs.org/guo-2023/index.html"
  },
  {
   "id": "github-niaid-iggseq",
@@ -1687,7 +1712,8 @@
   "notes": "Snapshot of the default branch as cloned in September 2026, without git history; the repository's own README is at README.upstream.md. Raw reads: SRA PRJNA954397 (not mirrored). Attribution: Keep the repository's MIT licence notice; credit https://github.com/niaid/pi-mecfs-iggseq.",
   "cohort_ids": [
    "nih-pi-mecfs"
-  ]
+  ],
+  "index_url": "https://data.solvingmecfs.org/github-niaid-iggseq/index.html"
  },
  {
   "id": "github-goodship-hormones",
@@ -3052,7 +3078,8 @@
   "notes": "Snapshot of the default branch as cloned in September 2026, without git history; the repository's own README is at README.upstream.md. Not analysed by us. Attribution: Keep the repository's MIT licence notice; credit https://github.com/AbiGoodship/effect_of_ovarian_hormones_on_long_COVID_and_ME_symptoms.",
   "cohort_ids": [
    "visible-app-hormones"
-  ]
+  ],
+  "index_url": "https://data.solvingmecfs.org/github-goodship-hormones/index.html"
  },
  {
   "id": "github-das-longcovid-loso",
@@ -3304,7 +3331,8 @@
    "lc-gse224615",
    "lc-gse251849",
    "lc-gse169687"
-  ]
+  ],
+  "index_url": "https://data.solvingmecfs.org/github-das-longcovid-loso/index.html"
  },
  {
   "id": "github-mecfs-bioinformatics",
@@ -10057,7 +10085,8 @@
   "total_bytes": 7686259,
   "our_analyses": [],
   "notes": "Snapshot of the default branch as cloned in September 2026, without git history; the repository's own README is at README.upstream.md. Code only; 362 empty placeholder files skipped. Attribution: Keep the repository's MIT licence notice; credit https://github.com/trafalmadorian97/mecfs_bioinformatics.",
-  "cohort_ids": []
+  "cohort_ids": [],
+  "index_url": "https://data.solvingmecfs.org/github-mecfs-bioinformatics/index.html"
  },
  {
   "id": "github-tijn-thesis",
@@ -10110,7 +10139,8 @@
   "total_bytes": 5105846,
   "our_analyses": [],
   "notes": "Snapshot of the default branch as cloned in September 2026, without git history; the repository's own README is at README.upstream.md. Not analysed by us. Attribution: Keep the repository's GPL-3.0 licence notice; credit https://github.com/githubtijn2002/Thesis.",
-  "cohort_ids": []
+  "cohort_ids": [],
+  "index_url": "https://data.solvingmecfs.org/github-tijn-thesis/index.html"
  },
  {
   "id": "github-uab-mecfs-cohort",
@@ -13615,7 +13645,8 @@
   "notes": "Snapshot of the default branch as cloned in September 2026, without git history; the repository's own README is at README.upstream.md. Not analysed (too few controls). Text tables over 20 MB are gzipped here. Attribution: Keep the repository's GPL-3.0 licence notice; credit https://github.com/uab-cgds-worthey/mecfs-cohort-analysis.",
   "cohort_ids": [
    "uab-family-cohort"
-  ]
+  ],
+  "index_url": "https://data.solvingmecfs.org/github-uab-mecfs-cohort/index.html"
  },
  {
   "id": "github-armstrong-nmr-code",
@@ -13655,7 +13686,8 @@
   "notes": "Snapshot of the default branch as cloned in September 2026, without git history; the repository's own README is at README.upstream.md. The repository's copy of the MetaboLights MTBLS161 table is NOT mirrored: it is third-party data the repository owner cannot relicense (see metabolights-mtbls161). Attribution: Keep the repository's MIT licence notice; credit https://github.com/markothaurelio/cfs-metabolomics-biomarker-discovery.",
   "cohort_ids": [
    "melbourne-armstrong-2015"
-  ]
+  ],
+  "index_url": "https://data.solvingmecfs.org/github-armstrong-nmr-code/index.html"
  },
  {
   "id": "github-rti-mapmecfs-api",
@@ -13738,7 +13770,8 @@
   "total_bytes": 972717,
   "our_analyses": [],
   "notes": "Snapshot of the default branch as cloned in September 2026, without git history; the repository's own README is at README.upstream.md. Code only; data access needs a mapMECFS account (see mapmecfs). Attribution: Keep the repository's MIT licence notice; credit https://github.com/RTIInternational/mapMECFS-API.",
-  "cohort_ids": []
+  "cohort_ids": [],
+  "index_url": "https://data.solvingmecfs.org/github-rti-mapmecfs-api/index.html"
  },
  {
   "id": "analysis-round1-replication",
@@ -14317,7 +14350,8 @@
    }
   ],
   "notes": "Exploratory re-analysis, not peer reviewed. Excludes the pickled harmonised per-person Metabolomics Workbench table (CC BY-NC-ND source) and a mapMECFS catalogue table. Person-level tidy tables are included only for the NIH Walitt Source Data (CC BY 4.0). Attribution: Cite 'Solving ME/CFS data catalogue' with the URL; credit the underlying datasets listed in the README.",
-  "cohort_ids": []
+  "cohort_ids": [],
+  "index_url": "https://data.solvingmecfs.org/analysis-round1-replication/index.html"
  },
  {
   "id": "analysis-decodeme-genetics",
@@ -14958,7 +14992,8 @@
   "notes": "Exploratory re-analysis, not peer reviewed. eQTLGen region extract excluded (licence not stated). QC-filtered parquet copies of the sumstats are not mirrored (duplicates of decodeme-gwas); the GRCh38-to-rsID map is included. Attribution: Cite 'Solving ME/CFS data catalogue' with the URL; credit the underlying datasets listed in the README.",
   "cohort_ids": [
    "decodeme"
-  ]
+  ],
+  "index_url": "https://data.solvingmecfs.org/analysis-decodeme-genetics/index.html"
  },
  {
   "id": "analysis-aromatic-lactates",
@@ -15142,7 +15177,8 @@
    }
   ],
   "notes": "Exploratory re-analysis, not peer reviewed. All tables are per-study or pooled estimates; no per-person rows. Attribution: Cite 'Solving ME/CFS data catalogue' with the URL; credit the underlying datasets listed in the README.",
-  "cohort_ids": []
+  "cohort_ids": [],
+  "index_url": "https://data.solvingmecfs.org/analysis-aromatic-lactates/index.html"
  },
  {
   "id": "analysis-microbiome-ipa",
@@ -15331,7 +15367,8 @@
    }
   ],
   "notes": "Exploratory re-analysis, not peer reviewed. Per-person BioMapAI panel values, scores and Bracken guild abundances are excluded (sources have no redistribution licence). Copies of Esteban and Guo files are under figshare-esteban-2026 and guo-2023. Attribution: Cite 'Solving ME/CFS data catalogue' with the URL; credit the underlying datasets listed in the README.",
-  "cohort_ids": []
+  "cohort_ids": [],
+  "index_url": "https://data.solvingmecfs.org/analysis-microbiome-ipa/index.html"
  },
  {
   "id": "analysis-mr-proteome",
@@ -15635,7 +15672,8 @@
    }
   ],
   "notes": "Exploratory re-analysis, not peer reviewed. Includes MVP-only statistics we derived from the CC BY Zenodo 20204356 meta-analysis and MHC-region extracts of GWAS Catalog summary statistics (CC0) and DecodeME. Excluded: the FinnGen MHC extract (no explicit licence) and the pQTL instrument table built from the deCODE supplement (not openly licensed). Attribution: Cite 'Solving ME/CFS data catalogue' with the URL; credit the underlying datasets listed in the README.",
-  "cohort_ids": []
+  "cohort_ids": [],
+  "index_url": "https://data.solvingmecfs.org/analysis-mr-proteome/index.html"
  },
  {
   "id": "analysis-singlecell-methylation",
@@ -15984,7 +16022,8 @@
    }
   ],
   "notes": "Exploratory re-analysis, not peer reviewed. Per-cell and pseudobulk tables are derived from GEO GSE214283 (open). Repertoire per-sample metrics derive from ENA/SRA PRJEB83659 and PRJNA940635. Attribution: Cite 'Solving ME/CFS data catalogue' with the URL; credit the underlying datasets listed in the README.",
-  "cohort_ids": []
+  "cohort_ids": [],
+  "index_url": "https://data.solvingmecfs.org/analysis-singlecell-methylation/index.html"
  },
  {
   "id": "analysis-proteome",
@@ -16328,7 +16367,8 @@
    }
   ],
   "notes": "Exploratory re-analysis, not peer reviewed. Only per-cohort case-control statistics; no per-person rows. Raw inputs (several under CC BY-NC-ND) are not mirrored. Attribution: Cite 'Solving ME/CFS data catalogue' with the URL; credit the underlying datasets listed in the README.",
-  "cohort_ids": []
+  "cohort_ids": [],
+  "index_url": "https://data.solvingmecfs.org/analysis-proteome/index.html"
  },
  {
   "id": "analysis-epi-literature",
@@ -16467,7 +16507,8 @@
    }
   ],
   "notes": "Exploratory re-analysis, not peer reviewed. Raw ClinicalTrials.gov and PubMed downloads, raw Risteys scrapes, and the sentence-level abstract excerpts are excluded; the paper-level table is published without its excerpt column. One curated table that referred to an individual patient is excluded. Attribution: Cite 'Solving ME/CFS data catalogue' with the URL; credit the underlying datasets listed in the README.",
-  "cohort_ids": []
+  "cohort_ids": [],
+  "index_url": "https://data.solvingmecfs.org/analysis-epi-literature/index.html"
  },
  {
   "id": "analysis-pem-germain2022",
@@ -16628,7 +16669,8 @@
   "notes": "Exploratory re-analysis, not peer reviewed. Pickled working copies of the per-person data are excluded (the source xlsx is under germain-2022). Attribution: Cite 'Solving ME/CFS data catalogue' with the URL; credit the underlying datasets listed in the README.",
   "cohort_ids": [
    "cornell-crc-2day-cpet"
-  ]
+  ],
+  "index_url": "https://data.solvingmecfs.org/analysis-pem-germain2022/index.html"
  },
  {
   "id": "analysis-biomapai-reanalysis",
@@ -17444,7 +17486,8 @@
   "notes": "Exploratory re-analysis, not peer reviewed. BioMapAI data have no redistribution licence, so all per-person or per-visit outputs (out-of-fold predictions, cluster assignments, trajectories, axis values) are excluded; only aggregate statistics, scripts and figures are published. Attribution: Cite 'Solving ME/CFS data catalogue' with the URL; credit the underlying datasets listed in the README.",
   "cohort_ids": [
    "jax-bhc-biomapai"
-  ]
+  ],
+  "index_url": "https://data.solvingmecfs.org/analysis-biomapai-reanalysis/index.html"
  },
  {
   "id": "mwb-st000450",
@@ -17835,9 +17878,30 @@
   "data_type": "GWAS meta-analysis summary statistics (GRCh37 and GRCh38)",
   "licence": "CC-BY-4.0",
   "licence_url": "https://creativecommons.org/licenses/by/4.0/",
-  "status": "link_only",
-  "files": [],
-  "total_bytes": 0,
+  "status": "rehosted",
+  "files": [
+   {
+    "path": "README.md",
+    "url": "https://data.solvingmecfs.org/decodeme-mvp-meta/README.md",
+    "bytes": 2631
+   },
+   {
+    "path": "S1_File.xlsx",
+    "url": "https://data.solvingmecfs.org/decodeme-mvp-meta/S1_File.xlsx",
+    "bytes": 3011720
+   },
+   {
+    "path": "MetaME_Preprint.pdf",
+    "url": "https://data.solvingmecfs.org/decodeme-mvp-meta/MetaME_Preprint.pdf",
+    "bytes": 3187690
+   },
+   {
+    "path": "GWAS_METAL_DME_1_MVP_GRCh38.tsv.gz",
+    "url": "https://data.solvingmecfs.org/decodeme-mvp-meta/GWAS_METAL_DME_1_MVP_GRCh38.tsv.gz",
+    "bytes": 312549567
+   }
+  ],
+  "total_bytes": 318751608,
   "our_analyses": [
    {
     "title": "Mendelian randomisation, MVP/FinnGen replication and cis-pQTL protein screen",
@@ -17850,11 +17914,12 @@
     "path_or_url": "https://data.solvingmecfs.org/analysis-decodeme-genetics/README.md"
    }
   ],
-  "notes": "Licence allows redistribution (Zenodo API: cc-by-4.0) but the 630 MB files were not kept locally, so they are linked, not mirrored. Our MVP-only statistics derived from it are in analysis-mr-proteome (data/mvp_only_derived.parquet). FRQ and Z refer to allele A2.",
+  "notes": "Our MVP-only statistics derived from it are in analysis-mr-proteome (data/mvp_only_derived.parquet). FRQ and Z refer to allele A2. GRCh38 file, S1 table and preprint mirrored; the GRCh37 copy (311 MB, same results lifted over) is linked only to stay within the storage budget: https://zenodo.org/records/20204356. Attribution: Cite Maccallini 2026 (Zenodo doi:10.5281/zenodo.20204356), DecodeME and the Million Veteran Program.",
   "cohort_ids": [
    "decodeme",
    "million-veteran-program"
-  ]
+  ],
+  "index_url": "https://data.solvingmecfs.org/decodeme-mvp-meta/index.html"
  },
  {
   "id": "zenodo-22885464",
@@ -17866,14 +17931,26 @@
   "data_type": "QTL/colocalisation package (63 MB zip)",
   "licence": "CC-BY-4.0",
   "licence_url": "https://creativecommons.org/licenses/by/4.0/",
-  "status": "link_only",
-  "files": [],
-  "total_bytes": 0,
+  "status": "rehosted",
+  "files": [
+   {
+    "path": "README.md",
+    "url": "https://data.solvingmecfs.org/zenodo-22885464/README.md",
+    "bytes": 1354
+   },
+   {
+    "path": "zenodo22885464_v1.1.0_public_20260921.zip",
+    "url": "https://data.solvingmecfs.org/zenodo-22885464/zenodo22885464_v1.1.0_public_20260921.zip",
+    "bytes": 63168116
+   }
+  ],
+  "total_bytes": 63169470,
   "our_analyses": [],
-  "notes": "CC BY 4.0 (Zenodo API) but not kept locally; linked only.",
+  "notes": "The zip was renamed from its original Chinese file name (topic-8 Zenodo repository v1.1.0, reduced public version, 2026-09-21); content unchanged. Attribution: Cite Huang, Bi, Chen et al. 2026, Zenodo doi:10.5281/zenodo.22885464.",
   "cohort_ids": [
    "decodeme"
-  ]
+  ],
+  "index_url": "https://data.solvingmecfs.org/zenodo-22885464/index.html"
  },
  {
   "id": "zenodo-18198370",
@@ -17929,9 +18006,25 @@
   "data_type": "GWAS summary statistics (GRCh37)",
   "licence": "CC-BY-4.0",
   "licence_url": "https://creativecommons.org/licenses/by/4.0/",
-  "status": "link_only",
-  "files": [],
-  "total_bytes": 0,
+  "status": "rehosted",
+  "files": [
+   {
+    "path": "README.md",
+    "url": "https://data.solvingmecfs.org/panukb-20002-1482/README.md",
+    "bytes": 2027
+   },
+   {
+    "path": "categorical-20002-both_sexes-1482.tsv.bgz",
+    "url": "https://data.solvingmecfs.org/panukb-20002-1482/categorical-20002-both_sexes-1482.tsv.bgz",
+    "bytes": 542715573
+   },
+   {
+    "path": "categorical-20002-both_sexes-1482.tsv.bgz.tbi",
+    "url": "https://data.solvingmecfs.org/panukb-20002-1482/categorical-20002-both_sexes-1482.tsv.bgz.tbi",
+    "bytes": 1750970
+   }
+  ],
+  "total_bytes": 544468570,
   "our_analyses": [
    {
     "title": "Mendelian randomisation, MVP/FinnGen replication and cis-pQTL protein screen",
@@ -17939,10 +18032,11 @@
     "path_or_url": "https://data.solvingmecfs.org/analysis-mr-proteome/README.md"
    }
   ],
-  "notes": "Pan-UKB states CC BY 4.0 for its results (documentation page could not be retrieved by curl to re-confirm); files (543 MB) not kept locally, so linked only. Shares UK Biobank controls with DecodeME.",
+  "notes": "Shares UK Biobank controls with DecodeME. Attribution: Acknowledge the Pan-UKB team and UK Biobank and cite Karczewski KJ et al. (Pan-UKB); link https://pan.ukbb.broadinstitute.org.",
   "cohort_ids": [
    "uk-biobank"
-  ]
+  ],
+  "index_url": "https://data.solvingmecfs.org/panukb-20002-1482/index.html"
  },
  {
   "id": "pqtl-ukbppp-decode",
@@ -17977,9 +18071,135 @@
   "data_type": "",
   "licence": "CC0-1.0",
   "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-  "status": "link_only",
-  "files": [],
-  "total_bytes": 0,
+  "status": "rehosted",
+  "files": [
+   {
+    "path": "README.md",
+    "url": "https://data.solvingmecfs.org/gwas-catalog/README.md",
+    "bytes": 4246
+   },
+   {
+    "path": "GCST90077895/GCST90077895_buildGRCh38.tsv.gz",
+    "url": "https://data.solvingmecfs.org/gwas-catalog/GCST90077895/GCST90077895_buildGRCh38.tsv.gz",
+    "bytes": 15494590
+   },
+   {
+    "path": "GCST90077895/GCST90077895_buildGRCh38.tsv.gz-meta.yaml",
+    "url": "https://data.solvingmecfs.org/gwas-catalog/GCST90077895/GCST90077895_buildGRCh38.tsv.gz-meta.yaml",
+    "bytes": 898
+   },
+   {
+    "path": "GCST90077895/README.txt",
+    "url": "https://data.solvingmecfs.org/gwas-catalog/GCST90077895/README.txt",
+    "bytes": 698
+   },
+   {
+    "path": "GCST90077896/GCST90077896_buildGRCh38.tsv.gz",
+    "url": "https://data.solvingmecfs.org/gwas-catalog/GCST90077896/GCST90077896_buildGRCh38.tsv.gz",
+    "bytes": 15642917
+   },
+   {
+    "path": "GCST90077896/GCST90077896_buildGRCh38.tsv.gz-meta.yaml",
+    "url": "https://data.solvingmecfs.org/gwas-catalog/GCST90077896/GCST90077896_buildGRCh38.tsv.gz-meta.yaml",
+    "bytes": 913
+   },
+   {
+    "path": "GCST90077896/README.txt",
+    "url": "https://data.solvingmecfs.org/gwas-catalog/GCST90077896/README.txt",
+    "bytes": 698
+   },
+   {
+    "path": "GCST90079857/GCST90079857_buildGRCh38.tsv.gz",
+    "url": "https://data.solvingmecfs.org/gwas-catalog/GCST90079857/GCST90079857_buildGRCh38.tsv.gz",
+    "bytes": 16904682
+   },
+   {
+    "path": "GCST90079857/GCST90079857_buildGRCh38.tsv.gz-meta.yaml",
+    "url": "https://data.solvingmecfs.org/gwas-catalog/GCST90079857/GCST90079857_buildGRCh38.tsv.gz-meta.yaml",
+    "bytes": 915
+   },
+   {
+    "path": "GCST90079857/README.txt",
+    "url": "https://data.solvingmecfs.org/gwas-catalog/GCST90079857/README.txt",
+    "bytes": 698
+   },
+   {
+    "path": "GCST90080875/GCST90080875_buildGRCh38.tsv.gz",
+    "url": "https://data.solvingmecfs.org/gwas-catalog/GCST90080875/GCST90080875_buildGRCh38.tsv.gz",
+    "bytes": 16678145
+   },
+   {
+    "path": "GCST90080875/GCST90080875_buildGRCh38.tsv.gz-meta.yaml",
+    "url": "https://data.solvingmecfs.org/gwas-catalog/GCST90080875/GCST90080875_buildGRCh38.tsv.gz-meta.yaml",
+    "bytes": 918
+   },
+   {
+    "path": "GCST90080875/README.txt",
+    "url": "https://data.solvingmecfs.org/gwas-catalog/GCST90080875/README.txt",
+    "bytes": 698
+   },
+   {
+    "path": "GCST90081881/GCST90081881_buildGRCh38.tsv.gz",
+    "url": "https://data.solvingmecfs.org/gwas-catalog/GCST90081881/GCST90081881_buildGRCh38.tsv.gz",
+    "bytes": 4540453
+   },
+   {
+    "path": "GCST90081881/GCST90081881_buildGRCh38.tsv.gz-meta.yaml",
+    "url": "https://data.solvingmecfs.org/gwas-catalog/GCST90081881/GCST90081881_buildGRCh38.tsv.gz-meta.yaml",
+    "bytes": 1270
+   },
+   {
+    "path": "GCST90081881/README.txt",
+    "url": "https://data.solvingmecfs.org/gwas-catalog/GCST90081881/README.txt",
+    "bytes": 698
+   },
+   {
+    "path": "GCST90081882/GCST90081882_buildGRCh38.tsv.gz",
+    "url": "https://data.solvingmecfs.org/gwas-catalog/GCST90081882/GCST90081882_buildGRCh38.tsv.gz",
+    "bytes": 4613122
+   },
+   {
+    "path": "GCST90081882/GCST90081882_buildGRCh38.tsv.gz-meta.yaml",
+    "url": "https://data.solvingmecfs.org/gwas-catalog/GCST90081882/GCST90081882_buildGRCh38.tsv.gz-meta.yaml",
+    "bytes": 1285
+   },
+   {
+    "path": "GCST90081882/README.txt",
+    "url": "https://data.solvingmecfs.org/gwas-catalog/GCST90081882/README.txt",
+    "bytes": 698
+   },
+   {
+    "path": "GCST90083843/GCST90083843_buildGRCh38.tsv.gz",
+    "url": "https://data.solvingmecfs.org/gwas-catalog/GCST90083843/GCST90083843_buildGRCh38.tsv.gz",
+    "bytes": 4525967
+   },
+   {
+    "path": "GCST90083843/GCST90083843_buildGRCh38.tsv.gz-meta.yaml",
+    "url": "https://data.solvingmecfs.org/gwas-catalog/GCST90083843/GCST90083843_buildGRCh38.tsv.gz-meta.yaml",
+    "bytes": 1287
+   },
+   {
+    "path": "GCST90083843/README.txt",
+    "url": "https://data.solvingmecfs.org/gwas-catalog/GCST90083843/README.txt",
+    "bytes": 698
+   },
+   {
+    "path": "GCST90084861/GCST90084861_buildGRCh38.tsv.gz",
+    "url": "https://data.solvingmecfs.org/gwas-catalog/GCST90084861/GCST90084861_buildGRCh38.tsv.gz",
+    "bytes": 4509597
+   },
+   {
+    "path": "GCST90084861/GCST90084861_buildGRCh38.tsv.gz-meta.yaml",
+    "url": "https://data.solvingmecfs.org/gwas-catalog/GCST90084861/GCST90084861_buildGRCh38.tsv.gz-meta.yaml",
+    "bytes": 1290
+   },
+   {
+    "path": "GCST90084861/README.txt",
+    "url": "https://data.solvingmecfs.org/gwas-catalog/GCST90084861/README.txt",
+    "bytes": 698
+   }
+  ],
+  "total_bytes": 82928079,
   "our_analyses": [
    {
     "title": "Mendelian randomisation, MVP/FinnGen replication and cis-pQTL protein screen",
@@ -17987,8 +18207,9 @@
     "path_or_url": "https://data.solvingmecfs.org/analysis-mr-proteome/README.md"
    }
   ],
-  "notes": "GWAS Catalog: summary statistics are CC0 unless otherwise stated. Full files were streamed, not kept; only the MHC-region extracts are mirrored inside analysis-mr-proteome.",
-  "cohort_ids": []
+  "notes": "GWAS Catalog: summary statistics are CC0 unless otherwise stated. Full files were streamed, not kept; only the MHC-region extracts are mirrored inside analysis-mr-proteome. Mirrored: the 8 ME/CFS-trait (MONDO_0005404) studies from Backman 2021 UK Biobank exome sequencing (GCST90077895 Chronic fatigue syndrome (single variant); GCST90077896 ICD10 R53.82 chronic fatigue syndrome (single variant); GCST90079857 ICD10 G93.3 postviral fatigue syndrome (single variant); GCST90080875 ICD10 R53.82 chronic fatigue, unspecified (single variant); GCST90081881 Chronic fatigue syndrome (gene burden); GCST90081882 ICD10 R53.82 chronic fatigue syndrome (gene burden); GCST90083843 ICD10 G93.3 postviral fatigue syndrome (gene burden); GCST90084861 ICD10 R53.82 chronic fatigue, unspecified (gene burden)). Linked only because of size (0.6-1.3 GB each): GCST90479177/90479178/90480593 (MVP PheCode 798.1), GCST90436811 (UKB PheCode 798.1), GCST90038694 (UKB, Jiang 2021), GCST90726676 (Genes & Health chronic fatigue). Exposure GWAS (EBV/CMV serology, metabolites) are streamed by our scripts and not mirrored; MHC extracts are in analysis-mr-proteome. Attribution: No legal requirement (CC0); please cite Backman JD et al. Nature 2021 (doi:10.1038/s41586-021-04103-z) and the GWAS Catalog (Sollis E et al. NAR 2023).",
+  "cohort_ids": [],
+  "index_url": "https://data.solvingmecfs.org/gwas-catalog/index.html"
  },
  {
   "id": "risteys-finngen",
@@ -18138,9 +18359,60 @@
   "data_type": "",
   "licence": "CC-BY-4.0",
   "licence_url": "https://creativecommons.org/licenses/by/4.0/",
-  "status": "link_only",
-  "files": [],
-  "total_bytes": 0,
+  "status": "rehosted",
+  "files": [
+   {
+    "path": "README.md",
+    "url": "https://data.solvingmecfs.org/rydland-2026-ev/README.md",
+    "bytes": 2550
+   },
+   {
+    "path": "supplement/mmc1.xlsx",
+    "url": "https://data.solvingmecfs.org/rydland-2026-ev/supplement/mmc1.xlsx",
+    "bytes": 286458
+   },
+   {
+    "path": "supplement/gr2.gif",
+    "url": "https://data.solvingmecfs.org/rydland-2026-ev/supplement/gr2.gif",
+    "bytes": 75688
+   },
+   {
+    "path": "supplement/gr1.jpg",
+    "url": "https://data.solvingmecfs.org/rydland-2026-ev/supplement/gr1.jpg",
+    "bytes": 380498
+   },
+   {
+    "path": "supplement/gr2.jpg",
+    "url": "https://data.solvingmecfs.org/rydland-2026-ev/supplement/gr2.jpg",
+    "bytes": 405146
+   },
+   {
+    "path": "supplement/mmc2.docx",
+    "url": "https://data.solvingmecfs.org/rydland-2026-ev/supplement/mmc2.docx",
+    "bytes": 463328
+   },
+   {
+    "path": "supplement/gr1.gif",
+    "url": "https://data.solvingmecfs.org/rydland-2026-ev/supplement/gr1.gif",
+    "bytes": 74538
+   },
+   {
+    "path": "PXD072203/Final_mqpar.xml",
+    "url": "https://data.solvingmecfs.org/rydland-2026-ev/PXD072203/Final_mqpar.xml",
+    "bytes": 46294
+   },
+   {
+    "path": "PXD072203/Proteomics_filesnames_samples.xlsx",
+    "url": "https://data.solvingmecfs.org/rydland-2026-ev/PXD072203/Proteomics_filesnames_samples.xlsx",
+    "bytes": 11266
+   },
+   {
+    "path": "PXD072203/PXD072203_community_annotated.sdrf.tsv",
+    "url": "https://data.solvingmecfs.org/rydland-2026-ev/PXD072203/PXD072203_community_annotated.sdrf.tsv",
+    "bytes": 67258
+   }
+  ],
+  "total_bytes": 1813024,
   "our_analyses": [
    {
     "title": "Blood and CSF proteomics, extracellular vesicles and cross-omics convergence",
@@ -18148,10 +18420,11 @@
     "path_or_url": "https://data.solvingmecfs.org/analysis-proteome/README.md"
    }
   ],
-  "notes": "CC BY (Europe PMC) but the supplement was not kept locally; linked only.",
+  "notes": "Mirrored: article supplementary files (mmc1.xlsx, mmc2.docx) and PRIDE MaxQuant parameters, sample key and SDRF. Not mirrored (size): combined_final.7z MaxQuant output (7.1 GB) and raw files (401 GB). Attribution: Cite Rydland A et al. Biochem Biophys Rep 2026 (doi:10.1016/j.bbrep.2026.102679) and PRIDE PXD072203.",
   "cohort_ids": [
    "oslo-mecfs-biobank"
-  ]
+  ],
+  "index_url": "https://data.solvingmecfs.org/rydland-2026-ev/index.html"
  },
  {
   "id": "bragee-2026-csf",
@@ -18163,9 +18436,40 @@
   "data_type": "",
   "licence": "CC0-1.0",
   "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-  "status": "link_only",
-  "files": [],
-  "total_bytes": 0,
+  "status": "rehosted",
+  "files": [
+   {
+    "path": "README.md",
+    "url": "https://data.solvingmecfs.org/bragee-2026-csf/README.md",
+    "bytes": 2101
+   },
+   {
+    "path": "supplement/41598_2026_46965_MOESM1_ESM.xlsx",
+    "url": "https://data.solvingmecfs.org/bragee-2026-csf/supplement/41598_2026_46965_MOESM1_ESM.xlsx",
+    "bytes": 407398
+   },
+   {
+    "path": "PXD076216/proteinGroups.txt.gz",
+    "url": "https://data.solvingmecfs.org/bragee-2026-csf/PXD076216/proteinGroups.txt.gz",
+    "bytes": 6032767
+   },
+   {
+    "path": "PXD076216/sdrf.tsv",
+    "url": "https://data.solvingmecfs.org/bragee-2026-csf/PXD076216/sdrf.tsv",
+    "bytes": 6862
+   },
+   {
+    "path": "PXD076216/peptides.txt.gz",
+    "url": "https://data.solvingmecfs.org/bragee-2026-csf/PXD076216/peptides.txt.gz",
+    "bytes": 9717693
+   },
+   {
+    "path": "PXD076216/PXD076216_community_annotated.sdrf.tsv",
+    "url": "https://data.solvingmecfs.org/bragee-2026-csf/PXD076216/PXD076216_community_annotated.sdrf.tsv",
+    "bytes": 14378
+   }
+  ],
+  "total_bytes": 16181199,
   "our_analyses": [
    {
     "title": "Blood and CSF proteomics, extracellular vesicles and cross-omics convergence",
@@ -18173,10 +18477,11 @@
     "path_or_url": "https://data.solvingmecfs.org/analysis-proteome/README.md"
    }
   ],
-  "notes": "PRIDE licence CC0 and article CC BY, but files were not kept locally; linked only.",
+  "notes": "Mirrored: Supplementary Information xlsx, MaxQuant proteinGroups.txt and peptides.txt (gzipped by us), SDRF files. Not mirrored: evidence.txt (118 MB) and raw files (42 GB); get them from PRIDE. Attribution: Cite Bragee B et al. Sci Rep 2026 (doi:10.1038/s41598-026-46965-1) and PRIDE PXD076216.",
   "cohort_ids": [
    "stockholm-me-center"
-  ]
+  ],
+  "index_url": "https://data.solvingmecfs.org/bragee-2026-csf/index.html"
  },
  {
   "id": "pride-pxd065439",
@@ -18188,9 +18493,20 @@
   "data_type": "",
   "licence": "CC0-1.0",
   "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-  "status": "link_only",
-  "files": [],
-  "total_bytes": 0,
+  "status": "rehosted",
+  "files": [
+   {
+    "path": "README.md",
+    "url": "https://data.solvingmecfs.org/pride-pxd065439/README.md",
+    "bytes": 1870
+   },
+   {
+    "path": "MSruns-Rawdata-overview.xlsx",
+    "url": "https://data.solvingmecfs.org/pride-pxd065439/MSruns-Rawdata-overview.xlsx",
+    "bytes": 12568
+   }
+  ],
+  "total_bytes": 14438,
   "our_analyses": [
    {
     "title": "Blood and CSF proteomics, extracellular vesicles and cross-omics convergence",
@@ -18198,10 +18514,11 @@
     "path_or_url": "https://data.solvingmecfs.org/analysis-proteome/README.md"
    }
   ],
-  "notes": "PRIDE licence CC0, but files were not kept locally; linked only.",
+  "notes": "Mirrored: raw-run overview sheet only. MaxQuant txt zip (2.4 GB) and raw files (154 GB) are linked only (size). Attribution: No legal requirement (CC0); please cite PRIDE PXD065439 and Liu Z et al. 2026.",
   "cohort_ids": [
    "charite-fatigue-centre"
-  ]
+  ],
+  "index_url": "https://data.solvingmecfs.org/pride-pxd065439/index.html"
  },
  {
   "id": "ukb-beentjes-2025",
@@ -18213,9 +18530,90 @@
   "data_type": "",
   "licence": "CC-BY-4.0",
   "licence_url": "https://creativecommons.org/licenses/by/4.0/",
-  "status": "link_only",
-  "files": [],
-  "total_bytes": 0,
+  "status": "rehosted",
+  "files": [
+   {
+    "path": "README.md",
+    "url": "https://data.solvingmecfs.org/ukb-beentjes-2025/README.md",
+    "bytes": 2326
+   },
+   {
+    "path": "Dataset_EV1.xlsx",
+    "url": "https://data.solvingmecfs.org/ukb-beentjes-2025/Dataset_EV1.xlsx",
+    "bytes": 10250
+   },
+   {
+    "path": "Dataset_EV2.xlsx",
+    "url": "https://data.solvingmecfs.org/ukb-beentjes-2025/Dataset_EV2.xlsx",
+    "bytes": 56416
+   },
+   {
+    "path": "Dataset_EV3.xlsx",
+    "url": "https://data.solvingmecfs.org/ukb-beentjes-2025/Dataset_EV3.xlsx",
+    "bytes": 74320
+   },
+   {
+    "path": "Dataset_EV4.xlsx",
+    "url": "https://data.solvingmecfs.org/ukb-beentjes-2025/Dataset_EV4.xlsx",
+    "bytes": 1608428
+   },
+   {
+    "path": "Dataset_EV5.xlsx",
+    "url": "https://data.solvingmecfs.org/ukb-beentjes-2025/Dataset_EV5.xlsx",
+    "bytes": 170067
+   },
+   {
+    "path": "Dataset_EV6.xlsx",
+    "url": "https://data.solvingmecfs.org/ukb-beentjes-2025/Dataset_EV6.xlsx",
+    "bytes": 1918591
+   },
+   {
+    "path": "Dataset_EV7.xlsx",
+    "url": "https://data.solvingmecfs.org/ukb-beentjes-2025/Dataset_EV7.xlsx",
+    "bytes": 14782
+   },
+   {
+    "path": "Dataset_EV8.xlsx",
+    "url": "https://data.solvingmecfs.org/ukb-beentjes-2025/Dataset_EV8.xlsx",
+    "bytes": 51548
+   },
+   {
+    "path": "Dataset_EV9.xlsx",
+    "url": "https://data.solvingmecfs.org/ukb-beentjes-2025/Dataset_EV9.xlsx",
+    "bytes": 52830
+   },
+   {
+    "path": "Dataset_EV10.xlsx",
+    "url": "https://data.solvingmecfs.org/ukb-beentjes-2025/Dataset_EV10.xlsx",
+    "bytes": 138169
+   },
+   {
+    "path": "Dataset_EV11.xlsx",
+    "url": "https://data.solvingmecfs.org/ukb-beentjes-2025/Dataset_EV11.xlsx",
+    "bytes": 40806
+   },
+   {
+    "path": "Dataset_EV12.xlsx",
+    "url": "https://data.solvingmecfs.org/ukb-beentjes-2025/Dataset_EV12.xlsx",
+    "bytes": 13557
+   },
+   {
+    "path": "Dataset_EV13.xlsx",
+    "url": "https://data.solvingmecfs.org/ukb-beentjes-2025/Dataset_EV13.xlsx",
+    "bytes": 36998
+   },
+   {
+    "path": "Dataset_EV14.xlsx",
+    "url": "https://data.solvingmecfs.org/ukb-beentjes-2025/Dataset_EV14.xlsx",
+    "bytes": 216387
+   },
+   {
+    "path": "Expanded_View_Figures.pdf",
+    "url": "https://data.solvingmecfs.org/ukb-beentjes-2025/Expanded_View_Figures.pdf",
+    "bytes": 270984
+   }
+  ],
+  "total_bytes": 4676459,
   "our_analyses": [
    {
     "title": "Blood and CSF proteomics, extracellular vesicles and cross-omics convergence",
@@ -18223,10 +18621,11 @@
     "path_or_url": "https://data.solvingmecfs.org/analysis-proteome/README.md"
    }
   ],
-  "notes": "CC BY (Europe PMC) but the supplement was not kept locally; linked only. Raw data need a UK Biobank application.",
+  "notes": "Raw data need a UK Biobank application. Mirrored: Datasets EV1-EV14 (summary results) and the Expanded View figures. Individual-level UK Biobank data need a UK Biobank application. Attribution: Cite Beentjes SV et al. EMBO Mol Med 2025 (doi:10.1038/s44321-025-00258-8).",
   "cohort_ids": [
    "uk-biobank"
-  ]
+  ],
+  "index_url": "https://data.solvingmecfs.org/ukb-beentjes-2025/index.html"
  },
  {
   "id": "zenodo-14772494",
@@ -18238,9 +18637,40 @@
   "data_type": "Olink proteomics",
   "licence": "CC-BY-4.0",
   "licence_url": "https://creativecommons.org/licenses/by/4.0/",
-  "status": "link_only",
-  "files": [],
-  "total_bytes": 0,
+  "status": "rehosted",
+  "files": [
+   {
+    "path": "README.md",
+    "url": "https://data.solvingmecfs.org/zenodo-14772494/README.md",
+    "bytes": 1725
+   },
+   {
+    "path": "plate3_olink.csv",
+    "url": "https://data.solvingmecfs.org/zenodo-14772494/plate3_olink.csv",
+    "bytes": 22257730
+   },
+   {
+    "path": "meta_UKsamples.csv",
+    "url": "https://data.solvingmecfs.org/zenodo-14772494/meta_UKsamples.csv",
+    "bytes": 7592
+   },
+   {
+    "path": "plate1_olink.csv",
+    "url": "https://data.solvingmecfs.org/zenodo-14772494/plate1_olink.csv",
+    "bytes": 32825614
+   },
+   {
+    "path": "meta_SEsamples.csv",
+    "url": "https://data.solvingmecfs.org/zenodo-14772494/meta_SEsamples.csv",
+    "bytes": 4254
+   },
+   {
+    "path": "plate2_olink.csv",
+    "url": "https://data.solvingmecfs.org/zenodo-14772494/plate2_olink.csv",
+    "bytes": 33624174
+   }
+  ],
+  "total_bytes": 88721089,
   "our_analyses": [
    {
     "title": "Blood and CSF proteomics, extracellular vesicles and cross-omics convergence",
@@ -18248,10 +18678,11 @@
     "path_or_url": "https://data.solvingmecfs.org/analysis-proteome/README.md"
    }
   ],
-  "notes": "CC BY 4.0 (Zenodo API) but files were not kept locally; linked only.",
+  "notes": "Attribution: Cite Cai C et al. 2025, Zenodo doi:10.5281/zenodo.14772494.",
   "cohort_ids": [
    "lc-uk-olink-zenodo"
-  ]
+  ],
+  "index_url": "https://data.solvingmecfs.org/zenodo-14772494/index.html"
  },
  {
   "id": "zenodo-13363117",
@@ -18263,9 +18694,20 @@
   "data_type": "Olink proteomics",
   "licence": "CC-BY-4.0",
   "licence_url": "https://creativecommons.org/licenses/by/4.0/",
-  "status": "link_only",
-  "files": [],
-  "total_bytes": 0,
+  "status": "rehosted",
+  "files": [
+   {
+    "path": "README.md",
+    "url": "https://data.solvingmecfs.org/zenodo-13363117/README.md",
+    "bytes": 1565
+   },
+   {
+    "path": "IRIS_LongCOVID_olink_data.csv",
+    "url": "https://data.solvingmecfs.org/zenodo-13363117/IRIS_LongCOVID_olink_data.csv",
+    "bytes": 999278
+   }
+  ],
+  "total_bytes": 1000843,
   "our_analyses": [
    {
     "title": "Blood and CSF proteomics, extracellular vesicles and cross-omics convergence",
@@ -18273,10 +18715,11 @@
     "path_or_url": "https://data.solvingmecfs.org/analysis-proteome/README.md"
    }
   ],
-  "notes": "CC BY 4.0 (Zenodo API) but files were not kept locally; linked only.",
+  "notes": "Attribution: Cite Hamlin R, Pienkos S, Blish C et al. 2024, Zenodo doi:10.5281/zenodo.13363117.",
   "cohort_ids": [
    "lc-iris-olink"
-  ]
+  ],
+  "index_url": "https://data.solvingmecfs.org/zenodo-13363117/index.html"
  },
  {
   "id": "zenodo-15237088",
@@ -18288,9 +18731,35 @@
   "data_type": "Olink proteomics",
   "licence": "CC-BY-4.0",
   "licence_url": "https://creativecommons.org/licenses/by/4.0/",
-  "status": "link_only",
-  "files": [],
-  "total_bytes": 0,
+  "status": "rehosted",
+  "files": [
+   {
+    "path": "README.md",
+    "url": "https://data.solvingmecfs.org/zenodo-15237088/README.md",
+    "bytes": 1783
+   },
+   {
+    "path": "baseline57.xlsx",
+    "url": "https://data.solvingmecfs.org/zenodo-15237088/baseline57.xlsx",
+    "bytes": 1234901
+   },
+   {
+    "path": "Longitudinal_paired34.xlsx",
+    "url": "https://data.solvingmecfs.org/zenodo-15237088/Longitudinal_paired34.xlsx",
+    "bytes": 2147267
+   },
+   {
+    "path": "baseline_182proteins_univariate.xlsx",
+    "url": "https://data.solvingmecfs.org/zenodo-15237088/baseline_182proteins_univariate.xlsx",
+    "bytes": 62289
+   },
+   {
+    "path": "rcode_longcovid_2024.R",
+    "url": "https://data.solvingmecfs.org/zenodo-15237088/rcode_longcovid_2024.R",
+    "bytes": 16009
+   }
+  ],
+  "total_bytes": 3462249,
   "our_analyses": [
    {
     "title": "Blood and CSF proteomics, extracellular vesicles and cross-omics convergence",
@@ -18298,10 +18767,11 @@
     "path_or_url": "https://data.solvingmecfs.org/analysis-proteome/README.md"
    }
   ],
-  "notes": "CC BY 4.0 (Zenodo API) but files were not kept locally; linked only.",
+  "notes": "Attribution: Cite Eriksson E, Bansal A, Olechnowicz S, Bowden R et al. 2025, Zenodo doi:10.5281/zenodo.15237088.",
   "cohort_ids": [
    "lc-bansal-olink"
-  ]
+  ],
+  "index_url": "https://data.solvingmecfs.org/zenodo-15237088/index.html"
  },
  {
   "id": "vdjdb",
@@ -18313,9 +18783,20 @@
   "data_type": "",
   "licence": "AGPL-3.0-or-later",
   "licence_url": "https://www.gnu.org/licenses/agpl-3.0.html",
-  "status": "link_only",
-  "files": [],
-  "total_bytes": 0,
+  "status": "rehosted",
+  "files": [
+   {
+    "path": "README.md",
+    "url": "https://data.solvingmecfs.org/vdjdb/README.md",
+    "bytes": 1664
+   },
+   {
+    "path": "vdjdb-2026-06-03.zip",
+    "url": "https://data.solvingmecfs.org/vdjdb/vdjdb-2026-06-03.zip",
+    "bytes": 41017409
+   }
+  ],
+  "total_bytes": 41019073,
   "our_analyses": [
    {
     "title": "Single-cell PBMC, DNA methylation and B/T-cell repertoire re-analysis",
@@ -18323,8 +18804,9 @@
     "path_or_url": "https://data.solvingmecfs.org/analysis-singlecell-methylation/README.md"
    }
   ],
-  "notes": "Reference database used for EBV/CMV TCR annotation; not kept locally; linked only.",
-  "cohort_ids": []
+  "notes": "Attribution: Keep the AGPL-3.0 licence notice; cite Goncharov M et al. VDJdb (Zenodo doi:10.5281/zenodo.22104776).",
+  "cohort_ids": [],
+  "index_url": "https://data.solvingmecfs.org/vdjdb/index.html"
  },
  {
   "id": "geo-gse156792",
@@ -18336,9 +18818,20 @@
   "data_type": "CD3+ T-cell 450K methylation",
   "licence": "NCBI GEO public data (no NCBI restrictions; submitter rights may apply)",
   "licence_url": "https://www.ncbi.nlm.nih.gov/geo/info/disclaimer.html",
-  "status": "link_only",
-  "files": [],
-  "total_bytes": 0,
+  "status": "rehosted",
+  "files": [
+   {
+    "path": "README.md",
+    "url": "https://data.solvingmecfs.org/geo-gse156792/README.md",
+    "bytes": 1833
+   },
+   {
+    "path": "GSE156792_series_matrix.txt.gz",
+    "url": "https://data.solvingmecfs.org/geo-gse156792/GSE156792_series_matrix.txt.gz",
+    "bytes": 429066462
+   }
+  ],
+  "total_bytes": 429068295,
   "our_analyses": [
    {
     "title": "Single-cell PBMC, DNA methylation and B/T-cell repertoire re-analysis",
@@ -18346,10 +18839,11 @@
     "path_or_url": "https://data.solvingmecfs.org/analysis-singlecell-methylation/README.md"
    }
   ],
-  "notes": "Open GEO data (redistribution allowed), but the 66-430 MB matrices were not kept locally; linked only.",
+  "notes": "Series matrix (normalised beta values) mirrored; raw IDAT tar and intensity/detection-p files are linked only (size). Attribution: Cite the original study and GEO accession GSE156792.",
   "cohort_ids": [
    "toronto-methylation"
-  ]
+  ],
+  "index_url": "https://data.solvingmecfs.org/geo-gse156792/index.html"
  },
  {
   "id": "geo-gse93266",
@@ -18361,9 +18855,20 @@
   "data_type": "'PBMC' 450K methylation",
   "licence": "NCBI GEO public data (no NCBI restrictions; submitter rights may apply)",
   "licence_url": "https://www.ncbi.nlm.nih.gov/geo/info/disclaimer.html",
-  "status": "link_only",
-  "files": [],
-  "total_bytes": 0,
+  "status": "rehosted",
+  "files": [
+   {
+    "path": "README.md",
+    "url": "https://data.solvingmecfs.org/geo-gse93266/README.md",
+    "bytes": 1820
+   },
+   {
+    "path": "GSE93266_series_matrix.txt.gz",
+    "url": "https://data.solvingmecfs.org/geo-gse93266/GSE93266_series_matrix.txt.gz",
+    "bytes": 185275179
+   }
+  ],
+  "total_bytes": 185276999,
   "our_analyses": [
    {
     "title": "Single-cell PBMC, DNA methylation and B/T-cell repertoire re-analysis",
@@ -18371,10 +18876,11 @@
     "path_or_url": "https://data.solvingmecfs.org/analysis-singlecell-methylation/README.md"
    }
   ],
-  "notes": "Open GEO data (redistribution allowed), but the 66-430 MB matrices were not kept locally; linked only.",
+  "notes": "Series matrix (normalised beta values) mirrored; raw IDAT tar and intensity/detection-p files are linked only (size). Attribution: Cite the original study and GEO accession GSE93266.",
   "cohort_ids": [
    "toronto-methylation"
-  ]
+  ],
+  "index_url": "https://data.solvingmecfs.org/geo-gse93266/index.html"
  },
  {
   "id": "geo-gse111183",
@@ -18386,9 +18892,20 @@
   "data_type": "PBMC EPIC methylation",
   "licence": "NCBI GEO public data (no NCBI restrictions; submitter rights may apply)",
   "licence_url": "https://www.ncbi.nlm.nih.gov/geo/info/disclaimer.html",
-  "status": "link_only",
-  "files": [],
-  "total_bytes": 0,
+  "status": "rehosted",
+  "files": [
+   {
+    "path": "README.md",
+    "url": "https://data.solvingmecfs.org/geo-gse111183/README.md",
+    "bytes": 1826
+   },
+   {
+    "path": "GSE111183_series_matrix.txt.gz",
+    "url": "https://data.solvingmecfs.org/geo-gse111183/GSE111183_series_matrix.txt.gz",
+    "bytes": 66338828
+   }
+  ],
+  "total_bytes": 66340654,
   "our_analyses": [
    {
     "title": "Single-cell PBMC, DNA methylation and B/T-cell repertoire re-analysis",
@@ -18396,10 +18913,11 @@
     "path_or_url": "https://data.solvingmecfs.org/analysis-singlecell-methylation/README.md"
    }
   ],
-  "notes": "Open GEO data (redistribution allowed), but the 66-430 MB matrices were not kept locally; linked only.",
+  "notes": "Series matrix (normalised beta values) mirrored; raw IDAT tar and intensity/detection-p files are linked only (size). Attribution: Cite the original study and GEO accession GSE111183.",
   "cohort_ids": [
    "nova-trivedi-2018"
-  ]
+  ],
+  "index_url": "https://data.solvingmecfs.org/geo-gse111183/index.html"
  },
  {
   "id": "geo-gse327255",
@@ -18411,9 +18929,25 @@
   "data_type": "saliva EPIC methylation",
   "licence": "NCBI GEO public data (no NCBI restrictions; submitter rights may apply)",
   "licence_url": "https://www.ncbi.nlm.nih.gov/geo/info/disclaimer.html",
-  "status": "link_only",
-  "files": [],
-  "total_bytes": 0,
+  "status": "rehosted",
+  "files": [
+   {
+    "path": "README.md",
+    "url": "https://data.solvingmecfs.org/geo-gse327255/README.md",
+    "bytes": 1923
+   },
+   {
+    "path": "GSE327255_series_matrix.txt.gz",
+    "url": "https://data.solvingmecfs.org/geo-gse327255/GSE327255_series_matrix.txt.gz",
+    "bytes": 5855
+   },
+   {
+    "path": "GSE327255_MatrixProcessedGEO_beta.csv.gz",
+    "url": "https://data.solvingmecfs.org/geo-gse327255/GSE327255_MatrixProcessedGEO_beta.csv.gz",
+    "bytes": 233306819
+   }
+  ],
+  "total_bytes": 233314597,
   "our_analyses": [
    {
     "title": "Single-cell PBMC, DNA methylation and B/T-cell repertoire re-analysis",
@@ -18421,10 +18955,11 @@
     "path_or_url": "https://data.solvingmecfs.org/analysis-singlecell-methylation/README.md"
    }
   ],
-  "notes": "Open GEO data (redistribution allowed), but the 66-430 MB matrices were not kept locally; linked only.",
+  "notes": "Series matrix (normalised beta values) mirrored plus the processed beta matrix; raw IDAT tar and intensity/detection-p files are linked only (size). Attribution: Cite the original study and GEO accession GSE327255.",
   "cohort_ids": [
    "montreal-saliva-methylation"
-  ]
+  ],
+  "index_url": "https://data.solvingmecfs.org/geo-gse327255/index.html"
  },
  {
   "id": "ena-prjeb83659",
@@ -18434,11 +18969,32 @@
   "doi": "",
   "n": "123 people (37 severe, 31 mild-moderate, 24 healthy, 31 MS)",
   "data_type": "",
-  "licence": "ENA open data (EMBL-EBI terms)",
-  "licence_url": "https://www.ebi.ac.uk/about/terms-of-use/",
-  "status": "link_only",
-  "files": [],
-  "total_bytes": 0,
+  "licence": "INSDC open data (no restrictions on use or redistribution)",
+  "licence_url": "https://www.ebi.ac.uk/ena/browser/about/policies",
+  "status": "rehosted",
+  "files": [
+   {
+    "path": "README.md",
+    "url": "https://data.solvingmecfs.org/ena-prjeb83659/README.md",
+    "bytes": 2085
+   },
+   {
+    "path": "PRJEB83659_read_run_report.tsv",
+    "url": "https://data.solvingmecfs.org/ena-prjeb83659/PRJEB83659_read_run_report.tsv",
+    "bytes": 1207607
+   },
+   {
+    "path": "PRJEB83659_sample_report.tsv",
+    "url": "https://data.solvingmecfs.org/ena-prjeb83659/PRJEB83659_sample_report.tsv",
+    "bytes": 67117
+   },
+   {
+    "path": "PRJEB83659_project.xml",
+    "url": "https://data.solvingmecfs.org/ena-prjeb83659/PRJEB83659_project.xml",
+    "bytes": 3276
+   }
+  ],
+  "total_bytes": 1280085,
   "our_analyses": [
    {
     "title": "Single-cell PBMC, DNA methylation and B/T-cell repertoire re-analysis",
@@ -18446,10 +19002,11 @@
     "path_or_url": "https://data.solvingmecfs.org/analysis-singlecell-methylation/README.md"
    }
   ],
-  "notes": "6.1 GB of reads, not kept locally; linked only. Our per-sample repertoire metrics are in analysis-singlecell-methylation.",
+  "notes": "Our per-sample repertoire metrics are in analysis-singlecell-methylation. Mirrored: run report (all fields, incl. FASTQ URLs and checksums), sample attributes and project XML. Raw reads are NOT mirrored (size); fetch them by run accession from the run report (column run_accession / fastq_ftp). Attribution: Cite the original study and accession PRJEB83659.",
   "cohort_ids": [
    "uk-mecfs-biobank"
-  ]
+  ],
+  "index_url": "https://data.solvingmecfs.org/ena-prjeb83659/index.html"
  },
  {
   "id": "sra-prjna940635",
@@ -18459,11 +19016,32 @@
   "doi": "",
   "n": "304 samples (74 severe, 75 mild-moderate, 77 healthy, 78 MS)",
   "data_type": "",
-  "licence": "NCBI GEO public data (no NCBI restrictions; submitter rights may apply)",
-  "licence_url": "https://www.ncbi.nlm.nih.gov/geo/info/disclaimer.html",
-  "status": "link_only",
-  "files": [],
-  "total_bytes": 0,
+  "licence": "INSDC open data (no restrictions on use or redistribution)",
+  "licence_url": "https://www.ebi.ac.uk/ena/browser/about/policies",
+  "status": "rehosted",
+  "files": [
+   {
+    "path": "README.md",
+    "url": "https://data.solvingmecfs.org/sra-prjna940635/README.md",
+    "bytes": 2077
+   },
+   {
+    "path": "PRJNA940635_read_run_report.tsv",
+    "url": "https://data.solvingmecfs.org/sra-prjna940635/PRJNA940635_read_run_report.tsv",
+    "bytes": 511336
+   },
+   {
+    "path": "PRJNA940635_sample_report.tsv",
+    "url": "https://data.solvingmecfs.org/sra-prjna940635/PRJNA940635_sample_report.tsv",
+    "bytes": 150872
+   },
+   {
+    "path": "PRJNA940635_project.xml",
+    "url": "https://data.solvingmecfs.org/sra-prjna940635/PRJNA940635_project.xml",
+    "bytes": 2290
+   }
+  ],
+  "total_bytes": 666575,
   "our_analyses": [
    {
     "title": "Single-cell PBMC, DNA methylation and B/T-cell repertoire re-analysis",
@@ -18471,10 +19049,11 @@
     "path_or_url": "https://data.solvingmecfs.org/analysis-singlecell-methylation/README.md"
    }
   ],
-  "notes": "150 GB of reads, not kept locally; linked only. Our per-sample metrics are in analysis-singlecell-methylation.",
+  "notes": "Our per-sample metrics are in analysis-singlecell-methylation. Mirrored: run report (all fields, incl. FASTQ URLs and checksums), sample attributes and project XML. Raw reads are NOT mirrored (size); fetch them by run accession from the run report (column run_accession / fastq_ftp). Attribution: Cite the original study and accession PRJNA940635.",
   "cohort_ids": [
    "uk-mecfs-biobank"
-  ]
+  ],
+  "index_url": "https://data.solvingmecfs.org/sra-prjna940635/index.html"
  },
  {
   "id": "ryback-2026",
@@ -18483,17 +19062,49 @@
   "source_url": "https://doi.org/10.1371/journal.pone.0341334",
   "doi": "10.1371/journal.pone.0341334",
   "n": "120 people",
-  "data_type": "",
+  "data_type": "Seahorse OCR/ECAR per participant (CSV) + cohort table + R scripts",
   "licence": "CC-BY-4.0",
   "licence_url": "https://creativecommons.org/licenses/by/4.0/",
-  "status": "link_only",
-  "files": [],
-  "total_bytes": 0,
+  "status": "rehosted",
+  "files": [
+   {
+    "path": "README.md",
+    "url": "https://data.solvingmecfs.org/ryback-2026/README.md",
+    "bytes": 1791
+   },
+   {
+    "path": "S1_File_supplementary_figures.docx",
+    "url": "https://data.solvingmecfs.org/ryback-2026/S1_File_supplementary_figures.docx",
+    "bytes": 6335505
+   },
+   {
+    "path": "S2_File_OCR_measurements_rotenone_adjusted.csv",
+    "url": "https://data.solvingmecfs.org/ryback-2026/S2_File_OCR_measurements_rotenone_adjusted.csv",
+    "bytes": 577319
+   },
+   {
+    "path": "S3_File_ECAR_measurements.csv",
+    "url": "https://data.solvingmecfs.org/ryback-2026/S3_File_ECAR_measurements.csv",
+    "bytes": 563715
+   },
+   {
+    "path": "S4_File_cohort_characteristics.csv",
+    "url": "https://data.solvingmecfs.org/ryback-2026/S4_File_cohort_characteristics.csv",
+    "bytes": 2125
+   },
+   {
+    "path": "S5_File_R_analysis_scripts.R",
+    "url": "https://data.solvingmecfs.org/ryback-2026/S5_File_R_analysis_scripts.R",
+    "bytes": 20954
+   }
+  ],
+  "total_bytes": 7501409,
   "our_analyses": [],
-  "notes": "Article and supplements are CC BY 4.0 (Crossref), but we hold no data files; linked only. Preregistration: OSF qwp4v.",
+  "notes": "Preregistration: OSF qwp4v. Mirrored: S1-S5 supplementary files, including the per-participant Seahorse OCR (S2) and ECAR (S3) measurements. Reviewer-response attachments were not mirrored. Attribution: Cite Ryback AA et al. PLoS One 2026;21:e0341334 (doi:10.1371/journal.pone.0341334).",
   "cohort_ids": [
    "sheffield-ryback-2026"
-  ]
+  ],
+  "index_url": "https://data.solvingmecfs.org/ryback-2026/index.html"
  },
  {
   "id": "github-developmentalimagingmcri-mecfs",
@@ -20054,5 +20665,2476 @@
   "cohort_ids": [
    "chile-biorepo"
   ]
+ },
+ {
+  "id": "geo-gse317067",
+  "name": "Extracellular vesicle miRNA in post-infectious ME/CFS (GEO GSE317067)",
+  "citation": "Extracellular vesicle protein and miRNA signatures as biomarkers for post-infectious ME/CFS patients; GEO GSE317067 (PubMed 41828537)",
+  "source_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE317067",
+  "doi": "",
+  "n": "6 samples",
+  "data_type": "small RNA-seq of plasma EVs (counts + comparisons)",
+  "licence": "NCBI GEO public data (no NCBI restrictions; submitter rights may apply)",
+  "licence_url": "https://www.ncbi.nlm.nih.gov/geo/info/disclaimer.html",
+  "status": "rehosted",
+  "files": [
+   {
+    "path": "README.md",
+    "url": "https://data.solvingmecfs.org/geo-gse317067/README.md",
+    "bytes": 1516
+   },
+   {
+    "path": "GSE317067_series_matrix.txt.gz",
+    "url": "https://data.solvingmecfs.org/geo-gse317067/GSE317067_series_matrix.txt.gz",
+    "bytes": 2732
+   },
+   {
+    "path": "GSE317067_all_comparisons_merged.tsv.gz",
+    "url": "https://data.solvingmecfs.org/geo-gse317067/GSE317067_all_comparisons_merged.tsv.gz",
+    "bytes": 7905498
+   },
+   {
+    "path": "GSE317067_all_counts_merged.tsv.gz",
+    "url": "https://data.solvingmecfs.org/geo-gse317067/GSE317067_all_counts_merged.tsv.gz",
+    "bytes": 198859
+   }
+  ],
+  "total_bytes": 8108605,
+  "our_analyses": [],
+  "notes": "Attribution: Cite the original study and GEO accession GSE317067.",
+  "cohort_ids": [],
+  "index_url": "https://data.solvingmecfs.org/geo-gse317067/index.html"
+ },
+ {
+  "id": "geo-gse304805",
+  "name": "PBMC DNA methylation before/after post-exertional malaise (precision-medicine study) (GEO GSE304805)",
+  "citation": "Precision Medicine Study of Post-Exertional Malaise epigenetic changes in Myalgic Encephalomyelitis/Chronic Fatigue patients during Exercise; GEO GSE304805 (PubMed 40943482)",
+  "source_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE304805",
+  "doi": "",
+  "n": "21 samples",
+  "data_type": "PBMC methylation sequencing (processed)",
+  "licence": "NCBI GEO public data (no NCBI restrictions; submitter rights may apply)",
+  "licence_url": "https://www.ncbi.nlm.nih.gov/geo/info/disclaimer.html",
+  "status": "rehosted",
+  "files": [
+   {
+    "path": "README.md",
+    "url": "https://data.solvingmecfs.org/geo-gse304805/README.md",
+    "bytes": 1586
+   },
+   {
+    "path": "GSE304805_series_matrix.txt.gz",
+    "url": "https://data.solvingmecfs.org/geo-gse304805/GSE304805_series_matrix.txt.gz",
+    "bytes": 4787
+   },
+   {
+    "path": "GSE304805_Controls_PEM_PBMC_processed.txt.gz",
+    "url": "https://data.solvingmecfs.org/geo-gse304805/GSE304805_Controls_PEM_PBMC_processed.txt.gz",
+    "bytes": 21867526
+   },
+   {
+    "path": "GSE304805_ME_PEM_PBMC_processed.txt.gz",
+    "url": "https://data.solvingmecfs.org/geo-gse304805/GSE304805_ME_PEM_PBMC_processed.txt.gz",
+    "bytes": 35066161
+   }
+  ],
+  "total_bytes": 56940060,
+  "our_analyses": [],
+  "notes": "Attribution: Cite the original study and GEO accession GSE304805.",
+  "cohort_ids": [],
+  "index_url": "https://data.solvingmecfs.org/geo-gse304805/index.html"
+ },
+ {
+  "id": "geo-gse297189",
+  "name": "PBMC DNA methylation: ME/CFS vs long COVID (GEO GSE297189)",
+  "citation": "Comparing DNA methylation landscapes of peripheral blood from Myalgic Encephalomyeli-tis/Chronic Fatigue Syndrome and Long COVID patients; GEO GSE297189 (PubMed 40724879)",
+  "source_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE297189",
+  "doi": "",
+  "n": "15 samples",
+  "data_type": "PBMC methylation sequencing (processed)",
+  "licence": "NCBI GEO public data (no NCBI restrictions; submitter rights may apply)",
+  "licence_url": "https://www.ncbi.nlm.nih.gov/geo/info/disclaimer.html",
+  "status": "rehosted",
+  "files": [
+   {
+    "path": "README.md",
+    "url": "https://data.solvingmecfs.org/geo-gse297189/README.md",
+    "bytes": 1479
+   },
+   {
+    "path": "GSE297189_series_matrix.txt.gz",
+    "url": "https://data.solvingmecfs.org/geo-gse297189/GSE297189_series_matrix.txt.gz",
+    "bytes": 4291
+   },
+   {
+    "path": "GSE297189_LC_ME_PBMC_processed.txt.gz",
+    "url": "https://data.solvingmecfs.org/geo-gse297189/GSE297189_LC_ME_PBMC_processed.txt.gz",
+    "bytes": 22295653
+   }
+  ],
+  "total_bytes": 22301423,
+  "our_analyses": [],
+  "notes": "Attribution: Cite the original study and GEO accession GSE297189.",
+  "cohort_ids": [],
+  "index_url": "https://data.solvingmecfs.org/geo-gse297189/index.html"
+ },
+ {
+  "id": "geo-gse268223",
+  "name": "CD8+ T-cell ATAC-seq in ME/CFS (exhaustion study) (GEO GSE268223)",
+  "citation": "Transcriptional reprogramming primes CD8+ T cells towards exhaustion in Myalgic Encephalomyelitis/Chronic Fatigue Syndrome [ATAC-seq]; GEO GSE268223",
+  "source_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE268223",
+  "doi": "",
+  "n": "22 samples",
+  "data_type": "ATAC-seq peak counts",
+  "licence": "NCBI GEO public data (no NCBI restrictions; submitter rights may apply)",
+  "licence_url": "https://www.ncbi.nlm.nih.gov/geo/info/disclaimer.html",
+  "status": "rehosted",
+  "files": [
+   {
+    "path": "README.md",
+    "url": "https://data.solvingmecfs.org/geo-gse268223/README.md",
+    "bytes": 1449
+   },
+   {
+    "path": "GSE268223_series_matrix.txt.gz",
+    "url": "https://data.solvingmecfs.org/geo-gse268223/GSE268223_series_matrix.txt.gz",
+    "bytes": 5398
+   },
+   {
+    "path": "GSE268223_mecfs_cd8_atac.peak_featc.csv.gz",
+    "url": "https://data.solvingmecfs.org/geo-gse268223/GSE268223_mecfs_cd8_atac.peak_featc.csv.gz",
+    "bytes": 2898053
+   }
+  ],
+  "total_bytes": 2904900,
+  "our_analyses": [],
+  "notes": "Attribution: Cite the original study and GEO accession GSE268223.",
+  "cohort_ids": [],
+  "index_url": "https://data.solvingmecfs.org/geo-gse268223/index.html"
+ },
+ {
+  "id": "geo-gse251872",
+  "name": "NIH Walitt 2024 PBMC RNA-seq (GEO GSE251872) (GEO GSE251872)",
+  "citation": "Deep phenotyping of Post-infectious Myalgic Encephalomyelitis/Chronic Fatigue Syndrome [PBMC RNA-Seq]; GEO GSE251872 (PubMed 38383456)",
+  "source_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE251872",
+  "doi": "",
+  "n": "27 samples",
+  "data_type": "PBMC RNA-seq per-sample count files",
+  "licence": "NCBI GEO public data (no NCBI restrictions; submitter rights may apply)",
+  "licence_url": "https://www.ncbi.nlm.nih.gov/geo/info/disclaimer.html",
+  "status": "rehosted",
+  "files": [
+   {
+    "path": "README.md",
+    "url": "https://data.solvingmecfs.org/geo-gse251872/README.md",
+    "bytes": 1402
+   },
+   {
+    "path": "GSE251872_RAW.tar",
+    "url": "https://data.solvingmecfs.org/geo-gse251872/GSE251872_RAW.tar",
+    "bytes": 5027840
+   },
+   {
+    "path": "filelist.txt",
+    "url": "https://data.solvingmecfs.org/geo-gse251872/filelist.txt",
+    "bytes": 1820
+   }
+  ],
+  "total_bytes": 5031062,
+  "our_analyses": [],
+  "notes": "Attribution: Cite the original study and GEO accession GSE251872.",
+  "cohort_ids": [],
+  "index_url": "https://data.solvingmecfs.org/geo-gse251872/index.html"
+ },
+ {
+  "id": "geo-gse166592",
+  "name": "DNA methylation across a relapse-recovery cycle in ME/CFS (GEO GSE166592)",
+  "citation": "Dynamic Epigenetic Changes during a Relapse and Recovery Cycle in Myalgic Encephalomyelitis/Chronic Fatigue Syndrome ; GEO GSE166592",
+  "source_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE166592",
+  "doi": "",
+  "n": "15 samples",
+  "data_type": "reduced-representation methylation (processed per subject)",
+  "licence": "NCBI GEO public data (no NCBI restrictions; submitter rights may apply)",
+  "licence_url": "https://www.ncbi.nlm.nih.gov/geo/info/disclaimer.html",
+  "status": "rehosted",
+  "files": [
+   {
+    "path": "README.md",
+    "url": "https://data.solvingmecfs.org/geo-gse166592/README.md",
+    "bytes": 1609
+   },
+   {
+    "path": "GSE166592_series_matrix.txt.gz",
+    "url": "https://data.solvingmecfs.org/geo-gse166592/GSE166592_series_matrix.txt.gz",
+    "bytes": 3541
+   },
+   {
+    "path": "GSE166592_C012_Full.xlsx",
+    "url": "https://data.solvingmecfs.org/geo-gse166592/GSE166592_C012_Full.xlsx",
+    "bytes": 6165249
+   },
+   {
+    "path": "GSE166592_ME007_Full.xlsx",
+    "url": "https://data.solvingmecfs.org/geo-gse166592/GSE166592_ME007_Full.xlsx",
+    "bytes": 2468848
+   },
+   {
+    "path": "GSE166592_ME016_Full.xlsx",
+    "url": "https://data.solvingmecfs.org/geo-gse166592/GSE166592_ME016_Full.xlsx",
+    "bytes": 8981027
+   }
+  ],
+  "total_bytes": 17620274,
+  "our_analyses": [],
+  "notes": "Raw tar / non-normalised files are linked only (size). Attribution: Cite the original study and GEO accession GSE166592.",
+  "cohort_ids": [],
+  "index_url": "https://data.solvingmecfs.org/geo-gse166592/index.html"
+ },
+ {
+  "id": "geo-gse153667",
+  "name": "Epigenetic landscape of ME/CFS (PBMC methylation) (GEO GSE153667)",
+  "citation": "Changes in the Epigenetic Landscape of Myalgic Encephalomyelitis/Chronic Fatigue Syndrome Reflect Systemic Dysfunctions; GEO GSE153667 (PubMed 33148325)",
+  "source_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE153667",
+  "doi": "",
+  "n": "20 samples",
+  "data_type": "reduced-representation methylation (processed)",
+  "licence": "NCBI GEO public data (no NCBI restrictions; submitter rights may apply)",
+  "licence_url": "https://www.ncbi.nlm.nih.gov/geo/info/disclaimer.html",
+  "status": "rehosted",
+  "files": [
+   {
+    "path": "README.md",
+    "url": "https://data.solvingmecfs.org/geo-gse153667/README.md",
+    "bytes": 1616
+   },
+   {
+    "path": "GSE153667_series_matrix.txt.gz",
+    "url": "https://data.solvingmecfs.org/geo-gse153667/GSE153667_series_matrix.txt.gz",
+    "bytes": 4188
+   },
+   {
+    "path": "GSE153667_DMAP_matrix.csv.gz",
+    "url": "https://data.solvingmecfs.org/geo-gse153667/GSE153667_DMAP_matrix.csv.gz",
+    "bytes": 9054059
+   },
+   {
+    "path": "GSE153667_GeneMatrix.xlsx",
+    "url": "https://data.solvingmecfs.org/geo-gse153667/GSE153667_GeneMatrix.xlsx",
+    "bytes": 11974350
+   },
+   {
+    "path": "GSE153667_Meth_Matrix.csv.gz",
+    "url": "https://data.solvingmecfs.org/geo-gse153667/GSE153667_Meth_Matrix.csv.gz",
+    "bytes": 599
+   }
+  ],
+  "total_bytes": 21034812,
+  "our_analyses": [],
+  "notes": "Raw tar / non-normalised files are linked only (size). Attribution: Cite the original study and GEO accession GSE153667.",
+  "cohort_ids": [],
+  "index_url": "https://data.solvingmecfs.org/geo-gse153667/index.html"
+ },
+ {
+  "id": "geo-gse141770",
+  "name": "miRNA from PBMCs and EVs in ME/CFS (GEO GSE141770)",
+  "citation": "Assessing diagnosis value of miRNA from PBMCs and EVs in Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS); GEO GSE141770 (PubMed 32034172, 35433768)",
+  "source_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE141770",
+  "doi": "",
+  "n": "58 samples",
+  "data_type": "NanoString miRNA (RCC)",
+  "licence": "NCBI GEO public data (no NCBI restrictions; submitter rights may apply)",
+  "licence_url": "https://www.ncbi.nlm.nih.gov/geo/info/disclaimer.html",
+  "status": "rehosted",
+  "files": [
+   {
+    "path": "README.md",
+    "url": "https://data.solvingmecfs.org/geo-gse141770/README.md",
+    "bytes": 1453
+   },
+   {
+    "path": "GSE141770_series_matrix.txt.gz",
+    "url": "https://data.solvingmecfs.org/geo-gse141770/GSE141770_series_matrix.txt.gz",
+    "bytes": 39848
+   },
+   {
+    "path": "GSE141770_RAW.tar",
+    "url": "https://data.solvingmecfs.org/geo-gse141770/GSE141770_RAW.tar",
+    "bytes": 481280
+   },
+   {
+    "path": "filelist.txt",
+    "url": "https://data.solvingmecfs.org/geo-gse141770/filelist.txt",
+    "bytes": 4451
+   }
+  ],
+  "total_bytes": 527032,
+  "our_analyses": [],
+  "notes": "Attribution: Cite the original study and GEO accession GSE141770.",
+  "cohort_ids": [],
+  "index_url": "https://data.solvingmecfs.org/geo-gse141770/index.html"
+ },
+ {
+  "id": "geo-gse70371",
+  "name": "miRNA biomarkers in CFS/ME peripheral blood (GEO GSE70371)",
+  "citation": "The identification of miRNA biomarkers in CFS/ME peripheral blood samples; GEO GSE70371 (PubMed 26967895)",
+  "source_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE70371",
+  "doi": "",
+  "n": "44 samples",
+  "data_type": "miRNA array",
+  "licence": "NCBI GEO public data (no NCBI restrictions; submitter rights may apply)",
+  "licence_url": "https://www.ncbi.nlm.nih.gov/geo/info/disclaimer.html",
+  "status": "rehosted",
+  "files": [
+   {
+    "path": "README.md",
+    "url": "https://data.solvingmecfs.org/geo-gse70371/README.md",
+    "bytes": 1388
+   },
+   {
+    "path": "GSE70371_series_matrix.txt.gz",
+    "url": "https://data.solvingmecfs.org/geo-gse70371/GSE70371_series_matrix.txt.gz",
+    "bytes": 54463
+   },
+   {
+    "path": "GSE70371_RAW.tar",
+    "url": "https://data.solvingmecfs.org/geo-gse70371/GSE70371_RAW.tar",
+    "bytes": 645120
+   },
+   {
+    "path": "filelist.txt",
+    "url": "https://data.solvingmecfs.org/geo-gse70371/filelist.txt",
+    "bytes": 3516
+   }
+  ],
+  "total_bytes": 704487,
+  "our_analyses": [],
+  "notes": "Attribution: Cite the original study and GEO accession GSE70371.",
+  "cohort_ids": [],
+  "index_url": "https://data.solvingmecfs.org/geo-gse70371/index.html"
+ },
+ {
+  "id": "geo-gse59489",
+  "name": "DNA methylation modifications associated with chronic fatigue syndrome (GEO GSE59489)",
+  "citation": "DNA methylation modifications associated with Chronic Fatigue Syndrome; GEO GSE59489 (PubMed 25111603)",
+  "source_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE59489",
+  "doi": "",
+  "n": "24 samples",
+  "data_type": "450K methylation (series matrix)",
+  "licence": "NCBI GEO public data (no NCBI restrictions; submitter rights may apply)",
+  "licence_url": "https://www.ncbi.nlm.nih.gov/geo/info/disclaimer.html",
+  "status": "rehosted",
+  "files": [
+   {
+    "path": "README.md",
+    "url": "https://data.solvingmecfs.org/geo-gse59489/README.md",
+    "bytes": 1437
+   },
+   {
+    "path": "GSE59489_series_matrix.txt.gz",
+    "url": "https://data.solvingmecfs.org/geo-gse59489/GSE59489_series_matrix.txt.gz",
+    "bytes": 35370532
+   }
+  ],
+  "total_bytes": 35371969,
+  "our_analyses": [],
+  "notes": "Raw tar / non-normalised files are linked only (size). Attribution: Cite the original study and GEO accession GSE59489.",
+  "cohort_ids": [],
+  "index_url": "https://data.solvingmecfs.org/geo-gse59489/index.html"
+ },
+ {
+  "id": "geo-gse39684",
+  "name": "No association of XMRV with CFS (archival and prospective samples) (GEO GSE39684)",
+  "citation": "Comprehensive Investigation of Archival and Prospectively Collected Samples Reveals No Association of the XMRV Gammaretrovirus with Prostate Cancer; GEO GSE39684 (PubMed 23028701)",
+  "source_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE39684",
+  "doi": "",
+  "n": "63 samples",
+  "data_type": "retrovirus microarray",
+  "licence": "NCBI GEO public data (no NCBI restrictions; submitter rights may apply)",
+  "licence_url": "https://www.ncbi.nlm.nih.gov/geo/info/disclaimer.html",
+  "status": "rehosted",
+  "files": [
+   {
+    "path": "README.md",
+    "url": "https://data.solvingmecfs.org/geo-gse39684/README.md",
+    "bytes": 1594
+   },
+   {
+    "path": "GSE39684_series_matrix.txt.gz",
+    "url": "https://data.solvingmecfs.org/geo-gse39684/GSE39684_series_matrix.txt.gz",
+    "bytes": 488022
+   },
+   {
+    "path": "GSE39684_raw_matrix.txt.gz",
+    "url": "https://data.solvingmecfs.org/geo-gse39684/GSE39684_raw_matrix.txt.gz",
+    "bytes": 496518
+   },
+   {
+    "path": "GSE39684_retrovirus_probes.txt.gz",
+    "url": "https://data.solvingmecfs.org/geo-gse39684/GSE39684_retrovirus_probes.txt.gz",
+    "bytes": 54087
+   }
+  ],
+  "total_bytes": 1040221,
+  "our_analyses": [],
+  "notes": "Raw tar / non-normalised files are linked only (size). Attribution: Cite the original study and GEO accession GSE39684.",
+  "cohort_ids": [],
+  "index_url": "https://data.solvingmecfs.org/geo-gse39684/index.html"
+ },
+ {
+  "id": "geo-gse226260",
+  "name": "Long COVID blood transcriptome: proinflammatory and immune-exhaustion pathways (GEO GSE226260)",
+  "citation": "Long COVID involves activation of proinflammatory and immune exhaustion pathways; GEO GSE226260 (PubMed 41388153)",
+  "source_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE226260",
+  "doi": "",
+  "n": "331 samples",
+  "data_type": "whole-blood RNA-seq (counts)",
+  "licence": "NCBI GEO public data (no NCBI restrictions; submitter rights may apply)",
+  "licence_url": "https://www.ncbi.nlm.nih.gov/geo/info/disclaimer.html",
+  "status": "rehosted",
+  "files": [
+   {
+    "path": "README.md",
+    "url": "https://data.solvingmecfs.org/geo-gse226260/README.md",
+    "bytes": 1648
+   },
+   {
+    "path": "GSE226260-GPL24676_series_matrix.txt.gz",
+    "url": "https://data.solvingmecfs.org/geo-gse226260/GSE226260-GPL24676_series_matrix.txt.gz",
+    "bytes": 12463
+   },
+   {
+    "path": "GSE226260-GPL34284_series_matrix.txt.gz",
+    "url": "https://data.solvingmecfs.org/geo-gse226260/GSE226260-GPL34284_series_matrix.txt.gz",
+    "bytes": 9329
+   },
+   {
+    "path": "GSE226260_AdditionalSamples.logNormalizedCounts.csv.gz",
+    "url": "https://data.solvingmecfs.org/geo-gse226260/GSE226260_AdditionalSamples.logNormalizedCounts.csv.gz",
+    "bytes": 23378719
+   },
+   {
+    "path": "GSE226260_AdditionalSamples.rawCounts.csv.gz",
+    "url": "https://data.solvingmecfs.org/geo-gse226260/GSE226260_AdditionalSamples.rawCounts.csv.gz",
+    "bytes": 4379292
+   },
+   {
+    "path": "GSE226260_combined.ExprData.updated.csv.gz",
+    "url": "https://data.solvingmecfs.org/geo-gse226260/GSE226260_combined.ExprData.updated.csv.gz",
+    "bytes": 7512041
+   }
+  ],
+  "total_bytes": 35293492,
+  "our_analyses": [],
+  "notes": "Long COVID / post-COVID dataset.  Attribution: Cite the original study and GEO accession GSE226260.",
+  "cohort_ids": [],
+  "index_url": "https://data.solvingmecfs.org/geo-gse226260/index.html"
+ },
+ {
+  "id": "geo-gse224615",
+  "name": "Long COVID T cell dysregulation (Yin et al.) (GEO GSE224615)",
+  "citation": "Long COVID manifests with T cell dysregulation, inflammation, and an uncoordinated adaptive immune response to SARS-CoV-2; GEO GSE224615 (PubMed 38212464)",
+  "source_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE224615",
+  "doi": "",
+  "n": "36 samples",
+  "data_type": "RNA-seq differential expression tables",
+  "licence": "NCBI GEO public data (no NCBI restrictions; submitter rights may apply)",
+  "licence_url": "https://www.ncbi.nlm.nih.gov/geo/info/disclaimer.html",
+  "status": "rehosted",
+  "files": [
+   {
+    "path": "README.md",
+    "url": "https://data.solvingmecfs.org/geo-gse224615/README.md",
+    "bytes": 1446
+   },
+   {
+    "path": "GSE224615_series_matrix.txt.gz",
+    "url": "https://data.solvingmecfs.org/geo-gse224615/GSE224615_series_matrix.txt.gz",
+    "bytes": 4974
+   },
+   {
+    "path": "GSE224615_DEGs.xlsx",
+    "url": "https://data.solvingmecfs.org/geo-gse224615/GSE224615_DEGs.xlsx",
+    "bytes": 10650005
+   }
+  ],
+  "total_bytes": 10656425,
+  "our_analyses": [],
+  "notes": "Long COVID / post-COVID dataset.  Attribution: Cite the original study and GEO accession GSE224615.",
+  "cohort_ids": [],
+  "index_url": "https://data.solvingmecfs.org/geo-gse224615/index.html"
+ },
+ {
+  "id": "geo-gse297499",
+  "name": "CSF and PBMC immune cells in women with neuropsychiatric long COVID (GEO GSE297499)",
+  "citation": "CSF immune cell alterations in women with neuropsychiatric Long COVID; GEO GSE297499 (PubMed 40920586)",
+  "source_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE297499",
+  "doi": "",
+  "n": "46 samples",
+  "data_type": "RNA-seq TPM (CSF cells, PBMC)",
+  "licence": "NCBI GEO public data (no NCBI restrictions; submitter rights may apply)",
+  "licence_url": "https://www.ncbi.nlm.nih.gov/geo/info/disclaimer.html",
+  "status": "rehosted",
+  "files": [
+   {
+    "path": "README.md",
+    "url": "https://data.solvingmecfs.org/geo-gse297499/README.md",
+    "bytes": 1499
+   },
+   {
+    "path": "GSE297499_series_matrix.txt.gz",
+    "url": "https://data.solvingmecfs.org/geo-gse297499/GSE297499_series_matrix.txt.gz",
+    "bytes": 3951
+   },
+   {
+    "path": "GSE297499_final_processed_tpm_values_csf.txt.gz",
+    "url": "https://data.solvingmecfs.org/geo-gse297499/GSE297499_final_processed_tpm_values_csf.txt.gz",
+    "bytes": 1678492
+   },
+   {
+    "path": "GSE297499_final_processed_tpm_values_pbmc.txt.gz",
+    "url": "https://data.solvingmecfs.org/geo-gse297499/GSE297499_final_processed_tpm_values_pbmc.txt.gz",
+    "bytes": 2765523
+   }
+  ],
+  "total_bytes": 4449465,
+  "our_analyses": [],
+  "notes": "Long COVID / post-COVID dataset.  Attribution: Cite the original study and GEO accession GSE297499.",
+  "cohort_ids": [],
+  "index_url": "https://data.solvingmecfs.org/geo-gse297499/index.html"
+ },
+ {
+  "id": "geo-gse251849",
+  "name": "Blood-brain barrier disruption in long COVID brain fog (GEO GSE251849)",
+  "citation": "Blood–brain barrier disruption and sustained systemic inflammation in individuals with long COVID-associated cognitive impairment; GEO GSE251849 (PubMed 38388736)",
+  "source_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE251849",
+  "doi": "",
+  "n": "23 samples",
+  "data_type": "blood RNA-seq counts",
+  "licence": "NCBI GEO public data (no NCBI restrictions; submitter rights may apply)",
+  "licence_url": "https://www.ncbi.nlm.nih.gov/geo/info/disclaimer.html",
+  "status": "rehosted",
+  "files": [
+   {
+    "path": "README.md",
+    "url": "https://data.solvingmecfs.org/geo-gse251849/README.md",
+    "bytes": 1451
+   },
+   {
+    "path": "GSE251849_series_matrix.txt.gz",
+    "url": "https://data.solvingmecfs.org/geo-gse251849/GSE251849_series_matrix.txt.gz",
+    "bytes": 2909
+   },
+   {
+    "path": "GSE251849_Counts.txt.gz",
+    "url": "https://data.solvingmecfs.org/geo-gse251849/GSE251849_Counts.txt.gz",
+    "bytes": 1209601
+   }
+  ],
+  "total_bytes": 1213961,
+  "our_analyses": [],
+  "notes": "Long COVID / post-COVID dataset.  Attribution: Cite the original study and GEO accession GSE251849.",
+  "cohort_ids": [],
+  "index_url": "https://data.solvingmecfs.org/geo-gse251849/index.html"
+ },
+ {
+  "id": "geo-gse351443",
+  "name": "Metabolic, viral and immune phenotypes in long COVID (GEO GSE351443)",
+  "citation": "Metabolic, viral, and immune phenotypes in long COVID; GEO GSE351443 (PubMed 42656834)",
+  "source_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE351443",
+  "doi": "",
+  "n": "18 samples",
+  "data_type": "RNA-seq counts",
+  "licence": "NCBI GEO public data (no NCBI restrictions; submitter rights may apply)",
+  "licence_url": "https://www.ncbi.nlm.nih.gov/geo/info/disclaimer.html",
+  "status": "rehosted",
+  "files": [
+   {
+    "path": "README.md",
+    "url": "https://data.solvingmecfs.org/geo-gse351443/README.md",
+    "bytes": 1381
+   },
+   {
+    "path": "GSE351443_series_matrix.txt.gz",
+    "url": "https://data.solvingmecfs.org/geo-gse351443/GSE351443_series_matrix.txt.gz",
+    "bytes": 4173
+   },
+   {
+    "path": "GSE351443_cohort2_countsmatrix.txt.gz",
+    "url": "https://data.solvingmecfs.org/geo-gse351443/GSE351443_cohort2_countsmatrix.txt.gz",
+    "bytes": 712961
+   }
+  ],
+  "total_bytes": 718515,
+  "our_analyses": [],
+  "notes": "Long COVID / post-COVID dataset.  Attribution: Cite the original study and GEO accession GSE351443.",
+  "cohort_ids": [],
+  "index_url": "https://data.solvingmecfs.org/geo-gse351443/index.html"
+ },
+ {
+  "id": "geo-gse267625",
+  "name": "Whole-blood transcriptome in long COVID (P4O2 cohort) (GEO GSE267625)",
+  "citation": "Whole blood transcriptome in long-COVID patients reveals association with lung function and immune response; GEO GSE267625 (PubMed 38830512)",
+  "source_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE267625",
+  "doi": "",
+  "n": "111 samples",
+  "data_type": "whole-blood RNA-seq",
+  "licence": "NCBI GEO public data (no NCBI restrictions; submitter rights may apply)",
+  "licence_url": "https://www.ncbi.nlm.nih.gov/geo/info/disclaimer.html",
+  "status": "rehosted",
+  "files": [
+   {
+    "path": "README.md",
+    "url": "https://data.solvingmecfs.org/geo-gse267625/README.md",
+    "bytes": 1450
+   },
+   {
+    "path": "GSE267625_series_matrix.txt.gz",
+    "url": "https://data.solvingmecfs.org/geo-gse267625/GSE267625_series_matrix.txt.gz",
+    "bytes": 5351
+   },
+   {
+    "path": "GSE267625_P4O2_COVID_blood_transcriptome.csv.gz",
+    "url": "https://data.solvingmecfs.org/geo-gse267625/GSE267625_P4O2_COVID_blood_transcriptome.csv.gz",
+    "bytes": 5072647
+   }
+  ],
+  "total_bytes": 5079448,
+  "our_analyses": [],
+  "notes": "Long COVID / post-COVID dataset.  Attribution: Cite the original study and GEO accession GSE267625.",
+  "cohort_ids": [],
+  "index_url": "https://data.solvingmecfs.org/geo-gse267625/index.html"
+ },
+ {
+  "id": "geo-gse215865",
+  "name": "Acute COVID-19 molecular states and later sequelae (1,392 samples) (GEO GSE215865)",
+  "citation": "Molecular states during acute COVID-19 reveal distinct etiologies of long-term sequelae; GEO GSE215865 (PubMed 36482101)",
+  "source_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE215865",
+  "doi": "",
+  "n": "1392 samples",
+  "data_type": "blood RNA-seq raw counts",
+  "licence": "NCBI GEO public data (no NCBI restrictions; submitter rights may apply)",
+  "licence_url": "https://www.ncbi.nlm.nih.gov/geo/info/disclaimer.html",
+  "status": "rehosted",
+  "files": [
+   {
+    "path": "README.md",
+    "url": "https://data.solvingmecfs.org/geo-gse215865/README.md",
+    "bytes": 1510
+   },
+   {
+    "path": "GSE215865_series_matrix.txt.gz",
+    "url": "https://data.solvingmecfs.org/geo-gse215865/GSE215865_series_matrix.txt.gz",
+    "bytes": 84930
+   },
+   {
+    "path": "GSE215865_rnaseq_raw_count_matrix.csv.gz",
+    "url": "https://data.solvingmecfs.org/geo-gse215865/GSE215865_rnaseq_raw_count_matrix.csv.gz",
+    "bytes": 58418856
+   }
+  ],
+  "total_bytes": 58505296,
+  "our_analyses": [],
+  "notes": "Long COVID / post-COVID dataset.  Raw tar / non-normalised files are linked only (size). Attribution: Cite the original study and GEO accession GSE215865.",
+  "cohort_ids": [],
+  "index_url": "https://data.solvingmecfs.org/geo-gse215865/index.html"
+ },
+ {
+  "id": "zenodo-19803363",
+  "name": "Task-active MRS of neuroinflammation and excitotoxicity in ME/CFS",
+  "citation": "Kothe K, Shan Z et al. 2026. Zenodo doi:10.5281/zenodo.19803363",
+  "source_url": "https://zenodo.org/records/19803363",
+  "doi": "10.5281/zenodo.19803363",
+  "n": "",
+  "data_type": "MRS metabolite values, demographics and quality metrics (CSV)",
+  "licence": "CC-BY-4.0",
+  "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+  "status": "rehosted",
+  "files": [
+   {
+    "path": "README.md",
+    "url": "https://data.solvingmecfs.org/zenodo-19803363/README.md",
+    "bytes": 1212
+   },
+   {
+    "path": "MRS_Data_Demographics_QualityMetrics.csv",
+    "url": "https://data.solvingmecfs.org/zenodo-19803363/MRS_Data_Demographics_QualityMetrics.csv",
+    "bytes": 50884
+   }
+  ],
+  "total_bytes": 52096,
+  "our_analyses": [],
+  "notes": "Attribution: Cite Kothe K, Shan Z et al. 2026 and doi:10.5281/zenodo.19803363.",
+  "cohort_ids": [],
+  "index_url": "https://data.solvingmecfs.org/zenodo-19803363/index.html"
+ },
+ {
+  "id": "zenodo-23208947",
+  "name": "Post-exertional malaise definitions across ME/CFS and long COVID: bibliometric scripts and derived data",
+  "citation": "Hao W, Jin H, Ouyang C, Tang F et al. 2026. Zenodo doi:10.5281/zenodo.23208947",
+  "source_url": "https://zenodo.org/records/23208947",
+  "doi": "10.5281/zenodo.23208947",
+  "n": "",
+  "data_type": "bibliometric tables + Python scripts",
+  "licence": "CC-BY-4.0",
+  "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+  "status": "rehosted",
+  "files": [
+   {
+    "path": "README.md",
+    "url": "https://data.solvingmecfs.org/zenodo-23208947/README.md",
+    "bytes": 4019
+   },
+   {
+    "path": "LICENSE.txt",
+    "url": "https://data.solvingmecfs.org/zenodo-23208947/LICENSE.txt",
+    "bytes": 1248
+   },
+   {
+    "path": "table2_top_cited_references.csv",
+    "url": "https://data.solvingmecfs.org/zenodo-23208947/table2_top_cited_references.csv",
+    "bytes": 2762
+   },
+   {
+    "path": "Additional_file_9.xlsx",
+    "url": "https://data.solvingmecfs.org/zenodo-23208947/Additional_file_9.xlsx",
+    "bytes": 8055
+   },
+   {
+    "path": "refs_extract.py",
+    "url": "https://data.solvingmecfs.org/zenodo-23208947/refs_extract.py",
+    "bytes": 3774
+   },
+   {
+    "path": "refs_extra.py",
+    "url": "https://data.solvingmecfs.org/zenodo-23208947/refs_extra.py",
+    "bytes": 3782
+   },
+   {
+    "path": "refs_resolve.py",
+    "url": "https://data.solvingmecfs.org/zenodo-23208947/refs_resolve.py",
+    "bytes": 4288
+   },
+   {
+    "path": "build_figures_bmc.py",
+    "url": "https://data.solvingmecfs.org/zenodo-23208947/build_figures_bmc.py",
+    "bytes": 3085
+   },
+   {
+    "path": "make_fig3_170mm_20261006.py",
+    "url": "https://data.solvingmecfs.org/zenodo-23208947/make_fig3_170mm_20261006.py",
+    "bytes": 5516
+   },
+   {
+    "path": "make_fig6_20261006.py",
+    "url": "https://data.solvingmecfs.org/zenodo-23208947/make_fig6_20261006.py",
+    "bytes": 6148
+   },
+   {
+    "path": "make_fig2_170mm_20261008.py",
+    "url": "https://data.solvingmecfs.org/zenodo-23208947/make_fig2_170mm_20261008.py",
+    "bytes": 4417
+   },
+   {
+    "path": "p0_gap_control.py",
+    "url": "https://data.solvingmecfs.org/zenodo-23208947/p0_gap_control.py",
+    "bytes": 8025
+   },
+   {
+    "path": "README.md",
+    "url": "https://data.solvingmecfs.org/zenodo-23208947/README.md",
+    "bytes": 4377
+   },
+   {
+    "path": "refs_authors_fix.py",
+    "url": "https://data.solvingmecfs.org/zenodo-23208947/refs_authors_fix.py",
+    "bytes": 2565
+   },
+   {
+    "path": "CITATION.cff",
+    "url": "https://data.solvingmecfs.org/zenodo-23208947/CITATION.cff",
+    "bytes": 1573
+   },
+   {
+    "path": "build_additional_files.py",
+    "url": "https://data.solvingmecfs.org/zenodo-23208947/build_additional_files.py",
+    "bytes": 14590
+   },
+   {
+    "path": "p0_growth_normalised.py",
+    "url": "https://data.solvingmecfs.org/zenodo-23208947/p0_growth_normalised.py",
+    "bytes": 4356
+   },
+   {
+    "path": "Additional_file_15.xlsx",
+    "url": "https://data.solvingmecfs.org/zenodo-23208947/Additional_file_15.xlsx",
+    "bytes": 60349
+   },
+   {
+    "path": "analyze_wos.py",
+    "url": "https://data.solvingmecfs.org/zenodo-23208947/analyze_wos.py",
+    "bytes": 10339
+   },
+   {
+    "path": "make_fig4_s6_20261006.py",
+    "url": "https://data.solvingmecfs.org/zenodo-23208947/make_fig4_s6_20261006.py",
+    "bytes": 10557
+   },
+   {
+    "path": "pem_rules_v2.py",
+    "url": "https://data.solvingmecfs.org/zenodo-23208947/pem_rules_v2.py",
+    "bytes": 9576
+   },
+   {
+    "path": "redraw_fig5.py",
+    "url": "https://data.solvingmecfs.org/zenodo-23208947/redraw_fig5.py",
+    "bytes": 6386
+   },
+   {
+    "path": "Additional_file_16.xlsx",
+    "url": "https://data.solvingmecfs.org/zenodo-23208947/Additional_file_16.xlsx",
+    "bytes": 116694
+   },
+   {
+    "path": "make_fig1_170mm_20261006.py",
+    "url": "https://data.solvingmecfs.org/zenodo-23208947/make_fig1_170mm_20261006.py",
+    "bytes": 9669
+   },
+   {
+    "path": "p0_narrow_set.py",
+    "url": "https://data.solvingmecfs.org/zenodo-23208947/p0_narrow_set.py",
+    "bytes": 7630
+   },
+   {
+    "path": "table3_v6_top40.csv",
+    "url": "https://data.solvingmecfs.org/zenodo-23208947/table3_v6_top40.csv",
+    "bytes": 830
+   },
+   {
+    "path": "regen_kw_tables.py",
+    "url": "https://data.solvingmecfs.org/zenodo-23208947/regen_kw_tables.py",
+    "bytes": 7300
+   },
+   {
+    "path": "p0_keyword_robustness.py",
+    "url": "https://data.solvingmecfs.org/zenodo-23208947/p0_keyword_robustness.py",
+    "bytes": 12065
+   },
+   {
+    "path": "p0_network_robustness.py",
+    "url": "https://data.solvingmecfs.org/zenodo-23208947/p0_network_robustness.py",
+    "bytes": 15810
+   },
+   {
+    "path": "wos_keyword_records.csv",
+    "url": "https://data.solvingmecfs.org/zenodo-23208947/wos_keyword_records.csv",
+    "bytes": 168127
+   },
+   {
+    "path": "p0_sensitivity_three_pools.py",
+    "url": "https://data.solvingmecfs.org/zenodo-23208947/p0_sensitivity_three_pools.py",
+    "bytes": 8698
+   },
+   {
+    "path": "fig4_final.py",
+    "url": "https://data.solvingmecfs.org/zenodo-23208947/fig4_final.py",
+    "bytes": 15499
+   },
+   {
+    "path": "make_fig5_170mm_20261006.py",
+    "url": "https://data.solvingmecfs.org/zenodo-23208947/make_fig5_170mm_20261006.py",
+    "bytes": 7156
+   },
+   {
+    "path": "Additional_file_2.xlsx",
+    "url": "https://data.solvingmecfs.org/zenodo-23208947/Additional_file_2.xlsx",
+    "bytes": 752135
+   },
+   {
+    "path": "Additional_file_3.xlsx",
+    "url": "https://data.solvingmecfs.org/zenodo-23208947/Additional_file_3.xlsx",
+    "bytes": 12101
+   },
+   {
+    "path": "run_rule_screen_515.py",
+    "url": "https://data.solvingmecfs.org/zenodo-23208947/run_rule_screen_515.py",
+    "bytes": 7391
+   },
+   {
+    "path": "Additional_file_10.pdf",
+    "url": "https://data.solvingmecfs.org/zenodo-23208947/Additional_file_10.pdf",
+    "bytes": 340107
+   },
+   {
+    "path": "Additional_file_11.xlsx",
+    "url": "https://data.solvingmecfs.org/zenodo-23208947/Additional_file_11.xlsx",
+    "bytes": 61569
+   },
+   {
+    "path": "Additional_file_12.xlsx",
+    "url": "https://data.solvingmecfs.org/zenodo-23208947/Additional_file_12.xlsx",
+    "bytes": 99523
+   },
+   {
+    "path": "Additional_file_13.xlsx",
+    "url": "https://data.solvingmecfs.org/zenodo-23208947/Additional_file_13.xlsx",
+    "bytes": 14818
+   },
+   {
+    "path": "Additional_file_14.docx",
+    "url": "https://data.solvingmecfs.org/zenodo-23208947/Additional_file_14.docx",
+    "bytes": 39852
+   },
+   {
+    "path": "Additional_file_17.pdf",
+    "url": "https://data.solvingmecfs.org/zenodo-23208947/Additional_file_17.pdf",
+    "bytes": 1823672
+   },
+   {
+    "path": "Additional_file_1.docx",
+    "url": "https://data.solvingmecfs.org/zenodo-23208947/Additional_file_1.docx",
+    "bytes": 61573
+   },
+   {
+    "path": "Additional_file_4.xlsx",
+    "url": "https://data.solvingmecfs.org/zenodo-23208947/Additional_file_4.xlsx",
+    "bytes": 9385
+   },
+   {
+    "path": "Additional_file_5.xlsx",
+    "url": "https://data.solvingmecfs.org/zenodo-23208947/Additional_file_5.xlsx",
+    "bytes": 100683
+   },
+   {
+    "path": "Additional_file_6.xlsx",
+    "url": "https://data.solvingmecfs.org/zenodo-23208947/Additional_file_6.xlsx",
+    "bytes": 11271
+   },
+   {
+    "path": "Additional_file_7.xlsx",
+    "url": "https://data.solvingmecfs.org/zenodo-23208947/Additional_file_7.xlsx",
+    "bytes": 7358
+   },
+   {
+    "path": "Additional_file_8.xlsx",
+    "url": "https://data.solvingmecfs.org/zenodo-23208947/Additional_file_8.xlsx",
+    "bytes": 14643
+   }
+  ],
+  "total_bytes": 3905346,
+  "our_analyses": [],
+  "notes": "Attribution: Cite Hao W, Jin H, Ouyang C, Tang F et al. 2026 and doi:10.5281/zenodo.23208947.",
+  "cohort_ids": [],
+  "index_url": "https://data.solvingmecfs.org/zenodo-23208947/index.html"
+ },
+ {
+  "id": "zenodo-7579158",
+  "name": "Circulating miRNA changes in ME/CFS: target-gene networks (computational)",
+  "citation": "Kaczmarek MP 2023. Zenodo doi:10.5281/zenodo.7579158",
+  "source_url": "https://zenodo.org/records/7579158",
+  "doi": "10.5281/zenodo.7579158",
+  "n": "",
+  "data_type": "miRNA target networks (zip)",
+  "licence": "CC-BY-4.0",
+  "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+  "status": "rehosted",
+  "files": [
+   {
+    "path": "README.md",
+    "url": "https://data.solvingmecfs.org/zenodo-7579158/README.md",
+    "bytes": 1333
+   },
+   {
+    "path": "Directional_Interaction_Networks_for_Most_Implicated_Target_Genes.zip",
+    "url": "https://data.solvingmecfs.org/zenodo-7579158/Directional_Interaction_Networks_for_Most_Implicated_Target_Genes.zip",
+    "bytes": 71899
+   }
+  ],
+  "total_bytes": 73232,
+  "our_analyses": [],
+  "notes": "Mirrored: the target-gene network zip only; the full random-simulation zip (333 MB) is linked only (size). Attribution: Cite Kaczmarek MP 2023 and doi:10.5281/zenodo.7579158.",
+  "cohort_ids": [],
+  "index_url": "https://data.solvingmecfs.org/zenodo-7579158/index.html"
+ },
+ {
+  "id": "zenodo-21640246",
+  "name": "Olink Explore plasma proteomics in a PASC cohort (Karolinska)",
+  "citation": "Humbert M, Sandberg JK et al. 2026. Zenodo doi:10.5281/zenodo.21640246",
+  "source_url": "https://zenodo.org/records/21640246",
+  "doi": "10.5281/zenodo.21640246",
+  "n": "",
+  "data_type": "Olink Explore NPX (CSV)",
+  "licence": "CC-BY-4.0",
+  "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+  "status": "rehosted",
+  "files": [
+   {
+    "path": "README.md",
+    "url": "https://data.solvingmecfs.org/zenodo-21640246/README.md",
+    "bytes": 1156
+   },
+   {
+    "path": "PASC_cohort_Olink_data.csv",
+    "url": "https://data.solvingmecfs.org/zenodo-21640246/PASC_cohort_Olink_data.csv",
+    "bytes": 26250153
+   }
+  ],
+  "total_bytes": 26251309,
+  "our_analyses": [],
+  "notes": "Long COVID / post-COVID dataset.  Attribution: Cite Humbert M, Sandberg JK et al. 2026 and doi:10.5281/zenodo.21640246.",
+  "cohort_ids": [],
+  "index_url": "https://data.solvingmecfs.org/zenodo-21640246/index.html"
+ },
+ {
+  "id": "zenodo-7872791",
+  "name": "Persistent serum protein signatures in long COVID (Talla et al.)",
+  "citation": "Talla A, Vasaikar SV, Szeto GL, Lemos MP et al. 2022. Zenodo doi:10.5281/zenodo.7872791",
+  "source_url": "https://zenodo.org/records/7872791",
+  "doi": "10.5281/zenodo.7872791",
+  "n": "",
+  "data_type": "Olink + MS proteomics, source data and R code",
+  "licence": "CC-BY-4.0",
+  "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+  "status": "rehosted",
+  "files": [
+   {
+    "path": "README.md",
+    "url": "https://data.solvingmecfs.org/zenodo-7872791/README.md",
+    "bytes": 4125
+   },
+   {
+    "path": "Obesity_and_age_markers.xlsx",
+    "url": "https://data.solvingmecfs.org/zenodo-7872791/Obesity_and_age_markers.xlsx",
+    "bytes": 33647
+   },
+   {
+    "path": "JimHeath_proteomics.xlsx",
+    "url": "https://data.solvingmecfs.org/zenodo-7872791/JimHeath_proteomics.xlsx",
+    "bytes": 14821891
+   },
+   {
+    "path": "2-PASC-JaccardIndex-2871Pathways-Bootstrap.R",
+    "url": "https://data.solvingmecfs.org/zenodo-7872791/2-PASC-JaccardIndex-2871Pathways-Bootstrap.R",
+    "bytes": 3127
+   },
+   {
+    "path": "6-Metadata_and_Olink_deepdive.R",
+    "url": "https://data.solvingmecfs.org/zenodo-7872791/6-Metadata_and_Olink_deepdive.R",
+    "bytes": 99240
+   },
+   {
+    "path": "C2-Biomarker-pathway-Cluster.csv",
+    "url": "https://data.solvingmecfs.org/zenodo-7872791/C2-Biomarker-pathway-Cluster.csv",
+    "bytes": 6398
+   },
+   {
+    "path": "5-PASC-54-Modules-analysis.R",
+    "url": "https://data.solvingmecfs.org/zenodo-7872791/5-PASC-54-Modules-analysis.R",
+    "bytes": 19903
+   },
+   {
+    "path": "Diaonostic_panel_Performance.R",
+    "url": "https://data.solvingmecfs.org/zenodo-7872791/Diaonostic_panel_Performance.R",
+    "bytes": 6530
+   },
+   {
+    "path": "AIFI_PASC_Olink_with_Score.csv",
+    "url": "https://data.solvingmecfs.org/zenodo-7872791/AIFI_PASC_Olink_with_Score.csv",
+    "bytes": 34277
+   },
+   {
+    "path": "Diaonostic_panel_PASC_panel.R",
+    "url": "https://data.solvingmecfs.org/zenodo-7872791/Diaonostic_panel_PASC_panel.R",
+    "bytes": 5859
+   },
+   {
+    "path": "1-PASC_RuleIn_clustering-Proteins.R",
+    "url": "https://data.solvingmecfs.org/zenodo-7872791/1-PASC_RuleIn_clustering-Proteins.R",
+    "bytes": 11773
+   },
+   {
+    "path": "Source_Figure_data_S13.xlsx",
+    "url": "https://data.solvingmecfs.org/zenodo-7872791/Source_Figure_data_S13.xlsx",
+    "bytes": 36838
+   },
+   {
+    "path": "JimHeath_proteomics_metadata.xlsx",
+    "url": "https://data.solvingmecfs.org/zenodo-7872791/JimHeath_proteomics_metadata.xlsx",
+    "bytes": 340853
+   },
+   {
+    "path": "JH_PASC_Olink_with_Score.csv",
+    "url": "https://data.solvingmecfs.org/zenodo-7872791/JH_PASC_Olink_with_Score.csv",
+    "bytes": 114796
+   },
+   {
+    "path": "JH_Olinkmat_ovlp_matannot_col.txt",
+    "url": "https://data.solvingmecfs.org/zenodo-7872791/JH_Olinkmat_ovlp_matannot_col.txt",
+    "bytes": 18313
+   },
+   {
+    "path": "PASC_vs_Others_marker_performance.csv",
+    "url": "https://data.solvingmecfs.org/zenodo-7872791/PASC_vs_Others_marker_performance.csv",
+    "bytes": 90314
+   },
+   {
+    "path": "c2-Clustering-FTP-Longitudinal.xlsx",
+    "url": "https://data.solvingmecfs.org/zenodo-7872791/c2-Clustering-FTP-Longitudinal.xlsx",
+    "bytes": 63311
+   },
+   {
+    "path": "c2.cp.v7.2.symbols.gmt",
+    "url": "https://data.solvingmecfs.org/zenodo-7872791/c2.cp.v7.2.symbols.gmt",
+    "bytes": 1240431
+   },
+   {
+    "path": "Clinical_activity_score.xlsx",
+    "url": "https://data.solvingmecfs.org/zenodo-7872791/Clinical_activity_score.xlsx",
+    "bytes": 12048
+   },
+   {
+    "path": "4-PASC-JaccardIndex-54Modules.R",
+    "url": "https://data.solvingmecfs.org/zenodo-7872791/4-PASC-JaccardIndex-54Modules.R",
+    "bytes": 3295
+   },
+   {
+    "path": "3-PASC-Modelbased-85-pathways.R",
+    "url": "https://data.solvingmecfs.org/zenodo-7872791/3-PASC-Modelbased-85-pathways.R",
+    "bytes": 11381
+   },
+   {
+    "path": "DiagnosticPanelSelection.xlsx",
+    "url": "https://data.solvingmecfs.org/zenodo-7872791/DiagnosticPanelSelection.xlsx",
+    "bytes": 51029
+   },
+   {
+    "path": "Diaonostic_panel_LogisticRegression.R",
+    "url": "https://data.solvingmecfs.org/zenodo-7872791/Diaonostic_panel_LogisticRegression.R",
+    "bytes": 10501
+   },
+   {
+    "path": "JH_Olinkmat_full.txt",
+    "url": "https://data.solvingmecfs.org/zenodo-7872791/JH_Olinkmat_full.txt",
+    "bytes": 3003022
+   },
+   {
+    "path": "Source_data_Figure_S5.xlsx",
+    "url": "https://data.solvingmecfs.org/zenodo-7872791/Source_data_Figure_S5.xlsx",
+    "bytes": 207844
+   },
+   {
+    "path": "Source_data_Figure_1.xlsx",
+    "url": "https://data.solvingmecfs.org/zenodo-7872791/Source_data_Figure_1.xlsx",
+    "bytes": 188230
+   },
+   {
+    "path": "PathwayModules-54.gmt",
+    "url": "https://data.solvingmecfs.org/zenodo-7872791/PathwayModules-54.gmt",
+    "bytes": 26993
+   },
+   {
+    "path": "RBD_IgG_estimates.csv",
+    "url": "https://data.solvingmecfs.org/zenodo-7872791/RBD_IgG_estimates.csv",
+    "bytes": 3027
+   },
+   {
+    "path": "Source_data_Figure_2.xlsx",
+    "url": "https://data.solvingmecfs.org/zenodo-7872791/Source_data_Figure_2.xlsx",
+    "bytes": 48393
+   },
+   {
+    "path": "Source_data_Figure_3.xlsx",
+    "url": "https://data.solvingmecfs.org/zenodo-7872791/Source_data_Figure_3.xlsx",
+    "bytes": 274613
+   },
+   {
+    "path": "Source_data_Figure_4.xlsx",
+    "url": "https://data.solvingmecfs.org/zenodo-7872791/Source_data_Figure_4.xlsx",
+    "bytes": 158127
+   },
+   {
+    "path": "Source_data_Figure_5.xlsx",
+    "url": "https://data.solvingmecfs.org/zenodo-7872791/Source_data_Figure_5.xlsx",
+    "bytes": 28653
+   },
+   {
+    "path": "Source_data_Figure_6.xlsx",
+    "url": "https://data.solvingmecfs.org/zenodo-7872791/Source_data_Figure_6.xlsx",
+    "bytes": 45872
+   },
+   {
+    "path": "Source_data_Figure_S10.xlsx",
+    "url": "https://data.solvingmecfs.org/zenodo-7872791/Source_data_Figure_S10.xlsx",
+    "bytes": 119301
+   },
+   {
+    "path": "Source_data_Figure_S12.xlsx",
+    "url": "https://data.solvingmecfs.org/zenodo-7872791/Source_data_Figure_S12.xlsx",
+    "bytes": 165697
+   },
+   {
+    "path": "Source_data_Figure_S3.xlsx",
+    "url": "https://data.solvingmecfs.org/zenodo-7872791/Source_data_Figure_S3.xlsx",
+    "bytes": 28286
+   },
+   {
+    "path": "Source_data_Figure_S4.xlsx",
+    "url": "https://data.solvingmecfs.org/zenodo-7872791/Source_data_Figure_S4.xlsx",
+    "bytes": 14610
+   },
+   {
+    "path": "Source_data_Figure_S6.xlsx",
+    "url": "https://data.solvingmecfs.org/zenodo-7872791/Source_data_Figure_S6.xlsx",
+    "bytes": 9423
+   },
+   {
+    "path": "Source_data_Figure_S7.xlsx",
+    "url": "https://data.solvingmecfs.org/zenodo-7872791/Source_data_Figure_S7.xlsx",
+    "bytes": 232335
+   },
+   {
+    "path": "Source_data_Figure_S9.xlsx",
+    "url": "https://data.solvingmecfs.org/zenodo-7872791/Source_data_Figure_S9.xlsx",
+    "bytes": 156324
+   }
+  ],
+  "total_bytes": 21750630,
+  "our_analyses": [],
+  "notes": "Long COVID / post-COVID dataset.  Attribution: Cite Talla A, Vasaikar SV, Szeto GL, Lemos MP et al. 2022 and doi:10.5281/zenodo.7872791.",
+  "cohort_ids": [],
+  "index_url": "https://data.solvingmecfs.org/zenodo-7872791/index.html"
+ },
+ {
+  "id": "zenodo-21283519",
+  "name": "Small extracellular vesicle proteome in long COVID (limma results)",
+  "citation": "Chandran S, Dhillon N et al. 2026. Zenodo doi:10.5281/zenodo.21283519",
+  "source_url": "https://zenodo.org/records/21283519",
+  "doi": "10.5281/zenodo.21283519",
+  "n": "",
+  "data_type": "Olink EV proteomics differential results",
+  "licence": "CC-BY-4.0",
+  "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+  "status": "rehosted",
+  "files": [
+   {
+    "path": "README.md",
+    "url": "https://data.solvingmecfs.org/zenodo-21283519/README.md",
+    "bytes": 1203
+   },
+   {
+    "path": "d.limma.result.PASC.Pos_vs_PASC.Neg.csv",
+    "url": "https://data.solvingmecfs.org/zenodo-21283519/d.limma.result.PASC.Pos_vs_PASC.Neg.csv",
+    "bytes": 732545
+   }
+  ],
+  "total_bytes": 733748,
+  "our_analyses": [],
+  "notes": "Long COVID / post-COVID dataset.  Attribution: Cite Chandran S, Dhillon N et al. 2026 and doi:10.5281/zenodo.21283519.",
+  "cohort_ids": [],
+  "index_url": "https://data.solvingmecfs.org/zenodo-21283519/index.html"
+ },
+ {
+  "id": "zenodo-15199328",
+  "name": "SARS-CoV-2 plasma antigen, Olink proteomics and CyTOF in long COVID (IRIS, 100 people)",
+  "citation": "Pienkos S et al. 2025. Zenodo doi:10.5281/zenodo.15199328",
+  "source_url": "https://zenodo.org/records/15199328",
+  "doi": "10.5281/zenodo.15199328",
+  "n": "",
+  "data_type": "Olink, CyTOF clusters, symptoms (CSV) + R script",
+  "licence": "CC-BY-4.0",
+  "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+  "status": "rehosted",
+  "files": [
+   {
+    "path": "README.md",
+    "url": "https://data.solvingmecfs.org/zenodo-15199328/README.md",
+    "bytes": 1688
+   },
+   {
+    "path": "ag_cytof_12mo_MFI_fine_clusters.csv",
+    "url": "https://data.solvingmecfs.org/zenodo-15199328/ag_cytof_12mo_MFI_fine_clusters.csv",
+    "bytes": 1496949
+   },
+   {
+    "path": "ag_cytof_3mo_MFI_fine_clusters.csv",
+    "url": "https://data.solvingmecfs.org/zenodo-15199328/ag_cytof_3mo_MFI_fine_clusters.csv",
+    "bytes": 1918655
+   },
+   {
+    "path": "ag_symptoms.csv",
+    "url": "https://data.solvingmecfs.org/zenodo-15199328/ag_symptoms.csv",
+    "bytes": 20445
+   },
+   {
+    "path": "3mo_proportions_antigen_fine_clusters.csv",
+    "url": "https://data.solvingmecfs.org/zenodo-15199328/3mo_proportions_antigen_fine_clusters.csv",
+    "bytes": 52112
+   },
+   {
+    "path": "olink_3mo_ag.csv",
+    "url": "https://data.solvingmecfs.org/zenodo-15199328/olink_3mo_ag.csv",
+    "bytes": 717418
+   },
+   {
+    "path": "R_script.R",
+    "url": "https://data.solvingmecfs.org/zenodo-15199328/R_script.R",
+    "bytes": 32442
+   },
+   {
+    "path": "12mo_proportions_antigen_fine_clusters.csv",
+    "url": "https://data.solvingmecfs.org/zenodo-15199328/12mo_proportions_antigen_fine_clusters.csv",
+    "bytes": 40338
+   },
+   {
+    "path": "olink_12mo_ag.csv",
+    "url": "https://data.solvingmecfs.org/zenodo-15199328/olink_12mo_ag.csv",
+    "bytes": 572572
+   }
+  ],
+  "total_bytes": 4852619,
+  "our_analyses": [],
+  "notes": "Long COVID / post-COVID dataset.  Attribution: Cite Pienkos S et al. 2025 and doi:10.5281/zenodo.15199328.",
+  "cohort_ids": [],
+  "index_url": "https://data.solvingmecfs.org/zenodo-15199328/index.html"
+ },
+ {
+  "id": "zenodo-10360084",
+  "name": "Long COVID T cell dysregulation: Olink data (Yin et al.)",
+  "citation": "Roan N et al. 2023. Zenodo doi:10.7272/Q6WD3XTB",
+  "source_url": "https://zenodo.org/records/10360084",
+  "doi": "10.7272/Q6WD3XTB",
+  "n": "",
+  "data_type": "Olink (CSV); CyTOF FCS files linked only",
+  "licence": "CC0-1.0",
+  "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "status": "rehosted",
+  "files": [
+   {
+    "path": "README.md",
+    "url": "https://data.solvingmecfs.org/zenodo-10360084/README.md",
+    "bytes": 1256
+   },
+   {
+    "path": "Olink.csv",
+    "url": "https://data.solvingmecfs.org/zenodo-10360084/Olink.csv",
+    "bytes": 1631863
+   },
+   {
+    "path": "README.md",
+    "url": "https://data.solvingmecfs.org/zenodo-10360084/README.md",
+    "bytes": 19107
+   }
+  ],
+  "total_bytes": 1652226,
+  "our_analyses": [],
+  "notes": "Long COVID / post-COVID dataset.  Mirrored: Olink.csv and README; the 200+ CyTOF FCS files (1.2 GB) are linked only (size). Attribution: No legal requirement (CC0); please cite Roan N et al. 2023 and doi:10.7272/Q6WD3XTB.",
+  "cohort_ids": [],
+  "index_url": "https://data.solvingmecfs.org/zenodo-10360084/index.html"
+ },
+ {
+  "id": "dryad-f1vhhmgsb",
+  "name": "Low-grade inflammation and symptoms in ME/CFS (Swedish cohort)",
+  "citation": "Jonsjo MA, Olsson GL, Wicksell RK, Alving K, Holmstrom L, Andreasson A. Psychoneuroendocrinology 2020 (doi:10.1016/j.psyneuen.2019.104578). Dryad doi:10.5061/dryad.f1vhhmgsb",
+  "source_url": "https://datadryad.org/dataset/doi:10.5061/dryad.f1vhhmgsb",
+  "doi": "10.5061/dryad.f1vhhmgsb",
+  "n": "",
+  "data_type": "per-participant inflammatory markers and symptom scores (xlsx)",
+  "licence": "CC0-1.0",
+  "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "status": "rehosted",
+  "files": [
+   {
+    "path": "README.md",
+    "url": "https://data.solvingmecfs.org/dryad-f1vhhmgsb/README.md",
+    "bytes": 1654
+   },
+   {
+    "path": "Kopia_av_MEFCS_Inflammation_Shared_dataset.xlsx",
+    "url": "https://data.solvingmecfs.org/dryad-f1vhhmgsb/Kopia_av_MEFCS_Inflammation_Shared_dataset.xlsx",
+    "bytes": 15124
+   }
+  ],
+  "total_bytes": 16778,
+  "our_analyses": [],
+  "notes": "Files taken from the Zenodo copy (record 4960364) of the Dryad deposit, because the Dryad file API now requires login. Attribution: No legal requirement (CC0); please cite Jonsjo MA, Olsson GL, Wicksell RK, Alving K, Holmstrom L, Andreasson A. Psychoneuroendocrinology 2020 (doi:10.1016/j.psyneuen.2019.104578) and doi:10.5061/dryad.f1vhhmgsb.",
+  "cohort_ids": [],
+  "index_url": "https://data.solvingmecfs.org/dryad-f1vhhmgsb/index.html"
+ },
+ {
+  "id": "dryad-c866t1g67",
+  "name": "Long COVID prevalence and EBV reactivation",
+  "citation": "Gold JE, Okyay RA, Licht WE, Hurley DJ. Pathogens 2021 (doi:10.3390/pathogens10060763). Dryad doi:10.5061/dryad.c866t1g67",
+  "source_url": "https://datadryad.org/dataset/doi:10.5061/dryad.c866t1g67",
+  "doi": "10.5061/dryad.c866t1g67",
+  "n": "",
+  "data_type": "per-participant EBV serology and symptoms (xlsx)",
+  "licence": "CC0-1.0",
+  "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "status": "rehosted",
+  "files": [
+   {
+    "path": "README.md",
+    "url": "https://data.solvingmecfs.org/dryad-c866t1g67/README.md",
+    "bytes": 1478
+   },
+   {
+    "path": "LongCOVID-EBV-16Jun2021.xlsx",
+    "url": "https://data.solvingmecfs.org/dryad-c866t1g67/LongCOVID-EBV-16Jun2021.xlsx",
+    "bytes": 31394
+   }
+  ],
+  "total_bytes": 32872,
+  "our_analyses": [],
+  "notes": "Long COVID / post-COVID dataset.  Files taken from the Zenodo copy (record 4968818) of the Dryad deposit, because the Dryad file API now requires login. Attribution: No legal requirement (CC0); please cite Gold JE, Okyay RA, Licht WE, Hurley DJ. Pathogens 2021 (doi:10.3390/pathogens10060763) and doi:10.5061/dryad.c866t1g67.",
+  "cohort_ids": [],
+  "index_url": "https://data.solvingmecfs.org/dryad-c866t1g67/index.html"
+ },
+ {
+  "id": "pride-pxd073644",
+  "name": "Plasma EV proteomics in post-COVID vs post-infectious ME/CFS (PRIDE PXD073644)",
+  "citation": "Seifert M et al. Int J Mol Sci 2026 (doi:10.3390/ijms27052314); PRIDE PXD073644",
+  "source_url": "https://www.ebi.ac.uk/pride/archive/projects/PXD073644",
+  "doi": "10.3390/ijms27052314",
+  "n": "",
+  "data_type": "LC-MS/MS EV proteomics (design files)",
+  "licence": "CC0-1.0",
+  "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "status": "rehosted",
+  "files": [
+   {
+    "path": "README.md",
+    "url": "https://data.solvingmecfs.org/pride-pxd073644/README.md",
+    "bytes": 1472
+   },
+   {
+    "path": "ExperimentalDesign_Proteomnanalyse_piMECFS.csv",
+    "url": "https://data.solvingmecfs.org/pride-pxd073644/ExperimentalDesign_Proteomnanalyse_piMECFS.csv",
+    "bytes": 3843
+   },
+   {
+    "path": "ExperimentalDesign_Proteomnanalyse_pcMECFS.txt",
+    "url": "https://data.solvingmecfs.org/pride-pxd073644/ExperimentalDesign_Proteomnanalyse_pcMECFS.txt",
+    "bytes": 4338
+   },
+   {
+    "path": "ExperimentalDesign_Proteomnanalyse_pcMECFS.csv",
+    "url": "https://data.solvingmecfs.org/pride-pxd073644/ExperimentalDesign_Proteomnanalyse_pcMECFS.csv",
+    "bytes": 4341
+   },
+   {
+    "path": "ExperimentalDesign_Proteomnanalyse_piMECFS.txt",
+    "url": "https://data.solvingmecfs.org/pride-pxd073644/ExperimentalDesign_Proteomnanalyse_piMECFS.txt",
+    "bytes": 3840
+   }
+  ],
+  "total_bytes": 17834,
+  "our_analyses": [],
+  "notes": "Mirrored: experimental design files only; raw files (44.6 GB) linked only. Attribution: No legal requirement (CC0); please cite Seifert et al. 2026 and PXD073644.",
+  "cohort_ids": [],
+  "index_url": "https://data.solvingmecfs.org/pride-pxd073644/index.html"
+ },
+ {
+  "id": "pride-pxd045508",
+  "name": "PBMC proteomes in long COVID compared with ME/CFS (PRIDE PXD045508)",
+  "citation": "Peppercorn K, Edgar CD, Kleffmann T, Tate WP. Sci Rep 2023 (doi:10.1038/s41598-023-49402-9); PRIDE PXD045508",
+  "source_url": "https://www.ebi.ac.uk/pride/archive/projects/PXD045508",
+  "doi": "10.1038/s41598-023-49402-9",
+  "n": "",
+  "data_type": "SWATH/DIA PBMC proteomics (metadata key)",
+  "licence": "CC0-1.0",
+  "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "status": "rehosted",
+  "files": [
+   {
+    "path": "README.md",
+    "url": "https://data.solvingmecfs.org/pride-pxd045508/README.md",
+    "bytes": 1343
+   },
+   {
+    "path": "Metadata_RawFile_Key.txt",
+    "url": "https://data.solvingmecfs.org/pride-pxd045508/Metadata_RawFile_Key.txt",
+    "bytes": 5788
+   }
+  ],
+  "total_bytes": 7131,
+  "our_analyses": [],
+  "notes": "Long COVID / post-COVID dataset.  Mirrored: raw-file metadata key only; spectral library (199 MB), search results (77 GB) and raw files (237 GB) linked only. Attribution: No legal requirement (CC0); please cite Peppercorn et al. 2023 and PXD045508.",
+  "cohort_ids": [],
+  "index_url": "https://data.solvingmecfs.org/pride-pxd045508/index.html"
+ },
+ {
+  "id": "figshare-birch-2025-genetics",
+  "name": "Rare monogenic variants and genetic architecture of ME/CFS (UAB)",
+  "citation": "Birch CL, Wilk BM, Gajapathy M et al. J Transl Med 2025 (doi:10.1186/s12967-025-07586-w); supplementary files on figshare",
+  "source_url": "https://doi.org/10.1186/s12967-025-07586-w",
+  "doi": "10.1186/s12967-025-07586-w",
+  "n": "",
+  "data_type": "variant and gene tables (xlsx)",
+  "licence": "CC-BY-4.0",
+  "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+  "status": "rehosted",
+  "files": [
+   {
+    "path": "README.md",
+    "url": "https://data.solvingmecfs.org/figshare-birch-2025-genetics/README.md",
+    "bytes": 1790
+   },
+   {
+    "path": "12967_2025_7586_MOESM11_ESM.xlsx",
+    "url": "https://data.solvingmecfs.org/figshare-birch-2025-genetics/12967_2025_7586_MOESM11_ESM.xlsx",
+    "bytes": 66759
+   },
+   {
+    "path": "12967_2025_7586_MOESM10_ESM.xlsx",
+    "url": "https://data.solvingmecfs.org/figshare-birch-2025-genetics/12967_2025_7586_MOESM10_ESM.xlsx",
+    "bytes": 20261
+   },
+   {
+    "path": "12967_2025_7586_MOESM9_ESM.xlsx",
+    "url": "https://data.solvingmecfs.org/figshare-birch-2025-genetics/12967_2025_7586_MOESM9_ESM.xlsx",
+    "bytes": 11029
+   },
+   {
+    "path": "12967_2025_7586_MOESM8_ESM.xlsx",
+    "url": "https://data.solvingmecfs.org/figshare-birch-2025-genetics/12967_2025_7586_MOESM8_ESM.xlsx",
+    "bytes": 127097
+   },
+   {
+    "path": "12967_2025_7586_MOESM7_ESM.xlsx",
+    "url": "https://data.solvingmecfs.org/figshare-birch-2025-genetics/12967_2025_7586_MOESM7_ESM.xlsx",
+    "bytes": 11749
+   },
+   {
+    "path": "12967_2025_7586_MOESM6_ESM.docx",
+    "url": "https://data.solvingmecfs.org/figshare-birch-2025-genetics/12967_2025_7586_MOESM6_ESM.docx",
+    "bytes": 141141
+   },
+   {
+    "path": "12967_2025_7586_MOESM5_ESM.pdf",
+    "url": "https://data.solvingmecfs.org/figshare-birch-2025-genetics/12967_2025_7586_MOESM5_ESM.pdf",
+    "bytes": 2476625
+   },
+   {
+    "path": "12967_2025_7586_MOESM4_ESM.pdf",
+    "url": "https://data.solvingmecfs.org/figshare-birch-2025-genetics/12967_2025_7586_MOESM4_ESM.pdf",
+    "bytes": 443102
+   },
+   {
+    "path": "12967_2025_7586_MOESM3_ESM.pdf",
+    "url": "https://data.solvingmecfs.org/figshare-birch-2025-genetics/12967_2025_7586_MOESM3_ESM.pdf",
+    "bytes": 74208
+   },
+   {
+    "path": "12967_2025_7586_MOESM2_ESM.pdf",
+    "url": "https://data.solvingmecfs.org/figshare-birch-2025-genetics/12967_2025_7586_MOESM2_ESM.pdf",
+    "bytes": 190086
+   },
+   {
+    "path": "12967_2025_7586_MOESM1_ESM.pdf",
+    "url": "https://data.solvingmecfs.org/figshare-birch-2025-genetics/12967_2025_7586_MOESM1_ESM.pdf",
+    "bytes": 484545
+   }
+  ],
+  "total_bytes": 4048392,
+  "our_analyses": [],
+  "notes": "Attribution: Cite Birch CL, Wilk BM, Gajapathy M et al. J Transl Med 2025 (doi:10.1186/s12967-025-07586-w).",
+  "cohort_ids": [],
+  "index_url": "https://data.solvingmecfs.org/figshare-birch-2025-genetics/index.html"
+ },
+ {
+  "id": "figshare-hunter-2025-episwitch",
+  "name": "Blood 3D-genome (EpiSwitch) diagnostic biomarkers for ME/CFS",
+  "citation": "Hunter E, Alshaker H, Bundock O et al. J Transl Med 2025 (doi:10.1186/s12967-025-07203-w); supplementary files on figshare",
+  "source_url": "https://doi.org/10.1186/s12967-025-07203-w",
+  "doi": "10.1186/s12967-025-07203-w",
+  "n": "",
+  "data_type": "biomarker tables (xlsx)",
+  "licence": "CC-BY-4.0",
+  "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+  "status": "rehosted",
+  "files": [
+   {
+    "path": "README.md",
+    "url": "https://data.solvingmecfs.org/figshare-hunter-2025-episwitch/README.md",
+    "bytes": 1596
+   },
+   {
+    "path": "12967_2025_7203_MOESM7_ESM.xlsx",
+    "url": "https://data.solvingmecfs.org/figshare-hunter-2025-episwitch/12967_2025_7203_MOESM7_ESM.xlsx",
+    "bytes": 11445
+   },
+   {
+    "path": "12967_2025_7203_MOESM6_ESM.xlsx",
+    "url": "https://data.solvingmecfs.org/figshare-hunter-2025-episwitch/12967_2025_7203_MOESM6_ESM.xlsx",
+    "bytes": 17268
+   },
+   {
+    "path": "12967_2025_7203_MOESM5_ESM.xlsx",
+    "url": "https://data.solvingmecfs.org/figshare-hunter-2025-episwitch/12967_2025_7203_MOESM5_ESM.xlsx",
+    "bytes": 20792
+   },
+   {
+    "path": "12967_2025_7203_MOESM4_ESM.xlsx",
+    "url": "https://data.solvingmecfs.org/figshare-hunter-2025-episwitch/12967_2025_7203_MOESM4_ESM.xlsx",
+    "bytes": 15503
+   },
+   {
+    "path": "12967_2025_7203_MOESM3_ESM.xlsx",
+    "url": "https://data.solvingmecfs.org/figshare-hunter-2025-episwitch/12967_2025_7203_MOESM3_ESM.xlsx",
+    "bytes": 10961
+   },
+   {
+    "path": "12967_2025_7203_MOESM2_ESM.pptx",
+    "url": "https://data.solvingmecfs.org/figshare-hunter-2025-episwitch/12967_2025_7203_MOESM2_ESM.pptx",
+    "bytes": 936390
+   },
+   {
+    "path": "12967_2025_7203_MOESM1_ESM.pptx",
+    "url": "https://data.solvingmecfs.org/figshare-hunter-2025-episwitch/12967_2025_7203_MOESM1_ESM.pptx",
+    "bytes": 1568959
+   }
+  ],
+  "total_bytes": 2582914,
+  "our_analyses": [],
+  "notes": "Attribution: Cite Hunter E, Alshaker H, Bundock O et al. J Transl Med 2025 (doi:10.1186/s12967-025-07203-w).",
+  "cohort_ids": [],
+  "index_url": "https://data.solvingmecfs.org/figshare-hunter-2025-episwitch/index.html"
+ },
+ {
+  "id": "figshare-giloteaux-2023-proteomics",
+  "name": "Plasma proteomics and cytokines distinguish ME/CFS (Cornell)",
+  "citation": "Giloteaux L, Li J, Hornig M et al. J Transl Med 2023 (doi:10.1186/s12967-023-04179-3); supplementary files on figshare",
+  "source_url": "https://doi.org/10.1186/s12967-023-04179-3",
+  "doi": "10.1186/s12967-023-04179-3",
+  "n": "",
+  "data_type": "protein/cytokine results (xlsx)",
+  "licence": "CC-BY-4.0 (with CC0 for data, BMC policy)",
+  "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+  "status": "rehosted",
+  "files": [
+   {
+    "path": "README.md",
+    "url": "https://data.solvingmecfs.org/figshare-giloteaux-2023-proteomics/README.md",
+    "bytes": 1409
+   },
+   {
+    "path": "12967_2023_4179_MOESM2_ESM.xlsx",
+    "url": "https://data.solvingmecfs.org/figshare-giloteaux-2023-proteomics/12967_2023_4179_MOESM2_ESM.xlsx",
+    "bytes": 24853
+   },
+   {
+    "path": "12967_2023_4179_MOESM1_ESM.docx",
+    "url": "https://data.solvingmecfs.org/figshare-giloteaux-2023-proteomics/12967_2023_4179_MOESM1_ESM.docx",
+    "bytes": 9478839
+   }
+  ],
+  "total_bytes": 9505101,
+  "our_analyses": [],
+  "notes": "Attribution: Cite Giloteaux L, Li J, Hornig M et al. J Transl Med 2023 (doi:10.1186/s12967-023-04179-3).",
+  "cohort_ids": [],
+  "index_url": "https://data.solvingmecfs.org/figshare-giloteaux-2023-proteomics/index.html"
+ },
+ {
+  "id": "figshare-nunes-2024-dia",
+  "name": "DIA LC-MS/MS plasma proteomics in ME/CFS (coagulation, endothelium)",
+  "citation": "Nunes JM, Vlok M, Proal A et al. Cardiovasc Diabetol 2024 (doi:10.1186/s12933-024-02315-x); supplementary files on figshare",
+  "source_url": "https://doi.org/10.1186/s12933-024-02315-x",
+  "doi": "10.1186/s12933-024-02315-x",
+  "n": "",
+  "data_type": "proteomics results (xlsx)",
+  "licence": "CC-BY-4.0 (with CC0 for data, BMC policy)",
+  "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+  "status": "rehosted",
+  "files": [
+   {
+    "path": "README.md",
+    "url": "https://data.solvingmecfs.org/figshare-nunes-2024-dia/README.md",
+    "bytes": 1376
+   },
+   {
+    "path": "12933_2024_2315_MOESM2_ESM.docx",
+    "url": "https://data.solvingmecfs.org/figshare-nunes-2024-dia/12933_2024_2315_MOESM2_ESM.docx",
+    "bytes": 1299351
+   },
+   {
+    "path": "12933_2024_2315_MOESM1_ESM.xlsx",
+    "url": "https://data.solvingmecfs.org/figshare-nunes-2024-dia/12933_2024_2315_MOESM1_ESM.xlsx",
+    "bytes": 25775
+   }
+  ],
+  "total_bytes": 1326502,
+  "our_analyses": [],
+  "notes": "Attribution: Cite Nunes JM, Vlok M, Proal A et al. Cardiovasc Diabetol 2024 (doi:10.1186/s12933-024-02315-x).",
+  "cohort_ids": [],
+  "index_url": "https://data.solvingmecfs.org/figshare-nunes-2024-dia/index.html"
+ },
+ {
+  "id": "figshare-dibble-2023-tcr",
+  "name": "T-cell receptor diversity in ME vs controls (UK ME/CFS Biobank)",
+  "citation": "Dibble JJ, Ferneyhough B, Roddis M et al. BMC Res Notes 2023 (doi:10.1186/s13104-023-06616-4); supplementary files on figshare",
+  "source_url": "https://doi.org/10.1186/s13104-023-06616-4",
+  "doi": "10.1186/s13104-023-06616-4",
+  "n": "",
+  "data_type": "TCR diversity tables (xlsx)",
+  "licence": "CC-BY-4.0 (with CC0 for data, BMC policy)",
+  "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+  "status": "rehosted",
+  "files": [
+   {
+    "path": "README.md",
+    "url": "https://data.solvingmecfs.org/figshare-dibble-2023-tcr/README.md",
+    "bytes": 1532
+   },
+   {
+    "path": "13104_2023_6616_MOESM5_ESM.docx",
+    "url": "https://data.solvingmecfs.org/figshare-dibble-2023-tcr/13104_2023_6616_MOESM5_ESM.docx",
+    "bytes": 252677
+   },
+   {
+    "path": "13104_2023_6616_MOESM4_ESM.xlsx",
+    "url": "https://data.solvingmecfs.org/figshare-dibble-2023-tcr/13104_2023_6616_MOESM4_ESM.xlsx",
+    "bytes": 231898
+   },
+   {
+    "path": "13104_2023_6616_MOESM3_ESM.xlsx",
+    "url": "https://data.solvingmecfs.org/figshare-dibble-2023-tcr/13104_2023_6616_MOESM3_ESM.xlsx",
+    "bytes": 19440
+   },
+   {
+    "path": "13104_2023_6616_MOESM2_ESM.xlsx",
+    "url": "https://data.solvingmecfs.org/figshare-dibble-2023-tcr/13104_2023_6616_MOESM2_ESM.xlsx",
+    "bytes": 170498
+   },
+   {
+    "path": "13104_2023_6616_MOESM1_ESM.docx",
+    "url": "https://data.solvingmecfs.org/figshare-dibble-2023-tcr/13104_2023_6616_MOESM1_ESM.docx",
+    "bytes": 25830
+   }
+  ],
+  "total_bytes": 701875,
+  "our_analyses": [],
+  "notes": "Attribution: Cite Dibble JJ, Ferneyhough B, Roddis M et al. BMC Res Notes 2023 (doi:10.1186/s13104-023-06616-4).",
+  "cohort_ids": [],
+  "index_url": "https://data.solvingmecfs.org/figshare-dibble-2023-tcr/index.html"
+ },
+ {
+  "id": "figshare-taylor-2023-lc-genetics",
+  "name": "Genetic risk factors for severe and fatigue-dominant long COVID and overlap with ME/CFS",
+  "citation": "Taylor K, Pearson M, Das S et al. J Transl Med 2023 (doi:10.1186/s12967-023-04588-4); supplementary files on figshare",
+  "source_url": "https://doi.org/10.1186/s12967-023-04588-4",
+  "doi": "10.1186/s12967-023-04588-4",
+  "n": "",
+  "data_type": "combinatorial genetics tables (xlsx)",
+  "licence": "CC-BY-4.0 (with CC0 for data, BMC policy)",
+  "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+  "status": "rehosted",
+  "files": [
+   {
+    "path": "README.md",
+    "url": "https://data.solvingmecfs.org/figshare-taylor-2023-lc-genetics/README.md",
+    "bytes": 1576
+   },
+   {
+    "path": "12967_2023_4588_MOESM5_ESM.docx",
+    "url": "https://data.solvingmecfs.org/figshare-taylor-2023-lc-genetics/12967_2023_4588_MOESM5_ESM.docx",
+    "bytes": 9812966
+   },
+   {
+    "path": "12967_2023_4588_MOESM4_ESM.xlsx",
+    "url": "https://data.solvingmecfs.org/figshare-taylor-2023-lc-genetics/12967_2023_4588_MOESM4_ESM.xlsx",
+    "bytes": 19696
+   },
+   {
+    "path": "12967_2023_4588_MOESM3_ESM.xlsx",
+    "url": "https://data.solvingmecfs.org/figshare-taylor-2023-lc-genetics/12967_2023_4588_MOESM3_ESM.xlsx",
+    "bytes": 45037
+   },
+   {
+    "path": "12967_2023_4588_MOESM2_ESM.xlsx",
+    "url": "https://data.solvingmecfs.org/figshare-taylor-2023-lc-genetics/12967_2023_4588_MOESM2_ESM.xlsx",
+    "bytes": 35603
+   },
+   {
+    "path": "12967_2023_4588_MOESM1_ESM.xlsx",
+    "url": "https://data.solvingmecfs.org/figshare-taylor-2023-lc-genetics/12967_2023_4588_MOESM1_ESM.xlsx",
+    "bytes": 110521
+   }
+  ],
+  "total_bytes": 10025399,
+  "our_analyses": [],
+  "notes": "Long COVID / post-COVID dataset.  Attribution: Cite Taylor K, Pearson M, Das S et al. J Transl Med 2023 (doi:10.1186/s12967-023-04588-4).",
+  "cohort_ids": [],
+  "index_url": "https://data.solvingmecfs.org/figshare-taylor-2023-lc-genetics/index.html"
+ },
+ {
+  "id": "figshare-saito-2024-lc-cfs",
+  "name": "Metabolomic and immune alterations in long COVID with chronic fatigue syndrome",
+  "citation": "Saito S, Shahbaz S, Luo X et al. Front Immunol 2024 (doi:10.3389/fimmu.2024.1341843); supplementary files on figshare",
+  "source_url": "https://doi.org/10.3389/fimmu.2024.1341843",
+  "doi": "10.3389/fimmu.2024.1341843",
+  "n": "",
+  "data_type": "metabolomics/immune data sheets",
+  "licence": "CC-BY-4.0",
+  "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+  "status": "rehosted",
+  "files": [
+   {
+    "path": "README.md",
+    "url": "https://data.solvingmecfs.org/figshare-saito-2024-lc-cfs/README.md",
+    "bytes": 1962
+   },
+   {
+    "path": "DataSheet_2_Metabolomic_and_immune_alterations_in_long_COVID_patients_with_chronic_fatigue_syndrome.xlsx",
+    "url": "https://data.solvingmecfs.org/figshare-saito-2024-lc-cfs/DataSheet_2_Metabolomic_and_immune_alterations_in_long_COVID_patients_with_chronic_fatigue_syndrome.xlsx",
+    "bytes": 1711796
+   },
+   {
+    "path": "DataSheet_3_Metabolomic_and_immune_alterations_in_long_COVID_patients_with_chronic_fatigue_syndrome.pdf",
+    "url": "https://data.solvingmecfs.org/figshare-saito-2024-lc-cfs/DataSheet_3_Metabolomic_and_immune_alterations_in_long_COVID_patients_with_chronic_fatigue_syndrome.pdf",
+    "bytes": 3400103
+   },
+   {
+    "path": "DataSheet_1_Metabolomic_and_immune_alterations_in_long_COVID_patients_with_chronic_fatigue_syndrome.pdf",
+    "url": "https://data.solvingmecfs.org/figshare-saito-2024-lc-cfs/DataSheet_1_Metabolomic_and_immune_alterations_in_long_COVID_patients_with_chronic_fatigue_syndrome.pdf",
+    "bytes": 73806
+   }
+  ],
+  "total_bytes": 5187667,
+  "our_analyses": [],
+  "notes": "Long COVID / post-COVID dataset.  Attribution: Cite Saito S, Shahbaz S, Luo X et al. Front Immunol 2024 (doi:10.3389/fimmu.2024.1341843).",
+  "cohort_ids": [],
+  "index_url": "https://data.solvingmecfs.org/figshare-saito-2024-lc-cfs/index.html"
+ },
+ {
+  "id": "figshare-lee-2025-tcell",
+  "name": "T-cell activation and cytotoxic T-cell frequency by ME/CFS severity (UK ME/CFS Biobank)",
+  "citation": "Lee JS, Lacerda E, Kingdon C et al. J Transl Med 2025 (doi:10.1186/s12967-025-07507-x); supplementary files on figshare",
+  "source_url": "https://doi.org/10.1186/s12967-025-07507-x",
+  "doi": "10.1186/s12967-025-07507-x",
+  "n": "",
+  "data_type": "flow cytometry tables (xlsx)",
+  "licence": "CC-BY-4.0",
+  "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+  "status": "rehosted",
+  "files": [
+   {
+    "path": "README.md",
+    "url": "https://data.solvingmecfs.org/figshare-lee-2025-tcell/README.md",
+    "bytes": 1838
+   },
+   {
+    "path": "12967_2025_7507_MOESM12_ESM.xlsx",
+    "url": "https://data.solvingmecfs.org/figshare-lee-2025-tcell/12967_2025_7507_MOESM12_ESM.xlsx",
+    "bytes": 385086
+   },
+   {
+    "path": "12967_2025_7507_MOESM11_ESM.pdf",
+    "url": "https://data.solvingmecfs.org/figshare-lee-2025-tcell/12967_2025_7507_MOESM11_ESM.pdf",
+    "bytes": 127795
+   },
+   {
+    "path": "12967_2025_7507_MOESM10_ESM.pdf",
+    "url": "https://data.solvingmecfs.org/figshare-lee-2025-tcell/12967_2025_7507_MOESM10_ESM.pdf",
+    "bytes": 112411
+   },
+   {
+    "path": "12967_2025_7507_MOESM9_ESM.pdf",
+    "url": "https://data.solvingmecfs.org/figshare-lee-2025-tcell/12967_2025_7507_MOESM9_ESM.pdf",
+    "bytes": 124212
+   },
+   {
+    "path": "12967_2025_7507_MOESM8_ESM.pdf",
+    "url": "https://data.solvingmecfs.org/figshare-lee-2025-tcell/12967_2025_7507_MOESM8_ESM.pdf",
+    "bytes": 129828
+   },
+   {
+    "path": "12967_2025_7507_MOESM7_ESM.pdf",
+    "url": "https://data.solvingmecfs.org/figshare-lee-2025-tcell/12967_2025_7507_MOESM7_ESM.pdf",
+    "bytes": 295089
+   },
+   {
+    "path": "12967_2025_7507_MOESM6_ESM.pdf",
+    "url": "https://data.solvingmecfs.org/figshare-lee-2025-tcell/12967_2025_7507_MOESM6_ESM.pdf",
+    "bytes": 208029
+   },
+   {
+    "path": "12967_2025_7507_MOESM5_ESM.pdf",
+    "url": "https://data.solvingmecfs.org/figshare-lee-2025-tcell/12967_2025_7507_MOESM5_ESM.pdf",
+    "bytes": 192717
+   },
+   {
+    "path": "12967_2025_7507_MOESM4_ESM.pdf",
+    "url": "https://data.solvingmecfs.org/figshare-lee-2025-tcell/12967_2025_7507_MOESM4_ESM.pdf",
+    "bytes": 220186
+   },
+   {
+    "path": "12967_2025_7507_MOESM3_ESM.pdf",
+    "url": "https://data.solvingmecfs.org/figshare-lee-2025-tcell/12967_2025_7507_MOESM3_ESM.pdf",
+    "bytes": 262965
+   },
+   {
+    "path": "12967_2025_7507_MOESM2_ESM.pdf",
+    "url": "https://data.solvingmecfs.org/figshare-lee-2025-tcell/12967_2025_7507_MOESM2_ESM.pdf",
+    "bytes": 141900
+   },
+   {
+    "path": "12967_2025_7507_MOESM1_ESM.pdf",
+    "url": "https://data.solvingmecfs.org/figshare-lee-2025-tcell/12967_2025_7507_MOESM1_ESM.pdf",
+    "bytes": 137762
+   }
+  ],
+  "total_bytes": 2339818,
+  "our_analyses": [],
+  "notes": "Attribution: Cite Lee JS, Lacerda E, Kingdon C et al. J Transl Med 2025 (doi:10.1186/s12967-025-07507-x).",
+  "cohort_ids": [],
+  "index_url": "https://data.solvingmecfs.org/figshare-lee-2025-tcell/index.html"
+ },
+ {
+  "id": "figshare-28013513",
+  "name": "Working memory in ME/CFS: participant data (JASP file)",
+  "citation": "Kelly K, Penson M et al. La Trobe University figshare 2024 (doi:10.26181/28013513.v1)",
+  "source_url": "https://doi.org/10.26181/28013513.v1",
+  "doi": "10.26181/28013513.v1",
+  "n": "",
+  "data_type": "per-participant cognitive test data (JASP)",
+  "licence": "CC-BY-4.0",
+  "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+  "status": "rehosted",
+  "files": [
+   {
+    "path": "README.md",
+    "url": "https://data.solvingmecfs.org/figshare-28013513/README.md",
+    "bytes": 1167
+   },
+   {
+    "path": "CF_ME_Data_Set.jasp",
+    "url": "https://data.solvingmecfs.org/figshare-28013513/CF_ME_Data_Set.jasp",
+    "bytes": 1527683
+   }
+  ],
+  "total_bytes": 1528850,
+  "our_analyses": [],
+  "notes": "Attribution: Cite Kelly K, Penson M et al. 2024 (doi:10.26181/28013513.v1).",
+  "cohort_ids": [],
+  "index_url": "https://data.solvingmecfs.org/figshare-28013513/index.html"
+ },
+ {
+  "id": "mendeley-ztt67dj7jr",
+  "name": "LC3B-II autophagy in PBMCs, ME/CFS vs healthy (wIRA)",
+  "citation": "Hochecker B et al. 2023. Mendeley Data doi:10.17632/ztt67dj7jr.1",
+  "source_url": "https://data.mendeley.com/datasets/ztt67dj7jr/1",
+  "doi": "10.17632/ztt67dj7jr.1",
+  "n": "",
+  "data_type": "per-participant lab measurements",
+  "licence": "CC-BY-4.0",
+  "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+  "status": "rehosted",
+  "files": [
+   {
+    "path": "README.md",
+    "url": "https://data.solvingmecfs.org/mendeley-ztt67dj7jr/README.md",
+    "bytes": 1471
+   },
+   {
+    "path": "Healthy_individual_autophagy_values_triplicates.csv",
+    "url": "https://data.solvingmecfs.org/mendeley-ztt67dj7jr/Healthy_individual_autophagy_values_triplicates.csv",
+    "bytes": 257
+   },
+   {
+    "path": "Healthy___ME-CFS_autophagy_values_means.csv",
+    "url": "https://data.solvingmecfs.org/mendeley-ztt67dj7jr/Healthy___ME-CFS_autophagy_values_means.csv",
+    "bytes": 619
+   },
+   {
+    "path": "ME-CFS_individual_autophagyl_values_triplicates.csv",
+    "url": "https://data.solvingmecfs.org/mendeley-ztt67dj7jr/ME-CFS_individual_autophagyl_values_triplicates.csv",
+    "bytes": 450
+   }
+  ],
+  "total_bytes": 2797,
+  "our_analyses": [],
+  "notes": "Attribution: Cite Hochecker B et al. 2023, Mendeley Data doi:10.17632/ztt67dj7jr.1.",
+  "cohort_ids": [],
+  "index_url": "https://data.solvingmecfs.org/mendeley-ztt67dj7jr/index.html"
+ },
+ {
+  "id": "mendeley-vy5z29r5pg",
+  "name": "LC3-II autophagy in PBMCs, ME/CFS vs healthy (whole-body hyperthermia)",
+  "citation": "Hochecker B, Scherer M et al. 2024. Mendeley Data doi:10.17632/vy5z29r5pg.1",
+  "source_url": "https://data.mendeley.com/datasets/vy5z29r5pg/1",
+  "doi": "10.17632/vy5z29r5pg.1",
+  "n": "",
+  "data_type": "per-participant lab measurements",
+  "licence": "CC-BY-4.0",
+  "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+  "status": "rehosted",
+  "files": [
+   {
+    "path": "README.md",
+    "url": "https://data.solvingmecfs.org/mendeley-vy5z29r5pg/README.md",
+    "bytes": 1266
+   },
+   {
+    "path": "Healthy_T0_ME-CFS_T0___Hyperthermia.xlsx",
+    "url": "https://data.solvingmecfs.org/mendeley-vy5z29r5pg/Healthy_T0_ME-CFS_T0___Hyperthermia.xlsx",
+    "bytes": 10121
+   }
+  ],
+  "total_bytes": 11387,
+  "our_analyses": [],
+  "notes": "Attribution: Cite Hochecker B, Scherer M et al. 2024, Mendeley Data doi:10.17632/vy5z29r5pg.1.",
+  "cohort_ids": [],
+  "index_url": "https://data.solvingmecfs.org/mendeley-vy5z29r5pg/index.html"
+ },
+ {
+  "id": "mendeley-6bk895tzdp",
+  "name": "PBMC mitochondrial respiration, ME/CFS vs healthy (whole-body hyperthermia)",
+  "citation": "Hochecker B et al. 2024. Mendeley Data doi:10.17632/6bk895tzdp.1",
+  "source_url": "https://data.mendeley.com/datasets/6bk895tzdp/1",
+  "doi": "10.17632/6bk895tzdp.1",
+  "n": "",
+  "data_type": "per-participant lab measurements",
+  "licence": "CC-BY-4.0",
+  "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+  "status": "rehosted",
+  "files": [
+   {
+    "path": "README.md",
+    "url": "https://data.solvingmecfs.org/mendeley-6bk895tzdp/README.md",
+    "bytes": 1702
+   },
+   {
+    "path": "ATP_Production_Healthy_T0_ME-CFS_T0___Hyperthermia.xlsx",
+    "url": "https://data.solvingmecfs.org/mendeley-6bk895tzdp/ATP_Production_Healthy_T0_ME-CFS_T0___Hyperthermia.xlsx",
+    "bytes": 9773
+   },
+   {
+    "path": "Basale_Respiration_Healthy_T0_ME-CFS_T0___Hyperthermia.xlsx",
+    "url": "https://data.solvingmecfs.org/mendeley-6bk895tzdp/Basale_Respiration_Healthy_T0_ME-CFS_T0___Hyperthermia.xlsx",
+    "bytes": 9775
+   },
+   {
+    "path": "Maximal_Response_Healthy_T0_ME-CFS_T0___Hyperthermia.xlsx",
+    "url": "https://data.solvingmecfs.org/mendeley-6bk895tzdp/Maximal_Response_Healthy_T0_ME-CFS_T0___Hyperthermia.xlsx",
+    "bytes": 9751
+   },
+   {
+    "path": "Spare_Respiratory_Capacity_Healthy_T0_ME-CFS_T0___Hyperthermia.xlsx",
+    "url": "https://data.solvingmecfs.org/mendeley-6bk895tzdp/Spare_Respiratory_Capacity_Healthy_T0_ME-CFS_T0___Hyperthermia.xlsx",
+    "bytes": 9749
+   }
+  ],
+  "total_bytes": 40750,
+  "our_analyses": [],
+  "notes": "Attribution: Cite Hochecker B et al. 2024, Mendeley Data doi:10.17632/6bk895tzdp.1.",
+  "cohort_ids": [],
+  "index_url": "https://data.solvingmecfs.org/mendeley-6bk895tzdp/index.html"
+ },
+ {
+  "id": "mendeley-mv2cnytjhz",
+  "name": "PBMC mitochondrial respiration, ME/CFS vs healthy (wIRA)",
+  "citation": "Hochecker B et al. 2023. Mendeley Data doi:10.17632/mv2cnytjhz.1",
+  "source_url": "https://data.mendeley.com/datasets/mv2cnytjhz/1",
+  "doi": "10.17632/mv2cnytjhz.1",
+  "n": "",
+  "data_type": "per-participant lab measurements",
+  "licence": "CC-BY-4.0",
+  "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+  "status": "rehosted",
+  "files": [
+   {
+    "path": "README.md",
+    "url": "https://data.solvingmecfs.org/mendeley-mv2cnytjhz/README.md",
+    "bytes": 1637
+   },
+   {
+    "path": "ATP-Production_Healthy___ME-CFS.csv",
+    "url": "https://data.solvingmecfs.org/mendeley-mv2cnytjhz/ATP-Production_Healthy___ME-CFS.csv",
+    "bytes": 330
+   },
+   {
+    "path": "Basale_Respiration_Healthy___ME-CFS.csv",
+    "url": "https://data.solvingmecfs.org/mendeley-mv2cnytjhz/Basale_Respiration_Healthy___ME-CFS.csv",
+    "bytes": 331
+   },
+   {
+    "path": "Maximal_Response_Healthy___ME-CFS.csv",
+    "url": "https://data.solvingmecfs.org/mendeley-mv2cnytjhz/Maximal_Response_Healthy___ME-CFS.csv",
+    "bytes": 328
+   },
+   {
+    "path": "Non-mitochondrial_Respiration_Healthy___ME-CFS.csv",
+    "url": "https://data.solvingmecfs.org/mendeley-mv2cnytjhz/Non-mitochondrial_Respiration_Healthy___ME-CFS.csv",
+    "bytes": 329
+   },
+   {
+    "path": "Spare_Respiratory_Capacity_Healthy___ME-CFS.csv",
+    "url": "https://data.solvingmecfs.org/mendeley-mv2cnytjhz/Spare_Respiratory_Capacity_Healthy___ME-CFS.csv",
+    "bytes": 327
+   }
+  ],
+  "total_bytes": 3282,
+  "our_analyses": [],
+  "notes": "Attribution: Cite Hochecker B et al. 2023, Mendeley Data doi:10.17632/mv2cnytjhz.1.",
+  "cohort_ids": [],
+  "index_url": "https://data.solvingmecfs.org/mendeley-mv2cnytjhz/index.html"
+ },
+ {
+  "id": "mendeley-hyg3f3p6hd",
+  "name": "PBMC mRNA expression after whole-body hyperthermia in ME/CFS",
+  "citation": "Hochecker B et al. 2024. Mendeley Data doi:10.17632/hyg3f3p6hd.1",
+  "source_url": "https://data.mendeley.com/datasets/hyg3f3p6hd/1",
+  "doi": "10.17632/hyg3f3p6hd.1",
+  "n": "",
+  "data_type": "per-participant lab measurements",
+  "licence": "CC-BY-4.0",
+  "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+  "status": "rehosted",
+  "files": [
+   {
+    "path": "README.md",
+    "url": "https://data.solvingmecfs.org/mendeley-hyg3f3p6hd/README.md",
+    "bytes": 1215
+   },
+   {
+    "path": "Ct_values_mRNA_expression.xlsx",
+    "url": "https://data.solvingmecfs.org/mendeley-hyg3f3p6hd/Ct_values_mRNA_expression.xlsx",
+    "bytes": 26430
+   }
+  ],
+  "total_bytes": 27645,
+  "our_analyses": [],
+  "notes": "Attribution: Cite Hochecker B et al. 2024, Mendeley Data doi:10.17632/hyg3f3p6hd.1.",
+  "cohort_ids": [],
+  "index_url": "https://data.solvingmecfs.org/mendeley-hyg3f3p6hd/index.html"
+ },
+ {
+  "id": "mendeley-k78d4cgcyx",
+  "name": "Low-dose rapamycin pilot in ME/CFS: autophagy and symptoms",
+  "citation": "Ruan B, Bulbule S, Gile B, Roy A et al. 2025. Mendeley Data doi:10.17632/k78d4cgcyx.1",
+  "source_url": "https://data.mendeley.com/datasets/k78d4cgcyx/1",
+  "doi": "10.17632/k78d4cgcyx.1",
+  "n": "",
+  "data_type": "per-participant lab measurements",
+  "licence": "CC-BY-4.0",
+  "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+  "status": "rehosted",
+  "files": [
+   {
+    "path": "README.md",
+    "url": "https://data.solvingmecfs.org/mendeley-k78d4cgcyx/README.md",
+    "bytes": 1200
+   },
+   {
+    "path": "data_availability_ready.prism",
+    "url": "https://data.solvingmecfs.org/mendeley-k78d4cgcyx/data_availability_ready.prism",
+    "bytes": 1642666
+   }
+  ],
+  "total_bytes": 1643866,
+  "our_analyses": [],
+  "notes": "Attribution: Cite Ruan B, Bulbule S, Gile B, Roy A et al. 2025, Mendeley Data doi:10.17632/k78d4cgcyx.1.",
+  "cohort_ids": [],
+  "index_url": "https://data.solvingmecfs.org/mendeley-k78d4cgcyx/index.html"
+ },
+ {
+  "id": "mendeley-3ys3gvms3k",
+  "name": "Rapamycin pilot trial data (ME/CFS)",
+  "citation": "Ruan B, Roy A et al. 2025. Mendeley Data doi:10.17632/3ys3gvms3k.1",
+  "source_url": "https://data.mendeley.com/datasets/3ys3gvms3k/1",
+  "doi": "10.17632/3ys3gvms3k.1",
+  "n": "",
+  "data_type": "per-participant lab measurements",
+  "licence": "CC-BY-4.0",
+  "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+  "status": "rehosted",
+  "files": [
+   {
+    "path": "README.md",
+    "url": "https://data.solvingmecfs.org/mendeley-3ys3gvms3k/README.md",
+    "bytes": 1139
+   },
+   {
+    "path": "data_availability_ready.prism",
+    "url": "https://data.solvingmecfs.org/mendeley-3ys3gvms3k/data_availability_ready.prism",
+    "bytes": 1224622
+   }
+  ],
+  "total_bytes": 1225761,
+  "our_analyses": [],
+  "notes": "Attribution: Cite Ruan B, Roy A et al. 2025, Mendeley Data doi:10.17632/3ys3gvms3k.1.",
+  "cohort_ids": [],
+  "index_url": "https://data.solvingmecfs.org/mendeley-3ys3gvms3k/index.html"
+ },
+ {
+  "id": "osf-vqzca",
+  "name": "Effort task (EEfRT) in PI-ME/CFS: reanalysis code",
+  "citation": "Kirvin-Quamme A, Kirke KD, Junge O, Edwards JCW, Holmes KJ. Unwilling or unable? Interpreting effort task performance in ME/CFS. OSF vqzca",
+  "source_url": "https://osf.io/vqzca/",
+  "doi": "",
+  "n": "",
+  "data_type": "Quarto analysis script + rendered report",
+  "licence": "CC-BY-4.0",
+  "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+  "status": "rehosted",
+  "files": [
+   {
+    "path": "README.md",
+    "url": "https://data.solvingmecfs.org/osf-vqzca/README.md",
+    "bytes": 1238
+   },
+   {
+    "path": "effort_in_pimecfs_analyses.qmd",
+    "url": "https://data.solvingmecfs.org/osf-vqzca/effort_in_pimecfs_analyses.qmd",
+    "bytes": 16199
+   },
+   {
+    "path": "effort_in_pimecfs_analyses.html",
+    "url": "https://data.solvingmecfs.org/osf-vqzca/effort_in_pimecfs_analyses.html",
+    "bytes": 1572457
+   }
+  ],
+  "total_bytes": 1589894,
+  "our_analyses": [],
+  "notes": "Reanalysis of the NIH Walitt 2024 EEfRT data (raw data are in nih-walitt-2024). Attribution: Cite Kirvin-Quamme A et al. and https://osf.io/vqzca/.",
+  "cohort_ids": [],
+  "index_url": "https://data.solvingmecfs.org/osf-vqzca/index.html"
+ },
+ {
+  "id": "zenodo-12791948",
+  "name": "Preprocessed DTI metrics: post-infectious vs gradual-onset ME/CFS",
+  "citation": "Yu Q, Shan Z et al. 2024. Zenodo doi:10.5281/zenodo.12791948",
+  "source_url": "https://zenodo.org/records/12791948",
+  "doi": "10.5281/zenodo.12791948",
+  "n": "",
+  "data_type": "DTI FA/MD/AD/RD maps (zip, 587 MB)",
+  "licence": "CC-BY-4.0",
+  "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+  "status": "link_only",
+  "files": [],
+  "total_bytes": 0,
+  "our_analyses": [],
+  "notes": "Open licence (Zenodo API cc-by-4.0) but 587 MB; left link only to keep this batch under the 2.5 GB download budget.",
+  "cohort_ids": []
+ },
+ {
+  "id": "zenodo-19078496",
+  "name": "Preprocessed respiration response function (RRF) fMRI metrics in ME/CFS",
+  "citation": "Yu Q, Shan Z et al. 2026. Zenodo doi:10.5281/zenodo.19078496",
+  "source_url": "https://zenodo.org/records/19078496",
+  "doi": "10.5281/zenodo.19078496",
+  "n": "",
+  "data_type": "RRF maps (zip, 396 MB)",
+  "licence": "CC-BY-4.0",
+  "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+  "status": "link_only",
+  "files": [],
+  "total_bytes": 0,
+  "our_analyses": [],
+  "notes": "Open licence (Zenodo API cc-by-4.0) but 396 MB; link only (download budget).",
+  "cohort_ids": []
+ },
+ {
+  "id": "zenodo-16916830",
+  "name": "Preprocessed NII and DTI metrics in ME/CFS",
+  "citation": "Yu Q, Shan Z et al. 2025. Zenodo doi:10.5281/zenodo.16916830",
+  "source_url": "https://zenodo.org/records/16916830",
+  "doi": "10.5281/zenodo.16916830",
+  "n": "",
+  "data_type": "NII/DTI maps (zip, 1.1 GB)",
+  "licence": "CC-BY-4.0",
+  "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+  "status": "link_only",
+  "files": [],
+  "total_bytes": 0,
+  "our_analyses": [],
+  "notes": "Open licence (Zenodo API cc-by-4.0) but 1.1 GB; link only (download budget).",
+  "cohort_ids": []
+ },
+ {
+  "id": "zenodo-4265855",
+  "name": "Two-day CPET in ME/CFS: meta-analysis supplement",
+  "citation": "Lim EJ et al. 2020. Zenodo doi:10.5281/zenodo.4265855",
+  "source_url": "https://zenodo.org/records/4265855",
+  "doi": "10.5281/zenodo.4265855",
+  "n": "",
+  "data_type": "supplementary tables (docx)",
+  "licence": "Other (Attribution), unspecified",
+  "licence_url": "",
+  "status": "link_only",
+  "files": [],
+  "total_bytes": 0,
+  "our_analyses": [],
+  "notes": "Zenodo API licence 'other-at' does not name a specific licence; ambiguous, so link only.",
+  "cohort_ids": []
+ },
+ {
+  "id": "zenodo-8021708",
+  "name": "Autoantigen PhIP-seq: shared post-COVID signature in recovered and long COVID",
+  "citation": "Bodansky A, Wang CY, Saxena A, Mitchell A et al. 2023. Zenodo doi:10.5281/zenodo.8021708",
+  "source_url": "https://zenodo.org/records/8021708",
+  "doi": "10.5281/zenodo.8021708",
+  "n": "",
+  "data_type": "PhIP-seq tables (94 MB)",
+  "licence": "CC0-1.0",
+  "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "status": "link_only",
+  "files": [],
+  "total_bytes": 0,
+  "our_analyses": [],
+  "notes": "Long COVID / post-COVID dataset. CC0 (Zenodo API) but 94 MB; left link only to keep within the download budget. Can be mirrored later.",
+  "cohort_ids": []
+ },
+ {
+  "id": "zenodo-16751357",
+  "name": "Mitochondrial dysfunction from acute to long COVID",
+  "citation": "Zenodo doi:10.5281/zenodo.16751357 (2025)",
+  "source_url": "https://zenodo.org/records/16751357",
+  "doi": "10.5281/zenodo.16751357",
+  "n": "",
+  "data_type": "multi-omics (229 MB)",
+  "licence": "CC-BY-4.0",
+  "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+  "status": "link_only",
+  "files": [],
+  "total_bytes": 0,
+  "our_analyses": [],
+  "notes": "Long COVID / post-COVID dataset. CC BY (Zenodo API) but 229 MB; link only (download budget).",
+  "cohort_ids": []
+ },
+ {
+  "id": "mendeley-4xkft5g9r5",
+  "name": "Herpesvirus reactivation and immune modulation in ME/CFS and long COVID (imaging)",
+  "citation": "Prusty B et al. 2023. Mendeley Data doi:10.17632/4xkft5g9r5.1",
+  "source_url": "https://data.mendeley.com/datasets/4xkft5g9r5/1",
+  "doi": "10.17632/4xkft5g9r5.1",
+  "n": "",
+  "data_type": "microscopy images (10 GB)",
+  "licence": "CC-BY-4.0",
+  "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+  "status": "link_only",
+  "files": [],
+  "total_bytes": 0,
+  "our_analyses": [],
+  "notes": "CC BY 4.0 (Mendeley API) but 10 GB of images; link only (size).",
+  "cohort_ids": []
+ },
+ {
+  "id": "mendeley-ph4mbrh26h",
+  "name": "ME/CFS and PASC IgG complexes disrupt mitochondrial function (raw data)",
+  "citation": "Prusty B et al. 2025. Mendeley Data doi:10.17632/ph4mbrh26h.1",
+  "source_url": "https://data.mendeley.com/datasets/ph4mbrh26h/1",
+  "doi": "10.17632/ph4mbrh26h.1",
+  "n": "",
+  "data_type": "raw data zip (1.4 GB)",
+  "licence": "CC-BY-4.0",
+  "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+  "status": "link_only",
+  "files": [],
+  "total_bytes": 0,
+  "our_analyses": [],
+  "notes": "CC BY 4.0 (Mendeley API) but 1.4 GB; link only (size).",
+  "cohort_ids": []
+ },
+ {
+  "id": "mendeley-vmfhthf7jz",
+  "name": "Task fMRI (prolonged SDMT) contrast maps, ME/CFS vs controls",
+  "citation": "Shan Z et al. 2024. Mendeley Data doi:10.17632/vmfhthf7jz.1",
+  "source_url": "https://data.mendeley.com/datasets/vmfhthf7jz/1",
+  "doi": "10.17632/vmfhthf7jz.1",
+  "n": "",
+  "data_type": "fMRI contrast maps (296 MB, 273 files)",
+  "licence": "CC-BY-4.0",
+  "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+  "status": "link_only",
+  "files": [],
+  "total_bytes": 0,
+  "our_analyses": [],
+  "notes": "CC BY 4.0 (Mendeley API) but 296 MB; link only (download budget).",
+  "cohort_ids": []
+ },
+ {
+  "id": "mendeley-ch3mb4x8jk",
+  "name": "Genetic basis of metabolic perturbations in ME/CFS (UK Biobank metabolite GWAS)",
+  "citation": "Huang K et al. 2025. Mendeley Data doi:10.17632/ch3mb4x8jk.1",
+  "source_url": "https://data.mendeley.com/datasets/ch3mb4x8jk/1",
+  "doi": "10.17632/ch3mb4x8jk.1",
+  "n": "",
+  "data_type": "GWAS summary statistics in ME/CFS cases and controls (8.8 GB)",
+  "licence": "CC-BY-4.0",
+  "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+  "status": "link_only",
+  "files": [],
+  "total_bytes": 0,
+  "our_analyses": [],
+  "notes": "CC BY 4.0 (Mendeley API) but 8.8 GB; link only (size).",
+  "cohort_ids": []
+ },
+ {
+  "id": "mendeley-f8mpz7yxnh",
+  "name": "Cupping therapy RCT in chronic fatigue syndrome",
+  "citation": "Chen Z, Chen Y, Li X et al. 2020. Mendeley Data doi:10.17632/f8mpz7yxnh.6",
+  "source_url": "https://data.mendeley.com/datasets/f8mpz7yxnh/6",
+  "doi": "10.17632/f8mpz7yxnh.6",
+  "n": "",
+  "data_type": "trial scores (xlsx/SPSS)",
+  "licence": "CC-BY-NC-3.0",
+  "licence_url": "https://creativecommons.org/licenses/by-nc/3.0/",
+  "status": "link_only",
+  "files": [],
+  "total_bytes": 0,
+  "our_analyses": [],
+  "notes": "CC BY-NC 3.0 (NonCommercial): outside the rehost rule. The deposit also includes participant registration sheets.",
+  "cohort_ids": []
+ },
+ {
+  "id": "pride-pxd016622",
+  "name": "Plasma DIA proteomics of ME/CFS (Columbia)",
+  "citation": "Milivojevic M et al. PLoS One 2020 (doi:10.1371/journal.pone.0236148); PRIDE PXD016622",
+  "source_url": "https://www.ebi.ac.uk/pride/archive/projects/PXD016622",
+  "doi": "10.1371/journal.pone.0236148",
+  "n": "",
+  "data_type": "Spectronaut .sne results (4 GB) + raw",
+  "licence": "CC0-1.0",
+  "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "status": "link_only",
+  "files": [],
+  "total_bytes": 0,
+  "our_analyses": [],
+  "notes": "CC0 (PRIDE API) but the only processed files are 3.2 and 0.7 GB Spectronaut sessions; link only (size).",
+  "cohort_ids": []
+ },
+ {
+  "id": "pride-pxd068504",
+  "name": "Mapping the complexity of ME/CFS: plasma proteomics (Macquarie)",
+  "citation": "Heng B, Krishnamurthy S et al. Cell Rep Med 2025 (doi:10.1016/j.xcrm.2025.102514); PRIDE PXD068504",
+  "source_url": "https://www.ebi.ac.uk/pride/archive/projects/PXD068504",
+  "doi": "10.1016/j.xcrm.2025.102514",
+  "n": "",
+  "data_type": "ZenoTOF raw files (10 GB)",
+  "licence": "CC0-1.0",
+  "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "status": "link_only",
+  "files": [],
+  "total_bytes": 0,
+  "our_analyses": [],
+  "notes": "CC0 (PRIDE API) but only raw instrument files are deposited (10 GB); link only (size). The figshare thesis record 30195544 is In Copyright.",
+  "cohort_ids": []
+ },
+ {
+  "id": "dbgap-phs001015",
+  "name": "Deciphering the Pathophysiology of Chronic Fatigue Syndrome (dbGaP)",
+  "citation": "dbGaP phs001015.v1.p1",
+  "source_url": "https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs001015.v1.p1",
+  "doi": "",
+  "n": "",
+  "data_type": "Affymetrix 6.0 SNP genotypes + sample attributes",
+  "licence": "Controlled access (dbGaP Data Use Certification)",
+  "licence_url": "",
+  "status": "link_only",
+  "files": [],
+  "total_bytes": 0,
+  "our_analyses": [],
+  "notes": "Controlled access through dbGaP; link only.",
+  "cohort_ids": []
  }
 ]

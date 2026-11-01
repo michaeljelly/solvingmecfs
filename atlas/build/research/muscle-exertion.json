@@ -1175,10 +1175,10 @@
   },
   {
    "subdomain": "Muscle proteins in blood",
-   "finding": "Muscle-derived proteins (myoglobin, troponins, CA3 and similar) are lower in ME/CFS blood at rest across three SomaScan cohorts and UK Biobank, not explained by step counts or walking pace.",
+   "finding": "Muscle-derived proteins are lower, as a group, in ME/CFS blood at rest in three SomaScan cohorts, not explained by step counts or walking pace; creatine kinase (CKM) and MYL3 are the most consistent single proteins, while myoglobin, CA3 and troponins disagree between cohorts.",
    "grade": "several",
    "plain": "Proteins that leak from muscle into blood are slightly lower in patients, which suggests less muscle mass or slower muscle turnover rather than ongoing damage.",
-   "detail": "Solving ME/CFS re-analysis: muscle-damage set d -0.50 (95% CI -0.76 to -0.24, q=0.002, I2 0.07) across Hoel (-0.85), Germain (-0.43) and Walitt (-0.34); UK Biobank competitive shift negative; not mediated by walking pace; unrelated to steps, Bell score or illness duration within patients. Lean mass was not available, so reduced muscle mass from inactivity cannot be excluded. Resting CK and myoglobin are expected to be low-normal.",
+   "detail": "Solving ME/CFS re-analysis: muscle-damage set d -0.50 (95% CI -0.76 to -0.24, q=0.002, I2 0.07) across Hoel (-0.85), Germain (-0.43) and Walitt (-0.34); UK Biobank competitive shift negative; not mediated by walking pace; unrelated to steps, Bell score or illness duration within patients. Lean mass was not available, so reduced muscle mass from inactivity cannot be excluded. Resting CK and myoglobin are expected to be low-normal. Per-protein re-pool (Solving ME/CFS kb matrix v2, Nov 2026): no single muscle protein replicates at FDR. CKM g -0.44 (3 of 3 cohorts, p=0.02, q=0.63; not measured in UK Biobank) and MYL3 g -0.32 (3 of 3) are the most consistent; myoglobin (-0.66 / -0.04 / +0.49 / -0.24 across Germain, UKB, Hoel, Walitt), CA3 (low only in Hoel) and troponins (pooled within ±0.1) disagree. The set-level shift is therefore real but modest and weighted by Hoel 2026.",
    "studies": [
     {
      "cite": "Solving ME/CFS re-analysis (proteome)",
@@ -1189,7 +1189,16 @@
      "verified": true
     }
    ],
-   "contradicting": [],
+   "contradicting": [
+    {
+     "cite": "Solving ME/CFS re-analysis (kb matrix v2, per-protein meta-analysis)",
+     "url": "https://data.solvingmecfs.org/kb/meta.csv",
+     "n": "4 cohorts",
+     "design": "random-effects meta-analysis per protein",
+     "result": "No individual muscle protein replicates (q>0.6); myoglobin, CA3 and troponins inconsistent in sign; CKM and MYL3 consistently lower but not significant after correction",
+     "verified": true
+    }
+   ],
    "open_questions": [
     "Does the signal survive adjustment for DXA lean mass?",
     "Does it relate to type I fibre atrophy or capillary loss in biopsies from the same people?"
