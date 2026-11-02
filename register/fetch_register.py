@@ -94,6 +94,25 @@ def polybio():
     json.dump(res, open(os.path.join(RAW, "polybio.json"), "w"), ensure_ascii=False)
     print("polybio", len(res))
 
+def cihr():
+    """CIHR Funding Decisions Database (Solr behind webapps.cihr-irsc.gc.ca/decisions). No phrase search on acallText,
+    so query broad AND terms and filter on title/abstract/keywords in build_register."""
+    import urllib.parse
+    qs = ["myalgic", "encephalomyelitis", "(chronic AND fatigue AND syndrome)", "(long AND covid)", "(post AND covid AND condition)",
+          "PASC", "post-covid", "post-exertional", "ME\\/CFS", "(post-acute AND sequelae)"]
+    fl = "id,projecttitle,abstract,keyworddelim,pinamesdelim,orgnameinp2,cihramount2,competitiondate,approvedterm2,competitioncd,programname2,prcname2,instname2"
+    res = {}
+    for q in qs:
+        start = 0
+        while True:
+            u = "https://webapps.cihr-irsc.gc.ca/decisions/sq?" + urllib.parse.urlencode({"q": "acallText:" + q, "wt": "json", "rows": 500, "start": start, "fl": fl})
+            d = json.loads(curl([u]))["response"]
+            for x in d["docs"]: res[x["id"]] = x
+            start += 500
+            if start >= d["numFound"]: break
+        print("cihr", q, d["numFound"], len(res))
+    json.dump(list(res.values()), open(os.path.join(RAW, "cihr.json"), "w"), ensure_ascii=False)
+
 if __name__ == "__main__":
     os.makedirs(RAW, exist_ok=True)
-    for f in (sys.argv[1:] or ["mrr", "nih", "gtr", "cordis", "polybio"]): globals()[f]()
+    for f in (sys.argv[1:] or ["mrr", "nih", "gtr", "cordis", "polybio", "cihr"]): globals()[f]()

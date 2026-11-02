@@ -134,6 +134,26 @@ if os.path.exists(p):
             "title": x["title"], "population": pp, "focus": "primary" if pop(x["title"]) else "related", "pi": [m.group(1).strip()] if m else [], "org": "",
             "country": "", "funder": "PolyBio Research Foundation", "start": dt, "end": None, "status": "active" if dt and dt >= "2024" else "unknown",
             "amount_usd": None, "kind": "Charity-funded", "n": None, "areas": [], "topics": topics(x["title"], text)})
+# --- CIHR Funding Decisions Database (Canada)
+p = os.path.join(RAW, "cihr.json")
+if os.path.exists(p):
+    import html as _h
+    J = lambda v: _h.unescape(" ".join(v) if isinstance(v, list) else (v or "")).strip()
+    for x in json.load(open(p, encoding="utf8")):
+        title, ab = J(x.get("projecttitle")), (J(x.get("abstract")) + " " + J(x.get("keyworddelim")))[:4000]
+        pt, pa = pop(title), pop(ab)
+        if not (pt or pa): continue
+        cd = J(x.get("competitiondate")); st = f"{cd[:4]}-{cd[4:6]}-01" if len(cd) >= 6 else None
+        m = re.match(r"(\d+) yrs? (\d+) mth", J(x.get("approvedterm2"))); en = None
+        if st and m:
+            mo = int(cd[:4]) * 12 + int(cd[4:6]) - 1 + int(m.group(1)) * 12 + int(m.group(2))
+            en = f"{mo // 12}-{mo % 12 + 1:02d}-01"
+        amt = re.sub(r"[^0-9]", "", J(x.get("cihramount2")))
+        rows.append({"id": "cihr-" + x["id"], "source": "CIHR", "source_label": "CIHR Funding Decisions",
+            "url": f"https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId={x['id']}&lang=en", "title": title, "population": pt or pa,
+            "focus": "primary" if pt else "related", "pi": [n.strip() for n in J(x.get("pinamesdelim")).split(";")[:1] if n.strip()],
+            "org": J(x.get("orgnameinp2")), "country": "Canada", "funder": "Canadian Institutes of Health Research", "start": st, "end": en, "status": status(en),
+            "amount_usd": round(int(amt) * 0.73) if amt and int(amt) else None, "kind": J(x.get("programname2")), "n": None, "areas": [], "topics": topics(title, ab)})
 # --- registered trials (site-src/data/trials.json), so the register covers every country with a trial
 p = os.path.join(SRC, "data", "trials.json")
 if os.path.exists(p):
@@ -149,7 +169,7 @@ CN = {"United States": "USA", "United States Of America": "USA", "US": "USA", "U
 for r in rows:
     r["country"] = "; ".join(dict.fromkeys(CN.get(c.strip(), c.strip()) for c in (r["country"] or "").split(";") if c.strip()))
 rows.sort(key=lambda r: (r["status"] != "active", r["focus"] != "primary", -(int((r["start"] or "0")[:4] or 0))))
-meta = {"generated": TODAY, "sources": {"MRR": "https://mrr.mecfs-research.org", "NIH": "https://reporter.nih.gov", "UKRI": "https://gtr.ukri.org", "CORDIS": "https://cordis.europa.eu", "Trials": "/trials", "PolyBio": "https://polybio.org/projects/"},
+meta = {"generated": TODAY, "sources": {"MRR": "https://mrr.mecfs-research.org", "NIH": "https://reporter.nih.gov", "UKRI": "https://gtr.ukri.org", "CORDIS": "https://cordis.europa.eu", "Trials": "/trials", "PolyBio": "https://polybio.org/projects/", "CIHR": "https://webapps.cihr-irsc.gc.ca/decisions/p/main.html?lang=en"},
         "topics": {k: l for k, l, _ in TOPICS} | {"other": "Other"}}
 json.dump({"meta": meta, "projects": rows}, open(os.path.join(SRC, "data", "projects.json"), "w", encoding="utf8"), ensure_ascii=False, indent=0)
 from collections import Counter

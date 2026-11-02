@@ -1,13 +1,14 @@
 {
 "meta": {
-"generated": "2026-11-01",
+"generated": "2026-11-02",
 "sources": {
 "MRR": "https://mrr.mecfs-research.org",
 "NIH": "https://reporter.nih.gov",
 "UKRI": "https://gtr.ukri.org",
 "CORDIS": "https://cordis.europa.eu",
 "Trials": "/trials",
-"PolyBio": "https://polybio.org/projects/"
+"PolyBio": "https://polybio.org/projects/",
+"CIHR": "https://webapps.cihr-irsc.gc.ca/decisions/p/main.html?lang=en"
 },
 "topics": {
 "vascular": "Blood flow and vessels",
@@ -2680,6 +2681,109 @@
 "infection",
 "trials",
 "epi"
+]
+},
+{
+"id": "cihr-539178",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=539178&lang=en",
+"title": "Engaging Coaching Outreach for Resilience in the Age of Chronic Fatigue: Education, Management and Empowerment for Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS)",
+"population": "ME/CFS",
+"focus": "primary",
+"pi": [
+"Nacul, Luis"
+],
+"org": "University of British Columbia",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2025-06-01",
+"end": "2028-06-01",
+"status": "active",
+"amount_usd": 219000,
+"kind": "Team Grant: Transforming Health and Care Systems Joint Transnational Call",
+"n": null,
+"areas": [],
+"topics": [
+"epi"
+]
+},
+{
+"id": "cihr-534617",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=534617&lang=en",
+"title": "Decoding Long COVID in women: Immunological mechanisms and clinical implications",
+"population": "long COVID",
+"focus": "primary",
+"pi": [
+"Elahi, Shokrollah"
+],
+"org": "University of Alberta",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2025-09-01",
+"end": "2030-09-01",
+"status": "active",
+"amount_usd": 759492,
+"kind": "Project Grant",
+"n": null,
+"areas": [],
+"topics": [
+"immune",
+"epi"
+]
+},
+{
+"id": "cihr-537557",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=537557&lang=en",
+"title": "Immune and Inflammatory Biomarkers of Hypersomnolence in Post-Acute COVID-19 Syndrome: A Comparative Sleep Phenotyping Study",
+"population": "long COVID",
+"focus": "primary",
+"pi": [
+"Herrero Babiloni, Alberto"
+],
+"org": "Santé Québec Nord-de-l'Île-de-Montréal - Universitaire",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2025-09-01",
+"end": "2027-09-01",
+"status": "active",
+"amount_usd": 102200,
+"kind": "Canada Postdoctoral Research Award (CPRA) program",
+"n": null,
+"areas": [],
+"topics": [
+"neuro",
+"immune",
+"omics"
+]
+},
+{
+"id": "cihr-560196",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=560196&lang=en",
+"title": "Multi-system metabolomic age gap to dissect long COVID-related health outcomes",
+"population": "long COVID",
+"focus": "primary",
+"pi": [
+"Zheng, Thomas"
+],
+"org": "McGill University",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2025-11-01",
+"end": "2028-11-01",
+"status": "active",
+"amount_usd": 87600,
+"kind": "DRA : Canada Graduate Research Scholarship - Doctoral Program (CGRS D)",
+"n": null,
+"areas": [],
+"topics": [
+"omics"
 ]
 },
 {
@@ -6023,6 +6127,132 @@
 ]
 },
 {
+"id": "cihr-499484",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=499484&lang=en",
+"title": "ICanCME : Interdisciplinary Canadian Collaborative Myalgic Encephalomyelitis Research Network.",
+"population": "ME/CFS",
+"focus": "primary",
+"pi": [
+"Moreau, Alain"
+],
+"org": "Centre hospitalier universitaire Sainte-Justine (Montréal, Québec)",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2024-04-01",
+"end": "2029-04-01",
+"status": "active",
+"amount_usd": 1460000,
+"kind": "ME Network Catalyst Grant",
+"n": null,
+"areas": [],
+"topics": [
+"epi"
+]
+},
+{
+"id": "cihr-499894",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=499894&lang=en",
+"title": "Learning Best Practices from Integrated Care Models for Long COVID.",
+"population": "long COVID",
+"focus": "primary",
+"pi": [
+"Décary, Simon"
+],
+"org": "Université de Sherbrooke",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2024-03-01",
+"end": "2028-03-01",
+"status": "active",
+"amount_usd": 497021,
+"kind": "Project Grant",
+"n": null,
+"areas": [],
+"topics": [
+"epi"
+]
+},
+{
+"id": "cihr-500878",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=500878&lang=en",
+"title": "A living systematic review & network meta-analysis of interventions for post COVID-19 condition",
+"population": "long COVID",
+"focus": "primary",
+"pi": [
+"Zeraatkar, Dena"
+],
+"org": "McMaster University",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2024-03-01",
+"end": "2027-03-01",
+"status": "active",
+"amount_usd": 173120,
+"kind": "Project Grant",
+"n": null,
+"areas": [],
+"topics": [
+"trials"
+]
+},
+{
+"id": "cihr-517914",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=517914&lang=en",
+"title": "Analysis of the temporal dimension of the relationship between psychological factors and post-COVID-19 conditions (PCC)",
+"population": "long COVID",
+"focus": "primary",
+"pi": [
+"Léger, Camille"
+],
+"org": "Université du Québec à Montréal",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2024-11-01",
+"end": "2027-11-01",
+"status": "active",
+"amount_usd": 87600,
+"kind": "Doctoral Research Award: Canada Graduate Scholarships",
+"n": null,
+"areas": [],
+"topics": [
+"trials"
+]
+},
+{
+"id": "cihr-500177",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=500177&lang=en",
+"title": "Cardiovascular Disease in Post COVID Condition: Taurine and ACE2 Probiotics as Potential Therapies",
+"population": "long COVID",
+"focus": "primary",
+"pi": [
+"Oudit, Gavin Y"
+],
+"org": "University of Alberta",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2024-03-01",
+"end": "2029-03-01",
+"status": "active",
+"amount_usd": 731570,
+"kind": "Project Grant",
+"n": null,
+"areas": [],
+"topics": [
+"vascular",
+"trials"
+]
+},
+{
 "id": "trial-ISRCTN15931869",
 "source": "Trials",
 "source_label": "Trial registries",
@@ -8390,6 +8620,58 @@
 ]
 },
 {
+"id": "cihr-488386",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=488386&lang=en",
+"title": "Hypersomnolence disorder in post-acute COVID-19 syndrome",
+"population": "long COVID",
+"focus": "primary",
+"pi": [
+"Gosselin, Nadia"
+],
+"org": "Santé Québec Nord-de-l'Île-de-Montréal - Universitaire",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2023-09-01",
+"end": "2028-09-01",
+"status": "active",
+"amount_usd": 580788,
+"kind": "Project Grant",
+"n": null,
+"areas": [],
+"topics": [
+"neuro",
+"immune"
+]
+},
+{
+"id": "cihr-489798",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=489798&lang=en",
+"title": "Impact of intestinal dysbiosis and microbiota-derived extracellular vesicles  on the pathogenesis and clinical manifestations of long COVID",
+"population": "long COVID",
+"focus": "primary",
+"pi": [
+"Falcone, Emilia L"
+],
+"org": "Institut de recherches cliniques de Montréal",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2023-09-01",
+"end": "2028-09-01",
+"status": "active",
+"amount_usd": 756700,
+"kind": "Project Grant",
+"n": null,
+"areas": [],
+"topics": [
+"gut",
+"epi"
+]
+},
+{
 "id": "trial-NCT05168124",
 "source": "Trials",
 "source_label": "Trial registries",
@@ -9680,6 +9962,57 @@
 "topics": [
 "neuro",
 "omics"
+]
+},
+{
+"id": "cihr-474666",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=474666&lang=en",
+"title": "Long COVID Web: Pan-Canadian Post-COVID Condition Research Network",
+"population": "long COVID",
+"focus": "primary",
+"pi": [
+"Cheung, Angela M"
+],
+"org": "University Health Network (Toronto)",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2022-11-01",
+"end": "2027-11-01",
+"status": "active",
+"amount_usd": 14599718,
+"kind": "Operating Grant: Canadian Post COVID-19 Condition Research Network",
+"n": null,
+"areas": [],
+"topics": [
+"epi",
+"neuro"
+]
+},
+{
+"id": "cihr-480546",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=480546&lang=en",
+"title": "Integrated Care Clinical Pathway Implementation using a Patient Oriented Learning Health System Approach: A Realist Process Evaluation of the Saskatchewan Long COVID Pathway",
+"population": "long COVID",
+"focus": "primary",
+"pi": [
+"Groot, Gary"
+],
+"org": "University of Saskatchewan",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2022-11-01",
+"end": "2027-11-01",
+"status": "active",
+"amount_usd": 1432004,
+"kind": "Team Grant: THINC Implementation Science - Multimorbidity pool",
+"n": null,
+"areas": [],
+"topics": [
+"epi"
 ]
 },
 {
@@ -12386,6 +12719,135 @@
 ]
 },
 {
+"id": "cihr-572556",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=572556&lang=en",
+"title": "Association of Spike protein with COVID-19 vaccine side effects",
+"population": "long COVID",
+"focus": "related",
+"pi": [
+"Soosaipillai, Andrea"
+],
+"org": "University of Toronto",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2025-12-01",
+"end": "2026-12-01",
+"status": "active",
+"amount_usd": 19710,
+"kind": "Master's Award: Canada Graduate Research Scholarships - Master's program",
+"n": null,
+"areas": [],
+"topics": [
+"neuro",
+"omics"
+]
+},
+{
+"id": "cihr-559870",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=559870&lang=en",
+"title": "Pursuing Reduction in Fatigue after COVID-19 via Exercise & Rehabilitation (PREFACER): A Randomized Feasibility Trial",
+"population": "long COVID",
+"focus": "related",
+"pi": [
+"Billias, Nicole"
+],
+"org": "Western University (Ontario)",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2025-11-01",
+"end": "2028-11-01",
+"status": "active",
+"amount_usd": 87600,
+"kind": "DRA : Canada Graduate Research Scholarship - Doctoral Program (CGRS D)",
+"n": null,
+"areas": [],
+"topics": [
+"muscle-exertion",
+"trials"
+]
+},
+{
+"id": "cihr-560105",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=560105&lang=en",
+"title": "Functional Cognitive Disorder: Predisposing and Perpetuating Factors",
+"population": "long COVID",
+"focus": "related",
+"pi": [
+"Rioux, Mathilde"
+],
+"org": "University of British Columbia",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2025-11-01",
+"end": "2028-11-01",
+"status": "active",
+"amount_usd": 87600,
+"kind": "DRA : Canada Graduate Research Scholarship - Doctoral Program (CGRS D)",
+"n": null,
+"areas": [],
+"topics": [
+"neuro"
+]
+},
+{
+"id": "cihr-534385",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=534385&lang=en",
+"title": "SARS-CoV2 infection as a model to understand the long-term impact of respiratory infections on the health and functioning of older adults: the Aging, Infection and Mobility (AIM) Project",
+"population": "long COVID",
+"focus": "related",
+"pi": [
+"Beauchamp, Marla K"
+],
+"org": "McMaster University",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2025-09-01",
+"end": "2029-03-01",
+"status": "active",
+"amount_usd": 371369,
+"kind": "Project Grant",
+"n": null,
+"areas": [],
+"topics": [
+"other"
+]
+},
+{
+"id": "cihr-572667",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=572667&lang=en",
+"title": "Proteomic Analysis of Inflammatory and Neurological Blood Biomarkers in Acute and Chronic COVID-19",
+"population": "long COVID",
+"focus": "related",
+"pi": [
+"Go, Kristen Danielle"
+],
+"org": "University of British Columbia",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2025-12-01",
+"end": "2026-12-01",
+"status": "active",
+"amount_usd": 19710,
+"kind": "Master's Award: Canada Graduate Research Scholarships - Master's program",
+"n": null,
+"areas": [],
+"topics": [
+"neuro",
+"immune",
+"omics"
+]
+},
+{
 "id": "nih-R01NS131967",
 "source": "NIH",
 "source_label": "NIH RePORTER",
@@ -14113,6 +14575,31 @@
 ]
 },
 {
+"id": "cihr-499113",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=499113&lang=en",
+"title": "Ethical Preparedness: 'Ethics to Policy' in Public Health Emergency Preparedness and Response",
+"population": "long COVID",
+"focus": "related",
+"pi": [
+"Smith, Maxwell"
+],
+"org": "Western University (Ontario)",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2023-10-01",
+"end": "2029-10-01",
+"status": "active",
+"amount_usd": 839500,
+"kind": "Applied Public Health Chair - Applied Ethics in health emergencies",
+"n": null,
+"areas": [],
+"topics": [
+"trials"
+]
+},
+{
 "id": "nih-R01NS124698",
 "source": "NIH",
 "source_label": "NIH RePORTER",
@@ -15672,6 +16159,183 @@
 ]
 },
 {
+"id": "cihr-527801",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=527801&lang=en",
+"title": "The evolving landscape of Long COVID: identifying dynamic molecular features to improve diagnosis, prognostication and identification of novel treatment targets",
+"population": "long COVID",
+"focus": "primary",
+"pi": [
+"Rousseau, Simon"
+],
+"org": "Research Institute of the McGill University Health Centre",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2025-03-01",
+"end": "2026-03-01",
+"status": "completed",
+"amount_usd": 73000,
+"kind": "Project Grant - PA: IMHA: Myalgic Encephalomyelitis",
+"n": null,
+"areas": [],
+"topics": [
+"trials",
+"epi"
+]
+},
+{
+"id": "cihr-531021",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=531021&lang=en",
+"title": "Quantitative imaging of brain health in long COVID",
+"population": "long COVID",
+"focus": "primary",
+"pi": [
+"Gresseau, Hendrale"
+],
+"org": "Concordia University (Montreal, Quebec)",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2025-05-01",
+"end": "2025-09-01",
+"status": "completed",
+"amount_usd": 4380,
+"kind": "Undergraduate Student Research Awards (USRA)",
+"n": null,
+"areas": [],
+"topics": [
+"neuro"
+]
+},
+{
+"id": "cihr-553222",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=553222&lang=en",
+"title": "Sensory contributions predicting memory impairment and neural disruption underlying 'brain fog' associated with chemobrain and long-COVID",
+"population": "long COVID",
+"focus": "primary",
+"pi": [
+"Sekeres, Melanie J"
+],
+"org": "University of Ottawa",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2025-09-01",
+"end": "2026-09-01",
+"status": "completed",
+"amount_usd": 73000,
+"kind": "Project Grant - Priority Announcement - Breast Cancer Survivorship",
+"n": null,
+"areas": [],
+"topics": [
+"neuro"
+]
+},
+{
+"id": "cihr-531082",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=531082&lang=en",
+"title": "Investigating the role of mitochondrial dysfunction and inflammation in the post-COVID19 condition",
+"population": "long COVID",
+"focus": "primary",
+"pi": [
+"Udeh, Sachi-Imani"
+],
+"org": "McMaster University",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2025-05-01",
+"end": "2025-09-01",
+"status": "completed",
+"amount_usd": 4380,
+"kind": "Undergraduate Student Research Awards (USRA)",
+"n": null,
+"areas": [],
+"topics": [
+"muscle-exertion",
+"immune"
+]
+},
+{
+"id": "cihr-530798",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=530798&lang=en",
+"title": "Virtual rehabilitation for individuals with Long COVID: a randomized controlled trial",
+"population": "long COVID",
+"focus": "primary",
+"pi": [
+"Janaudis-Ferreira, Tania"
+],
+"org": "Research Institute of the McGill University Health Centre",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2025-02-01",
+"end": "2026-02-01",
+"status": "completed",
+"amount_usd": 18250,
+"kind": "CIHR-IMHA Inclusive Research Excellence Prizes - Research Impact",
+"n": null,
+"areas": [],
+"topics": [
+"trials"
+]
+},
+{
+"id": "cihr-531499",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=531499&lang=en",
+"title": "National Symposium on Long COVID Research and Rehabilitation-Informed Pandemic Preparedness",
+"population": "long COVID",
+"focus": "primary",
+"pi": [
+"Mortenson, William B"
+],
+"org": "University of British Columbia",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2025-06-01",
+"end": "2026-06-01",
+"status": "completed",
+"amount_usd": 18250,
+"kind": "Planning and Dissemination Grant - Institute Community Support",
+"n": null,
+"areas": [],
+"topics": [
+"trials"
+]
+},
+{
+"id": "cihr-558460",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=558460&lang=en",
+"title": "Enhancing Long COVID Rehabilitation: Centering Patients and Families in Research Prioritization",
+"population": "long COVID",
+"focus": "primary",
+"pi": [
+"Cameron, Jill I"
+],
+"org": "University of Toronto",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2025-11-01",
+"end": "2026-11-01",
+"status": "completed",
+"amount_usd": 14600,
+"kind": "Planning and Dissemination Grants - Institute/Initiative Community Support",
+"n": null,
+"areas": [],
+"topics": [
+"trials"
+]
+},
+{
 "id": "trial-NCT07573709",
 "source": "Trials",
 "source_label": "Trial registries",
@@ -15870,6 +16534,183 @@
 "areas": [],
 "topics": [
 "epi"
+]
+},
+{
+"id": "cihr-504834",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=504834&lang=en",
+"title": "Epidemiology and impact of myalgic encephalomyelitis and chronic fatigue syndrome (ME/CFS) in Canada: A multi-centre population-based study",
+"population": "ME/CFS",
+"focus": "primary",
+"pi": [
+"Nacul, Luis"
+],
+"org": "University of British Columbia",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2024-03-01",
+"end": "2025-03-01",
+"status": "completed",
+"amount_usd": 73000,
+"kind": "Project Grant - PA: Pandemic Preparedness and Health Emergencies Research",
+"n": null,
+"areas": [],
+"topics": [
+"epi"
+]
+},
+{
+"id": "cihr-504836",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=504836&lang=en",
+"title": "Deciphering Long Covid - Investigating Immune Dysfunction and Novel Pathways",
+"population": "long COVID",
+"focus": "primary",
+"pi": [
+"Ostrowski, Mario A"
+],
+"org": "University of Toronto",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2024-03-01",
+"end": "2025-03-01",
+"status": "completed",
+"amount_usd": 73000,
+"kind": "Project Grant - PA: Pandemic Preparedness and Health Emergencies Research",
+"n": null,
+"areas": [],
+"topics": [
+"immune"
+]
+},
+{
+"id": "cihr-514591",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=514591&lang=en",
+"title": "Long COVID in Bangladesh: Developing Strategies for Identifying and Managing Post-COVID Syndrome in LMICs and Low Resource Health Systems",
+"population": "long COVID",
+"focus": "primary",
+"pi": [
+"Butt, Zahid"
+],
+"org": "University of Waterloo (Ontario)",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2024-09-01",
+"end": "2025-09-01",
+"status": "completed",
+"amount_usd": 73000,
+"kind": "Project Grant - Priority Announcement: Global Health Research - CRPPHE",
+"n": null,
+"areas": [],
+"topics": [
+"omics"
+]
+},
+{
+"id": "cihr-508163",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=508163&lang=en",
+"title": "Addressing Research Priorities in Long COVID and Rehabilitation: Advancing Research, Education and Clinical Practice",
+"population": "long COVID",
+"focus": "primary",
+"pi": [
+"O'Brien, Kelly K"
+],
+"org": "University of Toronto",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2024-08-01",
+"end": "2025-08-01",
+"status": "completed",
+"amount_usd": 14600,
+"kind": "Planning and Dissemination Grant - Institute Community Support",
+"n": null,
+"areas": [],
+"topics": [
+"trials",
+"epi"
+]
+},
+{
+"id": "cihr-529991",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=529991&lang=en",
+"title": "Predictors of long-COVID recovery and non-recovery in older adults.",
+"population": "long COVID",
+"focus": "primary",
+"pi": [
+"Wang, Elizabeth L"
+],
+"org": "University of Waterloo (Ontario)",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2024-12-01",
+"end": "2025-12-01",
+"status": "completed",
+"amount_usd": 19710,
+"kind": "Master's Award: Canada Graduate Scholarships",
+"n": null,
+"areas": [],
+"topics": [
+"neuro",
+"epi"
+]
+},
+{
+"id": "cihr-530170",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=530170&lang=en",
+"title": "An Evaluation of Plain Language Recommendations, Recommendations Maps, and Visual Recommendations for Youth Understanding of Post COVID-19 Condition Guidelines: A Randomized Controlled Trial",
+"population": "long COVID",
+"focus": "primary",
+"pi": [
+"Yim, Aaron I"
+],
+"org": "McMaster University",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2024-12-01",
+"end": "2025-12-01",
+"status": "completed",
+"amount_usd": 19710,
+"kind": "Master's Award: Canada Graduate Scholarships",
+"n": null,
+"areas": [],
+"topics": [
+"trials"
+]
+},
+{
+"id": "cihr-505012",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=505012&lang=en",
+"title": "At-home digital service work in a post-COVID-19 lockdown world: mapping occupational health risks and identifying health and safety strategies",
+"population": "long COVID",
+"focus": "primary",
+"pi": [
+"MacEachen, Ellen"
+],
+"org": "University of Waterloo (Ontario)",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2024-03-01",
+"end": "2025-03-01",
+"status": "completed",
+"amount_usd": 73000,
+"kind": "Project Grant - PA: Sex and Gender in Health Research (Bridge funding)",
+"n": null,
+"areas": [],
+"topics": [
+"other"
 ]
 },
 {
@@ -17370,6 +18211,420 @@
 "topics": [
 "neuro",
 "immune"
+]
+},
+{
+"id": "cihr-498866",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=498866&lang=en",
+"title": "Impact of intestinal dysbiosis and microbiota-derived extracellular vesicles  on the pathogenesis and clinical manifestations of long COVID",
+"population": "long COVID",
+"focus": "primary",
+"pi": [
+"Falcone, Emilia L"
+],
+"org": "Institut de recherches cliniques de Montréal",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2023-09-01",
+"end": "2024-09-01",
+"status": "completed",
+"amount_usd": 18250,
+"kind": "PRIZE:Pro. GR. - PA: The Bhagirath Singh Early Career Prize in Inf. and Immunity",
+"n": null,
+"areas": [],
+"topics": [
+"gut",
+"epi"
+]
+},
+{
+"id": "cihr-494280",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=494280&lang=en",
+"title": "The Socio-economic Impact of the Post-COVID-19 Condition in the Canadian Context",
+"population": "long COVID",
+"focus": "primary",
+"pi": [
+"Dolatabadi, Elham"
+],
+"org": "York University (Toronto, Ontario)",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2023-09-01",
+"end": "2024-09-01",
+"status": "completed",
+"amount_usd": 73000,
+"kind": "Project Grant - PA: Pandemic Preparedness and Health Emergencies Research",
+"n": null,
+"areas": [],
+"topics": [
+"omics"
+]
+},
+{
+"id": "cihr-494270",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=494270&lang=en",
+"title": "Long COVID in Bangladesh: Developing Strategies for Identifying and Managing Post-COVID Syndrome in LMIC and Low Resource Health Systems",
+"population": "long COVID",
+"focus": "primary",
+"pi": [
+"Butt, Zahid"
+],
+"org": "University of Waterloo (Ontario)",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2023-09-01",
+"end": "2024-09-01",
+"status": "completed",
+"amount_usd": 73000,
+"kind": "Project Grant - PA: Pandemic Preparedness and Health Emergencies Research",
+"n": null,
+"areas": [],
+"topics": [
+"omics"
+]
+},
+{
+"id": "cihr-498296",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=498296&lang=en",
+"title": "Dapagliflozin for Long COVID Syndrome",
+"population": "long COVID",
+"focus": "primary",
+"pi": [
+"Paterson, Ian"
+],
+"org": "Ottawa Heart Institute Research Corporation (Ontario)",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2023-10-01",
+"end": "2024-10-01",
+"status": "completed",
+"amount_usd": 73000,
+"kind": "Project Grant",
+"n": null,
+"areas": [],
+"topics": [
+"trials",
+"neuro"
+]
+},
+{
+"id": "cihr-494291",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=494291&lang=en",
+"title": "Nirmatrelvir/ritonavir (Paxlovid) in the prevention of long-term cardiovascular outcomes: The paxloviD Effectiveness For the prEvention of loNg coviD (DEFEND) clinical trial.",
+"population": "long COVID",
+"focus": "primary",
+"pi": [
+"Quinn, Kieran L"
+],
+"org": "Sinai Health System (Toronto)",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2023-09-01",
+"end": "2024-09-01",
+"status": "completed",
+"amount_usd": 73000,
+"kind": "Project Grant - PA: Pandemic Preparedness and Health Emergencies Research",
+"n": null,
+"areas": [],
+"topics": [
+"vascular",
+"trials",
+"epi"
+]
+},
+{
+"id": "cihr-494273",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=494273&lang=en",
+"title": "Tailored exercise interventions to improve the quality of life in individuals with post-COVID-19 condition: The impact on patient's functionality and their immune and plasma proteome parameters",
+"population": "long COVID",
+"focus": "primary",
+"pi": [
+"Ramanathan, Sheela"
+],
+"org": "Université de Sherbrooke",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2023-09-01",
+"end": "2024-09-01",
+"status": "completed",
+"amount_usd": 73000,
+"kind": "Project Grant - PA: Pandemic Preparedness and Health Emergencies Research",
+"n": null,
+"areas": [],
+"topics": [
+"muscle-exertion",
+"immune",
+"omics",
+"trials",
+"epi"
+]
+},
+{
+"id": "cihr-497736",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=497736&lang=en",
+"title": "Health disparities in long COVID among racialized populations in British Columbia: Synthesizing evidence from linked health administrative data",
+"population": "long COVID",
+"focus": "primary",
+"pi": [
+"Jeong, Dahn"
+],
+"org": "University of British Columbia",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2023-10-01",
+"end": "2026-10-01",
+"status": "completed",
+"amount_usd": 98550,
+"kind": "Fellowship - Priority Announcement: Pandemic Preparedness and Health Emergencies",
+"n": null,
+"areas": [],
+"topics": [
+"epi",
+"omics"
+]
+},
+{
+"id": "cihr-505173",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=505173&lang=en",
+"title": "A Randomized Phase 2 Dose Ranging, Active Control Trial of Using a Sequential Rebreathing Oxygen Mask (Hi-OxSR) to Increase PCO2 for the Treatment of Post COVID Cognitive Dysfunction (RECLAIM-Hi-OxSR)",
+"population": "long COVID",
+"focus": "primary",
+"pi": [
+"Cheung, Angela M"
+],
+"org": "University Health Network (Toronto)",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2023-11-01",
+"end": "2025-11-01",
+"status": "completed",
+"amount_usd": 165271,
+"kind": "Operating Grant: Clinical Trials Projects - Indirect Costs",
+"n": null,
+"areas": [],
+"topics": [
+"neuro",
+"trials"
+]
+},
+{
+"id": "cihr-497372",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=497372&lang=en",
+"title": "A Randomized Phase 2 Dose Ranging, Active Control Trial of Using a Sequential Rebreathing Oxygen Mask (Hi-OxSR) to Increase PCO2 for the Treatment of Post COVID Cognitive Dysfunction (RECLAIM-Hi-OxSR)",
+"population": "long COVID",
+"focus": "primary",
+"pi": [
+"Cheung, Angela M"
+],
+"org": "University Health Network (Toronto)",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2023-11-01",
+"end": "2025-11-01",
+"status": "completed",
+"amount_usd": 661088,
+"kind": "Operating Grant: Clinical Trials Projects",
+"n": null,
+"areas": [],
+"topics": [
+"neuro",
+"trials"
+]
+},
+{
+"id": "cihr-495218",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=495218&lang=en",
+"title": "The 'Long COVID Education and Awareness Hub': A digitally integrated resource for patients, caregivers, and health care providers",
+"population": "long COVID",
+"focus": "primary",
+"pi": [
+"Leighton, Jaylyn"
+],
+"org": "Sunnybrook Research Institute (Toronto, Ontario)",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2023-10-01",
+"end": "2024-10-01",
+"status": "completed",
+"amount_usd": 1460,
+"kind": "Travel Awards - Institute Community Support",
+"n": null,
+"areas": [],
+"topics": [
+"epi"
+]
+},
+{
+"id": "cihr-506450",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=506450&lang=en",
+"title": "Understanding Long-COVID: An Integrated Analysis of Physiological Responses - A cross-sectional study",
+"population": "long COVID",
+"focus": "primary",
+"pi": [
+"Olarinde, Faith O"
+],
+"org": "University of Manitoba",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2023-12-01",
+"end": "2024-12-01",
+"status": "completed",
+"amount_usd": 12775,
+"kind": "Master's Award: Canada Graduate Scholarships",
+"n": null,
+"areas": [],
+"topics": [
+"vascular",
+"epi"
+]
+},
+{
+"id": "cihr-480871",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=480871&lang=en",
+"title": "Developing a Knowledge Translation Plan to Disseminate the \"Long COVID Rehabilitation Strategy\" and \"Long COVID Workforce Toolkit\" across Canada",
+"population": "long COVID",
+"focus": "primary",
+"pi": [
+"Leighton, Jaylyn"
+],
+"org": "Sunnybrook Research Institute (Toronto, Ontario)",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2023-02-01",
+"end": "2024-02-01",
+"status": "completed",
+"amount_usd": 36500,
+"kind": "Planning and Dissemination Grant - Institute Community Support",
+"n": null,
+"areas": [],
+"topics": [
+"trials"
+]
+},
+{
+"id": "cihr-483946",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=483946&lang=en",
+"title": "Extending a digital mobility cohort to understand risk factors and impacts of post-COVID conditions in community-living older adults: the Aging, Infection and Mobility (AIM) project",
+"population": "long COVID",
+"focus": "primary",
+"pi": [
+"Beauchamp, Marla K"
+],
+"org": "McMaster University",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2023-03-01",
+"end": "2026-03-01",
+"status": "completed",
+"amount_usd": 219000,
+"kind": "Project Grant - PA: Infection and Immunity (Early Career Research Support)",
+"n": null,
+"areas": [],
+"topics": [
+"epi"
+]
+},
+{
+"id": "cihr-480723",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=480723&lang=en",
+"title": "Assessment of Autonomic Nervous System Function in Post-Acute Sequelae of COVID-19 (PASC) and Characterization of the Patient Experience",
+"population": "long COVID",
+"focus": "primary",
+"pi": [
+"Hira, Rashmin"
+],
+"org": "University of Calgary",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2023-01-01",
+"end": "2024-01-01",
+"status": "completed",
+"amount_usd": 1095,
+"kind": "CIHR-ICRH Travel Awards - General pool",
+"n": null,
+"areas": [],
+"topics": [
+"neuro",
+"omics"
+]
+},
+{
+"id": "cihr-480730",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=480730&lang=en",
+"title": "129Xe Magenetic Resonance Imagind-based Phenotypes of Long COVID: A multi-center Evaluation",
+"population": "long COVID",
+"focus": "primary",
+"pi": [
+"Eddy, Rachel L"
+],
+"org": "University of British Columbia",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2023-01-01",
+"end": "2024-01-01",
+"status": "completed",
+"amount_usd": 1095,
+"kind": "CIHR-ICRH Travel Awards - General pool",
+"n": null,
+"areas": [],
+"topics": [
+"genetics"
+]
+},
+{
+"id": "cihr-484591",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=484591&lang=en",
+"title": "Using an agent-based model to simulate long-term mental health and labour market outcomes associated with Post-Covid Conditions among the Canadian working population.",
+"population": "long COVID",
+"focus": "primary",
+"pi": [
+"Orchard, Christa G"
+],
+"org": "Institute for Work & Health (Toronto)",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2023-03-01",
+"end": "2024-03-01",
+"status": "completed",
+"amount_usd": 25550,
+"kind": "Health System Impact Fellowships - Doctoral Central Canada 1-year",
+"n": null,
+"areas": [],
+"topics": [
+"epi",
+"omics"
 ]
 },
 {
@@ -20240,6 +21495,209 @@
 "topics": [
 "neuro",
 "immune"
+]
+},
+{
+"id": "cihr-470625",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=470625&lang=en",
+"title": "Exercise therapy for Chronic Fatigue Syndrome/Myalgic Encephalomyelitis: A clinical practice guideline",
+"population": "ME/CFS",
+"focus": "primary",
+"pi": [
+"Zeraatkar, Dena"
+],
+"org": "McMaster University",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2022-09-01",
+"end": "2023-09-01",
+"status": "completed",
+"amount_usd": 55845,
+"kind": "Project Grant",
+"n": null,
+"areas": [],
+"topics": [
+"muscle-exertion",
+"trials",
+"epi"
+]
+},
+{
+"id": "cihr-473331",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=473331&lang=en",
+"title": "Artificial intelligence assisted Method, Optimizing the Prediction of Patient Outcomes among Long COVID-19 Patients.",
+"population": "long COVID",
+"focus": "primary",
+"pi": [
+"Nicolaou, Savvakis"
+],
+"org": "University of British Columbia",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2022-09-01",
+"end": "2023-09-01",
+"status": "completed",
+"amount_usd": 73000,
+"kind": "Project Grant - PA: Pandemic Preparedness and Health Emergencies Research",
+"n": null,
+"areas": [],
+"topics": [
+"epi",
+"neuro"
+]
+},
+{
+"id": "cihr-475223",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=475223&lang=en",
+"title": "Impact of Post-COVID-19 Condition on the Canadian healthcare workforce: An agent-based modeling approach informed by living evidence syntheses to project long-term impacts on worker recovery and retention",
+"population": "long COVID",
+"focus": "primary",
+"pi": [
+"Little, Julian"
+],
+"org": "University of Ottawa",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2022-10-01",
+"end": "2023-10-01",
+"status": "completed",
+"amount_usd": 109336,
+"kind": "Cat Gr:Policy Res. for Health Sys. Transf.- Canadian Healthcare Workforce",
+"n": null,
+"areas": [],
+"topics": [
+"epi"
+]
+},
+{
+"id": "cihr-475178",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=475178&lang=en",
+"title": "The Impact of Post COVID-19 Condition on Nursing Labour Supply",
+"population": "long COVID",
+"focus": "primary",
+"pi": [
+"Rafferty, Ellen"
+],
+"org": "Institute of Health Economics (Edmonton)",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2022-10-01",
+"end": "2023-10-01",
+"status": "completed",
+"amount_usd": 109298,
+"kind": "Cat Gr:Policy Res. for Health Sys. Transf.- Canadian Healthcare Workforce",
+"n": null,
+"areas": [],
+"topics": [
+"epi"
+]
+},
+{
+"id": "cihr-475880",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=475880&lang=en",
+"title": "Identifying Key Long-COVID Biomarkers with Machine Learning Analysis",
+"population": "long COVID",
+"focus": "primary",
+"pi": [
+"Patel, Maitray"
+],
+"org": "Western University (Ontario)",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2022-11-01",
+"end": "2025-11-01",
+"status": "completed",
+"amount_usd": 76650,
+"kind": "Doctoral Research Award: Canada Graduate Scholarships",
+"n": null,
+"areas": [],
+"topics": [
+"omics"
+]
+},
+{
+"id": "cihr-486635",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=486635&lang=en",
+"title": "Influence of intestinal permeability on the manifestations of long COVID-19",
+"population": "long COVID",
+"focus": "primary",
+"pi": [
+"bu, simeng"
+],
+"org": "McGill University",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2022-12-01",
+"end": "2023-12-01",
+"status": "completed",
+"amount_usd": 12775,
+"kind": "Master's Award: Canada Graduate Scholarships",
+"n": null,
+"areas": [],
+"topics": [
+"gut"
+]
+},
+{
+"id": "cihr-485890",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=485890&lang=en",
+"title": "Investigating the Immune Mechanisms Underlying the Development of Rheumatological Complications Post-COVID",
+"population": "long COVID",
+"focus": "primary",
+"pi": [
+"Zhang, Kayla Y"
+],
+"org": "McMaster University",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2022-12-01",
+"end": "2023-12-01",
+"status": "completed",
+"amount_usd": 12775,
+"kind": "Master's Award: Canada Graduate Scholarships",
+"n": null,
+"areas": [],
+"topics": [
+"immune"
+]
+},
+{
+"id": "cihr-488141",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=488141&lang=en",
+"title": "Investigating the Relationship Between Musculoskeletal Post-COVID Sequelae and Acute COVID-19 Characteristics and Co-morbidities",
+"population": "long COVID",
+"focus": "primary",
+"pi": [
+"Eje, Chizaram"
+],
+"org": "Western University (Ontario)",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2022-12-01",
+"end": "2023-12-01",
+"status": "completed",
+"amount_usd": 12775,
+"kind": "Master's Award: Canada Graduate Scholarships",
+"n": null,
+"areas": [],
+"topics": [
+"epi"
 ]
 },
 {
@@ -23205,6 +24663,920 @@
 "topics": [
 "immune",
 "trials"
+]
+},
+{
+"id": "cihr-448902",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=448902&lang=en",
+"title": "A double blind randomized trial of low-dose naltrexone for post-covid fatigue syndrome",
+"population": "long COVID",
+"focus": "primary",
+"pi": [
+"Nacul, Luis"
+],
+"org": "University of British Columbia",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2021-04-01",
+"end": "2022-04-01",
+"status": "completed",
+"amount_usd": 541902,
+"kind": "Op Grant: Emerging COVID-19 Research Gaps & Priorities - Post COVID-19 condition",
+"n": null,
+"areas": [],
+"topics": [
+"trials"
+]
+},
+{
+"id": "cihr-448847",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=448847&lang=en",
+"title": "Muticentre Assessment of Cardiovascular Hemodynamics and Autonomic Dysfunction with Long COVID",
+"population": "long COVID",
+"focus": "primary",
+"pi": [
+"Raj, Satish R"
+],
+"org": "University of Calgary",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2021-04-01",
+"end": "2022-04-01",
+"status": "completed",
+"amount_usd": 202657,
+"kind": "Op Grant: Emerging COVID-19 Research Gaps & Priorities - Post COVID-19 condition",
+"n": null,
+"areas": [],
+"topics": [
+"vascular",
+"neuro",
+"omics"
+]
+},
+{
+"id": "cihr-448905",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=448905&lang=en",
+"title": "SARS-CoV-2 triggers Autoimmunity: implications for the pathogenesis of Post-Acute COVID-19 Syndrome - (AI-PACS)",
+"population": "long COVID",
+"focus": "primary",
+"pi": [
+"Mukherjee, Manali"
+],
+"org": "McMaster University",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2021-04-01",
+"end": "2022-04-01",
+"status": "completed",
+"amount_usd": null,
+"kind": "Op Grant: Emerging COVID-19 Research Gaps & Priorities - Post COVID-19 condition",
+"n": null,
+"areas": [],
+"topics": [
+"immune"
+]
+},
+{
+"id": "cihr-448917",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=448917&lang=en",
+"title": "Implementing the Provincial Post COVID-19 Rehabilitation Framework for Screening & Transitions in Alberta: A Pragmatic Evaluation",
+"population": "long COVID",
+"focus": "primary",
+"pi": [
+"Ho, Chester"
+],
+"org": "University of Alberta",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2021-04-01",
+"end": "2022-04-01",
+"status": "completed",
+"amount_usd": 364915,
+"kind": "Op Grant: Emerging COVID-19 Research Gaps & Priorities - Post COVID-19 condition",
+"n": null,
+"areas": [],
+"topics": [
+"trials"
+]
+},
+{
+"id": "cihr-450401",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=450401&lang=en",
+"title": "The Canadian Respiratory Research Network Long COVID-19 Study",
+"population": "long COVID",
+"focus": "primary",
+"pi": [
+"Gershon, Andrea S"
+],
+"org": "Sunnybrook Research Institute (Toronto, Ontario)",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2021-05-01",
+"end": "2022-05-01",
+"status": "completed",
+"amount_usd": 73000,
+"kind": "Project Grant",
+"n": null,
+"areas": [],
+"topics": [
+"epi",
+"infection"
+]
+},
+{
+"id": "cihr-448863",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=448863&lang=en",
+"title": "Predictors and burden of post-acute COVID-19 syndrome (long-COVID) with a focus on equity",
+"population": "long COVID",
+"focus": "primary",
+"pi": [
+"Sander, Beate H"
+],
+"org": "University Health Network (Toronto)",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2021-04-01",
+"end": "2022-04-01",
+"status": "completed",
+"amount_usd": 364741,
+"kind": "Op Grant: Emerging COVID-19 Research Gaps & Priorities - Post COVID-19 condition",
+"n": null,
+"areas": [],
+"topics": [
+"epi"
+]
+},
+{
+"id": "cihr-458082",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=458082&lang=en",
+"title": "Can Graded Exercise Reduce Symptoms of Chronic Pain and Long COVID as well as Promote Long-Term Recovery?",
+"population": "long COVID",
+"focus": "primary",
+"pi": [
+"Rachor, Geoffrey S"
+],
+"org": "University of Regina (Saskatchewan)",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2021-11-01",
+"end": "2024-11-01",
+"status": "completed",
+"amount_usd": 76650,
+"kind": "Doctoral Research Award: Canada Graduate Scholarships",
+"n": null,
+"areas": [],
+"topics": [
+"muscle-exertion",
+"neuro"
+]
+},
+{
+"id": "cihr-460226",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=460226&lang=en",
+"title": "Mental health and long COVID: Experiences, interventions, and resilience building",
+"population": "long COVID",
+"focus": "primary",
+"pi": [
+"Hawke, Lisa D"
+],
+"org": "Centre for Addiction and Mental Health (Toronto)",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2021-11-01",
+"end": "2023-11-01",
+"status": "completed",
+"amount_usd": 149657,
+"kind": "O. Gr.: Addr. the Health Impacts of COVID-19 - Imp. of def/disp care on health",
+"n": null,
+"areas": [],
+"topics": [
+"trials"
+]
+},
+{
+"id": "cihr-466821",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=466821&lang=en",
+"title": "Adaptation of a Self-Compassion Intervention for Treating Psychological Symptoms of Long COVID",
+"population": "long COVID",
+"focus": "primary",
+"pi": [
+"Krebs, Brandon K"
+],
+"org": "University of Alberta",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2021-12-01",
+"end": "2022-12-01",
+"status": "completed",
+"amount_usd": 12775,
+"kind": "Master's Award: Canada Graduate Scholarships",
+"n": null,
+"areas": [],
+"topics": [
+"trials"
+]
+},
+{
+"id": "cihr-467059",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=467059&lang=en",
+"title": "Randomized, Double-Blinded, Placebo-Controlled Study Evaluating Vortioxetine for Cognitive Deficits in Persons with Post-COVID-19 Condition",
+"population": "long COVID",
+"focus": "primary",
+"pi": [
+"Lui, Leanna"
+],
+"org": "University of Toronto",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2021-12-01",
+"end": "2022-12-01",
+"status": "completed",
+"amount_usd": 12775,
+"kind": "Master's Award: Canada Graduate Scholarships",
+"n": null,
+"areas": [],
+"topics": [
+"neuro",
+"trials"
+]
+},
+{
+"id": "cihr-467048",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=467048&lang=en",
+"title": "Using cell-free DNA as a Biomarker for Pulmonary Vascular Disease in Patients with Long COVID",
+"population": "long COVID",
+"focus": "primary",
+"pi": [
+"Iqbal, Fatima"
+],
+"org": "University of Calgary",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2021-12-01",
+"end": "2022-12-01",
+"status": "completed",
+"amount_usd": 12775,
+"kind": "Master's Award: Canada Graduate Scholarships",
+"n": null,
+"areas": [],
+"topics": [
+"vascular",
+"omics"
+]
+},
+{
+"id": "cihr-448912",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=448912&lang=en",
+"title": "Investigating the Post-Acute Sequelae of SARS-CoV-2 Infections: a Patient Oriented Canadian COVID-19 Emergency Department Rapid Response Network (CCEDRRN) Study",
+"population": "long COVID",
+"focus": "primary",
+"pi": [
+"Archambault, Patrick"
+],
+"org": "Université Laval",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2021-04-01",
+"end": "2022-04-01",
+"status": "completed",
+"amount_usd": 364960,
+"kind": "Op Grant: Emerging COVID-19 Research Gaps & Priorities - Post COVID-19 condition",
+"n": null,
+"areas": [],
+"topics": [
+"epi"
+]
+},
+{
+"id": "cihr-448823",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=448823&lang=en",
+"title": "Long-term Sequelae of COVID-19: Using Clinical and Administrative Data to Support Diagnosis and Treatment of Long COVID Patients",
+"population": "long COVID",
+"focus": "primary",
+"pi": [
+"Katz, Alan"
+],
+"org": "University of Manitoba",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2021-04-01",
+"end": "2022-04-01",
+"status": "completed",
+"amount_usd": 147464,
+"kind": "Op Gr: Emerging COVID-19 Research Gaps & Priorities - Indigenous Health Research",
+"n": null,
+"areas": [],
+"topics": [
+"trials",
+"epi"
+]
+},
+{
+"id": "cihr-448878",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=448878&lang=en",
+"title": "Pulmonary vascular disease in patients with Long COVID",
+"population": "long COVID",
+"focus": "primary",
+"pi": [
+"Weatherald, Jason"
+],
+"org": "University of Calgary",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2021-04-01",
+"end": "2022-04-01",
+"status": "completed",
+"amount_usd": 213227,
+"kind": "Op Grant: Emerging COVID-19 Research Gaps & Priorities - Post COVID-19 condition",
+"n": null,
+"areas": [],
+"topics": [
+"vascular"
+]
+},
+{
+"id": "cihr-448854",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=448854&lang=en",
+"title": "Living with long-COVID. Patient experience to inform policy makers and care providers",
+"population": "long COVID",
+"focus": "primary",
+"pi": [
+"Law, Susan K"
+],
+"org": "Trillium Health Partners (Mississauga, ON)",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2021-04-01",
+"end": "2022-04-01",
+"status": "completed",
+"amount_usd": 201457,
+"kind": "Op Grant: Emerging COVID-19 Research Gaps & Priorities - Post COVID-19 condition",
+"n": null,
+"areas": [],
+"topics": [
+"epi"
+]
+},
+{
+"id": "cihr-448932",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=448932&lang=en",
+"title": "In people with Long Covid does adding a digital health platform to usual care improve outcomes at three months compared to usual care alone? The Enhancing Covid Rehabilitation with Technology (ECORT) randomised controlled trial",
+"population": "long COVID",
+"focus": "primary",
+"pi": [
+"Hatcher, Simon"
+],
+"org": "Ottawa Hospital Research Institute",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2021-04-01",
+"end": "2022-04-01",
+"status": "completed",
+"amount_usd": 673694,
+"kind": "Op Grant: Emerging COVID-19 Research Gaps & Priorities - Post COVID-19 condition",
+"n": null,
+"areas": [],
+"topics": [
+"trials",
+"epi"
+]
+},
+{
+"id": "cihr-448836",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=448836&lang=en",
+"title": "Clinicopatholgical correlates of long COVID and potential interventions for improving the quality of life",
+"population": "long COVID",
+"focus": "primary",
+"pi": [
+"Ramanathan, Sheela"
+],
+"org": "Université de Sherbrooke",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2021-04-01",
+"end": "2022-04-01",
+"status": "completed",
+"amount_usd": 357700,
+"kind": "Op Grant: Emerging COVID-19 Research Gaps & Priorities - Post COVID-19 condition",
+"n": null,
+"areas": [],
+"topics": [
+"trials",
+"epi"
+]
+},
+{
+"id": "cihr-448838",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=448838&lang=en",
+"title": "Autoimmunity as a novel mechanism in post-COVID syndrome",
+"population": "long COVID",
+"focus": "primary",
+"pi": [
+"Baker, Andrew J"
+],
+"org": "Unity Health Toronto",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2021-04-01",
+"end": "2022-04-01",
+"status": "completed",
+"amount_usd": null,
+"kind": "Op Grant: Emerging COVID-19 Research Gaps & Priorities - Post COVID-19 condition",
+"n": null,
+"areas": [],
+"topics": [
+"immune"
+]
+},
+{
+"id": "cihr-448874",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=448874&lang=en",
+"title": "Health equity and the post COVID-19 condition",
+"population": "long COVID",
+"focus": "primary",
+"pi": [
+"Kendall, Claire"
+],
+"org": "Bruyère Health Research Institute (Ottawa, ON)",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2021-04-01",
+"end": "2022-04-01",
+"status": "completed",
+"amount_usd": 161861,
+"kind": "Op Grant: Emerging COVID-19 Research Gaps & Priorities - Post COVID-19 condition",
+"n": null,
+"areas": [],
+"topics": [
+"epi"
+]
+},
+{
+"id": "cihr-448859",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=448859&lang=en",
+"title": "Long COVID and Episodic Disability: Advancing the Conceptualization, Measurement and Knowledge of Episodic Disability with people living with Long COVID",
+"population": "long COVID",
+"focus": "primary",
+"pi": [
+"O'Brien, Kelly K"
+],
+"org": "University of Toronto",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2021-04-01",
+"end": "2022-04-01",
+"status": "completed",
+"amount_usd": 149070,
+"kind": "Op Grant: Emerging COVID-19 Research Gaps & Priorities - Post COVID-19 condition",
+"n": null,
+"areas": [],
+"topics": [
+"epi",
+"trials"
+]
+},
+{
+"id": "cihr-448908",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=448908&lang=en",
+"title": "Better understanding physical and cognitive impairments and functional limitations in people suffering from long COVID to support the development of adapted interventions",
+"population": "long COVID",
+"focus": "primary",
+"pi": [
+"Roy, Jean-Sébastien"
+],
+"org": "Université Laval",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2021-04-01",
+"end": "2022-04-01",
+"status": "completed",
+"amount_usd": 213963,
+"kind": "Op Grant: Emerging COVID-19 Research Gaps & Priorities - Post COVID-19 condition",
+"n": null,
+"areas": [],
+"topics": [
+"neuro",
+"trials"
+]
+},
+{
+"id": "cihr-448844",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=448844&lang=en",
+"title": "Biomarker Discovery for the Post-COVID Pulmonary Syndrome",
+"population": "long COVID",
+"focus": "primary",
+"pi": [
+"Sin, Donald"
+],
+"org": "University of British Columbia",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2021-04-01",
+"end": "2022-04-01",
+"status": "completed",
+"amount_usd": 364635,
+"kind": "Op Grant: Emerging COVID-19 Research Gaps & Priorities - Post COVID-19 condition",
+"n": null,
+"areas": [],
+"topics": [
+"omics"
+]
+},
+{
+"id": "cihr-448896",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=448896&lang=en",
+"title": "Long COVID-19 on the human brain",
+"population": "long COVID",
+"focus": "primary",
+"pi": [
+"Graff-Guerrero, Ariel"
+],
+"org": "Centre for Addiction and Mental Health (Toronto)",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2021-04-01",
+"end": "2022-04-01",
+"status": "completed",
+"amount_usd": 680707,
+"kind": "Op Grant: Emerging COVID-19 Research Gaps & Priorities - Post COVID-19 condition",
+"n": null,
+"areas": [],
+"topics": [
+"neuro"
+]
+},
+{
+"id": "cihr-448862",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=448862&lang=en",
+"title": "Post-Acute Sequelae of COVID-19: An Electroencephalography and Magnetic Resonance Neuroimaging Study of the Elderly in our Communities",
+"population": "long COVID",
+"focus": "primary",
+"pi": [
+"Graham, Simon J"
+],
+"org": "Sunnybrook Research Institute (Toronto, Ontario)",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2021-04-01",
+"end": "2022-04-01",
+"status": "completed",
+"amount_usd": 365000,
+"kind": "Op Grant: Emerging COVID-19 Research Gaps & Priorities - Post COVID-19 condition",
+"n": null,
+"areas": [],
+"topics": [
+"neuro"
+]
+},
+{
+"id": "cihr-448909",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=448909&lang=en",
+"title": "The Canadian Respiratory Research Network Long COVID-19 Study",
+"population": "long COVID",
+"focus": "primary",
+"pi": [
+"Gershon, Andrea S"
+],
+"org": "Sunnybrook Research Institute (Toronto, Ontario)",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2021-04-01",
+"end": "2022-04-01",
+"status": "completed",
+"amount_usd": 365000,
+"kind": "Op Grant: Emerging COVID-19 Research Gaps & Priorities - Post COVID-19 condition",
+"n": null,
+"areas": [],
+"topics": [
+"epi",
+"genetics"
+]
+},
+{
+"id": "cihr-459278",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=459278&lang=en",
+"title": "Living Systematic Reviews and Knowledge Mobilization of Care Models and Management Options for Long COVID/Post COVID-19 Condition.",
+"population": "long COVID",
+"focus": "primary",
+"pi": [
+"Décary, Simon"
+],
+"org": "Université de Sherbrooke",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2021-09-01",
+"end": "2022-09-01",
+"status": "completed",
+"amount_usd": 165856,
+"kind": "Op. Gr: Emer. COVID Res/Gps/Prior- Sup. Srv/Rehab, Strat for Hist. Excl/Und Pops",
+"n": null,
+"areas": [],
+"topics": [
+"epi"
+]
+},
+{
+"id": "cihr-460379",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=460379&lang=en",
+"title": "Approaches For ThE pRioritization of patients in priMAry care post-COVID To reduce Health inequities (AFTERMATH)",
+"population": "long COVID",
+"focus": "primary",
+"pi": [
+"Pinto, Andrew D"
+],
+"org": "Unity Health Toronto",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2021-11-01",
+"end": "2023-11-01",
+"status": "completed",
+"amount_usd": 566346,
+"kind": "Op. Gr.: Addr. the Wider Impacts of COVID- Exacerb. of disp. among marg. pops.",
+"n": null,
+"areas": [],
+"topics": [
+"epi"
+]
+},
+{
+"id": "cihr-448865",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=448865&lang=en",
+"title": "Mental Health during the COVID-19 Pandemic: An Ongoing Living Systematic Review of Mental Health Burden and Intervention Effectiveness to Inform Management Strategies During and Post-COVID-19",
+"population": "long COVID",
+"focus": "primary",
+"pi": [
+"Benedetti, Andrea"
+],
+"org": "Research Institute of the McGill University Health Centre",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2021-04-01",
+"end": "2022-04-01",
+"status": "completed",
+"amount_usd": 160638,
+"kind": "Op Grant: Emerging COVID-19 Research Gaps & Priorities - Post COVID-19 condition",
+"n": null,
+"areas": [],
+"topics": [
+"trials"
+]
+},
+{
+"id": "cihr-448879",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=448879&lang=en",
+"title": "Impact of Frailty and Sarcopenia on Post-COVID Recovery",
+"population": "long COVID",
+"focus": "primary",
+"pi": [
+"Afilalo, Jonathan"
+],
+"org": "CIUSSS de Centre-Ouest-de-l'Ile-de-Montréal-Jewish General",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2021-04-01",
+"end": "2022-04-01",
+"status": "completed",
+"amount_usd": 343231,
+"kind": "Op Grant: Emerging COVID-19 Research Gaps & Priorities - Post COVID-19 condition",
+"n": null,
+"areas": [],
+"topics": [
+"epi"
+]
+},
+{
+"id": "cihr-448889",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=448889&lang=en",
+"title": "Exploring Rehabilitation Needs and Access to Services for Long COVID",
+"population": "long COVID",
+"focus": "primary",
+"pi": [
+"Gross, Douglas P"
+],
+"org": "University of Alberta",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2021-04-01",
+"end": "2022-04-01",
+"status": "completed",
+"amount_usd": 111528,
+"kind": "Op Grant: Emerging COVID-19 Research Gaps & Priorities - Post COVID-19 condition",
+"n": null,
+"areas": [],
+"topics": [
+"trials"
+]
+},
+{
+"id": "cihr-448892",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=448892&lang=en",
+"title": "Évaluation de l'efficacité des probiotiques sur les affections post-COVID-19.",
+"population": "long COVID",
+"focus": "primary",
+"pi": [
+"Pasquier, Jean Charles"
+],
+"org": "Université de Sherbrooke",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2021-04-01",
+"end": "2022-04-01",
+"status": "completed",
+"amount_usd": 728009,
+"kind": "Op Grant: Emerging COVID-19 Research Gaps & Priorities - Post COVID-19 condition",
+"n": null,
+"areas": [],
+"topics": [
+"gut",
+"infection"
+]
+},
+{
+"id": "cihr-448933",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=448933&lang=en",
+"title": "Post COVID hyperinflammation: A syndrome beyond the name",
+"population": "long COVID",
+"focus": "primary",
+"pi": [
+"Yeung, Rae S"
+],
+"org": "Hospital for Sick Children (Toronto)",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2021-04-01",
+"end": "2022-04-01",
+"status": "completed",
+"amount_usd": null,
+"kind": "Op Grant: Emerging COVID-19 Research Gaps & Priorities - Post COVID-19 condition",
+"n": null,
+"areas": [],
+"topics": [
+"immune"
+]
+},
+{
+"id": "cihr-448858",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=448858&lang=en",
+"title": "Identification of microbial factors to modulate immune dysregulation and treat post-COVID-19 syndrome.",
+"population": "long COVID",
+"focus": "primary",
+"pi": [
+"Falcone, Emilia L"
+],
+"org": "Institut de recherches cliniques de Montréal",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2021-04-01",
+"end": "2022-04-01",
+"status": "completed",
+"amount_usd": null,
+"kind": "Op Grant: Emerging COVID-19 Research Gaps & Priorities - Post COVID-19 condition",
+"n": null,
+"areas": [],
+"topics": [
+"immune"
+]
+},
+{
+"id": "cihr-460356",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=460356&lang=en",
+"title": "Deciphering the impact of aging and inflammation on neurocognitive impairments in people with Post-Acute Sequelae of COVID-19  (PASC)",
+"population": "long COVID",
+"focus": "primary",
+"pi": [
+"Power, Christopher"
+],
+"org": "University of Alberta",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2021-11-01",
+"end": "2023-11-01",
+"status": "completed",
+"amount_usd": 363555,
+"kind": "Op. Gr.: Addr. the Wider Impacts of COVID- Exacerb. of disp. among marg. pops.",
+"n": null,
+"areas": [],
+"topics": [
+"neuro",
+"immune"
+]
+},
+{
+"id": "cihr-460315",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=460315&lang=en",
+"title": "Healthcare Governance for a Post-COVID Canada: Leveraging Hard-Earned Experience for a More Equitable and Supportive System",
+"population": "long COVID",
+"focus": "primary",
+"pi": [
+"Graham, Janice E"
+],
+"org": "Dalhousie University (Nova Scotia)",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2021-11-01",
+"end": "2023-11-01",
+"status": "completed",
+"amount_usd": 357383,
+"kind": "Op. Gr.: Addr. Wider Impacts of COVID-Imp. on social/econ/pop iss/pbl outcomes",
+"n": null,
+"areas": [],
+"topics": [
+"epi"
+]
+},
+{
+"id": "cihr-450565",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=450565&lang=en",
+"title": "Nothing without us: Towards inclusive, equitable policy strategies for youth with disabilities and their families post-COVID19",
+"population": "long COVID",
+"focus": "primary",
+"pi": [
+"Zwicker, Jennifer D"
+],
+"org": "University of Calgary",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2021-07-01",
+"end": "2022-07-01",
+"status": "completed",
+"amount_usd": 109464,
+"kind": "Op Gr:Understanding/mitigating impacts of COVID-19 on children, youth & families",
+"n": null,
+"areas": [],
+"topics": [
+"other"
 ]
 },
 {
@@ -26456,6 +28828,56 @@
 ]
 },
 {
+"id": "cihr-373947",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=373947&lang=en",
+"title": "Canadian Collaborative Team Conference on ME/CFS: \"Advancing an International Research Agenda to Address ME/CFS Research Priorities\"",
+"population": "ME/CFS",
+"focus": "primary",
+"pi": [
+"Moreau, Alain"
+],
+"org": "Centre hospitalier universitaire Sainte-Justine (Montréal, Québec)",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2017-09-01",
+"end": "2018-09-01",
+"status": "completed",
+"amount_usd": 51100,
+"kind": "Planning and Dissemination Grants - ICS ME/CFS",
+"n": null,
+"areas": [],
+"topics": [
+"epi"
+]
+},
+{
+"id": "cihr-364136",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=364136&lang=en",
+"title": "Impaired Skeletal Muscle Pyruvate Dehydrogenase Activity & Chronic Fatigue Syndrome",
+"population": "ME/CFS",
+"focus": "primary",
+"pi": [
+"Ussher, John R"
+],
+"org": "University of Alberta",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2017-01-01",
+"end": "2018-01-01",
+"status": "completed",
+"amount_usd": 72489,
+"kind": "Catalyst Grant: Musculoskeletal Health and Arthritis",
+"n": null,
+"areas": [],
+"topics": [
+"muscle-exertion"
+]
+},
+{
 "id": "trial-ISRCTN16045700",
 "source": "Trials",
 "source_label": "Trial registries",
@@ -27124,6 +29546,32 @@
 "years": [
 2016,
 2017
+]
+},
+{
+"id": "cihr-319818",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=319818&lang=en",
+"title": "Genotypic Influences on Epigenetic Variability in Chronic Fatigue Syndrome/Myalgic Encephalomyelitis",
+"population": "ME/CFS",
+"focus": "primary",
+"pi": [
+"Herrera Monroy, Santiago"
+],
+"org": "University of Toronto",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2014-11-01",
+"end": "2017-11-01",
+"status": "completed",
+"amount_usd": 98550,
+"kind": "Fellowship - PA: Myalgic Encephalomyelitis/CFS/FM",
+"n": null,
+"areas": [],
+"topics": [
+"omics",
+"genetics"
 ]
 },
 {
@@ -39243,6 +41691,81 @@
 ]
 },
 {
+"id": "cihr-527987",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=527987&lang=en",
+"title": "SARS-CoV2 infection as a model to understand the long-term impact of respiratory infections on the health and functioning of older adults: the Aging, Infection and Mobility (AIM) Project",
+"population": "long COVID",
+"focus": "related",
+"pi": [
+"Beauchamp, Marla K"
+],
+"org": "McMaster University",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2025-03-01",
+"end": "2026-03-01",
+"status": "completed",
+"amount_usd": 73000,
+"kind": "Project Grant - PA: Pandemic Preparedness and Health Emergencies Research",
+"n": null,
+"areas": [],
+"topics": [
+"other"
+]
+},
+{
+"id": "cihr-559247",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=559247&lang=en",
+"title": "Using population-based data to understand respiratory infection outcomes among pediatric populations residing in British Columbia in the post global COVID-19 emergency era",
+"population": "long COVID",
+"focus": "related",
+"pi": [
+"Patel, Prital"
+],
+"org": "University of British Columbia",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2025-11-01",
+"end": "2026-11-01",
+"status": "completed",
+"amount_usd": 1697,
+"kind": "Travel Awards - Institute Community Support",
+"n": null,
+"areas": [],
+"topics": [
+"epi"
+]
+},
+{
+"id": "cihr-562364",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=562364&lang=en",
+"title": "SARS-CoV2 infection as a model to understand the long-term impact of respiratory infections on the health and functioning of older adults: the Aging, Infection and Mobility (AIM) Project",
+"population": "long COVID",
+"focus": "related",
+"pi": [
+"Beauchamp, Marla K"
+],
+"org": "McMaster University",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2025-09-01",
+"end": "2026-09-01",
+"status": "completed",
+"amount_usd": 36500,
+"kind": "PRIZE - Pro. Gr. - PA: Yves Joanette Award of Excellence in Research in Aging",
+"n": null,
+"areas": [],
+"topics": [
+"other"
+]
+},
+{
 "id": "nih-F31CA294598",
 "source": "NIH",
 "source_label": "NIH RePORTER",
@@ -39463,6 +41986,135 @@
 "areas": [],
 "topics": [
 "omics"
+]
+},
+{
+"id": "cihr-499780",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=499780&lang=en",
+"title": "Advancing Understanding and Care for Complex Post-Immunization Syndromes",
+"population": "both",
+"focus": "related",
+"pi": [
+"Kenny, Tiff-Annie M"
+],
+"org": "Université Laval",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2024-02-01",
+"end": "2025-02-01",
+"status": "completed",
+"amount_usd": 29185,
+"kind": "Planning and Dissemination Grant - Institute Community Support",
+"n": null,
+"areas": [],
+"topics": [
+"immune",
+"epi"
+]
+},
+{
+"id": "cihr-508045",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=508045&lang=en",
+"title": "Canadian Collaborative Conference on ME - Nothing About Us Without Us",
+"population": "both",
+"focus": "related",
+"pi": [
+"Moreau, Alain"
+],
+"org": "Centre hospitalier universitaire Sainte-Justine (Montréal, Québec)",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2024-08-01",
+"end": "2025-08-01",
+"status": "completed",
+"amount_usd": 14600,
+"kind": "Planning and Dissemination Grant - Institute Community Support",
+"n": null,
+"areas": [],
+"topics": [
+"epi",
+"trials"
+]
+},
+{
+"id": "cihr-530009",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=530009&lang=en",
+"title": "Examining the Effects of Social Support and Psychological Flexibility on Mental Health in People with Central Sensitivity Syndromes: A Mixed Methods Study",
+"population": "ME/CFS",
+"focus": "related",
+"pi": [
+"Melnyk, Carissa R"
+],
+"org": "University of Regina (Saskatchewan)",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2024-12-01",
+"end": "2025-12-01",
+"status": "completed",
+"amount_usd": 19710,
+"kind": "Master's Award: Canada Graduate Scholarships",
+"n": null,
+"areas": [],
+"topics": [
+"trials",
+"neuro"
+]
+},
+{
+"id": "cihr-508415",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=508415&lang=en",
+"title": "Planning a Systems Approach to Decreasing Inappropriate Psychotropic Medication Use in Long Term Care Homes",
+"population": "long COVID",
+"focus": "related",
+"pi": [
+"Benjamin, Sophiya"
+],
+"org": "McMaster University",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2024-08-01",
+"end": "2025-08-01",
+"status": "completed",
+"amount_usd": 18028,
+"kind": "Planning and Dissemination Grant - Institute Community Support",
+"n": null,
+"areas": [],
+"topics": [
+"epi"
+]
+},
+{
+"id": "cihr-529693",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=529693&lang=en",
+"title": "Pursuing Reduction in Fatigue After COVID-19 via Exercise & Rehabilitation: A randomized feasibility trial",
+"population": "long COVID",
+"focus": "related",
+"pi": [
+"Billias, Nicole"
+],
+"org": "Western University (Ontario)",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2024-12-01",
+"end": "2025-12-01",
+"status": "completed",
+"amount_usd": 19710,
+"kind": "Master's Award: Canada Graduate Scholarships",
+"n": null,
+"areas": [],
+"topics": [
+"muscle-exertion",
+"trials"
 ]
 },
 {
@@ -40126,6 +42778,238 @@
 "areas": [],
 "topics": [
 "vascular"
+]
+},
+{
+"id": "cihr-493891",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=493891&lang=en",
+"title": "Genetic underpinnings of functional disorders and symptoms",
+"population": "ME/CFS",
+"focus": "related",
+"pi": [
+"Wainberg, Michael"
+],
+"org": "Sinai Health System (Toronto)",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2023-09-01",
+"end": "2024-09-01",
+"status": "completed",
+"amount_usd": 73000,
+"kind": "Project Grant - PA: Institute of Musculoskeletal Health and Arthritis: Pain",
+"n": null,
+"areas": [],
+"topics": [
+"genetics"
+]
+},
+{
+"id": "cihr-497313",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=497313&lang=en",
+"title": "Taurine Supplementation as a Novel Therapeutic Approach for Neurocognitive Symptoms in the REcovering From COVID-19 Lingering Symptoms Adaptive Integrative Medicine (RECLAIM) Platform Trial",
+"population": "both",
+"focus": "related",
+"pi": [
+"Richer, Lawrence P"
+],
+"org": "University of Alberta",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2023-11-01",
+"end": "2026-11-01",
+"status": "completed",
+"amount_usd": 2080988,
+"kind": "Operating Grant: Clinical Trials Projects",
+"n": null,
+"areas": [],
+"topics": [
+"neuro",
+"trials"
+]
+},
+{
+"id": "cihr-505166",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=505166&lang=en",
+"title": "Taurine Supplementation as a Novel Therapeutic Approach for Neurocognitive Symptoms in the REcovering From COVID-19 Lingering Symptoms Adaptive Integrative Medicine (RECLAIM) Platform Trial",
+"population": "both",
+"focus": "related",
+"pi": [
+"Richer, Lawrence P"
+],
+"org": "University of Alberta",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2023-11-01",
+"end": "2026-11-01",
+"status": "completed",
+"amount_usd": 520247,
+"kind": "Operating Grant: Clinical Trials Projects - Indirect Costs",
+"n": null,
+"areas": [],
+"topics": [
+"neuro",
+"trials"
+]
+},
+{
+"id": "cihr-496568",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=496568&lang=en",
+"title": "Associated risk factors and genetic variants for incident autoimmune disorders following SARS-CoV-2 infection in adults in Ontario",
+"population": "long COVID",
+"focus": "related",
+"pi": [
+"Grima, Alicia A"
+],
+"org": "University of Toronto",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2023-11-01",
+"end": "2026-11-01",
+"status": "completed",
+"amount_usd": 76650,
+"kind": "Doctoral Research Award: Canada Graduate Scholarships",
+"n": null,
+"areas": [],
+"topics": [
+"immune",
+"genetics"
+]
+},
+{
+"id": "cihr-505879",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=505879&lang=en",
+"title": "Persistent neuropsychiatric and cognitive symptoms and quality of life in elderly patients having recovered from an acute COVID-19 infection",
+"population": "both",
+"focus": "related",
+"pi": [
+"Bernatchez, Andréanne"
+],
+"org": "Université Laval",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2023-12-01",
+"end": "2024-12-01",
+"status": "completed",
+"amount_usd": 12775,
+"kind": "Master's Award: Canada Graduate Scholarships",
+"n": null,
+"areas": [],
+"topics": [
+"neuro",
+"infection",
+"epi"
+]
+},
+{
+"id": "cihr-494302",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=494302&lang=en",
+"title": "Aging, Infection and Mobility (AIM): Using wearable technology to understand the long-term functional impact of COVID-19 in community-living older people",
+"population": "long COVID",
+"focus": "related",
+"pi": [
+"Beauchamp, Marla K"
+],
+"org": "McMaster University",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2023-09-01",
+"end": "2024-09-01",
+"status": "completed",
+"amount_usd": 73000,
+"kind": "Project Grant - PA: Pandemic Preparedness and Health Emergencies Research",
+"n": null,
+"areas": [],
+"topics": [
+"other"
+]
+},
+{
+"id": "cihr-480660",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=480660&lang=en",
+"title": "Setting Priorities and Partnerships for Chronic Cough in Canada",
+"population": "long COVID",
+"focus": "related",
+"pi": [
+"Satia, Imran"
+],
+"org": "McMaster University",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2023-02-01",
+"end": "2024-02-01",
+"status": "completed",
+"amount_usd": 10950,
+"kind": "Planning and Dissemination Grant - Institute Community Support",
+"n": null,
+"areas": [],
+"topics": [
+"trials",
+"epi"
+]
+},
+{
+"id": "cihr-488941",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=488941&lang=en",
+"title": "Pursuing REduction in Fatigue After COVID-19 via Exercise and Rehabilitation (PREFACER). A randomized feasibility trial",
+"population": "long COVID",
+"focus": "related",
+"pi": [
+"Bobos, Pavlos"
+],
+"org": "Western University (Ontario)",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2023-09-01",
+"end": "2024-09-01",
+"status": "completed",
+"amount_usd": 94936,
+"kind": "Project Grant",
+"n": null,
+"areas": [],
+"topics": [
+"muscle-exertion",
+"trials"
+]
+},
+{
+"id": "cihr-506068",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=506068&lang=en",
+"title": "USING A BOARD GAME TO FOSTER MENTAL HEALTH RESILIENCE IN CHILDREN",
+"population": "long COVID",
+"focus": "related",
+"pi": [
+"Galicia-Connolly, Elaine Z"
+],
+"org": "Saint Paul University (Ottawa)",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2023-12-01",
+"end": "2024-12-01",
+"status": "completed",
+"amount_usd": 12775,
+"kind": "Master's Award: Canada Graduate Scholarships",
+"n": null,
+"areas": [],
+"topics": [
+"epi"
 ]
 },
 {
@@ -41304,6 +44188,289 @@
 ]
 },
 {
+"id": "cihr-475843",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=475843&lang=en",
+"title": "COVID-19 Immunologic Antiviral therapy with Omalizumab (CIAO trial) - An Adaptive Phase II Randomized-Controlled Clinical Trial",
+"population": "long COVID",
+"focus": "related",
+"pi": [
+"Le, Michelle"
+],
+"org": "McGill University",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2022-11-01",
+"end": "2025-11-01",
+"status": "completed",
+"amount_usd": 76650,
+"kind": "Doctoral Research Award: Canada Graduate Scholarships",
+"n": null,
+"areas": [],
+"topics": [
+"immune",
+"infection",
+"trials",
+"epi"
+]
+},
+{
+"id": "cihr-473334",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=473334&lang=en",
+"title": "Traditional, Complementary, and Integrative Medicine for patients with COVID-19: Living network meta-analysis and Rapid Recommendations",
+"population": "long COVID",
+"focus": "related",
+"pi": [
+"Zhang, Yuqing"
+],
+"org": "McMaster University",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2022-09-01",
+"end": "2023-09-01",
+"status": "completed",
+"amount_usd": 73000,
+"kind": "Project Grant - PA: Pandemic Preparedness and Health Emergencies Research",
+"n": null,
+"areas": [],
+"topics": [
+"vascular"
+]
+},
+{
+"id": "cihr-474485",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=474485&lang=en",
+"title": "COVID-19 Immunologic Antiviral therapy with Omalizumab (CIAO trial) - An Adaptive Phase II Randomized-Controlled Clinical Trial",
+"population": "long COVID",
+"focus": "related",
+"pi": [
+"Le, Michelle"
+],
+"org": "McGill University",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2022-11-01",
+"end": "2025-11-01",
+"status": "completed",
+"amount_usd": 109500,
+"kind": "Doctoral: Vanier Canada Graduate Scholarships",
+"n": null,
+"areas": [],
+"topics": [
+"immune",
+"infection",
+"trials",
+"epi"
+]
+},
+{
+"id": "cihr-467301",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=467301&lang=en",
+"title": "Canadian ADAptive Platform Trial of COVID-19 Therapeutics in Community Settings (Can-ADAPT COVID)",
+"population": "long COVID",
+"focus": "related",
+"pi": [
+"Pinto, Andrew D"
+],
+"org": "Unity Health Toronto",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2022-05-01",
+"end": "2023-05-01",
+"status": "completed",
+"amount_usd": 912500,
+"kind": "Operating Grant: COVID-19 Outpatient Therapeutic Studies - Indirect Costs",
+"n": null,
+"areas": [],
+"topics": [
+"trials"
+]
+},
+{
+"id": "cihr-468884",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=468884&lang=en",
+"title": "Optimizing pandemic preparedness through ongoing assessment of public attitudes, intentions and behaviours in relation to COVID-19 prevention measures and their impacts: Increasing the capacity of the iCARE Study",
+"population": "long COVID",
+"focus": "related",
+"pi": [
+"Lavoie, Kim"
+],
+"org": "Université du Québec à Montréal",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2022-05-01",
+"end": "2023-05-01",
+"status": "completed",
+"amount_usd": null,
+"kind": "Catalyst Grant: CPHO Report - General Pool",
+"n": null,
+"areas": [],
+"topics": [
+"epi"
+]
+},
+{
+"id": "cihr-486241",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=486241&lang=en",
+"title": "Sex differences of COVID-19 serological response of individuals infected, vaccinated, or those with hybrid immunity in Ontario.",
+"population": "long COVID",
+"focus": "related",
+"pi": [
+"Rusu, Rada"
+],
+"org": "McGill University",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2022-12-01",
+"end": "2023-12-01",
+"status": "completed",
+"amount_usd": 12775,
+"kind": "Master's Award: Canada Graduate Scholarships",
+"n": null,
+"areas": [],
+"topics": [
+"immune",
+"endocrine"
+]
+},
+{
+"id": "cihr-466042",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=466042&lang=en",
+"title": "Canadian ADAptive Platform Trial of COVID-19 Therapeutics in Community Settings (Can-ADAPT COVID)",
+"population": "long COVID",
+"focus": "related",
+"pi": [
+"Pinto, Andrew D"
+],
+"org": "Unity Health Toronto",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2022-05-01",
+"end": "2023-05-01",
+"status": "completed",
+"amount_usd": 3650000,
+"kind": "Operating Grant: COVID-19 Outpatient Therapeutic Studies",
+"n": null,
+"areas": [],
+"topics": [
+"trials"
+]
+},
+{
+"id": "cihr-485995",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=485995&lang=en",
+"title": "Support Group to Expand Toolbox for Patients with Postural Orthostatic Tachycardia Syndrome",
+"population": "long COVID",
+"focus": "related",
+"pi": [
+"Leach Jarrett, Madeleine G"
+],
+"org": "Laurentian University of Sudbury",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2022-12-01",
+"end": "2023-12-01",
+"status": "completed",
+"amount_usd": 12775,
+"kind": "Master's Award: Canada Graduate Scholarships",
+"n": null,
+"areas": [],
+"topics": [
+"vascular"
+]
+},
+{
+"id": "cihr-468210",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=468210&lang=en",
+"title": "Optimizing Parental Self-Efficacy in the Neonatal Intensive Care Unit: Implications on Child Care and Parenting Quality",
+"population": "long COVID",
+"focus": "related",
+"pi": [
+"Montreuil, Tina C"
+],
+"org": "Research Institute of the McGill University Health Centre",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2022-07-01",
+"end": "2023-07-01",
+"status": "completed",
+"amount_usd": 7300,
+"kind": "Planning and Dissemination Grant - Institute Community Support",
+"n": null,
+"areas": [],
+"topics": [
+"epi"
+]
+},
+{
+"id": "cihr-486452",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=486452&lang=en",
+"title": "Exploring the Impacts of Telemedicine on Access to Sexual and Reproductive Health Care for 2SLGBTQ+ and Rural Populations",
+"population": "long COVID",
+"focus": "related",
+"pi": [
+"Henderson, Rebecca G"
+],
+"org": "Dalhousie University (Nova Scotia)",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2022-12-01",
+"end": "2023-12-01",
+"status": "completed",
+"amount_usd": 12775,
+"kind": "Master's Award: Canada Graduate Scholarships",
+"n": null,
+"areas": [],
+"topics": [
+"epi"
+]
+},
+{
+"id": "cihr-462038",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=462038&lang=en",
+"title": "Symptom-TArgeted Rehabilitation for Cognitive Complaints after COVID (STAR-C3)",
+"population": "long COVID",
+"focus": "related",
+"pi": [
+"Turkstra, Lyn"
+],
+"org": "McMaster University",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2022-03-01",
+"end": "2023-04-01",
+"status": "completed",
+"amount_usd": 175214,
+"kind": "Project Grant",
+"n": null,
+"areas": [],
+"topics": [
+"neuro",
+"trials"
+]
+},
+{
 "id": "nih-IK6CX002369",
 "source": "NIH",
 "source_label": "NIH RePORTER",
@@ -41828,6 +44995,766 @@
 ]
 },
 {
+"id": "cihr-466966",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=466966&lang=en",
+"title": "The Effect of Energy Spectrum on Light Therapy",
+"population": "ME/CFS",
+"focus": "related",
+"pi": [
+"Islam, Ali O"
+],
+"org": "University of Alberta",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2021-12-01",
+"end": "2022-12-01",
+"status": "completed",
+"amount_usd": 12775,
+"kind": "Master's Award: Canada Graduate Scholarships",
+"n": null,
+"areas": [],
+"topics": [
+"trials"
+]
+},
+{
+"id": "cihr-448848",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=448848&lang=en",
+"title": "Parental presence restrictions due to COVID-19: Examining impact and priorities for neonatal care (The PRESENCE Study)",
+"population": "long COVID",
+"focus": "related",
+"pi": [
+"Campbell-Yeo, Marsha L"
+],
+"org": "Dalhousie University (Nova Scotia)",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2021-04-01",
+"end": "2022-04-01",
+"status": "completed",
+"amount_usd": 140963,
+"kind": "Op Grant: Emerging COVID-19 Research Gaps & Priorities - Post COVID-19 condition",
+"n": null,
+"areas": [],
+"topics": [
+"epi"
+]
+},
+{
+"id": "cihr-466910",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=466910&lang=en",
+"title": "Examining the role of microglia in long-term neuropathology following acute SARS-CoV-2 infection using neural organoids",
+"population": "long COVID",
+"focus": "related",
+"pi": [
+"McNairn, Jake T"
+],
+"org": "University of Toronto",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2021-12-01",
+"end": "2022-12-01",
+"status": "completed",
+"amount_usd": 12775,
+"kind": "Master's Award: Canada Graduate Scholarships",
+"n": null,
+"areas": [],
+"topics": [
+"neuro"
+]
+},
+{
+"id": "cihr-459219",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=459219&lang=en",
+"title": "The effects of school and childcare participation during the COVID-19 pandemic on young children and their parents: the TARGet Kids! Study of Children and Families",
+"population": "long COVID",
+"focus": "related",
+"pi": [
+"Birken, Catherine S"
+],
+"org": "Hospital for Sick Children (Toronto)",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2021-09-01",
+"end": "2022-09-01",
+"status": "completed",
+"amount_usd": 364858,
+"kind": "Op. Gr: Emer. COVID Res. Gaps/Prior- Dif. Impacts on Hist. Excl/Underserved Pops",
+"n": null,
+"areas": [],
+"topics": [
+"epi"
+]
+},
+{
+"id": "cihr-466499",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=466499&lang=en",
+"title": "Errant epitopes from arginine methylated SARS-CoV-2 proteins predisposing to autoimmune diseases",
+"population": "long COVID",
+"focus": "related",
+"pi": [
+"Khan, Sarah M"
+],
+"org": "McGill University",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2021-12-01",
+"end": "2022-12-01",
+"status": "completed",
+"amount_usd": 12775,
+"kind": "Master's Award: Canada Graduate Scholarships",
+"n": null,
+"areas": [],
+"topics": [
+"immune"
+]
+},
+{
+"id": "cihr-460275",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=460275&lang=en",
+"title": "Leaving the Hospital with Nowhere to Go: The Impact of Rapid Hospital Transitions During COVID",
+"population": "long COVID",
+"focus": "related",
+"pi": [
+"Kuluski, Kerry H"
+],
+"org": "Trillium Health Partners (Mississauga, ON)",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2021-11-01",
+"end": "2023-05-01",
+"status": "completed",
+"amount_usd": 170820,
+"kind": "O. Gr.: Addr. the Health Impacts of COVID-19 - Imp. of def/disp care on health",
+"n": null,
+"areas": [],
+"topics": [
+"epi"
+]
+},
+{
+"id": "cihr-462710",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=462710&lang=en",
+"title": "The impact of COVID-19 on the care and outcomes of off-reserve Indigenous older adults living in long-term care and receiving home care",
+"population": "long COVID",
+"focus": "related",
+"pi": [
+"Funnell, Sarah"
+],
+"org": "University of Ottawa",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2021-12-01",
+"end": "2022-12-01",
+"status": "completed",
+"amount_usd": 182490,
+"kind": "Operating Grant - Indigenous COVID-19 Rapid Research FO - Research",
+"n": null,
+"areas": [],
+"topics": [
+"epi"
+]
+},
+{
+"id": "cihr-466651",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=466651&lang=en",
+"title": "Investigation of the long-term clinical disease, pathogenesis, and immune responses following SARS-CoV-2 infection in Syrian hamsters and humans.",
+"population": "long COVID",
+"focus": "related",
+"pi": [
+"Jansen, Ethan"
+],
+"org": "University of Saskatchewan",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2021-12-01",
+"end": "2022-12-01",
+"status": "completed",
+"amount_usd": 12775,
+"kind": "Master's Award: Canada Graduate Scholarships",
+"n": null,
+"areas": [],
+"topics": [
+"immune",
+"epi"
+]
+},
+{
+"id": "cihr-460283",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=460283&lang=en",
+"title": "The COVID-R3ICSAB Study:  COVID-19 Wide Impact: Research on the Risk and Resilience In Special Communities of Chinese, South Asian and Black Populations",
+"population": "long COVID",
+"focus": "related",
+"pi": [
+"Liu, Peter P"
+],
+"org": "Ottawa Heart Institute Research Corporation (Ontario)",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2021-11-01",
+"end": "2023-11-01",
+"status": "completed",
+"amount_usd": 363693,
+"kind": "Op. Gr.: Addr. Wider Impacts of COVID-Imp. on social/econ/pop iss/pbl outcomes",
+"n": null,
+"areas": [],
+"topics": [
+"other"
+]
+},
+{
+"id": "cihr-448855",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=448855&lang=en",
+"title": "Identifying host molecular endotypes associated with diverse COVID-19 outcomes and new variants in a longitudinal multiomics cohort study of 1000 patients",
+"population": "long COVID",
+"focus": "related",
+"pi": [
+"Tebbutt, Scott J"
+],
+"org": "University of British Columbia",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2021-04-01",
+"end": "2022-04-01",
+"status": "completed",
+"amount_usd": 336107,
+"kind": "Op Grant: Emerging COVID-19 Research Gaps & Priorities - Post COVID-19 condition",
+"n": null,
+"areas": [],
+"topics": [
+"omics",
+"genetics",
+"epi"
+]
+},
+{
+"id": "cihr-448880",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=448880&lang=en",
+"title": "COVID19 persistent symptomatology: an investigation of the metabolomic and proteomic underpinning",
+"population": "long COVID",
+"focus": "related",
+"pi": [
+"Corbeil, Jacques"
+],
+"org": "Université Laval",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2021-04-01",
+"end": "2022-04-01",
+"status": "completed",
+"amount_usd": 287620,
+"kind": "Op Grant: Emerging COVID-19 Research Gaps & Priorities - Post COVID-19 condition",
+"n": null,
+"areas": [],
+"topics": [
+"infection",
+"omics"
+]
+},
+{
+"id": "cihr-448928",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=448928&lang=en",
+"title": "Global Impact of COVID-19 in Cystic Fibrosis: An International Collaboration",
+"population": "long COVID",
+"focus": "related",
+"pi": [
+"Stephenson, Anne"
+],
+"org": "Unity Health Toronto",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2021-04-01",
+"end": "2022-04-01",
+"status": "completed",
+"amount_usd": 266450,
+"kind": "Op Grant: Emerging COVID-19 Research Gaps & Priorities - Post COVID-19 condition",
+"n": null,
+"areas": [],
+"topics": [
+"other"
+]
+},
+{
+"id": "cihr-448867",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=448867&lang=en",
+"title": "The RECLAIM (REcovering from COVID-19 Lingering symptoms Adaptive Integrative Medicine) trial",
+"population": "long COVID",
+"focus": "related",
+"pi": [
+"Cheung, Angela M"
+],
+"org": "University Health Network (Toronto)",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2021-04-01",
+"end": "2022-04-01",
+"status": "completed",
+"amount_usd": 730000,
+"kind": "Op Grant: Emerging COVID-19 Research Gaps & Priorities - Post COVID-19 condition",
+"n": null,
+"areas": [],
+"topics": [
+"trials"
+]
+},
+{
+"id": "cihr-448931",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=448931&lang=en",
+"title": "Post-Acute Complications of COVID-19: An International Cohort Study (PACS)  Note that in a previous iteration, this proposal was titled PACMAN as indicated in some of the Letters of Support",
+"population": "long COVID",
+"focus": "related",
+"pi": [
+"Leong, Darryl"
+],
+"org": "McMaster University",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2021-04-01",
+"end": "2022-04-01",
+"status": "completed",
+"amount_usd": 361849,
+"kind": "Op Grant: Emerging COVID-19 Research Gaps & Priorities - Post COVID-19 condition",
+"n": null,
+"areas": [],
+"topics": [
+"epi"
+]
+},
+{
+"id": "cihr-448857",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=448857&lang=en",
+"title": "An intervention to teach self-management skills for persisting symptoms of COVID-19: Minimizing impact of symptoms on everyday functioning and on healthcare usage/utilization - A randomized controlled trial",
+"population": "long COVID",
+"focus": "related",
+"pi": [
+"Green, Robin E"
+],
+"org": "University Health Network (Toronto)",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2021-04-01",
+"end": "2022-04-01",
+"status": "completed",
+"amount_usd": 241310,
+"kind": "Op Grant: Emerging COVID-19 Research Gaps & Priorities - Post COVID-19 condition",
+"n": null,
+"areas": [],
+"topics": [
+"trials",
+"epi"
+]
+},
+{
+"id": "cihr-448924",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=448924&lang=en",
+"title": "Improving the recognition and care of patients with long-term health complications of COVID-19",
+"population": "long COVID",
+"focus": "related",
+"pi": [
+"Quinn, Kieran L"
+],
+"org": "Sinai Health System (Toronto)",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2021-04-01",
+"end": "2022-04-01",
+"status": "completed",
+"amount_usd": 364999,
+"kind": "Op Grant: Emerging COVID-19 Research Gaps & Priorities - Post COVID-19 condition",
+"n": null,
+"areas": [],
+"topics": [
+"neuro",
+"epi"
+]
+},
+{
+"id": "cihr-448893",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=448893&lang=en",
+"title": "Investigating Neuropsychological Consequences of COVID-19 on Adults, and Examination of Associated Risk and Resilience Factors",
+"population": "long COVID",
+"focus": "related",
+"pi": [
+"Paterson, Theone"
+],
+"org": "University of Victoria (British Columbia)",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2021-04-01",
+"end": "2022-04-01",
+"status": "completed",
+"amount_usd": 145358,
+"kind": "Op Grant: Emerging COVID-19 Research Gaps & Priorities - Post COVID-19 condition",
+"n": null,
+"areas": [],
+"topics": [
+"neuro"
+]
+},
+{
+"id": "cihr-448875",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=448875&lang=en",
+"title": "The McMaster Multi-Regional Hospital Coronavirus Registry (COREG): Extending a Rapid Research Platform to Inform the Clinical Management of COVID-19 'long haulers'",
+"population": "long COVID",
+"focus": "related",
+"pi": [
+"Beauchamp, Marla K"
+],
+"org": "McMaster University",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2021-04-01",
+"end": "2022-04-01",
+"status": "completed",
+"amount_usd": 363394,
+"kind": "Op Grant: Emerging COVID-19 Research Gaps & Priorities - Post COVID-19 condition",
+"n": null,
+"areas": [],
+"topics": [
+"infection",
+"epi"
+]
+},
+{
+"id": "cihr-450639",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=450639&lang=en",
+"title": "The economic and social impact of eating disorders in youth across Canada: how much did the COVID-19 pandemic cost youth, families, and the system?",
+"population": "long COVID",
+"focus": "related",
+"pi": [
+"Obeid, Nicole"
+],
+"org": "Children's Hospital of Eastern Ontario Research Institute Inc",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2021-07-01",
+"end": "2022-07-01",
+"status": "completed",
+"amount_usd": 109474,
+"kind": "Op Gr:Understanding/mitigating impacts of COVID-19 on children, youth & families",
+"n": null,
+"areas": [],
+"topics": [
+"omics"
+]
+},
+{
+"id": "cihr-451791",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=451791&lang=en",
+"title": "Examining the impacts of the downtown Sherbrooke (QC) revitalization project on health equity among young adults: a mixed-methods evaluation",
+"population": "long COVID",
+"focus": "related",
+"pi": [
+"Shareck, Martine"
+],
+"org": "Université de Sherbrooke",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2021-09-01",
+"end": "2025-09-01",
+"status": "completed",
+"amount_usd": 368577,
+"kind": "Project Grant",
+"n": null,
+"areas": [],
+"topics": [
+"trials"
+]
+},
+{
+"id": "cihr-450583",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=450583&lang=en",
+"title": "Impact of COVID-19 and related stressors on children's weight and mental health outcomes",
+"population": "long COVID",
+"focus": "related",
+"pi": [
+"Haines, Jess"
+],
+"org": "University of Guelph",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2021-07-01",
+"end": "2022-07-01",
+"status": "completed",
+"amount_usd": 73365,
+"kind": "Op Gr:Understanding/mitigating impacts of COVID-19 on children, youth & families",
+"n": null,
+"areas": [],
+"topics": [
+"epi"
+]
+},
+{
+"id": "cihr-450608",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=450608&lang=en",
+"title": "How is COVID-19 continuing to impact children with and without Attention-Deficit/Hyperactivity Disorder?",
+"population": "long COVID",
+"focus": "related",
+"pi": [
+"Jiang, Yuanyuan"
+],
+"org": "Saint Paul University (Ottawa)",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2021-07-01",
+"end": "2022-07-01",
+"status": "completed",
+"amount_usd": 109418,
+"kind": "Op Gr:Understanding/mitigating impacts of COVID-19 on children, youth & families",
+"n": null,
+"areas": [],
+"topics": [
+"epi"
+]
+},
+{
+"id": "cihr-449216",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=449216&lang=en",
+"title": "AI-driven solutions to mitigate the social and psychological impact of COVID-19",
+"population": "long COVID",
+"focus": "related",
+"pi": [
+"Raza, Shaina"
+],
+"org": "Public Health Ontario (Toronto)",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2021-02-01",
+"end": "2023-02-01",
+"status": "completed",
+"amount_usd": 79205,
+"kind": "Health System Impact Fellowships - Post-Doctoral in Equitable AI/PPH 2-year",
+"n": null,
+"areas": [],
+"topics": [
+"other"
+]
+},
+{
+"id": "cihr-448983",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=448983&lang=en",
+"title": "A Prospective Pan-Canadian Cohort Assessment of SARS-CoV-2 Variant of Concern Disease Severity and Association with Long-Term Symptoms in Children",
+"population": "long COVID",
+"focus": "related",
+"pi": [
+"Freedman, Stephen B"
+],
+"org": "University of Calgary",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2021-04-01",
+"end": "2022-04-01",
+"status": "completed",
+"amount_usd": null,
+"kind": "Operating Grant: Emerging COVID-19 Research Gaps and Priorities - Variants",
+"n": null,
+"areas": [],
+"topics": [
+"genetics",
+"epi"
+]
+},
+{
+"id": "cihr-444876",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=444876&lang=en",
+"title": "Improving Public Health Finance Capacity and Spending Data Monitoring and Reporting to Inform the COVID Recovery Period: An International, Sequential Mixed-Methods Investigation",
+"population": "long COVID",
+"focus": "related",
+"pi": [
+"Ammi, Mehdi"
+],
+"org": "Carleton University (Ottawa)",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2021-04-01",
+"end": "2024-04-01",
+"status": "completed",
+"amount_usd": 340654,
+"kind": "Project Grant",
+"n": null,
+"areas": [],
+"topics": [
+"epi"
+]
+},
+{
+"id": "cihr-448812",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=448812&lang=en",
+"title": "An Indigenous-led response to COVID-19 that supports communities responding to challenges such as vaccine hesitancy, unique variants and any long-term impacts of Covid into the future.",
+"population": "long COVID",
+"focus": "related",
+"pi": [
+"Mclachlan, Stephane M"
+],
+"org": "University of Manitoba",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2021-04-01",
+"end": "2022-04-01",
+"status": "completed",
+"amount_usd": 292672,
+"kind": "Op Gr: Emerging COVID-19 Research Gaps & Priorities - Indigenous Health Research",
+"n": null,
+"areas": [],
+"topics": [
+"genetics"
+]
+},
+{
+"id": "cihr-459210",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=459210&lang=en",
+"title": "CANCOV2.0: 2-year follow up of the Canadian COVID-19 Prospective Cohort Study",
+"population": "long COVID",
+"focus": "related",
+"pi": [
+"Herridge, Margaret S"
+],
+"org": "University Health Network (Toronto)",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2021-09-01",
+"end": "2022-09-01",
+"status": "completed",
+"amount_usd": 365000,
+"kind": "Op. Gr: Emer. COVID Res. Gaps/Prior- Dif. Impacts on Hist. Excl/Underserved Pops",
+"n": null,
+"areas": [],
+"topics": [
+"epi"
+]
+},
+{
+"id": "cihr-458917",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=458917&lang=en",
+"title": "Longitudinal Cohort Analysis of Antibody Responses Neutralization Efficiency and Long-Term Immunity  in natural SARS-CoV-2 infection, Vaccination and its robustness against emerging Variants of Concern.",
+"population": "long COVID",
+"focus": "related",
+"pi": [
+"Galipeau, Yannick"
+],
+"org": "University of Ottawa",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2021-11-01",
+"end": "2024-11-01",
+"status": "completed",
+"amount_usd": 76650,
+"kind": "Doctoral Research Award: Canada Graduate Scholarships",
+"n": null,
+"areas": [],
+"topics": [
+"immune",
+"genetics",
+"epi"
+]
+},
+{
+"id": "cihr-460381",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=460381&lang=en",
+"title": "COVID time capsule: Learning from the experiences of children with disabilities and their parents throughout the COVID pandemic to improve supports and services in healthcare and education",
+"population": "long COVID",
+"focus": "related",
+"pi": [
+"Kraus De Camargo, Olaf A"
+],
+"org": "McMaster University",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2021-11-01",
+"end": "2023-11-01",
+"status": "completed",
+"amount_usd": 294756,
+"kind": "Op. Gr.: Addr. the Wider Impacts of COVID- Exacerb. of disp. among marg. pops.",
+"n": null,
+"areas": [],
+"topics": [
+"epi"
+]
+},
+{
+"id": "cihr-450649",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=450649&lang=en",
+"title": "COVID time capsule: Learning from Covid-related experiences of children with disabilities and their parents to improve health supports and services",
+"population": "long COVID",
+"focus": "related",
+"pi": [
+"Kraus De Camargo, Olaf A"
+],
+"org": "McMaster University",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2021-07-01",
+"end": "2022-07-01",
+"status": "completed",
+"amount_usd": 109437,
+"kind": "Op Gr:Understanding/mitigating impacts of COVID-19 on children, youth & families",
+"n": null,
+"areas": [],
+"topics": [
+"epi"
+]
+},
+{
 "id": "nih-R21ES032114",
 "source": "NIH",
 "source_label": "NIH RePORTER",
@@ -42283,6 +46210,57 @@
 ]
 },
 {
+"id": "cihr-449453",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=449453&lang=en",
+"title": "Functional Somatic Disorders: Understanding the patients experience of patient-physician communication",
+"population": "both",
+"focus": "related",
+"pi": [
+"Arcand, Jaylynn"
+],
+"org": "University of Calgary",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2020-12-01",
+"end": "2021-12-01",
+"status": "completed",
+"amount_usd": 12775,
+"kind": "Master's Award: Canada Graduate Scholarships",
+"n": null,
+"areas": [],
+"topics": [
+"infection"
+]
+},
+{
+"id": "cihr-432365",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=432365&lang=en",
+"title": "Mitigating suicide risk during the COVID-19 pandemic via telehealth using an intensive single session of \"Brief Skills for Safer Living\"",
+"population": "long COVID",
+"focus": "related",
+"pi": [
+"Rizvi, Sakina"
+],
+"org": "Unity Health Toronto",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2020-07-01",
+"end": "2021-07-01",
+"status": "completed",
+"amount_usd": 140890,
+"kind": "Op Gr: COVID-19 MH/SU - Developing Innovative Adaptations of Services/Delivery",
+"n": null,
+"areas": [],
+"topics": [
+"trials",
+"epi"
+]
+},
+{
 "id": "nih-R21HD097763",
 "source": "NIH",
 "source_label": "NIH RePORTER",
@@ -42366,6 +46344,32 @@
 "areas": [],
 "topics": [
 "other"
+]
+},
+{
+"id": "cihr-405981",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=405981&lang=en",
+"title": "Interdisciplinary Canadian Collaborative ME Research Network",
+"population": "ME/CFS",
+"focus": "related",
+"pi": [
+"Moreau, Alain"
+],
+"org": "Centre hospitalier universitaire Sainte-Justine (Montréal, Québec)",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2019-05-01",
+"end": "2024-05-01",
+"status": "completed",
+"amount_usd": 1022000,
+"kind": "ME Network Catalyst Grant",
+"n": null,
+"areas": [],
+"topics": [
+"omics",
+"neuro"
 ]
 },
 {
@@ -42787,6 +46791,57 @@
 "topics": [
 "neuro",
 "epi"
+]
+},
+{
+"id": "cihr-367898",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=367898&lang=en",
+"title": "Attitudes toward Medicines’ Etiologies and Daily Stress",
+"population": "ME/CFS",
+"focus": "related",
+"pi": [
+"Sadowski, Adam S"
+],
+"org": "University of Waterloo (Ontario)",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2016-12-01",
+"end": "2017-12-01",
+"status": "completed",
+"amount_usd": 12775,
+"kind": "Master's Award: Canada Graduate Scholarships",
+"n": null,
+"areas": [],
+"topics": [
+"neuro",
+"trials"
+]
+},
+{
+"id": "cihr-356263",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=356263&lang=en",
+"title": "Studies of the functional role of pancreatic stellate cells (PaSCs) during islet differentiation, regeneration and diabetes.",
+"population": "long COVID",
+"focus": "related",
+"pi": [
+"Wang, Rennian"
+],
+"org": "Western University (Ontario)",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2016-10-01",
+"end": "2021-10-01",
+"status": "completed",
+"amount_usd": 519358,
+"kind": "Project Grant",
+"n": null,
+"areas": [],
+"topics": [
+"immune"
 ]
 },
 {
@@ -43424,6 +47479,32 @@
 ]
 },
 {
+"id": "cihr-252331",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=252331&lang=en",
+"title": "Structure function analysis of the dual protein kinase-RNase signaling proteins and the eIF2a protein kinases",
+"population": "ME/CFS",
+"focus": "related",
+"pi": [
+"Sicheri, Frank"
+],
+"org": "Sinai Health System (Toronto)",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2012-03-01",
+"end": "2017-03-01",
+"status": "completed",
+"amount_usd": 819621,
+"kind": "Operating Grant",
+"n": null,
+"areas": [],
+"topics": [
+"infection",
+"immune"
+]
+},
+{
 "id": "nih-R01AI084898",
 "source": "NIH",
 "source_label": "NIH RePORTER",
@@ -43459,6 +47540,31 @@
 2022,
 2023,
 2024
+]
+},
+{
+"id": "cihr-213488",
+"source": "CIHR",
+"source_label": "CIHR Funding Decisions",
+"url": "https://webapps.cihr-irsc.gc.ca/decisions/p/project_details.html?applId=213488&lang=en",
+"title": "Characterization of a glycoprotein entry complex from a novel human retrovirus",
+"population": "ME/CFS",
+"focus": "related",
+"pi": [
+"Lee, Jeffrey E"
+],
+"org": "University of Toronto",
+"country": "Canada",
+"funder": "Canadian Institutes of Health Research",
+"start": "2010-09-01",
+"end": "2015-09-01",
+"status": "completed",
+"amount_usd": 219000,
+"kind": "CIHR New Investigator",
+"n": null,
+"areas": [],
+"topics": [
+"infection"
 ]
 },
 {
