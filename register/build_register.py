@@ -181,14 +181,27 @@ if os.path.exists(p):
 # --- registered trials (site-src/data/trials.json), so the register covers every country with a trial
 p = os.path.join(SRC, "data", "trials.json")
 if os.path.exists(p):
+    lp = os.path.join(SRC, "data", "trials-live.json")  # atlas-v2/trials/scripts/enrich_live.py: live registry status, sponsor, investigators, sites
+    LIVE = json.load(open(lp, encoding="utf8"))["trials"] if os.path.exists(lp) else {}
+    RUN = ("RECRUITING", "NOT_YET_RECRUITING", "ACTIVE_NOT_RECRUITING", "ENROLLING_BY_INVITATION", "SUSPENDED", "Ongoing")
     for t in json.load(open(p, encoding="utf8"))["trials"]:
         if t.get("result") == "withdrawn": continue
-        end = d10(t.get("completion") or t.get("primary_completion"))
-        st = "active" if t.get("result") == "pending" else "completed"
+        lv = LIVE.get(t["id"], {})
+        end = d10(lv.get("completion") or t.get("completion") or t.get("primary_completion"))
+        # stage: running (registry says ongoing), awaiting (finished, no results yet), reported (result known)
+        if t.get("result") != "pending": stage = "reported"
+        elif lv.get("registry_status"): stage = "running" if lv["registry_status"] in RUN else "awaiting"
+        else: stage = "running" if not end or end >= TODAY else "awaiting"
+        sites = lv.get("sites") or []
+        cities = list(dict.fromkeys(", ".join(filter(None, [x.get("city"), x.get("country")])) for x in sites if x.get("city")))
         rows.append({"id": "trial-" + t["id"], "source": "Trials", "source_label": "Trial registries", "url": t.get("url") or (f"https://clinicaltrials.gov/study/{t['id']}" if t["id"].startswith("NCT") else ""),
-            "title": t.get("title") or t.get("intervention"), "population": t["population"], "focus": "primary", "pi": [], "org": t.get("sponsor") or "",
-            "country": "; ".join(t["country"]) if isinstance(t.get("country"), list) else (t.get("country") or ""), "funder": "", "start": d10(t.get("start")), "end": end, "status": st, "amount_usd": None,
-            "kind": "Trial: " + (t.get("design") or ""), "n": t.get("n_actual") or t.get("n_planned"), "areas": [], "topics": sorted(set(["trials"] + [k for k in topics(t.get("title") or "") if k != "other"]))})
+            "title": t.get("title") or t.get("intervention"), "population": t["population"], "focus": "primary", "pi": lv.get("investigators") or [], "org": lv.get("sponsor") or t.get("sponsor") or "",
+            "country": ("; ".join(t["country"]) if isinstance(t.get("country"), list) else (t.get("country") or "")) or "; ".join(dict.fromkeys(x["country"] for x in sites if x.get("country"))), "funder": ", ".join((lv.get("funders") or lv.get("collaborators") or [])[:3]),
+            "start": d10(t.get("start")), "end": end, "status": "active" if stage == "running" else "completed", "amount_usd": None,
+            "kind": "Trial: " + (t.get("design") or ""), "n": t.get("n_actual") or t.get("n_planned"), "areas": [], "topics": sorted(set(["trials"] + [k for k in topics(t.get("title") or "") if k != "other"])),
+            "intervention": t.get("intervention") or "", "iclass": t.get("intervention_class") or "", "acronym": t.get("acronym") or "", "phase": t.get("phase") or "",
+            "stage": stage, "registry_status": lv.get("registry_status") or t.get("status") or "", "last_update": lv.get("last_update") or "",
+            "n_sites": len(sites), "cities": cities[:6], "result_note": t.get("result_summary") if stage == "awaiting" else ""})
 CN = {"United States": "USA", "United States Of America": "USA", "US": "USA", "United Kingdom": "UK", "England": "UK", "Scotland": "UK", "Wales": "UK", "Great Britain": "UK", "Korea, Republic of": "South Korea", "Hong Kong": "China (Hong Kong)"}
 for r in rows:
     r["country"] = "; ".join(dict.fromkeys(CN.get(c.strip(), c.strip()) for c in (r["country"] or "").split(";") if c.strip()))

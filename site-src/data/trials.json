@@ -1,7 +1,7 @@
 {
  "meta": {
   "generated": "2026-10-29",
-  "count": 1028,
+  "count": 1034,
   "result_values": [
    "positive",
    "null",
@@ -4527,7 +4527,8 @@
   {
    "id": "PMID:19891804",
    "all_ids": [
-    "PMID:19891804"
+    "PMID:19891804",
+    "ISRCTN59388875"
    ],
    "title": "Family-focused cognitive behaviour therapy versus psycho-education for chronic fatigue syndrome in 11- to 18-year-olds: a randomized controlled treatment trial.",
    "acronym": null,
@@ -4635,7 +4636,8 @@
   {
    "id": "PMID:19912315",
    "all_ids": [
-    "PMID:19912315"
+    "PMID:19912315",
+    "ISRCTN89726128"
    ],
    "title": "Home orthostatic training in chronic fatigue syndrome--a randomized, placebo-controlled feasibility study.",
    "acronym": null,
@@ -4744,7 +4746,8 @@
   {
    "id": "PMID:20418251",
    "all_ids": [
-    "PMID:20418251"
+    "PMID:20418251",
+    "ISRCTN74156610"
    ],
    "title": "Nurse led, home based self help treatment for patients in primary care with chronic fatigue syndrome: randomised controlled trial.",
    "acronym": null,
@@ -11379,28 +11382,28 @@
    ],
    "title": "ReMEdi - Randomised controlled trial of the safety and efficacy of PHOE-01 in ME/CFS with digital monitoring",
    "acronym": "ReMEdi",
-   "intervention": "PHOE-01 (oral tablet licensed for Lambert-Eaton myasthenic syndrome; identity withheld)",
+   "intervention": "PHOE-01 (almost certainly amifampridine)",
    "intervention_raw": [
     "PHOE-01, an oral tablet licensed for symptomatic treatment of Lambert-Eaton myasthenic syndrome (HRA research summary). Full details deferred by HRA for commercial sensitivity."
    ],
-   "intervention_class": "other",
+   "intervention_class": "autonomic/vasoactive",
    "population": "ME/CFS",
    "severity_included": "not stated",
-   "design": "RCT, placebo-controlled (registry says parallel; recruitment material describes a crossover)",
+   "design": "crossover",
    "blinded": true,
    "masking": "Blinded",
    "phase": "Phase II",
    "n_planned": 25,
    "n_actual": 25,
    "start": "2025-02-05",
-   "primary_completion": "2026-04-30",
-   "completion": "2026-04-30",
-   "status": "Recruitment closed Jan 2026",
+   "primary_completion": "2026-03-22",
+   "completion": "2026-03-22",
+   "status": "Completed Mar 2026; no results published",
    "why_stopped": null,
    "country": [
     "United Kingdom"
    ],
-   "sponsor": "Lindus Health (for Alfred E. Tiefenbacher)",
+   "sponsor": "Alfred E. Tiefenbacher GmbH (run by Lindus Health; CI Beata Godlewska, Oxford)",
    "primary_outcome": "",
    "result": "pending",
    "result_summary": "No results posted. Outcomes still withheld on the registry as of Nov 2026, past the Jan 2026 deferral date.",
@@ -11409,12 +11412,16 @@
    "pmid": null,
    "publications": [],
    "has_results_posted": false,
-   "model_steps": [],
+   "model_steps": [
+    2,
+    3
+   ],
    "verified": false,
    "registry": "ISRCTN",
    "url": "https://www.isrctn.com/ISRCTN74088209",
    "registry_design": "Interventional / Randomised, blinded, placebo-controlled",
-   "preprint_only": false
+   "preprint_only": false,
+   "design_note": "2 weeks on drug and 2 on placebo, 9 weeks in total (Lindus Health, Nov 2026)"
   },
   {
    "id": "KCT0000508",
@@ -18249,7 +18256,8 @@
   {
    "id": "PMID:17525791",
    "all_ids": [
-    "PMID:17525791"
+    "PMID:17525791",
+    "ISRCTN77271661"
    ],
    "title": "The effect of acclydine in chronic fatigue syndrome: a randomized controlled trial.",
    "acronym": null,
@@ -18514,7 +18522,8 @@
   {
    "id": "PMID:21092175",
    "all_ids": [
-    "PMID:21092175"
+    "PMID:21092175",
+    "ISRCTN03090939"
    ],
    "title": "High cocoa polyphenol rich chocolate may reduce the burden of the symptoms in chronic fatigue syndrome.",
    "acronym": null,
@@ -18782,7 +18791,8 @@
   {
    "id": "PMID:28219059",
    "all_ids": [
-    "PMID:28219059"
+    "PMID:28219059",
+    "ISRCTN70529301"
    ],
    "title": "Rhodiola rosea in Subjects with Prolonged or Chronic Fatigue Symptoms: Results of an Open-Label Clinical Trial.",
    "acronym": null,
@@ -39405,7 +39415,8 @@
   {
    "id": "PMID:38272997",
    "all_ids": [
-    "PMID:38272997"
+    "PMID:38272997",
+    "ISRCTN10942585"
    ],
    "title": "Transcranial direct current stimulation (tDCS) in the treatment of neuropsychiatric symptoms of long COVID.",
    "acronym": null,
@@ -52301,6 +52312,281 @@
    "year": "2024",
    "url": "https://europepmc.org/abstract/MED/39488240",
    "preprint_only": false
+  },
+  {
+   "id": "NCT07916259",
+   "all_ids": [
+    "NCT07916259"
+   ],
+   "title": "Brave-LC: phase 3 randomised double-blind placebo-controlled trial of 16 weeks of low-dose naltrexone for fatigue in people aged 6-25 with long COVID",
+   "acronym": "Brave-LC",
+   "intervention": "low-dose naltrexone",
+   "intervention_raw": [
+    "low-dose naltrexone"
+   ],
+   "intervention_class": "immunomodulator",
+   "population": "long COVID",
+   "severity_included": "not stated",
+   "design": "RCT-placebo",
+   "blinded": true,
+   "masking": "Quadruple",
+   "phase": "Phase 3",
+   "n_planned": 1300,
+   "n_actual": null,
+   "start": "2026-11-16",
+   "primary_completion": "2028-12-31",
+   "completion": "2029-01-01",
+   "status": "Not yet recruiting",
+   "why_stopped": null,
+   "country": [
+    "United States"
+   ],
+   "sponsor": "NIAID (RECOVER)",
+   "primary_outcome": "PedsQL Multidimensional Fatigue Scale at 16 weeks",
+   "result": "pending",
+   "result_summary": "Registered 29 Oct 2026; not yet recruiting",
+   "result_source": "registry",
+   "doi": null,
+   "pmid": null,
+   "publications": [],
+   "has_results_posted": false,
+   "model_steps": [
+    6,
+    7
+   ],
+   "verified": false,
+   "registry": "ClinicalTrials.gov",
+   "url": "https://clinicaltrials.gov/study/NCT07916259",
+   "preprint_only": false,
+   "registry_design": "Interventional / Randomized, quadruple-masked"
+  },
+  {
+   "id": "ISRCTN47597568",
+   "all_ids": [
+    "ISRCTN47597568"
+   ],
+   "title": "Ozone therapy for long COVID",
+   "acronym": "",
+   "intervention": "rectal ozone (24 sessions over 12 weeks)",
+   "intervention_raw": [
+    "rectal ozone (24 sessions over 12 weeks)"
+   ],
+   "intervention_class": "other",
+   "population": "long COVID",
+   "severity_included": "not stated",
+   "design": "single-arm",
+   "blinded": false,
+   "masking": null,
+   "phase": null,
+   "n_planned": 40,
+   "n_actual": null,
+   "start": "2025-11-01",
+   "primary_completion": "2026-04-01",
+   "completion": "2026-04-01",
+   "status": "Completed",
+   "why_stopped": null,
+   "country": [
+    "Spain"
+   ],
+   "sponsor": "Universidad Católica de Murcia",
+   "primary_outcome": "Functional limitation, weekly",
+   "result": "pending",
+   "result_summary": "Non-randomised; no results posted",
+   "result_source": "registry",
+   "doi": null,
+   "pmid": null,
+   "publications": [],
+   "has_results_posted": false,
+   "model_steps": [],
+   "verified": false,
+   "registry": "ISRCTN",
+   "url": "https://www.isrctn.com/ISRCTN47597568",
+   "preprint_only": false,
+   "registry_design": "Interventional / Non randomised"
+  },
+  {
+   "id": "ISRCTN99840264",
+   "all_ids": [
+    "ISRCTN99840264"
+   ],
+   "title": "Reducing fatigue in Long COVID-19: a feasibility study of a self-help intervention",
+   "acronym": "",
+   "intervention": "self-help fatigue programme vs wait list",
+   "intervention_raw": [
+    "self-help fatigue programme vs wait list"
+   ],
+   "intervention_class": "behavioural/rehab",
+   "population": "long COVID",
+   "severity_included": "not stated",
+   "design": "RCT-usual-care",
+   "blinded": false,
+   "masking": null,
+   "phase": null,
+   "n_planned": 100,
+   "n_actual": null,
+   "start": "2022-08-01",
+   "primary_completion": "2023-11-30",
+   "completion": "2023-11-30",
+   "status": "Completed",
+   "why_stopped": null,
+   "country": [
+    "United Kingdom"
+   ],
+   "sponsor": "",
+   "primary_outcome": "Recruitment and attrition (feasibility)",
+   "result": "unreported-after-completion",
+   "result_summary": "Feasibility trial; no result found",
+   "result_source": "registry",
+   "doi": null,
+   "pmid": null,
+   "publications": [],
+   "has_results_posted": false,
+   "model_steps": [
+    2
+   ],
+   "verified": false,
+   "registry": "ISRCTN",
+   "url": "https://www.isrctn.com/ISRCTN99840264",
+   "preprint_only": false,
+   "registry_design": "Interventional / Randomised"
+  },
+  {
+   "id": "ISRCTN78372534",
+   "all_ids": [
+    "ISRCTN78372534"
+   ],
+   "title": "Should general practitioners manage chronic fatigue syndrome? A controlled trial",
+   "acronym": "",
+   "intervention": "GP-delivered brief behavioural therapy package",
+   "intervention_raw": [
+    "GP-delivered brief behavioural therapy package"
+   ],
+   "intervention_class": "behavioural/rehab",
+   "population": "ME/CFS",
+   "severity_included": "not stated",
+   "design": "RCT-usual-care",
+   "blinded": false,
+   "masking": null,
+   "phase": null,
+   "n_planned": null,
+   "n_actual": null,
+   "start": "1995-04-01",
+   "primary_completion": null,
+   "completion": "1998-02-01",
+   "status": "Completed",
+   "why_stopped": null,
+   "country": [
+    "United Kingdom"
+   ],
+   "sponsor": "",
+   "primary_outcome": "Illness outcomes",
+   "result": "null",
+   "result_summary": "Poor recruitment and high drop-out; the intervention had no effect on patients' illness (registry summary; 2002 paper)",
+   "result_source": "registry results summary",
+   "doi": "10.1300/J092v10n01_05",
+   "pmid": null,
+   "publications": [],
+   "has_results_posted": false,
+   "model_steps": [
+    2
+   ],
+   "verified": true,
+   "registry": "ISRCTN",
+   "url": "https://www.isrctn.com/ISRCTN78372534",
+   "preprint_only": false,
+   "registry_design": "Interventional / Randomised"
+  },
+  {
+   "id": "ISRCTN15823716",
+   "all_ids": [
+    "ISRCTN15823716"
+   ],
+   "title": "The effectiveness of cognitive behavioural therapy in groups for patients with chronic fatigue syndrome",
+   "acronym": "",
+   "intervention": "group CBT (small vs large groups) vs wait list",
+   "intervention_raw": [
+    "group CBT (small vs large groups) vs wait list"
+   ],
+   "intervention_class": "behavioural/rehab",
+   "population": "ME/CFS",
+   "severity_included": "not stated",
+   "design": "RCT-usual-care",
+   "blinded": false,
+   "masking": null,
+   "phase": null,
+   "n_planned": 204,
+   "n_actual": null,
+   "start": "2008-01-01",
+   "primary_completion": null,
+   "completion": "2008-12-01",
+   "status": "Completed",
+   "why_stopped": null,
+   "country": [
+    "Netherlands"
+   ],
+   "sponsor": "",
+   "primary_outcome": "CIS fatigue severity; SIP; SF-36 physical function",
+   "result": "unreported-after-completion",
+   "result_summary": "No result linked on the registry",
+   "result_source": "registry",
+   "doi": null,
+   "pmid": null,
+   "publications": [],
+   "has_results_posted": false,
+   "model_steps": [
+    2
+   ],
+   "verified": false,
+   "registry": "ISRCTN",
+   "url": "https://www.isrctn.com/ISRCTN15823716",
+   "preprint_only": false,
+   "registry_design": "Interventional / Randomised"
+  },
+  {
+   "id": "ISRCTN65089038",
+   "all_ids": [
+    "ISRCTN65089038"
+   ],
+   "title": "Developing chamomile as a potential long COVID therapy: clinical evaluation of Roman chamomile",
+   "acronym": "",
+   "intervention": "Roman chamomile (4 doses, crossover)",
+   "intervention_raw": [
+    "Roman chamomile (4 doses, crossover)"
+   ],
+   "intervention_class": "supplement",
+   "population": "long COVID",
+   "severity_included": "not stated",
+   "design": "crossover",
+   "blinded": false,
+   "masking": null,
+   "phase": null,
+   "n_planned": 40,
+   "n_actual": null,
+   "start": "2023-05-25",
+   "primary_completion": null,
+   "completion": "2023-07-31",
+   "status": "Completed",
+   "why_stopped": null,
+   "country": [
+    "United Kingdom"
+   ],
+   "sponsor": "",
+   "primary_outcome": "VCAM-1 release from LPS-stimulated endothelial cells ex vivo (mechanistic, not symptoms)",
+   "result": "feasibility-only",
+   "result_summary": "Mechanistic endpoint only; no symptom outcome",
+   "result_source": "registry",
+   "doi": null,
+   "pmid": null,
+   "publications": [],
+   "has_results_posted": false,
+   "model_steps": [
+    4
+   ],
+   "verified": false,
+   "registry": "ISRCTN",
+   "url": "https://www.isrctn.com/ISRCTN65089038",
+   "preprint_only": false,
+   "registry_design": "Interventional / Randomised crossover"
   }
  ]
 }
