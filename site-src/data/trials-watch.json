@@ -1,0 +1,210 @@
+{
+ "note": "Curated context for /trials. 'watch' entries are hand-written; 'promising' tiers point at data/treatments.json ids. Edit here, not in trials.json, so a trials rebuild does not wipe it.",
+ "promising": [
+  {
+   "tier": "Best controlled evidence so far",
+   "blurb": "Each has at least one randomised trial with a benefit on its main outcome. None is replicated in a large blinded ME/CFS trial, and the effects are modest.",
+   "ids": [
+    "pacing-heart-rate",
+    "compression",
+    "fluvoxamine",
+    "mast-cell",
+    "pyridostigmine",
+    "oxaloacetate",
+    "coq10-nadh",
+    "stimulants",
+    "hbot-clinical"
+   ]
+  },
+  {
+   "tier": "Early signals with a controlled trial now running",
+   "blurb": "Uncontrolled or retrospective results that look large. Their placebo-controlled trials are the readouts most likely to change practice.",
+   "ids": [
+    "daratumumab",
+    "low-dose-aripiprazole",
+    "rapamycin",
+    "iv-saline",
+    "cell-therapy"
+   ]
+  },
+  {
+   "tier": "Tested properly and failed",
+   "blurb": "Worth knowing before anyone spends money on them. A failed trial in one population does not rule out a subgroup, but the burden of proof has moved.",
+   "ids": [
+    "rituximab",
+    "covid-antivirals",
+    "immunoadsorption",
+    "efgartigimod",
+    "temelimab",
+    "galantamine",
+    "colchicine",
+    "metformin",
+    "low-dose-naltrexone",
+    "graded-exercise"
+   ]
+  }
+ ],
+ "watch": {
+  "ISRCTN74088209": {
+   "tx": null,
+   "why": "Almost certainly amifampridine, which makes each nerve impulse release more acetylcholine, including at the autonomic ganglia that tighten veins. That is the pyridostigmine idea (steps 2-3) by a stronger route. No prior data in ME/CFS.",
+   "pos": "Replicate in a larger parallel trial with standing haemodynamics measured. If symptoms improve without any change in circulation, it points at nerve-to-muscle or central cholinergic signalling, which the model leaves out.",
+   "neg": "Weakens the case for boosting cholinergic transmission generally, though 2-week periods are short.",
+   "name": "ReMEdi: PHOE-01 (amifampridine)"
+  },
+  "NCT06366724": {
+   "tx": "pyridostigmine",
+   "why": "The only placebo-controlled test of pyridostigmine over weeks rather than a single dose, crossed with low-dose naltrexone, and with an objective exercise outcome. Tests steps 3 and 5 directly.",
+   "pos": "Pyridostigmine moves from 'ask your doctor' to a standard trial for people with orthostatic intolerance; invasive CPET to find preload failure becomes worth doing.",
+   "neg": "The single-dose result was a physiology effect that does not carry over to daily life; the preload arm of the model would need another lever (volume, compression).",
+   "name": "LIFT: pyridostigmine and low-dose naltrexone"
+  },
+  "NCT07128082": {
+   "tx": "glp1",
+   "why": "1,000-person blinded trial of tirzepatide for long COVID fatigue, run remotely with wearables. GLP-1 drugs have anti-inflammatory and central effects (steps 6-7) and a lot of patient anecdote, but no controlled data in ME/CFS.",
+   "pos": "First large positive drug trial in long COVID; would prompt an ME/CFS trial and a look at who responds (weight, inflammation markers).",
+   "neg": "Anecdotal benefit was weight loss or expectation; drop GLP-1 drugs from the ME/CFS shortlist.",
+   "name": "LOCITT: tirzepatide"
+  },
+  "NCT07280572": {
+   "tx": "metformin",
+   "why": "1,250-person trial of metformin plus colchicine, two drugs that have each failed alone in established long COVID. Unblinded (vs usual care) with a self-rated outcome, so a benefit would need confirming.",
+   "pos": "Check whether the effect survives in the blinded subgroups or objective outcomes before acting on it.",
+   "neg": "Confirms the single-drug failures.",
+   "name": "RECLAIM (UK): metformin and colchicine"
+  },
+  "NCT06631287": {
+   "tx": null,
+   "why": "550-person blinded trial of baricitinib, a JAK inhibitor, with an objective cognitive test as the main outcome. Tests whether ongoing interferon or cytokine signalling (steps 6-7) drives long COVID brain fog.",
+   "pos": "Strong evidence for an active inflammatory process in long COVID cognition; makes a JAK inhibitor trial in ME/CFS the obvious next step.",
+   "neg": "Argues against ongoing JAK-STAT cytokine signalling as the driver of cognitive symptoms.",
+   "name": "REVERSE-LC: baricitinib"
+  },
+  "NCT05513560": {
+   "tx": null,
+   "why": "460-person blinded trial (RECLAIM) of pentoxifylline, an old drug that improves red-cell flexibility and microcirculation (step 4), alongside an ibudilast arm aimed at glial inflammation (step 7).",
+   "pos": "First blinded support for a cheap, widely available microcirculation or anti-glial drug; the arm that wins says which step.",
+   "neg": "Another blow to the 'sticky blood / microclot' branch after the rivaroxaban null.",
+   "name": "RECLAIM: pentoxifylline and ibudilast"
+  },
+  "NCT06974084": {
+   "tx": null,
+   "why": "252-person blinded trial of maraviroc (a CCR5 blocker) plus atorvastatin, a combination promoted on the theory of persistent activated monocytes (steps 1 and 6) and already prescribed privately. Not yet recruiting.",
+   "pos": "Supports the monocyte persistence idea and gives the private-clinic regimen a basis.",
+   "neg": "Removes the evidence base from a regimen many patients are already paying for.",
+   "name": "IMPACT-LC: maraviroc and atorvastatin"
+  },
+  "NCT07359482": {
+   "tx": "fluvoxamine",
+   "why": "Replication of the 399-person Brazilian trial that found less fatigue with fluvoxamine. Fluvoxamine acts on sigma-1 receptors and inflammation as well as serotonin (steps 6-7).",
+   "pos": "Two positive blinded trials would make fluvoxamine the best-evidenced drug in long COVID.",
+   "neg": "The first result was chance or site-specific; demote it.",
+   "name": "ESPRIT: fluvoxamine"
+  },
+  "NCT07714213": {
+   "tx": "low-dose-aripiprazole",
+   "why": "The first placebo-controlled test of low-dose aripiprazole (138 people, crossover, Charité). The only data so far are a retrospective clinic review with no control group.",
+   "pos": "Moves aripiprazole from anecdote to evidence, and supports a dopamine or microglial component of the sickness response (step 7).",
+   "neg": "The clinic results were placebo and selection; drop it.",
+   "name": "PAIS-AriSE: low-dose aripiprazole"
+  },
+  "2024-520094-13-00": {
+   "tx": "daratumumab",
+   "why": "The randomised placebo-controlled follow-up (66 people, Haukeland) to the open-label pilot where 6 of 10 women improved markedly. Tests whether long-lived plasma cells and their antibodies keep the illness going (step 1).",
+   "pos": "The strongest evidence yet for an antibody-driven subgroup; NK-cell count could be used to select patients.",
+   "neg": "After rituximab, a second failure of B-lineage depletion would make an antibody cause much less likely.",
+   "name": "ResetME: daratumumab"
+  },
+  "NCT06305793": {
+   "tx": "ivig",
+   "why": "200-person blinded RECOVER-AUTONOMIC arm testing IVIG for long COVID POTS. Tests whether autoantibodies drive the autonomic symptoms (steps 1-2).",
+   "pos": "Supports an autoimmune form of post-COVID POTS; patient selection by autoantibody would be next.",
+   "neg": "Together with the efgartigimod and immunoadsorption nulls, the autoantibody explanation for POTS weakens considerably.",
+   "name": "RECOVER-AUTONOMIC: IVIG"
+  },
+  "NCT04740736": {
+   "tx": "iv-saline",
+   "why": "106-person blinded trial of saline vs placebo infusion in ME/CFS, measuring blood volume and exercise testing. The direct test of step 3 driving step 5.",
+   "pos": "Supports low blood volume as a cause of the exercise limit; volume expansion becomes a treatment worth testing for crash prevention.",
+   "neg": "The 'would be disproved if' test for step 3: low volume explains orthostatic symptoms but not exercise intolerance.",
+   "name": "IV saline vs placebo infusion"
+  },
+  "NCT05697640": {
+   "tx": null,
+   "why": "104-person blinded trial of vericiguat, which restores nitric-oxide signalling in vessel walls, in post-COVID ME/CFS defined by Canadian criteria with PEM. A direct test of endothelial dysfunction (step 4).",
+   "pos": "First drug evidence that the vessel step matters; a mechanism-led target.",
+   "neg": "Endothelial dysfunction may be real but not limiting.",
+   "name": "Vericiguat"
+  },
+  "NCT07621068": {
+   "tx": "hbot-clinical",
+   "why": "74-person sham-controlled trial of 60 sessions of hyperbaric oxygen in ME/CFS (Shamir, Israel), with exercise testing as the outcome. The ME/CFS test of the one positive long COVID sham trial.",
+   "pos": "Hyperbaric oxygen becomes a serious option, though expensive and travel-heavy for severe patients.",
+   "neg": "With HOT-LoCO negative, hyperbaric oxygen would be off the list.",
+   "name": "Hyperbaric oxygen in ME/CFS (Shamir)"
+  },
+  "NCT06960928": {
+   "tx": "rapamycin",
+   "why": "80-person placebo-controlled trial of low-dose sirolimus (Mount Sinai). The uncontrolled study reported 74% improved; this is the first control group.",
+   "pos": "Supports immune or mTOR-driven persistence (steps 1, 6) and a cheap repurposed drug.",
+   "neg": "The open-label result was expectation; drop it.",
+   "name": "Sirolimus (Mount Sinai)"
+  },
+  "NCT07298005": {
+   "tx": null,
+   "why": "80-person blinded trial of sonlicromanol, a mitochondrial redox modulator developed for mitochondrial disease, targeting post-exertional malaise (steps 5-6).",
+   "pos": "First drug evidence that a cellular energy defect contributes to PEM.",
+   "neg": "Adds to the run of null mitochondrial supplements.",
+   "name": "SON4PEM: sonlicromanol"
+  },
+  "NCT07724834": {
+   "tx": null,
+   "why": "38-person blinded trial of inebilizumab, which depletes CD19 B cells and some plasmablasts, wider than rituximab. Tests the antibody hypothesis (step 1) from another angle.",
+   "pos": "Small, so a positive would need replication, but would revive B-cell therapy after rituximab.",
+   "neg": "Little added: too small to settle it.",
+   "name": "PIONEER: inebilizumab"
+  },
+  "NCT07316127": {
+   "tx": "immunoadsorption",
+   "why": "70-person sham-controlled immunoadsorption trial in long COVID. Two sham trials are already negative.",
+   "pos": "Would conflict with the earlier sham trials; look at differences in patient selection.",
+   "neg": "Closes the question for unselected patients.",
+   "name": "Immunoadsorption vs sham"
+  },
+  "NCT06643299": {
+   "tx": "probiotics",
+   "why": "194-person blinded trial of a probiotic (PURE-LC), now completed. Gut dysbiosis and low indolepropionate replicate in four cohorts, so the gut difference is real; whether it is causal is open (step 1).",
+   "pos": "First controlled evidence that changing the microbiome changes symptoms.",
+   "neg": "Gut differences may be a consequence of illness and inactivity.",
+   "name": "PURE-LC: probiotic"
+  },
+  "NCT07597902": {
+   "tx": "herpes-antivirals",
+   "why": "150-person blinded factorial trial of valacyclovir, nirmatrelvir (Paxlovid) and celecoxib. Tests reactivated herpesvirus and persistent SARS-CoV-2 (step 1) in the same people.",
+   "pos": "Supports viral persistence or reactivation; the factorial design should say which drug carries it.",
+   "neg": "Adds to the nirmatrelvir nulls and weakens the herpes reactivation idea.",
+   "name": "SHIELD: valacyclovir, Paxlovid, celecoxib"
+  },
+  "NCT07916259": {
+   "tx": "low-dose-naltrexone",
+   "why": "1,300 young people, phase 3, blinded. Low-dose naltrexone failed in the 160-person adult trial, so this is now a test of whether younger people respond differently.",
+   "pos": "LDN gains its first strong evidence, in a younger population.",
+   "neg": "LDN would be very hard to justify at all.",
+   "name": "Brave-LC: low-dose naltrexone in young people"
+  },
+  "NCT04542161": {
+   "tx": null,
+   "why": "95-person blinded dose-response trial of N-acetylcysteine in ME/CFS, enrolling only people with low glutathione at baseline. One of few trials that selects patients by a measured abnormality.",
+   "pos": "A biomarker-selected treatment, and support for oxidative stress in the brain.",
+   "neg": "Low brain glutathione is a marker, not a cause.",
+   "name": "N-acetylcysteine in ME/CFS"
+  },
+  "NCT06305806": {
+   "tx": "ivabradine",
+   "why": "RECOVER-AUTONOMIC ivabradine arm (181). Reported at a conference: standing heart rate fell, symptoms did not.",
+   "pos": "Already reported at a meeting. The full paper may show a subgroup that benefits.",
+   "neg": "The fast heart rate is a compensation, not the problem: consistent with step 3 coming before step 8.",
+   "name": "RECOVER-AUTONOMIC: ivabradine"
+  }
+ }
+}

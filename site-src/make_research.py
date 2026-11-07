@@ -41,12 +41,56 @@ g_early = cnt(r"early|onset|incident|prospective|after infection|acute")
 srcs = Counter(p["source"] for p in P)
 pub = [{"t": p["title"], "u": p["url"], "p": p["population"], "f": 1 if p["focus"] == "primary" else 0, "o": p["org"], "c": p["country"],
         "pi": ", ".join(p["pi"][:3]), "fu": p["funder"], "s": (p["start"] or "")[:4], "en": (p["end"] or "")[:4], "st": p["status"],
-        "tp": p["topics"], "src": p["source"], "a": p.get("amount_usd") or 0} for p in P]
+        "tp": p["topics"], "src": p["source"], "a": p.get("amount_usd") or 0, "iv": p.get("intervention") or ""} for p in P]
 json.dump(pub, open(os.path.join(SITE, "research-data.json"), "w", encoding="utf8"), ensure_ascii=False, separators=(",", ":"))
 opub = [{"n": o["name"], "u": o["url"] if o.get("link_status") in ("ok", "ok-no-mention", "blocked") or o.get("link_status", "").startswith("unreachable") else "",
          "ty": o["type"], "c": o.get("country") or "", "d": o.get("description") or "", "st": o.get("status") or ""} for o in ORG if o.get("link_status") not in ("hijacked", "dead")]
 json.dump(opub, open(os.path.join(SITE, "orgs-data.json"), "w", encoding="utf8"), ensure_ascii=False, separators=(",", ":"))
 otc = Counter(o["ty"] for o in opub)
+# Trials in progress (trial rows carry live registry fields from atlas-v2/trials/scripts/enrich_live.py)
+TR = [p for p in P if p["source"] == "Trials"]
+run = [p for p in TR if p.get("stage") == "running"]; awt = [p for p in TR if p.get("stage") == "awaiting"]
+TODAY = D["meta"]["generated"]
+ICL = {"immunomodulator": "Immune drugs", "antiviral": "Antivirals", "apheresis/immunoadsorption": "Apheresis and immunoadsorption",
+       "autonomic/vasoactive": "Heart rate, blood pressure and blood flow drugs", "metabolic/mitochondrial": "Metabolic and mitochondrial",
+       "supplement": "Supplements", "microbiome": "Microbiome", "device/neuromodulation": "Devices and nerve or brain stimulation",
+       "behavioural/rehab": "Rehabilitation, exercise and psychological", "other": "Other drugs and treatments", "": "Other drugs and treatments"}
+IORD = list(ICL)
+RS = {"RECRUITING": "Recruiting", "NOT_YET_RECRUITING": "Not yet recruiting", "ACTIVE_NOT_RECRUITING": "Running, recruitment closed",
+      "ENROLLING_BY_INVITATION": "Enrolling by invitation", "SUSPENDED": "Suspended", "Ongoing": "Ongoing", "COMPLETED": "Completed",
+      "TERMINATED": "Stopped early", "UNKNOWN": "Status not updated", "Completed (end date passed)": "End date passed"}
+POPO = {"ME/CFS": 0, "both": 1, "long COVID": 2}
+def tname(p):
+    iv = p.get("intervention") or p["title"]
+    return (p["acronym"] + ": " if p.get("acronym") and p["acronym"].lower() not in iv.lower() and p["acronym"] not in ("ME/CFS",) and not re.search(r"\d{4}", p["acronym"]) else "") + iv[:1].upper() + iv[1:]
+def where(p):
+    c = p["country"] or ""
+    if p.get("n_sites", 0) > 1: return f'{c} · {p["n_sites"]} sites ({"; ".join(x.split(", ")[0] for x in p["cities"][:4])}{"…" if p["n_sites"] > 4 else ""})'
+    if p.get("cities"): return p["cities"][0] if c and c in p["cities"][0] else ", ".join(filter(None, [p["cities"][0], c]))
+    return c or "Country not stated"
+def ph(x):
+    x = re.sub(r"PHASE(\d)", r"Phase \1", str(x or "")).replace("|Phase ", "/").replace(", Phase ", "/")
+    x = re.sub(r"(?i).*\(phase (i+v?|\d)\)", lambda m: "Phase " + {"i": "1", "ii": "2", "iii": "3", "iv": "4"}.get(m.group(1).lower(), m.group(1)), x)
+    x = re.sub(r"Phase (I{1,3}V?)\b", lambda m: "Phase " + {"I": "1", "II": "2", "III": "3", "IV": "4"}[m.group(1)], x)
+    return "" if re.match(r"(?i)n/?a|not applicable|none|$", x) else x
+def trow(p, done=False):
+    rs = p.get("registry_status") or ""
+    rs = RS.get(rs, "See registry" if rs.startswith(("CTIS", "published", "see")) else rs)
+    stale = (not done and p.get("end") and p["end"][:7] < TODAY[:7])
+    bits = [p.get("kind", "").replace("Trial: ", "").replace("RCT-placebo", "placebo-controlled RCT").replace("RCT-usual-care", "RCT vs usual care").replace("RCT-active", "RCT vs another treatment").replace("RCT-unspecified", "RCT"),
+            ph(p.get("phase")), f'n={p["n"]:,}' if p.get("n") else "",
+            ("ended " if done else "due ") + p["end"][:7] if p.get("end") else "", rs]
+    who = " · ".join(filter(None, [p["org"], ", ".join(x for x in p["pi"][:2] if x.lower() not in p["org"].lower())]))
+    note = ' <span class="fl">End date passed; the registry has not been updated' + (f' since {p["last_update"][:7]}' if p.get("last_update") else "") + "</span>" if stale else ""
+    return (f'<li><span class="tt"><a href="{e(p["url"])}" rel="noopener">{e(tname(p))}</a></span><span class="pp" style="color:{PC[p["population"]]}">{e(p["population"])}</span>'
+            f'<span class="mt">{e(where(p))}<br>{e(who)}{"<br>" if who else ""}{e(" · ".join(filter(None, bits)))}{note}</span></li>')
+grp = defaultdict(list)
+for p in run: grp[p.get("iclass") or ""].append(p)
+srt = lambda L: sorted(L, key=lambda p: (POPO[p["population"]], -(p.get("n") or 0)))
+tip = "".join(f'<details{" open" if i < 2 else ""}><summary>{e(ICL.get(k, k))} <span class="rv">{len(grp[k])}</span></summary><ul class="pl">{"".join(trow(p) for p in srt(grp[k]))}</ul></details>'
+              for i, k in enumerate(sorted(grp, key=lambda k: (IORD.index(k) if k in IORD else 99))))
+rpop = Counter(p["population"] for p in run); rcty = Counter(c for p in run for c in (p["country"] or "").split("; ") if c)
+awl = "".join(trow(p, True) for p in sorted(awt, key=lambda p: (POPO[p["population"]], p.get("end") or "")))
 out = f'''<!--meta {{"title":"Who is working on what","description":"{len(P)} research projects on ME/CFS and long COVID, and {len(opub)} research groups, networks, biobanks, registries and organisations, searchable by topic, country and status.","nav":"research"}}-->
 <style>
 .p-research .fig{{font-family:var(--f-sans);font-size:.8rem;margin:1rem 0}}
@@ -67,6 +111,8 @@ out = f'''<!--meta {{"title":"Who is working on what","description":"{len(P)} re
 .p-research .pl .pp{{font-family:var(--f-sans);font-size:.74rem;white-space:nowrap;font-weight:600}}
 .p-research .pl .tg{{display:inline-block;margin-right:.5rem;color:var(--ink-2)}}
 .p-research .pl .ds{{grid-column:1/-1;font-size:.86rem;line-height:1.4;margin:.1rem 0 0;color:var(--ink-2)}}
+.p-research .tip details,.p-research details{{border-top:1.5px solid var(--ink);margin:.2rem 0}} .p-research details summary{{font-family:var(--f-sans);font-size:.92rem;font-weight:600;padding:.55rem 0;cursor:pointer;display:flex;justify-content:space-between}}
+.p-research .fl{{display:block;color:var(--early)}}
 .p-research .more{{font:inherit;font-family:var(--f-sans);padding:.4rem .8rem;border:1px solid var(--rule);background:none;color:var(--link);cursor:pointer;margin-top:.8rem}}
 @media (max-width:640px){{.p-research .row{{grid-template-columns:1fr 2.5rem;gap:.1rem .6rem}} .p-research .row .rl{{grid-column:1/-1}} .p-research .stats{{grid-template-columns:1fr 1fr 1fr;gap:.6rem}} .p-research .stats b{{font-size:1.2rem}}}}
 </style>
@@ -77,6 +123,14 @@ out = f'''<!--meta {{"title":"Who is working on what","description":"{len(P)} re
 
 <div class="stats"><div><b>{len(act)}</b><span>active projects</span></div><div><b>{g_sev}</b><span>name severe or housebound patients in the title</span></div><div><b>{g_pem}</b><span>name exertion, exercise or PEM in the title</span></div></div>
 <p>About a quarter of patients are housebound or bedbound, yet {g_sev} of {len(act)} active projects say in their title that they study severe patients. Crashes after exertion define the illness, and {g_pem} name exertion or PEM. The <a href="/questions">open questions</a> page sets out which experiments would most change what we know.</p>
+
+<h2 id="trials">Trials in progress</h2>
+<p>{len(run)} treatment trials are running or about to start: {rpop["ME/CFS"]} in ME/CFS, {rpop["both"]} in both, and {rpop["long COVID"]} in long COVID. The most active countries are {", ".join(f"{k} ({v})" for k, v in rcty.most_common(5))}. Each trial shows its sites, sponsor, investigators and expected end date, all taken from its registry entry on {e(TODAY)}. Within each group, ME/CFS trials come first, then the largest. The <a href="/trials">trials page</a> covers results from trials that have finished.</p>
+<div class="tip">{tip}</div>
+<h3 id="awaiting">Finished, results not out yet</h3>
+<p>{len(awt)} trials have finished or passed their end date with no results published.</p>
+<details><summary>Show all {len(awt)} <span class="rv"></span></summary><ul class="pl">{awl}</ul></details>
+<p class="note">Sources: ClinicalTrials.gov, ISRCTN and EU CTIS, plus trials found through their publications. Trials registered only in the Australian (ANZCTR), German (DRKS), Chinese (ChiCTR) or Japanese (jRCT) registries are not yet scanned, because those sites block automated searches.</p>
 
 <h2 id="topics">Active projects by topic</h2>
 <figure class="fig"><div>{f1}</div>{legend}
@@ -110,9 +164,9 @@ function $(i){{return document.getElementById(i)}}
 function esc(s){{return String(s==null?'':s).replace(/[&<>"]/g,function(c){{return{{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}}[c]}})}}
 function money(a){{return a>=1e6?'$'+(a/1e6).toFixed(1)+'M':a>=1e3?'$'+Math.round(a/1e3)+'k':''}}
 function draw(){{var q=$('q').value.toLowerCase(),p=$('fp').value,t=$('ft').value,s=$('fs').value,f=$('ff').value;
-var r=P.filter(function(x){{return(!p||x.p===p)&&(!t||x.tp.indexOf(t)>=0)&&(!s||x.st===s)&&(!f||x.f)&&(!q||(x.t+' '+x.o+' '+x.pi+' '+x.c+' '+x.fu).toLowerCase().indexOf(q)>=0)}});
+var r=P.filter(function(x){{return(!p||x.p===p)&&(!t||x.tp.indexOf(t)>=0)&&(!s||x.st===s)&&(!f||x.f)&&(!q||(x.t+' '+x.o+' '+x.pi+' '+x.c+' '+x.fu+' '+(x.iv||'')).toLowerCase().indexOf(q)>=0)}});
 $('cnt').textContent=r.length+' projects';
-$('pl').innerHTML=r.slice(0,lim).map(function(x){{return '<li><span class="tt"><a href="'+esc(x.u)+'" rel="noopener">'+esc(x.t)+'</a></span><span class="pp" style="color:'+PC[x.p]+'">'+esc(x.p)+'</span><span class="mt">'+esc([x.pi,x.o,x.c].filter(Boolean).join(' · '))+'<br>'+esc([x.fu,(x.s||'?')+'–'+(x.en||''),money(x.a),x.st==='active'?'':'finished'].filter(Boolean).join(' · '))+' · '+x.tp.map(function(k){{return '<span class="tg">'+esc(TOP[k]||k)+'</span>'}}).join('')+'</span></li>'}}).join('');
+$('pl').innerHTML=r.slice(0,lim).map(function(x){{return '<li><span class="tt"><a href="'+esc(x.u)+'" rel="noopener">'+esc(x.t)+'</a></span><span class="pp" style="color:'+PC[x.p]+'">'+esc(x.p)+'</span><span class="mt">'+(x.iv?'<b>'+esc(x.iv)+'</b><br>':'')+esc([x.pi,x.o,x.c].filter(Boolean).join(' · '))+'<br>'+esc([x.fu,(x.s||'?')+'–'+(x.en||''),money(x.a),x.st==='active'?'':'finished'].filter(Boolean).join(' · '))+' · '+x.tp.map(function(k){{return '<span class="tg">'+esc(TOP[k]||k)+'</span>'}}).join('')+'</span></li>'}}).join('');
 $('more').style.display=r.length>lim?'':'none'}}
 function odraw(){{var q=$('oq').value.toLowerCase(),t=$('ot').value;
 var r=O.filter(function(x){{return(!t||x.ty===t)&&(!q||(x.n+' '+x.c+' '+x.d).toLowerCase().indexOf(q)>=0)}});

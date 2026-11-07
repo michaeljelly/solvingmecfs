@@ -1,0 +1,5644 @@
+{
+ "meta": {
+  "generated": "2026-11-07",
+  "note": "Live registry fields for trials with result=pending; read by register/build_register.py and make_research.py"
+ },
+ "trials": {
+  "ISRCTN16025168": {
+   "registry_status": "Ongoing",
+   "completion": "2028-08-31",
+   "sponsor": "Université Paris-Est Créteil",
+   "collaborators": [],
+   "funders": [
+    "Agence Nationale de la Recherche",
+    "Canadian Institutes of Health Research",
+    "Ministero dell'Università e della Ricerca",
+    "Latvijas Zinātnes Padome",
+    "HORIZON EUROPE Reforming and enhancing the European Research and Innovation system"
+   ],
+   "investigators": [
+    "François-Jérôme Authier",
+    "Luis Nacul",
+    "Luca Francioso"
+   ],
+   "sites": [],
+   "enrolment": null,
+   "source_id": "ISRCTN16025168"
+  },
+  "NCT04151693": {
+   "registry_status": "RECRUITING",
+   "last_update": "2024-04-03",
+   "primary_completion": "2028-05-31",
+   "completion": "2028-05-31",
+   "sponsor": "Joint Authority for Päijät-Häme Social and Health Care",
+   "collaborators": [
+    "TheWellbeing Services County of Pirkanmaa",
+    "Charite-Institute of Medical Immunology"
+   ],
+   "investigators": [
+    "Tuomo Nieminen"
+   ],
+   "investigator_affiliations": [
+    "Päijät- Häme Joint Authority for Health and Wellbeing"
+   ],
+   "sites": [
+    {
+     "facility": "Päijät Häme Central Hospital",
+     "city": "Lahti",
+     "country": "Finland",
+     "status": "RECRUITING"
+    }
+   ],
+   "interventions": [
+    "Health Psychological Group Rehabilitation for Patients With Chronic Fatigue Syndrome (ME/CFS)"
+   ],
+   "enrolment": 80,
+   "source_id": "NCT04151693"
+  },
+  "NCT05168124": {
+   "registry_status": "RECRUITING",
+   "last_update": "2024-12-16",
+   "primary_completion": "2025-12",
+   "completion": "2026-07",
+   "sponsor": "Sarah Schiebler",
+   "collaborators": [
+    "University of Zurich"
+   ],
+   "investigators": [
+    "Sarah Schiebler"
+   ],
+   "investigator_affiliations": [],
+   "sites": [
+    {
+     "facility": "University Hospital of Zurich",
+     "city": "Zurich",
+     "country": "Switzerland",
+     "status": "RECRUITING"
+    }
+   ],
+   "interventions": [
+    "Acceptance Commitment Therapy for chronic fatigue",
+    "Micro breaks in everyday life for chronic fatigue"
+   ],
+   "enrolment": 90,
+   "source_id": "NCT05168124"
+  },
+  "NCT05236465": {
+   "registry_status": "RECRUITING",
+   "last_update": "2025-11-26",
+   "primary_completion": "2027-01-01",
+   "completion": "2028-12-01",
+   "sponsor": "Norwegian University of Science and Technology",
+   "collaborators": [
+    "University of Oslo",
+    "Haukeland University Hospital",
+    "Lørenskog municipality",
+    "The Research Council of Norway"
+   ],
+   "investigators": [
+    "Leif Edward Ottesen Kennair"
+   ],
+   "investigator_affiliations": [
+    "NTNU, Department of Psychology"
+   ],
+   "sites": [
+    {
+     "facility": "Department of Psychology, NTNU",
+     "city": "Trondheim",
+     "country": "Norway",
+     "status": "RECRUITING"
+    }
+   ],
+   "interventions": [
+    "A 3-day course",
+    "Waiting list"
+   ],
+   "enrolment": 100,
+   "source_id": "NCT05236465"
+  },
+  "NCT05525598": {
+   "registry_status": "RECRUITING",
+   "last_update": "2025-06-27",
+   "primary_completion": "2026-04-30",
+   "completion": "2026-10-31",
+   "sponsor": "University of Aarhus",
+   "collaborators": [
+    "Aarhus University Hospital",
+    "Sygehus Lillebaelt"
+   ],
+   "investigators": [
+    "Lisbeth Frostholm"
+   ],
+   "investigator_affiliations": [
+    "Aarhus Universityhospital"
+   ],
+   "sites": [
+    {
+     "facility": "Department of Functional Disorders",
+     "city": "Aarhus C",
+     "country": "Denmark",
+     "status": "RECRUITING"
+    }
+   ],
+   "interventions": [
+    "\"One step at a time\"",
+    "\"Get started\""
+   ],
+   "enrolment": 166,
+   "source_id": "NCT05525598"
+  },
+  "NCT05899595": {
+   "registry_status": "TERMINATED",
+   "last_update": "2026-05-08",
+   "primary_completion": "2025-12-17",
+   "completion": "2026-04-10",
+   "sponsor": "Centre Hospitalier Universitaire de Saint Etienne",
+   "collaborators": [
+    "Laboratoire Interuniversitaire de Biologie de la Motricité"
+   ],
+   "investigators": [
+    "David HUPIN"
+   ],
+   "investigator_affiliations": [
+    "Centre Hospitalier Universitaire de Saint Etienne"
+   ],
+   "sites": [
+    {
+     "facility": "Centre Hospitalier de Saint-Etienne",
+     "city": "Saint-Etienne",
+     "country": "France",
+     "status": null
+    }
+   ],
+   "interventions": [
+    "Exercise protocol"
+   ],
+   "enrolment": 101,
+   "source_id": "NCT05899595"
+  },
+  "NCT06786832": {
+   "registry_status": "RECRUITING",
+   "last_update": "2026-03-11",
+   "primary_completion": "2027-06",
+   "completion": "2033-01",
+   "sponsor": "Karolinska Institutet",
+   "collaborators": [
+    "Region Stockholm"
+   ],
+   "investigators": [
+    "Elin Lindsäter"
+   ],
+   "investigator_affiliations": [
+    "Region Stockholm and Karolinska Institutet"
+   ],
+   "sites": [
+    {
+     "facility": "Gustavsberg University Primary Care Clinic",
+     "city": "Stockholm",
+     "country": "Sweden",
+     "status": "RECRUITING"
+    }
+   ],
+   "interventions": [
+    "Cognitive behavioral therapy for persistent fatigue",
+    "Care as usual"
+   ],
+   "enrolment": 190,
+   "source_id": "NCT06786832"
+  },
+  "NCT07242573": {
+   "registry_status": "RECRUITING",
+   "last_update": "2026-02-24",
+   "primary_completion": "2027-02-20",
+   "completion": "2027-12-15",
+   "sponsor": "National Institute of Geriatrics, Rheumatology and Rehabilitation, Poland",
+   "collaborators": [],
+   "investigators": [
+    "Beata Tarnacka",
+    "Justyna Frasuńska",
+    "Filip Królikowski"
+   ],
+   "investigator_affiliations": [
+    "Rehabilitation Clinic, National Institute of Geriatrics, Rheumatology and Rehabilitation (NIGRiR), Warsaw, Poland"
+   ],
+   "sites": [
+    {
+     "facility": "Rehabilitation Clinic, National Institute of Geriatrics, Rheumatology and Rehabilitation (NIGRiR)",
+     "city": "Warsaw",
+     "country": "Poland",
+     "status": "RECRUITING"
+    }
+   ],
+   "interventions": [
+    "Physical Training Program",
+    "NESA X-Signal",
+    "Conventional Physiotherapy"
+   ],
+   "enrolment": 75,
+   "source_id": "NCT07242573"
+  },
+  "ISRCTN15931869": {
+   "registry_status": "Completed (end date passed)",
+   "completion": "2026-02-12",
+   "sponsor": "University of Liverpool",
+   "collaborators": [],
+   "funders": [
+    "University of Liverpool"
+   ],
+   "investigators": [
+    "Nicola Baker (Clague-Baker)"
+   ],
+   "sites": [
+    {
+     "facility": "University of Liverpool",
+     "city": "Liverpool",
+     "country": "UK"
+    }
+   ],
+   "enrolment": null,
+   "source_id": "ISRCTN15931869"
+  },
+  "ISRCTN42784463": {
+   "registry_status": "Completed (end date passed)",
+   "completion": "2026-05-31",
+   "sponsor": "Helsinki University Hospital",
+   "collaborators": [],
+   "funders": [
+    "HUS Helsinki University Hospital"
+   ],
+   "investigators": [
+    "Kirsi Riihimäki"
+   ],
+   "sites": [
+    {
+     "facility": "HUS",
+     "city": "Helsinki",
+     "country": "Finland"
+    }
+   ],
+   "enrolment": null,
+   "source_id": "ISRCTN42784463"
+  },
+  "NCT05791812": {
+   "registry_status": "ACTIVE_NOT_RECRUITING",
+   "last_update": "2025-09-19",
+   "primary_completion": "2025-11-30",
+   "completion": "2026-03-31",
+   "sponsor": "University of Regensburg",
+   "collaborators": [],
+   "investigators": [
+    "Berthold Langguth"
+   ],
+   "investigator_affiliations": [
+    "University of Regensburg"
+   ],
+   "sites": [
+    {
+     "facility": "Department of Psychiatry and Psychotherapy, University of Regensburg",
+     "city": "Regensburg",
+     "country": "Germany",
+     "status": null
+    }
+   ],
+   "interventions": [
+    "home-based transcranial direct current stimulation (tDCS)"
+   ],
+   "enrolment": 20,
+   "source_id": "NCT05791812"
+  },
+  "NCT06170645": {
+   "registry_status": "RECRUITING",
+   "last_update": "2026-05-06",
+   "primary_completion": "2028-02",
+   "completion": "2028-08",
+   "sponsor": "Centre Hospitalier Universitaire de Saint Etienne",
+   "collaborators": [],
+   "investigators": [
+    "David HUPIN"
+   ],
+   "investigator_affiliations": [
+    "Centre Hospitalier Universitaire de Saint Etienne"
+   ],
+   "sites": [
+    {
+     "facility": "Centre Hospitalier de Saint-Etienne",
+     "city": "Saint-Etienne",
+     "country": "France",
+     "status": "RECRUITING"
+    }
+   ],
+   "interventions": [
+    "APA program",
+    "Active transcutaneous VNS"
+   ],
+   "enrolment": 60,
+   "source_id": "NCT06170645"
+  },
+  "NCT07546539": {
+   "registry_status": "RECRUITING",
+   "last_update": "2026-10-08",
+   "primary_completion": "2026-12-15",
+   "completion": "2027-02",
+   "sponsor": "University of Lahore",
+   "collaborators": [],
+   "investigators": [
+    "Aadil Ameer Ali"
+   ],
+   "investigator_affiliations": [],
+   "sites": [
+    {
+     "facility": "The larkana General hospital , larkana",
+     "city": "Larkana",
+     "country": "Pakistan",
+     "status": "RECRUITING"
+    }
+   ],
+   "interventions": [
+    "Photobiomodulation (Low-Level Laser Therapy)",
+    "sham Photobiomodulation (LLLT)"
+   ],
+   "enrolment": 40,
+   "source_id": "NCT07546539"
+  },
+  "NCT06952413": {
+   "registry_status": "RECRUITING",
+   "last_update": "2025-04-30",
+   "primary_completion": "2026-09-30",
+   "completion": "2027-10-31",
+   "sponsor": "National Center of Neurology and Psychiatry, Japan",
+   "collaborators": [],
+   "investigators": [
+    "Tomoko Okamoto"
+   ],
+   "investigator_affiliations": [
+    "National Center of Neurology and Psychiatry"
+   ],
+   "sites": [
+    {
+     "facility": "National Center of Neurology and Psychiatry",
+     "city": "Kodaira",
+     "country": "Japan",
+     "status": "RECRUITING"
+    }
+   ],
+   "interventions": [
+    "Rituximab(Genetical Recombination)",
+    "Placebo"
+   ],
+   "enrolment": 30,
+   "source_id": "NCT06952413"
+  },
+  "NCT07285473": {
+   "registry_status": "NOT_YET_RECRUITING",
+   "last_update": "2026-10-08",
+   "primary_completion": "2028-04-01",
+   "completion": "2028-04-01",
+   "sponsor": "University of Alabama at Birmingham",
+   "collaborators": [
+    "National Institute of Neurological Disorders and Stroke (NINDS)"
+   ],
+   "investigators": [
+    "Jarred Younger"
+   ],
+   "investigator_affiliations": [
+    "University of Alabama at Birmingham"
+   ],
+   "sites": [
+    {
+     "facility": "University of Alabama at Birmingham",
+     "city": "Birmingham",
+     "country": "USA",
+     "status": null
+    }
+   ],
+   "interventions": [
+    "Low-Dose Naltrexone, 1.5mg",
+    "Low-Dose Naltrexone, 3.0mg",
+    "Low-Dose Naltrexone, 4.5mg",
+    "Low-Dose Naltrexone, 6.0mg"
+   ],
+   "enrolment": 75,
+   "source_id": "NCT07285473"
+  },
+  "NCT02374112": {
+   "registry_status": "ACTIVE_NOT_RECRUITING",
+   "last_update": "2025-05-23",
+   "primary_completion": "2025-12",
+   "completion": "2025-12",
+   "sponsor": "Center for Health Sciences, Serbia",
+   "collaborators": [],
+   "investigators": [
+    "Sergej M Ostojic"
+   ],
+   "investigator_affiliations": [
+    "Center for Health, Exercise and Sport Sciences"
+   ],
+   "sites": [],
+   "interventions": [
+    "Creatine"
+   ],
+   "enrolment": 60,
+   "source_id": "NCT02374112"
+  },
+  "NCT07009691": {
+   "registry_status": "RECRUITING",
+   "last_update": "2025-06-08",
+   "primary_completion": "2026-05-31",
+   "completion": "2026-05-31",
+   "sponsor": "Stony Brook University",
+   "collaborators": [],
+   "investigators": [
+    "Fred Friedberg"
+   ],
+   "investigator_affiliations": [
+    "Stony Brook University"
+   ],
+   "sites": [
+    {
+     "facility": "Stony Brook University",
+     "city": "Stony Brook",
+     "country": "USA",
+     "status": "RECRUITING"
+    }
+   ],
+   "interventions": [
+    "Hydrogen water which is prepared from an OTC supplement."
+   ],
+   "enrolment": 50,
+   "source_id": "NCT07009691"
+  },
+  "NCT07753122": {
+   "registry_status": "RECRUITING",
+   "last_update": "2026-08-07",
+   "primary_completion": "2027-07",
+   "completion": "2027-07",
+   "sponsor": "Fred Friedberg",
+   "collaborators": [],
+   "investigators": [
+    "Fred Friedberg"
+   ],
+   "investigator_affiliations": [
+    "Stony Brook University"
+   ],
+   "sites": [
+    {
+     "facility": "Stony Brook University",
+     "city": "Stony Brook",
+     "country": "USA",
+     "status": "RECRUITING"
+    }
+   ],
+   "interventions": [
+    "Placebo condition",
+    "Molecular hydrogen produced by a metallic magnesium tablet, consumed 3x a day dissolved in water. Treatment duration is 16 weeks."
+   ],
+   "enrolment": 80,
+   "source_id": "NCT07753122"
+  },
+  "NCT06211062": {
+   "registry_status": "RECRUITING",
+   "last_update": "2025-03-04",
+   "primary_completion": "2026-02-24",
+   "completion": "2026-02-24",
+   "sponsor": "Nova Southeastern University",
+   "collaborators": [],
+   "investigators": [
+    "Nancy Klimas"
+   ],
+   "investigator_affiliations": [
+    "Nova Southeastern University, Institute for Neuroimmune Medicine"
+   ],
+   "sites": [
+    {
+     "facility": "Institute for Neuroimmune Medicine",
+     "city": "Fort Lauderdale",
+     "country": "USA",
+     "status": "RECRUITING"
+    }
+   ],
+   "interventions": [
+    "Floradapt Intensive GI"
+   ],
+   "enrolment": 100,
+   "source_id": "NCT06211062"
+  },
+  "ISRCTN74088209": {
+   "registry_status": "Completed (end date passed)",
+   "completion": "2026-03-22",
+   "sponsor": "Alfred E. Tiefenbacher (Germany)",
+   "collaborators": [],
+   "funders": [
+    "Alfred E. Tiefenbacher"
+   ],
+   "investigators": [
+    "Beata Godlewska"
+   ],
+   "sites": [
+    {
+     "facility": "Lindus Health",
+     "city": "London",
+     "country": "UK"
+    }
+   ],
+   "enrolment": null,
+   "source_id": "ISRCTN74088209"
+  },
+  "NCT07317401": {
+   "registry_status": "NOT_YET_RECRUITING",
+   "last_update": "2026-05-22",
+   "primary_completion": "2027-06-01",
+   "completion": "2029-01-01",
+   "sponsor": "University of Aarhus",
+   "collaborators": [
+    "Independent Research Fund Denmark"
+   ],
+   "investigators": [],
+   "investigator_affiliations": [],
+   "sites": [
+    {
+     "facility": "Aarhus University",
+     "city": "Aarhus",
+     "country": "Denmark",
+     "status": null
+    }
+   ],
+   "interventions": [
+    "Intermittent hypoxia-hyperoxia treatment (IHHT)",
+    "Placebo"
+   ],
+   "enrolment": 104,
+   "source_id": "NCT07317401"
+  },
+  "NCT07621068": {
+   "registry_status": "RECRUITING",
+   "last_update": "2026-08-21",
+   "primary_completion": "2027-06",
+   "completion": "2027-06",
+   "sponsor": "Assaf-Harofeh Medical Center",
+   "collaborators": [],
+   "investigators": [
+    "Eli Kravchik"
+   ],
+   "investigator_affiliations": [
+    "principle investigator"
+   ],
+   "sites": [
+    {
+     "facility": "The Sagol Center for Hyperbaric Medicine and Research Shamir Medical Center (Assaf Harofeh)",
+     "city": "Zrifin",
+     "country": "Israel",
+     "status": "RECRUITING"
+    }
+   ],
+   "interventions": [
+    "Hyperbaric oxygen therapy",
+    "SHAM treatment"
+   ],
+   "enrolment": 74,
+   "source_id": "NCT07621068"
+  },
+  "NCT04542161": {
+   "registry_status": "ACTIVE_NOT_RECRUITING",
+   "last_update": "2026-06-22",
+   "primary_completion": "2027-04-30",
+   "completion": "2027-04-30",
+   "sponsor": "Weill Medical College of Cornell University",
+   "collaborators": [
+    "National Institute of Neurological Disorders and Stroke (NINDS)"
+   ],
+   "investigators": [
+    "Dikoma C. Shungu"
+   ],
+   "investigator_affiliations": [
+    "Weill Medical College of Cornell University"
+   ],
+   "sites": [
+    {
+     "facility": "Weill Cornell Medicine",
+     "city": "New York",
+     "country": "USA",
+     "status": null
+    }
+   ],
+   "interventions": [
+    "NAC 900mg/day",
+    "NAC 3600mg/day",
+    "NAC 0mg/day (Placebo)"
+   ],
+   "enrolment": 95,
+   "source_id": "NCT04542161"
+  },
+  "NCT05719493": {
+   "registry_status": "ACTIVE_NOT_RECRUITING",
+   "last_update": "2024-12-18",
+   "primary_completion": "2024-05-31",
+   "completion": "2025-12",
+   "sponsor": "Fundacio d'Investigacio en Atencio Primaria Jordi Gol i Gurina",
+   "collaborators": [
+    "Institut Català de la Salut"
+   ],
+   "investigators": [],
+   "investigator_affiliations": [],
+   "sites": [
+    {
+     "facility": "Institut Català de la Salut",
+     "city": "Tortosa",
+     "country": "Spain",
+     "status": null
+    }
+   ],
+   "interventions": [
+    "multicomponent treatment"
+   ],
+   "enrolment": 86,
+   "source_id": "NCT05719493"
+  },
+  "NCT07320937": {
+   "registry_status": "ENROLLING_BY_INVITATION",
+   "last_update": "2026-01-06",
+   "primary_completion": "2026-08-18",
+   "completion": "2026-11-18",
+   "sponsor": "ShuGuang Hospital",
+   "collaborators": [],
+   "investigators": [
+    "Xiao tian zhang"
+   ],
+   "investigator_affiliations": [],
+   "sites": [
+    {
+     "facility": "Shuguang hospital",
+     "city": "Shanghai",
+     "country": "China",
+     "status": null
+    }
+   ],
+   "interventions": [
+    "\"Yiqi Fuyuan Paste Formula\" test group"
+   ],
+   "enrolment": 80,
+   "source_id": "NCT07320937"
+  },
+  "NCT05697640": {
+   "registry_status": "ACTIVE_NOT_RECRUITING",
+   "last_update": "2026-01-28",
+   "primary_completion": "2026-04-01",
+   "completion": "2026-12-31",
+   "sponsor": "Charite University, Berlin, Germany",
+   "collaborators": [
+    "Bayer"
+   ],
+   "investigators": [
+    "Judith Bellmann-Strobl"
+   ],
+   "investigator_affiliations": [
+    "Charite University, Berlin, Germany"
+   ],
+   "sites": [
+    {
+     "facility": "Charité - Universitätsmedizin Berlin",
+     "city": "Berlin",
+     "country": "Germany",
+     "status": null
+    }
+   ],
+   "interventions": [
+    "Vericiguat Oral Tablet"
+   ],
+   "enrolment": 104,
+   "source_id": "NCT05697640"
+  },
+  "NCT06366724": {
+   "registry_status": "RECRUITING",
+   "last_update": "2026-10-15",
+   "primary_completion": "2027-09",
+   "completion": "2027-12",
+   "sponsor": "Brigham and Women's Hospital",
+   "collaborators": [
+    "Open Medicine Foundation"
+   ],
+   "investigators": [
+    "David Systrom"
+   ],
+   "investigator_affiliations": [
+    "Massachusetts General Hospital"
+   ],
+   "sites": [
+    {
+     "facility": "Brigham and Women's Hospital",
+     "city": "Boston",
+     "country": "USA",
+     "status": "RECRUITING"
+    }
+   ],
+   "interventions": [
+    "Pyridostigmine",
+    "Low-Dose Naltrexone"
+   ],
+   "enrolment": 160,
+   "source_id": "NCT06366724"
+  },
+  "NCT06511050": {
+   "registry_status": "RECRUITING",
+   "last_update": "2026-03-13",
+   "primary_completion": "2026-12",
+   "completion": "2026-12",
+   "sponsor": "Icahn School of Medicine at Mount Sinai",
+   "collaborators": [
+    "Columbia University",
+    "PolyBio Research Foundation"
+   ],
+   "investigators": [
+    "David Putrino"
+   ],
+   "investigator_affiliations": [
+    "Icahn School of Medicine at Mount Sinai"
+   ],
+   "sites": [
+    {
+     "facility": "The Cohen Center for Recovery from Complex Chronic Illnesses (CoRE)",
+     "city": "New York",
+     "country": "USA",
+     "status": "RECRUITING"
+    }
+   ],
+   "interventions": [
+    "Lumbrokinase"
+   ],
+   "enrolment": 120,
+   "source_id": "NCT06511050"
+  },
+  "NCT06933173": {
+   "registry_status": "RECRUITING",
+   "last_update": "2026-09-09",
+   "primary_completion": "2027-12-31",
+   "completion": "2028-03",
+   "sponsor": "University of Alberta",
+   "collaborators": [
+    "College of Physicians and Surgeons of Alberta"
+   ],
+   "investigators": [
+    "Sunita Vohra",
+    "Eleanor Stein"
+   ],
+   "investigator_affiliations": [
+    "University of Alberta",
+    "University of Calgary"
+   ],
+   "sites": [
+    {
+     "facility": "Peter Lougheed Hospital",
+     "city": "Calgary",
+     "country": "Canada",
+     "status": "RECRUITING"
+    },
+    {
+     "facility": "University of Alberta Hospital/Kaye Edmonton Clinic",
+     "city": "Edmonton",
+     "country": "Canada",
+     "status": "RECRUITING"
+    }
+   ],
+   "interventions": [
+    "Dynamic neural retraining system"
+   ],
+   "enrolment": 200,
+   "source_id": "NCT06933173"
+  },
+  "NCT06978582": {
+   "registry_status": "ACTIVE_NOT_RECRUITING",
+   "last_update": "2026-04-28",
+   "primary_completion": "2026-12-30",
+   "completion": "2027-03-30",
+   "sponsor": "University of Seville",
+   "collaborators": [],
+   "investigators": [
+    "Hermann Fricke-Comellas"
+   ],
+   "investigator_affiliations": [
+    "University of Seville"
+   ],
+   "sites": [
+    {
+     "facility": "Facultad de Enfermería, Fisioterapia y Podología. Universidad de Sevilla (Campus Macarena, Perdigones)",
+     "city": "Seville",
+     "country": "Spain",
+     "status": null
+    }
+   ],
+   "interventions": [
+    "Mindful and conscious movement-based exercise",
+    "Conventional exercise"
+   ],
+   "enrolment": 147,
+   "source_id": "NCT06978582"
+  },
+  "NCT07454395": {
+   "registry_status": "SUSPENDED",
+   "last_update": "2026-03-30",
+   "primary_completion": "2027-01",
+   "completion": "2027-06",
+   "sponsor": "Simon Fraser University",
+   "collaborators": [],
+   "investigators": [
+    "Alexandra Coates"
+   ],
+   "investigator_affiliations": [
+    "Biomedical Physiology and Kinesiology, Simon Fraser University"
+   ],
+   "sites": [
+    {
+     "facility": "Simon Fraser University",
+     "city": "Burnaby",
+     "country": "Canada",
+     "status": null
+    }
+   ],
+   "interventions": [
+    "Swimming",
+    "Cycling"
+   ],
+   "enrolment": 50,
+   "source_id": "NCT07454395"
+  },
+  "NCT07523113": {
+   "registry_status": "RECRUITING",
+   "last_update": "2026-10-29",
+   "primary_completion": "2027-06",
+   "completion": "2028-06",
+   "sponsor": "University of Alabama at Birmingham",
+   "collaborators": [
+    "UAB College of Arts and Sciences & Department of Psychology",
+    "Posit Science Corporation"
+   ],
+   "investigators": [
+    "Gitendra Uswatte"
+   ],
+   "investigator_affiliations": [
+    "Professor of Psychology, University of Alabama at Birmingham"
+   ],
+   "sites": [
+    {
+     "facility": "University of Alabama at Birmingham",
+     "city": "Birmingham",
+     "country": "USA",
+     "status": "RECRUITING"
+    }
+   ],
+   "interventions": [
+    "Processing Speed Training",
+    "In-session Instrumental Activities of Daily Living Training",
+    "Transfer Package",
+    "Follow Up Phone Calls",
+    "Trans-auricular Vagus Nerve Stimulation: High Intensity",
+    "In-session Brain Health Training",
+    "Reaction Time Training",
+    "Trans-auricular Vagus Nerve Stimulation: Low Intensity"
+   ],
+   "enrolment": 30,
+   "source_id": "NCT07523113"
+  },
+  "NCT06585254": {
+   "registry_status": "ACTIVE_NOT_RECRUITING",
+   "last_update": "2026-08-03",
+   "primary_completion": "2026-12-31",
+   "completion": "2027-02-01",
+   "sponsor": "Icahn School of Medicine at Mount Sinai",
+   "collaborators": [],
+   "investigators": [
+    "Benjamin H Natelson",
+    "Anna Norweg"
+   ],
+   "investigator_affiliations": [
+    "Icahn School of Medicine at Mount Sinai"
+   ],
+   "sites": [
+    {
+     "facility": "Icahn School of Medicine at Mount Sinai",
+     "city": "New York",
+     "country": "USA",
+     "status": null
+    }
+   ],
+   "interventions": [
+    "Transcutaneous vagus nerve stimulator"
+   ],
+   "enrolment": 50,
+   "source_id": "NCT06585254"
+  },
+  "NCT06968104": {
+   "registry_status": "ACTIVE_NOT_RECRUITING",
+   "last_update": "2025-08-08",
+   "primary_completion": "2026-10",
+   "completion": "2026-10",
+   "sponsor": "University of Luxembourg",
+   "collaborators": [],
+   "investigators": [
+    "André Schulz"
+   ],
+   "investigator_affiliations": [
+    "University of Luxembourg"
+   ],
+   "sites": [
+    {
+     "facility": "University of Luxembourg",
+     "city": "Esch-sur-Alzette",
+     "country": "Luxembourg",
+     "status": null
+    }
+   ],
+   "interventions": [
+    "transcutaneous vagus nerve stimulation",
+    "transcutaneous vagus nerve stimulation"
+   ],
+   "enrolment": 48,
+   "source_id": "NCT06968104"
+  },
+  "NCT07874217": {
+   "registry_status": "RECRUITING",
+   "last_update": "2026-11-05",
+   "primary_completion": "2027-01-08",
+   "completion": "2027-01-08",
+   "sponsor": "Oxford Brookes University",
+   "collaborators": [
+    "University of Oxford",
+    "University of Leicester",
+    "University College, London",
+    "Rosalind Franklin University of Medicine and Science"
+   ],
+   "investigators": [
+    "Patrick Esser"
+   ],
+   "investigator_affiliations": [],
+   "sites": [
+    {
+     "facility": "Oxford Brookes University - Centre for Movement, Occupation and Rehabilitation Sciences (MOReS)",
+     "city": "Oxford",
+     "country": "UK",
+     "status": "RECRUITING"
+    }
+   ],
+   "interventions": [
+    "Cryotherapy"
+   ],
+   "enrolment": 40,
+   "source_id": "NCT07874217"
+  },
+  "NCT07724834": {
+   "registry_status": "NOT_YET_RECRUITING",
+   "last_update": "2026-07-24",
+   "primary_completion": "2029-02-01",
+   "completion": "2029-03-01",
+   "sponsor": "Charite University, Berlin, Germany",
+   "collaborators": [],
+   "investigators": [
+    "Judith Bellmann-Strobl"
+   ],
+   "investigator_affiliations": [
+    "Charité - Universitätsmedizin Berlin, Berlin, Germany 10117"
+   ],
+   "sites": [
+    {
+     "facility": "Charité - Universitätsmedizin Berlin",
+     "city": "Berlin",
+     "country": "Germany",
+     "status": null
+    }
+   ],
+   "interventions": [
+    "Inebilizumab",
+    "Placebo"
+   ],
+   "enrolment": 38,
+   "source_id": "NCT07724834"
+  },
+  "NCT05167227": {
+   "registry_status": "ACTIVE_NOT_RECRUITING",
+   "last_update": "2025-08-06",
+   "primary_completion": "2024-11-20",
+   "completion": "2025-11-28",
+   "sponsor": "Family Health Centers of San Diego",
+   "collaborators": [],
+   "investigators": [
+    "Christian Ramers",
+    "Job Godino"
+   ],
+   "investigator_affiliations": [
+    "Family Health Centers of San Diego"
+   ],
+   "sites": [
+    {
+     "facility": "Family Health Centers of San Diego",
+     "city": "San Diego",
+     "country": "USA",
+     "status": null
+    }
+   ],
+   "interventions": [
+    "Extension for Community Healthcare Outcomes"
+   ],
+   "enrolment": 20,
+   "source_id": "NCT05167227"
+  },
+  "NCT06082518": {
+   "registry_status": "ACTIVE_NOT_RECRUITING",
+   "last_update": "2026-09-02",
+   "primary_completion": "2027-07",
+   "completion": "2027-07",
+   "sponsor": "Sunnybrook Health Sciences Centre",
+   "collaborators": [],
+   "investigators": [
+    "Fahad Alam",
+    "Jordan Tarshis"
+   ],
+   "investigator_affiliations": [
+    "Sunnybrook Health Sciences Centre"
+   ],
+   "sites": [
+    {
+     "facility": "Sunnybrook Health Sciences Centre",
+     "city": "Toronto",
+     "country": "Canada",
+     "status": null
+    }
+   ],
+   "interventions": [
+    "Monoplace Hyperbaric Chamber (Class III medical device)."
+   ],
+   "enrolment": 40,
+   "source_id": "NCT06082518"
+  },
+  "NCT07352254": {
+   "registry_status": "RECRUITING",
+   "last_update": "2026-01-21",
+   "primary_completion": "2028-10",
+   "completion": "2028-12",
+   "sponsor": "Hannover Medical School",
+   "collaborators": [
+    "Bundesministerium für Gesundheit, Familie und Jugend"
+   ],
+   "investigators": [
+    "Meike Dirks"
+   ],
+   "investigator_affiliations": [
+    "Hannover Medical School"
+   ],
+   "sites": [
+    {
+     "facility": "Hannover Medical School",
+     "city": "Hanover",
+     "country": "Germany",
+     "status": "RECRUITING"
+    }
+   ],
+   "interventions": [
+    "online visit",
+    "No Interventions"
+   ],
+   "enrolment": 100,
+   "source_id": "NCT07352254"
+  },
+  "NCT07357688": {
+   "registry_status": "NOT_YET_RECRUITING",
+   "last_update": "2026-01-22",
+   "primary_completion": "2027-12",
+   "completion": "2027-12",
+   "sponsor": "Xi Wu",
+   "collaborators": [],
+   "investigators": [
+    "Xi Wu"
+   ],
+   "investigator_affiliations": [],
+   "sites": [
+    {
+     "facility": "Chengdu University of Traditional Chinese Medicine",
+     "city": "Chengdu",
+     "country": "China",
+     "status": null
+    },
+    {
+     "facility": "Chengdu University of Traditional Chinese Medicine",
+     "city": "Chengdu",
+     "country": "China",
+     "status": null
+    }
+   ],
+   "interventions": [
+    "Acupuncture"
+   ],
+   "enrolment": 99,
+   "source_id": "NCT07357688"
+  },
+  "NCT06739720": {
+   "registry_status": "RECRUITING",
+   "last_update": "2026-09-21",
+   "primary_completion": "2026-01-15",
+   "completion": "2026-12-31",
+   "sponsor": "The University of Hong Kong",
+   "collaborators": [
+    "Innovation and Technology Commission, Hong Kong"
+   ],
+   "investigators": [],
+   "investigator_affiliations": [],
+   "sites": [
+    {
+     "facility": "Specialist Clinical Centre for Teaching and Research, School of Chinese Medicine, The University of Hong Kong",
+     "city": "Hong Kong",
+     "country": "Hong Kong",
+     "status": "RECRUITING"
+    }
+   ],
+   "interventions": [
+    "LingZhi capsule"
+   ],
+   "enrolment": 130,
+   "source_id": "NCT06739720"
+  },
+  "NCT06511063": {
+   "registry_status": "RECRUITING",
+   "last_update": "2026-03-13",
+   "primary_completion": "2026-11",
+   "completion": "2026-12",
+   "sponsor": "Icahn School of Medicine at Mount Sinai",
+   "collaborators": [
+    "Yale University",
+    "PolyBio Research Foundation"
+   ],
+   "investigators": [
+    "David Putrino"
+   ],
+   "investigator_affiliations": [
+    "Icahn School of Medicine at Mount Sinai"
+   ],
+   "sites": [
+    {
+     "facility": "The Cohen Center for Recovery from Complex Chronic Illnesses (CoRE)",
+     "city": "New York",
+     "country": "USA",
+     "status": "RECRUITING"
+    }
+   ],
+   "interventions": [
+    "tenofovir disoproxil/emtricitabine",
+    "Selzentry",
+    "Placebo"
+   ],
+   "enrolment": 90,
+   "source_id": "NCT06511063"
+  },
+  "NCT06766825": {
+   "registry_status": "COMPLETED",
+   "last_update": "2026-10-08",
+   "primary_completion": "2026-09-29",
+   "completion": "2026-09-29",
+   "sponsor": "Fundación FLS de Lucha Contra el Sida, las Enfermedades Infecciosas y la Promoción de la Salud y la Ciencia",
+   "collaborators": [
+    "PharmaMar",
+    "IrsiCaixa"
+   ],
+   "investigators": [],
+   "investigator_affiliations": [],
+   "sites": [
+    {
+     "facility": "Hospital Universitari Germans Trias i Pujol",
+     "city": "Badalona",
+     "country": "Spain",
+     "status": null
+    }
+   ],
+   "interventions": [
+    "Plitidepsin 1.5 mg/day",
+    "Placebo",
+    "Placebo and Plitidepsin 1.5mg/day"
+   ],
+   "enrolment": 90,
+   "source_id": "NCT06766825"
+  },
+  "NCT07021794": {
+   "registry_status": "RECRUITING",
+   "last_update": "2026-09-29",
+   "primary_completion": "2027-09-30",
+   "completion": "2027-09-30",
+   "sponsor": "Nancy Klimas",
+   "collaborators": [
+    "Florida Department of Health"
+   ],
+   "investigators": [
+    "Nancy Klimas",
+    "Korrine Rodrigue"
+   ],
+   "investigator_affiliations": [
+    "Nova Southeastern University"
+   ],
+   "sites": [
+    {
+     "facility": "Nova Southeastern University",
+     "city": "Fort Lauderdale",
+     "country": "USA",
+     "status": "RECRUITING"
+    }
+   ],
+   "interventions": [
+    "Placebo",
+    "Sipavibart"
+   ],
+   "enrolment": 100,
+   "source_id": "NCT07021794"
+  },
+  "NCT07597902": {
+   "registry_status": "RECRUITING",
+   "last_update": "2026-10-28",
+   "primary_completion": "2028-06-30",
+   "completion": "2028-06-30",
+   "sponsor": "Icahn School of Medicine at Mount Sinai",
+   "collaborators": [
+    "PridCor Therapeutics"
+   ],
+   "investigators": [
+    "David Putrino"
+   ],
+   "investigator_affiliations": [
+    "Icahn School of Medicine at Mount Sinai"
+   ],
+   "sites": [
+    {
+     "facility": "The Cohen Center for Recovery from Complex Chronic Illnesses (CoRE)",
+     "city": "New York",
+     "country": "USA",
+     "status": "RECRUITING"
+    }
+   ],
+   "interventions": [
+    "Valacyclovir",
+    "Celecoxib",
+    "Paxlovid",
+    "Placebo"
+   ],
+   "enrolment": 150,
+   "source_id": "NCT07597902"
+  },
+  "NCT07899346": {
+   "registry_status": "NOT_YET_RECRUITING",
+   "last_update": "2026-10-27",
+   "primary_completion": "2027-06",
+   "completion": "2027-06",
+   "sponsor": "Invivyd, Inc.",
+   "collaborators": [],
+   "investigators": [],
+   "investigator_affiliations": [],
+   "sites": [],
+   "interventions": [
+    "VYD2311",
+    "Placebo"
+   ],
+   "enrolment": 130,
+   "source_id": "NCT07899346"
+  },
+  "NCT07316127": {
+   "registry_status": "RECRUITING",
+   "last_update": "2026-01-05",
+   "primary_completion": "2027-12-12",
+   "completion": "2028-03-12",
+   "sponsor": "Academisch Medisch Centrum - Universiteit van Amsterdam (AMC-UvA)",
+   "collaborators": [],
+   "investigators": [
+    "W. J. Wiersinga"
+   ],
+   "investigator_affiliations": [],
+   "sites": [
+    {
+     "facility": "AUMC",
+     "city": "Amsterdam",
+     "country": "Netherlands",
+     "status": "RECRUITING"
+    }
+   ],
+   "interventions": [
+    "Immunoadsorption",
+    "Sham Comparator"
+   ],
+   "enrolment": 70,
+   "source_id": "NCT07316127"
+  },
+  "NCT06305806": {
+   "registry_status": "COMPLETED",
+   "last_update": "2026-02-20",
+   "primary_completion": "2025-10-13",
+   "completion": "2025-12-17",
+   "sponsor": "Kanecia Obie Zimmerman",
+   "collaborators": [],
+   "investigators": [
+    "Christopher Grainger",
+    "Cyndya Shibao",
+    "Peter Novak"
+   ],
+   "investigator_affiliations": [
+    "Duke Clinical Research Institute",
+    "Vanderbilt University Medical Center",
+    "Harvard"
+   ],
+   "sites": [
+    {
+     "facility": "All sites listed under NCT06305780",
+     "city": "Durham",
+     "country": "USA",
+     "status": null
+    }
+   ],
+   "interventions": [
+    "Ivabradine",
+    "Ivabradine Placebo",
+    "Coordinated Care",
+    "Usual Care"
+   ],
+   "enrolment": 181,
+   "source_id": "NCT06305806"
+  },
+  "NCT07374562": {
+   "registry_status": "RECRUITING",
+   "last_update": "2026-02-09",
+   "primary_completion": "2027-02",
+   "completion": "2027-02",
+   "sponsor": "Centre intégré universitaire de santé et de services sociaux de la Mauricie-et-du-Centre-du-Québec",
+   "collaborators": [],
+   "investigators": [
+    "Marie-Claude Lehoux"
+   ],
+   "investigator_affiliations": [],
+   "sites": [
+    {
+     "facility": "Centre hospitalier affilié universitaire régional",
+     "city": "Trois-Rivières",
+     "country": "Canada",
+     "status": "RECRUITING"
+    }
+   ],
+   "interventions": [
+    "Stellate Ganglion Block (Bupivacaine)",
+    "placebo saline injection"
+   ],
+   "enrolment": 40,
+   "source_id": "NCT07374562"
+  },
+  "NCT07468604": {
+   "registry_status": "RECRUITING",
+   "last_update": "2026-10-09",
+   "primary_completion": "2027-05-20",
+   "completion": "2027-09-01",
+   "sponsor": "University Health Network, Toronto",
+   "collaborators": [],
+   "investigators": [
+    "Anuj Bhatia"
+   ],
+   "investigator_affiliations": [
+    "University Health Network, Toronto"
+   ],
+   "sites": [
+    {
+     "facility": "Women's College Hospital",
+     "city": "Toronto",
+     "country": "Canada",
+     "status": "NOT_YET_RECRUITING"
+    },
+    {
+     "facility": "Toronto Western Hospital",
+     "city": "Toronto",
+     "country": "Canada",
+     "status": "RECRUITING"
+    }
+   ],
+   "interventions": [
+    "5 mL of 0.25% bupivacaine with epinephrine (1:200,000)"
+   ],
+   "enrolment": 78,
+   "source_id": "NCT07468604"
+  },
+  "ISRCTN33340595": {
+   "registry_status": "Completed (end date passed)",
+   "completion": "2026-09-30",
+   "sponsor": "University Hospitals of Leicester NHS Trust",
+   "collaborators": [],
+   "funders": [
+    "Wellcome Trust",
+    "NIHR Leicester Biomedical Research Centre"
+   ],
+   "investigators": [
+    "Linzy Houchen-Wolloff",
+    "Kate Kontou"
+   ],
+   "sites": [
+    {
+     "facility": "University Hospitals of Leicester NHS Trust",
+     "city": "Leicester",
+     "country": "UK"
+    }
+   ],
+   "enrolment": null,
+   "source_id": "ISRCTN33340595"
+  },
+  "NCT02918994": {
+   "registry_status": "ACTIVE_NOT_RECRUITING",
+   "last_update": "2026-02-13",
+   "primary_completion": "2025-09",
+   "completion": "2027-12",
+   "sponsor": "Gibson Institute of Cognitive Research",
+   "collaborators": [
+    "Louisiana State University Health Sciences Center Shreveport"
+   ],
+   "investigators": [
+    "Christina Ledbetter",
+    "Amy L Moore"
+   ],
+   "investigator_affiliations": [
+    "Gibson Institute of Cognitive Research and LSU Health Shreveport",
+    "Gibson Institute of Cognitive Research"
+   ],
+   "sites": [
+    {
+     "facility": "Gibson Institute of Cognitive Research",
+     "city": "Colorado Springs",
+     "country": "USA",
+     "status": null
+    }
+   ],
+   "interventions": [
+    "LearningRx cognitive training"
+   ],
+   "enrolment": 30,
+   "source_id": "NCT02918994"
+  },
+  "NCT05094622": {
+   "registry_status": "ACTIVE_NOT_RECRUITING",
+   "last_update": "2025-04-06",
+   "primary_completion": "2023-12-31",
+   "completion": "2025-12",
+   "sponsor": "Karolinska Institutet",
+   "collaborators": [
+    "Karolinska University Hospital"
+   ],
+   "investigators": [
+    "Malin Nygren Bonnier"
+   ],
+   "investigator_affiliations": [
+    "Karolinska Institutet"
+   ],
+   "sites": [
+    {
+     "facility": "Karolinska University Hospital",
+     "city": "Stockholm",
+     "country": "Sweden",
+     "status": null
+    }
+   ],
+   "interventions": [
+    "Physical exercise program"
+   ],
+   "enrolment": 30,
+   "source_id": "NCT05094622"
+  },
+  "NCT05425264": {
+   "registry_status": "RECRUITING",
+   "last_update": "2026-11-06",
+   "primary_completion": "2027-09-30",
+   "completion": "2028-06-30",
+   "sponsor": "VA Office of Research and Development",
+   "collaborators": [
+    "Baltimore VA Medical Center",
+    "Salem Veterans Affairs Medical Center"
+   ],
+   "investigators": [
+    "Alice S. Ryan"
+   ],
+   "investigator_affiliations": [
+    "Baltimore VA Medical Center VA Maryland Health Care System, Baltimore, MD"
+   ],
+   "sites": [
+    {
+     "facility": "Baltimore VA Medical Center VA Maryland Health Care System, Baltimore, MD",
+     "city": "Baltimore",
+     "country": "USA",
+     "status": "RECRUITING"
+    }
+   ],
+   "interventions": [
+    "Tele-exercise"
+   ],
+   "enrolment": 80,
+   "source_id": "NCT05425264"
+  },
+  "NCT05494424": {
+   "registry_status": "ACTIVE_NOT_RECRUITING",
+   "last_update": "2026-08-11",
+   "primary_completion": "2025-02-01",
+   "completion": "2028-12",
+   "sponsor": "Lovisenberg Diakonale Hospital",
+   "collaborators": [
+    "University of Oslo",
+    "Icahn School of Medicine at Mount Sinai",
+    "University of Toronto",
+    "UiT The Arctic University of Norway",
+    "Oslo University Hospital"
+   ],
+   "investigators": [
+    "Jan Stubberud"
+   ],
+   "investigator_affiliations": [
+    "University of Oslo and Lovisenberg Hospital"
+   ],
+   "sites": [
+    {
+     "facility": "Lovisenberg Diaconal Hospital",
+     "city": "Oslo",
+     "country": "Norway",
+     "status": null
+    }
+   ],
+   "interventions": [
+    "Goal Management Training (GMT)"
+   ],
+   "enrolment": 135,
+   "source_id": "NCT05494424"
+  },
+  "NCT05530317": {
+   "registry_status": "TERMINATED",
+   "last_update": "2026-08-13",
+   "primary_completion": "2026-07-31",
+   "completion": "2026-07-31",
+   "sponsor": "University of California, San Francisco",
+   "collaborators": [],
+   "investigators": [
+    "Matthew S Durstenfeld"
+   ],
+   "investigator_affiliations": [
+    "University of California, San Francisco"
+   ],
+   "sites": [
+    {
+     "facility": "University of California, San Francisco",
+     "city": "San Francisco",
+     "country": "USA",
+     "status": null
+    }
+   ],
+   "interventions": [
+    "Cardiac Rehabilitation"
+   ],
+   "enrolment": 13,
+   "source_id": "NCT05530317"
+  },
+  "NCT05566483": {
+   "registry_status": "RECRUITING",
+   "last_update": "2025-12-04",
+   "primary_completion": "2027-10-31",
+   "completion": "2027-10-31",
+   "sponsor": "University of Colorado, Denver",
+   "collaborators": [],
+   "investigators": [],
+   "investigator_affiliations": [],
+   "sites": [
+    {
+     "facility": "University of Colorado Hospital",
+     "city": "Aurora",
+     "country": "USA",
+     "status": "RECRUITING"
+    }
+   ],
+   "interventions": [
+    "Exercise"
+   ],
+   "enrolment": 30,
+   "source_id": "NCT05566483"
+  },
+  "NCT05676008": {
+   "registry_status": "ACTIVE_NOT_RECRUITING",
+   "last_update": "2026-05-29",
+   "primary_completion": "2027-04",
+   "completion": "2027-04",
+   "sponsor": "University of California, Davis",
+   "collaborators": [],
+   "investigators": [
+    "Javier E Lopez"
+   ],
+   "investigator_affiliations": [
+    "University of California, Davis"
+   ],
+   "sites": [
+    {
+     "facility": "University of California Davis",
+     "city": "Sacramento",
+     "country": "USA",
+     "status": null
+    }
+   ],
+   "interventions": [
+    "Microdosing of mindfulness"
+   ],
+   "enrolment": 400,
+   "source_id": "NCT05676008"
+  },
+  "NCT05705193": {
+   "registry_status": "COMPLETED",
+   "last_update": "2026-08-14",
+   "primary_completion": "2025-12-13",
+   "completion": "2025-12-13",
+   "sponsor": "UConn Health",
+   "collaborators": [
+    "National Institute on Aging (NIA)"
+   ],
+   "investigators": [
+    "Cutter Lindbergh"
+   ],
+   "investigator_affiliations": [
+    "UConn Health"
+   ],
+   "sites": [
+    {
+     "facility": "UConn Health",
+     "city": "Farmington",
+     "country": "USA",
+     "status": null
+    }
+   ],
+   "interventions": [
+    "NeuroFlex (computerized gamified tasks)"
+   ],
+   "enrolment": 39,
+   "source_id": "NCT05705193"
+  },
+  "NCT05792852": {
+   "registry_status": "RECRUITING",
+   "last_update": "2025-04-24",
+   "primary_completion": "2026-01-31",
+   "completion": "2026-01-31",
+   "sponsor": "University of Illinois Chicago",
+   "collaborators": [
+    "National Center for Advancing Translational Sciences (NCATS)"
+   ],
+   "investigators": [
+    "Joy Hammel"
+   ],
+   "investigator_affiliations": [
+    "University of Illinois Chicago"
+   ],
+   "sites": [
+    {
+     "facility": "University of Illinois Chicago",
+     "city": "Chicago",
+     "country": "USA",
+     "status": "RECRUITING"
+    }
+   ],
+   "interventions": [
+    "ENGAGE"
+   ],
+   "enrolment": 21,
+   "source_id": "NCT05792852"
+  },
+  "NCT05851859": {
+   "registry_status": "RECRUITING",
+   "last_update": "2026-09-14",
+   "primary_completion": "2026-11",
+   "completion": "2027-04",
+   "sponsor": "Centre Hospitalier Universitaire de la Réunion",
+   "collaborators": [],
+   "investigators": [],
+   "investigator_affiliations": [],
+   "sites": [
+    {
+     "facility": "CHU de la Réunion",
+     "city": "Saint-Denis",
+     "country": "France",
+     "status": "RECRUITING"
+    },
+    {
+     "facility": "CHU de la Réunion",
+     "city": "Saint-Pierre",
+     "country": "France",
+     "status": "NOT_YET_RECRUITING"
+    }
+   ],
+   "interventions": [
+    "Cardiac coherence"
+   ],
+   "enrolment": 200,
+   "source_id": "NCT05851859"
+  },
+  "NCT05877534": {
+   "registry_status": "ACTIVE_NOT_RECRUITING",
+   "last_update": "2026-07-15",
+   "primary_completion": "2025-10-01",
+   "completion": "2026-11-01",
+   "sponsor": "Karolinska Institutet",
+   "collaborators": [
+    "Karolinska University Hospital"
+   ],
+   "investigators": [
+    "Malin Nygren-Bonnier"
+   ],
+   "investigator_affiliations": [
+    "Karolinska Institutet"
+   ],
+   "sites": [
+    {
+     "facility": "Karolinska University Hospital",
+     "city": "Stockholm",
+     "country": "Sweden",
+     "status": null
+    }
+   ],
+   "interventions": [
+    "Individual tailored exercise"
+   ],
+   "enrolment": 60,
+   "source_id": "NCT05877534"
+  },
+  "NCT05880108": {
+   "registry_status": "RECRUITING",
+   "last_update": "2026-06-01",
+   "primary_completion": "2029-09-30",
+   "completion": "2029-09-30",
+   "sponsor": "VA Office of Research and Development",
+   "collaborators": [
+    "Baltimore VA Medical Center",
+    "South Texas Veterans Health Care System"
+   ],
+   "investigators": [
+    "Alice S. Ryan"
+   ],
+   "investigator_affiliations": [
+    "Baltimore VA Medical Center VA Maryland Health Care System, Baltimore, MD"
+   ],
+   "sites": [
+    {
+     "facility": "Baltimore VA Medical Center VA Maryland Health Care System, Baltimore, MD",
+     "city": "Baltimore",
+     "country": "USA",
+     "status": "RECRUITING"
+    },
+    {
+     "facility": "South Texas Health Care System, San Antonio, TX",
+     "city": "San Antonio",
+     "country": "USA",
+     "status": "RECRUITING"
+    }
+   ],
+   "interventions": [
+    "12-weeks of Weight Loss",
+    "12-weeks of Weight Stability"
+   ],
+   "enrolment": 150,
+   "source_id": "NCT05880108"
+  },
+  "NCT05890599": {
+   "registry_status": "RECRUITING",
+   "last_update": "2025-07-10",
+   "primary_completion": "2025-12-31",
+   "completion": "2026-03-31",
+   "sponsor": "University Hospital Tuebingen",
+   "collaborators": [
+    "Robert Bosch Gesellschaft für Medizinische Forschung mbH (RBMF)",
+    "Charite University, Berlin, Germany"
+   ],
+   "investigators": [
+    "Holger Cramer"
+   ],
+   "investigator_affiliations": [
+    "University Hospital Tuebingen"
+   ],
+   "sites": [
+    {
+     "facility": "Bosch-Health-Campus",
+     "city": "Stuttgart",
+     "country": "Germany",
+     "status": "RECRUITING"
+    }
+   ],
+   "interventions": [
+    "Yoga Therapy",
+    "Health Education"
+   ],
+   "enrolment": 100,
+   "source_id": "NCT05890599"
+  },
+  "NCT06042751": {
+   "registry_status": "COMPLETED",
+   "last_update": "2026-08-17",
+   "primary_completion": "2026-05-10",
+   "completion": "2026-05-27",
+   "sponsor": "Hannover Medical School",
+   "collaborators": [
+    "Health Insurance Audi BKK",
+    "occupational health service Volkswagen AG",
+    "Helmholtz Centre for Infection Research"
+   ],
+   "investigators": [
+    "Uwe Tegtbur"
+   ],
+   "investigator_affiliations": [
+    "Hannover Medical School, Institute for Sports Medicine"
+   ],
+   "sites": [
+    {
+     "facility": "Hannover Medical School",
+     "city": "Hanover",
+     "country": "Germany",
+     "status": null
+    }
+   ],
+   "interventions": [
+    "Exercise Therapy",
+    "Psychotherapy"
+   ],
+   "enrolment": 195,
+   "source_id": "NCT06042751"
+  },
+  "NCT06045338": {
+   "registry_status": "RECRUITING",
+   "last_update": "2026-02-18",
+   "primary_completion": "2026-09",
+   "completion": "2026-12",
+   "sponsor": "Beth Israel Deaconess Medical Center",
+   "collaborators": [],
+   "investigators": [
+    "Michael Donnino"
+   ],
+   "investigator_affiliations": [
+    "Beth Israel Deaconess Medical Center"
+   ],
+   "sites": [
+    {
+     "facility": "Beth Israel Deaconess Medical Center",
+     "city": "Boston",
+     "country": "USA",
+     "status": "RECRUITING"
+    }
+   ],
+   "interventions": [
+    "Mind Body Intervention #1"
+   ],
+   "enrolment": 180,
+   "source_id": "NCT06045338"
+  },
+  "NCT06073002": {
+   "registry_status": "ACTIVE_NOT_RECRUITING",
+   "last_update": "2024-12-11",
+   "primary_completion": "2025-02-28",
+   "completion": "2025-02-28",
+   "sponsor": "University of Vienna",
+   "collaborators": [],
+   "investigators": [
+    "Daniel König"
+   ],
+   "investigator_affiliations": [],
+   "sites": [
+    {
+     "facility": "Department of Sport and Human Movement Science",
+     "city": "Vienna",
+     "country": "Austria",
+     "status": null
+    }
+   ],
+   "interventions": [
+    "home-based concurrent exercise"
+   ],
+   "enrolment": 20,
+   "source_id": "NCT06073002"
+  },
+  "NCT06086379": {
+   "registry_status": "ENROLLING_BY_INVITATION",
+   "last_update": "2026-07-15",
+   "primary_completion": "2027-06-30",
+   "completion": "2029-03-31",
+   "sponsor": "VA Office of Research and Development",
+   "collaborators": [],
+   "investigators": [
+    "Tara A Austin"
+   ],
+   "investigator_affiliations": [
+    "VA San Diego Healthcare System, San Diego, CA"
+   ],
+   "sites": [
+    {
+     "facility": "VA San Diego Healthcare System, San Diego, CA",
+     "city": "San Diego",
+     "country": "USA",
+     "status": null
+    }
+   ],
+   "interventions": [
+    "Compensatory Cognitive Training for COVID-19",
+    "Holistic Cognitive Education"
+   ],
+   "enrolment": 70,
+   "source_id": "NCT06086379"
+  },
+  "NCT06095297": {
+   "registry_status": "ACTIVE_NOT_RECRUITING",
+   "last_update": "2026-10-29",
+   "primary_completion": "2026-12",
+   "completion": "2027-12",
+   "sponsor": "University of Alabama at Birmingham",
+   "collaborators": [
+    "National Institute on Disability, Independent Living, and Rehabilitation Research",
+    "Posit Science"
+   ],
+   "investigators": [
+    "Gitendra Uswatte"
+   ],
+   "investigator_affiliations": [
+    "Professor of Psychology, University of Alabama at Birmingham"
+   ],
+   "sites": [
+    {
+     "facility": "University of Alabama at Birmingham",
+     "city": "Birmingham",
+     "country": "USA",
+     "status": null
+    }
+   ],
+   "interventions": [
+    "Processing Speed Training",
+    "In-lab Instrumental Activities of Daily Living Training",
+    "In-lab Brain Health Training",
+    "Transfer Package",
+    "Follow Up Phone Calls",
+    "Vocational Rehabilitation",
+    "Peer Mentoring",
+    "Reaction Time Training",
+    "Trans-auricular Vagus Nerve Stimulation: High Intensity",
+    "Trans-auricular Vagus Nerve Stimulation: Low Intensity"
+   ],
+   "enrolment": 40,
+   "source_id": "NCT06095297"
+  },
+  "NCT06142253": {
+   "registry_status": "RECRUITING",
+   "last_update": "2026-06-18",
+   "primary_completion": "2026-12-31",
+   "completion": "2026-12-31",
+   "sponsor": "VA Office of Research and Development",
+   "collaborators": [],
+   "investigators": [
+    "Jennifer Kaci Fairchild"
+   ],
+   "investigator_affiliations": [
+    "VA Palo Alto Health Care System, Palo Alto, CA"
+   ],
+   "sites": [
+    {
+     "facility": "VA Palo Alto Health Care System, Palo Alto, CA",
+     "city": "Palo Alto",
+     "country": "USA",
+     "status": "RECRUITING"
+    }
+   ],
+   "interventions": [
+    "WATER+CT",
+    "Usual Care"
+   ],
+   "enrolment": 50,
+   "source_id": "NCT06142253"
+  },
+  "NCT06156176": {
+   "registry_status": "RECRUITING",
+   "last_update": "2025-08-01",
+   "primary_completion": "2026-04-01",
+   "completion": "2026-04-01",
+   "sponsor": "Lawson Research Institute of St. Joseph's",
+   "collaborators": [
+    "Western University, Canada",
+    "Canadian Institutes of Health Research (CIHR)"
+   ],
+   "investigators": [
+    "Pavlos Bobos"
+   ],
+   "investigator_affiliations": [
+    "Western University"
+   ],
+   "sites": [
+    {
+     "facility": "Parkwood Hospital - St. Joseph's Health Care London",
+     "city": "London",
+     "country": "Canada",
+     "status": "RECRUITING"
+    }
+   ],
+   "interventions": [
+    "COVIDEx"
+   ],
+   "enrolment": 60,
+   "source_id": "NCT06156176"
+  },
+  "NCT06156202": {
+   "registry_status": "COMPLETED",
+   "last_update": "2026-01-20",
+   "primary_completion": "2025-11-30",
+   "completion": "2025-11-30",
+   "sponsor": "University of Pennsylvania",
+   "collaborators": [
+    "Medical College of Wisconsin",
+    "National Institutes of Health (NIH)"
+   ],
+   "investigators": [
+    "Timothy Dillingham"
+   ],
+   "investigator_affiliations": [
+    "University of Pennsylvania"
+   ],
+   "sites": [
+    {
+     "facility": "Hospital of the University of Pennsylvania",
+     "city": "Philadelphia",
+     "country": "USA",
+     "status": null
+    }
+   ],
+   "interventions": [
+    "Comprehensive Rehabilitation",
+    "Augmented Usual Care"
+   ],
+   "enrolment": 125,
+   "source_id": "NCT06156202"
+  },
+  "NCT06168006": {
+   "registry_status": "RECRUITING",
+   "last_update": "2026-02-17",
+   "primary_completion": "2026-06-30",
+   "completion": "2026-06-30",
+   "sponsor": "University of Nove de Julho",
+   "collaborators": [],
+   "investigators": [
+    "Fernanda Corrêa"
+   ],
+   "investigator_affiliations": [
+    "University of Nove de Julho"
+   ],
+   "sites": [
+    {
+     "facility": "Universidade Nove de Julho",
+     "city": "São Paulo",
+     "country": "Brazil",
+     "status": "RECRUITING"
+    }
+   ],
+   "interventions": [
+    "Exercise",
+    "Control"
+   ],
+   "enrolment": 60,
+   "source_id": "NCT06168006"
+  },
+  "NCT06231238": {
+   "registry_status": "ACTIVE_NOT_RECRUITING",
+   "last_update": "2026-07-02",
+   "primary_completion": "2026-05-30",
+   "completion": "2026-08-01",
+   "sponsor": "King's College London",
+   "collaborators": [],
+   "investigators": [],
+   "investigator_affiliations": [],
+   "sites": [
+    {
+     "facility": "King's College London",
+     "city": "Camberwell",
+     "country": "UK",
+     "status": null
+    }
+   ],
+   "interventions": [
+    "Balance Acceptance and Commitment Therapy"
+   ],
+   "enrolment": 196,
+   "source_id": "NCT06231238"
+  },
+  "NCT06251518": {
+   "registry_status": "ACTIVE_NOT_RECRUITING",
+   "last_update": "2025-06-18",
+   "primary_completion": "2025-09",
+   "completion": "2025-12",
+   "sponsor": "Gaia AG",
+   "collaborators": [
+    "Medical School Hamburg",
+    "Institut Long-Covid Rostock"
+   ],
+   "investigators": [
+    "Johanna Schröder"
+   ],
+   "investigator_affiliations": [
+    "Medical School Hamburg"
+   ],
+   "sites": [
+    {
+     "facility": "GAIA",
+     "city": "Hamburg",
+     "country": "Germany",
+     "status": null
+    }
+   ],
+   "interventions": [
+    "vimida"
+   ],
+   "enrolment": 160,
+   "source_id": "NCT06251518"
+  },
+  "NCT06391489": {
+   "registry_status": "ACTIVE_NOT_RECRUITING",
+   "last_update": "2026-02-20",
+   "primary_completion": "2026-12",
+   "completion": "2026-12",
+   "sponsor": "Dartmouth-Hitchcock Medical Center",
+   "collaborators": [],
+   "investigators": [
+    "Elaine T Kiriakopoulos"
+   ],
+   "investigator_affiliations": [
+    "Dartmouth-Hitchcock, Dartmouth College"
+   ],
+   "sites": [
+    {
+     "facility": "Dartmouth-Hitchcock",
+     "city": "Lebanon",
+     "country": "USA",
+     "status": null
+    }
+   ],
+   "interventions": [
+    "HOBSCOTCH-PACS"
+   ],
+   "enrolment": 10,
+   "source_id": "NCT06391489"
+  },
+  "NCT06404060": {
+   "registry_status": "COMPLETED",
+   "last_update": "2026-07-08",
+   "primary_completion": "2026-03-10",
+   "completion": "2026-05-05",
+   "sponsor": "Duke University",
+   "collaborators": [
+    "National Heart, Lung, and Blood Institute (NHLBI)"
+   ],
+   "investigators": [
+    "Gary M Felker",
+    "Barry Make",
+    "Lucinda Bateman"
+   ],
+   "investigator_affiliations": [
+    "Duke Clinical Research Institute",
+    "National Jewish Health",
+    "Bateman Horne Center"
+   ],
+   "sites": [
+    {
+     "facility": "All sites listed under NCT06404047",
+     "city": "Durham",
+     "country": "USA",
+     "status": null
+    }
+   ],
+   "interventions": [
+    "Personalized Cardiopulmonary Rehabilitation",
+    "Education"
+   ],
+   "enrolment": 360,
+   "source_id": "NCT06404060"
+  },
+  "NCT06503874": {
+   "registry_status": "COMPLETED",
+   "last_update": "2026-04-02",
+   "primary_completion": "2026-03-13",
+   "completion": "2026-03-13",
+   "sponsor": "Shirley Ryan AbilityLab",
+   "collaborators": [],
+   "investigators": [
+    "Shira Cohen-Zimerman",
+    "Elliot Roth"
+   ],
+   "investigator_affiliations": [
+    "Shirley Ryan AbilityLab"
+   ],
+   "sites": [
+    {
+     "facility": "Shirley Ryan AbilityLab",
+     "city": "Chicago",
+     "country": "USA",
+     "status": null
+    }
+   ],
+   "interventions": [
+    "Attention Training",
+    "Music Group"
+   ],
+   "enrolment": 58,
+   "source_id": "NCT06503874"
+  },
+  "NCT06503913": {
+   "registry_status": "COMPLETED",
+   "last_update": "2026-05-06",
+   "primary_completion": "2026-03-01",
+   "completion": "2026-03-01",
+   "sponsor": "University of Salford",
+   "collaborators": [],
+   "investigators": [],
+   "investigator_affiliations": [],
+   "sites": [
+    {
+     "facility": "University of Salford",
+     "city": "Manchester",
+     "country": "UK",
+     "status": null
+    }
+   ],
+   "interventions": [
+    "Cognitive Muscular Therapy",
+    "Breathing visualisation"
+   ],
+   "enrolment": 18,
+   "source_id": "NCT06503913"
+  },
+  "NCT06570239": {
+   "registry_status": "UNKNOWN",
+   "last_update": "2024-08-26",
+   "primary_completion": "2026-10-01",
+   "completion": "2026-10-01",
+   "sponsor": "Central Hospital, Nancy, France",
+   "collaborators": [],
+   "investigators": [
+    "Giséle KANNY",
+    "Julie DALCOURT",
+    "Simon RUDYNSKI"
+   ],
+   "investigator_affiliations": [
+    "CHRU de Nancy",
+    "Centre Hospitalier Ouest Vosgien CHOV",
+    "Centre Thermal Saint Eloy-Amnéville"
+   ],
+   "sites": [],
+   "interventions": [
+    "intervention group"
+   ],
+   "enrolment": 200,
+   "source_id": "NCT06570239"
+  },
+  "NCT06614309": {
+   "registry_status": "RECRUITING",
+   "last_update": "2026-06-05",
+   "primary_completion": "2026-12",
+   "completion": "2026-12",
+   "sponsor": "Mayo Clinic",
+   "collaborators": [],
+   "investigators": [
+    "Courtney Wheatley-Guy"
+   ],
+   "investigator_affiliations": [
+    "Mayo Clinic"
+   ],
+   "sites": [
+    {
+     "facility": "Mayo Clinic in Arizona",
+     "city": "Scottsdale",
+     "country": "USA",
+     "status": "RECRUITING"
+    }
+   ],
+   "interventions": [
+    "Acute Placebo Visit",
+    "Acute Progressive Carbon Dioxide",
+    "Acute Intermittent Hypoxia",
+    "Training: Progressive Carbon Dioxide Ramping",
+    "Training: Intermittent Hypoxic Exposure",
+    "Training: Placebo Control"
+   ],
+   "enrolment": 45,
+   "source_id": "NCT06614309"
+  },
+  "NCT06679218": {
+   "registry_status": "NOT_YET_RECRUITING",
+   "last_update": "2024-11-07",
+   "primary_completion": "2025-01-11",
+   "completion": "2025-01-20",
+   "sponsor": "Universidad de Granada",
+   "collaborators": [],
+   "investigators": [
+    "Marie Carmen Valenza"
+   ],
+   "investigator_affiliations": [
+    "Universidad de Granada"
+   ],
+   "sites": [
+    {
+     "facility": "Faculty of Health Sciences. University of Granada",
+     "city": "Granada",
+     "country": "Spain",
+     "status": null
+    }
+   ],
+   "interventions": [
+    "Activity Coaching Programme"
+   ],
+   "enrolment": 60,
+   "source_id": "NCT06679218"
+  },
+  "NCT06822179": {
+   "registry_status": "COMPLETED",
+   "last_update": "2026-10-08",
+   "primary_completion": "2026-06-01",
+   "completion": "2026-09-01",
+   "sponsor": "CEU San Pablo University",
+   "collaborators": [],
+   "investigators": [],
+   "investigator_affiliations": [],
+   "sites": [
+    {
+     "facility": "CEU San Pablo University",
+     "city": "Madrid",
+     "country": "Spain",
+     "status": null
+    }
+   ],
+   "interventions": [
+    "Education for self-management",
+    "Personalised exercise program"
+   ],
+   "enrolment": 57,
+   "source_id": "NCT06822179"
+  },
+  "NCT06871293": {
+   "registry_status": "RECRUITING",
+   "last_update": "2026-04-13",
+   "primary_completion": "2026-12-31",
+   "completion": "2027-01-01",
+   "sponsor": "Fundación Cardioinfantil Instituto de Cardiología",
+   "collaborators": [
+    "Hospital Militar Central, Colombia"
+   ],
+   "investigators": [],
+   "investigator_affiliations": [],
+   "sites": [
+    {
+     "facility": "Fundación Cardioinfantil-Instituto de cardiología",
+     "city": "Bogotá",
+     "country": "Colombia",
+     "status": "RECRUITING"
+    }
+   ],
+   "interventions": [
+    "Functional and cognitive rehabilitation strategy",
+    "Evidence-Based Informational Support"
+   ],
+   "enrolment": 374,
+   "source_id": "NCT06871293"
+  },
+  "NCT06928116": {
+   "registry_status": "RECRUITING",
+   "last_update": "2026-09-28",
+   "primary_completion": "2028-08-31",
+   "completion": "2029-08",
+   "sponsor": "University of Nebraska",
+   "collaborators": [
+    "National Institute on Aging (NIA)"
+   ],
+   "investigators": [
+    "Gwenael Layec"
+   ],
+   "investigator_affiliations": [
+    "University of Nebraska"
+   ],
+   "sites": [
+    {
+     "facility": "University of Nebraska Omaha",
+     "city": "Omaha",
+     "country": "USA",
+     "status": "RECRUITING"
+    }
+   ],
+   "interventions": [
+    "Heat therapy",
+    "Sham Control",
+    "Walking"
+   ],
+   "enrolment": 99,
+   "source_id": "NCT06928116"
+  },
+  "NCT06973018": {
+   "registry_status": "ENROLLING_BY_INVITATION",
+   "last_update": "2025-05-15",
+   "primary_completion": "2025-07-01",
+   "completion": "2027-12-31",
+   "sponsor": "Aniko Bartfai",
+   "collaborators": [
+    "Region Stockholm"
+   ],
+   "investigators": [
+    "Aniko Bartfai"
+   ],
+   "investigator_affiliations": [
+    "Karolinska Institutet Danderyds Sjukhus (KIDS), Department of medical rehabilitation"
+   ],
+   "sites": [
+    {
+     "facility": "Danderyd Hospital",
+     "city": "Stockholm",
+     "country": "Sweden",
+     "status": null
+    }
+   ],
+   "interventions": [
+    "eRehabCog",
+    "CogMed QM"
+   ],
+   "enrolment": 64,
+   "source_id": "NCT06973018"
+  },
+  "NCT07013903": {
+   "registry_status": "RECRUITING",
+   "last_update": "2025-08-28",
+   "primary_completion": "2027-01-31",
+   "completion": "2027-10-31",
+   "sponsor": "Schön Klinik Berchtesgadener Land",
+   "collaborators": [
+    "Bavarian Health and Food Safety Authority (LGL)"
+   ],
+   "investigators": [
+    "Rembert Koczulla"
+   ],
+   "investigator_affiliations": [
+    "Schön Klinik Berchtesgadener Land"
+   ],
+   "sites": [
+    {
+     "facility": "Schön Klinik Berchtesgadener Land",
+     "city": "Schönau am Königssee",
+     "country": "Germany",
+     "status": "RECRUITING"
+    }
+   ],
+   "interventions": [],
+   "enrolment": 50,
+   "source_id": "NCT07013903"
+  },
+  "NCT07046208": {
+   "registry_status": "NOT_YET_RECRUITING",
+   "last_update": "2025-07-01",
+   "primary_completion": "2026-08-10",
+   "completion": "2026-09-30",
+   "sponsor": "Universidade do Estado do Pará",
+   "collaborators": [],
+   "investigators": [
+    "Luiz Fábio Magno Falcão"
+   ],
+   "investigator_affiliations": [],
+   "sites": [],
+   "interventions": [
+    "physiothreapy protocol"
+   ],
+   "enrolment": 58,
+   "source_id": "NCT07046208"
+  },
+  "NCT07079787": {
+   "registry_status": "NOT_YET_RECRUITING",
+   "last_update": "2025-07-23",
+   "primary_completion": "2025-08-18",
+   "completion": "2025-08-29",
+   "sponsor": "University College, London",
+   "collaborators": [
+    "National and Kapodistrian University of Athens",
+    "University Medical Center Freiburg",
+    "King Chulalongkorn Memorial Hospital",
+    "Secretaria Regional de Saúde e Proteção Civil da Região Autónoma da Madeira",
+    "Institute of Communications and Computer Systems, Athens, Greece",
+    "University of Ioannina",
+    "Vilabs",
+    "BioIRC",
+    "Activage",
+    "Institue De Desenvolvimento De Novas Technologiassociacao",
+    "Quantitas SRL",
+    "Instituto para o Desenvolvimento e Inovação",
+    "BRIDG"
+   ],
+   "investigators": [
+    "Doris-Eva Bamiou"
+   ],
+   "investigator_affiliations": [
+    "University College, London"
+   ],
+   "sites": [
+    {
+     "facility": "University Medical Center Freiberg Neurocenter (UKLFR), Freiberg,",
+     "city": "Freiburg im Breisgau",
+     "country": "Germany",
+     "status": null
+    },
+    {
+     "facility": "National and Kapodistrian University of Athens",
+     "city": "Athens",
+     "country": "Greece",
+     "status": null
+    },
+    {
+     "facility": "Secretaria Regional de Saúde e Proteção Civil da Região Autónoma da Madeira",
+     "city": "Madeirã",
+     "country": "Portugal",
+     "status": null
+    },
+    {
+     "facility": "King Chulalongeorn Memorial Hospital",
+     "city": "Bangkok",
+     "country": "Thailand",
+     "status": null
+    },
+    {
+     "facility": "University College London",
+     "city": "London",
+     "country": "UK",
+     "status": null
+    }
+   ],
+   "interventions": [
+    "TeleRehab DSS Pilot Test"
+   ],
+   "enrolment": 30,
+   "source_id": "NCT07079787"
+  },
+  "NCT07140094": {
+   "registry_status": "RECRUITING",
+   "last_update": "2026-08-31",
+   "primary_completion": "2027-05-21",
+   "completion": "2027-11-21",
+   "sponsor": "Columbia University",
+   "collaborators": [],
+   "investigators": [
+    "Deborah Theodore"
+   ],
+   "investigator_affiliations": [
+    "Columbia University"
+   ],
+   "sites": [
+    {
+     "facility": "Columbia University",
+     "city": "New York",
+     "country": "USA",
+     "status": "RECRUITING"
+    }
+   ],
+   "interventions": [
+    "Structured mindfulness intervention"
+   ],
+   "enrolment": 400,
+   "source_id": "NCT07140094"
+  },
+  "NCT07216040": {
+   "registry_status": "NOT_YET_RECRUITING",
+   "last_update": "2026-04-23",
+   "primary_completion": "2026-08-31",
+   "completion": "2026-08-31",
+   "sponsor": "Icahn School of Medicine at Mount Sinai",
+   "collaborators": [],
+   "investigators": [
+    "Eric Watson",
+    "Amelia Hicks"
+   ],
+   "investigator_affiliations": [
+    "Icahn School of Medicine"
+   ],
+   "sites": [
+    {
+     "facility": "Brain Injury Research Center",
+     "city": "New York",
+     "country": "USA",
+     "status": null
+    }
+   ],
+   "interventions": [
+    "HOPE-LC~Espanol"
+   ],
+   "enrolment": 25,
+   "source_id": "NCT07216040"
+  },
+  "NCT07254377": {
+   "registry_status": "ACTIVE_NOT_RECRUITING",
+   "last_update": "2025-12-11",
+   "primary_completion": "2026-03-30",
+   "completion": "2027-02-28",
+   "sponsor": "I.R.C.C.S. Fondazione Santa Lucia",
+   "collaborators": [
+    "Vito Fazzi Hospital",
+    "ASL Frosinone",
+    "Azienda Ospedaliera San Giovanni di Dio Ruggi d'Aragona"
+   ],
+   "investigators": [
+    "Marco Iosa"
+   ],
+   "investigator_affiliations": [
+    "IRRCS Santa Lucia foundation"
+   ],
+   "sites": [
+    {
+     "facility": "IRCCS Fondazione Santa Lucia",
+     "city": "Roma",
+     "country": "Italy",
+     "status": null
+    }
+   ],
+   "interventions": [
+    "Dual Task exercise",
+    "Physical therapy"
+   ],
+   "enrolment": 48,
+   "source_id": "NCT07254377"
+  },
+  "NCT07397910": {
+   "registry_status": "NOT_YET_RECRUITING",
+   "last_update": "2026-02-09",
+   "primary_completion": "2026-07-06",
+   "completion": "2026-08-03",
+   "sponsor": "Universidad Católica San Antonio de Murcia",
+   "collaborators": [],
+   "investigators": [
+    "Francisco Javier López Román"
+   ],
+   "investigator_affiliations": [],
+   "sites": [
+    {
+     "facility": "UCAM HiTech, Sport & Health Innovation Hub",
+     "city": "Murcia",
+     "country": "Spain",
+     "status": null
+    }
+   ],
+   "interventions": [
+    "Experimental Product",
+    "Control placebo",
+    "Physical exercise",
+    "No Physical Exercise"
+   ],
+   "enrolment": 40,
+   "source_id": "NCT07397910"
+  },
+  "NCT07530757": {
+   "registry_status": "RECRUITING",
+   "last_update": "2026-09-11",
+   "primary_completion": "2026-11",
+   "completion": "2027-04",
+   "sponsor": "Fundación FLS de Lucha Contra el Sida, las Enfermedades Infecciosas y la Promoción de la Salud y la Ciencia",
+   "collaborators": [
+    "Fundació Institut Germans Trias i Pujol"
+   ],
+   "investigators": [
+    "Anna Prats"
+   ],
+   "investigator_affiliations": [
+    "Fundació Lluita contra les Infeccions"
+   ],
+   "sites": [
+    {
+     "facility": "Fundació Lluita contra les Infeccions - Hospital Universitari Germans Trias i Pujol",
+     "city": "Badalona",
+     "country": "Spain",
+     "status": "RECRUITING"
+    }
+   ],
+   "interventions": [
+    "SuperCAP intervention program",
+    "Psychoeducational intervention"
+   ],
+   "enrolment": 100,
+   "source_id": "NCT07530757"
+  },
+  "NCT07697261": {
+   "registry_status": "NOT_YET_RECRUITING",
+   "last_update": "2026-07-13",
+   "primary_completion": "2028-12",
+   "completion": "2028-12",
+   "sponsor": "McMaster University",
+   "collaborators": [
+    "Hamilton Academic Health Sciences Organization"
+   ],
+   "investigators": [
+    "Jason Busse"
+   ],
+   "investigator_affiliations": [],
+   "sites": [],
+   "interventions": [
+    "Lightning Process",
+    "Activity Pacing"
+   ],
+   "enrolment": 100,
+   "source_id": "NCT07697261"
+  },
+  "NCT07726082": {
+   "registry_status": "RECRUITING",
+   "last_update": "2026-08-18",
+   "primary_completion": "2027-08",
+   "completion": "2027-08",
+   "sponsor": "University Hospital, Basel, Switzerland",
+   "collaborators": [
+    "Kämpf- Bötschi Stiftung",
+    "propatient Forschungsstiftung"
+   ],
+   "investigators": [
+    "Katrin Bopp"
+   ],
+   "investigator_affiliations": [
+    "University Hospital, Basel, Switzerland"
+   ],
+   "sites": [
+    {
+     "facility": "University Hospital Basel",
+     "city": "Basel",
+     "country": "Switzerland",
+     "status": "RECRUITING"
+    }
+   ],
+   "interventions": [
+    "Micro-choice-based intervention"
+   ],
+   "enrolment": 24,
+   "source_id": "NCT07726082"
+  },
+  "NCT04890483": {
+   "registry_status": "RECRUITING",
+   "last_update": "2024-12-05",
+   "primary_completion": "2024-05-06",
+   "completion": "2024-12-04",
+   "sponsor": "University of Sao Paulo",
+   "collaborators": [],
+   "investigators": [
+    "Samuel K Shinjo"
+   ],
+   "investigator_affiliations": [
+    "Sao Paulo University"
+   ],
+   "sites": [
+    {
+     "facility": "Samuel K Shinjo",
+     "city": "São Paulo",
+     "country": "Brazil",
+     "status": "RECRUITING"
+    }
+   ],
+   "interventions": [
+    "Transcranial direct current stimulation"
+   ],
+   "enrolment": 20,
+   "source_id": "NCT04890483"
+  },
+  "NCT04978571": {
+   "registry_status": "RECRUITING",
+   "last_update": "2026-10-21",
+   "primary_completion": "2026-12",
+   "completion": "2027-01",
+   "sponsor": "Children's Hospital of Orange County",
+   "collaborators": [],
+   "investigators": [
+    "Ashish Chogle"
+   ],
+   "investigator_affiliations": [],
+   "sites": [
+    {
+     "facility": "CHOC Children's",
+     "city": "Orange",
+     "country": "USA",
+     "status": "RECRUITING"
+    }
+   ],
+   "interventions": [
+    "percutaneous electrical nerve-field stimulation, PENFS",
+    "percutaneous electrical nerve-field stimulation, PENFS (sham device)",
+    "percutaneous electrical nerve-field stimulation, PENFS (COVID active device)"
+   ],
+   "enrolment": 125,
+   "source_id": "NCT04978571"
+  },
+  "NCT05931497": {
+   "registry_status": "RECRUITING",
+   "last_update": "2025-11-13",
+   "primary_completion": "2026-09-30",
+   "completion": "2026-12-01",
+   "sponsor": "Massachusetts General Hospital",
+   "collaborators": [
+    "University of California, San Francisco"
+   ],
+   "investigators": [
+    "Maren Nyer"
+   ],
+   "investigator_affiliations": [],
+   "sites": [
+    {
+     "facility": "Depression Clinical and Research Program",
+     "city": "Boston",
+     "country": "USA",
+     "status": "RECRUITING"
+    }
+   ],
+   "interventions": [
+    "whole body hyperthermia"
+   ],
+   "enrolment": 21,
+   "source_id": "NCT05931497"
+  },
+  "NCT06178952": {
+   "registry_status": "RECRUITING",
+   "last_update": "2025-12-23",
+   "primary_completion": "2027-01",
+   "completion": "2027-01",
+   "sponsor": "Medical University of Vienna",
+   "collaborators": [],
+   "investigators": [
+    "Roland Beisteiner"
+   ],
+   "investigator_affiliations": [
+    "Medical University of Vienna"
+   ],
+   "sites": [
+    {
+     "facility": "Medical University of Vienna",
+     "city": "Vienna",
+     "country": "Austria",
+     "status": "RECRUITING"
+    }
+   ],
+   "interventions": [
+    "Transcranial pulse stimulation Verum",
+    "Transcranial pulse stimulation Sham"
+   ],
+   "enrolment": 102,
+   "source_id": "NCT06178952"
+  },
+  "NCT06183424": {
+   "registry_status": "RECRUITING",
+   "last_update": "2025-05-02",
+   "primary_completion": "2024-10-01",
+   "completion": "2025-12-01",
+   "sponsor": "Istanbul Medipol University Hospital",
+   "collaborators": [
+    "Alanya Alaaddin Keykubat University"
+   ],
+   "investigators": [
+    "Burak Yuluğ"
+   ],
+   "investigator_affiliations": [
+    "Alanya Alaaddin Keykubat Üniversitesi"
+   ],
+   "sites": [
+    {
+     "facility": "Alanya Alaaddin Keykubat Üniversitesi",
+     "city": "Antalya",
+     "country": "Turkey (Türkiye)",
+     "status": "RECRUITING"
+    }
+   ],
+   "interventions": [
+    "Transcranial Direct Stimulation"
+   ],
+   "enrolment": 50,
+   "source_id": "NCT06183424"
+  },
+  "NCT06510985": {
+   "registry_status": "ACTIVE_NOT_RECRUITING",
+   "last_update": "2026-09-09",
+   "primary_completion": "2027-05",
+   "completion": "2027-05",
+   "sponsor": "University Hospital Tuebingen",
+   "collaborators": [],
+   "investigators": [
+    "Nils B. Kroemer",
+    "Andreas J. Fallgatter"
+   ],
+   "investigator_affiliations": [
+    "Department of Psychiatry & Psychotherapy, University of Tübingen,Tübingen, 72076"
+   ],
+   "sites": [
+    {
+     "facility": "Translational Psychiatry, Department of Psychiatry and Psychotherapy, University Hosptial Tübingen",
+     "city": "Tübingen",
+     "country": "Germany",
+     "status": null
+    }
+   ],
+   "interventions": [
+    "transcutaneous vagus nerve stimulation",
+    "Monitoring",
+    "cardiowatch bracelet"
+   ],
+   "enrolment": 120,
+   "source_id": "NCT06510985"
+  },
+  "NCT06544395": {
+   "registry_status": "NOT_YET_RECRUITING",
+   "last_update": "2025-09-18",
+   "primary_completion": "2026-12-01",
+   "completion": "2026-12-30",
+   "sponsor": "Clinica Gema Leon",
+   "collaborators": [],
+   "investigators": [
+    "GEMA LEÓN BRAVO"
+   ],
+   "investigator_affiliations": [
+    "Departamento de Enfermería, Farmacología y Fisioterapia de la Universidad de Córdoba"
+   ],
+   "sites": [
+    {
+     "facility": "Gema León Physiotherapy and Rehabilitation Clinic",
+     "city": "Córdoba",
+     "country": "Spain",
+     "status": null
+    }
+   ],
+   "interventions": [
+    "Non invasive neuromodulation therapy",
+    "Manual therapy",
+    "Placebo with non invasive neuromodulation"
+   ],
+   "enrolment": 104,
+   "source_id": "NCT06544395"
+  },
+  "NCT06586398": {
+   "registry_status": "COMPLETED",
+   "last_update": "2026-07-06",
+   "primary_completion": "2026-03-01",
+   "completion": "2026-03-01",
+   "sponsor": "University of California, Los Angeles",
+   "collaborators": [],
+   "investigators": [
+    "Helen Lavretsky"
+   ],
+   "investigator_affiliations": [
+    "University of California, Los Angeles"
+   ],
+   "sites": [
+    {
+     "facility": "UCLA Semel Institute",
+     "city": "Los Angeles",
+     "country": "USA",
+     "status": null
+    }
+   ],
+   "interventions": [
+    "rTMS"
+   ],
+   "enrolment": 10,
+   "source_id": "NCT06586398"
+  },
+  "NCT06739668": {
+   "registry_status": "COMPLETED",
+   "last_update": "2026-02-02",
+   "primary_completion": "2025-12-01",
+   "completion": "2025-12-01",
+   "sponsor": "Icahn School of Medicine at Mount Sinai",
+   "collaborators": [
+    "Humanity Neurotech Inc."
+   ],
+   "investigators": [
+    "David Putrino"
+   ],
+   "investigator_affiliations": [
+    "Icahn School of Medicine at Mount Sinai"
+   ],
+   "sites": [
+    {
+     "facility": "The Cohen Center for Recovery from Complex Chronic Illnesses (CoRE)",
+     "city": "New York",
+     "country": "USA",
+     "status": null
+    }
+   ],
+   "interventions": [
+    "Pascal device",
+    "Sham Device"
+   ],
+   "enrolment": 30,
+   "source_id": "NCT06739668"
+  },
+  "NCT06928506": {
+   "registry_status": "RECRUITING",
+   "last_update": "2026-10-22",
+   "primary_completion": "2028-02",
+   "completion": "2029-04",
+   "sponsor": "University Health Network, Toronto",
+   "collaborators": [],
+   "investigators": [
+    "Angela M Cheung"
+   ],
+   "investigator_affiliations": [
+    "University Health Network, Toronto"
+   ],
+   "sites": [
+    {
+     "facility": "Kaye Edmonton Clinic",
+     "city": "Edmonton",
+     "country": "Canada",
+     "status": "RECRUITING"
+    },
+    {
+     "facility": "University Health Network",
+     "city": "Toronto",
+     "country": "Canada",
+     "status": "RECRUITING"
+    },
+    {
+     "facility": "Centre Hospitalier Universitaire de Sherbrooke",
+     "city": "Sherbrooke",
+     "country": "Canada",
+     "status": "RECRUITING"
+    }
+   ],
+   "interventions": [
+    "Hi-OxSR device",
+    "Hi-Ox device"
+   ],
+   "enrolment": 120,
+   "source_id": "NCT06928506"
+  },
+  "NCT06996314": {
+   "registry_status": "NOT_YET_RECRUITING",
+   "last_update": "2025-06-04",
+   "primary_completion": "2028-03-01",
+   "completion": "2028-08-31",
+   "sponsor": "Ali Kapan",
+   "collaborators": [],
+   "investigators": [
+    "Ali Kapan"
+   ],
+   "investigator_affiliations": [
+    "Medical University of Vienna, Center for Public Health,"
+   ],
+   "sites": [],
+   "interventions": [
+    "TVNS + Slow-Paced Breathing (TVNS+SDB)",
+    "TVNS without Breathing Training (TVNS+NB)",
+    "Sham TVNS + SDB",
+    "Sham TVNS + NB"
+   ],
+   "enrolment": 100,
+   "source_id": "NCT06996314"
+  },
+  "NCT07005921": {
+   "registry_status": "COMPLETED",
+   "last_update": "2026-09-25",
+   "primary_completion": "2026-08-14",
+   "completion": "2026-08-14",
+   "sponsor": "Jade Carvalho Da Silva",
+   "collaborators": [
+    "Santos Dumont Institute"
+   ],
+   "investigators": [
+    "Jade Carvalho Da Silva"
+   ],
+   "investigator_affiliations": [],
+   "sites": [
+    {
+     "facility": "Santos Dumont Institute",
+     "city": "Macaíba",
+     "country": "Brazil",
+     "status": null
+    }
+   ],
+   "interventions": [
+    "qEEG-neurofeedback",
+    "SHAM qEEG-neurofeedback"
+   ],
+   "enrolment": 40,
+   "source_id": "NCT07005921"
+  },
+  "NCT07154199": {
+   "registry_status": "RECRUITING",
+   "last_update": "2025-09-04",
+   "primary_completion": "2027-12",
+   "completion": "2027-12",
+   "sponsor": "Xuanwu Hospital, Beijing",
+   "collaborators": [],
+   "investigators": [
+    "Yi Tang"
+   ],
+   "investigator_affiliations": [
+    "Xuanwu Hospital, Beijing"
+   ],
+   "sites": [
+    {
+     "facility": "Xuanwu Hospital, Capital Medical University",
+     "city": "Beijing",
+     "country": "China",
+     "status": "RECRUITING"
+    },
+    {
+     "facility": "Shandong Daizhuang Hospital",
+     "city": "Jining",
+     "country": "China",
+     "status": "RECRUITING"
+    }
+   ],
+   "interventions": [
+    "sham transcranial ultrasound stimulation",
+    "real transcranial ultrasound stimulation"
+   ],
+   "enrolment": 40,
+   "source_id": "NCT07154199"
+  },
+  "NCT07190105": {
+   "registry_status": "COMPLETED",
+   "last_update": "2026-01-07",
+   "primary_completion": "2025-12-11",
+   "completion": "2025-12-11",
+   "sponsor": "Leidos Life Sciences",
+   "collaborators": [],
+   "investigators": [],
+   "investigator_affiliations": [],
+   "sites": [
+    {
+     "facility": "Virtual",
+     "city": "Frederick",
+     "country": "USA",
+     "status": null
+    }
+   ],
+   "interventions": [
+    "Sonocea Sonic Augmentation Technology (SAT)",
+    "Truvaga Electrical Vagus Nerve Stimulator"
+   ],
+   "enrolment": 546,
+   "source_id": "NCT07190105"
+  },
+  "NCT07278206": {
+   "registry_status": "RECRUITING",
+   "last_update": "2025-12-19",
+   "primary_completion": "2028-11-17",
+   "completion": "2029-05-12",
+   "sponsor": "Amsterdam UMC, location VUmc",
+   "collaborators": [
+    "ZonMw: The Netherlands Organisation for Health Research and Development",
+    "Post Covid Netwerk Nederland"
+   ],
+   "investigators": [
+    "Sander C.J. Verfaillie",
+    "Odile A van den Heuvel",
+    "Ysbrand D van der Werf"
+   ],
+   "investigator_affiliations": [
+    "Amsterdam UMC, GGZ InGeest",
+    "Amsterdam UMC",
+    "University of Amsterdam, Amsterdam UMC"
+   ],
+   "sites": [
+    {
+     "facility": "Amsterdam UMC",
+     "city": "Amsterdam",
+     "country": "Netherlands",
+     "status": "RECRUITING"
+    }
+   ],
+   "interventions": [
+    "Repetitive Transcranial Magnetic Stimulation",
+    "Sham device"
+   ],
+   "enrolment": 66,
+   "source_id": "NCT07278206"
+  },
+  "NCT07312357": {
+   "registry_status": "NOT_YET_RECRUITING",
+   "last_update": "2025-12-31",
+   "primary_completion": "2026-09",
+   "completion": "2026-12",
+   "sponsor": "Universidad Rey Juan Carlos",
+   "collaborators": [],
+   "investigators": [
+    "María Del Pilar Rodríguez Pérez"
+   ],
+   "investigator_affiliations": [],
+   "sites": [],
+   "interventions": [
+    "Whole-Body Electromyostimulation Suit"
+   ],
+   "enrolment": 30,
+   "source_id": "NCT07312357"
+  },
+  "NCT07709234": {
+   "registry_status": "NOT_YET_RECRUITING",
+   "last_update": "2026-07-22",
+   "primary_completion": "2027-12-22",
+   "completion": "2028-03-01",
+   "sponsor": "University of Las Palmas de Gran Canaria",
+   "collaborators": [
+    "Fundación Canaria Instituto de Investigación Sanitaria de Canarias",
+    "Canary Islands Health Service"
+   ],
+   "investigators": [
+    "Juan Francisco Vigueras"
+   ],
+   "investigator_affiliations": [
+    "Canary Islands Health Service"
+   ],
+   "sites": [],
+   "interventions": [
+    "Transcranial Direct Current Stimulation"
+   ],
+   "enrolment": 20,
+   "source_id": "NCT07709234"
+  },
+  "NCT07880171": {
+   "registry_status": "COMPLETED",
+   "last_update": "2026-10-19",
+   "primary_completion": "2026-01-25",
+   "completion": "2026-01-29",
+   "sponsor": "Hospital de Basurto",
+   "collaborators": [],
+   "investigators": [
+    "Markel Erburu"
+   ],
+   "investigator_affiliations": [],
+   "sites": [
+    {
+     "facility": "Hospital Universitario Basurto - Osakidetza / Basurto University Hospital - Basque Health System",
+     "city": "Bilbao",
+     "country": "Spain",
+     "status": null
+    }
+   ],
+   "interventions": [
+    "Transcranial Direct Current Stimulation"
+   ],
+   "enrolment": 40,
+   "source_id": "NCT07880171"
+  },
+  "ISRCTN46454974": {
+   "registry_status": "Completed (end date passed)",
+   "completion": "2026-07-31",
+   "sponsor": "University of Leicester",
+   "collaborators": [],
+   "funders": [
+    "Genentech Roche"
+   ],
+   "investigators": [
+    "Victoria Harris",
+    "Rachael Evans"
+   ],
+   "sites": [
+    {
+     "facility": "University Hospitals of Leicester NHS Trust",
+     "city": "Leicester",
+     "country": "UK"
+    },
+    {
+     "facility": "Guy's & St Thomas Hospital",
+     "city": "London",
+     "country": "UK"
+    },
+    {
+     "facility": "Kings College Hospital",
+     "city": "London",
+     "country": "UK"
+    },
+    {
+     "facility": "NIHR University College London Hospitals Clinical Research Facility",
+     "city": "London",
+     "country": "UK"
+    },
+    {
+     "facility": "Oxford University Hospitals NHS Foundation Trust",
+     "city": "Oxford",
+     "country": "UK"
+    },
+    {
+     "facility": "Sheffield Teaching Hospitals NHS Foundation Trust",
+     "city": "Sheffield",
+     "country": "UK"
+    },
+    {
+     "facility": "Cambridge University Hospitals NHS Foundation Trust",
+     "city": "Cambridge",
+     "country": "UK"
+    },
+    {
+     "facility": "University Hospitals Birmingham NHS Foundation Trust",
+     "city": "Birmingham",
+     "country": "UK"
+    },
+    {
+     "facility": "Glasgow Royal Infirmary",
+     "city": "Glasgow",
+     "country": "UK"
+    },
+    {
+     "facility": "Manchester University Hospitals NHS Foundation Trust",
+     "city": "Manchester",
+     "country": "UK"
+    },
+    {
+     "facility": "Northern Care Alliance NHS Foundation Trust",
+     "city": "Salford",
+     "country": "UK"
+    },
+    {
+     "facility": "Cardiff and Vale University Health Board",
+     "city": "Cardiff",
+     "country": "UK"
+    },
+    {
+     "facility": "North Bristol NHS Trust",
+     "city": "Bristol",
+     "country": "UK"
+    },
+    {
+     "facility": "University Hospitals Coventry and Warwickshire",
+     "city": "Coventry",
+     "country": "UK"
+    }
+   ],
+   "enrolment": null,
+   "source_id": "ISRCTN46454974"
+  },
+  "NCT05350774": {
+   "registry_status": "ENROLLING_BY_INVITATION",
+   "last_update": "2026-11-03",
+   "primary_completion": "2026-12-15",
+   "completion": "2026-12-15",
+   "sponsor": "National Institute of Neurological Disorders and Stroke (NINDS)",
+   "collaborators": [],
+   "investigators": [
+    "Avindra Nath"
+   ],
+   "investigator_affiliations": [
+    "National Institute of Neurological Disorders and Stroke (NINDS)"
+   ],
+   "sites": [
+    {
+     "facility": "National Institutes of Health Clinical Center",
+     "city": "Bethesda",
+     "country": "USA",
+     "status": null
+    }
+   ],
+   "interventions": [
+    "IV normal saline",
+    "IV immunoglobulin"
+   ],
+   "enrolment": 45,
+   "source_id": "NCT05350774"
+  },
+  "NCT05747534": {
+   "registry_status": "COMPLETED",
+   "last_update": "2026-08-18",
+   "primary_completion": "2026-06-18",
+   "completion": "2026-06-18",
+   "sponsor": "Massachusetts General Hospital",
+   "collaborators": [],
+   "investigators": [
+    "Lael Yonker"
+   ],
+   "investigator_affiliations": [],
+   "sites": [
+    {
+     "facility": "Massachusetts General Hospital",
+     "city": "Boston",
+     "country": "USA",
+     "status": null
+    }
+   ],
+   "interventions": [
+    "Larazotide Acetate",
+    "Placebo"
+   ],
+   "enrolment": 107,
+   "source_id": "NCT05747534"
+  },
+  "NCT05926505": {
+   "registry_status": "RECRUITING",
+   "last_update": "2026-01-08",
+   "primary_completion": "2028-03",
+   "completion": "2028-03",
+   "sponsor": "Hellenic Institute for the Study of Sepsis",
+   "collaborators": [],
+   "investigators": [
+    "Evangelos Giamarelos-Bourboulis"
+   ],
+   "investigator_affiliations": [
+    "Hellenic Institute for the Study of Sepsis"
+   ],
+   "sites": [
+    {
+     "facility": "Out-patient long-COVID department, Jena University Hospital",
+     "city": "Jena",
+     "country": "Germany",
+     "status": "NOT_YET_RECRUITING"
+    },
+    {
+     "facility": "Out-patient long-COVID department, Patras University General Hospital",
+     "city": "Pátrai",
+     "country": "Greece",
+     "status": "RECRUITING"
+    },
+    {
+     "facility": "Out-patient long-COVID department III, Evangelismos Athens General Hospital",
+     "city": "Athens",
+     "country": "Greece",
+     "status": "NOT_YET_RECRUITING"
+    },
+    {
+     "facility": "Out-patient long-COVID department I, Sotiria Athens Hospital of Chest Diseases",
+     "city": "Athens",
+     "country": "Greece",
+     "status": "RECRUITING"
+    },
+    {
+     "facility": "Out-patient long-COVID department II, Sotiria Athens Hospital of Chest Diseases",
+     "city": "Athens",
+     "country": "Greece",
+     "status": "RECRUITING"
+    },
+    {
+     "facility": "Out-patient long-COVID department IV, Sotiria Athens Hospital of Chest Diseases",
+     "city": "Athens",
+     "country": "Greece",
+     "status": "RECRUITING"
+    },
+    {
+     "facility": "Out-patient long-COVID department, Laiko General Hospital",
+     "city": "Athens",
+     "country": "Greece",
+     "status": "RECRUITING"
+    },
+    {
+     "facility": "2nd Department of Propedeutic Medicine, ATTIKON University General Hospital",
+     "city": "Chaïdári",
+     "country": "Greece",
+     "status": "RECRUITING"
+    },
+    {
+     "facility": "4th Department of Internal Medicine, ATTIKON University General Hospital",
+     "city": "Chaïdári",
+     "country": "Greece",
+     "status": "RECRUITING"
+    },
+    {
+     "facility": "Out-patient long-COVID department, Ioannina University General Hospital",
+     "city": "Ioannina",
+     "country": "Greece",
+     "status": "RECRUITING"
+    },
+    {
+     "facility": "Out-patient long-COVID department, Tzaneion Piraeus General Hospital",
+     "city": "Piraeus",
+     "country": "Greece",
+     "status": "RECRUITING"
+    },
+    {
+     "facility": "Out-patient long-COVID department, Alexandroupolis University General Hospital",
+     "city": "Alexandroupoli",
+     "country": "Greece",
+     "status": "RECRUITING"
+    },
+    {
+     "facility": "Out-patient long-COVID department X, Sotiria Athens Hospital of Chest Diseases",
+     "city": "Athens",
+     "country": "Greece",
+     "status": "RECRUITING"
+    },
+    {
+     "facility": "Out-patient long-COVID department, University Hospital of Larissa",
+     "city": "Larissa",
+     "country": "Greece",
+     "status": "NOT_YET_RECRUITING"
+    },
+    {
+     "facility": "Out-patient long-COVID department II, Thriasio General Hospital of Elefsina",
+     "city": "Magoula",
+     "country": "Greece",
+     "status": "RECRUITING"
+    },
+    {
+     "facility": "Out-patient long-COVID department I, Thriasio General Hospital of Elefsina",
+     "city": "Magoula",
+     "country": "Greece",
+     "status": "RECRUITING"
+    },
+    {
+     "facility": "Out-patient long-COVID department, AHEPA Hospital of Thessaloniki",
+     "city": "Thessaloniki",
+     "country": "Greece",
+     "status": "RECRUITING"
+    },
+    {
+     "facility": "Infectious Diseases Clinic, Ospedale Policlinico San Martino IRCCS and Department of Health Sciences, University of Genova, Genoa, Italy",
+     "city": "Genova",
+     "country": "Italy",
+     "status": "NOT_YET_RECRUITING"
+    },
+    {
+     "facility": "Department of Internal Medicine, Hospital of Jesolo, Italy",
+     "city": "Jesolo",
+     "country": "Italy",
+     "status": "NOT_YET_RECRUITING"
+    },
+    {
+     "facility": "Unit of Immunology, Rheumatology, Allergy and Rare Diseases (UnIRAR), IRCCS Ospedale San Raffaele & Vita-Salute San Raffaele University, Milan, Italy",
+     "city": "Milan",
+     "country": "Italy",
+     "status": "NOT_YET_RECRUITING"
+    },
+    {
+     "facility": "Infectious Diseases Clinic, University of Modena, Italy",
+     "city": "Modena",
+     "country": "Italy",
+     "status": "NOT_YET_RECRUITING"
+    },
+    {
+     "facility": "Dipartimento Scienze di Laboratorio e Infettivologiche - Fondazione Policlinico Gemelli IRCCS, Roma Italy",
+     "city": "Rome",
+     "country": "Italy",
+     "status": "NOT_YET_RECRUITING"
+    },
+    {
+     "facility": "ID Respiratory Unit, Spallanzani Institute of Rome, Italy",
+     "city": "Rome",
+     "country": "Italy",
+     "status": "NOT_YET_RECRUITING"
+    },
+    {
+     "facility": "Department of Pulmonary Medicine, Barcelona University Hospital",
+     "city": "Barcelona",
+     "country": "Spain",
+     "status": "NOT_YET_RECRUITING"
+    }
+   ],
+   "interventions": [
+    "Placebo",
+    "Anakinra 149 MG/ML Prefilled Syringe [Kineret]"
+   ],
+   "enrolment": 182,
+   "source_id": "NCT05926505"
+  },
+  "NCT06156241": {
+   "registry_status": "UNKNOWN",
+   "last_update": "2023-12-05",
+   "primary_completion": "2025-12",
+   "completion": "2026-02",
+   "sponsor": "Charles Cox",
+   "collaborators": [
+    "CBR Systems, Inc."
+   ],
+   "investigators": [
+    "Charles S. Cox"
+   ],
+   "investigator_affiliations": [
+    "The Univ. of Tx. Health Science Center- Houston"
+   ],
+   "sites": [
+    {
+     "facility": "The University of Texas Health Science Center at Houston",
+     "city": "Houston",
+     "country": "USA",
+     "status": null
+    }
+   ],
+   "interventions": [
+    "Stem Cell"
+   ],
+   "enrolment": 12,
+   "source_id": "NCT06156241"
+  },
+  "NCT06305793": {
+   "registry_status": "COMPLETED",
+   "last_update": "2026-07-31",
+   "primary_completion": "2026-03-23",
+   "completion": "2026-06-22",
+   "sponsor": "Kanecia Obie Zimmerman",
+   "collaborators": [],
+   "investigators": [
+    "Christopher Grainger",
+    "Cyndya Shibao",
+    "Peter Novak"
+   ],
+   "investigator_affiliations": [
+    "Duke Clinical Research Institute",
+    "Vanderbilt University Medical Center",
+    "Harvard"
+   ],
+   "sites": [
+    {
+     "facility": "All sites listed under NCT06305780",
+     "city": "Durham",
+     "country": "USA",
+     "status": null
+    }
+   ],
+   "interventions": [
+    "IVIG (intravenous immunoglobulin)",
+    "IVIG Placebo",
+    "Coordinated Care",
+    "Usual Care"
+   ],
+   "enrolment": 200,
+   "source_id": "NCT06305793"
+  },
+  "NCT06597396": {
+   "registry_status": "ACTIVE_NOT_RECRUITING",
+   "last_update": "2026-04-20",
+   "primary_completion": "2026-03-27",
+   "completion": "2026-09-30",
+   "sponsor": "Beth Israel Deaconess Medical Center",
+   "collaborators": [
+    "Pfizer"
+   ],
+   "investigators": [
+    "Dan Barouch"
+   ],
+   "investigator_affiliations": [],
+   "sites": [
+    {
+     "facility": "Beth Israel Deaconess Medical Center",
+     "city": "Boston",
+     "country": "USA",
+     "status": null
+    }
+   ],
+   "interventions": [
+    "Abrocitinib",
+    "Placebo"
+   ],
+   "enrolment": 46,
+   "source_id": "NCT06597396"
+  },
+  "NCT06597682": {
+   "registry_status": "NOT_YET_RECRUITING",
+   "last_update": "2025-03-06",
+   "primary_completion": "2027-07",
+   "completion": "2027-07",
+   "sponsor": "Huashan Hospital",
+   "collaborators": [],
+   "investigators": [
+    "Wen-hong Zhang"
+   ],
+   "investigator_affiliations": [],
+   "sites": [
+    {
+     "facility": "Huashan Hospital of Fudan University",
+     "city": "Shanghai",
+     "country": "China",
+     "status": null
+    }
+   ],
+   "interventions": [
+    "Prednisone",
+    "Budesonide/Formoterol",
+    "Vitamin C combined with Coenzyme Q10 oral treatment",
+    "Montelukast tablets oral treatment"
+   ],
+   "enrolment": 632,
+   "source_id": "NCT06597682"
+  },
+  "NCT06631287": {
+   "registry_status": "RECRUITING",
+   "last_update": "2026-09-25",
+   "primary_completion": "2026-11-01",
+   "completion": "2027-07-01",
+   "sponsor": "Wes Ely",
+   "collaborators": [
+    "National Institutes of Health (NIH)",
+    "National Institute on Aging (NIA)"
+   ],
+   "investigators": [
+    "Wes Ely"
+   ],
+   "investigator_affiliations": [
+    "Vanderbilt University Medical Center"
+   ],
+   "sites": [
+    {
+     "facility": "University of Arizona",
+     "city": "Tucson",
+     "country": "USA",
+     "status": "RECRUITING"
+    },
+    {
+     "facility": "University of California, Los Angeles (UCLA)",
+     "city": "Los Angeles",
+     "country": "USA",
+     "status": "RECRUITING"
+    },
+    {
+     "facility": "University of California San Francisco",
+     "city": "San Francisco",
+     "country": "USA",
+     "status": "RECRUITING"
+    },
+    {
+     "facility": "University of Colorado I Anschutz Medical Campus",
+     "city": "Aurora",
+     "country": "USA",
+     "status": "RECRUITING"
+    },
+    {
+     "facility": "Yale University",
+     "city": "New Haven",
+     "country": "USA",
+     "status": "RECRUITING"
+    },
+    {
+     "facility": "University of Florida College of Medicine",
+     "city": "Gainesville",
+     "country": "USA",
+     "status": "RECRUITING"
+    },
+    {
+     "facility": "Emory University",
+     "city": "Atlanta",
+     "country": "USA",
+     "status": "RECRUITING"
+    },
+    {
+     "facility": "Illinois Research Network (ILLInet), University of Illinois Chicago",
+     "city": "Chicago",
+     "country": "USA",
+     "status": "RECRUITING"
+    },
+    {
+     "facility": "Brigham and Women's Hospital",
+     "city": "Boston",
+     "country": "USA",
+     "status": "RECRUITING"
+    },
+    {
+     "facility": "University of Minnesota",
+     "city": "Minneapolis",
+     "country": "USA",
+     "status": "RECRUITING"
+    },
+    {
+     "facility": "NYU Langone Health - Brooklyn",
+     "city": "Brooklyn",
+     "country": "USA",
+     "status": "RECRUITING"
+    },
+    {
+     "facility": "University Hospitals Cleveland Case Western",
+     "city": "Cleveland",
+     "country": "USA",
+     "status": "RECRUITING"
+    },
+    {
+     "facility": "The MetroHealth System",
+     "city": "Cleveland",
+     "country": "USA",
+     "status": "RECRUITING"
+    },
+    {
+     "facility": "Vanderbilt University Medical",
+     "city": "Nashville",
+     "country": "USA",
+     "status": "RECRUITING"
+    },
+    {
+     "facility": "University of Texas at San Antonio",
+     "city": "San Antonio",
+     "country": "USA",
+     "status": "RECRUITING"
+    },
+    {
+     "facility": "Swedish Medical Center",
+     "city": "Seattle",
+     "country": "USA",
+     "status": "RECRUITING"
+    },
+    {
+     "facility": "West Virginia Clinical and Translational Science Institute",
+     "city": "Morgantown",
+     "country": "USA",
+     "status": "RECRUITING"
+    }
+   ],
+   "interventions": [
+    "Baricitinib"
+   ],
+   "enrolment": 550,
+   "source_id": "NCT06631287"
+  },
+  "NCT06847191": {
+   "registry_status": "COMPLETED",
+   "last_update": "2026-09-22",
+   "primary_completion": "2026-08-06",
+   "completion": "2026-09-02",
+   "sponsor": "BioVie Inc.",
+   "collaborators": [],
+   "investigators": [],
+   "investigator_affiliations": [],
+   "sites": [
+    {
+     "facility": "Stanford University",
+     "city": "Palo Alto",
+     "country": "USA",
+     "status": null
+    },
+    {
+     "facility": "UCSF",
+     "city": "San Francisco",
+     "country": "USA",
+     "status": null
+    },
+    {
+     "facility": "University of Colorado",
+     "city": "Aurora",
+     "country": "USA",
+     "status": null
+    },
+    {
+     "facility": "Yale University",
+     "city": "New Haven",
+     "country": "USA",
+     "status": null
+    },
+    {
+     "facility": "Clinical Trial Site",
+     "city": "Jacksonville",
+     "country": "USA",
+     "status": null
+    },
+    {
+     "facility": "Centricity Research",
+     "city": "Columbus",
+     "country": "USA",
+     "status": null
+    },
+    {
+     "facility": "Illinois Research Network University of Illinois at Chicago",
+     "city": "Chicago",
+     "country": "USA",
+     "status": null
+    },
+    {
+     "facility": "Northwestern University",
+     "city": "Chicago",
+     "country": "USA",
+     "status": null
+    },
+    {
+     "facility": "University of Iowa",
+     "city": "Iowa City",
+     "country": "USA",
+     "status": null
+    },
+    {
+     "facility": "Norton Infectious Disease Institute",
+     "city": "Louisville",
+     "country": "USA",
+     "status": null
+    },
+    {
+     "facility": "Jadestone Clinical Research",
+     "city": "Silver Spring",
+     "country": "USA",
+     "status": null
+    },
+    {
+     "facility": "Clinical Trial Site",
+     "city": "Farmington Hills",
+     "country": "USA",
+     "status": null
+    },
+    {
+     "facility": "Mayo Clinic",
+     "city": "Rochester",
+     "country": "USA",
+     "status": null
+    },
+    {
+     "facility": "Icahn School of Medicine at Mount Sinai",
+     "city": "New York",
+     "country": "USA",
+     "status": null
+    },
+    {
+     "facility": "University Hospitals Cleveland Medical Center",
+     "city": "Cleveland",
+     "country": "USA",
+     "status": null
+    },
+    {
+     "facility": "Zenos Clinical Research",
+     "city": "Dallas",
+     "country": "USA",
+     "status": null
+    },
+    {
+     "facility": "University of Texas health Science Center at San Antonio",
+     "city": "San Antonio",
+     "country": "USA",
+     "status": null
+    },
+    {
+     "facility": "Chronicle Bio Inc.",
+     "city": "Park City",
+     "country": "USA",
+     "status": null
+    },
+    {
+     "facility": "Swedish Center for Research and Innovation",
+     "city": "Seattle",
+     "country": "USA",
+     "status": null
+    },
+    {
+     "facility": "West Virginia University",
+     "city": "Morgantown",
+     "country": "USA",
+     "status": null
+    }
+   ],
+   "interventions": [
+    "NE3107",
+    "Placebo"
+   ],
+   "enrolment": 203,
+   "source_id": "NCT06847191"
+  },
+  "NCT06960928": {
+   "registry_status": "RECRUITING",
+   "last_update": "2026-05-18",
+   "primary_completion": "2026-12-31",
+   "completion": "2027-05-31",
+   "sponsor": "Icahn School of Medicine at Mount Sinai",
+   "collaborators": [
+    "PolyBio Research Foundation",
+    "The Anlyan Center"
+   ],
+   "investigators": [
+    "David Putrino"
+   ],
+   "investigator_affiliations": [
+    "Icahn School of Medicine at Mount Sinai"
+   ],
+   "sites": [
+    {
+     "facility": "Icahn School of Medicine at Mount Sinai",
+     "city": "New York",
+     "country": "USA",
+     "status": "RECRUITING"
+    }
+   ],
+   "interventions": [
+    "Low-dose sirolimus",
+    "Placebo"
+   ],
+   "enrolment": 80,
+   "source_id": "NCT06960928"
+  },
+  "NCT06974084": {
+   "registry_status": "NOT_YET_RECRUITING",
+   "last_update": "2026-06-18",
+   "primary_completion": "2026-12-01",
+   "completion": "2027-05",
+   "sponsor": "HealthBio, Inc.",
+   "collaborators": [
+    "Lindus Health, Inc."
+   ],
+   "investigators": [],
+   "investigator_affiliations": [],
+   "sites": [
+    {
+     "facility": "University of Arizona",
+     "city": "Tucson",
+     "country": "USA",
+     "status": null
+    }
+   ],
+   "interventions": [
+    "Maraviroc (MVC)",
+    "Atorvastatin, 10mg, 20mg, 40mg",
+    "Placebo, Maraviroc",
+    "Placebo, Atorvastatin"
+   ],
+   "enrolment": 252,
+   "source_id": "NCT06974084"
+  },
+  "NCT07108036": {
+   "registry_status": "RECRUITING",
+   "last_update": "2026-05-11",
+   "primary_completion": "2026-10",
+   "completion": "2026-10",
+   "sponsor": "ImmunityBio, Inc.",
+   "collaborators": [],
+   "investigators": [],
+   "investigator_affiliations": [],
+   "sites": [
+    {
+     "facility": "University of California - San Francisco",
+     "city": "San Francisco",
+     "country": "USA",
+     "status": "RECRUITING"
+    }
+   ],
+   "interventions": [
+    "N-803 (IL-15 Superagonist)"
+   ],
+   "enrolment": 20,
+   "source_id": "NCT07108036"
+  },
+  "NCT07123727": {
+   "registry_status": "RECRUITING",
+   "last_update": "2026-09-24",
+   "primary_completion": "2027-03",
+   "completion": "2027-03",
+   "sponsor": "ImmunityBio, Inc.",
+   "collaborators": [],
+   "investigators": [],
+   "investigator_affiliations": [],
+   "sites": [
+    {
+     "facility": "Chan Soon-Schiong Institute for Medicine (CSSIFM)",
+     "city": "El Segundo",
+     "country": "USA",
+     "status": "RECRUITING"
+    }
+   ],
+   "interventions": [
+    "Anktiva"
+   ],
+   "enrolment": 40,
+   "source_id": "NCT07123727"
+  },
+  "NCT07184385": {
+   "registry_status": "NOT_YET_RECRUITING",
+   "last_update": "2025-09-23",
+   "primary_completion": "2027-06-30",
+   "completion": "2027-09-30",
+   "sponsor": "StemCyte, Inc.",
+   "collaborators": [],
+   "investigators": [],
+   "investigator_affiliations": [],
+   "sites": [],
+   "interventions": [
+    "REGENECYTE",
+    "Placebo"
+   ],
+   "enrolment": 60,
+   "source_id": "NCT07184385"
+  },
+  "NCT07388550": {
+   "registry_status": "NOT_YET_RECRUITING",
+   "last_update": "2026-11-06",
+   "primary_completion": "2028-01-01",
+   "completion": "2028-01-01",
+   "sponsor": "National Institute of Neurological Disorders and Stroke (NINDS)",
+   "collaborators": [],
+   "investigators": [
+    "Avindra Nath"
+   ],
+   "investigator_affiliations": [
+    "National Institute of Neurological Disorders and Stroke (NINDS)"
+   ],
+   "sites": [
+    {
+     "facility": "National Institutes of Health Clinical Center",
+     "city": "Bethesda",
+     "country": "USA",
+     "status": null
+    }
+   ],
+   "interventions": [
+    "Keytruda"
+   ],
+   "enrolment": 15,
+   "source_id": "NCT07388550"
+  },
+  "NCT06171152": {
+   "registry_status": "SUSPENDED",
+   "last_update": "2026-03-30",
+   "primary_completion": "2027-06-01",
+   "completion": "2027-10-01",
+   "sponsor": "University of Chicago",
+   "collaborators": [],
+   "investigators": [
+    "Adam DuVall"
+   ],
+   "investigator_affiliations": [
+    "University of Chicago Comprehensive Cancer Center"
+   ],
+   "sites": [
+    {
+     "facility": "University of Chicago Medicine Comprehensive Cancer Center",
+     "city": "Chicago",
+     "country": "USA",
+     "status": null
+    }
+   ],
+   "interventions": [
+    "Liraglutide Pen Injector [Saxenda]",
+    "Medication Diary"
+   ],
+   "enrolment": 30,
+   "source_id": "NCT06171152"
+  },
+  "NCT06721949": {
+   "registry_status": "RECRUITING",
+   "last_update": "2026-09-18",
+   "primary_completion": "2028-02",
+   "completion": "2028-12",
+   "sponsor": "University of Alberta",
+   "collaborators": [
+    "Canadian Institutes of Health Research (CIHR)",
+    "University Health Network, Toronto"
+   ],
+   "investigators": [
+    "Lawrence Richer"
+   ],
+   "investigator_affiliations": [
+    "University of Alberta"
+   ],
+   "sites": [
+    {
+     "facility": "University of Alberta Hospital, Kaye Edmonton Clinic",
+     "city": "Edmonton",
+     "country": "Canada",
+     "status": "RECRUITING"
+    },
+    {
+     "facility": "BC Women's Hospital",
+     "city": "Vancouver",
+     "country": "Canada",
+     "status": "RECRUITING"
+    },
+    {
+     "facility": "University Health Network",
+     "city": "Toronto",
+     "country": "Canada",
+     "status": "RECRUITING"
+    },
+    {
+     "facility": "Institut de recherches cliniques de Montréal",
+     "city": "Montreal",
+     "country": "Canada",
+     "status": "RECRUITING"
+    },
+    {
+     "facility": "Centre intégré universitaire de santé et de services sociaux de l'Estrie - Centre hospitalier universitaire de Sherbrooke",
+     "city": "Sherbrooke",
+     "country": "Canada",
+     "status": "RECRUITING"
+    }
+   ],
+   "interventions": [
+    "Taurine",
+    "Placebo"
+   ],
+   "enrolment": 300,
+   "source_id": "NCT06721949"
+  },
+  "NCT06907251": {
+   "registry_status": "NOT_YET_RECRUITING",
+   "last_update": "2026-10-30",
+   "primary_completion": "2028-06-30",
+   "completion": "2029-06-30",
+   "sponsor": "Ottawa Heart Institute Research Corporation",
+   "collaborators": [],
+   "investigators": [],
+   "investigator_affiliations": [],
+   "sites": [
+    {
+     "facility": "University of Ottawa Heart Institute",
+     "city": "Ottawa",
+     "country": "Canada",
+     "status": null
+    }
+   ],
+   "interventions": [
+    "Dapagliflozin (DAPA)",
+    "Placebo"
+   ],
+   "enrolment": 192,
+   "source_id": "NCT06907251"
+  },
+  "NCT06992414": {
+   "registry_status": "NOT_YET_RECRUITING",
+   "last_update": "2025-05-31",
+   "primary_completion": "2026-06-30",
+   "completion": "2026-10-31",
+   "sponsor": "University of Calgary",
+   "collaborators": [],
+   "investigators": [
+    "Keely A Shaw"
+   ],
+   "investigator_affiliations": [
+    "University of Calgary"
+   ],
+   "sites": [],
+   "interventions": [
+    "Creatine monohydrate"
+   ],
+   "enrolment": 24,
+   "source_id": "NCT06992414"
+  },
+  "NCT07128082": {
+   "registry_status": "ACTIVE_NOT_RECRUITING",
+   "last_update": "2025-12-23",
+   "primary_completion": "2026-12",
+   "completion": "2026-12",
+   "sponsor": "Scripps Translational Science Institute",
+   "collaborators": [
+    "Schmidt Initiative for Long COVID"
+   ],
+   "investigators": [
+    "Julia Moore Vogel"
+   ],
+   "investigator_affiliations": [
+    "Scripps Translational Research Institute"
+   ],
+   "sites": [
+    {
+     "facility": "Scripps Research",
+     "city": "La Jolla",
+     "country": "USA",
+     "status": null
+    }
+   ],
+   "interventions": [
+    "Tirzepatide",
+    "Placebo"
+   ],
+   "enrolment": 1000,
+   "source_id": "NCT07128082"
+  },
+  "NCT07280572": {
+   "registry_status": "ENROLLING_BY_INVITATION",
+   "last_update": "2025-12-12",
+   "primary_completion": "2027-12-01",
+   "completion": "2027-12-01",
+   "sponsor": "Janneke van de Wijgert",
+   "collaborators": [
+    "European Clinical Research Alliance for Infectious Diseases (ECRAID)"
+   ],
+   "investigators": [
+    "Janneke van de Wijgert"
+   ],
+   "investigator_affiliations": [],
+   "sites": [
+    {
+     "facility": "Julius Center for Health Sciences and Primary Care University Medical Center Utrecht, Netherlands",
+     "city": "Utrecht",
+     "country": "Netherlands",
+     "status": null
+    }
+   ],
+   "interventions": [
+    "Metformin",
+    "colchicine"
+   ],
+   "enrolment": 1250,
+   "source_id": "NCT07280572"
+  },
+  "NCT07298005": {
+   "registry_status": "RECRUITING",
+   "last_update": "2026-08-18",
+   "primary_completion": "2027-02",
+   "completion": "2027-03",
+   "sponsor": "Michele van Vugt",
+   "collaborators": [
+    "ZonMw: The Netherlands Organisation for Health Research and Development",
+    "Khondrion BV"
+   ],
+   "investigators": [
+    "Michele van Vugt"
+   ],
+   "investigator_affiliations": [],
+   "sites": [
+    {
+     "facility": "Amsterdam University Medical Center, Location Academic Medical Center (AMC)",
+     "city": "Amsterdam",
+     "country": "Netherlands",
+     "status": "RECRUITING"
+    }
+   ],
+   "interventions": [
+    "Sonlicromanol",
+    "Placebo"
+   ],
+   "enrolment": 80,
+   "source_id": "NCT07298005"
+  },
+  "NCT07682402": {
+   "registry_status": "NOT_YET_RECRUITING",
+   "last_update": "2026-10-16",
+   "primary_completion": "2028-03-31",
+   "completion": "2028-12-31",
+   "sponsor": "University of Alberta",
+   "collaborators": [
+    "Canadian Institutes of Health Research (CIHR)"
+   ],
+   "investigators": [
+    "Lawrence Richer"
+   ],
+   "investigator_affiliations": [
+    "University of Alberta"
+   ],
+   "sites": [],
+   "interventions": [
+    "Taurine"
+   ],
+   "enrolment": 30,
+   "source_id": "NCT07682402"
+  },
+  "NCT07798570": {
+   "registry_status": "NOT_YET_RECRUITING",
+   "last_update": "2026-09-01",
+   "primary_completion": "2028-06-30",
+   "completion": "2028-06-30",
+   "sponsor": "University Hospital Schleswig-Holstein",
+   "collaborators": [],
+   "investigators": [],
+   "investigator_affiliations": [],
+   "sites": [],
+   "interventions": [
+    "CICR-NAM"
+   ],
+   "enrolment": 100,
+   "source_id": "NCT07798570"
+  },
+  "NCT06560554": {
+   "registry_status": "ENROLLING_BY_INVITATION",
+   "last_update": "2026-06-03",
+   "primary_completion": "2025-09-30",
+   "completion": "2026-12-30",
+   "sponsor": "Mayo Clinic",
+   "collaborators": [],
+   "investigators": [
+    "Liousmila V Karnatovskaia"
+   ],
+   "investigator_affiliations": [
+    "Mayo Clinic"
+   ],
+   "sites": [
+    {
+     "facility": "Mayo Clinic",
+     "city": "Rochester",
+     "country": "USA",
+     "status": null
+    }
+   ],
+   "interventions": [
+    "Fermented foods"
+   ],
+   "enrolment": 40,
+   "source_id": "NCT06560554"
+  },
+  "NCT06643299": {
+   "registry_status": "COMPLETED",
+   "last_update": "2026-08-07",
+   "primary_completion": "2026-07-02",
+   "completion": "2026-07-02",
+   "sponsor": "Rush University Medical Center",
+   "collaborators": [],
+   "investigators": [
+    "Michael Gottlieb"
+   ],
+   "investigator_affiliations": [],
+   "sites": [
+    {
+     "facility": "Rush University Medical Center",
+     "city": "Chicago",
+     "country": "USA",
+     "status": null
+    }
+   ],
+   "interventions": [
+    "Probiotic Agent"
+   ],
+   "enrolment": 194,
+   "source_id": "NCT06643299"
+  },
+  "ISRCTN11050086": {
+   "registry_status": "Ongoing",
+   "completion": "2028-12-31",
+   "sponsor": "Bundesverwaltungsamt",
+   "collaborators": [],
+   "funders": [
+    "German Federal Ministry of Health"
+   ],
+   "investigators": [
+    "Christin Löffler",
+    "Emil Christian Reisinger"
+   ],
+   "sites": [
+    {
+     "facility": "Rostock University Medical Center, Institute of General Practice",
+     "city": "Rostock",
+     "country": "Germany"
+    }
+   ],
+   "enrolment": null,
+   "source_id": "ISRCTN11050086"
+  },
+  "ISRCTN15106165": {
+   "registry_status": "Completed (end date passed)",
+   "completion": "2025-12-01",
+   "sponsor": "University Hospital Heidelberg",
+   "collaborators": [],
+   "funders": [
+    "Deutsche Ärztegesellschaft für Akupunktur (DÄGfA)"
+   ],
+   "investigators": [
+    "Beate Wild"
+   ],
+   "sites": [
+    {
+     "facility": "Department of General Internal Medicine and Psychosomatics, University Hospital Heidelberg",
+     "city": "Heidelberg",
+     "country": "Germany"
+    }
+   ],
+   "enrolment": null,
+   "source_id": "ISRCTN15106165"
+  },
+  "NCT04647656": {
+   "registry_status": "RECRUITING",
+   "last_update": "2026-04-21",
+   "primary_completion": "2027-12-31",
+   "completion": "2027-12-31",
+   "sponsor": "Assaf-Harofeh Medical Center",
+   "collaborators": [],
+   "investigators": [
+    "Shai a Efrati"
+   ],
+   "investigator_affiliations": [
+    "Asaf-Harofhe MC"
+   ],
+   "sites": [
+    {
+     "facility": "Assaf-Harofeh medical center",
+     "city": "Tsrifin",
+     "country": "Israel",
+     "status": "RECRUITING"
+    }
+   ],
+   "interventions": [
+    "Hyperbaric oxygen",
+    "Sham"
+   ],
+   "enrolment": 91,
+   "source_id": "NCT04647656"
+  },
+  "NCT04904536": {
+   "registry_status": "ACTIVE_NOT_RECRUITING",
+   "last_update": "2025-04-10",
+   "primary_completion": "2025-06-30",
+   "completion": "2025-07-30",
+   "sponsor": "The George Institute",
+   "collaborators": [
+    "University of Sydney",
+    "Monash University",
+    "The Alfred",
+    "Universidad del Desarrollo",
+    "Chinese University of Hong Kong",
+    "Clinica Alemana de Santiago"
+   ],
+   "investigators": [
+    "Craig Anderson"
+   ],
+   "investigator_affiliations": [
+    "The George Institute"
+   ],
+   "sites": [
+    {
+     "facility": "The George Institute for Global Health",
+     "city": "Sydney",
+     "country": "Australia",
+     "status": null
+    }
+   ],
+   "interventions": [
+    "Atorvastatin"
+   ],
+   "enrolment": 190,
+   "source_id": "NCT04904536"
+  },
+  "NCT05693064": {
+   "registry_status": "SUSPENDED",
+   "last_update": "2024-08-28",
+   "primary_completion": "2025-06-15",
+   "completion": "2025-08-01",
+   "sponsor": "Life University",
+   "collaborators": [],
+   "investigators": [
+    "Stephanie Sullivan"
+   ],
+   "investigator_affiliations": [
+    "Life Univeristy"
+   ],
+   "sites": [
+    {
+     "facility": "Lydian Chiropractic LLC",
+     "city": "Cambridge",
+     "country": "USA",
+     "status": null
+    }
+   ],
+   "interventions": [
+    "wait-list",
+    "chiropractic adjustments"
+   ],
+   "enrolment": 40,
+   "source_id": "NCT05693064"
+  },
+  "NCT05764538": {
+   "registry_status": "RECRUITING",
+   "last_update": "2026-10-23",
+   "primary_completion": "2027-06",
+   "completion": "2027-06",
+   "sponsor": "Chang Gung Memorial Hospital",
+   "collaborators": [],
+   "investigators": [],
+   "investigator_affiliations": [],
+   "sites": [
+    {
+     "facility": "Kaohsiung Chang Gung Memorial Hospital",
+     "city": "Kaohsiung City",
+     "country": "Taiwan",
+     "status": "RECRUITING"
+    }
+   ],
+   "interventions": [
+    "DAOIB"
+   ],
+   "enrolment": 40,
+   "source_id": "NCT05764538"
+  },
+  "NCT05787366": {
+   "registry_status": "ACTIVE_NOT_RECRUITING",
+   "last_update": "2026-05-06",
+   "primary_completion": "2025-09-12",
+   "completion": "2026-10",
+   "sponsor": "Centre Hospitalier Universitaire de Saint Etienne",
+   "collaborators": [],
+   "investigators": [
+    "Frédéric ROCHE",
+    "Bienvenu BONGUE"
+   ],
+   "investigator_affiliations": [
+    "CHU de Saint Etienne",
+    "Jean Monnet University"
+   ],
+   "sites": [
+    {
+     "facility": "Urps Medecins Libéraux Auvergne-Rhône-Alpes",
+     "city": "Lyon",
+     "country": "France",
+     "status": null
+    },
+    {
+     "facility": "Chu Saint-Etienne",
+     "city": "Saint-Etienne",
+     "country": "France",
+     "status": null
+    },
+    {
+     "facility": "DAC Loire",
+     "city": "Saint-Etienne",
+     "country": "France",
+     "status": null
+    }
+   ],
+   "interventions": [
+    "Personalized Multifactorial Intervention (IMP)"
+   ],
+   "enrolment": 400,
+   "source_id": "NCT05787366"
+  },
+  "NCT05823805": {
+   "registry_status": "NOT_YET_RECRUITING",
+   "last_update": "2025-08-15",
+   "primary_completion": "2027-01",
+   "completion": "2027-03",
+   "sponsor": "Unity Health Toronto",
+   "collaborators": [],
+   "investigators": [
+    "Andrew Pinto"
+   ],
+   "investigator_affiliations": [
+    "Unity Health Toronto"
+   ],
+   "sites": [],
+   "interventions": [
+    "Community Health Worker"
+   ],
+   "enrolment": 520,
+   "source_id": "NCT05823805"
+  },
+  "NCT05890508": {
+   "registry_status": "UNKNOWN",
+   "last_update": "2024-05-07",
+   "primary_completion": "2026-01-31",
+   "completion": "2026-04-30",
+   "sponsor": "Hong Kong Baptist University",
+   "collaborators": [],
+   "investigators": [
+    "Dong Jue Wei"
+   ],
+   "investigator_affiliations": [
+    "Hong Kong Baptist University"
+   ],
+   "sites": [
+    {
+     "facility": "Zhong Lidan",
+     "city": "Kowloon Tong",
+     "country": "Hong Kong",
+     "status": "RECRUITING"
+    }
+   ],
+   "interventions": [
+    "Acupuncture",
+    "Sham-acupuncture"
+   ],
+   "enrolment": 150,
+   "source_id": "NCT05890508"
+  },
+  "NCT06012552": {
+   "registry_status": "RECRUITING",
+   "last_update": "2023-08-25",
+   "primary_completion": "2027-04-30",
+   "completion": "2027-10-31",
+   "sponsor": "Military Institute od Medicine National Research Institute",
+   "collaborators": [
+    "ABM Industries"
+   ],
+   "investigators": [],
+   "investigator_affiliations": [],
+   "sites": [
+    {
+     "facility": "Anna Klimkiewicz",
+     "city": "Warsaw",
+     "country": "Poland",
+     "status": "RECRUITING"
+    }
+   ],
+   "interventions": [
+    "Tianeptine",
+    "Placebo"
+   ],
+   "enrolment": 140,
+   "source_id": "NCT06012552"
+  },
+  "NCT06055244": {
+   "registry_status": "COMPLETED",
+   "last_update": "2026-01-27",
+   "primary_completion": "2025-12-11",
+   "completion": "2025-12-29",
+   "sponsor": "Ohio State University",
+   "collaborators": [],
+   "investigators": [
+    "Andrew I Schamess"
+   ],
+   "investigator_affiliations": [
+    "Ohio State University"
+   ],
+   "sites": [
+    {
+     "facility": "The Ohio State University Medical Center",
+     "city": "Columbus",
+     "country": "USA",
+     "status": null
+    }
+   ],
+   "interventions": [
+    "Amantadine"
+   ],
+   "enrolment": 64,
+   "source_id": "NCT06055244"
+  },
+  "NCT06204458": {
+   "registry_status": "UNKNOWN",
+   "last_update": "2025-04-11",
+   "primary_completion": "2025-05-31",
+   "completion": "2025-05-31",
+   "sponsor": "Universität Duisburg-Essen",
+   "collaborators": [
+    "Bavarian State Ministry of Health and Care"
+   ],
+   "investigators": [
+    "Jost Langhorst"
+   ],
+   "investigator_affiliations": [
+    "Sozialstiftung Bamberg"
+   ],
+   "sites": [
+    {
+     "facility": "Sozialstiftung Bamberg",
+     "city": "Bamberg",
+     "country": "Germany",
+     "status": null
+    }
+   ],
+   "interventions": [
+    "mild hyperthermia group"
+   ],
+   "enrolment": 60,
+   "source_id": "NCT06204458"
+  },
+  "NCT06267300": {
+   "registry_status": "UNKNOWN",
+   "last_update": "2024-02-28",
+   "primary_completion": "2025-10-01",
+   "completion": "2026-04-01",
+   "sponsor": "Erasmus Medical Center",
+   "collaborators": [
+    "Da Vinci Clinic",
+    "HGC Rijswijk"
+   ],
+   "investigators": [
+    "Merel Hellemons"
+   ],
+   "investigator_affiliations": [],
+   "sites": [
+    {
+     "facility": "Da Vinci Clinic",
+     "city": "Amersfoort",
+     "country": "Netherlands",
+     "status": null
+    },
+    {
+     "facility": "Da Vinci Clinic",
+     "city": "Geldrop",
+     "country": "Netherlands",
+     "status": null
+    },
+    {
+     "facility": "Da Vinci Clinic",
+     "city": "Hoogeveen",
+     "country": "Netherlands",
+     "status": null
+    },
+    {
+     "facility": "HGC Rijswijk",
+     "city": "Rijswijk",
+     "country": "Netherlands",
+     "status": null
+    },
+    {
+     "facility": "Da Vinci Clinic",
+     "city": "Rotterdam",
+     "country": "Netherlands",
+     "status": null
+    },
+    {
+     "facility": "Erasmus MC",
+     "city": "Rotterdam",
+     "country": "Netherlands",
+     "status": null
+    },
+    {
+     "facility": "Da Vinci Clinic",
+     "city": "Waalwijk",
+     "country": "Netherlands",
+     "status": null
+    }
+   ],
+   "interventions": [
+    "Hyperbaric oxygen"
+   ],
+   "enrolment": 120,
+   "source_id": "NCT06267300"
+  },
+  "NCT06452095": {
+   "registry_status": "RECRUITING",
+   "last_update": "2026-02-23",
+   "primary_completion": "2029-12-31",
+   "completion": "2029-12-31",
+   "sponsor": "University Health Network, Toronto",
+   "collaborators": [],
+   "investigators": [
+    "Angela M Cheung",
+    "Rita Katznelson"
+   ],
+   "investigator_affiliations": [
+    "University Health Network, Toronto"
+   ],
+   "sites": [
+    {
+     "facility": "University Health Network",
+     "city": "Toronto",
+     "country": "Canada",
+     "status": "RECRUITING"
+    }
+   ],
+   "interventions": [
+    "Hyperbaric Oxygen therapy"
+   ],
+   "enrolment": 120,
+   "source_id": "NCT06452095"
+  },
+  "NCT06590324": {
+   "registry_status": "RECRUITING",
+   "last_update": "2025-04-18",
+   "primary_completion": "2025-12-30",
+   "completion": "2026-03-30",
+   "sponsor": "Resverlogix Corp",
+   "collaborators": [],
+   "investigators": [
+    "Michael Sweeney"
+   ],
+   "investigator_affiliations": [
+    "Resverlogix Corp"
+   ],
+   "sites": [
+    {
+     "facility": "The Speciality Hospital",
+     "city": "Amman",
+     "country": "Jordan",
+     "status": "NOT_YET_RECRUITING"
+    },
+    {
+     "facility": "MNGHA- King Abdulaziz Hospital",
+     "city": "Al Mubarraz",
+     "country": "Saudi Arabia",
+     "status": "NOT_YET_RECRUITING"
+    },
+    {
+     "facility": "Al Kuwait Hospital",
+     "city": "Dubai",
+     "country": "United Arab Emirates",
+     "status": "RECRUITING"
+    }
+   ],
+   "interventions": [
+    "Apabetalone"
+   ],
+   "enrolment": 200,
+   "source_id": "NCT06590324"
+  },
+  "NCT06633666": {
+   "registry_status": "RECRUITING",
+   "last_update": "2024-11-13",
+   "primary_completion": "2026-01-31",
+   "completion": "2026-04-30",
+   "sponsor": "Hong Kong Baptist University",
+   "collaborators": [],
+   "investigators": [
+    "Dong Jue Wei"
+   ],
+   "investigator_affiliations": [
+    "Hong Kong Baptist University"
+   ],
+   "sites": [
+    {
+     "facility": "Linda Zhong",
+     "city": "Kowloon Tong",
+     "country": "Hong Kong",
+     "status": "RECRUITING"
+    }
+   ],
+   "interventions": [
+    "Acupuncture"
+   ],
+   "enrolment": 160,
+   "source_id": "NCT06633666"
+  },
+  "NCT06821087": {
+   "registry_status": "COMPLETED",
+   "last_update": "2026-09-17",
+   "primary_completion": "2026-06-22",
+   "completion": "2026-06-22",
+   "sponsor": "University of Texas at Austin",
+   "collaborators": [
+    "Roots Behavioral Health"
+   ],
+   "investigators": [
+    "W. Michael Brode"
+   ],
+   "investigator_affiliations": [
+    "University of Texas at Austin"
+   ],
+   "sites": [
+    {
+     "facility": "UT Health Austin",
+     "city": "Austin",
+     "country": "USA",
+     "status": null
+    }
+   ],
+   "interventions": [
+    "Ketamine only"
+   ],
+   "enrolment": 20,
+   "source_id": "NCT06821087"
+  },
+  "NCT06883513": {
+   "registry_status": "RECRUITING",
+   "last_update": "2025-03-19",
+   "primary_completion": "2025-07-03",
+   "completion": "2025-07-03",
+   "sponsor": "University of Louisville",
+   "collaborators": [],
+   "investigators": [
+    "Darryl Kaelin"
+   ],
+   "investigator_affiliations": [
+    "University of Louisville School of Medicine Chair of PM&R Division of the Department of Neurological Surgery"
+   ],
+   "sites": [
+    {
+     "facility": "University of Louisville Outpatient Care Center",
+     "city": "Louisville",
+     "country": "USA",
+     "status": "RECRUITING"
+    }
+   ],
+   "interventions": [
+    "Osteopathic Manipulative Therapy Long-COVID protocol",
+    "Osteopathic Manipulative Therapy NOT Long-COVID treatment protocol"
+   ],
+   "enrolment": 20,
+   "source_id": "NCT06883513"
+  },
+  "NCT06928272": {
+   "registry_status": "RECRUITING",
+   "last_update": "2026-10-06",
+   "primary_completion": "2026-12",
+   "completion": "2027-12",
+   "sponsor": "Douglas D. Fraser",
+   "collaborators": [],
+   "investigators": [
+    "Douglas D Fraser"
+   ],
+   "investigator_affiliations": [
+    "Western University"
+   ],
+   "sites": [
+    {
+     "facility": "Laura Rodriguez Research Institute",
+     "city": "San Diego",
+     "country": "USA",
+     "status": "RECRUITING"
+    },
+    {
+     "facility": "Ini-Fiocruz",
+     "city": "Rio de Janeiro",
+     "country": "Brazil",
+     "status": "RECRUITING"
+    },
+    {
+     "facility": "Institut de Recherches Cliniques de Montréal (IRCM)",
+     "city": "Montreal",
+     "country": "Canada",
+     "status": "RECRUITING"
+    },
+    {
+     "facility": "Centre de Recherche du CHUS (CRCHUS)",
+     "city": "Sherbrooke",
+     "country": "Canada",
+     "status": "RECRUITING"
+    },
+    {
+     "facility": "INMI Lazzaro Spallanzani IRCCS",
+     "city": "Roma",
+     "country": "Italy",
+     "status": "NOT_YET_RECRUITING"
+    },
+    {
+     "facility": "Sapienza Università di Roma",
+     "city": "Roma",
+     "country": "Italy",
+     "status": "NOT_YET_RECRUITING"
+    },
+    {
+     "facility": "Università degli Studi di Modena e Reggio Emilia",
+     "city": "Modena",
+     "country": "Italy",
+     "status": "NOT_YET_RECRUITING"
+    },
+    {
+     "facility": "Family Centre for Research with Ubuntu (FAMCRU), Stellenbosch University",
+     "city": "Cape Town",
+     "country": "South Africa",
+     "status": "NOT_YET_RECRUITING"
+    },
+    {
+     "facility": "Joint Clinical Research Centre (JCRC)",
+     "city": "Kampala",
+     "country": "Uganda",
+     "status": "NOT_YET_RECRUITING"
+    },
+    {
+     "facility": "University Teaching Hospital",
+     "city": "Lusaka",
+     "country": "Zambia",
+     "status": "NOT_YET_RECRUITING"
+    }
+   ],
+   "interventions": [
+    "Pirfenidone",
+    "Placebo for pirfenidone",
+    "Upadacitinib",
+    "Placebo for upadacitinib"
+   ],
+   "enrolment": 348,
+   "source_id": "NCT06928272"
+  },
+  "NCT07110714": {
+   "registry_status": "RECRUITING",
+   "last_update": "2025-12-02",
+   "primary_completion": "2027-01-31",
+   "completion": "2027-10-31",
+   "sponsor": "Eggensberger OHG",
+   "collaborators": [
+    "Bavarian Health and Food Safety Authority (LGL)"
+   ],
+   "investigators": [
+    "Rembert Koczulla"
+   ],
+   "investigator_affiliations": [
+    "Schön Klinik Berchtesgadener Land"
+   ],
+   "sites": [
+    {
+     "facility": "Eggensberger Ohg",
+     "city": "Füssen",
+     "country": "Germany",
+     "status": "RECRUITING"
+    }
+   ],
+   "interventions": [
+    "Cold water hydrotherapy"
+   ],
+   "enrolment": 30,
+   "source_id": "NCT07110714"
+  },
+  "NCT07189936": {
+   "registry_status": "RECRUITING",
+   "last_update": "2026-01-22",
+   "primary_completion": "2028-06-30",
+   "completion": "2029-06-30",
+   "sponsor": "Vanderbilt University Medical Center",
+   "collaborators": [
+    "American Heart Association"
+   ],
+   "investigators": [
+    "Cyndya Shibao"
+   ],
+   "investigator_affiliations": [
+    "Vanderbilt University Medical Center"
+   ],
+   "sites": [
+    {
+     "facility": "Cyndya Shibao",
+     "city": "Nashville",
+     "country": "USA",
+     "status": "RECRUITING"
+    }
+   ],
+   "interventions": [
+    "To Measure levels of circulating monocyte/ T cell doublets at Baseline",
+    "To measure levels of circulating monocyte/ T cell doublets after 28 days of 2 HOBA treatment",
+    "To measure levels of circulating monocyte/ T cell doublets after 28 days of Placebo treatment",
+    "To Measure Splanchnic venous capacitance after 28 days of Treatment with 2HOBA",
+    "To Measure Splanchnic venous capacitance after 28 days of Treatment with Placebo",
+    "To Measure Orthostatic Tachycardia after 28 days of Treatment with 2HOBA",
+    "To Measure Orthostatic Tachycardia after 28 days of Treatment with Placebo"
+   ],
+   "enrolment": 50,
+   "source_id": "NCT07189936"
+  },
+  "NCT07285707": {
+   "registry_status": "RECRUITING",
+   "last_update": "2025-12-16",
+   "primary_completion": "2026-12-31",
+   "completion": "2026-12-31",
+   "sponsor": "Southern California University of Health Sciences",
+   "collaborators": [],
+   "investigators": [],
+   "investigator_affiliations": [],
+   "sites": [
+    {
+     "facility": "SCUHS",
+     "city": "Whittier",
+     "country": "USA",
+     "status": "RECRUITING"
+    }
+   ],
+   "interventions": [
+    "Acupuncture"
+   ],
+   "enrolment": 10,
+   "source_id": "NCT07285707"
+  },
+  "NCT07355751": {
+   "registry_status": "NOT_YET_RECRUITING",
+   "last_update": "2026-01-21",
+   "primary_completion": "2027-12",
+   "completion": "2027-12",
+   "sponsor": "Tingting Luo",
+   "collaborators": [],
+   "investigators": [
+    "Tingting Luo"
+   ],
+   "investigator_affiliations": [],
+   "sites": [
+    {
+     "facility": "Chengdu University of Traditional Chinese Medicine",
+     "city": "Chengdu",
+     "country": "China",
+     "status": null
+    },
+    {
+     "facility": "Chengdu University of Traditional Chinese Medicine",
+     "city": "Chengdu",
+     "country": "China",
+     "status": null
+    }
+   ],
+   "interventions": [
+    "Acupuncture"
+   ],
+   "enrolment": 108,
+   "source_id": "NCT07355751"
+  },
+  "NCT07359482": {
+   "registry_status": "RECRUITING",
+   "last_update": "2026-06-09",
+   "primary_completion": "2027-12-31",
+   "completion": "2028-05-01",
+   "sponsor": "Academisch Medisch Centrum - Universiteit van Amsterdam (AMC-UvA)",
+   "collaborators": [],
+   "investigators": [
+    "Pythia Nieuwkerk"
+   ],
+   "investigator_affiliations": [],
+   "sites": [
+    {
+     "facility": "Amsterdam UMC",
+     "city": "Amsterdam-Zuidoost",
+     "country": "Netherlands",
+     "status": "RECRUITING"
+    }
+   ],
+   "interventions": [
+    "Fluvoxamine",
+    "Placebo"
+   ],
+   "enrolment": 160,
+   "source_id": "NCT07359482"
+  },
+  "NCT07661862": {
+   "registry_status": "RECRUITING",
+   "last_update": "2026-10-06",
+   "primary_completion": "2029-04-01",
+   "completion": "2029-04-01",
+   "sponsor": "University of Tasmania",
+   "collaborators": [
+    "Baker Heart and Diabetes Institute",
+    "Ochre Health"
+   ],
+   "investigators": [
+    "Quan Huynh"
+   ],
+   "investigator_affiliations": [],
+   "sites": [
+    {
+     "facility": "Menzies Insititute for Medical Research",
+     "city": "Hobart",
+     "country": "Australia",
+     "status": "RECRUITING"
+    },
+    {
+     "facility": "Baker Heart and Diabetes Institute",
+     "city": "Melbourne",
+     "country": "Australia",
+     "status": "NOT_YET_RECRUITING"
+    }
+   ],
+   "interventions": [
+    "PERCEIVE-Outreach Disease Management Program"
+   ],
+   "enrolment": 577,
+   "source_id": "NCT07661862"
+  },
+  "NCT07694232": {
+   "registry_status": "NOT_YET_RECRUITING",
+   "last_update": "2026-07-09",
+   "primary_completion": "2028-07-01",
+   "completion": "2028-12-01",
+   "sponsor": "St. Mary's University, Twickenham",
+   "collaborators": [
+    "Institute for Ethical Research Governance",
+    "Homeopathy International"
+   ],
+   "investigators": [
+    "Clare Relton"
+   ],
+   "investigator_affiliations": [
+    "Queen Mary University of London"
+   ],
+   "sites": [
+    {
+     "facility": "St Mary's University",
+     "city": "London",
+     "country": "UK",
+     "status": null
+    }
+   ],
+   "interventions": [
+    "Treatment A: Treatment by a homeopath prescribing a specific homeopathic remedy for long COVID",
+    "a course of individually tailored treatment by a homeopath"
+   ],
+   "enrolment": 120,
+   "source_id": "NCT07694232"
+  },
+  "NCT07714213": {
+   "registry_status": "NOT_YET_RECRUITING",
+   "last_update": "2026-07-20",
+   "primary_completion": "2028-05-15",
+   "completion": "2028-12-31",
+   "sponsor": "Christiana Franke",
+   "collaborators": [],
+   "investigators": [
+    "Christiana Franke"
+   ],
+   "investigator_affiliations": [
+    "Charite University, Berlin, Germany"
+   ],
+   "sites": [
+    {
+     "facility": "Charité - Universitätsmedizin Berlin",
+     "city": "Berlin",
+     "country": "Germany",
+     "status": null
+    }
+   ],
+   "interventions": [
+    "Aripiprazole (low-dose, 1mg)",
+    "Placebo"
+   ],
+   "enrolment": 138,
+   "source_id": "NCT07714213"
+  },
+  "NCT05705648": {
+   "registry_status": "ACTIVE_NOT_RECRUITING",
+   "last_update": "2026-07-17",
+   "primary_completion": "2026-06-24",
+   "completion": "2027-03-01",
+   "sponsor": "University of Alberta",
+   "collaborators": [],
+   "investigators": [],
+   "investigator_affiliations": [],
+   "sites": [
+    {
+     "facility": "University of Alberta",
+     "city": "Edmonton",
+     "country": "Canada",
+     "status": null
+    }
+   ],
+   "interventions": [
+    "medium chain triglyceride oil",
+    "Safflower oil"
+   ],
+   "enrolment": 103,
+   "source_id": "NCT05705648"
+  },
+  "NCT05977179": {
+   "registry_status": "RECRUITING",
+   "last_update": "2026-06-23",
+   "primary_completion": "2028-06-30",
+   "completion": "2028-09-30",
+   "sponsor": "University of Maryland, Baltimore",
+   "collaborators": [],
+   "investigators": [
+    "Galya Bigman"
+   ],
+   "investigator_affiliations": [],
+   "sites": [
+    {
+     "facility": "University of Maryland, Baltimore",
+     "city": "Baltimore",
+     "country": "USA",
+     "status": "RECRUITING"
+    }
+   ],
+   "interventions": [
+    "Dietary intervention to mitigate Post-Acute COVID-19 Syndrome",
+    "Attention Control"
+   ],
+   "enrolment": 56,
+   "source_id": "NCT05977179"
+  },
+  "NCT06095258": {
+   "registry_status": "UNKNOWN",
+   "last_update": "2023-10-26",
+   "primary_completion": "2025-11-30",
+   "completion": "2026-02-28",
+   "sponsor": "Chinese University of Hong Kong",
+   "collaborators": [],
+   "investigators": [
+    "Hongwei Zhang"
+   ],
+   "investigator_affiliations": [
+    "School of Chinese Medicine"
+   ],
+   "sites": [],
+   "interventions": [
+    "Traditional Chinese medicine treatment",
+    "Western medicine treatment"
+   ],
+   "enrolment": 162,
+   "source_id": "NCT06095258"
+  },
+  "NCT06522750": {
+   "registry_status": "RECRUITING",
+   "last_update": "2025-03-30",
+   "primary_completion": "2025-06-30",
+   "completion": "2025-09-30",
+   "sponsor": "University of Luxembourg",
+   "collaborators": [],
+   "investigators": [
+    "Raquel Gomez Bravo"
+   ],
+   "investigator_affiliations": [
+    "Rehaklinik du Centre Hospitalier Neuro-Psychiatrique (CHNP), UL"
+   ],
+   "sites": [
+    {
+     "facility": "Rehaklinik CHNP",
+     "city": "Ettelbruck",
+     "country": "Luxembourg",
+     "status": "RECRUITING"
+    }
+   ],
+   "interventions": [
+    "7-day ambulatory caloric restriction intervention using the Buchinger-Wilhelmi method"
+   ],
+   "enrolment": 20,
+   "source_id": "NCT06522750"
+  },
+  "NCT06879925": {
+   "registry_status": "RECRUITING",
+   "last_update": "2025-03-17",
+   "primary_completion": "2025-04-07",
+   "completion": "2025-04-07",
+   "sponsor": "POCHIWU",
+   "collaborators": [],
+   "investigators": [
+    "Mei-Hua Wang"
+   ],
+   "investigator_affiliations": [
+    "National Taipei University of Nursing and Health Sciences"
+   ],
+   "sites": [
+    {
+     "facility": "Renhe nursing home",
+     "city": "New Taipei City",
+     "country": "Taiwan",
+     "status": "RECRUITING"
+    },
+    {
+     "facility": "Fuxi nursing home",
+     "city": "Taipei",
+     "country": "Taiwan",
+     "status": "RECRUITING"
+    }
+   ],
+   "interventions": [
+    "QI-GONG and control"
+   ],
+   "enrolment": 80,
+   "source_id": "NCT06879925"
+  },
+  "NCT06967428": {
+   "registry_status": "NOT_YET_RECRUITING",
+   "last_update": "2025-05-13",
+   "primary_completion": "2026-01",
+   "completion": "2026-01",
+   "sponsor": "Independent Medical Alliance",
+   "collaborators": [
+    "Open Source Medicine Foundation OU"
+   ],
+   "investigators": [],
+   "investigator_affiliations": [],
+   "sites": [
+    {
+     "facility": "Dorrington Medical Associates",
+     "city": "Houston",
+     "country": "USA",
+     "status": null
+    }
+   ],
+   "interventions": [
+    "Combined metabolic modulator",
+    "Rice Protein Powder with Vitamin C"
+   ],
+   "enrolment": 100,
+   "source_id": "NCT06967428"
+  },
+  "NCT06980636": {
+   "registry_status": "RECRUITING",
+   "last_update": "2026-02-09",
+   "primary_completion": "2026-10-30",
+   "completion": "2026-11-30",
+   "sponsor": "Beijing University of Chinese Medicine",
+   "collaborators": [
+    "Institute of Chemistry - Vietnam Academy of Science and Technology",
+    "Beijing Ditan Hospital"
+   ],
+   "investigators": [
+    "Huijuan Cao"
+   ],
+   "investigator_affiliations": [],
+   "sites": [
+    {
+     "facility": "Beijing Di Tan Hospital, , Capital Medical University",
+     "city": "Beijing",
+     "country": "China",
+     "status": "RECRUITING"
+    }
+   ],
+   "interventions": [
+    "Shengmai Liquid"
+   ],
+   "enrolment": 100,
+   "source_id": "NCT06980636"
+  },
+  "NCT07418567": {
+   "registry_status": "COMPLETED",
+   "last_update": "2026-02-18",
+   "primary_completion": "2025-11-01",
+   "completion": "2025-12-01",
+   "sponsor": "Université de Sherbrooke",
+   "collaborators": [
+    "Centre de recherche du CHU de Sherbrooke"
+   ],
+   "investigators": [],
+   "investigator_affiliations": [],
+   "sites": [
+    {
+     "facility": "Centre de recherche du CIUSSSE-CHUS",
+     "city": "Sherbrooke",
+     "country": "Canada",
+     "status": null
+    }
+   ],
+   "interventions": [
+    "prolonged fasting"
+   ],
+   "enrolment": 25,
+   "source_id": "NCT07418567"
+  },
+  "NCT07627815": {
+   "registry_status": "RECRUITING",
+   "last_update": "2026-06-04",
+   "primary_completion": "2026-08-26",
+   "completion": "2026-12-26",
+   "sponsor": "ParagonClinicals Inc.",
+   "collaborators": [],
+   "investigators": [
+    "Sam Bock"
+   ],
+   "investigator_affiliations": [
+    "ParagonClinicals Inc CEO / CSO"
+   ],
+   "sites": [
+    {
+     "facility": "Cardio Health",
+     "city": "Brampton",
+     "country": "Canada",
+     "status": "RECRUITING"
+    },
+    {
+     "facility": "Cardio Health",
+     "city": "London",
+     "country": "Canada",
+     "status": "RECRUITING"
+    },
+    {
+     "facility": "Cardio Health",
+     "city": "Mississauga",
+     "country": "Canada",
+     "status": "RECRUITING"
+    },
+    {
+     "facility": "Cardio Health",
+     "city": "North York",
+     "country": "Canada",
+     "status": "RECRUITING"
+    }
+   ],
+   "interventions": [
+    "Paragon Novel Metabolic Regulator (PNMR)",
+    "Dietary and Lifestyle Recommendations"
+   ],
+   "enrolment": 82,
+   "source_id": "NCT07627815"
+  },
+  "NCT07916259": {
+   "registry_status": "NOT_YET_RECRUITING",
+   "last_update": "2026-11-04",
+   "primary_completion": "2028-12-31",
+   "completion": "2029-01-01",
+   "sponsor": "National Institute of Allergy and Infectious Diseases (NIAID)",
+   "collaborators": [],
+   "investigators": [
+    "Laura Malone"
+   ],
+   "investigator_affiliations": [
+    "Hugo W. Moser Research Institute at Kennedy Krieger, Inc."
+   ],
+   "sites": [
+    {
+     "facility": "Children's of Alabama Child Health Research Unit (CHRU)",
+     "city": "Birmingham",
+     "country": "USA",
+     "status": null
+    },
+    {
+     "facility": "Exalt Clinical Research Inc.",
+     "city": "Chula Vista",
+     "country": "USA",
+     "status": null
+    },
+    {
+     "facility": "Denver Health",
+     "city": "Denver",
+     "country": "USA",
+     "status": null
+    },
+    {
+     "facility": "University of Florida Health",
+     "city": "Gainesville",
+     "country": "USA",
+     "status": null
+    },
+    {
+     "facility": "Rush University Medical Center",
+     "city": "Chicago",
+     "country": "USA",
+     "status": null
+    },
+    {
+     "facility": "Kennedy Krieger Institute",
+     "city": "Baltimore",
+     "country": "USA",
+     "status": null
+    },
+    {
+     "facility": "Brigham and Women's Hospital",
+     "city": "Boston",
+     "country": "USA",
+     "status": null
+    },
+    {
+     "facility": "University of Massachusetts Chan Medical School",
+     "city": "Worcester",
+     "country": "USA",
+     "status": null
+    },
+    {
+     "facility": "Dartmouth Health",
+     "city": "Lebanon",
+     "country": "USA",
+     "status": null
+    },
+    {
+     "facility": "Rutgers Robert Wood Johnson Medical School",
+     "city": "New Brunswick",
+     "country": "USA",
+     "status": null
+    },
+    {
+     "facility": "NYU Langone Hospital - Brooklyn",
+     "city": "Brooklyn",
+     "country": "USA",
+     "status": null
+    },
+    {
+     "facility": "Columbia University",
+     "city": "New York",
+     "country": "USA",
+     "status": null
+    },
+    {
+     "facility": "Baylor College of Medicine",
+     "city": "Houston",
+     "country": "USA",
+     "status": null
+    }
+   ],
+   "interventions": [
+    "naltrexone"
+   ],
+   "enrolment": 1300,
+   "source_id": "NCT07916259"
+  },
+  "ISRCTN47597568": {
+   "registry_status": "Completed (end date passed)",
+   "completion": "2026-04-01",
+   "sponsor": "Universidad Católica de Murcia",
+   "collaborators": [],
+   "funders": [
+    "Investigator initiated and funded"
+   ],
+   "investigators": [
+    "Alessio Cabizosu"
+   ],
+   "sites": [
+    {
+     "facility": "Clinalgia SL",
+     "city": "Murcia",
+     "country": "Spain"
+    }
+   ],
+   "enrolment": null,
+   "source_id": "ISRCTN47597568"
+  }
+ }
+}
