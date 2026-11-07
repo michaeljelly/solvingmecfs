@@ -113,6 +113,24 @@ def cihr():
         print("cihr", q, d["numFound"], len(res))
     json.dump(list(res.values()), open(os.path.join(RAW, "cihr.json"), "w"), ensure_ascii=False)
 
+def isrctn():
+    """ISRCTN registry (UK-led trials and observational studies). Public API returns full XML records."""
+    import urllib.parse, re
+    qs = ['"chronic fatigue syndrome"', '"myalgic encephalomyelitis"', '"myalgic encephalopathy"', '"ME/CFS"', '"CFS/ME"', '"long covid"', '"long-covid"', '"post-covid"',
+          '"post-acute sequelae"', '"post-exertional malaise"', '"PASC"', '"post-COVID-19 condition"', '"persistent COVID"', '"chronic fatigue"', '"longer-term consequences of COVID"']
+    docs = {}
+    for q in qs:
+        off = 0
+        while True:
+            x = curl(["https://www.isrctn.com/api/query/format/default?" + urllib.parse.urlencode({"q": q, "limit": 100, "offset": off})])
+            m = re.search(r'totalCount="(\d+)"', x); n = int(m.group(1)) if m else 0
+            for ft in re.findall(r"<fullTrial>.*?</fullTrial>", x, re.S):
+                docs[re.search(r'publicIdentifierCanonical="(ISRCTN\d+)"', ft).group(1)] = ft
+            off += 100
+            if off >= n: break
+        print("isrctn", q, n, len(docs))
+    json.dump(docs, open(os.path.join(RAW, "isrctn.json"), "w"))
+
 if __name__ == "__main__":
     os.makedirs(RAW, exist_ok=True)
-    for f in (sys.argv[1:] or ["mrr", "nih", "gtr", "cordis", "polybio", "cihr"]): globals()[f]()
+    for f in (sys.argv[1:] or ["mrr", "nih", "gtr", "cordis", "polybio", "cihr", "isrctn"]): globals()[f]()

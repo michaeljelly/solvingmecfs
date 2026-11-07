@@ -154,6 +154,30 @@ if os.path.exists(p):
             "focus": "primary" if pt else "related", "pi": [n.strip() for n in J(x.get("pinamesdelim")).split(";")[:1] if n.strip()],
             "org": J(x.get("orgnameinp2")), "country": "Canada", "funder": "Canadian Institutes of Health Research", "start": st, "end": en, "status": status(en),
             "amount_usd": round(int(amt) * 0.73) if amt and int(amt) else None, "kind": J(x.get("programname2")), "n": None, "areas": [], "topics": topics(title, ab)})
+# --- ISRCTN registry: studies not already in the curated trials list (observational studies, and trials the trials list lacks)
+p = os.path.join(RAW, "isrctn.json")
+if os.path.exists(p):
+    import html as _h
+    def _g(x, tag):
+        m = re.search(rf"<{tag}\b[^>]*>(.*?)</{tag}>", x, re.S); return _h.unescape(re.sub(r"<[^>]+>", " ", m.group(1))).strip() if m else ""
+    tp = os.path.join(SRC, "data", "trials.json")
+    have = {i for t in (json.load(open(tp, encoding="utf8"))["trials"] if os.path.exists(tp) else []) for i in (t.get("all_ids") or [t["id"]])}
+    have |= {"ISRCTN89726128", "ISRCTN59388875", "ISRCTN10942585", "ISRCTN70529301"}  # in the trials list under their PubMed ids
+    LCX = LC + r"|longer-term consequences of covid"
+    for i, x in json.load(open(p, encoding="utf8")).items():
+        if i in have: continue
+        title = _g(x, "title"); head = " ".join([title, _g(x, "scientificTitle"), _g(x, "condition")])
+        pp = pop(head) or ("long COVID" if re.search(LCX, head, re.I) else None)
+        if not pp: continue
+        ab = _g(x, "plainEnglishSummary")[:4000]; en = _g(x, "overallEndDate")[:10] or None
+        sp = re.findall(r"<sponsor\b.*?<organisation>(.*?)</organisation>", x, re.S); fu = re.findall(r"<funder\b.*?<name>(.*?)</name>", x, re.S)
+        cs = re.findall(r"<recruitmentCountries>(.*?)</recruitmentCountries>", x, re.S); cs = re.findall(r"<country>(.*?)</country>", cs[0]) if cs else []
+        design = _g(x, "primaryStudyDesign")
+        rows.append({"id": "isrctn-" + i, "source": "ISRCTN", "source_label": "ISRCTN registry", "url": f"https://www.isrctn.com/{i}", "title": title,
+            "population": pp, "focus": "primary", "pi": [], "org": _h.unescape(sp[0]).strip() if sp else "", "country": "; ".join(_h.unescape(c) for c in cs) or "UK",
+            "funder": _h.unescape(fu[0]).strip() if fu else "", "start": _g(x, "recruitmentStart")[:10] or None, "end": en, "status": status(en),
+            "amount_usd": None, "kind": design + (" study" if design == "Observational" else " trial"), "n": int(_g(x, "targetEnrolment")) if _g(x, "targetEnrolment").isdigit() else None,
+            "areas": [], "topics": topics(title, ab)})
 # --- registered trials (site-src/data/trials.json), so the register covers every country with a trial
 p = os.path.join(SRC, "data", "trials.json")
 if os.path.exists(p):
@@ -169,7 +193,7 @@ CN = {"United States": "USA", "United States Of America": "USA", "US": "USA", "U
 for r in rows:
     r["country"] = "; ".join(dict.fromkeys(CN.get(c.strip(), c.strip()) for c in (r["country"] or "").split(";") if c.strip()))
 rows.sort(key=lambda r: (r["status"] != "active", r["focus"] != "primary", -(int((r["start"] or "0")[:4] or 0))))
-meta = {"generated": TODAY, "sources": {"MRR": "https://mrr.mecfs-research.org", "NIH": "https://reporter.nih.gov", "UKRI": "https://gtr.ukri.org", "CORDIS": "https://cordis.europa.eu", "Trials": "/trials", "PolyBio": "https://polybio.org/projects/", "CIHR": "https://webapps.cihr-irsc.gc.ca/decisions/p/main.html?lang=en"},
+meta = {"generated": TODAY, "sources": {"MRR": "https://mrr.mecfs-research.org", "NIH": "https://reporter.nih.gov", "UKRI": "https://gtr.ukri.org", "CORDIS": "https://cordis.europa.eu", "Trials": "/trials", "PolyBio": "https://polybio.org/projects/", "CIHR": "https://webapps.cihr-irsc.gc.ca/decisions/p/main.html?lang=en", "ISRCTN": "https://www.isrctn.com"},
         "topics": {k: l for k, l, _ in TOPICS} | {"other": "Other"}}
 json.dump({"meta": meta, "projects": rows}, open(os.path.join(SRC, "data", "projects.json"), "w", encoding="utf8"), ensure_ascii=False, indent=0)
 from collections import Counter

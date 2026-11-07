@@ -1,6 +1,6 @@
 {
 "meta": {
-"generated": "2026-11-02",
+"generated": "2026-11-07",
 "sources": {
 "MRR": "https://mrr.mecfs-research.org",
 "NIH": "https://reporter.nih.gov",
@@ -8,7 +8,8 @@
 "CORDIS": "https://cordis.europa.eu",
 "Trials": "/trials",
 "PolyBio": "https://polybio.org/projects/",
-"CIHR": "https://webapps.cihr-irsc.gc.ca/decisions/p/main.html?lang=en"
+"CIHR": "https://webapps.cihr-irsc.gc.ca/decisions/p/main.html?lang=en",
+"ISRCTN": "https://www.isrctn.com"
 },
 "topics": {
 "vascular": "Blood flow and vessels",
@@ -586,6 +587,53 @@
 "neuro",
 "omics",
 "trials"
+]
+},
+{
+"id": "isrctn-ISRCTN38597726",
+"source": "ISRCTN",
+"source_label": "ISRCTN registry",
+"url": "https://www.isrctn.com/ISRCTN38597726",
+"title": "Gefapixant and breathing control in long COVID",
+"population": "long COVID",
+"focus": "primary",
+"pi": [],
+"org": "University of Bristol",
+"country": "UK",
+"funder": "Medical Research Council",
+"start": "2026-11-02",
+"end": "2028-01-05",
+"status": "active",
+"amount_usd": null,
+"kind": "Interventional trial",
+"n": 34,
+"areas": [],
+"topics": [
+"trials",
+"epi"
+]
+},
+{
+"id": "isrctn-ISRCTN15375673",
+"source": "ISRCTN",
+"source_label": "ISRCTN registry",
+"url": "https://www.isrctn.com/ISRCTN15375673",
+"title": "Long Covid and myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS) study",
+"population": "both",
+"focus": "primary",
+"pi": [],
+"org": "University of Leeds",
+"country": "UK",
+"funder": "National Institute for Health and Care Research",
+"start": "2026-05-01",
+"end": "2028-12-31",
+"status": "active",
+"amount_usd": null,
+"kind": "Observational study",
+"n": 3060,
+"areas": [],
+"topics": [
+"epi"
 ]
 },
 {
@@ -2916,14 +2964,14 @@
 "population": "ME/CFS",
 "focus": "primary",
 "pi": [],
-"org": "",
+"org": "Lindus Health (for Alfred E. Tiefenbacher)",
 "country": "UK",
 "funder": "",
 "start": "2025-02-05",
-"end": "2026-03-22",
+"end": "2026-04-30",
 "status": "active",
 "amount_usd": null,
-"kind": "Trial: unclear",
+"kind": "Trial: RCT, placebo-controlled (registry says parallel; recruitment material describes a crossover)",
 "n": 25,
 "areas": [],
 "topics": [
@@ -10252,6 +10300,30 @@
 ]
 },
 {
+"id": "isrctn-ISRCTN16650532",
+"source": "ISRCTN",
+"source_label": "ISRCTN registry",
+"url": "https://www.isrctn.com/ISRCTN16650532",
+"title": "The UK interstitial lung disease long COVID-19 study",
+"population": "long COVID",
+"focus": "primary",
+"pi": [],
+"org": "Imperial College London",
+"country": "UK",
+"funder": "Medical Research Council; Grant Codes: MR/W006111/1",
+"start": "2021-08-18",
+"end": "2027-03-31",
+"status": "active",
+"amount_usd": null,
+"kind": "Observational study",
+"n": 2000,
+"areas": [],
+"topics": [
+"epi",
+"neuro"
+]
+},
+{
 "id": "trial-NCT05719493",
 "source": "Trials",
 "source_label": "Trial registries",
@@ -16130,6 +16202,30 @@
 ]
 },
 {
+"id": "isrctn-ISRCTN12510191",
+"source": "ISRCTN",
+"source_label": "ISRCTN registry",
+"url": "https://www.isrctn.com/ISRCTN12510191",
+"title": "A feasibility study of a smartphone app to support mental well-being in people with Long COVID",
+"population": "long COVID",
+"focus": "primary",
+"pi": [],
+"org": "Central Institute of Mental Health",
+"country": "Germany",
+"funder": "Bundesministerium für Gesundheit",
+"start": "2026-08-01",
+"end": "2026-08-31",
+"status": "completed",
+"amount_usd": null,
+"kind": "Interventional trial",
+"n": 50,
+"areas": [],
+"topics": [
+"trials",
+"epi"
+]
+},
+{
 "id": "nih-R43NR021082",
 "source": "NIH",
 "source_label": "NIH RePORTER",
@@ -16330,6 +16426,53 @@
 "amount_usd": 14600,
 "kind": "Planning and Dissemination Grants - Institute/Initiative Community Support",
 "n": null,
+"areas": [],
+"topics": [
+"trials"
+]
+},
+{
+"id": "isrctn-ISRCTN16564696",
+"source": "ISRCTN",
+"source_label": "ISRCTN registry",
+"url": "https://www.isrctn.com/ISRCTN16564696",
+"title": "The role of the carotid chemoreflex in long-COVID",
+"population": "long COVID",
+"focus": "primary",
+"pi": [],
+"org": "University of Bristol",
+"country": "UK",
+"funder": "Medical Research Council",
+"start": "2025-02-24",
+"end": "2026-09-10",
+"status": "completed",
+"amount_usd": null,
+"kind": "Interventional trial",
+"n": 34,
+"areas": [],
+"topics": [
+"muscle-exertion",
+"epi"
+]
+},
+{
+"id": "isrctn-ISRCTN47597568",
+"source": "ISRCTN",
+"source_label": "ISRCTN registry",
+"url": "https://www.isrctn.com/ISRCTN47597568",
+"title": "Ozone therapy for long COVID",
+"population": "long COVID",
+"focus": "primary",
+"pi": [],
+"org": "Universidad Católica de Murcia",
+"country": "Spain",
+"funder": "Investigator initiated and funded",
+"start": "2025-11-01",
+"end": "2026-04-01",
+"status": "completed",
+"amount_usd": null,
+"kind": "Interventional trial",
+"n": 40,
 "areas": [],
 "topics": [
 "trials"
@@ -16711,6 +16854,100 @@
 "areas": [],
 "topics": [
 "other"
+]
+},
+{
+"id": "isrctn-ISRCTN16132141",
+"source": "ISRCTN",
+"source_label": "ISRCTN registry",
+"url": "https://www.isrctn.com/ISRCTN16132141",
+"title": "Brain response to light stimulation in people with myalgic encephalomyelitis/chronic fatigue syndrome",
+"population": "ME/CFS",
+"focus": "primary",
+"pi": [],
+"org": "University of Oxford",
+"country": "UK",
+"funder": "Medical Research Council",
+"start": "2024-09-23",
+"end": "2025-12-31",
+"status": "completed",
+"amount_usd": null,
+"kind": "Observational study",
+"n": 50,
+"areas": [],
+"topics": [
+"neuro"
+]
+},
+{
+"id": "isrctn-ISRCTN14605407",
+"source": "ISRCTN",
+"source_label": "ISRCTN registry",
+"url": "https://www.isrctn.com/ISRCTN14605407",
+"title": "A study to identify if it is possible to measure lactate in health participants and people with myalgic encephalomyelitis during everyday activity",
+"population": "ME/CFS",
+"focus": "primary",
+"pi": [],
+"org": "University of Liverpool",
+"country": "UK",
+"funder": "ME Association",
+"start": "2024-02-06",
+"end": "2024-12-30",
+"status": "completed",
+"amount_usd": null,
+"kind": "Observational study",
+"n": 40,
+"areas": [],
+"topics": [
+"muscle-exertion"
+]
+},
+{
+"id": "isrctn-ISRCTN12036374",
+"source": "ISRCTN",
+"source_label": "ISRCTN registry",
+"url": "https://www.isrctn.com/ISRCTN12036374",
+"title": "Understanding the role of community pharmacy in the support of people with long COVID",
+"population": "long COVID",
+"focus": "primary",
+"pi": [],
+"org": "Keele University",
+"country": "UK; Northern Ireland",
+"funder": "Research for Patient Benefit Programme",
+"start": "2024-05-01",
+"end": "2025-08-31",
+"status": "completed",
+"amount_usd": null,
+"kind": "Observational study",
+"n": 50,
+"areas": [],
+"topics": [
+"epi",
+"neuro"
+]
+},
+{
+"id": "isrctn-ISRCTN21581826",
+"source": "ISRCTN",
+"source_label": "ISRCTN registry",
+"url": "https://www.isrctn.com/ISRCTN21581826",
+"title": "Living with post COVID-19 symptoms: A survey of people's experiences",
+"population": "long COVID",
+"focus": "primary",
+"pi": [],
+"org": "University of Zurich, Epidemiology, Biostatistics and Prevention Institute",
+"country": "Switzerland",
+"funder": "Universität Zürich",
+"start": "2024-10-25",
+"end": "2025-04-01",
+"status": "completed",
+"amount_usd": null,
+"kind": "Observational study",
+"n": 300,
+"areas": [],
+"topics": [
+"epi",
+"trials"
 ]
 },
 {
@@ -18625,6 +18862,54 @@
 "topics": [
 "epi",
 "omics"
+]
+},
+{
+"id": "isrctn-ISRCTN11876145",
+"source": "ISRCTN",
+"source_label": "ISRCTN registry",
+"url": "https://www.isrctn.com/ISRCTN11876145",
+"title": "Long-term mental and brain health effects of COVID-19 from the Omicron strains among adult patients",
+"population": "long COVID",
+"focus": "primary",
+"pi": [],
+"org": "Chinese University of Hong Kong",
+"country": "China (Hong Kong)",
+"funder": "Research Grant Council, Hong Kong",
+"start": "2023-04-21",
+"end": "2024-05-09",
+"status": "completed",
+"amount_usd": null,
+"kind": "Observational study",
+"n": 1200,
+"areas": [],
+"topics": [
+"neuro",
+"omics"
+]
+},
+{
+"id": "isrctn-ISRCTN65089038",
+"source": "ISRCTN",
+"source_label": "ISRCTN registry",
+"url": "https://www.isrctn.com/ISRCTN65089038",
+"title": "Developing chamomile as a potential long COVID therapy: clinical evaluation of Roman chamomile extract in healthy volunteers",
+"population": "long COVID",
+"focus": "primary",
+"pi": [],
+"org": "Sibelius Limited",
+"country": "Tunisia",
+"funder": "Sibelius Limited",
+"start": "2023-05-25",
+"end": "2023-07-31",
+"status": "completed",
+"amount_usd": null,
+"kind": "Interventional trial",
+"n": 40,
+"areas": [],
+"topics": [
+"trials",
+"epi"
 ]
 },
 {
@@ -21698,6 +21983,215 @@
 "areas": [],
 "topics": [
 "epi"
+]
+},
+{
+"id": "isrctn-ISRCTN12242529",
+"source": "ISRCTN",
+"source_label": "ISRCTN registry",
+"url": "https://www.isrctn.com/ISRCTN12242529",
+"title": "How common is late-onset Pompe disease and limb girdle muscular dystrophy 2a in children and young people and adults treated for myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS): A cross-sectional study.",
+"population": "ME/CFS",
+"focus": "primary",
+"pi": [],
+"org": "University of Bristol",
+"country": "UK",
+"funder": "Sanofi",
+"start": "2022-09-01",
+"end": "2025-09-01",
+"status": "completed",
+"amount_usd": null,
+"kind": "Observational study",
+"n": 1882,
+"areas": [],
+"topics": [
+"epi"
+]
+},
+{
+"id": "isrctn-ISRCTN10554129",
+"source": "ISRCTN",
+"source_label": "ISRCTN registry",
+"url": "https://www.isrctn.com/ISRCTN10554129",
+"title": "Pacing with a heart rate monitor for people with myalgic encephalomyelitis (ME) and long COVID",
+"population": "both",
+"focus": "primary",
+"pi": [],
+"org": "University of Liverpool",
+"country": "UK",
+"funder": "The ME Association",
+"start": "2022-09-05",
+"end": "2023-06-30",
+"status": "completed",
+"amount_usd": null,
+"kind": "Observational study",
+"n": 60,
+"areas": [],
+"topics": [
+"muscle-exertion",
+"trials"
+]
+},
+{
+"id": "isrctn-ISRCTN99840264",
+"source": "ISRCTN",
+"source_label": "ISRCTN registry",
+"url": "https://www.isrctn.com/ISRCTN99840264",
+"title": "Reducing fatigue in Long COVID-19: A feasibility study of a self-help intervention to reduce fatigue-related symptoms among patients in general practice",
+"population": "long COVID",
+"focus": "primary",
+"pi": [],
+"org": "Northern Care Alliance",
+"country": "UK",
+"funder": "Fund for Osteopathic Research into ME (FORME)",
+"start": "2022-08-01",
+"end": "2023-11-30",
+"status": "completed",
+"amount_usd": null,
+"kind": "Interventional trial",
+"n": 100,
+"areas": [],
+"topics": [
+"trials"
+]
+},
+{
+"id": "isrctn-ISRCTN35268189",
+"source": "ISRCTN",
+"source_label": "ISRCTN registry",
+"url": "https://www.isrctn.com/ISRCTN35268189",
+"title": "Long-term mental and brain health effects of COVID among adult patients",
+"population": "long COVID",
+"focus": "primary",
+"pi": [],
+"org": "Shatin Hospital",
+"country": "China (Hong Kong)",
+"funder": "Research Grant Council, Hong Kong",
+"start": "2022-08-24",
+"end": "2024-05-09",
+"status": "completed",
+"amount_usd": null,
+"kind": "Observational study",
+"n": 750,
+"areas": [],
+"topics": [
+"neuro"
+]
+},
+{
+"id": "isrctn-ISRCTN85770358",
+"source": "ISRCTN",
+"source_label": "ISRCTN registry",
+"url": "https://www.isrctn.com/ISRCTN85770358",
+"title": "Evaluating video and hybrid group consultations in general practice: Mixed-methods, participatory study",
+"population": "long COVID",
+"focus": "primary",
+"pi": [],
+"org": "University of Oxford",
+"country": "UK",
+"funder": "National Institute for Health and Care Research",
+"start": "2022-08-01",
+"end": "2025-05-31",
+"status": "completed",
+"amount_usd": null,
+"kind": "Observational study",
+"n": 500,
+"areas": [],
+"topics": [
+"epi"
+]
+},
+{
+"id": "isrctn-ISRCTN11309292",
+"source": "ISRCTN",
+"source_label": "ISRCTN registry",
+"url": "https://www.isrctn.com/ISRCTN11309292",
+"title": "Aerosol clearance in patients with and without long COVID",
+"population": "long COVID",
+"focus": "primary",
+"pi": [],
+"org": "NHS Tayside",
+"country": "UK",
+"funder": "NHS Tayside",
+"start": "2022-07-08",
+"end": "2023-07-07",
+"status": "completed",
+"amount_usd": null,
+"kind": "Observational study",
+"n": 100,
+"areas": [],
+"topics": [
+"epi"
+]
+},
+{
+"id": "isrctn-ISRCTN14304264",
+"source": "ISRCTN",
+"source_label": "ISRCTN registry",
+"url": "https://www.isrctn.com/ISRCTN14304264",
+"title": "An investigation to explore the use of a type of MRI scan using an inhaled gas in identifying lung damage associated with long COVID sufferers",
+"population": "long COVID",
+"focus": "primary",
+"pi": [],
+"org": "University of Oxford",
+"country": "UK",
+"funder": "National Institute for Health Research",
+"start": "2022-04-15",
+"end": "2024-01-01",
+"status": "completed",
+"amount_usd": null,
+"kind": "Observational study",
+"n": 400,
+"areas": [],
+"topics": [
+"neuro"
+]
+},
+{
+"id": "isrctn-ISRCTN27312680",
+"source": "ISRCTN",
+"source_label": "ISRCTN registry",
+"url": "https://www.isrctn.com/ISRCTN27312680",
+"title": "Analysis of factors associated with the presence of persistent symptoms in people with a diagnosis of COVID-19: a case-control study",
+"population": "long COVID",
+"focus": "primary",
+"pi": [],
+"org": "Instituto de Investigación Sanitaria Aragón",
+"country": "Spain",
+"funder": "Instituto de Investigación Sanitaria Aragón",
+"start": "2022-03-28",
+"end": "2025-12-31",
+"status": "completed",
+"amount_usd": null,
+"kind": "Observational study",
+"n": 400,
+"areas": [],
+"topics": [
+"infection",
+"epi"
+]
+},
+{
+"id": "isrctn-ISRCTN15022307",
+"source": "ISRCTN",
+"source_label": "ISRCTN registry",
+"url": "https://www.isrctn.com/ISRCTN15022307",
+"title": "LOCOMOTION: Can we optimise the treatments and services provided across the NHS for long COVID?",
+"population": "long COVID",
+"focus": "primary",
+"pi": [],
+"org": "University of Leeds",
+"country": "UK",
+"funder": "National Institute for Health Research",
+"start": "2022-01-05",
+"end": "2024-06-30",
+"status": "completed",
+"amount_usd": null,
+"kind": "Observational study",
+"n": 5000,
+"areas": [],
+"topics": [
+"trials"
 ]
 },
 {
@@ -25580,6 +26074,170 @@
 ]
 },
 {
+"id": "isrctn-ISRCTN58994514",
+"source": "ISRCTN",
+"source_label": "ISRCTN registry",
+"url": "https://www.isrctn.com/ISRCTN58994514",
+"title": "Understanding how long COVID-19 impacts breathing, heart rate, and blood pressure control",
+"population": "long COVID",
+"focus": "primary",
+"pi": [],
+"org": "University of Bristol",
+"country": "UK",
+"funder": "Above & Beyond",
+"start": "2021-11-01",
+"end": "2023-03-31",
+"status": "completed",
+"amount_usd": null,
+"kind": "Observational study",
+"n": 54,
+"areas": [],
+"topics": [
+"neuro",
+"vascular"
+]
+},
+{
+"id": "isrctn-ISRCTN78379409",
+"source": "ISRCTN",
+"source_label": "ISRCTN registry",
+"url": "https://www.isrctn.com/ISRCTN78379409",
+"title": "Is it feasible to take physiological measurements for people with myalgic encephalomyelitis (ME) in their own homes?",
+"population": "ME/CFS",
+"focus": "primary",
+"pi": [],
+"org": "University of Leicester",
+"country": "UK",
+"funder": "ME Association",
+"start": "2021-05-04",
+"end": "2021-10-26",
+"status": "completed",
+"amount_usd": null,
+"kind": "Observational study",
+"n": 20,
+"areas": [],
+"topics": [
+"muscle-exertion",
+"trials"
+]
+},
+{
+"id": "isrctn-ISRCTN15674970",
+"source": "ISRCTN",
+"source_label": "ISRCTN registry",
+"url": "https://www.isrctn.com/ISRCTN15674970",
+"title": "Therapies for Long COVID",
+"population": "long COVID",
+"focus": "primary",
+"pi": [],
+"org": "University of Birmingham",
+"country": "UK",
+"funder": "National Institute for Health Research",
+"start": "2021-11-22",
+"end": "2023-03-01",
+"status": "completed",
+"amount_usd": null,
+"kind": "Observational study",
+"n": 3040,
+"areas": [],
+"topics": [
+"trials"
+]
+},
+{
+"id": "isrctn-ISRCTN15851697",
+"source": "ISRCTN",
+"source_label": "ISRCTN registry",
+"url": "https://www.isrctn.com/ISRCTN15851697",
+"title": "Helping alleviate the longer-term consequences of COVID-19",
+"population": "long COVID",
+"focus": "primary",
+"pi": [],
+"org": "Cambridge University Hospitals NHS Foundation Trust",
+"country": "UK",
+"funder": "National Institute for Health Research",
+"start": "2021-04-23",
+"end": "2025-01-31",
+"status": "completed",
+"amount_usd": null,
+"kind": "Interventional trial",
+"n": 1754,
+"areas": [],
+"topics": [
+"trials",
+"epi"
+]
+},
+{
+"id": "isrctn-ISRCTN34804192",
+"source": "ISRCTN",
+"source_label": "ISRCTN registry",
+"url": "https://www.isrctn.com/ISRCTN34804192",
+"title": "Study of children and young people who may be experiencing long COVID",
+"population": "long COVID",
+"focus": "primary",
+"pi": [],
+"org": "NIHR Academy",
+"country": "UK",
+"funder": "National Institute for Health Research",
+"start": "2021-04-12",
+"end": "2023-05-09",
+"status": "completed",
+"amount_usd": null,
+"kind": "Observational study",
+"n": 30000,
+"areas": [],
+"topics": [
+"epi"
+]
+},
+{
+"id": "isrctn-ISRCTN14376817",
+"source": "ISRCTN",
+"source_label": "ISRCTN registry",
+"url": "https://www.isrctn.com/ISRCTN14376817",
+"title": "A pilot study of lung ultrasound as point of care evaluation in post-COVID-19 patients",
+"population": "long COVID",
+"focus": "primary",
+"pi": [],
+"org": "Maidstone and Tunbridge Wells NHS Trust",
+"country": "UK",
+"funder": "Maidstone & Tunbridge Wells NHS Research Charity",
+"start": "2021-03-03",
+"end": "2022-03-18",
+"status": "completed",
+"amount_usd": null,
+"kind": "Observational study",
+"n": 20,
+"areas": [],
+"topics": [
+"epi"
+]
+},
+{
+"id": "isrctn-ISRCTN87329095",
+"source": "ISRCTN",
+"source_label": "ISRCTN registry",
+"url": "https://www.isrctn.com/ISRCTN87329095",
+"title": "Morphine and BrEathLessness trial (MABEL)",
+"population": "long COVID",
+"focus": "primary",
+"pi": [],
+"org": "Hull University Teaching Hospitals NHS Trust (UK)",
+"country": "UK",
+"funder": "Health Technology Assessment Programme",
+"start": "2021-03-01",
+"end": "2024-01-31",
+"status": "completed",
+"amount_usd": null,
+"kind": "Interventional trial",
+"n": 158,
+"areas": [],
+"topics": [
+"trials"
+]
+},
+{
 "id": "trial-NCT04740736",
 "source": "Trials",
 "source_label": "Trial registries",
@@ -27407,6 +28065,75 @@
 "areas": [],
 "topics": [
 "epi"
+]
+},
+{
+"id": "isrctn-ISRCTN14507847",
+"source": "ISRCTN",
+"source_label": "ISRCTN registry",
+"url": "https://www.isrctn.com/ISRCTN14507847",
+"title": "The use of dynamic X-rays for patients with respiratory disease",
+"population": "long COVID",
+"focus": "primary",
+"pi": [],
+"org": "Royal Liverpool University Hospital",
+"country": "UK",
+"funder": "Royal Liverpool University Hospital",
+"start": "2020-12-01",
+"end": "2022-11-01",
+"status": "completed",
+"amount_usd": null,
+"kind": "Observational study",
+"n": 50,
+"areas": [],
+"topics": [
+"other"
+]
+},
+{
+"id": "isrctn-ISRCTN15615697",
+"source": "ISRCTN",
+"source_label": "ISRCTN registry",
+"url": "https://www.isrctn.com/ISRCTN15615697",
+"title": "Hormones after COVID-19",
+"population": "long COVID",
+"focus": "primary",
+"pi": [],
+"org": "Imperial College London",
+"country": "UK",
+"funder": "Investigator initiated and funded",
+"start": "2020-10-13",
+"end": "2022-10-16",
+"status": "completed",
+"amount_usd": null,
+"kind": "Observational study",
+"n": 100,
+"areas": [],
+"topics": [
+"endocrine"
+]
+},
+{
+"id": "isrctn-ISRCTN20867558",
+"source": "ISRCTN",
+"source_label": "ISRCTN registry",
+"url": "https://www.isrctn.com/ISRCTN20867558",
+"title": "Survive and Thrive: exploring the wellbeing of doctors in a post-COVID-19 era",
+"population": "long COVID",
+"focus": "primary",
+"pi": [],
+"org": "University of Southampton",
+"country": "UK",
+"funder": "Health Education England",
+"start": "2020-08-15",
+"end": "2021-12-31",
+"status": "completed",
+"amount_usd": null,
+"kind": "Observational study",
+"n": 350,
+"areas": [],
+"topics": [
+"other"
 ]
 },
 {
@@ -30374,6 +31101,29 @@
 ]
 },
 {
+"id": "isrctn-ISRCTN05731670",
+"source": "ISRCTN",
+"source_label": "ISRCTN registry",
+"url": "https://www.isrctn.com/ISRCTN05731670",
+"title": "Syalogram in chronic fatigue syndrome",
+"population": "ME/CFS",
+"focus": "primary",
+"pi": [],
+"org": "Foundation for Fibromyalgia and Chronic Fatigue Syndrome (Spain)",
+"country": "Spain",
+"funder": "Foundation for Fibromyalgia and Chronic Fatigue Syndrome (Fundacion para la Fibromialgia y el Síndrome de Fatiga Crónica) (Spain)",
+"start": "2009-05-01",
+"end": "2011-08-30",
+"status": "completed",
+"amount_usd": null,
+"kind": "Interventional trial",
+"n": 50,
+"areas": [],
+"topics": [
+"other"
+]
+},
+{
 "id": "trial-NCT00860236",
 "source": "Trials",
 "source_label": "Trial registries",
@@ -30511,6 +31261,30 @@
 "amount_usd": null,
 "kind": "Trial: RCT-placebo",
 "n": 26,
+"areas": [],
+"topics": [
+"neuro",
+"trials"
+]
+},
+{
+"id": "isrctn-ISRCTN15823716",
+"source": "ISRCTN",
+"source_label": "ISRCTN registry",
+"url": "https://www.isrctn.com/ISRCTN15823716",
+"title": "The effectiveness of cognitive behavioural therapy in groups for patients with Chronic Fatigue Syndrome (CFS): a randomised controlled study",
+"population": "ME/CFS",
+"focus": "primary",
+"pi": [],
+"org": "University Medical Center St. Radboud (The Netherlands)",
+"country": "Netherlands",
+"funder": "University Medical Center St. Radboud (The Netherlands)",
+"start": "2008-01-01",
+"end": "2008-12-01",
+"status": "completed",
+"amount_usd": null,
+"kind": "Interventional trial",
+"n": 204,
 "areas": [],
 "topics": [
 "neuro",
@@ -30708,6 +31482,100 @@
 ]
 },
 {
+"id": "isrctn-ISRCTN03090939",
+"source": "ISRCTN",
+"source_label": "ISRCTN registry",
+"url": "https://www.isrctn.com/ISRCTN03090939",
+"title": "A comparison of high cocoa solid with absent cocoa solid chocolate in patients with chronic fatigue syndrome in a double blind randomised controlled trial",
+"population": "ME/CFS",
+"focus": "primary",
+"pi": [],
+"org": "Hull and East Yorkshire Hospital NHS Trust (UK)",
+"country": "UK",
+"funder": "Research and Development Department, Hull Royal Infirmary (UK)",
+"start": "2005-10-01",
+"end": "2006-10-01",
+"status": "completed",
+"amount_usd": null,
+"kind": "Interventional trial",
+"n": 10,
+"areas": [],
+"topics": [
+"trials"
+]
+},
+{
+"id": "isrctn-ISRCTN74156610",
+"source": "ISRCTN",
+"source_label": "ISRCTN registry",
+"url": "https://www.isrctn.com/ISRCTN74156610",
+"title": "A randomised controlled trial of nurse facilitated self-help treatment for patients in primary care with chronic fatigue syndrome",
+"population": "ME/CFS",
+"focus": "primary",
+"pi": [],
+"org": "University of Manchester (UK)",
+"country": "UK",
+"funder": "Medical Research Council (MRC) (UK) (G0200212)",
+"start": "2004-06-21",
+"end": "2008-07-25",
+"status": "completed",
+"amount_usd": null,
+"kind": "Interventional trial",
+"n": 360,
+"areas": [],
+"topics": [
+"trials",
+"epi"
+]
+},
+{
+"id": "isrctn-ISRCTN77271661",
+"source": "ISRCTN",
+"source_label": "ISRCTN registry",
+"url": "https://www.isrctn.com/ISRCTN77271661",
+"title": "The effect of Acclydine on fatigue and functional status in patients with chronic fatigue syndrome",
+"population": "ME/CFS",
+"focus": "primary",
+"pi": [],
+"org": "University Medical Centre Nijmegen (Netherlands)",
+"country": "Netherlands",
+"funder": "Optipharma BV (Netherlands)",
+"start": "2002-10-22",
+"end": "2005-10-01",
+"status": "completed",
+"amount_usd": null,
+"kind": "Interventional trial",
+"n": 60,
+"areas": [],
+"topics": [
+"other"
+]
+},
+{
+"id": "isrctn-ISRCTN52896230",
+"source": "ISRCTN",
+"source_label": "ISRCTN registry",
+"url": "https://www.isrctn.com/ISRCTN52896230",
+"title": "Nasal hyper-reactivity in multiple chemical sensitivity and chronic fatigue syndrome: randomised double blind, placebo-controlled, cross-over, nasal challenge study to evaluate neural and vascular responsiveness",
+"population": "ME/CFS",
+"focus": "primary",
+"pi": [],
+"org": "Department of Health (UK)",
+"country": "UK",
+"funder": "Southampton University Hospitals NHS Trust (UK)",
+"start": "2002-09-27",
+"end": "2007-09-26",
+"status": "completed",
+"amount_usd": null,
+"kind": "Interventional trial",
+"n": 36,
+"areas": [],
+"topics": [
+"vascular",
+"trials"
+]
+},
+{
 "id": "trial-NCT00598585",
 "source": "Trials",
 "source_label": "Trial registries",
@@ -30885,6 +31753,29 @@
 ],
 "years": [
 2021
+]
+},
+{
+"id": "isrctn-ISRCTN78372534",
+"source": "ISRCTN",
+"source_label": "ISRCTN registry",
+"url": "https://www.isrctn.com/ISRCTN78372534",
+"title": "Should general practitioners manage chronic fatigue syndrome?  A controlled trial",
+"population": "ME/CFS",
+"focus": "primary",
+"pi": [],
+"org": "Record Provided by the NHS R&D 'Time-Limited' National Programme Register - Department of Health (UK)",
+"country": "UK",
+"funder": "NHS Primary and Secondary Care Interface National Research and Development Programme (UK)",
+"start": "1995-04-01",
+"end": "1998-02-01",
+"status": "completed",
+"amount_usd": null,
+"kind": "Interventional trial",
+"n": 0,
+"areas": [],
+"topics": [
+"trials"
 ]
 },
 {
