@@ -1,0 +1,289 @@
+[
+ {
+  "id": "26356104",
+  "relevant": "related",
+  "population": "other (hospital staff, CFS symptoms)",
+  "design": "cross-sectional",
+  "n": "365",
+  "finding": "Low back pain in the past year (59.7%) was associated with chronic fatigue syndrome; shift work and occupation length were risk factors.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "Not clinically diagnosed ME/CFS; abstract truncated"
+ },
+ {
+  "id": "25555530",
+  "relevant": "core",
+  "population": "ME/CFS adolescents (broad case definition, broader than Fukuda)",
+  "design": "case-control",
+  "n": "120 vs 68",
+  "finding": "Twenty-seven plasma cytokines and network parameters did not differ between adolescent CFS patients and controls.",
+  "atlas": [
+   "immune-cytokine-meta",
+   "immune-cytokine-duration"
+  ],
+  "relation": "contradicts",
+  "steps": [
+   1
+  ],
+  "treatments": [],
+  "importance": 2,
+  "note": "Broad definition without required accompanying symptoms; abstract truncated"
+ },
+ {
+  "id": "25512240",
+  "relevant": "core",
+  "population": "ME/CFS (CFS, female)",
+  "design": "case-control",
+  "n": "42 vs 24",
+  "finding": "Exercise capacity (VO2peak) was significantly lower in CFS; in patients, higher VO2peak related to less daytime sleep; sleep latency and efficiency were normal but patients slept more and spent more time in bed.",
+  "atlas": [
+   "muscle-exertion-low-peak-vo2",
+   "neuro-sleep"
+  ],
+  "relation": "replicates",
+  "steps": [
+   8
+  ],
+  "treatments": [],
+  "importance": 2,
+  "note": "Inactive controls; female only"
+ },
+ {
+  "id": "25514671",
+  "relevant": "core",
+  "population": "ME/CFS and Gulf War illness",
+  "design": "case-control",
+  "n": "not stated in abstract",
+  "finding": "77 serum cytokines separated ME (sensitivity 92.5%) and GWI (64.9%) from controls, top ones IL-7, IL-4, TNF-alpha, IL-13, IL-17F; GWI resembled controls more than ME did.",
+  "atlas": [
+   "immune-cytokine-meta"
+  ],
+  "relation": "extends",
+  "steps": [
+   1
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": "Small, no n in abstract; multiplex panel, no replication"
+ },
+ {
+  "id": "25488934",
+  "relevant": "related",
+  "population": "ME/CFS (community)",
+  "design": "qualitative",
+  "n": "14 forums",
+  "finding": "Analysis of Norwegian online ME forums identified four discursive domains sustaining a symbolic community.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "25459889",
+  "relevant": "core",
+  "population": "ME/CFS (CFS, female)",
+  "design": "cross-sectional",
+  "n": "40",
+  "finding": "No association between childhood trauma and 7-day salivary cortisol; emotional neglect was related negatively to a stress-reactivity measure (text truncated).",
+  "atlas": [
+   "endocrine-hpa-low-cortisol"
+  ],
+  "relation": "none",
+  "steps": [
+   2
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": "No control group; abstract truncated"
+ },
+ {
+  "id": "25365699",
+  "relevant": "related",
+  "population": "ME/CFS",
+  "design": "meta-analysis",
+  "n": "68 articles screened, 8 psychometric",
+  "finding": "Systematic review of activity and participation instruments found limited psychometric evidence; CFS-APQ recommended.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "25308475",
+  "relevant": "core",
+  "population": "ME/CFS (CDC 1994) vs MS vs healthy",
+  "design": "case-control",
+  "n": "48 CFS vs 19 MS vs 39 HC",
+  "finding": "CFS patients had worse symptoms, maximal voluntary contraction, muscle recovery and cognition than MS and controls; ME/Canadian criteria subgroups differed little, comorbid fibromyalgia added symptom burden.",
+  "atlas": [
+   "neuro-cognition"
+  ],
+  "relation": "replicates",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "CDC 1994 cohort"
+ },
+ {
+  "id": "25304959",
+  "relevant": "related",
+  "population": "ME/CFS",
+  "design": "other",
+  "n": "null",
+  "finding": "Argues recovery thresholds for CFS should use normative data from healthy working-age people; PACE recovery definition may have overstated recovery.",
+  "atlas": [
+   "trials-recovery-rates",
+   "trials-pace-get-cbt"
+  ],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "Commentary/methods"
+ },
+ {
+  "id": "25200878",
+  "relevant": "related",
+  "population": "ME/CFS and fibromyalgia",
+  "design": "meta-analysis",
+  "n": "650 FM, 88 CFS (13 RCTs)",
+  "finding": "Relaxation therapy: none of the studies reported autonomic outcomes; for CFS a multimodal approach seemed better than relaxation (3 studies).",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [
+   "relaxation"
+  ],
+  "importance": 1,
+  "note": "Mostly fibromyalgia"
+ },
+ {
+  "id": "25178481",
+  "relevant": "related",
+  "population": "ME/CFS",
+  "design": "case-control",
+  "n": "27 vs 27",
+  "finding": "CFS/ME participants had more post-traumatic stress symptoms and fewer coping strategies than controls; pain severity was not associated with trauma symptoms.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "Questionnaire study"
+ },
+ {
+  "id": "24913009",
+  "relevant": "related",
+  "population": "unexplained chronic fatigue and CFS",
+  "design": "qualitative",
+  "n": "67",
+  "finding": "Patient attributions for global change ratings: improved patients cited behavioural changes, worsened cited stress.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "25603742",
+  "relevant": "related",
+  "population": "fibromyalgia and CFS",
+  "design": "meta-analysis",
+  "n": "29 RCTs",
+  "finding": "Body awareness interventions improved FIQ, pain, depression, anxiety and quality of life, with high heterogeneity; mostly fibromyalgia.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [
+   "body-awareness"
+  ],
+  "importance": 1,
+  "note": "Low quality evidence; few CFS studies"
+ },
+ {
+  "id": "24736946",
+  "relevant": "core",
+  "population": "ME/CFS (ME)",
+  "design": "case-control",
+  "n": "40 vs 40",
+  "finding": "Small left ventricle and low cardiac index (EDD <40 mm 45% vs 3%; cardiac index <2 53% vs 8%) were common in ME, and orthostatic intolerance was present in 35 of 36 tested.",
+  "atlas": [
+   "vascular-small-heart-stroke-volume"
+  ],
+  "relation": "replicates",
+  "steps": [
+   3
+  ],
+  "treatments": [],
+  "importance": 2,
+  "note": "Japanese cohort; ME diagnosis criteria not stated in abstract"
+ },
+ {
+  "id": "24274008",
+  "relevant": "related",
+  "population": "ME/CFS (female)",
+  "design": "cross-sectional",
+  "n": "615",
+  "finding": "Sexual dysfunction was greater in women with CFS with more symptoms, fibromyalgia, Sjogren's or myofascial pain, and more fatigue.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "24510231",
+  "relevant": "related",
+  "population": "ME/CFS",
+  "design": "cross-sectional",
+  "n": "two data sets",
+  "finding": "ME International Consensus Criteria identified more impaired patients with more severe symptoms than Fukuda criteria.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "24112872",
+  "relevant": "core",
+  "population": "ME/CFS (with and without depression)",
+  "design": "case-control",
+  "n": "19 and 22 vs 29",
+  "finding": "Attention network test: error rates did not differ but information processing time was prolonged in CFS, most in complex conditions.",
+  "atlas": [
+   "neuro-cognition"
+  ],
+  "relation": "replicates",
+  "steps": [
+   2
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": "Small"
+ },
+ {
+  "id": "24058124",
+  "relevant": "related",
+  "population": "other (medical students)",
+  "design": "qualitative",
+  "n": "21",
+  "finding": "Medical students had limited knowledge of CFS and informal sources shaped attitudes.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ }
+]

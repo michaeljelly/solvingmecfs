@@ -7,7 +7,7 @@ A fragment starts with <!--meta {json}--> (title, description, nav, optional hea
 import hashlib, json, os, re, sys, datetime, shutil
 
 SRC, SITE = sys.argv[1], sys.argv[2]
-NAV = [("primer", "/primer", "Primer"), ("model", "/model", "Working model"), ("atlas", "/atlas", "Evidence"), ("questions", "/questions", "Open questions"), ("research", "/research", "Projects"), ("trials", "/trials", "Trials"),
+NAV = [("primer", "/primer", "Primer"), ("model", "/model", "Working model"), ("atlas", "/atlas", "Evidence"), ("library", "/library", "Library"), ("questions", "/questions", "Open questions"), ("research", "/research", "Projects"), ("trials", "/trials", "Trials"),
        ("treatments", "/treatments", "Treatments"), ("funding", "/funding", "Funding"), ("data", "/data", "Data"), ("method", "/method", "Method")]
 LOGO = '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="var(--accent)" stroke-width="2.6" stroke-dasharray="44 9.4" stroke-linecap="round" transform="rotate(-62 12 12)"/><circle cx="18.9" cy="7.2" r="2.1" fill="var(--warm)"/></svg>'
 FAVICON = "data:image/svg+xml," + ('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5" fill="none" stroke="%230d6a6f" stroke-width="2.6" stroke-dasharray="44 9.4" stroke-linecap="round" transform="rotate(-62 12 12)"/><circle cx="18.9" cy="7.2" r="2.1" fill="%23b4532a"/></svg>').replace("<", "%3C").replace(">", "%3E").replace('"', "'")

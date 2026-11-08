@@ -64,7 +64,207 @@
     "autonomic-small-fibre",
     "vascular-endothelial"
    ],
-   "test_available": "Tilt with extracranial Doppler (few centres, e.g. Netherlands) or transcranial Doppler in some autonomic labs; mostly research or specialist only"
+   "test_available": "Tilt with extracranial Doppler (few centres, e.g. Netherlands) or transcranial Doppler in some autonomic labs; mostly research or specialist only",
+   "sweep": [
+    {
+     "cite": "van Campen 2024",
+     "n": "534 (46 normal, 488 abnormal)",
+     "design": "case-control",
+     "result": "During tilt, 91% of 534 ME/CFS patients had abnormal cardiac output and cerebral blood flow reductions even with normal HR and BP; CO-CBF regression slope near 1.",
+     "url": "https://doi.org/10.3390/healthcare12242566",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 3
+    },
+    {
+     "cite": "van Campen 2023",
+     "n": "42 at 20 deg, 41 at 70 deg",
+     "design": "cohort",
+     "result": "CBF fell 27% at 20 deg tilt vs 31% at 70 deg (p=0.003); no POTS at 20 deg vs 32% at 70 deg.",
+     "url": "https://doi.org/10.3389/fped.2023.1169447",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "van Campen 2021",
+     "n": "10 long COVID, 20 ME/CFS POTS, 20 ME/CFS non-POTS, 10 HC",
+     "design": "case-control",
+     "result": "Long COVID patients had ME/CFS-like symptoms; all developed POTS on tilt; cerebral blood flow and cardiac index fell more than in healthy controls, CBF fall larger in long COVID.",
+     "url": "https://doi.org/10.3390/medicina58010028",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "van Campen 2020",
+     "n": "19 severe",
+     "design": "cohort",
+     "result": "In severe ME/CFS, a 15-min 20-degree tilt reduced cerebral blood flow by 27%, comparable to the 26% decline with 70-degree tilt in milder patients.",
+     "url": "https://doi.org/10.3390/healthcare8020169",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Stewart 2012",
+     "n": "25 vs 20",
+     "design": "case-control",
+     "result": "On incremental tilt, n-back performance deteriorated and neuronally activated CBFV fell in young CFS but not controls; critical closing pressure was higher (raised vasomotor tone).",
+     "url": "https://doi.org/10.1152/ajpheart.00994.2011",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "van Campen 2020",
+     "n": "100 severe vs 15 controls",
+     "design": "case-control",
+     "result": "Sitting for an hour reduced cerebral blood flow in severe ME/CFS (474 vs 627 mL/min in controls); 90 patients with orthostatic intolerance had -26.9% CBF reduction; supine CBF normal.",
+     "url": "https://doi.org/10.3390/healthcare8040394",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 3
+    },
+    {
+     "cite": "van Campen 2024, preprint",
+     "n": "534 patients vs 49 controls",
+     "design": "case-control",
+     "result": "91% of patients had an abnormal reduction in cardiac output and cerebral blood flow during tilt despite normal HR and BP response, with CO-CBF slope near 1; the 9% with normal changes were less severe and more often male.",
+     "url": "https://doi.org/10.1101/2024.08.02.24311436",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 3
+    },
+    {
+     "cite": "Novak 2026",
+     "n": "169",
+     "design": "cross-sectional",
+     "result": "Central sensitization present in 81% of long COVID patients with orthostatic intolerance; linked to autonomic symptom burden, cerebral hypoperfusion and neuroinflammation markers.",
+     "url": "https://doi.org/10.1016/j.jns.2026.126058",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "van Campen 2023",
+     "n": "71 retested; 219 combined",
+     "design": "cohort",
+     "result": "More severe ME/CFS is associated with larger CBF fall on tilt (25, 29, 33% in mild, moderate, severe; p stated significant).",
+     "url": "https://doi.org/10.3390/medicina59122153",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Day 2023",
+     "n": "34 PASC, 71 ME/CFS <=10 y, ME/CFS >10 y, 82 controls",
+     "design": "case-control",
+     "result": "Cognitive efficiency falls after orthostatic challenge in PASC and ME/CFS vs controls, mediated by hemodynamic changes (narrow pulse pressure); stays low 2 and 7 days later in long-duration ME/CFS.",
+     "url": "https://doi.org/10.3389/fnins.2023.1203514",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "van Campen 2022",
+     "n": "30 vs 30",
+     "design": "case-control",
+     "result": "ME/CFS patients with frequent pseudosyncope had larger tilt cerebral blood flow fall (39% vs 25%) than ME/CFS controls.",
+     "url": "https://doi.org/10.3390/medicina58010098",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "van Campen 2021",
+     "n": "199 vs 22",
+     "design": "case-control",
+     "result": "Cerebral blood flow fall on tilt was abnormally high in all ME/CFS irrespective of CPET peak VO2 category, so deconditioning did not explain OI.",
+     "url": "https://doi.org/10.1186/s12967-021-02819-0",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "van Campen 2020",
+     "n": "128",
+     "design": "cohort",
+     "result": "N-back working memory worsened after 30-min head-up tilt (2-back correct 77% to 62%, 3-back 57% to 41%) in ME/CFS.",
+     "url": "https://doi.org/10.3389/fnins.2020.00688",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Patrick Neary 2008",
+     "n": "6 vs 8",
+     "design": "case-control",
+     "result": "During incremental exercise, CFS reached exhaustion sooner (351 vs 715 s) with lower prefrontal oxygenation (HbO2, HHb, tHb, TOI) and lower max HR.",
+     "url": "https://doi.org/10.1111/j.1475-097x.2008.00822.x",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Badhwar 2025",
+     "n": "10 controls, 12 ME/CFS, 9 LC",
+     "design": "case-control",
+     "result": "Hemodynamic responses to hypoxia, hypercapnia and tilt similar to controls; ME/CFS showed impaired cerebral autoregulation in hypercapnia and impaired cognitive-motor integration; LC showed lower oxygen levels and less vagal withdrawal.",
+     "url": "https://doi.org/10.1016/j.autneu.2025.103358",
+     "verified": true,
+     "sweep": true,
+     "relation": "contradicts",
+     "importance": 2
+    },
+    {
+     "cite": "Malfliet 2018",
+     "n": "20 vs 20",
+     "design": "crossover",
+     "result": "No group differences in cerebral blood flow (Doppler) or HRV responses to physical or emotional stress.",
+     "url": "https://doi.org/10.36076/ppj.2018.1.e13",
+     "verified": true,
+     "sweep": true,
+     "relation": "contradicts",
+     "importance": 2
+    },
+    {
+     "cite": "Ocon 2012",
+     "n": "16 vs 20",
+     "design": "case-control",
+     "result": "Graded tilt with n-back: CFS/POTS had worse accuracy and slower normalised reaction time at 45-75 degrees; cerebral blood flow velocity changes did not differ and did not relate to scores.",
+     "url": "https://doi.org/10.1042/cs20110241",
+     "verified": true,
+     "sweep": true,
+     "relation": "contradicts",
+     "importance": 2
+    },
+    {
+     "cite": "Razumovsky 2003",
+     "n": "26 vs 23",
+     "design": "case-control",
+     "result": "During 3-stage tilt, MCA blood flow velocity did not differ from controls at baseline or in response; NMH 21 vs 14 (p=.22) and POTS 9 vs 7 (p=.76) did not differ, though symptom onset was earlier in CFS.",
+     "url": "https://doi.org/10.1111/j.1552-6569.2003.tb00158.x",
+     "verified": true,
+     "sweep": true,
+     "relation": "contradicts",
+     "importance": 2
+    }
+   ]
   },
   {
    "id": "neuro-hypocapnia",
@@ -116,7 +316,86 @@
     "low-blood-volume-preload",
     "autonomic-small-fibre"
    ],
-   "test_available": "Capnography during a 10-min stand or lean test: cheap; available in some respiratory/autonomic clinics"
+   "test_available": "Capnography during a 10-min stand or lean test: cheap; available in some respiratory/autonomic clinics",
+   "sweep": [
+    {
+     "cite": "Natelson 2022",
+     "n": "63",
+     "design": "cohort",
+     "result": "10-minute lean test found abnormal response in 60% of 63 patients; hypocapnia most frequent, then orthostatic tachycardia.",
+     "url": "https://doi.org/10.1186/s12967-022-03289-8",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Mancini 2021",
+     "n": "41",
+     "design": "cohort",
+     "result": "CPET in post-COVID unexplained dyspnoea: 58.5% had peak VO2 below 80% predicted, 88% had ventilatory abnormalities including dysfunctional breathing (26) and hypocapnia.",
+     "url": "https://doi.org/10.1016/j.jchf.2021.10.002",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Aparisi Á 2021",
+     "n": "70 (41 dyspnoea, 29 without)",
+     "design": "cohort",
+     "result": "Dyspnoeic survivors had lower percent-predicted peak VO2 (77.8 vs 99), higher VE/VCO2 slope and higher PetCO2 pattern suggesting ventilation-perfusion mismatch or hyperventilation.",
+     "url": "https://doi.org/10.3390/jcm10122591",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Natelson 2007",
+     "n": "75 CFS vs 40 controls",
+     "design": "case-control",
+     "result": "8-min stand test: abnormal orthostatic tests in 53% vs 20% controls; orthostatic hypocapnia identified a subgroup of CFS.",
+     "url": "https://doi.org/10.1186/1476-5918-6-2",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Naschitz 2006",
+     "n": "585 total (CFS 90)",
+     "design": "case-control",
+     "result": "Tilt with capnography: hypocapnia in 9-27% of CFS/FM/dizziness/NMS patients vs 0-2% controls; most sustained hypocapnia, not specific to CFS.",
+     "url": "https://doi.org/10.1097/00000441-200606000-00001",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Naschitz 2000",
+     "n": "32 vs 32",
+     "design": "case-control",
+     "result": "During capnography tilt, CFS patients had lower systolic and diastolic BP and lower end-tidal CO2 and higher HR and respiratory rate than controls.",
+     "url": "https://doi.org/10.1053/sarh.2000.9201",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Badhwar 2025",
+     "n": "10 controls, 12 ME/CFS, 9 LC",
+     "design": "case-control",
+     "result": "Hemodynamic responses to hypoxia, hypercapnia and tilt similar to controls; ME/CFS showed impaired cerebral autoregulation in hypercapnia and impaired cognitive-motor integration; LC showed lower oxygen levels and less vagal withdrawal.",
+     "url": "https://doi.org/10.1016/j.autneu.2025.103358",
+     "verified": true,
+     "sweep": true,
+     "relation": "contradicts",
+     "importance": 2
+    }
+   ]
   },
   {
    "id": "neuro-pots-prevalence",
@@ -210,7 +489,240 @@
     "low-blood-volume-preload",
     "autoimmunity"
    ],
-   "test_available": "10-min active stand or tilt table test: widely available clinically"
+   "test_available": "10-min active stand or tilt table test: widely available clinically",
+   "sweep": [
+    {
+     "cite": "Björnson 2025",
+     "n": "467",
+     "design": "cohort",
+     "result": "POTS found in 31% (143) of highly symptomatic non-hospitalised long COVID after tilt/active stand; POTS patients younger, 91% female, lower activity and shorter 6MWT.",
+     "url": "https://doi.org/10.1161/circep.124.013629",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Seeley 2025",
+     "n": "33 vs 33 vs 33",
+     "design": "case-control",
+     "result": "PASC and POTS both had reduced respiratory sinus arrhythmia vs controls; autonomic symptoms and POTS prevalence high in PASC, with poor HrQoL.",
+     "url": "https://doi.org/10.1016/j.amjmed.2023.06.010",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "van Campen 2018",
+     "n": "627 ME/CFS evaluated, 155 POTS",
+     "design": "cohort",
+     "result": "About a quarter (155/627) of ME/CFS patients met POTS criteria on tilt; abbreviated 2-5 min tilt would miss many (median time to criteria about 3 min).",
+     "url": "https://doi.org/10.3389/fped.2018.00349",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Van Cauwenbergh 2014",
+     "n": "27 case-control studies",
+     "design": "meta-analysis",
+     "result": "Systematic review: autonomic responses, notably heart rate during head-up tilt, differ between CFS and controls, consistent with more POTS.",
+     "url": "https://doi.org/10.1111/eci.12256",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Hoad 2008",
+     "n": "59 vs 52",
+     "design": "case-control",
+     "result": "Active stand test: max heart rate higher in CFS/ME (106 vs 98 bpm, p=0.02); POTS in 27% (16/59) vs 9% of controls (p=0.006).",
+     "url": "https://doi.org/10.1093/qjmed/hcn123",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Galland 2008",
+     "n": "26 vs 26",
+     "design": "case-control",
+     "result": "Head-up tilt: orthostatic intolerance in 13 CFS vs 5 controls; POTS without hypotension in 7 CFS and no controls; sympathetic predominance in HRV.",
+     "url": "https://doi.org/10.1203/pdr.0b013e31815ed612",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Naschitz 2002",
+     "n": "21 CFS vs 24 non-CFS fatigue vs 44 syncope vs 21 healthy",
+     "design": "case-control",
+     "result": "Abnormal tilt endpoints occurred in 79% of CFS vs 35% non-CFS chronic fatigue, 46% syncope and 14% healthy; hemodynamic instability score OR 34.8 vs healthy.",
+     "url": "https://doi.org/10.1053/sarh.2002.34608",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Timmers 2002",
+     "n": "36 vs 36",
+     "design": "case-control",
+     "result": "Tilt evoked postural tachycardia or presyncope in only a minority of CFS patients; supine HR was higher (66.4 vs 57.4 bpm) and stroke volume fell markedly in tilt-negative patients, suggested as deconditioning.",
+     "url": "https://doi.org/10.1007/s10286-002-0014-1",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Schondorf 1999",
+     "n": "75 patients vs 48 controls",
+     "design": "case-control",
+     "result": "40% of 75 CFS patients had orthostatic intolerance on 80-degree tilt (16 neurally mediated syncope, 7 tachycardia, 6 mixed) versus 8/48 controls with syncope; OI subgroup had shorter illness and more subacute onset.",
+     "url": "https://doi.org/10.1016/s0165-1838(98)00177-5",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Stewart 1998",
+     "n": "16 CFS vs 26 syncope vs 13 controls",
+     "design": "case-control",
+     "result": "13 of 16 adolescents with CFS fainted on 80-degree tilt, and heart rate variability indices were strikingly lower than in syncope patients and controls.",
+     "url": "https://doi.org/10.1007/bf02267785",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Johansson 2024",
+     "n": "",
+     "design": "case-control",
+     "result": "24-h ambulatory BP in post-COVID POTS: higher nighttime systolic BP, nondipping 34% vs 19%, and more daytime hypotensive episodes than population controls.",
+     "url": "https://doi.org/10.1161/hypertensionaha.124.23670",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Morrow 2025",
+     "n": "92 children",
+     "design": "cross-sectional",
+     "result": "71% met criteria for an orthostatic condition on a 10-min passive standing test (POTS, OT, OH, delayed OH, orthostatic hypertension).",
+     "url": "https://doi.org/10.1177/00099228241272053",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Miwa K. 2023",
+     "n": "",
+     "design": "case-control",
+     "result": "Orthostatic intolerance with chronotropic incompetence during orthostasis in ME/CFS",
+     "url": "https://doi.org/10.1253/circrep.cr-22-0114",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Miwa K. 2016",
+     "n": "24",
+     "design": "cohort",
+     "result": "On bad days vs good days: higher resting HR, 21% could not stand 10 min, 43% developed POT only on bad days; LV end-diastolic diameter and stroke volume index lower on bad days.",
+     "url": "https://doi.org/10.1007/s00380-015-0744-3",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Reynolds 2014",
+     "n": "306",
+     "design": "cross-sectional",
+     "result": "POTS comorbid in 11% (33/306) on a 20-minute standing task; POTS patients younger.",
+     "url": "https://doi.org/10.1111/joim.12161",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Lewis 2013",
+     "n": "179 (24 POTS)",
+     "design": "cross-sectional",
+     "result": "POTS in 13% of CFS; POTS subgroup younger with distinct autonomic features.",
+     "url": "https://doi.org/10.1111/joim.12022",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Costigan 2010",
+     "n": "99 vs 64",
+     "design": "case-control",
+     "result": "Orthostatic symptoms (OGS) independently predicted functional impairment in CFS (PROMIS HAQ 36 vs 6 in controls).",
+     "url": "https://doi.org/10.1093/qjmed/hcq094",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Monaghan 2022",
+     "n": "85",
+     "design": "cross-sectional",
+     "result": "Orthostatic intolerance in 66% on active stand but POTS in only 2% on tilt; OI linked to higher early heart rate.",
+     "url": "https://doi.org/10.3389/fphys.2022.833650",
+     "verified": true,
+     "sweep": true,
+     "relation": "contradicts",
+     "importance": 2
+    },
+    {
+     "cite": "Roerink 2017",
+     "n": "419 CFS vs 341 non-CFS fatigued",
+     "design": "cohort",
+     "result": "POTS prevalence on active stand was 5.7% in CFS vs 6.9% non-CFS adults (p=0.54); 18.2% vs 17.4% in adolescents; POTS not a discriminating marker.",
+     "url": "https://doi.org/10.1111/joim.12564",
+     "verified": true,
+     "sweep": true,
+     "relation": "contradicts",
+     "importance": 2
+    },
+    {
+     "cite": "Katz 2012",
+     "n": "36 vs 43",
+     "design": "case-control",
+     "result": "Abnormal standing orthostatic test in 25% of CFS vs 21% of recovered controls, no difference.",
+     "url": "https://doi.org/10.1177/0009922812455094",
+     "verified": true,
+     "sweep": true,
+     "relation": "contradicts",
+     "importance": 2
+    },
+    {
+     "cite": "Jones 2005",
+     "n": "58 vs 55",
+     "design": "case-control",
+     "result": "Orthostatic instability on tilt was no more frequent in CFS (30%) than controls (48%); all CFS cases were POTS.",
+     "url": "https://doi.org/10.1016/j.amjmed.2005.06.013",
+     "verified": true,
+     "sweep": true,
+     "relation": "contradicts",
+     "importance": 2
+    }
+   ]
   },
   {
    "id": "neuro-hrv",
@@ -263,7 +775,482 @@
     "neuroinflammation",
     "sickness-behaviour"
    ],
-   "test_available": "24-h Holter HRV (clinical); consumer wearables give rough trends"
+   "test_available": "24-h Holter HRV (clinical); consumer wearables give rough trends",
+   "sweep": [
+    {
+     "cite": "Ruijgt 2026",
+     "n": "121 vs 21",
+     "design": "case-control",
+     "result": "Continuous wearable HRV was lower in long COVID than controls (p=0.027), stayed lower for 24 h after exercise near VT1 and nighttime HRV fell after intense/long exercise.",
+     "url": "https://doi.org/10.1007/s40279-026-02487-4",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Camargo 2026",
+     "n": "39 vs 22",
+     "design": "case-control",
+     "result": "Long COVID tilt test shows blunted sympathetic HRV response (lower LF nu, lower LF/HF) and impaired BP regulation.",
+     "url": "https://doi.org/10.1038/s41598-026-38800-4",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Hira 2025",
+     "n": "",
+     "design": "case-control",
+     "result": "Long COVID had lower upright HF-HRV (p=0.04) and BP low-frequency variability (p=0.001) than controls; initial orthostatic hypotension group had lower baroreflex sensitivity.",
+     "url": "https://doi.org/10.1007/s10286-025-01107-x",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Delogu 2024",
+     "n": "56 vs 27",
+     "design": "case-control",
+     "result": "Children with long COVID had altered HRV, including lower rMSSD (47.4 vs 60.4 ms, p=0.02).",
+     "url": "https://doi.org/10.1007/s00431-024-05503-9",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Mooren 2023",
+     "n": "103 PCS vs 103 CAD vs 90 controls",
+     "design": "case-control",
+     "result": "24-h Holter HRV shows sympathetic predominance and impaired nocturnal parasympathetic activity in PCS vs controls (LF/HF p<=0.001).",
+     "url": "https://doi.org/10.1038/s41598-023-42615-y",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Menezes Junior 2022",
+     "n": "",
+     "design": "case-control",
+     "result": "HRV shows altered cardiac autonomic function in long COVID versus healthy controls",
+     "url": "https://doi.org/10.3390/jcm12010100",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Marques 2022",
+     "n": "155 vs 94",
+     "design": "case-control",
+     "result": "Long COVID had reduced global HRV and increased sympathetic modulation versus COVID-free controls.",
+     "url": "https://doi.org/10.3389/fcvm.2022.862001",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Robinson 2019",
+     "n": "48 unselected; 51 CFS vs 20 controls",
+     "design": "case-control",
+     "result": "Cognitive deficits in psychomotor speed persisted in CFS without depression (digit-symbol p=0.004) and correlated with heart rate variability.",
+     "url": "https://doi.org/10.1371/journal.pone.0210394",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Rimes 2017",
+     "n": "60 CFS vs 31 asthma vs 78 healthy",
+     "design": "case-control",
+     "result": "Adolescents with CFS had lower baseline HRV (RMSSD) than healthy, and failed to show HRV reduction or skin conductance recovery after a social stress task.",
+     "url": "https://doi.org/10.1111/jcpp.12711",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Wyller 2014",
+     "n": "30 vs 39",
+     "design": "case-control",
+     "result": "At supine rest, CFS had higher heart rate and blood pressure, and lower stroke index and HRV; 20-degree tilt responses were identical, imagined standing raised sympathetic HRV indices more in CFS.",
+     "url": "https://doi.org/10.1186/1751-0759-8-22",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Van Cauwenbergh 2014",
+     "n": "27 case-control studies",
+     "design": "meta-analysis",
+     "result": "Systematic review: autonomic responses, notably heart rate during head-up tilt, differ between CFS and controls, consistent with more POTS.",
+     "url": "https://doi.org/10.1111/eci.12256",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Beaumont 2012",
+     "n": "30 vs 40",
+     "design": "case-control",
+     "result": "Low, unresponsive HRV and prolonged HR recovery; HRV associated with cognitive performance, slower but accurate.",
+     "url": "https://doi.org/10.1371/journal.pone.0049518",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Frith 2012",
+     "n": "68 vs 68",
+     "design": "case-control",
+     "result": "Higher LF-HRV, lower parasympathetic markers, altered blood pressure variability; model sensitivity 77%, specificity 53%.",
+     "url": "https://doi.org/10.1093/qjmed/hcs085",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Hurum 2011",
+     "n": "44 vs 52",
+     "design": "case-control",
+     "result": "24-h ambulatory monitoring: night-time HR, mean and diastolic BP higher in adolescent CFS than controls, indicating sympathetic predominance.",
+     "url": "https://doi.org/10.1111/j.1651-2227.2010.02073.x",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Burton 2010",
+     "n": "20 vs 20",
+     "design": "case-control",
+     "result": "Nocturnal HRV was lower in CFS and predicted poor subjective sleep, suggesting sympathetic hypervigilance in sleep.",
+     "url": "https://doi.org/10.1007/s00221-010-2296-1",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Galland 2008",
+     "n": "26 vs 26",
+     "design": "case-control",
+     "result": "Head-up tilt: orthostatic intolerance in 13 CFS vs 5 controls; POTS without hypotension in 7 CFS and no controls; sympathetic predominance in HRV.",
+     "url": "https://doi.org/10.1203/pdr.0b013e31815ed612",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Wyller 2008",
+     "n": "15 vs 56",
+     "design": "case-control",
+     "result": "Higher resting HR, diastolic BP, norepinephrine and epinephrine; exaggerated cardiovascular response to LBNP, attenuated response to handgrip.",
+     "url": "https://doi.org/10.1007/s00421-007-0634-1",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Newton 2007",
+     "n": "40+30 CFS vs 40+37 controls vs 60 PBC",
+     "design": "case-control",
+     "result": "COMPASS autonomic symptom score >32.5 had PPV 0.96 and NPV 0.84 for CFS in validation; symptoms correlated with fatigue.",
+     "url": "https://doi.org/10.1093/qjmed/hcm057",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Timmers 2002",
+     "n": "36 vs 36",
+     "design": "case-control",
+     "result": "Tilt evoked postural tachycardia or presyncope in only a minority of CFS patients; supine HR was higher (66.4 vs 57.4 bpm) and stroke volume fell markedly in tilt-negative patients, suggested as deconditioning.",
+     "url": "https://doi.org/10.1007/s10286-002-0014-1",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Stewart JM. 2000",
+     "n": "22 POTS, 14 CFS vs 10 healthy and 20 simple faint",
+     "design": "case-control",
+     "result": "Adolescents with CFS or POTS had lower R-R interval and heart rate variability, raised low-frequency BP variability and attenuated vagal baroreflex transfer.",
+     "url": "https://doi.org/10.1203/00006450-200008000-00016",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "LaManca 1999",
+     "n": "39 vs 31",
+     "design": "case-control",
+     "result": "During 45-min tilt, CFS had higher heart rate and smaller stroke volume; frequency of positive tilt did not differ (11 vs 12).",
+     "url": "https://doi.org/10.1046/j.1365-2281.1999.00154.x",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "De Becker 1998",
+     "n": "21 vs 13",
+     "design": "case-control",
+     "result": "After tilt, heart rate was higher in CFS (88.9 vs 77.9 bpm, P<0.01) and low-frequency power higher (0.603 vs 0.428, P=0.02); parasympathetic tests normal; read as sympathetic overactivity.",
+     "url": "https://doi.org/10.1016/s0002-9343(98)00168-5",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Stewart 1998",
+     "n": "16 CFS vs 26 syncope vs 13 controls",
+     "design": "case-control",
+     "result": "13 of 16 adolescents with CFS fainted on 80-degree tilt, and heart rate variability indices were strikingly lower than in syncope patients and controls.",
+     "url": "https://doi.org/10.1007/bf02267785",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Freeman 1997",
+     "n": "23 vs controls",
+     "design": "case-control",
+     "result": "CFS subjects showed altered sympathetic and parasympathetic autonomic test results, possibly from deconditioning or post-viral autonomic neuropathy.",
+     "url": "https://doi.org/10.1016/s0002-9343(97)00087-9",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Ruijgt 2025, preprint",
+     "n": "",
+     "design": "cohort",
+     "result": "Multi-day wearable HRV showed autonomic dysfunction in long COVID and delayed sympathovagal recovery after exercise at or above VT1, proposed as a PEM threshold.",
+     "url": "https://doi.org/10.1101/2025.03.18.25320115",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Aboagye 2026",
+     "n": "",
+     "design": "cohort",
+     "result": "Longitudinal digital-health study of bidirectional within-person links between nocturnal HRV, sleep quality and daily fatigue in post-COVID fatigue.",
+     "url": "https://doi.org/10.2196/99630",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "van Campen 2023",
+     "n": "362 vs 52",
+     "design": "case-control",
+     "result": "At end-tilt ME/CFS had lower stroke volume index (22 vs 27 ml/m2) and chronotropic incompetence relative to healthy controls, without POTS or hypotension.",
+     "url": "https://doi.org/10.1016/j.ibneur.2023.04.005",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Friedberg 2022",
+     "n": "148 (92 non-improved, 38 improved)",
+     "design": "cohort",
+     "result": "Over 6 months, non-improvers had lower HRV (p=0.032) than improvers; activity patterns incl. pacing did not differ.",
+     "url": "https://doi.org/10.1097/psy.0000000000001082",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Van Oosterwijck 2021",
+     "n": "20 vs 20",
+     "design": "case-control",
+     "result": "Reduced parasympathetic reactivation after exercise in ME/CFS; resting time-domain autonomic measures normal.",
+     "url": "https://doi.org/10.3390/jcm10194527",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Słomko 2020",
+     "n": "131",
+     "design": "cohort",
+     "result": "Cluster analysis of autonomic function (Fukuda CFS) gave four profiles; sympathetic-dysautonomia phenotype (34%) had more severe disease and lowest quality of life.",
+     "url": "https://doi.org/10.3390/jcm9082531",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Fatt 2020",
+     "n": "24 vs 24",
+     "design": "case-control",
+     "result": "Normalized high-frequency HRV (parasympathetic) was reduced in CFS during deep sleep but not wakefulness; slower sleep onset, more awakenings, more slow-wave sleep.",
+     "url": "https://doi.org/10.5664/jcsm.8114",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Sulheim 2012",
+     "n": "47",
+     "design": "cohort",
+     "result": "At 3-17 months, baseline heart rate, blood pressure and LF/HF fell and tilt responses lessened as symptoms improved.",
+     "url": "https://doi.org/10.1186/1751-0759-6-10",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Newton 2011",
+     "n": "107 vs 107",
+     "design": "case-control",
+     "result": "Active energy expenditure (>3 METs) was lower in CFS, with similar sedentary time, and the reduction was partly explained by autonomic dysfunction (HRV) but not fatigue severity.",
+     "url": "https://doi.org/10.1093/qjmed/hcr029",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Newton 2009",
+     "n": "38 CFS vs 120 controls vs 47 PBC",
+     "design": "case-control",
+     "result": "24-h ambulatory BP: CFS had lower systolic blood pressure and abnormal diurnal regulation vs controls, with a fatigue comparison group (PBC) included.",
+     "url": "https://doi.org/10.1097/psy.0b013e31819ccd2a",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Wyller 2007",
+     "n": "15 vs 57",
+     "design": "case-control",
+     "result": "Higher baseline norepinephrine, epinephrine, HR and temperature; abnormal skin blood flow and vasoconstriction thresholds during hand cooling; more thermoregulatory symptoms.",
+     "url": "https://doi.org/10.1542/peds.2006-2759",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Naschitz 2004",
+     "n": "",
+     "design": "other",
+     "result": "Tilt-derived hemodynamic instability and fractal scores distinguished CFS (HIS sens 84.5%, spec 85.1%); pilot midodrine corrected dysautonomia before fatigue improved.",
+     "url": "https://doi.org/10.1016/s0306-9877(03)00331-1",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Peckerman 2003",
+     "n": "43 (21 severe, 22 less severe) vs 29",
+     "design": "case-control",
+     "result": "Baroreflex sensitivity fell more on standing in CFS, significantly only in severe CFS; BP maintained on standing.",
+     "url": "https://doi.org/10.1097/01.psy.0000079408.62277.3d",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Naschitz 2003",
+     "n": "CFS 40; comparison groups 28-73 each",
+     "design": "case-control",
+     "result": "Tilt-derived haemodynamic instability score above -0.98 identified CFS with overall specificity 84.5%; 22% could not complete tilt.",
+     "url": "https://doi.org/10.1093/qjmed/hcg018",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Cordero 1996",
+     "n": "11 vs 11",
+     "design": "case-control",
+     "result": "Vagal power was lower in CFS during treadmill walking and in one rest period, and declined after walking, with no group differences in heart rate, VO2 or ventilation.",
+     "url": "https://doi.org/10.1007/bf02556303",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Orini 2025, preprint",
+     "n": "50 vs 152",
+     "design": "case-control",
+     "result": "Wearable monitoring finds small persistent multi-system deficits (activity, autonomic, sleep, cardiorespiratory) in fatigue-cluster long COVID without recovery over 12 months.",
+     "url": "https://doi.org/10.21203/rs.3.rs-7876232/v1",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Schoene 2026",
+     "n": "1162 (11 studies)",
+     "design": "meta-analysis",
+     "result": "HRV trended lower in post-COVID patients vs controls, non-significant (SDNN SMD 0.26, p=0.09; rMSSD 0.11, p=0.41).",
+     "url": "https://doi.org/10.1111/ene.70561",
+     "verified": true,
+     "sweep": true,
+     "relation": "contradicts",
+     "importance": 2
+    },
+    {
+     "cite": "Malfliet 2018",
+     "n": "20 vs 20",
+     "design": "crossover",
+     "result": "No group differences in cerebral blood flow (Doppler) or HRV responses to physical or emotional stress.",
+     "url": "https://doi.org/10.36076/ppj.2018.1.e13",
+     "verified": true,
+     "sweep": true,
+     "relation": "contradicts",
+     "importance": 2
+    },
+    {
+     "cite": "Meeus 2013",
+     "n": "16 studies, 6 CFS",
+     "design": "meta-analysis",
+     "result": "HRV in CFS reduced only during sleep; increased sympathetic activity at night.",
+     "url": "https://doi.org/10.1016/j.semarthrit.2013.03.004",
+     "verified": true,
+     "sweep": true,
+     "relation": "contradicts",
+     "importance": 2
+    }
+   ]
   },
   {
    "id": "neuro-nasa-lean",
@@ -308,7 +1295,75 @@
     "low-blood-volume-preload",
     "autonomic-small-fibre"
    ],
-   "test_available": "NASA lean test: any clinic or at home with a BP cuff (for monitoring, not formal diagnosis)"
+   "test_available": "NASA lean test: any clinic or at home with a BP cuff (for monitoring, not formal diagnosis)",
+   "sweep": [
+    {
+     "cite": "Natelson 2022",
+     "n": "63",
+     "design": "cohort",
+     "result": "10-minute lean test found abnormal response in 60% of 63 patients; hypocapnia most frequent, then orthostatic tachycardia.",
+     "url": "https://doi.org/10.1186/s12967-022-03289-8",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Schondorf 1999",
+     "n": "75 patients vs 48 controls",
+     "design": "case-control",
+     "result": "40% of 75 CFS patients had orthostatic intolerance on 80-degree tilt (16 neurally mediated syncope, 7 tachycardia, 6 mixed) versus 8/48 controls with syncope; OI subgroup had shorter illness and more subacute onset.",
+     "url": "https://doi.org/10.1016/s0165-1838(98)00177-5",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Lee 2024",
+     "n": "277 vs 50",
+     "design": "case-control",
+     "result": "NASA lean test: 15% abnormal, 7% POTS and 8% OH; 52% symptomatic during test; 45% of abnormal tests had no prior OI symptoms; healthy volunteers had no POTS.",
+     "url": "https://doi.org/10.1002/jmv.29486",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 3
+    },
+    {
+     "cite": "Morrow 2025",
+     "n": "92 children",
+     "design": "cross-sectional",
+     "result": "71% met criteria for an orthostatic condition on a 10-min passive standing test (POTS, OT, OH, delayed OH, orthostatic hypertension).",
+     "url": "https://doi.org/10.1177/00099228241272053",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "van Campen 2022",
+     "n": "14 vs 14 vs 14",
+     "design": "case-control",
+     "result": "Orthostatic intolerance compared between long-haul COVID and ME/CFS post-EBV and insidious onset",
+     "url": "https://doi.org/10.3390/healthcare10102058",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Vernon 2022",
+     "n": "",
+     "design": "case-control",
+     "result": "Orthostatic challenge causes distinct symptomatic, hemodynamic and cognitive responses in long COVID and ME/CFS",
+     "url": "https://doi.org/10.3389/fmed.2022.917019",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    }
+   ]
   },
   {
    "id": "neuro-sfn-biopsy",
@@ -408,7 +1463,20 @@
     "autoimmunity",
     "viral-persistence"
    ],
-   "test_available": "Skin biopsy (IENFD, sweat-gland nerve density in specialist labs)"
+   "test_available": "Skin biopsy (IENFD, sweat-gland nerve density in specialist labs)",
+   "sweep": [
+    {
+     "cite": "Azcue 2026",
+     "n": "21 PCC, 17 ME/CFS",
+     "design": "cohort",
+     "result": "Two-timepoint (median 31 months) follow-up shows largely overlapping autonomic, small-fiber and cognitive profiles in PCC and ME/CFS; small-fiber symptoms correlate with autonomic burden (rho 0.65) and fatigue.",
+     "url": "https://doi.org/10.1186/s12967-026-08321-9",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    }
+   ]
   },
   {
    "id": "neuro-mri-structure",
@@ -469,7 +1537,163 @@
     "neuroinflammation",
     "genetic-neuronal"
    ],
-   "test_available": "Clinical MRI (useful only to exclude other diagnoses)"
+   "test_available": "Clinical MRI (useful only to exclude other diagnoses)",
+   "sweep": [
+    {
+     "cite": "Almutairi 2020",
+     "n": "",
+     "design": "meta-analysis",
+     "result": "Systematic review of structural and functional MRI: inconsistent anatomical differences, more or broader activation on tasks; insufficient data for a neural biomarker.",
+     "url": "https://doi.org/10.1136/bmjopen-2019-031672",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Maksoud 2020",
+     "n": "55 studies",
+     "design": "meta-analysis",
+     "result": "Systematic review of neuroimaging: differences reported in grey and white matter volume, cerebral blood flow, EEG, connectivity, but heterogeneous.",
+     "url": "https://doi.org/10.1371/journal.pone.0232475",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Barnden 2018",
+     "n": "43 vs 27",
+     "design": "imaging",
+     "result": "T1 spin-echo MRI showed lower signal in a brainstem region and higher signal in sensorimotor white matter (P_FWE=0.002); no volume differences.",
+     "url": "https://doi.org/10.1016/j.nicl.2018.07.011",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "van der Schaaf 2017",
+     "n": "89 CFS vs 26 HC",
+     "design": "imaging",
+     "result": "Global grey matter volume did not differ between CFS and controls; pain, not fatigue, predicted left DLPFC GMV and NAA/Cr.",
+     "url": "https://doi.org/10.1016/j.biopsych.2016.07.016",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Puri 2012",
+     "n": "26 vs 26",
+     "design": "imaging",
+     "result": "3T voxel-based morphometry in 26 CFS vs 26 matched controls found regional grey and white matter volume changes; the abstract links them to memory, visual processing and motor planning.",
+     "url": "https://doi.org/10.1259/bjr/93889091",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Greco 1997",
+     "n": "43 vs 43",
+     "design": "case-control",
+     "result": "Brain MRI abnormalities in 32% of patients and 28% of controls; white matter hyperintensity prevalence did not differ.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/9282853/",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Schwichtenberg 2026",
+     "n": "49 vs 48",
+     "design": "case-control",
+     "result": "PCC with cognitive complaints show deficits in attention, executive function and memory with MRI structural brain differences correlating to symptoms.",
+     "url": "https://doi.org/10.1093/braincomms/fcag099",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Hartung 2026",
+     "n": "57 vs 57",
+     "design": "case-control",
+     "result": "Reduced cortical thickness in parahippocampal and temporal regions after COVID hospitalisation, associated with fatigue and acute severity.",
+     "url": "https://doi.org/10.1002/acn3.70260",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Thapaliya 2025",
+     "n": "17 LC, 29 ME/CFS, controls",
+     "design": "imaging",
+     "result": "7T MRI: hippocampal subfield volumes altered in both long COVID and ME/CFS (head, p=0.01 each), similar between the two, and associated with fatigue, pain and function.",
+     "url": "https://doi.org/10.1371/journal.pone.0316625",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Shan 2022",
+     "n": "",
+     "design": "imaging",
+     "result": "Multimodal MRI cross-sectional study toward diagnostic markers",
+     "url": "https://doi.org/10.3389/fneur.2022.954142",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Thapaliya 2020",
+     "n": "45 vs 27",
+     "design": "imaging",
+     "result": "T1w/T2w MRI ratio raised in white matter, subcortical grey matter and brainstem in Fukuda ME/CFS; related to HRV, cognition and respiration rate.",
+     "url": "https://doi.org/10.1016/j.nicl.2020.102366",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Shan 2016",
+     "n": "15 CFS vs 10 NC, 6-year follow-up",
+     "design": "imaging",
+     "result": "Longitudinal MRI showed greater white matter volume loss in left inferior fronto-occipital fasciculus in CFS.",
+     "url": "https://doi.org/10.1002/jmri.25283",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Perrin 2010",
+     "n": "18 vs 9, 1 year apart",
+     "design": "imaging",
+     "result": "Longitudinal MRI over one year showed no differences in atrophy, white matter hyperintensities, CSF volume or cerebral/CSF flow in CFS.",
+     "url": "https://doi.org/10.1259/bjr/85621779",
+     "verified": true,
+     "sweep": true,
+     "relation": "contradicts",
+     "importance": 2
+    },
+    {
+     "cite": "Natelson 1993",
+     "n": "52 vs 52",
+     "design": "imaging",
+     "result": "Brain MRI was abnormal in 27% of CFS vs 2% of controls (T2 white matter foci in 9 vs 1, ventricular or sulcal enlargement in 5).",
+     "url": "https://doi.org/10.1016/0022-510x(93)90276-5",
+     "verified": true,
+     "sweep": true,
+     "relation": "contradicts",
+     "importance": 2
+    }
+   ]
   },
   {
    "id": "neuro-white-matter-diffusion",
@@ -529,7 +1753,42 @@
    "hypotheses": [
     "neuroinflammation"
    ],
-   "test_available": "research only"
+   "test_available": "research only",
+   "sweep": [
+    {
+     "cite": "Wu 2026",
+     "n": "100 vs 100",
+     "design": "imaging",
+     "result": "Diffusion MRI shows reduced FA in left cingulum bundle segments in CFS; FA of two tracts classifies CFS at 85% accuracy.",
+     "url": "https://doi.org/10.1016/j.brainresbull.2025.111671",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Shan 2016",
+     "n": "15 CFS vs 10 NC, 6-year follow-up",
+     "design": "imaging",
+     "result": "Longitudinal MRI showed greater white matter volume loss in left inferior fronto-occipital fasciculus in CFS.",
+     "url": "https://doi.org/10.1002/jmri.25283",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Yu 2024, preprint",
+     "n": "",
+     "design": "imaging",
+     "result": "Diffusion MRI showed higher axial diffusivity in post-infectious ME/CFS but lower in the corpus callosum in gradual-onset ME/CFS versus sedentary controls.",
+     "url": "https://doi.org/10.1101/2024.08.04.24311483",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    }
+   ]
   },
   {
    "id": "neuro-brainstem",
@@ -582,7 +1841,130 @@
     "neuroinflammation",
     "autonomic-small-fibre"
    ],
-   "test_available": "research only"
+   "test_available": "research only",
+   "sweep": [
+    {
+     "cite": "Rozenblum 2025",
+     "n": "87",
+     "design": "imaging",
+     "result": "FDG-PET in 87 PASC adults with cognitive symptoms: hypometabolism most marked in pons (-5.5%) and right amygdala (-4.2%), correlating with concentration and memory complaints.",
+     "url": "https://doi.org/10.1097/rlu.0000000000005614",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Barnden 2019",
+     "n": "45 vs 27",
+     "design": "imaging",
+     "result": "fMRI showed brainstem reticular connectivity deficits (medulla to cuneiform nucleus, to hippocampus and thalamus) in Fukuda ME/CFS, only during task, related to symptom severity.",
+     "url": "https://doi.org/10.1016/j.nicl.2019.102045",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Barnden 2018",
+     "n": "43 vs 27",
+     "design": "imaging",
+     "result": "T1 spin-echo MRI showed lower signal in a brainstem region and higher signal in sensorimotor white matter (P_FWE=0.002); no volume differences.",
+     "url": "https://doi.org/10.1016/j.nicl.2018.07.011",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Barnden 2011",
+     "n": "25 vs 25",
+     "design": "imaging",
+     "result": "SPM voxel-based MRI: midbrain white matter volume fell with fatigue duration, and brainstem volume correlated with pulse pressure, suggesting impaired cerebrovascular autoregulation.",
+     "url": "https://doi.org/10.1002/nbm.1692",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Costa 1995",
+     "n": "24 vs 24 pilot; 67 ME/CFS and 40 normals total",
+     "design": "imaging",
+     "result": "HMPAO SPET showed brainstem hypoperfusion in ME/CFS (0.72 vs 0.80, p<0.0001), lower than in depressed patients (0.71 vs 0.77) and with generalised reduced brain perfusion.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/8542261/",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Inderyas 2023",
+     "n": "31 vs 15",
+     "design": "imaging",
+     "result": "Reduced ponto-cerebellar functional connectivity in ME/CFS during Stroop; connectivity linked to illness duration and memory.",
+     "url": "https://doi.org/10.3389/fnins.2023.1318094",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Baraniuk 2022",
+     "n": "31 controls, 36 ME/CFS, 78 GWI",
+     "design": "imaging",
+     "result": "Re-analysis of exercise-challenge fMRI: midbrain arousal nuclei activation rose after exercise in ME/CFS, fell in GWI, unchanged in controls.",
+     "url": "https://doi.org/10.3390/brainsci12010078",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Thapaliya 2020",
+     "n": "45 vs 27",
+     "design": "imaging",
+     "result": "T1w/T2w MRI ratio raised in white matter, subcortical grey matter and brainstem in Fukuda ME/CFS; related to HRV, cognition and respiration rate.",
+     "url": "https://doi.org/10.1016/j.nicl.2020.102366",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Barnden 2016",
+     "n": "25 vs 25",
+     "design": "imaging",
+     "result": "BP and HR from 24-h monitoring showed abnormal correlations with MRI in brainstem vasomotor centre, midbrain and hypothalamus in CFS, without group MRI differences.",
+     "url": "https://doi.org/10.1016/j.nicl.2016.03.017",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Tirelli 1998",
+     "n": "18 CFS vs 6 depression vs 6 healthy",
+     "design": "imaging",
+     "result": "FDG-PET showed hypometabolism in right mediofrontal cortex (P=0.010) and brainstem (P=0.013) versus controls; depressed patients had frontal hypometabolism with normal brainstem.",
+     "url": "https://doi.org/10.1016/s0002-9343(98)00179-x",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Ziaja 2026, preprint",
+     "n": "88 vs 34",
+     "design": "imaging",
+     "result": "Mammillary body volume phenotypes (reduced, enlarged, normal) and fornix/brainstem diffusion differences in long COVID; 33 patients bedridden.",
+     "url": "https://doi.org/10.64898/2026.07.31.26359395",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    }
+   ]
   },
   {
    "id": "neuro-fmri-post-exertion",
@@ -619,7 +2001,42 @@
     "mitochondrial-energy",
     "sickness-behaviour"
    ],
-   "test_available": "research only"
+   "test_available": "research only",
+   "sweep": [
+    {
+     "cite": "Washington 2020",
+     "n": "GWI and ME/CFS vs controls",
+     "design": "imaging",
+     "result": "Exercise changed N-back fMRI activation in ME/CFS (increased midbrain, operculo-insular and insula) but not controls; GWI showed deactivation, separating the two illnesses.",
+     "url": "https://doi.org/10.1093/braincomms/fcaa070",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Lange 2024",
+     "n": "261 vs 165",
+     "design": "cohort",
+     "result": "MCAM multisite study: cognitive battery before and after a clinic day including exercise testing in 182 ME/CFS and 160 controls; abstract truncated before results.",
+     "url": "https://doi.org/10.3389/fnins.2024.1460157",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Baraniuk 2022",
+     "n": "31 controls, 36 ME/CFS, 78 GWI",
+     "design": "imaging",
+     "result": "Re-analysis of exercise-challenge fMRI: midbrain arousal nuclei activation rose after exercise in ME/CFS, fell in GWI, unchanged in controls.",
+     "url": "https://doi.org/10.3390/brainsci12010078",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    }
+   ]
   },
   {
    "id": "neuro-motor-fatigability",
@@ -656,7 +2073,108 @@
     "neuroinflammation",
     "mitochondrial-energy"
    ],
-   "test_available": "research only"
+   "test_available": "research only",
+   "sweep": [
+    {
+     "cite": "Tempfli 2026",
+     "n": "",
+     "design": "crossover",
+     "result": "Post-COVID patients show higher trait/state fatigue and fatigability on alertness and handgrip tasks across cognitive, motor and emotional domains.",
+     "url": "https://doi.org/10.1016/j.socscimed.2026.119633",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Kent-Braun 1993",
+     "n": "",
+     "design": "case-control",
+     "result": "During intense sustained tibialis contraction voluntary activation was lower in CFS while fatigability, metabolism and M-wave were normal, indicating a central component of muscle fatigue.",
+     "url": "https://doi.org/10.1212/wnl.43.1_part_1.125",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Sebastianelli 2026",
+     "n": "58 vs 22",
+     "design": "case-control",
+     "result": "Post-exercise depression of corticomotor excitability (TMS) was reduced in post-COVID fatigue and correlated with fatigue and exertion.",
+     "url": "https://doi.org/10.1016/j.clinph.2026.2112384",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Andersson 2025",
+     "n": "PCC vs controls",
+     "design": "case-control",
+     "result": "PCC group showed cognitive performance fatigability on processing-speed tasks (controls improved with repetition, PCC did not).",
+     "url": "https://doi.org/10.1037/neu0001020",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Samii 1996",
+     "n": "12 CFS vs 10 depression vs 18 controls",
+     "design": "case-control",
+     "result": "Post-exercise facilitation of motor evoked potentials was 126% of baseline in CFS vs 218% in controls and 155% in depression.",
+     "url": "https://doi.org/10.1212/wnl.47.6.1410",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Gibson 1993",
+     "n": "12 vs 12",
+     "design": "case-control",
+     "result": "Quadriceps force, relaxation rate and recovery to 48 h were normal after incremental cycling, while perceived exertion for a given heart rate was higher, suggesting central limits.",
+     "url": "https://doi.org/10.1136/jnnp.56.9.993",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Germann 2025, preprint",
+     "n": "145",
+     "design": "cohort",
+     "result": "Persistent post-COVID fatigue >200 days associates with greater fatigue, increased cortical excitability, slower reaction times and more peripheral muscle fatigue than <200 days.",
+     "url": "https://doi.org/10.64898/2025.12.19.25342669",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Fietsam 2023",
+     "n": "",
+     "design": "case-control",
+     "result": "Perceived fatigue and fatigability prevalent but objective fatigability not different in post-COVID",
+     "url": "https://doi.org/10.1007/s00221-022-06518-0",
+     "verified": true,
+     "sweep": true,
+     "relation": "contradicts",
+     "importance": 2
+    },
+    {
+     "cite": "Weich 2022",
+     "n": "",
+     "design": "case-control",
+     "result": "Prominent fatigue but no motor fatigability on treadmill walking tests",
+     "url": "https://doi.org/10.3389/fneur.2022.902502",
+     "verified": true,
+     "sweep": true,
+     "relation": "contradicts",
+     "importance": 2
+    }
+   ]
   },
   {
    "id": "neuro-mrs-lactate",
@@ -718,7 +2236,31 @@
     "neuroinflammation",
     "small-vessel-capillary"
    ],
-   "test_available": "research only"
+   "test_available": "research only",
+   "sweep": [
+    {
+     "cite": "Natelson 2017",
+     "n": "",
+     "design": "imaging",
+     "result": "Ventricular CSF lactate by 1H MRSI was higher in CFS, FM and CFS+FM than controls, with no difference among patient groups.",
+     "url": "https://doi.org/10.1080/21641846.2017.1280114",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Murrough 2010",
+     "n": "17 CFS, 19 healthy, 21 MDD",
+     "design": "imaging",
+     "result": "Ventricular CSF lactate by 1H MRSI was higher in CFS than healthy volunteers (replicating earlier result) and not different in MDD; correlated with mental fatigue; GABA and Glx unchanged.",
+     "url": "https://doi.org/10.1002/nbm.1512",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    }
+   ]
   },
   {
    "id": "neuro-brain-temperature",
@@ -829,7 +2371,20 @@
     "viral-persistence",
     "vascular-endothelial"
    ],
-   "test_available": "research only"
+   "test_available": "research only",
+   "sweep": [
+    {
+     "cite": "Clouston 2025",
+     "n": "14 vs 10",
+     "design": "imaging",
+     "result": "[18F]-FEPPA TSPO PET: hippocampal VT higher in persistent brain fog after COVID (AUC 0.95; sensitivity 0.88, specificity 0.93).",
+     "url": "https://doi.org/10.1016/j.bbih.2025.100945",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    }
+   ]
   },
   {
    "id": "neuro-cbf-rest",
@@ -882,7 +2437,119 @@
     "vascular-endothelial",
     "low-blood-volume-preload"
    ],
-   "test_available": "research only (ASL MRI)"
+   "test_available": "research only (ASL MRI)",
+   "sweep": [
+    {
+     "cite": "Hedberg 2026",
+     "n": "22 vs 19",
+     "design": "case-control",
+     "result": "Post-COVID fatigue patients had lower global CBF (49.2 vs 51.7 mL/100g/min) and regional hypoperfusion, with slower reaction times on a 20-min vigilance task.",
+     "url": "https://doi.org/10.1016/j.ynirp.2026.100406",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Hosp 2025",
+     "n": "55 vs 36",
+     "design": "case-control",
+     "result": "ASL MRI shows right occipital hypoperfusion in PCC vs COVID-recovered controls, associated with fatigue.",
+     "url": "https://doi.org/10.1371/journal.pone.0335038",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Li 2021",
+     "n": "31 vs 48",
+     "design": "imaging",
+     "result": "PCASL MRI showed reduced regional cerebral blood flow in limbic regions (ACC, putamen, pallidum, insula) in ME/CFS; ACC hypoperfusion related to severity.",
+     "url": "https://doi.org/10.3390/tomography7040056",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Yoshiuchi 2006",
+     "n": "25 vs 7",
+     "design": "case-control",
+     "result": "Xenon-CT: absolute cortical blood flow reduced in MCA territories in CFS (P<0.05), most in patients without psychiatric disorder.",
+     "url": "https://doi.org/10.1111/j.1475-097x.2006.00649.x",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Costa 1995",
+     "n": "24 vs 24 pilot; 67 ME/CFS and 40 normals total",
+     "design": "imaging",
+     "result": "HMPAO SPET showed brainstem hypoperfusion in ME/CFS (0.72 vs 0.80, p<0.0001), lower than in depressed patients (0.71 vs 0.77) and with generalised reduced brain perfusion.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/8542261/",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Schwartz 1994",
+     "n": "45 CFS vs 27 AIDS dementia vs 14 depression vs 38 healthy",
+     "design": "imaging",
+     "result": "HMPAO SPECT defects per patient were 6.53 in CFS vs 1.66 in controls (similar to depression 6.43), and midcerebral uptake index was lower in CFS.",
+     "url": "https://doi.org/10.2214/ajr.162.4.8141022",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Peterson 1994",
+     "n": "10 vs 10",
+     "design": "case-control",
+     "result": "After 30 min slow walking, IL-1 beta, IL-6 and TNF-alpha were undetectable; resting serum TGF-beta was higher in CFS (287 vs 115 pg/ml), and post-exercise TGF-beta and SPECT blood flow changes were larger but not significant versus controls.",
+     "url": "https://doi.org/10.1128/cdli.1.2.222-226.1994",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Ichise 1992",
+     "n": "60 vs 14",
+     "design": "imaging",
+     "result": "HMPAO SPECT showed lower cortical/cerebellar ratios across multiple regions (P<0.05), with at least one reduced region in 80% of patients.",
+     "url": "https://doi.org/10.1097/00006231-199210000-00011",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Lewis 2001",
+     "n": "22 pairs",
+     "design": "imaging",
+     "result": "Resting HMPAO-SPECT showed no difference in rCBF abnormalities between CFS twins and healthy co-twins, with or without adjustment for fitness and depression.",
+     "url": "https://doi.org/10.1148/radiology.219.3.r01jn18766",
+     "verified": true,
+     "sweep": true,
+     "relation": "contradicts",
+     "importance": 2
+    },
+    {
+     "cite": "MacHale 2000",
+     "n": "30 vs 12 depressed vs 15 healthy",
+     "design": "imaging",
+     "result": "Resting SPECT showed increased perfusion in right thalamus, pallidum, putamen and left thalamus in CFS, similar to but not identical with depression.",
+     "url": "https://doi.org/10.1192/bjp.176.6.550",
+     "verified": true,
+     "sweep": true,
+     "relation": "contradicts",
+     "importance": 2
+    }
+   ]
   },
   {
    "id": "neuro-csf-catechol",
@@ -919,7 +2586,31 @@
     "sickness-behaviour",
     "autonomic-small-fibre"
    ],
-   "test_available": "research only (lumbar puncture with catechol panel)"
+   "test_available": "research only (lumbar puncture with catechol panel)",
+   "sweep": [
+    {
+     "cite": "Goldstein 2024",
+     "n": "7 followed >1 year",
+     "design": "cohort",
+     "result": "71% of initially abnormal tests (CSF oligoclonal bands, CSF catecholamine deficiency indices, baroreflex dysfunction, tilt hypotension, MRI hyperintensities) remained abnormal after more than a year.",
+     "url": "https://doi.org/10.1212/wnl.0000000000209742",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Demitrack 1992",
+     "n": "19 vs 17",
+     "design": "case-control",
+     "result": "Plasma MHPG was lower and 5-HIAA higher in CFS, with CSF monoamine metabolites also measured.",
+     "url": "https://doi.org/10.1016/0006-3223(92)90187-5",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    }
+   ]
   },
   {
    "id": "neuro-csf-immune-proteome",
@@ -997,7 +2688,31 @@
     "innate-hyperactivation",
     "complement-thromboinflammation"
    ],
-   "test_available": "research only"
+   "test_available": "research only",
+   "sweep": [
+    {
+     "cite": "Hu 2024",
+     "n": "large NYC/NJ cohort with CSF subgroup",
+     "design": "cohort",
+     "result": "Cognitive dysfunction was common but unrelated to mood or fatigue; CSF single-cell data showed monocyte recruitment, chemokine signalling and suppressed interferon response, and slow recovery with rising CXCL8, CCL3L1 and sTREM2.",
+     "url": "https://doi.org/10.1016/j.xcrm.2024.101561",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Hornig 2017",
+     "n": "32 classical vs 27 atypical (CSF)",
+     "design": "case-control",
+     "result": "CSF 51-plex cytokines differed between atypical and classical ME/CFS (lower IL-17A, CXCL9 in atypical); IL-1RA pattern suggests IL-1 signalling disturbance in classical.",
+     "url": "https://doi.org/10.1038/tp.2017.44",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    }
+   ]
   },
   {
    "id": "neuro-csf-metabolomics",
@@ -1033,7 +2748,20 @@
     "mitochondrial-energy",
     "metabolic-trap-ido"
    ],
-   "test_available": "research only"
+   "test_available": "research only",
+   "sweep": [
+    {
+     "cite": "Baraniuk JN. 2025",
+     "n": "",
+     "design": "case-control",
+     "result": "CSF metabolomics and lipidomics around exercise: raised serine, sarcosine and phospholipids with lower 5-methyltetrahydrofolate; exercise consumed metabolites in ME/CFS but generated them in controls.",
+     "url": "https://doi.org/10.3390/ijms26031282",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    }
+   ]
   },
   {
    "id": "neuro-injury-markers",
@@ -1077,7 +2805,42 @@
     "neuroinflammation",
     "genetic-neuronal"
    ],
-   "test_available": "Serum NfL/GFAP increasingly available clinically (mainly to exclude other disease)"
+   "test_available": "Serum NfL/GFAP increasingly available clinically (mainly to exclude other disease)",
+   "sweep": [
+    {
+     "cite": "Seo 2025",
+     "n": "Cog-PASC vs Other-PASC vs non-PASC, exploration+validation",
+     "design": "case-control",
+     "result": "Cognitive PASC showed elevated astroglial damage proteins in blood and MRI changes (cingulate/insular cortical thinning, susceptibility) about one year after mild COVID.",
+     "url": "https://doi.org/10.1038/s41467-025-65597-z",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Nordvig 2022",
+     "n": "",
+     "design": "cohort",
+     "result": "Blood NfL and p-tau181 from acute hospitalisation to PASC in diverse population",
+     "url": "https://europepmc.org/article/PMC/PMC9877857",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Michael 2024, preprint",
+     "n": "351 vs 2,927 normative",
+     "design": "cohort",
+     "result": "Global cognitive deficits at one year, associated with elevated brain injury markers and reduced anterior cingulate volume; corticosteroids in acute phase appeared protective.",
+     "url": "https://doi.org/10.21203/rs.3.rs-3818580/v1",
+     "verified": true,
+     "sweep": true,
+     "relation": "contradicts",
+     "importance": 2
+    }
+   ]
   },
   {
    "id": "neuro-cci",
@@ -1182,7 +2945,31 @@
    "hypotheses": [
     "sickness-behaviour"
    ],
-   "test_available": "research only"
+   "test_available": "research only",
+   "sweep": [
+    {
+     "cite": "Barhorst 2020",
+     "n": "37 studies, 1016 patients vs 686 controls (ME/CFS and FM)",
+     "design": "meta-analysis",
+     "result": "Perceived exertion during aerobic exercise higher in ME/CFS and FM than controls (Hedges d 0.85, 95% CI 0.62-1.08).",
+     "url": "https://doi.org/10.1249/mss.0000000000002421",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "van der Schaaf 2018",
+     "n": "85 vs 29",
+     "design": "case-control",
+     "result": "During a grip-effort task, CFS invested less effort after feedback at high effort, with reduced prefrontal feedback activity, proportional to fatigue and beliefs.",
+     "url": "https://doi.org/10.1016/j.bpsc.2018.01.015",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    }
+   ]
   },
   {
    "id": "neuro-cognition",
@@ -1228,7 +3015,471 @@
     "neuroinflammation",
     "sickness-behaviour"
    ],
-   "test_available": "Clinical neuropsychology; computerised reaction-time tests; tests done upright or after exertion are research only"
+   "test_available": "Clinical neuropsychology; computerised reaction-time tests; tests done upright or after exertion are research only",
+   "sweep": [
+    {
+     "cite": "Faseeh 2026",
+     "n": "",
+     "design": "meta",
+     "result": "Systematic review of 47 studies (over 25,000 patients) on prevalence of brain fog and cognitive impairment in long COVID.",
+     "url": "https://doi.org/10.1097/md.0000000000049022",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Ladek 2026",
+     "n": "60 vs 60",
+     "design": "case-control",
+     "result": "Reaction time in 3D VR tasks was longer in ME/CFS than controls (1969 vs 1384 ms at 275 arcsec, p=0.0001).",
+     "url": "https://doi.org/10.3390/biomedicines14040855",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Penson 2026",
+     "n": "systematic review",
+     "design": "meta-analysis",
+     "result": "Meta-analysis of working memory (verbal/visual components) in ME/CFS.",
+     "url": "https://doi.org/10.1080/13548506.2025.2606183",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Christensen 2026",
+     "n": "Danish-Swedish",
+     "design": "case-control",
+     "result": "Cognitive performance in PCS versus recovered controls adjusted for covariates, stratified by variant; grip strength and distress.",
+     "url": "https://doi.org/10.1080/23744235.2025.2551665",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Serrano Del Pueblo 2024",
+     "n": "",
+     "design": "case-control",
+     "result": "Compared with infection-recovered controls, long COVID had lower overall cognition (OCLz -0.39 vs +0.32), 48% episodic memory deficit, and thinner left posterior superior temporal cortex.",
+     "url": "https://doi.org/10.1093/brain/awae101",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Zülke 2024",
+     "n": "410 PCS vs 87 recovered vs 64 healthy",
+     "design": "case-control",
+     "result": "PCS had worse episodic memory (b=-1.07) and visuospatial ability (b=-3.92) than healthy controls, with no deficit in executive function; prior infection without PCS showed no impairment.",
+     "url": "https://doi.org/10.1016/j.jpsychires.2024.06.036",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Fanshawe 2025",
+     "n": "",
+     "design": "meta-analysis",
+     "result": "Meta-analysis of cognitive domains affected after COVID-19 beyond 4 weeks.",
+     "url": "https://doi.org/10.1111/ene.16181",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Zhao 2024",
+     "n": "270 PCC",
+     "design": "case-control",
+     "result": "Simple reaction time ~3 SD slower than healthy controls; 53.5% of PCC slower than 2 SD; distinguished PCC from COVID recovered.",
+     "url": "https://doi.org/10.1016/j.eclinm.2024.102434",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Fernández-Quirós 2023",
+     "n": "158 vs 67",
+     "design": "case-control",
+     "result": "Conners CPT3 shows attention deficits in ME/CFS patients versus controls",
+     "url": "https://doi.org/10.3389/fpsyg.2023.1127193",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Aoun Sebaiti 2022",
+     "n": "many studies 1988-2019",
+     "design": "meta-analysis",
+     "result": "Meta-analysis: deficits in visuospatial immediate memory (g -0.55), reading speed (g -0.82), graphomotor (g -0.59); executive function little affected.",
+     "url": "https://doi.org/10.1038/s41598-021-04764-w",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Robinson 2019",
+     "n": "48 unselected; 51 CFS vs 20 controls",
+     "design": "case-control",
+     "result": "Cognitive deficits in psychomotor speed persisted in CFS without depression (digit-symbol p=0.004) and correlated with heart rate variability.",
+     "url": "https://doi.org/10.1371/journal.pone.0210394",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Cockshell 2013",
+     "n": "50 vs 50",
+     "design": "case-control",
+     "result": "Slowed information processing speed was the only deficit in patients passing effort tests.",
+     "url": "https://doi.org/10.1037/a0032084",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Beaumont 2012",
+     "n": "30 vs 40",
+     "design": "case-control",
+     "result": "Low, unresponsive HRV and prolonged HR recovery; HRV associated with cognitive performance, slower but accurate.",
+     "url": "https://doi.org/10.1371/journal.pone.0049518",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Thomas 2009",
+     "n": "",
+     "design": "case-control",
+     "result": "Large CFS sample showed clear cognitive impairment on an extensive battery, independent of psychopathology.",
+     "url": "https://doi.org/10.2174/1874205x00903010013",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Majer 2008",
+     "n": "58 vs 104",
+     "design": "case-control",
+     "result": "CANTAB: CFS had slower motor speed and impaired spatial working memory and recognition versus controls after excluding psychiatric disorders and cognitive drugs.",
+     "url": "https://doi.org/10.1097/psy.0b013e31817b9793",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Claypoole 2007",
+     "n": "22 pairs",
+     "design": "case-control",
+     "result": "Fatigued twins had worse motor function, processing speed, verbal memory and executive function; sudden onset linked to slower processing; depression did not explain it.",
+     "url": "https://doi.org/10.1037/0894-4105.21.4.507",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Busichio 2004",
+     "n": "141 vs 76",
+     "design": "case-control",
+     "result": "CFS patients fell about 1 SD below controls on 9 of 18 tests, with deficits in attention, processing and motor speed but not memory or executive function.",
+     "url": "https://doi.org/10.1017/s1355617704102178",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Daly 2001",
+     "n": "29 CFS, 24 MS, 23 MDD, 25 healthy",
+     "design": "case-control",
+     "result": "CFS differed from controls in memory, language and spatial domains, and memory deficits persisted after covarying for depression.",
+     "url": "https://doi.org/10.1207/s15324826an0801_3",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Smith 1999",
+     "n": "67 vs 126",
+     "design": "case-control",
+     "result": "CFS patients showed impaired sustained-attention performance that worsened further with acute fatigue over the test session.",
+     "url": "https://doi.org/10.1017/s003329179800748x",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Marshall 1997",
+     "n": "20 CFS vs 20 controls vs 14 depression",
+     "design": "case-control",
+     "result": "CFS patients scored lower on reaction time and working memory tasks dependent on processing speed, similar to depression; effort on day 1 did not worsen day 2 performance.",
+     "url": "https://doi.org/10.1097/00006842-199701000-00008",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Frontera 2026",
+     "n": "260",
+     "design": "cohort",
+     "result": "Cumulative MCI incidence over 4.4 years: 27% long COVID vs 5% recovered vs 1% COVID-negative (HR 3.93, 95% CI 1.86-8.31).",
+     "url": "https://doi.org/10.1002/alz.71237",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 3
+    },
+    {
+     "cite": "Higgins 2026",
+     "n": "24095 (11925 positive)",
+     "design": "cross-sectional",
+     "result": "Cognitive battery in a large community cohort dissecting attention, fatigue and memory in long COVID.",
+     "url": "https://doi.org/10.1093/braincomms/fcag361",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Helmsdal 2026",
+     "n": "",
+     "design": "case-control",
+     "result": "Omicron-era long COVID vs antibody-verified never-infected controls assessed for symptoms, cognition and clinical predictors in the Faroe Islands.",
+     "url": "https://doi.org/10.1371/journal.pone.0351564",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Kozik 2026",
+     "n": "81",
+     "design": "cohort",
+     "result": "OCS-Plus deficits in memory, attention and executive function persisted on reassessment months later.",
+     "url": "https://doi.org/10.1038/s41598-026-48476-5",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Oosterman 2025",
+     "n": "1375",
+     "design": "cross-sectional",
+     "result": "Fatigue and pain independently associate with cognitive test performance in ME/CFS; associations tested by age and duration.",
+     "url": "https://doi.org/10.1016/j.jpsychores.2025.112401",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Andersson 2025",
+     "n": "PCC vs controls",
+     "design": "case-control",
+     "result": "PCC group showed cognitive performance fatigability on processing-speed tasks (controls improved with repetition, PCC did not).",
+     "url": "https://doi.org/10.1037/neu0001020",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Sandoval 2025",
+     "n": "2313 ME/CFS, 299 PASC",
+     "design": "cross-sectional",
+     "result": "Factor analysis identifies two neurocognitive domains including hypersensitivity to noise/light in ME/CFS and PASC.",
+     "url": "https://doi.org/10.3389/fneur.2025.1612548",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Banovic 2025",
+     "n": "83 vs 83",
+     "design": "case-control",
+     "result": "Cognitive dysfunction in CFS limited to slowed information processing; attentional selectivity intact (Bayesian evidence for null).",
+     "url": "https://doi.org/10.1037/neu0000982",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Lange 2024",
+     "n": "261 vs 165",
+     "design": "cohort",
+     "result": "MCAM multisite study: cognitive battery before and after a clinic day including exercise testing in 182 ME/CFS and 160 controls; abstract truncated before results.",
+     "url": "https://doi.org/10.3389/fnins.2024.1460157",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Martin 2024",
+     "n": "88 vs 50; 77 at 6 months",
+     "design": "cohort",
+     "result": "Cognitive slowing (reaction time, r=0.51) persists unchanged over 6 months.",
+     "url": "https://doi.org/10.1007/s00415-023-12069-3",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Day 2023",
+     "n": "34 PASC, 71 ME/CFS <=10 y, ME/CFS >10 y, 82 controls",
+     "design": "case-control",
+     "result": "Cognitive efficiency falls after orthostatic challenge in PASC and ME/CFS vs controls, mediated by hemodynamic changes (narrow pulse pressure); stays low 2 and 7 days later in long-duration ME/CFS.",
+     "url": "https://doi.org/10.3389/fnins.2023.1203514",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Damiano 2023",
+     "n": "710",
+     "design": "cohort",
+     "result": "Cognitive impairment 6-11 months after discharge is associated with persistent inflammatory marker dysregulation.",
+     "url": "https://doi.org/10.3389/fimmu.2023.1174020",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Del Brutto 2022",
+     "n": "50 vs 28",
+     "design": "cohort",
+     "result": "Pre- and post-pandemic MoCA testing: long COVID cognitive decline improved by 18 months.",
+     "url": "https://doi.org/10.1111/ene.15215",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "van Campen 2020",
+     "n": "128",
+     "design": "cohort",
+     "result": "N-back working memory worsened after 30-min head-up tilt (2-back correct 77% to 62%, 3-back 57% to 41%) in ME/CFS.",
+     "url": "https://doi.org/10.3389/fnins.2020.00688",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Capuron 2006",
+     "n": "43 vs 53",
+     "design": "case-control",
+     "result": "Only CFS patients with high mental-fatigue scores showed impaired spatial working memory and sustained attention, with decline late in the test (cognitive fatigability).",
+     "url": "https://doi.org/10.1038/sj.npp.1301005",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Cook 2005",
+     "n": "20 CFS, 19 CFS+FM, 26 controls",
+     "design": "case-control",
+     "result": "CFS-only patients had subtle deficits in processing speed, consistency and efficiency; 25 min light exercise neither worsened nor improved cognition.",
+     "url": "https://doi.org/10.1249/01.mss.0000179921.48404.ef",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Mahurin 2004",
+     "n": "21 twin pairs vs 21 controls",
+     "design": "case-control",
+     "result": "No cognitive difference between CFS and healthy co-twins, but both twin groups were slower than unrelated controls on speed-dependent tests.",
+     "url": "https://doi.org/10.1037/0894-4105.18.2.232",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "LaManca 1998",
+     "n": "19 vs 20",
+     "design": "case-control",
+     "result": "After exhaustive treadmill exercise, CFS patients scored lower than sedentary controls on SDMT, Stroop word and color tests immediately and 24 h later.",
+     "url": "https://doi.org/10.1016/s0002-9343(98)00171-5",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Kozik 2022, preprint",
+     "n": "282 vs 52",
+     "design": "case-control",
+     "result": "Post-COVID cohort scored lower than controls on delayed verbal memory, attention and executive function with small effects (r about 0.1); 10-20% below 1.5 SD.",
+     "url": "https://doi.org/10.1101/2022.05.23.22275442",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Cockshell 2014",
+     "n": "50 vs 50",
+     "design": "case-control",
+     "result": "CFS reported more cognitive problems but did not differ from controls on objective memory and attention tests.",
+     "url": "https://doi.org/10.1037/neu0000025",
+     "verified": true,
+     "sweep": true,
+     "relation": "contradicts",
+     "importance": 2
+    },
+    {
+     "cite": "Ocon 2012",
+     "n": "16 vs 20",
+     "design": "case-control",
+     "result": "Graded tilt with n-back: CFS/POTS had worse accuracy and slower normalised reaction time at 45-75 degrees; cerebral blood flow velocity changes did not differ and did not relate to scores.",
+     "url": "https://doi.org/10.1042/cs20110241",
+     "verified": true,
+     "sweep": true,
+     "relation": "contradicts",
+     "importance": 2
+    },
+    {
+     "cite": "Michael 2024, preprint",
+     "n": "351 vs 2,927 normative",
+     "design": "cohort",
+     "result": "Global cognitive deficits at one year, associated with elevated brain injury markers and reduced anterior cingulate volume; corticosteroids in acute phase appeared protective.",
+     "url": "https://doi.org/10.21203/rs.3.rs-3818580/v1",
+     "verified": true,
+     "sweep": true,
+     "relation": "contradicts",
+     "importance": 2
+    }
+   ]
   },
   {
    "id": "neuro-sleep",
@@ -1290,7 +3541,262 @@
     "neuroinflammation",
     "hpa-endocrine"
    ],
-   "test_available": "Clinical polysomnography (to exclude apnoea, PLMs, narcolepsy)"
+   "test_available": "Clinical polysomnography (to exclude apnoea, PLMs, narcolepsy)",
+   "sweep": [
+    {
+     "cite": "Zerón-Rugerio 2024",
+     "n": "31 ME/CFS, 23 post-COVID ME/CFS, 31 controls",
+     "design": "case-control",
+     "result": "Both patient groups had lower activity and worse sleep quality than controls, with worse lipid profile linked to circadian temperature disruption; higher endothelin-1 and VCAM-1 in patients; no difference between ME/CFS groups.",
+     "url": "https://doi.org/10.1080/07420528.2024.2380020",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Maksoud 2021",
+     "n": "20 studies",
+     "design": "meta-analysis",
+     "result": "Systematic review of PSG/MSLT: slow-wave sleep, AHI, spectral activity and MSLT findings inconsistent across ME/CFS studies.",
+     "url": "https://doi.org/10.3390/healthcare9050568",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Aerenhouts 2015",
+     "n": "42 vs 24",
+     "design": "case-control",
+     "result": "Exercise capacity (VO2peak) was significantly lower in CFS; in patients, higher VO2peak related to less daytime sleep; sleep latency and efficiency were normal but patients slept more and spent more time in bed.",
+     "url": "https://doi.org/10.3109/09638288.2014.993093",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Gotts 2013",
+     "n": "343",
+     "design": "cross-sectional",
+     "result": "30.3% had a primary sleep disorder; four sleep phenotypes found among the rest, 89.1% with an objective sleep problem.",
+     "url": "https://doi.org/10.1136/bmjopen-2013-002999",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Hurum 2011",
+     "n": "44 vs 52",
+     "design": "case-control",
+     "result": "24-h ambulatory monitoring: night-time HR, mean and diastolic BP higher in adolescent CFS than controls, indicating sympathetic predominance.",
+     "url": "https://doi.org/10.1111/j.1651-2227.2010.02073.x",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Burton 2010",
+     "n": "20 vs 20",
+     "design": "case-control",
+     "result": "Nocturnal HRV was lower in CFS and predicted poor subjective sleep, suggesting sympathetic hypervigilance in sleep.",
+     "url": "https://doi.org/10.1007/s00221-010-2296-1",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Decker 2009",
+     "n": "35 vs 40",
+     "design": "case-control",
+     "result": "Overnight spectral EEG: delta power lower in slow-wave sleep and alpha, theta, sigma, beta lower in stage 2, SWS and REM in CFS.",
+     "url": "https://doi.org/10.1186/1744-9081-5-43",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Togo 2008",
+     "n": "12 CFS+FM and 14 CFS vs 26 controls",
+     "design": "case-control",
+     "result": "Polysomnography: CFS had less total sleep, lower efficiency and less REM than controls; unrefreshing sleep linked to poor sleep efficiency and short sleep runs.",
+     "url": "https://doi.org/10.1186/ar2425",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Watson 2003",
+     "n": "22 twin pairs",
+     "design": "case-control",
+     "result": "CFS twins reported worse sleep and had more REM sleep than healthy co-twins, with little other objective difference.",
+     "url": "https://doi.org/10.1093/sleep/26.3.324",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Fischler 1997",
+     "n": "49 vs 20",
+     "design": "case-control",
+     "result": "Polysomnography showed sleep initiation and maintenance disturbance and less stage 4 sleep in CFS, not limited to those with fibromyalgia or psychiatric disorder; REM latency was normal.",
+     "url": "https://doi.org/10.1159/000119331",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Whelton 1992",
+     "n": "14 vs 12",
+     "design": "case-control",
+     "result": "All CFS patients had unrefreshing sleep and a prominent alpha-EEG NREM sleep anomaly (p<=0.001), with no EBV antibody difference, more tender points and depressive symptoms.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/1328633/",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Aboagye 2026",
+     "n": "",
+     "design": "cohort",
+     "result": "Longitudinal digital-health study of bidirectional within-person links between nocturnal HRV, sleep quality and daily fatigue in post-COVID fatigue.",
+     "url": "https://doi.org/10.2196/99630",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Sun 2026",
+     "n": "28 LC vs 28 HC; 19 ME/CFS",
+     "design": "case-control",
+     "result": "Long COVID shows altered sleep EEG microstructure (slow oscillations, spindle-SO coupling); ME/CFS shares some features with more alpha-delta patterns.",
+     "url": "https://doi.org/10.1093/sleep/zsag090",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Fatt 2020",
+     "n": "24 vs 24",
+     "design": "case-control",
+     "result": "Normalized high-frequency HRV (parasympathetic) was reduced in CFS during deep sleep but not wakefulness; slower sleep onset, more awakenings, more slow-wave sleep.",
+     "url": "https://doi.org/10.5664/jcsm.8114",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Mariman 2012",
+     "n": "415",
+     "design": "cross-sectional",
+     "result": "Subjective sleep: mean PSQI 10.17 and ESS 10.51; no linear ESS-PSQI relation, and a subgroup (n=69) had an insomnia-like phenotype with low ESS and high PSQI.",
+     "url": "https://doi.org/10.2143/acb.67.1.2062621",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Togo 2010",
+     "n": "",
+     "design": "case-control",
+     "result": "Maximal exercise did not worsen sleep in CFS; about half slept better after exercise, so PEM is not caused by worse sleep.",
+     "url": "https://doi.org/10.1249/mss.0b013e3181b11bc7",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Neu 2009",
+     "n": "32 CFS vs 30 sleep apnoea vs 14 controls",
+     "design": "case-control",
+     "result": "Polysomnography: CFS showed increased slow-wave sleep, lower sleep efficiency and higher microarousal index than controls; NREM distribution differs from sleep apnoea, so not a primary sleep disorder.",
+     "url": "https://doi.org/10.1097/wnp.0b013e3181a1841b",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Fossey 2004",
+     "n": "",
+     "design": "case-control",
+     "result": "58% of CFS patients had previously undiagnosed primary sleep disorders (apnoea, periodic limb movements) on polysomnography; psychological maladjustment resembled narcolepsy.",
+     "url": "https://doi.org/10.1007/s10865-004-0004-y",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Watson 2004",
+     "n": "20 twin pairs",
+     "design": "case-control",
+     "result": "CFS twins reported more sleepiness (ESS 10.9 vs 8.2) but multiple sleep latency test did not differ from healthy co-twins.",
+     "url": "https://doi.org/10.1093/sleep/27.5.973",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Ball 2004",
+     "n": "22 twin pairs",
+     "design": "case-control",
+     "result": "Polysomnography showed more stage 3 and REM sleep in CFS twins than co-twins, with no major sleep architecture abnormality; some respiratory impairment.",
+     "url": "https://doi.org/10.1016/s0022-3999(03)00598-1",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Le Bon 2000",
+     "n": "46",
+     "design": "cross-sectional",
+     "result": "Polysomnography found sleep apnea/hypopnea (AHI>=5) in 46% and objective sleepiness (MSLT<10 min) in 30%, with no association to CFS symptom scales.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/11382899/",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Armitage 2009",
+     "n": "13 twin pairs",
+     "design": "case-control",
+     "result": "Sleep EEG spectral power did not differ between CFS twins and their healthy co-twins; sleep EEG features were more genetic than disease-related.",
+     "url": "https://doi.org/10.1016/j.jpsychores.2008.08.004",
+     "verified": true,
+     "sweep": true,
+     "relation": "contradicts",
+     "importance": 2
+    },
+    {
+     "cite": "Reeves 2006",
+     "n": "CFS vs controls",
+     "design": "case-control",
+     "result": "Polysomnography/MSLT: sleep architecture did not differ except more obstructive apnoeas per hour (not clinically meaningful); 18% vs 7% severe primary sleep disorders (ns).",
+     "url": "https://doi.org/10.1186/1471-2377-6-41",
+     "verified": true,
+     "sweep": true,
+     "relation": "contradicts",
+     "importance": 2
+    }
+   ]
   },
   {
    "id": "neuro-sensory",
@@ -1327,7 +3833,42 @@
     "genetic-neuronal",
     "sickness-behaviour"
    ],
-   "test_available": "research only"
+   "test_available": "research only",
+   "sweep": [
+    {
+     "cite": "Thomas 2026",
+     "n": "44 vs 44",
+     "design": "crossover",
+     "result": "Somatosensory processing and fatigability in long COVID with cognitive or physical fatigue-inducing task, related to autonomic function and mood.",
+     "url": "https://doi.org/10.1113/ep093600",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Sandoval 2025",
+     "n": "2313 ME/CFS, 299 PASC",
+     "design": "cross-sectional",
+     "result": "Factor analysis identifies two neurocognitive domains including hypersensitivity to noise/light in ME/CFS and PASC.",
+     "url": "https://doi.org/10.3389/fneur.2025.1612548",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Maeda 2023",
+     "n": "2240",
+     "design": "survey",
+     "result": "Sensory hypersensitivities (noise, light) compared in DePaul Symptom Questionnaire data from ME/CFS and MS",
+     "url": "https://doi.org/10.1080/13548506.2023.2195670",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    }
+   ]
   },
   {
    "id": "neuro-lc-bbb-disruption",
@@ -1367,7 +3908,31 @@
    "open_questions": [
     "Is BBB leakage present in ME/CFS of non-COVID onset?"
    ],
-   "test_available": false
+   "test_available": false,
+   "sweep": [
+    {
+     "cite": "Greene 2023, preprint",
+     "n": "",
+     "design": "imaging",
+     "result": "DCE-MRI shows BBB disruption in long COVID with cognitive impairment",
+     "url": "https://doi.org/10.21203/rs.3.rs-2069710/v2",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 3
+    },
+    {
+     "cite": "van der Knaap 2025",
+     "n": "",
+     "design": "imaging",
+     "result": "Cerebral microvascular dysfunction on MRI was more widespread in COVID ICU survivors than ward survivors and linked to cognitive complaints (p=0.047 in NAWM).",
+     "url": "https://doi.org/10.1016/j.jns.2025.123464",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    }
+   ]
   },
   {
    "id": "neuro-lc-subcortical-structure",
@@ -1405,7 +3970,86 @@
    "contradicting": [],
    "hypotheses": [],
    "open_questions": [],
-   "test_available": false
+   "test_available": false,
+   "sweep": [
+    {
+     "cite": "Serrano Del Pueblo 2024",
+     "n": "",
+     "design": "case-control",
+     "result": "Compared with infection-recovered controls, long COVID had lower overall cognition (OCLz -0.39 vs +0.32), 48% episodic memory deficit, and thinner left posterior superior temporal cortex.",
+     "url": "https://doi.org/10.1093/brain/awae101",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Schwichtenberg 2026",
+     "n": "49 vs 48",
+     "design": "case-control",
+     "result": "PCC with cognitive complaints show deficits in attention, executive function and memory with MRI structural brain differences correlating to symptoms.",
+     "url": "https://doi.org/10.1093/braincomms/fcag099",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Seo 2025",
+     "n": "Cog-PASC vs Other-PASC vs non-PASC, exploration+validation",
+     "design": "case-control",
+     "result": "Cognitive PASC showed elevated astroglial damage proteins in blood and MRI changes (cingulate/insular cortical thinning, susceptibility) about one year after mild COVID.",
+     "url": "https://doi.org/10.1038/s41467-025-65597-z",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Hartung 2026",
+     "n": "57 vs 57",
+     "design": "case-control",
+     "result": "Reduced cortical thickness in parahippocampal and temporal regions after COVID hospitalisation, associated with fatigue and acute severity.",
+     "url": "https://doi.org/10.1002/acn3.70260",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Birberg Thornberg 2026, preprint",
+     "n": "34 vs 37",
+     "design": "case-control",
+     "result": "Post-COVID condition with fatigue vs recovered controls: neurocognitive and immunological measures within normal ranges, only modest white-matter/myelin differences on MRI.",
+     "url": "https://doi.org/10.64898/2026.10.21.760664",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Ziaja 2026, preprint",
+     "n": "88 vs 34",
+     "design": "imaging",
+     "result": "Mammillary body volume phenotypes (reduced, enlarged, normal) and fornix/brainstem diffusion differences in long COVID; 33 patients bedridden.",
+     "url": "https://doi.org/10.64898/2026.07.31.26359395",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Romero-Molina 2026, preprint",
+     "n": "42 vs 14",
+     "design": "imaging",
+     "result": "Neuroanatomical clustering gives two subgroups, with cerebellar and putamen grey matter loss in one, plus longitudinal changes.",
+     "url": "https://doi.org/10.64898/2026.07.30.741878",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    }
+   ]
   },
   {
    "id": "neuro-lc-fdg-pet",
@@ -1436,13 +4080,37 @@
    ],
    "hypotheses": [],
    "open_questions": [],
-   "test_available": false
+   "test_available": false,
+   "sweep": [
+    {
+     "cite": "Manganotti 2025",
+     "n": "28 vs controls",
+     "design": "imaging",
+     "result": "FDG-PET hypometabolism in bilateral frontal, temporal, parietal and left occipital lobes plus frontal EEG slowing (delta/theta up, alpha down) vs matched controls.",
+     "url": "https://doi.org/10.1038/s41598-025-04815-6",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Rozenblum 2025",
+     "n": "87",
+     "design": "imaging",
+     "result": "FDG-PET in 87 PASC adults with cognitive symptoms: hypometabolism most marked in pons (-5.5%) and right amygdala (-4.2%), correlating with concentration and memory complaints.",
+     "url": "https://doi.org/10.1097/rlu.0000000000005614",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    }
+   ]
   },
   {
    "id": "neuro-eeg",
    "subdomain": "Functional MRI",
    "finding": "Quantitative EEG shows group differences in spectral power and connectivity in ME/CFS (and LC), with classification accuracy reported in single centres, but methods are heterogeneous.",
-   "grade": "early",
+   "grade": "several",
    "plain": "Brain-wave recordings differ on average in ME/CFS, but studies use different methods and are not yet a test.",
    "detail": "",
    "studies": [
@@ -1482,7 +4150,76 @@
    "contradicting": [],
    "hypotheses": [],
    "open_questions": [],
-   "test_available": false
+   "test_available": false,
+   "regrade_note": "2026-11-08 sweep: independent groups (Decker 2009, Flor-Henry 2010, Manganotti 2025) and a systematic review; methods still heterogeneous",
+   "sweep": [
+    {
+     "cite": "Manganotti 2025",
+     "n": "28 vs controls",
+     "design": "imaging",
+     "result": "FDG-PET hypometabolism in bilateral frontal, temporal, parietal and left occipital lobes plus frontal EEG slowing (delta/theta up, alpha down) vs matched controls.",
+     "url": "https://doi.org/10.1038/s41598-025-04815-6",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Flor-Henry 2010",
+     "n": "61 vs 80",
+     "design": "case-control",
+     "result": "43-channel EEG source analysis separated CFS from controls with 72-83% accuracy, with lateralised cortical differences.",
+     "url": "https://doi.org/10.1016/j.pscychresns.2009.10.007",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Decker 2009",
+     "n": "35 vs 40",
+     "design": "case-control",
+     "result": "Overnight spectral EEG: delta power lower in slow-wave sleep and alpha, theta, sigma, beta lower in stage 2, SWS and REM in CFS.",
+     "url": "https://doi.org/10.1186/1744-9081-5-43",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Silva-Passadouro 2023, preprint",
+     "n": "17 studies",
+     "design": "meta-analysis",
+     "result": "Systematic review of resting qEEG: CFS/ME shows trend to increased low-frequency and reduced beta activity; long COVID findings mixed.",
+     "url": "https://doi.org/10.1101/2023.11.06.23298171",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Linnhoff 2026",
+     "n": "36 HC, 33 LC fatigue, 50 MS",
+     "design": "case-control",
+     "result": "Lower frontal EEG aperiodic exponent (E/I balance) associates with cognitive fatigue in long COVID and MS, classifying fatigue status beyond age and depression.",
+     "url": "https://doi.org/10.1017/s0033291725103024",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Armitage 2009",
+     "n": "13 twin pairs",
+     "design": "case-control",
+     "result": "Sleep EEG spectral power did not differ between CFS twins and their healthy co-twins; sleep EEG features were more genetic than disease-related.",
+     "url": "https://doi.org/10.1016/j.jpsychores.2008.08.004",
+     "verified": true,
+     "sweep": true,
+     "relation": "contradicts",
+     "importance": 2
+    }
+   ]
   },
   {
    "id": "neuro-resting-fc",
@@ -1553,7 +4290,75 @@
    ],
    "hypotheses": [],
    "open_questions": [],
-   "test_available": false
+   "test_available": false,
+   "sweep": [
+    {
+     "cite": "Almutairi 2020",
+     "n": "",
+     "design": "meta-analysis",
+     "result": "Systematic review of structural and functional MRI: inconsistent anatomical differences, more or broader activation on tasks; insufficient data for a neural biomarker.",
+     "url": "https://doi.org/10.1136/bmjopen-2019-031672",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Maksoud 2020",
+     "n": "55 studies",
+     "design": "meta-analysis",
+     "result": "Systematic review of neuroimaging: differences reported in grey and white matter volume, cerebral blood flow, EEG, connectivity, but heterogeneous.",
+     "url": "https://doi.org/10.1371/journal.pone.0232475",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Barnden 2019",
+     "n": "45 vs 27",
+     "design": "imaging",
+     "result": "fMRI showed brainstem reticular connectivity deficits (medulla to cuneiform nucleus, to hippocampus and thalamus) in Fukuda ME/CFS, only during task, related to symptom severity.",
+     "url": "https://doi.org/10.1016/j.nicl.2019.102045",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Schumann 2025",
+     "n": "46 neuroimaging studies, 2603",
+     "design": "meta-analysis",
+     "result": "ALE meta-analysis finds a frontal-striatal-limbic, frontal-cingulate and parietal network for mental fatigue across conditions.",
+     "url": "https://doi.org/10.1093/braincomms/fcaf315",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Inderyas 2023",
+     "n": "31 vs 15",
+     "design": "imaging",
+     "result": "Reduced ponto-cerebellar functional connectivity in ME/CFS during Stroop; connectivity linked to illness duration and memory.",
+     "url": "https://doi.org/10.3389/fnins.2023.1318094",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Su 2023",
+     "n": "",
+     "design": "imaging",
+     "result": "Salience and DMN connectivity with subcortical nodes distinguishes two ME/CFS classes",
+     "url": "https://doi.org/10.1089/brain.2022.0049",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    }
+   ]
   },
   {
    "id": "neuro-serotonergic-pet",
@@ -1613,7 +4418,20 @@
    "contradicting": [],
    "hypotheses": [],
    "open_questions": [],
-   "test_available": false
+   "test_available": false,
+   "sweep": [
+    {
+     "cite": "Schumann 2025",
+     "n": "46 neuroimaging studies, 2603",
+     "design": "meta-analysis",
+     "result": "ALE meta-analysis finds a frontal-striatal-limbic, frontal-cingulate and parietal network for mental fatigue across conditions.",
+     "url": "https://doi.org/10.1093/braincomms/fcaf315",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    }
+   ]
   },
   {
    "id": "neuro-pain-modulation-exercise-hyperalgesia",
@@ -1676,13 +4494,125 @@
    ],
    "hypotheses": [],
    "open_questions": [],
-   "test_available": false
+   "test_available": false,
+   "sweep": [
+    {
+     "cite": "Bourke 2021",
+     "n": "19 CFS, 19 FM, 20 HC",
+     "design": "case-control",
+     "result": "Central sensitisation (enhanced temporal summation plus inefficient CPM) in 84% of CFS and 95% of FM, none of controls.",
+     "url": "https://doi.org/10.1016/j.jpsychores.2021.110624",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Surian 2020",
+     "n": "170 CFS, 196 CFS/FM, 56 FM, 70 GWI vs 428 controls",
+     "design": "case-control",
+     "result": "Tender-point dolorimetry showed hyperalgesia in CFS (5.8 kg), CFS/FM (3.1) and FM (3.9) versus controls (7.2 kg), p<0.0001.",
+     "url": "https://doi.org/10.1038/s41598-020-62771-9",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Collin 2017",
+     "n": "48 CFS, 19 MS, 30 controls",
+     "design": "case-control",
+     "result": "CFS had lower pressure pain thresholds (about 25% lower than MS) and higher temporal summation, indicating pain facilitation rather than impaired inhibition.",
+     "url": "https://doi.org/10.36076/ppj.2017.e497",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Winger 2014",
+     "n": "120 vs 39",
+     "design": "case-control",
+     "result": "Adolescents with CFS had lower pressure pain thresholds and more severe pain than healthy controls.",
+     "url": "https://doi.org/10.1136/bmjopen-2014-005920",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Meeus 2010",
+     "n": "30 vs 30",
+     "design": "case-control",
+     "result": "Pressure pain thresholds were lower at all sites in CFS (3.30 vs 8.09 kg/cm2, p<0.001), including pain-free areas, indicating generalised hyperalgesia.",
+     "url": "https://doi.org/10.1007/s10067-009-1339-0",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Novak 2026",
+     "n": "169",
+     "design": "cross-sectional",
+     "result": "Central sensitization present in 81% of long COVID patients with orthostatic intolerance; linked to autonomic symptom burden, cerebral hypoperfusion and neuroinflammation markers.",
+     "url": "https://doi.org/10.1016/j.jns.2026.126058",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "van Campen 2021",
+     "n": "248 ME/CFS (164 FM) vs 22 controls",
+     "design": "case-control",
+     "result": "Head-up tilt lowered pressure pain thresholds in ME/CFS with or without FM but not in controls; windup higher than controls, unchanged by tilt.",
+     "url": "https://doi.org/10.55563/clinexprheumatol/1qj9zu",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Polli 2019",
+     "n": "22 vs 22",
+     "design": "case-control",
+     "result": "Changes in pressure pain thresholds after exercise were associated with changes in complement C4a in ME/CFS but not with elastase.",
+     "url": "https://doi.org/10.1515/sjpain-2018-0075",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Staud 2015",
+     "n": "39 CFS vs 29 NC",
+     "design": "case-control",
+     "result": "After handgrip, forearm occlusion trapping metabolites increased fatigue ratings in CFS (p=0.04) with heat and mechanical hyperalgesia; indirect evidence for peripheral muscle metabolite sensing.",
+     "url": "https://doi.org/10.1097/j.pain.0000000000000110",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Vecchiet 1996",
+     "n": "21 patients; 9 biopsies",
+     "design": "case-control",
+     "result": "Pain thresholds were lower in muscle but normal in skin in 21 CFS patients; quadriceps biopsies in 9 showed sarcomere and mitochondrial abnormalities and raised mtDNA 4977 bp deletion.",
+     "url": "https://doi.org/10.1016/0304-3940(96)12559-3",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    }
+   ]
   },
   {
    "id": "neuro-lc-autonomic-objective",
    "subdomain": "Autonomic",
    "finding": "Objective autonomic testing in long COVID finds cardiovascular autonomic abnormalities in most referred patients (initial orthostatic hypotension, POTS), whereas resting muscle sympathetic nerve activity is variably normal or increased.",
-   "grade": "several",
+   "grade": "replicated",
    "plain": "Tilt and blood-pressure tests show most long COVID clinic patients have nervous-system blood-pressure problems.",
    "detail": "",
    "studies": [
@@ -1723,7 +4653,241 @@
    ],
    "hypotheses": [],
    "open_questions": [],
-   "test_available": false
+   "test_available": false,
+   "regrade_note": "2026-11-08 sweep: >10 independent cohorts with objective autonomic testing",
+   "sweep": [
+    {
+     "cite": "Ruijgt 2026",
+     "n": "121 vs 21",
+     "design": "case-control",
+     "result": "Continuous wearable HRV was lower in long COVID than controls (p=0.027), stayed lower for 24 h after exercise near VT1 and nighttime HRV fell after intense/long exercise.",
+     "url": "https://doi.org/10.1007/s40279-026-02487-4",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Camargo 2026",
+     "n": "39 vs 22",
+     "design": "case-control",
+     "result": "Long COVID tilt test shows blunted sympathetic HRV response (lower LF nu, lower LF/HF) and impaired BP regulation.",
+     "url": "https://doi.org/10.1038/s41598-026-38800-4",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Tamariz 2026",
+     "n": "100",
+     "design": "cross-sectional",
+     "result": "Dysautonomia (abnormal COMPASS-31) in 82% and abnormal HRV in 60% of long COVID; orthostatic hypotension 12%.",
+     "url": "https://doi.org/10.3121/cmr.2025.2054",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Keller 2026",
+     "n": "long COVID vs controls vs PAF",
+     "design": "case-control",
+     "result": "Quantitative autonomic testing compares long COVID, controls, and pure autonomic failure.",
+     "url": "https://doi.org/10.1016/j.jacc.2025.09.1608",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Cherneva 2025",
+     "n": "about 95",
+     "design": "cohort",
+     "result": "Long-term PCS with moderate-severe symptoms had lower peak VO2 (24.1 vs 26.7 vs 27.0 mL/kg/min) and more chronotropic insufficiency (81.5% vs 35% vs 12.5%) and abnormal HRR.",
+     "url": "https://doi.org/10.3390/biomedicines13051138",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Hira 2025",
+     "n": "",
+     "design": "case-control",
+     "result": "Long COVID had lower upright HF-HRV (p=0.04) and BP low-frequency variability (p=0.001) than controls; initial orthostatic hypotension group had lower baroreflex sensitivity.",
+     "url": "https://doi.org/10.1007/s10286-025-01107-x",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Delogu 2024",
+     "n": "56 vs 27",
+     "design": "case-control",
+     "result": "Children with long COVID had altered HRV, including lower rMSSD (47.4 vs 60.4 ms, p=0.02).",
+     "url": "https://doi.org/10.1007/s00431-024-05503-9",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Mooren 2023",
+     "n": "103 PCS vs 103 CAD vs 90 controls",
+     "design": "case-control",
+     "result": "24-h Holter HRV shows sympathetic predominance and impaired nocturnal parasympathetic activity in PCS vs controls (LF/HF p<=0.001).",
+     "url": "https://doi.org/10.1038/s41598-023-42615-y",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Seeley 2025",
+     "n": "33 vs 33 vs 33",
+     "design": "case-control",
+     "result": "PASC and POTS both had reduced respiratory sinus arrhythmia vs controls; autonomic symptoms and POTS prevalence high in PASC, with poor HrQoL.",
+     "url": "https://doi.org/10.1016/j.amjmed.2023.06.010",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Baker 2023",
+     "n": "37 vs 52",
+     "design": "case-control",
+     "result": "Fatigued post-COVID volunteers show underactive cortical circuits and dysregulated autonomic function versus non-fatigued controls",
+     "url": "https://doi.org/10.1093/braincomms/fcad122",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Varma-Doyle 2023",
+     "n": "",
+     "design": "cohort",
+     "result": "Sudomotor dysfunction new-onset or worsened post-COVID versus pre-infection testing",
+     "url": "https://doi.org/10.1016/j.ensci.2023.100445",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Marques 2022",
+     "n": "155 vs 94",
+     "design": "case-control",
+     "result": "Long COVID had reduced global HRV and increased sympathetic modulation versus COVID-free controls.",
+     "url": "https://doi.org/10.3389/fcvm.2022.862001",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Newton 2007",
+     "n": "40+30 CFS vs 40+37 controls vs 60 PBC",
+     "design": "case-control",
+     "result": "COMPASS autonomic symptom score >32.5 had PPV 0.96 and NPV 0.84 for CFS in validation; symptoms correlated with fatigue.",
+     "url": "https://doi.org/10.1093/qjmed/hcm057",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Ruijgt 2025, preprint",
+     "n": "",
+     "design": "cohort",
+     "result": "Multi-day wearable HRV showed autonomic dysfunction in long COVID and delayed sympathovagal recovery after exercise at or above VT1, proposed as a PEM threshold.",
+     "url": "https://doi.org/10.1101/2025.03.18.25320115",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Azcue 2026",
+     "n": "21 PCC, 17 ME/CFS",
+     "design": "cohort",
+     "result": "Two-timepoint (median 31 months) follow-up shows largely overlapping autonomic, small-fiber and cognitive profiles in PCC and ME/CFS; small-fiber symptoms correlate with autonomic burden (rho 0.65) and fatigue.",
+     "url": "https://doi.org/10.1186/s12967-026-08321-9",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Pierson 2025",
+     "n": "1,367,961",
+     "design": "case-control",
+     "result": "Risk factors for post-COVID dysautonomia diagnosis in active-duty service members.",
+     "url": "https://doi.org/10.3389/fneur.2025.1653175",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Eastin 2025",
+     "n": "",
+     "design": "cohort",
+     "result": "At about 36 months, a moderate-to-severe autonomic symptom burden (COMPASS-31 >=20) persisted; 40.5% of those with dysautonomia were newly diagnosed POTS; female sex and joint hypermobility were risk factors.",
+     "url": "https://doi.org/10.1007/s10286-025-01111-1",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Johansson 2024",
+     "n": "",
+     "design": "case-control",
+     "result": "24-h ambulatory BP in post-COVID POTS: higher nighttime systolic BP, nondipping 34% vs 19%, and more daytime hypotensive episodes than population controls.",
+     "url": "https://doi.org/10.1161/hypertensionaha.124.23670",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Goldstein 2024",
+     "n": "7 followed >1 year",
+     "design": "cohort",
+     "result": "71% of initially abnormal tests (CSF oligoclonal bands, CSF catecholamine deficiency indices, baroreflex dysfunction, tilt hypotension, MRI hyperintensities) remained abnormal after more than a year.",
+     "url": "https://doi.org/10.1212/wnl.0000000000209742",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Larsen 2022",
+     "n": "2314",
+     "design": "survey",
+     "result": "Autonomic symptom burden in a global survey; severity not tied to acute severity",
+     "url": "https://doi.org/10.3389/fneur.2022.1012668",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Schoene 2026",
+     "n": "1162 (11 studies)",
+     "design": "meta-analysis",
+     "result": "HRV trended lower in post-COVID patients vs controls, non-significant (SDNN SMD 0.26, p=0.09; rMSSD 0.11, p=0.41).",
+     "url": "https://doi.org/10.1111/ene.70561",
+     "verified": true,
+     "sweep": true,
+     "relation": "contradicts",
+     "importance": 2
+    }
+   ]
   },
   {
    "id": "neuro-mrs-neurochemicals",
@@ -1753,7 +4917,130 @@
    "contradicting": [],
    "hypotheses": [],
    "open_questions": [],
-   "test_available": false
+   "test_available": false,
+   "sweep": [
+    {
+     "cite": "Godlewska 2022",
+     "n": "22 vs 13",
+     "design": "imaging",
+     "result": "7T MRS of anterior cingulate: lower glutathione, total creatine and myo-inositol in CFS; only myo-inositol held with NAA reference.",
+     "url": "https://doi.org/10.1007/s00213-021-05986-6",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "id": "neuro-plasma-adrenaline",
+   "subdomain": "Autonomic",
+   "grade": "several",
+   "finding": "Blood adrenaline is modestly raised in ME/CFS (pooled SMD 0.49 across 37 studies), with atypical catecholamine responses to exercise.",
+   "plain": "Pooling many small studies, patients have somewhat higher levels of the stress hormone adrenaline in blood, which fits a body running on sympathetic drive.",
+   "detail": "Hendrix 2025 meta-analysed 37 studies (543 ME/CFS, 747 controls): adrenaline SMD 0.49 (95% CI 0.31 to 0.67). Noradrenaline differences were less consistent. Exercise studies showed atypical rises. The pattern was clearer in ME/CFS than in fibromyalgia. Caveats: small heterogeneous studies, sampling posture and time of day vary, and catecholamines are sensitive to stress of venepuncture. CSF catechol metabolites are lower (Walitt 2024), so central and peripheral signals may differ.",
+   "studies": [
+    {
+     "cite": "Hendrix 2025, Eur J Clin Invest",
+     "n": "37 studies; 543 vs 747",
+     "design": "meta-analysis",
+     "result": "Adrenaline SMD 0.49 (0.31 to 0.67); atypical exercise responses",
+     "url": "https://doi.org/10.1111/eci.14318",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "open_questions": [
+    "Is the rise driven by low blood volume (a compensatory response) or by a primary central change?",
+    "Does it track severity or PEM?"
+   ],
+   "hypotheses": [
+    "low-blood-volume-preload",
+    "autonomic-small-fibre"
+   ],
+   "test_available": "Plasma catecholamines, supine and standing; widely available but rarely done properly",
+   "added": "2026-11-08 literature sweep"
+  },
+  {
+   "id": "neuro-npy",
+   "subdomain": "Autonomic",
+   "grade": "early",
+   "finding": "Plasma neuropeptide Y, released with noradrenaline from sympathetic nerves, was higher in CFS and correlated with symptom severity in one cohort.",
+   "plain": "A marker of sympathetic nerve activity was raised in one study and went up with how ill people were.",
+   "detail": "Fletcher 2010 (93 CFS vs 100 controls; Gulf War illness as a comparison group): NPY elevated in CFS and correlated with symptom scores. Not replicated in a large cohort since.",
+   "studies": [
+    {
+     "cite": "Fletcher 2010, Behav Brain Funct",
+     "n": "93 vs 100",
+     "design": "case-control",
+     "result": "Plasma NPY raised; correlated with severity",
+     "url": "https://doi.org/10.1186/1744-9081-6-76",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "open_questions": [
+    "Does NPY rise after exertion or on standing?"
+   ],
+   "hypotheses": [
+    "autonomic-small-fibre"
+   ],
+   "test_available": "Research only",
+   "added": "2026-11-08 literature sweep"
+  },
+  {
+   "id": "neuro-31p-brain-energetics",
+   "subdomain": "MR spectroscopy",
+   "grade": "early",
+   "finding": "Whole-brain 31P spectroscopy found lower ATP/PCr ratios in the cingulate cortex in post-COVID condition, and the anterior cingulate value tracked cognitive scores.",
+   "plain": "A scan that reads the brain's energy molecules found lower energy reserves in a region involved in attention and effort, in people with long COVID.",
+   "detail": "Weber-Fahr 2026 (27 vs 23): reduced ATP/PCr in cingulate cortex; ACC ratio correlated with cognition. Small, single centre, long COVID unselected for PEM. Fits the ventricular lactate rise in ME/CFS MRS (neuro-mrs-lactate) as a sign of altered brain energy metabolism but needs replication in ME/CFS.",
+   "studies": [
+    {
+     "cite": "Weber-Fahr 2026, Biol Psychiatry",
+     "n": "27 vs 23",
+     "design": "case-control 31P-MRSI",
+     "result": "Lower cingulate ATP/PCr; ACC value correlated with cognition",
+     "url": "https://doi.org/10.1016/j.biopsych.2026.01.004",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "open_questions": [
+    "Is the change present in ME/CFS and does it worsen after exertion?"
+   ],
+   "hypotheses": [
+    "mitochondrial-energy"
+   ],
+   "test_available": "Research only",
+   "added": "2026-11-08 literature sweep"
+  },
+  {
+   "id": "neuro-ampa-pet",
+   "subdomain": "PET neuroinflammation",
+   "grade": "early",
+   "finding": "PET with an AMPA-receptor tracer showed widely increased AMPA receptor density in long COVID with cognitive symptoms, associated with inflammatory cytokines.",
+   "plain": "A brain scan for a type of excitatory receptor found more of them across the brain in long COVID with brain fog.",
+   "detail": "Fujimoto 2025 ([11C]K-2 PET; 30 long COVID vs 80 controls). Tracer is new and used by one group. Not studied in ME/CFS.",
+   "studies": [
+    {
+     "cite": "Fujimoto 2025, Brain Commun",
+     "n": "30 vs 80",
+     "design": "PET imaging",
+     "result": "Raised AMPA receptor density, cytokine associations",
+     "url": "https://doi.org/10.1093/braincomms/fcaf337",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "open_questions": [
+    "Is it specific, and is it seen in ME/CFS?"
+   ],
+   "hypotheses": [
+    "neuroinflammation"
+   ],
+   "test_available": "Research only",
+   "added": "2026-11-08 literature sweep"
   }
  ],
  "hypotheses_notes": [

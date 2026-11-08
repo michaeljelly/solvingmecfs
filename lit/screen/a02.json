@@ -1,0 +1,4152 @@
+[
+ {
+  "id": "PPR1159049",
+  "relevant": "related",
+  "population": "long COVID (brain fog)",
+  "design": "open-label",
+  "n": "9",
+  "finding": "Single-arm pilot of 45-90 h remote cognitive training in post-COVID brain fog targeting workplace self-efficacy.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [
+   "cognitive-rehab-tdcs"
+  ],
+  "importance": 1,
+  "note": "single arm, tiny"
+ },
+ {
+  "id": "41763093",
+  "relevant": "core",
+  "population": "long COVID with cognitive complaints",
+  "design": "case-control",
+  "n": "16 vs 12",
+  "finding": "TMS-EEG shows disrupted GABA-B mediated long-interval intracortical inhibition in prefrontal cortex in post-COVID patients, related to cognition (MoCA).",
+  "atlas": [],
+  "relation": "new",
+  "steps": [
+   2
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": "small"
+ },
+ {
+  "id": "PPR1268429",
+  "relevant": "related",
+  "population": "pediatric long COVID",
+  "design": "other",
+  "n": "retrospective multi-site",
+  "finding": "Retrospective review of LDN prescribing in children/young adults with long COVID: symptom prevalence, dosing, continuation, adverse effects.",
+  "atlas": [
+   "trials-ldn"
+  ],
+  "relation": "none",
+  "steps": [],
+  "treatments": [
+   "low-dose-naltrexone"
+  ],
+  "importance": 1,
+  "note": "retrospective, uncontrolled"
+ },
+ {
+  "id": "41752134",
+  "relevant": "core",
+  "population": "ME/CFS",
+  "design": "other",
+  "n": "mapMECFS + DecodeME",
+  "finding": "Integration of gene/protein expression repositories with DecodeME GWAS finds lower MT-RNR1 and MT-RNR2 expression in ME/CFS in two studies, supporting mitochondrial dysregulation.",
+  "atlas": [
+   "genetics-decodeme-loci",
+   "omics-transcriptome-sc"
+  ],
+  "relation": "extends",
+  "steps": [
+   5
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": "secondary data analysis"
+ },
+ {
+  "id": "41720282",
+  "relevant": "core",
+  "population": "long COVID POTS",
+  "design": "RCT",
+  "n": "design only",
+  "finding": "Design paper for RECOVER-AUTONOMIC platform trial: non-pharmacologic care, IVIG and ivabradine for long COVID POTS.",
+  "atlas": [
+   "trials-ivabradine",
+   "trials-ivig"
+  ],
+  "relation": "none",
+  "steps": [
+   2
+  ],
+  "treatments": [
+   "ivig",
+   "ivabradine"
+  ],
+  "importance": 2,
+  "note": "protocol, no results"
+ },
+ {
+  "id": "PPR1260613",
+  "relevant": "related",
+  "population": "ME/CFS",
+  "design": "survey",
+  "n": "721",
+  "finding": "Rasch-based development of a symptom index (TIMES) for ME/CFS from an 85-item survey.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": ""
+ },
+ {
+  "id": "41700030",
+  "relevant": "not",
+  "population": "fibromyalgia",
+  "design": "other",
+  "n": null,
+  "finding": null,
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "fibromyalgia AI scoping review"
+ },
+ {
+  "id": "41778126",
+  "relevant": "related",
+  "population": "long COVID (online survey)",
+  "design": "survey",
+  "n": "2549",
+  "finding": "Post-COVID fatigue-related symptoms are more frequent/severe in women in the DEFEAT online cohort (80.6% female).",
+  "atlas": [
+   "endocrine-female-preponderance"
+  ],
+  "relation": "replicates",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "self-selected online survey"
+ },
+ {
+  "id": "41668172",
+  "relevant": "related",
+  "population": "long COVID and ME/CFS",
+  "design": "other",
+  "n": "1 case + review",
+  "finding": "Case of post-COVID ME/CFS treated with electroacupuncture deep peroneal nerve stimulation plus systematic review of brain-gut axis treatments.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "case report"
+ },
+ {
+  "id": "41728261",
+  "relevant": "core",
+  "population": "long COVID",
+  "design": "case-control",
+  "n": "12 vs 12 CAD vs 12 young",
+  "finding": "fNIRS during cognitive load shows altered temporal variability of prefrontal cortical blood flow regulation in post-COVID syndrome.",
+  "atlas": [
+   "neuro-cbf-rest"
+  ],
+  "relation": "extends",
+  "steps": [
+   5
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": "very small"
+ },
+ {
+  "id": "41663609",
+  "relevant": "core",
+  "population": "long COVID",
+  "design": "case-control",
+  "n": "19 vs 16",
+  "finding": "7T fMRI during Stroop shows impaired intrinsic network connectivity in long COVID during cognitive exertion.",
+  "atlas": [
+   "neuro-resting-fc"
+  ],
+  "relation": "extends",
+  "steps": [
+   2
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": "exploratory, small"
+ },
+ {
+  "id": "41654906",
+  "relevant": "related",
+  "population": "CFS (Chinese health check-up)",
+  "design": "case-control",
+  "n": "956 vs 865",
+  "finding": "Fatigue, poor sleep quality and GI symptoms are associated with CFS in a Shanghai check-up population.",
+  "atlas": [
+   "gut-ibs-overlap"
+  ],
+  "relation": "extends",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "criteria unclear; cross-sectional"
+ },
+ {
+  "id": "41727403",
+  "relevant": "core",
+  "population": "long COVID with cognitive complaints",
+  "design": "cross-sectional",
+  "n": "41",
+  "finding": "Cognitive symptom severity in PACS relates to psychiatric symptoms and neuropsychological performance more than inflammatory cytokines in regression models.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "single clinic"
+ },
+ {
+  "id": "41646510",
+  "relevant": "related",
+  "population": "long COVID",
+  "design": "meta-analysis",
+  "n": "systematic review",
+  "finding": "Systematic review of clinical and laboratory characteristics of dyspnea and chronic fatigue in long COVID; heterogeneous methods.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": ""
+ },
+ {
+  "id": "41622853",
+  "relevant": "related",
+  "population": "post-COVID",
+  "design": "meta-analysis",
+  "n": "18 RCTs, N=1171",
+  "finding": "Systematic review of exercise training modalities (aerobic, HIIT, combined) in post-COVID individuals.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [
+   "long-covid-rehab"
+  ],
+  "importance": 1,
+  "note": "not PEM-selected"
+ },
+ {
+  "id": "41705124",
+  "relevant": "core",
+  "population": "severe ME/CFS",
+  "design": "other",
+  "n": "hypothesis",
+  "finding": "Hypothesis that low Na+/K+-ATPase activity and sodium/calcium overload explain myasthenia and fasciculations in severe ME/CFS.",
+  "atlas": [
+   "muscle-exertion-muscle-sodium"
+  ],
+  "relation": "extends",
+  "steps": [
+   5
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": "hypothesis paper"
+ },
+ {
+  "id": "41674460",
+  "relevant": "related",
+  "population": "long COVID",
+  "design": "meta-analysis",
+  "n": "scoping review",
+  "finding": "Scoping review of cognitive-communication, voice and swallowing difficulties in long COVID.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": ""
+ },
+ {
+  "id": "41735067",
+  "relevant": "core",
+  "population": "CFS rat model",
+  "design": "animal",
+  "n": "40 rats",
+  "finding": "Warming needle moxibustion modulates AMPK/ULK1 mitophagy pathway in stress-induced CFS rats.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "rat stress model of doubtful validity"
+ },
+ {
+  "id": "41557875",
+  "relevant": "related",
+  "population": "persistent pain / BDS",
+  "design": "cohort",
+  "n": "3762",
+  "finding": "Prevalence and prognostic value of Bodily Distress Syndrome in tertiary pain clinic patients.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "not ME/CFS specific"
+ },
+ {
+  "id": "41620575",
+  "relevant": "related",
+  "population": "long COVID, CDC 2015 ME/CFS criteria",
+  "design": "cross-sectional",
+  "n": "277",
+  "finding": "In a long COVID clinic, 73.5% presented with fatigue; fatigue complaint subdivided by CDC 2015 ME/CFS criteria.",
+  "atlas": [
+   "infection-post-covid-mecfs-incidence"
+  ],
+  "relation": "replicates",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "clinic cohort"
+ },
+ {
+  "id": "PPR1205373",
+  "relevant": "core",
+  "population": "pregnant women post-COVID",
+  "design": "cohort",
+  "n": "117 (61 vs 56)",
+  "finding": "Cytokine profiles over 6 months in relation to post-COVID fatigue in pregnant women.",
+  "atlas": [],
+  "relation": "extends",
+  "steps": [
+   1
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": ""
+ },
+ {
+  "id": "41601198",
+  "relevant": "core",
+  "population": "long COVID, ME/CFS symptoms",
+  "design": "cross-sectional",
+  "n": "16",
+  "finding": "Wearable HR and activity associations in long COVID accounting for ME/CFS symptoms; tachycardia with mild activity.",
+  "atlas": [
+   "neuro-hrv"
+  ],
+  "relation": "extends",
+  "steps": [
+   8
+  ],
+  "treatments": [
+   "pacing-heart-rate"
+  ],
+  "importance": 1,
+  "note": "very small"
+ },
+ {
+  "id": "41750136",
+  "relevant": "core",
+  "population": "long COVID (veterans)",
+  "design": "cross-sectional",
+  "n": "162",
+  "finding": "Dry-eye/ocular symptoms associate with dysautonomia (COMPASS-31, NASA lean, HRV) in long COVID.",
+  "atlas": [
+   "neuro-lc-autonomic-objective"
+  ],
+  "relation": "extends",
+  "steps": [
+   2
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": ""
+ },
+ {
+  "id": "41611066",
+  "relevant": "core",
+  "population": "CFS after humidifier-disinfectant exposure",
+  "design": "case-control",
+  "n": "patients + mice",
+  "finding": "PBMC mitochondrial morphology/function abnormal in CFS patients with HD exposure; PHMG-p in mice causes fatigue behaviour and neural changes.",
+  "atlas": [
+   "muscle-exertion-immune-cell-mito"
+  ],
+  "relation": "extends",
+  "steps": [
+   6
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": "toxic-exposure subgroup"
+ },
+ {
+  "id": "41588020",
+  "relevant": "core",
+  "population": "long COVID",
+  "design": "open-label",
+  "n": "14",
+  "finding": "Serum EV long RNA profile in long COVID and its change after 10-week exercise training; virus-related transcripts assessed.",
+  "atlas": [
+   "omics-ev",
+   "infection-sarscov2-tissue-gut"
+  ],
+  "relation": "extends",
+  "steps": [
+   1
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": "pilot, no controls"
+ },
+ {
+  "id": "PPR1256491",
+  "relevant": "core",
+  "population": "post-COVID and ME/CFS",
+  "design": "case-control",
+  "n": "102 PCS vs 204 HC; ME/CFS 62",
+  "finding": "Retinal vessel analysis shows microvascular remodeling/endothelial dysfunction in post-COVID and ME/CFS versus matched controls.",
+  "atlas": [
+   "vascular-retinal-microvasculature"
+  ],
+  "relation": "replicates",
+  "steps": [
+   4
+  ],
+  "treatments": [],
+  "importance": 2,
+  "note": "larger than prior retinal studies"
+ },
+ {
+  "id": "41598786",
+  "relevant": "related",
+  "population": "ME/CFS vs depression",
+  "design": "survey",
+  "n": "576 vs 243",
+  "finding": "Survey of use and perceived helpfulness of 52 interventions in ME/CFS versus depression.",
+  "atlas": [
+   "trials-patient-surveys"
+  ],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": ""
+ },
+ {
+  "id": "PPR1145470",
+  "relevant": "related",
+  "population": "long COVID",
+  "design": "other",
+  "n": null,
+  "finding": "Deep-learning classification of long-COVID cognitive impairment from MRI/fMRI.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "AI methods paper"
+ },
+ {
+  "id": "41595360",
+  "relevant": "not",
+  "population": "nurses",
+  "design": "survey",
+  "n": "115",
+  "finding": null,
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "compassion fatigue in nurses"
+ },
+ {
+  "id": "41546021",
+  "relevant": "related",
+  "population": "general population symptom dimensions",
+  "design": "cross-sectional",
+  "n": "108418",
+  "finding": "Symptom-level factor analysis of internalizing and functional disorders including ME/CFS symptoms in Lifelines cohort.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": ""
+ },
+ {
+  "id": "PPR1144218",
+  "relevant": "related",
+  "population": "ME/CFS (MR haplotype)",
+  "design": "in vitro",
+  "n": "cell assay",
+  "finding": "Transactivation of human MR rs5522 (Val-180) versus wild-type by corticosteroids in HEK293 cells.",
+  "atlas": [
+   "endocrine-hpa-feedback"
+  ],
+  "relation": "none",
+  "steps": [
+   2
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": "basic pharmacology; unclear link to ME/CFS"
+ },
+ {
+  "id": "41536211",
+  "relevant": "core",
+  "population": "long COVID fatigue and MS",
+  "design": "case-control",
+  "n": "36 HC, 33 LC fatigue, 50 MS",
+  "finding": "Lower frontal EEG aperiodic exponent (E/I balance) associates with cognitive fatigue in long COVID and MS, classifying fatigue status beyond age and depression.",
+  "atlas": [
+   "neuro-eeg"
+  ],
+  "relation": "extends",
+  "steps": [
+   2,
+   7
+  ],
+  "treatments": [],
+  "importance": 2,
+  "note": "not ME/CFS criteria"
+ },
+ {
+  "id": "41535956",
+  "relevant": "core",
+  "population": "long COVID",
+  "design": "cross-sectional",
+  "n": "161",
+  "finding": "NLRP3 inflammasome components, caspase-1, IL-18, IL-1b, CRP higher in long COVID after severe vs mild acute COVID and correlate with affective/fatigue symptoms.",
+  "atlas": [
+   "immune-longcovid-overlap"
+  ],
+  "relation": "extends",
+  "steps": [
+   1,
+   7
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": "single group, acute severity split; no controls"
+ },
+ {
+  "id": "41525818",
+  "relevant": "core",
+  "population": "post-COVID condition (neuropsychiatric)",
+  "design": "case-control",
+  "n": "27 vs 23",
+  "finding": "Whole-brain 31P-MRSI shows reduced ATP/PCr ratios in cingulate cortex in post-COVID condition; ACC value correlates with cognition.",
+  "atlas": [
+   "neuro-mrs-lactate",
+   "muscle-exertion-31p-mrs-ph"
+  ],
+  "relation": "new",
+  "steps": [
+   5,
+   7
+  ],
+  "treatments": [],
+  "importance": 2,
+  "note": "small; brain bioenergetics"
+ },
+ {
+  "id": "41505379",
+  "relevant": "related",
+  "population": "long COVID rehab",
+  "design": "cohort",
+  "n": "1028",
+  "finding": "71.4% had depressive core symptoms at rehab start; depression improved with multimodal rehabilitation but fatigue did not.",
+  "atlas": [
+   "trials-post-covid-course"
+  ],
+  "relation": "extends",
+  "steps": [],
+  "treatments": [
+   "long-covid-rehab"
+  ],
+  "importance": 1,
+  "note": "no controls"
+ },
+ {
+  "id": "41504224",
+  "relevant": "core",
+  "population": "ME/CFS",
+  "design": "meta-analysis",
+  "n": "systematic review",
+  "finding": "Meta-analysis of working memory (verbal/visual components) in ME/CFS.",
+  "atlas": [
+   "neuro-cognition"
+  ],
+  "relation": "replicates",
+  "steps": [
+   2
+  ],
+  "treatments": [],
+  "importance": 2,
+  "note": ""
+ },
+ {
+  "id": "41508032",
+  "relevant": "core",
+  "population": "ME/CFS lymphoblastoid cell lines",
+  "design": "case-control",
+  "n": "15 vs 17 (female)",
+  "finding": "Lipidomics of ME/CFS LCLs: elevated triglycerides, diacylglycerols and fatty acids, reduced PC(O-38:4); polar metabolome no individual feature altered.",
+  "atlas": [
+   "omics-lipids-plasmalogens"
+  ],
+  "relation": "extends",
+  "steps": [
+   6
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": "cell lines, small"
+ },
+ {
+  "id": "41513000",
+  "relevant": "not",
+  "population": "computational model",
+  "design": null,
+  "n": null,
+  "finding": null,
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "homeostatic RL model"
+ },
+ {
+  "id": "41496460",
+  "relevant": "related",
+  "population": "post-COVID, PVFS, exhaustion disorder",
+  "design": "cohort",
+  "n": "208050 women",
+  "finding": "Pre-pandemic symptom-based primary care visits predicted later PCC, PVFS and exhaustion disorder diagnoses in Swedish women.",
+  "atlas": [
+   "infection-viral-vs-bacterial-registry"
+  ],
+  "relation": "extends",
+  "steps": [],
+  "treatments": [],
+  "importance": 2,
+  "note": "registry, diagnosis-based"
+ },
+ {
+  "id": "41494551",
+  "relevant": "related",
+  "population": "long COVID (NASEM)",
+  "design": "case-control",
+  "n": "120 vs 51",
+  "finding": "Loneliness subtypes relate differentially to cognition in long COVID vs recovered controls.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": ""
+ },
+ {
+  "id": "41483427",
+  "relevant": "related",
+  "population": "long COVID",
+  "design": "cohort",
+  "n": "107 vs 374",
+  "finding": "Brain fog in long COVID is linked to psychosocial factors and affects reliability of self-reported measures.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "self-report"
+ },
+ {
+  "id": "PPR1236320",
+  "relevant": "core",
+  "population": "post-COVID fatigue",
+  "design": "RCT",
+  "n": "114 (24 per-protocol analysis)",
+  "finding": "16-week home taVNS: VAS fatigue improved 11.9 points after 8 weeks of active but not sham or placebo in adherent participants (p=0.003, N=24).",
+  "atlas": [
+   "trials-ssri"
+  ],
+  "relation": "new",
+  "steps": [
+   8
+  ],
+  "treatments": [
+   "tvns"
+  ],
+  "importance": 2,
+  "note": "per-protocol subgroup of 114; preprint"
+ },
+ {
+  "id": "42847395",
+  "relevant": "related",
+  "population": "long COVID",
+  "design": "meta-analysis",
+  "n": "systematic review",
+  "finding": "Meta-analysis of exercise effects on fatigue in long COVID.",
+  "atlas": [
+   "muscle-exertion-deconditioning"
+  ],
+  "relation": "none",
+  "steps": [],
+  "treatments": [
+   "long-covid-rehab",
+   "graded-exercise"
+  ],
+  "importance": 1,
+  "note": "not PEM-stratified"
+ },
+ {
+  "id": "40971661",
+  "relevant": "related",
+  "population": "post-COVID condition",
+  "design": "case-control",
+  "n": "236 vs 148",
+  "finding": "Multivariate analysis of cognitive performance determinants in PCC; fatigue and depression comorbidities considered.",
+  "atlas": [
+   "neuro-cognition"
+  ],
+  "relation": "extends",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": ""
+ },
+ {
+  "id": "42301723",
+  "relevant": "related",
+  "population": "post-COVID breathlessness",
+  "design": "RCT",
+  "n": "feasibility",
+  "finding": "Feasibility RCT of online yogic breathing for dysregulated breathing after COVID.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "feasibility"
+ },
+ {
+  "id": "41476195",
+  "relevant": "related",
+  "population": "long COVID in T2D",
+  "design": "cohort",
+  "n": "TriNetX propensity-matched",
+  "finding": "SGLT2 inhibitor use associated with lower risk of long COVID cognitive and pain symptoms in type 2 diabetes.",
+  "atlas": [],
+  "relation": "new",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "retrospective EHR"
+ },
+ {
+  "id": "41474983",
+  "relevant": "core",
+  "population": "long COVID",
+  "design": "cohort",
+  "n": "Fitbit longitudinal",
+  "finding": "Fitbit physical activity and physiology patterns with PROs identify subgroups in long COVID.",
+  "atlas": [
+   "muscle-exertion-pem-timing"
+  ],
+  "relation": "extends",
+  "steps": [
+   8
+  ],
+  "treatments": [
+   "pacing-heart-rate"
+  ],
+  "importance": 1,
+  "note": "small clinic cohort"
+ },
+ {
+  "id": "PPR1229589",
+  "relevant": "core",
+  "population": "long COVID, POTS, LC-POTS",
+  "design": "case-control",
+  "n": "groups vs HC",
+  "finding": "Fibrinaloid microclot counts not significantly higher in disease groups; proteomic PTM patterns in microclots differ between POTS, long COVID and LC-POTS.",
+  "atlas": [
+   "vascular-microclots"
+  ],
+  "relation": "extends",
+  "steps": [
+   4
+  ],
+  "treatments": [
+   "microclot-therapy"
+  ],
+  "importance": 1,
+  "note": "Pretorius group; small"
+ },
+ {
+  "id": "41469536",
+  "relevant": "core",
+  "population": "ME/CFS",
+  "design": "case-control",
+  "n": "59 vs 59",
+  "finding": "Gut fungal community differs in ME/CFS with age-specific patterns (reduced richness in young and middle-aged, increased in elderly); classifiers built.",
+  "atlas": [
+   "gut-machine-learning-classifiers",
+   "gut-duration-dependence"
+  ],
+  "relation": "extends",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "Chinese cohort, single centre"
+ },
+ {
+  "id": "PPR1138178",
+  "relevant": "related",
+  "population": "long COVID fatigue",
+  "design": "survey",
+  "n": "online",
+  "finding": "Autonomic symptoms, interoception, illness perceptions and distress relate to fatigue in long COVID in an integrative model.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": ""
+ },
+ {
+  "id": "41449404",
+  "relevant": "core",
+  "population": "CFS (TCM syndromes)",
+  "design": "case-control",
+  "n": "10+10 vs HC",
+  "finding": "Histone phosphorylation differences in PBMCs between two TCM syndrome types of CFS and healthy controls.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "tiny, TCM"
+ },
+ {
+  "id": "41444612",
+  "relevant": "core",
+  "population": "ME/CFS families",
+  "design": "genetic",
+  "n": "31 affected from 25 families",
+  "finding": "Whole-genome sequencing found pathogenic/likely pathogenic variants in 8 of 25 probands (32%), heterogenous pathways including energy metabolism and ion homeostasis.",
+  "atlas": [
+   "genetics-rare-variants-heal2",
+   "genetics-familial-heritability"
+  ],
+  "relation": "extends",
+  "steps": [
+   5
+  ],
+  "treatments": [],
+  "importance": 2,
+  "note": "small, family-based"
+ },
+ {
+  "id": "41466718",
+  "relevant": "related",
+  "population": "post-vaccination syndrome",
+  "design": "other",
+  "n": null,
+  "finding": "Critique of vaccine pharmacovigilance for complex chronic adverse events resembling ME/CFS/POTS.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "opinion"
+ },
+ {
+  "id": "41432873",
+  "relevant": "related",
+  "population": "post-COVID syndrome",
+  "design": "cross-sectional",
+  "n": "535",
+  "finding": "SEM links fatigue, cognition, role functioning and mental health in QAPC cohort.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": ""
+ },
+ {
+  "id": "41435903",
+  "relevant": "related",
+  "population": "paediatric ME/CFS",
+  "design": "other",
+  "n": "24 CYP",
+  "finding": "Evaluation of online patient education program for young people with ME/CFS and parents.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": ""
+ },
+ {
+  "id": "41437251",
+  "relevant": "core",
+  "population": "CFS",
+  "design": "case-control",
+  "n": "112 vs 61",
+  "finding": "AI classifier on beat-to-beat Task Force Monitor data (HR, HF-RRI, BP, SV) distinguishes CFS from healthy controls.",
+  "atlas": [
+   "neuro-hrv",
+   "vascular-small-heart-stroke-volume"
+  ],
+  "relation": "replicates",
+  "steps": [
+   2,
+   3
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": "criteria not stated in abstract; single centre"
+ },
+ {
+  "id": "41483737",
+  "relevant": "related",
+  "population": "POTS pre/post COVID",
+  "design": "cross-sectional",
+  "n": "599 patients, 153 physicians",
+  "finding": "Chart audit comparing POTS triggered by COVID-19 (238) and not (361).",
+  "atlas": [
+   "vascular-pots-overlap"
+  ],
+  "relation": "none",
+  "steps": [
+   2
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": ""
+ },
+ {
+  "id": "PPR1270559",
+  "relevant": "related",
+  "population": "post-COVID syndrome",
+  "design": "cohort",
+  "n": "545",
+  "finding": "Group-based trajectory analysis of fatigue over 15 months in Quebec QAPC cohort.",
+  "atlas": [
+   "trials-post-covid-course"
+  ],
+  "relation": "extends",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "self-identified"
+ },
+ {
+  "id": "41424278",
+  "relevant": "related",
+  "population": "older adults post-COVID",
+  "design": "cohort",
+  "n": "NHATS",
+  "finding": "Moderate-to-severe COVID symptoms and cardiovascular comorbidities associated with poorer executive function in older adults.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": ""
+ },
+ {
+  "id": "PPR1136731",
+  "relevant": "related",
+  "population": "ME/CFS",
+  "design": "cross-sectional",
+  "n": "748",
+  "finding": "Empirical validation of hypothesis-driven ME/CFS symptom clusters in APAV-ME/CFS survey.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "self-recruited"
+ },
+ {
+  "id": "PPR1270473",
+  "relevant": "core",
+  "population": "post-COVID fatigue",
+  "design": "cohort",
+  "n": "145",
+  "finding": "Persistent post-COVID fatigue >200 days associates with greater fatigue, increased cortical excitability, slower reaction times and more peripheral muscle fatigue than <200 days.",
+  "atlas": [
+   "neuro-motor-fatigability",
+   "muscle-exertion-grip-fatigability"
+  ],
+  "relation": "extends",
+  "steps": [
+   2,
+   5
+  ],
+  "treatments": [],
+  "importance": 2,
+  "note": "cross-sectional duration comparison, no healthy control in abstract"
+ },
+ {
+  "id": "41514842",
+  "relevant": "core",
+  "population": "long COVID with orthostatic intolerance",
+  "design": "case-control",
+  "n": "31 LC vs 15 infected vs 14 uninfected",
+  "finding": "Long COVID with orthostatic intolerance had reduced resting HRV but preserved physiological response to active standing.",
+  "atlas": [
+   "neuro-hrv",
+   "neuro-lc-autonomic-objective"
+  ],
+  "relation": "replicates",
+  "steps": [
+   2
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": "small"
+ },
+ {
+  "id": "41598986",
+  "relevant": "core",
+  "population": "chronic fatigue with neurological symptoms",
+  "design": "cross-sectional",
+  "n": "50",
+  "finding": "PCR of blood/enrichment cultures found Babesia in 24% and Bartonella in 26% of fatigued patients with neurological symptoms.",
+  "atlas": [],
+  "relation": "new",
+  "steps": [
+   1
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": "no controls, selected by symptoms not formal ME/CFS criteria"
+ },
+ {
+  "id": "41598987",
+  "relevant": "core",
+  "population": "post-Q fever polymorphic/dysautonomia/ME/CFS",
+  "design": "case-control",
+  "n": "100 vs 56",
+  "finding": "Seropositive acute Coxiella patients had more autonomic dysfunction (abnormal CART, reduced LF power and baroreflex effectiveness, high HUTT positivity).",
+  "atlas": [
+   "infection-q-fever-qfs",
+   "neuro-hrv"
+  ],
+  "relation": "extends",
+  "steps": [
+   1,
+   2
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": "selected symptomatic patients"
+ },
+ {
+  "id": "41488929",
+  "relevant": "related",
+  "population": "post-COVID",
+  "design": "meta-analysis",
+  "n": "33 RCTs, 2895",
+  "finding": "Network meta-analysis of exercise therapies in post-COVID syndrome.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [
+   "long-covid-rehab"
+  ],
+  "importance": 1,
+  "note": "not PEM-stratified"
+ },
+ {
+  "id": "41441042",
+  "relevant": "core",
+  "population": "PASC vs ME/CFS (public data)",
+  "design": "other",
+  "n": "ML on metabolite descriptors",
+  "finding": "Metabolomics-based ML model recognises PASC-dysregulated metabolites (AUC-ROC 0.899) and differentiates PASC from ME/CFS.",
+  "atlas": [
+   "omics-ml-classifiers"
+  ],
+  "relation": "extends",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "computational, no new cohort"
+ },
+ {
+  "id": "41407484",
+  "relevant": "related",
+  "population": "long COVID and chemo brain",
+  "design": "meta-analysis",
+  "n": "systematic review",
+  "finding": "Meta-analysis of cognitive, functional and affective features of brain fog in long COVID and post-chemotherapy.",
+  "atlas": [
+   "neuro-cognition"
+  ],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": ""
+ },
+ {
+  "id": "41465566",
+  "relevant": "core",
+  "population": "long COVID with insomnia/depression",
+  "design": "case-control",
+  "n": "76 vs 22",
+  "finding": "MPF MRI myelination and serum biomarkers (BDNF, anti-S100, anti-MBP/PLP) in long COVID with insomnia and/or depression versus controls.",
+  "atlas": [
+   "neuro-white-matter-diffusion"
+  ],
+  "relation": "extends",
+  "steps": [
+   2
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": "small subgroups"
+ },
+ {
+  "id": "41522932",
+  "relevant": "related",
+  "population": "post-COVID cognitive complaints",
+  "design": "case-control",
+  "n": "120 vs 60",
+  "finding": "Neuropsychological testing (MoCA, TMT, digit span) shows cognitive impairment in post-COVID patients versus controls.",
+  "atlas": [
+   "neuro-cognition"
+  ],
+  "relation": "replicates",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": ""
+ },
+ {
+  "id": "PPR1134269",
+  "relevant": "core",
+  "population": "long COVID with PEM",
+  "design": "case-control",
+  "n": "50 vs 45",
+  "finding": "CPET indirect calorimetry in long COVID: similar peak VO2, HR and anaerobic threshold as controls, but inefficient energy consumption patterns related to PEM.",
+  "atlas": [
+   "muscle-exertion-lc-peak-vo2",
+   "lc-fat-oxidation-lactate"
+  ],
+  "relation": "extends",
+  "steps": [
+   5,
+   6
+  ],
+  "treatments": [],
+  "importance": 2,
+  "note": "consecutive referrals, controls are also CPET referrals"
+ },
+ {
+  "id": "PPR1133888",
+  "relevant": "related",
+  "population": "ME/CFS",
+  "design": "other",
+  "n": null,
+  "finding": "Hypothesis paper linking ME/CFS with hypermobility, fascia, lymphatic/glymphatic impairment and craniocervical instability.",
+  "atlas": [
+   "neuro-cci",
+   "genetics-hypermobility-overlap"
+  ],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "hypothesis"
+ },
+ {
+  "id": "41392249",
+  "relevant": "related",
+  "population": "mild post-COVID",
+  "design": "cross-sectional",
+  "n": "6MST + HRV",
+  "finding": "Resting short-term HRV predicts VO2 during the six-minute step test in individuals recovering from mild COVID.",
+  "atlas": [
+   "neuro-hrv"
+  ],
+  "relation": "extends",
+  "steps": [
+   2
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": "mild, recovering"
+ },
+ {
+  "id": "41426345",
+  "relevant": "related",
+  "population": "long COVID with ME/CFS",
+  "design": "other",
+  "n": "case report",
+  "finding": "Case-based commentary on long COVID with autonomic dysfunction and ME/CFS.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": ""
+ },
+ {
+  "id": "32491608",
+  "relevant": "related",
+  "population": "ME/CFS",
+  "design": "other",
+  "n": "review",
+  "finding": "General review (StatPearls-style) of chronic fatigue syndrome.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": ""
+ },
+ {
+  "id": "41387992",
+  "relevant": "core",
+  "population": "CFS",
+  "design": "case-control",
+  "n": "40 vs 40",
+  "finding": "CFS had lower gut alpha-diversity and lower fecal acetate, butyrate, isobutyrate and isovalerate with reduced Firmicutes, Ruminococcaceae and Clostridiales.",
+  "atlas": [
+   "gut-butyrate-producer-loss"
+  ],
+  "relation": "replicates",
+  "steps": [],
+  "treatments": [],
+  "importance": 2,
+  "note": "Chinese cohort, 16S"
+ },
+ {
+  "id": "41464688",
+  "relevant": "related",
+  "population": "long COVID women",
+  "design": "open-label",
+  "n": "17",
+  "finding": "12-week non-aerobic motor-control exercise in women with long COVID: pre-post changes in fatigue and body composition.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [
+   "long-covid-rehab"
+  ],
+  "importance": 1,
+  "note": "uncontrolled"
+ },
+ {
+  "id": "41464314",
+  "relevant": "related",
+  "population": "healthcare workers",
+  "design": "cross-sectional",
+  "n": "Tunisia",
+  "finding": "Prevalence of chronic fatigue and CFS/ME in hospital workers and associated factors.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": ""
+ },
+ {
+  "id": "41389552",
+  "relevant": "related",
+  "population": "US sexual minorities",
+  "design": "survey",
+  "n": "86440 (1489 CFS)",
+  "finding": "CFS prevalence higher in LGB+ adults (2.4% vs 1.7%) in NHIS 2021-2023.",
+  "atlas": [
+   "trials-prevalence-sex"
+  ],
+  "relation": "extends",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "self-reported diagnosis"
+ },
+ {
+  "id": "41369621",
+  "relevant": "core",
+  "population": "long COVID",
+  "design": "case-control",
+  "n": "long COVID vs controls vs PAF",
+  "finding": "Quantitative autonomic testing compares long COVID, controls, and pure autonomic failure.",
+  "atlas": [
+   "neuro-lc-autonomic-objective"
+  ],
+  "relation": "replicates",
+  "steps": [
+   2
+  ],
+  "treatments": [],
+  "importance": 2,
+  "note": "referred patients"
+ },
+ {
+  "id": "41381341",
+  "relevant": "related",
+  "population": "post-COVID hospitalised",
+  "design": "cross-sectional",
+  "n": "35",
+  "finding": "Voice, swallowing, fatigue and mood after hospital discharge for COVID.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": ""
+ },
+ {
+  "id": "PPR1131314",
+  "relevant": "related",
+  "population": "ME/CFS",
+  "design": "other",
+  "n": null,
+  "finding": "Proposes persistent burnout theory of ME/CFS based on chronic stress, ANS and HPA dysfunction.",
+  "atlas": [
+   "endocrine-hpa-low-cortisol"
+  ],
+  "relation": "none",
+  "steps": [
+   2,
+   8
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": "theory"
+ },
+ {
+  "id": "41360268",
+  "relevant": "core",
+  "population": "CFS",
+  "design": "imaging",
+  "n": "100 vs 100",
+  "finding": "Diffusion MRI shows reduced FA in left cingulum bundle segments in CFS; FA of two tracts classifies CFS at 85% accuracy.",
+  "atlas": [
+   "neuro-white-matter-diffusion"
+  ],
+  "relation": "replicates",
+  "steps": [
+   2
+  ],
+  "treatments": [],
+  "importance": 2,
+  "note": "Chinese cohort; criteria not stated"
+ },
+ {
+  "id": "41347569",
+  "relevant": "related",
+  "population": "CFS receiving CBT",
+  "design": "qualitative",
+  "n": "19",
+  "finding": "Thematic analysis of how people with CFS view recovery before, during and after CBT.",
+  "atlas": [
+   "trials-pace-get-cbt"
+  ],
+  "relation": "none",
+  "steps": [],
+  "treatments": [
+   "cbt-supportive"
+  ],
+  "importance": 1,
+  "note": ""
+ },
+ {
+  "id": "41342517",
+  "relevant": "not",
+  "population": "children emotional distress",
+  "design": "open-label",
+  "n": "36",
+  "finding": null,
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "post-pandemic distress, not long COVID"
+ },
+ {
+  "id": "41415232",
+  "relevant": "related",
+  "population": "post-COVID day clinic",
+  "design": "qualitative",
+  "n": "interviews",
+  "finding": "Qualitative interviews on 11-week integrative multimodal day clinic for post-COVID.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [
+   "long-covid-rehab"
+  ],
+  "importance": 1,
+  "note": ""
+ },
+ {
+  "id": "41338651",
+  "relevant": "related",
+  "population": "long COVID",
+  "design": "other",
+  "n": "52 experts",
+  "finding": "Delphi consensus for minimum dataset of Canadian long COVID registry.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": ""
+ },
+ {
+  "id": "41358013",
+  "relevant": "related",
+  "population": "long COVID",
+  "design": "cohort",
+  "n": "clinic",
+  "finding": "Safety and physical outcomes of exercise and pacing in a multidisciplinary long COVID clinic.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [
+   "long-covid-rehab",
+   "pacing-heart-rate"
+  ],
+  "importance": 1,
+  "note": "observational"
+ },
+ {
+  "id": "41357843",
+  "relevant": "related",
+  "population": "post-sarcoidosis fatigue",
+  "design": "case-control",
+  "n": "71",
+  "finding": "Elevated hsCRP and IL-6 associate with fatigue and depression in sarcoidosis remission.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [
+   1
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": "sarcoidosis, not ME/CFS"
+ },
+ {
+  "id": "PPR1126593",
+  "relevant": "related",
+  "population": "post-COVID condition",
+  "design": "cross-sectional",
+  "n": "PRIME cohort",
+  "finding": "Perceived stress and associated factors in adults with PCC vs non-PCC.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": ""
+ },
+ {
+  "id": "41472222",
+  "relevant": "related",
+  "population": "long COVID clinic",
+  "design": "cross-sectional",
+  "n": "41",
+  "finding": "85% had fatigue (FAS>=22), half severe; relation to depression and MoCA cognition.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "small"
+ },
+ {
+  "id": "41298414",
+  "relevant": "core",
+  "population": "long COVID with cognitive impairment (mild COVID)",
+  "design": "case-control",
+  "n": "Cog-PASC vs Other-PASC vs non-PASC, exploration+validation",
+  "finding": "Cognitive PASC showed elevated astroglial damage proteins in blood and MRI changes (cingulate/insular cortical thinning, susceptibility) about one year after mild COVID.",
+  "atlas": [
+   "neuro-injury-markers",
+   "neuro-lc-subcortical-structure"
+  ],
+  "relation": "extends",
+  "steps": [
+   2,
+   7
+  ],
+  "treatments": [],
+  "importance": 2,
+  "note": "validated in independent cohort; contrasts with null injury markers in ME/CFS"
+ },
+ {
+  "id": "41288256",
+  "relevant": "core",
+  "population": "post-COVID fatigue after hospitalisation",
+  "design": "case-control",
+  "n": "57 vs 57",
+  "finding": "Reduced cortical thickness in parahippocampal and temporal regions after COVID hospitalisation, associated with fatigue and acute severity.",
+  "atlas": [
+   "neuro-lc-subcortical-structure",
+   "neuro-mri-structure"
+  ],
+  "relation": "extends",
+  "steps": [
+   2
+  ],
+  "treatments": [],
+  "importance": 2,
+  "note": "hospitalised cohort"
+ },
+ {
+  "id": "41286257",
+  "relevant": "core",
+  "population": "long COVID",
+  "design": "cross-sectional",
+  "n": "clinic cohort",
+  "finding": "Relationship of lung physiology (129Xe MRI gas exchange, DLCO) with cognitive dysfunction and brain MRI in long COVID.",
+  "atlas": [],
+  "relation": "new",
+  "steps": [
+   5
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": "small"
+ },
+ {
+  "id": "41285594",
+  "relevant": "not",
+  "population": "ME/CFS",
+  "design": "other",
+  "n": null,
+  "finding": null,
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "caregiver perspective essay"
+ },
+ {
+  "id": "41276264",
+  "relevant": "not",
+  "population": "HPV vaccination",
+  "design": "meta-analysis",
+  "n": null,
+  "finding": null,
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "HPV vaccine review; ME/CFS only as harm outcome"
+ },
+ {
+  "id": "41273049",
+  "relevant": "core",
+  "population": "PASC vs HC and ME/CFS",
+  "design": "case-control",
+  "n": "50 PASC vs 42 HC + 8 ME/CFS",
+  "finding": "Urinary peptidome signature of 195 peptides (collagen chains) separated PASC from controls (AUC 0.949 training, 0.962 validation).",
+  "atlas": [
+   "omics-collagen-metso",
+   "omics-ml-classifiers"
+  ],
+  "relation": "extends",
+  "steps": [
+   4
+  ],
+  "treatments": [],
+  "importance": 2,
+  "note": "only 8 ME/CFS controls"
+ },
+ {
+  "id": "41270060",
+  "relevant": "core",
+  "population": "post-COVID condition (WHO)",
+  "design": "case-control",
+  "n": "55 vs 36",
+  "finding": "ASL MRI shows right occipital hypoperfusion in PCC vs COVID-recovered controls, associated with fatigue.",
+  "atlas": [
+   "neuro-cbf-rest"
+  ],
+  "relation": "replicates",
+  "steps": [
+   5
+  ],
+  "treatments": [],
+  "importance": 2,
+  "note": ""
+ },
+ {
+  "id": "41269415",
+  "relevant": "core",
+  "population": "long COVID",
+  "design": "genetic",
+  "n": "APOE rs7412 rs429358",
+  "finding": "APOE genotypes tested for association with neurological/cognitive symptoms in long COVID.",
+  "atlas": [],
+  "relation": "new",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "small candidate-gene"
+ },
+ {
+  "id": "41356241",
+  "relevant": "related",
+  "population": "ME/CFS",
+  "design": "meta-analysis",
+  "n": "13 studies, 1305",
+  "finding": "Meta-analysis: exercise therapy reduces fatigue scores in ME/CFS (FS-14 MD -0.48); aerobic more than Qigong; safety needs evaluation.",
+  "atlas": [
+   "trials-pace-get-cbt",
+   "trials-nice-2021-harms"
+  ],
+  "relation": "none",
+  "steps": [],
+  "treatments": [
+   "graded-exercise"
+  ],
+  "importance": 1,
+  "note": "mixed criteria, mostly unblinded"
+ },
+ {
+  "id": "41467182",
+  "relevant": "related",
+  "population": "CFS",
+  "design": "meta-analysis",
+  "n": "20 RCTs, 2831",
+  "finding": "Network meta-analysis: GET superior to waitlist for fatigue (MD -6.93) short-term; low/moderate certainty.",
+  "atlas": [
+   "trials-pace-get-cbt",
+   "trials-nice-2021-harms"
+  ],
+  "relation": "none",
+  "steps": [],
+  "treatments": [
+   "graded-exercise"
+  ],
+  "importance": 1,
+  "note": "subjective outcomes, Oxford-era criteria dominate"
+ },
+ {
+  "id": "41258118",
+  "relevant": "related",
+  "population": "PASC and post-vaccination syndrome",
+  "design": "cross-sectional",
+  "n": "large clinic cohort",
+  "finding": "Neuropsychology, depression and fatigue in PASC versus post-vaccination syndrome.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": ""
+ },
+ {
+  "id": "41317667",
+  "relevant": "related",
+  "population": "post-COVID fatigue",
+  "design": "RCT",
+  "n": "114 (57 vs 57)",
+  "finding": "Secondary analysis: CBT-F effect on fatigue mediated by increased activity, self-efficacy and reduced anticipated adverse consequences.",
+  "atlas": [
+   "trials-pace-get-cbt"
+  ],
+  "relation": "none",
+  "steps": [],
+  "treatments": [
+   "cbt-supportive"
+  ],
+  "importance": 1,
+  "note": "subjective outcome, unblinded"
+ },
+ {
+  "id": "41254152",
+  "relevant": "related",
+  "population": "PCS vs HC vs post-viral",
+  "design": "case-control",
+  "n": "comprehensive neuropsych",
+  "finding": "Identifies a severe cognitive subgroup in post-COVID syndrome.",
+  "atlas": [
+   "neuro-cognition"
+  ],
+  "relation": "extends",
+  "steps": [
+   2
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": ""
+ },
+ {
+  "id": "41341466",
+  "relevant": "core",
+  "population": "post-COVID fatigue",
+  "design": "cohort",
+  "n": "68",
+  "finding": "Wearable HRV and activity-sleep metrics used to forecast next-day fatigue; feasibility of prediction models.",
+  "atlas": [],
+  "relation": "new",
+  "steps": [
+   8
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": "feasibility"
+ },
+ {
+  "id": "41249654",
+  "relevant": "related",
+  "population": "long COVID (NASEM)",
+  "design": "cross-sectional",
+  "n": "130 vs 60",
+  "finding": "Validation of RECOVER PASC score against NASEM definition in Baltimore clinics.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": ""
+ },
+ {
+  "id": "41303176",
+  "relevant": "related",
+  "population": "long COVID",
+  "design": "meta-analysis",
+  "n": "systematic review",
+  "finding": "Systematic review of active standing tests in long COVID.",
+  "atlas": [
+   "neuro-lc-autonomic-objective"
+  ],
+  "relation": "none",
+  "steps": [
+   2
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": ""
+ },
+ {
+  "id": "41383898",
+  "relevant": "core",
+  "population": "post-COVID mild",
+  "design": "case-control",
+  "n": "15 vs 16",
+  "finding": "Entorhinal cortical thickness in mild COVID survivors with cognitive impairment.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [
+   2
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": "tiny"
+ },
+ {
+  "id": "41239370",
+  "relevant": "related",
+  "population": "long COVID",
+  "design": "case-control",
+  "n": "Stockholm region",
+  "finding": "Depression, anxiety, fatigue and headache diagnoses before and after long COVID onset versus matched controls.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 2,
+  "note": "large registry; pre-existing burden"
+ },
+ {
+  "id": "41259430",
+  "relevant": "core",
+  "population": "highly active individuals post-COVID",
+  "design": "cohort",
+  "n": "pre-post CPET",
+  "finding": "Pre-post COVID CPET in highly active individuals assesses persistent cardiopulmonary changes.",
+  "atlas": [
+   "muscle-exertion-lc-peak-vo2"
+  ],
+  "relation": "extends",
+  "steps": [
+   5
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": "athletes"
+ },
+ {
+  "id": "PPR1119129",
+  "relevant": "related",
+  "population": "hospitalised COVID survivors",
+  "design": "cohort",
+  "n": "276",
+  "finding": "Symptom prevalence declined over 32 months (fatigue 32.4% to 14.5%); adherence to exercise higher in previously active.",
+  "atlas": [
+   "trials-post-covid-course"
+  ],
+  "relation": "extends",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "retrospective, hospitalised"
+ },
+ {
+  "id": "41225175",
+  "relevant": "related",
+  "population": "POTS (ME/CFS context)",
+  "design": "meta-analysis",
+  "n": "systematic review",
+  "finding": "Systematic review of POTS treatments, noting scarce evidence in ME/CFS.",
+  "atlas": [
+   "vascular-pots-overlap"
+  ],
+  "relation": "none",
+  "steps": [
+   2,
+   3
+  ],
+  "treatments": [
+   "midodrine",
+   "ivabradine",
+   "pyridostigmine",
+   "beta-blockers"
+  ],
+  "importance": 1,
+  "note": ""
+ },
+ {
+  "id": "PPR1116212",
+  "relevant": "related",
+  "population": "long COVID",
+  "design": "cohort",
+  "n": "2634",
+  "finding": "Pre-infection vaccination and long COVID mental fatigue severity in Johns Hopkins cohort.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": ""
+ },
+ {
+  "id": "41223774",
+  "relevant": "related",
+  "population": "severe ME/CFS",
+  "design": "qualitative",
+  "n": "342 tweets",
+  "finding": "Qualitative analysis of #severeME posts on marginalization.",
+  "atlas": [
+   "trials-severity"
+  ],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": ""
+ },
+ {
+  "id": "41300849",
+  "relevant": "core",
+  "population": "syncope, CFS, post-COVID CFS",
+  "design": "cross-sectional",
+  "n": "138",
+  "finding": "POTS prevalence 5-7% across groups; autonomic profiles differ between syncope and CFS (insidious or post-COVID) with POTS.",
+  "atlas": [
+   "neuro-pots-prevalence",
+   "vascular-pots-overlap"
+  ],
+  "relation": "extends",
+  "steps": [
+   2
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": "retrospective HUTT referrals"
+ },
+ {
+  "id": "PPR1115839",
+  "relevant": "core",
+  "population": "long COVID with fatigue",
+  "design": "case-control",
+  "n": "50 vs 152",
+  "finding": "Wearable monitoring finds small persistent multi-system deficits (activity, autonomic, sleep, cardiorespiratory) in fatigue-cluster long COVID without recovery over 12 months.",
+  "atlas": [
+   "trials-post-covid-course",
+   "neuro-hrv"
+  ],
+  "relation": "extends",
+  "steps": [
+   2,
+   8
+  ],
+  "treatments": [],
+  "importance": 2,
+  "note": "community cohort, 2-3 years post"
+ },
+ {
+  "id": "41202571",
+  "relevant": "related",
+  "population": "PASC neurology outpatients",
+  "design": "cohort",
+  "n": "44 of 93",
+  "finding": "Two-year follow-up of autonomic symptoms and quality of life in PASC.",
+  "atlas": [
+   "neuro-lc-autonomic-objective"
+  ],
+  "relation": "extends",
+  "steps": [
+   2
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": "phone questionnaires"
+ },
+ {
+  "id": "PPR1115249",
+  "relevant": "core",
+  "population": "post-hospital COVID cognitive impairment",
+  "design": "case-control",
+  "n": "cognitively impaired vs intact",
+  "finding": "Serum proteome and exosomes show dysregulated metabolism, coagulation and immune pathways in cognitive impairment after COVID.",
+  "atlas": [
+   "omics-proteome-liver-vascular",
+   "vascular-coagulation-markers"
+  ],
+  "relation": "extends",
+  "steps": [
+   4
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": "small"
+ },
+ {
+  "id": "PPR1114441",
+  "relevant": "related",
+  "population": "older adults post-COVID",
+  "design": "cross-sectional",
+  "n": "older adults",
+  "finding": "Sex-specific nutritional status and olfactory dysfunction as risks for cognitive decline in post-COVID older adults.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": ""
+ },
+ {
+  "id": "PPR1115064",
+  "relevant": "not",
+  "population": "relapsing-remitting MS",
+  "design": "cross-sectional",
+  "n": "205",
+  "finding": "Sensory integration, depression and fatigue in MS.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "MS fatigue, not ME/CFS"
+ },
+ {
+  "id": "40645608",
+  "relevant": "related",
+  "population": "long COVID cognitive complaints",
+  "design": "cross-sectional",
+  "n": "123",
+  "finding": "Latent profile analysis of cognition in long COVID at 24 months.",
+  "atlas": [
+   "neuro-cognition"
+  ],
+  "relation": "extends",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "RCT baseline data"
+ },
+ {
+  "id": "40485056",
+  "relevant": "related",
+  "population": "long COVID cognitive complaints (Brazil)",
+  "design": "cross-sectional",
+  "n": "114",
+  "finding": "Cognitive and emotional symptoms in long COVID with cognitive complaints in Rio de Janeiro.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": ""
+ },
+ {
+  "id": "41694707",
+  "relevant": "related",
+  "population": "COVID survivors 4 weeks",
+  "design": "case-control",
+  "n": "176 vs 92",
+  "finding": "Cognitive deficits and fatigue common 4 weeks after COVID versus healthy controls in North Africa.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "4 weeks is not long COVID"
+ },
+ {
+  "id": "41244870",
+  "relevant": "related",
+  "population": "CFS (non-Oxford)",
+  "design": "meta-analysis",
+  "n": "12 studies, 1799",
+  "finding": "CBT overall not significant (p=0.12) in CFS excluding Oxford cohorts; face-to-face CBT d=2.91 (implausibly large, wide CI).",
+  "atlas": [
+   "trials-pace-get-cbt"
+  ],
+  "relation": "extends",
+  "steps": [],
+  "treatments": [
+   "cbt-supportive"
+  ],
+  "importance": 1,
+  "note": "heterogeneous, wide CIs"
+ },
+ {
+  "id": "41237491",
+  "relevant": "related",
+  "population": "long COVID brain fog",
+  "design": "cohort",
+  "n": "793, followup 119",
+  "finding": "Predictors and chronicity of brain fog; ML classification of long COVID (73% accuracy) from online cognitive tasks.",
+  "atlas": [
+   "neuro-cognition"
+  ],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "online"
+ },
+ {
+  "id": "41226047",
+  "relevant": "core",
+  "population": "ME/CFS (public dataset)",
+  "design": "case-control",
+  "n": "106 vs 91",
+  "finding": "AutoML on public plasma metabolomics reaches AUC 92.1% for ME/CFS; features implicate mitochondrial energy, inflammation, bile acids.",
+  "atlas": [
+   "omics-ml-classifiers",
+   "omics-metabolome-small-effects"
+  ],
+  "relation": "replicates",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "reanalysis of public data, no external validation"
+ },
+ {
+  "id": "41173685",
+  "relevant": "related",
+  "population": "ME/CFS",
+  "design": "survey",
+  "n": "NHIS 2023",
+  "finding": "Chronic pain prevalence and characteristics in US adults with CFS/ME versus others with chronic pain.",
+  "atlas": [
+   "genetics-pain-overlap"
+  ],
+  "relation": "extends",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "self-reported diagnosis"
+ },
+ {
+  "id": "41305452",
+  "relevant": "core",
+  "population": "PCS, CFS post-COVID, CFS, Lyme",
+  "design": "cross-sectional",
+  "n": "1036",
+  "finding": "HUTT responses relate to antibody status (HSV-1, HHV-6, Coxiella, Toxoplasma, Borrelia IgM) across post-infectious syndromes.",
+  "atlas": [
+   "infection-ebv-serology-not-different"
+  ],
+  "relation": "new",
+  "steps": [
+   1,
+   2
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": "serology predictor associations, no healthy controls"
+ },
+ {
+  "id": "41151241",
+  "relevant": "core",
+  "population": "post-infective fatigue syndromes incl. long COVID",
+  "design": "meta-analysis",
+  "n": "30 studies, 833 cases; 11 studies 413 cases",
+  "finding": "Meta-analysis: PIFS had higher WBC at 3-6 months (d=0.41), RANTES (d=0.45) and TNF-alpha (d=0.30) at 6-12 months vs recovered controls.",
+  "atlas": [
+   "immune-cytokine-meta",
+   "immune-longcovid-overlap"
+  ],
+  "relation": "replicates",
+  "steps": [
+   1,
+   7
+  ],
+  "treatments": [],
+  "importance": 3,
+  "note": "small effects; needs replication"
+ },
+ {
+  "id": "41145523",
+  "relevant": "related",
+  "population": "long COVID",
+  "design": "cohort",
+  "n": "1865; 50 post-COVID vs 66 mimics",
+  "finding": "Co-occurrence of memory impairment and fatigue distinguishes post COVID from pandemic-related mimics in CON-VINCE.",
+  "atlas": [
+   "endocrine-female-preponderance"
+  ],
+  "relation": "extends",
+  "steps": [],
+  "treatments": [],
+  "importance": 2,
+  "note": "mimic comparison useful"
+ },
+ {
+  "id": "41140205",
+  "relevant": "related",
+  "population": "long COVID fatigue",
+  "design": "qualitative",
+  "n": "11",
+  "finding": "Adaptation and beta-testing of a self-management app (reCOVer) for long COVID fatigue.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": ""
+ },
+ {
+  "id": "41134786",
+  "relevant": "core",
+  "population": "long COVID",
+  "design": "case-control",
+  "n": "16 vs 10",
+  "finding": "Tilt testing: higher COMPASS-31 and HR ~8 bpm higher in long COVID, symptoms in 63% during tilt, yet only 19% met abnormal hemodynamic criteria.",
+  "atlas": [
+   "neuro-lc-autonomic-objective",
+   "neuro-pots-prevalence"
+  ],
+  "relation": "replicates",
+  "steps": [
+   2
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": "small"
+ },
+ {
+  "id": "41136524",
+  "relevant": "core",
+  "population": "ME/CFS HLA",
+  "design": "genetic",
+  "n": "in silico",
+  "finding": "In silico binding affinity of ME/CFS-associated HLA alleles (C*07:04, DQB1*03:03, B*08:01, DPB1*02:01) to antigens of nine human herpesviruses.",
+  "atlas": [
+   "genetics-hla",
+   "infection-herpes-complement-link"
+  ],
+  "relation": "extends",
+  "steps": [
+   1
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": "computational"
+ },
+ {
+  "id": "41131605",
+  "relevant": "related",
+  "population": "long COVID cognitive impairment",
+  "design": "qualitative",
+  "n": "grounded theory, China",
+  "finding": "Treatment experiences and expectations for long COVID cognitive impairment.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": ""
+ },
+ {
+  "id": "41128520",
+  "relevant": "related",
+  "population": "CFS",
+  "design": "meta-analysis",
+  "n": "evidence summary",
+  "finding": "Best-evidence summary of TCM nursing technologies for CFS.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "low-quality evidence base"
+ },
+ {
+  "id": "PPR1106466",
+  "relevant": "related",
+  "population": "elderly cohort post-COVID",
+  "design": "cohort",
+  "n": "AZSAND/BBDP",
+  "finding": "Effect of COVID-19 on cognitive and motor decline and diagnostic conversion in older adults.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": ""
+ },
+ {
+  "id": "41106819",
+  "relevant": "not",
+  "population": "FND on X",
+  "design": "other",
+  "n": null,
+  "finding": null,
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "FND social media analysis"
+ },
+ {
+  "id": "40245265",
+  "relevant": "related",
+  "population": "CFS",
+  "design": "meta-analysis",
+  "n": "narrative review",
+  "finding": "Review of acupuncture in CFS.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "narrative"
+ },
+ {
+  "id": "41154289",
+  "relevant": "core",
+  "population": "long COVID clinic",
+  "design": "cross-sectional",
+  "n": "200",
+  "finding": "Sleep questionnaires (ISI, Epworth, ASQ) in Stanford long COVID clinic patients characterising insomnia, unrefreshing sleep and sleepiness.",
+  "atlas": [
+   "neuro-sleep"
+  ],
+  "relation": "extends",
+  "steps": [
+   8
+  ],
+  "treatments": [
+   "sleep-medicines"
+  ],
+  "importance": 1,
+  "note": "subjective"
+ },
+ {
+  "id": "41103060",
+  "relevant": "related",
+  "population": "ME/CFS",
+  "design": "survey",
+  "n": "29373",
+  "finding": "ME/CFS associated with concussion history, falls and dizziness in NHIS 2023.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [
+   2
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": "self-report"
+ },
+ {
+  "id": "PPR1102420",
+  "relevant": "not",
+  "population": "nurses",
+  "design": "survey",
+  "n": "115",
+  "finding": null,
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "duplicate preprint of paper 28"
+ },
+ {
+  "id": "41138391",
+  "relevant": "core",
+  "population": "ME/CFS and long COVID",
+  "design": "case-control",
+  "n": "10 controls, 12 ME/CFS, 9 LC",
+  "finding": "Hemodynamic responses to hypoxia, hypercapnia and tilt similar to controls; ME/CFS showed impaired cerebral autoregulation in hypercapnia and impaired cognitive-motor integration; LC showed lower oxygen levels and less vagal withdrawal.",
+  "atlas": [
+   "neuro-cbf-tilt",
+   "neuro-hypocapnia"
+  ],
+  "relation": "contradicts",
+  "steps": [
+   2,
+   5
+  ],
+  "treatments": [],
+  "importance": 2,
+  "note": "pilot; tilt only 5 minutes; no CBF drop difference"
+ },
+ {
+  "id": "41281896",
+  "relevant": "core",
+  "population": "PCS and PCS-ME/CFS",
+  "design": "cohort",
+  "n": "45 (22 vs 23)",
+  "finding": "Olfactory function improved to normosmia by 20 months in both PCS and PCS-ME/CFS; odor identification remained impaired; olfaction correlated with cognition and function.",
+  "atlas": [
+   "trials-post-covid-course"
+  ],
+  "relation": "extends",
+  "steps": [
+   7
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": "small"
+ },
+ {
+  "id": "41164396",
+  "relevant": "related",
+  "population": "PASC dysautonomia (service members)",
+  "design": "case-control",
+  "n": "1,367,961",
+  "finding": "Risk factors for post-COVID dysautonomia diagnosis in active-duty service members.",
+  "atlas": [
+   "neuro-lc-autonomic-objective"
+  ],
+  "relation": "extends",
+  "steps": [
+   2
+  ],
+  "treatments": [],
+  "importance": 2,
+  "note": "large; diagnosis codes"
+ },
+ {
+  "id": "41118678",
+  "relevant": "related",
+  "population": "hypermobility HSD/hEDS women",
+  "design": "cross-sectional",
+  "n": "women with HSD/hEDS",
+  "finding": "Autonomic symptom burden (COMPASS-31), comorbidities and QoL in HSD/hEDS.",
+  "atlas": [
+   "genetics-hypermobility-overlap"
+  ],
+  "relation": "extends",
+  "steps": [
+   2
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": ""
+ },
+ {
+  "id": "41057909",
+  "relevant": "core",
+  "population": "severe ME/CFS",
+  "design": "case-control",
+  "n": "47 vs 61",
+  "finding": "EpiSwitch chromosome conformation signature in whole blood discriminates severe ME/CFS from controls.",
+  "atlas": [
+   "omics-methylation",
+   "omics-ml-classifiers"
+  ],
+  "relation": "new",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "company-owned assay (Oxford Biodynamics); retrospective"
+ },
+ {
+  "id": "41132394",
+  "relevant": "related",
+  "population": "LC and ME/CFS",
+  "design": "survey",
+  "n": "Visible app users",
+  "finding": "Preliminary survey on self-reported outcomes of wearable monitoring (Visible armband) in LC and ME/CFS.",
+  "atlas": [
+   "trials-pacing"
+  ],
+  "relation": "none",
+  "steps": [
+   8
+  ],
+  "treatments": [
+   "pacing-heart-rate"
+  ],
+  "importance": 1,
+  "note": "industry app users"
+ },
+ {
+  "id": "41194817",
+  "relevant": "related",
+  "population": "pregnant long COVID",
+  "design": "meta-analysis",
+  "n": "narrative review",
+  "finding": "Review of long COVID fatigue in pregnancy.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": ""
+ },
+ {
+  "id": "41044528",
+  "relevant": "related",
+  "population": "hospitalised COVID Brazil",
+  "design": "survey",
+  "n": "patient-engaged cohort",
+  "finding": "Prevalence of long COVID symptoms in Rio de Janeiro hospitalised patients.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": ""
+ },
+ {
+  "id": "41101039",
+  "relevant": "core",
+  "population": "ME/CFS (CDC; most also NICE/IOM)",
+  "design": "cross-sectional",
+  "n": "1375",
+  "finding": "Fatigue and pain independently associate with cognitive test performance in ME/CFS; associations tested by age and duration.",
+  "atlas": [
+   "neuro-cognition"
+  ],
+  "relation": "extends",
+  "steps": [
+   2
+  ],
+  "treatments": [],
+  "importance": 2,
+  "note": "large cohort"
+ },
+ {
+  "id": "41036177",
+  "relevant": "core",
+  "population": "long COVID with cognitive impairment",
+  "design": "imaging",
+  "n": "30 vs 80",
+  "finding": "[11C]K-2 PET shows systemically increased AMPA receptor density in Cog-LC versus healthy controls, with cytokine associations.",
+  "atlas": [
+   "neuro-mrs-neurochemicals"
+  ],
+  "relation": "new",
+  "steps": [
+   2,
+   7
+  ],
+  "treatments": [],
+  "importance": 2,
+  "note": "Japan, PET"
+ },
+ {
+  "id": "41025524",
+  "relevant": "core",
+  "population": "K18-hACE2 mouse PASC model",
+  "design": "animal",
+  "n": "mice",
+  "finding": "SARS-CoV-2 infection produced cognitive but not anxiety/depression-like deficits in mice, correlating with acute severity, with brain cytokine alterations.",
+  "atlas": [
+   "immune-sickness-behaviour"
+  ],
+  "relation": "extends",
+  "steps": [
+   7
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": "animal"
+ },
+ {
+  "id": "41025260",
+  "relevant": "core",
+  "population": "highly symptomatic long COVID",
+  "design": "cohort",
+  "n": "467",
+  "finding": "POTS found in 31% (143) of highly symptomatic non-hospitalised long COVID after tilt/active stand; POTS patients younger, 91% female, lower activity and shorter 6MWT.",
+  "atlas": [
+   "vascular-pots-overlap",
+   "neuro-pots-prevalence"
+  ],
+  "relation": "replicates",
+  "steps": [
+   2
+  ],
+  "treatments": [],
+  "importance": 2,
+  "note": "selected for sick leave >=50%"
+ },
+ {
+  "id": "PPR1098149",
+  "relevant": "related",
+  "population": "ME/CFS",
+  "design": "cross-sectional",
+  "n": "Vaes data",
+  "finding": "Reanalysis of Vaes 13 symptom clusters anchored to PEM severity collapses them into two families.",
+  "atlas": [],
+  "relation": "extends",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "preprint reanalysis"
+ },
+ {
+  "id": "41013344",
+  "relevant": "related",
+  "population": "post-COVID clinics",
+  "design": "cohort",
+  "n": "984",
+  "finding": "Chart review of medical complexity and healthcare utilisation in three US post-COVID clinics.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": ""
+ },
+ {
+  "id": "PPR1092443",
+  "relevant": "core",
+  "population": "severe ME/CFS",
+  "design": "other",
+  "n": null,
+  "finding": "Preprint version of hypothesis: Na+/K+-ATPase deficit, depolarisation and calcium overload explain myasthenia and fasciculations.",
+  "atlas": [
+   "muscle-exertion-muscle-sodium"
+  ],
+  "relation": "extends",
+  "steps": [
+   5
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": "hypothesis; duplicate of #15"
+ },
+ {
+  "id": "41006438",
+  "relevant": "core",
+  "population": "CFS",
+  "design": "case-control",
+  "n": "25 vs 16",
+  "finding": "16S shows lower OTU richness in CFS (p=0.045) and different composition; neural network AUC 0.935.",
+  "atlas": [
+   "gut-machine-learning-classifiers",
+   "gut-butyrate-producer-loss"
+  ],
+  "relation": "replicates",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "small; overfitting risk"
+ },
+ {
+  "id": "40991619",
+  "relevant": "core",
+  "population": "long COVID after moderate/severe acute COVID",
+  "design": "cohort",
+  "n": "30 controls, 22 moderate, 18 severe",
+  "finding": "Severe cases had higher perceived fatigue through one year with objective neuromuscular measures (fatigability, muscle architecture) tracked.",
+  "atlas": [
+   "muscle-exertion-grip-fatigability"
+  ],
+  "relation": "extends",
+  "steps": [
+   5
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": "hospitalised/Brazil"
+ },
+ {
+  "id": "41005678",
+  "relevant": "related",
+  "population": "post-COVID",
+  "design": "meta-analysis",
+  "n": "6 RCTs",
+  "finding": "Review of inspiratory muscle training on exercise tolerance in post-COVID.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [
+   "long-covid-rehab"
+  ],
+  "importance": 1,
+  "note": ""
+ },
+ {
+  "id": "40986167",
+  "relevant": "related",
+  "population": "ME/CFS",
+  "design": "meta-analysis",
+  "n": "scoping review",
+  "finding": "Scoping review of health, social and economic burden of ME/CFS.",
+  "atlas": [
+   "trials-prevalence-sex",
+   "trials-severity"
+  ],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": ""
+ },
+ {
+  "id": "PPR1088340",
+  "relevant": "related",
+  "population": "hEDS",
+  "design": "genetic",
+  "n": "1815 cases vs 5008",
+  "finding": "GWAS meta-analysis of hypermobile EDS.",
+  "atlas": [
+   "genetics-hypermobility-overlap"
+  ],
+  "relation": "extends",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "hEDS not ME/CFS"
+ },
+ {
+  "id": "40976358",
+  "relevant": "not",
+  "population": "general population",
+  "design": "cohort",
+  "n": "6839",
+  "finding": null,
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "heart failure clusters"
+ },
+ {
+  "id": "40987251",
+  "relevant": "related",
+  "population": "post-COVID brain fog",
+  "design": "survey",
+  "n": "844",
+  "finding": "Brief Brain Fog Scale validated by Rasch analysis.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": ""
+ },
+ {
+  "id": "41070112",
+  "relevant": "core",
+  "population": "hospitalised COVID, post-COVID fatigue",
+  "design": "cohort",
+  "n": "54",
+  "finding": "Acute IL-1RA, IFN-gamma, TNF-alpha and monocyte percentage predicted physical and total fatigue 6-9 months later.",
+  "atlas": [
+   "immune-sickness-behaviour",
+   "immune-longcovid-overlap"
+  ],
+  "relation": "extends",
+  "steps": [
+   1,
+   7
+  ],
+  "treatments": [],
+  "importance": 2,
+  "note": "small, hospitalised"
+ },
+ {
+  "id": "41030648",
+  "relevant": "core",
+  "population": "post-COVID with/without ME/CFS symptoms",
+  "design": "cohort",
+  "n": "18",
+  "finding": "Smartwatch steps: dizziness predicts fewer same-day steps; ME/CFS-symptom subgroup (n=11) had more severe symptoms and lower functional capacity.",
+  "atlas": [
+   "muscle-exertion-pem-timing"
+  ],
+  "relation": "extends",
+  "steps": [
+   6,
+   8
+  ],
+  "treatments": [
+   "pacing-heart-rate"
+  ],
+  "importance": 1,
+  "note": "very small"
+ },
+ {
+  "id": "41007828",
+  "relevant": "related",
+  "population": "long COVID cognitive",
+  "design": "open-label",
+  "n": "6-month neurorehab",
+  "finding": "Neurorehabilitation for long COVID memory, attention and executive function in Mexico.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [
+   "cognitive-rehab-tdcs"
+  ],
+  "importance": 1,
+  "note": "uncontrolled"
+ },
+ {
+  "id": "41003635",
+  "relevant": "related",
+  "population": "PACS",
+  "design": "meta-analysis",
+  "n": "20 RCTs",
+  "finding": "Systematic review of exercise in PACS for HRQoL and functional fitness.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [
+   "long-covid-rehab"
+  ],
+  "importance": 1,
+  "note": ""
+ },
+ {
+  "id": "41008704",
+  "relevant": "related",
+  "population": "ME/CFS and endometriosis",
+  "design": "meta-analysis",
+  "n": "5 studies, 2261",
+  "finding": "Women with endometriosis had OR 2.79 (2.00-3.89) for ME/CFS; bidirectional association.",
+  "atlas": [
+   "endocrine-gynaecological-menopause"
+  ],
+  "relation": "replicates",
+  "steps": [],
+  "treatments": [],
+  "importance": 2,
+  "note": "observational"
+ },
+ {
+  "id": "PPR1085173",
+  "relevant": "related",
+  "population": "ME/CFS",
+  "design": "cross-sectional",
+  "n": "Vaes data",
+  "finding": "Reanalysis of Vaes clusters: two groups, amplification versus selective amplification with PEM severity.",
+  "atlas": [],
+  "relation": "extends",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "preprint; similar to #152"
+ },
+ {
+  "id": "40957498",
+  "relevant": "related",
+  "population": "PACS brain fog",
+  "design": "other",
+  "n": "review",
+  "finding": "Narrative review of brain fog phenotype and biopsychosocial rehabilitation.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": ""
+ },
+ {
+  "id": "40944707",
+  "relevant": "related",
+  "population": "post-COVID syndrome",
+  "design": "case-control",
+  "n": "Danish-Swedish",
+  "finding": "Cognitive performance in PCS versus recovered controls adjusted for covariates, stratified by variant; grip strength and distress.",
+  "atlas": [
+   "neuro-cognition"
+  ],
+  "relation": "replicates",
+  "steps": [
+   2
+  ],
+  "treatments": [],
+  "importance": 2,
+  "note": ""
+ },
+ {
+  "id": "40938404",
+  "relevant": "related",
+  "population": "long COVID",
+  "design": "cross-sectional",
+  "n": "Brazil",
+  "finding": "Persistent olfactory dysfunction associates with cognitive impairment (MoCA) in long COVID.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": ""
+ },
+ {
+  "id": "41009450",
+  "relevant": "core",
+  "population": "ME",
+  "design": "cross-sectional",
+  "n": "56 vs 16",
+  "finding": "Lower urine-to-plasma ratio of soluble SMPDL3B and reduced renal clearance in ME patients; metabolomic changes, more pronounced in women.",
+  "atlas": [
+   "immune-smpdl3b"
+  ],
+  "relation": "replicates",
+  "steps": [
+   6
+  ],
+  "treatments": [],
+  "importance": 2,
+  "note": "Cleveland/Spain group; partially same group as original"
+ },
+ {
+  "id": "41020219",
+  "relevant": "core",
+  "population": "POTS post-COVID",
+  "design": "case-control",
+  "n": "252",
+  "finding": "POTS patients, including post-COVID POTS, show platelet dense granule storage pool deficiency and bleeding tendency.",
+  "atlas": [
+   "vascular-platelets"
+  ],
+  "relation": "new",
+  "steps": [
+   4
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": "single group"
+ },
+ {
+  "id": "40989821",
+  "relevant": "related",
+  "population": "pediatric post-COVID",
+  "design": "cross-sectional",
+  "n": "29",
+  "finding": "Reduced exercise capacity (76.6% predicted VO2peak) in children with PCS correlated with time since infection, with preserved QoL.",
+  "atlas": [
+   "muscle-exertion-lc-peak-vo2"
+  ],
+  "relation": "extends",
+  "steps": [
+   5
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": "small; deconditioning confound"
+ },
+ {
+  "id": "PPR1081550",
+  "relevant": "related",
+  "population": "ME/CFS",
+  "design": "other",
+  "n": null,
+  "finding": "Hypothesis review of gut barrier dysfunction in prototype diseases and relevance to ME/CFS.",
+  "atlas": [
+   "gut-translocation-lps"
+  ],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "hypothesis"
+ },
+ {
+  "id": "PPR1080191",
+  "relevant": "related",
+  "population": "ME/CFS",
+  "design": "other",
+  "n": "Vaes cluster data",
+  "finding": "Hypothesis mapping Vaes clusters onto regional gut-barrier model.",
+  "atlas": [
+   "gut-translocation-lps"
+  ],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "speculative"
+ },
+ {
+  "id": "40977722",
+  "relevant": "related",
+  "population": "systemic sclerosis",
+  "design": "cross-sectional",
+  "n": "51",
+  "finding": "Severe fatigue in early SSc associates with diminished lung function and elevated Galectin-9.",
+  "atlas": [
+   "immune-galectin9-artemin-lc"
+  ],
+  "relation": "extends",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "SSc not ME/CFS"
+ },
+ {
+  "id": "40939313",
+  "relevant": "related",
+  "population": "CFS",
+  "design": "survey",
+  "n": "286",
+  "finding": "Rasch analysis of the HADS in CFS.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": ""
+ },
+ {
+  "id": "40898582",
+  "relevant": "not",
+  "population": "opioid use disorder",
+  "design": "cross-sectional",
+  "n": null,
+  "finding": null,
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "COPC prevalence in OUD"
+ },
+ {
+  "id": "40892700",
+  "relevant": "core",
+  "population": "PASC and CFS/ME",
+  "design": "case-control",
+  "n": "15 PASC, 11 CFS/ME, 11 controls",
+  "finding": "Invasive CPET oxygen pathway analysis: reduced VO2peak in both, with skeletal muscle O2 diffusion (DM) the most impaired parameter; normalising DM would raise VO2 66% in PASC and 35% in CFS/ME.",
+  "atlas": [
+   "muscle-exertion-oxygen-extraction",
+   "lc-icpet-impaired-extraction",
+   "vascular-oxygen-extraction"
+  ],
+  "relation": "replicates",
+  "steps": [
+   5
+  ],
+  "treatments": [],
+  "importance": 3,
+  "note": "small; invasive; Systematic modelling not intervention"
+ },
+ {
+  "id": "40888500",
+  "relevant": "related",
+  "population": "long COVID by age (RECOVER-Adult)",
+  "design": "cohort",
+  "n": "2662+7549 infected, 461+728 controls",
+  "finding": "Odds of LCRI>=12 vary by age group; age-related changes in symptom pattern in RECOVER-Adult.",
+  "atlas": [
+   "infection-post-covid-mecfs-incidence"
+  ],
+  "relation": "extends",
+  "steps": [],
+  "treatments": [],
+  "importance": 2,
+  "note": "large, symptom-index"
+ },
+ {
+  "id": "41140806",
+  "relevant": "related",
+  "population": "post-COVID (Tunisia)",
+  "design": "cross-sectional",
+  "n": "pulmonology clinic",
+  "finding": "Fatigue, cognitive complaints, dyspnea, anxiety, depression in post-COVID patients in Sfax.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": ""
+ },
+ {
+  "id": "40586228",
+  "relevant": "related",
+  "population": "long COVID Spain",
+  "design": "survey",
+  "n": "374",
+  "finding": "Fatigue, social support and symptomatology in long COVID.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": ""
+ },
+ {
+  "id": "40922273",
+  "relevant": "related",
+  "population": "long COVID",
+  "design": "cohort",
+  "n": "multicentre",
+  "finding": "Acute COVID severity and long COVID fatigue subtype, mental health and HRQoL.",
+  "atlas": [
+   "immune-sickness-behaviour"
+  ],
+  "relation": "extends",
+  "steps": [
+   7
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": ""
+ },
+ {
+  "id": "40890788",
+  "relevant": "core",
+  "population": "ME/CFS",
+  "design": "open-label",
+  "n": "10",
+  "finding": "12-week recumbent isometric yoga: the 2 POTS patients normalised orthostatic heart rate response; 8 with normal response unchanged.",
+  "atlas": [
+   "neuro-pots-prevalence"
+  ],
+  "relation": "extends",
+  "steps": [
+   2
+  ],
+  "treatments": [
+   "upright-time"
+  ],
+  "importance": 1,
+  "note": "n=10 pilot, no controls"
+ },
+ {
+  "id": "40883696",
+  "relevant": "related",
+  "population": "long COVID",
+  "design": "cohort",
+  "n": "816 (238 LC)",
+  "finding": "Four-year Saudi cohort: risk factors, recovery and quality of life in long COVID.",
+  "atlas": [
+   "trials-post-covid-course"
+  ],
+  "relation": "extends",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "WHO criteria"
+ },
+ {
+  "id": "40886878",
+  "relevant": "core",
+  "population": "long COVID young adults",
+  "design": "case-control",
+  "n": "with/without prior COVID",
+  "finding": "SOD2 Val16Ala polymorphism relates to neurocognitive alterations and neuroinflammation after COVID.",
+  "atlas": [],
+  "relation": "new",
+  "steps": [
+   7
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": "small candidate gene"
+ },
+ {
+  "id": "40950756",
+  "relevant": "related",
+  "population": "long COVID ME/CFS-like",
+  "design": "case-control",
+  "n": "clinical trial sample vs historical",
+  "finding": "Hypothyroidism (27.8% vs 1.1%, OR 33) and bipolar spectrum (16.7% vs 0.2%) more frequent in long COVID CFS/ME than pre-COVID population controls.",
+  "atlas": [
+   "endocrine-low-t3"
+  ],
+  "relation": "new",
+  "steps": [
+   2
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": "historical controls, small n"
+ },
+ {
+  "id": "40875314",
+  "relevant": "not",
+  "population": "video meetings",
+  "design": "other",
+  "n": null,
+  "finding": null,
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "zoom fatigue"
+ },
+ {
+  "id": "40936649",
+  "relevant": "core",
+  "population": "mental fatigue transdiagnostic incl. ME/CFS and long COVID",
+  "design": "meta-analysis",
+  "n": "46 neuroimaging studies, 2603",
+  "finding": "ALE meta-analysis finds a frontal-striatal-limbic, frontal-cingulate and parietal network for mental fatigue across conditions.",
+  "atlas": [
+   "neuro-basal-ganglia-reward",
+   "neuro-resting-fc"
+  ],
+  "relation": "extends",
+  "steps": [
+   2,
+   7
+  ],
+  "treatments": [],
+  "importance": 2,
+  "note": "transdiagnostic"
+ },
+ {
+  "id": "40943825",
+  "relevant": "core",
+  "population": "long COVID with fatigue",
+  "design": "RCT",
+  "n": "42 (21 vs 21)",
+  "finding": "Single osteopathic treatment session increased RMSSD (HRV) versus sham in long COVID fatigue.",
+  "atlas": [
+   "neuro-hrv"
+  ],
+  "relation": "extends",
+  "steps": [
+   8
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": "acute effect only, single blind"
+ },
+ {
+  "id": "PPR1073149",
+  "relevant": "related",
+  "population": "GWI, FM, ME/CFS, long COVID",
+  "design": "other",
+  "n": "review",
+  "finding": "Review of shared mechanisms (mitochondrial dysfunction, oxidative stress, immune dysregulation) across GWI, FM, ME/CFS and long COVID.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "narrative"
+ },
+ {
+  "id": "41124977",
+  "relevant": "related",
+  "population": "long COVID",
+  "design": "cross-sectional",
+  "n": "ICOSS-2 online",
+  "finding": "Long COVID associated with hypersomnolence (ESS) and fatigue (FSS) in large international sample.",
+  "atlas": [
+   "neuro-sleep"
+  ],
+  "relation": "extends",
+  "steps": [
+   8
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": "online questionnaire"
+ },
+ {
+  "id": "40865177",
+  "relevant": "core",
+  "population": "long COVID with cognitive dysfunction",
+  "design": "imaging",
+  "n": "16",
+  "finding": "FDG-PET brain hypometabolism (cerebellum most often) correlates with cognitive impairment, thalamic involvement with worse scores.",
+  "atlas": [
+   "neuro-lc-fdg-pet"
+  ],
+  "relation": "replicates",
+  "steps": [
+   5
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": "small, no controls in abstract"
+ },
+ {
+  "id": "40927340",
+  "relevant": "related",
+  "population": "post-COVID condition",
+  "design": "RCT",
+  "n": "40 (20 vs 20)",
+  "finding": "Three-month tablet-based cognitive training reduced subjective cognitive complaints versus waitlist; no effect on other domains.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [
+   "cognitive-rehab-tdcs"
+  ],
+  "importance": 1,
+  "note": "waitlist control"
+ },
+ {
+  "id": "40927423",
+  "relevant": "core",
+  "population": "ME/CFS, GWI, chronic idiopathic fatigue",
+  "design": "case-control",
+  "n": "ME/CFS, GWI, sedentary controls",
+  "finding": "Dolorimetry tenderness higher in female ME/CFS and GWI than controls (AUC 0.73-0.83); correlates with pain more than fatigue.",
+  "atlas": [
+   "neuro-pain-modulation-exercise-hyperalgesia"
+  ],
+  "relation": "replicates",
+  "steps": [
+   2
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": ""
+ },
+ {
+  "id": "40844501",
+  "relevant": "not",
+  "population": "older adults telehealth",
+  "design": "cohort",
+  "n": "NHATS",
+  "finding": null,
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "telehealth cognition"
+ },
+ {
+  "id": "40978825",
+  "relevant": "related",
+  "population": "long COVID",
+  "design": "case-control",
+  "n": "37 controls, 32 infected",
+  "finding": "ME/CFS diagnosed in 18.8% of LC-yes, 6.7% LC-no, 10.8% of controls (n.s.); all LC-yes reported PEM.",
+  "atlas": [
+   "infection-post-covid-mecfs-incidence"
+  ],
+  "relation": "contradicts",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "small; high ME/CFS in controls"
+ },
+ {
+  "id": "40827836",
+  "relevant": "related",
+  "population": "post-COVID",
+  "design": "meta-analysis",
+  "n": "RCTs",
+  "finding": "Meta-analysis of pulmonary rehabilitation on fatigue in post-COVID syndrome.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [
+   "long-covid-rehab"
+  ],
+  "importance": 1,
+  "note": ""
+ },
+ {
+  "id": "40904577",
+  "relevant": "related",
+  "population": "CFS",
+  "design": "meta-analysis",
+  "n": "network",
+  "finding": "Network meta-analysis of non-pharmacologic therapies for depressive symptoms in CFS.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": ""
+ },
+ {
+  "id": "40827018",
+  "relevant": "related",
+  "population": "long COVID",
+  "design": "survey",
+  "n": "26270",
+  "finding": "Work limitations, cognitive dysfunction and sick days among US adults with long COVID in NHIS 2022.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": ""
+ },
+ {
+  "id": "40820959",
+  "relevant": "related",
+  "population": "ME/CFS and insomnia",
+  "design": "cohort",
+  "n": "241 ME/CFS",
+  "finding": "Co-occurring severe fatigue and insomnia influence outcomes of CBT-F and CBT-I.",
+  "atlas": [
+   "trials-pace-get-cbt"
+  ],
+  "relation": "none",
+  "steps": [
+   8
+  ],
+  "treatments": [
+   "cbt-supportive"
+  ],
+  "importance": 1,
+  "note": "observational, subjective outcomes"
+ },
+ {
+  "id": "40900827",
+  "relevant": "related",
+  "population": "CFS",
+  "design": "meta-analysis",
+  "n": null,
+  "finding": "Commentary on Xiaoyao San meta-analysis in CFS.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "no abstract"
+ },
+ {
+  "id": "40789995",
+  "relevant": "related",
+  "population": "long COVID",
+  "design": "cohort",
+  "n": "longitudinal",
+  "finding": "Time-varying relationships between post-COVID mental fatigue and neuropsychiatric symptoms across recovery trajectories.",
+  "atlas": [
+   "trials-post-covid-course"
+  ],
+  "relation": "extends",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": ""
+ },
+ {
+  "id": "40785390",
+  "relevant": "related",
+  "population": "MDD, GAD, FM, ME/CFS",
+  "design": "cohort",
+  "n": "108034",
+  "finding": "Prospective bidirectional associations between internalizing disorders and ME/CFS/fibromyalgia in Lifelines.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "self-reported symptoms"
+ },
+ {
+  "id": "40784894",
+  "relevant": "related",
+  "population": "functional disorders",
+  "design": "cohort",
+  "n": "166774",
+  "finding": "Functional and internalizing disorders co-aggregate with cardiometabolic and immune-related diseases within families (Lifelines).",
+  "atlas": [
+   "genetics-familial-heritability"
+  ],
+  "relation": "extends",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "self-reported symptom definitions"
+ },
+ {
+  "id": "PPR1064791",
+  "relevant": "core",
+  "population": "ME/CFS and PASC",
+  "design": "in vitro",
+  "n": "patient IgG on cells",
+  "finding": "Patient IgG and its Fab fragment induce mitochondrial fragmentation/altered energetics in healthy cells; IgG-bound complexes differ (ECM in ME/CFS, hemostasis in PASC); IgG from each drives distinct cytokine secretion.",
+  "atlas": [
+   "immune-igg-endothelial",
+   "immune-igg-transfer-mice"
+  ],
+  "relation": "replicates",
+  "steps": [
+   1,
+   6
+  ],
+  "treatments": [],
+  "importance": 2,
+  "note": "small cohorts, preprint"
+ },
+ {
+  "id": "PPR1065209",
+  "relevant": "core",
+  "population": "long COVID with POTS-like symptoms",
+  "design": "other",
+  "n": "method paper",
+  "finding": "Geometric baroreflex-sensitivity method indicates reduced BRS in long COVID hyperadrenergic POTS-like patients.",
+  "atlas": [
+   "neuro-lc-autonomic-objective"
+  ],
+  "relation": "extends",
+  "steps": [
+   2
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": "method; small"
+ },
+ {
+  "id": "41261552",
+  "relevant": "related",
+  "population": "CFS",
+  "design": "other",
+  "n": null,
+  "finding": "TCM acupuncture/moxibustion theory for CFS.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "theory"
+ },
+ {
+  "id": "40843737",
+  "relevant": "related",
+  "population": "older adults post-COVID",
+  "design": "cohort",
+  "n": "tertiary hospital",
+  "finding": "Depression and hypomagnesemia predict cognitive impairment in older adults post-COVID.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": ""
+ },
+ {
+  "id": "40805949",
+  "relevant": "related",
+  "population": "ME/CFS",
+  "design": "other",
+  "n": "review",
+  "finding": "Narrative review of ME/CFS biology and recommendations for patient support.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": ""
+ },
+ {
+  "id": "40805931",
+  "relevant": "related",
+  "population": "long COVID",
+  "design": "meta-analysis",
+  "n": "systematic review",
+  "finding": "Physical training for dyspnea and fatigue in long COVID.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [
+   "long-covid-rehab"
+  ],
+  "importance": 1,
+  "note": ""
+ },
+ {
+  "id": "40883051",
+  "relevant": "related",
+  "population": "long COVID POTS (LISTEN)",
+  "design": "survey",
+  "n": "online cohort",
+  "finding": "Self-reported characteristics of long COVID POTS in the Yale LISTEN study.",
+  "atlas": [
+   "vascular-pots-overlap"
+  ],
+  "relation": "extends",
+  "steps": [
+   2
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": "self-reported"
+ },
+ {
+  "id": "40922525",
+  "relevant": "related",
+  "population": "post-COVID subjective cognitive symptoms",
+  "design": "case-control",
+  "n": "memory task",
+  "finding": "Metamemory performance in individuals with and without post-COVID subjective cognitive symptoms.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": ""
+ },
+ {
+  "id": "PPR1056181",
+  "relevant": "core",
+  "population": "post-COVID condition brain fog",
+  "design": "RCT",
+  "n": "43",
+  "finding": "Home photobiomodulation 8 weeks vs sham: cognitive gains not significant overall (p~0.088), significant under age 45; safe.",
+  "atlas": [],
+  "relation": "new",
+  "steps": [
+   5
+  ],
+  "treatments": [
+   "red-light"
+  ],
+  "importance": 1,
+  "note": "pilot; industry device (Vielight)"
+ },
+ {
+  "id": "40780102",
+  "relevant": "core",
+  "population": "long COVID",
+  "design": "imaging",
+  "n": "39 (16 vs 23)",
+  "finding": "Long COVID with cognitive impairment shows higher DMN functional connectivity to posterior supramarginal/angular gyrus than those without impairment; no volumetric differences.",
+  "atlas": [
+   "neuro-resting-fc"
+  ],
+  "relation": "extends",
+  "steps": [
+   2
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": "small"
+ },
+ {
+  "id": "40705613",
+  "relevant": "core",
+  "population": "post-COVID condition",
+  "design": "case-control",
+  "n": "PCC vs controls",
+  "finding": "PCC group showed cognitive performance fatigability on processing-speed tasks (controls improved with repetition, PCC did not).",
+  "atlas": [
+   "neuro-cognition",
+   "neuro-motor-fatigability"
+  ],
+  "relation": "extends",
+  "steps": [
+   2,
+   7
+  ],
+  "treatments": [],
+  "importance": 2,
+  "note": ""
+ },
+ {
+  "id": "PPR1054368",
+  "relevant": "related",
+  "population": "PAIS",
+  "design": "other",
+  "n": "commentary",
+  "finding": "Commentary on 5-minute HRV as tool in post-acute infection syndromes.",
+  "atlas": [
+   "neuro-hrv"
+  ],
+  "relation": "none",
+  "steps": [
+   2
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": "commentary"
+ },
+ {
+  "id": "40761505",
+  "relevant": "related",
+  "population": "post-COVID syndrome",
+  "design": "other",
+  "n": "two rehab centres",
+  "finding": "Design and validation of an energy-level diary for post-COVID fatigue management.",
+  "atlas": [
+   "trials-pacing"
+  ],
+  "relation": "none",
+  "steps": [
+   8
+  ],
+  "treatments": [
+   "pacing-heart-rate"
+  ],
+  "importance": 1,
+  "note": ""
+ },
+ {
+  "id": "40734821",
+  "relevant": "core",
+  "population": "ME/CFS and PASC",
+  "design": "cross-sectional",
+  "n": "2313 ME/CFS, 299 PASC",
+  "finding": "Factor analysis identifies two neurocognitive domains including hypersensitivity to noise/light in ME/CFS and PASC.",
+  "atlas": [
+   "neuro-sensory",
+   "neuro-cognition"
+  ],
+  "relation": "extends",
+  "steps": [
+   2
+  ],
+  "treatments": [],
+  "importance": 2,
+  "note": "DePaul questionnaire"
+ },
+ {
+  "id": "PPR1060461",
+  "relevant": "related",
+  "population": "ME/CFS",
+  "design": "other",
+  "n": "hypothesis",
+  "finding": "Case for MOTS-c mitochondrial peptide as therapy for ME/CFS.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "hypothesis"
+ },
+ {
+  "id": "40659409",
+  "relevant": "related",
+  "population": "post-hospital COVID Brazil",
+  "design": "cross-sectional",
+  "n": "315",
+  "finding": "Correlation between fatigue and pulmonary abnormalities 6-12 months post hospitalisation.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": ""
+ },
+ {
+  "id": "40637260",
+  "relevant": "core",
+  "population": "post-COVID with pulmonary involvement",
+  "design": "case-control",
+  "n": "47 vs 60",
+  "finding": "Lower VO2, chronotropic incompetence, respiratory and peripheral muscle strength and activity in post-COVID with lung involvement vs healthy controls.",
+  "atlas": [
+   "muscle-exertion-lc-peak-vo2"
+  ],
+  "relation": "replicates",
+  "steps": [
+   5
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": "pulmonary-involvement subgroup, sedentary confound"
+ },
+ {
+  "id": "40725538",
+  "relevant": "related",
+  "population": "ME/CFS",
+  "design": "survey",
+  "n": "685",
+  "finding": "Online survey finds voice and speech abnormalities reported in ME/CFS (302 qualitative responses).",
+  "atlas": [],
+  "relation": "none",
+  "steps": [
+   2
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": ""
+ },
+ {
+  "id": "40622937",
+  "relevant": "related",
+  "population": "long COVID Spain",
+  "design": "survey",
+  "n": "374",
+  "finding": "FSS and mood scale relationships with clinical manifestations; duplicate sample of #182.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": ""
+ },
+ {
+  "id": "40692561",
+  "relevant": "core",
+  "population": "long COVID POTS/IST",
+  "design": "RCT",
+  "n": "design (200 + 50)",
+  "finding": "COVIVA protocol: comparative cohort with multi-omics and nested placebo-controlled ivabradine trial in long COVID POTS/IST.",
+  "atlas": [
+   "trials-ivabradine"
+  ],
+  "relation": "none",
+  "steps": [
+   2
+  ],
+  "treatments": [
+   "ivabradine"
+  ],
+  "importance": 1,
+  "note": "protocol, no results"
+ },
+ {
+  "id": "40647335",
+  "relevant": "core",
+  "population": "IBS-U with vs without CFS",
+  "design": "case-control",
+  "n": "40 vs 40 women",
+  "finding": "IBS-CFS has greater microbial diversity, higher breath methane, higher urinary QA, XA, 3-IS, HVA and lower 5-HIAA and KYN than IBS alone.",
+  "atlas": [
+   "gut-ibs-overlap",
+   "omics-kynurenine-ido"
+  ],
+  "relation": "extends",
+  "steps": [
+   2
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": "Polish; both groups IBS"
+ },
+ {
+  "id": "40726775",
+  "relevant": "core",
+  "population": "post-COVID vs ME/CFS vs FM",
+  "design": "case-control",
+  "n": "PCC, ME/CFS, FM groups",
+  "finding": "Blood measures (SARS-CoV-2 isotype antibodies, cytokines, NfL, blood counts) discriminate post-COVID condition from ME/CFS and FM with 100% sensitivity and up to 71.9% specificity; HERV-W context.",
+  "atlas": [
+   "infection-herv-expression",
+   "neuro-injury-markers"
+  ],
+  "relation": "extends",
+  "steps": [
+   1
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": "small cohorts; Spanish group"
+ },
+ {
+  "id": "40594264",
+  "relevant": "core",
+  "population": "post-COVID cognitive decline (mild COVID)",
+  "design": "imaging",
+  "n": "28 vs controls",
+  "finding": "FDG-PET hypometabolism in bilateral frontal, temporal, parietal and left occipital lobes plus frontal EEG slowing (delta/theta up, alpha down) vs matched controls.",
+  "atlas": [
+   "neuro-lc-fdg-pet",
+   "neuro-eeg"
+  ],
+  "relation": "replicates",
+  "steps": [
+   5,
+   7
+  ],
+  "treatments": [],
+  "importance": 2,
+  "note": "small"
+ },
+ {
+  "id": "40755709",
+  "relevant": "related",
+  "population": "ME/CFS",
+  "design": "meta-analysis",
+  "n": "systematic review",
+  "finding": "Systematic review of nutraceutical supplements for subjective fatigue in ME/CFS.",
+  "atlas": [
+   "trials-coq10-nadh"
+  ],
+  "relation": "none",
+  "steps": [],
+  "treatments": [
+   "coq10-nadh",
+   "mito-supplements"
+  ],
+  "importance": 1,
+  "note": ""
+ },
+ {
+  "id": "40635493",
+  "relevant": "core",
+  "population": "PASC",
+  "design": "cohort",
+  "n": "156 samples from 79 participants",
+  "finding": "Symptoms including PEM, fatigue, brain fog, GI symptoms accompanied by higher IL-10, VEGF, MIP-1a, IL-1b, IL-6, IL-8, MIG, granzyme A, CX3CL1.",
+  "atlas": [
+   "immune-longcovid-overlap",
+   "immune-cytokine-meta"
+  ],
+  "relation": "replicates",
+  "steps": [
+   1,
+   7
+  ],
+  "treatments": [],
+  "importance": 2,
+  "note": "within-person paired design, 1-6 months after COVID"
+ },
+ {
+  "id": "40991213",
+  "relevant": "related",
+  "population": "post-COVID paraspinal myalgia",
+  "design": "open-label",
+  "n": "manual labourers",
+  "finding": "Exercise and relaxation versus standard care for post-COVID paraspinal myalgia (IL-17, ADL).",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "quasi-experimental"
+ },
+ {
+  "id": "40596788",
+  "relevant": "not",
+  "population": "gene regulatory networks",
+  "design": "other",
+  "n": null,
+  "finding": null,
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "methods paper"
+ },
+ {
+  "id": "40656206",
+  "relevant": "related",
+  "population": "long COVID / ME/CFS clinicians",
+  "design": "qualitative",
+  "n": "virtual community of practice",
+  "finding": "Qualitative assessment of lived-experience experts' influence on providers in LC&FIRP.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": ""
+ },
+ {
+  "id": "40578132",
+  "relevant": "core",
+  "population": "post-COVID with fatigue and PEM",
+  "design": "case-control",
+  "n": "140 vs 80",
+  "finding": "EBV reactivation in 28.6% of persistent-fatigue post-COVID vs 11.3% of recovered controls (p=0.003); EBNA-1 IgG and EA-D IgG higher.",
+  "atlas": [
+   "infection-ebv-reactivation-long-covid"
+  ],
+  "relation": "replicates",
+  "steps": [
+   1
+  ],
+  "treatments": [],
+  "importance": 2,
+  "note": "single centre, no ME/CFS criteria"
+ },
+ {
+  "id": "PPR1042001",
+  "relevant": "related",
+  "population": "long COVID",
+  "design": "case-control",
+  "n": "37 controls, 32 infected",
+  "finding": "Preprint: ME/CFS prevalence not significantly different between LC-yes, LC-no and uninfected controls.",
+  "atlas": [
+   "infection-post-covid-mecfs-incidence"
+  ],
+  "relation": "contradicts",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "duplicate of #197; small"
+ },
+ {
+  "id": "40649860",
+  "relevant": "core",
+  "population": "ME/CFS and long COVID muscle",
+  "design": "other",
+  "n": "genome-scale metabolic modelling",
+  "finding": "Muscle metabolic modelling shows shared deficits; aspartate downregulated during PEM in muscle and blood; proposes L-ornithine L-aspartate.",
+  "atlas": [
+   "muscle-exertion-post-exertion-metabolomics",
+   "omics-energy-fuel-pdh"
+  ],
+  "relation": "extends",
+  "steps": [
+   5,
+   6
+  ],
+  "treatments": [
+   "mito-supplements"
+  ],
+  "importance": 1,
+  "note": "in silico, hypothesis"
+ },
+ {
+  "id": "40723800",
+  "relevant": "core",
+  "population": "PASC and ME/CFS",
+  "design": "case-control",
+  "n": "database plus small prospective",
+  "finding": "Stool microbiome shifted with Bacillota/Bacteroidota inversion and serum chemokine differences (MIP-1b vs TARC) in PASC and chronic fatigue.",
+  "atlas": [
+   "gut-longcovid-parallel"
+  ],
+  "relation": "extends",
+  "steps": [
+   1
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": "unclear controls"
+ },
+ {
+  "id": "40635708",
+  "relevant": "related",
+  "population": "long COVID",
+  "design": "cohort",
+  "n": "prospective",
+  "finding": "Prevalence and severity of neurologic symptoms in long COVID and role of pre-existing conditions, hospitalisation, mental health.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": ""
+ },
+ {
+  "id": "40548547",
+  "relevant": "related",
+  "population": "long COVID",
+  "design": "cross-sectional",
+  "n": "long COVID vs recovered vs never infected",
+  "finding": "Objective and self-reported cognition and psychological symptoms across long COVID, recovered, and no-COVID control groups.",
+  "atlas": [
+   "neuro-cognition"
+  ],
+  "relation": "extends",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": ""
+ },
+ {
+  "id": "40549427",
+  "relevant": "not",
+  "population": "AI in questionnaires",
+  "design": "meta-analysis",
+  "n": null,
+  "finding": null,
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "scoping review"
+ },
+ {
+  "id": "40552329",
+  "relevant": "core",
+  "population": "CFS (genetic)",
+  "design": "genetic",
+  "n": "two-sample MR",
+  "finding": "Mendelian randomization suggests lipids (LDL, ApoE, etc.) and immune cell traits mediate diet effects on CFS risk.",
+  "atlas": [
+   "omics-lipids-plasmalogens",
+   "genetics-mr-biomarkers"
+  ],
+  "relation": "extends",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "MR with weak CFS instruments; dietary traits"
+ },
+ {
+  "id": "40537100",
+  "relevant": "core",
+  "population": "PASC fatigue",
+  "design": "cross-sectional",
+  "n": "58",
+  "finding": "Fatigue severity correlated with subjective but not objective cognition, depression, and rest-activity rhythm disruption, long sleep time.",
+  "atlas": [
+   "neuro-sleep"
+  ],
+  "relation": "extends",
+  "steps": [
+   8
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": "small clinic"
+ },
+ {
+  "id": "40599534",
+  "relevant": "related",
+  "population": "long COVID",
+  "design": "cross-sectional",
+  "n": "26",
+  "finding": "Emotional, cognitive and somatic concerns in neurology-referred long COVID patients.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "pilot"
+ },
+ {
+  "id": "40526617",
+  "relevant": "not",
+  "population": "influenza vaccination",
+  "design": "cross-sectional",
+  "n": null,
+  "finding": null,
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "vaccine fatigue trend"
+ },
+ {
+  "id": "40564862",
+  "relevant": "core",
+  "population": "ME/CFS",
+  "design": "genetic",
+  "n": "77 exomes vs 1000G; US replication",
+  "finding": "Exome analysis associates NBPF1, NBPF10, NBPF16 (Olduvai domain) and ATR, NTRK2 variants with ME/CFS.",
+  "atlas": [
+   "genetics-early-gwas-candidates",
+   "genetics-rare-variants-heal2"
+  ],
+  "relation": "new",
+  "steps": [
+   2
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": "controls from 1000 Genomes (population mismatch risk); not replicated in DecodeME-scale data"
+ },
+ {
+  "id": "40565969",
+  "relevant": "related",
+  "population": "formerly hospitalised long COVID",
+  "design": "open-label",
+  "n": "pulmonary rehab",
+  "finding": "Hybrid pulmonary rehabilitation improved cardiorespiratory fitness in formerly hospitalised long COVID.",
+  "atlas": [
+   "muscle-exertion-lc-peak-vo2"
+  ],
+  "relation": "none",
+  "steps": [
+   5
+  ],
+  "treatments": [
+   "long-covid-rehab"
+  ],
+  "importance": 1,
+  "note": "uncontrolled, no PEM selection"
+ },
+ {
+  "id": "PPR1037050",
+  "relevant": "core",
+  "population": "ME/CFS and long COVID",
+  "design": "other",
+  "n": null,
+  "finding": "Hypothesis that brainstem dysfunction (mechanical/CCI-type) underlies ME/CFS and long COVID after viral insult.",
+  "atlas": [
+   "neuro-brainstem",
+   "neuro-cci"
+  ],
+  "relation": "none",
+  "steps": [
+   2
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": "hypothesis"
+ },
+ {
+  "id": "PPR1035383",
+  "relevant": "core",
+  "population": "long COVID brain fog",
+  "design": "other",
+  "n": "public RNA-seq GSE251849",
+  "finding": "Reanalysis of public blood RNA-seq: distinct transcriptomic biomarkers and cardiovascular/neurovascular pathways in long COVID brain fog.",
+  "atlas": [
+   "omics-transcriptome-sc"
+  ],
+  "relation": "extends",
+  "steps": [
+   4
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": "reanalysis, small"
+ },
+ {
+  "id": "PPR1034281",
+  "relevant": "related",
+  "population": "older adults post-COVID",
+  "design": "cross-sectional",
+  "n": "geriatric care",
+  "finding": "Olfactory function and nutritional status associate with cognitive impairment in older adults with PCS.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "duplicate theme of #117"
+ }
+]

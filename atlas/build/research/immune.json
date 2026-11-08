@@ -88,7 +88,119 @@
     "herpes-reactivation",
     "viral-persistence"
    ],
-   "test_available": "Private NK-function assays exist but need a same-day fresh sample; not validated for diagnosis (MCAM explicitly says so)"
+   "test_available": "Private NK-function assays exist but need a same-day fresh sample; not validated for diagnosis (MCAM explicitly says so)",
+   "sweep": [
+    {
+     "cite": "Marshall-Gradisnik 2016",
+     "n": "39 vs 30",
+     "design": "case-control",
+     "result": "NK lysis lower in ME/CFS (17% vs 31%); 11 SNPs in TRPC4, TRPC2, TRPM3, TRPM8 and AChR genes found in NK cells.",
+     "url": "https://doi.org/10.2147/tacg.s99405",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Brenu 2012",
+     "n": "65 vs 21 over 12 months",
+     "design": "cohort",
+     "result": "NK cytotoxic activity lower at baseline, 6 and 12 months; fewer CD56bright NK cells at T1 and T2; cytokine secretion varied over time.",
+     "url": "https://doi.org/10.1186/1479-5876-10-88",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Levine 1998",
+     "n": "8 affected, 12 unaffected relatives, 8 controls",
+     "design": "case-control",
+     "result": "NK cytotoxicity was lower in 8 affected family members than controls (P=0.006) with normal NK cell counts; low activity also in 4/12 unaffected relatives.",
+     "url": "https://doi.org/10.1006/clin.1998.4554",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Barker 1994",
+     "n": "",
+     "design": "case-control",
+     "result": "CFS CD8+ T cells had reduced CD11b and raised CD38 and HLA-DR, and NK activity was markedly decreased in almost all patients; T, B and NK numbers were normal.",
+     "url": "https://doi.org/10.1093/clinids/18.supplement_1.s136",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Caligiuri 1987",
+     "n": "41 vs 23",
+     "design": "case-control",
+     "result": "Most patients had low NKH1+T3- cell numbers and consistently low cytotoxicity against several targets; IL-2 partly restored killing of K562 but not EBV-infected cells.",
+     "url": "https://doi.org/10.4049/jimmunol.139.10.3306",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Rivas 2018",
+     "n": "76 vs 73",
+     "design": "case-control",
+     "result": "Lower Tregs, higher NKT-like cells, lower NKG2C and higher NK CD69/CD56bright in patients; classification model reached 70% accuracy.",
+     "url": "https://doi.org/10.3389/fimmu.2018.01028",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Maher 2005",
+     "n": "",
+     "design": "case-control",
+     "result": "Intracellular perforin was reduced in NK cells (and indicatively in cytotoxic T cells) in CFS, a possible basis for reduced NK cytotoxicity.",
+     "url": "https://doi.org/10.1111/j.1365-2249.2005.02935.x",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Lyall 2003",
+     "n": "",
+     "design": "meta-analysis",
+     "result": "Systematic review: low NK cell findings were inversely related to study quality; no consistent pattern of immune abnormality.",
+     "url": "https://doi.org/10.1016/s0022-3999(02)00515-9",
+     "verified": true,
+     "sweep": true,
+     "relation": "contradicts",
+     "importance": 2
+    },
+    {
+     "cite": "Mawle 1997",
+     "n": "",
+     "design": "case-control",
+     "result": "No differences in white cell counts, immune complexes, complement, immunoglobulins, delayed hypersensitivity, NK function or proliferation; marginal differences in cytokines and surface markers, larger when subgrouped by onset or symptom state.",
+     "url": "https://doi.org/10.1093/infdis/175.1.136",
+     "verified": true,
+     "sweep": true,
+     "relation": "contradicts",
+     "importance": 2
+    },
+    {
+     "cite": "Peakman 1997",
+     "n": "43 CFS (trial entrants) vs controls",
+     "design": "RCT",
+     "result": "T-cell subsets, activation and naive/memory proportions did not differ from controls; NK cells and CD11b+ CD8 cells were higher; immune measures did not change with treatment or predict response.",
+     "url": "https://doi.org/10.1006/clin.1996.4284",
+     "verified": true,
+     "sweep": true,
+     "relation": "contradicts",
+     "importance": 2
+    }
+   ]
   },
   {
    "id": "immune-trpm3",
@@ -151,7 +263,75 @@
     "immune-exhaustion",
     "autonomic-small-fibre"
    ],
-   "test_available": "research only"
+   "test_available": "research only",
+   "sweep": [
+    {
+     "cite": "Sasso 2022",
+     "n": "",
+     "design": "case-control",
+     "result": "TRPM3 dysfunction found in NK cells from post-COVID condition and ME/CFS patients",
+     "url": "https://doi.org/10.1186/s10020-022-00528-y",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 3
+    },
+    {
+     "cite": "Cabanas 2019",
+     "n": "8 vs 8",
+     "design": "in vitro",
+     "result": "Patch-clamp confirmed impaired TRPM3 function in IL-2 stimulated NK cells from ME/CFS; naltrexone restored function in vitro.",
+     "url": "https://doi.org/10.3389/fimmu.2019.02545",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Cabanas 2019",
+     "n": "",
+     "design": "case-control",
+     "result": "Patch-clamp in a new cohort confirmed impaired TRPM3 activity in patients' NK cells.",
+     "url": "https://doi.org/10.1186/s10020-019-0083-4",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Cabanas 2018",
+     "n": "12 vs 12",
+     "design": "case-control",
+     "result": "Patch-clamp showed reduced TRPM3 current amplitude in NK cells from CFS/ME patients.",
+     "url": "https://doi.org/10.1186/s10020-018-0046-1",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Nguyen 2016",
+     "n": "",
+     "design": "case-control",
+     "result": "TRPM3 surface expression reduced on CD19+ B cells and CD56bright NK cells in CFS/ME, with reduced cytoplasmic calcium after stimulation.",
+     "url": "https://doi.org/10.1186/s40659-016-0087-2",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Nguyen 2017",
+     "n": "15 CFS/ME vs 25 healthy",
+     "design": "case-control",
+     "result": "TRPM3 receptor expression reduced on unstimulated CD56bright NK cells in CFS/ME; Ca2+ flux responses to PregS were altered/increased rather than reduced.",
+     "url": "https://doi.org/10.1111/cei.12882",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    }
+   ]
   },
   {
    "id": "immune-cd8-exhaustion",
@@ -214,7 +394,75 @@
     "viral-persistence",
     "herpes-reactivation"
    ],
-   "test_available": "research only (specialist flow cytometry)"
+   "test_available": "research only (specialist flow cytometry)",
+   "sweep": [
+    {
+     "cite": "Maes 2015",
+     "n": "139 ME/CFS, 65 CF, 40 controls",
+     "design": "case-control",
+     "result": "CD8+CD38+ and CD8+HLA-DR+ proportions higher in ME/CFS; CD19+ and CD4/CD8 ratio lower; no link to severity or O&NS/leaky gut markers.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/26707044/",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Barker 1994",
+     "n": "",
+     "design": "case-control",
+     "result": "CFS CD8+ T cells had reduced CD11b and raised CD38 and HLA-DR, and NK activity was markedly decreased in almost all patients; T, B and NK numbers were normal.",
+     "url": "https://doi.org/10.1093/clinids/18.supplement_1.s136",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Landay 1991",
+     "n": "147 vs 80 healthy vs 22 contacts vs 43 disease",
+     "design": "case-control",
+     "result": "CFS showed a reduced CD8 suppressor population and raised CD38 and HLA-DR on CD8 cells, absent in healthy, contacts and disease controls, unrelated to viral serology.",
+     "url": "https://doi.org/10.1016/0140-6736(91)91440-6",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Karhan 2019, preprint",
+     "n": "",
+     "design": "case-control",
+     "result": "Large cohort showed raised CD4/CD8 ratio and CD8 effector memory, reduced NK in under-50s, and altered Th17, Th1, Th2 and MAIT function; random forest identified 93% of patients.",
+     "url": "https://doi.org/10.1101/2019.12.23.887505",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Peakman 1997",
+     "n": "43 CFS (trial entrants) vs controls",
+     "design": "RCT",
+     "result": "T-cell subsets, activation and naive/memory proportions did not differ from controls; NK cells and CD11b+ CD8 cells were higher; immune measures did not change with treatment or predict response.",
+     "url": "https://doi.org/10.1006/clin.1996.4284",
+     "verified": true,
+     "sweep": true,
+     "relation": "contradicts",
+     "importance": 2
+    },
+    {
+     "cite": "Swanink 1996",
+     "n": "76 vs 69",
+     "design": "case-control",
+     "result": "CD11b on CD8 cells was lower; CD38 and HLA-DR increases were not confirmed; apoptosis and circulating cytokines did not differ; endotoxin-stimulated TNF-alpha and IL-1 beta were lower; none correlated with fatigue.",
+     "url": "https://doi.org/10.1093/infdis/173.2.460",
+     "verified": true,
+     "sweep": true,
+     "relation": "contradicts",
+     "importance": 2
+    }
+   ]
   },
   {
    "id": "immune-tcell-severity",
@@ -251,7 +499,20 @@
     "innate-hyperactivation",
     "sickness-behaviour"
    ],
-   "test_available": "research only"
+   "test_available": "research only",
+   "sweep": [
+    {
+     "cite": "Maes 2015",
+     "n": "139 ME/CFS, 65 CF, 40 controls",
+     "design": "case-control",
+     "result": "CD8+CD38+ and CD8+HLA-DR+ proportions higher in ME/CFS; CD19+ and CD4/CD8 ratio lower; no link to severity or O&NS/leaky gut markers.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/26707044/",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    }
+   ]
   },
   {
    "id": "immune-mait",
@@ -287,7 +548,31 @@
     "gut-dysbiosis",
     "immune-exhaustion"
    ],
-   "test_available": "research only"
+   "test_available": "research only",
+   "sweep": [
+    {
+     "cite": "Karhan 2019, preprint",
+     "n": "",
+     "design": "case-control",
+     "result": "Large cohort showed raised CD4/CD8 ratio and CD8 effector memory, reduced NK in under-50s, and altered Th17, Th1, Th2 and MAIT function; random forest identified 93% of patients.",
+     "url": "https://doi.org/10.1101/2019.12.23.887505",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Rivas 2018",
+     "n": "76 vs 73",
+     "design": "case-control",
+     "result": "Lower Tregs, higher NKT-like cells, lower NKG2C and higher NK CD69/CD56bright in patients; classification model reached 70% accuracy.",
+     "url": "https://doi.org/10.3389/fimmu.2018.01028",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    }
+   ]
   },
   {
    "id": "immune-tcr-repertoire",
@@ -377,7 +662,20 @@
     "viral-persistence",
     "immune-exhaustion"
    ],
-   "test_available": "Lymphocyte subset flow cytometry is widely available, but the naive/memory B-cell split is not a validated marker"
+   "test_available": "Lymphocyte subset flow cytometry is widely available, but the naive/memory B-cell split is not a validated marker",
+   "sweep": [
+    {
+     "cite": "Bradley 2013",
+     "n": "33 vs 24",
+     "design": "case-control",
+     "result": "More naive (65% vs 47% of B cells) and transitional B cells, fewer plasmablasts.",
+     "url": "https://doi.org/10.1111/cei.12043",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    }
+   ]
   },
   {
    "id": "immune-bcr-repertoire",
@@ -421,7 +719,20 @@
     "autoimmunity",
     "viral-persistence"
    ],
-   "test_available": "research only"
+   "test_available": "research only",
+   "sweep": [
+    {
+     "cite": "Milivojevic 2020",
+     "n": "39 vs 41",
+     "design": "case-control",
+     "result": "Plasma proteomics associated IGHV3-23/30 with ME/CFS, suggesting antigen-driven B-cell clonal expansion; ML panels AUC 0.77-0.84.",
+     "url": "https://doi.org/10.1371/journal.pone.0236148",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    }
+   ]
   },
   {
    "id": "immune-rituximab",
@@ -455,7 +766,20 @@
    "hypotheses": [
     "autoimmunity"
    ],
-   "test_available": "Not indicated"
+   "test_available": "Not indicated",
+   "sweep": [
+    {
+     "cite": "Lunde 2016",
+     "n": "70 patients vs 56 healthy (baseline)",
+     "design": "RCT",
+     "result": "Serum BAFF was elevated in ME/CFS (p=0.011); APRIL unchanged; no T-cell subset change with rituximab; lower baseline IgG in responders (p=0.03).",
+     "url": "https://doi.org/10.1371/journal.pone.0161226",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    }
+   ]
   },
   {
    "id": "immune-daratumumab",
@@ -539,7 +863,31 @@
     "sickness-behaviour",
     "immune-exhaustion"
    ],
-   "test_available": "research only (multiplex cytokine panels are not clinically interpretable)"
+   "test_available": "research only (multiplex cytokine panels are not clinically interpretable)",
+   "sweep": [
+    {
+     "cite": "Russell 2016",
+     "n": "18 + 22 + 28 patients",
+     "design": "cross-sectional",
+     "result": "Discriminating cytokines shifted with illness duration: IL-1a higher in recent adolescents, IL-8 high early but opposite after 2 years; classification 75-88%.",
+     "url": "https://doi.org/10.1186/s12865-016-0142-3",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Wyller 2015",
+     "n": "120 vs 68",
+     "design": "case-control",
+     "result": "Twenty-seven plasma cytokines and network parameters did not differ between adolescent CFS patients and controls.",
+     "url": "https://doi.org/10.1016/j.bbi.2014.12.025",
+     "verified": true,
+     "sweep": true,
+     "relation": "contradicts",
+     "importance": 2
+    }
+   ]
   },
   {
    "id": "immune-cytokine-severity",
@@ -577,7 +925,31 @@
     "sickness-behaviour",
     "mast-cell"
    ],
-   "test_available": "research only"
+   "test_available": "research only",
+   "sweep": [
+    {
+     "cite": "Jason 2022",
+     "n": "48 ME/CFS (18 severe) vs 58 recovered",
+     "design": "cohort",
+     "result": "Prospective cohort: severe GI symptoms at baseline plus low IL-13/IL-5 during IM predicted later severe ME/CFS.",
+     "url": "https://doi.org/10.29245/2767-5122/2021/1.1129",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Hardcastle 2015",
+     "n": "22 HC, 22 moderate, 19 severe",
+     "design": "case-control",
+     "result": "Serum IL-7, IL-8 and IFN-g higher in severe; IL-6 lower in moderate than HC; cytokine patterns differ by severity.",
+     "url": "https://doi.org/10.7150/ijms.12399",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    }
+   ]
   },
   {
    "id": "immune-cytokine-meta",
@@ -637,7 +1009,97 @@
     "innate-hyperactivation",
     "sickness-behaviour"
    ],
-   "test_available": "CRP and ESR are routine but usually normal or only slightly raised; not diagnostic"
+   "test_available": "CRP and ESR are routine but usually normal or only slightly raised; not diagnostic",
+   "sweep": [
+    {
+     "cite": "Raijmakers 2025",
+     "n": "30 studies, 833 cases; 11 studies 413 cases",
+     "design": "meta-analysis",
+     "result": "Meta-analysis: PIFS had higher WBC at 3-6 months (d=0.41), RANTES (d=0.45) and TNF-alpha (d=0.30) at 6-12 months vs recovered controls.",
+     "url": "https://doi.org/10.1016/j.ebiom.2025.105970",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 3
+    },
+    {
+     "cite": "Kwon 2025",
+     "n": "156 samples from 79 participants",
+     "design": "cohort",
+     "result": "Symptoms including PEM, fatigue, brain fog, GI symptoms accompanied by higher IL-10, VEGF, MIP-1a, IL-1b, IL-6, IL-8, MIG, granzyme A, CX3CL1.",
+     "url": "https://doi.org/10.3904/kjim.2024.217",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Maes 2012",
+     "n": "107 ME/CFS, 37 CF, 20 controls",
+     "design": "case-control",
+     "result": "IL-1, TNF-alpha, neopterin, lysozyme and PMN-elastase were higher in ME/CFS than controls and CF; IL-1 and TNF correlated with fatigue and flu-like malaise.",
+     "url": "https://doi.org/10.1016/j.jad.2011.09.004",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Fletcher 2009",
+     "n": "",
+     "design": "case-control",
+     "result": "Multiplex plasma cytokines: LT-alpha, IL-1a, IL-1b, IL-4, IL-5, IL-6, IL-12 higher; IL-8, IL-13, IL-15 lower; TNF, IFN-gamma, IL-2, IL-10, IL-17 not different.",
+     "url": "https://doi.org/10.1186/1479-5876-7-96",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Buchwald 1997",
+     "n": "153 fatigued patients",
+     "design": "case-control",
+     "result": "CRP, beta2-microglobulin and neopterin were higher in CFS than controls, markers correlated with each other in a subset, and were of limited diagnostic use.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/9034999/",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Wyller 2015",
+     "n": "120 vs 68",
+     "design": "case-control",
+     "result": "Twenty-seven plasma cytokines and network parameters did not differ between adolescent CFS patients and controls.",
+     "url": "https://doi.org/10.1016/j.bbi.2014.12.025",
+     "verified": true,
+     "sweep": true,
+     "relation": "contradicts",
+     "importance": 2
+    },
+    {
+     "cite": "Mawle 1997",
+     "n": "",
+     "design": "case-control",
+     "result": "No differences in white cell counts, immune complexes, complement, immunoglobulins, delayed hypersensitivity, NK function or proliferation; marginal differences in cytokines and surface markers, larger when subgrouped by onset or symptom state.",
+     "url": "https://doi.org/10.1093/infdis/175.1.136",
+     "verified": true,
+     "sweep": true,
+     "relation": "contradicts",
+     "importance": 2
+    },
+    {
+     "cite": "Swanink 1996",
+     "n": "76 vs 69",
+     "design": "case-control",
+     "result": "CD11b on CD8 cells was lower; CD38 and HLA-DR increases were not confirmed; apoptosis and circulating cytokines did not differ; endotoxin-stimulated TNF-alpha and IL-1 beta were lower; none correlated with fatigue.",
+     "url": "https://doi.org/10.1093/infdis/173.2.460",
+     "verified": true,
+     "sweep": true,
+     "relation": "contradicts",
+     "importance": 2
+    }
+   ]
   },
   {
    "id": "immune-tgfbeta-artefact",
@@ -672,7 +1134,42 @@
     "innate-hyperactivation",
     "microclots"
    ],
-   "test_available": "Not indicated"
+   "test_available": "Not indicated",
+   "sweep": [
+    {
+     "cite": "Clark 2017",
+     "n": "24 vs 21",
+     "design": "case-control",
+     "result": "Higher resting TGF-beta in CFS was a spurious assay-batch artefact; no group differences in other cytokines or in exercise responses.",
+     "url": "https://doi.org/10.1111/cei.13023",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Peterson 1994",
+     "n": "10 vs 10",
+     "design": "case-control",
+     "result": "After 30 min slow walking, IL-1 beta, IL-6 and TNF-alpha were undetectable; resting serum TGF-beta was higher in CFS (287 vs 115 pg/ml), and post-exercise TGF-beta and SPECT blood flow changes were larger but not significant versus controls.",
+     "url": "https://doi.org/10.1128/cdli.1.2.222-226.1994",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Chao 1991",
+     "n": "",
+     "design": "case-control",
+     "result": "Serum bioactive TGF-beta was higher (290 vs 104 pg/mL, P<0.01) and LPS-stimulated PBMC release of IL-1 beta, IL-6 and TNF-alpha was higher, while TGF-beta release was lower.",
+     "url": "https://doi.org/10.1016/1043-4666(91)90497-2",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    }
+   ]
   },
   {
    "id": "immune-il1-blockade",
@@ -699,7 +1196,31 @@
     "innate-hyperactivation",
     "sickness-behaviour"
    ],
-   "test_available": "Not indicated"
+   "test_available": "Not indicated",
+   "sweep": [
+    {
+     "cite": "Roerink 2018",
+     "n": "107 vs 59 saliva; 46 vs 46 hair",
+     "design": "case-control",
+     "result": "Lower cortisol awakening response in CFS (4.2 vs 6.1 nmol/L, p=0.036); hair cortisol trend lower (p=0.062); anakinra for 4 weeks slightly lowered hair cortisol versus placebo.",
+     "url": "https://doi.org/10.1016/j.yhbeh.2018.05.016",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Nijs 2010",
+     "n": "22 vs 22",
+     "design": "case-control",
+     "result": "Both submaximal and self-paced exercise triggered PEM, but neither changed elastase, IL-1beta or C4a acutely; post-exercise C4a flagged as marker of PEM.",
+     "url": "https://doi.org/10.1111/j.1365-2796.2009.02178.x",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    }
+   ]
   },
   {
    "id": "immune-csf-cytokines",
@@ -744,7 +1265,31 @@
     "mast-cell",
     "sickness-behaviour"
    ],
-   "test_available": "research only"
+   "test_available": "research only",
+   "sweep": [
+    {
+     "cite": "Hu 2024",
+     "n": "large NYC/NJ cohort with CSF subgroup",
+     "design": "cohort",
+     "result": "Cognitive dysfunction was common but unrelated to mood or fatigue; CSF single-cell data showed monocyte recruitment, chemokine signalling and suppressed interferon response, and slow recovery with rising CXCL8, CCL3L1 and sTREM2.",
+     "url": "https://doi.org/10.1016/j.xcrm.2024.101561",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Hornig 2017",
+     "n": "32 classical vs 27 atypical (CSF)",
+     "design": "case-control",
+     "result": "CSF 51-plex cytokines differed between atypical and classical ME/CFS (lower IL-17A, CXCL9 in atypical); IL-1RA pattern suggests IL-1 signalling disturbance in classical.",
+     "url": "https://doi.org/10.1038/tp.2017.44",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    }
+   ]
   },
   {
    "id": "immune-innate-hyperreactivity",
@@ -792,7 +1337,53 @@
     "gut-dysbiosis",
     "cell-danger-response"
    ],
-   "test_available": "research only"
+   "test_available": "research only",
+   "sweep": [
+    {
+     "cite": "Chao 1991",
+     "n": "",
+     "design": "case-control",
+     "result": "Serum bioactive TGF-beta was higher (290 vs 104 pg/mL, P<0.01) and LPS-stimulated PBMC release of IL-1 beta, IL-6 and TNF-alpha was higher, while TGF-beta release was lower.",
+     "url": "https://doi.org/10.1016/1043-4666(91)90497-2",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Uhde 2023",
+     "n": "",
+     "design": "case-control",
+     "result": "Suppressed innate response to microbial translocation with compromised gut epithelium in ME/CFS at rest and after exercise; altered glucose/citrate metabolism and IL-10.",
+     "url": "https://doi.org/10.1016/j.bbih.2023.100627",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Gaab 2005",
+     "n": "21 vs 20",
+     "design": "case-control",
+     "result": "After a psychosocial stress test, LPS-stimulated IL-6 and TNF-alpha production fell in CFS but rose in controls.",
+     "url": "https://doi.org/10.1016/j.psyneuen.2004.06.008",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Nakamura 2013",
+     "n": "",
+     "design": "case-control",
+     "result": "Exercise and sleep deprivation did not upregulate proinflammatory cytokines in blood or PBLs.",
+     "url": "https://doi.org/10.1128/cvi.00527-13",
+     "verified": true,
+     "sweep": true,
+     "relation": "contradicts",
+     "importance": 2
+    }
+   ]
   },
   {
    "id": "immune-monocytes-platelets",
@@ -830,7 +1421,20 @@
     "microclots",
     "complement-thromboinflammation"
    ],
-   "test_available": "research only"
+   "test_available": "research only",
+   "sweep": [
+    {
+     "cite": "Berentschot 2022, preprint",
+     "n": "37 patients",
+     "design": "case-control",
+     "result": "Severe fatigue in long COVID associated with monocyte inflammatory gene expression and raised serum proteins",
+     "url": "https://doi.org/10.1101/2022.09.15.22279970",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    }
+   ]
   },
   {
    "id": "immune-cfrna",
@@ -945,7 +1549,119 @@
     "vascular-endothelial",
     "autonomic-small-fibre"
    ],
-   "test_available": "CellTrend GPCR antibody panels are purchasable privately; the evidence does not support using them for diagnosis or treatment decisions"
+   "test_available": "CellTrend GPCR antibody panels are purchasable privately; the evidence does not support using them for diagnosis or treatment decisions",
+   "sweep": [
+    {
+     "cite": "Sotzny 2022",
+     "n": "",
+     "design": "case-control",
+     "result": "Autoantibodies to vaso- and immunoregulatory GPCRs dysregulated in PCS and correlate with symptom severity",
+     "url": "https://doi.org/10.3389/fimmu.2022.981532",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Tanaka 2003",
+     "n": "60 vs 33 autoimmune vs 30 controls",
+     "design": "case-control",
+     "result": "Anti-muscarinic M1 receptor antibodies found in 53% of CFS (p<0.0001 vs controls); linked to muscle weakness score.",
+     "url": "https://doi.org/10.3892/ijmm.12.2.225",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Seidel 2026",
+     "n": "9 paired",
+     "design": "open-label",
+     "result": "Tixagevimab/cilgavimab in immunodeficient long COVID ME/CFS lowered beta1-adrenergic autoantibodies (p=0.003) but spike protein and clinical outcomes did not change significantly.",
+     "url": "https://doi.org/10.1016/j.imlet.2026.107247",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Achleitner 2023",
+     "n": "",
+     "design": "open-label",
+     "result": "After therapeutic apheresis, symptom improvement tracked falls in neurotransmitter autoantibodies, lipids, inflammation and 70% fibrinogen; rouleaux and fibrin fibres disappeared.",
+     "url": "https://doi.org/10.1038/s41380-023-02084-1",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Ryabkova 2023",
+     "n": "",
+     "design": "case-control",
+     "result": "Autoantibody correlation networks associated with symptom severity in FM and ME/CFS",
+     "url": "https://doi.org/10.3390/biomedicines11020257",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Freitag 2021",
+     "n": "116",
+     "design": "cross-sectional",
+     "result": "Autoantibodies to adrenergic, muscarinic, ETA/B and AT1 receptors correlated with fatigue, pain and cognition mainly in infection-triggered ME/CFS.",
+     "url": "https://doi.org/10.3390/jcm10163675",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Szklarski 2021",
+     "n": "",
+     "design": "case-control",
+     "result": "sCD26 lower only in women; in infection-triggered ME/CFS low sCD26 associated with alpha1-adrenergic and M3 autoantibodies, T-cell activation and IL-1b.",
+     "url": "https://doi.org/10.3389/fimmu.2021.644548",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Hartwig 2020",
+     "n": "5 high-AAB, 5 normal, 6 controls",
+     "design": "in vitro",
+     "result": "IgG from healthy controls stimulated beta2-adrenergic receptor signalling and modulated monocyte cytokines and T-cell proliferation, but IgG from ME/CFS with high beta2 antibodies did not.",
+     "url": "https://doi.org/10.1016/j.bbih.2020.100047",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Hoheisel 2024, preprint",
+     "n": "",
+     "design": "case-control",
+     "result": "IgG to EBV arginine-rich sequences and to human antigens (SRRM3, SLC24A3, TSPLY2, TSPYL5) and alpha-adrenergic receptors more frequent in PCS and ME/CFS, associated with autonomic, fatigue, cognitive and pain symptoms.",
+     "url": "https://doi.org/10.1101/2024.12.30.24319800",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Achleitner 2026",
+     "n": "206 across 3 groups",
+     "design": "case-control",
+     "result": "Autoantibodies against 13 neurotransmitter-related receptors did not differ between new-onset post-COVID fatigue, pre-existing fatigue and controls, nor track fatigue severity.",
+     "url": "https://doi.org/10.1016/j.bbih.2026.101393",
+     "verified": true,
+     "sweep": true,
+     "relation": "contradicts",
+     "importance": 2
+    }
+   ]
   },
   {
    "id": "immune-immunoadsorption",
@@ -1006,7 +1722,42 @@
     "autoimmunity",
     "low-blood-volume-preload"
    ],
-   "test_available": "Offered privately in some clinics; controlled evidence is negative"
+   "test_available": "Offered privately in some clinics; controlled evidence is negative",
+   "sweep": [
+    {
+     "cite": "Stein 2023",
+     "n": "10 interim",
+     "design": "open-label",
+     "result": "Repeat immunoadsorption: 7 of 10 responders (SF36-PF rise 10-35 points at week 4).",
+     "url": "https://doi.org/10.3390/jcm12196428",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Anft 2024, preprint",
+     "n": "12",
+     "design": "open-label",
+     "result": "Immunoadsorption improved neuropsychological function and handgrip strength at 30 days but not self-reported symptoms or ME/CFS scores; removed autoantibodies rebounded within a month; spike-protein-positive patients showed cytokine-autoantibody correlations.",
+     "url": "https://doi.org/10.1101/2024.09.25.24314345",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Achleitner 2023",
+     "n": "",
+     "design": "open-label",
+     "result": "After therapeutic apheresis, symptom improvement tracked falls in neurotransmitter autoantibodies, lipids, inflammation and 70% fibrinogen; rouleaux and fibrin fibres disappeared.",
+     "url": "https://doi.org/10.1038/s41380-023-02084-1",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    }
+   ]
   },
   {
    "id": "immune-bc007",
@@ -1106,7 +1857,31 @@
     "autonomic-small-fibre",
     "serum-factor"
    ],
-   "test_available": "research only"
+   "test_available": "research only",
+   "sweep": [
+    {
+     "cite": "Liu 2025, preprint",
+     "n": "patient IgG on cells",
+     "design": "in vitro",
+     "result": "Patient IgG and its Fab fragment induce mitochondrial fragmentation/altered energetics in healthy cells; IgG-bound complexes differ (ECM in ME/CFS, hemostasis in PASC); IgG from each drives distinct cytokine secretion.",
+     "url": "https://doi.org/10.1101/2025.08.06.25332978",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Chen 2024, preprint",
+     "n": "",
+     "design": "animal",
+     "result": "IgG from long COVID patients (3 proteome-defined subgroups) transferred persistent sensory hypersensitivity or reduced locomotion to mice.",
+     "url": "https://doi.org/10.1101/2024.05.30.596590",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    }
+   ]
   },
   {
    "id": "immune-igg-endothelial",
@@ -1154,7 +1929,20 @@
     "vascular-endothelial",
     "mitochondrial-energy"
    ],
-   "test_available": "research only"
+   "test_available": "research only",
+   "sweep": [
+    {
+     "cite": "Liu 2025, preprint",
+     "n": "patient IgG on cells",
+     "design": "in vitro",
+     "result": "Patient IgG and its Fab fragment induce mitochondrial fragmentation/altered energetics in healthy cells; IgG-bound complexes differ (ECM in ME/CFS, hemostasis in PASC); IgG from each drives distinct cytokine secretion.",
+     "url": "https://doi.org/10.1101/2025.08.06.25332978",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    }
+   ]
   },
   {
    "id": "immune-igg-subclass",
@@ -1209,7 +1997,31 @@
     "viral-persistence",
     "connective-tissue"
    ],
-   "test_available": "Clinical: total IgG/IgA/IgM plus IgG1-4 subclasses; MBL is available in some centres. Cheap and interpretable by an immunologist."
+   "test_available": "Clinical: total IgG/IgA/IgM plus IgG1-4 subclasses; MBL is available in some centres. Cheap and interpretable by an immunologist.",
+   "sweep": [
+    {
+     "cite": "Scheibenbogen 2021",
+     "n": "17",
+     "design": "open-label",
+     "result": "12-month s.c. IgG: 5 of 12 per-protocol completers responded; 4 stopped for adverse events; LDH and sIL-2R suggested as response markers.",
+     "url": "https://doi.org/10.3390/jcm10112420",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Natelson 1998",
+     "n": "71 CFS vs 65 controls vs 23 MS vs 21 MDD",
+     "design": "case-control",
+     "result": "Of 18 immune variables only IgG1 and IgG3 differed in CFS versus controls, and the subclass deficiency was lowest in CFS with axis-I disorder and lost significance once MS and depression were included.",
+     "url": "https://doi.org/10.1016/s0002-9343(98)00165-x",
+     "verified": true,
+     "sweep": true,
+     "relation": "contradicts",
+     "importance": 2
+    }
+   ]
   },
   {
    "id": "immune-mast-cell",
@@ -1293,7 +2105,20 @@
     "innate-hyperactivation",
     "metabolic-trap-ido"
    ],
-   "test_available": "research only (prospective design)"
+   "test_available": "research only (prospective design)",
+   "sweep": [
+    {
+     "cite": "Péron 2024, preprint",
+     "n": "54",
+     "design": "cohort",
+     "result": "Acute-phase IL-1RA, IFN-gamma, TNF-alpha and monocyte percentage predicted physical and total fatigue 6-9 months later (TNF-alpha r=-0.40 with awareness of cognitive fatigue).",
+     "url": "https://doi.org/10.21203/rs.3.rs-4374986/v1",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    }
+   ]
   },
   {
    "id": "immune-sickness-behaviour",
@@ -1347,7 +2172,97 @@
     "innate-hyperactivation",
     "neuroinflammation"
    ],
-   "test_available": "research only"
+   "test_available": "research only",
+   "sweep": [
+    {
+     "cite": "Maes 2012",
+     "n": "107 ME/CFS, 37 CF, 20 controls",
+     "design": "case-control",
+     "result": "IL-1, TNF-alpha, neopterin, lysozyme and PMN-elastase were higher in ME/CFS than controls and CF; IL-1 and TNF correlated with fatigue and flu-like malaise.",
+     "url": "https://doi.org/10.1016/j.jad.2011.09.004",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Péron 2024, preprint",
+     "n": "54",
+     "design": "cohort",
+     "result": "Acute-phase IL-1RA, IFN-gamma, TNF-alpha and monocyte percentage predicted physical and total fatigue 6-9 months later (TNF-alpha r=-0.40 with awareness of cognitive fatigue).",
+     "url": "https://doi.org/10.21203/rs.3.rs-4374986/v1",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Nuber-Champier 2025",
+     "n": "54",
+     "design": "cohort",
+     "result": "Acute IL-1RA, IFN-gamma, TNF-alpha and monocyte percentage predicted physical and total fatigue 6-9 months later.",
+     "url": "https://doi.org/10.1016/j.bbih.2025.101109",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Jonsjö 2020",
+     "n": "38 ME/CFS, 190 chronic pain vs 29 LPS, 163 primary care, 155 general, 48 healthy",
+     "design": "cross-sectional",
+     "result": "Self-rated sickness behaviour (SicknessQ) in ME/CFS and chronic pain was similar to that of healthy people at peak LPS-induced inflammation.",
+     "url": "https://doi.org/10.1016/j.bbih.2019.100028",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Jason 2014",
+     "n": ">300 adolescents with IM",
+     "design": "cohort",
+     "result": "Baseline autonomic symptoms and days in bed after mononucleosis were the only predictors of CFS at 6 months.",
+     "url": "https://doi.org/10.1080/21642850.2013.869176",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Arnold 2002",
+     "n": "19 vs 10",
+     "design": "crossover",
+     "result": "IL-6 infusion raised somatic symptoms faster in CFS than controls but did not impair cognition in either group.",
+     "url": "https://doi.org/10.1017/s0033291702006086",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Selvakumar 2025",
+     "n": "",
+     "design": "cohort",
+     "result": "Prospective controlled cohort: SARS-CoV-2 positivity a minor risk factor for 6-month fatigue; baseline symptom severity and psychosocial factors dominated, not biomarkers.",
+     "url": "https://doi.org/10.1016/j.bbih.2025.100967",
+     "verified": true,
+     "sweep": true,
+     "relation": "contradicts",
+     "importance": 2
+    },
+    {
+     "cite": "Freidin 2023",
+     "n": "",
+     "design": "cohort",
+     "result": "Pre-pandemic plasma IL-6 did not predict long-COVID fatigue after mild COVID-19",
+     "url": "https://doi.org/10.1007/s00011-023-01722-2",
+     "verified": true,
+     "sweep": true,
+     "relation": "contradicts",
+     "importance": 2
+    }
+   ]
   },
   {
    "id": "immune-longcovid-overlap",
@@ -1442,7 +2357,53 @@
     "complement-thromboinflammation",
     "hpa-endocrine"
    ],
-   "test_available": "EBV and CMV serology and PCR are clinically available; interpretation is limited (IgG shows past infection only)"
+   "test_available": "EBV and CMV serology and PCR are clinically available; interpretation is limited (IgG shows past infection only)",
+   "sweep": [
+    {
+     "cite": "Raijmakers 2025",
+     "n": "30 studies, 833 cases; 11 studies 413 cases",
+     "design": "meta-analysis",
+     "result": "Meta-analysis: PIFS had higher WBC at 3-6 months (d=0.41), RANTES (d=0.45) and TNF-alpha (d=0.30) at 6-12 months vs recovered controls.",
+     "url": "https://doi.org/10.1016/j.ebiom.2025.105970",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 3
+    },
+    {
+     "cite": "Kwon 2025",
+     "n": "156 samples from 79 participants",
+     "design": "cohort",
+     "result": "Symptoms including PEM, fatigue, brain fog, GI symptoms accompanied by higher IL-10, VEGF, MIP-1a, IL-1b, IL-6, IL-8, MIG, granzyme A, CX3CL1.",
+     "url": "https://doi.org/10.3904/kjim.2024.217",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Gunning 2026",
+     "n": "",
+     "design": "case-control",
+     "result": "Pre-pandemic POTS and long COVID POTS have indistinguishable elevations in 14 of 15 inflammatory markers, including Caspase-1p20, IL-1b and IL-18, vs controls.",
+     "url": "https://doi.org/10.3390/biomedicines14071605",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Nuber-Champier 2025",
+     "n": "54",
+     "design": "cohort",
+     "result": "Acute IL-1RA, IFN-gamma, TNF-alpha and monocyte percentage predicted physical and total fatigue 6-9 months later.",
+     "url": "https://doi.org/10.1016/j.bbih.2025.101109",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    }
+   ]
   },
   {
    "id": "immune-genetics-null",
@@ -1571,7 +2532,42 @@
    "contradicting": [],
    "hypotheses": [],
    "open_questions": [],
-   "test_available": false
+   "test_available": false,
+   "sweep": [
+    {
+     "cite": "Hoheisel 2024, preprint",
+     "n": "",
+     "design": "case-control",
+     "result": "IgG to EBV arginine-rich sequences and to human antigens (SRRM3, SLC24A3, TSPLY2, TSPYL5) and alpha-adrenergic receptors more frequent in PCS and ME/CFS, associated with autonomic, fatigue, cognitive and pain symptoms.",
+     "url": "https://doi.org/10.1101/2024.12.30.24319800",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Giannoccaro 2019",
+     "n": "50 vs 50",
+     "design": "case-control",
+     "result": "Antibodies to neuronal proteins were not more frequent in ME/CFS (specific antibodies in 1 patient vs 2 controls); seropositivity linked to shorter duration and more severity.",
+     "url": "https://doi.org/10.1016/j.clinthera.2019.04.001",
+     "verified": true,
+     "sweep": true,
+     "relation": "contradicts",
+     "importance": 2
+    },
+    {
+     "cite": "Chakravarty 2026, preprint",
+     "n": "",
+     "design": "case-control",
+     "result": "CSF and serum autoantibody profiling in neurological long COVID found heterogeneous, patient-specific reactivities without a shared signature.",
+     "url": "https://doi.org/10.64898/2026.03.19.26348833",
+     "verified": true,
+     "sweep": true,
+     "relation": "contradicts",
+     "importance": 2
+    }
+   ]
   },
   {
    "id": "immune-galectin9-artemin-lc",
@@ -1639,7 +2635,20 @@
    "contradicting": [],
    "hypotheses": [],
    "open_questions": [],
-   "test_available": false
+   "test_available": false,
+   "sweep": [
+    {
+     "cite": "Rostami-Afshari 2025",
+     "n": "56 vs 16",
+     "design": "cross-sectional",
+     "result": "Lower urine-to-plasma ratio of soluble SMPDL3B and reduced renal clearance in ME patients; metabolomic changes, more pronounced in women.",
+     "url": "https://doi.org/10.3390/ijms26188882",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    }
+   ]
   },
   {
    "id": "immune-rnase-l",
@@ -1661,7 +2670,53 @@
    "contradicting": [],
    "hypotheses": [],
    "open_questions": [],
-   "test_available": false
+   "test_available": false,
+   "sweep": [
+    {
+     "cite": "De Meirleir 2000",
+     "n": "57 vs 53 (28 healthy, 25 depression/FM)",
+     "design": "case-control",
+     "result": "A 37 kDa 2-5A binding polypeptide was found in 88% of CFS patients vs 28% of controls, and in 11% of healthy subjects.",
+     "url": "https://doi.org/10.1016/s0002-9343(99)00300-9",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Suhadolnik 1997",
+     "n": "",
+     "design": "case-control",
+     "result": "A subset of CFS PBMC showed only a 37 kDa or 30 kDa 2-5A-dependent RNase L species rather than 80 and 42 kDa, indicating more complex RNase L dysfunction.",
+     "url": "https://doi.org/10.1089/jir.1997.17.377",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Suhadolnik 1994",
+     "n": "",
+     "design": "RCT",
+     "result": "Baseline bioactive 2-5A (p<0.0001) and RNase L activity (p=0.001) were elevated; poly(I)-poly(C12U) lowered both in those with high baseline, correlating with cognitive improvement.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/7893988/",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Gow 2001",
+     "n": "22 CFS vs 10 gastroenteritis vs 21 healthy",
+     "design": "case-control",
+     "result": "RNase L and PKR antiviral pathway gene expression was upregulated in acute infection but not in CFS, so activation is unlikely to serve as a CFS diagnostic.",
+     "url": "https://doi.org/10.1086/324357",
+     "verified": true,
+     "sweep": true,
+     "relation": "contradicts",
+     "importance": 2
+    }
+   ]
   }
  ],
  "hypotheses_notes": [

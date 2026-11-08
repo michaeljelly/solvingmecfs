@@ -1,0 +1,4046 @@
+[
+ {
+  "id": "31179251",
+  "relevant": "core",
+  "population": "ME/CFS (women, criteria not stated)",
+  "design": "cross-sectional",
+  "n": "36 women",
+  "finding": "36.1% of women with CFS reported endometriosis; those with EM had more pelvic pain (OR 9.0) and hysterectomy (OR 10.3) than CFS-only.",
+  "atlas": [
+   "endocrine-gynaecological-menopause"
+  ],
+  "relation": "replicates",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "secondary analysis, tiny n, no controls"
+ },
+ {
+  "id": "31139604",
+  "relevant": "related",
+  "population": "ME/CFS (ICD-9 780.71)",
+  "design": "cross-sectional",
+  "n": "2.9 million visits",
+  "finding": "US ambulatory data 2000-2009: ME/CFS visits stable, 71% had comorbidities (depression 36%).",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "31088562",
+  "relevant": "related",
+  "population": "ME/CFS (Taiwan registry code)",
+  "design": "cohort",
+  "n": "2616 psoriasis vs 10464",
+  "finding": "Psoriasis was associated with later CFS diagnosis (adjusted HR 1.48, 95% CI 1.07-2.06), attenuated by phototherapy or immunomodulators.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "registry diagnosis codes"
+ },
+ {
+  "id": "31072121",
+  "relevant": "related",
+  "population": "ME/CFS",
+  "design": "meta-analysis",
+  "n": "18 RCTs",
+  "finding": "Systematic review rates methodological quality of CBT and GET RCTs as low, with bias affecting subjective primary outcomes.",
+  "atlas": [
+   "trials-pace-get-cbt"
+  ],
+  "relation": "extends",
+  "steps": [],
+  "treatments": [
+   "cbt-supportive",
+   "graded-exercise"
+  ],
+  "importance": 2,
+  "note": null
+ },
+ {
+  "id": "31073713",
+  "relevant": "related",
+  "population": "ME/CFS",
+  "design": "other",
+  "n": null,
+  "finding": "Opinion piece arguing ME, CFS and chronic fatigue are distinct entities and that CBT/GET are ineffective.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "opinion"
+ },
+ {
+  "id": "31206075",
+  "relevant": "related",
+  "population": "paediatric CFS/ME",
+  "design": "cross-sectional",
+  "n": "138 children",
+  "finding": "Accelerometer data: children with mild-moderate CFS/ME did less than half recommended activity; three latent activity classes.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "baseline of MAGENTA trial"
+ },
+ {
+  "id": "31053295",
+  "relevant": "core",
+  "population": "ME/CFS",
+  "design": "case-control",
+  "n": "50 vs 50",
+  "finding": "Antibodies to neuronal proteins were not more frequent in ME/CFS (specific antibodies in 1 patient vs 2 controls); seropositivity linked to shorter duration and more severity.",
+  "atlas": [
+   "immune-neural-autoantibodies"
+  ],
+  "relation": "contradicts",
+  "steps": [
+   2
+  ],
+  "treatments": [],
+  "importance": 2,
+  "note": null
+ },
+ {
+  "id": "31040055",
+  "relevant": "core",
+  "population": "ME/CFS (in vitro)",
+  "design": "in vitro",
+  "n": null,
+  "finding": "EBV dUTPase altered expression of BBB and synaptic genes in human astrocytes, microglia and endothelial cells.",
+  "atlas": [
+   "infection-herpes-dutpase-antibodies"
+  ],
+  "relation": "extends",
+  "steps": [
+   7
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": "cell lines only"
+ },
+ {
+  "id": "31014226",
+  "relevant": "core",
+  "population": "ME/CFS",
+  "design": "case-control",
+  "n": null,
+  "finding": "Patch-clamp in a new cohort confirmed impaired TRPM3 activity in patients' NK cells.",
+  "atlas": [
+   "immune-trpm3",
+   "genetics-trpm3"
+  ],
+  "relation": "replicates",
+  "steps": [],
+  "treatments": [],
+  "importance": 2,
+  "note": "same group as original"
+ },
+ {
+  "id": "31058116",
+  "relevant": "related",
+  "population": "ME/CFS",
+  "design": "other",
+  "n": null,
+  "finding": "Historical comparison of ME/CFS and HIV/AIDS research and care.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "review"
+ },
+ {
+  "id": "30974900",
+  "relevant": "core",
+  "population": "ME/CFS (UK Biobank)",
+  "design": "case-control",
+  "n": "272 vs 136",
+  "finding": "Routine labs mostly normal, but serum creatine kinase was lower in severe ME/CFS (median 54 vs 101.5 U/L in controls; OR 0.05 vs controls).",
+  "atlas": [
+   "muscle-exertion-muscle-proteins-blood"
+  ],
+  "relation": "extends",
+  "steps": [
+   5,
+   6
+  ],
+  "treatments": [],
+  "importance": 2,
+  "note": null
+ },
+ {
+  "id": "30945566",
+  "relevant": "related",
+  "population": "paediatric CFS",
+  "design": "case-control",
+  "n": "121 vs 80 HC vs 27 asthma",
+  "finding": "Adolescents with CFS scored higher on depression subscales than healthy and asthma controls.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "31788347",
+  "relevant": "related",
+  "population": "ME/CFS",
+  "design": "cross-sectional",
+  "n": "1002 cases, 53 HC, 260 other illness",
+  "finding": "Requirement of substantial functional reduction is redundant for stringent case definitions.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "30927920",
+  "relevant": "related",
+  "population": "rat CFS model",
+  "design": "animal",
+  "n": null,
+  "finding": "In the chronic stress rat model, proprioceptor hyperactivation and spinal microglia accompanied long-lasting pain.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "model validity unclear"
+ },
+ {
+  "id": "30929860",
+  "relevant": "related",
+  "population": "ME/CFS (women)",
+  "design": "other",
+  "n": null,
+  "finding": "Computational model of endocrine-immune signalling constrained to exercise-challenge cytokine data predicts overexpression of CRH, CXCL8, estrogen, FSH and LH at rest.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [
+   2
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": "modelling, predictions only"
+ },
+ {
+  "id": "30917692",
+  "relevant": "related",
+  "population": "FM/CFS/MCS",
+  "design": "qualitative",
+  "n": "13",
+  "finding": "Life-story interviews show stigmatisation and lack of legitimacy in contested illnesses.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "30908516",
+  "relevant": "core",
+  "population": "CFS (criteria not stated)",
+  "design": "case-control",
+  "n": "42 patients vs 9 controls (15 patients combined network)",
+  "finding": "Network analysis of autonomic, cortisol and cytokine measures found patients' autonomic network split into two modules (blood pressure and stroke volume dominated).",
+  "atlas": [
+   "neuro-hrv"
+  ],
+  "relation": "none",
+  "steps": [
+   2
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": "preliminary, exploratory"
+ },
+ {
+  "id": "30910331",
+  "relevant": "related",
+  "population": "ME/CFS",
+  "design": "meta-analysis",
+  "n": null,
+  "finding": "Systematic review of ME/CFS epigenetic studies plus transposable-element screening proposes endogenous transposon activation driving innate immune activation.",
+  "atlas": [
+   "omics-methylation",
+   "infection-herv-expression"
+  ],
+  "relation": "extends",
+  "steps": [
+   1
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": "in silico hypothesis"
+ },
+ {
+  "id": "30895822",
+  "relevant": "related",
+  "population": "ME/CFS carers",
+  "design": "qualitative",
+  "n": "7 carers",
+  "finding": "Family carers report identity and relationship disruption and distress from scepticism.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "30895436",
+  "relevant": "core",
+  "population": "CFS",
+  "design": "case-control",
+  "n": null,
+  "finding": "CD57 expression on T cells was lower in CFS (percent 7.5 vs 13.3, p=0.024; per-cell 331 vs 1003, p<=0.0001).",
+  "atlas": [
+   "immune-cd8-exhaustion"
+  ],
+  "relation": "new",
+  "steps": [
+   1
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": "small, single centre, n not given"
+ },
+ {
+  "id": "31006534",
+  "relevant": "related",
+  "population": "CFS (CDC 2003)",
+  "design": "cohort",
+  "n": "511",
+  "finding": "After CBT, shorter illness duration, lower baseline fatigue and lower frustration predicted better long-term outcome (up to 10 years).",
+  "atlas": [
+   "trials-pace-get-cbt"
+  ],
+  "relation": "none",
+  "steps": [],
+  "treatments": [
+   "cbt-supportive"
+  ],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "30889846",
+  "relevant": "related",
+  "population": "FM and ME/CFS",
+  "design": "other",
+  "n": null,
+  "finding": "Database review of commonly prescribed drugs that may alter candidate miRNA biomarkers in FM and ME/CFS.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "in silico"
+ },
+ {
+  "id": "31563377",
+  "relevant": "related",
+  "population": "CFS (Fukuda)",
+  "design": "cross-sectional",
+  "n": "27 women",
+  "finding": "Timed loaded standing endurance correlated with SF-36 physical functioning only, among self-report and test pairs.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "30873864",
+  "relevant": "related",
+  "population": "paediatric CFS",
+  "design": "case-control",
+  "n": "121 vs 27 asthma",
+  "finding": "Adolescents with CFS scored higher on unhelpful cognitive and behavioural responses to symptoms, which predicted later fatigue.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "questionnaire only"
+ },
+ {
+  "id": "30871578",
+  "relevant": "core",
+  "population": "ME/CFS",
+  "design": "case-control",
+  "n": "16 vs 10",
+  "finding": "Work rate at ventilatory threshold fell more from day 1 to day 2 of CPET in ME/CFS (6.3-9.8% decrease proposed cut-off).",
+  "atlas": [
+   "muscle-exertion-two-day-cpet"
+  ],
+  "relation": "replicates",
+  "steps": [
+   6
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": "small"
+ },
+ {
+  "id": "30871632",
+  "relevant": "related",
+  "population": "CFS",
+  "design": "other",
+  "n": null,
+  "finding": "Authors defend PACE trial conclusions against Wilshire reanalysis.",
+  "atlas": [
+   "trials-pace-get-cbt"
+  ],
+  "relation": "none",
+  "steps": [],
+  "treatments": [
+   "cbt-supportive",
+   "graded-exercise"
+  ],
+  "importance": 1,
+  "note": "commentary by trial authors"
+ },
+ {
+  "id": "30859928",
+  "relevant": "related",
+  "population": "CFS",
+  "design": "open-label",
+  "n": "123 vs 583 historical",
+  "finding": "Uncontrolled stepped-care CBT in community mental health improved fatigue and function with sustained gains, but less than specialist centre outcomes.",
+  "atlas": [
+   "trials-pace-get-cbt"
+  ],
+  "relation": "none",
+  "steps": [],
+  "treatments": [
+   "cbt-supportive"
+  ],
+  "importance": 1,
+  "note": "no control, self-report outcomes"
+ },
+ {
+  "id": "30871727",
+  "relevant": "related",
+  "population": "ME/CFS",
+  "design": "other",
+  "n": null,
+  "finding": "Commentary: most single-agent drug trials in ME/CFS inconclusive; proposes combination, systems-level approaches.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "30877861",
+  "relevant": "related",
+  "population": "CFS vs depression (general participants, questionnaire-defined)",
+  "design": "case-control",
+  "n": "295",
+  "finding": "NMR plasma metabolite profiles separated depression from fatigue groups with CNN and PLS-DA.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "questionnaire-defined, not clinical CFS"
+ },
+ {
+  "id": "30850404",
+  "relevant": "related",
+  "population": "CFS/ME (Fukuda)",
+  "design": "cross-sectional",
+  "n": "69 confirmed from 1400",
+  "finding": "Only 69 of 1400 fatigued Poles met Fukuda criteria; 50% had orthostatic intolerance symptoms and 62% daytime sleepiness.",
+  "atlas": [
+   "vascular-pots-overlap"
+  ],
+  "relation": "none",
+  "steps": [
+   2
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "30851951",
+  "relevant": "core",
+  "population": "ME/CFS (Fukuda)",
+  "design": "case-control",
+  "n": "33 vs 21",
+  "finding": "Gene-module analysis of expression data found small effects in immune regulation and mitochondrial modules, with sex differences; used to suggest repurposed drugs.",
+  "atlas": [
+   "omics-transcriptome-sc"
+  ],
+  "relation": "extends",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "small, exploratory, drug repositioning in silico"
+ },
+ {
+  "id": "30829147",
+  "relevant": "related",
+  "population": "ME/CFS",
+  "design": "qualitative",
+  "n": null,
+  "finding": "Thematic analysis of patient reports of dismissive physician encounters.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "30832336",
+  "relevant": "related",
+  "population": "ME/CFS",
+  "design": "survey",
+  "n": "1534",
+  "finding": "Patient-driven PEM survey identified domains (triggers, onset, duration) that existing PEM questionnaires miss.",
+  "atlas": [
+   "muscle-exertion-pem-timing"
+  ],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "30821511",
+  "relevant": "related",
+  "population": "paediatric CFS",
+  "design": "case-control",
+  "n": "121 vs 27 asthma vs 78 HC",
+  "finding": "Adolescents with CFS did not consistently show higher perfectionism or unhelpful beliefs about emotions; neither predicted later fatigue.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "30814539",
+  "relevant": "core",
+  "population": "ME/CFS",
+  "design": "genetic",
+  "n": "UK 89 moderate + 29 severe; South Africa 143 moderate",
+  "finding": "No pathogenic mtDNA mutations; patients in both cohorts had excess of individuals lacking a mildly deleterious population mtDNA variant.",
+  "atlas": [
+   "genetics-mtdna-haplogroups"
+  ],
+  "relation": "extends",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "control comparison details not in abstract"
+ },
+ {
+  "id": "30798255",
+  "relevant": "related",
+  "population": "paediatric CFS (paediatrician diagnosed)",
+  "design": "survey",
+  "n": "164 cases",
+  "finding": "Australian surveillance: incidence 0.25/100,000 in ages 4-9; marked regional variation in 10-17 (Victoria 17.5/100,000); most cases female, post-infectious.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "30795765",
+  "relevant": "related",
+  "population": "CFS (Taiwan registry)",
+  "design": "cohort",
+  "n": "2163 IBD vs 4x matched controls",
+  "finding": "IBD was associated with higher later risk of CFS diagnosis (adjusted HR 2.25, 95% CI 1.70-2.99).",
+  "atlas": [
+   "gut-ibs-overlap"
+  ],
+  "relation": "extends",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "registry codes"
+ },
+ {
+  "id": "30847333",
+  "relevant": "related",
+  "population": "paediatric ME/CFS",
+  "design": "cohort",
+  "n": "784",
+  "finding": "Follow-up mean 8 years: 38% reported recovery by 5 years and 68% by 10 years; mean illness duration 5 years among those recovered.",
+  "atlas": [
+   "trials-recovery-rates"
+  ],
+  "relation": "contradicts",
+  "steps": [],
+  "treatments": [],
+  "importance": 2,
+  "note": "self-reported recovery, specialist hospital, response 82%"
+ },
+ {
+  "id": "30795933",
+  "relevant": "related",
+  "population": "ME/CFS and FM",
+  "design": "other",
+  "n": null,
+  "finding": "Commentary argues ME/CFS and fibromyalgia are distinct illnesses.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "30855100",
+  "relevant": "not",
+  "population": "academics",
+  "design": "cross-sectional",
+  "n": null,
+  "finding": null,
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "burnout in non-patients"
+ },
+ {
+  "id": "30828572",
+  "relevant": "related",
+  "population": "adolescent ME/CFS (Fukuda)",
+  "design": "cross-sectional",
+  "n": "55 vs 55 HC",
+  "finding": "Adolescents with ME/CFS had markedly worse quality of life than controls; orthostatic intolerance in 96%; 85% met IOM criteria.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "30770020",
+  "relevant": "related",
+  "population": "adolescent CFS",
+  "design": "cross-sectional",
+  "n": "49 CFS vs 52 T1D vs 42 JIA",
+  "finding": "Adolescents with CFS differed from other chronic illness groups on illness perception dimensions.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "30734339",
+  "relevant": "related",
+  "population": "ME/CFS",
+  "design": "other",
+  "n": null,
+  "finding": "Ethics argument against classifying ME/CFS as a mental health disorder in UK guideline.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "30805319",
+  "relevant": "related",
+  "population": "ME/CFS (Fukuda)",
+  "design": "survey",
+  "n": "150",
+  "finding": "Survey: 64% reported infection around onset; 47% unable to work; 59% fluctuating course, 4% steadily improving.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "30721241",
+  "relevant": "core",
+  "population": "CFS (Fukuda)",
+  "design": "case-control",
+  "n": "48 unselected; 51 CFS vs 20 controls",
+  "finding": "Cognitive deficits in psychomotor speed persisted in CFS without depression (digit-symbol p=0.004) and correlated with heart rate variability.",
+  "atlas": [
+   "neuro-cognition",
+   "neuro-hrv"
+  ],
+  "relation": "replicates",
+  "steps": [
+   2
+  ],
+  "treatments": [],
+  "importance": 2,
+  "note": null
+ },
+ {
+  "id": "30706290",
+  "relevant": "related",
+  "population": "rheumatology clinic (FM/CFS diagnoses)",
+  "design": "case-control",
+  "n": "30 implants vs 3:1 controls",
+  "finding": "FM/CFS more common with silicone breast implants than systemic sclerosis controls (20% vs 2.2%) but not SLE controls.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "30684123",
+  "relevant": "related",
+  "population": "severe paediatric CFS/ME",
+  "design": "cohort",
+  "n": "51",
+  "finding": "Fear-avoidance beliefs predicted later fatigue and social adjustment in young people with severe CFS/ME; questionnaires only.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "30740389",
+  "relevant": "related",
+  "population": "ME/CFS",
+  "design": "other",
+  "n": null,
+  "finding": "Primary care primer on initiating care.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "30719431",
+  "relevant": "related",
+  "population": "paediatric ME/CFS",
+  "design": "other",
+  "n": null,
+  "finding": "Commentary: paediatric prevalence estimates (0-3%) vary widely and misdiagnosis likely inflates them.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "30665828",
+  "relevant": "core",
+  "population": "ME/CFS (women)",
+  "design": "case-control",
+  "n": "36 (ME/CFS and healthy)",
+  "finding": "Submaximal exercise did not change TBARS oxidative stress in ME/CFS; oxidative stress was associated with pain; vagal change partly explained oxidative change in controls only.",
+  "atlas": [
+   "omics-redox",
+   "neuro-hrv"
+  ],
+  "relation": "extends",
+  "steps": [
+   6
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": "secondary analysis"
+ },
+ {
+  "id": "30666170",
+  "relevant": "related",
+  "population": "CFS (physician-diagnosed, survey)",
+  "design": "survey",
+  "n": "282",
+  "finding": "59% had visited an ED; one third of ED presentations consistent with orthostatic intolerance; 42% dismissed as psychosomatic.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [
+   2
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "30632248",
+  "relevant": "related",
+  "population": "ME/CFS and MS",
+  "design": "qualitative",
+  "n": "28",
+  "finding": "Focus groups on research priorities and stigma among biobank participants.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "30671425",
+  "relevant": "related",
+  "population": "ME/CFS (claims codes)",
+  "design": "cross-sectional",
+  "n": null,
+  "finding": "Claims data: diagnosis frequency 519-1038 per 100,000, female relative risk 1.2, 35-40% of diagnosed are men; costs 50% above lupus/MS.",
+  "atlas": [
+   "endocrine-female-preponderance",
+   "trials-prevalence-sex"
+  ],
+  "relation": "extends",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "diagnosis codes, heterogeneous"
+ },
+ {
+  "id": "30605994",
+  "relevant": "core",
+  "population": "CFS vs cancer-related fatigue",
+  "design": "case-control",
+  "n": "20 CFS vs 25 CRF",
+  "finding": "CRF patients had higher hs-CRP and lower HRV than CFS; frontal EEG delta/theta/alpha power related to fatigue in CFS.",
+  "atlas": [
+   "neuro-eeg"
+  ],
+  "relation": "extends",
+  "steps": [
+   2
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": "no healthy control group"
+ },
+ {
+  "id": "31257290",
+  "relevant": "core",
+  "population": "mouse model of CFS",
+  "design": "animal",
+  "n": null,
+  "finding": "Repeated forced swimming in mice lowered muscle PDH activity; PDH activator dichloroacetate reduced fatigue-like behaviour.",
+  "atlas": [
+   "muscle-exertion-pdh-block"
+  ],
+  "relation": "extends",
+  "steps": [
+   5
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": "animal stress model"
+ },
+ {
+  "id": "790977",
+  "relevant": "core",
+  "population": "ME/CFS",
+  "design": "case-control",
+  "n": null,
+  "finding": "Thesis: B cell phenotype differences and metabolic profiling of activated B cells in ME/CFS vs controls (details truncated).",
+  "atlas": [
+   "immune-bcell-maturation"
+  ],
+  "relation": "extends",
+  "steps": [
+   1
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": "thesis, abstract truncated"
+ },
+ {
+  "id": "30791746",
+  "relevant": "core",
+  "population": "ME/CFS (New Zealand)",
+  "design": "case-control",
+  "n": "10 vs 10",
+  "finding": "PBMC RNA-seq: 27 transcripts up (IL8, NFKBIA, TNFAIP3) and 6 down; IL8 and NFKBIA validated by qPCR.",
+  "atlas": [
+   "omics-transcriptome-sc"
+  ],
+  "relation": "extends",
+  "steps": [
+   1
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": "small"
+ },
+ {
+  "id": "30303941",
+  "relevant": "related",
+  "population": "vestibular patients (Fukuda ME/CFS in 63%)",
+  "design": "cohort",
+  "n": "163",
+  "finding": "Among 163 post-trauma BPPV patients, 63% fulfilled Fukuda criteria; speculative link between vestibular disease and ME/CFS.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "selected otoneurology clinic, questionnaire"
+ },
+ {
+  "id": "30325738",
+  "relevant": "related",
+  "population": "ME/CFS",
+  "design": "cross-sectional",
+  "n": "87 vs 94",
+  "finding": "Patients had higher pain, anxiety and depression and lower QoL than controls; pain related to lower QoL within patients.",
+  "atlas": [
+   "neuro-pain-modulation-exercise-hyperalgesia"
+  ],
+  "relation": "extends",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "30325737",
+  "relevant": "core",
+  "population": "ME/CFS",
+  "design": "case-control",
+  "n": "22 vs 22",
+  "finding": "Changes in pressure pain thresholds after exercise were associated with changes in complement C4a in ME/CFS but not with elastase.",
+  "atlas": [
+   "neuro-pain-modulation-exercise-hyperalgesia",
+   "vascular-complement-mecfs"
+  ],
+  "relation": "extends",
+  "steps": [
+   6
+  ],
+  "treatments": [],
+  "importance": 2,
+  "note": "secondary analysis"
+ },
+ {
+  "id": "33628951",
+  "relevant": "related",
+  "population": "ME/CFS",
+  "design": "survey",
+  "n": null,
+  "finding": "Psychiatric referral associated with perceived stigma and estrangement, moderated by country.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "799709",
+  "relevant": "core",
+  "population": "CFS and MI",
+  "design": "case-control",
+  "n": "52 MI patients; CFS n not shown",
+  "finding": "Thesis on herpesvirus-specific interferon-gamma T cell responses in MI and CFS; abstract truncated.",
+  "atlas": [
+   "infection-ebv-deficient-memory"
+  ],
+  "relation": "extends",
+  "steps": [
+   1
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": "thesis, abstract truncated"
+ },
+ {
+  "id": "34043303",
+  "relevant": "related",
+  "population": "ME/CFS",
+  "design": "meta-analysis",
+  "n": null,
+  "finding": "Swedish agency systematic review of treatment, prognosis and care experiences (abstract minimal).",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "30572962",
+  "relevant": "core",
+  "population": "CFS/ME",
+  "design": "meta-analysis",
+  "n": "7 studies",
+  "finding": "Systematic review: gut microbiome differences reported in every study but only three significant and findings inconsistent; study quality poor.",
+  "atlas": [
+   "gut-severity-link",
+   "gut-butyrate-producer-loss"
+  ],
+  "relation": "extends",
+  "steps": [],
+  "treatments": [],
+  "importance": 2,
+  "note": "2018, predates larger cohorts"
+ },
+ {
+  "id": "30577429",
+  "relevant": "related",
+  "population": "ME/CFS",
+  "design": "other",
+  "n": null,
+  "finding": "Opinion contrasting original ME with International Consensus Criteria.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "30618889",
+  "relevant": "related",
+  "population": "CFS/ME (Oxford)",
+  "design": "open-label",
+  "n": "305",
+  "finding": "Uncontrolled 4-day CBT/mindfulness programme: 80% showed self-reported clinical change sustained at 1 year.",
+  "atlas": [
+   "trials-pace-get-cbt"
+  ],
+  "relation": "none",
+  "steps": [],
+  "treatments": [
+   "cbt-supportive"
+  ],
+  "importance": 1,
+  "note": "no control, self-report"
+ },
+ {
+  "id": "30557887",
+  "relevant": "core",
+  "population": "ME/CFS",
+  "design": "meta-analysis",
+  "n": "32 studies",
+  "finding": "Pooled peak VO2 5.2 ml/kg/min lower (95% CI 3.8-6.6) in CFS/ME than healthy controls; high heterogeneity.",
+  "atlas": [
+   "muscle-exertion-low-peak-vo2",
+   "muscle-exertion-deconditioning"
+  ],
+  "relation": "replicates",
+  "steps": [
+   5
+  ],
+  "treatments": [],
+  "importance": 3,
+  "note": "controls not activity-matched"
+ },
+ {
+  "id": "30573989",
+  "relevant": "related",
+  "population": "CFS/FM",
+  "design": "other",
+  "n": null,
+  "finding": "Hypothesis review linking raised intracranial pressure to FM, CFS and IIH.",
+  "atlas": [
+   "neuro-cci"
+  ],
+  "relation": "none",
+  "steps": [
+   2
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": "speculative"
+ },
+ {
+  "id": "32772569",
+  "relevant": "related",
+  "population": "ME/CFS (women over 50)",
+  "design": "qualitative",
+  "n": "10",
+  "finding": "Interviews: patients define recovery as living without fear of relapse and are sceptical complete recovery is possible.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "30518392",
+  "relevant": "related",
+  "population": "CFS (Taiwan registry)",
+  "design": "cohort",
+  "n": "17204 burn vs 4x controls",
+  "finding": "Burn injury associated with later CFS diagnosis (adjusted HR 1.48, 95% CI 1.41-1.56).",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "registry codes"
+ },
+ {
+  "id": "30613800",
+  "relevant": "related",
+  "population": "paediatric CFS/ME",
+  "design": "qualitative",
+  "n": "21 adolescents",
+  "finding": "All described fluctuation and symptom increase after activity (payback), varying in activity amount needed.",
+  "atlas": [
+   "muscle-exertion-pem-timing"
+  ],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "29536371",
+  "relevant": "related",
+  "population": "ME/CFS",
+  "design": "cross-sectional",
+  "n": null,
+  "finding": "UK ME/CFS Biobank: ME/CFS scored lower than MS and controls on almost all SF-36 domains, and had lower employment and income.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "29223146",
+  "relevant": "core",
+  "population": "CFS/ME (ICC)",
+  "design": "case-control",
+  "n": "11 CFS/ME vs 9 SM vs 12 HC",
+  "finding": "Mast cell progenitors showed no differences in maturity or CD154 versus others; HLA-DR+/CD154- lower in CFS/ME than systemic mastocytosis.",
+  "atlas": [
+   "immune-mast-cell"
+  ],
+  "relation": "contradicts",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "pilot, small"
+ },
+ {
+  "id": "30502905",
+  "relevant": "core",
+  "population": "ME/CFS (Canadian)",
+  "design": "open-label",
+  "n": "23 of 28",
+  "finding": "Rituximab serum levels did not differ between responders and non-responders; no anti-drug antibodies.",
+  "atlas": [
+   "trials-rituximab"
+  ],
+  "relation": "extends",
+  "steps": [],
+  "treatments": [
+   "rituximab"
+  ],
+  "importance": 1,
+  "note": "open-label arm, pharmacokinetics only"
+ },
+ {
+  "id": "30538664",
+  "relevant": "core",
+  "population": "ME/CFS",
+  "design": "case-control",
+  "n": "272 ME/CFS vs 136 HC vs 76 MS vs 37 CF",
+  "finding": "Hand grip strength was markedly lower in ME/CFS, especially severe (minimum grip 15.3 kg lower than healthy controls).",
+  "atlas": [
+   "muscle-exertion-grip-fatigability"
+  ],
+  "relation": "replicates",
+  "steps": [
+   5
+  ],
+  "treatments": [],
+  "importance": 2,
+  "note": null
+ },
+ {
+  "id": "30505831",
+  "relevant": "core",
+  "population": "ME/CFS with POTS",
+  "design": "cohort",
+  "n": "627 ME/CFS evaluated, 155 POTS",
+  "finding": "About a quarter (155/627) of ME/CFS patients met POTS criteria on tilt; abbreviated 2-5 min tilt would miss many (median time to criteria about 3 min).",
+  "atlas": [
+   "vascular-pots-overlap",
+   "neuro-pots-prevalence"
+  ],
+  "relation": "replicates",
+  "steps": [
+   2
+  ],
+  "treatments": [],
+  "importance": 2,
+  "note": "selected from a cardiac clinic"
+ },
+ {
+  "id": "30455072",
+  "relevant": "related",
+  "population": "mouse CFS model",
+  "design": "animal",
+  "n": null,
+  "finding": "Spilanthes extract reduced oxidative stress markers in a water-immersion stress mouse model.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "30525014",
+  "relevant": "core",
+  "population": "ME/CFS",
+  "design": "case-control",
+  "n": "20 (12 classified by OI)",
+  "finding": "Dual-isotope blood volume averaged 11 ml/kg below reference; lower in those with orthostatic intolerance (56 vs 66 ml/kg).",
+  "atlas": [
+   "vascular-low-red-cell-volume"
+  ],
+  "relation": "replicates",
+  "steps": [
+   3
+  ],
+  "treatments": [],
+  "importance": 2,
+  "note": "small, no control group"
+ },
+ {
+  "id": "30961194",
+  "relevant": "related",
+  "population": "rat CFS model",
+  "design": "animal",
+  "n": null,
+  "finding": "Selenium-polysaccharide from green tea altered BUN, corticosterone and urine metabolites in a rat stress model of CFS.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "30430664",
+  "relevant": "core",
+  "population": "ME/CFS",
+  "design": "imaging",
+  "n": "20 vs 23",
+  "finding": "DKI/NODDI diffusion MRI showed lower FA in corpus callosum genu and right internal capsule and right superior longitudinal fasciculus abnormalities.",
+  "atlas": [
+   "neuro-white-matter-diffusion"
+  ],
+  "relation": "replicates",
+  "steps": [
+   2
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": "small, uncorrected SPM comparisons likely"
+ },
+ {
+  "id": "30471769",
+  "relevant": "core",
+  "population": "CFS/ME (Spain)",
+  "design": "cross-sectional",
+  "n": "31",
+  "finding": "Low omega-3 index (mean 5.75%) in 92.6% of patients; no association with fatigue or sleep scores.",
+  "atlas": [
+   "omics-lipids-plasmalogens"
+  ],
+  "relation": "new",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "no control group"
+ },
+ {
+  "id": "30419269",
+  "relevant": "core",
+  "population": "adolescent CFS",
+  "design": "case-control",
+  "n": "29 vs 18 (91 for norepinephrine analysis)",
+  "finding": "Whole-blood immune gene sets split CFS into subgroups; lower plasma norepinephrine was associated with higher fatigue.",
+  "atlas": [
+   "omics-transcriptome-sc"
+  ],
+  "relation": "extends",
+  "steps": [
+   2,
+   8
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "30342433",
+  "relevant": "related",
+  "population": "paediatric CFS",
+  "design": "cross-sectional",
+  "n": "115 adolescents, 100 mothers, 65 fathers",
+  "finding": "Parental fatigue and distress were not correlated with adolescent fatigue.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "30460215",
+  "relevant": "related",
+  "population": "ME/CFS",
+  "design": "other",
+  "n": null,
+  "finding": "Describes development and psychometrics of the DePaul Symptom Questionnaire.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "30533166",
+  "relevant": "related",
+  "population": "self-reported CFS/FMS in general population",
+  "design": "cross-sectional",
+  "n": "943 CFS, 2714 FMS, 87532 controls",
+  "finding": "Self-reported CFS had lower physical activity and longer sleep than controls; both extremes linked to higher symptom severity.",
+  "atlas": [
+   "neuro-sleep"
+  ],
+  "relation": "none",
+  "steps": [
+   8
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": "self-reported CFS, questionnaire"
+ },
+ {
+  "id": "30455131",
+  "relevant": "related",
+  "population": "paediatric CFS and MS",
+  "design": "case-control",
+  "n": "30 CFS, 30 MS, 30 HC",
+  "finding": "Adolescents with CFS had equivalent fatigue to fatigued MS but normal neurocognitive testing.",
+  "atlas": [
+   "neuro-cognition"
+  ],
+  "relation": "contradicts",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "small"
+ },
+ {
+  "id": "30416112",
+  "relevant": "related",
+  "population": "ME/CFS",
+  "design": "other",
+  "n": null,
+  "finding": "Review of Japanese PET and MRI work: reduced cerebral blood flow and glucose use, reduced serotonin transporter density, and widespread neuroinflammation on TSPO PET.",
+  "atlas": [
+   "neuro-pet-tspo-mecfs"
+  ],
+  "relation": "none",
+  "steps": [
+   7
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": "review"
+ },
+ {
+  "id": "30574737",
+  "relevant": "related",
+  "population": "mixed conditions",
+  "design": "other",
+  "n": null,
+  "finding": "Commentary on mast cell and microglia stress-inflammation with a luteolin product.",
+  "atlas": [
+   "immune-mast-cell"
+  ],
+  "relation": "none",
+  "steps": [],
+  "treatments": [
+   "mast-cell"
+  ],
+  "importance": 1,
+  "note": "commercial interest likely"
+ },
+ {
+  "id": "30380922",
+  "relevant": "related",
+  "population": "CFS",
+  "design": "cohort",
+  "n": "33 vs 33",
+  "finding": "Feedback on failed performance validity test improved subsequent reaction time in CFS.",
+  "atlas": [
+   "neuro-cognition"
+  ],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "30354489",
+  "relevant": "related",
+  "population": "ME/CFS",
+  "design": "other",
+  "n": null,
+  "finding": "Development of the DePaul Post-Exertional Malaise Questionnaire with preliminary validation.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "30405620",
+  "relevant": "core",
+  "population": "ME/CFS",
+  "design": "in vitro",
+  "n": null,
+  "finding": "CD24+ B cells were more frequent in patients and CD24 expression related to AMPK phosphorylation and B cell maturation in vitro.",
+  "atlas": [
+   "immune-bcell-maturation"
+  ],
+  "relation": "extends",
+  "steps": [
+   1
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "30340599",
+  "relevant": "related",
+  "population": "paediatric CFS/ME",
+  "design": "cohort",
+  "n": "198",
+  "finding": "Defines minimal clinically important difference of SF-36 physical function for children with CFS/ME.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "30325677",
+  "relevant": "related",
+  "population": "CFS/ME",
+  "design": "qualitative",
+  "n": "19",
+  "finding": "Interviews in GES trial: deteriorated group described symptom exacerbation after guided graded exercise self-help.",
+  "atlas": [
+   "trials-pace-get-cbt"
+  ],
+  "relation": "none",
+  "steps": [],
+  "treatments": [
+   "graded-exercise"
+  ],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "30460211",
+  "relevant": "related",
+  "population": "adolescent CFS",
+  "design": "case-control",
+  "n": "39 vs 28",
+  "finding": "Adolescents with CFS had poorer school attendance, participation and academic performance.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "30321452",
+  "relevant": "related",
+  "population": "idiopathic chronic fatigue and CFS",
+  "design": "meta-analysis",
+  "n": null,
+  "finding": "Withdrawn Cochrane review of Chinese herbal medicine RCTs for chronic fatigue.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "withdrawn"
+ },
+ {
+  "id": "30321019",
+  "relevant": "related",
+  "population": "CFS",
+  "design": "cohort",
+  "n": "120",
+  "finding": "14-day diary: daily energy, sleep and need satisfaction fluctuated and were reciprocally related.",
+  "atlas": [
+   "neuro-sleep"
+  ],
+  "relation": "none",
+  "steps": [
+   8
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "30514660",
+  "relevant": "related",
+  "population": "students (hypothetical vignette)",
+  "design": "RCT",
+  "n": "207",
+  "finding": "CFS label raised intended social support from friends in a student vignette experiment.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "not patients"
+ },
+ {
+  "id": "30298340",
+  "relevant": "core",
+  "population": "ME/CFS (Canadian consensus)",
+  "design": "case-control",
+  "n": "25 vs 25 Canadian, 25 Norwegian cases, 6 US controls",
+  "finding": "Peptide microarray immunosignature of 256 peptides separated ME/CFS from controls across cohorts.",
+  "atlas": [
+   "immune-neural-autoantibodies"
+  ],
+  "relation": "new",
+  "steps": [
+   1
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": "small, no external validation"
+ },
+ {
+  "id": "30286454",
+  "relevant": "related",
+  "population": "chronic fatigue disorders",
+  "design": "other",
+  "n": null,
+  "finding": "Opinion proposing stratifying CFS/fibromyalgia into immune-mediated entities.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "30232103",
+  "relevant": "related",
+  "population": "self-reported severe CFS/ME",
+  "design": "survey",
+  "n": "63 returned, 5 pilot home visits",
+  "finding": "Pilot community study: 22% of respondents did not meet Fukuda or Canadian criteria; severely affected want to take part in research but have high symptom burden.",
+  "atlas": [
+   "trials-severity"
+  ],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "30222036",
+  "relevant": "related",
+  "population": "paediatric ME/CFS",
+  "design": "other",
+  "n": null,
+  "finding": "School nurse role in supporting students with ME/CFS.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "30208578",
+  "relevant": "related",
+  "population": "ME/CFS",
+  "design": "cross-sectional",
+  "n": null,
+  "finding": "Five DSQ PEM duration items classified 81.7% of ME/CFS correctly and misclassified 16.6% of MS and post-polio patients.",
+  "atlas": [
+   "muscle-exertion-pem-timing"
+  ],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "30204780",
+  "relevant": "core",
+  "population": "CFS (Chinese Han)",
+  "design": "case-control",
+  "n": null,
+  "finding": "Oral microbiome composition differed in CFS (more Fusobacteria, Leptotrichia, Prevotella; less Veillonella, Porphyromonas); diversity unchanged.",
+  "atlas": [
+   "gut-butyrate-producer-loss"
+  ],
+  "relation": "extends",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "n not in abstract, 16S only"
+ },
+ {
+  "id": "30205585",
+  "relevant": "related",
+  "population": "ME",
+  "design": "other",
+  "n": null,
+  "finding": "Proposes an operational definition of ME centred on muscle fatigability.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "30183363",
+  "relevant": "related",
+  "population": "ME/CFS",
+  "design": "survey",
+  "n": "554",
+  "finding": "Confirmatory factor analysis of ME/CFS stigma scale; high stigma endorsed.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "30181183",
+  "relevant": "related",
+  "population": "ME/CFS",
+  "design": "meta-analysis",
+  "n": null,
+  "finding": "Protocol for systematic review of ME/CFS prevalence in Europe.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "protocol only"
+ },
+ {
+  "id": "29464501",
+  "relevant": "core",
+  "population": "CFS/ME",
+  "design": "meta-analysis",
+  "n": "25 studies",
+  "finding": "Review: evidence for probiotics in CFS/ME poor and limited, in contrast to IBS.",
+  "atlas": [
+   "gut-probiotics"
+  ],
+  "relation": "replicates",
+  "steps": [],
+  "treatments": [
+   "probiotics"
+  ],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "30152867",
+  "relevant": "related",
+  "population": "CFS (women)",
+  "design": "case-control",
+  "n": "175 across four groups",
+  "finding": "CFS without depression was not more likely to show illusory mental health than controls, arguing against reducing CFS to somatisation.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "30214947",
+  "relevant": "core",
+  "population": "CFS",
+  "design": "case-control",
+  "n": "9 vs 9",
+  "finding": "Resting HRV was lower in CFS before warm water immersion (63 vs 73, p=0.04) and heart rate higher after (86 vs 78).",
+  "atlas": [
+   "neuro-hrv"
+  ],
+  "relation": "replicates",
+  "steps": [
+   2
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": "tiny"
+ },
+ {
+  "id": "30220343",
+  "relevant": "core",
+  "population": "ME/CFS",
+  "design": "open-label",
+  "n": "35 (13 responders)",
+  "finding": "In a prospective dichloroacetate trial, six pre-treatment characteristics predicted responders (AUC 0.92).",
+  "atlas": [
+   "muscle-exertion-pdh-block"
+  ],
+  "relation": "extends",
+  "steps": [
+   5
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": "open-label, derivation set without validation"
+ },
+ {
+  "id": "30167477",
+  "relevant": "related",
+  "population": "adolescent CFS/ME",
+  "design": "qualitative",
+  "n": "9",
+  "finding": "Adolescents used official then peer-led online resources for coping.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "30119681",
+  "relevant": "core",
+  "population": "ME/CFS",
+  "design": "case-control",
+  "n": "44 patients",
+  "finding": "Very long lncRNAs NTT, MIAT and EmX2OS were higher in PBMC of ME/CFS; NTT and EmX2OS rose with severity.",
+  "atlas": [
+   "omics-transcriptome-sc"
+  ],
+  "relation": "new",
+  "steps": [
+   1
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": "control n not given"
+ },
+ {
+  "id": "30174633",
+  "relevant": "core",
+  "population": "ME/CFS",
+  "design": "case-control",
+  "n": "27 vs matched controls",
+  "finding": "ME/CFS had slower maximum reading speed and poorer crowded visual acuity, correlated with each other.",
+  "atlas": [
+   "neuro-sensory"
+  ],
+  "relation": "extends",
+  "steps": [
+   2
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "30114945",
+  "relevant": "related",
+  "population": "severe paediatric CFS",
+  "design": "open-label",
+  "n": "6",
+  "finding": "Home-based CBT rehabilitation: all six returned to school/college by 12 months.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [
+   "cbt-supportive"
+  ],
+  "importance": 1,
+  "note": "six patients, no control"
+ },
+ {
+  "id": "30134818",
+  "relevant": "core",
+  "population": "CFS/ME",
+  "design": "case-control",
+  "n": "12 vs 12",
+  "finding": "Patch-clamp showed reduced TRPM3 current amplitude in NK cells from CFS/ME patients.",
+  "atlas": [
+   "immune-trpm3",
+   "genetics-trpm3"
+  ],
+  "relation": "replicates",
+  "steps": [],
+  "treatments": [],
+  "importance": 2,
+  "note": "same group as prior reports"
+ },
+ {
+  "id": "30159106",
+  "relevant": "core",
+  "population": "FM and CFS (women)",
+  "design": "case-control",
+  "n": "25 CFS, 25 FM, 25 controls",
+  "finding": "Quiet standing sway showed poorer postural control in CFS and FM; a cognitive task did not change it.",
+  "atlas": [
+   "neuro-motor-fatigability"
+  ],
+  "relation": "extends",
+  "steps": [
+   2
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "29872989",
+  "relevant": "related",
+  "population": "young adult CFS/ME",
+  "design": "case-control",
+  "n": "98 vs 272",
+  "finding": "SF-36 cutoffs (e.g. physical functioning at or below 80) discriminate young adults with CFS/ME.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "30249136",
+  "relevant": "related",
+  "population": "CFS (women)",
+  "design": "case-control",
+  "n": "186",
+  "finding": "Emotional regulation impairment was found only in CFS with higher depression; somatisation supported in some.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "30063870",
+  "relevant": "core",
+  "population": "CFS/ME (Fukuda)",
+  "design": "case-control",
+  "n": "20 vs 20",
+  "finding": "Plasma TNF-alpha showed a non-significant rise in CFS/ME (p=0.056); cytokines correlated with psychiatric symptoms.",
+  "atlas": [
+   "immune-cytokine-meta"
+  ],
+  "relation": "contradicts",
+  "steps": [
+   1
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": "small"
+ },
+ {
+  "id": "PPR50751",
+  "relevant": "related",
+  "population": "FM and CFS/ME",
+  "design": "other",
+  "n": null,
+  "finding": "Review proposing molecular physiotherapy to study manual therapy responses.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "30093979",
+  "relevant": "related",
+  "population": "CFS (Taiwan registry)",
+  "design": "cohort",
+  "n": "884 vs 3536",
+  "finding": "Dry eye syndrome was associated with later CFS diagnosis (adjusted HR about 1.61).",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "registry codes"
+ },
+ {
+  "id": "29992837",
+  "relevant": "related",
+  "population": "ME/CFS",
+  "design": "qualitative",
+  "n": "29",
+  "finding": "Non-depressed patients with suicidal ideation described feeling trapped and loss of self and stigma.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "30497131",
+  "relevant": "core",
+  "population": "CFS (Fukuda)",
+  "design": "imaging",
+  "n": "43 vs 27",
+  "finding": "T1 spin-echo MRI showed lower signal in a brainstem region and higher signal in sensorimotor white matter (P_FWE=0.002); no volume differences.",
+  "atlas": [
+   "neuro-brainstem",
+   "neuro-mri-structure"
+  ],
+  "relation": "replicates",
+  "steps": [
+   2
+  ],
+  "treatments": [],
+  "importance": 2,
+  "note": null
+ },
+ {
+  "id": "30037603",
+  "relevant": "related",
+  "population": "CFS",
+  "design": "other",
+  "n": null,
+  "finding": "Hypothesis that glymphatic dysfunction explains some CFS and that CSF diversion may help.",
+  "atlas": [
+   "neuro-cci"
+  ],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "speculative"
+ },
+ {
+  "id": "29974812",
+  "relevant": "core",
+  "population": "ME/CFS",
+  "design": "meta-analysis",
+  "n": null,
+  "finding": "Meta-analysis: PEM was 10.4 times more likely to be associated with ME/CFS than control status.",
+  "atlas": [
+   "muscle-exertion-pem-timing"
+  ],
+  "relation": "extends",
+  "steps": [
+   6
+  ],
+  "treatments": [],
+  "importance": 2,
+  "note": null
+ },
+ {
+  "id": "31435490",
+  "relevant": "related",
+  "population": "ME/CFS",
+  "design": "cross-sectional",
+  "n": "1210",
+  "finding": "Latent class analysis found six symptom subtypes (including orthostatic intolerance and gastrointestinal) with different SF-36 functioning.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "29971693",
+  "relevant": "related",
+  "population": "ME/CFS patient organisations",
+  "design": "other",
+  "n": null,
+  "finding": "History and discourse analysis rejecting the claim that ME/CFS patient groups are militant.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "29969498",
+  "relevant": "core",
+  "population": "CFS",
+  "design": "case-control",
+  "n": "40 vs 10",
+  "finding": "Intracranial compliance and resting cerebral perfusion did not differ from controls; lower compliance and higher perfusion tracked orthostatic symptoms within patients.",
+  "atlas": [
+   "neuro-cbf-rest"
+  ],
+  "relation": "contradicts",
+  "steps": [
+   2,
+   5
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": "small control group"
+ },
+ {
+  "id": "30344981",
+  "relevant": "related",
+  "population": "CFS/ME",
+  "design": "other",
+  "n": null,
+  "finding": "Review of muscle abnormalities in CFS (oxidative damage, fibre shift to fast phenotype, mitochondrial dysfunction).",
+  "atlas": [
+   "muscle-exertion-old-biopsies"
+  ],
+  "relation": "none",
+  "steps": [
+   5
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "30344982",
+  "relevant": "not",
+  "population": "editorial",
+  "design": "other",
+  "n": null,
+  "finding": null,
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "journal editorial"
+ },
+ {
+  "id": "30151552",
+  "relevant": "related",
+  "population": "CFS",
+  "design": "meta-analysis",
+  "n": "4 RCTs",
+  "finding": "Systematic review of physiotherapy RCTs found no clearly superior approach; four studies only.",
+  "atlas": [
+   "trials-pace-get-cbt"
+  ],
+  "relation": "none",
+  "steps": [],
+  "treatments": [
+   "graded-exercise"
+  ],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "30079926",
+  "relevant": "related",
+  "population": "CFS",
+  "design": "cross-sectional",
+  "n": "84",
+  "finding": "64% of CFS patients met DSM personality disorder criteria in a Spanish clinic sample.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "selected clinic sample"
+ },
+ {
+  "id": "30050662",
+  "relevant": "related",
+  "population": "mouse CFS model",
+  "design": "animal",
+  "n": null,
+  "finding": "Edible fungus extract improved exercise tolerance and antioxidant markers in mouse CFS models.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "29983634",
+  "relevant": "core",
+  "population": "CFS",
+  "design": "case-control",
+  "n": "48 CFS vs 27 Sjogren vs 20 HC",
+  "finding": "CFS had reduced LPS-induced IL-6 and TNF-alpha and reduced dex suppression of TNF; cortisol before and after dex did not differ from controls.",
+  "atlas": [
+   "endocrine-hpa-feedback"
+  ],
+  "relation": "contradicts",
+  "steps": [
+   2
+  ],
+  "treatments": [],
+  "importance": 2,
+  "note": null
+ },
+ {
+  "id": "29887516",
+  "relevant": "related",
+  "population": "CFS/ME",
+  "design": "other",
+  "n": null,
+  "finding": "Sociological analysis of CFS/ME as a biopolitical object.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "29874259",
+  "relevant": "core",
+  "population": "CFS/ME (Fukuda and Canadian)",
+  "design": "case-control",
+  "n": "10 vs 10 women",
+  "finding": "Actigraphy showed lower activity, relative amplitude and activity rhythm stability and lower nocturnal distal skin temperature in CFS/ME; no sleep latency differences.",
+  "atlas": [
+   "neuro-sleep"
+  ],
+  "relation": "extends",
+  "steps": [
+   2,
+   8
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": "small"
+ },
+ {
+  "id": "29866593",
+  "relevant": "related",
+  "population": "adolescent CFS",
+  "design": "cohort",
+  "n": "55",
+  "finding": "Abnormal range of motion fell from 78% to 20% over 2 years alongside multimodal therapy.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "no control"
+ },
+ {
+  "id": "30091537",
+  "relevant": "related",
+  "population": "rat CFS model",
+  "design": "animal",
+  "n": null,
+  "finding": "Electroacupuncture raised grip force and muscle PGC-1alpha in a rat stress model.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "29846797",
+  "relevant": "core",
+  "population": "CFS",
+  "design": "imaging",
+  "n": "18 vs 15",
+  "finding": "Structural MRI regional volumes classified CFS vs controls at 79.6% accuracy, below self-report (96%).",
+  "atlas": [
+   "neuro-mri-structure"
+  ],
+  "relation": "replicates",
+  "steps": [
+   2
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": "tiny, overfitting risk"
+ },
+ {
+  "id": "29807037",
+  "relevant": "core",
+  "population": "CFS (women)",
+  "design": "case-control",
+  "n": "107 vs 59 saliva; 46 vs 46 hair",
+  "finding": "Lower cortisol awakening response in CFS (4.2 vs 6.1 nmol/L, p=0.036); hair cortisol trend lower (p=0.062); anakinra for 4 weeks slightly lowered hair cortisol versus placebo.",
+  "atlas": [
+   "endocrine-hpa-low-cortisol",
+   "immune-il1-blockade"
+  ],
+  "relation": "replicates",
+  "steps": [
+   2
+  ],
+  "treatments": [
+   "anakinra"
+  ],
+  "importance": 2,
+  "note": null
+ },
+ {
+  "id": "29772739",
+  "relevant": "related",
+  "population": "ME/CFS",
+  "design": "other",
+  "n": null,
+  "finding": "Critique of the Dutch Health Council report's diagnostic criteria.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "29770505",
+  "relevant": "related",
+  "population": "ME/CFS (Spain)",
+  "design": "cross-sectional",
+  "n": "1455",
+  "finding": "Poor sleep quality was linked to pain, psychopathology, fibromyalgia and severe autonomic dysfunction.",
+  "atlas": [
+   "neuro-sleep"
+  ],
+  "relation": "extends",
+  "steps": [
+   8
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": "questionnaire only"
+ },
+ {
+  "id": "29867995",
+  "relevant": "core",
+  "population": "ME/CFS (Canadian 2010)",
+  "design": "case-control",
+  "n": "76 vs 73",
+  "finding": "Lower Tregs, higher NKT-like cells, lower NKG2C and higher NK CD69/CD56bright in patients; classification model reached 70% accuracy.",
+  "atlas": [
+   "immune-nk-cytotoxicity",
+   "immune-mait"
+  ],
+  "relation": "extends",
+  "steps": [
+   1
+  ],
+  "treatments": [],
+  "importance": 2,
+  "note": null
+ },
+ {
+  "id": "29654166",
+  "relevant": "core",
+  "population": "ME/CFS",
+  "design": "in vitro",
+  "n": null,
+  "finding": "Metformin and compound 991 activated AMPK and raised glucose uptake in ME/CFS myotubes; ATP content lower in ME/CFS cultures.",
+  "atlas": [
+   "muscle-exertion-cultured-myotubes"
+  ],
+  "relation": "extends",
+  "steps": [
+   5
+  ],
+  "treatments": [
+   "metformin"
+  ],
+  "importance": 1,
+  "note": "small, cultured cells"
+ },
+ {
+  "id": "29738079",
+  "relevant": "related",
+  "population": "CFS vs ASD",
+  "design": "case-control",
+  "n": "59 CFS vs 50 ASD vs 53 HC",
+  "finding": "CFS scored no higher than controls on Autism-Spectrum Quotient.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "29735513",
+  "relevant": "related",
+  "population": "FM, CFS, FND",
+  "design": "meta-analysis",
+  "n": "95 CFS studies",
+  "finding": "Systematic review: subjective cognitive complaints exceed objective deficits; slow processing and attention deficits reported.",
+  "atlas": [
+   "neuro-cognition"
+  ],
+  "relation": "replicates",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "framing as functional disorder"
+ },
+ {
+  "id": "30311972",
+  "relevant": "related",
+  "population": "ME/CFS",
+  "design": "survey",
+  "n": null,
+  "finding": "Unsupportive social interactions and stigma associated with depression and suicidal ideation; 7.1% had ideation without depression.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "29695180",
+  "relevant": "related",
+  "population": "CFS/FM",
+  "design": "meta-analysis",
+  "n": "2 CFS studies, n=83",
+  "finding": "Probiotic RCTs in CFS: L. casei Shirota reduced anxiety; B. infantis lowered inflammatory markers; evidence limited.",
+  "atlas": [
+   "gut-probiotics"
+  ],
+  "relation": "replicates",
+  "steps": [],
+  "treatments": [
+   "probiotics"
+  ],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "29692205",
+  "relevant": "core",
+  "population": "ME/CFS (women)",
+  "design": "cohort",
+  "n": "70",
+  "finding": "DNA methylation plus symptom scores define four ME/CFS subtypes (1939 CpGs), differing in immune gene methylation and PEM.",
+  "atlas": [
+   "omics-methylation"
+  ],
+  "relation": "extends",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "no replication"
+ },
+ {
+  "id": "30035022",
+  "relevant": "core",
+  "population": "CFS/ME",
+  "design": "imaging",
+  "n": "43 vs 26",
+  "finding": "Stroop fMRI: CFS had longer response times and lower BOLD sample entropy in ten regions; activation maps did not differ between groups.",
+  "atlas": [
+   "neuro-resting-fc"
+  ],
+  "relation": "extends",
+  "steps": [
+   2
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "29650052",
+  "relevant": "core",
+  "population": "ME/CFS",
+  "design": "case-control",
+  "n": "45 vs 17",
+  "finding": "Weighted standing time stratified severity; only serum activin B differed from controls, with no differences in other cytokines or serum/urine markers.",
+  "atlas": [
+   "immune-cytokine-meta"
+  ],
+  "relation": "contradicts",
+  "steps": [
+   2
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "29643935",
+  "relevant": "related",
+  "population": "CFS",
+  "design": "open-label",
+  "n": "15",
+  "finding": "After one sitting isometric yoga session, fatigue fell and vagal activity increased with changes in blood markers.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [
+   8
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": "uncontrolled"
+ },
+ {
+  "id": "29624767",
+  "relevant": "related",
+  "population": "hypersomnolence patients",
+  "design": "cross-sectional",
+  "n": "187",
+  "finding": "21% of hypersomnolence patients met SEID criteria.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "29617424",
+  "relevant": "core",
+  "population": "FM and CFS (women)",
+  "design": "case-control",
+  "n": "25 per group",
+  "finding": "CFS and FM had larger postural sway and lower control frequencies than controls.",
+  "atlas": [
+   "neuro-motor-fatigability"
+  ],
+  "relation": "extends",
+  "steps": [
+   2
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "29607759",
+  "relevant": "related",
+  "population": "adolescent CFS/ME",
+  "design": "qualitative",
+  "n": "7",
+  "finding": "Interviews describe disrupted occupational and peer life and gradual acceptance.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "30788942",
+  "relevant": "core",
+  "population": "adolescent CFS (US CDC screen)",
+  "design": "case-control",
+  "n": "8 vs 8",
+  "finding": "Urine LC-MS: creatine, indoleacetaldehyde, phytosphingosine and pyroglutamate lower in CFS students; arginine-proline pathway disordered.",
+  "atlas": [
+   "omics-metabolome-small-effects"
+  ],
+  "relation": "extends",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "tiny, male students"
+ },
+ {
+  "id": "29587879",
+  "relevant": "core",
+  "population": "CFS/ME (Fukuda)",
+  "design": "in vitro",
+  "n": "8 vs 9",
+  "finding": "In vitro rituximab lowered NK cell lysis and raised degranulation in CFS/ME NK cells.",
+  "atlas": [
+   "trials-rituximab"
+  ],
+  "relation": "none",
+  "steps": [],
+  "treatments": [
+   "rituximab"
+  ],
+  "importance": 1,
+  "note": "pilot"
+ },
+ {
+  "id": "29588088",
+  "relevant": "core",
+  "population": "ME (OI)",
+  "design": "cross-sectional",
+  "n": "44",
+  "finding": "Orthostatic intolerance symptoms in 91%; disequilibrium on standing in 32.5% of those with OI and hemodynamic dysfunction in 47.5%.",
+  "atlas": [
+   "neuro-pots-prevalence"
+  ],
+  "relation": "extends",
+  "steps": [
+   2
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "29696075",
+  "relevant": "core",
+  "population": "CFS/ME (Spain)",
+  "design": "case-control",
+  "n": "10 vs 5",
+  "finding": "Serum extracellular vesicle fraction was higher (p=0.007) and vesicles smaller (p=0.014) in CFS/ME.",
+  "atlas": [
+   "omics-ev"
+  ],
+  "relation": "replicates",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "tiny pilot"
+ },
+ {
+  "id": "29707427",
+  "relevant": "core",
+  "population": "ME/CFS (CDC)",
+  "design": "case-control",
+  "n": "17 vs 16",
+  "finding": "Global cerebral blood flow was normal at rest and during PASAT; regional CBF related to fatigue recovery differed.",
+  "atlas": [
+   "neuro-cbf-rest"
+  ],
+  "relation": "contradicts",
+  "steps": [
+   5
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": "small"
+ },
+ {
+  "id": "29637195",
+  "relevant": "related",
+  "population": "adolescent CFS (NorCAPITAL)",
+  "design": "cohort",
+  "n": "120 (45 SEID+, 69 SEID-)",
+  "finding": "SEID-positive adolescents differed only in mood score; no differences in cardiovascular, inflammatory, neuroendocrine variables after multiple comparison correction.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "29457646",
+  "relevant": "related",
+  "population": "CFS",
+  "design": "cross-sectional",
+  "n": "990",
+  "finding": "Cognitive-behavioural model was generally not supported, especially under stricter case definitions.",
+  "atlas": [
+   "trials-pace-get-cbt"
+  ],
+  "relation": "none",
+  "steps": [],
+  "treatments": [
+   "cbt-supportive"
+  ],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "29246267",
+  "relevant": "core",
+  "population": "CFS (IOM)",
+  "design": "case-control",
+  "n": "8 vs 8 tired controls",
+  "finding": "Nocturnal low-frequency HRV was higher in CFS across sleep stages, suggesting higher sympathetic and lower parasympathetic tone in sleep.",
+  "atlas": [
+   "neuro-hrv",
+   "neuro-sleep"
+  ],
+  "relation": "replicates",
+  "steps": [
+   2,
+   8
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": "tiny"
+ },
+ {
+  "id": "29628071",
+  "relevant": "core",
+  "population": "CFS",
+  "design": "case-control",
+  "n": "85 vs 29",
+  "finding": "During a grip-effort task, CFS invested less effort after feedback at high effort, with reduced prefrontal feedback activity, proportional to fatigue and beliefs.",
+  "atlas": [
+   "neuro-effort-preference"
+  ],
+  "relation": "extends",
+  "steps": [
+   2
+  ],
+  "treatments": [],
+  "importance": 2,
+  "note": null
+ },
+ {
+  "id": "29426834",
+  "relevant": "core",
+  "population": "ME/CFS",
+  "design": "case-control",
+  "n": "24 vs 24",
+  "finding": "Cardiac structure and exercise capacity were similar; cytokine profile 18 h after submaximal exercise discriminated patients (kappa 0.62; CD40L, IL-1beta, IFN-alpha, CXCL1).",
+  "atlas": [
+   "muscle-exertion-low-peak-vo2",
+   "muscle-exertion-post-exertion-proteomics"
+  ],
+  "relation": "extends",
+  "steps": [
+   6
+  ],
+  "treatments": [],
+  "importance": 2,
+  "note": null
+ },
+ {
+  "id": "28836119",
+  "relevant": "related",
+  "population": "CFS (Dutch and UK)",
+  "design": "case-control",
+  "n": "38 Dutch vs 52 UK CFS vs 51 HC",
+  "finding": "CFS groups showed attentional and interpretation bias toward somatic information in both countries.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "29375937",
+  "relevant": "core",
+  "population": "ME/CFS",
+  "design": "case-control",
+  "n": "17 vs 17 (49 vs 39 total cohort)",
+  "finding": "Gut eukaryote (18S) diversity was not significantly different in ME/CFS; no taxa linked to disease.",
+  "atlas": [
+   "gut-quadram-virome-immune"
+  ],
+  "relation": "contradicts",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "31735866",
+  "relevant": "core",
+  "population": "ME",
+  "design": "case-control",
+  "n": "19 vs 19",
+  "finding": "Contrast sensitivity was reduced at low spatial frequencies with narrower bandwidth in ME.",
+  "atlas": [
+   "neuro-sensory"
+  ],
+  "relation": "extends",
+  "steps": [
+   2
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "30112249",
+  "relevant": "core",
+  "population": "CFS (Fukuda)",
+  "design": "cohort",
+  "n": "93 CFS + 7 non-CFS",
+  "finding": "Over 18 months, NK cell and naive T cell proportions were modestly related to physical functioning and symptom counts.",
+  "atlas": [
+   "immune-nk-cytotoxicity"
+  ],
+  "relation": "extends",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "29455899",
+  "relevant": "related",
+  "population": "FM and/or CFS",
+  "design": "case-control",
+  "n": "73 vs 38",
+  "finding": "Patients reported more dyspnea only during recovery after rebreathing; physiological reactivity was not different.",
+  "atlas": [
+   "neuro-hypocapnia"
+  ],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "29152994",
+  "relevant": "core",
+  "population": "CFS/ME",
+  "design": "imaging",
+  "n": "45 vs 27",
+  "finding": "Default mode network showed weaker connectivity (mPFC to parietal) and more complex PCC BOLD signal in CFS.",
+  "atlas": [
+   "neuro-resting-fc"
+  ],
+  "relation": "replicates",
+  "steps": [
+   2
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "29348373",
+  "relevant": "related",
+  "population": "ME/CFS",
+  "design": "other",
+  "n": null,
+  "finding": "Japanese review hypothesising autoimmune neuroinflammation, citing rituximab benefit from open-label work.",
+  "atlas": [
+   "immune-rituximab"
+  ],
+  "relation": "none",
+  "steps": [],
+  "treatments": [
+   "rituximab"
+  ],
+  "importance": 1,
+  "note": "predates rituximab RCT"
+ },
+ {
+  "id": "29348370",
+  "relevant": "related",
+  "population": "ME/CFS",
+  "design": "other",
+  "n": null,
+  "finding": "Japanese diagnostic criteria and treatment overview.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "29348371",
+  "relevant": "core",
+  "population": "ME/CFS",
+  "design": "imaging",
+  "n": null,
+  "finding": "Review of Japanese TSPO PET showing widespread neuroinflammation related to symptom severity.",
+  "atlas": [
+   "neuro-pet-tspo-mecfs"
+  ],
+  "relation": "replicates",
+  "steps": [
+   7
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": "review of authors' own study"
+ },
+ {
+  "id": "29348369",
+  "relevant": "related",
+  "population": "ME/CFS",
+  "design": "other",
+  "n": null,
+  "finding": "Japanese history review referencing TSPO PET evidence of microglial activation.",
+  "atlas": [
+   "neuro-pet-tspo-mecfs"
+  ],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "review"
+ },
+ {
+  "id": "775549",
+  "relevant": "core",
+  "population": "severe housebound ME/CFS vs household controls",
+  "design": "case-control",
+  "n": "17 vs household controls",
+  "finding": "Thesis: NGS and NMR of gut, faecal and serum microbiome in severe ME/CFS with household controls (results truncated).",
+  "atlas": [
+   "gut-quadram-virome-immune"
+  ],
+  "relation": "extends",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "thesis, abstract truncated"
+ },
+ {
+  "id": "29600930",
+  "relevant": "related",
+  "population": "ME/CFS",
+  "design": "other",
+  "n": null,
+  "finding": "Critique of Dutch Health Council report as unbalanced about somatic evidence.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "29348372",
+  "relevant": "core",
+  "population": "CFS",
+  "design": "case-control",
+  "n": null,
+  "finding": "Japanese review plus comprehensive blood metabolomics aimed at a diagnostic biomarker (details not in abstract).",
+  "atlas": [
+   "omics-metabolome-small-effects"
+  ],
+  "relation": "extends",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "PMC6517214",
+  "relevant": "related",
+  "population": "CFS",
+  "design": "meta-analysis",
+  "n": null,
+  "finding": "Individual patient data review of exercise therapy for CFS (no abstract available).",
+  "atlas": [
+   "trials-pace-get-cbt"
+  ],
+  "relation": "none",
+  "steps": [],
+  "treatments": [
+   "graded-exercise"
+  ],
+  "importance": 1,
+  "note": "title only"
+ },
+ {
+  "id": "29369204",
+  "relevant": "related",
+  "population": "Chinese students (CDC screen)",
+  "design": "cross-sectional",
+  "n": "18139 screened",
+  "finding": "0.9% (163) of middle-school students met the CFS definition, more in males and older students.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "questionnaire-defined"
+ },
+ {
+  "id": "29562557",
+  "relevant": "core",
+  "population": "CFS +/- FM",
+  "design": "case-control",
+  "n": "27 CFS (12 with FM) vs 22",
+  "finding": "Posturography composite balance score was lower in CFS (69.0 vs 78.8) and related to physical function; vestibular impairment only in CFS with FM.",
+  "atlas": [
+   "neuro-motor-fatigability"
+  ],
+  "relation": "extends",
+  "steps": [
+   2
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "29224219",
+  "relevant": "related",
+  "population": "paediatric CFS",
+  "design": "meta-analysis",
+  "n": "36 papers",
+  "finding": "School functioning is mostly measured only as attendance, with inconsistent instruments.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "29357332",
+  "relevant": "core",
+  "population": "CFS",
+  "design": "crossover",
+  "n": "20 vs 20",
+  "finding": "No group differences in cerebral blood flow (Doppler) or HRV responses to physical or emotional stress.",
+  "atlas": [
+   "neuro-hrv",
+   "neuro-cbf-tilt"
+  ],
+  "relation": "contradicts",
+  "steps": [
+   2,
+   5
+  ],
+  "treatments": [],
+  "importance": 2,
+  "note": "supine/exercise CBF, not tilt"
+ },
+ {
+  "id": "29344367",
+  "relevant": "core",
+  "population": "CFS (Fukuda)",
+  "design": "case-control",
+  "n": "42 vs 10",
+  "finding": "Plasma BNP higher in CFS (p=0.013), associated with smaller end-diastolic and end-systolic volumes on cardiac MRI; unrelated to disease duration.",
+  "atlas": [
+   "vascular-small-heart-stroke-volume"
+  ],
+  "relation": "replicates",
+  "steps": [
+   3
+  ],
+  "treatments": [],
+  "importance": 2,
+  "note": null
+ },
+ {
+  "id": "29231037",
+  "relevant": "related",
+  "population": "ME/CFS",
+  "design": "cross-sectional",
+  "n": null,
+  "finding": "Overexertion was most harmful to function in those with higher available energy, consistent with energy envelope theory.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [
+   "pacing-heart-rate"
+  ],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "29202780",
+  "relevant": "core",
+  "population": "adolescent CFS (NorCAPITAL)",
+  "design": "case-control",
+  "n": "120 vs 68",
+  "finding": "Plasma TGF-beta isoforms compared with controls and neuroendocrine/clinical markers (result not in visible abstract).",
+  "atlas": [
+   "immune-tgfbeta-artefact"
+  ],
+  "relation": "extends",
+  "steps": [
+   1
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": "result truncated"
+ },
+ {
+  "id": "29182007",
+  "relevant": "related",
+  "population": "ME/CFS",
+  "design": "qualitative",
+  "n": "13 physicians",
+  "finding": "Physician interviews identify challenges in defining and measuring recovery.",
+  "atlas": [
+   "trials-recovery-rates"
+  ],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "29399336",
+  "relevant": "core",
+  "population": "CFS (Italy)",
+  "design": "case-control",
+  "n": "44 suspected, 19 confirmed",
+  "finding": "Most cardiological parameters did not differ, but CFS was associated with low blood pressure; hypotension and orthostatic intolerance proposed as explanation.",
+  "atlas": [
+   "vascular-pots-overlap"
+  ],
+  "relation": "extends",
+  "steps": [
+   2,
+   3
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": "small"
+ },
+ {
+  "id": "29275786",
+  "relevant": "core",
+  "population": "CFS (women)",
+  "design": "case-control",
+  "n": "80 vs 91",
+  "finding": "NR3C1-1F glucocorticoid receptor gene hypomethylation replicated in CFS (small differences, only one CpG surviving correction).",
+  "atlas": [
+   "endocrine-hpa-feedback"
+  ],
+  "relation": "replicates",
+  "steps": [
+   2
+  ],
+  "treatments": [],
+  "importance": 2,
+  "note": null
+ },
+ {
+  "id": "28722815",
+  "relevant": "core",
+  "population": "CFS/FM and RA",
+  "design": "crossover",
+  "n": "10 CFS/FM, 11 RA, 20 controls",
+  "finding": "Morphine's effect on pain thresholds in CFS/FM was comparable to placebo; baseline temporal summation higher and deep tissue pain pressure lower than controls.",
+  "atlas": [
+   "neuro-pain-modulation-exercise-hyperalgesia"
+  ],
+  "relation": "replicates",
+  "steps": [
+   8
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": "mixed CFS/FM group"
+ },
+ {
+  "id": "29133321",
+  "relevant": "related",
+  "population": "CFS/ME",
+  "design": "case-control",
+  "n": "52 vs 42",
+  "finding": "Physical signs (tender coeliac plexus, etc.) showed inter-rater agreement and improved identification of CFS/ME; small single-centre study.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "unvalidated signs"
+ },
+ {
+  "id": "29127316",
+  "relevant": "core",
+  "population": "CFS and Gulf War Illness",
+  "design": "case-control",
+  "n": "CFS 43 nonexercise; GWI 22, controls 22 (post-exercise groups 15-42)",
+  "finding": "CSF miRNAs were similar at rest across groups; after exercise CFS had 12 diminished miRNAs, with patterns distinct from Gulf War Illness.",
+  "atlas": [
+   "neuro-csf-metabolomics"
+  ],
+  "relation": "new",
+  "steps": [
+   2,
+   6
+  ],
+  "treatments": [],
+  "importance": 2,
+  "note": null
+ },
+ {
+  "id": "29118054",
+  "relevant": "core",
+  "population": "CFS/ME",
+  "design": "case-control",
+  "n": "92 vs 94",
+  "finding": "Serum 25(OH) vitamin D was higher in CFS/ME (60.2 vs 47.3 nmol/L, supplement-related); no deficiency or link to fatigue.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [
+   "vitamin-d"
+  ],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "29275782",
+  "relevant": "related",
+  "population": "CFS/ME (UK and Netherlands clinics)",
+  "design": "cohort",
+  "n": "918 UK, 1392 NL",
+  "finding": "Symptom-based phenotypes replicated; polysymptomatic and pain-only phenotypes had lower odds of improvement at 1 year (MOR 0.43 and 0.33 in UK).",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "self-reported outcome"
+ },
+ {
+  "id": "29096528",
+  "relevant": "related",
+  "population": "adolescent CFS",
+  "design": "cross-sectional",
+  "n": "52",
+  "finding": "34.6% met major depression and 28.8% an anxiety disorder on structured interview.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "29102461",
+  "relevant": "related",
+  "population": "rat CFS model",
+  "design": "animal",
+  "n": null,
+  "finding": "Orchid extract improved behavioural and oxidative markers in a forced-swim rat model.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "29053742",
+  "relevant": "core",
+  "population": "CFS",
+  "design": "case-control",
+  "n": "49 vs 10",
+  "finding": "Self-reported autonomic and cognitive symptoms higher in CFS but objective Task Force autonomic measures did not differ from controls.",
+  "atlas": [
+   "neuro-hrv"
+  ],
+  "relation": "contradicts",
+  "steps": [
+   2
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": "tiny control group"
+ },
+ {
+  "id": "29167053",
+  "relevant": "core",
+  "population": "CFS",
+  "design": "cohort",
+  "n": "35",
+  "finding": "After physical or cognitive challenge, nocturnal parasympathetic HRV fell and inactivity rose during post-exertional fatigue.",
+  "atlas": [
+   "neuro-hrv",
+   "muscle-exertion-pem-timing"
+  ],
+  "relation": "extends",
+  "steps": [
+   6,
+   8
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": "no control group"
+ },
+ {
+  "id": "28779554",
+  "relevant": "core",
+  "population": "CFS (CDC)",
+  "design": "case-control",
+  "n": "24 vs 21",
+  "finding": "Higher resting TGF-beta in CFS was a spurious assay-batch artefact; no group differences in other cytokines or in exercise responses.",
+  "atlas": [
+   "immune-tgfbeta-artefact"
+  ],
+  "relation": "replicates",
+  "steps": [
+   6
+  ],
+  "treatments": [],
+  "importance": 2,
+  "note": null
+ },
+ {
+  "id": "29392095",
+  "relevant": "related",
+  "population": "CFS without depression",
+  "design": "case-control",
+  "n": "52 vs 19",
+  "finding": "With depression excluded, childhood trauma scores in CFS were not higher than in controls.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "29021956",
+  "relevant": "core",
+  "population": "CFS",
+  "design": "imaging",
+  "n": "42 vs 30",
+  "finding": "VBM: larger grey matter (amygdala, insula) and lower white matter volume (midbrain, pons, right temporal) in CFS.",
+  "atlas": [
+   "neuro-mri-structure",
+   "neuro-brainstem"
+  ],
+  "relation": "replicates",
+  "steps": [
+   2
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "28931531",
+  "relevant": "related",
+  "population": "paediatric CFS/ME",
+  "design": "RCT",
+  "n": "100 (51 intervention)",
+  "finding": "Lightning Process plus specialist care improved SF-36 physical function by 12.5 points at 6 months versus care alone.",
+  "atlas": [
+   "trials-placebo-response"
+  ],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "open-label, self-reported outcome, controversial intervention"
+ },
+ {
+  "id": "28921637",
+  "relevant": "related",
+  "population": "ME/CFS policy",
+  "design": "other",
+  "n": null,
+  "finding": "Personal ethics case study about declining an IOM panel invitation.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "28760189",
+  "relevant": "core",
+  "population": "adolescent CFS/ME",
+  "design": "case-control",
+  "n": "21 vs 145",
+  "finding": "Actigraphy showed longer sleep latency, time in bed and total sleep time, and later rise time in adolescents with CFS/ME.",
+  "atlas": [
+   "neuro-sleep"
+  ],
+  "relation": "replicates",
+  "steps": [
+   8
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "28918107",
+  "relevant": "core",
+  "population": "CFS",
+  "design": "cross-sectional",
+  "n": "265",
+  "finding": "Structural model linked depression, higher evening salivary cortisol and inflammation in CFS.",
+  "atlas": [
+   "endocrine-hpa-low-cortisol"
+  ],
+  "relation": "none",
+  "steps": [
+   2
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": "no control group"
+ },
+ {
+  "id": "28880891",
+  "relevant": "core",
+  "population": "adolescent CFS",
+  "design": "imaging",
+  "n": "18 vs 18",
+  "finding": "Reduced resting connectivity between right anterior insula and posterior parietal cortex in adolescent CFS.",
+  "atlas": [
+   "neuro-resting-fc"
+  ],
+  "relation": "replicates",
+  "steps": [
+   2
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "28877941",
+  "relevant": "related",
+  "population": "paediatric CFS/ME",
+  "design": "meta-analysis",
+  "n": "9 papers from 8 studies",
+  "finding": "Systematic review: no study targeted anxiety in children with CFS; evidence insufficient on what treatment to offer.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [
+   "ivig"
+  ],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "28847166",
+  "relevant": "related",
+  "population": "ME/CFS",
+  "design": "survey",
+  "n": "1428 plus 16665 from other surveys",
+  "finding": "Patient surveys: CBT helped 8-35%, graded exercise worsened symptoms in 54-74%, pacing most favoured (44-82% benefit).",
+  "atlas": [
+   "trials-patient-surveys",
+   "trials-nice-2021-harms"
+  ],
+  "relation": "replicates",
+  "steps": [],
+  "treatments": [
+   "pacing-heart-rate",
+   "graded-exercise",
+   "cbt-supportive"
+  ],
+  "importance": 2,
+  "note": "self-selected survey respondents"
+ },
+ {
+  "id": "29154201",
+  "relevant": "core",
+  "population": "CFS (women)",
+  "design": "case-control",
+  "n": "40 vs 40",
+  "finding": "Cortisol levels normal in both groups but morning-afternoon correlation absent in CFS; total T3 lower in CFS with normal T4 and TSH.",
+  "atlas": [
+   "endocrine-low-t3",
+   "endocrine-hpa-low-cortisol"
+  ],
+  "relation": "replicates",
+  "steps": [
+   2
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "29662969",
+  "relevant": "related",
+  "population": "college volunteers",
+  "design": "cross-sectional",
+  "n": "90",
+  "finding": "ME/CFS research volunteers held less stigmatising attitudes.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "not patients"
+ },
+ {
+  "id": "28843450",
+  "relevant": "related",
+  "population": "CFS/ME",
+  "design": "cross-sectional",
+  "n": "114 (35 longitudinal)",
+  "finding": "Activity pacing scores were not associated with pain, fatigue or disability.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [
+   "pacing-heart-rate"
+  ],
+  "importance": 1,
+  "note": "questionnaire-based pacing measure"
+ },
+ {
+  "id": "28752613",
+  "relevant": "core",
+  "population": "suspected ME/CFS",
+  "design": "cross-sectional",
+  "n": "78 PSG of 381 referred",
+  "finding": "Polysomnography found treatable sleep disorders in over half (OSA 40%, RLS 41%, PLMD 9%).",
+  "atlas": [
+   "neuro-sleep"
+  ],
+  "relation": "extends",
+  "steps": [
+   8
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": "selected sleepy subset"
+ },
+ {
+  "id": "28505018",
+  "relevant": "related",
+  "population": "rat CFS model",
+  "design": "animal",
+  "n": null,
+  "finding": "Treadmill CFS rat model had higher 5-HT, 5-HIAA and tryptophan than controls, opposite to stress-model rats.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "30854252",
+  "relevant": "related",
+  "population": "CFS (Oxford vs Fukuda)",
+  "design": "survey",
+  "n": "6175 mailed",
+  "finding": "Oxford criteria classed about 20-25% of the US population as CFS versus about 2% on Fukuda; 85% of Oxford cases inappropriately classified.",
+  "atlas": [
+   "trials-prevalence-sex"
+  ],
+  "relation": "extends",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "proxy questionnaire items"
+ },
+ {
+  "id": "28806608",
+  "relevant": "related",
+  "population": "CFS",
+  "design": "cross-sectional",
+  "n": "155",
+  "finding": "Childhood sexual harassment predicted fatigue and poor physical functioning.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "28709432",
+  "relevant": "related",
+  "population": "CFS/ME (England specialist services)",
+  "design": "cohort",
+  "n": "952 baseline, 440 follow-up",
+  "finding": "1-year: 27.5% much better, 20% worse; services varied in therapy.",
+  "atlas": [
+   "trials-recovery-rates"
+  ],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "30931176",
+  "relevant": "related",
+  "population": "severe CFS",
+  "design": "RCT",
+  "n": "137 (89 vs 48)",
+  "finding": "Home-based CBT self-management dominated usual care economically.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [
+   "cbt-supportive"
+  ],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "28661067",
+  "relevant": "core",
+  "population": "CFS",
+  "design": "imaging",
+  "n": "38 vs 14",
+  "finding": "MRI of medial prefrontal cortex correlated with unrefreshing sleep scores; lower MT and T1w intensities in CFS (uncorrected).",
+  "atlas": [
+   "neuro-sleep",
+   "neuro-mri-structure"
+  ],
+  "relation": "extends",
+  "steps": [
+   2,
+   8
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "28805512",
+  "relevant": "related",
+  "population": "CFS",
+  "design": "other",
+  "n": null,
+  "finding": "Commentary rejecting PACE trial conclusions.",
+  "atlas": [
+   "trials-pace-get-cbt"
+  ],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "29204592",
+  "relevant": "related",
+  "population": "ME/CFS",
+  "design": "survey",
+  "n": "541",
+  "finding": "Illness course (fluctuating 60%, constantly worse 16%) associated with symptom and functioning differences.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "28735654",
+  "relevant": "related",
+  "population": "CFS",
+  "design": "other",
+  "n": null,
+  "finding": "Hypothesis linking CFS to low-grade intracranial pressure disorders.",
+  "atlas": [
+   "neuro-cci"
+  ],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "speculative"
+ },
+ {
+  "id": "28805529",
+  "relevant": "related",
+  "population": "CFS",
+  "design": "meta-analysis",
+  "n": null,
+  "finding": "Review: CBT studies with objective outcomes show no evidence of improved physical capability or return to work.",
+  "atlas": [
+   "trials-pace-get-cbt"
+  ],
+  "relation": "extends",
+  "steps": [],
+  "treatments": [
+   "cbt-supportive"
+  ],
+  "importance": 2,
+  "note": null
+ },
+ {
+  "id": "28616881",
+  "relevant": "related",
+  "population": "CFS",
+  "design": "meta-analysis",
+  "n": "22 studies",
+  "finding": "Systematic review: dietary modification evidence narrow and inconsistent; some positive signals for D-ribose, omega-3 and polyphenols (animal).",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [
+   "mito-supplements"
+  ],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "29430570",
+  "relevant": "related",
+  "population": "ME/CFS vs MS",
+  "design": "survey",
+  "n": "269 vs 120",
+  "finding": "ME/CFS respondents reported more functional limitation and more severe symptoms than MS.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "28605207",
+  "relevant": "related",
+  "population": "CFS/FM",
+  "design": "open-label",
+  "n": "39",
+  "finding": "Pain neuroscience education: baseline kinesiophobia and worrying predicted less reduction in catastrophizing.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "28592308",
+  "relevant": "related",
+  "population": "ME/CFS",
+  "design": "meta-analysis",
+  "n": "59 D-lactic acidosis episodes",
+  "finding": "Review compares D-lactic acidosis symptoms to ME/CFS; only preliminary evidence for D-lactate-producing bacteria in ME/CFS.",
+  "atlas": [
+   "gut-translocation-lps"
+  ],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "28576141",
+  "relevant": "related",
+  "population": "CFS/ME",
+  "design": "qualitative",
+  "n": "16",
+  "finding": "Interviews on experiences of NHS specialist services.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "28574985",
+  "relevant": "related",
+  "population": "CFS (CDC 1994)",
+  "design": "RCT",
+  "n": "122 (109 analysed)",
+  "finding": "Multidisciplinary rehabilitation reduced fatigue more than CBT at 52 weeks but cost more; QALY difference not significant.",
+  "atlas": [
+   "trials-pace-get-cbt"
+  ],
+  "relation": "none",
+  "steps": [],
+  "treatments": [
+   "cbt-supportive"
+  ],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "27059618",
+  "relevant": "related",
+  "population": "ME",
+  "design": "qualitative",
+  "n": null,
+  "finding": "Discourse analysis of satirical texts in an online ME community.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "29071982",
+  "relevant": "related",
+  "population": "rat CFS model",
+  "design": "animal",
+  "n": "48 rats",
+  "finding": "Acupuncture lowered T-bet and raised GATA-3 expression in a rat CFS model.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "28805527",
+  "relevant": "related",
+  "population": "ME/CFS",
+  "design": "other",
+  "n": null,
+  "finding": "Critique alleging bias in PACE investigators' accounts of CBT/GET literature.",
+  "atlas": [
+   "trials-pace-get-cbt"
+  ],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "28589117",
+  "relevant": "core",
+  "population": "ME/CFS (XMRV)",
+  "design": "other",
+  "n": null,
+  "finding": "Bioinformatics and primer testing show XMRV PCR primers bind non-specifically to repeats in human DNA, explaining unreliable association.",
+  "atlas": [
+   "infection-xmrv-cautionary"
+  ],
+  "relation": "replicates",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "29104961",
+  "relevant": "related",
+  "population": "CFS/ME",
+  "design": "cross-sectional",
+  "n": null,
+  "finding": "76% of CFS sample met IOM criteria but 44% met revised London criteria for ME, with greater impairment.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "28805513",
+  "relevant": "related",
+  "population": "ME/CFS",
+  "design": "other",
+  "n": null,
+  "finding": "Argues CBT evidence for reducing distress is weak and patient surveys report worsening.",
+  "atlas": [
+   "trials-pace-get-cbt"
+  ],
+  "relation": "none",
+  "steps": [],
+  "treatments": [
+   "cbt-supportive"
+  ],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "28810458",
+  "relevant": "related",
+  "population": "CFS",
+  "design": "cross-sectional",
+  "n": "30",
+  "finding": "Cognitive coping strategies related to depressive symptoms.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "28805528",
+  "relevant": "related",
+  "population": "ME/CFS",
+  "design": "other",
+  "n": null,
+  "finding": "Reviews patient survey data 2001-2015: GET worsens most patients, CBT no change, pacing improves.",
+  "atlas": [
+   "trials-patient-surveys",
+   "trials-nice-2021-harms"
+  ],
+  "relation": "replicates",
+  "steps": [],
+  "treatments": [
+   "graded-exercise",
+   "pacing-heart-rate"
+  ],
+  "importance": 1,
+  "note": "advocacy-oriented commentary"
+ },
+ {
+  "id": "PPR28560",
+  "relevant": "related",
+  "population": "ME/CFS research",
+  "design": "other",
+  "n": null,
+  "finding": "Bias appraisal comparing a psychosocial trial (PACE) with a cellular study.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "28470767",
+  "relevant": "core",
+  "population": "adolescent CFS (NorCAPITAL)",
+  "design": "case-control",
+  "n": "120 vs 39",
+  "finding": "Adolescents with CFS spent longer in bed, had delayed mid-sleep and more variable sleep-wake rhythm, and reported more insomnia and sleepiness.",
+  "atlas": [
+   "neuro-sleep"
+  ],
+  "relation": "replicates",
+  "steps": [
+   8
+  ],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "28535557",
+  "relevant": "core",
+  "population": "CFS vs MS vs controls",
+  "design": "case-control",
+  "n": "48 CFS, 19 MS, 30 controls",
+  "finding": "CFS had lower pressure pain thresholds (about 25% lower than MS) and higher temporal summation, indicating pain facilitation rather than impaired inhibition.",
+  "atlas": [
+   "neuro-pain-modulation-exercise-hyperalgesia"
+  ],
+  "relation": "replicates",
+  "steps": [
+   2,
+   8
+  ],
+  "treatments": [],
+  "importance": 2,
+  "note": null
+ },
+ {
+  "id": "28453534",
+  "relevant": "core",
+  "population": "CFS and FM",
+  "design": "meta-analysis",
+  "n": "45 studies (27 in meta-analysis)",
+  "finding": "Vitamin E lower in patients (SMD -1.57) but not in high-quality studies; no consistent vitamin or mineral deficiency.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [
+   "vitamin-d"
+  ],
+  "importance": 1,
+  "note": "high heterogeneity"
+ },
+ {
+  "id": "28805519",
+  "relevant": "related",
+  "population": "ME/CFS",
+  "design": "other",
+  "n": null,
+  "finding": "Commentary: PACE outcome changes inflated efficacy claims; no objective improvement.",
+  "atlas": [
+   "trials-pace-get-cbt"
+  ],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "28596045",
+  "relevant": "related",
+  "population": "CFS/ME (Fukuda and Canadian, Spain)",
+  "design": "cohort",
+  "n": "1757",
+  "finding": "Cluster analysis found five comorbidity groups (e.g., fibromyalgia, MCS, sicca, hypovitaminosis D, hyperlaxity, endometriosis).",
+  "atlas": [
+   "genetics-hypermobility-overlap",
+   "endocrine-gynaecological-menopause"
+  ],
+  "relation": "replicates",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "28713878",
+  "relevant": "related",
+  "population": "ME/CFS",
+  "design": "survey",
+  "n": "898",
+  "finding": "Fewer than half had seen an ME/CFS specialist; 99% wanted specialist care.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "28403636",
+  "relevant": "related",
+  "population": "ME/CFS media",
+  "design": "other",
+  "n": "214 articles",
+  "finding": "Content analysis of US newspaper coverage of CFS.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "28375204",
+  "relevant": "core",
+  "population": "ME/CFS (classical vs atypical)",
+  "design": "case-control",
+  "n": "32 classical vs 27 atypical (CSF)",
+  "finding": "CSF 51-plex cytokines differed between atypical and classical ME/CFS (lower IL-17A, CXCL9 in atypical); IL-1RA pattern suggests IL-1 signalling disturbance in classical.",
+  "atlas": [
+   "immune-csf-cytokines",
+   "neuro-csf-immune-proteome"
+  ],
+  "relation": "extends",
+  "steps": [
+   7
+  ],
+  "treatments": [],
+  "importance": 2,
+  "note": "no healthy control group"
+ },
+ {
+  "id": "28685531",
+  "relevant": "related",
+  "population": "CFS jawbone samples",
+  "design": "case-control",
+  "n": "21 vs 19",
+  "finding": "Jawbone osteonecrosis tissue from CFS patients showed 30-fold RANTES and 20-fold FGF-2 versus healthy jawbone.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": "speculative, tissue not comparable"
+ },
+ {
+  "id": "28805520",
+  "relevant": "related",
+  "population": "ME/CFS",
+  "design": "other",
+  "n": null,
+  "finding": "Commentary criticising PACE unblinded design with subjective outcomes.",
+  "atlas": [
+   "trials-pace-get-cbt"
+  ],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "28349621",
+  "relevant": "related",
+  "population": "CFS",
+  "design": "qualitative",
+  "n": "13",
+  "finding": "Patients reported satisfaction and partial improvement with CBT but incomplete recovery.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [
+   "cbt-supportive"
+  ],
+  "importance": 1,
+  "note": null
+ },
+ {
+  "id": "28606498",
+  "relevant": "related",
+  "population": "CFS",
+  "design": "cohort",
+  "n": "583 contacted, 511 followed up",
+  "finding": "Up to 10 years after CBT, fatigue and physical functioning had worsened since post-treatment; 37% had normal fatigue and 70% unimpaired function.",
+  "atlas": [
+   "trials-recovery-rates"
+  ],
+  "relation": "none",
+  "steps": [],
+  "treatments": [
+   "cbt-supportive"
+  ],
+  "importance": 1,
+  "note": "uncontrolled, self-report"
+ },
+ {
+  "id": "28359851",
+  "relevant": "related",
+  "population": "rat CFS model",
+  "design": "animal",
+  "n": null,
+  "finding": "Epimedium polysaccharide altered urinary metabolites and two pathways in a rat CFS model.",
+  "atlas": [],
+  "relation": "none",
+  "steps": [],
+  "treatments": [],
+  "importance": 1,
+  "note": null
+ }
+]

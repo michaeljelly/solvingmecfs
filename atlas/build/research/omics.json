@@ -71,7 +71,75 @@
     "cell-danger-response",
     "gut-dysbiosis"
    ],
-   "test_available": "research only"
+   "test_available": "research only",
+   "sweep": [
+    {
+     "cite": "Huth 2020",
+     "n": "11 case-control studies",
+     "design": "meta-analysis",
+     "result": "Systematic review of blood and urine metabolomics found inconsistent results across 11 studies.",
+     "url": "https://doi.org/10.1186/s12967-020-02356-2",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Hauguel 2026, preprint",
+     "n": "226 vs 914",
+     "design": "case-control",
+     "result": "Dried blood spot LC-MS metabolomics in 1784 adults found pathway-level convergence with ME/CFS biology for a self-reported PEM-like fatigue phenotype.",
+     "url": "https://doi.org/10.64898/2026.06.08.26355197",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Nkiliza 2021",
+     "n": "50 vs 50",
+     "design": "case-control",
+     "result": "Sex-specific plasma lipid differences: lower PE and hexosylceramides in females, higher HexCer, PI, TG and oxylipins in males.",
+     "url": "https://doi.org/10.1186/s12967-021-03035-6",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Niblett 2007",
+     "n": "100 vs 82",
+     "design": "case-control",
+     "result": "Blood counts normal; CFS had lower RDW, higher MPV, neutrophils and N/L ratio; reduced overnight urine output and amino acid excretion (asparagine, branched-chain, succinate lower; 3-methylhistidine, tyrosine higher).",
+     "url": "https://doi.org/10.3181/0702-rm-44",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Jones 2005",
+     "n": "31 vs 31 (plus 15 depression, 22 RA)",
+     "design": "case-control",
+     "result": "Previously reported urinary amino/organic acid markers (CFSUM1/2) were not confirmed; some evidence of inflammation and reduced intramuscular collagen.",
+     "url": "https://doi.org/10.1016/j.cccn.2005.05.023",
+     "verified": true,
+     "sweep": true,
+     "relation": "contradicts",
+     "importance": 2
+    },
+    {
+     "cite": "Chalmers 2006",
+     "n": "30 vs 30 (plus 20 depression, 22 RA)",
+     "design": "case-control",
+     "result": "Urinary CFSUM1 and CFSUM2 reported earlier were derivatisation artefacts (pyroglutamic acid, serine), not CFS markers.",
+     "url": "https://doi.org/10.1016/j.cccn.2005.05.036",
+     "verified": true,
+     "sweep": true,
+     "relation": "contradicts",
+     "importance": 2
+    }
+   ]
   },
   {
    "id": "omics-cdr-hypometabolic",
@@ -185,7 +253,31 @@
     "mitochondrial-energy",
     "cell-danger-response"
    ],
-   "test_available": "research only (plasmalogen panels exist in some specialist labs)"
+   "test_available": "research only (plasmalogen panels exist in some specialist labs)",
+   "sweep": [
+    {
+     "cite": "Che 2021, preprint",
+     "n": "106 vs 91",
+     "design": "case-control",
+     "result": "Metabolomics of 888 analytes: decreased plasmalogens (peroxisomal dysfunction), phosphatidylcholines and sphingomyelins in ME/CFS; CDP-choline pathway altered.",
+     "url": "https://doi.org/10.1101/2021.06.14.21258895",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Nkiliza 2021",
+     "n": "50 vs 50",
+     "design": "case-control",
+     "result": "Sex-specific plasma lipid differences: lower PE and hexosylceramides in females, higher HexCer, PI, TG and oxylipins in males.",
+     "url": "https://doi.org/10.1186/s12967-021-03035-6",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    }
+   ]
   },
   {
    "id": "omics-aromatic-lactates",
@@ -214,7 +306,20 @@
     "mitochondrial-energy",
     "gut-dysbiosis"
    ],
-   "test_available": "research only"
+   "test_available": "research only",
+   "sweep": [
+    {
+     "cite": "Yagin 2026",
+     "n": "106 vs 91",
+     "design": "case-control",
+     "result": "Plasma metabolomics/lipidomics ensemble classifier reached accuracy 0.909 and AUC 0.940; top interactions include proline with indole-3-lactate.",
+     "url": "https://doi.org/10.3390/ijms27135920",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    }
+   ]
   },
   {
    "id": "omics-ipa",
@@ -318,7 +423,42 @@
     "metabolic-trap-ido",
     "innate-hyperactivation"
    ],
-   "test_available": "Plasma tryptophan/kynurenine available in some commercial labs; not diagnostic"
+   "test_available": "Plasma tryptophan/kynurenine available in some commercial labs; not diagnostic",
+   "sweep": [
+    {
+     "cite": "Matits 2026",
+     "n": "127 vs 91",
+     "design": "case-control",
+     "result": "PCC had worse cognition and psychological distress; kynurenine pathway metabolites and kynurenic acid/kynurenine ratio related to symptoms.",
+     "url": "https://doi.org/10.1016/j.jpsychores.2026.112911",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Cysique 2023",
+     "n": "128",
+     "design": "cohort",
+     "result": "Cognitive impairment (GDS>0.5) in 16-26% over 12 months, 46.5% impaired at least once; kynurenine pathway metabolites relate to cognition and PASC.",
+     "url": "https://doi.org/10.1002/acn3.51825",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Cysique 2022, preprint",
+     "n": "128",
+     "design": "cohort",
+     "result": "Cognitive impairment associated with kynurenine pathway activation over 12 months",
+     "url": "https://doi.org/10.1101/2022.06.07.22276020",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    }
+   ]
   },
   {
    "id": "omics-carnitines",
@@ -386,7 +526,42 @@
    "hypotheses": [
     "mitochondrial-energy"
    ],
-   "test_available": "Plasma acylcarnitine profile (clinical metabolic labs); not diagnostic for ME/CFS"
+   "test_available": "Plasma acylcarnitine profile (clinical metabolic labs); not diagnostic for ME/CFS",
+   "sweep": [
+    {
+     "cite": "Jinushi 2023",
+     "n": "7 studies, 403 patients",
+     "design": "meta-analysis",
+     "result": "Serum acylcarnitine levels significantly lower in ME/CFS than controls.",
+     "url": "https://doi.org/10.1186/s12967-023-04226-z",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Kuratsune 1998",
+     "n": "Swedish CFS 57 vs 46 controls; Japanese controls 131",
+     "design": "case-control",
+     "result": "Serum acylcarnitine was low in Swedish CFS patients (p<0.001), as earlier in Japanese patients; also low in hepatitis C but not other diseases.",
+     "url": "https://doi.org/10.3892/ijmm.2.1.51",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Jones 2005",
+     "n": "31 vs 31 (plus 15 depression, 22 RA)",
+     "design": "case-control",
+     "result": "Plasma and urinary free and acyl carnitine did not differ between CFS and controls.",
+     "url": "https://doi.org/10.1016/j.cccn.2005.04.029",
+     "verified": true,
+     "sweep": true,
+     "relation": "contradicts",
+     "importance": 2
+    }
+   ]
   },
   {
    "id": "omics-energy-fuel-pdh",
@@ -447,7 +622,20 @@
     "mitochondrial-energy",
     "serum-factor"
    ],
-   "test_available": "research only"
+   "test_available": "research only",
+   "sweep": [
+    {
+     "cite": "McGregor 2019",
+     "n": "47 cases and matched controls",
+     "design": "case-control",
+     "result": "Serum/urine metabolomics: hypoxanthine fell with PEM severity, glucose:lactate ratio shifted, and urinary methylhistidine, mannitol and acetate rose, suggesting hypermetabolism and hypoacetylation.",
+     "url": "https://doi.org/10.3390/diagnostics9030070",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    }
+   ]
   },
   {
    "id": "omics-ketones",
@@ -519,7 +707,20 @@
     "mitochondrial-energy",
     "small-vessel-capillary"
    ],
-   "test_available": "research only"
+   "test_available": "research only",
+   "sweep": [
+    {
+     "cite": "McGregor 2019",
+     "n": "47 cases and matched controls",
+     "design": "case-control",
+     "result": "Serum/urine metabolomics: hypoxanthine fell with PEM severity, glucose:lactate ratio shifted, and urinary methylhistidine, mannitol and acetate rose, suggesting hypermetabolism and hypoacetylation.",
+     "url": "https://doi.org/10.3390/diagnostics9030070",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    }
+   ]
   },
   {
    "id": "omics-collagen-metso",
@@ -547,7 +748,20 @@
     "connective-tissue",
     "small-vessel-capillary"
    ],
-   "test_available": "research only"
+   "test_available": "research only",
+   "sweep": [
+    {
+     "cite": "Gülmez 2026",
+     "n": "50 PASC vs 42 HC + 8 ME/CFS",
+     "design": "case-control",
+     "result": "Urinary peptidome signature of 195 peptides (collagen chains) separated PASC from controls (AUC 0.949 training, 0.962 validation).",
+     "url": "https://doi.org/10.1002/pmic.70074",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    }
+   ]
   },
   {
    "id": "omics-redox",
@@ -615,7 +829,42 @@
     "oxidative-stress",
     "mitochondrial-energy"
    ],
-   "test_available": "research only"
+   "test_available": "research only",
+   "sweep": [
+    {
+     "cite": "Kennedy 2010",
+     "n": "25 vs 23",
+     "design": "case-control",
+     "result": "Children with CFS/ME had higher isoprostanes (252 vs 216 pg/mL) and lower vitamin C, more white cell apoptosis, but normal arterial stiffness.",
+     "url": "https://doi.org/10.1001/archpediatrics.2010.157",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Kennedy 2005",
+     "n": "47 vs 34",
+     "design": "case-control",
+     "result": "Plasma isoprostanes and oxidised LDL were higher and HDL lower in CFS; isoprostanes correlated with symptoms including PEM in low-CV-risk patients.",
+     "url": "https://doi.org/10.1016/j.freeradbiomed.2005.04.020",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Spence 2008",
+     "n": "41 vs 30",
+     "design": "case-control",
+     "result": "Arterial stiffness (AIx@75) was greater in CFS (22.5 vs 13.3%, p=0.002), with higher CRP and isoprostanes, correlating with CRP and oxidative stress.",
+     "url": "https://doi.org/10.1042/cs20070274",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    }
+   ]
   },
   {
    "id": "omics-nad",
@@ -748,7 +997,20 @@
     "mitochondrial-energy",
     "small-vessel-capillary"
    ],
-   "test_available": "CK and myoglobin are routine but expected low-normal; not diagnostic"
+   "test_available": "CK and myoglobin are routine but expected low-normal; not diagnostic",
+   "sweep": [
+    {
+     "cite": "Hoel 2025, preprint",
+     "n": "54 vs 27",
+     "design": "case-control",
+     "result": "Aptamer serum proteomics: 1823 of 7326 aptamers differed (845 after FDR), with broad rise in secreted proteins and lower intracellular and muscle proteins, reduced neutrophil-associated proteins.",
+     "url": "https://doi.org/10.1101/2025.05.28.25328245",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    }
+   ]
   },
   {
    "id": "omics-proteome-hoel-leak",
@@ -785,7 +1047,31 @@
     "vascular-endothelial",
     "connective-tissue"
    ],
-   "test_available": "research only"
+   "test_available": "research only",
+   "sweep": [
+    {
+     "cite": "Hoel 2025, preprint",
+     "n": "54 vs 27",
+     "design": "case-control",
+     "result": "Aptamer serum proteomics: 1823 of 7326 aptamers differed (845 after FDR), with broad rise in secreted proteins and lower intracellular and muscle proteins, reduced neutrophil-associated proteins.",
+     "url": "https://doi.org/10.1101/2025.05.28.25328245",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Germain 2021",
+     "n": "20 vs 20 females",
+     "design": "case-control",
+     "result": "Aptamer proteomics (4790 proteins) found 19 differing proteins, highlighting ephrin pathway and immune signalling; AUC above 0.85, up to 0.95 using ratios.",
+     "url": "https://doi.org/10.3390/proteomes9010006",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    }
+   ]
   },
   {
    "id": "omics-proteome-liver-vascular",
@@ -937,7 +1223,42 @@
     "complement-thromboinflammation",
     "serum-factor"
    ],
-   "test_available": "research only"
+   "test_available": "research only",
+   "sweep": [
+    {
+     "cite": "Giloteaux 2023, preprint",
+     "n": "18 vs 17 sedentary",
+     "design": "case-control",
+     "result": "Exercise alters EV protein cargo differently in ME/CFS (coagulation, muscle, immune, brain-signalling proteins); changes track symptom severity.",
+     "url": "https://doi.org/10.1101/2023.08.28.555033",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Tsilioni 2022",
+     "n": "",
+     "design": "in vitro",
+     "result": "Exosome-associated mtDNA from ME/CFS patients stimulates human microglia to release IL-1beta",
+     "url": "https://doi.org/10.1111/ejn.15828",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Eguchi 2020",
+     "n": "",
+     "design": "case-control",
+     "result": "Circulating EVs were increased in ME/CFS (AUC 0.80) and EV proteins talin-1, filamin-A and 14-3-3 were the most abundant discriminating proteins versus controls, idiopathic fatigue and depression.",
+     "url": "https://doi.org/10.1016/j.bbi.2019.11.015",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    }
+   ]
   },
   {
    "id": "omics-csf-proteome",
@@ -1027,7 +1348,20 @@
     "innate-hyperactivation",
     "herpes-reactivation"
    ],
-   "test_available": "research only"
+   "test_available": "research only",
+   "sweep": [
+    {
+     "cite": "Frampton 2011",
+     "n": "",
+     "design": "case-control",
+     "result": "A 44-gene PBMC expression classifier correctly classified only about two-thirds of samples in an independent population, so earlier reporter genes appear study-specific.",
+     "url": "https://doi.org/10.1371/journal.pone.0016872",
+     "verified": true,
+     "sweep": true,
+     "relation": "contradicts",
+     "importance": 2
+    }
+   ]
   },
   {
    "id": "omics-methylation",
@@ -1095,7 +1429,42 @@
     "immune-exhaustion",
     "genetic-neuronal"
    ],
-   "test_available": "research only (consumer epigenetic-age tests are not validated here)"
+   "test_available": "research only (consumer epigenetic-age tests are not validated here)",
+   "sweep": [
+    {
+     "cite": "Polli 2026",
+     "n": "73 HC, 71 ME/CFS, 44 FM",
+     "design": "case-control",
+     "result": "PBMC EPIC methylation axes relate to symptom burden in ME/CFS and fibromyalgia.",
+     "url": "https://doi.org/10.1186/s12967-026-08824-5",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Helliwell 2022",
+     "n": "",
+     "design": "cohort",
+     "result": "Epigenetic changes tracked through relapse and recovery cycle",
+     "url": "https://doi.org/10.3390/ijms231911852",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Vangeel 2015",
+     "n": "76 CFS vs 19 HC",
+     "design": "case-control",
+     "result": "NR3C1-1F promoter methylation lower in CFS than controls (CpG_1.5 survived Bonferroni, p=0.0014) and correlated with post-dexamethasone salivary cortisol.",
+     "url": "https://doi.org/10.1097/psy.0000000000000224",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    }
+   ]
   },
   {
    "id": "omics-nanoneedle",
@@ -1254,7 +1623,53 @@
     "gut-dysbiosis",
     "immune-exhaustion"
    ],
-   "test_available": "research only"
+   "test_available": "research only",
+   "sweep": [
+    {
+     "cite": "Yagin 2026",
+     "n": "106 vs 91",
+     "design": "case-control",
+     "result": "Plasma metabolomics/lipidomics ensemble classifier reached accuracy 0.909 and AUC 0.940; top interactions include proline with indole-3-lactate.",
+     "url": "https://doi.org/10.3390/ijms27135920",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Gülmez 2026",
+     "n": "50 PASC vs 42 HC + 8 ME/CFS",
+     "design": "case-control",
+     "result": "Urinary peptidome signature of 195 peptides (collagen chains) separated PASC from controls (AUC 0.949 training, 0.962 validation).",
+     "url": "https://doi.org/10.1002/pmic.70074",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Xiong 2024, preprint",
+     "n": "249 participants, 4 years",
+     "design": "cohort",
+     "result": "BioMapAI deep-learning model integrating gut metagenomics, metabolomics, immune profiles classified ME/CFS in held-out and external cohorts and implicated SCFA, tryptophan and MAIT/gamma-delta T cell pathways.",
+     "url": "https://doi.org/10.1101/2024.06.24.600378",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Frampton 2011",
+     "n": "",
+     "design": "case-control",
+     "result": "A 44-gene PBMC expression classifier correctly classified only about two-thirds of samples in an independent population, so earlier reporter genes appear study-specific.",
+     "url": "https://doi.org/10.1371/journal.pone.0016872",
+     "verified": true,
+     "sweep": true,
+     "relation": "contradicts",
+     "importance": 2
+    }
+   ]
   },
   {
    "id": "omics-coverage-limits",
@@ -1303,7 +1718,20 @@
     "Dense sampling through a PEM episode?"
    ],
    "hypotheses": [],
-   "test_available": "n/a"
+   "test_available": "n/a",
+   "sweep": [
+    {
+     "cite": "Maksoud 2023",
+     "n": "",
+     "design": "meta-analysis",
+     "result": "Systematic review of ME/CFS biomarkers concluding no validated diagnostic biomarker.",
+     "url": "https://doi.org/10.1186/s12916-023-02893-9",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    }
+   ]
   },
   {
    "id": "omics-haptoglobin-pem",
@@ -1395,6 +1823,33 @@
    "hypotheses": [],
    "open_questions": [],
    "test_available": false
+  },
+  {
+   "id": "omics-low-coq10",
+   "subdomain": "Metabolomics: energy metabolism",
+   "grade": "early",
+   "finding": "Plasma coenzyme Q10 was lower in ME/CFS, with 45% of patients below the lowest control value, and lower levels went with more fatigue and autonomic symptoms.",
+   "plain": "A molecule mitochondria need for energy production was low in blood in about half of patients in one study.",
+   "detail": "Maes 2009 (58 vs 22). Small control group. CoQ10 alone did not help long COVID in an RCT; CoQ10 plus NADH trials are covered under treatments.",
+   "studies": [
+    {
+     "cite": "Maes 2009, Neuro Endocrinol Lett",
+     "n": "58 vs 22",
+     "design": "case-control",
+     "result": "Plasma CoQ10 lower (p=0.00001); 44.8% below control range",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/20010505/",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "open_questions": [
+    "Is low CoQ10 a cause, a marker of oxidative stress, or a result of statin use or diet?"
+   ],
+   "hypotheses": [
+    "mitochondrial-energy"
+   ],
+   "test_available": "Plasma CoQ10, commercially available",
+   "added": "2026-11-08 literature sweep"
   }
  ],
  "hypotheses_notes": [

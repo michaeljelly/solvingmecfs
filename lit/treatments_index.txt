@@ -1,0 +1,61 @@
+pacing-heart-rate: Pacing with heart-rate limits
+upright-time: Lying-down and upright time management
+oral-fluids-salt: Oral fluids, electrolytes and salt
+iv-saline: IV saline infusions
+compression: Compression garments
+midodrine: Midodrine
+fludrocortisone: Fludrocortisone
+ivabradine: Ivabradine
+pyridostigmine: Pyridostigmine
+beta-blockers: Low-dose beta-blockers (propranolol)
+low-dose-aripiprazole: Low-dose aripiprazole
+tvns: Ear vagus nerve stimulation (tVNS)
+guanfacine-nac: Guanfacine with N-acetylcysteine
+clonidine: Clonidine
+sleep-medicines: Sleep medicines (melatonin, trazodone, low-dose amitriptyline)
+stimulants: Stimulants (methylphenidate, modafinil, lisdexamfetamine, solriamfetol)
+amantadine: Amantadine
+galantamine: Galantamine
+low-dose-naltrexone: Low-dose naltrexone (LDN)
+rapamycin: Low-dose rapamycin (sirolimus)
+rituximab: Rituximab
+cyclophosphamide: Cyclophosphamide
+daratumumab: Daratumumab
+ivig: IV immunoglobulin (IVIG)
+immunoadsorption: Immunoadsorption, plasma exchange and BC007
+mast-cell: Antihistamines and mast-cell stabilisers (H1 + H2, cromolyn)
+fluvoxamine: Fluvoxamine
+colchicine: Colchicine
+efgartigimod: Efgartigimod (FcRn blocker)
+cell-therapy: Stem cell and cord blood infusions
+herpes-antivirals: Valacyclovir or valganciclovir
+covid-antivirals: Paxlovid and SARS-CoV-2 monoclonal antibodies
+rintatolimod: Rintatolimod (Ampligen)
+temelimab: Temelimab (anti-HERV-W)
+coq10-nadh: CoQ10 plus NADH
+oxaloacetate: Oxaloacetate
+mito-supplements: Mitochondrial supplements (creatine, D-ribose, carnitine, NAD precursors, AXA1125)
+metformin: Metformin (for established long COVID)
+hbot-clinical: Hyperbaric oxygen in a clinical chamber (2.0 ATA)
+hbot-home: Home soft-shell chamber (1.3-1.5 ATA) with oxygen concentrator
+red-light: Red and near-infrared light (photobiomodulation)
+bpc-157: BPC-157
+nicotine-patch: Low-dose nicotine patches
+microclot-therapy: Microclot treatments (triple antithrombotic therapy, HELP apheresis)
+eecp: External counterpulsation (EECP)
+fibre-polyphenols: Fibre, fruit and polyphenols
+probiotics: Probiotics
+fmt: Faecal microbiota transplant (FMT)
+steroids: Steroids (low-dose hydrocortisone, prednisolone)
+desmopressin: Desmopressin
+thyroid-testosterone: Thyroid hormone or testosterone
+glp1: GLP-1 drugs (semaglutide, tirzepatide, retatrutide)
+cbt-supportive: CBT (supportive only)
+graded-exercise: Graded exercise therapy (GET)
+stellate-ganglion-block: Stellate ganglion block
+prospekta: Prospekta (ultra-low-dose antibody product)
+vortioxetine: Vortioxetine
+lithium-low-dose: Low-dose lithium
+cognitive-rehab-tdcs: Brain training and tDCS
+lau7b-deupirfenidone: LAU-7b (fenretinide) and deupirfenidone
+long-covid-rehab: Long COVID rehabilitation programmes

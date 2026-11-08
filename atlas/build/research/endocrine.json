@@ -71,7 +71,350 @@
     "hpa-endocrine",
     "sickness-behaviour"
    ],
-   "test_available": "Yes: 9am serum cortisol, salivary awakening cortisol, short Synacthen test (mainly to exclude true adrenal insufficiency)"
+   "test_available": "Yes: 9am serum cortisol, salivary awakening cortisol, short Synacthen test (mainly to exclude true adrenal insufficiency)",
+   "sweep": [
+    {
+     "cite": "Demitrack 1991",
+     "n": "30 vs 72",
+     "design": "case-control",
+     "result": "Evening plasma cortisol (89.0 vs 148.4 nmol/L, P<0.01) and 24-h urinary free cortisol (122.7 vs 203.1 nmol/24 h, P<0.0002) were lower, with elevated basal evening ACTH, indicating impaired HPA activation.",
+     "url": "https://doi.org/10.1210/jcem-73-6-1224",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 3
+    },
+    {
+     "cite": "Taccori 2023",
+     "n": "21 studies",
+     "design": "meta-analysis",
+     "result": "Systematic review of urinary biomarkers with meta-analysis of urinary free cortisol in ME/CFS vs controls.",
+     "url": "https://doi.org/10.1186/s12967-023-04295-0",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Roerink 2018",
+     "n": "107 vs 59 saliva; 46 vs 46 hair",
+     "design": "case-control",
+     "result": "Lower cortisol awakening response in CFS (4.2 vs 6.1 nmol/L, p=0.036); hair cortisol trend lower (p=0.062); anakinra for 4 weeks slightly lowered hair cortisol versus placebo.",
+     "url": "https://doi.org/10.1016/j.yhbeh.2018.05.016",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Wyller 2016",
+     "n": "120 CFS vs 68 HC",
+     "design": "case-control",
+     "result": "Adolescent CFS had higher plasma norepinephrine, epinephrine and FT4 and lower urine cortisol/creatinine than controls.",
+     "url": "https://doi.org/10.1186/s12967-016-0873-1",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Rimes 2014",
+     "n": "46 vs 33 (24 re-tested after CBT)",
+     "design": "case-control",
+     "result": "Daily salivary cortisol output was lower in CFS than controls with no difference in awakening response; output normalised after CBT guided self-help.",
+     "url": "https://doi.org/10.1016/j.jpsychores.2014.08.018",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Nijhof 2014",
+     "n": "108 vs 38",
+     "design": "case-control",
+     "result": "Salivary cortisol awakening response was lower in adolescent CFS; recovered patients normalised, change predicted recovery (OR 1.93 per SD).",
+     "url": "https://doi.org/10.1016/j.psyneuen.2014.01.017",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Roberts 2010",
+     "n": "84 (56 for saliva)",
+     "design": "cohort",
+     "result": "Lower 24-h urinary free cortisol and flattened salivary cortisol profile predicted poor response to CBT (39% responded).",
+     "url": "https://doi.org/10.1017/s0033291709990390",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Nater 2008",
+     "n": "28 CFS vs 35 ISF vs 39 controls",
+     "design": "case-control",
+     "result": "Flattened diurnal cortisol: lower morning and higher evening salivary cortisol in CFS; IL-6 highest in CFS but not significant after BMI adjustment.",
+     "url": "https://doi.org/10.1097/psy.0b013e3181651025",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Nater 2008",
+     "n": "75 vs 110",
+     "design": "case-control",
+     "result": "Attenuated morning salivary cortisol profile in CFS, limited to women (not men).",
+     "url": "https://doi.org/10.1210/jc.2007-1747",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Jerjes 2007",
+     "n": "15 CFS vs controls",
+     "design": "case-control",
+     "result": "5 mg prednisolone suppression test: lower salivary cortisol pre-dose and higher percent suppression in CFS, indicating enhanced negative feedback.",
+     "url": "https://doi.org/10.1016/j.psyneuen.2006.12.005",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Jerjes 2006",
+     "n": "",
+     "design": "case-control",
+     "result": "Diurnal urinary free cortisol and cortisone were lower across the day in CFS, while cortisol metabolites did not differ; supports reduced basal HPA function.",
+     "url": "https://doi.org/10.1016/j.jpsychores.2005.07.008",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Jerjes 2005",
+     "n": "",
+     "design": "case-control",
+     "result": "Salivary cortisol and cortisone were lower across the day in CFS with preserved rhythm and unchanged cortisol/cortisone ratio.",
+     "url": "https://doi.org/10.1016/j.jad.2005.03.013",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Roberts 2004",
+     "n": "56 vs 35",
+     "design": "case-control",
+     "result": "Salivary cortisol response to awakening (AUC) was lower in CFS.",
+     "url": "https://doi.org/10.1192/bjp.184.2.136",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Gaab 2002",
+     "n": "",
+     "design": "case-control",
+     "result": "CFS patients had lower baseline ACTH and lower ACTH responses to psychosocial stress, exercise and insulin tolerance test, with no difference in total plasma cortisol responses.",
+     "url": "https://doi.org/10.1097/01.psy.0000038937.67401.61",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Cleare 2001",
+     "n": "37 vs 28",
+     "design": "case-control",
+     "result": "ACTH responses to hCRH, insulin stress and D-fenfluramine were intact, but cortisol responses were lower once ACTH was controlled, and 24-h urinary free cortisol was lower in CFS.",
+     "url": "https://doi.org/10.1210/jcem.86.8.7735",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Cleare 2001",
+     "n": "121 vs 64",
+     "design": "case-control",
+     "result": "24-h urinary free cortisol was lower in CFS regardless of psychiatric comorbidity, medication use, sleep disturbance or disability.",
+     "url": "https://doi.org/10.1176/appi.ajp.158.4.641",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Strickland 1998",
+     "n": "14 CFS vs 26 depression vs 131 healthy",
+     "design": "case-control",
+     "result": "Evening salivary cortisol was lower in CFS than healthy controls (P=0.005) and depressed (P=0.02); morning cortisol lower in CFS without psychiatric disorder (P=0.009).",
+     "url": "https://doi.org/10.1016/s0165-0327(97)00134-1",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Scott 1998",
+     "n": "21 vs 10 vs 15",
+     "design": "case-control",
+     "result": "Urinary free cortisol was lower in CFS than healthy controls and higher in melancholic depression; profile held in CFS with comorbid depression.",
+     "url": "https://doi.org/10.1016/s0165-0327(97)00101-8",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Cleare 1995",
+     "n": "10 CFS vs 15 depression vs 25 controls",
+     "design": "case-control",
+     "result": "Baseline cortisol was lowest in CFS, intermediate in controls and highest in depression (P=0.01); prolactin response to d-fenfluramine was higher in CFS than controls (P=0.05).",
+     "url": "https://doi.org/10.1016/0165-0327(95)00026-j",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "De Bellis 2021",
+     "n": "30 vs 25",
+     "design": "case-control",
+     "result": "Antipituitary antibodies in 56% and antihypothalamic in 33% of women with ME/CFS, with lower ACTH/cortisol and GH/IGF-1 in antibody-high patients.",
+     "url": "https://doi.org/10.1210/clinem/dgab429",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Herane-Vives 2020",
+     "n": "17 CFS, 15 atypical depression, 34 controls",
+     "design": "case-control",
+     "result": "Salivary daily cortisol output (AUCg) was lower in CFS (92.2) than controls (125.5 nmol/l.h), but hair cortisol was not lower.",
+     "url": "https://doi.org/10.1016/j.jad.2020.01.146",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Maloney 2009",
+     "n": "83 CFS vs 202 ISF vs 109 controls",
+     "design": "case-control",
+     "result": "Each 1-point allostatic load index increase raised the odds of CFS by 26% (OR 1.26, 1.00-1.59) vs well controls, with a gradient well < ISF < CFS; fatigue duration inversely correlated with ALI.",
+     "url": "https://doi.org/10.1097/psy.0b013e3181a4fea8",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Heim 2009",
+     "n": "113 vs 124",
+     "design": "case-control",
+     "result": "Childhood trauma associated with 6-fold increased CFS risk; low salivary cortisol response to awakening found only in a CFS subgroup with trauma.",
+     "url": "https://doi.org/10.1001/archgenpsychiatry.2008.508",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Roberts 2009",
+     "n": "41",
+     "design": "open-label",
+     "result": "Diurnal salivary cortisol output rose after 15 sessions of CBT alongside clinical response, suggesting hypocortisolism is potentially reversible.",
+     "url": "https://doi.org/10.1016/j.jad.2008.09.013",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "MacHale 1998",
+     "n": "30 vs 15",
+     "design": "case-control",
+     "result": "Morning and evening cortisol and ACTH did not differ significantly, but the diurnal change in cortisol was smaller in CFS (p<0.05).",
+     "url": "https://doi.org/10.1159/000026543",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Powell 2013",
+     "n": "19 studies",
+     "design": "meta-analysis",
+     "result": "Meta-analysis: cortisol awakening response increase attenuated in CFS (d=-0.34), no group difference in CAR output or circadian output.",
+     "url": "https://doi.org/10.1016/j.psyneuen.2013.07.004",
+     "verified": true,
+     "sweep": true,
+     "relation": "contradicts",
+     "importance": 2
+    },
+    {
+     "cite": "Papadopoulos 2009",
+     "n": "18 vs 20",
+     "design": "case-control",
+     "result": "Low-dose dexamethasone suppression: basal cortisol was raised and overall suppression did not differ (80% vs 76%); only the comorbid-depression subgroup (n=9) hypersuppressed.",
+     "url": "https://doi.org/10.1016/j.jad.2008.05.001",
+     "verified": true,
+     "sweep": true,
+     "relation": "contradicts",
+     "importance": 2
+    },
+    {
+     "cite": "Jerjes 2006",
+     "n": "40 vs 40",
+     "design": "case-control",
+     "result": "24-h urinary total cortisol metabolites and free cortisol did not differ between CFS and controls in either sex.",
+     "url": "https://doi.org/10.1097/01.psy.0000222358.01096.54",
+     "verified": true,
+     "sweep": true,
+     "relation": "contradicts",
+     "importance": 2
+    },
+    {
+     "cite": "Di Giorgio 2005",
+     "n": "15 vs 10",
+     "design": "case-control",
+     "result": "24-h blood sampling showed reduced ACTH (esp 8-10 am) but no differences in cortisol, GH or prolactin or cortisol rhythm.",
+     "url": "https://doi.org/10.1097/01.psy.0000161206.55324.8a",
+     "verified": true,
+     "sweep": true,
+     "relation": "contradicts",
+     "importance": 2
+    },
+    {
+     "cite": "Inder 2005",
+     "n": "12 vs 11",
+     "design": "case-control",
+     "result": "No differences in basal cortisol, urinary free cortisol, DHEAS, IGF-1 or ACTH/cortisol responses to CRH or naloxone.",
+     "url": "https://doi.org/10.1111/j.1365-2265.2005.02220.x",
+     "verified": true,
+     "sweep": true,
+     "relation": "contradicts",
+     "importance": 2
+    },
+    {
+     "cite": "Young 1998",
+     "n": "22",
+     "design": "case-control",
+     "result": "24-h salivary and urinary cortisol did not differ between CFS patients and controls.",
+     "url": "https://doi.org/10.1016/s0006-3223(97)00404-6",
+     "verified": true,
+     "sweep": true,
+     "relation": "contradicts",
+     "importance": 2
+    }
+   ]
   },
   {
    "id": "endocrine-hpa-feedback",
@@ -107,7 +450,240 @@
    "hypotheses": [
     "hpa-endocrine"
    ],
-   "test_available": "Research only (dexamethasone suppression or CRH tests); short Synacthen test is clinical"
+   "test_available": "Research only (dexamethasone suppression or CRH tests); short Synacthen test is clinical",
+   "sweep": [
+    {
+     "cite": "Demitrack 1991",
+     "n": "30 vs 72",
+     "design": "case-control",
+     "result": "Evening plasma cortisol (89.0 vs 148.4 nmol/L, P<0.01) and 24-h urinary free cortisol (122.7 vs 203.1 nmol/24 h, P<0.0002) were lower, with elevated basal evening ACTH, indicating impaired HPA activation.",
+     "url": "https://doi.org/10.1210/jcem-73-6-1224",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 3
+    },
+    {
+     "cite": "Vangeel 2018",
+     "n": "80 vs 91",
+     "design": "case-control",
+     "result": "NR3C1-1F glucocorticoid receptor gene hypomethylation replicated in CFS (small differences, only one CpG surviving correction).",
+     "url": "https://doi.org/10.1016/j.jpsychores.2017.11.011",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Van Den Eede 2008",
+     "n": "34 vs 25",
+     "design": "case-control",
+     "result": "Lower salivary cortisol responses after dexamethasone and CRF in CFS, mainly in patients without early-life stress.",
+     "url": "https://doi.org/10.1017/s0033291707001444",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Jerjes 2007",
+     "n": "15 CFS vs controls",
+     "design": "case-control",
+     "result": "5 mg prednisolone suppression test: lower salivary cortisol pre-dose and higher percent suppression in CFS, indicating enhanced negative feedback.",
+     "url": "https://doi.org/10.1016/j.psyneuen.2006.12.005",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Gaab 2003",
+     "n": "21 vs 20",
+     "design": "case-control",
+     "result": "Cortisol response to stress test was normal but in vitro dexamethasone inhibition of LPS-stimulated IL-6 and TNF-alpha was greater in CFS (enhanced glucocorticoid sensitivity).",
+     "url": "https://doi.org/10.1034/j.1601-5215.2003.00033.x",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Gaab 2002",
+     "n": "",
+     "design": "case-control",
+     "result": "CFS patients had lower baseline ACTH and lower ACTH responses to psychosocial stress, exercise and insulin tolerance test, with no difference in total plasma cortisol responses.",
+     "url": "https://doi.org/10.1097/01.psy.0000038937.67401.61",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Gaab 2002",
+     "n": "21 vs 21",
+     "design": "case-control",
+     "result": "CFS patients had normal salivary cortisol profiles but enhanced, prolonged suppression after 0.5 mg dexamethasone.",
+     "url": "https://doi.org/10.1097/00006842-200203000-00015",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Cleare 2001",
+     "n": "37 vs 28",
+     "design": "case-control",
+     "result": "ACTH responses to hCRH, insulin stress and D-fenfluramine were intact, but cortisol responses were lower once ACTH was controlled, and 24-h urinary free cortisol was lower in CFS.",
+     "url": "https://doi.org/10.1210/jcem.86.8.7735",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Racciatti 2001",
+     "n": "36 vs 20",
+     "design": "case-control",
+     "result": "4-hourly sampling over 24 h showed preserved circadian rhythms but lower ACTH at 24:00 and 04:00 (p<0.001) and higher prolactin at 04:00 in CFS.",
+     "url": "https://doi.org/10.1177/039463200101400103",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Scott 1998",
+     "n": "20 vs 20",
+     "design": "case-control",
+     "result": "Baseline cortisol was similar, but delta cortisol after 1 microgram ACTH was lower in CFS, and 45% of CFS vs 10% of controls failed a 250 nmol/l cutoff.",
+     "url": "https://doi.org/10.1046/j.1365-2265.1998.00418.x",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Scott 1998",
+     "n": "14 vs 14",
+     "design": "case-control",
+     "result": "After 100 microg ovine CRH, ACTH (P<0.005) and cortisol (P<0.05) responses were blunted in CFS patients without psychiatric illness; basal values equal.",
+     "url": "https://doi.org/10.1111/j.1600-0447.1998.tb10030.x",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Vangeel 2015",
+     "n": "76 CFS vs 19 HC",
+     "design": "case-control",
+     "result": "NR3C1-1F promoter methylation lower in CFS than controls (CpG_1.5 survived Bonferroni, p=0.0014) and correlated with post-dexamethasone salivary cortisol.",
+     "url": "https://doi.org/10.1097/psy.0000000000000224",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Segal 2005",
+     "n": "23 vs 17",
+     "design": "case-control",
+     "result": "Low-dose synacthen test gave lower cortisol in adolescent CFS, more pronounced in females.",
+     "url": "https://doi.org/10.1515/jpem.2005.18.3.295",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Altemus 2001",
+     "n": "19 vs 19",
+     "design": "case-control",
+     "result": "Vasopressin infusion produced a reduced ACTH response and a faster cortisol rise in CFS, interpreted as reduced hypothalamic CRH secretion.",
+     "url": "https://doi.org/10.1016/s0306-4530(00)00044-5",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Ottenweller 2001",
+     "n": "",
+     "design": "case-control",
+     "result": "Basal hormones were normal, but ACTH, epinephrine, prolactin and TSH responses 4 min after maximal treadmill exercise were lower in CFS, with no group differences the next day.",
+     "url": "https://doi.org/10.1159/000054863",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Scott 1999",
+     "n": "CFS and healthy volunteers, n not stated",
+     "design": "crossover",
+     "result": "Delta-ACTH response to oCRH was attenuated in CFS (21.0 vs 57.8 ng/L); adding DDAVP augmented the response and normalised it in CFS.",
+     "url": "https://doi.org/10.1016/s0006-3223(98)00232-7",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Leese 1996",
+     "n": "10",
+     "design": "crossover",
+     "result": "Five days of night shift raised basal ACTH, lowered cortisol and blunted the ACTH response to CRH, mimicking CFS HPA findings; authors suggest CFS HPA changes may reflect disrupted sleep.",
+     "url": "https://doi.org/10.1210/jcem.81.5.8626849",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Lynn 2018",
+     "n": "48 CFS vs 27 Sjogren vs 20 HC",
+     "design": "case-control",
+     "result": "CFS had reduced LPS-induced IL-6 and TNF-alpha and reduced dex suppression of TNF; cortisol before and after dex did not differ from controls.",
+     "url": "https://doi.org/10.1155/2018/3972104",
+     "verified": true,
+     "sweep": true,
+     "relation": "contradicts",
+     "importance": 2
+    },
+    {
+     "cite": "Papadopoulos 2009",
+     "n": "18 vs 20",
+     "design": "case-control",
+     "result": "Low-dose dexamethasone suppression: basal cortisol was raised and overall suppression did not differ (80% vs 76%); only the comorbid-depression subgroup (n=9) hypersuppressed.",
+     "url": "https://doi.org/10.1016/j.jad.2008.05.001",
+     "verified": true,
+     "sweep": true,
+     "relation": "contradicts",
+     "importance": 2
+    },
+    {
+     "cite": "Gaab 2003",
+     "n": "18 vs 18",
+     "design": "case-control",
+     "result": "No difference in cortisol response to low- or high-dose ACTH; primary adrenal insufficiency unlikely.",
+     "url": "https://doi.org/10.1176/appi.psy.44.2.113",
+     "verified": true,
+     "sweep": true,
+     "relation": "contradicts",
+     "importance": 2
+    },
+    {
+     "cite": "Hudson 1999",
+     "n": "20 vs 20",
+     "design": "case-control",
+     "result": "Cortisol responses to a 1 ug Synacthen test did not differ from controls, giving no support for low adrenal reserve.",
+     "url": "https://doi.org/10.1046/j.1365-2265.1999.00856.x",
+     "verified": true,
+     "sweep": true,
+     "relation": "contradicts",
+     "importance": 2
+    }
+   ]
   },
   {
    "id": "endocrine-longcovid-cortisol",
@@ -159,7 +735,20 @@
    "hypotheses": [
     "hpa-endocrine"
    ],
-   "test_available": "Yes: timed morning cortisol; salivary diurnal profile (private labs)"
+   "test_available": "Yes: timed morning cortisol; salivary diurnal profile (private labs)",
+   "sweep": [
+    {
+     "cite": "Hurme 2025",
+     "n": "62 inpatients and 53 outpatients",
+     "design": "cohort",
+     "result": "At 24 months, spirometry, orthostatic hypotension, IL-6, CRP and cortisol were not associated with PCC overall; cognitive-symptom cluster had lower cortisol, respiratory/myalgic clusters higher IL-6 and hs-CRP.",
+     "url": "https://doi.org/10.1038/s41598-025-90819-1",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    }
+   ]
   },
   {
    "id": "endocrine-hydrocortisone-trials",
@@ -320,7 +909,31 @@
     "pituitary-adh",
     "low-blood-volume-preload"
    ],
-   "test_available": "Yes: copeptin with paired plasma and urine osmolality (fasting); formal water deprivation or hypertonic saline test via endocrinology"
+   "test_available": "Yes: copeptin with paired plasma and urine osmolality (fasting); formal water deprivation or hypertonic saline test via endocrinology",
+   "sweep": [
+    {
+     "cite": "Wyller 2010",
+     "n": "67 vs 55",
+     "design": "case-control",
+     "result": "Adolescent CFS had lower plasma ADH and higher plasma osmolality and renin activity than controls.",
+     "url": "https://doi.org/10.1111/j.1651-2227.2010.01701.x",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Scott 1999",
+     "n": "CFS and healthy volunteers, n not stated",
+     "design": "crossover",
+     "result": "Delta-ACTH response to oCRH was attenuated in CFS (21.0 vs 57.8 ng/L); adding DDAVP augmented the response and normalised it in CFS.",
+     "url": "https://doi.org/10.1016/s0006-3223(98)00232-7",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    }
+   ]
   },
   {
    "id": "endocrine-renin-aldosterone-paradox",
@@ -373,7 +986,31 @@
     "low-blood-volume-preload",
     "autonomic-small-fibre"
    ],
-   "test_available": "Yes: supine and upright renin and aldosterone; blood volume (Daxor or CO-rebreathing) in specialist centres"
+   "test_available": "Yes: supine and upright renin and aldosterone; blood volume (Daxor or CO-rebreathing) in specialist centres",
+   "sweep": [
+    {
+     "cite": "De Lorenzo 1997",
+     "n": "78 CFS vs 38 controls",
+     "design": "open-label",
+     "result": "22 of 78 had abnormal tilt; after 8 weeks of sustained-release sodium chloride 11 normalised and improved, 10 still had orthostatic hypotension and had lower plasma renin activity (0.79 vs 1.29 pmol/ml/h in controls).",
+     "url": "https://doi.org/10.1007/bf02267980",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Wyller 2010",
+     "n": "67 vs 55",
+     "design": "case-control",
+     "result": "Adolescent CFS had lower plasma ADH and higher plasma osmolality and renin activity than controls.",
+     "url": "https://doi.org/10.1111/j.1651-2227.2010.01701.x",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    }
+   ]
   },
   {
    "id": "endocrine-low-t3",
@@ -401,7 +1038,20 @@
     "hpa-endocrine",
     "mitochondrial-energy"
    ],
-   "test_available": "Yes: TSH, free T4, free T3; reverse T3 (some labs)"
+   "test_available": "Yes: TSH, free T4, free T3; reverse T3 (some labs)",
+   "sweep": [
+    {
+     "cite": "Sun 2023",
+     "n": "167 CFS vs 545 controls",
+     "design": "case-control",
+     "result": "SELENOP autoantibodies in 9.6-15.6% of CFS vs 0.9-2.0% of controls, with lower deiodinase activity and fT3 ratios in positive patients.",
+     "url": "https://doi.org/10.1016/j.redox.2023.102796",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    }
+   ]
   },
   {
    "id": "endocrine-gh-igf1",
@@ -452,7 +1102,42 @@
    "hypotheses": [
     "hpa-endocrine"
    ],
-   "test_available": "Yes: IGF-1 (stimulation tests only if pituitary disease suspected)"
+   "test_available": "Yes: IGF-1 (stimulation tests only if pituitary disease suspected)",
+   "sweep": [
+    {
+     "cite": "Moorkens 2000",
+     "n": "73 vs 21",
+     "design": "case-control",
+     "result": "GH response to insulin hypoglycaemia (peak 17.0 vs 22.1 ug/l, p=0.01) and nocturnal GH secretion were lower in CFS, while arginine and clonidine GH responses did not differ.",
+     "url": "https://doi.org/10.1046/j.1365-2265.2000.01049.x",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Buchwald 1996",
+     "n": "15 CFS, 15 CFS-FM, 27 FM vs 15",
+     "design": "case-control",
+     "result": "Serum IGF-I and IGFBP-3 did not differ between any patient group and controls.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/8730136/",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "De Bellis 2021",
+     "n": "30 vs 25",
+     "design": "case-control",
+     "result": "Antipituitary antibodies in 56% and antihypothalamic in 33% of women with ME/CFS, with lower ACTH/cortisol and GH/IGF-1 in antibody-high patients.",
+     "url": "https://doi.org/10.1210/clinem/dgab429",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    }
+   ]
   },
   {
    "id": "endocrine-female-preponderance",
@@ -496,7 +1181,64 @@
     "hpa-endocrine",
     "autoimmunity"
    ],
-   "test_available": "Not applicable"
+   "test_available": "Not applicable",
+   "sweep": [
+    {
+     "cite": "Bretherick 2023",
+     "n": "17,074",
+     "design": "cross-sectional",
+     "result": "83.5% female; females have more comorbidities; female sex, older age and >10 years duration associate with greater severity; five onset types compared.",
+     "url": "https://doi.org/10.3310/nihropenres.13421.4",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Nater 2008",
+     "n": "75 vs 110",
+     "design": "case-control",
+     "result": "Attenuated morning salivary cortisol profile in CFS, limited to women (not men).",
+     "url": "https://doi.org/10.1210/jc.2007-1747",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Martins Conde 2025",
+     "n": "1865; 50 post-COVID vs 66 mimics",
+     "design": "cohort",
+     "result": "Co-occurrence of memory impairment and fatigue distinguishes post COVID from pandemic-related mimics in CON-VINCE.",
+     "url": "https://doi.org/10.1038/s41598-025-19984-7",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Samms 2025",
+     "n": "100055 diagnosed",
+     "design": "cross-sectional",
+     "result": "Primary-care records in England: 100,055 diagnosed ME/CFS (0.16% of registered patients), F:M 3.88:1, wide regional and ethnic variation in diagnosis.",
+     "url": "https://doi.org/10.1186/s12889-025-22603-9",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Reeves 2007",
+     "n": "5623 surveyed",
+     "design": "cross-sectional",
+     "result": "Estimated CFS prevalence 2.54% in adults 18-59, with female:male ratio 11.2:1 metropolitan but 0.8:1 rural.",
+     "url": "https://doi.org/10.1186/1478-7954-5-5",
+     "verified": true,
+     "sweep": true,
+     "relation": "contradicts",
+     "importance": 2
+    }
+   ]
   },
   {
    "id": "endocrine-gynaecological-menopause",
@@ -540,7 +1282,31 @@
    "hypotheses": [
     "hpa-endocrine"
    ],
-   "test_available": "Clinical gynaecological assessment; no ME/CFS-specific hormone test"
+   "test_available": "Clinical gynaecological assessment; no ME/CFS-specific hormone test",
+   "sweep": [
+    {
+     "cite": "Compton 2025",
+     "n": "5 studies, 2261",
+     "design": "meta-analysis",
+     "result": "Women with endometriosis had OR 2.79 (2.00-3.89) for ME/CFS; bidirectional association.",
+     "url": "https://doi.org/10.3390/diagnostics15182332",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Harlow 1998",
+     "n": "150 vs 149",
+     "design": "case-control",
+     "result": "Women with CFS self-reported more gynecologic complications, irregular cycles, amenorrhea, and PCOS, hirsutism and ovarian cysts, but less premenstrual symptomatology.",
+     "url": "https://doi.org/10.1016/s0002-9343(98)00173-9",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    }
+   ]
   },
   {
    "id": "endocrine-androgens-not-replicated",
@@ -639,6 +1405,31 @@
     "genetic-neuronal"
    ],
    "test_available": "Research only"
+  },
+  {
+   "id": "endocrine-menstrual-cycle",
+   "subdomain": "Sex hormones",
+   "grade": "early",
+   "finding": "In app-based tracking, symptoms varied across the menstrual cycle (lowest in the early luteal phase), crashes were more frequent during menstruation, and users of combined hormonal contraception reported fewer crashes (OR 0.55).",
+   "plain": "Symptoms and crashes followed the menstrual cycle in tracking data, and people on the combined pill had fewer crashes.",
+   "detail": "Goodship 2025 preprint (ME/CFS and long COVID, Visible app data; contraception analysis n=70). Self-report, self-selected users, observational. Fits the sex-hormone findings but cannot show cause.",
+   "studies": [
+    {
+     "cite": "Goodship 2025, medRxiv preprint",
+     "n": "app cohort",
+     "design": "cohort",
+     "result": "Cycle-linked symptom changes; fewer crashes with combined contraception (OR 0.55)",
+     "url": "https://doi.org/10.1101/2025.01.24.25321092",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "open_questions": [
+    "Would a randomised hormonal trial reduce crashes?"
+   ],
+   "hypotheses": [],
+   "test_available": "Symptom diary",
+   "added": "2026-11-08 literature sweep"
   }
  ],
  "hypotheses_notes": [

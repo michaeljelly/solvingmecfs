@@ -30,7 +30,64 @@
     "sickness-behaviour",
     "cell-danger-response"
    ],
-   "test_available": "No predictive test; documentation of the acute infection (serology/PCR at onset) is useful for subtyping."
+   "test_available": "No predictive test; documentation of the acute infection (serology/PCR at onset) is useful for subtyping.",
+   "sweep": [
+    {
+     "cite": "Sandler 2022",
+     "n": "",
+     "design": "cohort",
+     "result": "Dubbo cohort predictors of CFS and mood disturbance after acute infection",
+     "url": "https://doi.org/10.3389/fneur.2022.935442",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Bodenhausen 2024, preprint",
+     "n": "200, protracted symptoms 55/183",
+     "design": "cohort",
+     "result": "Protracted symptoms in 30.1% and fatigue in 18.8% at 6 months; infection susceptibility history (OR 2.98) and severe GI symptoms (OR 3.54) predicted chronic fatigue.",
+     "url": "https://doi.org/10.1101/2024.05.17.24307333",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Moss-Morris 2011",
+     "n": "246",
+     "design": "cohort",
+     "result": "After glandular fever, 7.8% met CFS criteria at 6 months; anxiety, depression, somatisation, perfectionism and all-or-nothing behaviour predicted onset.",
+     "url": "https://doi.org/10.1017/s003329171000139x",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Kerr 2008",
+     "n": "39",
+     "design": "cohort",
+     "result": "High pre-infection stress index predicted CFS/ME 1-3 years after symptomatic parvovirus B19 (OR 25.7, 1.7-121.9).",
+     "url": "https://doi.org/10.1086/533471",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Moss-Morris 2006",
+     "n": "835",
+     "design": "cohort",
+     "result": "CF/CFS odds higher after mononucleosis than Campylobacter at 3 months (OR 2.77) but not 6 months; anxiety and depression strongest predictors of CF/CFS, infection type of IBS.",
+     "url": "https://doi.org/10.1097/01.psy.0000221384.07521.05",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    }
+   ]
   },
   {
    "id": "infection-katz-post-mono-adolescents",
@@ -74,7 +131,119 @@
     "herpes-reactivation",
     "immune-exhaustion"
    ],
-   "test_available": "EBV serology (VCA IgM/IgG, EBNA IgG) confirms the IM trigger; no predictive test."
+   "test_available": "EBV serology (VCA IgM/IgG, EBNA IgG) confirms the IM trigger; no predictive test.",
+   "sweep": [
+    {
+     "cite": "Pricoco 2023",
+     "n": "25 (12 adolescents, 13 young adults)",
+     "design": "cohort",
+     "result": "At 1 year 54% of adolescents no longer met criteria while all young adults still did; EBV serology and DNA load did not correlate with severity.",
+     "url": "https://doi.org/10.3389/fped.2023.1266738",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Bakken 2016",
+     "n": "1,670 CFS/ME vs 4,937 T1DM vs 1.34M general",
+     "design": "cohort",
+     "result": "Infectious mononucleosis registered in 11.1% of CFS/ME children in prior 2 years vs 0.5% comparators; more depression, anxiety, migraine, muscle pain, infections in primary care.",
+     "url": "https://doi.org/10.1186/s12875-016-0527-7",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Katz 2010",
+     "n": "21 vs 21",
+     "design": "case-control",
+     "result": "Peak VO2 percent predicted (99.3 vs 110.7, p=0.05) and peak oxygen pulse (12.4 vs 14.9, p=0.03) were lower in post-IM CFS than recovered controls.",
+     "url": "https://doi.org/10.1016/j.jpeds.2010.03.025",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Bodenhausen 2024, preprint",
+     "n": "200, protracted symptoms 55/183",
+     "design": "cohort",
+     "result": "Protracted symptoms in 30.1% and fatigue in 18.8% at 6 months; infection susceptibility history (OR 2.98) and severe GI symptoms (OR 3.54) predicted chronic fatigue.",
+     "url": "https://doi.org/10.1101/2024.05.17.24307333",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Jason 2026",
+     "n": "",
+     "design": "cohort",
+     "result": "ME/CFS after infectious mononucleosis (moderate/severe) compared with long COVID: long COVID symptom burden between moderate and severe ME/CFS.",
+     "url": "https://doi.org/10.1177/17423953251347108",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Jason 2022",
+     "n": "48 ME/CFS (18 severe) vs 58 recovered",
+     "design": "cohort",
+     "result": "Prospective cohort: severe GI symptoms at baseline plus low IL-13/IL-5 during IM predicted later severe ME/CFS.",
+     "url": "https://doi.org/10.29245/2767-5122/2021/1.1129",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Jason 2014",
+     "n": ">300 adolescents with IM",
+     "design": "cohort",
+     "result": "Baseline autonomic symptoms and days in bed after mononucleosis were the only predictors of CFS at 6 months.",
+     "url": "https://doi.org/10.1080/21642850.2013.869176",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Moss-Morris 2011",
+     "n": "246",
+     "design": "cohort",
+     "result": "After glandular fever, 7.8% met CFS criteria at 6 months; anxiety, depression, somatisation, perfectionism and all-or-nothing behaviour predicted onset.",
+     "url": "https://doi.org/10.1017/s003329171000139x",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Moss-Morris 2006",
+     "n": "835",
+     "design": "cohort",
+     "result": "CF/CFS odds higher after mononucleosis than Campylobacter at 3 months (OR 2.77) but not 6 months; anxiety and depression strongest predictors of CF/CFS, infection type of IBS.",
+     "url": "https://doi.org/10.1097/01.psy.0000221384.07521.05",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Katz 2012",
+     "n": "36 vs 43",
+     "design": "case-control",
+     "result": "Abnormal standing orthostatic test in 25% of CFS vs 21% of recovered controls, no difference.",
+     "url": "https://doi.org/10.1177/0009922812455094",
+     "verified": true,
+     "sweep": true,
+     "relation": "contradicts",
+     "importance": 2
+    }
+   ]
   },
   {
    "id": "infection-giardia-bergen",
@@ -111,7 +280,42 @@
     "innate-hyperactivation",
     "sickness-behaviour"
    ],
-   "test_available": "research only"
+   "test_available": "research only",
+   "sweep": [
+    {
+     "cite": "Mørch 2013",
+     "n": "53 of 347 fatigued",
+     "design": "cohort",
+     "result": "Five years after Giardia, 41.5% of 53 examined had CFS, 13.2% idiopathic fatigue, 20.8% resolved; fatigue scores fell from year 3 to 5.",
+     "url": "https://doi.org/10.1186/1471-230x-13-28",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Levine 1992",
+     "n": "",
+     "design": "cohort",
+     "result": "After 3 years almost all cases in four Nevada-California clusters returned to pre-illness activity; no link to EBV, HHV-6 or HTLV; giardiasis preceded one cluster.",
+     "url": "https://doi.org/10.1001/archinte.1992.00400200049009",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Hanevik 2017",
+     "n": "15 CFS, 5 ICF, 9 other fatigue, 10 recovered; 20 exposed + 10 unexposed controls",
+     "design": "case-control",
+     "result": "No differences in Giardia-specific CD4 activation, proliferation or cytokines between fatigue groups; sCD40L raised in post-infectious fatigue and correlated with fatigue.",
+     "url": "https://doi.org/10.1186/s12865-017-0190-3",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    }
+   ]
   },
   {
    "id": "infection-q-fever-qfs",
@@ -146,7 +350,20 @@
     "innate-hyperactivation",
     "sickness-behaviour"
    ],
-   "test_available": "Coxiella serology documents the trigger; no test for QFS itself."
+   "test_available": "Coxiella serology documents the trigger; no test for QFS itself.",
+   "sweep": [
+    {
+     "cite": "Ankert 2022",
+     "n": "80 seropositive vs 52 household",
+     "design": "cohort",
+     "result": "Six years after the Jena Q fever outbreak, CFS rates were identical (3.8% vs 3.8%), no chronic Q fever.",
+     "url": "https://doi.org/10.1111/tbed.14224",
+     "verified": true,
+     "sweep": true,
+     "relation": "contradicts",
+     "importance": 2
+    }
+   ]
   },
   {
    "id": "infection-post-covid-mecfs-incidence",
@@ -233,7 +450,251 @@
     "innate-hyperactivation",
     "autoimmunity"
    ],
-   "test_available": "No test; diagnosis is clinical (IOM 2015 criteria)."
+   "test_available": "No test; diagnosis is clinical (IOM 2015 criteria).",
+   "sweep": [
+    {
+     "cite": "Unger 2024",
+     "n": "4,378 (INSPIRE)",
+     "design": "cohort",
+     "result": "Prevalence of IOM-defined ME/CFS-like illness after SARS-CoV-2 infection vs test-negative controls, with 12-month follow-up.",
+     "url": "https://doi.org/10.1001/jamanetworkopen.2024.23555",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 3
+    },
+    {
+     "cite": "Bodey 2024",
+     "n": "",
+     "design": "cohort",
+     "result": "After discharge from a UK long COVID service, 90.2% of respondents still had symptoms (EQ-5D index 0.53) and 43% met suspected ME/CFS criteria.",
+     "url": "https://doi.org/10.3390/jcm13195817",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Reuken 2024",
+     "n": "1022 (411 with follow-up)",
+     "design": "cohort",
+     "result": "31.3% met ME/CFS criteria at median 255 days and 19.4% still at 402 days; self-reported fatigue fell 83.7 to 72.7%.",
+     "url": "https://doi.org/10.1007/s00406-023-01661-3",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Salari 2022",
+     "n": "",
+     "design": "meta-analysis",
+     "result": "Pooled prevalence of CFS in long COVID patients",
+     "url": "https://doi.org/10.1186/s13030-022-00250-5",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Jamal 2024, preprint",
+     "n": "97 JHU, 281 LIINC",
+     "design": "cohort",
+     "result": "ME/CFS criteria at 6-8 months: 5 of 97 (IOM) and 2 (CCC) in JHU; 51 of 281 (IOM) and 29 (CCC) in LIINC; ME/CFS group more female with more symptoms.",
+     "url": "https://doi.org/10.1101/2024.11.08.24316976",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Burkard 2024, preprint",
+     "n": "2,521,812 COVID vs 4,233,145 negative",
+     "design": "cohort",
+     "result": "Network cohort comparing risk of POTS, ME/CFS, MIS and autoimmune diseases after COVID-19 vs negative test.",
+     "url": "https://doi.org/10.1101/2024.05.15.24307344",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Kedor 2021, preprint",
+     "n": "42",
+     "design": "cohort",
+     "result": "At 6 months after mild-moderate COVID-19, most had reduced handgrip strength; biomarkers linked to fatigue and PEM severity suggest low-grade inflammation and hypoperfusion.",
+     "url": "https://doi.org/10.21203/rs.3.rs-384347/v1",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Kedor 2021, preprint",
+     "n": "42 (19 met CCC)",
+     "design": "cohort",
+     "result": "Six months after mild COVID, 41 of 42 had PEM and 19 of 42 met Canadian Consensus Criteria for ME/CFS; those had more fatigue and stress intolerance.",
+     "url": "https://doi.org/10.1101/2021.02.06.21249256",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Jason 2026",
+     "n": "",
+     "design": "cohort",
+     "result": "ME/CFS after infectious mononucleosis (moderate/severe) compared with long COVID: long COVID symptom burden between moderate and severe ME/CFS.",
+     "url": "https://doi.org/10.1177/17423953251347108",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Ghali 2026",
+     "n": "220",
+     "design": "cohort",
+     "result": "PEM present in 26.4% of PCS clinic patients; more frequent with 2020/2021 onset (OR 5.68, 95% CI 1.66-19.45, p=0.006) and higher fatigue (OR 2.07).",
+     "url": "https://doi.org/10.3390/jcm15082948",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Kaiserseder 2026",
+     "n": "216",
+     "design": "cohort",
+     "result": "ME/CFS (CCC) in 6.9% of PCS rehabilitation outpatients (15/216); these had higher fatigue (FAS 35.8 vs 27.8) that did not improve.",
+     "url": "https://doi.org/10.1055/a-2823-6976",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Fain 2025",
+     "n": "2662+7549 infected, 461+728 controls",
+     "design": "cohort",
+     "result": "Odds of LCRI>=12 vary by age group; age-related changes in symptom pattern in RECOVER-Adult.",
+     "url": "https://doi.org/10.1111/jgs.70043",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Powers 2025",
+     "n": "",
+     "design": "cohort",
+     "result": "RECOVER EHR: about half of patients labelled with PASC are also labelled ME/CFS; dyspnea, fatigue and cognitive impairment shared, cardiopulmonary cluster more PASC-specific.",
+     "url": "https://doi.org/10.1038/s43856-025-00827-5",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Cornelissen 2024",
+     "n": "95",
+     "design": "cohort",
+     "result": "Fatigue and symptom clusters at 3-6 and 12-18 months; share meeting ME/CFS criteria by DSQ-2; clusters compared with 337 Dutch ME/CFS patients.",
+     "url": "https://doi.org/10.1186/s12967-024-04979-1",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Pagen 2023",
+     "n": "3783",
+     "design": "cross-sectional",
+     "result": "PEM in 48% of women and 41% of men with PCC; OI 29% and 28%; ORs 2.7-4.8 vs negatives.",
+     "url": "https://doi.org/10.3389/fmed.2023.1292446",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Jason 2022",
+     "n": "465",
+     "design": "cross-sectional",
+     "result": "Prevalence of ME/CFS and PEM in long COVID by questionnaire",
+     "url": "https://doi.org/10.3390/neurolint15010001",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Sorg 2022",
+     "n": "",
+     "design": "cross-sectional",
+     "result": "SARS-CoV-2 seropositivity association with ME/CFS-like symptoms in children",
+     "url": "https://doi.org/10.1001/jamanetworkopen.2022.33454",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Tokumasu 2022",
+     "n": "",
+     "design": "cohort",
+     "result": "Clinical characteristics of physician-diagnosed ME/CFS among long COVID patients",
+     "url": "https://doi.org/10.3390/medicina58070850",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Packard 2026, preprint",
+     "n": "9620",
+     "design": "survey",
+     "result": "PEM symptoms present in 20.9% of NYC adults with prior COVID-19 and 4.0% with PEM lasting 14 hours or more, with worse mental health and disability.",
+     "url": "https://doi.org/10.64898/2026.08.31.26356614",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Navarro-Cáceres 2026, preprint",
+     "n": "304",
+     "design": "cross-sectional",
+     "result": "Prevalence of Fukuda-defined CFS among long COVID participants and its association with HRQoL.",
+     "url": "https://doi.org/10.21203/rs.3.rs-9593874/v1",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Bonilla 2022, preprint",
+     "n": "",
+     "design": "cross-sectional",
+     "result": "ME/CFS common in PASC in post-COVID clinic cohort",
+     "url": "https://doi.org/10.1101/2022.08.03.22278363",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Xu 2023",
+     "n": "",
+     "design": "genetic",
+     "result": "Two-sample MR found no causal effect of COVID-19 on ME/CFS",
+     "url": "https://doi.org/10.3390/ijerph20032437",
+     "verified": true,
+     "sweep": true,
+     "relation": "contradicts",
+     "importance": 2
+    }
+   ]
   },
   {
    "id": "infection-ebv-serology-not-different",
@@ -286,7 +747,75 @@
     "herpes-reactivation",
     "autoimmunity"
    ],
-   "test_available": "EBV VCA IgM/IgG, EBNA IgG, EA-D IgG (clinical); uninformative as an ME/CFS test."
+   "test_available": "EBV VCA IgM/IgG, EBNA IgG, EA-D IgG (clinical); uninformative as an ME/CFS test.",
+   "sweep": [
+    {
+     "cite": "Pricoco 2023",
+     "n": "25 (12 adolescents, 13 young adults)",
+     "design": "cohort",
+     "result": "At 1 year 54% of adolescents no longer met criteria while all young adults still did; EBV serology and DNA load did not correlate with severity.",
+     "url": "https://doi.org/10.3389/fped.2023.1266738",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Koelle 2002",
+     "n": "22 discordant pairs",
+     "design": "case-control",
+     "result": "Serology and PCR for HHV-6/7/8, CMV, EBV, HSV, VZV, parvovirus B19 and others did not differ between twins with CFS and healthy co-twins.",
+     "url": "https://doi.org/10.1086/341774",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Wallace 1999",
+     "n": "",
+     "design": "case-control",
+     "result": "PCR for HHV6, HHV7, EBV and CMV in PBMC and EBV/HHV6 serology showed no significant differences between CFS and matched controls.",
+     "url": "https://doi.org/10.1128/cdli.6.2.216-223.1999",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Buchwald 1996",
+     "n": "548 patients",
+     "design": "case-control",
+     "result": "Seroprevalence and titres to 13 viruses (HSV, rubella, adenovirus, HHV-6, EBV, CMV, Coxsackie B) were not consistently different from controls in CF, CFS, acute-onset or febrile subsets.",
+     "url": "https://doi.org/10.1002/(sici)1096-9071(199609)50:1<25::aid-jmv6>3.0.co;2-v",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Whelton 1992",
+     "n": "14 vs 12",
+     "design": "case-control",
+     "result": "All CFS patients had unrefreshing sleep and a prominent alpha-EEG NREM sleep anomaly (p<=0.001), with no EBV antibody difference, more tender points and depressive symptoms.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/1328633/",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "O'Neal 2022",
+     "n": "",
+     "design": "case-control",
+     "result": "Survey of anti-pathogen antibody levels in ME/CFS",
+     "url": "https://doi.org/10.3390/proteomes10020021",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    }
+   ]
   },
   {
    "id": "infection-ebv-deficient-memory",
@@ -466,7 +995,20 @@
     "herpes-reactivation",
     "innate-hyperactivation"
    ],
-   "test_available": "research only"
+   "test_available": "research only",
+   "sweep": [
+    {
+     "cite": "Cox 2022",
+     "n": "",
+     "design": "case-control",
+     "result": "EBV/HHV-6A dUTPases enhance Tfh differentiation and extrafollicular responses",
+     "url": "https://doi.org/10.1172/jci.insight.158193",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    }
+   ]
   },
   {
    "id": "infection-ebv-reactivation-long-covid",
@@ -502,7 +1044,31 @@
     "herpes-reactivation",
     "complement-thromboinflammation"
    ],
-   "test_available": "EBV EA-D IgG is clinically available; interpretation is non-specific."
+   "test_available": "EBV EA-D IgG is clinically available; interpretation is non-specific.",
+   "sweep": [
+    {
+     "cite": "Shady 2025",
+     "n": "140 vs 80",
+     "design": "case-control",
+     "result": "EBV reactivation in 28.6% of persistent-fatigue post-COVID vs 11.3% of recovered controls (p=0.003); EBNA-1 IgG and EA-D IgG higher.",
+     "url": "https://doi.org/10.1016/j.anl.2025.06.009",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Apostolou 2022",
+     "n": "",
+     "design": "case-control",
+     "result": "Saliva antibody fingerprint of reactivated latent viruses after mild COVID unique in ME/CFS",
+     "url": "https://doi.org/10.3389/fimmu.2022.949787",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    }
+   ]
   },
   {
    "id": "infection-herpes-complement-link",
@@ -622,7 +1188,20 @@
     "herpes-reactivation",
     "genetic-neuronal"
    ],
-   "test_available": "Hair-follicle or nail HHV-6 PCR / ddPCR ratio of viral to cellular genomes can confirm iciHHV-6 (specialist labs)."
+   "test_available": "Hair-follicle or nail HHV-6 PCR / ddPCR ratio of viral to cellular genomes can confirm iciHHV-6 (specialist labs).",
+   "sweep": [
+    {
+     "cite": "Rasa-Dzelzkaleja 2023",
+     "n": "200 vs 150",
+     "design": "case-control",
+     "result": "Persistent HHV-6A/B, HHV-7 and parvovirus B19 assessed in ME/CFS versus controls and related to severity",
+     "url": "https://doi.org/10.1186/s12967-023-03887-0",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    }
+   ]
   },
   {
    "id": "infection-enterovirus-stomach-chia",
@@ -683,7 +1262,64 @@
     "viral-persistence",
     "gut-dysbiosis"
    ],
-   "test_available": "research only (stomach VP1 staining available from one private practice; not validated)"
+   "test_available": "research only (stomach VP1 staining available from one private practice; not validated)",
+   "sweep": [
+    {
+     "cite": "Frémont 2009",
+     "n": "48 vs 35",
+     "design": "case-control",
+     "result": "Parvovirus B19 DNA found in gastric/intestinal biopsies in 40% of CFS vs <15% of controls; HHV-7 common in both; EBV and HHV-6 in 15-30%.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/19414405/",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "McArdle 1996",
+     "n": "34 muscle biopsies",
+     "design": "case-control",
+     "result": "No enteroviral RNA was found by RT-PCR in muscle from 34 CFS patients; muscle RNA/DNA ratio and mitochondrial enzyme activities were generally reduced.",
+     "url": "https://doi.org/10.1042/cs0900295",
+     "verified": true,
+     "sweep": true,
+     "relation": "contradicts",
+     "importance": 2
+    },
+    {
+     "cite": "Lindh 1996",
+     "n": "34 (29 muscle biopsies)",
+     "design": "case-control",
+     "result": "No enterovirus was found by faecal isolation, serum-CSF antibody tests or muscle PCR in 34 Swedish CFS patients.",
+     "url": "https://doi.org/10.3109/00365549609027178",
+     "verified": true,
+     "sweep": true,
+     "relation": "contradicts",
+     "importance": 2
+    },
+    {
+     "cite": "Swanink 1994",
+     "n": "76 vs 76",
+     "design": "case-control",
+     "result": "No difference in enterovirus serology or VP1 antigen, and no enterovirus isolated from stool cultures; one patient had a PCR-positive stool not reproduced 3 months later.",
+     "url": "https://doi.org/10.1093/clinids/19.5.860",
+     "verified": true,
+     "sweep": true,
+     "relation": "contradicts",
+     "importance": 2
+    },
+    {
+     "cite": "Gow 1994",
+     "n": "121 vs 101",
+     "design": "case-control",
+     "result": "Enterovirus RNA by PCR in muscle was found in 26.4% of CFS and 19.8% of other neuromuscular disease, not significant, unlike the earlier smaller study (53% vs 15%).",
+     "url": "https://doi.org/10.1093/clinids/18.supplement_1.s126",
+     "verified": true,
+     "sweep": true,
+     "relation": "contradicts",
+     "importance": 2
+    }
+   ]
   },
   {
    "id": "infection-sarscov2-plasma-antigen",
@@ -745,7 +1381,42 @@
     "complement-thromboinflammation",
     "microclots"
    ],
-   "test_available": "research only (Simoa spike/nucleocapsid assays)"
+   "test_available": "research only (Simoa spike/nucleocapsid assays)",
+   "sweep": [
+    {
+     "cite": "Rovito 2026",
+     "n": "442 (184 followed)",
+     "design": "cohort",
+     "result": "Plasma SARS-CoV-2 RNA detected in 67.4% at baseline and 53.6% at follow-up; association with post-COVID condition and severity examined.",
+     "url": "https://doi.org/10.1016/j.cmi.2026.08.045",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Seidel 2026",
+     "n": "9 paired",
+     "design": "open-label",
+     "result": "Tixagevimab/cilgavimab in immunodeficient long COVID ME/CFS lowered beta1-adrenergic autoantibodies (p=0.003) but spike protein and clinical outcomes did not change significantly.",
+     "url": "https://doi.org/10.1016/j.imlet.2026.107247",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Fehrer 2024, preprint",
+     "n": "",
+     "design": "case-control",
+     "result": "Serum spike protein detected long-term in 11% of post-COVID controls, 2% of PCS non-ME/CFS and 14% of post-COVID ME/CFS; no association with severity, symptoms or labs; immunoadsorption removed it in 5 patients.",
+     "url": "https://doi.org/10.1101/2024.11.11.24317084",
+     "verified": true,
+     "sweep": true,
+     "relation": "contradicts",
+     "importance": 2
+    }
+   ]
   },
   {
    "id": "infection-sarscov2-tissue-gut",
@@ -798,7 +1469,20 @@
     "gut-dysbiosis",
     "neuroinflammation"
    ],
-   "test_available": "research only"
+   "test_available": "research only",
+   "sweep": [
+    {
+     "cite": "Antar 2023",
+     "n": "73",
+     "design": "cohort",
+     "result": "Brain fog (aRR 0.46) and muscle pain (aRR 0.28) at 90+ days associated with longer than 28 days to clear upper-airway SARS-CoV-2 RNA.",
+     "url": "https://doi.org/10.3389/fimmu.2023.1147549",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    }
+   ]
   },
   {
    "id": "infection-paxlovid-lc-null",
@@ -1030,7 +1714,174 @@
    "hypotheses": [
     "viral-persistence"
    ],
-   "test_available": "n/a (no valid XMRV test; commercial tests sold in 2010-11 were not meaningful)"
+   "test_available": "n/a (no valid XMRV test; commercial tests sold in 2010-11 were not meaningful)",
+   "sweep": [
+    {
+     "cite": "Irlbeck 2014",
+     "n": "",
+     "design": "case-control",
+     "result": "Blinded multi-site prospective study found no association of XMRV or pMLV detection with CFS.",
+     "url": "https://doi.org/10.1186/1756-0500-7-461",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Steffen 2011",
+     "n": "58 vs 57",
+     "design": "case-control",
+     "result": "No XMRV/MLV nucleic acids, infectious virus or antibodies in Canadian CFS patients or controls.",
+     "url": "https://doi.org/10.1371/journal.pone.0027870",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Elfaitouri 2011",
+     "n": "78 patients, 7 FM, 168 donors",
+     "design": "case-control",
+     "result": "No XMRV/HMRV/MLV group G3 detected by PCR in white cells of 78 ME/CFS patients or in 168 donor sera.",
+     "url": "https://doi.org/10.1371/journal.pone.0024602",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Ali 2011",
+     "n": "CFS vs chronic inflammatory vs healthy",
+     "design": "case-control",
+     "result": "Low-level XMRV PCR signals in 15% of CFS patients were no different from controls and could not be confirmed; no specific antibody.",
+     "url": "https://doi.org/10.1186/1743-422x-8-450",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Cool 2011",
+     "n": "72 PCR, 62 serology, 113 culture",
+     "design": "case-control",
+     "result": "No XMRV DNA, antibody, antigen or infectious virus found in Quebec CFS patients.",
+     "url": "https://doi.org/10.1016/j.virol.2011.08.018",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Katzourakis 2011",
+     "n": "",
+     "design": "other",
+     "result": "Phylogenetic analysis shows longitudinal MLV sequences from CFS patients are distinct endogenous murine retroviruses, consistent with PCR contamination.",
+     "url": "https://doi.org/10.1128/jvi.00827-11",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Jerome 2011",
+     "n": "",
+     "design": "case-control",
+     "result": "No XMRV in PBMCs or plasma of CFS-discordant twins; one plasma positive in an unaffected co-twin not reproduced.",
+     "url": "https://doi.org/10.1016/j.diagmicrobio.2011.06.003",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Shin 2011",
+     "n": "100 vs 200",
+     "design": "case-control",
+     "result": "No XMRV or MLV sequences, virus or antibodies in 100 CFS patients, 200 controls or original-study samples; mouse DNA in Taq enzymes explained earlier positives.",
+     "url": "https://doi.org/10.1128/jvi.00693-11",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Schutzer 2011",
+     "n": "43 patients",
+     "design": "case-control",
+     "result": "PCR of CSF from 43 CFS patients found no XMRV or other common viruses.",
+     "url": "https://doi.org/10.1002/ana.22389",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Furuta 2011",
+     "n": "100 CFS, 500 donors, 67 PC",
+     "design": "case-control",
+     "result": "No convincing XMRV antibodies or DNA in CFS patients, donors or prostate cancer patients.",
+     "url": "https://doi.org/10.1186/1742-4690-8-20",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Switzer 2010",
+     "n": "51 vs 56",
+     "design": "case-control",
+     "result": "No XMRV by CDC Western blot, ELISA or PCR in 51 CFS and 56 controls.",
+     "url": "https://doi.org/10.1186/1742-4690-7-57",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "van Kuppeveld 2010",
+     "n": "32 vs 43",
+     "design": "case-control",
+     "result": "No XMRV in archived PBMCs from 32 Dutch CFS patients and 43 controls.",
+     "url": "https://doi.org/10.1136/bmj.c1018",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Groom 2010",
+     "n": "170 CFS, 395 controls",
+     "design": "case-control",
+     "result": "No XMRV DNA in 299 samples; weak neutralising activity not specific.",
+     "url": "https://doi.org/10.1186/1742-4690-7-10",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Erlwein 2010",
+     "n": "186",
+     "design": "case-control",
+     "result": "No XMRV or MLV DNA in 186 UK CFS patients.",
+     "url": "https://doi.org/10.1371/journal.pone.0008519",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Heneine 1994",
+     "n": "21 vs 21",
+     "design": "case-control",
+     "result": "PCR and Southern blot for HTLV-I/II, spuma, simian, bovine, feline and gibbon retroviruses were negative in all patients and controls.",
+     "url": "https://doi.org/10.1093/clinids/18.supplement_1.s121",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    }
+   ]
   },
   {
    "id": "infection-viral-vs-bacterial-registry",
@@ -1075,7 +1926,53 @@
     "herpes-reactivation",
     "innate-hyperactivation"
    ],
-   "test_available": "n/a"
+   "test_available": "n/a",
+   "sweep": [
+    {
+     "cite": "Bakken 2016",
+     "n": "1,670 CFS/ME vs 4,937 T1DM vs 1.34M general",
+     "design": "cohort",
+     "result": "Infectious mononucleosis registered in 11.1% of CFS/ME children in prior 2 years vs 0.5% comparators; more depression, anxiety, migraine, muscle pain, infections in primary care.",
+     "url": "https://doi.org/10.1186/s12875-016-0527-7",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Chang 2023, preprint",
+     "n": "395,811 matched pairs",
+     "design": "cohort",
+     "result": "Common-pathogen infections raise CFS risk (aHR 1.5, CI 1.47-1.54) in Taiwan claims data.",
+     "url": "https://doi.org/10.21203/rs.3.rs-3289981/v1",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Af Geijerstam 2026",
+     "n": "208050 women",
+     "design": "cohort",
+     "result": "Pre-pandemic symptom-based primary care visits predicted later PCC, PVFS and exhaustion disorder diagnoses in Swedish women.",
+     "url": "https://doi.org/10.1080/02813432.2025.2611886",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Brellier 2022",
+     "n": "2130 Lyme vs 8510",
+     "design": "cohort",
+     "result": "Lyme disease raised later ME/CFS diagnosis (adjusted HR 16.95, 5.17-55.60; 17 events) and fatigue consultations.",
+     "url": "https://doi.org/10.1371/journal.pone.0265765",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    }
+   ]
   },
   {
    "id": "infection-blood-virome-null",
@@ -1114,7 +2011,100 @@
    ],
    "hypotheses": [],
    "open_questions": [],
-   "test_available": false
+   "test_available": false,
+   "sweep": [
+    {
+     "cite": "Briese 2023",
+     "n": "",
+     "design": "case-control",
+     "result": "Multicentre blood, stool and saliva virome sequencing found no consistent differences except fewer anelloviruses in cases.",
+     "url": "https://doi.org/10.1002/jmv.28993",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Miller 2016",
+     "n": "25 ME/CFS vs 13 Lyme vs 11 SLE vs 25 HC",
+     "design": "case-control",
+     "result": "Plasma RNA metagenomics found very low microbial content; differences between groups were explained by contamination and batch effects.",
+     "url": "https://doi.org/10.1371/journal.pone.0165691",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Schutzer 2011",
+     "n": "43 patients",
+     "design": "case-control",
+     "result": "PCR of CSF from 43 CFS patients found no XMRV or other common viruses.",
+     "url": "https://doi.org/10.1002/ana.22389",
+     "verified": true,
+     "sweep": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Frémont 2009",
+     "n": "48 vs 35",
+     "design": "case-control",
+     "result": "Parvovirus B19 DNA found in gastric/intestinal biopsies in 40% of CFS vs <15% of controls; HHV-7 common in both; EBV and HHV-6 in 15-30%.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/19414405/",
+     "verified": true,
+     "sweep": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Vojdani 1998",
+     "n": "100 vs 50",
+     "design": "case-control",
+     "result": "Mycoplasma genus DNA in PBMC found in 52% of CFS vs 14% of controls and M. fermentans in 34% vs 8% (P<0.0001), with higher copy numbers.",
+     "url": "https://doi.org/10.1111/j.1574-695x.1998.tb01226.x",
+     "verified": true,
+     "sweep": true,
+     "relation": "contradicts",
+     "importance": 2
+    },
+    {
+     "cite": "Choppa 1998",
+     "n": "100 vs 100",
+     "design": "case-control",
+     "result": "Multiplex PCR found Mycoplasma genus DNA in PBMC of 52% of CFS vs 15% of healthy; M. fermentans 32% vs 8%, M. hominis 9% vs 3%, M. penetrans 6% vs 2%.",
+     "url": "https://doi.org/10.1006/mcpr.1998.0186",
+     "verified": true,
+     "sweep": true,
+     "relation": "contradicts",
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "id": "infection-parvovirus-b19",
+   "subdomain": "Parvovirus B19",
+   "grade": "early",
+   "finding": "Parvovirus B19 exposure was as common in CFS as in blood donors, but antibodies to the viral NS1 protein (a marker of persistent or recent active infection) were found in 41.5% vs 7%, and viral DNA in 11 patients vs no controls.",
+   "plain": "Most people have had parvovirus, but signs of a lingering infection were much more common in patients in one large study.",
+   "detail": "Kerr 2010 (200 vs 200). Kerr's earlier reports described CFS onset after acute B19. No independent large replication.",
+   "studies": [
+    {
+     "cite": "Kerr 2010, J Gen Virol",
+     "n": "200 vs 200",
+     "design": "case-control",
+     "result": "Anti-NS1 IgG 41.5% vs 7% (OR 9.4); B19 DNA in 11 vs 0",
+     "url": "https://doi.org/10.1099/vir.0.017590-0",
+     "verified": true
+    }
+   ],
+   "contradicting": [],
+   "open_questions": [
+    "Is NS1 seropositivity linked to a subgroup or to onset type?"
+   ],
+   "hypotheses": [],
+   "test_available": "B19 serology and PCR are routine; NS1 antibody is research",
+   "added": "2026-11-08 literature sweep"
   }
  ],
  "hypotheses_notes": [

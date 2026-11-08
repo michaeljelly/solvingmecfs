@@ -147,6 +147,17 @@ def studies_table(rows, title):
     out.append("</tbody></table></div>")
     return "".join(out)
 
+def sweep_html(rows):
+    if not rows: return ""
+    c = {k: sum(1 for s in rows if s.get("relation") == k) for k in ("replicates", "contradicts", "extends")}
+    lab = ", ".join(f"{v} {k[:-1] if k.endswith('s') else k}" for k, v in (("replicates", c["replicates"]), ("contradicts", c["contradicts"]), ("extends", c["extends"])) if v)
+    order = {"contradicts": 0, "replicates": 1, "extends": 2}
+    rs = sorted(rows, key=lambda s: (order.get(s.get("relation"), 3), -(s.get("importance") or 0)))
+    tr = "".join(f'<tr><td>{link(s.get("cite"), s.get("url"))}</td><td><span class="swr sw-{e(s.get("relation"))}">{e(s.get("relation"))}</span></td><td class="num">{e(s.get("n"))}</td><td>{e(s.get("result"))}</td></tr>' for s in rs)
+    return (f'<details class="sweep"><summary class="sublabel">More studies from the literature sweep ({len(rows)}: {lab})</summary>'
+            f'<p class="small">Found by screening every ME/CFS paper\'s abstract against this finding. Not yet weighed into the grade; read before relying on one.</p>'
+            f'<div class="tbl"><table><thead><tr><th>Study</th><th>Bearing</th><th>n</th><th>Result (from the abstract)</th></tr></thead><tbody>{tr}</tbody></table></div></details>')
+
 def finding_html(f):
     hy = " ".join(f'<a class="tag" href="#h-{e(h)}">{e(hyp_names.get(h, h))}</a>' for h in f.get("hypotheses", []) or [])
     oq = "".join(f"<li>{e(q)}</li>" for q in f.get("open_questions", []) or [])
@@ -158,6 +169,7 @@ def finding_html(f):
 <p>{e(f.get("detail"))}</p>
 {studies_table(f.get("studies"), "Evidence")}
 {studies_table(f.get("contradicting"), "Against or not replicated")}
+{sweep_html(f.get("sweep"))}
 {f'<p class="sublabel">Open questions</p><ul>{oq}</ul>' if oq else ""}
 {graph_line(f["id"])}
 <p class="small">{f'Bears on: {hy}' if hy else ""}{' · ' if hy and f.get("test_available") else ""}{f'Test: {e(f.get("test_available"))}' if f.get("test_available") else ""}</p>
@@ -388,6 +400,7 @@ var tb=document.getElementById('stbl');if(tb){var dir={};tb.querySelectorAll('th
 </script>'''
 
 extra_css = '''
+.sweep{margin:.6rem 0} .sweep summary{cursor:pointer} @media (max-width:640px){.sweep table,.sweep tbody,.sweep tr,.sweep td{display:block;width:auto} .sweep thead{display:none} .sweep tr{padding:.5rem 0;border-bottom:1px solid var(--rule,#ddd)} .sweep td{border:0;padding:.1rem 0}} .swr{font-family:var(--f-sans);font-size:.7rem;text-transform:uppercase;letter-spacing:.03em;font-weight:600} .sw-contradicts{color:var(--ref)} .sw-replicates{color:var(--rep)} .sw-extends{color:var(--sev)}
 .cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(15rem,1fr));gap:.4rem 1.4rem;margin:1rem 0}
 .cards .card{display:block;border-top:1px solid var(--rule);padding:.6rem 0 .2rem;color:var(--ink);text-decoration:none;min-width:0}
 .cards .card:hover h3{text-decoration:underline}
