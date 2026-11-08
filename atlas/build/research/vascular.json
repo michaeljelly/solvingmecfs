@@ -63,31 +63,7 @@
     "low-blood-volume-preload",
     "pituitary-adh"
    ],
-   "test_available": "Haemoglobin mass by CO-rebreathing (some sports-science and research labs); isotope blood volume (Daxor BVA-100, a few US centres). Reticulocytes, ferritin, transferrin saturation are routine.",
-   "sweep": [
-    {
-     "cite": "van Campen 2018",
-     "n": "20 (12 classified by OI)",
-     "design": "case-control",
-     "result": "Dual-isotope blood volume averaged 11 ml/kg below reference; lower in those with orthostatic intolerance (56 vs 66 ml/kg).",
-     "url": "https://doi.org/10.3389/fped.2018.00352",
-     "verified": true,
-     "sweep": true,
-     "relation": "replicates",
-     "importance": 2
-    },
-    {
-     "cite": "Newton 2009",
-     "n": "38 CFS vs 120 controls vs 47 PBC",
-     "design": "case-control",
-     "result": "24-h ambulatory BP: CFS had lower systolic blood pressure and abnormal diurnal regulation vs controls, with a fatigue comparison group (PBC) included.",
-     "url": "https://doi.org/10.1097/psy.0b013e31819ccd2a",
-     "verified": true,
-     "sweep": true,
-     "relation": "extends",
-     "importance": 2
-    }
-   ]
+   "test_available": "Haemoglobin mass by CO-rebreathing (some sports-science and research labs); isotope blood volume (Daxor BVA-100, a few US centres). Reticulocytes, ferritin, transferrin saturation are routine."
   },
   {
    "id": "vascular-raas-paradox",
@@ -132,20 +108,7 @@
     "pituitary-adh",
     "hpa-endocrine"
    ],
-   "test_available": "Supine and upright renin/aldosterone; copeptin. Routine labs, but interpretation needs posture and salt-intake control.",
-   "sweep": [
-    {
-     "cite": "De Lorenzo 1997",
-     "n": "78 CFS vs 38 controls",
-     "design": "open-label",
-     "result": "22 of 78 had abnormal tilt; after 8 weeks of sustained-release sodium chloride 11 normalised and improved, 10 still had orthostatic hypotension and had lower plasma renin activity (0.79 vs 1.29 pmol/ml/h in controls).",
-     "url": "https://doi.org/10.1007/bf02267980",
-     "verified": true,
-     "sweep": true,
-     "relation": "replicates",
-     "importance": 2
-    }
-   ]
+   "test_available": "Supine and upright renin/aldosterone; copeptin. Routine labs, but interpretation needs posture and salt-intake control."
   },
   {
    "id": "vascular-small-heart-stroke-volume",
@@ -201,35 +164,26 @@
    "test_available": "Echocardiogram (routine, but usually reported normal at rest); tilt with stroke-volume monitoring (Finapres/bioimpedance at autonomic units).",
    "sweep": [
     {
-     "cite": "Tomas 2017",
-     "n": "42 vs 10",
+     "cite": "De Lorenzo 1998",
+     "n": "273 vs 72",
      "design": "case-control",
-     "result": "Plasma BNP higher in CFS (p=0.013), associated with smaller end-diastolic and end-systolic volumes on cardiac MRI; unrelated to disease duration.",
-     "url": "https://doi.org/10.1136/openhrt-2017-000697",
+     "result": "Echocardiography in 273 CFS vs 72 controls showed smaller LV end-systolic (p<0.001) and end-diastolic (p=0.008) dimensions, thinner posterior walls, lower LV mass (p=0.006) and smaller carotid diameters.",
+     "url": "https://doi.org/10.1093/qjmed/91.7.475",
      "verified": true,
      "sweep": true,
+     "checked": true,
      "relation": "replicates",
-     "importance": 2
+     "importance": 3
     },
     {
      "cite": "Miwa K. 2015",
      "n": "40 vs 40",
      "design": "case-control",
-     "result": "Small left ventricle and low cardiac index (EDD <40 mm 45% vs 3%; cardiac index <2 53% vs 8%) were common in ME, and orthostatic intolerance was present in 35 of 36 tested.",
+     "result": "In 40 ME patients vs 40 controls, LV end-diastolic and end-systolic diameters, stroke volume index, cardiac index and LV mass index were all smaller; small LVEDD (<40 mm) in 45% vs 3% and cardiac index <2 in 53% vs 8%; ejection fraction normal; OI in 35/36.",
      "url": "https://doi.org/10.1007/s00380-014-0510-y",
      "verified": true,
      "sweep": true,
-     "relation": "replicates",
-     "importance": 2
-    },
-    {
-     "cite": "Wyller 2014",
-     "n": "30 vs 39",
-     "design": "case-control",
-     "result": "At supine rest, CFS had higher heart rate and blood pressure, and lower stroke index and HRV; 20-degree tilt responses were identical, imagined standing raised sympathetic HRV indices more in CFS.",
-     "url": "https://doi.org/10.1186/1751-0759-8-22",
-     "verified": true,
-     "sweep": true,
+     "checked": true,
      "relation": "replicates",
      "importance": 2
     },
@@ -237,32 +191,11 @@
      "cite": "Miwa 2011",
      "n": "46 CFS (26 OI+, 20 OI-), 11 OI, 27 controls",
      "design": "case-control",
-     "result": "Echocardiography showed smaller LV dimensions, stroke volume index, cardiac index and LV mass in CFS with orthostatic intolerance than in CFS without OI and controls.",
+     "result": "Echocardiography showed smaller LV end-diastolic and end-systolic dimensions, stroke volume index, cardiac index and LV mass index in 26 CFS with OI than in 20 CFS without OI and 27 controls.",
      "url": "https://doi.org/10.1002/clc.20962",
      "verified": true,
      "sweep": true,
-     "relation": "replicates",
-     "importance": 2
-    },
-    {
-     "cite": "Miwa 2009",
-     "n": "53",
-     "design": "cross-sectional",
-     "result": "Echocardiography in 53 CFS patients showed a small left ventricular chamber with low cardiac output in a considerable number; slender build common.",
-     "url": "https://doi.org/10.2169/internalmedicine.48.2347",
-     "verified": true,
-     "sweep": true,
-     "relation": "replicates",
-     "importance": 2
-    },
-    {
-     "cite": "Miwa 2009",
-     "n": "42",
-     "design": "cohort",
-     "result": "Small heart on chest X-ray was common in CFS; echo showed small LV chamber and poor cardiac performance, which fluctuated with symptom severity across repeated exams.",
-     "url": "https://doi.org/10.1016/j.jjcc.2009.02.008",
-     "verified": true,
-     "sweep": true,
+     "checked": true,
      "relation": "replicates",
      "importance": 2
     },
@@ -270,10 +203,11 @@
      "cite": "Peckerman 2003",
      "n": "38 vs 27",
      "design": "case-control",
-     "result": "Stroke volume and cardiac output were lower in severe CFS than in controls and milder CFS.",
+     "result": "Impedance cardiography in 38 CFS (18 severe) vs 27 sedentary controls showed lower stroke volume and cardiac output in severe CFS than in controls and less ill patients.",
      "url": "https://doi.org/10.1097/00000441-200308000-00001",
      "verified": true,
      "sweep": true,
+     "checked": true,
      "relation": "replicates",
      "importance": 2
     },
@@ -281,21 +215,23 @@
      "cite": "LaManca 1999",
      "n": "39 vs 31",
      "design": "case-control",
-     "result": "During 45-min tilt, CFS had higher heart rate and smaller stroke volume; frequency of positive tilt did not differ (11 vs 12).",
+     "result": "In 39 CFS vs 31 inactive controls on 45-min 70-degree tilt (impedance cardiography), CFS had higher heart rate and smaller pulsatile-systolic area at baseline and early tilt and smaller stroke volume among completers, but positive tilt rates (11 vs 12) and haemodynamic adjustments to tilt did not differ.",
      "url": "https://doi.org/10.1046/j.1365-2281.1999.00154.x",
      "verified": true,
      "sweep": true,
+     "checked": true,
      "relation": "replicates",
      "importance": 2
     },
     {
-     "cite": "De Lorenzo 1998",
-     "n": "273 vs 72",
+     "cite": "Montague 1989",
+     "n": "41 vs controls",
      "design": "case-control",
-     "result": "CFS patients had smaller left ventricular end-systolic and diastolic dimensions, lower LV mass and smaller carotid diameters, interpreted by authors as physical and cardiovascular deconditioning.",
-     "url": "https://doi.org/10.1093/qjmed/91.7.475",
+     "result": "In 41 patients vs matched controls, resting ECG, 24 h rhythm, LV dimensions and fractional shortening were normal, but on graded exercise only 4/31 patients vs 20/32 controls reached target heart rate, peak HR was 124 vs 152 bpm (66% vs 82% of age-maximum, p<0.0001) and exercise lasted 9 vs 12 min.",
+     "url": "https://doi.org/10.1378/chest.95.4.779",
      "verified": true,
      "sweep": true,
+     "checked": true,
      "relation": "replicates",
      "importance": 2
     },
@@ -303,55 +239,24 @@
      "cite": "van Campen 2023",
      "n": "362 vs 52",
      "design": "case-control",
-     "result": "At end-tilt ME/CFS had lower stroke volume index (22 vs 27 ml/m2) and chronotropic incompetence relative to healthy controls, without POTS or hypotension.",
+     "result": "In 362 ME/CFS patients without POTS or hypotension vs 52 controls, end-tilt stroke volume index was lower (22 vs 27 ml/m2), with heart-rate rises below the control prediction interval (orthostatic chronotropic incompetence).",
      "url": "https://doi.org/10.1016/j.ibneur.2023.04.005",
      "verified": true,
      "sweep": true,
+     "checked": true,
      "relation": "extends",
      "importance": 2
     },
     {
-     "cite": "Baum 2022",
-     "n": "227",
+     "cite": "Miwa 2009",
+     "n": "42",
      "design": "cohort",
-     "result": "Cardiac function and biomarkers in relation to fatigue and function in PCS",
-     "url": "https://doi.org/10.1038/s41598-022-24038-3",
+     "result": "In 42 CFS patients under 40, a small heart on chest X-ray was common; echo showed a small LV chamber and poor cardiac performance in those patients, and cardiac function on repeated exams tracked symptom exacerbation and remission.",
+     "url": "https://doi.org/10.1016/j.jjcc.2009.02.008",
      "verified": true,
      "sweep": true,
+     "checked": true,
      "relation": "extends",
-     "importance": 2
-    },
-    {
-     "cite": "Miwa K. 2016",
-     "n": "24",
-     "design": "cohort",
-     "result": "On bad days vs good days: higher resting HR, 21% could not stand 10 min, 43% developed POT only on bad days; LV end-diastolic diameter and stroke volume index lower on bad days.",
-     "url": "https://doi.org/10.1007/s00380-015-0744-3",
-     "verified": true,
-     "sweep": true,
-     "relation": "extends",
-     "importance": 2
-    },
-    {
-     "cite": "Hollingsworth 2010",
-     "n": "12 CFS vs 8 controls (MRS); 64 for tilt",
-     "design": "case-control",
-     "result": "Cardiac PCr/ATP correlated with muscle bioenergetics, and 4 of 12 CFS had cardiac energy impairment linked to contractility changes on standing.",
-     "url": "https://doi.org/10.1111/j.1365-2362.2010.02310.x",
-     "verified": true,
-     "sweep": true,
-     "relation": "extends",
-     "importance": 2
-    },
-    {
-     "cite": "Montague 1989",
-     "n": "41 vs controls",
-     "design": "case-control",
-     "result": "Resting ECG, T-wave integrals, ambulatory rhythm and left ventricular dimensions and shortening were normal, no wall-motion abnormalities, but only 4 of 31 patients vs 20 of 32 controls reached target heart rate and peak heart rate was lower (124 vs 152 bpm).",
-     "url": "https://doi.org/10.1378/chest.95.4.779",
-     "verified": true,
-     "sweep": true,
-     "relation": "contradicts",
      "importance": 2
     }
    ]
@@ -518,90 +423,26 @@
    "test_available": "Extracranial Doppler on tilt (Stichting CardioZorg, Netherlands); transcranial Doppler on tilt at some autonomic labs.",
    "sweep": [
     {
-     "cite": "van Campen 2024",
-     "n": "534 (46 normal, 488 abnormal)",
-     "design": "case-control",
-     "result": "During tilt, 91% of 534 ME/CFS patients had abnormal cardiac output and cerebral blood flow reductions even with normal HR and BP; CO-CBF regression slope near 1.",
-     "url": "https://doi.org/10.3390/healthcare12242566",
+     "cite": "van Campen 2023",
+     "n": "71 retested; 219 combined",
+     "design": "cohort",
+     "result": "In combined data from 219 ME/CFS patients, tilt-induced %CBF reduction was 25, 29 and 33% in mild, moderate and severe ICC disease; in 71 patients retested for worsening symptoms, severity rose but the mean CBF reduction was 24% at both visits.",
+     "url": "https://doi.org/10.3390/medicina59122153",
      "verified": true,
      "sweep": true,
-     "relation": "replicates",
-     "importance": 3
+     "checked": true,
+     "relation": "extends",
+     "importance": 2
     },
     {
      "cite": "van Campen 2023",
      "n": "42 at 20 deg, 41 at 70 deg",
      "design": "cohort",
-     "result": "CBF fell 27% at 20 deg tilt vs 31% at 70 deg (p=0.003); no POTS at 20 deg vs 32% at 70 deg.",
+     "result": "In 83 adolescent ME/CFS patients, extracranial Doppler CBF fell 27% at 20-degree tilt vs 31% at 70-degree tilt (p=0.003); no POTS at 20 degrees vs 32% at 70 degrees.",
      "url": "https://doi.org/10.3389/fped.2023.1169447",
      "verified": true,
      "sweep": true,
-     "relation": "replicates",
-     "importance": 2
-    },
-    {
-     "cite": "van Campen 2021",
-     "n": "10 long COVID, 20 ME/CFS POTS, 20 ME/CFS non-POTS, 10 HC",
-     "design": "case-control",
-     "result": "Long COVID patients had ME/CFS-like symptoms; all developed POTS on tilt; cerebral blood flow and cardiac index fell more than in healthy controls, CBF fall larger in long COVID.",
-     "url": "https://doi.org/10.3390/medicina58010028",
-     "verified": true,
-     "sweep": true,
-     "relation": "replicates",
-     "importance": 2
-    },
-    {
-     "cite": "van Campen 2020",
-     "n": "19 severe",
-     "design": "cohort",
-     "result": "In severe ME/CFS, a 15-min 20-degree tilt reduced cerebral blood flow by 27%, comparable to the 26% decline with 70-degree tilt in milder patients.",
-     "url": "https://doi.org/10.3390/healthcare8020169",
-     "verified": true,
-     "sweep": true,
-     "relation": "replicates",
-     "importance": 2
-    },
-    {
-     "cite": "Stewart 2012",
-     "n": "25 vs 20",
-     "design": "case-control",
-     "result": "On incremental tilt, n-back performance deteriorated and neuronally activated CBFV fell in young CFS but not controls; critical closing pressure was higher (raised vasomotor tone).",
-     "url": "https://doi.org/10.1152/ajpheart.00994.2011",
-     "verified": true,
-     "sweep": true,
-     "relation": "replicates",
-     "importance": 2
-    },
-    {
-     "cite": "van Campen 2020",
-     "n": "100 severe vs 15 controls",
-     "design": "case-control",
-     "result": "Sitting for an hour reduced cerebral blood flow in severe ME/CFS (474 vs 627 mL/min in controls); 90 patients with orthostatic intolerance had -26.9% CBF reduction; supine CBF normal.",
-     "url": "https://doi.org/10.3390/healthcare8040394",
-     "verified": true,
-     "sweep": true,
-     "relation": "extends",
-     "importance": 3
-    },
-    {
-     "cite": "van Campen 2024, preprint",
-     "n": "534 patients vs 49 controls",
-     "design": "case-control",
-     "result": "91% of patients had an abnormal reduction in cardiac output and cerebral blood flow during tilt despite normal HR and BP response, with CO-CBF slope near 1; the 9% with normal changes were less severe and more often male.",
-     "url": "https://doi.org/10.1101/2024.08.02.24311436",
-     "verified": true,
-     "sweep": true,
-     "relation": "extends",
-     "importance": 3
-    },
-    {
-     "cite": "van Campen 2023",
-     "n": "71 retested; 219 combined",
-     "design": "cohort",
-     "result": "More severe ME/CFS is associated with larger CBF fall on tilt (25, 29, 33% in mild, moderate, severe; p stated significant).",
-     "url": "https://doi.org/10.3390/medicina59122153",
-     "verified": true,
-     "sweep": true,
+     "checked": true,
      "relation": "extends",
      "importance": 2
     },
@@ -609,10 +450,59 @@
      "cite": "van Campen 2022",
      "n": "30 vs 30",
      "design": "case-control",
-     "result": "ME/CFS patients with frequent pseudosyncope had larger tilt cerebral blood flow fall (39% vs 25%) than ME/CFS controls.",
+     "result": "In 30 ME/CFS patients labelled with psychogenic pseudosyncope vs 30 matched ME/CFS controls, extracranial Doppler CBF fell 39% vs 25% at end tilt, with no HR or BP differences.",
      "url": "https://doi.org/10.3390/medicina58010098",
      "verified": true,
      "sweep": true,
+     "checked": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "van Campen 2021",
+     "n": "10 long COVID, 20 ME/CFS POTS, 20 ME/CFS non-POTS, 10 HC",
+     "design": "case-control",
+     "result": "10 long COVID patients (all POTS on tilt), 20 ME/CFS-POTS, 20 ME/CFS-normal-HR/BP and 10 HC: CBF and cardiac index fell more in all patient groups than HC, with larger CBF fall in long COVID than in normal-response ME/CFS.",
+     "url": "https://doi.org/10.3390/medicina58010028",
+     "verified": true,
+     "sweep": true,
+     "checked": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "van Campen 2020",
+     "n": "100 severe vs 15 controls",
+     "design": "case-control",
+     "result": "In 100 severe ME/CFS vs 15 controls, sitting for an hour lowered extracranial Doppler CBF (474 vs 627 mL/min; mean decline 24.5%, -26.9% in the 90 with OI symptoms), larger with prior POTS (28.8% vs 22.3%); supine CBF normal.",
+     "url": "https://doi.org/10.3390/healthcare8040394",
+     "verified": true,
+     "sweep": true,
+     "checked": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "van Campen 2020",
+     "n": "19 severe",
+     "design": "cohort",
+     "result": "In 19 severe ME/CFS patients a 15-min 20-degree tilt reduced extracranial CBF by a mean 27%, comparable to the 26% fall seen in milder patients on a 30-min 70-degree tilt.",
+     "url": "https://doi.org/10.3390/healthcare8020169",
+     "verified": true,
+     "sweep": true,
+     "checked": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Stewart 2012",
+     "n": "25 vs 20",
+     "design": "case-control",
+     "result": "In 25 young CFS/POTS vs 20 controls on incremental tilt, absolute CBFV was slightly lower, activated CBFV was abolished and fell with angle, working memory deteriorated with orthostasis, and CCP was raised.",
+     "url": "https://doi.org/10.1152/ajpheart.00994.2011",
+     "verified": true,
+     "sweep": true,
+     "checked": true,
      "relation": "extends",
      "importance": 2
     },
@@ -620,10 +510,11 @@
      "cite": "Razumovsky 2003",
      "n": "26 vs 23",
      "design": "case-control",
-     "result": "During 3-stage tilt, MCA blood flow velocity did not differ from controls at baseline or in response; NMH 21 vs 14 (p=.22) and POTS 9 vs 7 (p=.76) did not differ, though symptom onset was earlier in CFS.",
+     "result": "In 26 CFS vs 23 controls, transcranial Doppler MCA blood flow velocity during 3-stage tilt showed no distinctive CFS pattern; NMH (21 vs 14, p=.22) and POTS (9 vs 7, p=.76) rates did not differ, though symptoms started sooner in CFS.",
      "url": "https://doi.org/10.1111/j.1552-6569.2003.tb00158.x",
      "verified": true,
      "sweep": true,
+     "checked": true,
      "relation": "contradicts",
      "importance": 2
     }
@@ -683,37 +574,16 @@
    "test_available": "Capnography during a 10-minute stand or tilt (cheap; available in some respiratory/autonomic labs); CPET with breathing-pattern analysis.",
    "sweep": [
     {
-     "cite": "Natelson 2007",
-     "n": "75 CFS vs 40 controls",
-     "design": "case-control",
-     "result": "8-min stand test: abnormal orthostatic tests in 53% vs 20% controls; orthostatic hypocapnia identified a subgroup of CFS.",
-     "url": "https://doi.org/10.1186/1476-5918-6-2",
-     "verified": true,
-     "sweep": true,
-     "relation": "replicates",
-     "importance": 2
-    },
-    {
      "cite": "Naschitz 2006",
      "n": "585 total (CFS 90)",
      "design": "case-control",
-     "result": "Tilt with capnography: hypocapnia in 9-27% of CFS/FM/dizziness/NMS patients vs 0-2% controls; most sustained hypocapnia, not specific to CFS.",
+     "result": "On 30-minute head-up tilt with capnography in 585 people, hypocapnia (PETCO2 <30 mmHg for 10+ min) occurred in 9-27% of CFS (n=90), fibromyalgia, dizziness and NMS patients vs 0-2% of controls, mostly as sustained hypocapnia on tilt.",
      "url": "https://doi.org/10.1097/00000441-200606000-00001",
      "verified": true,
      "sweep": true,
+     "checked": true,
      "relation": "replicates",
-     "importance": 2
-    },
-    {
-     "cite": "Naschitz 2000",
-     "n": "32 vs 32",
-     "design": "case-control",
-     "result": "During capnography tilt, CFS patients had lower systolic and diastolic BP and lower end-tidal CO2 and higher HR and respiratory rate than controls.",
-     "url": "https://doi.org/10.1053/sarh.2000.9201",
-     "verified": true,
-     "sweep": true,
-     "relation": "replicates",
-     "importance": 2
+     "importance": 3
     }
    ]
   },
@@ -751,20 +621,7 @@
     "low-blood-volume-preload",
     "autonomic-small-fibre"
    ],
-   "test_available": "Research only; midodrine and compression are used clinically for orthostatic intolerance.",
-   "sweep": [
-    {
-     "cite": "Wyller 2007",
-     "n": "15 vs 57",
-     "design": "case-control",
-     "result": "Higher baseline norepinephrine, epinephrine, HR and temperature; abnormal skin blood flow and vasoconstriction thresholds during hand cooling; more thermoregulatory symptoms.",
-     "url": "https://doi.org/10.1542/peds.2006-2759",
-     "verified": true,
-     "sweep": true,
-     "relation": "extends",
-     "importance": 2
-    }
-   ]
+   "test_available": "Research only; midodrine and compression are used clinically for orthostatic intolerance."
   },
   {
    "id": "vascular-endothelial-fmd-porh",
@@ -859,53 +716,7 @@
     "serum-factor",
     "autoimmunity"
    ],
-   "test_available": "FMD ultrasound and EndoPAT in vascular research labs; not standard clinical tests.",
-   "sweep": [
-    {
-     "cite": "Kennedy 2010",
-     "n": "25 vs 23",
-     "design": "case-control",
-     "result": "Children with CFS/ME had higher isoprostanes (252 vs 216 pg/mL) and lower vitamin C, more white cell apoptosis, but normal arterial stiffness.",
-     "url": "https://doi.org/10.1001/archpediatrics.2010.157",
-     "verified": true,
-     "sweep": true,
-     "relation": "replicates",
-     "importance": 2
-    },
-    {
-     "cite": "Bond 2021",
-     "n": "11 vs 11",
-     "design": "case-control",
-     "result": "Maximal exercise did not produce the post-exercise reduction in augmentation index seen in controls at 48 h, suggesting absent exercise-induced vasodilation in ME/CFS; no baseline arterial stiffness difference.",
-     "url": "https://doi.org/10.3390/ijerph18052366",
-     "verified": true,
-     "sweep": true,
-     "relation": "extends",
-     "importance": 2
-    },
-    {
-     "cite": "Spence 2008",
-     "n": "41 vs 30",
-     "design": "case-control",
-     "result": "Arterial stiffness (AIx@75) was greater in CFS (22.5 vs 13.3%, p=0.002), with higher CRP and isoprostanes, correlating with CRP and oxidative stress.",
-     "url": "https://doi.org/10.1042/cs20070274",
-     "verified": true,
-     "sweep": true,
-     "relation": "extends",
-     "importance": 2
-    },
-    {
-     "cite": "Cambras 2022, preprint",
-     "n": "",
-     "design": "case-control",
-     "result": "Circadian skin temperature rhythm, dysautonomia and endothelin-1 in ME/CFS",
-     "url": "https://doi.org/10.21203/rs.3.rs-2044838/v1",
-     "verified": true,
-     "sweep": true,
-     "relation": "extends",
-     "importance": 2
-    }
-   ]
+   "test_available": "FMD ultrasound and EndoPAT in vascular research labs; not standard clinical tests."
   },
   {
    "id": "vascular-serum-endothelial-in-vitro",
@@ -990,24 +801,14 @@
    "test_available": "OCT-A at ophthalmology clinics (widely available, though reference values for vessel density vary by device); dynamic vessel analysis research only.",
    "sweep": [
     {
-     "cite": "Wallraven 2026, preprint",
-     "n": "102 PCS vs 204 HC; ME/CFS 62",
-     "design": "case-control",
-     "result": "Retinal vessel analysis shows microvascular remodeling/endothelial dysfunction in post-COVID and ME/CFS versus matched controls.",
-     "url": "https://doi.org/10.64898/2026.01.22.26344661",
-     "verified": true,
-     "sweep": true,
-     "relation": "replicates",
-     "importance": 2
-    },
-    {
      "cite": "Basta-Wunderle 2026, preprint",
      "n": "102 (82 follow-up)",
      "design": "cohort",
-     "result": "Retinal arteriolar width and AVR increased over 6 months in post-COVID syndrome but venular dysfunction persisted.",
+     "result": "In 82 of 102 PCS patients followed for 6 months, CRAE rose from 178.2 to 184.1 um and AVR from 0.83 to 0.86 toward recovered-control values, while venular dysfunction persisted.",
      "url": "https://doi.org/10.21203/rs.3.rs-11101115/v1",
      "verified": true,
      "sweep": true,
+     "checked": true,
      "relation": "extends",
      "importance": 2
     }
@@ -1101,7 +902,21 @@
     "vascular-endothelial",
     "mitochondrial-energy"
    ],
-   "test_available": "Research only (needle biopsy at a research centre)."
+   "test_available": "Research only (needle biopsy at a research centre).",
+   "sweep": [
+    {
+     "cite": "Aschman 2023, preprint",
+     "n": "11 patients",
+     "design": "case-control",
+     "result": "Muscle biopsies from 11 post-COVID patients with PEM showed fewer capillaries, thicker capillary basement membranes and more CD169+ macrophages than two historical control cohorts, with no SARS-CoV-2 RNA and distinct immune/metabolic transcriptomic signatures.",
+     "url": "https://doi.org/10.1101/2023.02.15.23285584",
+     "verified": true,
+     "sweep": true,
+     "checked": true,
+     "relation": "replicates",
+     "importance": 2
+    }
+   ]
   },
   {
    "id": "vascular-pericytes-mural",
@@ -1200,20 +1015,7 @@
     "vascular-endothelial",
     "innate-hyperactivation"
    ],
-   "test_available": "Endothelin-1, ICAM-1 and VCAM-1 are available from some specialist labs but not validated for ME/CFS.",
-   "sweep": [
-    {
-     "cite": "Zerón-Rugerio 2024",
-     "n": "31 ME/CFS, 23 post-COVID ME/CFS, 31 controls",
-     "design": "case-control",
-     "result": "Both patient groups had lower activity and worse sleep quality than controls, with worse lipid profile linked to circadian temperature disruption; higher endothelin-1 and VCAM-1 in patients; no difference between ME/CFS groups.",
-     "url": "https://doi.org/10.1080/07420528.2024.2380020",
-     "verified": true,
-     "sweep": true,
-     "relation": "replicates",
-     "importance": 2
-    }
-   ]
+   "test_available": "Endothelin-1, ICAM-1 and VCAM-1 are available from some specialist labs but not validated for ME/CFS."
   },
   {
    "id": "vascular-vegf",
@@ -1292,20 +1094,7 @@
    "hypotheses": [
     "small-vessel-capillary"
    ],
-   "test_available": "Research only (ektacytometry exists in some haematology labs).",
-   "sweep": [
-    {
-     "cite": "Grau 2024",
-     "n": "30 vs 30",
-     "design": "case-control",
-     "result": "Red blood cells from long COVID showed more morphological abnormalities, which correlated with RBC mechanical stiffness and FACIT-Fatigue score.",
-     "url": "https://doi.org/10.3390/biology13110948",
-     "verified": true,
-     "sweep": true,
-     "relation": "replicates",
-     "importance": 2
-    }
-   ]
+   "test_available": "Research only (ektacytometry exists in some haematology labs)."
   },
   {
    "id": "vascular-microclots",
@@ -1375,20 +1164,7 @@
     "microclots",
     "complement-thromboinflammation"
    ],
-   "test_available": "Not reliably: some private labs offer microclot imaging; no validated clinical test.",
-   "sweep": [
-    {
-     "cite": "Booyens 2026",
-     "n": "18 HC, 20 PC-POTS, 19 LC-IOH, 18 LC-POTS",
-     "design": "case-control",
-     "result": "Insoluble plasma fraction shows disease-specific post-translational modifications (AGE/oxidation of fibrinogen) distinguishing POTS, long COVID IOH and long COVID POTS.",
-     "url": "https://doi.org/10.1186/s12933-026-03296-9",
-     "verified": true,
-     "sweep": true,
-     "relation": "extends",
-     "importance": 2
-    }
-   ]
+   "test_available": "Not reliably: some private labs offer microclot imaging; no validated clinical test."
   },
   {
    "id": "vascular-platelets",
@@ -1492,42 +1268,7 @@
     "microclots",
     "complement-thromboinflammation"
    ],
-   "test_available": "D-dimer, fibrinogen, PT/APTT are routine; expected normal.",
-   "sweep": [
-    {
-     "cite": "Jones 2026",
-     "n": "93",
-     "design": "cohort",
-     "result": "ROTEM subclinical hypercoagulability associated with PASC symptoms 15 months after ALI/ARDS hospitalisation.",
-     "url": "https://doi.org/10.1177/08850666261453886",
-     "verified": true,
-     "sweep": true,
-     "relation": "extends",
-     "importance": 2
-    },
-    {
-     "cite": "Mahdi 2023",
-     "n": "20 PACS+POTS vs 22 PACS vs 21 controls",
-     "design": "case-control",
-     "result": "About 200 of 700 cardiometabolic proteins dysregulated (>90% upregulated) in both PACS groups vs controls, with >90% overlap between groups; hemostasis, immune, angiogenesis pathways.",
-     "url": "https://doi.org/10.1038/s41598-023-47539-1",
-     "verified": true,
-     "sweep": true,
-     "relation": "extends",
-     "importance": 2
-    },
-    {
-     "cite": "Jones 2026",
-     "n": "150",
-     "design": "cohort",
-     "result": "PASC symptoms persisted over 3 years in ALI/ARDS survivors without association to persistent thromboinflammation, endothelial dysfunction or complement biomarkers.",
-     "url": "https://doi.org/10.1097/cce.0000000000001390",
-     "verified": true,
-     "sweep": true,
-     "relation": "contradicts",
-     "importance": 2
-    }
-   ]
+   "test_available": "D-dimer, fibrinogen, PT/APTT are routine; expected normal."
   },
   {
    "id": "vascular-complement-long-covid",
@@ -1580,10 +1321,11 @@
      "cite": "Jones 2026",
      "n": "150",
      "design": "cohort",
-     "result": "PASC symptoms persisted over 3 years in ALI/ARDS survivors without association to persistent thromboinflammation, endothelial dysfunction or complement biomarkers.",
+     "result": "In 150 survivors of severe/critical COVID-19 followed for 3 years (PASC in 26% at 15 months and 3 years), serum complement (C2, C4b, C5), inflammatory (IL-6, sTNFR-1) and endothelial (angiopoietin) biomarkers were not associated with PASC or with PEM, fatigue or brain-fog phenotypes, while frailty and poor physical function were.",
      "url": "https://doi.org/10.1097/cce.0000000000001390",
      "verified": true,
      "sweep": true,
+     "checked": true,
      "relation": "contradicts",
      "importance": 2
     }
@@ -1636,58 +1378,15 @@
    "test_available": "Research only for activation products; C3/C4 routine but non-specific.",
    "sweep": [
     {
-     "cite": "Nijs 2014",
-     "n": "23 studies",
-     "design": "meta-analysis",
-     "result": "Review: exercise provokes larger complement C4a, oxidative stress and IL-10/TLR4 gene expression changes in CFS but not circulating cytokines.",
-     "url": "https://pubmed.ncbi.nlm.nih.gov/24974723/",
-     "verified": true,
-     "sweep": true,
-     "relation": "replicates",
-     "importance": 2
-    },
-    {
-     "cite": "Sorensen 2003",
-     "n": "32 vs 29",
-     "design": "case-control",
-     "result": "After 20 min cycling at 70% max, complement C4a (not C3a/C5a) rose at 6 h only in CFS.",
-     "url": "https://doi.org/10.1067/mai.2003.1615",
-     "verified": true,
-     "sweep": true,
-     "relation": "replicates",
-     "importance": 2
-    },
-    {
-     "cite": "Rohrhofer 2024",
-     "n": "",
-     "design": "case-control",
-     "result": "Immunodeficient ME/CFS patients had lower C4a; those without immunodeficiency had higher LBP indicating mucosal barrier leakage.",
-     "url": "https://doi.org/10.3390/jcm13010275",
-     "verified": true,
-     "sweep": true,
-     "relation": "extends",
-     "importance": 2
-    },
-    {
-     "cite": "Polli 2019",
-     "n": "22 vs 22",
-     "design": "case-control",
-     "result": "Changes in pressure pain thresholds after exercise were associated with changes in complement C4a in ME/CFS but not with elastase.",
-     "url": "https://doi.org/10.1515/sjpain-2018-0075",
-     "verified": true,
-     "sweep": true,
-     "relation": "extends",
-     "importance": 2
-    },
-    {
      "cite": "Nijs 2010",
      "n": "22 vs 22",
      "design": "case-control",
-     "result": "Both submaximal and self-paced exercise triggered PEM, but neither changed elastase, IL-1beta or C4a acutely; post-exercise C4a flagged as marker of PEM.",
+     "result": "In 22 women with ME/CFS and 22 sedentary controls, submaximal and self-paced exercise both triggered PEM, but neither changed circulating C4a split product, IL-1beta or elastase (P > 0.05); post-exercise C4a was proposed as a PEM biomarker.",
      "url": "https://doi.org/10.1111/j.1365-2796.2009.02178.x",
      "verified": true,
      "sweep": true,
-     "relation": "extends",
+     "checked": true,
+     "relation": "contradicts",
      "importance": 2
     }
    ]
@@ -1729,134 +1428,50 @@
    "test_available": "Tilt table or 10-minute NASA lean test (widely available); add capnography and stroke-volume monitoring where possible.",
    "sweep": [
     {
-     "cite": "Björnson 2025",
-     "n": "467",
-     "design": "cohort",
-     "result": "POTS found in 31% (143) of highly symptomatic non-hospitalised long COVID after tilt/active stand; POTS patients younger, 91% female, lower activity and shorter 6MWT.",
-     "url": "https://doi.org/10.1161/circep.124.013629",
+     "cite": "Lee 2024",
+     "n": "277 vs 50",
+     "design": "case-control",
+     "result": "Across 8 UK long COVID clinics, 41/277 (15%) had an abnormal NASA lean test (7% POTS, 8% OH) and 52% had OI symptoms during it, vs no POTS or symptoms in 50 healthy volunteers (10% asymptomatic OH); 45% of abnormal tests had no prior OI symptoms.",
+     "url": "https://doi.org/10.1002/jmv.29486",
      "verified": true,
      "sweep": true,
-     "relation": "replicates",
+     "checked": true,
+     "relation": "extends",
      "importance": 2
     },
     {
      "cite": "van Campen 2018",
      "n": "627 ME/CFS evaluated, 155 POTS",
      "design": "cohort",
-     "result": "About a quarter (155/627) of ME/CFS patients met POTS criteria on tilt; abbreviated 2-5 min tilt would miss many (median time to criteria about 3 min).",
+     "result": "Of 627 ME/CFS adults on 10-min tilt, 155 (25%) met POTS criteria; median time to HR criterion was 3 min, so a 2-min tilt would miss 55% (95% CI 48-63%) of POTS cases, regardless of sex, age, duration or hypocapnia.",
      "url": "https://doi.org/10.3389/fped.2018.00349",
      "verified": true,
      "sweep": true,
-     "relation": "replicates",
+     "checked": true,
+     "relation": "extends",
      "importance": 2
     },
     {
-     "cite": "Hoad 2008",
-     "n": "59 vs 52",
+     "cite": "Jones 2005",
+     "n": "58 vs 55",
      "design": "case-control",
-     "result": "Active stand test: max heart rate higher in CFS/ME (106 vs 98 bpm, p=0.02); POTS in 27% (16/59) vs 9% of controls (p=0.006).",
-     "url": "https://doi.org/10.1093/qjmed/hcn123",
+     "result": "In a population-based Wichita sample (58 CFS vs 55 controls), head-up tilt showed orthostatic instability in 30% of CFS (all POTS) vs 48% of controls; stand tests were negative in everyone and severity was not associated with tilt results.",
+     "url": "https://doi.org/10.1016/j.amjmed.2005.06.013",
      "verified": true,
      "sweep": true,
-     "relation": "replicates",
+     "checked": true,
+     "relation": "extends",
      "importance": 2
     },
     {
-     "cite": "Naschitz 2002",
-     "n": "21 CFS vs 24 non-CFS fatigue vs 44 syncope vs 21 healthy",
+     "cite": "Katz 2012",
+     "n": "36 vs 43",
      "design": "case-control",
-     "result": "Abnormal tilt endpoints occurred in 79% of CFS vs 35% non-CFS chronic fatigue, 46% syncope and 14% healthy; hemodynamic instability score OR 34.8 vs healthy.",
-     "url": "https://doi.org/10.1053/sarh.2002.34608",
+     "result": "Six months after infectious mononucleosis, 9 of 36 adolescents with CFS (25%) vs 9 of 43 recovered controls (21%) had an abnormal standing orthostatic test, a non-significant difference.",
+     "url": "https://doi.org/10.1177/0009922812455094",
      "verified": true,
      "sweep": true,
-     "relation": "replicates",
-     "importance": 2
-    },
-    {
-     "cite": "Lee 2024",
-     "n": "277 vs 50",
-     "design": "case-control",
-     "result": "NASA lean test: 15% abnormal, 7% POTS and 8% OH; 52% symptomatic during test; 45% of abnormal tests had no prior OI symptoms; healthy volunteers had no POTS.",
-     "url": "https://doi.org/10.1002/jmv.29486",
-     "verified": true,
-     "sweep": true,
-     "relation": "extends",
-     "importance": 3
-    },
-    {
-     "cite": "Gunning 2026",
-     "n": "",
-     "design": "case-control",
-     "result": "Pre-pandemic POTS and long COVID POTS have indistinguishable elevations in 14 of 15 inflammatory markers, including Caspase-1p20, IL-1b and IL-18, vs controls.",
-     "url": "https://doi.org/10.3390/biomedicines14071605",
-     "verified": true,
-     "sweep": true,
-     "relation": "extends",
-     "importance": 2
-    },
-    {
-     "cite": "Grach 2024",
-     "n": "732",
-     "design": "cross-sectional",
-     "result": "Mayo clinic: 58% of long COVID patients screened positive for ME/CFS vs 0% of controls; also joint hypermobility and orthostatic intolerance overlap.",
-     "url": "https://doi.org/10.3389/fneur.2024.1482917",
-     "verified": true,
-     "sweep": true,
-     "relation": "extends",
-     "importance": 2
-    },
-    {
-     "cite": "Mahdi 2023",
-     "n": "20 PACS+POTS vs 22 PACS vs 21 controls",
-     "design": "case-control",
-     "result": "About 200 of 700 cardiometabolic proteins dysregulated (>90% upregulated) in both PACS groups vs controls, with >90% overlap between groups; hemostasis, immune, angiogenesis pathways.",
-     "url": "https://doi.org/10.1038/s41598-023-47539-1",
-     "verified": true,
-     "sweep": true,
-     "relation": "extends",
-     "importance": 2
-    },
-    {
-     "cite": "Reynolds 2014",
-     "n": "306",
-     "design": "cross-sectional",
-     "result": "POTS comorbid in 11% (33/306) on a 20-minute standing task; POTS patients younger.",
-     "url": "https://doi.org/10.1111/joim.12161",
-     "verified": true,
-     "sweep": true,
-     "relation": "extends",
-     "importance": 2
-    },
-    {
-     "cite": "Lewis 2013",
-     "n": "179 (24 POTS)",
-     "design": "cross-sectional",
-     "result": "POTS in 13% of CFS; POTS subgroup younger with distinct autonomic features.",
-     "url": "https://doi.org/10.1111/joim.12022",
-     "verified": true,
-     "sweep": true,
-     "relation": "extends",
-     "importance": 2
-    },
-    {
-     "cite": "Monaghan 2022",
-     "n": "85",
-     "design": "cross-sectional",
-     "result": "Orthostatic intolerance in 66% on active stand but POTS in only 2% on tilt; OI linked to higher early heart rate.",
-     "url": "https://doi.org/10.3389/fphys.2022.833650",
-     "verified": true,
-     "sweep": true,
-     "relation": "contradicts",
-     "importance": 2
-    },
-    {
-     "cite": "Roerink 2017",
-     "n": "419 CFS vs 341 non-CFS fatigued",
-     "design": "cohort",
-     "result": "POTS prevalence on active stand was 5.7% in CFS vs 6.9% non-CFS adults (p=0.54); 18.2% vs 17.4% in adolescents; POTS not a discriminating marker.",
-     "url": "https://doi.org/10.1111/joim.12564",
-     "verified": true,
-     "sweep": true,
+     "checked": true,
      "relation": "contradicts",
      "importance": 2
     }

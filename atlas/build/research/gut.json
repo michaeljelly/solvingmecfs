@@ -88,80 +88,15 @@
    "test_available": "Private shotgun stool metagenomics only; no validated clinical test or reference range",
    "sweep": [
     {
-     "cite": "Donchev 2026",
-     "n": "",
-     "design": "case-control",
-     "result": "Gut microbiome in ME/CFS and long COVID vs HC: small beta-diversity differences, shared Sutterella enrichment and Terrisporobacter/Lachnospiraceae depletion.",
-     "url": "https://doi.org/10.3390/biomedicines14061183",
-     "verified": true,
-     "sweep": true,
-     "relation": "replicates",
-     "importance": 2
-    },
-    {
      "cite": "Cheng 2025",
      "n": "40 vs 40",
      "design": "case-control",
-     "result": "CFS had lower gut alpha-diversity and lower fecal acetate, butyrate, isobutyrate and isovalerate with reduced Firmicutes, Ruminococcaceae and Clostridiales.",
+     "result": "In 40 CFS vs 40 matched controls, 16S sequencing showed lower alpha-diversity and fewer Firmicutes, Clostridiales and Ruminococcaceae, fecal acetate and butyrate were lower (q<0.05), and Faecalibacterium/Ruminococcaceae correlated with butyrate (r=0.52-0.56).",
      "url": "https://doi.org/10.1038/s41598-025-27564-y",
      "verified": true,
      "sweep": true,
+     "checked": true,
      "relation": "replicates",
-     "importance": 2
-    },
-    {
-     "cite": "Guo 2021, preprint",
-     "n": "106 vs 91",
-     "design": "case-control",
-     "result": "Shotgun metagenomics: fewer Faecalibacterium, Roseburia and Eubacterium (butyrate producers) and higher bacterial load in ME/CFS.",
-     "url": "https://doi.org/10.21203/rs.3.rs-1017818/v1",
-     "verified": true,
-     "sweep": true,
-     "relation": "replicates",
-     "importance": 2
-    },
-    {
-     "cite": "Xiong 2021, preprint",
-     "n": "79 controls plus short-term and long-term cohorts",
-     "design": "case-control",
-     "result": "Reduced microbiome diversity, depleted sphingomyelins, SCFAs and butyrate biosynthesis; dysbiosis stronger in short-term disease, metabolic abnormalities in long-term.",
-     "url": "https://doi.org/10.1101/2021.10.27.466150",
-     "verified": true,
-     "sweep": true,
-     "relation": "replicates",
-     "importance": 2
-    },
-    {
-     "cite": "Du Preez 2018",
-     "n": "7 studies",
-     "design": "meta-analysis",
-     "result": "Systematic review: gut microbiome differences reported in every study but only three significant and findings inconsistent; study quality poor.",
-     "url": "https://doi.org/10.1186/s13643-018-0909-0",
-     "verified": true,
-     "sweep": true,
-     "relation": "extends",
-     "importance": 2
-    },
-    {
-     "cite": "Xiong 2024, preprint",
-     "n": "249 participants, 4 years",
-     "design": "cohort",
-     "result": "BioMapAI deep-learning model integrating gut metagenomics, metabolomics, immune profiles classified ME/CFS in held-out and external cohorts and implicated SCFA, tryptophan and MAIT/gamma-delta T cell pathways.",
-     "url": "https://doi.org/10.1101/2024.06.24.600378",
-     "verified": true,
-     "sweep": true,
-     "relation": "extends",
-     "importance": 2
-    },
-    {
-     "cite": "Williams 2024, preprint",
-     "n": "38 ME/CFS, 27 ME/CFS+IBS, 17 mixed disorders",
-     "design": "case-control",
-     "result": "Against a non-healthy mixed-disorder control, only Roseburia and Dialister distinguished ME/CFS, suggesting much dysbiosis is non-specific.",
-     "url": "https://doi.org/10.1101/2024.04.23.24306162",
-     "verified": true,
-     "sweep": true,
-     "relation": "extends",
      "importance": 2
     }
    ]
@@ -308,20 +243,7 @@
    "hypotheses": [
     "gut-dysbiosis"
    ],
-   "test_available": "Research only",
-   "sweep": [
-    {
-     "cite": "Xiong 2021, preprint",
-     "n": "79 controls plus short-term and long-term cohorts",
-     "design": "case-control",
-     "result": "Reduced microbiome diversity, depleted sphingomyelins, SCFAs and butyrate biosynthesis; dysbiosis stronger in short-term disease, metabolic abnormalities in long-term.",
-     "url": "https://doi.org/10.1101/2021.10.27.466150",
-     "verified": true,
-     "sweep": true,
-     "relation": "replicates",
-     "importance": 2
-    }
-   ]
+   "test_available": "Research only"
   },
   {
    "id": "gut-severity-link",
@@ -356,20 +278,7 @@
    "hypotheses": [
     "gut-dysbiosis"
    ],
-   "test_available": "Research only",
-   "sweep": [
-    {
-     "cite": "Du Preez 2018",
-     "n": "7 studies",
-     "design": "meta-analysis",
-     "result": "Systematic review: gut microbiome differences reported in every study but only three significant and findings inconsistent; study quality poor.",
-     "url": "https://doi.org/10.1186/s13643-018-0909-0",
-     "verified": true,
-     "sweep": true,
-     "relation": "extends",
-     "importance": 2
-    }
-   ]
+   "test_available": "Research only"
   },
   {
    "id": "gut-ibs-overlap",
@@ -420,10 +329,11 @@
      "cite": "Fall 2024",
      "n": "923 (MCAM)",
      "design": "cross-sectional",
-     "result": "76% of ME/CFS had at least one chronic overlapping pain condition vs 17.4% of controls: migraine/headache 48.1%, fibromyalgia 45.0%, low back pain 33.1%, IBS 31.6%.",
+     "result": "IBS was present in 31.6% of 595 ME/CFS patients in the 7-site MCAM cohort, among 76% with at least one overlapping pain condition vs 17.4% of controls.",
      "url": "https://doi.org/10.1186/s12883-024-03872-0",
      "verified": true,
      "sweep": true,
+     "checked": true,
      "relation": "replicates",
      "importance": 2
     },
@@ -431,10 +341,11 @@
      "cite": "Williams 2024, preprint",
      "n": "38 ME/CFS, 27 ME/CFS+IBS, 17 mixed disorders",
      "design": "case-control",
-     "result": "Against a non-healthy mixed-disorder control, only Roseburia and Dialister distinguished ME/CFS, suggesting much dysbiosis is non-specific.",
+     "result": "Many genera separated ME/CFS with IBS (n=27) from a mixed non-healthy control group, but only Roseburia and Dialister separated ME/CFS without IBS (n=38), suggesting bowel dysfunction drives much of the dysbiosis.",
      "url": "https://doi.org/10.1101/2024.04.23.24306162",
      "verified": true,
      "sweep": true,
+     "checked": true,
      "relation": "extends",
      "importance": 2
     }
@@ -526,24 +437,14 @@
    "test_available": "Research only (LPS, LBP, sCD14); commercial 'leaky gut' panels are not validated",
    "sweep": [
     {
-     "cite": "Rohrhofer 2024",
-     "n": "",
-     "design": "case-control",
-     "result": "Immunodeficient ME/CFS patients had lower C4a; those without immunodeficiency had higher LBP indicating mucosal barrier leakage.",
-     "url": "https://doi.org/10.3390/jcm13010275",
-     "verified": true,
-     "sweep": true,
-     "relation": "extends",
-     "importance": 2
-    },
-    {
      "cite": "Uhde 2023",
      "n": "",
      "design": "case-control",
-     "result": "Suppressed innate response to microbial translocation with compromised gut epithelium in ME/CFS at rest and after exercise; altered glucose/citrate metabolism and IL-10.",
+     "result": "In two independent ME/CFS-control cohort pairs (one at rest, one with exercise challenge), markers indicated microbial translocation with a compromised gut epithelium, a suppressed acute-phase innate response and enhanced compensatory antibody responses, linked to glucose/citrate metabolism and IL-10.",
      "url": "https://doi.org/10.1016/j.bbih.2023.100627",
      "verified": true,
      "sweep": true,
+     "checked": true,
      "relation": "extends",
      "importance": 2
     },
@@ -551,21 +452,11 @@
      "cite": "Vogl 2022",
      "n": "",
      "design": "case-control",
-     "result": "Antibody responses to gut microbiota flagellins overrepresented in CFS",
+     "result": "Phage-display profiling (244,000 microbiota and viral antigen variants) found severe ME/CFS patients had distinct, overrepresented serum antibody epitope repertoires against Lachnospiraceae flagellins, and machine-learning classifiers built on this antibody binding added diagnostic information beyond standard blood tests.",
      "url": "https://doi.org/10.1126/sciadv.abq2422",
      "verified": true,
      "sweep": true,
-     "relation": "extends",
-     "importance": 2
-    },
-    {
-     "cite": "Maes 2012",
-     "n": "128",
-     "design": "cross-sectional",
-     "result": "IgA responses to LPS of commensal enterobacteria were associated with higher IL-1, TNF-alpha, neopterin and elastase and with IBS ratings, suggesting bacterial translocation.",
-     "url": "https://doi.org/10.1016/j.jad.2011.09.010",
-     "verified": true,
-     "sweep": true,
+     "checked": true,
      "relation": "extends",
      "importance": 2
     }
@@ -614,7 +505,21 @@
     "immune-exhaustion",
     "viral-persistence"
    ],
-   "test_available": "Research only"
+   "test_available": "Research only",
+   "sweep": [
+    {
+     "cite": "Vogl 2022",
+     "n": "",
+     "design": "case-control",
+     "result": "Phage-display profiling (244,000 microbiota and viral antigen variants) found severe ME/CFS patients had distinct, overrepresented serum antibody epitope repertoires against Lachnospiraceae flagellins, and machine-learning classifiers built on this antibody binding added diagnostic information beyond standard blood tests.",
+     "url": "https://doi.org/10.1126/sciadv.abq2422",
+     "verified": true,
+     "sweep": true,
+     "checked": true,
+     "relation": "extends",
+     "importance": 2
+    }
+   ]
   },
   {
    "id": "gut-fmt-trials",
@@ -768,11 +673,12 @@
      "cite": "Donchev 2026",
      "n": "",
      "design": "case-control",
-     "result": "Gut microbiome in ME/CFS and long COVID vs HC: small beta-diversity differences, shared Sutterella enrichment and Terrisporobacter/Lachnospiraceae depletion.",
+     "result": "Direct comparison found overlapping but non-identical gut microbiome alterations in ME/CFS and long COVID versus controls (shared Sutterella up, Terrisporobacter and Lachnospiraceae down), with smaller differences between ME/CFS and LC than between either and controls.",
      "url": "https://doi.org/10.3390/biomedicines14061183",
      "verified": true,
      "sweep": true,
-     "relation": "replicates",
+     "checked": true,
+     "relation": "extends",
      "importance": 2
     }
    ]

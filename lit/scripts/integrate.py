@@ -36,18 +36,46 @@ for p in glob.glob(os.path.join(RES, "*.json")):
 F = {f["id"]: (p, f) for p, d in files.items() for f in d["findings"]}
 add = defaultdict(lambda: {"rep": [], "con": [], "ext": []})
 newc = defaultdict(list)
+# second-pass verdicts (VERIFY_BRIEF.md): once any exist, only verified links are used
+V = {}
+for vf in glob.glob(os.path.join(H, "verify", "out-*.json")):
+    for v in json.load(open(vf, encoding="utf8")):
+        if isinstance(v, dict) and v.get("key"): V[v["key"]] = v
+VERIFIED = bool(V)
+RK = {"replicates": "rep", "contradicts": "con", "extends": "ext"}
+def link(fid, rel, imp, r, x, v=None):
+    if fid not in F or rel not in RK or imp < 2: return
+    y = dict(x)
+    if v: y.update({"finding": v.get("result") or x.get("finding"), "verified2": True})
+    add[fid][RK[rel]].append((imp, r, y))
 for x in U:
     r = L[str(x["id"])]
     if x.get("relevant") not in ("core", "related"): continue
     imp = x.get("importance") or 1
     rel = x.get("relation")
-    if rel == "new" and imp >= 2:
-        newc[(r.get("domains") or ["other"])[0]].append((imp, r, x))
-    if rel not in ("replicates", "contradicts", "extends") or imp < 2: continue
-    for fid in (x.get("atlas") or [])[:2]:
-        if fid not in F: continue
-        add[fid][{"replicates": "rep", "contradicts": "con", "extends": "ext"}[rel]].append((imp, r, x))
+    if not VERIFIED:
+        if rel == "new" and imp >= 2: newc[(r.get("domains") or ["other"])[0]].append((imp, r, x))
+        if rel in RK and imp >= 2:
+            for fid in (x.get("atlas") or [])[:2]: link(fid, rel, imp, r, x)
+        continue
+    keys = [f"{x['id']}|{fid}" for fid in (x.get("atlas") or [])[:2]] if rel in RK else [f"{x['id']}|new"] if rel == "new" else []
+    for k in keys:
+        v = V.get(k)
+        if not v or v.get("verdict") == "drop": continue
+        vi = v.get("importance") or imp
+        if v.get("verdict") == "new_ok":
+            if vi >= 2: newc[(r.get("domains") or ["other"])[0]].append((vi, r, dict(x, finding=v.get("result") or x.get("finding"))))
+            continue
+        for fid in (v.get("atlas") or [])[:2]: link(fid, v.get("relation"), vi, r, x, v)
+for d in add.values():  # one entry per paper per finding
+    for kk in d:
+        seenp, keep = set(), []
+        for t in d[kk]:
+            if t[1]["id"] in seenp: continue
+            seenp.add(t[1]["id"]); keep.append(t)
+        d[kk] = keep
 n_add = 0
+for fid0, (p0, f0) in F.items(): f0.pop("sweep", None)
 for fid, d in add.items():
     p, f = F[fid]
     f["sweep"] = []  # rebuilt on every run; curated "studies"/"contradicting" are never touched
@@ -57,7 +85,7 @@ for fid, d in add.items():
             u = url(r)
             if u.lower() in have: continue
             f.setdefault(tgt, []).append({"cite": cite(r), "n": x.get("n") or "", "design": x.get("design") or "", "result": x.get("finding") or "", "url": u,
-                                          "verified": True, "sweep": True, "relation": {"rep": "replicates", "ext": "extends", "con": "contradicts"}[key], "importance": imp})
+                                          "verified": True, "sweep": True, "checked": bool(x.get("verified2")), "relation": {"rep": "replicates", "ext": "extends", "con": "contradicts"}[key], "importance": imp})
             have.add(u.lower()); n_add += 1
 if APPLY:
     for p, d in files.items():
@@ -79,5 +107,14 @@ for dom, v in sorted(newc.items()):
     for imp, r, x in sorted(v, key=lambda t: -t[0]):
         o2.append(f"- i{imp} {cite(r)} [{r['pop']}] ({x.get('n') or '?'}, {x.get('design')}): {x.get('finding')} {url(r)}")
     o2.append("")
+o2 += ["", "# Verified results with no matching atlas finding (importance >= 2)", ""]
+seen_h = set()
+for v in sorted(V.values(), key=lambda v: -(v.get("importance") or 1)):
+    rs = (v.get("reason") or "").lower()
+    if v.get("verdict") != "drop" or (v.get("importance") or 1) < 2 or not ("no atlas finding" in rs or "could be" in rs): continue
+    pid = v["key"].split("|")[0]
+    if pid in seen_h or pid not in L: continue
+    seen_h.add(pid); r = L[pid]
+    o2.append(f"- i{v.get('importance')} {cite(r)} [{r['pop']}]: {v.get('result')} {url(r)}")
 open(os.path.join(H, "new_candidates.md"), "w", encoding="utf8").write("\n".join(o2))
 print("screened", len(S), "unique", len(U), "findings touched", len(add), "entries added", n_add, "new candidates", sum(len(v) for v in newc.values()), "applied" if APPLY else "(dry run)")

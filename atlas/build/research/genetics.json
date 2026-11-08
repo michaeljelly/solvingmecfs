@@ -50,32 +50,11 @@
      "cite": "Jason 2024",
      "n": "400 ME/CFS vs 241 MS/PPS controls",
      "design": "case-control",
-     "result": "Family history of ME/CFS in 18% of patients vs 3.9% of controls; those with family history had more GI symptoms.",
+     "result": "Family history of ME/CFS was reported by 18% of 400 ME/CFS patients vs 3.9% of 414 MS/post-polio controls, and patients with a family history had more GI symptoms.",
      "url": "https://doi.org/10.37349/emed.2024.00215",
      "verified": true,
      "sweep": true,
-     "relation": "replicates",
-     "importance": 2
-    },
-    {
-     "cite": "Walsh 2001",
-     "n": "25 cases vs 36 medical controls",
-     "design": "case-control",
-     "result": "First-degree relatives of CFS cases had higher rates of CFS than relatives of controls, without greater familial depression loading.",
-     "url": "https://doi.org/10.1097/00041444-200109000-00003",
-     "verified": true,
-     "sweep": true,
-     "relation": "replicates",
-     "importance": 2
-    },
-    {
-     "cite": "Levine 1998",
-     "n": "8 affected, 12 unaffected relatives, 8 controls",
-     "design": "case-control",
-     "result": "NK cytotoxicity was lower in 8 affected family members than controls (P=0.006) with normal NK cell counts; low activity also in 4/12 unaffected relatives.",
-     "url": "https://doi.org/10.1006/clin.1998.4554",
-     "verified": true,
-     "sweep": true,
+     "checked": true,
      "relation": "replicates",
      "importance": 2
     },
@@ -83,21 +62,11 @@
      "cite": "Steen 2026",
      "n": "6097372",
      "design": "genetic",
-     "result": "Swedish twin and sibling registers: shared genetic risk between functional somatic syndromes, internalizing disorders and immune-mediated disease.",
+     "result": "In 6.1 million Swedish twins and siblings with register ICD diagnoses, heritability of functional somatic syndromes (including ME/CFS) and internalizing disorders was 15-44%, and ME/CFS had a modest genetic correlation with immune-mediated diseases (rA within 0.19-0.29).",
      "url": "https://doi.org/10.1016/j.bbi.2026.106837",
      "verified": true,
      "sweep": true,
-     "relation": "extends",
-     "importance": 2
-    },
-    {
-     "cite": "Birch 2025",
-     "n": "31 affected from 25 families",
-     "design": "genetic",
-     "result": "Whole-genome sequencing found pathogenic/likely pathogenic variants in 8 of 25 probands (32%), heterogenous pathways including energy metabolism and ion homeostasis.",
-     "url": "https://doi.org/10.1186/s12967-025-07586-w",
-     "verified": true,
-     "sweep": true,
+     "checked": true,
      "relation": "extends",
      "importance": 2
     }
@@ -139,31 +108,7 @@
     "viral-persistence",
     "innate-hyperactivation"
    ],
-   "test_available": "Not useful individually (no clinical genetic test)",
-   "sweep": [
-    {
-     "cite": "Bretherick 2023",
-     "n": "17,074",
-     "design": "cross-sectional",
-     "result": "83.5% female; females have more comorbidities; female sex, older age and >10 years duration associate with greater severity; five onset types compared.",
-     "url": "https://doi.org/10.3310/nihropenres.13421.4",
-     "verified": true,
-     "sweep": true,
-     "relation": "replicates",
-     "importance": 2
-    },
-    {
-     "cite": "St-Jean 2026, preprint",
-     "n": "19019",
-     "design": "cohort",
-     "result": "k-modes cluster analysis in DecodeME gives two symptom clusters linked to onset type.",
-     "url": "https://doi.org/10.64898/2026.06.29.26356818",
-     "verified": true,
-     "sweep": true,
-     "relation": "extends",
-     "importance": 2
-    }
-   ]
+   "test_available": "Not useful individually (no clinical genetic test)"
   },
   {
    "id": "genetics-polygenic-replication",
@@ -293,31 +238,7 @@
     "genetic-neuronal",
     "sickness-behaviour"
    ],
-   "test_available": "Research only",
-   "sweep": [
-    {
-     "cite": "Fall 2024",
-     "n": "923 (MCAM)",
-     "design": "cross-sectional",
-     "result": "76% of ME/CFS had at least one chronic overlapping pain condition vs 17.4% of controls: migraine/headache 48.1%, fibromyalgia 45.0%, low back pain 33.1%, IBS 31.6%.",
-     "url": "https://doi.org/10.1186/s12883-024-03872-0",
-     "verified": true,
-     "sweep": true,
-     "relation": "replicates",
-     "importance": 2
-    },
-    {
-     "cite": "Bourke 2021",
-     "n": "19 CFS, 19 FM, 20 HC",
-     "design": "case-control",
-     "result": "Central sensitisation (enhanced temporal summation plus inefficient CPM) in 84% of CFS and 95% of FM, none of controls.",
-     "url": "https://doi.org/10.1016/j.jpsychores.2021.110624",
-     "verified": true,
-     "sweep": true,
-     "relation": "replicates",
-     "importance": 2
-    }
-   ]
+   "test_available": "Research only"
   },
   {
    "id": "genetics-infection-loci",
@@ -421,10 +342,11 @@
      "cite": "Hajdarevic 2021",
      "n": "427 vs 480",
      "design": "genetic",
-     "result": "HLA fine mapping found independent signals in class I (rs4711249) and class II (rs9275582, HLA-DQB1 region) in Norwegian patients.",
+     "result": "Fine mapping (5 more classical HLA loci, 5,342 SNPs) in 427 Norwegian CCC cases vs 480 controls found two independent signals: rs4711249 in class I (spanning DDR1/GTF2H4/VARS2/SFTA2/DPCR1) and rs9275582 in class II, with the class II signal most likely at HLA-DQB1 amino-acid position 57.",
      "url": "https://doi.org/10.1016/j.bbi.2021.08.219",
      "verified": true,
      "sweep": true,
+     "checked": true,
      "relation": "extends",
      "importance": 2
     }
@@ -501,11 +423,12 @@
      "cite": "Ueland 2022",
      "n": "",
      "design": "genetic",
-     "result": "No replication of reported TRA locus variant association with ME/CFS",
+     "result": "In 409 Norwegian cases vs 810 controls and 2,105 UK Biobank cases vs 4,786 controls, the two previously reported TRA-locus SNPs (rs11157573, rs17255510) did not associate with ME/CFS and no TRA SNP survived multiple-testing correction.",
      "url": "https://doi.org/10.1038/s41398-022-02046-1",
      "verified": true,
      "sweep": true,
-     "relation": "contradicts",
+     "checked": true,
+     "relation": "replicates",
      "importance": 2
     }
    ]
@@ -560,20 +483,7 @@
    "hypotheses": [
     "genetic-neuronal"
    ],
-   "test_available": "Research only",
-   "sweep": [
-    {
-     "cite": "Germain 2021",
-     "n": "20 vs 20 females",
-     "design": "case-control",
-     "result": "Aptamer proteomics (4790 proteins) found 19 differing proteins, highlighting ephrin pathway and immune signalling; AUC above 0.85, up to 0.95 using ratios.",
-     "url": "https://doi.org/10.3390/proteomes9010006",
-     "verified": true,
-     "sweep": true,
-     "relation": "extends",
-     "importance": 2
-    }
-   ]
+   "test_available": "Research only"
   },
   {
    "id": "genetics-mr-biomarkers",
@@ -653,20 +563,7 @@
     "genetic-neuronal",
     "immune-exhaustion"
    ],
-   "test_available": "Research only; clinical exome only for red-flag mimics (mitochondrial, HLH, immunodeficiency)",
-   "sweep": [
-    {
-     "cite": "Birch 2025",
-     "n": "31 affected from 25 families",
-     "design": "genetic",
-     "result": "Whole-genome sequencing found pathogenic/likely pathogenic variants in 8 of 25 probands (32%), heterogenous pathways including energy metabolism and ion homeostasis.",
-     "url": "https://doi.org/10.1186/s12967-025-07586-w",
-     "verified": true,
-     "sweep": true,
-     "relation": "extends",
-     "importance": 2
-    }
-   ]
+   "test_available": "Research only; clinical exome only for red-flag mimics (mitochondrial, HLH, immunodeficiency)"
   },
   {
    "id": "genetics-combinatorial-precisionlife",
@@ -745,75 +642,7 @@
     "sodium-calcium-overload",
     "immune-exhaustion"
    ],
-   "test_available": "Research only",
-   "sweep": [
-    {
-     "cite": "Cabanas 2019",
-     "n": "8 vs 8",
-     "design": "in vitro",
-     "result": "Patch-clamp confirmed impaired TRPM3 function in IL-2 stimulated NK cells from ME/CFS; naltrexone restored function in vitro.",
-     "url": "https://doi.org/10.3389/fimmu.2019.02545",
-     "verified": true,
-     "sweep": true,
-     "relation": "replicates",
-     "importance": 2
-    },
-    {
-     "cite": "Cabanas 2019",
-     "n": "",
-     "design": "case-control",
-     "result": "Patch-clamp in a new cohort confirmed impaired TRPM3 activity in patients' NK cells.",
-     "url": "https://doi.org/10.1186/s10020-019-0083-4",
-     "verified": true,
-     "sweep": true,
-     "relation": "replicates",
-     "importance": 2
-    },
-    {
-     "cite": "Cabanas 2018",
-     "n": "12 vs 12",
-     "design": "case-control",
-     "result": "Patch-clamp showed reduced TRPM3 current amplitude in NK cells from CFS/ME patients.",
-     "url": "https://doi.org/10.1186/s10020-018-0046-1",
-     "verified": true,
-     "sweep": true,
-     "relation": "replicates",
-     "importance": 2
-    },
-    {
-     "cite": "Nguyen 2016",
-     "n": "",
-     "design": "case-control",
-     "result": "TRPM3 surface expression reduced on CD19+ B cells and CD56bright NK cells in CFS/ME, with reduced cytoplasmic calcium after stimulation.",
-     "url": "https://doi.org/10.1186/s40659-016-0087-2",
-     "verified": true,
-     "sweep": true,
-     "relation": "replicates",
-     "importance": 2
-    },
-    {
-     "cite": "Marshall-Gradisnik 2016",
-     "n": "39 vs 30",
-     "design": "case-control",
-     "result": "NK lysis lower in ME/CFS (17% vs 31%); 11 SNPs in TRPC4, TRPC2, TRPM3, TRPM8 and AChR genes found in NK cells.",
-     "url": "https://doi.org/10.2147/tacg.s99405",
-     "verified": true,
-     "sweep": true,
-     "relation": "replicates",
-     "importance": 2
-    },
-    {
-     "cite": "Nguyen 2017",
-     "n": "15 CFS/ME vs 25 healthy",
-     "design": "case-control",
-     "result": "TRPM3 receptor expression reduced on unstimulated CD56bright NK cells in CFS/ME; Ca2+ flux responses to PregS were altered/increased rather than reduced.",
-     "url": "https://doi.org/10.1111/cei.12882",
-     "verified": true,
-     "sweep": true,
-     "relation": "extends",
-     "importance": 2
-    }
-   ]
+   "test_available": "Research only"
   },
   {
    "id": "genetics-hypermobility-overlap",
@@ -864,43 +693,23 @@
      "cite": "Nijs 2006",
      "n": "68 vs 69",
      "design": "case-control",
-     "result": "Generalised joint hypermobility was more frequent in CFS (20.6% vs 4.3%); no link with musculoskeletal pain.",
+     "result": "Generalised joint hypermobility was present in 20.6% of 68 adult CFS patients vs 4.3% of 69 matched controls, most patients met benign joint hypermobility syndrome criteria, and hypermobility was not associated with musculoskeletal pain.",
      "url": "https://doi.org/10.1016/j.jmpt.2005.11.004",
      "verified": true,
      "sweep": true,
+     "checked": true,
      "relation": "replicates",
-     "importance": 2
-    },
-    {
-     "cite": "Eastin 2025",
-     "n": "",
-     "design": "cohort",
-     "result": "At about 36 months, a moderate-to-severe autonomic symptom burden (COMPASS-31 >=20) persisted; 40.5% of those with dysautonomia were newly diagnosed POTS; female sex and joint hypermobility were risk factors.",
-     "url": "https://doi.org/10.1007/s10286-025-01111-1",
-     "verified": true,
-     "sweep": true,
-     "relation": "extends",
-     "importance": 2
-    },
-    {
-     "cite": "Grach 2024",
-     "n": "732",
-     "design": "cross-sectional",
-     "result": "Mayo clinic: 58% of long COVID patients screened positive for ME/CFS vs 0% of controls; also joint hypermobility and orthostatic intolerance overlap.",
-     "url": "https://doi.org/10.3389/fneur.2024.1482917",
-     "verified": true,
-     "sweep": true,
-     "relation": "extends",
      "importance": 2
     },
     {
      "cite": "Poomkudy 2024",
      "n": "53 ME/CFS vs 66 recovered",
      "design": "cohort",
-     "result": "Joint hyperflexibility (Beighton) did not differ between ME/CFS and recovered students 6 months after mononucleosis.",
+     "result": "In a prospective post-mononucleosis student cohort, modified Beighton scores did not differ significantly between 53 who developed ME/CFS at 6 months and 66 recovered controls; females scored higher than males.",
      "url": "https://doi.org/10.1016/j.clinthera.2023.12.011",
      "verified": true,
      "sweep": true,
+     "checked": true,
      "relation": "contradicts",
      "importance": 2
     },
@@ -908,10 +717,11 @@
      "cite": "van de Putte 2005",
      "n": "32 vs 167",
      "design": "case-control",
-     "result": "Joint mobility and collagen markers did not differ, but systolic blood pressure was 13.5 mmHg lower in adolescent CFS.",
+     "result": "In 32 adolescents with CFS vs 167 controls, joint mobility, Beighton score and collagen breakdown markers did not differ, while systolic BP was lower (adjusted -13.5 mmHg), skin extensibility higher (+0.3 SD) and arteries stiffer.",
      "url": "https://doi.org/10.1542/peds.2004-1515",
      "verified": true,
      "sweep": true,
+     "checked": true,
      "relation": "contradicts",
      "importance": 2
     }
@@ -941,31 +751,7 @@
    "hypotheses": [
     "mitochondrial-energy"
    ],
-   "test_available": "Research only",
-   "sweep": [
-    {
-     "cite": "Schoeman 2017",
-     "n": "93 patients",
-     "design": "genetic",
-     "result": "Full mtDNA sequencing of 93 UK/South African CFS patients found no clinically proven pathogenic mtDNA mutations.",
-     "url": "https://doi.org/10.1186/s12881-017-0387-6",
-     "verified": true,
-     "sweep": true,
-     "relation": "replicates",
-     "importance": 2
-    },
-    {
-     "cite": "Billing-Ross 2016",
-     "n": "193 vs 196",
-     "design": "genetic",
-     "result": "mtDNA sequencing: no pathogenic mutations or SNP association with case status; haplogroups J, U, H and 8 SNPs associated with symptoms.",
-     "url": "https://doi.org/10.1186/s12967-016-0771-6",
-     "verified": true,
-     "sweep": true,
-     "relation": "replicates",
-     "importance": 2
-    }
-   ]
+   "test_available": "Research only"
   },
   {
    "id": "genetics-ptpn22-ctla4",

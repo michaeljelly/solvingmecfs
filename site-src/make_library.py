@@ -29,13 +29,31 @@ def url(r):
 def au(a):
     a = (a or "").split(",")
     return (a[0].strip() + (" et al." if len(a) > 1 else "")) if a and a[0].strip() else ""
+VD = {}
+for vf in glob.glob(os.path.join(LIT, "verify", "out-*.json")):
+    for v in json.load(open(vf, encoding="utf8")):
+        if isinstance(v, dict) and v.get("key"): VD.setdefault(v["key"].split("|")[0], []).append(v)
+RANK = {"contradicts": 4, "replicates": 3, "extends": 2, "new": 1}
+def overlay(pid, s):
+    vs = VD.get(pid)
+    if not vs:
+        if VD and s.get("relation") in RANK: s = dict(s, relation="none", atlas=[])  # first-pass links not checked (importance 1) are not shown
+        return s
+    s = dict(s); ok = [v for v in vs if v.get("verdict") in ("keep", "fix", "retarget", "new_ok")]
+    s["importance"] = max((v.get("importance") or 1) for v in vs)
+    if not ok:
+        s.update(relation="none", atlas=[]); return s
+    best = max(ok, key=lambda v: RANK.get(v.get("relation") if v.get("verdict") != "new_ok" else "new", 0))
+    s.update(relation="new" if best.get("verdict") == "new_ok" else best.get("relation"), finding=best.get("result") or s.get("finding"),
+             atlas=[a for v in ok if v.get("verdict") != "new_ok" for a in (v.get("atlas") or [])], importance=max((v.get("importance") or 1) for v in ok))
+    return s
 pub, rows = [], []
 for r in L:
-    s = S.get(str(r["id"])) or {}
+    s = overlay(str(r["id"]), S.get(str(r["id"])) or {})
     rel = s.get("relation") if s.get("relevant") in ("core", "related") else None
     d = {"i": r["id"], "u": url(r), "t": r["title"], "a": au(r.get("authors")), "j": r.get("journal") or ("Preprint" if r.get("src") == "PPR" else ""), "y": r.get("year") or "",
          "dt": r.get("date") or "", "p": r["pop"], "k": r["kind"], "pp": 1 if r.get("src") == "PPR" else 0, "dm": r.get("domains") or [], "c": 1 if r.get("cited") else 0,
-         "sc": 1 if s else 0, "rv": s.get("relevant") or "", "r": rel or "", "f": s.get("finding") or "", "at": [x for x in (s.get("atlas") or []) if x in F][:3],
+         "sc": 1 if s else 0, "rv": s.get("relevant") or "", "r": rel or "", "f": s.get("finding") or "", "at": list(dict.fromkeys(x for x in (s.get("atlas") or []) if x in F))[:3],
          "im": s.get("importance") or 0, "n": s.get("n") or "", "ds": s.get("design") or "", "nt": s.get("note") or ""}
     pub.append(d)
 json.dump(pub, open(os.path.join(SITE, "library-data.json"), "w", encoding="utf8"), ensure_ascii=False, separators=(",", ":"))

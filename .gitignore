@@ -8,3 +8,4 @@ atlas-v2/trials/raw/
 atlas-v2/trials/work/
 lit/raw/
 lit/batches/
+lit/verify/v-*.jsonl

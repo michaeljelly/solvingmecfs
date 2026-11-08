@@ -157,7 +157,7 @@ def sweep_html(rows):
     rs = sorted(rows, key=lambda s: (order.get(s.get("relation"), 3), -(s.get("importance") or 0)))
     tr = "".join(f'<tr><td>{link(s.get("cite"), s.get("url"))}</td><td><span class="swr sw-{e(s.get("relation"))}">{e(s.get("relation"))}</span></td><td class="num">{e(s.get("n"))}</td><td>{e(s.get("result"))}</td></tr>' for s in rs)
     return (f'<details class="sweep"><summary class="sublabel">More studies from the literature sweep ({len(rows)}: {lab})</summary>'
-            f'<p class="small">Found by screening every ME/CFS paper\'s abstract against this finding. Not yet weighed into the grade; read before relying on one.</p>'
+            f'<p class="small">Found by screening every ME/CFS paper\'s abstract against this finding, then checked a second time against the finding\'s full text. Read from the abstract only, and not yet weighed into the grade.</p>'
             f'<div class="tbl"><table><thead><tr><th>Study</th><th>Bearing</th><th>n</th><th>Result (from the abstract)</th></tr></thead><tbody>{tr}</tbody></table></div></details>')
 
 def finding_html(f):

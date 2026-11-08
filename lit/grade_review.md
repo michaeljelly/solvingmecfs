@@ -2,1237 +2,765 @@
 
 Re-grade by hand. rep/ext/con = new replicating, extending, contradicting studies (importance >= 2).
 
-## neuro-hrv [replicated] rep 25 ext 15 con 3
-Claim: Resting heart rate is higher and high-frequency heart-rate variability lower in ME/CFS. This fits reduced vagal (parasympathetic) tone.
-- con i2 Schoene 2026 (1162 (11 studies)): HRV trended lower in post-COVID patients vs controls, non-significant (SDNN SMD 0.26, p=0.09; rMSSD 0.11, p=0.41). https://doi.org/10.1111/ene.70561
-- con i2 Malfliet 2018 (20 vs 20): No group differences in cerebral blood flow (Doppler) or HRV responses to physical or emotional stress. https://doi.org/10.36076/ppj.2018.1.e13
-- con i2 Meeus 2013 (16 studies, 6 CFS): HRV in CFS reduced only during sleep; increased sympathetic activity at night. https://doi.org/10.1016/j.semarthrit.2013.03.004
-- rep i2 Ruijgt 2026 (121 vs 21): Continuous wearable HRV was lower in long COVID than controls (p=0.027), stayed lower for 24 h after exercise near VT1 and nighttime HRV fell after intense/long exercise. https://doi.org/10.1007/s40279-026-02487-4
-- rep i2 Camargo 2026 (39 vs 22): Long COVID tilt test shows blunted sympathetic HRV response (lower LF nu, lower LF/HF) and impaired BP regulation. https://doi.org/10.1038/s41598-026-38800-4
-- rep i2 Hira 2025 (?): Long COVID had lower upright HF-HRV (p=0.04) and BP low-frequency variability (p=0.001) than controls; initial orthostatic hypotension group had lower baroreflex sensitivity. https://doi.org/10.1007/s10286-025-01107-x
-- rep i2 Delogu 2024 (56 vs 27): Children with long COVID had altered HRV, including lower rMSSD (47.4 vs 60.4 ms, p=0.02). https://doi.org/10.1007/s00431-024-05503-9
-- rep i2 Mooren 2023 (103 PCS vs 103 CAD vs 90 controls): 24-h Holter HRV shows sympathetic predominance and impaired nocturnal parasympathetic activity in PCS vs controls (LF/HF p<=0.001). https://doi.org/10.1038/s41598-023-42615-y
-- rep i2 Menezes Junior 2022 (?): HRV shows altered cardiac autonomic function in long COVID versus healthy controls https://doi.org/10.3390/jcm12010100
-- ext i2 Aboagye 2026 (?): Longitudinal digital-health study of bidirectional within-person links between nocturnal HRV, sleep quality and daily fatigue in post-COVID fatigue. https://doi.org/10.2196/99630
-- ext i2 van Campen 2023 (362 vs 52): At end-tilt ME/CFS had lower stroke volume index (22 vs 27 ml/m2) and chronotropic incompetence relative to healthy controls, without POTS or hypotension. https://doi.org/10.1016/j.ibneur.2023.04.005
-- ext i2 Friedberg 2022 (148 (92 non-improved, 38 improved)): Over 6 months, non-improvers had lower HRV (p=0.032) than improvers; activity patterns incl. pacing did not differ. https://doi.org/10.1097/psy.0000000000001082
-- ext i2 Van Oosterwijck 2021 (20 vs 20): Reduced parasympathetic reactivation after exercise in ME/CFS; resting time-domain autonomic measures normal. https://doi.org/10.3390/jcm10194527
-- ext i2 Słomko 2020 (131): Cluster analysis of autonomic function (Fukuda CFS) gave four profiles; sympathetic-dysautonomia phenotype (34%) had more severe disease and lowest quality of life. https://doi.org/10.3390/jcm9082531
-- ext i2 Fatt 2020 (24 vs 24): Normalized high-frequency HRV (parasympathetic) was reduced in CFS during deep sleep but not wakefulness; slower sleep onset, more awakenings, more slow-wave sleep. https://doi.org/10.5664/jcsm.8114
-
-## neuro-cognition [replicated] rep 20 ext 19 con 3
+## neuro-cognition [replicated] rep 10 ext 19 con 2
 Claim: Meta-analysis shows moderate-to-large deficits in information-processing speed, attention, working memory and reaction time in ME/CFS, with intact vocabulary and reasoning. Performance worsens with upright posture and after exertion.
-- con i2 Cockshell 2014 (50 vs 50): CFS reported more cognitive problems but did not differ from controls on objective memory and attention tests. https://doi.org/10.1037/neu0000025
-- con i2 Ocon 2012 (16 vs 20): Graded tilt with n-back: CFS/POTS had worse accuracy and slower normalised reaction time at 45-75 degrees; cerebral blood flow velocity changes did not differ and did not relate to scores. https://doi.org/10.1042/cs20110241
-- con i2 Michael 2024, preprint (351 vs 2,927 normative): Global cognitive deficits at one year, associated with elevated brain injury markers and reduced anterior cingulate volume; corticosteroids in acute phase appeared protective. https://doi.org/10.21203/rs.3.rs-3818580/v1
-- rep i2 Faseeh 2026 (?): Systematic review of 47 studies (over 25,000 patients) on prevalence of brain fog and cognitive impairment in long COVID. https://doi.org/10.1097/md.0000000000049022
-- rep i2 Ladek 2026 (60 vs 60): Reaction time in 3D VR tasks was longer in ME/CFS than controls (1969 vs 1384 ms at 275 arcsec, p=0.0001). https://doi.org/10.3390/biomedicines14040855
-- rep i2 Penson 2026 (systematic review): Meta-analysis of working memory (verbal/visual components) in ME/CFS. https://doi.org/10.1080/13548506.2025.2606183
-- rep i2 Christensen 2026 (Danish-Swedish): Cognitive performance in PCS versus recovered controls adjusted for covariates, stratified by variant; grip strength and distress. https://doi.org/10.1080/23744235.2025.2551665
-- rep i2 Serrano Del Pueblo 2024 (?): Compared with infection-recovered controls, long COVID had lower overall cognition (OCLz -0.39 vs +0.32), 48% episodic memory deficit, and thinner left posterior superior temporal cortex. https://doi.org/10.1093/brain/awae101
-- rep i2 Zülke 2024 (410 PCS vs 87 recovered vs 64 healthy): PCS had worse episodic memory (b=-1.07) and visuospatial ability (b=-3.92) than healthy controls, with no deficit in executive function; prior infection without PCS showed no impairment. https://doi.org/10.1016/j.jpsychires.2024.06.036
-- ext i3 Frontera 2026 (260): Cumulative MCI incidence over 4.4 years: 27% long COVID vs 5% recovered vs 1% COVID-negative (HR 3.93, 95% CI 1.86-8.31). https://doi.org/10.1002/alz.71237
-- ext i2 Higgins 2026 (24095 (11925 positive)): Cognitive battery in a large community cohort dissecting attention, fatigue and memory in long COVID. https://doi.org/10.1093/braincomms/fcag361
-- ext i2 Helmsdal 2026 (?): Omicron-era long COVID vs antibody-verified never-infected controls assessed for symptoms, cognition and clinical predictors in the Faroe Islands. https://doi.org/10.1371/journal.pone.0351564
-- ext i2 Kozik 2026 (81): OCS-Plus deficits in memory, attention and executive function persisted on reassessment months later. https://doi.org/10.1038/s41598-026-48476-5
-- ext i2 Oosterman 2025 (1375): Fatigue and pain independently associate with cognitive test performance in ME/CFS; associations tested by age and duration. https://doi.org/10.1016/j.jpsychores.2025.112401
-- ext i2 Andersson 2025 (PCC vs controls): PCC group showed cognitive performance fatigability on processing-speed tasks (controls improved with repetition, PCC did not). https://doi.org/10.1037/neu0001020
+- con i2 Cockshell 2014 (50 vs 50): 50 CFS vs 50 controls reported more cognitive problems but did not differ on CVLT, Rey figure, PASAT or Stroop; subjective and objective scores were uncorrelated and depression related to subjective complaints. https://doi.org/10.1037/neu0000025
+- con i2 Mahurin 2004 (21 twin pairs vs 21 controls): In 21 MZ twin pairs discordant for CFS plus 21 controls, CFS twins did not differ from healthy co-twins on any of 10 tests; both twin groups were slower than unrelated controls on speed-dependent tests except finger tapping. https://doi.org/10.1037/0894-4105.18.2.232
+- rep i2 Ladek 2026 (60 vs 60): In 60 ME/CFS patients vs 60 controls, reaction time on a 3D VR oculomotor task was slower at all disparities (1969 vs 1384 ms at 275 arcsec, p=0.0001; 1409 vs 1071 ms; 1126 vs 891 ms), and did not correlate with self-rated fatigue. https://doi.org/10.3390/biomedicines14040855
+- rep i2 Fernández-Quirós 2023 (158 vs 67): In 158 ME/CFS patients vs 67 controls, patients were worse on all main CPT3 measures (inattentiveness, sustained attention, vigilance, impulsivity, slow reaction time), with hit reaction time and its variability the most discriminative. https://doi.org/10.3389/fpsyg.2023.1127193
+- rep i2 Aoun Sebaiti 2022 (many studies 1988-2019): Meta-analysis of studies from 1988-2019 found deficits in visuospatial immediate memory (g=-0.55), reading speed (g=-0.82) and graphomotor speed (g=-0.59), plus episodic verbal/visual memory and attention, with executive and instrumental functions largely preserved. https://doi.org/10.1038/s41598-021-04764-w
+- rep i2 Robinson 2019 (48 unselected; 51 CFS vs 20 controls): In Fukuda CFS without major depression (51 vs 20 controls), psychomotor/processing speed was slower (TMT-A p=0.027, digit-symbol substitution p=0.004, copy p=0.007, scanning p=0.034) while most measures were in the average range; Stroop differences reflected processing speed, not inhibition. https://doi.org/10.1371/journal.pone.0210394
+- rep i2 Beaumont 2012 (30 vs 40): CFS patients (n=30) were significantly slower than 40 controls on cognitive tasks with no accuracy deficit, and lower HRV predicted poorer cognitive performance. https://doi.org/10.1371/journal.pone.0049518
+- rep i2 Ocon 2012 (16 vs 20): CFS/POTS (n=16) had no supine n-back differences but lower accuracy and greater normalised reaction time than 20 controls at 45-75 degree tilt, especially on 2- to 4-back. https://doi.org/10.1042/cs20110241
+- ext i3 Penson 2026 (systematic review): A meta-analysis of 34 studies found a significant, large deficit in verbal working memory in ME/CFS vs controls but no significant difference in visual (object/spatial) working memory, and this held across span/attentional-control subtypes. https://doi.org/10.1080/13548506.2025.2606183
+- ext i3 Lange 2024 (261 vs 165): In 261 ME/CFS vs 165 controls (MCAM, 7 sites), CogState accuracy did not differ but processing speed was slower at most of 5 timepoints (d 0.3-0.5); a clinic day worsened performance, but maximal cycle exercise did not further slow it. https://doi.org/10.3389/fnins.2024.1460157
+- ext i2 Higgins 2026 (24095 (11925 positive)): In a community cohort of 24,095 (548 with long COVID), people with symptoms beyond 12 weeks had significant sustained-attention deficits vs uninfected participants; path models showed direct COVID effects on attention and memory plus on-task fatigue build-up. https://doi.org/10.1093/braincomms/fcag361
+- ext i2 Frontera 2026 (260): In 260 blinded-assessed subjects, 4.4-year cumulative incidence of MCI (NACC/NIA-AA criteria) was 27% in long COVID vs 5% recovered and 1% COVID-negative (HR 3.93, 95% CI 1.86-8.31), mostly AD-type MCI. https://doi.org/10.1002/alz.71237
+- ext i2 Oosterman 2025 (1375): In 1375 CDC-criteria CFS patients (1072 also NICE/IOM), fatigue severity was the only correlate of response inhibition, and fatigue plus pain severity, bodily pain and physical functioning correlated with slower Symbol Digit, motor speed and reaction time; associations with pain and function strengthened with age, not illness duration. https://doi.org/10.1016/j.jpsychores.2025.112401
+- ext i2 Christensen 2026 (Danish-Swedish): In 181 post-COVID syndrome patients vs 155 fully recovered controls (adjusted for age, BMI, smoking, education, sex, hospitalisation), PCS patients scored lower on all cognitive domains, though hardly clinically significant, with processing speed most affected and larger deficits in those infected early in the pandemic. https://doi.org/10.1080/23744235.2025.2551665
 
-## endocrine-hpa-low-cortisol [replicated] rep 19 ext 6 con 6
+## endocrine-hpa-low-cortisol [replicated] rep 12 ext 3 con 2
 Claim: On average, people with ME/CFS have mildly lower free cortisol (salivary awakening and morning cortisol, 24-h urinary cortisol and hair cortisol) than healthy controls.
-- con i2 Powell 2013 (19 studies): Meta-analysis: cortisol awakening response increase attenuated in CFS (d=-0.34), no group difference in CAR output or circadian output. https://doi.org/10.1016/j.psyneuen.2013.07.004
-- con i2 Papadopoulos 2009 (18 vs 20): Low-dose dexamethasone suppression: basal cortisol was raised and overall suppression did not differ (80% vs 76%); only the comorbid-depression subgroup (n=9) hypersuppressed. https://doi.org/10.1016/j.jad.2008.05.001
-- con i2 Jerjes 2006 (40 vs 40): 24-h urinary total cortisol metabolites and free cortisol did not differ between CFS and controls in either sex. https://doi.org/10.1097/01.psy.0000222358.01096.54
-- con i2 Di Giorgio 2005 (15 vs 10): 24-h blood sampling showed reduced ACTH (esp 8-10 am) but no differences in cortisol, GH or prolactin or cortisol rhythm. https://doi.org/10.1097/01.psy.0000161206.55324.8a
-- con i2 Inder 2005 (12 vs 11): No differences in basal cortisol, urinary free cortisol, DHEAS, IGF-1 or ACTH/cortisol responses to CRH or naloxone. https://doi.org/10.1111/j.1365-2265.2005.02220.x
-- con i2 Young 1998 (22): 24-h salivary and urinary cortisol did not differ between CFS patients and controls. https://doi.org/10.1016/s0006-3223(97)00404-6
-- rep i3 Demitrack 1991 (30 vs 72): Evening plasma cortisol (89.0 vs 148.4 nmol/L, P<0.01) and 24-h urinary free cortisol (122.7 vs 203.1 nmol/24 h, P<0.0002) were lower, with elevated basal evening ACTH, indicating impaired HPA activation. https://doi.org/10.1210/jcem-73-6-1224
-- rep i2 Taccori 2023 (21 studies): Systematic review of urinary biomarkers with meta-analysis of urinary free cortisol in ME/CFS vs controls. https://doi.org/10.1186/s12967-023-04295-0
-- rep i2 Roerink 2018 (107 vs 59 saliva; 46 vs 46 hair): Lower cortisol awakening response in CFS (4.2 vs 6.1 nmol/L, p=0.036); hair cortisol trend lower (p=0.062); anakinra for 4 weeks slightly lowered hair cortisol versus placebo. https://doi.org/10.1016/j.yhbeh.2018.05.016
-- rep i2 Wyller 2016 (120 CFS vs 68 HC): Adolescent CFS had higher plasma norepinephrine, epinephrine and FT4 and lower urine cortisol/creatinine than controls. https://doi.org/10.1186/s12967-016-0873-1
-- rep i2 Rimes 2014 (46 vs 33 (24 re-tested after CBT)): Daily salivary cortisol output was lower in CFS than controls with no difference in awakening response; output normalised after CBT guided self-help. https://doi.org/10.1016/j.jpsychores.2014.08.018
-- rep i2 Nijhof 2014 (108 vs 38): Salivary cortisol awakening response was lower in adolescent CFS; recovered patients normalised, change predicted recovery (OR 1.93 per SD). https://doi.org/10.1016/j.psyneuen.2014.01.017
-- ext i2 De Bellis 2021 (30 vs 25): Antipituitary antibodies in 56% and antihypothalamic in 33% of women with ME/CFS, with lower ACTH/cortisol and GH/IGF-1 in antibody-high patients. https://doi.org/10.1210/clinem/dgab429
-- ext i2 Herane-Vives 2020 (17 CFS, 15 atypical depression, 34 controls): Salivary daily cortisol output (AUCg) was lower in CFS (92.2) than controls (125.5 nmol/l.h), but hair cortisol was not lower. https://doi.org/10.1016/j.jad.2020.01.146
-- ext i2 Maloney 2009 (83 CFS vs 202 ISF vs 109 controls): Each 1-point allostatic load index increase raised the odds of CFS by 26% (OR 1.26, 1.00-1.59) vs well controls, with a gradient well < ISF < CFS; fatigue duration inversely correlated with ALI. https://doi.org/10.1097/psy.0b013e3181a4fea8
-- ext i2 Heim 2009 (113 vs 124): Childhood trauma associated with 6-fold increased CFS risk; low salivary cortisol response to awakening found only in a CFS subgroup with trauma. https://doi.org/10.1001/archgenpsychiatry.2008.508
-- ext i2 Roberts 2009 (41): Diurnal salivary cortisol output rose after 15 sessions of CBT alongside clinical response, suggesting hypocortisolism is potentially reversible. https://doi.org/10.1016/j.jad.2008.09.013
-- ext i2 MacHale 1998 (30 vs 15): Morning and evening cortisol and ACTH did not differ significantly, but the diurnal change in cortisol was smaller in CFS (p<0.05). https://doi.org/10.1159/000026543
+- con i2 Powell 2013 (19 studies): Meta-analysis of case-control CFS studies found an attenuated cortisol awakening increase (d=-0.34) but no significant difference in CAR output or circadian cortisol output. https://doi.org/10.1016/j.psyneuen.2013.07.004
+- con i2 Jerjes 2006 (40 vs 40): 24-h urinary total cortisol metabolites and metabolite ratios did not differ between 40 medication-free CFS patients and 40 age- and BMI-matched controls in either sex (p>.05). https://doi.org/10.1097/01.psy.0000222358.01096.54
+- rep i2 Roerink 2018 (107 vs 59 saliva; 46 vs 46 hair): In 107 female CFS patients vs 59 controls the salivary cortisol awakening response was lower (4.2 vs 6.1 nmol/L, p=0.036), daily salivary output did not differ, and hair cortisol trended lower in 46 vs 46 (3.8 vs 4.3 pg/mg, p=0.062). https://doi.org/10.1016/j.yhbeh.2018.05.016
+- rep i2 Wyller 2016 (120 CFS vs 68 HC): In 120 adolescents with CFS vs 68 controls (NorCAPITAL), urine cortisol/creatinine ratio was lower and plasma norepinephrine, epinephrine and FT4 were higher, robust to case definition and confounder adjustment. https://doi.org/10.1186/s12967-016-0873-1
+- rep i2 Rimes 2014 (46 vs 33 (24 re-tested after CBT)): Total daily salivary cortisol output (AUC) was lower in 46 adolescents with CFS than 33 matched controls, with no difference in awakening response; output rose to normal 6 months after CBT guided self-help (n=21). https://doi.org/10.1016/j.jpsychores.2014.08.018
+- rep i2 Nijhof 2014 (108 vs 38): Salivary cortisol awakening response was significantly lower in 108 adolescent CFS patients than 38 healthy peers, correlated with sleep, and normalised in those who recovered (adjusted OR 1.93 per SD rise). https://doi.org/10.1016/j.psyneuen.2014.01.017
+- rep i2 Nater 2008 (28 CFS vs 35 ISF vs 39 controls): In a population-based Wichita sample (28 CFS, 35 ISF, 39 non-fatigued), CFS had lower morning and higher evening salivary cortisol (a flattened diurnal profile); IL-6 was highest in CFS but not significant after BMI adjustment. https://doi.org/10.1097/psy.0b013e3181651025
+- rep i2 Nater 2008 (75 vs 110): In a Georgia population-based sample (75 medication-free CFS, 110 well controls), the morning salivary cortisol profile (waking, +30, +60 min) was attenuated in CFS; this held in women only, not men. https://doi.org/10.1210/jc.2007-1747
+- ext i2 Taccori 2023 (21 studies): Systematic review of 21 urinary biomarker studies; meta-analysis of 7 urinary free cortisol studies found a significant ME/CFS vs control difference with substantial heterogeneity (direction not stated in abstract). https://doi.org/10.1186/s12967-023-04295-0
+- ext i2 De Bellis 2021 (30 vs 25): ACTH and cortisol were significantly lower in 30 women with ME/CFS than 25 controls, most so in high-titre antipituitary/antihypothalamic antibody patients. https://doi.org/10.1210/clinem/dgab429
+- ext i2 Heim 2009 (113 vs 124): In a population-based case-control study (113 CFS, 124 controls), childhood trauma carried a 6-fold CFS risk, and decreased salivary cortisol after awakening appeared only in CFS patients with trauma exposure, not in those without. https://doi.org/10.1001/archgenpsychiatry.2008.508
 
-## endocrine-hpa-feedback [several] rep 11 ext 6 con 4
-Claim: Challenge tests show a blunted cortisol response to ACTH and exaggerated cortisol suppression after a glucocorticoid dose, consistent with enhanced negative feedback.
-- con i2 Lynn 2018 (48 CFS vs 27 Sjogren vs 20 HC): CFS had reduced LPS-induced IL-6 and TNF-alpha and reduced dex suppression of TNF; cortisol before and after dex did not differ from controls. https://doi.org/10.1155/2018/3972104
-- con i2 Papadopoulos 2009 (18 vs 20): Low-dose dexamethasone suppression: basal cortisol was raised and overall suppression did not differ (80% vs 76%); only the comorbid-depression subgroup (n=9) hypersuppressed. https://doi.org/10.1016/j.jad.2008.05.001
-- con i2 Gaab 2003 (18 vs 18): No difference in cortisol response to low- or high-dose ACTH; primary adrenal insufficiency unlikely. https://doi.org/10.1176/appi.psy.44.2.113
-- con i2 Hudson 1999 (20 vs 20): Cortisol responses to a 1 ug Synacthen test did not differ from controls, giving no support for low adrenal reserve. https://doi.org/10.1046/j.1365-2265.1999.00856.x
-- rep i3 Demitrack 1991 (30 vs 72): Evening plasma cortisol (89.0 vs 148.4 nmol/L, P<0.01) and 24-h urinary free cortisol (122.7 vs 203.1 nmol/24 h, P<0.0002) were lower, with elevated basal evening ACTH, indicating impaired HPA activation. https://doi.org/10.1210/jcem-73-6-1224
-- rep i2 Vangeel 2018 (80 vs 91): NR3C1-1F glucocorticoid receptor gene hypomethylation replicated in CFS (small differences, only one CpG surviving correction). https://doi.org/10.1016/j.jpsychores.2017.11.011
-- rep i2 Van Den Eede 2008 (34 vs 25): Lower salivary cortisol responses after dexamethasone and CRF in CFS, mainly in patients without early-life stress. https://doi.org/10.1017/s0033291707001444
-- rep i2 Jerjes 2007 (15 CFS vs controls): 5 mg prednisolone suppression test: lower salivary cortisol pre-dose and higher percent suppression in CFS, indicating enhanced negative feedback. https://doi.org/10.1016/j.psyneuen.2006.12.005
-- rep i2 Gaab 2003 (21 vs 20): Cortisol response to stress test was normal but in vitro dexamethasone inhibition of LPS-stimulated IL-6 and TNF-alpha was greater in CFS (enhanced glucocorticoid sensitivity). https://doi.org/10.1034/j.1601-5215.2003.00033.x
-- rep i2 Gaab 2002 (?): CFS patients had lower baseline ACTH and lower ACTH responses to psychosocial stress, exercise and insulin tolerance test, with no difference in total plasma cortisol responses. https://doi.org/10.1097/01.psy.0000038937.67401.61
-- ext i2 Vangeel 2015 (76 CFS vs 19 HC): NR3C1-1F promoter methylation lower in CFS than controls (CpG_1.5 survived Bonferroni, p=0.0014) and correlated with post-dexamethasone salivary cortisol. https://doi.org/10.1097/psy.0000000000000224
-- ext i2 Segal 2005 (23 vs 17): Low-dose synacthen test gave lower cortisol in adolescent CFS, more pronounced in females. https://doi.org/10.1515/jpem.2005.18.3.295
-- ext i2 Altemus 2001 (19 vs 19): Vasopressin infusion produced a reduced ACTH response and a faster cortisol rise in CFS, interpreted as reduced hypothalamic CRH secretion. https://doi.org/10.1016/s0306-4530(00)00044-5
-- ext i2 Ottenweller 2001 (?): Basal hormones were normal, but ACTH, epinephrine, prolactin and TSH responses 4 min after maximal treadmill exercise were lower in CFS, with no group differences the next day. https://doi.org/10.1159/000054863
-- ext i2 Scott 1999 (CFS and healthy volunteers, n not stated): Delta-ACTH response to oCRH was attenuated in CFS (21.0 vs 57.8 ng/L); adding DDAVP augmented the response and normalised it in CFS. https://doi.org/10.1016/s0006-3223(98)00232-7
-- ext i2 Leese 1996 (10): Five days of night shift raised basal ACTH, lowered cortisol and blunted the ACTH response to CRH, mimicking CFS HPA findings; authors suggest CFS HPA changes may reflect disrupted sleep. https://doi.org/10.1210/jcem.81.5.8626849
+## neuro-hrv [replicated] rep 7 ext 10 con 1
+Claim: Resting heart rate is higher and high-frequency heart-rate variability lower in ME/CFS. This fits reduced vagal (parasympathetic) tone.
+- con i2 Schoene 2026 (1162 (11 studies)): A meta-analysis of 11 studies (593 post-COVID patients, 565 healthy controls) found only a non-significant trend toward lower HRV: SDNN SMD 0.26 (95% CI -0.03 to 0.56, p=0.09), rMSSD SMD 0.11 (p=0.41), LF/HF SMD -0.27 (p=0.12), with I2 78-83% and 9 of 11 studies at high risk of bias. https://doi.org/10.1111/ene.70561
+- rep i2 Rimes 2017 (60 CFS vs 31 asthma vs 78 healthy): In 60 adolescents with CFS, 31 with asthma and 78 healthy, baseline RMSSD was lower in CFS and asthma than in healthy controls; during recovery from a social stress task, the CFS group showed no HRV recovery and a continued rise in skin conductance. https://doi.org/10.1111/jcpp.12711
+- rep i2 Beaumont 2012 (30 vs 40): In 30 CFS vs 40 matched controls, CFS had low and unresponsive HRV, greater HR reactivity and prolonged HR recovery after cognitive challenge, and HRV predicted cognitive performance. https://doi.org/10.1371/journal.pone.0049518
+- rep i2 Frith 2012 (68 vs 68): In 68 Fukuda CFS vs 68 matched controls, resting LF-HRV was higher and parasympathetic HF markers lower (P=0.006), with altered BP variability; a combined index gave 77% sensitivity and 53% specificity. https://doi.org/10.1093/qjmed/hcs085
+- rep i2 Burton 2010 (20 vs 20): In 20 CFS vs 20 matched controls, time- and frequency-domain HRV during sleep was significantly lower (all p<0.006) and was the best predictor of poorer subjective sleep quality. https://doi.org/10.1007/s00221-010-2296-1
+- rep i2 Wyller 2008 (15 vs 56): 15 adolescents with CFS vs 56 controls had higher resting heart rate, diastolic BP and plasma noradrenaline (P<0.01) and adrenaline (P<0.05), a larger HR rise during LBNP and a smaller rise during handgrip. https://doi.org/10.1007/s00421-007-0634-1
+- rep i2 LaManca 1999 (39 vs 31): In 39 CFS vs 31 inactive controls on a 45-min 70-degree tilt, CFS had higher heart rate at baseline and on tilt and smaller stroke volume (P<0.05), but positive tilts (11 vs 12) and haemodynamic adjustments did not differ. https://doi.org/10.1046/j.1365-2281.1999.00154.x
+- ext i2 Thomas 2026 (44 vs 44): In 44 long COVID vs 44 controls, somatosensory processing did not differ (multivariate P=0.172) or change after cognitive or physical exertion, performance fatigability did not differ (P=0.199-0.441), and resting HRV was lower in long COVID but not associated with fatigue. https://doi.org/10.1113/ep093600
+- ext i2 Ruijgt 2026 (121 vs 21): Multi-day wearable HRV was lower in 121 long COVID patients than 21 controls during daily activities and sleep (p=0.027), stayed lower for 24 h after exercise around VT1 (p=0.010), and nighttime HRV fell after intense or longer exercise (p=0.018). https://doi.org/10.1007/s40279-026-02487-4
+- ext i2 Hira 2025 (?): Long COVID patients (n=94) had lower upright high-frequency HRV (p=0.04) than 33 healthy controls during active stand, with lowest values in the POTS subgroup. https://doi.org/10.1007/s10286-025-01107-x
+- ext i2 Mooren 2023 (103 PCS vs 103 CAD vs 90 controls): In 103 post-COVID patients vs 90 healthy controls (and 103 CAD patients), 24-h Holter showed higher LF/HF ratio (p<=0.001), sympathetic predominance and impaired nocturnal parasympathetic activity, worse in those hospitalised acutely. https://doi.org/10.1038/s41598-023-42615-y
+- ext i2 Marques 2022 (155 vs 94): 155 long COVID patients had reduced global HRV, lower parasympathetic and higher sympathetic modulation than 94 COVID-free controls on short-term HRV. https://doi.org/10.3389/fcvm.2022.862001
+- ext i2 Friedberg 2022 (148 (92 non-improved, 38 improved)): In 148 CFS patients followed 6 months with weekly remote heart monitoring, non-improvers (n=92) had lower HRV than improvers (n=38; difference 5.93 ms, p=.032), while activity patterns including push-crash and pacing did not differ. https://doi.org/10.1097/psy.0000000000001082
 
-## neuro-pots-prevalence [contested] rep 10 ext 7 con 4
+## neuro-pots-prevalence [contested] rep 4 ext 7 con 2
 Claim: POTS occurs in a minority of ME/CFS patients, and published rates vary widely (about 6-43%) with the setting, the age group and the test protocol.
-- con i2 Monaghan 2022 (85): Orthostatic intolerance in 66% on active stand but POTS in only 2% on tilt; OI linked to higher early heart rate. https://doi.org/10.3389/fphys.2022.833650
-- con i2 Roerink 2017 (419 CFS vs 341 non-CFS fatigued): POTS prevalence on active stand was 5.7% in CFS vs 6.9% non-CFS adults (p=0.54); 18.2% vs 17.4% in adolescents; POTS not a discriminating marker. https://doi.org/10.1111/joim.12564
-- con i2 Katz 2012 (36 vs 43): Abnormal standing orthostatic test in 25% of CFS vs 21% of recovered controls, no difference. https://doi.org/10.1177/0009922812455094
-- con i2 Jones 2005 (58 vs 55): Orthostatic instability on tilt was no more frequent in CFS (30%) than controls (48%); all CFS cases were POTS. https://doi.org/10.1016/j.amjmed.2005.06.013
-- rep i2 Björnson 2025 (467): POTS found in 31% (143) of highly symptomatic non-hospitalised long COVID after tilt/active stand; POTS patients younger, 91% female, lower activity and shorter 6MWT. https://doi.org/10.1161/circep.124.013629
-- rep i2 Seeley 2025 (33 vs 33 vs 33): PASC and POTS both had reduced respiratory sinus arrhythmia vs controls; autonomic symptoms and POTS prevalence high in PASC, with poor HrQoL. https://doi.org/10.1016/j.amjmed.2023.06.010
-- rep i2 van Campen 2018 (627 ME/CFS evaluated, 155 POTS): About a quarter (155/627) of ME/CFS patients met POTS criteria on tilt; abbreviated 2-5 min tilt would miss many (median time to criteria about 3 min). https://doi.org/10.3389/fped.2018.00349
-- rep i2 Van Cauwenbergh 2014 (27 case-control studies): Systematic review: autonomic responses, notably heart rate during head-up tilt, differ between CFS and controls, consistent with more POTS. https://doi.org/10.1111/eci.12256
-- rep i2 Hoad 2008 (59 vs 52): Active stand test: max heart rate higher in CFS/ME (106 vs 98 bpm, p=0.02); POTS in 27% (16/59) vs 9% of controls (p=0.006). https://doi.org/10.1093/qjmed/hcn123
-- rep i2 Galland 2008 (26 vs 26): Head-up tilt: orthostatic intolerance in 13 CFS vs 5 controls; POTS without hypotension in 7 CFS and no controls; sympathetic predominance in HRV. https://doi.org/10.1203/pdr.0b013e31815ed612
-- ext i2 Johansson 2024 (?): 24-h ambulatory BP in post-COVID POTS: higher nighttime systolic BP, nondipping 34% vs 19%, and more daytime hypotensive episodes than population controls. https://doi.org/10.1161/hypertensionaha.124.23670
-- ext i2 Morrow 2025 (92 children): 71% met criteria for an orthostatic condition on a 10-min passive standing test (POTS, OT, OH, delayed OH, orthostatic hypertension). https://doi.org/10.1177/00099228241272053
-- ext i2 Miwa K. 2023 (?): Orthostatic intolerance with chronotropic incompetence during orthostasis in ME/CFS https://doi.org/10.1253/circrep.cr-22-0114
-- ext i2 Miwa K. 2016 (24): On bad days vs good days: higher resting HR, 21% could not stand 10 min, 43% developed POT only on bad days; LV end-diastolic diameter and stroke volume index lower on bad days. https://doi.org/10.1007/s00380-015-0744-3
-- ext i2 Reynolds 2014 (306): POTS comorbid in 11% (33/306) on a 20-minute standing task; POTS patients younger. https://doi.org/10.1111/joim.12161
-- ext i2 Lewis 2013 (179 (24 POTS)): POTS in 13% of CFS; POTS subgroup younger with distinct autonomic features. https://doi.org/10.1111/joim.12022
+- con i2 Monaghan 2022 (85): Among 85 adults with long COVID, 66% reported OI on active stand but POTS was found in only 2%; 26% had initial and 6% classical orthostatic hypotension, neither associated with OI, and OI was predicted only by higher HR at the SBP nadir (88 vs 75 bpm, OR 1.09). https://doi.org/10.3389/fphys.2022.833650
+- con i2 Katz 2012 (36 vs 43): Six months after infectious mononucleosis, 9 of 36 adolescents with CFS (25%) vs 9 of 43 recovered controls (21%) had an abnormal standing orthostatic test, a non-significant difference. https://doi.org/10.1177/0009922812455094
+- rep i2 Hoad 2008 (59 vs 52): On a 2-minute active stand, 27% (16/59) of Fukuda CFS/ME patients had POTS vs 9% of 52 matched controls (P=0.006); maximum standing HR was 106 vs 98 bpm (P=0.02). https://doi.org/10.1093/qjmed/hcn123
+- rep i2 Galland 2008 (26 vs 26): On 70-degree tilt in 26 adolescents with CFS vs matched controls, 13 CFS vs 5 controls had orthostatic intolerance (sensitivity 50%, specificity 80.8%), and 7 CFS (27%) vs 0 controls had POTS without hypotension. https://doi.org/10.1203/pdr.0b013e31815ed612
+- rep i2 Timmers 2002 (36 vs 36): In 36 CFS vs 36 controls on a 40-min tilt, postural tachycardia or (pre)syncope occurred in only a minority of CFS patients; supine HR was higher (66.4 vs 57.4 bpm) and tilt-negative patients showed a marked fall in stroke volume. https://doi.org/10.1007/s10286-002-0014-1
+- rep i2 Schondorf 1999 (75 patients vs 48 controls): On 80-degree tilt, 40% of 75 CFS patients had orthostatic intolerance (16 neurally mediated syncope, 7 tachycardia >35 bpm, 6 mixed; about 17% with tachycardia) vs 8/48 controls with syncope only; the OI subgroup was younger with shorter illness and more subacute onset. https://doi.org/10.1016/s0165-1838(98)00177-5
+- ext i3 Roerink 2017 (419 CFS vs 341 non-CFS fatigued): On active stand, POTS was present in 5.7% of 419 adults with CFS vs 6.9% of non-CFS fatigued adults (P=0.54), and 18.2% vs 17.4% in adolescents; POTS was unrelated to severity or activity. https://doi.org/10.1111/joim.12564
+- ext i2 Björnson 2025 (467): Of 467 non-hospitalised, highly symptomatic long COVID patients, 143 (31%) met POTS criteria on tilt/active stand (testing only in clinically suspected cases); POTS patients were younger, 91% female, less active, had higher 6MWT heart rates and shorter walk distance, with similar symptom profiles. https://doi.org/10.1161/circep.124.013629
+- ext i2 van Campen 2018 (627 ME/CFS evaluated, 155 POTS): Of 627 ME/CFS adults on 10-min tilt, 155 (25%) met POTS criteria; median time to HR criterion was 3 min, so a 2-min tilt would miss 55% (95% CI 48-63%) of POTS cases, regardless of sex, age, duration or hypocapnia. https://doi.org/10.3389/fped.2018.00349
+- ext i2 Miwa K. 2016 (24): In 24 ME/CFS patients with OI tested on a good and a bad day, 43% developed POT/severe POT only on bad days while 21% lost it on bad days, 21% could not complete a 10-min stand on bad days, and LV end-diastolic diameter and stroke volume index were lower on bad days. https://doi.org/10.1007/s00380-015-0744-3
+- ext i2 Reynolds 2014 (306): On a 20-minute standing test in 306 CFS clinic patients, 11% (33/306) met POTS criteria (HR rise >30 bpm); CFS-POTS patients were younger and haemodynamically distinct, and HR variability was linked to fatigue. https://doi.org/10.1111/joim.12161
+- ext i2 Lewis 2013 (179 (24 POTS)): Of 179 CDC-1994 CFS clinic patients, 13% (n=24) had POTS; they were younger (29 vs 42 years) and had distinct autonomic and clinical features that symptom scales could pick out. https://doi.org/10.1111/joim.12022
 
-## neuro-sleep [several] rep 11 ext 10 con 2
-Claim: Objective sleep in adult ME/CFS shows modestly longer sleep latency, more wake after sleep onset and lower sleep efficiency. Standard polysomnography usually finds no clinical disorder that explains non-restorative sleep.
-- con i2 Armitage 2009 (13 twin pairs): Sleep EEG spectral power did not differ between CFS twins and their healthy co-twins; sleep EEG features were more genetic than disease-related. https://doi.org/10.1016/j.jpsychores.2008.08.004
-- con i2 Reeves 2006 (CFS vs controls): Polysomnography/MSLT: sleep architecture did not differ except more obstructive apnoeas per hour (not clinically meaningful); 18% vs 7% severe primary sleep disorders (ns). https://doi.org/10.1186/1471-2377-6-41
-- rep i2 Zerón-Rugerio 2024 (31 ME/CFS, 23 post-COVID ME/CFS, 31 controls): Both patient groups had lower activity and worse sleep quality than controls, with worse lipid profile linked to circadian temperature disruption; higher endothelin-1 and VCAM-1 in patients; no difference between ME/CFS groups. https://doi.org/10.1080/07420528.2024.2380020
-- rep i2 Maksoud 2021 (20 studies): Systematic review of PSG/MSLT: slow-wave sleep, AHI, spectral activity and MSLT findings inconsistent across ME/CFS studies. https://doi.org/10.3390/healthcare9050568
-- rep i2 Aerenhouts 2015 (42 vs 24): Exercise capacity (VO2peak) was significantly lower in CFS; in patients, higher VO2peak related to less daytime sleep; sleep latency and efficiency were normal but patients slept more and spent more time in bed. https://doi.org/10.3109/09638288.2014.993093
-- rep i2 Gotts 2013 (343): 30.3% had a primary sleep disorder; four sleep phenotypes found among the rest, 89.1% with an objective sleep problem. https://doi.org/10.1136/bmjopen-2013-002999
-- rep i2 Hurum 2011 (44 vs 52): 24-h ambulatory monitoring: night-time HR, mean and diastolic BP higher in adolescent CFS than controls, indicating sympathetic predominance. https://doi.org/10.1111/j.1651-2227.2010.02073.x
-- rep i2 Burton 2010 (20 vs 20): Nocturnal HRV was lower in CFS and predicted poor subjective sleep, suggesting sympathetic hypervigilance in sleep. https://doi.org/10.1007/s00221-010-2296-1
-- ext i2 Aboagye 2026 (?): Longitudinal digital-health study of bidirectional within-person links between nocturnal HRV, sleep quality and daily fatigue in post-COVID fatigue. https://doi.org/10.2196/99630
-- ext i2 Sun 2026 (28 LC vs 28 HC; 19 ME/CFS): Long COVID shows altered sleep EEG microstructure (slow oscillations, spindle-SO coupling); ME/CFS shares some features with more alpha-delta patterns. https://doi.org/10.1093/sleep/zsag090
-- ext i2 Fatt 2020 (24 vs 24): Normalized high-frequency HRV (parasympathetic) was reduced in CFS during deep sleep but not wakefulness; slower sleep onset, more awakenings, more slow-wave sleep. https://doi.org/10.5664/jcsm.8114
-- ext i2 Mariman 2012 (415): Subjective sleep: mean PSQI 10.17 and ESS 10.51; no linear ESS-PSQI relation, and a subgroup (n=69) had an insomnia-like phenotype with low ESS and high PSQI. https://doi.org/10.2143/acb.67.1.2062621
-- ext i2 Togo 2010 (?): Maximal exercise did not worsen sleep in CFS; about half slept better after exercise, so PEM is not caused by worse sleep. https://doi.org/10.1249/mss.0b013e3181b11bc7
-- ext i2 Neu 2009 (32 CFS vs 30 sleep apnoea vs 14 controls): Polysomnography: CFS showed increased slow-wave sleep, lower sleep efficiency and higher microarousal index than controls; NREM distribution differs from sleep apnoea, so not a primary sleep disorder. https://doi.org/10.1097/wnp.0b013e3181a1841b
+## endocrine-hpa-feedback [several] rep 4 ext 4 con 3
+Claim: Challenge tests show a blunted cortisol response to ACTH and exaggerated cortisol suppression after a glucocorticoid dose, consistent with enhanced negative feedback.
+- con i2 Lynn 2018 (48 CFS vs 27 Sjogren vs 20 HC): In 48 CFS vs 20 sedentary controls (and 27 Sjogren's), plasma cortisol before and after 0.5 mg overnight dexamethasone did not differ from controls, and ex vivo dex suppression of LPS-induced TNF-alpha was reduced rather than enhanced; childhood adversity correlated with cortisol and GR function. https://doi.org/10.1155/2018/3972104
+- con i2 Gaab 2003 (18 vs 18): In 18 CFS patients vs 18 matched controls, salivary and plasma cortisol responses to both low-dose and high-dose ACTH did not differ. https://doi.org/10.1176/appi.psy.44.2.113
+- con i2 Hudson 1999 (20 vs 20): In 20 CDC-criteria CFS patients without psychiatric comorbidity vs 20 matched controls, the 1 ug Synacthen test showed no differences in baseline cortisol, peak cortisol, incremental rise or AUC. https://doi.org/10.1046/j.1365-2265.1999.00856.x
+- rep i2 Van Den Eede 2008 (34 vs 25): In 34 female CFS patients vs 25 controls, salivary cortisol after 0.5 mg dexamethasone was lower before (p=0.038) and after CRF (p=0.015); the effect was confined to patients without early-life stress. https://doi.org/10.1017/s0033291707001444
+- rep i2 Jerjes 2007 (15 CFS vs controls): In 15 CFS patients without psychiatric comorbidity, the percentage suppression of salivary cortisol and urinary cortisol metabolites after 5 mg prednisolone was significantly greater than in controls. https://doi.org/10.1016/j.psyneuen.2006.12.005
+- rep i2 Gaab 2002 (21 vs 21): In 21 CFS patients vs 21 controls, baseline salivary cortisol profiles were normal but suppression after 0.5 mg dexamethasone was enhanced and prolonged. https://doi.org/10.1097/00006842-200203000-00015
+- rep i2 Scott 1998 (20 vs 20): With a 1 microgram ACTH test in 20 CFS vs 20 controls, baseline cortisol did not differ but the cortisol increment was lower in CFS, and 45% vs 10% failed a 250 nmol/l cutoff. https://doi.org/10.1046/j.1365-2265.1998.00418.x
+- ext i2 Segal 2005 (23 vs 17): In 23 adolescents with CFS vs 17 controls, a low-dose (500 ng/m2) synacthen test gave significantly lower mean cortisol levels, with more pronounced effects in females. https://doi.org/10.1515/jpem.2005.18.3.295
+- ext i2 Gaab 2002 (?): CFS patients had lower baseline ACTH and lower ACTH responses to psychosocial stress, exercise and insulin tolerance testing, with normal plasma cortisol responses and higher salivary cortisol in the ITT. https://doi.org/10.1097/01.psy.0000038937.67401.61
+- ext i2 Cleare 2001 (37 vs 28): ACTH responses to hCRH, insulin stress and D-fenfluramine were normal, but cortisol responses to hCRH and D-fenfluramine were lower once ACTH was controlled, pointing to reduced adrenal output; responders to hydrocortisone showed reversal of the blunted cortisol response to hCRH. https://doi.org/10.1210/jcem.86.8.7735
+- ext i2 Demitrack 1991 (30 vs 72): Graded ACTH dosing showed increased adrenocortical sensitivity but a reduced maximal cortisol response (P=0.0015), ACTH responses to oCRH were blunted (128.0 vs 225.4 pmol/L.min, P<0.04) and CSF CRH was normal, read as mild central adrenal insufficiency. https://doi.org/10.1210/jcem-73-6-1224
 
-## neuro-lc-autonomic-objective [replicated] rep 14 ext 6 con 1
-Claim: Objective autonomic testing in long COVID finds cardiovascular autonomic abnormalities in most referred patients (initial orthostatic hypotension, POTS), whereas resting muscle sympathetic nerve activity is variably normal or increased.
-- con i2 Schoene 2026 (1162 (11 studies)): HRV trended lower in post-COVID patients vs controls, non-significant (SDNN SMD 0.26, p=0.09; rMSSD 0.11, p=0.41). https://doi.org/10.1111/ene.70561
-- rep i2 Ruijgt 2026 (121 vs 21): Continuous wearable HRV was lower in long COVID than controls (p=0.027), stayed lower for 24 h after exercise near VT1 and nighttime HRV fell after intense/long exercise. https://doi.org/10.1007/s40279-026-02487-4
-- rep i2 Camargo 2026 (39 vs 22): Long COVID tilt test shows blunted sympathetic HRV response (lower LF nu, lower LF/HF) and impaired BP regulation. https://doi.org/10.1038/s41598-026-38800-4
-- rep i2 Tamariz 2026 (100): Dysautonomia (abnormal COMPASS-31) in 82% and abnormal HRV in 60% of long COVID; orthostatic hypotension 12%. https://doi.org/10.3121/cmr.2025.2054
-- rep i2 Keller 2026 (long COVID vs controls vs PAF): Quantitative autonomic testing compares long COVID, controls, and pure autonomic failure. https://doi.org/10.1016/j.jacc.2025.09.1608
-- rep i2 Cherneva 2025 (about 95): Long-term PCS with moderate-severe symptoms had lower peak VO2 (24.1 vs 26.7 vs 27.0 mL/kg/min) and more chronotropic insufficiency (81.5% vs 35% vs 12.5%) and abnormal HRR. https://doi.org/10.3390/biomedicines13051138
-- rep i2 Hira 2025 (?): Long COVID had lower upright HF-HRV (p=0.04) and BP low-frequency variability (p=0.001) than controls; initial orthostatic hypotension group had lower baroreflex sensitivity. https://doi.org/10.1007/s10286-025-01107-x
-- ext i2 Azcue 2026 (21 PCC, 17 ME/CFS): Two-timepoint (median 31 months) follow-up shows largely overlapping autonomic, small-fiber and cognitive profiles in PCC and ME/CFS; small-fiber symptoms correlate with autonomic burden (rho 0.65) and fatigue. https://doi.org/10.1186/s12967-026-08321-9
-- ext i2 Pierson 2025 (1,367,961): Risk factors for post-COVID dysautonomia diagnosis in active-duty service members. https://doi.org/10.3389/fneur.2025.1653175
-- ext i2 Eastin 2025 (?): At about 36 months, a moderate-to-severe autonomic symptom burden (COMPASS-31 >=20) persisted; 40.5% of those with dysautonomia were newly diagnosed POTS; female sex and joint hypermobility were risk factors. https://doi.org/10.1007/s10286-025-01111-1
-- ext i2 Johansson 2024 (?): 24-h ambulatory BP in post-COVID POTS: higher nighttime systolic BP, nondipping 34% vs 19%, and more daytime hypotensive episodes than population controls. https://doi.org/10.1161/hypertensionaha.124.23670
-- ext i2 Goldstein 2024 (7 followed >1 year): 71% of initially abnormal tests (CSF oligoclonal bands, CSF catecholamine deficiency indices, baroreflex dysfunction, tilt hypotension, MRI hyperintensities) remained abnormal after more than a year. https://doi.org/10.1212/wnl.0000000000209742
-- ext i2 Larsen 2022 (2314): Autonomic symptom burden in a global survey; severity not tied to acute severity https://doi.org/10.3389/fneur.2022.1012668
-
-## trials-recovery-rates [several] rep 11 ext 9 con 2
-Claim: Full recovery from established adult ME/CFS is uncommon: a systematic review of 14 criteria-based cohorts found a median full-recovery rate of 5% (range 0-31%) and median improvement of 39.5%.
-- con i2 Zhao 2026 (1944 (17 RCTs)): Exercise improved fatigue (SMD 0.85) and QoL (SMD 0.99) but not cardiopulmonary function or functional capacity. https://doi.org/10.1016/j.jpsychores.2026.112677
-- con i2 Rowe KS. 2019 (784): Follow-up mean 8 years: 38% reported recovery by 5 years and 68% by 10 years; mean illness duration 5 years among those recovered. https://doi.org/10.3389/fped.2019.00021
-- rep i2 Jason 2011 (32 baseline; 24 re-evaluated): Of 32 community CFS cases, 4 died, 16 of 24 re-evaluated still had CFS, 1 remitted; post-exertional malaise best differentiated CFS. https://doi.org/10.1037/a0022595
-- rep i2 van Geelen 2010 (54 of 60): After 2.2 years, 51.9% had nearly complete symptom improvement and 48.1% did not. https://doi.org/10.1001/archpediatrics.2010.145
-- rep i2 Friedberg 2009 (75): Over 2 years, self-reported improvement tracked with momentary fatigue and standing time; actigraphy change correlated with physical function; <20% reached healthy range. https://doi.org/10.1007/s10865-008-9189-9
-- rep i2 Nisenbaum 2003 (65): Over 3 years only 20-33% still met CFS; 57% ever had partial/total remission, 10% sustained remission; shorter duration predicted remission. https://doi.org/10.1186/1477-7525-1-49
-- rep i2 Pheley 1999 (177 responders of 341): Only 12% reported recovery after about nine years; better baseline function and lower anxiety predicted recovery. https://pubmed.ncbi.nlm.nih.gov/10589213/
-- rep i2 Hill 1999 (23): In 23 severely ill patients followed about 4 years, 13 stayed severe, 9 improved but still met 1994 criteria, 1 recovered; duration, onset mode, psychiatric status did not predict outcome. https://doi.org/10.1016/s0003-9993(99)90066-7
-- ext i2 Tomić 2026 (40 baseline, 20 follow-up): 16-year follow-up of women diagnosed with ME/CFS (CDC criteria) describing long-term somatic and psychiatric disorders, laboratory and fatigue changes. https://doi.org/10.3390/medicina62061114
-- ext i2 Fleig 2026 (?): Self-reported ME/CFS diagnosis in NHIS 2021-2023 including those no longer reporting it. https://doi.org/10.1186/s12889-026-27598-5
-- ext i2 Ghali 2022 (?): Prognostic factors for recovery/improvement in ME/CFS https://doi.org/10.3390/diagnostics12102540
-- ext i2 Josev 2021 (25 vs 23): After about 2 years 65% of adolescents still met ME/CFS criteria; fatigue, pain and QoL remained worse than controls. https://doi.org/10.3390/jcm10163603
-- ext i2 Moore 2021 (12 papers, 826 patients): Recovery rates in paediatric CFS/ME ranged from 4.5% to 83% across 11 differing definitions. https://doi.org/10.1136/archdischild-2020-320196
-- ext i2 Norris 2017 (population cohort): Prevalence of chronic disabling fatigue rose from 1.47% at 13 to 2.99% at 18; about 75% not classified at next time point, 8% persistent through adolescence. https://doi.org/10.1136/archdischild-2016-311198
-
-## muscle-exertion-pem-timing [several] rep 7 ext 17 con 2
-Claim: PEM is usually delayed by hours to a day, lasts days to weeks, and after a 2-day CPET took ME/CFS patients a mean of about 13 days to recover versus about 2 days in sedentary controls.
-- con i2 Boruch 2024 (40 veterans): Seated rest vs light, moderate and vigorous 20-min cycling produced no condition-by-time interaction for symptoms, pain, cognition, cytokines or later activity, so exercise did not provoke PEM. https://doi.org/10.1016/j.bbi.2024.05.026
-- con i2 Lloyd 1994 (12 vs 13 males): No change in plasma interferon-gamma, interferon-alpha, IL-1 beta or TNF-alpha before, during or 24 h after 30 min of grip exercise; fatigue and mood scores improved. https://doi.org/10.1093/clinids/18.supplement_1.s142
-- rep i2 Mateo 2020 (49 vs 10): After two CPETs 24 h apart, ME/CFS reported 14 symptoms on average vs 4 in controls and still 4 symptoms over the next 7 days (controls none). https://doi.org/10.3233/wor-203168
-- rep i2 Loy 2016 (7 studies, 159 patients): Single exercise bout increased fatigue in ME/CFS vs controls (mean delta 0.73, 95% CI 0.24-1.23), larger when measured 4 h or more after exercise. https://doi.org/10.1249/mss.0000000000000990
-- rep i2 Keller 2014 (22): On repeat CPET 24 h later, VO2peak fell 13.8%, work at peak 12.5% and work at VT 21.3%, with peak RER 1.1 or more in both tests. https://doi.org/10.1186/1479-5876-12-104
-- rep i2 Davenport 2011 (16 vs 14): Failure to recover within 1 day after two CPETs 24 h apart had AUC 0.864 (sensitivity 0.80, specificity 0.93) for CFS membership. https://doi.org/10.3109/09638288.2010.546936
-- rep i2 VanNess 2010 (25 vs 23): After maximal CPET, 85% of controls recovered within 24 h versus none of the CFS patients; only 1 CFS recovered within 48 h. https://doi.org/10.1089/jwh.2009.1507
-- rep i2 Bazelmans 2005 (20 vs 20): After a maximal exercise test CFS fatigue stayed raised for up to 2 days while controls recovered within 2 h; actometer activity unchanged. https://doi.org/10.1016/j.jpsychores.2005.04.003
-- ext i2 Tuzzolino 2026 (?): PEM severity forms physical, mental, both and neither subtypes in ME/CFS, with the both group most impaired. https://doi.org/10.1177/13591053261420598
-- ext i2 Pouliopoulou 2025 (?): Systematic review with meta-analysis of PEM prevalence in post-COVID condition and change after rehabilitation. https://doi.org/10.1016/j.apmr.2025.01.471
-- ext i2 Greenwood 2024 (376 participants, EMA up to 24 days): Symptom severity rose within 30 min of physical, cognitive and social effort (fatigue +1.8/10 after highest physical exertion); delayed fatigue at 3 h or 1 day was only mild. https://doi.org/10.1016/j.lanepe.2024.101082
-- ext i2 Friedberg 2023 (22 F + 15 M ME/CFS vs 14 HC): Sex differences in post-exertion fatigue/function after two 6-minute walk tests over 15 days https://doi.org/10.1038/s41598-023-32581-w
-- ext i2 Davenport 2023 (49 ME/CFS vs 10 HC): Two symptoms identify PEM accurately in a clinical prediction rule https://doi.org/10.3233/wor-220554
-- ext i2 Barhorst 2022 (15 studies, 306 patients vs 292 controls): Meta-analysis: higher post-exercise pain in ME/CFS/FM than controls (Hedges d 0.42), larger at 8-72 h (d 0.71) than 0-2 h (d 0.32). https://doi.org/10.1093/pm/pnab308
-
-## muscle-exertion-low-peak-vo2 [replicated] rep 12 ext 5 con 2
+## muscle-exertion-low-peak-vo2 [replicated] rep 4 ext 3 con 3
 Claim: On a single maximal exercise test, ME/CFS patients have lower peak oxygen uptake (pooled about 5 ml/kg/min below controls) with a low peak heart rate (chronotropic incompetence).
-- con i2 Cook 2006 (29 CFS, 23 CFS+FM, 32 controls): Incremental exercise: CFS alone had cardiorespiratory responses not different from controls and matched-fitness subgroups showed no differences; CFS+FM had lower peak VO2 and end-tidal CO2; all rated exercise more effortful. https://doi.org/10.1002/art.22124
-- con i2 Sargent 2002 (16 M + 17 F vs matched sedentary controls): VO2max was not different in male CFS (40.5 vs 43.3 mL/kg/min) and 4 mL/kg/min lower in female CFS (30.0 vs 34.2, p=0.002), with both groups near age-predicted values (96-101%). https://doi.org/10.1097/00005768-200201000-00009
-- rep i3 Franklin 2019 (32 studies): Pooled peak VO2 5.2 ml/kg/min lower (95% CI 3.8-6.6) in CFS/ME than healthy controls; high heterogeneity. https://doi.org/10.1055/a-0802-9175
-- rep i2 Tomaskovic 2026 (92): In 92 severe PCC patients, 49% met ME/CFS criteria and 79% screened DSQ-PEM positive; CPET assessed peak VO2, peak power and O2 pulse for work disability. https://doi.org/10.1186/s40798-026-00995-1
-- rep i2 Franklin J. 2021 (32 cross-sectional studies): Thesis: meta-analysis found pooled peak VO2 lower in ME/CFS than healthy controls (pooled difference about 5.2 ml/kg/min); also examines physical activity and exercise interventions. https://europepmc.org/article/ETH/830948
-- rep i2 Davenport 2020 (51 females vs 10 sedentary controls): Two-day CPET measurements were reliable (moderate to high ICC) and separated ME/CFS from controls with moderate to large effect sizes. https://doi.org/10.3233/wor-203170
-- rep i2 Aerenhouts 2015 (42 vs 24): Exercise capacity (VO2peak) was significantly lower in CFS; in patients, higher VO2peak related to less daytime sleep; sleep latency and efficiency were normal but patients slept more and spent more time in bed. https://doi.org/10.3109/09638288.2014.993093
-- rep i2 Nijs 2011 (?): Systematic review: CFS patients have less daily physical activity and peak isometric strength than sedentary controls, with conflicting but likely reduced exercise capacity. https://doi.org/10.3109/09638288.2010.541543
-- ext i3 Cook 2022 (214 vs 189; matched 99 vs 99): MCAM multi-site ramp test: ME/CFS had lower ventilation, breathing frequency, HR and chronotropic response at matched relative intensity, including in fitness-matched subgroup. https://doi.org/10.1371/journal.pone.0265315
-- ext i2 van Campen 2020 (289 (121 mild, 98 moderate, 70 severe)): ICC clinical severity grades tracked SF-36 physical function (70/43/15), steps/day (8235/5195/2031) and CPET ventilatory-threshold VO2 across mild/moderate/severe. https://doi.org/10.3390/healthcare8030273
-- ext i2 Moneghetti 2018 (24 vs 24): Cardiac structure and exercise capacity were similar; cytokine profile 18 h after submaximal exercise discriminated patients (kappa 0.62; CD40L, IL-1beta, IFN-alpha, CXCL1). https://doi.org/10.1038/s41598-018-20941-w
-- ext i2 Patrick Neary 2008 (6 vs 8): During incremental exercise, CFS reached exhaustion sooner (351 vs 715 s) with lower prefrontal oxygenation (HbO2, HHb, tHb, TOI) and lower max HR. https://doi.org/10.1111/j.1475-097x.2008.00822.x
-- ext i2 Fulcher 2000 (66 CFS vs 30 sedentary vs 15 depressed): CFS patients were physically weaker with reduced exercise capacity and higher perceived effort than sedentary controls, but were equally unfit. https://doi.org/10.1136/jnnp.69.3.302
+- con i2 Cook 2006 (29 CFS, 23 CFS+FM, 32 controls): On incremental cycling, 29 CFS-only patients did not differ from 32 controls in any cardiorespiratory parameter including peak VO2; only the 23 CFS+fibromyalgia patients had lower peak VO2, ventilation and workload. https://doi.org/10.1002/art.22124
+- con i2 Sargent 2002 (16 M + 17 F vs matched sedentary controls): With gold-standard cycle CPET, VO2max did not differ in 16 male CFS vs matched sedentary controls (40.5 vs 43.3 ml/kg/min) and was lower in 17 females (30.0 vs 34.2, p=0.002) but at 96-101% of age-predicted in both sexes; HRmax was lower only in males (184 vs 192); lactate threshold did not differ. https://doi.org/10.1097/00005768-200201000-00009
+- con i2 Fulcher 2000 (66 CFS vs 30 sedentary vs 15 depressed): 66 non-psychiatric CFS patients had reduced exercise capacity and greater perceived effort than 30 sedentary controls but were 'equally unfit' (similar aerobic fitness), and low capacity was linked to quadriceps weakness, cardiovascular response and BMI. https://doi.org/10.1136/jnnp.69.3.302
+- rep i2 Nijs 2011 (?): Systematic review: CFS patients do less daily physical activity and have lower peak isometric strength than sedentary controls, and the weighted evidence, though conflicting, points to reduced physiological exercise capacity. https://doi.org/10.3109/09638288.2010.541543
+- rep i2 Inbar 2001 (15 vs 15): In 15 CFS patients vs 15 matched sedentary controls on a maximal treadmill CPET, peak cardiovascular and ventilatory values were significantly lower, chiefly a lower heart rate at equal relative and maximal workloads, with effort criteria met. https://doi.org/10.1097/00005768-200109000-00007
+- rep i2 De Becker 2000 (?): In a large female cohort, CFS patients reached roughly half the maximal workload and peak VO2 of matched sedentary controls, with higher resting but lower maximal heart rate; the result held in those meeting maximal-effort criteria (RQ>=1.0, >=85% predicted HR). https://doi.org/10.1001/archinte.160.21.3270
+- rep i2 Montague 1989 (41 vs controls): In 41 patients vs matched controls, resting ECG, 24 h rhythm, LV dimensions and fractional shortening were normal, but on graded exercise only 4/31 patients vs 20/32 controls reached target heart rate, peak HR was 124 vs 152 bpm (66% vs 82% of age-maximum, p<0.0001) and exercise lasted 9 vs 12 min. https://doi.org/10.1378/chest.95.4.779
+- ext i3 Cook 2022 (214 vs 189; matched 99 vs 99): In 214 ME/CFS vs 189 controls across six clinics (90% met peak-effort criteria), ME/CFS had lower ventilation, breathing frequency, HR and ventilatory efficiency and more chronotropic incompetence across 20-100% peak VO2, with higher ventilatory equivalents and RPE, including in 99 pairs matched for peak VO2. https://doi.org/10.1371/journal.pone.0265315
+- ext i2 Tomaskovic 2026 (92): Among 92 severe post-COVID patients, the 49% meeting CCC ME/CFS criteria had lower peak VO2 (13.0 vs 15.4 ml/kg/min, p=0.012), peak power (0.9 vs 1.1 W/kg) and O2 pulse (7.7 vs 8.5) than those without ME/CFS; 66% met objective work-disability thresholds and VO2 peak tracked Bell score and occupational status. https://doi.org/10.1186/s40798-026-00995-1
+- ext i2 van Campen 2020 (289 (121 mild, 98 moderate, 70 severe)): In 289 ME/CFS patients graded by ICC severity (121 mild, 98 moderate, 70 severe), SF-36 physical function (70/43/15), steps/day (8235/5195/2031), %predicted VO2 at ventilatory threshold (47/38/30%) and %predicted peak VO2 (90/64/48%) all fell with severity (all significant). https://doi.org/10.3390/healthcare8030273
 
-## infection-post-covid-mecfs-incidence [replicated] rep 8 ext 13 con 1
-Claim: In RECOVER-Adult, new ME/CFS (IOM criteria) developed at 2.66 per 100 person-years after SARS-CoV-2 infection vs 0.93 in uninfected participants (HR 4.93), and 4.5% of infected participants met criteria.
-- con i2 Xu 2023 (?): Two-sample MR found no causal effect of COVID-19 on ME/CFS https://doi.org/10.3390/ijerph20032437
-- rep i3 Unger 2024 (4,378 (INSPIRE)): Prevalence of IOM-defined ME/CFS-like illness after SARS-CoV-2 infection vs test-negative controls, with 12-month follow-up. https://doi.org/10.1001/jamanetworkopen.2024.23555
-- rep i2 Bodey 2024 (?): After discharge from a UK long COVID service, 90.2% of respondents still had symptoms (EQ-5D index 0.53) and 43% met suspected ME/CFS criteria. https://doi.org/10.3390/jcm13195817
-- rep i2 Reuken 2024 (1022 (411 with follow-up)): 31.3% met ME/CFS criteria at median 255 days and 19.4% still at 402 days; self-reported fatigue fell 83.7 to 72.7%. https://doi.org/10.1007/s00406-023-01661-3
-- rep i2 Salari 2022 (?): Pooled prevalence of CFS in long COVID patients https://doi.org/10.1186/s13030-022-00250-5
-- rep i2 Jamal 2024, preprint (97 JHU, 281 LIINC): ME/CFS criteria at 6-8 months: 5 of 97 (IOM) and 2 (CCC) in JHU; 51 of 281 (IOM) and 29 (CCC) in LIINC; ME/CFS group more female with more symptoms. https://doi.org/10.1101/2024.11.08.24316976
-- rep i2 Burkard 2024, preprint (2,521,812 COVID vs 4,233,145 negative): Network cohort comparing risk of POTS, ME/CFS, MIS and autoimmune diseases after COVID-19 vs negative test. https://doi.org/10.1101/2024.05.15.24307344
-- ext i2 Jason 2026 (?): ME/CFS after infectious mononucleosis (moderate/severe) compared with long COVID: long COVID symptom burden between moderate and severe ME/CFS. https://doi.org/10.1177/17423953251347108
-- ext i2 Ghali 2026 (220): PEM present in 26.4% of PCS clinic patients; more frequent with 2020/2021 onset (OR 5.68, 95% CI 1.66-19.45, p=0.006) and higher fatigue (OR 2.07). https://doi.org/10.3390/jcm15082948
-- ext i2 Kaiserseder 2026 (216): ME/CFS (CCC) in 6.9% of PCS rehabilitation outpatients (15/216); these had higher fatigue (FAS 35.8 vs 27.8) that did not improve. https://doi.org/10.1055/a-2823-6976
-- ext i2 Fain 2025 (2662+7549 infected, 461+728 controls): Odds of LCRI>=12 vary by age group; age-related changes in symptom pattern in RECOVER-Adult. https://doi.org/10.1111/jgs.70043
-- ext i2 Powers 2025 (?): RECOVER EHR: about half of patients labelled with PASC are also labelled ME/CFS; dyspnea, fatigue and cognitive impairment shared, cardiopulmonary cluster more PASC-specific. https://doi.org/10.1038/s43856-025-00827-5
-- ext i2 Cornelissen 2024 (95): Fatigue and symptom clusters at 3-6 and 12-18 months; share meeting ME/CFS criteria by DSQ-2; clusters compared with 337 Dutch ME/CFS patients. https://doi.org/10.1186/s12967-024-04979-1
-
-## neuro-cbf-tilt [replicated] rep 5 ext 9 con 4
-Claim: Blood flow to the brain falls much more than normal during head-up tilt in ME/CFS (about 26% vs 7% in controls), including in patients whose heart rate and blood pressure stay normal.
-- con i2 Badhwar 2025 (10 controls, 12 ME/CFS, 9 LC): Hemodynamic responses to hypoxia, hypercapnia and tilt similar to controls; ME/CFS showed impaired cerebral autoregulation in hypercapnia and impaired cognitive-motor integration; LC showed lower oxygen levels and less vagal withdrawal. https://doi.org/10.1016/j.autneu.2025.103358
-- con i2 Malfliet 2018 (20 vs 20): No group differences in cerebral blood flow (Doppler) or HRV responses to physical or emotional stress. https://doi.org/10.36076/ppj.2018.1.e13
-- con i2 Ocon 2012 (16 vs 20): Graded tilt with n-back: CFS/POTS had worse accuracy and slower normalised reaction time at 45-75 degrees; cerebral blood flow velocity changes did not differ and did not relate to scores. https://doi.org/10.1042/cs20110241
-- con i2 Razumovsky 2003 (26 vs 23): During 3-stage tilt, MCA blood flow velocity did not differ from controls at baseline or in response; NMH 21 vs 14 (p=.22) and POTS 9 vs 7 (p=.76) did not differ, though symptom onset was earlier in CFS. https://doi.org/10.1111/j.1552-6569.2003.tb00158.x
-- rep i3 van Campen 2024 (534 (46 normal, 488 abnormal)): During tilt, 91% of 534 ME/CFS patients had abnormal cardiac output and cerebral blood flow reductions even with normal HR and BP; CO-CBF regression slope near 1. https://doi.org/10.3390/healthcare12242566
-- rep i2 van Campen 2023 (42 at 20 deg, 41 at 70 deg): CBF fell 27% at 20 deg tilt vs 31% at 70 deg (p=0.003); no POTS at 20 deg vs 32% at 70 deg. https://doi.org/10.3389/fped.2023.1169447
-- rep i2 van Campen 2021 (10 long COVID, 20 ME/CFS POTS, 20 ME/CFS non-POTS, 10 HC): Long COVID patients had ME/CFS-like symptoms; all developed POTS on tilt; cerebral blood flow and cardiac index fell more than in healthy controls, CBF fall larger in long COVID. https://doi.org/10.3390/medicina58010028
-- rep i2 van Campen 2020 (19 severe): In severe ME/CFS, a 15-min 20-degree tilt reduced cerebral blood flow by 27%, comparable to the 26% decline with 70-degree tilt in milder patients. https://doi.org/10.3390/healthcare8020169
-- rep i2 Stewart 2012 (25 vs 20): On incremental tilt, n-back performance deteriorated and neuronally activated CBFV fell in young CFS but not controls; critical closing pressure was higher (raised vasomotor tone). https://doi.org/10.1152/ajpheart.00994.2011
-- ext i3 van Campen 2020 (100 severe vs 15 controls): Sitting for an hour reduced cerebral blood flow in severe ME/CFS (474 vs 627 mL/min in controls); 90 patients with orthostatic intolerance had -26.9% CBF reduction; supine CBF normal. https://doi.org/10.3390/healthcare8040394
-- ext i3 van Campen 2024, preprint (534 patients vs 49 controls): 91% of patients had an abnormal reduction in cardiac output and cerebral blood flow during tilt despite normal HR and BP response, with CO-CBF slope near 1; the 9% with normal changes were less severe and more often male. https://doi.org/10.1101/2024.08.02.24311436
-- ext i2 Novak 2026 (169): Central sensitization present in 81% of long COVID patients with orthostatic intolerance; linked to autonomic symptom burden, cerebral hypoperfusion and neuroinflammation markers. https://doi.org/10.1016/j.jns.2026.126058
-- ext i2 van Campen 2023 (71 retested; 219 combined): More severe ME/CFS is associated with larger CBF fall on tilt (25, 29, 33% in mild, moderate, severe; p stated significant). https://doi.org/10.3390/medicina59122153
-- ext i2 Day 2023 (34 PASC, 71 ME/CFS <=10 y, ME/CFS >10 y, 82 controls): Cognitive efficiency falls after orthostatic challenge in PASC and ME/CFS vs controls, mediated by hemodynamic changes (narrow pulse pressure); stays low 2 and 7 days later in long-duration ME/CFS. https://doi.org/10.3389/fnins.2023.1203514
-- ext i2 van Campen 2022 (30 vs 30): ME/CFS patients with frequent pseudosyncope had larger tilt cerebral blood flow fall (39% vs 25%) than ME/CFS controls. https://doi.org/10.3390/medicina58010098
-
-## infection-xmrv-cautionary [refuted] rep 15 ext 0 con 0
+## infection-xmrv-cautionary [refuted] rep 9 ext 1 con 0
 Claim: The 2009 report of the mouse retrovirus XMRV in 67% of CFS patients was a laboratory contamination artefact: blinded multi-lab and original-investigator studies found no XMRV/pMLV, and the Science paper was retracted.
-- rep i2 Irlbeck 2014 (?): Blinded multi-site prospective study found no association of XMRV or pMLV detection with CFS. https://doi.org/10.1186/1756-0500-7-461
-- rep i2 Steffen 2011 (58 vs 57): No XMRV/MLV nucleic acids, infectious virus or antibodies in Canadian CFS patients or controls. https://doi.org/10.1371/journal.pone.0027870
-- rep i2 Elfaitouri 2011 (78 patients, 7 FM, 168 donors): No XMRV/HMRV/MLV group G3 detected by PCR in white cells of 78 ME/CFS patients or in 168 donor sera. https://doi.org/10.1371/journal.pone.0024602
-- rep i2 Ali 2011 (CFS vs chronic inflammatory vs healthy): Low-level XMRV PCR signals in 15% of CFS patients were no different from controls and could not be confirmed; no specific antibody. https://doi.org/10.1186/1743-422x-8-450
-- rep i2 Cool 2011 (72 PCR, 62 serology, 113 culture): No XMRV DNA, antibody, antigen or infectious virus found in Quebec CFS patients. https://doi.org/10.1016/j.virol.2011.08.018
-- rep i2 Katzourakis 2011 (?): Phylogenetic analysis shows longitudinal MLV sequences from CFS patients are distinct endogenous murine retroviruses, consistent with PCR contamination. https://doi.org/10.1128/jvi.00827-11
+- rep i3 Shin 2011 (100 vs 200): Blinded testing of 100 CFS patients, 200 controls and original-study samples found no XMRV/MLV sequences, infectious virus or antibodies; trace mouse DNA in Taq polymerase explained some earlier positives. https://doi.org/10.1128/jvi.00693-11
+- rep i2 Irlbeck 2014 (?): In a blinded multi-site prospective study, murine retroviral sequences were found in 5/72 CFS (6.7%) vs 2/37 controls (5.4%), p=1, and appeared to be endogenous mouse DNA contamination in PCR reagents, not XMRV or pMLV. https://doi.org/10.1186/1756-0500-7-461
+- rep i2 Ali 2011 (CFS vs chronic inflammatory vs healthy): In US CFS patients from regions like the 2009 study, low-level XMRV qPCR signals in 15% did not differ from controls, could not be confirmed by product isolation, vanished on PBMC stimulation, and no XMRV gp70 antibody was found; MLV sequences were equally frequent in patients and controls. https://doi.org/10.1186/1743-422x-8-450
+- rep i2 Cool 2011 (72 PCR, 62 serology, 113 culture): No XMRV gag/env DNA (72 patients), antibodies (62), p30 antigen (50), plasma viremia (9) or infectious virus by co-culture (113) was detected in any Quebec CFS patient. https://doi.org/10.1016/j.virol.2011.08.018
+- rep i2 Furuta 2011 (100 CFS, 500 donors, 67 PC): In Japan, 1.6-3.0% of 500 donors, 67 prostate cancer patients and 100 CFS patients had anti-Gag antibodies, with none reacting strongly to multiple XMRV proteins, and all 100 CFS patients were XMRV DNA negative in PBMC. https://doi.org/10.1186/1742-4690-8-20
+- rep i2 Switzer 2010 (51 vs 56): Blinded multi-lab Western blot, ELISA and nested PCR found no XMRV in 51 CFS cases and 53-56 US controls (one weak unconfirmed ELISA reactivity in each group). https://doi.org/10.1186/1742-4690-7-57
+- ext i2 Katzourakis 2011 (?): Phylogenetic analysis of MLV-like sequences from CFS patients sampled 15 years apart strongly rejected within-patient evolution; the two time points carried distinct endogenous murine retroviruses, indicating contamination. https://doi.org/10.1128/jvi.00827-11
 
-## muscle-exertion-lc-peak-vo2 [replicated] rep 12 ext 3 con 0
+## neuro-sleep [several] rep 2 ext 3 con 4
+Claim: Objective sleep in adult ME/CFS shows modestly longer sleep latency, more wake after sleep onset and lower sleep efficiency. Standard polysomnography usually finds no clinical disorder that explains non-restorative sleep.
+- con i2 Armitage 2009 (13 twin pairs): In 13 monozygotic female twin pairs discordant for CFS, sleep EEG spectral power did not differ in any band, and alpha-delta activity occurred in 5 CFS twins but also in 4 of their 5 healthy co-twins, despite more sleep complaints in the CFS twins. https://doi.org/10.1016/j.jpsychores.2008.08.004
+- con i2 Reeves 2006 (CFS vs controls): In a population-based Wichita sample with two-night PSG and MSLT, sleep architecture did not differ between CFS and controls apart from slightly more obstructive apnoeas per hour (p=.003, not clinically meaningful); severe primary sleep disorders were 18% vs 7% (ns). https://doi.org/10.1186/1471-2377-6-41
+- con i2 Fossey 2004 (?): On polysomnography 58% of CFS patients had a previously undiagnosed primary sleep disorder (sleep apnoea/hypopnoea, restless legs/periodic limb movements), with high self-reported insomnia and non-restorative sleep; psychological maladjustment was similar to narcolepsy patients. https://doi.org/10.1007/s10865-004-0004-y
+- con i2 Watson 2003 (22 twin pairs): In 22 monozygotic twin pairs discordant for CFS, CFS twins reported much worse sleep, but polysomnography showed little objective difference apart from a higher percentage of REM sleep, suggesting sleep-state misperception. https://doi.org/10.1093/sleep/26.3.324
+- rep i2 Neu 2009 (32 CFS vs 30 sleep apnoea vs 14 controls): On polysomnography, 32 CFS patients without sleep or mood disorders had more slow-wave sleep, lower sleep efficiency and a higher microarousal index than 14 controls, with an NREM distribution unlike 30 sleep apnoea patients. https://doi.org/10.1097/wnp.0b013e3181a1841b
+- rep i2 Fischler 1997 (49 vs 20): Polysomnography in 49 CFS vs 20 controls showed sleep-initiation and maintenance disturbance (longer sleep-onset latency, more stage shifts) and lower stage 4, independent of fibromyalgia or psychiatric comorbidity; REM latency normal. https://doi.org/10.1159/000119331
+- ext i2 Gotts 2013 (343): In 343 Fukuda CFS patients with one-night PSG, 30.3% had a primary sleep disorder; among the other 239, 89.1% had at least one objective sleep problem and four phenotypes emerged (long SOL/REM latency, frequent arousals, long TST, short TST with high WASO). https://doi.org/10.1136/bmjopen-2013-002999
+- ext i2 Decker 2009 (35 vs 40): Spectral analysis of overnight PSG in 35 population-based CFS vs 40 controls showed lower delta power in slow-wave sleep and lower alpha, theta, sigma and beta power in stage 2, SWS and REM. https://doi.org/10.1186/1744-9081-5-43
+- ext i2 Le Bon 2000 (46): Two-night PSG plus MSLT in 46 unselected CFS outpatients found AHI>=5 in 46%, periodic limb movements in 5% and MSLT<10 min in 30%, but neither primary sleep disorders nor sleepiness were associated with fatigue, mood or function scales. https://pubmed.ncbi.nlm.nih.gov/11382899/
+
+## trials-recovery-rates [several] rep 6 ext 6 con 0
+Claim: Full recovery from established adult ME/CFS is uncommon: a systematic review of 14 criteria-based cohorts found a median full-recovery rate of 5% (range 0-31%) and median improvement of 39.5%.
+- rep i2 Nisenbaum 2003 (65): In 65 population-identified Wichita CFS cases followed up to 3 years, only 20-33% still met CFS criteria at follow-up, 56.9% ever had partial or total remission, 10% sustained total remission and 23.1% got alternative diagnoses; shorter illness duration predicted sustained remission. https://doi.org/10.1186/1477-7525-1-49
+- rep i2 Pheley 1999 (177 responders of 341): Of 177 of 341 CFS patients who answered a follow-up questionnaire after about 9 years of illness, 21 (12%) self-reported recovery; better baseline physical and social function and lower anxiety and obsessive-compulsiveness predicted recovery, but with large overlap between groups. https://pubmed.ncbi.nlm.nih.gov/10589213/
+- rep i2 Joyce 1997 (26 studies): Systematic review of 26 studies: under 10% of adults with operationally defined CFS (5 studies) returned to premorbid function, while 54-94% of children recovered; poor prognosis linked to older age, chronicity, psychiatric comorbidity and physical attribution. https://doi.org/10.1093/qjmed/90.3.223
+- rep i2 Vercoulen 1996 (298 enrolled, 246 followed): Of 246 self-referred CFS patients followed 18 months, 3% reported complete recovery and 17% improvement; predictors were sense of control, less fatigue, shorter duration and fewer physical attributions. https://doi.org/10.1136/jnnp.60.5.489
+- rep i2 Bombardier 1995 (445): Of 445 tertiary referral patients surveyed about 1.5 years after evaluation, 64% reported improvement but only 2% complete resolution; CDC-defined CFS had worse severity and function at follow-up than chronic fatigue, and dysthymia predicted less improvement. https://doi.org/10.1001/archinte.1995.00430190101014
+- rep i2 Wilson 1995 (103 of 139 followed 3.2 years): At a mean 3.2 years after trial entry, 63% of 103 CFS patients had improved but only 6% were symptom-free; 30% could not work and 25% were on disability benefit; cell-mediated immunity did not predict outcome. https://doi.org/10.1016/0192-0561(95)00056-8
+- ext i2 Fleig 2026 (?): Of US adults ever diagnosed with ME/CFS, 20.7% reported no longer having it, but 40-50% of these had symptoms and function similar to current cases and only about 25% were substantially better, and the past group stayed impaired versus never-diagnosed adults. https://doi.org/10.1186/s12889-026-27598-5
+- ext i2 Ghali 2022 (?): In 168 adult ME/CFS patients at a French hospital followed up to 2020, 8.3% recovered and 4.8% improved; older age at onset was associated with recovery/improvement (OR 1.06) and longer diagnostic delay with worse outcome (OR 0.98). https://doi.org/10.3390/diagnostics12102540
+- ext i2 Moore 2021 (12 papers, 826 patients): Systematic review of 10 paediatric CFS/ME studies (826 patients) found recovery rates from 4.5% to 83% under 11 distinct definitions, most often based on school attendance, fatigue and physical functioning. https://doi.org/10.1136/archdischild-2020-320196
+- ext i2 Rowe KS. 2019 (784): Of 784 young people (mean age 14.6) followed a mean 8 years after onset (81.8% response), 38% reported recovery by 5 years and 68% by 10 years (mean illness duration 5 years); 5% remained very unwell and 20% significantly unwell. https://doi.org/10.3389/fped.2019.00021
+- ext i2 Norris 2017 (population cohort): In ALSPAC, chronic disabling fatigue prevalence rose from 1.47% at 13 to 2.99% at 18; about 75% with CDF at one age no longer met it 2-3 years later, and 8% persisted through adolescence. https://doi.org/10.1136/archdischild-2016-311198
+- ext i2 van Geelen 2010 (54 of 60): Of 54 adolescents with CFS followed a mean 2.2 years, 51.9% had nearly complete symptom improvement and 48.1% did not; older age at inclusion was a risk factor for non-recovery. https://doi.org/10.1001/archpediatrics.2010.145
+
+## neuro-cbf-tilt [replicated] rep 0 ext 10 con 2
+Claim: Blood flow to the brain falls much more than normal during head-up tilt in ME/CFS (about 26% vs 7% in controls), including in patients whose heart rate and blood pressure stay normal.
+- con i2 Ocon 2012 (16 vs 20): During graded tilt to 75 degrees in 16 CFS/POTS vs 20 controls, changes in cerebral blood flow velocity did not differ between groups and were unrelated to n-back scores. https://doi.org/10.1042/cs20110241
+- con i2 Razumovsky 2003 (26 vs 23): In 26 CFS vs 23 controls, transcranial Doppler MCA blood flow velocity during 3-stage tilt showed no distinctive CFS pattern; NMH (21 vs 14, p=.22) and POTS (9 vs 7, p=.76) rates did not differ, though symptoms started sooner in CFS. https://doi.org/10.1111/j.1552-6569.2003.tb00158.x
+- ext i2 van Campen 2024 (534 (46 normal, 488 abnormal)): In 534 ME/CFS patients with normal HR/BP on tilt vs 49 controls, 91% had abnormal CO and CBF reductions with a near 1:1 CO-CBF slope, CO largely predicting the CBF fall. https://doi.org/10.3390/healthcare12242566
+- ext i2 van Campen 2023 (71 retested; 219 combined): In combined data from 219 ME/CFS patients, tilt-induced %CBF reduction was 25, 29 and 33% in mild, moderate and severe ICC disease; in 71 patients retested for worsening symptoms, severity rose but the mean CBF reduction was 24% at both visits. https://doi.org/10.3390/medicina59122153
+- ext i2 van Campen 2023 (42 at 20 deg, 41 at 70 deg): In 83 adolescent ME/CFS patients, extracranial Doppler CBF fell 27% at 20-degree tilt vs 31% at 70-degree tilt (p=0.003); no POTS at 20 degrees vs 32% at 70 degrees. https://doi.org/10.3389/fped.2023.1169447
+- ext i2 van Campen 2022 (30 vs 30): In 30 ME/CFS patients labelled with psychogenic pseudosyncope vs 30 matched ME/CFS controls, extracranial Doppler CBF fell 39% vs 25% at end tilt, with no HR or BP differences. https://doi.org/10.3390/medicina58010098
+- ext i2 van Campen 2021 (10 long COVID, 20 ME/CFS POTS, 20 ME/CFS non-POTS, 10 HC): 10 long COVID patients (all POTS on tilt), 20 ME/CFS-POTS, 20 ME/CFS-normal-HR/BP and 10 HC: CBF and cardiac index fell more in all patient groups than HC, with larger CBF fall in long COVID than in normal-response ME/CFS. https://doi.org/10.3390/medicina58010028
+- ext i2 van Campen 2021 (199 vs 22): In 199 ME/CFS patients and 22 controls, the abnormally large fall in cerebral blood flow during head-up tilt was present in all patients regardless of %predicted peak VO2 on CPET (no, mild or more severe deconditioning). https://doi.org/10.1186/s12967-021-02819-0
+
+## muscle-exertion-lc-peak-vo2 [replicated] rep 3 ext 5 con 1
 Claim: People with long COVID have lower peak VO2 than recovered controls on average (about 5 ml/kg/min), with patterns pointing to deconditioning, chronotropic incompetence and impaired peripheral extraction rather than a cardiac or ventilatory limit.
-- rep i3 Weber 2026, preprint (18 vs 18): Severe PCC (61% met ME/CFS criteria) had markedly lower peak power (1.1 vs 2.4 W/kg, p reported) on a single CPET; PEM symptoms tracked daily for 14 days after to assess safety. https://doi.org/10.21203/rs.3.rs-9605064/v1
-- rep i3 Durstenfeld 2022, preprint (?): Meta-analysis of CPET: reduced exercise capacity in long COVID https://doi.org/10.1101/2022.06.15.22276458
-- rep i2 Tomaskovic 2026 (92): In 92 severe PCC patients, 49% met ME/CFS criteria and 79% screened DSQ-PEM positive; CPET assessed peak VO2, peak power and O2 pulse for work disability. https://doi.org/10.1186/s40798-026-00995-1
-- rep i2 Cherneva 2025 (about 95): Long-term PCS with moderate-severe symptoms had lower peak VO2 (24.1 vs 26.7 vs 27.0 mL/kg/min) and more chronotropic insufficiency (81.5% vs 35% vs 12.5%) and abnormal HRR. https://doi.org/10.3390/biomedicines13051138
-- rep i2 Cherneva 2025 (about 95): Three-year follow-up: moderate-severe PCS had more symptoms during CPET (73.6% vs 24.8% vs 17.4%) and failed to reach anaerobic threshold more often (51.8% vs 25% vs 12.5%). https://doi.org/10.3390/biomedicines13051097
-- rep i2 Zheng 2024 (40 studies, 6,241 survivors): At 3+ months, survivors had impaired 6MWT, VO2max and anaerobic threshold versus non-COVID controls. https://doi.org/10.1016/j.jesf.2024.06.001
-- ext i2 Steinbeis 2024 (36 PCF vs 28 PCR vs 24 no-PCC): Fatigue/exertional-intolerance phenotype had reduced respiratory muscle strength (median 55.8% vs 70.6% predicted) and complex ventilatory dysfunction in 88.9% vs 29.1%. https://doi.org/10.1183/23120541.01027-2023
-- ext i2 Tamariz 2025, preprint (50 vs 45): CPET indirect calorimetry in long COVID: similar peak VO2, HR and anaerobic threshold as controls, but inefficient energy consumption patterns related to PEM. https://doi.org/10.21203/rs.3.rs-8072121/v1
-- ext i2 Durstenfeld 2022, preprint (60): Long COVID with cardiopulmonary symptoms had reduced exercise capacity and chronotropic incompetence on CPET with early systemic inflammation markers. https://doi.org/10.1101/2022.05.17.22275235
+- con i2 Tamariz 2025, preprint (50 vs 45): In 50 long COVID patients vs 45 referred controls, peak VO2, exertional heart rate and VO2 at anaerobic threshold were similar. https://doi.org/10.21203/rs.3.rs-8072121/v1
+- rep i3 Peter 2025 (?): In a German population-based nested case-control study (982 PCS, 576 controls), 67.6% of PCS cases persisted into year two; persistent PCS had lower VO2max (27.9 vs 31.0 ml/kg/min), handgrip (40.2 vs 42.5 kg) and higher VE/VCO2 slope than recovered controls, with no lab, cardiac, EBV or viral-persistence differences; 35.6% reported PEM >14 h and 11.6% ME/CFS-compatible symptoms. https://doi.org/10.1371/journal.pmed.1004511
+- rep i2 Contreras 2024 (77 vs 766): In 77 long COVID patients vs 766 non-COVID patients with undifferentiated dyspnea, percent-predicted peak VO2 was lower (73 vs 85%); ventilatory inefficiency was similar (19% in both groups), and marked limitation was uncommon. https://doi.org/10.1016/j.pcad.2023.05.005
+- rep i2 Barbagelata 2022 (?): Among 200 PCR-confirmed post-COVID patients tested 45-120 days after infection, those with post-COVID syndrome had lower peak VO2 (25.8 vs 28.8 ml/kg/min, p=0.017), were less likely to reach the anaerobic threshold and had more symptoms during CPET, robust to adjustment. https://doi.org/10.1016/j.medcle.2021.07.023
+- ext i2 Tomaskovic 2026 (92): Within 92 severe long COVID patients, those meeting ME/CFS criteria had lower peak VO2 (13.0 vs 15.4 ml/kg/min), peak power and O2 pulse, and peak VO2 was lowest in those on sick leave (13.3) vs reintegration (16.0) or working (18.0). https://doi.org/10.1186/s40798-026-00995-1
+- ext i2 Zheng 2024 (40 studies, 6,241 survivors): Meta-analysis of 40 studies (6241 COVID survivors >3 months post-infection) found impaired 6MWT, VO2max and anaerobic threshold vs non-COVID controls, with similar resting VO2 and no differences in SpO2, heart rate, blood pressure, fatigue or dyspnoea during testing. https://doi.org/10.1016/j.jesf.2024.06.001
+- ext i2 Baldi 2024 (61 vs 29): In 61 children with long COVID vs 29 healthy controls, 90.2% vs 10.3% had a pathological CPET, with significantly more abnormal peak VO2 (p=0.001), signs of deconditioning and cardiogenic inefficiency. https://doi.org/10.1097/inf.0000000000004371
+- ext i2 Kersten 2022 (143): Non-invasive CPET in 120 symptomatic post-COVID patients who reached adequate exertion: 65% showed no limitation, 15.8% deconditioning, 9.2% pulmonary mechanical limitation (mostly dysfunctional breathing), 5.8% pulmonary vascular and 4.2% cardiac limitation. https://doi.org/10.3390/ijerph191811421
+- ext i2 Durstenfeld 2022, preprint (60): In 60 LIINC participants at median 17.6 months, 18/37 (49%) with cardiopulmonary symptoms had reduced peak VO2 on CPET, chronotropic incompetence was the most common abnormality, and reduced capacity was associated with early elevated inflammatory markers. https://doi.org/10.1101/2022.05.17.22275235
 
-## vascular-small-heart-stroke-volume [replicated] rep 9 ext 4 con 1
+## vascular-small-heart-stroke-volume [replicated] rep 6 ext 2 con 0
 Claim: Left-ventricular volumes and stroke volume are smaller in ME/CFS at rest and fall more than normal on tilt, largely in proportion to low blood volume rather than to weak heart muscle.
-- con i2 Montague 1989 (41 vs controls): Resting ECG, T-wave integrals, ambulatory rhythm and left ventricular dimensions and shortening were normal, no wall-motion abnormalities, but only 4 of 31 patients vs 20 of 32 controls reached target heart rate and peak heart rate was lower (124 vs 152 bpm). https://doi.org/10.1378/chest.95.4.779
-- rep i2 Tomas 2017 (42 vs 10): Plasma BNP higher in CFS (p=0.013), associated with smaller end-diastolic and end-systolic volumes on cardiac MRI; unrelated to disease duration. https://doi.org/10.1136/openhrt-2017-000697
-- rep i2 Miwa K. 2015 (40 vs 40): Small left ventricle and low cardiac index (EDD <40 mm 45% vs 3%; cardiac index <2 53% vs 8%) were common in ME, and orthostatic intolerance was present in 35 of 36 tested. https://doi.org/10.1007/s00380-014-0510-y
-- rep i2 Wyller 2014 (30 vs 39): At supine rest, CFS had higher heart rate and blood pressure, and lower stroke index and HRV; 20-degree tilt responses were identical, imagined standing raised sympathetic HRV indices more in CFS. https://doi.org/10.1186/1751-0759-8-22
-- rep i2 Miwa 2011 (46 CFS (26 OI+, 20 OI-), 11 OI, 27 controls): Echocardiography showed smaller LV dimensions, stroke volume index, cardiac index and LV mass in CFS with orthostatic intolerance than in CFS without OI and controls. https://doi.org/10.1002/clc.20962
-- rep i2 Miwa 2009 (53): Echocardiography in 53 CFS patients showed a small left ventricular chamber with low cardiac output in a considerable number; slender build common. https://doi.org/10.2169/internalmedicine.48.2347
-- rep i2 Miwa 2009 (42): Small heart on chest X-ray was common in CFS; echo showed small LV chamber and poor cardiac performance, which fluctuated with symptom severity across repeated exams. https://doi.org/10.1016/j.jjcc.2009.02.008
-- ext i2 van Campen 2023 (362 vs 52): At end-tilt ME/CFS had lower stroke volume index (22 vs 27 ml/m2) and chronotropic incompetence relative to healthy controls, without POTS or hypotension. https://doi.org/10.1016/j.ibneur.2023.04.005
-- ext i2 Baum 2022 (227): Cardiac function and biomarkers in relation to fatigue and function in PCS https://doi.org/10.1038/s41598-022-24038-3
-- ext i2 Miwa K. 2016 (24): On bad days vs good days: higher resting HR, 21% could not stand 10 min, 43% developed POT only on bad days; LV end-diastolic diameter and stroke volume index lower on bad days. https://doi.org/10.1007/s00380-015-0744-3
-- ext i2 Hollingsworth 2010 (12 CFS vs 8 controls (MRS); 64 for tilt): Cardiac PCr/ATP correlated with muscle bioenergetics, and 4 of 12 CFS had cardiac energy impairment linked to contractility changes on standing. https://doi.org/10.1111/j.1365-2362.2010.02310.x
+- rep i3 De Lorenzo 1998 (273 vs 72): Echocardiography in 273 CFS vs 72 controls showed smaller LV end-systolic (p<0.001) and end-diastolic (p=0.008) dimensions, thinner posterior walls, lower LV mass (p=0.006) and smaller carotid diameters. https://doi.org/10.1093/qjmed/91.7.475
+- rep i2 Miwa K. 2015 (40 vs 40): In 40 ME patients vs 40 controls, LV end-diastolic and end-systolic diameters, stroke volume index, cardiac index and LV mass index were all smaller; small LVEDD (<40 mm) in 45% vs 3% and cardiac index <2 in 53% vs 8%; ejection fraction normal; OI in 35/36. https://doi.org/10.1007/s00380-014-0510-y
+- rep i2 Miwa 2011 (46 CFS (26 OI+, 20 OI-), 11 OI, 27 controls): Echocardiography showed smaller LV end-diastolic and end-systolic dimensions, stroke volume index, cardiac index and LV mass index in 26 CFS with OI than in 20 CFS without OI and 27 controls. https://doi.org/10.1002/clc.20962
+- rep i2 Peckerman 2003 (38 vs 27): Impedance cardiography in 38 CFS (18 severe) vs 27 sedentary controls showed lower stroke volume and cardiac output in severe CFS than in controls and less ill patients. https://doi.org/10.1097/00000441-200308000-00001
+- rep i2 LaManca 1999 (39 vs 31): In 39 CFS vs 31 inactive controls on 45-min 70-degree tilt (impedance cardiography), CFS had higher heart rate and smaller pulsatile-systolic area at baseline and early tilt and smaller stroke volume among completers, but positive tilt rates (11 vs 12) and haemodynamic adjustments to tilt did not differ. https://doi.org/10.1046/j.1365-2281.1999.00154.x
+- rep i2 Montague 1989 (41 vs controls): In 41 patients vs matched controls, resting ECG, 24 h rhythm, LV dimensions and fractional shortening were normal, but on graded exercise only 4/31 patients vs 20/32 controls reached target heart rate, peak HR was 124 vs 152 bpm (66% vs 82% of age-maximum, p<0.0001) and exercise lasted 9 vs 12 min. https://doi.org/10.1378/chest.95.4.779
+- ext i2 van Campen 2023 (362 vs 52): In 362 ME/CFS patients without POTS or hypotension vs 52 controls, end-tilt stroke volume index was lower (22 vs 27 ml/m2), with heart-rate rises below the control prediction interval (orthostatic chronotropic incompetence). https://doi.org/10.1016/j.ibneur.2023.04.005
+- ext i2 Miwa 2009 (42): In 42 CFS patients under 40, a small heart on chest X-ray was common; echo showed a small LV chamber and poor cardiac performance in those patients, and cardiac function on repeated exams tracked symptom exacerbation and remission. https://doi.org/10.1016/j.jjcc.2009.02.008
 
-## neuro-mri-structure [contested] rep 6 ext 6 con 2
-Claim: Conventional structural MRI (grey matter volume, routine clinical reads) shows no consistent abnormality in ME/CFS. Reported regional volume differences rarely replicate across groups.
-- con i2 Perrin 2010 (18 vs 9, 1 year apart): Longitudinal MRI over one year showed no differences in atrophy, white matter hyperintensities, CSF volume or cerebral/CSF flow in CFS. https://doi.org/10.1259/bjr/85621779
-- con i2 Natelson 1993 (52 vs 52): Brain MRI was abnormal in 27% of CFS vs 2% of controls (T2 white matter foci in 9 vs 1, ventricular or sulcal enlargement in 5). https://doi.org/10.1016/0022-510x(93)90276-5
-- rep i2 Almutairi 2020 (?): Systematic review of structural and functional MRI: inconsistent anatomical differences, more or broader activation on tasks; insufficient data for a neural biomarker. https://doi.org/10.1136/bmjopen-2019-031672
-- rep i2 Maksoud 2020 (55 studies): Systematic review of neuroimaging: differences reported in grey and white matter volume, cerebral blood flow, EEG, connectivity, but heterogeneous. https://doi.org/10.1371/journal.pone.0232475
-- rep i2 Barnden 2018 (43 vs 27): T1 spin-echo MRI showed lower signal in a brainstem region and higher signal in sensorimotor white matter (P_FWE=0.002); no volume differences. https://doi.org/10.1016/j.nicl.2018.07.011
-- rep i2 van der Schaaf 2017 (89 CFS vs 26 HC): Global grey matter volume did not differ between CFS and controls; pain, not fatigue, predicted left DLPFC GMV and NAA/Cr. https://doi.org/10.1016/j.biopsych.2016.07.016
-- rep i2 Puri 2012 (26 vs 26): 3T voxel-based morphometry in 26 CFS vs 26 matched controls found regional grey and white matter volume changes; the abstract links them to memory, visual processing and motor planning. https://doi.org/10.1259/bjr/93889091
-- rep i2 Greco 1997 (43 vs 43): Brain MRI abnormalities in 32% of patients and 28% of controls; white matter hyperintensity prevalence did not differ. https://pubmed.ncbi.nlm.nih.gov/9282853/
-- ext i2 Schwichtenberg 2026 (49 vs 48): PCC with cognitive complaints show deficits in attention, executive function and memory with MRI structural brain differences correlating to symptoms. https://doi.org/10.1093/braincomms/fcag099
-- ext i2 Hartung 2026 (57 vs 57): Reduced cortical thickness in parahippocampal and temporal regions after COVID hospitalisation, associated with fatigue and acute severity. https://doi.org/10.1002/acn3.70260
-- ext i2 Thapaliya 2025 (17 LC, 29 ME/CFS, controls): 7T MRI: hippocampal subfield volumes altered in both long COVID and ME/CFS (head, p=0.01 each), similar between the two, and associated with fatigue, pain and function. https://doi.org/10.1371/journal.pone.0316625
-- ext i2 Shan 2022 (?): Multimodal MRI cross-sectional study toward diagnostic markers https://doi.org/10.3389/fneur.2022.954142
-- ext i2 Thapaliya 2020 (45 vs 27): T1w/T2w MRI ratio raised in white matter, subcortical grey matter and brainstem in Fukuda ME/CFS; related to HRV, cognition and respiration rate. https://doi.org/10.1016/j.nicl.2020.102366
-- ext i2 Shan 2016 (15 CFS vs 10 NC, 6-year follow-up): Longitudinal MRI showed greater white matter volume loss in left inferior fronto-occipital fasciculus in CFS. https://doi.org/10.1002/jmri.25283
-
-## neuro-cbf-rest [contested] rep 8 ext 0 con 2
+## neuro-cbf-rest [contested] rep 3 ext 1 con 2
 Claim: Resting (supine) cerebral blood flow by ASL or SPECT is reported as lower in some ME/CFS studies, but the results are inconsistent and often confounded by unmeasured orthostatic intolerance.
-- con i2 Lewis 2001 (22 pairs): Resting HMPAO-SPECT showed no difference in rCBF abnormalities between CFS twins and healthy co-twins, with or without adjustment for fitness and depression. https://doi.org/10.1148/radiology.219.3.r01jn18766
-- con i2 MacHale 2000 (30 vs 12 depressed vs 15 healthy): Resting SPECT showed increased perfusion in right thalamus, pallidum, putamen and left thalamus in CFS, similar to but not identical with depression. https://doi.org/10.1192/bjp.176.6.550
-- rep i2 Hedberg 2026 (22 vs 19): Post-COVID fatigue patients had lower global CBF (49.2 vs 51.7 mL/100g/min) and regional hypoperfusion, with slower reaction times on a 20-min vigilance task. https://doi.org/10.1016/j.ynirp.2026.100406
-- rep i2 Hosp 2025 (55 vs 36): ASL MRI shows right occipital hypoperfusion in PCC vs COVID-recovered controls, associated with fatigue. https://doi.org/10.1371/journal.pone.0335038
-- rep i2 Li 2021 (31 vs 48): PCASL MRI showed reduced regional cerebral blood flow in limbic regions (ACC, putamen, pallidum, insula) in ME/CFS; ACC hypoperfusion related to severity. https://doi.org/10.3390/tomography7040056
-- rep i2 Yoshiuchi 2006 (25 vs 7): Xenon-CT: absolute cortical blood flow reduced in MCA territories in CFS (P<0.05), most in patients without psychiatric disorder. https://doi.org/10.1111/j.1475-097x.2006.00649.x
-- rep i2 Costa 1995 (24 vs 24 pilot; 67 ME/CFS and 40 normals total): HMPAO SPET showed brainstem hypoperfusion in ME/CFS (0.72 vs 0.80, p<0.0001), lower than in depressed patients (0.71 vs 0.77) and with generalised reduced brain perfusion. https://pubmed.ncbi.nlm.nih.gov/8542261/
-- rep i2 Schwartz 1994 (45 CFS vs 27 AIDS dementia vs 14 depression vs 38 healthy): HMPAO SPECT defects per patient were 6.53 in CFS vs 1.66 in controls (similar to depression 6.43), and midcerebral uptake index was lower in CFS. https://doi.org/10.2214/ajr.162.4.8141022
+- con i2 Lewis 2001 (22 pairs): In 22 monozygotic twin pairs discordant for CFS, resting 99mTc-HMPAO SPECT showed no difference in visually read abnormalities or quantified rCBF, unchanged after adjusting for fitness, depression and mood. https://doi.org/10.1148/radiology.219.3.r01jn18766
+- con i2 MacHale 2000 (30 vs 12 depressed vs 15 healthy): Resting SPECT in 30 non-depressed CFS, 12 depressed and 15 controls showed increased perfusion in the right thalamus, pallidum and putamen and left thalamus in CFS, not reduced perfusion. https://doi.org/10.1192/bjp.176.6.550
+- rep i2 Li 2021 (31 vs 48): 3T PCASL in 31 ME/CFS vs 48 HC showed resting hypoperfusion in anterior cingulate, putamen, pallidum and anterior ventral insula, and lower ACC rCBF correlated with symptom severity. https://doi.org/10.3390/tomography7040056
+- rep i2 Costa 1995 (24 vs 24 pilot; 67 ME/CFS and 40 normals total): HMPAO SPECT showed generalised reduced brain perfusion and brainstem hypoperfusion in ME/CFS (0.72 vs 0.80 in pilot, p<0.0001; 0.71 vs 0.77 in depressed patients, p<0.0001) in 67 patients vs 40 controls plus depressed and epilepsy comparison groups. https://pubmed.ncbi.nlm.nih.gov/8542261/
+- rep i2 Schwartz 1994 (45 CFS vs 27 AIDS dementia vs 14 depression vs 38 healthy): 99mTc-HMPAO SPECT showed 6.53 regional perfusion defects per patient in 45 CFS patients vs 1.66 in 38 healthy controls (similar to 6.43 in unipolar depression), mainly frontal and temporal, with a lower midcerebral uptake index in CFS. https://doi.org/10.2214/ajr.162.4.8141022
+- ext i2 Hedberg 2026 (22 vs 19): ASL in 22 post-COVID patients vs 19 matched controls showed lower global CBF (49.2 vs 51.7 mL/100g/min) and regional hypoperfusion (e.g. right inferior occipital 27.9 vs 46.4), with slower reaction times on a 20-min PVT. https://doi.org/10.1016/j.ynirp.2026.100406
 
-## trials-pace-get-cbt [contested] rep 4 ext 7 con 2
-Claim: PACE (n=641) reported modest gains in self-rated fatigue and function with CBT and graded exercise, but these were not matched by objective measures, used Oxford criteria, and vanished between groups by 2.5 years.
-- con i2 Zhao 2026 (1944 (17 RCTs)): Exercise improved fatigue (SMD 0.85) and QoL (SMD 0.99) but not cardiopulmonary function or functional capacity. https://doi.org/10.1016/j.jpsychores.2026.112677
-- con i2 White 2021 (10 trials, 1279): Meta-analysis found no excess self-rated deterioration with GET (RR 0.62, 0.32-1.17) but more follow-up dropouts (RR 1.51). https://doi.org/10.1016/j.jpsychores.2021.110533
-- rep i2 Kim 2020 (55 RCTs, 6316 participants): Eight interventions (e.g. CBT, GET, CoQ10+NADH, rintatolimod) showed significance in individual RCTs but none was definitively effective; 76% used Fukuda criteria. https://doi.org/10.1186/s12967-019-02196-9
-- rep i2 White 2013 (641): Recovery at 52 weeks was 22% after CBT and GET versus 8% APT and 7% SMC. https://doi.org/10.1017/s0033291713000020
-- rep i2 Price 2008 (15 RCTs, 1043 participants): Cochrane review: CBT vs usual care reduced fatigue (SMD -0.39, 95% CI -0.60 to -0.19; 6 studies, 373 participants). https://doi.org/10.1002/14651858.cd001027.pub2
-- rep i2 Deale 2001 (60 (53 followed at 5 years)): At 5 years, 68% of the CBT group vs 36% of the relaxation group rated themselves much improved, with more complete recovery and work hours, though few reached normal fatigue levels. https://doi.org/10.1176/appi.ajp.158.12.2038
-- ext i2 Kuut 2024 (8 trials, 1298): IPD meta-analysis: CBT reduces fatigue (beta -11.46, CI -15.13 to -7.79); younger, less impaired, fluctuating-activity patients benefit more; PEM did not moderate. https://doi.org/10.1017/s0033291723003148
-- ext i2 Clark 2021 (211 (164 followed)): GETSET guided graded exercise self-help: short-term fatigue gain maintained at 15 months but no longer differed from specialist care; no main effect after multiplicity adjustment. https://doi.org/10.1016/j.jpsychores.2021.110484
-- ext i2 Wormgoor 2021 (18 RCTs): Review of physiotherapy RCTs: effects of exercise-type interventions diminished with narrower case definitions requiring PEM, more objective outcomes and longer follow-up; only one RCT used PEM-required criteria. https://doi.org/10.1186/s12967-020-02683-4
-- ext i2 Ahmed 2020 (18 RCTs): Systematic review rates methodological quality of CBT and GET RCTs as low, with bias affecting subjective primary outcomes. https://doi.org/10.1177/1359105319847261
-- ext i2 McPhee G. 2017 (?): Review: CBT studies with objective outcomes show no evidence of improved physical capability or return to work. https://doi.org/10.1177/1359105317707215
-- ext i2 Dougall 2014 (641): Adverse events did not differ between arms; physical function deterioration occurred in 25% after APT, 9% CBT, 11% GET, 18% SMC. https://doi.org/10.1016/j.jpsychores.2014.04.002
-
-## muscle-exertion-deconditioning [several] rep 3 ext 6 con 3
-Claim: Several designs (aerobic-capacity-matched controls, idiopathic-fatigue and MS comparison groups, and a 60-day bed-rest model) indicate that deconditioning alone does not explain the exercise and muscle abnormalities in ME/CFS.
-- con i2 Harvey 2008 (4779 followed; 34 CFS cases at age 53): Prospective cohort: CFS (1.1%) was not preceded by more childhood illness or atopy; higher childhood/adult exercise frequency and lower BMI preceded later CFS. https://doi.org/10.1097/psy.0b013e31816a8dbc
-- con i2 Cook 2006 (29 CFS, 23 CFS+FM, 32 controls): Incremental exercise: CFS alone had cardiorespiratory responses not different from controls and matched-fitness subgroups showed no differences; CFS+FM had lower peak VO2 and end-tidal CO2; all rated exercise more effortful. https://doi.org/10.1002/art.22124
-- con i2 Sargent 2002 (16 M + 17 F vs matched sedentary controls): VO2max was not different in male CFS (40.5 vs 43.3 mL/kg/min) and 4 mL/kg/min lower in female CFS (30.0 vs 34.2, p=0.002), with both groups near age-predicted values (96-101%). https://doi.org/10.1097/00005768-200201000-00009
-- rep i3 Franklin 2019 (32 studies): Pooled peak VO2 5.2 ml/kg/min lower (95% CI 3.8-6.6) in CFS/ME than healthy controls; high heterogeneity. https://doi.org/10.1055/a-0802-9175
-- rep i2 Bazelmans 2001 (20 vs 20): Maximal-exercise fitness (workload vs heart-rate slope) did not differ between CFS patients and matched neighbourhood controls. https://doi.org/10.1017/s0033291799003189
-- rep i2 De Lorenzo 1998 (273 vs 72): CFS patients had smaller left ventricular end-systolic and diastolic dimensions, lower LV mass and smaller carotid diameters, interpreted by authors as physical and cardiovascular deconditioning. https://doi.org/10.1093/qjmed/91.7.475
-- ext i3 Cook 2022 (214 vs 189; matched 99 vs 99): MCAM multi-site ramp test: ME/CFS had lower ventilation, breathing frequency, HR and chronotropic response at matched relative intensity, including in fitness-matched subgroup. https://doi.org/10.1371/journal.pone.0265315
-- ext i2 van Campen 2021 (199 vs 22): Cerebral blood flow fall on tilt was abnormally high in all ME/CFS irrespective of CPET peak VO2 category, so deconditioning did not explain OI. https://doi.org/10.1186/s12967-021-02819-0
-- ext i2 Meeus 2011 (67 vs controls (age-matched sedentary)): Accelerometry for 6 days: CFS patients were less active and more sedentary than sedentary controls; peak activity and peak/average ratio did not differ. https://doi.org/10.1016/j.apmr.2011.06.023
-- ext i2 Newton 2011 (107 vs 107): Active energy expenditure (>3 METs) was lower in CFS, with similar sedentary time, and the reduction was partly explained by autonomic dysfunction (HRV) but not fatigue severity. https://doi.org/10.1093/qjmed/hcr029
-- ext i2 Evering 2011 (17 studies, 22 comparisons): Pooled daily physical activity in CFS was 68% of controls (14 of 17 studies lower); variability not significantly different. https://doi.org/10.1177/0269215510380831
-- ext i2 Fulcher 2000 (66 CFS vs 30 sedentary vs 15 depressed): CFS patients were physically weaker with reduced exercise capacity and higher perceived effort than sedentary controls, but were equally unfit. https://doi.org/10.1136/jnnp.69.3.302
-
-## immune-nk-cytotoxicity [contested] rep 5 ext 2 con 3
-Claim: Natural-killer-cell cytotoxicity is reduced in ME/CFS in meta-analysis of the older literature (Hedges g ~0.96), but the largest standardised multi-site study and two deep-phenotyping studies found no difference.
-- con i2 Lyall 2003 (?): Systematic review: low NK cell findings were inversely related to study quality; no consistent pattern of immune abnormality. https://doi.org/10.1016/s0022-3999(02)00515-9
-- con i2 Mawle 1997 (?): No differences in white cell counts, immune complexes, complement, immunoglobulins, delayed hypersensitivity, NK function or proliferation; marginal differences in cytokines and surface markers, larger when subgrouped by onset or symptom state. https://doi.org/10.1093/infdis/175.1.136
-- con i2 Peakman 1997 (43 CFS (trial entrants) vs controls): T-cell subsets, activation and naive/memory proportions did not differ from controls; NK cells and CD11b+ CD8 cells were higher; immune measures did not change with treatment or predict response. https://doi.org/10.1006/clin.1996.4284
-- rep i2 Marshall-Gradisnik 2016 (39 vs 30): NK lysis lower in ME/CFS (17% vs 31%); 11 SNPs in TRPC4, TRPC2, TRPM3, TRPM8 and AChR genes found in NK cells. https://doi.org/10.2147/tacg.s99405
-- rep i2 Brenu 2012 (65 vs 21 over 12 months): NK cytotoxic activity lower at baseline, 6 and 12 months; fewer CD56bright NK cells at T1 and T2; cytokine secretion varied over time. https://doi.org/10.1186/1479-5876-10-88
-- rep i2 Levine 1998 (8 affected, 12 unaffected relatives, 8 controls): NK cytotoxicity was lower in 8 affected family members than controls (P=0.006) with normal NK cell counts; low activity also in 4/12 unaffected relatives. https://doi.org/10.1006/clin.1998.4554
-- rep i2 Barker 1994 (?): CFS CD8+ T cells had reduced CD11b and raised CD38 and HLA-DR, and NK activity was markedly decreased in almost all patients; T, B and NK numbers were normal. https://doi.org/10.1093/clinids/18.supplement_1.s136
-- rep i2 Caligiuri 1987 (41 vs 23): Most patients had low NKH1+T3- cell numbers and consistently low cytotoxicity against several targets; IL-2 partly restored killing of K562 but not EBV-infected cells. https://doi.org/10.4049/jimmunol.139.10.3306
-- ext i2 Rivas 2018 (76 vs 73): Lower Tregs, higher NKT-like cells, lower NKG2C and higher NK CD69/CD56bright in patients; classification model reached 70% accuracy. https://doi.org/10.3389/fimmu.2018.01028
-- ext i2 Maher 2005 (?): Intracellular perforin was reduced in NK cells (and indicatively in cytotoxic T cells) in CFS, a possible basis for reduced NK cytotoxicity. https://doi.org/10.1111/j.1365-2249.2005.02935.x
-
-## vascular-pots-overlap [replicated] rep 4 ext 6 con 2
-Claim: POTS is present in roughly a fifth of ME/CFS patients on formal testing (prevalence varies 6-43%), but cerebral hypoperfusion and preload failure are found in most patients regardless of whether they meet POTS heart-rate criteria.
-- con i2 Monaghan 2022 (85): Orthostatic intolerance in 66% on active stand but POTS in only 2% on tilt; OI linked to higher early heart rate. https://doi.org/10.3389/fphys.2022.833650
-- con i2 Roerink 2017 (419 CFS vs 341 non-CFS fatigued): POTS prevalence on active stand was 5.7% in CFS vs 6.9% non-CFS adults (p=0.54); 18.2% vs 17.4% in adolescents; POTS not a discriminating marker. https://doi.org/10.1111/joim.12564
-- rep i2 Björnson 2025 (467): POTS found in 31% (143) of highly symptomatic non-hospitalised long COVID after tilt/active stand; POTS patients younger, 91% female, lower activity and shorter 6MWT. https://doi.org/10.1161/circep.124.013629
-- rep i2 van Campen 2018 (627 ME/CFS evaluated, 155 POTS): About a quarter (155/627) of ME/CFS patients met POTS criteria on tilt; abbreviated 2-5 min tilt would miss many (median time to criteria about 3 min). https://doi.org/10.3389/fped.2018.00349
-- rep i2 Hoad 2008 (59 vs 52): Active stand test: max heart rate higher in CFS/ME (106 vs 98 bpm, p=0.02); POTS in 27% (16/59) vs 9% of controls (p=0.006). https://doi.org/10.1093/qjmed/hcn123
-- rep i2 Naschitz 2002 (21 CFS vs 24 non-CFS fatigue vs 44 syncope vs 21 healthy): Abnormal tilt endpoints occurred in 79% of CFS vs 35% non-CFS chronic fatigue, 46% syncope and 14% healthy; hemodynamic instability score OR 34.8 vs healthy. https://doi.org/10.1053/sarh.2002.34608
-- ext i3 Lee 2024 (277 vs 50): NASA lean test: 15% abnormal, 7% POTS and 8% OH; 52% symptomatic during test; 45% of abnormal tests had no prior OI symptoms; healthy volunteers had no POTS. https://doi.org/10.1002/jmv.29486
-- ext i2 Gunning 2026 (?): Pre-pandemic POTS and long COVID POTS have indistinguishable elevations in 14 of 15 inflammatory markers, including Caspase-1p20, IL-1b and IL-18, vs controls. https://doi.org/10.3390/biomedicines14071605
-- ext i2 Grach 2024 (732): Mayo clinic: 58% of long COVID patients screened positive for ME/CFS vs 0% of controls; also joint hypermobility and orthostatic intolerance overlap. https://doi.org/10.3389/fneur.2024.1482917
-- ext i2 Mahdi 2023 (20 PACS+POTS vs 22 PACS vs 21 controls): About 200 of 700 cardiometabolic proteins dysregulated (>90% upregulated) in both PACS groups vs controls, with >90% overlap between groups; hemostasis, immune, angiogenesis pathways. https://doi.org/10.1038/s41598-023-47539-1
-- ext i2 Reynolds 2014 (306): POTS comorbid in 11% (33/306) on a 20-minute standing task; POTS patients younger. https://doi.org/10.1111/joim.12161
-- ext i2 Lewis 2013 (179 (24 POTS)): POTS in 13% of CFS; POTS subgroup younger with distinct autonomic features. https://doi.org/10.1111/joim.12022
-
-## immune-cytokine-meta [several] rep 5 ext 0 con 3
-Claim: Meta-analysis of 42 studies finds small but significant elevations of TNF, IL-2, IL-4, TGF-beta and CRP, with 12 other proteins showing no difference.
-- con i2 Wyller 2015 (120 vs 68): Twenty-seven plasma cytokines and network parameters did not differ between adolescent CFS patients and controls. https://doi.org/10.1016/j.bbi.2014.12.025
-- con i2 Mawle 1997 (?): No differences in white cell counts, immune complexes, complement, immunoglobulins, delayed hypersensitivity, NK function or proliferation; marginal differences in cytokines and surface markers, larger when subgrouped by onset or symptom state. https://doi.org/10.1093/infdis/175.1.136
-- con i2 Swanink 1996 (76 vs 69): CD11b on CD8 cells was lower; CD38 and HLA-DR increases were not confirmed; apoptosis and circulating cytokines did not differ; endotoxin-stimulated TNF-alpha and IL-1 beta were lower; none correlated with fatigue. https://doi.org/10.1093/infdis/173.2.460
-- rep i3 Raijmakers 2025 (30 studies, 833 cases; 11 studies 413 cases): Meta-analysis: PIFS had higher WBC at 3-6 months (d=0.41), RANTES (d=0.45) and TNF-alpha (d=0.30) at 6-12 months vs recovered controls. https://doi.org/10.1016/j.ebiom.2025.105970
-- rep i2 Kwon 2025 (156 samples from 79 participants): Symptoms including PEM, fatigue, brain fog, GI symptoms accompanied by higher IL-10, VEGF, MIP-1a, IL-1b, IL-6, IL-8, MIG, granzyme A, CX3CL1. https://doi.org/10.3904/kjim.2024.217
-- rep i2 Maes 2012 (107 ME/CFS, 37 CF, 20 controls): IL-1, TNF-alpha, neopterin, lysozyme and PMN-elastase were higher in ME/CFS than controls and CF; IL-1 and TNF correlated with fatigue and flu-like malaise. https://doi.org/10.1016/j.jad.2011.09.004
-- rep i2 Fletcher 2009 (?): Multiplex plasma cytokines: LT-alpha, IL-1a, IL-1b, IL-4, IL-5, IL-6, IL-12 higher; IL-8, IL-13, IL-15 lower; TNF, IFN-gamma, IL-2, IL-10, IL-17 not different. https://doi.org/10.1186/1479-5876-7-96
-- rep i2 Buchwald 1997 (153 fatigued patients): CRP, beta2-microglobulin and neopterin were higher in CFS than controls, markers correlated with each other in a subset, and were of limited diagnostic use. https://pubmed.ncbi.nlm.nih.gov/9034999/
-
-## trials-post-covid-course [several] rep 5 ext 8 con 0
-Claim: About 4.5% of SARS-CoV-2-infected adults in RECOVER met IOM ME/CFS criteria (vs 0.6% uninfected; HR 4.93), and those meeting Canadian criteria at Charité stayed severely ill to 20 months while other long-COVID patients improved.
-- rep i3 O'Regan 2024 (50115): Danish cohort with test-negative controls assessed fatigue and PEM 2-18 months after SARS-CoV-2 testing; primary outcomes fatigue and PEM by infection status. https://doi.org/10.1001/jamanetworkopen.2024.34863
-- rep i2 Peter 2025 (?): In a German population-based nested case-control study, 67.6% of PCS patients still had PCS at second-year follow-up; 78.5% of recovered stayed well; comprehensive cardiopulmonary and neurocognitive testing performed. https://doi.org/10.1371/journal.pmed.1004511
-- rep i2 Bodey 2024 (?): After discharge from a UK long COVID service, 90.2% of respondents still had symptoms (EQ-5D index 0.53) and 43% met suspected ME/CFS criteria. https://doi.org/10.3390/jcm13195817
-- rep i2 Reuken 2024 (1022 (411 with follow-up)): 31.3% met ME/CFS criteria at median 255 days and 19.4% still at 402 days; self-reported fatigue fell 83.7 to 72.7%. https://doi.org/10.1007/s00406-023-01661-3
-- rep i2 Ballouz 2022, preprint (?): Natural course of post-COVID condition for trial design https://doi.org/10.1101/2022.06.22.22276746
-- ext i2 Pouliopoulou 2025 (?): Systematic review with meta-analysis of PEM prevalence in post-COVID condition and change after rehabilitation. https://doi.org/10.1016/j.apmr.2025.01.471
-- ext i2 Taquet 2024 (?): Cognitive and psychiatric symptom trajectories 2-3 years after hospitalisation. https://doi.org/10.1016/s2215-0366(24)00214-1
-- ext i2 Maffitt 2024 (18, 12-month follow-up): Questionnaire, peripheral muscle fatigue and autonomic function improved toward healthy controls over 12 months. https://doi.org/10.1038/s41598-024-59232-y
-- ext i2 Kirchberger 2024 (?): Two-year course of quality of life, mental health and fatigue in people with and without PCS. https://doi.org/10.1186/s12955-024-02245-y
-- ext i2 Oliveira 2022 (?): DePaul Symptom Questionnaire tracked long COVID symptoms over one year, improvement observed https://doi.org/10.3389/fmed.2022.1065620
-- ext i2 Jason 2021 (278 vs 502): Long haulers reported falling symptoms over time except worsening neurocognitive symptoms; became less severe than ME/CFS apart from orthostatic domain. https://doi.org/10.1080/21641846.2021.1922140
-
-## trials-prevalence-sex [replicated] rep 4 ext 6 con 1
+## trials-prevalence-sex [replicated] rep 2 ext 6 con 1
 Claim: ME/CFS affects roughly 0.2-1% of adults depending on criteria (US 2021-22: 1.3% self-reported diagnosis; England: 0.16% with a hospital-recorded diagnosis), with women affected 3-4 times as often as men.
-- con i2 Reeves 2007 (5623 surveyed): Estimated CFS prevalence 2.54% in adults 18-59, with female:male ratio 11.2:1 metropolitan but 0.8:1 rural. https://doi.org/10.1186/1478-7954-5-5
-- rep i2 Orji 2022 (?): Prevalence of ME/CFS in primary care https://doi.org/10.1186/s12889-022-13929-9
-- rep i2 Nacul 2011 (143000 screened): Minimum ME/CFS prevalence 0.2% overall (0.19% CDC-1994, 0.11% Canadian, 0.03% epidemiological); incidence 0.015% per year. https://doi.org/10.1186/1741-7015-9-91
-- rep i2 Reyes 2003 (7162 respondents): Point prevalence 235 per 100,000 (373 women, 83 men), incidence about 180 per 100,000/yr. https://doi.org/10.1001/archinte.163.13.1530
-- rep i2 Jason 1999 (28673 screened): CFS point prevalence was 0.42% (95% CI 0.29-0.56) in a Chicago community sample, highest in women, minority groups and lower-education groups. https://doi.org/10.1001/archinte.159.18.2129
-- ext i2 Fleig 2026 (?): Self-reported ME/CFS diagnosis in NHIS 2021-2023 including those no longer reporting it. https://doi.org/10.1186/s12889-026-27598-5
-- ext i2 Samms 2025 (100055 diagnosed): Primary-care records in England: 100,055 diagnosed ME/CFS (0.16% of registered patients), F:M 3.88:1, wide regional and ethnic variation in diagnosis. https://doi.org/10.1186/s12889-025-22603-9
-- ext i2 Wood 2024 (9,825 sampled (KPNC)): Population-based survey estimating ME/CFS-like illness prevalence and the share linked to COVID-19. https://doi.org/10.1371/journal.pone.0309810
-- ext i2 Jason 2020 (10119 youth screened): Community prevalence of paediatric ME/CFS was 0.75%, higher in African American and Latinx youth; under 5% previously diagnosed. https://doi.org/10.1007/s10566-019-09543-3
-- ext i2 Cho 2009 (2459 London, 3914 Sao Paulo): CDC-criteria prevalence 2.1% (London) vs 1.6% (Sao Paulo), p=0.20; diagnosed in 11 British cases but none in Brazil. https://doi.org/10.1192/bjp.bp.108.051813
-- ext i2 Wood 2024, preprint (9820): Kaiser Permanente Northern California: survey-defined ME/CFS-like illness is underdiagnosed in EHR; undiagnosed groups equally impaired. https://doi.org/10.1101/2024.12.04.24318508
+- con i2 Reeves 2007 (5623 surveyed): A random-digit-dial survey with clinical evaluation in Georgia (5,623 respondents aged 18-59) estimated CFS prevalence at 2.54%, 6-10 times earlier population estimates, with female:male ratios of 11.2:1 metropolitan, 1.7:1 urban and 0.8:1 rural. https://doi.org/10.1186/1478-7954-5-5
+- rep i3 Jason 1999 (28673 screened): Telephone screening of 28,673 Chicago adults followed by medical evaluation gave a CFS point prevalence of 0.42% (95% CI 0.29-0.56%), highest in women, minority groups and people with lower education and occupational status. https://doi.org/10.1001/archinte.159.18.2129
+- rep i2 Reyes 2003 (7162 respondents): Population-based Wichita survey (7,162 adults screened, clinical exam): CFS point prevalence 235/100,000 (95% CI 142-327), 373 in women vs 83 in men; 1-year incidence 180/100,000. https://doi.org/10.1001/archinte.163.13.1530
+- ext i2 Fleig 2026 (?): In NHIS 2021-2023 (86,655 US adults), an estimated 1.5% had ever received an ME/CFS diagnosis, of whom 20.7% reported no longer having it. https://doi.org/10.1186/s12889-026-27598-5
+- ext i2 Wood 2024 (9,825 sampled (KPNC)): In a stratified random sample of 9,825 KPNC adults (population 2.7 million), 1.67% (95% CI 1.20-2.15%) had self-reported ME/CFS-like illness meeting IOM symptom criteria, and 14.12% of these cases arose after COVID-19, with no substantial pandemic-related rise. https://doi.org/10.1371/journal.pone.0309810
+- ext i2 Orji 2022 (?): In Australian primary-care records (MedicineInsight, 2015-2019), crude ME/CFS prevalence among regularly attending patients aged 13 and over was 94.9-103.9 per 100,000 (about 0.1%), higher in females (130.0-141.4) than males (50.9-57.5), about 2.5:1, peaking at ages 40-59; qualitative data suggest underestimation. https://doi.org/10.1186/s12889-022-13929-9
+- ext i2 Jason 2020 (10119 youth screened): In a community random sample of 10,119 Chicago-area youth aged 5-17 with physician evaluation, paediatric ME/CFS prevalence was 0.75%, higher in African American and Latinx youth, and under 5% of cases had been diagnosed before. https://doi.org/10.1007/s10566-019-09543-3
+- ext i2 Cho 2009 (2459 London, 3914 Sao Paulo): In primary care attenders, CDC-1994 CFS prevalence was 2.1% in London (n=2459) vs 1.6% in Sao Paulo (n=3914), P=0.20, but 11 cases had a recorded diagnosis in Britain and none in Brazil. https://doi.org/10.1192/bjp.bp.108.051813
+- ext i2 Wood 2024, preprint (9820): In a 9,820-member KPNC panel, 97.8% (95% CI 97.1-98.4%) of people with survey-defined ME/CFS-like illness had no ME/CFS diagnosis in the EHR; undiagnosed were younger and less often white non-Hispanic, and both groups were similarly impaired. https://doi.org/10.1101/2024.12.04.24318508
 
-## vascular-cbf-tilt [replicated] rep 5 ext 4 con 1
-Claim: Cerebral blood flow falls about 26% during head-up tilt in ME/CFS versus 7% in controls, including in patients with normal heart rate and blood pressure responses.
-- con i2 Razumovsky 2003 (26 vs 23): During 3-stage tilt, MCA blood flow velocity did not differ from controls at baseline or in response; NMH 21 vs 14 (p=.22) and POTS 9 vs 7 (p=.76) did not differ, though symptom onset was earlier in CFS. https://doi.org/10.1111/j.1552-6569.2003.tb00158.x
-- rep i3 van Campen 2024 (534 (46 normal, 488 abnormal)): During tilt, 91% of 534 ME/CFS patients had abnormal cardiac output and cerebral blood flow reductions even with normal HR and BP; CO-CBF regression slope near 1. https://doi.org/10.3390/healthcare12242566
-- rep i2 van Campen 2023 (42 at 20 deg, 41 at 70 deg): CBF fell 27% at 20 deg tilt vs 31% at 70 deg (p=0.003); no POTS at 20 deg vs 32% at 70 deg. https://doi.org/10.3389/fped.2023.1169447
-- rep i2 van Campen 2021 (10 long COVID, 20 ME/CFS POTS, 20 ME/CFS non-POTS, 10 HC): Long COVID patients had ME/CFS-like symptoms; all developed POTS on tilt; cerebral blood flow and cardiac index fell more than in healthy controls, CBF fall larger in long COVID. https://doi.org/10.3390/medicina58010028
-- rep i2 van Campen 2020 (19 severe): In severe ME/CFS, a 15-min 20-degree tilt reduced cerebral blood flow by 27%, comparable to the 26% decline with 70-degree tilt in milder patients. https://doi.org/10.3390/healthcare8020169
-- rep i2 Stewart 2012 (25 vs 20): On incremental tilt, n-back performance deteriorated and neuronally activated CBFV fell in young CFS but not controls; critical closing pressure was higher (raised vasomotor tone). https://doi.org/10.1152/ajpheart.00994.2011
-- ext i3 van Campen 2020 (100 severe vs 15 controls): Sitting for an hour reduced cerebral blood flow in severe ME/CFS (474 vs 627 mL/min in controls); 90 patients with orthostatic intolerance had -26.9% CBF reduction; supine CBF normal. https://doi.org/10.3390/healthcare8040394
-- ext i3 van Campen 2024, preprint (534 patients vs 49 controls): 91% of patients had an abnormal reduction in cardiac output and cerebral blood flow during tilt despite normal HR and BP response, with CO-CBF slope near 1; the 9% with normal changes were less severe and more often male. https://doi.org/10.1101/2024.08.02.24311436
-- ext i2 van Campen 2023 (71 retested; 219 combined): More severe ME/CFS is associated with larger CBF fall on tilt (25, 29, 33% in mild, moderate, severe; p stated significant). https://doi.org/10.3390/medicina59122153
-- ext i2 van Campen 2022 (30 vs 30): ME/CFS patients with frequent pseudosyncope had larger tilt cerebral blood flow fall (39% vs 25%) than ME/CFS controls. https://doi.org/10.3390/medicina58010098
+## neuro-lc-autonomic-objective [replicated] rep 3 ext 4 con 1
+Claim: Objective autonomic testing in long COVID finds cardiovascular autonomic abnormalities in most referred patients (initial orthostatic hypotension, POTS), whereas resting muscle sympathetic nerve activity is variably normal or increased.
+- con i2 Monaghan 2022 (85): Among 85 adults with long COVID, 66% reported OI on active stand but POTS was found in only 2%; 26% had initial and 6% classical orthostatic hypotension, neither associated with OI, and OI was predicted only by higher HR at the SBP nadir (88 vs 75 bpm, OR 1.09). https://doi.org/10.3389/fphys.2022.833650
+- rep i2 Keller 2026 (long COVID vs controls vs PAF): On quantitative autonomic testing, long COVID patients had greater heart-rate rise and blood-pressure drop on active stand and tilt than controls, with age- and sex-adjusted dysfunction resembling pure autonomic failure. https://doi.org/10.1016/j.jacc.2025.09.1608
+- rep i2 Seeley 2025 (33 vs 33 vs 33): In 33 PASC, 33 POTS and 33 healthy controls, PASC and POTS both had significantly reduced respiratory sinus arrhythmia on beat-to-beat autonomic testing, with high autonomic symptom burden and poor quality of life in PASC. https://doi.org/10.1016/j.amjmed.2023.06.010
+- rep i2 Baker 2023 (37 vs 52): Compared with 52 matched non-fatigued controls, 37 people with fatigue after mild COVID showed cortical circuit underactivity, autonomic dysregulation and myopathic change in skeletal muscle, with no distinct subgroups on cluster analysis. https://doi.org/10.1093/braincomms/fcad122
+- ext i2 Eastin 2025 (?): In 526 long COVID adults at a median 36 months, 71.9% had COMPASS-31 of 20 or more, and 33% of the cohort (40.5% of those with dysautonomia) had a new POTS diagnosis; female sex and joint hypermobility raised risk. https://doi.org/10.1007/s10286-025-01111-1
+- ext i2 Hira 2025 (?): In 94 long COVID patients (40 IOH, 29 POTS, 25 normal) vs 33 controls on 10-min active stand, long COVID had lower upright HF-HRV (p=0.04) and LF BP variability (p=0.001); IOH had lower supine baroreflex sensitivity and POTS lower upright sympathetic/parasympathetic modulation. https://doi.org/10.1007/s10286-025-01107-x
+- ext i2 Johansson 2024 (?): In 100 tilt-verified post-COVID POTS patients vs 100 population controls, 24-h ambulatory BP showed higher nighttime and 24-h SBP, more nondipping (34% vs 19%) and more daytime hypotensive episodes. https://doi.org/10.1161/hypertensionaha.124.23670
+- ext i2 Morrow 2025 (92 children): Of 92 children with long COVID in a rehabilitation clinic, 71% met criteria for an orthostatic condition (POTS, orthostatic tachycardia, classic or delayed OH, orthostatic hypertension) on a 10-min passive stand. https://doi.org/10.1177/00099228241272053
 
-## infection-katz-post-mono-adolescents [replicated] rep 4 ext 5 con 1
-Claim: After infectious mononucleosis in adolescents, 13%, 7% and 4% met paediatric CFS criteria at 6, 12 and 24 months; all 13 cases still ill at 24 months were female.
-- con i2 Katz 2012 (36 vs 43): Abnormal standing orthostatic test in 25% of CFS vs 21% of recovered controls, no difference. https://doi.org/10.1177/0009922812455094
-- rep i2 Pricoco 2023 (25 (12 adolescents, 13 young adults)): At 1 year 54% of adolescents no longer met criteria while all young adults still did; EBV serology and DNA load did not correlate with severity. https://doi.org/10.3389/fped.2023.1266738
-- rep i2 Bakken 2016 (1,670 CFS/ME vs 4,937 T1DM vs 1.34M general): Infectious mononucleosis registered in 11.1% of CFS/ME children in prior 2 years vs 0.5% comparators; more depression, anxiety, migraine, muscle pain, infections in primary care. https://doi.org/10.1186/s12875-016-0527-7
-- rep i2 Katz 2010 (21 vs 21): Peak VO2 percent predicted (99.3 vs 110.7, p=0.05) and peak oxygen pulse (12.4 vs 14.9, p=0.03) were lower in post-IM CFS than recovered controls. https://doi.org/10.1016/j.jpeds.2010.03.025
-- rep i2 Bodenhausen 2024, preprint (200, protracted symptoms 55/183): Protracted symptoms in 30.1% and fatigue in 18.8% at 6 months; infection susceptibility history (OR 2.98) and severe GI symptoms (OR 3.54) predicted chronic fatigue. https://doi.org/10.1101/2024.05.17.24307333
-- ext i2 Jason 2026 (?): ME/CFS after infectious mononucleosis (moderate/severe) compared with long COVID: long COVID symptom burden between moderate and severe ME/CFS. https://doi.org/10.1177/17423953251347108
-- ext i2 Jason 2022 (48 ME/CFS (18 severe) vs 58 recovered): Prospective cohort: severe GI symptoms at baseline plus low IL-13/IL-5 during IM predicted later severe ME/CFS. https://doi.org/10.29245/2767-5122/2021/1.1129
-- ext i2 Jason 2014 (>300 adolescents with IM): Baseline autonomic symptoms and days in bed after mononucleosis were the only predictors of CFS at 6 months. https://doi.org/10.1080/21642850.2013.869176
-- ext i2 Moss-Morris 2011 (246): After glandular fever, 7.8% met CFS criteria at 6 months; anxiety, depression, somatisation, perfectionism and all-or-nothing behaviour predicted onset. https://doi.org/10.1017/s003329171000139x
-- ext i2 Moss-Morris 2006 (835): CF/CFS odds higher after mononucleosis than Campylobacter at 3 months (OR 2.77) but not 6 months; anxiety and depression strongest predictors of CF/CFS, infection type of IBS. https://doi.org/10.1097/01.psy.0000221384.07521.05
-
-## neuro-brainstem [several] rep 5 ext 6 con 0
-Claim: Brainstem differences (volume larger or smaller, altered signal or connectivity) are among the more often repeated imaging findings in ME/CFS, though the methods differ between studies.
-- rep i2 Rozenblum 2025 (87): FDG-PET in 87 PASC adults with cognitive symptoms: hypometabolism most marked in pons (-5.5%) and right amygdala (-4.2%), correlating with concentration and memory complaints. https://doi.org/10.1097/rlu.0000000000005614
-- rep i2 Barnden 2019 (45 vs 27): fMRI showed brainstem reticular connectivity deficits (medulla to cuneiform nucleus, to hippocampus and thalamus) in Fukuda ME/CFS, only during task, related to symptom severity. https://doi.org/10.1016/j.nicl.2019.102045
-- rep i2 Barnden 2018 (43 vs 27): T1 spin-echo MRI showed lower signal in a brainstem region and higher signal in sensorimotor white matter (P_FWE=0.002); no volume differences. https://doi.org/10.1016/j.nicl.2018.07.011
-- rep i2 Barnden 2011 (25 vs 25): SPM voxel-based MRI: midbrain white matter volume fell with fatigue duration, and brainstem volume correlated with pulse pressure, suggesting impaired cerebrovascular autoregulation. https://doi.org/10.1002/nbm.1692
-- rep i2 Costa 1995 (24 vs 24 pilot; 67 ME/CFS and 40 normals total): HMPAO SPET showed brainstem hypoperfusion in ME/CFS (0.72 vs 0.80, p<0.0001), lower than in depressed patients (0.71 vs 0.77) and with generalised reduced brain perfusion. https://pubmed.ncbi.nlm.nih.gov/8542261/
-- ext i2 Inderyas 2023 (31 vs 15): Reduced ponto-cerebellar functional connectivity in ME/CFS during Stroop; connectivity linked to illness duration and memory. https://doi.org/10.3389/fnins.2023.1318094
-- ext i2 Baraniuk 2022 (31 controls, 36 ME/CFS, 78 GWI): Re-analysis of exercise-challenge fMRI: midbrain arousal nuclei activation rose after exercise in ME/CFS, fell in GWI, unchanged in controls. https://doi.org/10.3390/brainsci12010078
-- ext i2 Thapaliya 2020 (45 vs 27): T1w/T2w MRI ratio raised in white matter, subcortical grey matter and brainstem in Fukuda ME/CFS; related to HRV, cognition and respiration rate. https://doi.org/10.1016/j.nicl.2020.102366
-- ext i2 Barnden 2016 (25 vs 25): BP and HR from 24-h monitoring showed abnormal correlations with MRI in brainstem vasomotor centre, midbrain and hypothalamus in CFS, without group MRI differences. https://doi.org/10.1016/j.nicl.2016.03.017
-- ext i2 Tirelli 1998 (18 CFS vs 6 depression vs 6 healthy): FDG-PET showed hypometabolism in right mediofrontal cortex (P=0.010) and brainstem (P=0.013) versus controls; depressed patients had frontal hypometabolism with normal brainstem. https://doi.org/10.1016/s0002-9343(98)00179-x
-- ext i2 Ziaja 2026, preprint (88 vs 34): Mammillary body volume phenotypes (reduced, enlarged, normal) and fornix/brainstem diffusion differences in long COVID; 33 patients bedridden. https://doi.org/10.64898/2026.07.31.26359395
-
-## neuro-motor-fatigability [early] rep 2 ext 5 con 2
-Claim: During a sustained grip task, ME/CFS patients fatigue earlier while their brain motor-network activity fails to ramp up as it does in controls (NIH; reduced temporoparietal-junction activation).
-- con i2 Fietsam 2023 (?): Perceived fatigue and fatigability prevalent but objective fatigability not different in post-COVID https://doi.org/10.1007/s00221-022-06518-0
-- con i2 Weich 2022 (?): Prominent fatigue but no motor fatigability on treadmill walking tests https://doi.org/10.3389/fneur.2022.902502
-- rep i2 Tempfli 2026 (?): Post-COVID patients show higher trait/state fatigue and fatigability on alertness and handgrip tasks across cognitive, motor and emotional domains. https://doi.org/10.1016/j.socscimed.2026.119633
-- rep i2 Kent-Braun 1993 (?): During intense sustained tibialis contraction voluntary activation was lower in CFS while fatigability, metabolism and M-wave were normal, indicating a central component of muscle fatigue. https://doi.org/10.1212/wnl.43.1_part_1.125
-- ext i2 Sebastianelli 2026 (58 vs 22): Post-exercise depression of corticomotor excitability (TMS) was reduced in post-COVID fatigue and correlated with fatigue and exertion. https://doi.org/10.1016/j.clinph.2026.2112384
-- ext i2 Andersson 2025 (PCC vs controls): PCC group showed cognitive performance fatigability on processing-speed tasks (controls improved with repetition, PCC did not). https://doi.org/10.1037/neu0001020
-- ext i2 Samii 1996 (12 CFS vs 10 depression vs 18 controls): Post-exercise facilitation of motor evoked potentials was 126% of baseline in CFS vs 218% in controls and 155% in depression. https://doi.org/10.1212/wnl.47.6.1410
-- ext i2 Gibson 1993 (12 vs 12): Quadriceps force, relaxation rate and recovery to 48 h were normal after incremental cycling, while perceived exertion for a given heart rate was higher, suggesting central limits. https://doi.org/10.1136/jnnp.56.9.993
-- ext i2 Germann 2025, preprint (145): Persistent post-COVID fatigue >200 days associates with greater fatigue, increased cortical excitability, slower reaction times and more peripheral muscle fatigue than <200 days. https://doi.org/10.64898/2025.12.19.25342669
-
-## muscle-exertion-grip-fatigability [several] rep 5 ext 5 con 0
-Claim: Repeated maximal handgrip testing shows lower strength, faster decline across repetitions and poorer recovery after 60 minutes in ME/CFS, correlating with severity and PEM.
-- rep i2 Tack 2026 (19 vs 23): Hand grip strength tended to be lower in post-COVID syndrome (7 with ME/CFS criteria), with reduction in the second session suggesting impaired recovery after repeated exertion. https://doi.org/10.1038/s41598-026-51666-w
-- rep i2 Nacul 2018 (272 ME/CFS vs 136 HC vs 76 MS vs 37 CF): Hand grip strength was markedly lower in ME/CFS, especially severe (minimum grip 15.3 kg lower than healthy controls). https://doi.org/10.3389/fneur.2018.00992
-- rep i2 Nijs 2011 (?): Systematic review: CFS patients have less daily physical activity and peak isometric strength than sedentary controls, with conflicting but likely reduced exercise capacity. https://doi.org/10.3109/09638288.2010.541543
-- rep i2 Paffrath 2024, preprint (144 women): Repeated handgrip strength was similarly impaired in PCS and ME/CFS and correlated with physical function; ME/CFS had more severe PEM and disability. https://doi.org/10.1101/2024.01.25.24301776
-- rep i2 Kedor 2021, preprint (42): At 6 months after mild-moderate COVID-19, most had reduced handgrip strength; biomarkers linked to fatigue and PEM severity suggest low-grade inflammation and hypoperfusion. https://doi.org/10.21203/rs.3.rs-384347/v1
-- ext i2 da Silva Almeida 2026 (20 vs 20): Severe long COVID survivors assessed at 18 and 24 months for self-reported fatigue and muscle fatigability (torque, ultrasound) vs matched controls. https://doi.org/10.1002/pmrj.70165
-- ext i2 Maffitt 2024 (18, 12-month follow-up): Questionnaire, peripheral muscle fatigue and autonomic function improved toward healthy controls over 12 months. https://doi.org/10.1038/s41598-024-59232-y
-- ext i2 Schillings 2004 (14 vs 14): Central activation failure during sustained maximal contraction was greater in CFS (36.5% vs 12.9%) with less peripheral fatigue. https://doi.org/10.1016/j.clinph.2004.06.007
-- ext i2 Gibson 1993 (12 vs 12): Quadriceps force, relaxation rate and recovery to 48 h were normal after incremental cycling, while perceived exertion for a given heart rate was higher, suggesting central limits. https://doi.org/10.1136/jnnp.56.9.993
-- ext i2 Germann 2025, preprint (145): Persistent post-COVID fatigue >200 days associates with greater fatigue, increased cortical excitability, slower reaction times and more peripheral muscle fatigue than <200 days. https://doi.org/10.64898/2025.12.19.25342669
-
-## neuro-pain-modulation-exercise-hyperalgesia [several] rep 5 ext 5 con 0
-Claim: ME/CFS patients show generalised hyperalgesia, impaired conditioned pain modulation, and pain thresholds that fall (rather than rise) after exercise, correlating with post-exertional symptoms; comorbid fibromyalgia confounds several studies.
-- rep i2 Bourke 2021 (19 CFS, 19 FM, 20 HC): Central sensitisation (enhanced temporal summation plus inefficient CPM) in 84% of CFS and 95% of FM, none of controls. https://doi.org/10.1016/j.jpsychores.2021.110624
-- rep i2 Surian 2020 (170 CFS, 196 CFS/FM, 56 FM, 70 GWI vs 428 controls): Tender-point dolorimetry showed hyperalgesia in CFS (5.8 kg), CFS/FM (3.1) and FM (3.9) versus controls (7.2 kg), p<0.0001. https://doi.org/10.1038/s41598-020-62771-9
-- rep i2 Collin 2017 (48 CFS, 19 MS, 30 controls): CFS had lower pressure pain thresholds (about 25% lower than MS) and higher temporal summation, indicating pain facilitation rather than impaired inhibition. https://doi.org/10.36076/ppj.2017.e497
-- rep i2 Winger 2014 (120 vs 39): Adolescents with CFS had lower pressure pain thresholds and more severe pain than healthy controls. https://doi.org/10.1136/bmjopen-2014-005920
-- rep i2 Meeus 2010 (30 vs 30): Pressure pain thresholds were lower at all sites in CFS (3.30 vs 8.09 kg/cm2, p<0.001), including pain-free areas, indicating generalised hyperalgesia. https://doi.org/10.1007/s10067-009-1339-0
-- ext i2 Novak 2026 (169): Central sensitization present in 81% of long COVID patients with orthostatic intolerance; linked to autonomic symptom burden, cerebral hypoperfusion and neuroinflammation markers. https://doi.org/10.1016/j.jns.2026.126058
-- ext i2 van Campen 2021 (248 ME/CFS (164 FM) vs 22 controls): Head-up tilt lowered pressure pain thresholds in ME/CFS with or without FM but not in controls; windup higher than controls, unchanged by tilt. https://doi.org/10.55563/clinexprheumatol/1qj9zu
-- ext i2 Polli 2019 (22 vs 22): Changes in pressure pain thresholds after exercise were associated with changes in complement C4a in ME/CFS but not with elastase. https://doi.org/10.1515/sjpain-2018-0075
-- ext i2 Staud 2015 (39 CFS vs 29 NC): After handgrip, forearm occlusion trapping metabolites increased fatigue ratings in CFS (p=0.04) with heat and mechanical hyperalgesia; indirect evidence for peripheral muscle metabolite sensing. https://doi.org/10.1097/j.pain.0000000000000110
-- ext i2 Vecchiet 1996 (21 patients; 9 biopsies): Pain thresholds were lower in muscle but normal in skin in 21 CFS patients; quadriceps biopsies in 9 showed sarcomere and mitochondrial abnormalities and raised mtDNA 4977 bp deletion. https://doi.org/10.1016/0304-3940(96)12559-3
-
-## neuro-hypocapnia [replicated] rep 6 ext 0 con 1
-Claim: Many patients over-breathe when upright and lower their end-tidal CO2. This drives part of the fall in brain blood flow, and correcting it with phenylephrine restored blood flow and working memory in one small trial.
-- con i2 Badhwar 2025 (10 controls, 12 ME/CFS, 9 LC): Hemodynamic responses to hypoxia, hypercapnia and tilt similar to controls; ME/CFS showed impaired cerebral autoregulation in hypercapnia and impaired cognitive-motor integration; LC showed lower oxygen levels and less vagal withdrawal. https://doi.org/10.1016/j.autneu.2025.103358
-- rep i2 Natelson 2022 (63): 10-minute lean test found abnormal response in 60% of 63 patients; hypocapnia most frequent, then orthostatic tachycardia. https://doi.org/10.1186/s12967-022-03289-8
-- rep i2 Mancini 2021 (41): CPET in post-COVID unexplained dyspnoea: 58.5% had peak VO2 below 80% predicted, 88% had ventilatory abnormalities including dysfunctional breathing (26) and hypocapnia. https://doi.org/10.1016/j.jchf.2021.10.002
-- rep i2 Aparisi Á 2021 (70 (41 dyspnoea, 29 without)): Dyspnoeic survivors had lower percent-predicted peak VO2 (77.8 vs 99), higher VE/VCO2 slope and higher PetCO2 pattern suggesting ventilation-perfusion mismatch or hyperventilation. https://doi.org/10.3390/jcm10122591
-- rep i2 Natelson 2007 (75 CFS vs 40 controls): 8-min stand test: abnormal orthostatic tests in 53% vs 20% controls; orthostatic hypocapnia identified a subgroup of CFS. https://doi.org/10.1186/1476-5918-6-2
-- rep i2 Naschitz 2006 (585 total (CFS 90)): Tilt with capnography: hypocapnia in 9-27% of CFS/FM/dizziness/NMS patients vs 0-2% controls; most sustained hypocapnia, not specific to CFS. https://doi.org/10.1097/00000441-200606000-00001
-- rep i2 Naschitz 2000 (32 vs 32): During capnography tilt, CFS patients had lower systolic and diastolic BP and lower end-tidal CO2 and higher HR and respiratory rate than controls. https://doi.org/10.1053/sarh.2000.9201
-
-## immune-gpcr-autoantibodies [refuted] rep 2 ext 7 con 1
-Claim: Elevated IgG against beta2-adrenergic and M3/M4 muscarinic receptors, reported in about 30% of patients by ELISA, is not reproduced by unbiased high-throughput antigen profiling.
-- con i2 Achleitner 2026 (206 across 3 groups): Autoantibodies against 13 neurotransmitter-related receptors did not differ between new-onset post-COVID fatigue, pre-existing fatigue and controls, nor track fatigue severity. https://doi.org/10.1016/j.bbih.2026.101393
-- rep i2 Sotzny 2022 (?): Autoantibodies to vaso- and immunoregulatory GPCRs dysregulated in PCS and correlate with symptom severity https://doi.org/10.3389/fimmu.2022.981532
-- rep i2 Tanaka 2003 (60 vs 33 autoimmune vs 30 controls): Anti-muscarinic M1 receptor antibodies found in 53% of CFS (p<0.0001 vs controls); linked to muscle weakness score. https://doi.org/10.3892/ijmm.12.2.225
-- ext i2 Seidel 2026 (9 paired): Tixagevimab/cilgavimab in immunodeficient long COVID ME/CFS lowered beta1-adrenergic autoantibodies (p=0.003) but spike protein and clinical outcomes did not change significantly. https://doi.org/10.1016/j.imlet.2026.107247
-- ext i2 Achleitner 2023 (?): After therapeutic apheresis, symptom improvement tracked falls in neurotransmitter autoantibodies, lipids, inflammation and 70% fibrinogen; rouleaux and fibrin fibres disappeared. https://doi.org/10.1038/s41380-023-02084-1
-- ext i2 Ryabkova 2023 (?): Autoantibody correlation networks associated with symptom severity in FM and ME/CFS https://doi.org/10.3390/biomedicines11020257
-- ext i2 Freitag 2021 (116): Autoantibodies to adrenergic, muscarinic, ETA/B and AT1 receptors correlated with fatigue, pain and cognition mainly in infection-triggered ME/CFS. https://doi.org/10.3390/jcm10163675
-- ext i2 Szklarski 2021 (?): sCD26 lower only in women; in infection-triggered ME/CFS low sCD26 associated with alpha1-adrenergic and M3 autoantibodies, T-cell activation and IL-1b. https://doi.org/10.3389/fimmu.2021.644548
-- ext i2 Hartwig 2020 (5 high-AAB, 5 normal, 6 controls): IgG from healthy controls stimulated beta2-adrenergic receptor signalling and modulated monocyte cytokines and T-cell proliferation, but IgG from ME/CFS with high beta2 antibodies did not. https://doi.org/10.1016/j.bbih.2020.100047
-
-## immune-sickness-behaviour [replicated] rep 2 ext 4 con 2
+## immune-sickness-behaviour [replicated] rep 0 ext 4 con 3
 Claim: Acute-infection symptom severity, and the pro-inflammatory cytokine response and genotypes behind it, predict who develops post-infective fatigue, while microbiological and psychological factors do not.
-- con i2 Selvakumar 2025 (?): Prospective controlled cohort: SARS-CoV-2 positivity a minor risk factor for 6-month fatigue; baseline symptom severity and psychosocial factors dominated, not biomarkers. https://doi.org/10.1016/j.bbih.2025.100967
-- con i2 Freidin 2023 (?): Pre-pandemic plasma IL-6 did not predict long-COVID fatigue after mild COVID-19 https://doi.org/10.1007/s00011-023-01722-2
-- rep i2 Maes 2012 (107 ME/CFS, 37 CF, 20 controls): IL-1, TNF-alpha, neopterin, lysozyme and PMN-elastase were higher in ME/CFS than controls and CF; IL-1 and TNF correlated with fatigue and flu-like malaise. https://doi.org/10.1016/j.jad.2011.09.004
-- rep i2 Péron 2024, preprint (54): Acute-phase IL-1RA, IFN-gamma, TNF-alpha and monocyte percentage predicted physical and total fatigue 6-9 months later (TNF-alpha r=-0.40 with awareness of cognitive fatigue). https://doi.org/10.21203/rs.3.rs-4374986/v1
-- ext i2 Nuber-Champier 2025 (54): Acute IL-1RA, IFN-gamma, TNF-alpha and monocyte percentage predicted physical and total fatigue 6-9 months later. https://doi.org/10.1016/j.bbih.2025.101109
-- ext i2 Jonsjö 2020 (38 ME/CFS, 190 chronic pain vs 29 LPS, 163 primary care, 155 general, 48 healthy): Self-rated sickness behaviour (SicknessQ) in ME/CFS and chronic pain was similar to that of healthy people at peak LPS-induced inflammation. https://doi.org/10.1016/j.bbih.2019.100028
-- ext i2 Jason 2014 (>300 adolescents with IM): Baseline autonomic symptoms and days in bed after mononucleosis were the only predictors of CFS at 6 months. https://doi.org/10.1080/21642850.2013.869176
-- ext i2 Arnold 2002 (19 vs 10): IL-6 infusion raised somatic symptoms faster in CFS than controls but did not impair cognition in either group. https://doi.org/10.1017/s0033291702006086
+- con i2 Selvakumar 2025 (?): In 404 SARS-CoV-2-positive and 105 negative non-hospitalised youths, SARS-CoV-2 positivity was a minor risk factor for 6-month fatigue; baseline symptom severity was the main predictor and correlated with psychosocial factors (loneliness, neuroticism) rather than biomarkers. https://doi.org/10.1016/j.bbih.2025.100967
+- con i2 Moss-Morris 2011 (246): In 246 prospectively followed glandular fever patients, 9.4% had chronic fatigue at 3 months and 7.8% CFS at 6 months; anxiety, depression, somatisation, perfectionism, negative illness beliefs and all-or-nothing behaviour (strongest) predicted CFS. https://doi.org/10.1017/s003329171000139x
+- con i2 Moss-Morris 2006 (835): In 592 post-Campylobacter and 243 post-mononucleosis patients followed prospectively, CF/CFS odds were higher after mononucleosis at 3 months (OR 2.77) but not 6 months (OR 1.48, ns), and baseline anxiety and depression were the strongest predictors of CF/CFS. https://doi.org/10.1097/01.psy.0000221384.07521.05
+- ext i2 Nuber-Champier 2025 (54): In 54 hospitalised COVID-19 patients, higher acute-phase IL-1RA, IFN-gamma, TNF-alpha and monocyte percentage predicted greater physical and total fatigue 6-9 months later; higher TNF-alpha correlated with lower awareness of cognitive fatigue (r=-0.40, p=0.019). https://doi.org/10.1016/j.bbih.2025.101109
+- ext i2 Jason 2022 (48 ME/CFS (18 severe) vs 58 recovered): Among 106 students followed from before IM, low pre-illness IL-13/IL-5 plus severe GI symptoms at baseline and during IM gave a nearly 80% chance of severe ME/CFS at 6 months (18 severe, 30 ME/CFS, 58 recovered). https://doi.org/10.29245/2767-5122/2021/1.1129
+- ext i2 Jason 2014 (>300 adolescents with IM): After IM in adolescents, acute-illness severity markers (days in bed, autonomic symptoms) predicted CFS at 6 months while stress, life events, family stress and psychiatric disorder did not once autonomic symptoms were controlled. https://doi.org/10.1080/21642850.2013.869176
+- ext i2 Bodenhausen 2024, preprint (200, protracted symptoms 55/183): In 200 young people with acute EBV mononucleosis, severe acute IM symptoms (e.g. severe GI symptoms, OR 3.54) and a history of infection susceptibility (OR 2.98) predicted protracted fatigue at 6 months (18.8%). https://doi.org/10.1101/2024.05.17.24307333
 
-## immune-cd8-exhaustion [several] rep 4 ext 0 con 2
-Claim: CD8+ effector-memory T cells in ME/CFS show transcriptional and chromatin features of exhaustion, with supporting flow cytometry and an independent cell-free RNA signature.
-- con i2 Peakman 1997 (43 CFS (trial entrants) vs controls): T-cell subsets, activation and naive/memory proportions did not differ from controls; NK cells and CD11b+ CD8 cells were higher; immune measures did not change with treatment or predict response. https://doi.org/10.1006/clin.1996.4284
-- con i2 Swanink 1996 (76 vs 69): CD11b on CD8 cells was lower; CD38 and HLA-DR increases were not confirmed; apoptosis and circulating cytokines did not differ; endotoxin-stimulated TNF-alpha and IL-1 beta were lower; none correlated with fatigue. https://doi.org/10.1093/infdis/173.2.460
-- rep i2 Maes 2015 (139 ME/CFS, 65 CF, 40 controls): CD8+CD38+ and CD8+HLA-DR+ proportions higher in ME/CFS; CD19+ and CD4/CD8 ratio lower; no link to severity or O&NS/leaky gut markers. https://pubmed.ncbi.nlm.nih.gov/26707044/
-- rep i2 Barker 1994 (?): CFS CD8+ T cells had reduced CD11b and raised CD38 and HLA-DR, and NK activity was markedly decreased in almost all patients; T, B and NK numbers were normal. https://doi.org/10.1093/clinids/18.supplement_1.s136
-- rep i2 Landay 1991 (147 vs 80 healthy vs 22 contacts vs 43 disease): CFS showed a reduced CD8 suppressor population and raised CD38 and HLA-DR on CD8 cells, absent in healthy, contacts and disease controls, unrelated to viral serology. https://doi.org/10.1016/0140-6736(91)91440-6
-- rep i2 Karhan 2019, preprint (?): Large cohort showed raised CD4/CD8 ratio and CD8 effector memory, reduced NK in under-50s, and altered Th17, Th1, Th2 and MAIT function; random forest identified 93% of patients. https://doi.org/10.1101/2019.12.23.887505
+## trials-pace-get-cbt [contested] rep 1 ext 7 con 1
+Claim: PACE (n=641) reported modest gains in self-rated fatigue and function with CBT and graded exercise, but these were not matched by objective measures, used Oxford criteria, and vanished between groups by 2.5 years.
+- con i2 Deale 2001 (60 (53 followed at 5 years)): At 5-year follow-up of a 60-person RCT (53 assessed), 68% after CBT vs 36% after relaxation rated themselves much or very much improved, with more complete recovery, fewer relapses and more weekly work hours after CBT, though few reached normal fatigue levels. https://doi.org/10.1176/appi.ajp.158.12.2038
+- rep i2 Price 2008 (15 RCTs, 1043 participants): Cochrane review of 15 RCTs (1043 participants): CBT vs usual care reduced self-rated fatigue post-treatment (SMD -0.39, 95% CI -0.60 to -0.19; 6 studies, 373 participants; clinical response 40% vs 26%), but follow-up findings were inconsistent. https://doi.org/10.1002/14651858.cd001027.pub2
+- ext i2 Zhao 2026 (1944 (17 RCTs)): Meta-analysis of 17 RCTs (n=1944): exercise improved self-reported fatigue (SMD 0.85, I2 85%), QoL (SMD 0.99) and depression (0.56), but not cardiopulmonary function (SMD 0.13, 3 RCTs) or functional capacity (SMD 0.09, 4 RCTs); no difference in adverse events. https://doi.org/10.1016/j.jpsychores.2026.112677
+- ext i2 Kuut 2024 (8 trials, 1298): IPD meta-analysis of 8 RCTs (n=1298) found CBT reduced self-reported fatigue (CIS beta -11.46, 95% CI -15.13 to -7.79), with larger effects in younger, less impaired, fluctuating-activity patients and no moderation by PEM or case definition. https://doi.org/10.1017/s0033291723003148
+- ext i2 Clark 2021 (211 (164 followed)): In the GETSET RCT (n=211, 78% follow-up at 15 months), the short-term fatigue benefit of guided graded exercise self-help was maintained, but the specialist-care group caught up so arms no longer differed (fatigue p=0.03 and physical function p=0.25, neither significant after multiplicity adjustment); ICER 4802 GBP per QALY. https://doi.org/10.1016/j.jpsychores.2021.110484
+- ext i2 Wormgoor 2021 (18 RCTs): A systematic review of 18 physiotherapy RCTs (3 chronic fatigue, 14 CFS, 1 PEM-required ME) found that any intervention effects disappeared with narrower case definitions, more objective outcomes and longer follow-up. https://doi.org/10.1186/s12967-020-02683-4
+- ext i2 McPhee G. 2017 (?): A review of CBT studies that used objective outcomes found no evidence that CBT improves physical capability or objective measures such as return to work. https://doi.org/10.1177/1359105317707215
+- ext i2 Dougall 2014 (641): In 641 PACE participants non-serious adverse events (median 4) did not differ between arms (P=.47); clinically important physical-function deterioration occurred in 25% after APT, 9% CBT, 11% GET and 18% SMC. https://doi.org/10.1016/j.jpsychores.2014.04.002
 
-## infection-blood-virome-null [early] rep 3 ext 1 con 2
+## neuro-pain-modulation-exercise-hyperalgesia [several] rep 3 ext 3 con 1
+Claim: ME/CFS patients show generalised hyperalgesia, impaired conditioned pain modulation, and pain thresholds that fall (rather than rise) after exercise, correlating with post-exertional symptoms; comorbid fibromyalgia confounds several studies.
+- con i2 Collin 2017 (48 CFS, 19 MS, 30 controls): In 48 CFS, 19 MS and 30 healthy controls, CFS had 25% lower finger pressure pain thresholds and higher finger temporal summation than MS, but conditioned pain modulation did not differ at either site and differences from healthy controls were smaller than those between the patient groups. https://doi.org/10.36076/ppj.2017.e497
+- rep i2 Bourke 2021 (19 CFS, 19 FM, 20 HC): Central sensitisation (enhanced temporal summation plus inefficient conditioned pain modulation) was present in 16/19 (84%) CFS, 18/19 (95%) FM and 0/20 controls, excluding other pain disorders and centrally acting drugs. https://doi.org/10.1016/j.jpsychores.2021.110624
+- rep i2 Surian 2020 (170 CFS, 196 CFS/FM, 56 FM, 70 GWI vs 428 controls): In 920 women, tender-point dolorimetry pain thresholds were lower in CFS without FM (5.8 kg), CFS/FM (3.1 kg), FM (3.9 kg) and GWI (2.9 kg) than in sedentary controls (7.2 kg, p<0.0001); thresholds did not correlate with symptoms in CFS. https://doi.org/10.1038/s41598-020-62771-9
+- rep i2 Winger 2014 (120 vs 39): In 120 adolescents with CFS vs 39 healthy controls (NorCAPITAL), pressure pain thresholds by algometry were significantly lower and severe pain more prevalent. https://doi.org/10.1136/bmjopen-2014-005920
+- ext i2 Barhorst 2022 (15 studies, 306 patients vs 292 controls): Three-level meta-analysis of 15 studies (306 ME/CFS or FM patients, 292 controls) found higher post-exercise pain in patients (Hedges d=0.42, 95% CI 0.16-0.67), larger at 8-72 h (d=0.71) than at 0-2 h (d=0.32). https://doi.org/10.1093/pm/pnab308
+- ext i2 van Campen 2021 (248 ME/CFS (164 FM) vs 22 controls): In 248 ME/CFS (164 with FM) vs 22 controls, pressure pain thresholds fell after head-up tilt in patients with and without FM but not in controls; windup was higher than controls before and after tilt, unchanged by tilt. https://doi.org/10.55563/clinexprheumatol/1qj9zu
+- ext i2 Staud 2015 (39 CFS vs 29 NC): In 39 CFS vs 29 controls, QST showed heat and mechanical hyperalgesia in CFS, and trapping metabolites by forearm occlusion after exhausting handgrip raised CFS fatigue ratings (4.8 to 5.6 VAS) versus a fall without occlusion (P=0.04). https://doi.org/10.1097/j.pain.0000000000000110
+
+## immune-nk-cytotoxicity [contested] rep 2 ext 2 con 2
+Claim: Natural-killer-cell cytotoxicity is reduced in ME/CFS in meta-analysis of the older literature (Hedges g ~0.96), but the largest standardised multi-site study and two deep-phenotyping studies found no difference.
+- con i2 Lyall 2003 (?): Systematic review: low NK-cell findings were inversely associated with study quality, T-cell and cytokine abnormalities were not, and no consistent pattern of immune abnormality was found. https://doi.org/10.1016/s0022-3999(02)00515-9
+- con i2 Mawle 1997 (?): CDC case-control study of rigorously defined CFS found no difference in NK cell function, WBC counts, immunoglobulins, complement or mitogen proliferation; only marginal cytokine and surface-marker differences, larger in onset or symptom-state subgroups. https://doi.org/10.1093/infdis/175.1.136
+- rep i2 Barker 1994 (?): NK cell activity was markedly decreased in almost all CFS patients vs healthy controls, with normal NK (CD16+/CD56+), T and B cell counts. https://doi.org/10.1093/clinids/18.supplement_1.s136
+- rep i2 Caligiuri 1987 (41 vs 23): In 41 CFS patients vs 23 controls, most patients had low NKH1+T3- NK cell numbers and consistently low cytotoxicity against several targets; IL-2 raised killing of K562 but most patients still could not lyse EBV-infected B cells. https://doi.org/10.4049/jimmunol.139.10.3306
+- ext i2 Brenu 2012 (65 vs 21 over 12 months): NK cytotoxic activity was lower in 65 CFS/ME than 21 controls at baseline, 6 and 12 months, with fewer CD56bright NK cells at baseline and 6 months and time-varying cytokine differences. https://doi.org/10.1186/1479-5876-10-88
+- ext i2 Maher 2005 (?): Quantitative flow cytometry found significantly lower intracellular perforin in NK cells of CFS patients than controls, with a trend to lower perforin in cytotoxic T cells. https://doi.org/10.1111/j.1365-2249.2005.02935.x
+
+## muscle-exertion-pem-timing [several] rep 1 ext 5 con 1
+Claim: PEM is usually delayed by hours to a day, lasts days to weeks, and after a 2-day CPET took ME/CFS patients a mean of about 13 days to recover versus about 2 days in sedentary controls.
+- con i2 Greenwood 2024 (376 participants, EMA up to 24 days): In 376 long COVID participants rating 8 symptoms every 3 h for up to 24 days, all symptoms rose within 30 min of physical, cognitive and social activity (fatigue +1.8/10 after highest physical exertion, +1.5 after cognitive effort), with only mild delayed fatigue at 3 h (0.3) or one day (0.2). https://doi.org/10.1016/j.lanepe.2024.101082
+- rep i2 VanNess 2010 (25 vs 23): After one maximal CPET, 85% of 23 sedentary controls recovered within 24 h and all within 48 h, while no CFS patient recovered within 24 h and only 1 of 25 within 48 h. https://doi.org/10.1089/jwh.2009.1507
+- ext i2 Barhorst 2022 (15 studies, 306 patients vs 292 controls): Three-level meta-analysis of 15 studies (306 ME/CFS or FM patients, 292 controls) found higher post-exercise pain in patients (Hedges d=0.42, 95% CI 0.16-0.67), larger at 8-72 h (d=0.71) than at 0-2 h (d=0.32). https://doi.org/10.1093/pm/pnab308
+- ext i2 van Campen 2020 (174 ME/CFS+FM, 104 ME/CFS no FM, 30 controls): In 278 ME/CFS patients (174 with and 104 without fibromyalgia) and 30 controls, pain, fatigue and concentration ratings rose after head-up tilt and stayed elevated at 7 days in patients only; fatigue and concentration peaked immediately, pain at 24 h. https://doi.org/10.3389/fmed.2020.602894
+- ext i2 Mateo 2020 (49 vs 10): After two maximal CPETs 24 h apart, 49 ME/CFS patients reported 14 +/- 7 symptoms vs 4 +/- 3 in 10 controls, and still 4 +/- 3 symptoms over the following 7 days while controls reported none; fatigue, cognitive dysfunction and sleep problems were most frequent. https://doi.org/10.3233/wor-203168
+- ext i2 Loy 2016 (7 studies, 159 patients): Meta-analysis of 7 studies (159 patients, 47 effects): a single exercise bout increased fatigue more in ME/CFS than controls (delta 0.73, 95% CI 0.24-1.23), with larger increases measured 4 h or more after exercise. https://doi.org/10.1249/mss.0000000000000990
+- ext i2 Sisto 1998 (20 vs 20): In 20 CFS women vs 20 sedentary controls, accelerometer-measured average activity fell significantly in the week after a maximal treadmill test, most on days 12-14 of monitoring, with a longer waking day and more daily rests. https://doi.org/10.1093/qjmed/91.7.465
+
+## vascular-cbf-tilt [replicated] rep 0 ext 7 con 1
+Claim: Cerebral blood flow falls about 26% during head-up tilt in ME/CFS versus 7% in controls, including in patients with normal heart rate and blood pressure responses.
+- con i2 Razumovsky 2003 (26 vs 23): In 26 CFS vs 23 controls, transcranial Doppler MCA blood flow velocity during 3-stage tilt showed no distinctive CFS pattern; NMH (21 vs 14, p=.22) and POTS (9 vs 7, p=.76) rates did not differ, though symptoms started sooner in CFS. https://doi.org/10.1111/j.1552-6569.2003.tb00158.x
+- ext i2 van Campen 2023 (71 retested; 219 combined): In combined data from 219 ME/CFS patients, tilt-induced %CBF reduction was 25, 29 and 33% in mild, moderate and severe ICC disease; in 71 patients retested for worsening symptoms, severity rose but the mean CBF reduction was 24% at both visits. https://doi.org/10.3390/medicina59122153
+- ext i2 van Campen 2023 (42 at 20 deg, 41 at 70 deg): In 83 adolescent ME/CFS patients, extracranial Doppler CBF fell 27% at 20-degree tilt vs 31% at 70-degree tilt (p=0.003); no POTS at 20 degrees vs 32% at 70 degrees. https://doi.org/10.3389/fped.2023.1169447
+- ext i2 van Campen 2022 (30 vs 30): In 30 ME/CFS patients labelled with psychogenic pseudosyncope vs 30 matched ME/CFS controls, extracranial Doppler CBF fell 39% vs 25% at end tilt, with no HR or BP differences. https://doi.org/10.3390/medicina58010098
+- ext i2 van Campen 2021 (10 long COVID, 20 ME/CFS POTS, 20 ME/CFS non-POTS, 10 HC): 10 long COVID patients (all POTS on tilt), 20 ME/CFS-POTS, 20 ME/CFS-normal-HR/BP and 10 HC: CBF and cardiac index fell more in all patient groups than HC, with larger CBF fall in long COVID than in normal-response ME/CFS. https://doi.org/10.3390/medicina58010028
+- ext i2 van Campen 2020 (100 severe vs 15 controls): In 100 severe ME/CFS vs 15 controls, sitting for an hour lowered extracranial Doppler CBF (474 vs 627 mL/min; mean decline 24.5%, -26.9% in the 90 with OI symptoms), larger with prior POTS (28.8% vs 22.3%); supine CBF normal. https://doi.org/10.3390/healthcare8040394
+- ext i2 van Campen 2020 (19 severe): In 19 severe ME/CFS patients a 15-min 20-degree tilt reduced extracranial CBF by a mean 27%, comparable to the 26% fall seen in milder patients on a 30-min 70-degree tilt. https://doi.org/10.3390/healthcare8020169
+
+## lc-pem-prevalence [several] rep 1 ext 7 con 0
+Claim: Across studies, about half of people with long COVID at 3 months or more report post-exertional malaise (pooled 55%, 95% CI 38 to 71%).
+- rep i3 Peter 2025 (?): In a German population-based nested case-control study (982 PCS, 576 controls), 67.6% of PCS cases persisted into year two; persistent PCS had lower VO2max (27.9 vs 31.0 ml/kg/min), handgrip (40.2 vs 42.5 kg) and higher VE/VCO2 slope than recovered controls, with no lab, cardiac, EBV or viral-persistence differences; 35.6% reported PEM >14 h and 11.6% ME/CFS-compatible symptoms. https://doi.org/10.1371/journal.pmed.1004511
+- ext i3 O'Regan 2024 (50115): In 50,115 Danish residents (25,249 test-positive vs 24,866 test-negative, mostly vaccinated), infection was linked to a 3% higher fatigue score (SR 1.03) and higher odds of PEM (OR 2.04, 1.81-2.30) 2-18 months later; hospitalisation raised fatigue scores 23%; prior psychiatric conditions did not modify risk. https://doi.org/10.1001/jamanetworkopen.2024.34863
+- ext i2 Ghali 2026 (220): In 220 post-COVID clinic patients (Angers, 2020-2023), 26.4% had PEM, which was more frequent with 2020/2021 (pre-Omicron) infection (OR 5.68, 95% CI 1.66-19.45) and higher fatigue (OR 2.07). https://doi.org/10.3390/jcm15082948
+- ext i2 Pouliopoulou 2025 (?): Meta-analysis: PEM prevalence in community-dwelling adults with PCC was 25% (95% CI 17-36%; 10 studies, 4,076 participants); 7 of 8 tailored-rehab studies (1,080 patients) found no exercise-related PEM, with all studies at high risk of bias. https://doi.org/10.1016/j.apmr.2025.01.471
+- ext i2 An 2024 (?): Meta-analysis of 12 studies (2,665 patients) found a pooled PEM prevalence of 55% (95% CI 38-71%) in post-acute COVID syndrome at 3 months or more; DSQ-PEM was the most used of 7 instruments. https://doi.org/10.1016/j.genhosppsych.2024.10.011
+- ext i2 Pagen 2023 (3783): In 3,783 PRIME participants, questionnaire-assessed PEM was present in 48.1% of women and 41.2% of men with post-COVID condition (OR 4.38 and 4.78 vs never-positive) and OI in 29.3% and 27.9% (OR 3.06 and 2.71). https://doi.org/10.3389/fmed.2023.1292446
+- ext i2 Davis 2021 (3762): In an online survey of 3,762 people with confirmed or suspected long COVID from 56 countries, fatigue, PEM and cognitive dysfunction were the most frequent symptoms after month 6, 85.9% had relapses triggered mainly by exercise, physical or mental activity and stress, and over 91% had not recovered by 35 weeks. https://doi.org/10.1016/j.eclinm.2021.101019
+
+## infection-blood-virome-null [early] rep 3 ext 0 con 1
 Claim: Unbiased blood virome/EV sequencing does not find more viruses in ME/CFS; a TTMV subgroup signal is unreplicated.
-- con i2 Vojdani 1998 (100 vs 50): Mycoplasma genus DNA in PBMC found in 52% of CFS vs 14% of controls and M. fermentans in 34% vs 8% (P<0.0001), with higher copy numbers. https://doi.org/10.1111/j.1574-695x.1998.tb01226.x
-- con i2 Choppa 1998 (100 vs 100): Multiplex PCR found Mycoplasma genus DNA in PBMC of 52% of CFS vs 15% of healthy; M. fermentans 32% vs 8%, M. hominis 9% vs 3%, M. penetrans 6% vs 2%. https://doi.org/10.1006/mcpr.1998.0186
-- rep i2 Briese 2023 (?): Multicentre blood, stool and saliva virome sequencing found no consistent differences except fewer anelloviruses in cases. https://doi.org/10.1002/jmv.28993
-- rep i2 Miller 2016 (25 ME/CFS vs 13 Lyme vs 11 SLE vs 25 HC): Plasma RNA metagenomics found very low microbial content; differences between groups were explained by contamination and batch effects. https://doi.org/10.1371/journal.pone.0165691
-- rep i2 Schutzer 2011 (43 patients): PCR of CSF from 43 CFS patients found no XMRV or other common viruses. https://doi.org/10.1002/ana.22389
-- ext i2 Frémont 2009 (48 vs 35): Parvovirus B19 DNA found in gastric/intestinal biopsies in 40% of CFS vs <15% of controls; HHV-7 common in both; EBV and HHV-6 in 15-30%. https://pubmed.ncbi.nlm.nih.gov/19414405/
+- con i2 Rasa-Dzelzkaleja 2023 (200 vs 150): In 200 ME/CFS vs 150 controls by PCR, active HHV-6A/B, HHV-7 and/or B19V infection was found in 45% vs 8.7%, with higher viral loads and higher TNF-alpha, IL-12 and IL-10 in active infection and in severe vs moderate disease. https://doi.org/10.1186/s12967-023-03887-0
+- rep i3 Briese 2023 (?): Multicenter PCR and high-throughput sequencing of blood, feces and saliva found no consistent virus differences between ME/CFS and controls except a lower prevalence of anelloviruses in cases. https://doi.org/10.1002/jmv.28993
+- rep i2 Miller 2016 (25 ME/CFS vs 13 Lyme vs 11 SLE vs 25 HC): Plasma RNA metagenomics in 25 ME/CFS vs Lyme, SLE and 25 healthy controls found very little microbial RNA, and the few group differences were explained by contamination and batch effects. https://doi.org/10.1371/journal.pone.0165691
+- rep i2 McArdle 1996 (34 muscle biopsies): None of 34 CFS patients' muscle biopsies contained enteroviral RNA by RT-PCR; muscle RNA/DNA ratio and mitochondrial enzyme activities were generally reduced, consistent with inactivity. https://doi.org/10.1042/cs0900295
 
-## muscle-exertion-exercise-gene-expression [early] rep 3 ext 1 con 2
-Claim: After moderate exercise, leukocyte mRNA for metabolite-detecting (ASIC3, P2X4/5, TRPV1), adrenergic and immune genes rose for up to 48 h in most CFS patients but not in controls or MS patients.
-- con i2 Boruch 2023 (37 GWI vs controls): Exercise-induced gene expression changes did not mediate PEM in Gulf War illness https://doi.org/10.1016/j.bbih.2023.100612
-- con i2 Nakamura 2013 (?): Exercise and sleep deprivation did not upregulate proinflammatory cytokines in blood or PBLs. https://doi.org/10.1128/cvi.00527-13
-- rep i2 Van Booven 2023 (?): Exercise-challenge transcriptomics reveals disrupted immune signatures in females with ME/CFS https://doi.org/10.3390/ijms24032698
-- rep i2 Nijs 2014 (23 studies): Review: exercise provokes larger complement C4a, oxidative stress and IL-10/TLR4 gene expression changes in CFS but not circulating cytokines. https://pubmed.ncbi.nlm.nih.gov/24974723/
-- rep i2 Whistler 2005 (?): After 70% max cycling, exercise-responsive PBMC gene expression differed between CFS and controls, with ion-transport and chromatin genes prominent. https://doi.org/10.1186/1472-6793-5-5
-- ext i2 LaManca 1999 (20 vs 14): After exhaustive treadmill test, VO2peak was similar, fatigue was higher at 24 h, but immune cell and cytokine responses did not differ from sedentary controls. https://doi.org/10.1023/a:1020510718013
+## muscle-exertion-deconditioning [several] rep 0 ext 3 con 2
+Claim: Several designs (aerobic-capacity-matched controls, idiopathic-fatigue and MS comparison groups, and a 60-day bed-rest model) indicate that deconditioning alone does not explain the exercise and muscle abnormalities in ME/CFS.
+- con i2 Cook 2006 (29 CFS, 23 CFS+FM, 32 controls): In 18-per-group subsets matched for peak VO2, CFS-only, CFS+FM and sedentary controls had no cardiorespiratory differences, suggesting fitness and FM comorbidity explain conflicting exercise data. https://doi.org/10.1002/art.22124
+- con i2 Fulcher 2000 (66 CFS vs 30 sedentary vs 15 depressed): CFS patients were weaker than sedentary and depressed controls and as unfit as sedentary controls; the authors conclude deconditioning helps maintain disability, with GET-related gains tied to lower submaximal heart rate. https://doi.org/10.1136/jnnp.69.3.302
+- ext i3 Cook 2022 (214 vs 189; matched 99 vs 99): In 99 ME/CFS vs 99 controls matched for age and peak VO2 (~1 ml/kg/min), ME/CFS still showed inefficient exercise ventilation and higher perceived exertion during ramp cycling. https://doi.org/10.1371/journal.pone.0265315
+- ext i2 van Campen 2021 (199 vs 22): In 199 ME/CFS patients, the tilt-induced CBF decline did not track %predicted peak VO2 categories, indicating that orthostatic intolerance is not explained by deconditioning. https://doi.org/10.1186/s12967-021-02819-0
+- ext i2 Harvey 2008 (4779 followed; 34 CFS cases at age 53): In a 53-year prospective birth cohort (2983 assessed, 34 with CFS, 1.1%), CFS was not preceded by childhood illness or atopy; more exercise in childhood and early adulthood and lower BMI predicted later CFS, and cases kept exercising after early fatigue began. https://doi.org/10.1097/psy.0b013e31816a8dbc
 
-## infection-enterovirus-stomach-chia [contested] rep 0 ext 1 con 4
-Claim: Enteroviral VP1 protein was found in stomach biopsies from 82% of 165 CFS patients vs 20% of controls, with EV RNA in 37% vs 5%, but this has not been independently replicated with blinded methods.
-- con i2 McArdle 1996 (34 muscle biopsies): No enteroviral RNA was found by RT-PCR in muscle from 34 CFS patients; muscle RNA/DNA ratio and mitochondrial enzyme activities were generally reduced. https://doi.org/10.1042/cs0900295
-- con i2 Lindh 1996 (34 (29 muscle biopsies)): No enterovirus was found by faecal isolation, serum-CSF antibody tests or muscle PCR in 34 Swedish CFS patients. https://doi.org/10.3109/00365549609027178
-- con i2 Swanink 1994 (76 vs 76): No difference in enterovirus serology or VP1 antigen, and no enterovirus isolated from stool cultures; one patient had a PCR-positive stool not reproduced 3 months later. https://doi.org/10.1093/clinids/19.5.860
-- con i2 Gow 1994 (121 vs 101): Enterovirus RNA by PCR in muscle was found in 26.4% of CFS and 19.8% of other neuromuscular disease, not significant, unlike the earlier smaller study (53% vs 15%). https://doi.org/10.1093/clinids/18.supplement_1.s126
-- ext i2 Frémont 2009 (48 vs 35): Parvovirus B19 DNA found in gastric/intestinal biopsies in 40% of CFS vs <15% of controls; HHV-7 common in both; EBV and HHV-6 in 15-30%. https://pubmed.ncbi.nlm.nih.gov/19414405/
+## infection-post-covid-mecfs-incidence [replicated] rep 1 ext 3 con 1
+Claim: In RECOVER-Adult, new ME/CFS (IOM criteria) developed at 2.66 per 100 person-years after SARS-CoV-2 infection vs 0.93 in uninfected participants (HR 4.93), and 4.5% of infected participants met criteria.
+- con i2 Sorg 2022 (?): Among 634 German children and adolescents, clustered DSQ ME/CFS symptoms were reported by 40.0% of seropositive vs 29.6% of seronegative children; after adjustment the risk ratio fell from 1.35 to 1.18 (95% CI 0.90-1.53, not significant), although substantial fatigue stayed raised (aRR 2.08, 1.05-4.13). https://doi.org/10.1001/jamanetworkopen.2022.33454
+- rep i3 Burkard 2024, preprint (2,521,812 COVID vs 4,233,145 negative): In 34.5 million people across 8 databases, the rate of ME/CFS after COVID-19 vs a negative test was higher: IRR 1.22 (1.21-1.23) for ME/CFS symptoms and 1.12 (1.04-1.21) for diagnoses; POTS symptoms IRR 1.24; no rise in autoimmune disease. https://doi.org/10.1101/2024.05.15.24307344
+- ext i3 O'Regan 2024 (50115): In 50,115 Danish residents (25,249 test-positive vs 24,866 test-negative, mostly vaccinated), infection was linked to a 3% higher fatigue score (SR 1.03) and higher odds of PEM (OR 2.04, 1.81-2.30) 2-18 months later; hospitalisation raised fatigue scores 23%; prior psychiatric conditions did not modify risk. https://doi.org/10.1001/jamanetworkopen.2024.34863
+- ext i2 Packard 2026, preprint (9620): In a representative survey of 9,620 NYC adults with prior COVID-19, 20.9% had PEM symptoms on the DSQ-PEM and 4.0% had PEM lasting 14 hours or more, with 3-4 times more mental health outcomes and 4-5 times higher disability scores. https://doi.org/10.64898/2026.08.31.26356614
+- ext i2 Jamal 2024, preprint (97 JHU, 281 LIINC): Among long COVID participants at 6-8 months, 5/97 (JHU) and 51/281 (LIINC) met IOM ME/CFS criteria and 2/97 and 29/281 met CCC, mapped retrospectively from non-ME/CFS-specific data; ME/CFS cases were more often female with more symptoms. https://doi.org/10.1101/2024.11.08.24316976
 
-## neuro-eeg [several] rep 4 ext 1 con 1
-Claim: Quantitative EEG shows group differences in spectral power and connectivity in ME/CFS (and LC), with classification accuracy reported in single centres, but methods are heterogeneous.
-- con i2 Armitage 2009 (13 twin pairs): Sleep EEG spectral power did not differ between CFS twins and their healthy co-twins; sleep EEG features were more genetic than disease-related. https://doi.org/10.1016/j.jpsychores.2008.08.004
-- rep i2 Manganotti 2025 (28 vs controls): FDG-PET hypometabolism in bilateral frontal, temporal, parietal and left occipital lobes plus frontal EEG slowing (delta/theta up, alpha down) vs matched controls. https://doi.org/10.1038/s41598-025-04815-6
-- rep i2 Flor-Henry 2010 (61 vs 80): 43-channel EEG source analysis separated CFS from controls with 72-83% accuracy, with lateralised cortical differences. https://doi.org/10.1016/j.pscychresns.2009.10.007
-- rep i2 Decker 2009 (35 vs 40): Overnight spectral EEG: delta power lower in slow-wave sleep and alpha, theta, sigma, beta lower in stage 2, SWS and REM in CFS. https://doi.org/10.1186/1744-9081-5-43
-- rep i2 Silva-Passadouro 2023, preprint (17 studies): Systematic review of resting qEEG: CFS/ME shows trend to increased low-frequency and reduced beta activity; long COVID findings mixed. https://doi.org/10.1101/2023.11.06.23298171
-- ext i2 Linnhoff 2026 (36 HC, 33 LC fatigue, 50 MS): Lower frontal EEG aperiodic exponent (E/I balance) associates with cognitive fatigue in long COVID and MS, classifying fatigue status beyond age and depression. https://doi.org/10.1017/s0033291725103024
+## neuro-brainstem [several] rep 3 ext 2 con 0
+Claim: Brainstem differences (volume larger or smaller, altered signal or connectivity) are among the more often repeated imaging findings in ME/CFS, though the methods differ between studies.
+- rep i2 Barnden 2019 (45 vs 27): Resting and task fMRI in 45 Fukuda ME/CFS vs 27 controls found reduced connectivity between medulla and cuneiform nucleus and from brainstem to hippocampus and intralaminar thalamus during task only, with weaker RAS connectivity related to worse symptom severity. https://doi.org/10.1016/j.nicl.2019.102045
+- rep i2 Barnden 2018 (43 vs 27): In 43 Fukuda CFS vs 27 controls at 3T, T1-weighted spin-echo signal was lower in a brainstem region (cluster P_FWE=0.002) and higher in bilateral sensorimotor white matter, with brainstem and sensorimotor signal correlated; VBM showed no volume differences. https://doi.org/10.1016/j.nicl.2018.07.011
+- rep i2 Costa 1995 (24 vs 24 pilot; 67 ME/CFS and 40 normals total): Brainstem hypoperfusion on HMPAO SPECT was found in all ME/CFS patients and was lower than in depressed patients (0.71 vs 0.77, p<0.0001). https://pubmed.ncbi.nlm.nih.gov/8542261/
+- ext i2 Inderyas 2023 (31 vs 15): On 7T fMRI during a Stroop task, 31 ME/CFS patients vs 15 controls had reduced pontine nucleus to cerebellar vermis IX connectivity (p=0.027) and wider ponto-cerebellar FC impairment, with FC correlating with illness duration, memory scores and respiratory rate. https://doi.org/10.3389/fnins.2023.1318094
+- ext i2 Barnden 2019 (45 vs 27): In 45 Fukuda ME/CFS vs 27 controls, fMRI showed weaker connectivity within the brainstem (medulla to cuneiform nucleus) and from brainstem to hippocampus and intralaminar thalamus, only during a task and not at rest; weaker RAS connectivity tracked symptom severity. https://doi.org/10.1016/j.nicl.2019.102045
 
-## omics-metabolome-small-effects [replicated] rep 2 ext 2 con 2
-Claim: Blood metabolome differences between ME/CFS and controls are real at group level but small (mostly 0.2-0.5 SD) and partly cohort-specific; early near-perfect classification did not carry over to new cohorts.
-- con i2 Jones 2005 (31 vs 31 (plus 15 depression, 22 RA)): Previously reported urinary amino/organic acid markers (CFSUM1/2) were not confirmed; some evidence of inflammation and reduced intramuscular collagen. https://doi.org/10.1016/j.cccn.2005.05.023
-- con i2 Chalmers 2006 (30 vs 30 (plus 20 depression, 22 RA)): Urinary CFSUM1 and CFSUM2 reported earlier were derivatisation artefacts (pyroglutamic acid, serine), not CFS markers. https://doi.org/10.1016/j.cccn.2005.05.036
-- rep i2 Huth 2020 (11 case-control studies): Systematic review of blood and urine metabolomics found inconsistent results across 11 studies. https://doi.org/10.1186/s12967-020-02356-2
-- rep i2 Hauguel 2026, preprint (226 vs 914): Dried blood spot LC-MS metabolomics in 1784 adults found pathway-level convergence with ME/CFS biology for a self-reported PEM-like fatigue phenotype. https://doi.org/10.64898/2026.06.08.26355197
-- ext i2 Nkiliza 2021 (50 vs 50): Sex-specific plasma lipid differences: lower PE and hexosylceramides in females, higher HexCer, PI, TG and oxylipins in males. https://doi.org/10.1186/s12967-021-03035-6
-- ext i2 Niblett 2007 (100 vs 82): Blood counts normal; CFS had lower RDW, higher MPV, neutrophils and N/L ratio; reduced overnight urine output and amino acid excretion (asparagine, branched-chain, succinate lower; 3-methylhistidine, tyrosine higher). https://doi.org/10.3181/0702-rm-44
-
-## gut-butyrate-producer-loss [replicated] rep 4 ext 3 con 0
-Claim: Stool from ME/CFS patients has fewer butyrate-producing bacteria (notably Faecalibacterium prausnitzii, Eubacterium rectale, Roseburia, Coprococcus) and reduced microbial capacity to make butyrate.
-- rep i2 Donchev 2026 (?): Gut microbiome in ME/CFS and long COVID vs HC: small beta-diversity differences, shared Sutterella enrichment and Terrisporobacter/Lachnospiraceae depletion. https://doi.org/10.3390/biomedicines14061183
-- rep i2 Cheng 2025 (40 vs 40): CFS had lower gut alpha-diversity and lower fecal acetate, butyrate, isobutyrate and isovalerate with reduced Firmicutes, Ruminococcaceae and Clostridiales. https://doi.org/10.1038/s41598-025-27564-y
-- rep i2 Guo 2021, preprint (106 vs 91): Shotgun metagenomics: fewer Faecalibacterium, Roseburia and Eubacterium (butyrate producers) and higher bacterial load in ME/CFS. https://doi.org/10.21203/rs.3.rs-1017818/v1
-- rep i2 Xiong 2021, preprint (79 controls plus short-term and long-term cohorts): Reduced microbiome diversity, depleted sphingomyelins, SCFAs and butyrate biosynthesis; dysbiosis stronger in short-term disease, metabolic abnormalities in long-term. https://doi.org/10.1101/2021.10.27.466150
-- ext i2 Du Preez 2018 (7 studies): Systematic review: gut microbiome differences reported in every study but only three significant and findings inconsistent; study quality poor. https://doi.org/10.1186/s13643-018-0909-0
-- ext i2 Xiong 2024, preprint (249 participants, 4 years): BioMapAI deep-learning model integrating gut metagenomics, metabolomics, immune profiles classified ME/CFS in held-out and external cohorts and implicated SCFA, tryptophan and MAIT/gamma-delta T cell pathways. https://doi.org/10.1101/2024.06.24.600378
-- ext i2 Williams 2024, preprint (38 ME/CFS, 27 ME/CFS+IBS, 17 mixed disorders): Against a non-healthy mixed-disorder control, only Roseburia and Dialister distinguished ME/CFS, suggesting much dysbiosis is non-specific. https://doi.org/10.1101/2024.04.23.24306162
-
-## infection-ebv-serology-not-different [several] rep 5 ext 1 con 0
-Claim: In large well-characterised cohorts, standard EBV and other herpesvirus seroprevalence and overall IgG reactivity do not differ between ME/CFS patients and controls.
-- rep i2 Pricoco 2023 (25 (12 adolescents, 13 young adults)): At 1 year 54% of adolescents no longer met criteria while all young adults still did; EBV serology and DNA load did not correlate with severity. https://doi.org/10.3389/fped.2023.1266738
-- rep i2 Koelle 2002 (22 discordant pairs): Serology and PCR for HHV-6/7/8, CMV, EBV, HSV, VZV, parvovirus B19 and others did not differ between twins with CFS and healthy co-twins. https://doi.org/10.1086/341774
-- rep i2 Wallace 1999 (?): PCR for HHV6, HHV7, EBV and CMV in PBMC and EBV/HHV6 serology showed no significant differences between CFS and matched controls. https://doi.org/10.1128/cdli.6.2.216-223.1999
-- rep i2 Buchwald 1996 (548 patients): Seroprevalence and titres to 13 viruses (HSV, rubella, adenovirus, HHV-6, EBV, CMV, Coxsackie B) were not consistently different from controls in CF, CFS, acute-onset or febrile subsets. https://doi.org/10.1002/(sici)1096-9071(199609)50:1<25::aid-jmv6>3.0.co;2-v
-- rep i2 Whelton 1992 (14 vs 12): All CFS patients had unrefreshing sleep and a prominent alpha-EEG NREM sleep anomaly (p<=0.001), with no EBV antibody difference, more tender points and depressive symptoms. https://pubmed.ncbi.nlm.nih.gov/1328633/
-- ext i2 O'Neal 2022 (?): Survey of anti-pathogen antibody levels in ME/CFS https://doi.org/10.3390/proteomes10020021
-
-## immune-trpm3 [early] rep 5 ext 1 con 0
-Claim: Reduced TRPM3 ion-channel current and calcium influx in patients' NK cells has been reported repeatedly, including a two-site study (36 vs 42), but only ever by one research group.
-- rep i3 Sasso 2022 (?): TRPM3 dysfunction found in NK cells from post-COVID condition and ME/CFS patients https://doi.org/10.1186/s10020-022-00528-y
-- rep i2 Cabanas 2019 (8 vs 8): Patch-clamp confirmed impaired TRPM3 function in IL-2 stimulated NK cells from ME/CFS; naltrexone restored function in vitro. https://doi.org/10.3389/fimmu.2019.02545
-- rep i2 Cabanas 2019 (?): Patch-clamp in a new cohort confirmed impaired TRPM3 activity in patients' NK cells. https://doi.org/10.1186/s10020-019-0083-4
-- rep i2 Cabanas 2018 (12 vs 12): Patch-clamp showed reduced TRPM3 current amplitude in NK cells from CFS/ME patients. https://doi.org/10.1186/s10020-018-0046-1
-- rep i2 Nguyen 2016 (?): TRPM3 surface expression reduced on CD19+ B cells and CD56bright NK cells in CFS/ME, with reduced cytoplasmic calcium after stimulation. https://doi.org/10.1186/s40659-016-0087-2
-- ext i2 Nguyen 2017 (15 CFS/ME vs 25 healthy): TRPM3 receptor expression reduced on unstimulated CD56bright NK cells in CFS/ME; Ca2+ flux responses to PregS were altered/increased rather than reduced. https://doi.org/10.1111/cei.12882
-
-## genetics-trpm3 [contested] rep 5 ext 1 con 0
-Claim: TRPM3 ion channel dysfunction in NK cells and TRPM3 SNPs are reported repeatedly by one research group, but the SNP studies are tiny and no TRPM3 association appears in GWAS.
-- rep i2 Cabanas 2019 (8 vs 8): Patch-clamp confirmed impaired TRPM3 function in IL-2 stimulated NK cells from ME/CFS; naltrexone restored function in vitro. https://doi.org/10.3389/fimmu.2019.02545
-- rep i2 Cabanas 2019 (?): Patch-clamp in a new cohort confirmed impaired TRPM3 activity in patients' NK cells. https://doi.org/10.1186/s10020-019-0083-4
-- rep i2 Cabanas 2018 (12 vs 12): Patch-clamp showed reduced TRPM3 current amplitude in NK cells from CFS/ME patients. https://doi.org/10.1186/s10020-018-0046-1
-- rep i2 Nguyen 2016 (?): TRPM3 surface expression reduced on CD19+ B cells and CD56bright NK cells in CFS/ME, with reduced cytoplasmic calcium after stimulation. https://doi.org/10.1186/s40659-016-0087-2
-- rep i2 Marshall-Gradisnik 2016 (39 vs 30): NK lysis lower in ME/CFS (17% vs 31%); 11 SNPs in TRPC4, TRPC2, TRPM3, TRPM8 and AChR genes found in NK cells. https://doi.org/10.2147/tacg.s99405
-- ext i2 Nguyen 2017 (15 CFS/ME vs 25 healthy): TRPM3 receptor expression reduced on unstimulated CD56bright NK cells in CFS/ME; Ca2+ flux responses to PregS were altered/increased rather than reduced. https://doi.org/10.1111/cei.12882
-
-## genetics-hypermobility-overlap [several] rep 1 ext 2 con 2
+## genetics-hypermobility-overlap [several] rep 1 ext 0 con 2
 Claim: Joint hypermobility and Ehlers-Danlos syndrome are over-represented in ME/CFS (Beighton ≥4 in 60% of children with CFS vs 24% of controls; 50% in a Swedish severe cohort; EDS about 100x expected in Finnish registries).
-- con i2 Poomkudy 2024 (53 ME/CFS vs 66 recovered): Joint hyperflexibility (Beighton) did not differ between ME/CFS and recovered students 6 months after mononucleosis. https://doi.org/10.1016/j.clinthera.2023.12.011
-- con i2 van de Putte 2005 (32 vs 167): Joint mobility and collagen markers did not differ, but systolic blood pressure was 13.5 mmHg lower in adolescent CFS. https://doi.org/10.1542/peds.2004-1515
-- rep i2 Nijs 2006 (68 vs 69): Generalised joint hypermobility was more frequent in CFS (20.6% vs 4.3%); no link with musculoskeletal pain. https://doi.org/10.1016/j.jmpt.2005.11.004
-- ext i2 Eastin 2025 (?): At about 36 months, a moderate-to-severe autonomic symptom burden (COMPASS-31 >=20) persisted; 40.5% of those with dysautonomia were newly diagnosed POTS; female sex and joint hypermobility were risk factors. https://doi.org/10.1007/s10286-025-01111-1
-- ext i2 Grach 2024 (732): Mayo clinic: 58% of long COVID patients screened positive for ME/CFS vs 0% of controls; also joint hypermobility and orthostatic intolerance overlap. https://doi.org/10.3389/fneur.2024.1482917
+- con i2 Poomkudy 2024 (53 ME/CFS vs 66 recovered): In a prospective post-mononucleosis student cohort, modified Beighton scores did not differ significantly between 53 who developed ME/CFS at 6 months and 66 recovered controls; females scored higher than males. https://doi.org/10.1016/j.clinthera.2023.12.011
+- con i2 van de Putte 2005 (32 vs 167): In 32 adolescents with CFS vs 167 controls, joint mobility, Beighton score and collagen breakdown markers did not differ, while systolic BP was lower (adjusted -13.5 mmHg), skin extensibility higher (+0.3 SD) and arteries stiffer. https://doi.org/10.1542/peds.2004-1515
+- rep i2 Nijs 2006 (68 vs 69): Generalised joint hypermobility was present in 20.6% of 68 adult CFS patients vs 4.3% of 69 matched controls, most patients met benign joint hypermobility syndrome criteria, and hypermobility was not associated with musculoskeletal pain. https://doi.org/10.1016/j.jmpt.2005.11.004
 
-## muscle-exertion-old-biopsies [contested] rep 3 ext 1 con 1
-Claim: Older ME/CFS muscle biopsy studies mostly found normal or nonspecific histology, without the fibre atrophy and type 2 shift expected from inactivity, with abnormalities confined to subgroups.
-- con i2 McArdle 1996 (34 muscle biopsies): No enteroviral RNA was found by RT-PCR in muscle from 34 CFS patients; muscle RNA/DNA ratio and mitochondrial enzyme activities were generally reduced. https://doi.org/10.1042/cs0900295
-- rep i2 Holden 2020 (19 studies): Systematic review of mitochondrial abnormalities found inconsistent results across structure, function, metabolites and coenzymes. https://doi.org/10.1186/s12967-020-02452-3
-- rep i2 Plioplys 1995 (15 vs 15): Blinded quantified electron microscopy of muscle biopsies found no difference in mitochondrial aggregates, size, pleomorphism or compartmentalisation. https://doi.org/10.1159/000119233
-- rep i2 Edwards 1993 (108 biopsies + 22 normal; 12 vs 12 physiology): Muscle light and electron microscopy showed no consistent relation between symptoms and fibre type, degeneration, glycogen or mitochondria; contractile function was normal at rest and 48 h recovery; perceived exertion was higher. https://doi.org/10.1002/9780470514382.ch7
-- ext i2 Vecchiet 1996 (21 patients; 9 biopsies): Pain thresholds were lower in muscle but normal in skin in 21 CFS patients; quadriceps biopsies in 9 showed sarcomere and mitochondrial abnormalities and raised mtDNA 4977 bp deletion. https://doi.org/10.1016/0304-3940(96)12559-3
+## infection-dubbo-stereotyped-pifs [replicated] rep 0 ext 2 con 2
+Claim: About 11-12% of people with confirmed EBV, Q fever or Ross River virus infection meet CFS criteria at 6 months, at a similar rate for all three pathogens, and the severity of the acute illness predicts it.
+- con i2 Moss-Morris 2011 (246): In 246 prospectively followed glandular fever patients, 9.4% had chronic fatigue at 3 months and 7.8% CFS at 6 months; anxiety, depression, somatisation, perfectionism, negative illness beliefs and all-or-nothing behaviour (strongest) predicted CFS. https://doi.org/10.1017/s003329171000139x
+- con i2 Moss-Morris 2006 (835): In 592 post-Campylobacter and 243 post-mononucleosis patients followed prospectively, CF/CFS odds were higher after mononucleosis at 3 months (OR 2.77) but not 6 months (OR 1.48, ns), and baseline anxiety and depression were the strongest predictors of CF/CFS. https://doi.org/10.1097/01.psy.0000221384.07521.05
+- ext i2 Sandler 2022 (?): In the expanded Dubbo cohort (n=484), 90 (19%) met CFS criteria at 6 months; severity of the acute illness and concurrent mood disturbance predicted prolonged illness and PIFS, and NPY haplotypes were examined as predictors. https://doi.org/10.3389/fneur.2022.935442
+- ext i2 Bodenhausen 2024, preprint (200, protracted symptoms 55/183): In 200 young people with acute EBV mononucleosis, severe acute IM symptoms (e.g. severe GI symptoms, OR 3.54) and a history of infection susceptibility (OR 2.98) predicted protracted fatigue at 6 months (18.8%). https://doi.org/10.1101/2024.05.17.24307333
 
-## endocrine-female-preponderance [replicated] rep 2 ext 2 con 1
-Claim: ME/CFS and long COVID are more common in women (ME/CFS prevalence about 1.4% vs 0.9%; DecodeME 82% female), but genetic risk variants are not sex-specific.
-- con i2 Reeves 2007 (5623 surveyed): Estimated CFS prevalence 2.54% in adults 18-59, with female:male ratio 11.2:1 metropolitan but 0.8:1 rural. https://doi.org/10.1186/1478-7954-5-5
-- rep i2 Bretherick 2023 (17,074): 83.5% female; females have more comorbidities; female sex, older age and >10 years duration associate with greater severity; five onset types compared. https://doi.org/10.3310/nihropenres.13421.4
-- rep i2 Nater 2008 (75 vs 110): Attenuated morning salivary cortisol profile in CFS, limited to women (not men). https://doi.org/10.1210/jc.2007-1747
-- ext i2 Martins Conde 2025 (1865; 50 post-COVID vs 66 mimics): Co-occurrence of memory impairment and fatigue distinguishes post COVID from pandemic-related mimics in CON-VINCE. https://doi.org/10.1038/s41598-025-19984-7
-- ext i2 Samms 2025 (100055 diagnosed): Primary-care records in England: 100,055 diagnosed ME/CFS (0.16% of registered patients), F:M 3.88:1, wide regional and ethnic variation in diagnosis. https://doi.org/10.1186/s12889-025-22603-9
+## neuro-hypocapnia [replicated] rep 4 ext 0 con 0
+Claim: Many patients over-breathe when upright and lower their end-tidal CO2. This drives part of the fall in brain blood flow, and correcting it with phenylephrine restored blood flow and working memory in one small trial.
+- rep i3 Naschitz 2006 (585 total (CFS 90)): On 30-minute head-up tilt with capnography in 585 people, hypocapnia (PETCO2 <30 mmHg for 10+ min) occurred in 9-27% of CFS (n=90), fibromyalgia, dizziness and NMS patients vs 0-2% of controls, mostly as sustained hypocapnia on tilt. https://doi.org/10.1097/00000441-200606000-00001
+- rep i2 Natelson 2022 (63): Resting or lean-induced hypocapnia (ETCO2 <=32 mmHg) was the most frequent and most persistent abnormality in 63 CFS patients tested up to 3 times, unrelated to anxiety scores. https://doi.org/10.1186/s12967-022-03289-8
+- rep i2 Natelson 2007 (75 CFS vs 40 controls): On an 8-minute stand test with capnography, 53% of 62 CFS patients vs 20% of 35 controls had an abnormal orthostatic test, with orthostatic hypocapnia defining a CFS subgroup. https://doi.org/10.1186/1476-5918-6-2
+- rep i2 Naschitz 2000 (32 vs 32): In 32 CFS vs 32 controls on capnography head-up tilt, supine values were similar, but on tilt patients had significantly lower systolic and diastolic BP and end-tidal CO2 and larger rises in HR and respiratory rate. https://doi.org/10.1053/sarh.2000.9201
 
-## neuro-resting-fc [contested] rep 3 ext 3 con 0
-Claim: Resting-state functional connectivity differences in ME/CFS (default mode, salience, sensorimotor, brainstem networks) are reported by several groups but with non-overlapping networks and some nulls in larger samples.
-- rep i2 Almutairi 2020 (?): Systematic review of structural and functional MRI: inconsistent anatomical differences, more or broader activation on tasks; insufficient data for a neural biomarker. https://doi.org/10.1136/bmjopen-2019-031672
-- rep i2 Maksoud 2020 (55 studies): Systematic review of neuroimaging: differences reported in grey and white matter volume, cerebral blood flow, EEG, connectivity, but heterogeneous. https://doi.org/10.1371/journal.pone.0232475
-- rep i2 Barnden 2019 (45 vs 27): fMRI showed brainstem reticular connectivity deficits (medulla to cuneiform nucleus, to hippocampus and thalamus) in Fukuda ME/CFS, only during task, related to symptom severity. https://doi.org/10.1016/j.nicl.2019.102045
-- ext i2 Schumann 2025 (46 neuroimaging studies, 2603): ALE meta-analysis finds a frontal-striatal-limbic, frontal-cingulate and parietal network for mental fatigue across conditions. https://doi.org/10.1093/braincomms/fcaf315
-- ext i2 Inderyas 2023 (31 vs 15): Reduced ponto-cerebellar functional connectivity in ME/CFS during Stroop; connectivity linked to illness duration and memory. https://doi.org/10.3389/fnins.2023.1318094
-- ext i2 Su 2023 (?): Salience and DMN connectivity with subcortical nodes distinguishes two ME/CFS classes https://doi.org/10.1089/brain.2022.0049
+## trials-nice-2021-harms [several] rep 2 ext 1 con 1
+Claim: NICE's 2021 guideline (NG206) told clinicians not to offer graded exercise therapy, and patient surveys plus a 2026 German rehabilitation study report frequent worsening after exercise-based or even pacing-focused rehab.
+- con i2 White 2021 (10 trials, 1279): Meta-analysis of 10 GET trials (n=1279): self-rated 'much/very much worse' CGI in 4% after GET vs 8% after control (RR 0.62, 0.32-1.17); treatment withdrawals 12% vs 10% (RR 1.21, NS); follow-up dropouts 11% vs 7% (RR 1.51, 1.03-2.22); GRADE certainty low. https://doi.org/10.1016/j.jpsychores.2021.110533
+- rep i2 Geraghty 2019 (1428 plus 16665 from other surveys): A survey of 1428 patients, compared with secondary surveys totalling 16,665, found CBT helped 8-35%, GET caused negative responses in 54-74%, and pacing was most favoured, with 44-82% reporting benefit. https://doi.org/10.1177/1359105317726152
+- rep i2 Bjørkum 2009 (828): Among 828 Norwegian CFS survey respondents, 79% of those who had graded training said it worsened their health, 57% found help challenging negative thoughts useful, and ratings were similar regardless of severity. https://doi.org/10.4045/tidsskr.09.35791
+- ext i2 Wormgoor 2021 (18 RCTs): Systematic review of 18 physiotherapy RCTs (3 CF, 14 CFS, 1 PEM-required ME): intervention effects, if any, disappeared with narrower PEM-based case definitions, more objective outcomes and longer follow-up; no evidence of effective physiotherapy for ME. https://doi.org/10.1186/s12967-020-02683-4
 
-## muscle-exertion-two-day-cpet [contested] rep 4 ext 1 con 0
-Claim: ME/CFS patients perform worse on a second maximal exercise test 24 h after the first, most clearly in workload and VO2 at the ventilatory threshold, but two independent groups (Lien 2019; Mancini and Natelson 2026) did not reproduce the VO2 effect.
-- rep i2 Mateo 2020 (49 vs 10): After two CPETs 24 h apart, ME/CFS reported 14 symptoms on average vs 4 in controls and still 4 symptoms over the next 7 days (controls none). https://doi.org/10.3233/wor-203168
-- rep i2 Davenport 2020 (51 females vs 10 sedentary controls): Two-day CPET measurements were reliable (moderate to high ICC) and separated ME/CFS from controls with moderate to large effect sizes. https://doi.org/10.3233/wor-203170
-- rep i2 Keller 2014 (22): On repeat CPET 24 h later, VO2peak fell 13.8%, work at peak 12.5% and work at VT 21.3%, with peak RER 1.1 or more in both tests. https://doi.org/10.1186/1479-5876-12-104
-- rep i2 Davenport 2011 (16 vs 14): Failure to recover within 1 day after two CPETs 24 h apart had AUC 0.864 (sensitivity 0.80, specificity 0.93) for CFS membership. https://doi.org/10.3109/09638288.2010.546936
-- ext i2 Leem 2022 (?): 2-day CPET in CFS with PEM after humidifier disinfectant exposure https://doi.org/10.5620/eaht.2022033
+## immune-neural-autoantibodies [early] rep 1 ext 0 con 2
+Claim: Autoantibodies against neural antigens (e.g. neurotransmitter receptors, ion channels) are reported in ME/CFS and LC subsets, with mixed associations with symptoms.
+- con i2 Giannoccaro 2019 (50 vs 50): Blinded testing of 50 patients and 50 controls at the Oxford neuroimmunology lab found any neuronal immunoreactivity in 8 patients vs 11 controls and specific antibodies in 1 vs 2; seropositive patients had shorter duration and more severe disease. https://doi.org/10.1016/j.clinthera.2019.04.001
+- con i2 Chakravarty 2026, preprint (?): In CSF and serum from neurological long COVID (Yale COVID Mind and EPICC cohorts), brain-tissue immunofluorescence and PhIP-Seq found only sparse, patient-specific reactivities to nuclear and neuronal proteins, with similar overall CSF reactivity frequencies to controls, limited case-control discrimination, and no shared autoantibody signature. https://doi.org/10.64898/2026.03.19.26348833
+- rep i2 Tanaka 2003 (60 vs 33 autoimmune vs 30 controls): By radioligand assay, anti-muscarinic M1 (CHRM1) antibodies were raised in CFS (n=60, p<0.0001 vs 30 controls; 53.3% positive) and linked to muscle-weakness scores (1.81 vs 1.18, p<0.01); anti-mu-opioid, 5-HT1A and D2 antibodies were in 15.2%, 1.7% and 5.0%. https://doi.org/10.3892/ijmm.12.2.225
 
-## immune-rnase-l [early] rep 3 ext 0 con 1
-Claim: Upregulated 2-5A synthetase/RNase L activity and a low-molecular-weight RNase L fragment in CFS PBMC (1990s); not replicated with modern methods.
-- con i2 Gow 2001 (22 CFS vs 10 gastroenteritis vs 21 healthy): RNase L and PKR antiviral pathway gene expression was upregulated in acute infection but not in CFS, so activation is unlikely to serve as a CFS diagnostic. https://doi.org/10.1086/324357
-- rep i2 De Meirleir 2000 (57 vs 53 (28 healthy, 25 depression/FM)): A 37 kDa 2-5A binding polypeptide was found in 88% of CFS patients vs 28% of controls, and in 11% of healthy subjects. https://doi.org/10.1016/s0002-9343(99)00300-9
-- rep i2 Suhadolnik 1997 (?): A subset of CFS PBMC showed only a 37 kDa or 30 kDa 2-5A-dependent RNase L species rather than 80 and 42 kDa, indicating more complex RNase L dysfunction. https://doi.org/10.1089/jir.1997.17.377
-- rep i2 Suhadolnik 1994 (?): Baseline bioactive 2-5A (p<0.0001) and RNase L activity (p=0.001) were elevated; poly(I)-poly(C12U) lowered both in those with high baseline, correlating with cognitive improvement. https://pubmed.ncbi.nlm.nih.gov/7893988/
+## immune-innate-hyperreactivity [early] rep 1 ext 0 con 2
+Claim: Whole-blood immune responses to microbial antigens are exaggerated in ME/CFS and worsen after exercise, alongside complement activation and metabolic abnormalities.
+- con i2 Nakamura 2013 (?): Repeated blood sampling after exercise and after total sleep deprivation showed no clinically significant upregulation of proinflammatory cytokines in CFS (plasma protein, PBL mRNA, resting and stimulated PBL function). https://doi.org/10.1128/cvi.00527-13
+- con i2 Gaab 2005 (21 vs 20): After the Trier social stress test, LPS-stimulated IL-6 and TNF-alpha production fell in 21 CFS patients but rose in 20 controls, with normal cortisol responses; patients did not show exaggerated LPS-induced cytokine secretion. https://doi.org/10.1016/j.psyneuen.2004.06.008
+- rep i2 Chao 1991 (?): LPS-stimulated PBMCs from CFS patients released more IL-1beta, IL-6 and TNF-alpha (P<0.05), and more IL-6 to PHA (P<0.01), while LPS-stimulated TGF-beta release was lower; serum TGF-beta was higher (290 vs 104 pg/mL, P<0.01). https://doi.org/10.1016/1043-4666(91)90497-2
 
-## lc-pem-provocation-response [contested] rep 1 ext 3 con 1
-Claim: Whether standardised exercise provokes measurable post-exertional symptom worsening in long COVID is contested: a crossover RCT found no greater 48-h fatigue than controls, while symptom-tracking studies find variable PESE peaking within 72 h in subsets.
-- con i2 Boruch 2024 (40 veterans): Seated rest vs light, moderate and vigorous 20-min cycling produced no condition-by-time interaction for symptoms, pain, cognition, cytokines or later activity, so exercise did not provoke PEM. https://doi.org/10.1016/j.bbi.2024.05.026
-- rep i3 Weber 2026, preprint (18 vs 18): Severe PCC (61% met ME/CFS criteria) had markedly lower peak power (1.1 vs 2.4 W/kg, p reported) on a single CPET; PEM symptoms tracked daily for 14 days after to assess safety. https://doi.org/10.21203/rs.3.rs-9605064/v1
-- ext i2 García-Alonso 2026 (?): Six weeks of supervised exercise produced no significant immune changes after multiple-testing correction in PESE-negative long COVID adults. https://doi.org/10.14814/phy2.71031
-- ext i2 Bomans 2026 (25): Agreement and reliability of two-day 6-minute step test versus two-day CPET for assessing PEM in long COVID (REVEAL). https://doi.org/10.1371/journal.pone.0353132
-- ext i2 Greenwood 2024 (376 participants, EMA up to 24 days): Symptom severity rose within 30 min of physical, cognitive and social effort (fatigue +1.8/10 after highest physical exertion); delayed fatigue at 3 h or 1 day was only mild. https://doi.org/10.1016/j.lanepe.2024.101082
-
-## genetics-familial-heritability [replicated] rep 3 ext 2 con 0
-Claim: ME/CFS aggregates in families: relatives of cases have about 2-3x the risk, MZ twins are more concordant than DZ twins, and familiality in a 153,803-person Dutch cohort was 42%.
-- rep i2 Jason 2024 (400 ME/CFS vs 241 MS/PPS controls): Family history of ME/CFS in 18% of patients vs 3.9% of controls; those with family history had more GI symptoms. https://doi.org/10.37349/emed.2024.00215
-- rep i2 Walsh 2001 (25 cases vs 36 medical controls): First-degree relatives of CFS cases had higher rates of CFS than relatives of controls, without greater familial depression loading. https://doi.org/10.1097/00041444-200109000-00003
-- rep i2 Levine 1998 (8 affected, 12 unaffected relatives, 8 controls): NK cytotoxicity was lower in 8 affected family members than controls (P=0.006) with normal NK cell counts; low activity also in 4/12 unaffected relatives. https://doi.org/10.1006/clin.1998.4554
-- ext i2 Steen 2026 (6097372): Swedish twin and sibling registers: shared genetic risk between functional somatic syndromes, internalizing disorders and immune-mediated disease. https://doi.org/10.1016/j.bbi.2026.106837
-- ext i2 Birch 2025 (31 affected from 25 families): Whole-genome sequencing found pathogenic/likely pathogenic variants in 8 of 25 probands (32%), heterogenous pathways including energy metabolism and ion homeostasis. https://doi.org/10.1186/s12967-025-07586-w
-
-## neuro-lc-subcortical-structure [several] rep 1 ext 6 con 0
-Claim: Long COVID shows structural differences in thalamus, basal ganglia and choroid plexus (enlarged) on MRI relative to recovered controls.
-- rep i2 Serrano Del Pueblo 2024 (?): Compared with infection-recovered controls, long COVID had lower overall cognition (OCLz -0.39 vs +0.32), 48% episodic memory deficit, and thinner left posterior superior temporal cortex. https://doi.org/10.1093/brain/awae101
-- ext i2 Schwichtenberg 2026 (49 vs 48): PCC with cognitive complaints show deficits in attention, executive function and memory with MRI structural brain differences correlating to symptoms. https://doi.org/10.1093/braincomms/fcag099
-- ext i2 Seo 2025 (Cog-PASC vs Other-PASC vs non-PASC, exploration+validation): Cognitive PASC showed elevated astroglial damage proteins in blood and MRI changes (cingulate/insular cortical thinning, susceptibility) about one year after mild COVID. https://doi.org/10.1038/s41467-025-65597-z
-- ext i2 Hartung 2026 (57 vs 57): Reduced cortical thickness in parahippocampal and temporal regions after COVID hospitalisation, associated with fatigue and acute severity. https://doi.org/10.1002/acn3.70260
-- ext i2 Birberg Thornberg 2026, preprint (34 vs 37): Post-COVID condition with fatigue vs recovered controls: neurocognitive and immunological measures within normal ranges, only modest white-matter/myelin differences on MRI. https://doi.org/10.64898/2026.10.21.760664
-- ext i2 Ziaja 2026, preprint (88 vs 34): Mammillary body volume phenotypes (reduced, enlarged, normal) and fornix/brainstem diffusion differences in long COVID; 33 patients bedridden. https://doi.org/10.64898/2026.07.31.26359395
-- ext i2 Romero-Molina 2026, preprint (42 vs 14): Neuroanatomical clustering gives two subgroups, with cerebellar and putamen grey matter loss in one, plus longitudinal changes. https://doi.org/10.64898/2026.07.30.741878
-
-## lc-icpet-impaired-extraction [several] rep 3 ext 2 con 0
-Claim: Invasive CPET in long COVID with exercise intolerance repeatedly shows low systemic oxygen extraction with normal or high cardiac output, and in a subset reduced biventricular filling (preload failure), mirroring ME/CFS iCPET findings.
-- rep i3 Jothi 2025 (15 PASC, 11 CFS/ME, 11 controls): Invasive CPET oxygen pathway analysis: reduced VO2peak in both, with skeletal muscle O2 diffusion (DM) the most impaired parameter; normalising DM would raise VO2 66% in PASC and 35% in CFS/ME. https://doi.org/10.14814/phy2.70535
-- rep i2 Sørensen 2024 (169 baseline, 41 at 1 year): Mean peak VO2 24.4 mL/kg/min with 36% below predicted; VO2/work slope low in 54%; no change at 1 year. https://doi.org/10.1016/j.chpulm.2024.100036
-- rep i2 Mancini 2021 (41): CPET in post-COVID unexplained dyspnoea: 58.5% had peak VO2 below 80% predicted, 88% had ventilatory abnormalities including dysfunctional breathing (26) and hypocapnia. https://doi.org/10.1016/j.jchf.2021.10.002
-- ext i2 Ladek 2025 (?): NIRS during light handgrip exercise showed reduced deoxygenation peaks at exercise start in post-COVID syndrome vs controls (p=0.0002), with a subgroup linking strong fatigue to restricted oxygenation dynamics. https://doi.org/10.3390/biomedicines13061371
-- ext i2 Kersten 2022 (143): CPET patterns distinguish dysfunctional breathing/deconditioning syndrome from organ pathology https://doi.org/10.3390/ijerph191811421
-
-## neuro-nasa-lean [several] rep 2 ext 4 con 0
-Claim: On the 10-minute NASA lean test, a subgroup of recent-onset patients shows a rising heart rate with an abnormally narrow pulse pressure. Autonomic specialists say the test has not been validated against tilt or active stand.
-- rep i2 Natelson 2022 (63): 10-minute lean test found abnormal response in 60% of 63 patients; hypocapnia most frequent, then orthostatic tachycardia. https://doi.org/10.1186/s12967-022-03289-8
-- rep i2 Schondorf 1999 (75 patients vs 48 controls): 40% of 75 CFS patients had orthostatic intolerance on 80-degree tilt (16 neurally mediated syncope, 7 tachycardia, 6 mixed) versus 8/48 controls with syncope; OI subgroup had shorter illness and more subacute onset. https://doi.org/10.1016/s0165-1838(98)00177-5
-- ext i3 Lee 2024 (277 vs 50): NASA lean test: 15% abnormal, 7% POTS and 8% OH; 52% symptomatic during test; 45% of abnormal tests had no prior OI symptoms; healthy volunteers had no POTS. https://doi.org/10.1002/jmv.29486
-- ext i2 Morrow 2025 (92 children): 71% met criteria for an orthostatic condition on a 10-min passive standing test (POTS, OT, OH, delayed OH, orthostatic hypertension). https://doi.org/10.1177/00099228241272053
-- ext i2 van Campen 2022 (14 vs 14 vs 14): Orthostatic intolerance compared between long-haul COVID and ME/CFS post-EBV and insidious onset https://doi.org/10.3390/healthcare10102058
-- ext i2 Vernon 2022 (?): Orthostatic challenge causes distinct symptomatic, hemodynamic and cognitive responses in long COVID and ME/CFS https://doi.org/10.3389/fmed.2022.917019
-
-## muscle-exertion-31p-mrs-ph [contested] rep 0 ext 2 con 2
-Claim: 31P-MRS studies from Newcastle found exaggerated muscle acidosis and up to ~4-fold slower pH recovery after repeated exercise in a subset of patients, but other MRS studies found no consistent group abnormality.
-- con i2 McCully 2004 (19 vs 11): Hyperaemic flow and PCr recovery were normal at baseline; partial cuff restriction reduced flow and slowed oxygen saturation recovery in CFS, but muscle metabolism did not differ. https://doi.org/10.1152/japplphysiol.00141.2003
-- con i2 McCully 2003 (19 vs 11): No difference in post-ischaemic or post-exercise hyperaemic flow, PCr recovery or oxygen resaturation. https://doi.org/10.1042/cs20020279
-- ext i2 Hollingsworth 2010 (12 CFS vs 8 controls (MRS); 64 for tilt): Cardiac PCr/ATP correlated with muscle bioenergetics, and 4 of 12 CFS had cardiac energy impairment linked to contractility changes on standing. https://doi.org/10.1111/j.1365-2362.2010.02310.x
-- ext i2 McCully 1996 (22 vs 15): Maximal post-exercise PCr resynthesis rate (Vmax) in calf was lower in CFS (39.6 vs 53.8 mmol/L/min) and did not fall further 2 days after a maximal treadmill test. https://doi.org/10.1002/(sici)1097-4598(199605)19:5<621::aid-mus10>3.0.co;2-q
-
-## omics-ml-classifiers [contested] rep 1 ext 2 con 1
-Claim: Multi-omic machine-learning classifiers (BioMapAI and others) perform well in cross-validation but drop to AUC ~0.6-0.77 on external cohorts, so none is usable for diagnosis.
-- con i2 Frampton 2011 (?): A 44-gene PBMC expression classifier correctly classified only about two-thirds of samples in an independent population, so earlier reporter genes appear study-specific. https://doi.org/10.1371/journal.pone.0016872
-- rep i2 Yagin 2026 (106 vs 91): Plasma metabolomics/lipidomics ensemble classifier reached accuracy 0.909 and AUC 0.940; top interactions include proline with indole-3-lactate. https://doi.org/10.3390/ijms27135920
-- ext i2 Gülmez 2026 (50 PASC vs 42 HC + 8 ME/CFS): Urinary peptidome signature of 195 peptides (collagen chains) separated PASC from controls (AUC 0.949 training, 0.962 validation). https://doi.org/10.1002/pmic.70074
-- ext i2 Xiong 2024, preprint (249 participants, 4 years): BioMapAI deep-learning model integrating gut metagenomics, metabolomics, immune profiles classified ME/CFS in held-out and external cohorts and implicated SCFA, tryptophan and MAIT/gamma-delta T cell pathways. https://doi.org/10.1101/2024.06.24.600378
-
-## vascular-complement-mecfs [contested] rep 2 ext 3 con 0
-Claim: In ME/CFS, complement findings are heterogeneous: an exercise-induced C4a rise, a genetically defined alternative-pathway subgroup, and proteomic signals that point in different directions across cohorts.
-- rep i2 Nijs 2014 (23 studies): Review: exercise provokes larger complement C4a, oxidative stress and IL-10/TLR4 gene expression changes in CFS but not circulating cytokines. https://pubmed.ncbi.nlm.nih.gov/24974723/
-- rep i2 Sorensen 2003 (32 vs 29): After 20 min cycling at 70% max, complement C4a (not C3a/C5a) rose at 6 h only in CFS. https://doi.org/10.1067/mai.2003.1615
-- ext i2 Rohrhofer 2024 (?): Immunodeficient ME/CFS patients had lower C4a; those without immunodeficiency had higher LBP indicating mucosal barrier leakage. https://doi.org/10.3390/jcm13010275
-- ext i2 Polli 2019 (22 vs 22): Changes in pressure pain thresholds after exercise were associated with changes in complement C4a in ME/CFS but not with elastase. https://doi.org/10.1515/sjpain-2018-0075
-- ext i2 Nijs 2010 (22 vs 22): Both submaximal and self-paced exercise triggered PEM, but neither changed elastase, IL-1beta or C4a acutely; post-exercise C4a flagged as marker of PEM. https://doi.org/10.1111/j.1365-2796.2009.02178.x
+## immune-cytokine-meta [several] rep 0 ext 1 con 2
+Claim: Meta-analysis of 42 studies finds small but significant elevations of TNF, IL-2, IL-4, TGF-beta and CRP, with 12 other proteins showing no difference.
+- con i2 Wyller 2015 (120 vs 68): In 120 adolescent CFS patients (broad definition) and 68 controls, none of 27 multiplex plasma cytokines or the cytokine-network parameters differed, including after restricting to Fukuda cases, and cytokines were not associated with symptoms. https://doi.org/10.1016/j.bbi.2014.12.025
+- con i2 Swanink 1996 (76 vs 69): Circulating cytokines did not differ between 76 CFS patients and 69 matched controls, and endotoxin-stimulated ex vivo TNF-alpha and IL-1 beta production was significantly lower in CFS. https://doi.org/10.1093/infdis/173.2.460
+- ext i2 Raijmakers 2025 (30 studies, 833 cases; 11 studies 413 cases): Meta-analysis of post-infective fatigue syndromes including long COVID (30 studies included, 11 meta-analysed, 413 cases) vs recovered controls from the same infection found higher white cell counts at 3-6 months (d=0.41) and higher RANTES (d=0.45) and TNF-alpha (d=0.30) at 6-12 months. https://doi.org/10.1016/j.ebiom.2025.105970
 
 ## omics-carnitines [several] rep 2 ext 0 con 1
 Claim: Free carnitine and long-chain acylcarnitines are slightly lower in ME/CFS across cohorts, contrary to the earlier idea of excess circulating fatty acids.
-- con i2 Jones 2005 (31 vs 31 (plus 15 depression, 22 RA)): Plasma and urinary free and acyl carnitine did not differ between CFS and controls. https://doi.org/10.1016/j.cccn.2005.04.029
-- rep i2 Jinushi 2023 (7 studies, 403 patients): Serum acylcarnitine levels significantly lower in ME/CFS than controls. https://doi.org/10.1186/s12967-023-04226-z
-- rep i2 Kuratsune 1998 (Swedish CFS 57 vs 46 controls; Japanese controls 131): Serum acylcarnitine was low in Swedish CFS patients (p<0.001), as earlier in Japanese patients; also low in hepatitis C but not other diseases. https://doi.org/10.3892/ijmm.2.1.51
+- con i2 Jones 2005 (31 vs 31 (plus 15 depression, 22 RA)): Radioenzymatic assay showed no differences in plasma or urinary total, free or acyl carnitine, or in their renal excretion, between 31 UK CFS patients and healthy, depressed and rheumatoid arthritis controls. https://doi.org/10.1016/j.cccn.2005.04.029
+- rep i2 Jinushi 2023 (7 studies, 403 patients): Meta-analysis of 7 studies (403 ME/CFS patients) found significantly lower serum acylcarnitine levels than in healthy controls, with high heterogeneity. https://doi.org/10.1186/s12967-023-04226-z
+- rep i2 Kuratsune 1998 (Swedish CFS 57 vs 46 controls; Japanese controls 131): Serum acylcarnitine was low in 57 Swedish CFS patients vs 46 controls (p<0.001), replicating earlier Japanese data; among other diseases only chronic hepatitis C also showed low acylcarnitine. https://doi.org/10.3892/ijmm.2.1.51
 
-## immune-innate-hyperreactivity [early] rep 1 ext 2 con 1
-Claim: Whole-blood immune responses to microbial antigens are exaggerated in ME/CFS and worsen after exercise, alongside complement activation and metabolic abnormalities.
-- con i2 Nakamura 2013 (?): Exercise and sleep deprivation did not upregulate proinflammatory cytokines in blood or PBLs. https://doi.org/10.1128/cvi.00527-13
-- rep i2 Chao 1991 (?): Serum bioactive TGF-beta was higher (290 vs 104 pg/mL, P<0.01) and LPS-stimulated PBMC release of IL-1 beta, IL-6 and TNF-alpha was higher, while TGF-beta release was lower. https://doi.org/10.1016/1043-4666(91)90497-2
-- ext i2 Uhde 2023 (?): Suppressed innate response to microbial translocation with compromised gut epithelium in ME/CFS at rest and after exercise; altered glucose/citrate metabolism and IL-10. https://doi.org/10.1016/j.bbih.2023.100627
-- ext i2 Gaab 2005 (21 vs 20): After a psychosocial stress test, LPS-stimulated IL-6 and TNF-alpha production fell in CFS but rose in controls. https://doi.org/10.1016/j.psyneuen.2004.06.008
-
-## muscle-exertion-immune-cell-mito [contested] rep 1 ext 2 con 1
-Claim: Mitochondrial function in patients' blood cells has been reported as lower (PBMC maximal respiration, T-cell glycolysis), higher (lymphoblast maximal respiration with Complex V inefficiency) or normal, depending on lab and cell type.
-- con i2 Tomas 2019 (10 vs 13): Commercial mitochondrial energy score showed no difference between CFS/ME and controls and was highly sensitive to 24-hour sample processing delay. https://doi.org/10.1038/s41598-019-47966-z
-- rep i2 Holden 2020 (19 studies): Systematic review of mitochondrial abnormalities found inconsistent results across structure, function, metabolites and coenzymes. https://doi.org/10.1186/s12967-020-02452-3
-- ext i2 Maya 2023 (?): Altered fatty acid oxidation in lymphocyte populations in ME/CFS https://doi.org/10.3390/ijms24032010
-- ext i2 Smits 2011 (?): Mitochondrial content was lower in CFS than in controls, but respiratory chain activities corrected for content were not, and CFS had higher ATP production rate than mitochondrial disease. https://doi.org/10.1016/j.mito.2011.05.005
-
-## infection-dubbo-stereotyped-pifs [replicated] rep 2 ext 3 con 0
-Claim: About 11-12% of people with confirmed EBV, Q fever or Ross River virus infection meet CFS criteria at 6 months, at a similar rate for all three pathogens, and the severity of the acute illness predicts it.
-- rep i2 Sandler 2022 (?): Dubbo cohort predictors of CFS and mood disturbance after acute infection https://doi.org/10.3389/fneur.2022.935442
-- rep i2 Bodenhausen 2024, preprint (200, protracted symptoms 55/183): Protracted symptoms in 30.1% and fatigue in 18.8% at 6 months; infection susceptibility history (OR 2.98) and severe GI symptoms (OR 3.54) predicted chronic fatigue. https://doi.org/10.1101/2024.05.17.24307333
-- ext i2 Moss-Morris 2011 (246): After glandular fever, 7.8% met CFS criteria at 6 months; anxiety, depression, somatisation, perfectionism and all-or-nothing behaviour predicted onset. https://doi.org/10.1017/s003329171000139x
-- ext i2 Kerr 2008 (39): High pre-infection stress index predicted CFS/ME 1-3 years after symptomatic parvovirus B19 (OR 25.7, 1.7-121.9). https://doi.org/10.1086/533471
-- ext i2 Moss-Morris 2006 (835): CF/CFS odds higher after mononucleosis than Campylobacter at 3 months (OR 2.77) but not 6 months; anxiety and depression strongest predictors of CF/CFS, infection type of IBS. https://doi.org/10.1097/01.psy.0000221384.07521.05
-
-## immune-neural-autoantibodies [early] rep 0 ext 1 con 2
-Claim: Autoantibodies against neural antigens (e.g. neurotransmitter receptors, ion channels) are reported in ME/CFS and LC subsets, with mixed associations with symptoms.
-- con i2 Giannoccaro 2019 (50 vs 50): Antibodies to neuronal proteins were not more frequent in ME/CFS (specific antibodies in 1 patient vs 2 controls); seropositivity linked to shorter duration and more severity. https://doi.org/10.1016/j.clinthera.2019.04.001
-- con i2 Chakravarty 2026, preprint (?): CSF and serum autoantibody profiling in neurological long COVID found heterogeneous, patient-specific reactivities without a shared signature. https://doi.org/10.64898/2026.03.19.26348833
-- ext i2 Hoheisel 2024, preprint (?): IgG to EBV arginine-rich sequences and to human antigens (SRRM3, SLC24A3, TSPLY2, TSPYL5) and alpha-adrenergic receptors more frequent in PCS and ME/CFS, associated with autonomic, fatigue, cognitive and pain symptoms. https://doi.org/10.1101/2024.12.30.24319800
-
-## immune-longcovid-overlap [several] rep 2 ext 2 con 0
-Claim: Long COVID immune profiling finds exhausted T cells, myeloid shifts, raised antibodies to non-SARS-CoV-2 viruses especially EBV, and low cortisol, giving a reference phenotype for post-infectious illness.
-- rep i3 Raijmakers 2025 (30 studies, 833 cases; 11 studies 413 cases): Meta-analysis: PIFS had higher WBC at 3-6 months (d=0.41), RANTES (d=0.45) and TNF-alpha (d=0.30) at 6-12 months vs recovered controls. https://doi.org/10.1016/j.ebiom.2025.105970
-- rep i2 Kwon 2025 (156 samples from 79 participants): Symptoms including PEM, fatigue, brain fog, GI symptoms accompanied by higher IL-10, VEGF, MIP-1a, IL-1b, IL-6, IL-8, MIG, granzyme A, CX3CL1. https://doi.org/10.3904/kjim.2024.217
-- ext i2 Gunning 2026 (?): Pre-pandemic POTS and long COVID POTS have indistinguishable elevations in 14 of 15 inflammatory markers, including Caspase-1p20, IL-1b and IL-18, vs controls. https://doi.org/10.3390/biomedicines14071605
-- ext i2 Nuber-Champier 2025 (54): Acute IL-1RA, IFN-gamma, TNF-alpha and monocyte percentage predicted physical and total fatigue 6-9 months later. https://doi.org/10.1016/j.bbih.2025.101109
-
-## infection-viral-vs-bacterial-registry [contested] rep 2 ext 2 con 0
-Claim: In Finnish registry data, ME/CFS (G93.3) is enriched 3-6-fold for prior viral infections (HSV, EBV, influenza, COVID, viral CNS infection) but not for bacterial pneumonia or erysipelas.
-- rep i2 Bakken 2016 (1,670 CFS/ME vs 4,937 T1DM vs 1.34M general): Infectious mononucleosis registered in 11.1% of CFS/ME children in prior 2 years vs 0.5% comparators; more depression, anxiety, migraine, muscle pain, infections in primary care. https://doi.org/10.1186/s12875-016-0527-7
-- rep i2 Chang 2023, preprint (395,811 matched pairs): Common-pathogen infections raise CFS risk (aHR 1.5, CI 1.47-1.54) in Taiwan claims data. https://doi.org/10.21203/rs.3.rs-3289981/v1
-- ext i2 Af Geijerstam 2026 (208050 women): Pre-pandemic symptom-based primary care visits predicted later PCC, PVFS and exhaustion disorder diagnoses in Swedish women. https://doi.org/10.1080/02813432.2025.2611886
-- ext i2 Brellier 2022 (2130 Lyme vs 8510): Lyme disease raised later ME/CFS diagnosis (adjusted HR 16.95, 5.17-55.60; 17 events) and fatigue consultations. https://doi.org/10.1371/journal.pone.0265765
-
-## trials-severity [early] rep 1 ext 4 con 0
-Claim: Roughly a quarter of people with ME/CFS are estimated to be housebound or bedbound, and severity, not diagnosis, was the strongest predictor of reported treatment response.
-- rep i2 Hill 1999 (23): In 23 severely ill patients followed about 4 years, 13 stayed severe, 9 improved but still met 1994 criteria, 1 recovered; duration, onset mode, psychiatric status did not predict outcome. https://doi.org/10.1016/s0003-9993(99)90066-7
-- ext i2 Sommerfelt 2023 (491 (444 severe)): National survey of symptom burden and care access in severe and very severe ME/CFS https://doi.org/10.3390/jcm12041487
-- ext i2 Royston 2023 (?): Surveillance estimates prevalence and incidence of severe ME/CFS in children 5-16 https://doi.org/10.1136/archdischild-2022-324319
-- ext i2 van Campen 2020 (289 (121 mild, 98 moderate, 70 severe)): ICC clinical severity grades tracked SF-36 physical function (70/43/15), steps/day (8235/5195/2031) and CPET ventilatory-threshold VO2 across mild/moderate/severe. https://doi.org/10.3390/healthcare8030273
-- ext i2 Collin 2016 (7,041 UK, 1,392 NL): Latent class analysis gave polysymptomatic, oligosymptomatic and pain-only phenotypes; polysymptomatic more severe and with more comorbidity. https://doi.org/10.1016/j.jpsychores.2015.12.006
-
-## trials-nice-2021-harms [several] rep 1 ext 1 con 1
-Claim: NICE's 2021 guideline (NG206) told clinicians not to offer graded exercise therapy, and patient surveys plus a 2026 German rehabilitation study report frequent worsening after exercise-based or even pacing-focused rehab.
-- con i2 White 2021 (10 trials, 1279): Meta-analysis found no excess self-rated deterioration with GET (RR 0.62, 0.32-1.17) but more follow-up dropouts (RR 1.51). https://doi.org/10.1016/j.jpsychores.2021.110533
-- rep i2 Geraghty 2019 (1428 plus 16665 from other surveys): Patient surveys: CBT helped 8-35%, graded exercise worsened symptoms in 54-74%, pacing most favoured (44-82% benefit). https://doi.org/10.1177/1359105317726152
-- ext i2 Wormgoor 2021 (18 RCTs): Review of physiotherapy RCTs: effects of exercise-type interventions diminished with narrower case definitions requiring PEM, more objective outcomes and longer follow-up; only one RCT used PEM-required criteria. https://doi.org/10.1186/s12967-020-02683-4
-
-## immune-tgfbeta-artefact [refuted] rep 3 ext 0 con 0
-Claim: The most-replicated single cytokine finding, elevated TGF-beta, is largely a blood-handling artefact driven by platelet activation during centrifugation.
-- rep i2 Clark 2017 (24 vs 21): Higher resting TGF-beta in CFS was a spurious assay-batch artefact; no group differences in other cytokines or in exercise responses. https://doi.org/10.1111/cei.13023
-- rep i2 Peterson 1994 (10 vs 10): After 30 min slow walking, IL-1 beta, IL-6 and TNF-alpha were undetectable; resting serum TGF-beta was higher in CFS (287 vs 115 pg/ml), and post-exercise TGF-beta and SPECT blood flow changes were larger but not significant versus controls. https://doi.org/10.1128/cdli.1.2.222-226.1994
-- rep i2 Chao 1991 (?): Serum bioactive TGF-beta was higher (290 vs 104 pg/mL, P<0.01) and LPS-stimulated PBMC release of IL-1 beta, IL-6 and TNF-alpha was higher, while TGF-beta release was lower. https://doi.org/10.1016/1043-4666(91)90497-2
-
-## vascular-hypocapnia [replicated] rep 3 ext 0 con 0
-Claim: Many ME/CFS patients over-breathe when upright (orthostatic hypocapnia), and during exercise hyperventilation and dysfunctional breathing are common.
-- rep i2 Natelson 2007 (75 CFS vs 40 controls): 8-min stand test: abnormal orthostatic tests in 53% vs 20% controls; orthostatic hypocapnia identified a subgroup of CFS. https://doi.org/10.1186/1476-5918-6-2
-- rep i2 Naschitz 2006 (585 total (CFS 90)): Tilt with capnography: hypocapnia in 9-27% of CFS/FM/dizziness/NMS patients vs 0-2% controls; most sustained hypocapnia, not specific to CFS. https://doi.org/10.1097/00000441-200606000-00001
-- rep i2 Naschitz 2000 (32 vs 32): During capnography tilt, CFS patients had lower systolic and diastolic BP and lower end-tidal CO2 and higher HR and respiratory rate than controls. https://doi.org/10.1053/sarh.2000.9201
-
-## infection-sarscov2-plasma-antigen [several] rep 0 ext 2 con 1
-Claim: SARS-CoV-2 spike, S1 or nucleocapsid antigen is detectable in plasma more often after COVID than in pre-pandemic samples (excess +11% at 3-6 months, +5.4% at 10-14 months), with more antigenemia after more severe acute illness.
-- con i2 Fehrer 2024, preprint (?): Serum spike protein detected long-term in 11% of post-COVID controls, 2% of PCS non-ME/CFS and 14% of post-COVID ME/CFS; no association with severity, symptoms or labs; immunoadsorption removed it in 5 patients. https://doi.org/10.1101/2024.11.11.24317084
-- ext i2 Rovito 2026 (442 (184 followed)): Plasma SARS-CoV-2 RNA detected in 67.4% at baseline and 53.6% at follow-up; association with post-COVID condition and severity examined. https://doi.org/10.1016/j.cmi.2026.08.045
-- ext i2 Seidel 2026 (9 paired): Tixagevimab/cilgavimab in immunodeficient long COVID ME/CFS lowered beta1-adrenergic autoantibodies (p=0.003) but spike protein and clinical outcomes did not change significantly. https://doi.org/10.1016/j.imlet.2026.107247
-
-## vascular-coagulation-markers [contested] rep 0 ext 2 con 1
-Claim: Routine coagulation markers (D-dimer, fibrinogen, PT/APTT) are generally normal in ME/CFS; claims of hypercoagulability rest on small 1990s studies and on thromboelastography from one network.
-- con i2 Jones 2026 (150): PASC symptoms persisted over 3 years in ALI/ARDS survivors without association to persistent thromboinflammation, endothelial dysfunction or complement biomarkers. https://doi.org/10.1097/cce.0000000000001390
-- ext i2 Jones 2026 (93): ROTEM subclinical hypercoagulability associated with PASC symptoms 15 months after ALI/ARDS hospitalisation. https://doi.org/10.1177/08850666261453886
-- ext i2 Mahdi 2023 (20 PACS+POTS vs 22 PACS vs 21 controls): About 200 of 700 cardiometabolic proteins dysregulated (>90% upregulated) in both PACS groups vs controls, with >90% overlap between groups; hemostasis, immune, angiogenesis pathways. https://doi.org/10.1038/s41598-023-47539-1
-
-## neuro-injury-markers [contested] rep 0 ext 2 con 1
-Claim: Markers of neuronal or glial injury (NfL, GFAP, tau, UCH-L1) are not raised in ME/CFS blood or CSF.
-- con i2 Michael 2024, preprint (351 vs 2,927 normative): Global cognitive deficits at one year, associated with elevated brain injury markers and reduced anterior cingulate volume; corticosteroids in acute phase appeared protective. https://doi.org/10.21203/rs.3.rs-3818580/v1
-- ext i2 Seo 2025 (Cog-PASC vs Other-PASC vs non-PASC, exploration+validation): Cognitive PASC showed elevated astroglial damage proteins in blood and MRI changes (cingulate/insular cortical thinning, susceptibility) about one year after mild COVID. https://doi.org/10.1038/s41467-025-65597-z
-- ext i2 Nordvig 2022 (?): Blood NfL and p-tau181 from acute hospitalisation to PASC in diverse population https://europepmc.org/article/PMC/PMC9877857
-
-## immune-immunoadsorption [refuted] rep 2 ext 1 con 0
-Claim: Removing autoantibodies by immunoadsorption helps in open-label cohorts but fails against sham control, and antibody removal does not predict who improves.
-- rep i2 Stein 2023 (10 interim): Repeat immunoadsorption: 7 of 10 responders (SF36-PF rise 10-35 points at week 4). https://doi.org/10.3390/jcm12196428
-- rep i2 Anft 2024, preprint (12): Immunoadsorption improved neuropsychological function and handgrip strength at 30 days but not self-reported symptoms or ME/CFS scores; removed autoantibodies rebounded within a month; spike-protein-positive patients showed cytokine-autoantibody correlations. https://doi.org/10.1101/2024.09.25.24314345
-- ext i2 Achleitner 2023 (?): After therapeutic apheresis, symptom improvement tracked falls in neurotransmitter autoantibodies, lipids, inflammation and 70% fibrinogen; rouleaux and fibrin fibres disappeared. https://doi.org/10.1038/s41380-023-02084-1
-
-## endocrine-gh-igf1 [contested] rep 2 ext 1 con 0
-Claim: Reports of low IGF-1 and reduced growth hormone responses in CFS conflict, and the largest controlled study found an intact GH/IGF system.
-- rep i2 Moorkens 2000 (73 vs 21): GH response to insulin hypoglycaemia (peak 17.0 vs 22.1 ug/l, p=0.01) and nocturnal GH secretion were lower in CFS, while arginine and clonidine GH responses did not differ. https://doi.org/10.1046/j.1365-2265.2000.01049.x
-- rep i2 Buchwald 1996 (15 CFS, 15 CFS-FM, 27 FM vs 15): Serum IGF-I and IGFBP-3 did not differ between any patient group and controls. https://pubmed.ncbi.nlm.nih.gov/8730136/
-- ext i2 De Bellis 2021 (30 vs 25): Antipituitary antibodies in 56% and antihypothalamic in 33% of women with ME/CFS, with lower ACTH/cortisol and GH/IGF-1 in antibody-high patients. https://doi.org/10.1210/clinem/dgab429
-
-## vascular-endothelial-fmd-porh [replicated] rep 1 ext 3 con 0
-Claim: Large-artery flow-mediated dilation and microvascular post-occlusive reactive hyperaemia are reduced in ME/CFS in two independent Norwegian cohorts and by peripheral arterial tonometry in Berlin.
-- rep i2 Kennedy 2010 (25 vs 23): Children with CFS/ME had higher isoprostanes (252 vs 216 pg/mL) and lower vitamin C, more white cell apoptosis, but normal arterial stiffness. https://doi.org/10.1001/archpediatrics.2010.157
-- ext i2 Bond 2021 (11 vs 11): Maximal exercise did not produce the post-exercise reduction in augmentation index seen in controls at 48 h, suggesting absent exercise-induced vasodilation in ME/CFS; no baseline arterial stiffness difference. https://doi.org/10.3390/ijerph18052366
-- ext i2 Spence 2008 (41 vs 30): Arterial stiffness (AIx@75) was greater in CFS (22.5 vs 13.3%, p=0.002), with higher CRP and isoprostanes, correlating with CRP and oxidative stress. https://doi.org/10.1042/cs20070274
-- ext i2 Cambras 2022, preprint (?): Circadian skin temperature rhythm, dysautonomia and endothelin-1 in ME/CFS https://doi.org/10.21203/rs.3.rs-2044838/v1
-
-## infection-giardia-bergen [several] rep 2 ext 1 con 0
-Claim: A waterborne Giardia outbreak in Bergen (2004) left chronic fatigue in 26% of exposed people vs 11% of matched controls 10 years later (adjusted OR 3.0), and more than half of those referred with lasting fatigue met CFS criteria.
-- rep i2 Mørch 2013 (53 of 347 fatigued): Five years after Giardia, 41.5% of 53 examined had CFS, 13.2% idiopathic fatigue, 20.8% resolved; fatigue scores fell from year 3 to 5. https://doi.org/10.1186/1471-230x-13-28
-- rep i2 Levine 1992 (?): After 3 years almost all cases in four Nevada-California clusters returned to pre-illness activity; no link to EBV, HHV-6 or HTLV; giardiasis preceded one cluster. https://doi.org/10.1001/archinte.1992.00400200049009
-- ext i2 Hanevik 2017 (15 CFS, 5 ICF, 9 other fatigue, 10 recovered; 20 exposed + 10 unexposed controls): No differences in Giardia-specific CD4 activation, proliferation or cytokines between fatigue groups; sCD40L raised in post-infectious fatigue and correlated with fatigue. https://doi.org/10.1186/s12865-017-0190-3
-
-## immune-cytokine-duration [several] rep 1 ext 0 con 1
-Claim: Plasma cytokine abnormalities depend strongly on illness duration: a pro- and anti-inflammatory activation pattern early (under 3 years) that is absent in long-established illness.
-- con i2 Wyller 2015 (120 vs 68): Twenty-seven plasma cytokines and network parameters did not differ between adolescent CFS patients and controls. https://doi.org/10.1016/j.bbi.2014.12.025
-- rep i2 Russell 2016 (18 + 22 + 28 patients): Discriminating cytokines shifted with illness duration: IL-1a higher in recent adolescents, IL-8 high early but opposite after 2 years; classification 75-88%. https://doi.org/10.1186/s12865-016-0142-3
-
-## omics-redox [several] rep 2 ext 1 con 0
-Claim: Markers of oxidative stress (methionine sulfoxide, oxidised glutathione products, lower brain glutathione) are repeatedly reported, but they are non-specific and also seen in depression.
-- rep i2 Kennedy 2010 (25 vs 23): Children with CFS/ME had higher isoprostanes (252 vs 216 pg/mL) and lower vitamin C, more white cell apoptosis, but normal arterial stiffness. https://doi.org/10.1001/archpediatrics.2010.157
-- rep i2 Kennedy 2005 (47 vs 34): Plasma isoprostanes and oxidised LDL were higher and HDL lower in CFS; isoprostanes correlated with symptoms including PEM in low-CV-risk patients. https://doi.org/10.1016/j.freeradbiomed.2005.04.020
-- ext i2 Spence 2008 (41 vs 30): Arterial stiffness (AIx@75) was greater in CFS (22.5 vs 13.3%, p=0.002), with higher CRP and isoprostanes, correlating with CRP and oxidative stress. https://doi.org/10.1042/cs20070274
-
-## neuro-white-matter-diffusion [early] rep 1 ext 2 con 0
-Claim: Advanced diffusion MRI models report widespread white-matter differences in ME/CFS that conventional DTI misses, and the pattern may differ between post-infectious and gradual-onset cases.
-- rep i2 Wu 2026 (100 vs 100): Diffusion MRI shows reduced FA in left cingulum bundle segments in CFS; FA of two tracts classifies CFS at 85% accuracy. https://doi.org/10.1016/j.brainresbull.2025.111671
-- ext i2 Shan 2016 (15 CFS vs 10 NC, 6-year follow-up): Longitudinal MRI showed greater white matter volume loss in left inferior fronto-occipital fasciculus in CFS. https://doi.org/10.1002/jmri.25283
-- ext i2 Yu 2024, preprint (?): Diffusion MRI showed higher axial diffusivity in post-infectious ME/CFS but lower in the corpus callosum in gradual-onset ME/CFS versus sedentary controls. https://doi.org/10.1101/2024.08.04.24311483
-
-## endocrine-gynaecological-menopause [early] rep 2 ext 0 con 0
-Claim: Women with CFS report more endometriosis, heavy bleeding, pelvic pain, hysterectomy and earlier menopause than controls in US population-based case-control studies.
-- rep i2 Compton 2025 (5 studies, 2261): Women with endometriosis had OR 2.79 (2.00-3.89) for ME/CFS; bidirectional association. https://doi.org/10.3390/diagnostics15182332
-- rep i2 Harlow 1998 (150 vs 149): Women with CFS self-reported more gynecologic complications, irregular cycles, amenorrhea, and PCOS, hirsutism and ovarian cysts, but less premenstrual symptomatology. https://doi.org/10.1016/s0002-9343(98)00173-9
-
-## neuro-lc-fdg-pet [contested] rep 2 ext 0 con 0
-Claim: FDG-PET hypometabolism in long COVID is inconsistent: some clinic series find frontal/brainstem hypometabolism in most patients, others find none.
-- rep i2 Manganotti 2025 (28 vs controls): FDG-PET hypometabolism in bilateral frontal, temporal, parietal and left occipital lobes plus frontal EEG slowing (delta/theta up, alpha down) vs matched controls. https://doi.org/10.1038/s41598-025-04815-6
-- rep i2 Rozenblum 2025 (87): FDG-PET in 87 PASC adults with cognitive symptoms: hypometabolism most marked in pons (-5.5%) and right amygdala (-4.2%), correlating with concentration and memory complaints. https://doi.org/10.1097/rlu.0000000000005614
-
-## trials-pacing [early] rep 1 ext 2 con 0
+## trials-pacing [early] rep 2 ext 0 con 1
 Claim: Pacing (staying within one's energy limits) is the top-rated approach in patient surveys and NICE's recommended foundation, but it has never shown benefit in a controlled trial (adaptive pacing was no better than usual care in PACE).
-- rep i2 Bjørkum 2009 (828): Norwegian survey: pacing rated useful by 96%, rest 97%; 79% of those with graded training said it worsened health; 57% found cognitive-challenge help useful. https://doi.org/10.4045/tidsskr.09.35791
-- ext i2 Godfrey 2024 (31 completers): 8-week structured pacing programme reduced post-exertional symptom exacerbation episodes (15% fewer per week) without changing overall LC symptoms. https://doi.org/10.3390/jcm14010097
-- ext i2 Casson 2023 (?): Meta-analysis of activity pacing interventions in CFS https://doi.org/10.1080/09638288.2022.2135776
+- con i3 Casson 2023 (?): Meta-analysis of 14 RCTs: activity pacing interventions reduced fatigue (Hedges g -0.52, 95% CI -0.73 to -0.32), psychological distress (-0.37) and depression (-0.29) and improved physical function (MD 7.18) versus no treatment/usual care, with larger effects for interventions that encouraged graded escalation of activity. https://doi.org/10.1080/09638288.2022.2135776
+- rep i2 Geraghty 2019 (1428 plus 16665 from other surveys): A survey of 1428 patients, compared with secondary surveys totalling 16,665, found CBT helped 8-35%, GET caused negative responses in 54-74%, and pacing was most favoured, with 44-82% reporting benefit. https://doi.org/10.1177/1359105317726152
+- rep i2 Bjørkum 2009 (828): In a Norwegian patient-organisation survey of 828 people with CFS, pacing was rated useful by 96%, rest by 97% and shielding/quiet by 96%, similar across severity levels. https://doi.org/10.4045/tidsskr.09.35791
 
-## neuro-fmri-post-exertion [early] rep 1 ext 2 con 0
-Claim: After a single 30-minute exercise bout, women with ME/CFS performed worse on a demanding cognitive task and recruited more parietal and cingulate cortex. Controls improved.
-- rep i2 Washington 2020 (GWI and ME/CFS vs controls): Exercise changed N-back fMRI activation in ME/CFS (increased midbrain, operculo-insular and insula) but not controls; GWI showed deactivation, separating the two illnesses. https://doi.org/10.1093/braincomms/fcaa070
-- ext i2 Lange 2024 (261 vs 165): MCAM multisite study: cognitive battery before and after a clinic day including exercise testing in 182 ME/CFS and 160 controls; abstract truncated before results. https://doi.org/10.3389/fnins.2024.1460157
-- ext i2 Baraniuk 2022 (31 controls, 36 ME/CFS, 78 GWI): Re-analysis of exercise-challenge fMRI: midbrain arousal nuclei activation rose after exercise in ME/CFS, fell in GWI, unchanged in controls. https://doi.org/10.3390/brainsci12010078
+## infection-viral-vs-bacterial-registry [contested] rep 0 ext 1 con 2
+Claim: In Finnish registry data, ME/CFS (G93.3) is enriched 3-6-fold for prior viral infections (HSV, EBV, influenza, COVID, viral CNS infection) but not for bacterial pneumonia or erysipelas.
+- con i2 Brellier 2022 (2130 Lyme vs 8510): In UK primary care records (2,130 Lyme vs 8,510 matched), Lyme disease was followed by more fatigue (seasonal HR up to 3.14) and ME/CFS diagnosis (11.76 vs 1.20 per 10,000 person-years; adjusted HR 16.95, 5.17-55.60; 17 events), attenuated but persisting after 6 months. https://doi.org/10.1371/journal.pone.0265765
+- con i2 Chang 2023, preprint (395,811 matched pairs): In Taiwanese claims data (395,811 infected cases with 1:1 propensity-matched controls), infection with common pathogens raised CFS risk (aHR 1.5, 95% CI 1.47-1.54), with associations for bacteria, viruses and fungi (including influenza and candida). https://doi.org/10.21203/rs.3.rs-3289981/v1
+- ext i2 Bakken 2016 (1,670 CFS/ME vs 4,937 T1DM vs 1.34M general): In a Norwegian national registry of 1,670 children with CFS/ME, infectious mononucleosis was recorded in the prior 2 years for 11.1% vs 0.5% of children with type 1 diabetes, with infections, depression, anxiety, migraine and muscle pain also more common. https://doi.org/10.1186/s12875-016-0527-7
 
-## genetics-pain-overlap [several] rep 2 ext 0 con 0
-Claim: ME/CFS genetics overlaps most with chronic pain, fibromyalgia, IBS and migraine, and substantially with depression, but none of the 8 DecodeME loci share a causal variant with depression.
-- rep i2 Fall 2024 (923 (MCAM)): 76% of ME/CFS had at least one chronic overlapping pain condition vs 17.4% of controls: migraine/headache 48.1%, fibromyalgia 45.0%, low back pain 33.1%, IBS 31.6%. https://doi.org/10.1186/s12883-024-03872-0
-- rep i2 Bourke 2021 (19 CFS, 19 FM, 20 HC): Central sensitisation (enhanced temporal summation plus inefficient CPM) in 84% of CFS and 95% of FM, none of controls. https://doi.org/10.1016/j.jpsychores.2021.110624
+## neuro-mri-structure [contested] rep 2 ext 0 con 1
+Claim: Conventional structural MRI (grey matter volume, routine clinical reads) shows no consistent abnormality in ME/CFS. Reported regional volume differences rarely replicate across groups.
+- con i2 Natelson 1993 (52 vs 52): Blinded neuroradiologist reads found abnormal brain MRI in 27% of 52 CDC-criteria CFS vs 2% of 52 matched controls (white-matter T2 hyperintensities in 9 vs 1, ventricular/sulcal enlargement in 5), though 3 patients with hyperintensities had other probable medical causes. https://doi.org/10.1016/0022-510x(93)90276-5
+- rep i2 van der Schaaf 2017 (89 CFS vs 26 HC): In 89 women with CFS vs 26 matched controls, global grey matter volume did not differ; within patients, more pain (not fatigue) predicted lower left DLPFC grey matter volume and NAA/Cr. https://doi.org/10.1016/j.biopsych.2016.07.016
+- rep i2 Greco 1997 (43 vs 43): Brain MRI was abnormal in 32% of 43 CFS patients and 28% of 43 matched controls, and white matter hyperintensity prevalence did not differ. https://pubmed.ncbi.nlm.nih.gov/9282853/
 
-## gut-translocation-lps [contested] rep 0 ext 4 con 0
-Claim: Blood markers of bacterial translocation (LPS, LPS-binding protein, sCD14, IgA/IgM to enterobacterial LPS) are raised in several small ME/CFS studies, but standardised replication is lacking.
-- ext i2 Rohrhofer 2024 (?): Immunodeficient ME/CFS patients had lower C4a; those without immunodeficiency had higher LBP indicating mucosal barrier leakage. https://doi.org/10.3390/jcm13010275
-- ext i2 Uhde 2023 (?): Suppressed innate response to microbial translocation with compromised gut epithelium in ME/CFS at rest and after exercise; altered glucose/citrate metabolism and IL-10. https://doi.org/10.1016/j.bbih.2023.100627
-- ext i2 Vogl 2022 (?): Antibody responses to gut microbiota flagellins overrepresented in CFS https://doi.org/10.1126/sciadv.abq2422
-- ext i2 Maes 2012 (128): IgA responses to LPS of commensal enterobacteria were associated with higher IL-1, TNF-alpha, neopterin and elastase and with IBS ratings, suggesting bacterial translocation. https://doi.org/10.1016/j.jad.2011.09.010
+## neuro-eeg [several] rep 1 ext 1 con 1
+Claim: Quantitative EEG shows group differences in spectral power and connectivity in ME/CFS (and LC), with classification accuracy reported in single centres, but methods are heterogeneous.
+- con i2 Armitage 2009 (13 twin pairs): Quantitative sleep EEG spectral power (delta through beta) showed no differences between CFS twins and healthy co-twins (13 pairs). https://doi.org/10.1016/j.jpsychores.2008.08.004
+- rep i2 Flor-Henry 2010 (61 vs 80): 43-channel qEEG in 61 Fukuda CFS women vs 80 controls separated groups with 72-83% retrospective accuracy (alpha and beta bands) and showed greater left fronto-temporo-parietal source current during cognitive tasks. https://doi.org/10.1016/j.pscychresns.2009.10.007
+- ext i2 Linnhoff 2026 (36 HC, 33 LC fatigue, 50 MS): In 119 participants (36 controls, 33 long COVID fatigue, 50 MS), a lower frontal (not occipital) resting EEG aperiodic exponent tracked cognitive fatigue and predicted fatigue status beyond age and depression, with good sensitivity and specificity. https://doi.org/10.1017/s0033291725103024
 
-## trials-immunoadsorption [refuted] rep 2 ext 0 con 0
-Claim: Removing antibodies by immunoadsorption was no better than a sham procedure in two controlled trials (IAMPOCO, n=40; IA-PACS-CFS, n=65), although open-label series had reported 50-70% responders.
-- rep i2 Stein 2023 (10 interim): Repeat immunoadsorption: 7 of 10 responders (SF36-PF rise 10-35 points at week 4). https://doi.org/10.3390/jcm12196428
-- rep i2 Anft 2024, preprint (12): Immunoadsorption improved neuropsychological function and handgrip strength at 30 days but not self-reported symptoms or ME/CFS scores; removed autoantibodies rebounded within a month; spike-protein-positive patients showed cytokine-autoantibody correlations. https://doi.org/10.1101/2024.09.25.24314345
+## vascular-pots-overlap [replicated] rep 0 ext 3 con 1
+Claim: POTS is present in roughly a fifth of ME/CFS patients on formal testing (prevalence varies 6-43%), but cerebral hypoperfusion and preload failure are found in most patients regardless of whether they meet POTS heart-rate criteria.
+- con i2 Katz 2012 (36 vs 43): Six months after infectious mononucleosis, 9 of 36 adolescents with CFS (25%) vs 9 of 43 recovered controls (21%) had an abnormal standing orthostatic test, a non-significant difference. https://doi.org/10.1177/0009922812455094
+- ext i2 Lee 2024 (277 vs 50): Across 8 UK long COVID clinics, 41/277 (15%) had an abnormal NASA lean test (7% POTS, 8% OH) and 52% had OI symptoms during it, vs no POTS or symptoms in 50 healthy volunteers (10% asymptomatic OH); 45% of abnormal tests had no prior OI symptoms. https://doi.org/10.1002/jmv.29486
+- ext i2 van Campen 2018 (627 ME/CFS evaluated, 155 POTS): Of 627 ME/CFS adults on 10-min tilt, 155 (25%) met POTS criteria; median time to HR criterion was 3 min, so a 2-min tilt would miss 55% (95% CI 48-63%) of POTS cases, regardless of sex, age, duration or hypocapnia. https://doi.org/10.3389/fped.2018.00349
+- ext i2 Jones 2005 (58 vs 55): In a population-based Wichita sample (58 CFS vs 55 controls), head-up tilt showed orthostatic instability in 30% of CFS (all POTS) vs 48% of controls; stand tests were negative in everyone and severity was not associated with tilt results. https://doi.org/10.1016/j.amjmed.2005.06.013
 
-## omics-ev [early] rep 1 ext 2 con 0
-Claim: Plasma extracellular vesicle (EV) counts may be higher in ME/CFS, but no EV protein or microRNA difference has survived multiple-testing correction in a replicated cohort.
-- rep i2 Giloteaux 2023, preprint (18 vs 17 sedentary): Exercise alters EV protein cargo differently in ME/CFS (coagulation, muscle, immune, brain-signalling proteins); changes track symptom severity. https://doi.org/10.1101/2023.08.28.555033
-- ext i2 Tsilioni 2022 (?): Exosome-associated mtDNA from ME/CFS patients stimulates human microglia to release IL-1beta https://doi.org/10.1111/ejn.15828
-- ext i2 Eguchi 2020 (?): Circulating EVs were increased in ME/CFS (AUC 0.80) and EV proteins talin-1, filamin-A and 14-3-3 were the most abundant discriminating proteins versus controls, idiopathic fatigue and depression. https://doi.org/10.1016/j.bbi.2019.11.015
+## muscle-exertion-exercise-gene-expression [early] rep 0 ext 0 con 2
+Claim: After moderate exercise, leukocyte mRNA for metabolite-detecting (ASIC3, P2X4/5, TRPV1), adrenergic and immune genes rose for up to 48 h in most CFS patients but not in controls or MS patients.
+- con i2 Boruch 2023 (37 GWI vs controls): In 37 Gulf War illness veterans vs 25 control veterans after 30 min cycling at 70% HRR, symptoms worsened sharply (d=1.65) but select structural, adrenergic and immune gene expression fell rather than rose, and gene changes did not mediate PEM. https://doi.org/10.1016/j.bbih.2023.100612
+- con i2 Nakamura 2013 (?): Post-exercise PBL cytokine mRNA (and plasma protein) did not rise meaningfully in CFS versus controls. https://doi.org/10.1128/cvi.00527-13
 
-## immune-igg-subclass [several] rep 0 ext 1 con 1
-Claim: A sizeable minority of ME/CFS patients have IgG subclass or mannose-binding-lectin deficiency, with IgG3 and IgG4 the commonest phenotypes, and registry data show strong enrichment of coded antibody deficiency.
-- con i2 Natelson 1998 (71 CFS vs 65 controls vs 23 MS vs 21 MDD): Of 18 immune variables only IgG1 and IgG3 differed in CFS versus controls, and the subclass deficiency was lowest in CFS with axis-I disorder and lost significance once MS and depression were included. https://doi.org/10.1016/s0002-9343(98)00165-x
-- ext i2 Scheibenbogen 2021 (17): 12-month s.c. IgG: 5 of 12 per-protocol completers responded; 4 stopped for adverse events; LDH and sIL-2R suggested as response markers. https://doi.org/10.3390/jcm10112420
+## muscle-exertion-grip-fatigability [several] rep 1 ext 1 con 1
+Claim: Repeated maximal handgrip testing shows lower strength, faster decline across repetitions and poorer recovery after 60 minutes in ME/CFS, correlating with severity and PEM.
+- con i2 Gibson 1993 (12 vs 12): Quadriceps maximal voluntary and stimulated force and recovery for 48 h after a symptom-limited cycle test were normal in 12 CFS vs 12 sedentary controls, with higher perceived exertion in patients. https://doi.org/10.1136/jnnp.56.9.993
+- rep i3 Nacul 2018 (272 ME/CFS vs 136 HC vs 76 MS vs 37 CF): In the UK ME/CFS Biobank (272 ME/CFS, 136 healthy, 76 MS, 37 other chronic fatigue), hand grip strength across 3 repeats was reduced in ME/CFS, most in severe patients (minimum HGS 15.3 kg lower than healthy controls, 95% CI 11.3-19.3), and tracked severity measures. https://doi.org/10.3389/fneur.2018.00992
+- ext i2 Schillings 2004 (14 vs 14): In 14 female CFS patients vs 14 controls, a 2-min sustained biceps MVC with endplate stimulation showed lower MVC and larger central activation failure (36.5% vs 12.9%), with less peripheral fatigue and normal stimulated force at rest. https://doi.org/10.1016/j.clinph.2004.06.007
 
-## trials-patient-surveys [early] rep 2 ext 0 con 0
-Claim: A 3,925-person survey rated >150 treatments; illness severity predicted perceived response more strongly than diagnosis, and symptom clusters (severe multisystemic, POTS-dominant, cognitive/pain, mild) preferred different treatments.
-- rep i2 Geraghty 2019 (1428 plus 16665 from other surveys): Patient surveys: CBT helped 8-35%, graded exercise worsened symptoms in 54-74%, pacing most favoured (44-82% benefit). https://doi.org/10.1177/1359105317726152
-- rep i2 Bjørkum 2009 (828): Norwegian survey: pacing rated useful by 96%, rest 97%; 79% of those with graded training said it worsened health; 57% found cognitive-challenge help useful. https://doi.org/10.4045/tidsskr.09.35791
+## muscle-exertion-old-biopsies [contested] rep 3 ext 0 con 0
+Claim: Older ME/CFS muscle biopsy studies mostly found normal or nonspecific histology, without the fibre atrophy and type 2 shift expected from inactivity, with abnormalities confined to subgroups.
+- rep i2 McArdle 1996 (34 muscle biopsies): None of 34 CFS patients' muscle biopsies contained enteroviral RNA by RT-PCR; muscle RNA/DNA ratio and mitochondrial enzyme activities were generally reduced, consistent with inactivity. https://doi.org/10.1042/cs0900295
+- rep i2 Plioplys 1995 (15 vs 15): Blinded, quantified electron microscopy of needle muscle biopsies from 15 CFS patients and 15 matched controls found no difference in subsarcolemmal or intermyofibrillar mitochondrial aggregates, mitochondrial size, pleomorphism or inner-membrane compartmentalisation. https://doi.org/10.1159/000119233
+- rep i2 Edwards 1993 (108 biopsies + 22 normal; 12 vs 12 physiology): Light and electron microscopy of 108 CFS/muscle-pain patients vs 22 volunteers showed no consistent relation of symptoms to fibre type, size, degeneration/regeneration, glycogen or mitochondrial abnormalities, and quadriceps contractile function was normal before and 48 h after exercise. https://doi.org/10.1002/9780470514382.ch7
 
-## genetics-mtdna-haplogroups [early] rep 2 ext 0 con 0
-Claim: Mitochondrial DNA haplogroups and common mtDNA SNPs are not associated with ME/CFS status, though some variants were associated with particular symptoms.
-- rep i2 Schoeman 2017 (93 patients): Full mtDNA sequencing of 93 UK/South African CFS patients found no clinically proven pathogenic mtDNA mutations. https://doi.org/10.1186/s12881-017-0387-6
-- rep i2 Billing-Ross 2016 (193 vs 196): mtDNA sequencing: no pathogenic mutations or SNP association with case status; haplogroups J, U, H and 8 SNPs associated with symptoms. https://doi.org/10.1186/s12967-016-0771-6
+## immune-gpcr-autoantibodies [refuted] rep 2 ext 1 con 0
+Claim: Elevated IgG against beta2-adrenergic and M3/M4 muscarinic receptors, reported in about 30% of patients by ELISA, is not reproduced by unbiased high-throughput antigen profiling.
+- rep i2 Achleitner 2026 (206 across 3 groups): In 206 SARS-CoV-2-infected participants, concentrations of autoantibodies against 13 neurotransmitter-related receptors did not differ between new-onset post-COVID fatigue, pre-existing fatigue and non-fatigued controls, and did not track fatigue severity or reference-value positivity. https://doi.org/10.1016/j.bbih.2026.101393
+- rep i2 Tanaka 2003 (60 vs 33 autoimmune vs 30 controls): By radioligand assay, anti-muscarinic M1 (CHRM1) antibodies were raised in CFS (n=60, p<0.0001 vs 30 controls; 53.3% positive) and linked to muscle-weakness scores (1.81 vs 1.18, p<0.01); anti-mu-opioid, 5-HT1A and D2 antibodies were in 15.2%, 1.7% and 5.0%. https://doi.org/10.3892/ijmm.12.2.225
+- ext i2 Sotzny 2022 (?): In 80 post-COVID syndrome patients (40 meeting ME/CFS criteria) vs 38 seronegative and 40 asymptomatic post-COVID controls, several GPCR autoantibodies were lower, not higher, in PCS; ADRB2, STAB1 and ADRA2A antibodies were the strongest random-forest classifiers, and ADRB2 antibody levels correlated with fatigue and vasomotor severity in PCS/ME/CFS. https://doi.org/10.3389/fimmu.2022.981532
 
-## neuro-mrs-lactate [several] rep 2 ext 0 con 0
-Claim: Brain lactate measured by MR spectroscopy is raised in ME/CFS: ventricular CSF lactate in three cohorts from one group, and thalamic or regional lactate in two other groups. It is also raised in depression, so it is not specific.
-- rep i2 Natelson 2017 (?): Ventricular CSF lactate by 1H MRSI was higher in CFS, FM and CFS+FM than controls, with no difference among patient groups. https://doi.org/10.1080/21641846.2017.1280114
-- rep i2 Murrough 2010 (17 CFS, 19 healthy, 21 MDD): Ventricular CSF lactate by 1H MRSI was higher in CFS than healthy volunteers (replicating earlier result) and not different in MDD; correlated with mental fatigue; GABA and Glx unchanged. https://doi.org/10.1002/nbm.1512
+## neuro-motor-fatigability [early] rep 0 ext 5 con 0
+Claim: During a sustained grip task, ME/CFS patients fatigue earlier while their brain motor-network activity fails to ramp up as it does in controls (NIH; reduced temporoparietal-junction activation).
+- ext i2 Thomas 2026 (44 vs 44): In 44 long COVID vs 44 controls, somatosensory processing did not differ (multivariate P=0.172) or change after cognitive or physical exertion, performance fatigability did not differ (P=0.199-0.441), and resting HRV was lower in long COVID but not associated with fatigue. https://doi.org/10.1113/ep093600
+- ext i2 Sebastianelli 2026 (58 vs 22): In 58 post-COVID patients vs 22 controls, a 1-min maximal pinch produced a smaller post-exercise drop in MEP amplitude and no silent-period prolongation (or shortening), and both correlated with higher fatigue and exertion. https://doi.org/10.1016/j.clinph.2026.2112384
+- ext i2 van der Schaaf 2018 (85 vs 29): In 85 CFS vs 29 controls doing 30-70% MVC grip with feedback on fMRI, patients showed a bias toward less effort at 70% with reduced DLPFC feedback activity, higher SMA activity and reduced SMA-sensorimotor connectivity, scaling with state fatigue and beliefs. https://doi.org/10.1016/j.bpsc.2018.01.015
+- ext i2 Schillings 2004 (14 vs 14): In 14 female CFS patients vs 14 controls, a 2-min sustained biceps MVC with endplate stimulation showed lower MVC and larger central activation failure (36.5% vs 12.9%), with less peripheral fatigue and normal stimulated force at rest. https://doi.org/10.1016/j.clinph.2004.06.007
+- ext i2 Kent-Braun 1993 (?): During sustained maximal tibialis anterior contraction, CFS patients had significantly lower voluntary activation than controls, while fatigue, muscle metabolism, M-wave and twitch tension were normal. https://doi.org/10.1212/wnl.43.1_part_1.125
 
-## immune-igg-transfer-mice [several] rep 2 ext 0 con 0
-Claim: IgG from long COVID patients transfers pain, fatigue-like behaviour and small-fibre nerve damage to mice in three independent 2026 studies; no equivalent published ME/CFS transfer experiment exists.
-- rep i2 Liu 2025, preprint (patient IgG on cells): Patient IgG and its Fab fragment induce mitochondrial fragmentation/altered energetics in healthy cells; IgG-bound complexes differ (ECM in ME/CFS, hemostasis in PASC); IgG from each drives distinct cytokine secretion. https://doi.org/10.1101/2025.08.06.25332978
-- rep i2 Chen 2024, preprint (?): IgG from long COVID patients (3 proteome-defined subgroups) transferred persistent sensory hypersensitivity or reduced locomotion to mice. https://doi.org/10.1101/2024.05.30.596590
+## lc-myopathy-histology-emg [several] rep 2 ext 1 con 0
+Claim: A substantial share of long COVID patients with fatigue have myopathic EMG and/or biopsy abnormalities (mitochondrial changes, fibre atrophy, inflammatory infiltrates, lower capillarisation), but muscle MRI inflammation and neuromuscular-junction jitter are usually normal.
+- rep i2 Baker 2023 (37 vs 52): Compared with 52 matched non-fatigued controls, 37 people with fatigue after mild COVID showed cortical circuit underactivity, autonomic dysregulation and myopathic change in skeletal muscle, with no distinct subgroups on cluster analysis. https://doi.org/10.1093/braincomms/fcad122
+- rep i2 Aschman 2023, preprint (11 patients): Muscle biopsies from 11 post-COVID patients with PEM showed fewer capillaries, thicker capillary basement membranes and more CD169+ macrophages than two historical control cohorts, with no SARS-CoV-2 RNA and distinct immune/metabolic transcriptomic signatures. https://doi.org/10.1101/2023.02.15.23285584
+- ext i2 Retornaz 2022 (?): Retrospective comparison of 59 long COVID and 55 post-infectious ME/CFS patients found the same frequency of core symptoms and the same magnitude of exercise-induced rectus femoris M-wave alterations during and after cycling; M-wave changes were larger in ME/CFS at the highest strength and performance levels. https://doi.org/10.1186/s12967-022-03638-7
 
-## neuro-sensory [early] rep 0 ext 3 con 0
-Claim: Self-reported light and sound sensitivity is common in ME/CFS. One ERP study found normal early sensory gating (P50) but a reduced P300, pointing to higher-order processing rather than early filtering.
-- ext i2 Thomas 2026 (44 vs 44): Somatosensory processing and fatigability in long COVID with cognitive or physical fatigue-inducing task, related to autonomic function and mood. https://doi.org/10.1113/ep093600
-- ext i2 Sandoval 2025 (2313 ME/CFS, 299 PASC): Factor analysis identifies two neurocognitive domains including hypersensitivity to noise/light in ME/CFS and PASC. https://doi.org/10.3389/fneur.2025.1612548
-- ext i2 Maeda 2023 (2240): Sensory hypersensitivities (noise, light) compared in DePaul Symptom Questionnaire data from ME/CFS and MS https://doi.org/10.1080/13548506.2023.2195670
+## infection-parvovirus-b19 [early] rep 0 ext 2 con 1
+Claim: Parvovirus B19 exposure was as common in CFS as in blood donors, but antibodies to the viral NS1 protein (a marker of persistent or recent active infection) were found in 41.5% vs 7%, and viral DNA in 11 patients vs no controls.
+- con i2 Rasa-Dzelzkaleja 2023 (200 vs 150): In 200 ME/CFS vs 150 controls by PCR, active HHV-6A/B, HHV-7 and/or B19V infection was found in 45% vs 8.7%, with higher viral loads and higher TNF-alpha, IL-12 and IL-10 in active infection and in severe vs moderate disease. https://doi.org/10.1186/s12967-023-03887-0
+- ext i2 Kerr 2010 (200 vs 200): In 200 CFS vs 200 donors, B19 seroprevalence was similar (75% vs 78%) but anti-NS1 IgG was 41.5% vs 7% (OR 9.42) and serum B19 DNA was found in 11 patients vs 0 controls. https://doi.org/10.1099/vir.0.017590-0
+- ext i2 Frémont 2009 (48 vs 35): By real-time PCR of gastrointestinal biopsies, parvovirus B19 DNA was found in 40% of 48 CFS patients vs under 15% of 35 controls; HHV-7 was common in both groups and EBV/HHV-6 appeared in 15-30% of all biopsies. https://pubmed.ncbi.nlm.nih.gov/19414405/
 
-## omics-methylation [contested] rep 0 ext 3 con 0
-Claim: Reported genome-wide blood DNA methylation differences have not replicated across cohorts, at least one large set is explained by cell-composition differences, and epigenetic clocks are not accelerated.
-- ext i2 Polli 2026 (73 HC, 71 ME/CFS, 44 FM): PBMC EPIC methylation axes relate to symptom burden in ME/CFS and fibromyalgia. https://doi.org/10.1186/s12967-026-08824-5
-- ext i2 Helliwell 2022 (?): Epigenetic changes tracked through relapse and recovery cycle https://doi.org/10.3390/ijms231911852
-- ext i2 Vangeel 2015 (76 CFS vs 19 HC): NR3C1-1F promoter methylation lower in CFS than controls (CpG_1.5 survived Bonferroni, p=0.0014) and correlated with post-dexamethasone salivary cortisol. https://doi.org/10.1097/psy.0000000000000224
+## muscle-exertion-immune-cell-mito [contested] rep 0 ext 1 con 1
+Claim: Mitochondrial function in patients' blood cells has been reported as lower (PBMC maximal respiration, T-cell glycolysis), higher (lymphoblast maximal respiration with Complex V inefficiency) or normal, depending on lab and cell type.
+- con i2 Tomas 2019 (10 vs 13): Replicating the Myhill mitochondrial energy score in neutrophils and PBMCs from 10 CFS/ME patients and 13 controls found no difference in any MES component (p>=0.059), and a 24 h processing delay significantly changed many parameters. https://doi.org/10.1038/s41598-019-47966-z
+- ext i2 Smits 2011 (?): Mitochondrial content was lower in CFS than healthy controls while respiratory chain complex activities corrected for content were normal; ATP production rate and complex I, III and IV activity were higher in CFS than in two mitochondrial-disorder groups. https://doi.org/10.1016/j.mito.2011.05.005
 
-## omics-kynurenine-ido [contested] rep 0 ext 3 con 0
-Claim: The IDO metabolic-trap model predicts tryptophan-kynurenine pathway disruption, but blood data are inconsistent: one cohort found higher kynurenine, others found no difference or slightly lower kynurenine.
-- ext i2 Matits 2026 (127 vs 91): PCC had worse cognition and psychological distress; kynurenine pathway metabolites and kynurenic acid/kynurenine ratio related to symptoms. https://doi.org/10.1016/j.jpsychores.2026.112911
-- ext i2 Cysique 2023 (128): Cognitive impairment (GDS>0.5) in 16-26% over 12 months, 46.5% impaired at least once; kynurenine pathway metabolites relate to cognition and PASC. https://doi.org/10.1002/acn3.51825
-- ext i2 Cysique 2022, preprint (128): Cognitive impairment associated with kynurenine pathway activation over 12 months https://doi.org/10.1101/2022.06.07.22276020
+## infection-ebv-serology-not-different [several] rep 2 ext 0 con 0
+Claim: In large well-characterised cohorts, standard EBV and other herpesvirus seroprevalence and overall IgG reactivity do not differ between ME/CFS patients and controls.
+- rep i2 Wallace 1999 (?): In a double-blind study of civilian and Gulf War veteran CFS patients vs matched controls, PCR of PBMC for HHV6, HHV7, EBV and CMV and serum anti-EBV and anti-HHV6 titres showed no significant differences, including after stratifying by psychiatric comorbidity and onset type. https://doi.org/10.1128/cdli.6.2.216-223.1999
+- rep i2 Buchwald 1996 (548 patients): In 548 chronically fatigued patients, seroprevalence and GMTs to 13 viruses including EBV, HHV-6, CMV and Coxsackie B were not consistently different from controls, including in CFS, acute-onset and febrile subsets. https://doi.org/10.1002/(sici)1096-9071(199609)50:1<25::aid-jmv6>3.0.co;2-v
+
+## genetics-familial-heritability [replicated] rep 1 ext 1 con 0
+Claim: ME/CFS aggregates in families: relatives of cases have about 2-3x the risk, MZ twins are more concordant than DZ twins, and familiality in a 153,803-person Dutch cohort was 42%.
+- rep i2 Jason 2024 (400 ME/CFS vs 241 MS/PPS controls): Family history of ME/CFS was reported by 18% of 400 ME/CFS patients vs 3.9% of 414 MS/post-polio controls, and patients with a family history had more GI symptoms. https://doi.org/10.37349/emed.2024.00215
+- ext i2 Steen 2026 (6097372): In 6.1 million Swedish twins and siblings with register ICD diagnoses, heritability of functional somatic syndromes (including ME/CFS) and internalizing disorders was 15-44%, and ME/CFS had a modest genetic correlation with immune-mediated diseases (rA within 0.19-0.29). https://doi.org/10.1016/j.bbi.2026.106837
 
 ## vascular-complement-long-covid [replicated] rep 0 ext 0 con 1
 Claim: Active long COVID shows persistent complement dysregulation (terminal complex, alternative and classical pathway activation) with thromboinflammation markers, replicated across several cohorts.
-- con i2 Jones 2026 (150): PASC symptoms persisted over 3 years in ALI/ARDS survivors without association to persistent thromboinflammation, endothelial dysfunction or complement biomarkers. https://doi.org/10.1097/cce.0000000000001390
+- con i2 Jones 2026 (150): In 150 survivors of severe/critical COVID-19 followed for 3 years (PASC in 26% at 15 months and 3 years), serum complement (C2, C4b, C5), inflammatory (IL-6, sTNFR-1) and endothelial (angiopoietin) biomarkers were not associated with PASC or with PEM, fatigue or brain-fog phenotypes, while frailty and poor physical function were. https://doi.org/10.1097/cce.0000000000001390
 
 ## infection-ebv-reactivation-long-covid [several] rep 1 ext 1 con 0
 Claim: Serologic evidence of recent EBV reactivation (EA-D IgG) is associated with long COVID fatigue (OR 2.12) in a 280-person cohort, consistent with an earlier small report.
-- rep i2 Shady 2025 (140 vs 80): EBV reactivation in 28.6% of persistent-fatigue post-COVID vs 11.3% of recovered controls (p=0.003); EBNA-1 IgG and EA-D IgG higher. https://doi.org/10.1016/j.anl.2025.06.009
-- ext i2 Apostolou 2022 (?): Saliva antibody fingerprint of reactivated latent viruses after mild COVID unique in ME/CFS https://doi.org/10.3389/fimmu.2022.949787
+- rep i2 Shady 2025 (140 vs 80): EBV reactivation by PCR (BamHI/LMP2) was found in 40/140 (28.6%) post-COVID patients with persistent fatigue/PEM vs 9/80 (11.3%) matched recovered controls (p=0.003), with higher EBNA-1 IgG (p=0.004) and EA-D IgG (p=0.008). https://doi.org/10.1016/j.anl.2025.06.009
+- ext i2 Apostolou 2022 (?): 3-6 months after mild/asymptomatic SARS-CoV-2 infection, saliva antibody fingerprints showed EBV, HHV6 and HERV-K reactivation in both ME/CFS (n=95) and healthy donors (n=110), with stronger responses in ME/CFS (EBNA1 IgG raised only in patients) and higher baseline EBV-VCA IgG in patients; the elevations were not seen in plasma. https://doi.org/10.3389/fimmu.2022.949787
 
-## neuro-lc-bbb-disruption [several] rep 1 ext 1 con 0
-Claim: Blood-brain barrier disruption (DCE-MRI leakage, serum markers) is reported in long COVID with brain fog; no ME/CFS data exist.
-- rep i3 Greene 2023, preprint (?): DCE-MRI shows BBB disruption in long COVID with cognitive impairment https://doi.org/10.21203/rs.3.rs-2069710/v2
-- ext i2 van der Knaap 2025 (?): Cerebral microvascular dysfunction on MRI was more widespread in COVID ICU survivors than ward survivors and linked to cognitive complaints (p=0.047 in NAWM). https://doi.org/10.1016/j.jns.2025.123464
+## lc-pem-provocation-response [contested] rep 0 ext 3 con 0
+Claim: Whether standardised exercise provokes measurable post-exertional symptom worsening in long COVID is contested: a crossover RCT found no greater 48-h fatigue than controls, while symptom-tracking studies find variable PESE peaking within 72 h in subsets.
+- ext i2 Pouliopoulou 2025 (?): Meta-analysis: PEM prevalence in community-dwelling adults with PCC was 25% (95% CI 17-36%; 10 studies, 4,076 participants); 7 of 8 tailored-rehab studies (1,080 patients) found no exercise-related PEM, with all studies at high risk of bias. https://doi.org/10.1016/j.apmr.2025.01.471
+- ext i2 Greenwood 2024 (376 participants, EMA up to 24 days): In 376 long COVID participants with 3-hourly ecological momentary assessment, symptoms rose within 30 min of all activity types in proportion to effort (fatigue +1.8/10 after highest physical exertion), with only mild delayed fatigue at 3 h or one day. https://doi.org/10.1016/j.lanepe.2024.101082
+- ext i2 Weber 2026, preprint (18 vs 18): Daily tracking of 10 PEM symptoms for 7 days before and 14 days after one maximal CPET in 18 severe PCC patients showed only a transient, clinically non-relevant increase lasting 1-3 days with no prolonged exacerbation, not differing by DSQ-PEM or ME/CFS status. https://doi.org/10.21203/rs.3.rs-9605064/v1
 
 ## gut-ibs-overlap [replicated] rep 1 ext 1 con 0
 Claim: IBS is about seven times more common in ME/CFS (pooled OR 7.20; prevalence about 37%), and IBS status drives much of the measured microbiome difference.
-- rep i2 Fall 2024 (923 (MCAM)): 76% of ME/CFS had at least one chronic overlapping pain condition vs 17.4% of controls: migraine/headache 48.1%, fibromyalgia 45.0%, low back pain 33.1%, IBS 31.6%. https://doi.org/10.1186/s12883-024-03872-0
-- ext i2 Williams 2024, preprint (38 ME/CFS, 27 ME/CFS+IBS, 17 mixed disorders): Against a non-healthy mixed-disorder control, only Roseburia and Dialister distinguished ME/CFS, suggesting much dysbiosis is non-specific. https://doi.org/10.1101/2024.04.23.24306162
+- rep i2 Fall 2024 (923 (MCAM)): IBS was present in 31.6% of 595 ME/CFS patients in the 7-site MCAM cohort, among 76% with at least one overlapping pain condition vs 17.4% of controls. https://doi.org/10.1186/s12883-024-03872-0
+- ext i2 Williams 2024, preprint (38 ME/CFS, 27 ME/CFS+IBS, 17 mixed disorders): Many genera separated ME/CFS with IBS (n=27) from a mixed non-healthy control group, but only Roseburia and Dialister separated ME/CFS without IBS (n=38), suggesting bowel dysfunction drives much of the dysbiosis. https://doi.org/10.1101/2024.04.23.24306162
 
-## genetics-decodeme-loci [several] rep 1 ext 1 con 0
-Claim: DecodeME (15,579 PEM-defined cases vs 259,909 controls) identified 8 genome-wide significant loci, each with a small effect (OR about 1.07-1.10), and SNP heritability of about 8-10%.
-- rep i2 Bretherick 2023 (17,074): 83.5% female; females have more comorbidities; female sex, older age and >10 years duration associate with greater severity; five onset types compared. https://doi.org/10.3310/nihropenres.13421.4
-- ext i2 St-Jean 2026, preprint (19019): k-modes cluster analysis in DecodeME gives two symptom clusters linked to onset type. https://doi.org/10.64898/2026.06.29.26356818
+## neuro-nasa-lean [several] rep 0 ext 3 con 0
+Claim: On the 10-minute NASA lean test, a subgroup of recent-onset patients shows a rising heart rate with an abnormally narrow pulse pressure. Autonomic specialists say the test has not been validated against tilt or active stand.
+- ext i2 Lee 2024 (277 vs 50): Across 8 UK long COVID clinics, 41/277 (15%) had an abnormal NASA lean test (7% POTS, 8% OH) and 52% had OI symptoms during it, vs no POTS or symptoms in 50 healthy volunteers (10% asymptomatic OH); 45% of abnormal tests had no prior OI symptoms. https://doi.org/10.1002/jmv.29486
+- ext i2 Day 2023 (34 PASC, 71 ME/CFS <=10 y, ME/CFS >10 y, 82 controls): In 256 participants (34 PASC, ME/CFS by duration, 82 controls), cognitive efficiency fell after orthostatic challenge in disease groups, narrow pulse pressure (<25% of systolic) appeared at 4-5 min, and narrow pulse pressure was associated with slowed information processing in PASC (-1.5, p=0.04). https://doi.org/10.3389/fnins.2023.1203514
+- ext i2 Vernon 2022 (?): The 10-min NASA lean test worsened symptoms and produced hemodynamic and smartphone-measured cognitive abnormalities in long COVID (n=42) and ME/CFS (n=26) but not in 20 healthy controls, with follow-up to 7 days. https://doi.org/10.3389/fmed.2022.917019
 
-## genetics-early-gwas-candidates [refuted] rep 0 ext 0 con 1
-Claim: Before DecodeME, small GWAS and candidate-gene studies (GRIK2, NPAS2, TPPP, TRA locus and many others) produced no association that replicated in UK Biobank or later cohorts.
-- con i2 Ueland 2022 (?): No replication of reported TRA locus variant association with ME/CFS https://doi.org/10.1038/s41398-022-02046-1
+## neuro-nocturnal-hrv [several] rep 1 ext 1 con 0
+Claim: Heart-rate variability is lowest relative to controls during sleep, particularly deep sleep, consistent with sympathetic arousal persisting at night, and lower nocturnal HRV predicts poorer subjective sleep.
+- rep i2 Burton 2010 (20 vs 20): In 20 CFS vs 20 matched controls, time- and frequency-domain HRV during sleep was significantly lower (all p<0.006) and was the best predictor of poorer subjective sleep quality. https://doi.org/10.1007/s00221-010-2296-1
+- ext i2 Mooren 2023 (103 PCS vs 103 CAD vs 90 controls): In 103 post-COVID patients vs 90 healthy controls, 24-h Holter showed higher LF/HF ratio (p<=0.001) and disturbed diurnal HRV with impaired night-time parasympathetic activity. https://doi.org/10.1038/s41598-023-42615-y
 
-## omics-lipids-plasmalogens [several] rep 1 ext 1 con 0
-Claim: Lower plasmalogens, some phosphatidylcholines and sphingomyelins are reported across several cohorts and platforms, with modest effect sizes.
-- rep i2 Che 2021, preprint (106 vs 91): Metabolomics of 888 analytes: decreased plasmalogens (peroxisomal dysfunction), phosphatidylcholines and sphingomyelins in ME/CFS; CDP-choline pathway altered. https://doi.org/10.1101/2021.06.14.21258895
-- ext i2 Nkiliza 2021 (50 vs 50): Sex-specific plasma lipid differences: lower PE and hexosylceramides in females, higher HexCer, PI, TG and oxylipins in males. https://doi.org/10.1186/s12967-021-03035-6
+## trials-post-covid-course [several] rep 0 ext 3 con 0
+Claim: About 4.5% of SARS-CoV-2-infected adults in RECOVER met IOM ME/CFS criteria (vs 0.6% uninfected; HR 4.93), and those meeting Canadian criteria at Charité stayed severely ill to 20 months while other long-COVID patients improved.
+- ext i2 Reuken 2024 (1022 (411 with follow-up)): Among post-COVID clinic patients, 31.3% met ME/CFS criteria at a median 255 days and 19.4% still did at a median 402 days, while self-reported symptoms declined but structured screening scores did not change significantly. https://doi.org/10.1007/s00406-023-01661-3
+- ext i2 Orini 2025, preprint (50 vs 152): In the CONVALESCENCE study (306 community participants enrolled about 2 years post-infection, 12 months of smartwatch/app monitoring), long COVID cases with fatigue-cluster symptoms (n=50) had small persistent deficits across activity, exercise, cardiorespiratory, autonomic, sleep, cognitive and mental-health measures vs 152 controls, with no recovery over 12 months; long COVID without fatigue cluster (n=76) did not differ from controls. https://doi.org/10.21203/rs.3.rs-7876232/v1
+- ext i2 Ballouz 2022, preprint (?): In a population-based Zurich cohort (1,543 infected, 628 uninfected), 25% had not recovered by 6 months, and of those 67% and 58% were still not recovered at 12 and 18 months; excess symptom risk vs uninfected was 17% at 6 months and 20% at 12 months, highest for taste/smell, PEM, fatigue and concentration. https://doi.org/10.1101/2022.06.22.22276746
+
+## immune-interferon-alpha-model [early] rep 0 ext 0 con 1
+Claim: In the interferon-alpha fatigue model, higher baseline IL-6 and IL-10 and a larger early cytokine and fatigue surge predict fatigue that persists after the immune trigger is gone.
+- con i2 Freidin 2023 (?): In 1,274 TwinsUK adults, pre-pandemic plasma IL-6 was associated with chronic fatigue in COVID-negative but not in COVID-positive (mild) participants; chronic fatigue was 17% vs 11% (p=0.001) and higher BMI predicted fatigue after COVID. https://doi.org/10.1007/s00011-023-01722-2
+
+## endocrine-gh-igf1 [contested] rep 1 ext 1 con 0
+Claim: Reports of low IGF-1 and reduced growth hormone responses in CFS conflict, and the largest controlled study found an intact GH/IGF system.
+- rep i3 Moorkens 2000 (73 vs 21): In 73 CFS vs 21 controls, the GH response to insulin hypoglycaemia (peak 17.0 vs 22.1 ug/l, p=0.01; AUC p=0.002) and nocturnal GH AUC (p=0.045) were lower, while arginine and clonidine responses and IGF-I were normal; prolactin and TSH were higher. https://doi.org/10.1046/j.1365-2265.2000.01049.x
+- ext i2 De Bellis 2021 (30 vs 25): In 30 women with ME/CFS vs 25 controls, antihypothalamic (33%) and antipituitary (56%) antibodies were common, GH peak and IGF-1 were significantly lower, and both were lowest in the 13 high-titre patients, who were also more severe. https://doi.org/10.1210/clinem/dgab429
 
 ## infection-q-fever-qfs [several] rep 0 ext 0 con 1
 Claim: Q fever fatigue syndrome (QFS) follows roughly 20% of acute Q fever and persists more than 10 years after infection in many patients, almost all of whom report post-exertional malaise; doxycycline did not help.
-- con i2 Ankert 2022 (80 seropositive vs 52 household): Six years after the Jena Q fever outbreak, CFS rates were identical (3.8% vs 3.8%), no chronic Q fever. https://doi.org/10.1111/tbed.14224
+- con i2 Ankert 2022 (80 seropositive vs 52 household): Six years after the 2005 Jena outbreak, 80 serologically confirmed Q fever cases and 52 seronegative household members did not differ on the CDC symptom inventory or on CFS criteria (3.8% vs 3.8%, p=0.655), and no one had chronic Q fever. https://doi.org/10.1111/tbed.14224
 
-## omics-proteome-hoel-leak [contested] rep 1 ext 1 con 0
-Claim: Most of the ~845 FDR-significant serum proteins in Hoel 2026 appear driven by a sample-handling (cell-leak) signal that is absent from other cohorts; about 13 survive adjustment.
-- rep i2 Hoel 2025, preprint (54 vs 27): Aptamer serum proteomics: 1823 of 7326 aptamers differed (845 after FDR), with broad rise in secreted proteins and lower intracellular and muscle proteins, reduced neutrophil-associated proteins. https://doi.org/10.1101/2025.05.28.25328245
-- ext i2 Germain 2021 (20 vs 20 females): Aptamer proteomics (4790 proteins) found 19 differing proteins, highlighting ephrin pathway and immune signalling; AUC above 0.85, up to 0.95 using ratios. https://doi.org/10.3390/proteomes9010006
+## immune-cytokine-duration [several] rep 0 ext 0 con 1
+Claim: Plasma cytokine abnormalities depend strongly on illness duration: a pro- and anti-inflammatory activation pattern early (under 3 years) that is absent in long-established illness.
+- con i2 Wyller 2015 (120 vs 68): In 120 adolescent CFS patients (illness of at least 3 months) and 68 controls, none of 27 plasma cytokines or the network parameters differed. https://doi.org/10.1016/j.bbi.2014.12.025
 
-## trials-rintatolimod [contested] rep 1 ext 1 con 0
-Claim: Rintatolimod (Ampligen) gave a modest placebo-adjusted gain in treadmill time in a 234-person phase III trial, but the result was borderline and the FDA declined approval.
-- rep i2 Suhadolnik 1994 (?): Baseline bioactive 2-5A (p<0.0001) and RNase L activity (p=0.001) were elevated; poly(I)-poly(C12U) lowered both in those with high baseline, correlating with cognitive improvement. https://pubmed.ncbi.nlm.nih.gov/7893988/
-- ext i2 Strayer 2020 (208 ITT; 75 target subset (2-8 yr duration)): Post-hoc analysis of Phase III rintatolimod trial: patients with 2-8 years' illness had over twice the placebo-adjusted treadmill gain; 51.2% improved exercise duration by 25% or more (p=0.003); no response in >8 years. https://doi.org/10.1371/journal.pone.0240403
+## muscle-exertion-fibre-capillary-bedrest [early] rep 1 ext 1 con 0
+Claim: ME/CFS muscle has a lower proportion of type I (oxidative) fibres, type I-specific atrophy, lower mitochondrial capacity and fewer capillaries per fibre, a pattern that 60 days of strict bed rest in healthy people did not reproduce.
+- rep i2 Pietrangelo 2009 (?): In CFS muscle biopsies, myosin-isoform fibre typing showed a shift from slow (type I) to fast-twitch fibres, while single-fibre cross-sectional area, force, shortening velocity and calcium sensitivity were unchanged. https://doi.org/10.1177/039463200902200219
+- ext i2 Smits 2011 (?): Mitochondrial content was lower in CFS than healthy controls while respiratory chain complex activities corrected for content were normal; ATP production rate and complex I, III and IV activity were higher in CFS than in two mitochondrial-disorder groups. https://doi.org/10.1016/j.mito.2011.05.005
 
-## muscle-exertion-pdh-block [early] rep 0 ext 0 con 1
-Claim: Fluge 2016 proposed impaired pyruvate dehydrogenase (PDH) function from low TCA-fuelling amino acids and raised PDK mRNA in blood cells; this has not been independently confirmed.
-- con i2 Nilsson 2020 (161 ME/CFS; controls 15 PBC, 14 FM, 29 MS, 44 donors): Only 1 of 161 ME/CFS patients had anti-PDC antibodies; anti-mitochondrial antibodies negative; metabolic dysfunction not explained by these autoantibodies. https://doi.org/10.3389/fmed.2020.00108
+## vascular-complement-mecfs [contested] rep 0 ext 0 con 1
+Claim: In ME/CFS, complement findings are heterogeneous: an exercise-induced C4a rise, a genetically defined alternative-pathway subgroup, and proteomic signals that point in different directions across cohorts.
+- con i2 Nijs 2010 (22 vs 22): In 22 women with ME/CFS and 22 sedentary controls, submaximal and self-paced exercise both triggered PEM, but neither changed circulating C4a split product, IL-1beta or elastase (P > 0.05); post-exercise C4a was proposed as a PEM biomarker. https://doi.org/10.1111/j.1365-2796.2009.02178.x
 
-## muscle-exertion-serum-myoblast-refuted [refuted] rep 0 ext 0 con 1
-Claim: The claim that ME/CFS serum changes healthy myoblast mitochondrial respiration failed a pre-registered replication of 67 patients vs 53 controls, though a small 3D engineered-muscle study reported weaker contraction with patient serum.
-- con i2 Nilsson 2020 (161 ME/CFS; controls 15 PBC, 14 FM, 29 MS, 44 donors): Only 1 of 161 ME/CFS patients had anti-PDC antibodies; anti-mitochondrial antibodies negative; metabolic dysfunction not explained by these autoantibodies. https://doi.org/10.3389/fmed.2020.00108
-
-## muscle-exertion-lactate [several] rep 1 ext 1 con 0
-Claim: Some patients produce more lactate for a given workload, and this worsens on a repeat test, but plasma studies after one maximal test show a smaller total lactate rise that mainly reflects lower achieved workloads.
-- rep i2 Riley 1990 (13 vs 13 vs 7 IBS): CFS patients had shorter treadmill time, higher submaximal heart rate, higher blood lactate at stage III and higher Borg scores than normal or IBS controls. https://doi.org/10.1136/bmj.301.6758.953
-- ext i2 Ghali 2019 (123 (55 elevated lactate)): 44.7% of ICC ME/CFS patients had resting lactate at or above 2 mmol/L, and these had more severe PEM (OR 2.47, 95% CI 1.10-5.55). https://doi.org/10.1038/s41598-019-55473-4
-
-## vascular-low-red-cell-volume [replicated] rep 1 ext 1 con 0
-Claim: Red cell volume and total blood volume are below predicted in a large minority to about half of ME/CFS patients measured by isotope or CO-rebreathing methods.
-- rep i2 van Campen 2018 (20 (12 classified by OI)): Dual-isotope blood volume averaged 11 ml/kg below reference; lower in those with orthostatic intolerance (56 vs 66 ml/kg). https://doi.org/10.3389/fped.2018.00352
-- ext i2 Newton 2009 (38 CFS vs 120 controls vs 47 PBC): 24-h ambulatory BP: CFS had lower systolic blood pressure and abnormal diurnal regulation vs controls, with a fatigue comparison group (PBC) included. https://doi.org/10.1097/psy.0b013e31819ccd2a
-
-## immune-il1-blockade [refuted] rep 1 ext 1 con 0
-Claim: Blocking IL-1 with anakinra for four weeks did not improve fatigue in CFS, and did not change circulating cytokines beyond IL-1Ra itself.
-- rep i2 Roerink 2018 (107 vs 59 saliva; 46 vs 46 hair): Lower cortisol awakening response in CFS (4.2 vs 6.1 nmol/L, p=0.036); hair cortisol trend lower (p=0.062); anakinra for 4 weeks slightly lowered hair cortisol versus placebo. https://doi.org/10.1016/j.yhbeh.2018.05.016
-- ext i2 Nijs 2010 (22 vs 22): Both submaximal and self-paced exercise triggered PEM, but neither changed elastase, IL-1beta or C4a acutely; post-exercise C4a flagged as marker of PEM. https://doi.org/10.1111/j.1365-2796.2009.02178.x
-
-## immune-mait [contested] rep 1 ext 1 con 0
-Claim: Increased mucosal-associated invariant T (MAIT) cell proportions and a shift in CD8+ memory subsets were found in the largest single ME/CFS flow-cytometry cohort, but the finding has not been reproduced in independent data.
-- rep i2 Karhan 2019, preprint (?): Large cohort showed raised CD4/CD8 ratio and CD8 effector memory, reduced NK in under-50s, and altered Th17, Th1, Th2 and MAIT function; random forest identified 93% of patients. https://doi.org/10.1101/2019.12.23.887505
-- ext i2 Rivas 2018 (76 vs 73): Lower Tregs, higher NKT-like cells, lower NKG2C and higher NK CD69/CD56bright in patients; classification model reached 70% accuracy. https://doi.org/10.3389/fimmu.2018.01028
-
-## omics-transcriptome-sc [contested] rep 0 ext 0 con 1
-Claim: Blood transcriptome and single-cell RNA studies report monocyte and platelet abnormalities, but no gene or cell subtype difference replicates across independent cohorts.
-- con i2 Frampton 2011 (?): A 44-gene PBMC expression classifier correctly classified only about two-thirds of samples in an independent population, so earlier reporter genes appear study-specific. https://doi.org/10.1371/journal.pone.0016872
-
-## endocrine-renin-aldosterone-paradox [several] rep 1 ext 1 con 0
+## endocrine-renin-aldosterone-paradox [several] rep 0 ext 0 con 1
 Claim: Patients with POTS and with ME/CFS show normal or low renin and low aldosterone despite reduced blood volume (the 'renin-aldosterone paradox').
-- rep i2 De Lorenzo 1997 (78 CFS vs 38 controls): 22 of 78 had abnormal tilt; after 8 weeks of sustained-release sodium chloride 11 normalised and improved, 10 still had orthostatic hypotension and had lower plasma renin activity (0.79 vs 1.29 pmol/ml/h in controls). https://doi.org/10.1007/bf02267980
-- ext i2 Wyller 2010 (67 vs 55): Adolescent CFS had lower plasma ADH and higher plasma osmolality and renin activity than controls. https://doi.org/10.1111/j.1651-2227.2010.01701.x
+- con i2 Wyller 2010 (67 vs 55): 67 adolescents with CFS vs 55 controls had significantly increased plasma renin activity, together with lower ADH and higher osmolality. https://doi.org/10.1111/j.1651-2227.2010.01701.x
 
-## vascular-retinal-microvasculature [several] rep 1 ext 1 con 0
-Claim: Retinal imaging shows narrower arterioles, lower arteriolar-to-venular ratio, reduced flicker-induced venular dilation and lower capillary vessel density in post-COVID patients, most pronounced in those meeting ME/CFS criteria.
-- rep i2 Wallraven 2026, preprint (102 PCS vs 204 HC; ME/CFS 62): Retinal vessel analysis shows microvascular remodeling/endothelial dysfunction in post-COVID and ME/CFS versus matched controls. https://doi.org/10.64898/2026.01.22.26344661
-- ext i2 Basta-Wunderle 2026, preprint (102 (82 follow-up)): Retinal arteriolar width and AVR increased over 6 months in post-COVID syndrome but venular dysfunction persisted. https://doi.org/10.21203/rs.3.rs-11101115/v1
+## omics-redox [several] rep 1 ext 1 con 0
+Claim: Markers of oxidative stress (methionine sulfoxide, oxidised glutathione products, lower brain glutathione) are repeatedly reported, but they are non-specific and also seen in depression.
+- rep i2 Kennedy 2005 (47 vs 34): In 47 CFS vs 34 controls, plasma 8-iso-PGF2a isoprostanes were higher (P=0.007 and P=0.03 in high and low CV-risk subgroups), oxidised LDL higher (P=0.02) and HDL lower; in low-risk patients isoprostanes correlated with symptom score (P=0.005) and PEM (P=0.027). https://doi.org/10.1016/j.freeradbiomed.2005.04.020
+- ext i2 Spence 2008 (41 vs 30): In 41 CFS vs 30 controls, AIx@75 was higher (22.5 vs 13.3%, P=0.002), as were CRP (2.58 vs 1.07 ug/ml) and 8-iso-PGF2alpha isoprostanes (470.7 vs 331.1 pg/ml, P<0.005); AIx correlated with logCRP (r=0.51), isoprostanes (r=0.37) and oxidised LDL (r=0.33). https://doi.org/10.1042/cs20070274
 
-## omics-aromatic-lactates [several] rep 1 ext 0 con 0
-Claim: Four aromatic 2-hydroxy acids (phenyllactate, 4-hydroxyphenyllactate, indolelactate, imidazole lactate) are lower in ME/CFS in 5 of 5 cohorts (combined -0.53 SD, I²=0), robust to drug, caffeine, diet and kidney-function adjustment.
-- rep i2 Yagin 2026 (106 vs 91): Plasma metabolomics/lipidomics ensemble classifier reached accuracy 0.909 and AUC 0.940; top interactions include proline with indole-3-lactate. https://doi.org/10.3390/ijms27135920
+## trials-placebo-response [replicated] rep 0 ext 0 con 1
+Claim: Placebo and natural-course improvement in ME/CFS and long-COVID trials is large (35% responders in RituxME, >40% in the LDN trial, both arms improving in IVIG, HBOT and immunoadsorption trials), so uncontrolled response rates of 50-75% are uninterpretable.
+- con i2 Cho 2005 (?): A meta-analysis of controlled CFS trials found a pooled placebo response of 19.6% (95% CI 15.4-23.7), lower than expected and lower than in other conditions, and lower for psychological interventions (meta-regression p=0.03). https://doi.org/10.1097/01.psy.0000156969.76986.e0
 
-## gut-longcovid-parallel [several] rep 1 ext 0 con 0
-Claim: In long COVID, the gut microbiome at hospital admission predicted persistent symptoms, and at 6 months patients had more R. gnavus and fewer butyrate producers, mirroring ME/CFS.
-- rep i2 Donchev 2026 (?): Gut microbiome in ME/CFS and long COVID vs HC: small beta-diversity differences, shared Sutterella enrichment and Terrisporobacter/Lachnospiraceae depletion. https://doi.org/10.3390/biomedicines14061183
+## infection-enterovirus-stomach-chia [contested] rep 0 ext 0 con 1
+Claim: Enteroviral VP1 protein was found in stomach biopsies from 82% of 165 CFS patients vs 20% of controls, with EV RNA in 37% vs 5%, but this has not been independently replicated with blinded methods.
+- con i2 Gow 1994 (121 vs 101): Enterovirus RNA by PCR was found in muscle of 32/121 (26.4%) CFS vs 20/101 (19.8%) other neuromuscular disease controls, not significant, failing to confirm the group's earlier 53% vs 15% result. https://doi.org/10.1093/clinids/18.supplement_1.s126
 
-## immune-smpdl3b [early] rep 1 ext 0 con 0
-Claim: Plasma/neutrophil SMPDL3B shedding is increased in ME/CFS, with replication in an independent Norwegian cohort.
-- rep i2 Rostami-Afshari 2025 (56 vs 16): Lower urine-to-plasma ratio of soluble SMPDL3B and reduced renal clearance in ME patients; metabolomic changes, more pronounced in women. https://doi.org/10.3390/ijms26188882
+## infection-sarscov2-plasma-antigen [several] rep 0 ext 2 con 0
+Claim: SARS-CoV-2 spike, S1 or nucleocapsid antigen is detectable in plasma more often after COVID than in pre-pandemic samples (excess +11% at 3-6 months, +5.4% at 10-14 months), with more antigenemia after more severe acute illness.
+- ext i2 Rovito 2026 (442 (184 followed)): In 442 COVID-19 patients (184 followed at ~3.2 months), plasma SARS-CoV-2 RNA was detected in 67.4% at baseline and 53.6% at follow-up, was associated with critical acute illness, but neither baseline nor follow-up RNAemia nor its trajectory was associated with PCC. https://doi.org/10.1016/j.cmi.2026.08.045
+- ext i2 Fehrer 2024, preprint (?): Serum spike was persistent in 11% of post-COVID healthy controls, 2% of PCS non-ME/CFS and 14% of post-COVID ME/CFS (121 PCS, 72 ME/CFS), with no association with severity, symptoms or labs; immunoadsorption reduced or removed spike in 5 patients. https://doi.org/10.1101/2024.11.11.24317084
 
-## muscle-exertion-oxygen-extraction [several] rep 1 ext 0 con 0
-Claim: Invasive exercise testing shows two peripheral limits in ME/CFS: low cardiac filling (preload failure) and, in a high-flow subgroup, poor systemic oxygen extraction by tissue.
-- rep i3 Jothi 2025 (15 PASC, 11 CFS/ME, 11 controls): Invasive CPET oxygen pathway analysis: reduced VO2peak in both, with skeletal muscle O2 diffusion (DM) the most impaired parameter; normalising DM would raise VO2 66% in PASC and 35% in CFS/ME. https://doi.org/10.14814/phy2.70535
+## neuro-lc-subcortical-structure [several] rep 0 ext 2 con 0
+Claim: Long COVID shows structural differences in thalamus, basal ganglia and choroid plexus (enlarged) on MRI relative to recovered controls.
+- ext i2 Schwichtenberg 2026 (49 vs 48): 49 post-COVID patients with cognitive complaints vs 48 matched healthy controls had broad cognitive deficits, reduced thalamic volumes and reduced bilateral thalamic fractal complexity (with raised occipital and hippocampal fimbria complexity), and lower thalamic complexity correlated with fatigue severity. https://doi.org/10.1093/braincomms/fcag099
+- ext i2 Seo 2025 (Cog-PASC vs Other-PASC vs non-PASC, exploration+validation): Cognitive PASC showed enlarged choroid plexus, increased hippocampal susceptibility and cingulate/insular cortical thinning across exploration and validation cohorts, not seen in other PASC. https://doi.org/10.1038/s41467-025-65597-z
 
-## endocrine-longcovid-cortisol [contested] rep 1 ext 0 con 0
-Claim: Lower cortisol in long COVID, reported in a 2023 Nature cohort, has not held up in later clinic and cohort studies that controlled for sampling time.
-- rep i2 Hurme 2025 (62 inpatients and 53 outpatients): At 24 months, spirometry, orthostatic hypotension, IL-6, CRP and cortisol were not associated with PCC overall; cognitive-symptom cluster had lower cortisol, respiratory/myalgic clusters higher IL-6 and hs-CRP. https://doi.org/10.1038/s41598-025-90819-1
+## gut-butyrate-producer-loss [replicated] rep 1 ext 0 con 0
+Claim: Stool from ME/CFS patients has fewer butyrate-producing bacteria (notably Faecalibacterium prausnitzii, Eubacterium rectale, Roseburia, Coprococcus) and reduced microbial capacity to make butyrate.
+- rep i2 Cheng 2025 (40 vs 40): In 40 CFS vs 40 matched controls, 16S sequencing showed lower alpha-diversity and fewer Firmicutes, Clostridiales and Ruminococcaceae, fecal acetate and butyrate were lower (q<0.05), and Faecalibacterium/Ruminococcaceae correlated with butyrate (r=0.52-0.56). https://doi.org/10.1038/s41598-025-27564-y
 
-## neuro-csf-metabolomics [early] rep 1 ext 0 con 0
-Claim: Targeted CSF metabolomics found raised serine and phospholipids and reduced 5-methyltetrahydrofolate in ME/CFS, with different metabolite responses to exercise than in controls.
-- rep i2 Baraniuk JN. 2025 (?): CSF metabolomics and lipidomics around exercise: raised serine, sarcosine and phospholipids with lower 5-methyltetrahydrofolate; exercise consumed metabolites in ME/CFS but generated them in controls. https://doi.org/10.3390/ijms26031282
+## neuro-white-matter-diffusion [early] rep 0 ext 2 con 0
+Claim: Advanced diffusion MRI models report widespread white-matter differences in ME/CFS that conventional DTI misses, and the pattern may differ between post-infectious and gradual-onset cases.
+- ext i2 Wu 2026 (100 vs 100): In 100 CFS vs 100 controls, DTI showed reduced FA in the left cingulum parolfactory and frontal-parahippocampal tracts (middle-posterior segment), and FA of these tracts classified CFS with 85% accuracy. https://doi.org/10.1016/j.brainresbull.2025.111671
+- ext i2 Serrano Del Pueblo 2024 (?): In 83 neurological long COVID vs 22 recovered controls, global cognition was lower (OCLz -0.39 vs +0.32), 48% had episodic memory deficits, cortex was thinner in left posterior superior temporal gyrus, and FA was lower and RD higher across widespread white matter, correlating with cognition. https://doi.org/10.1093/brain/awae101
+
+## neuro-injury-markers [contested] rep 0 ext 2 con 0
+Claim: Markers of neuronal or glial injury (NfL, GFAP, tau, UCH-L1) are not raised in ME/CFS blood or CSF.
+- ext i2 Seo 2025 (Cog-PASC vs Other-PASC vs non-PASC, exploration+validation): About one year after mild COVID, people with cognitive PASC had raised blood neuronal and astroglial damage-associated proteins vs other PASC and controls, reproduced in an independent validation cohort. https://doi.org/10.1038/s41467-025-65597-z
+- ext i2 Nordvig 2022 (?): By Simoa, plasma NfL was raised in 102 hospitalised COVID-19 patients vs 96 matched controls and rose further during admission, but after age adjustment neither NfL nor p-tau181 was elevated in 119 PASC outpatients with or without brain fog. https://europepmc.org/article/PMC/PMC9877857
+
+## endocrine-gynaecological-menopause [early] rep 0 ext 2 con 0
+Claim: Women with CFS report more endometriosis, heavy bleeding, pelvic pain, hysterectomy and earlier menopause than controls in US population-based case-control studies.
+- ext i2 Compton 2025 (5 studies, 2261): Meta-analysis (13 studies included; 5 studies, n=2261 for the main pool) found women with endometriosis had OR 2.79 (95% CI 2.00-3.89) for ME/CFS, and two studies of ME/CFS to endometriosis gave pooled OR 2.52 (2.45-2.60). https://doi.org/10.3390/diagnostics15182332
+- ext i2 Harlow 1998 (150 vs 149): In 150 women with CFS vs 149 clinic controls (self-report questionnaires), cases reported more gynecologic complications, irregular cycles, amenorrhea, intermenstrual bleeding, PCOS, hirsutism and ovarian cysts, and less premenstrual symptomatology. https://doi.org/10.1016/s0002-9343(98)00173-9
+
+## lc-icpet-impaired-extraction [several] rep 1 ext 0 con 0
+Claim: Invasive CPET in long COVID with exercise intolerance repeatedly shows low systemic oxygen extraction with normal or high cardiac output, and in a subset reduced biventricular filling (preload failure), mirroring ME/CFS iCPET findings.
+- rep i2 Jothi 2025 (15 PASC, 11 CFS/ME, 11 controls): In 15 PASC patients vs 11 controls on invasive CPET, peak VO2 was reduced with skeletal muscle O2 diffusion the most impaired parameter; normalising it would raise VO2 by 66% (p=0.008). https://doi.org/10.14814/phy2.70535
+
+## endocrine-female-preponderance [replicated] rep 0 ext 2 con 0
+Claim: ME/CFS and long COVID are more common in women (ME/CFS prevalence about 1.4% vs 0.9%; DecodeME 82% female), but genetic risk variants are not sex-specific.
+- ext i2 Samms 2025 (100055 diagnosed): Among 100,055 people with a G93.3 hospital record in England (0.16%), the female-to-male ratio was 3.88:1, peaking at about 6:1 in the fourth and fifth decades; estimated lifetime prevalence up to 0.92% in females and 0.25% in males. https://doi.org/10.1186/s12889-025-22603-9
+- ext i2 Bretherick 2023 (17,074): In the first 17,074 DecodeME participants, 83.5% were female; females had more comorbidities, and female sex, older age and illness duration over 10 years were associated with greater severity. https://doi.org/10.3310/nihropenres.13421.4
 
 ## neuro-pet-tspo-longcovid [contested] rep 1 ext 0 con 0
 Claim: In long COVID, one [11C]PBR28 PET study found widespread raised TSPO signal that correlated with vascular markers, and a [11C]PK11195 study found no group difference.
-- rep i2 Clouston 2025 (14 vs 10): [18F]-FEPPA TSPO PET: hippocampal VT higher in persistent brain fog after COVID (AUC 0.95; sensitivity 0.88, specificity 0.93). https://doi.org/10.1016/j.bbih.2025.100945
+- rep i2 Clouston 2025 (14 vs 10): [18F]-FEPPA TSPO PET with arterial input and genotype adjustment in 14 N-PASC vs 10 never-COVID essential workers found higher hippocampal VT in persistent brain fog (AUC 0.95; sensitivity/specificity 0.88/0.93). https://doi.org/10.1016/j.bbih.2025.100945
 
-## vascular-rbc-deformability [early] rep 1 ext 0 con 0
-Claim: Red blood cells from ME/CFS patients were stiffer in one microfluidic study, and real-time deformability cytometry found altered red-cell deformation persisting after COVID-19.
-- rep i2 Grau 2024 (30 vs 30): Red blood cells from long COVID showed more morphological abnormalities, which correlated with RBC mechanical stiffness and FACIT-Fatigue score. https://doi.org/10.3390/biology13110948
+## neuro-lc-fdg-pet [contested] rep 1 ext 0 con 0
+Claim: FDG-PET hypometabolism in long COVID is inconsistent: some clinic series find frontal/brainstem hypometabolism in most patients, others find none.
+- rep i2 Rozenblum 2025 (87): FDG-PET in 87 PASC adults with neurocognitive symptoms found regional hypometabolism (pons -5.5%, right amygdala -4.2% vs controls; fusiform, amygdala, parahippocampal, vermis in 22-33% of patients) correlating with concentration and memory complaints. https://doi.org/10.1097/rlu.0000000000005614
 
-## neuro-csf-catechol [early] rep 0 ext 2 con 0
-Claim: In the NIH cohort, CSF levels of the catechol metabolites DOPA, DOPAC and DHPG were lower in post-infectious ME/CFS. Noradrenaline and dopamine did not differ.
-- ext i2 Goldstein 2024 (7 followed >1 year): 71% of initially abnormal tests (CSF oligoclonal bands, CSF catecholamine deficiency indices, baroreflex dysfunction, tilt hypotension, MRI hyperintensities) remained abnormal after more than a year. https://doi.org/10.1212/wnl.0000000000209742
-- ext i2 Demitrack 1992 (19 vs 17): Plasma MHPG was lower and 5-HIAA higher in CFS, with CSF monoamine metabolites also measured. https://doi.org/10.1016/0006-3223(92)90187-5
+## gut-translocation-lps [contested] rep 0 ext 2 con 0
+Claim: Blood markers of bacterial translocation (LPS, LPS-binding protein, sCD14, IgA/IgM to enterobacterial LPS) are raised in several small ME/CFS studies, but standardised replication is lacking.
+- ext i2 Uhde 2023 (?): In two independent ME/CFS-control cohort pairs (one at rest, one with exercise challenge), markers indicated microbial translocation with a compromised gut epithelium, a suppressed acute-phase innate response and enhanced compensatory antibody responses, linked to glucose/citrate metabolism and IL-10. https://doi.org/10.1016/j.bbih.2023.100627
+- ext i2 Vogl 2022 (?): Phage-display profiling (244,000 microbiota and viral antigen variants) found severe ME/CFS patients had distinct, overrepresented serum antibody epitope repertoires against Lachnospiraceae flagellins, and machine-learning classifiers built on this antibody binding added diagnostic information beyond standard blood tests. https://doi.org/10.1126/sciadv.abq2422
 
-## vascular-vascular-proteins-blood [contested] rep 1 ext 0 con 0
-Claim: Proteomic panels do not show a consistent rise in classic endothelial-activation or vasoactive proteins in ME/CFS; most named candidates are null and the endothelial-activation set trends down.
-- rep i2 Zerón-Rugerio 2024 (31 ME/CFS, 23 post-COVID ME/CFS, 31 controls): Both patient groups had lower activity and worse sleep quality than controls, with worse lipid profile linked to circadian temperature disruption; higher endothelin-1 and VCAM-1 in patients; no difference between ME/CFS groups. https://doi.org/10.1080/07420528.2024.2380020
+## genetics-early-gwas-candidates [refuted] rep 1 ext 0 con 0
+Claim: Before DecodeME, small GWAS and candidate-gene studies (GRIK2, NPAS2, TPPP, TRA locus and many others) produced no association that replicated in UK Biobank or later cohorts.
+- rep i2 Ueland 2022 (?): In 409 Norwegian cases vs 810 controls and 2,105 UK Biobank cases vs 4,786 controls, the two previously reported TRA-locus SNPs (rs11157573, rs17255510) did not associate with ME/CFS and no TRA SNP survived multiple-testing correction. https://doi.org/10.1038/s41398-022-02046-1
 
-## neuro-csf-immune-proteome [contested] rep 0 ext 2 con 0
-Claim: CSF cytokine and proteome studies report differences (e.g. raised eotaxin/CCL11, distinct immunotypes), but no CSF protein signature has replicated, and ME/CFS and fibromyalgia CSF proteomes were indistinguishable.
-- ext i2 Hu 2024 (large NYC/NJ cohort with CSF subgroup): Cognitive dysfunction was common but unrelated to mood or fatigue; CSF single-cell data showed monocyte recruitment, chemokine signalling and suppressed interferon response, and slow recovery with rising CXCL8, CCL3L1 and sTREM2. https://doi.org/10.1016/j.xcrm.2024.101561
-- ext i2 Hornig 2017 (32 classical vs 27 atypical (CSF)): CSF 51-plex cytokines differed between atypical and classical ME/CFS (lower IL-17A, CXCL9 in atypical); IL-1RA pattern suggests IL-1 signalling disturbance in classical. https://doi.org/10.1038/tp.2017.44
+## neuro-fmri-post-exertion [early] rep 0 ext 2 con 0
+Claim: After a single 30-minute exercise bout, women with ME/CFS performed worse on a demanding cognitive task and recruited more parietal and cingulate cortex. Controls improved.
+- ext i2 Baraniuk 2022 (31 controls, 36 ME/CFS, 78 GWI): Re-analysis of exercise-provocation fMRI (31 HC, 36 ME/CFS, 78 GWI): task activation in midbrain arousal nuclei (PAG, raphe, locus coeruleus, parabrachial) rose after submaximal exercise in ME/CFS, fell in GWI, and was unchanged in controls. https://doi.org/10.3390/brainsci12010078
+- ext i2 Washington 2020 (GWI and ME/CFS vs controls): N-back fMRI activation was equal before exercise; after exercise ME/CFS showed increased activation in dorsal midbrain, left Rolandic operculum and right middle insula, GWI showed midbrain/vermis deactivation, and controls were unchanged. https://doi.org/10.1093/braincomms/fcaa070
 
-## immune-csf-cytokines [early] rep 0 ext 2 con 0
-Claim: Cerebrospinal fluid cytokine profiles differ from controls with raised eotaxin (CCL11) and disturbed IL-1 signalling, but CSF studies are small and partly contradicted by later proteomics.
-- ext i2 Hu 2024 (large NYC/NJ cohort with CSF subgroup): Cognitive dysfunction was common but unrelated to mood or fatigue; CSF single-cell data showed monocyte recruitment, chemokine signalling and suppressed interferon response, and slow recovery with rising CXCL8, CCL3L1 and sTREM2. https://doi.org/10.1016/j.xcrm.2024.101561
-- ext i2 Hornig 2017 (32 classical vs 27 atypical (CSF)): CSF 51-plex cytokines differed between atypical and classical ME/CFS (lower IL-17A, CXCL9 in atypical); IL-1RA pattern suggests IL-1 signalling disturbance in classical. https://doi.org/10.1038/tp.2017.44
+## muscle-exertion-neuromuscular-strain [early] rep 1 ext 0 con 0
+Claim: Fifteen minutes of passive straight-leg raising (neuromuscular strain) increased pain, concentration problems and overall symptoms in CFS, both during and 24 hours later, compared with sham.
+- rep i2 Rowe 2016 (60 CFS vs 20 HC): In 60 CFS patients and 20 controls randomised to 15 min passive straight leg raise vs sham, true strain increased body pain (P=0.04), concentration difficulty (P=0.02) and composite symptoms during the manoeuvre, and lightheadedness (P=0.001) and composite score (P=0.005) at 24 h. https://doi.org/10.1371/journal.pone.0159386
 
-## omics-coverage-limits [replicated] rep 1 ext 0 con 0
-Claim: Even the deepest blood omics studies sample mainly at rest, in mild-to-moderate patients, in plasma or serum only, and rarely test fresh-cell function or the 48-72 h PEM window.
-- rep i2 Maksoud 2023 (?): Systematic review of ME/CFS biomarkers concluding no validated diagnostic biomarker. https://doi.org/10.1186/s12916-023-02893-9
+## muscle-exertion-two-day-cpet [contested] rep 1 ext 0 con 0
+Claim: ME/CFS patients perform worse on a second maximal exercise test 24 h after the first, most clearly in workload and VO2 at the ventilatory threshold, but two independent groups (Lien 2019; Mancini and Natelson 2026) did not reproduce the VO2 effect.
+- rep i2 Keller 2014 (22): In 22 ME/CFS patients, a second CPET 24 h later showed falls in VO2peak (13.8%), HRpeak (9 bpm), work at peak (12.5%), VO2 at VT (15.8%) and work at VT (21.3%), with peak RER >=1.1 on both tests. https://doi.org/10.1186/1479-5876-12-104
 
-## immune-cytokine-severity [several] rep 0 ext 2 con 0
-Claim: In the largest single cytokine study, 17 cytokines rose in step with disease severity although only TGF-beta (up) and resistin (down) differed between all patients and controls.
-- ext i2 Jason 2022 (48 ME/CFS (18 severe) vs 58 recovered): Prospective cohort: severe GI symptoms at baseline plus low IL-13/IL-5 during IM predicted later severe ME/CFS. https://doi.org/10.29245/2767-5122/2021/1.1129
-- ext i2 Hardcastle 2015 (22 HC, 22 moderate, 19 severe): Serum IL-7, IL-8 and IFN-g higher in severe; IL-6 lower in moderate than HC; cytokine patterns differ by severity. https://doi.org/10.7150/ijms.12399
-
-## neuro-effort-preference [contested] rep 0 ext 2 con 0
-Claim: The NIH claim that altered 'effort preference' defines post-infectious ME/CFS rests on the EEfRT (OR 1.65 for choosing hard tasks). Patients completed only 65% of the hard tasks they chose vs 96% for controls, which confounds preference with ability.
-- ext i2 Barhorst 2020 (37 studies, 1016 patients vs 686 controls (ME/CFS and FM)): Perceived exertion during aerobic exercise higher in ME/CFS and FM than controls (Hedges d 0.85, 95% CI 0.62-1.08). https://doi.org/10.1249/mss.0000000000002421
-- ext i2 van der Schaaf 2018 (85 vs 29): During a grip-effort task, CFS invested less effort after feedback at high effort, with reduced prefrontal feedback activity, proportional to fatigue and beliefs. https://doi.org/10.1016/j.bpsc.2018.01.015
-
-## immune-bcr-repertoire [contested] rep 1 ext 0 con 0
-Claim: Reported skewing of the B-cell receptor repertoire (IGHV3-30/3-33 overuse) partially replicates in mild/moderate patients but shows no clonality, somatic-hypermutation or autoimmunity signature.
-- rep i2 Milivojevic 2020 (39 vs 41): Plasma proteomics associated IGHV3-23/30 with ME/CFS, suggesting antigen-driven B-cell clonal expansion; ML panels AUC 0.77-0.84. https://doi.org/10.1371/journal.pone.0236148
-
-## trials-coq10-nadh [contested] rep 1 ext 0 con 0
-Claim: Two Spanish RCTs of CoQ10 200 mg + NADH 20 mg (n=73, n=207) reported modest reductions in fatigue scores; CoQ10 alone failed in a 121-person long-COVID crossover trial.
-- rep i2 Kim 2020 (55 RCTs, 6316 participants): Eight interventions (e.g. CBT, GET, CoQ10+NADH, rintatolimod) showed significance in individual RCTs but none was definitively effective; 76% used Fukuda criteria. https://doi.org/10.1186/s12967-019-02196-9
-
-## immune-tcell-severity [early] rep 1 ext 0 con 0
-Claim: T-cell abnormalities differ by severity: mild/moderate patients show cytotoxic/immunosenescence features, severe patients show activated lymphocytes and higher stimulated pro-inflammatory cytokines.
-- rep i2 Maes 2015 (139 ME/CFS, 65 CF, 40 controls): CD8+CD38+ and CD8+HLA-DR+ proportions higher in ME/CFS; CD19+ and CD4/CD8 ratio lower; no link to severity or O&NS/leaky gut markers. https://pubmed.ncbi.nlm.nih.gov/26707044/
+## infection-katz-post-mono-adolescents [replicated] rep 0 ext 2 con 0
+Claim: After infectious mononucleosis in adolescents, 13%, 7% and 4% met paediatric CFS criteria at 6, 12 and 24 months; all 13 cases still ill at 24 months were female.
+- ext i2 Jason 2014 (>300 adolescents with IM): In the prospective cohort of 300+ adolescents after infectious mononucleosis, baseline autonomic symptoms and days in bed since IM were the only significant predictors of meeting CFS criteria at 6 months in stepwise regression. https://doi.org/10.1080/21642850.2013.869176
+- ext i2 Bodenhausen 2024, preprint (200, protracted symptoms 55/183): In 200 young people with acute EBV mononucleosis, 30.1% (55/183) had protracted symptoms and 18.8% (34/181) protracted fatigue at 6 months; prior infection susceptibility (OR 2.98) and severe GI symptoms (OR 3.54) predicted chronic fatigue. https://doi.org/10.1101/2024.05.17.24307333
 
 ## immune-bcell-maturation [early] rep 1 ext 0 con 0
 Claim: The NIH deep-phenotyping study found more naive and fewer switched-memory B cells in post-infectious ME/CFS, consistent with chronic antigenic stimulation; supporting signals exist but are weak.
-- rep i2 Bradley 2013 (33 vs 24): More naive (65% vs 47% of B cells) and transitional B cells, fewer plasmablasts. https://doi.org/10.1111/cei.12043
+- rep i2 Bradley 2013 (33 vs 24): In 33 CFS vs 24 controls, naive B cells were higher (65% vs 47% of B cells, p=0.003), transitional B cells higher (1.8% vs 0.8%) and plasmablasts lower (0.5% vs 0.9%). https://doi.org/10.1111/cei.12043
 
-## endocrine-low-vasopressin [early] rep 0 ext 2 con 0
-Claim: After overnight fluid deprivation, plasma vasopressin was undetectable in 82% of 111 Swedish ME/CFS patients despite high plasma osmolality in 57%, suggesting partial central diabetes insipidus-like physiology.
-- ext i2 Wyller 2010 (67 vs 55): Adolescent CFS had lower plasma ADH and higher plasma osmolality and renin activity than controls. https://doi.org/10.1111/j.1651-2227.2010.01701.x
-- ext i2 Scott 1999 (CFS and healthy volunteers, n not stated): Delta-ACTH response to oCRH was attenuated in CFS (21.0 vs 57.8 ng/L); adding DDAVP augmented the response and normalised it in CFS. https://doi.org/10.1016/s0006-3223(98)00232-7
+## omics-transcriptome-sc [contested] rep 1 ext 0 con 0
+Claim: Blood transcriptome and single-cell RNA studies report monocyte and platelet abnormalities, but no gene or cell subtype difference replicates across independent cohorts.
+- rep i2 Frampton 2011 (?): A 44-reporter-gene PBMC expression score classified only about two-thirds of CFS and healthy samples in an independent blind population, so earlier reporter genes were judged study-specific. https://doi.org/10.1371/journal.pone.0016872
 
-## muscle-exertion-fibre-capillary-bedrest [early] rep 1 ext 0 con 0
-Claim: ME/CFS muscle has a lower proportion of type I (oxidative) fibres, type I-specific atrophy, lower mitochondrial capacity and fewer capillaries per fibre, a pattern that 60 days of strict bed rest in healthy people did not reproduce.
-- rep i2 Pietrangelo 2009 (?): Muscle biopsies showed a shift from slow to fast-twitch fibre proportion in CFS, with preserved single-fibre force, velocity and calcium sensitivity. https://doi.org/10.1177/039463200902200219
+## neuro-npy [early] rep 1 ext 0 con 0
+Claim: Plasma neuropeptide Y, released with noradrenaline from sympathetic nerves, was higher in CFS and correlated with symptom severity in one cohort.
+- rep i2 Fletcher 2010 (93 vs 100): Plasma NPY (RIA) was higher in 93 Fukuda CFS patients than in 100 healthy sedentary controls and than in GWI patients (p<.001), discriminated better than chance on ROC, and correlated with stress, mood, depression, general health and cognition in 42 patients. https://doi.org/10.1186/1744-9081-6-76
 
-## trials-placebo-response [replicated] rep 1 ext 0 con 0
-Claim: Placebo and natural-course improvement in ME/CFS and long-COVID trials is large (35% responders in RituxME, >40% in the LDN trial, both arms improving in IVIG, HBOT and immunoadsorption trials), so uncontrolled response rates of 50-75% are uninterpretable.
-- rep i2 Cho 2005 (?): Pooled placebo response across CFS trials was 19.6% (95% CI 15.4-23.7), varying by intervention type. https://doi.org/10.1097/01.psy.0000156969.76986.e0
+## neuro-mrs-lactate [several] rep 1 ext 0 con 0
+Claim: Brain lactate measured by MR spectroscopy is raised in ME/CFS: ventricular CSF lactate in three cohorts from one group, and thalamic or regional lactate in two other groups. It is also raised in depression, so it is not specific.
+- rep i2 Murrough 2010 (17 CFS, 19 healthy, 21 MDD): In a new cohort, ventricular CSF lactate by 1H MRSI was higher in 17 CFS than 19 healthy controls, MDD (n=21) did not differ from either group, lactate correlated with mental fatigue only in CFS, and GABA and Glx were unchanged. https://doi.org/10.1002/nbm.1512
 
-## vascular-raas-paradox [several] rep 1 ext 0 con 0
-Claim: The hormones that should rise to restore blood volume (renin, aldosterone, EPO) are not raised in ME/CFS or POTS despite low volume, and blood proteomics shows no consistent change in them.
-- rep i2 De Lorenzo 1997 (78 CFS vs 38 controls): 22 of 78 had abnormal tilt; after 8 weeks of sustained-release sodium chloride 11 normalised and improved, 10 still had orthostatic hypotension and had lower plasma renin activity (0.79 vs 1.29 pmol/ml/h in controls). https://doi.org/10.1007/bf02267980
+## trials-patient-surveys [early] rep 1 ext 0 con 0
+Claim: A 3,925-person survey rated >150 treatments; illness severity predicted perceived response more strongly than diagnosis, and symptom clusters (severe multisystemic, POTS-dominant, cognitive/pain, mild) preferred different treatments.
+- rep i2 Bjørkum 2009 (828): Among 828 Norwegian CFS survey respondents, 79% of those who had graded training said it worsened their health, 57% found help challenging negative thoughts useful, and ratings were similar regardless of severity. https://doi.org/10.4045/tidsskr.09.35791
 
-## immune-igg-endothelial [early] rep 1 ext 0 con 0
-Claim: Purified IgG from ME/CFS patients fragments mitochondria and shifts energetics in human endothelial cells, an effect absent with multiple-sclerosis and healthy IgG and lost on Fab/Fc cleavage.
-- rep i2 Liu 2025, preprint (patient IgG on cells): Patient IgG and its Fab fragment induce mitochondrial fragmentation/altered energetics in healthy cells; IgG-bound complexes differ (ECM in ME/CFS, hemostasis in PASC); IgG from each drives distinct cytokine secretion. https://doi.org/10.1101/2025.08.06.25332978
+## omics-low-coq10 [early] rep 1 ext 0 con 0
+Claim: Plasma coenzyme Q10 was lower in ME/CFS, with 45% of patients below the lowest control value, and lower levels went with more fatigue and autonomic symptoms.
+- rep i2 Maes 2009 (58 vs 22): Plasma CoQ10 was lower in 58 ME/CFS patients than 22 controls (p=0.00001), 44.8% fell below the lowest control value (490 ug/L), and levels correlated inversely with FibroFatigue total, fatigue and autonomic scores. https://pubmed.ncbi.nlm.nih.gov/20010505/
 
-## omics-proteome-muscle-low [several] rep 1 ext 0 con 0
-Claim: A set of muscle-derived intracellular proteins is lower, as a group, in resting ME/CFS blood in three SomaScan cohorts, and this is not explained by activity measures; individual proteins such as myoglobin, CA3 and troponins do not replicate on their own.
-- rep i2 Hoel 2025, preprint (54 vs 27): Aptamer serum proteomics: 1823 of 7326 aptamers differed (845 after FDR), with broad rise in secreted proteins and lower intracellular and muscle proteins, reduced neutrophil-associated proteins. https://doi.org/10.1101/2025.05.28.25328245
+## vascular-hypocapnia [replicated] rep 1 ext 0 con 0
+Claim: Many ME/CFS patients over-breathe when upright (orthostatic hypocapnia), and during exercise hyperventilation and dysfunctional breathing are common.
+- rep i3 Naschitz 2006 (585 total (CFS 90)): On 30-minute head-up tilt with capnography in 585 people, hypocapnia (PETCO2 <30 mmHg for 10+ min) occurred in 9-27% of CFS (n=90), fibromyalgia, dizziness and NMS patients vs 0-2% of controls, mostly as sustained hypocapnia on tilt. https://doi.org/10.1097/00000441-200606000-00001
 
-## trials-solriamfetol [early] rep 1 ext 0 con 0
-Claim: Solriamfetol produced a fatigue benefit at week 8 but not at the primary 6-week point in a small RCT.
-- rep i2 Young 2025, preprint (?): Solriamfetol improved fatigue severity versus placebo at week 8 (p=0.039) but not week 6 (p=0.270); executive function (BRIEF-A) also improved at week 8. https://doi.org/10.31234/osf.io/j6v5t_v1
+## immune-rnase-l [early] rep 1 ext 0 con 0
+Claim: Upregulated 2-5A synthetase/RNase L activity and a low-molecular-weight RNase L fragment in CFS PBMC (1990s); not replicated with modern methods.
+- rep i2 De Meirleir 2000 (57 vs 53 (28 healthy, 25 depression/FM)): In a blinded study, a 37 kDa 2-5A-binding protein was present in PBMC extracts of 88% (50/57) of CFS patients vs 28% (15/53) of controls, 11% of healthy subjects and none with depression or fibromyalgia. https://doi.org/10.1016/s0002-9343(99)00300-9
 
-## immune-interferon-alpha-model [early] rep 1 ext 0 con 0
-Claim: In the interferon-alpha fatigue model, higher baseline IL-6 and IL-10 and a larger early cytokine and fatigue surge predict fatigue that persists after the immune trigger is gone.
-- rep i2 Péron 2024, preprint (54): Acute-phase IL-1RA, IFN-gamma, TNF-alpha and monocyte percentage predicted physical and total fatigue 6-9 months later (TNF-alpha r=-0.40 with awareness of cognitive fatigue). https://doi.org/10.21203/rs.3.rs-4374986/v1
+## immune-tcell-severity [early] rep 0 ext 2 con 0
+Claim: T-cell abnormalities differ by severity: mild/moderate patients show cytotoxic/immunosenescence features, severe patients show activated lymphocytes and higher stimulated pro-inflammatory cytokines.
+- ext i2 Landay 1991 (147 vs 80 healthy vs 22 contacts vs 43 disease): Flow cytometry in 147 CFS patients showed fewer CD8 suppressor cells and higher CD38 and HLA-DR on CD8 cells, significant (p=0.01) in patients with major symptoms and absent in 80 healthy, 22 contact and 43 disease controls, and unrelated to viral serology. https://doi.org/10.1016/0140-6736(91)91440-6
+- ext i2 Karhan 2019, preprint (?): In a large flow-cytometry cohort, ME/CFS patients under 50 had a higher CD4/CD8 ratio, more CD8+ effector-memory cells and fewer NK cells; across ages Th17 and MAIT cells secreted less IL-17/IFNg/granzyme A, Tregs were more frequent, and a random forest identified 93% of patients. https://doi.org/10.1101/2019.12.23.887505
 
-## muscle-exertion-ev-cargo [early] rep 1 ext 0 con 0
-Claim: Extracellular-vesicle protein cargo responds to maximal exercise differently in ME/CFS (blunted in women; TCA proteins down and complement up in men), and recovery-phase changes correlate with PEM severity.
-- rep i2 Giloteaux 2023, preprint (18 vs 17 sedentary): Exercise alters EV protein cargo differently in ME/CFS (coagulation, muscle, immune, brain-signalling proteins); changes track symptom severity. https://doi.org/10.1101/2023.08.28.555033
-
-## muscle-exertion-appelman-pem-biopsy [early] rep 1 ext 0 con 0
-Claim: In long COVID with PEM, muscle biopsies taken one day after a maximal exercise test showed lower mitochondrial enzyme activity, more fibre necrosis, more T-cell infiltration and more amyloid-containing deposits than before exercise and than in controls.
-- rep i2 Aschman 2023, preprint (11 patients): Muscle biopsies show capillary alterations, macrophage infiltration and distinct transcriptomes https://doi.org/10.1101/2023.02.15.23285584
-
-## gut-duration-dependence [early] rep 1 ext 0 con 0
-Claim: Gut dysbiosis is strongest in the first years of illness and largely resolves in patients ill for more than 10 years, while their metabolic and clinical abnormalities persist.
-- rep i2 Xiong 2021, preprint (79 controls plus short-term and long-term cohorts): Reduced microbiome diversity, depleted sphingomyelins, SCFAs and butyrate biosynthesis; dysbiosis stronger in short-term disease, metabolic abnormalities in long-term. https://doi.org/10.1101/2021.10.27.466150
+## vascular-muscle-capillary-basement-membrane [several] rep 1 ext 0 con 0
+Claim: Muscle biopsies show fewer capillaries per fibre in ME/CFS and less capillary supply per fibre size in both ME/CFS and long COVID, unlike the pattern after 60 days of bed rest; thickened capillary basement membrane has been reported but is not yet peer-reviewed.
+- rep i2 Aschman 2023, preprint (11 patients): Muscle biopsies from 11 post-COVID patients with PEM showed fewer capillaries, thicker capillary basement membranes and more CD169+ macrophages than two historical control cohorts, with no SARS-CoV-2 RNA and distinct immune/metabolic transcriptomic signatures. https://doi.org/10.1101/2023.02.15.23285584
 
 ## muscle-exertion-muscle-mito-wasf3 [early] rep 0 ext 1 con 0
 Claim: WASF3 protein is raised in ME/CFS muscle, and in cells and mice it disrupts respiratory supercomplex assembly and lowers exercise capacity via ER stress.
-- ext i2 Syed 2026 (?): WASF3 transgenic and knockout mice show WASF3 disrupts complex IV and mitochondria-associated membranes and impairs brain metabolism and cognition. https://doi.org/10.1073/pnas.2617198123
+- ext i2 Syed 2026 (?): In transgenic and knockout mice, WASF3 disrupted complex IV, localized to mitochondria-associated membranes, shifted hippocampal metabolism toward glycolysis, lowered ATPIF1 and impaired learning, while WASF3 deficiency enhanced oxidative metabolism and preserved cognition under stress. https://doi.org/10.1073/pnas.2617198123
 
-## vascular-microclots [contested] rep 0 ext 1 con 0
-Claim: Fibrinaloid microclots (thioflavin-T-positive amyloid fibrin deposits) are reported to be increased in platelet-poor plasma in ME/CFS and long COVID, but the method is not standardised and haemostasis experts dispute the inference that they cause symptoms.
-- ext i2 Booyens 2026 (18 HC, 20 PC-POTS, 19 LC-IOH, 18 LC-POTS): Insoluble plasma fraction shows disease-specific post-translational modifications (AGE/oxidation of fibrinogen) distinguishing POTS, long COVID IOH and long COVID POTS. https://doi.org/10.1186/s12933-026-03296-9
+## omics-methylation [contested] rep 0 ext 1 con 0
+Claim: Reported genome-wide blood DNA methylation differences have not replicated across cohorts, at least one large set is explained by cell-composition differences, and epigenetic clocks are not accelerated.
+- ext i2 Polli 2026 (73 HC, 71 ME/CFS, 44 FM): EPIC v2 PBMC methylation in 188 women (71 ME/CFS, 44 FM, 73 controls) found, after cell-composition adjustment, a principal-component axis (PC5) separating ME/CFS and tied to PEM and cognitive symptoms, with 591 associated DMRs. https://doi.org/10.1186/s12967-026-08824-5
 
-## neuro-sfn-longcovid [several] rep 0 ext 1 con 0
-Claim: Long COVID patients referred for neuropathy evaluation often have small-fibre neuropathy on skin biopsy, including loss of autonomic fibres to sweat glands and hair muscles.
-- ext i2 Azcue 2026 (21 PCC, 17 ME/CFS): Two-timepoint (median 31 months) follow-up shows largely overlapping autonomic, small-fiber and cognitive profiles in PCC and ME/CFS; small-fiber symptoms correlate with autonomic burden (rho 0.65) and fatigue. https://doi.org/10.1186/s12967-026-08321-9
+## muscle-exertion-irisin-tsp1 [early] rep 0 ext 1 con 0
+Claim: Baseline irisin, a muscle-derived exercise hormone, was lower in ME and thrombospondin-1 was raised with severity; TSP-1 blocked irisin signalling in cells.
+- ext i2 Souma 2026 (92 vs 44): In 92 ME patients vs 44 sedentary controls, baseline plasma irisin was lower in ME, TSP-1 was raised and linked to severity (moderate-to-severe patients had higher irisin and TSP-1), and TSP-1 inhibited irisin signalling in vitro in an HSP90alpha- and alphavbeta5-dependent way. https://doi.org/10.3390/ijms27114770
 
-## genetics-rare-variants-heal2 [early] rep 0 ext 1 con 0
-Claim: Whole-genome sequencing of 464 cases and 611 controls with a deep-learning rare-variant model (HEAL2) proposes 115 loss-of-function-intolerant risk genes, partly overlapping the common-variant synaptic signal.
-- ext i2 Birch 2025 (31 affected from 25 families): Whole-genome sequencing found pathogenic/likely pathogenic variants in 8 of 25 probands (32%), heterogenous pathways including energy metabolism and ion homeostasis. https://doi.org/10.1186/s12967-025-07586-w
+## gut-longcovid-parallel [several] rep 0 ext 1 con 0
+Claim: In long COVID, the gut microbiome at hospital admission predicted persistent symptoms, and at 6 months patients had more R. gnavus and fewer butyrate producers, mirroring ME/CFS.
+- ext i2 Donchev 2026 (?): Direct comparison found overlapping but non-identical gut microbiome alterations in ME/CFS and long COVID versus controls (shared Sutterella up, Terrisporobacter and Lachnospiraceae down), with smaller differences between ME/CFS and LC than between either and controls. https://doi.org/10.3390/biomedicines14061183
 
-## omics-collagen-metso [early] rep 0 ext 1 con 0
-Claim: Collagen breakdown products (hydroxyproline, galactosyl-hydroxylysine and related) are higher in ME/CFS plasma (+0.52 SD, 4/4 Metabolon cohorts; hydroxyproline also up on 3 other platforms).
-- ext i2 Gülmez 2026 (50 PASC vs 42 HC + 8 ME/CFS): Urinary peptidome signature of 195 peptides (collagen chains) separated PASC from controls (AUC 0.949 training, 0.962 validation). https://doi.org/10.1002/pmic.70074
+## neuro-31p-brain-energetics [early] rep 0 ext 1 con 0
+Claim: Whole-brain 31P spectroscopy found lower ATP/PCr ratios in the cingulate cortex in post-COVID condition, and the anterior cingulate value tracked cognitive scores.
+- ext i2 Weber-Fahr 2026 (27 vs 23): Whole-brain 31P-MRSI at 3T in 27 post-COVID patients vs 23 recovered controls showed lower ATP/PCr ratios across the cingulate cortex, with lower ACC ratios correlating with poorer MoCA/TMT-B; ME/CFS-criteria patients showed similar changes. https://doi.org/10.1016/j.biopsych.2026.01.004
 
-## neuro-basal-ganglia-reward [early] rep 0 ext 1 con 0
-Claim: Reduced basal ganglia activation to reward in CFS on fMRI, correlated with fatigue (Miller 2014), with a 2026 replication-style study.
-- ext i2 Schumann 2025 (46 neuroimaging studies, 2603): ALE meta-analysis finds a frontal-striatal-limbic, frontal-cingulate and parietal network for mental fatigue across conditions. https://doi.org/10.1093/braincomms/fcaf315
+## neuro-ampa-pet [early] rep 0 ext 1 con 0
+Claim: PET with an AMPA-receptor tracer showed widely increased AMPA receptor density in long COVID with cognitive symptoms, associated with inflammatory cytokines.
+- ext i2 Fujimoto 2025 (30 vs 80): [11C]K-2 PET showed brain-wide increased AMPA receptor density (SUVR-WM) in 30 long COVID patients with cognitive impairment vs 80 healthy controls, correlating positively with plasma TNFSF12 and negatively with CCL2; a PLS classifier reached 100% sensitivity and 91.2% specificity. https://doi.org/10.1093/braincomms/fcaf337
 
 ## lc-muscle-oxidative-capacity [several] rep 0 ext 1 con 0
 Claim: Muscle oxidative capacity measured by 31P-MRS (slower PCr recovery) or NIRS is reduced in long COVID, though the deficit does not consistently correlate with fatigue.
-- ext i2 Ladek 2025 (?): NIRS during light handgrip exercise showed reduced deoxygenation peaks at exercise start in post-COVID syndrome vs controls (p=0.0002), with a subgroup linking strong fatigue to restricted oxygenation dynamics. https://doi.org/10.3390/biomedicines13061371
+- ext i2 Ladek 2025 (?): In 100 PCS patients vs 50 controls, NIRS during light stress-ball exercise showed decreased deoxygenation peaks at exercise onset in PCS (p=0.0002), and multivariate analysis identified a subgroup in which strong fatigue was associated with restricted oxygenation dynamics. https://doi.org/10.3390/biomedicines13061371
+
+## neuro-plasma-adrenaline [several] rep 0 ext 1 con 0
+Claim: Blood adrenaline is modestly raised in ME/CFS (pooled SMD 0.49 across 37 studies), with atypical catecholamine responses to exercise.
+- ext i3 Hendrix 2025 (543 ME/CFS, 747 controls): Meta-analysis of 37 studies (543 ME/CFS, 651 FM vs 747 and 447 controls) found elevated baseline adrenaline in ME/CFS (SMD 0.49, 95% CI 0.31-0.67) and atypical adrenergic responses to exercise, with adrenergic dysfunction mainly in ME/CFS rather than fibromyalgia. https://doi.org/10.1111/eci.14318
+
+## neuro-csf-immune-proteome [contested] rep 0 ext 1 con 0
+Claim: CSF cytokine and proteome studies report differences (e.g. raised eotaxin/CCL11, distinct immunotypes), but no CSF protein signature has replicated, and ME/CFS and fibromyalgia CSF proteomes were indistinguishable.
+- ext i2 Hu 2024 (large NYC/NJ cohort with CSF subgroup): In post-COVID cognitive impairment (median 9 months), CSF single-cell RNA showed monocyte recruitment, chemokine signalling and suppressed interferon response in myeloid cells; slow recovery came with higher CSF CXCL8, CCL3L1 and sTREM2 protein; no Alzheimer or neurodegeneration CSF changes. https://doi.org/10.1016/j.xcrm.2024.101561
+
+## immune-csf-cytokines [early] rep 0 ext 1 con 0
+Claim: Cerebrospinal fluid cytokine profiles differ from controls with raised eotaxin (CCL11) and disturbed IL-1 signalling, but CSF studies are small and partly contradicted by later proteomics.
+- ext i2 Hu 2024 (large NYC/NJ cohort with CSF subgroup): In post-COVID brain fog, CSF showed myeloid chemokine-signalling and suppressed interferon gene expression, with higher CSF CXCL8, CCL3L1 and sTREM2 protein over follow-up as patients slowly recovered. https://doi.org/10.1016/j.xcrm.2024.101561
 
 ## endocrine-low-t3 [early] rep 0 ext 1 con 0
 Claim: In one Dutch case-control study, CFS patients had normal TSH but lower total T3, T4 and free T3, with a higher reverse-T3 fraction ('low T3 syndrome' pattern in 16% vs 7%).
-- ext i2 Sun 2023 (167 CFS vs 545 controls): SELENOP autoantibodies in 9.6-15.6% of CFS vs 0.9-2.0% of controls, with lower deiodinase activity and fT3 ratios in positive patients. https://doi.org/10.1016/j.redox.2023.102796
+- ext i2 Sun 2023 (167 CFS vs 545 controls): SELENOP autoantibodies were found in 9.6-15.6% of 167 CFS patients vs 0.9-2.0% of 545 controls, and positive patients had particularly low deiodinase activity (SPINA-GD), free T3, TT3/TT4 and FT3/FT4 ratios and lower urinary iodine (43.2 vs 58.9 vs 89.0 ug/L). https://doi.org/10.1016/j.redox.2023.102796
 
-## infection-sarscov2-tissue-gut [several] rep 0 ext 1 con 0
-Claim: SARS-CoV-2 RNA and protein persist in gut and other tissues for months to two years in a minority of people, and in a Beijing tissue study, viral RNA in tissue was associated with long COVID symptoms (OR 5.17).
-- ext i2 Antar 2023 (73): Brain fog (aRR 0.46) and muscle pain (aRR 0.28) at 90+ days associated with longer than 28 days to clear upper-airway SARS-CoV-2 RNA. https://doi.org/10.3389/fimmu.2023.1147549
+## neuro-sensory [early] rep 0 ext 1 con 0
+Claim: Self-reported light and sound sensitivity is common in ME/CFS. One ERP study found normal early sensory gating (P50) but a reduced P300, pointing to higher-order processing rather than early filtering.
+- ext i2 Maeda 2023 (2240): In 2,240 people with ME/CFS or MS completing the DSQ and SF-36, noise and light hypersensitivity were significantly more common in ME/CFS than MS, and people with both hypersensitivities had worse symptoms and function. https://doi.org/10.1080/13548506.2023.2195670
 
-## infection-cihhv6 [early] rep 0 ext 1 con 0
-Claim: Inherited chromosomally integrated HHV-6 (iciHHV-6, ~1% of people) has been reported at roughly twice the population rate in a neurological/fatigue clinic cohort, but this has not been confirmed in a large ME/CFS sample.
-- ext i2 Rasa-Dzelzkaleja 2023 (200 vs 150): Persistent HHV-6A/B, HHV-7 and parvovirus B19 assessed in ME/CFS versus controls and related to severity https://doi.org/10.1186/s12967-023-03887-0
+## muscle-exertion-mwave-subgroups [early] rep 0 ext 1 con 0
+Claim: About half of patients (39 of 72) had altered muscle membrane excitability (M-wave) at rest and in exercise, with more oxidative stress and less potassium outflow; the rest looked normal.
+- ext i2 Retornaz 2022 (?): Retrospective comparison of 59 long COVID and 55 post-infectious ME/CFS patients found the same frequency of core symptoms and the same magnitude of exercise-induced rectus femoris M-wave alterations during and after cycling; M-wave changes were larger in ME/CFS at the highest strength and performance levels. https://doi.org/10.1186/s12967-022-03638-7
 
-## lc-myopathy-histology-emg [several] rep 0 ext 1 con 0
-Claim: A substantial share of long COVID patients with fatigue have myopathic EMG and/or biopsy abnormalities (mitochondrial changes, fibre atrophy, inflammatory infiltrates, lower capillarisation), but muscle MRI inflammation and neuromuscular-junction jitter are usually normal.
-- ext i2 Retornaz 2022 (?): M-wave EMG shows muscle membrane fatigue changes in long COVID resembling ME/CFS https://doi.org/10.1186/s12967-022-03638-7
+## gut-quadram-virome-immune [early] rep 0 ext 1 con 0
+Claim: Quadram Institute studies of severe ME/CFS with household-matched controls report altered gut phage communities and reduced serum IgG reactivity to gut microbes, in very small samples.
+- ext i2 Vogl 2022 (?): Phage-display profiling (244,000 microbiota and viral antigen variants) found severe ME/CFS patients had distinct, overrepresented serum antibody epitope repertoires against Lachnospiraceae flagellins, and machine-learning classifiers built on this antibody binding added diagnostic information beyond standard blood tests. https://doi.org/10.1126/sciadv.abq2422
 
 ## infection-herpes-dutpase-antibodies [early] rep 0 ext 1 con 0
 Claim: Antibodies against herpesvirus dUTPases (EBV, HHV-6, VZV), proposed as a marker of lytic or abortive-lytic reactivation, are higher in ME/CFS in studies from one lab, including a 2026 longitudinal study (873 serum samples, 40 patients vs 16 controls) where levels tracked fatigue severity.
-- ext i2 Cox 2022 (?): EBV/HHV-6A dUTPases enhance Tfh differentiation and extrafollicular responses https://doi.org/10.1172/jci.insight.158193
-
-## neuro-mrs-neurochemicals [early] rep 0 ext 1 con 0
-Claim: MR spectroscopy shows altered glutamate/Glx in ME/CFS and LC, but direction differs between studies.
-- ext i2 Godlewska 2022 (22 vs 13): 7T MRS of anterior cingulate: lower glutathione, total creatine and myo-inositol in CFS; only myo-inositol held with NAA reference. https://doi.org/10.1007/s00213-021-05986-6
+- ext i2 Cox 2022 (?): In a large ME/CFS cohort, serum activin A and IL-21 (but not CXCL13) were raised and correlated with anti-EBV/HHV-6 dUTPase seropositivity; ME/CFS serum drove TFH differentiation via activin A, and viral dUTPases induced activin A in vitro and marginal-zone B/NKTFH cells in mice. https://doi.org/10.1172/jci.insight.158193
 
 ## genetics-hla [contested] rep 0 ext 1 con 0
 Claim: Reported HLA associations are inconsistent: Lande 2020's HLA-C*07:04 and DQB1*03:03 risk alleles are not among DecodeME's hits, and DecodeME's protective HLA-DQA1*05:01 signal is barely visible at SNP level.
-- ext i2 Hajdarevic 2021 (427 vs 480): HLA fine mapping found independent signals in class I (rs4711249) and class II (rs9275582, HLA-DQB1 region) in Norwegian patients. https://doi.org/10.1016/j.bbi.2021.08.219
+- ext i2 Hajdarevic 2021 (427 vs 480): Fine mapping (5 more classical HLA loci, 5,342 SNPs) in 427 Norwegian CCC cases vs 480 controls found two independent signals: rs4711249 in class I (spanning DDR1/GTF2H4/VARS2/SFTA2/DPCR1) and rs9275582 in class II, with the class II signal most likely at HLA-DQB1 amino-acid position 57. https://doi.org/10.1016/j.bbi.2021.08.219
 
-## trials-ivig [contested] rep 0 ext 1 con 0
-Claim: IVIG has no consistent controlled evidence: 1990s ME/CFS RCTs conflicted, and a 30-person trial in autoimmune POTS found no difference from albumin.
-- ext i2 Scheibenbogen 2021 (17): 12-month s.c. IgG: 5 of 12 per-protocol completers responded; 4 stopped for adverse events; LDH and sIL-2R suggested as response markers. https://doi.org/10.3390/jcm10112420
+## muscle-exertion-gdf15 [several] rep 0 ext 1 con 0
+Claim: Serum GDF15, a mitochondrial stress hormone, is higher in severe ME/CFS but only marginally in mild and moderate cases, and does not reach the levels seen in mitochondrial myopathy.
+- ext i2 Melvin 2019 (150 ME/CFS vs 150 controls vs 50 MS): Serum GDF15 was higher in severe ME/CFS (602 pg/ml, n=50) than healthy controls (491 pg/ml, n=150; P=0.01), only marginally raised in mild/moderate (560) and MS (546), correlated with fatigue (P=0.026), and was stable over about 7 months. https://doi.org/10.1186/s12967-019-02153-6
 
-## genetics-mr-proteins-ephb1 [early] rep 0 ext 1 con 0
-Claim: Proteome-wide cis-MR finds genetically higher plasma EPHB1 (a pain-sensitisation receptor) and CLEC3B (tetranectin) associated with ME/CFS risk in DecodeME, replicating in the independent MVP cohort.
-- ext i2 Germain 2021 (20 vs 20 females): Aptamer proteomics (4790 proteins) found 19 differing proteins, highlighting ephrin pathway and immune signalling; AUC above 0.85, up to 0.95 using ratios. https://doi.org/10.3390/proteomes9010006
+## omics-ev [early] rep 0 ext 1 con 0
+Claim: Plasma extracellular vesicle (EV) counts may be higher in ME/CFS, but no EV protein or microRNA difference has survived multiple-testing correction in a replicated cohort.
+- ext i2 Eguchi 2020 (?): Circulating EV counts were higher in ME/CFS and correlated with CRP and antioxidant potential (AUC 0.80), and proteomics in two analyses found talin-1, filamin-A and 14-3-3 proteins as the most abundant ME/CFS-specific EV proteins compared with controls, idiopathic chronic fatigue and depression. https://doi.org/10.1016/j.bbi.2019.11.015
 
-## omics-energy-fuel-pdh [contested] rep 0 ext 1 con 0
-Claim: Several studies infer impaired carbohydrate oxidation (pyruvate dehydrogenase restraint, TCA/urea cycle shifts), but simple blood ratios (lactate/pyruvate, citrulline/arginine) do not differ across pooled cohorts.
-- ext i2 McGregor 2019 (47 cases and matched controls): Serum/urine metabolomics: hypoxanthine fell with PEM severity, glucose:lactate ratio shifted, and urinary methylhistidine, mannitol and acetate rose, suggesting hypermetabolism and hypoacetylation. https://doi.org/10.3390/diagnostics9030070
-
-## omics-exercise-metabolome [contested] rep 0 ext 1 con 0
-Claim: Germain 2022 reported growing metabolic divergence after a 2-day CPET; within-person re-analysis finds the exercise response itself barely differs (blunted lactate and glucose rise aside).
-- ext i2 McGregor 2019 (47 cases and matched controls): Serum/urine metabolomics: hypoxanthine fell with PEM severity, glucose:lactate ratio shifted, and urinary methylhistidine, mannitol and acetate rose, suggesting hypermetabolism and hypoacetylation. https://doi.org/10.3390/diagnostics9030070
+## neuro-resting-fc [contested] rep 0 ext 1 con 0
+Claim: Resting-state functional connectivity differences in ME/CFS (default mode, salience, sensorimotor, brainstem networks) are reported by several groups but with non-overlapping networks and some nulls in larger samples.
+- ext i2 Barnden 2019 (45 vs 27): In 45 Fukuda ME/CFS vs 27 controls, fMRI showed weaker connectivity within the brainstem (medulla to cuneiform nucleus) and from brainstem to hippocampus and intralaminar thalamus, only during a task and not at rest; weaker RAS connectivity tracked symptom severity. https://doi.org/10.1016/j.nicl.2019.102045
 
 ## muscle-exertion-muscle-proteins-blood [several] rep 0 ext 1 con 0
 Claim: Muscle-derived proteins are lower, as a group, in ME/CFS blood at rest in three SomaScan cohorts, not explained by step counts or walking pace; creatine kinase (CKM) and MYL3 are the most consistent single proteins, while myoglobin, CA3 and troponins disagree between cohorts.
-- ext i2 Nacul 2019 (272 vs 136): Routine labs mostly normal, but serum creatine kinase was lower in severe ME/CFS (median 54 vs 101.5 U/L in controls; OR 0.05 vs controls). https://doi.org/10.3390/diagnostics9020041
+- ext i3 Nacul 2019 (272 vs 136): In UK ME/CFS Biobank labs (272 ME/CFS, 136 controls), serum CK was lower in severe ME/CFS (median 54 U/L) than in controls (101.5) and non-severe cases (84), and this held after adjusting for sex, age, BMI, muscle mass, duration and activity (OR 0.05 vs controls). https://doi.org/10.3390/diagnostics9020041
 
-## gut-severity-link [contested] rep 0 ext 1 con 0
-Claim: Links between specific gut bacteria and symptom severity are inconsistent: F. prausnitzii tracked fatigue in one cohort, but nothing survived correction for multiple testing in a 143-patient re-analysis.
-- ext i2 Du Preez 2018 (7 studies): Systematic review: gut microbiome differences reported in every study but only three significant and findings inconsistent; study quality poor. https://doi.org/10.1186/s13643-018-0909-0
+## neuro-effort-preference [contested] rep 0 ext 1 con 0
+Claim: The NIH claim that altered 'effort preference' defines post-infectious ME/CFS rests on the EEfRT (OR 1.65 for choosing hard tasks). Patients completed only 65% of the hard tasks they chose vs 96% for controls, which confounds preference with ability.
+- ext i2 van der Schaaf 2018 (85 vs 29): In 85 CFS vs 29 controls doing 30-70% MVC grip with feedback on fMRI, patients showed a bias toward less effort at 70% with reduced DLPFC feedback activity, higher SMA activity and reduced SMA-sensorimotor connectivity, scaling with state fatigue and beliefs. https://doi.org/10.1016/j.bpsc.2018.01.015
 
-## muscle-exertion-post-exertion-proteomics [contested] rep 0 ext 1 con 0
-Claim: Plasma proteomics of 79 ME/CFS and 53 sedentary controls across a 2-day CPET found the largest patient-specific changes in the 24 h recovery phase, with suppressed T/B-cell and IL-17 signalling and raised glycolysis proteins.
-- ext i2 Moneghetti 2018 (24 vs 24): Cardiac structure and exercise capacity were similar; cytokine profile 18 h after submaximal exercise discriminated patients (kappa 0.62; CD40L, IL-1beta, IFN-alpha, CXCL1). https://doi.org/10.1038/s41598-018-20941-w
+## immune-tgfbeta-artefact [refuted] rep 0 ext 1 con 0
+Claim: The most-replicated single cytokine finding, elevated TGF-beta, is largely a blood-handling artefact driven by platelet activation during centrifugation.
+- ext i2 Clark 2017 (24 vs 21): In 24 CDC-criteria CFS patients vs 21 sedentary controls, resting TGF-beta appeared higher (median 43.9 vs 18.9 ng/ml, P=0.003) but this was traced to assay-batch variation; no other cytokine protein or RNA differed and exercise or commuting did not change cytokines. https://doi.org/10.1111/cei.13023
 
-## immune-rituximab [refuted] rep 0 ext 1 con 0
-Claim: B-cell depletion with rituximab failed in a 151-patient placebo-controlled trial, after positive small phase II results.
-- ext i2 Lunde 2016 (70 patients vs 56 healthy (baseline)): Serum BAFF was elevated in ME/CFS (p=0.011); APRIL unchanged; no T-cell subset change with rituximab; lower baseline IgG in responders (p=0.03). https://doi.org/10.1371/journal.pone.0161226
+## muscle-exertion-activin-b [early] rep 0 ext 1 con 0
+Claim: Serum activin B was raised in CFS/ME while activin A, follistatin and routine pathology were normal.
+- ext i2 Lidbury 2017 (?): In CCC-defined CFS/ME patients from a primary care clinic, serum activin B was raised against controls and the reference interval, while activin A, follistatin, routine pathology and IL-2/4/6/10/17A, TNF and IFN-gamma were normal. https://doi.org/10.1186/s12967-017-1161-4
 
-## trials-rituximab [refuted] rep 0 ext 1 con 0
-Claim: B-cell depletion with rituximab did not improve fatigue or function versus placebo in a 151-person phase III trial (RituxME).
-- ext i2 Lunde 2016 (70 patients vs 56 healthy (baseline)): Serum BAFF was elevated in ME/CFS (p=0.011); APRIL unchanged; no T-cell subset change with rituximab; lower baseline IgG in responders (p=0.03). https://doi.org/10.1371/journal.pone.0161226
+## infection-giardia-bergen [several] rep 0 ext 1 con 0
+Claim: A waterborne Giardia outbreak in Bergen (2004) left chronic fatigue in 26% of exposed people vs 11% of matched controls 10 years later (adjusted OR 3.0), and more than half of those referred with lasting fatigue met CFS criteria.
+- ext i2 Mørch 2013 (53 of 347 fatigued): Five years after Bergen giardiasis, 22 of 53 clinically examined patients with chronic fatigue at 3 years had Fukuda CFS (41.5%), 13.2% idiopathic chronic fatigue, 24.5% fatigue from other causes (sleep apnoea, depression, anxiety), and 20.8% had resolved; fatigue scores fell from year 3 to 5. https://doi.org/10.1186/1471-230x-13-28
 
-## muscle-exertion-post-exertion-metabolomics [contested] rep 0 ext 1 con 0
-Claim: Plasma metabolomics across a 2-day CPET shows clear resting differences in ME/CFS, but once each person is compared with themselves the exercise response differs little from controls.
-- ext i2 Staud 2015 (39 CFS vs 29 NC): After handgrip, forearm occlusion trapping metabolites increased fatigue ratings in CFS (p=0.04) with heat and mechanical hyperalgesia; indirect evidence for peripheral muscle metabolite sensing. https://doi.org/10.1097/j.pain.0000000000000110
+## omics-ml-classifiers [contested] rep 0 ext 1 con 0
+Claim: Multi-omic machine-learning classifiers (BioMapAI and others) perform well in cross-validation but drop to AUC ~0.6-0.77 on external cohorts, so none is usable for diagnosis.
+- ext i2 Frampton 2011 (?): A gene-expression classifier that performed well in its derivation dataset fell to about two-thirds correct classification, with high misclassification, on an independent blind cohort. https://doi.org/10.1371/journal.pone.0016872
 
-## vascular-vasoconstrictor-phenylephrine [early] rep 0 ext 1 con 0
-Claim: Raising blood pressure with phenylephrine during tilt blocked hyperventilation, restored cerebral blood velocity and improved working memory in ME/CFS, whereas CO2 or acetazolamide alone did not.
-- ext i2 Wyller 2007 (15 vs 57): Higher baseline norepinephrine, epinephrine, HR and temperature; abnormal skin blood flow and vasoconstriction thresholds during hand cooling; more thermoregulatory symptoms. https://doi.org/10.1542/peds.2006-2759
+## endocrine-low-vasopressin [early] rep 0 ext 1 con 0
+Claim: After overnight fluid deprivation, plasma vasopressin was undetectable in 82% of 111 Swedish ME/CFS patients despite high plasma osmolality in 57%, suggesting partial central diabetes insipidus-like physiology.
+- ext i2 Wyller 2010 (67 vs 55): 67 adolescents with CFS vs 55 controls had significantly lower plasma ADH, with higher serum osmolality and plasma renin activity. https://doi.org/10.1111/j.1651-2227.2010.01701.x
 
-## muscle-exertion-cultured-myotubes [early] rep 0 ext 1 con 0
-Claim: Muscle cells grown from ME/CFS patients failed to activate AMPK and raise glucose uptake after electrical pulse stimulation, and secreted less IL-6, suggesting a defect that persists outside the body.
-- ext i2 Nguyen 2026, preprint (6 vs 7): iPSC-derived ME/CFS myotubes show only 3 DEGs but isoform switching and pathway changes in proteostasis and mitochondrial quality control. https://doi.org/10.64898/2026.10.01.755863
+## immune-igg-subclass [several] rep 0 ext 1 con 0
+Claim: A sizeable minority of ME/CFS patients have IgG subclass or mannose-binding-lectin deficiency, with IgG3 and IgG4 the commonest phenotypes, and registry data show strong enrichment of coded antibody deficiency.
+- ext i2 Natelson 1998 (71 CFS vs 65 controls vs 23 MS vs 21 MDD): In 71 CFS vs 65 sedentary controls, only IgG1 and IgG3 of 18 immune variables differed, both lower in CFS; IgG1 was lowest in CFS with axis-I disorder, and the subclass difference was not significant once the MS (n=23) and depression (n=21) groups were included. https://doi.org/10.1016/s0002-9343(98)00165-x
+
+## muscle-exertion-31p-mrs-ph [contested] rep 0 ext 1 con 0
+Claim: 31P-MRS studies from Newcastle found exaggerated muscle acidosis and up to ~4-fold slower pH recovery after repeated exercise in a subset of patients, but other MRS studies found no consistent group abnormality.
+- ext i2 McCully 1996 (22 vs 15): Calf 31P-MRS post-exercise PCr resynthesis Vmax was lower in 22 CFS than 15 sedentary controls (39.6 vs 53.8 mmol/L/min), and Vmax and resting Pi/PCr were unchanged 2 days after a maximal treadmill test (n=14). https://doi.org/10.1002/(sici)1097-4598(199605)19:5<621::aid-mus10>3.0.co;2-q
+
+## vascular-retinal-microvasculature [several] rep 0 ext 1 con 0
+Claim: Retinal imaging shows narrower arterioles, lower arteriolar-to-venular ratio, reduced flicker-induced venular dilation and lower capillary vessel density in post-COVID patients, most pronounced in those meeting ME/CFS criteria.
+- ext i2 Basta-Wunderle 2026, preprint (102 (82 follow-up)): In 82 of 102 PCS patients followed for 6 months, CRAE rose from 178.2 to 184.1 um and AVR from 0.83 to 0.86 toward recovered-control values, while venular dysfunction persisted. https://doi.org/10.21203/rs.3.rs-11101115/v1
 
 ## lc-fat-oxidation-lactate [several] rep 0 ext 1 con 0
 Claim: Long COVID patients show early lactate accumulation and reduced fat oxidation during exercise, with plasma metabolite and lipid shifts consistent with impaired mitochondrial fatty-acid use.
-- ext i2 Tamariz 2025, preprint (50 vs 45): CPET indirect calorimetry in long COVID: similar peak VO2, HR and anaerobic threshold as controls, but inefficient energy consumption patterns related to PEM. https://doi.org/10.21203/rs.3.rs-8072121/v1
+- ext i2 Tamariz 2025, preprint (50 vs 45): RER-based indirect calorimetry showed 73% of long COVID patients vs 20% of controls relied predominantly on carbohydrate rather than fat at rest, and carbohydrate use was higher in those with severe fatigue and PEM. https://doi.org/10.21203/rs.3.rs-8072121/v1
 
-## immune-monocytes-platelets [contested] rep 0 ext 1 con 0
-Claim: Single-cell transcriptomics showed classical-monocyte dysregulation at baseline and platelet-activation signatures after exercise, but a re-analysis of the same data found no reproducible composition or expression differences.
-- ext i2 Berentschot 2022, preprint (37 patients): Severe fatigue in long COVID associated with monocyte inflammatory gene expression and raised serum proteins https://doi.org/10.1101/2022.09.15.22279970
+## endocrine-menstrual-cycle [early] rep 0 ext 1 con 0
+Claim: In app-based tracking, symptoms varied across the menstrual cycle (lowest in the early luteal phase), crashes were more frequent during menstruation, and users of combined hormonal contraception reported fewer crashes (OR 0.55).
+- ext i2 Goodship 2025, preprint (?): In 948 menstruating Visible app users with long COVID and/or ME/CFS, symptoms were worst during menstruation (early luteal IRR 0.963 vs menstrual), crashes were more frequent during menstruation, and combined hormonal contraception users (n=70) had lower symptom scores (OR 0.83) and fewer crashes (OR 0.55) than non-users (n=786). https://doi.org/10.1101/2025.01.24.25321092
+
+## immune-longcovid-overlap [several] rep 0 ext 1 con 0
+Claim: Long COVID immune profiling finds exhausted T cells, myeloid shifts, raised antibodies to non-SARS-CoV-2 viruses especially EBV, and low cortisol, giving a reference phenotype for post-infectious illness.
+- ext i2 Berentschot 2022, preprint (37 patients): 3-6 months after hospital discharge, 37 long COVID patients with severe fatigue showed raised monocyte inflammatory gene expression, raised serum IL-6, TNF-alpha, galectin-9 and CXCL10, and more CD8+ T cells than controls; non-fatigued long COVID subgroups (n=36) showed other T-cell and inflammatory patterns. https://doi.org/10.1101/2022.09.15.22279970
+
+## immune-galectin9-artemin-lc [early] rep 0 ext 1 con 0
+Claim: Plasma galectin-9 and artemin are elevated in long COVID and proposed as biomarkers, with links to cognitive symptoms; data mostly from one group.
+- ext i2 Berentschot 2022, preprint (37 patients): 3-6 months after hospital discharge, 37 long COVID patients with severe fatigue showed raised monocyte inflammatory gene expression, raised serum IL-6, TNF-alpha, galectin-9 and CXCL10, and more CD8+ T cells than controls; non-fatigued long COVID subgroups (n=36) showed other T-cell and inflammatory patterns. https://doi.org/10.1101/2022.09.15.22279970
+
+## immune-mait [contested] rep 0 ext 1 con 0
+Claim: Increased mucosal-associated invariant T (MAIT) cell proportions and a shift in CD8+ memory subsets were found in the largest single ME/CFS flow-cytometry cohort, but the finding has not been reproduced in independent data.
+- ext i2 Karhan 2019, preprint (?): In a large flow-cytometry cohort, ME/CFS patients under 50 had a higher CD4/CD8 ratio, more CD8+ effector-memory T cells and fewer NK cells; at all ages MAIT cells secreted less IFNg, granzyme A and IL-17, CCR6+ Th17 cells were more frequent but made less IL-17, Tregs were higher, and a random forest reached 93% sensitivity. https://doi.org/10.1101/2019.12.23.887505

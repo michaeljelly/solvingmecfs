@@ -46,20 +46,7 @@
     "autoimmunity",
     "serum-factor"
    ],
-   "test_available": "Not recommended outside trials",
-   "sweep": [
-    {
-     "cite": "Lunde 2016",
-     "n": "70 patients vs 56 healthy (baseline)",
-     "design": "RCT",
-     "result": "Serum BAFF was elevated in ME/CFS (p=0.011); APRIL unchanged; no T-cell subset change with rituximab; lower baseline IgG in responders (p=0.03).",
-     "url": "https://doi.org/10.1371/journal.pone.0161226",
-     "verified": true,
-     "sweep": true,
-     "relation": "extends",
-     "importance": 2
-    }
-   ]
+   "test_available": "Not recommended outside trials"
   },
   {
    "id": "trials-cyclophosphamide",
@@ -193,31 +180,7 @@
     "autoimmunity",
     "serum-factor"
    ],
-   "test_available": "Not recommended outside trials; GPCR antibody tests (CellTrend) are commercial but of unproven meaning",
-   "sweep": [
-    {
-     "cite": "Stein 2023",
-     "n": "10 interim",
-     "design": "open-label",
-     "result": "Repeat immunoadsorption: 7 of 10 responders (SF36-PF rise 10-35 points at week 4).",
-     "url": "https://doi.org/10.3390/jcm12196428",
-     "verified": true,
-     "sweep": true,
-     "relation": "replicates",
-     "importance": 2
-    },
-    {
-     "cite": "Anft 2024, preprint",
-     "n": "12",
-     "design": "open-label",
-     "result": "Immunoadsorption improved neuropsychological function and handgrip strength at 30 days but not self-reported symptoms or ME/CFS scores; removed autoantibodies rebounded within a month; spike-protein-positive patients showed cytokine-autoantibody correlations.",
-     "url": "https://doi.org/10.1101/2024.09.25.24314345",
-     "verified": true,
-     "sweep": true,
-     "relation": "replicates",
-     "importance": 2
-    }
-   ]
+   "test_available": "Not recommended outside trials; GPCR antibody tests (CellTrend) are commercial but of unproven meaning"
   },
   {
    "id": "trials-bc007",
@@ -323,20 +286,7 @@
     "autoimmunity",
     "autonomic-small-fibre"
    ],
-   "test_available": "Prescribed in some specialist clinics; costly",
-   "sweep": [
-    {
-     "cite": "Scheibenbogen 2021",
-     "n": "17",
-     "design": "open-label",
-     "result": "12-month s.c. IgG: 5 of 12 per-protocol completers responded; 4 stopped for adverse events; LDH and sIL-2R suggested as response markers.",
-     "url": "https://doi.org/10.3390/jcm10112420",
-     "verified": true,
-     "sweep": true,
-     "relation": "extends",
-     "importance": 2
-    }
-   ]
+   "test_available": "Prescribed in some specialist clinics; costly"
   },
   {
    "id": "trials-rintatolimod",
@@ -372,31 +322,7 @@
     "innate-hyperactivation",
     "viral-persistence"
    ],
-   "test_available": "Expanded access in the US only",
-   "sweep": [
-    {
-     "cite": "Suhadolnik 1994",
-     "n": "",
-     "design": "RCT",
-     "result": "Baseline bioactive 2-5A (p<0.0001) and RNase L activity (p=0.001) were elevated; poly(I)-poly(C12U) lowered both in those with high baseline, correlating with cognitive improvement.",
-     "url": "https://pubmed.ncbi.nlm.nih.gov/7893988/",
-     "verified": true,
-     "sweep": true,
-     "relation": "replicates",
-     "importance": 2
-    },
-    {
-     "cite": "Strayer 2020",
-     "n": "208 ITT; 75 target subset (2-8 yr duration)",
-     "design": "RCT",
-     "result": "Post-hoc analysis of Phase III rintatolimod trial: patients with 2-8 years' illness had over twice the placebo-adjusted treadmill gain; 51.2% improved exercise duration by 25% or more (p=0.003); no response in >8 years.",
-     "url": "https://doi.org/10.1371/journal.pone.0240403",
-     "verified": true,
-     "sweep": true,
-     "relation": "extends",
-     "importance": 2
-    }
-   ]
+   "test_available": "Expanded access in the US only"
   },
   {
    "id": "trials-temelimab",
@@ -783,20 +709,7 @@
    "hypotheses": [
     "mitochondrial-energy"
    ],
-   "test_available": "Over-the-counter",
-   "sweep": [
-    {
-     "cite": "Kim 2020",
-     "n": "55 RCTs, 6316 participants",
-     "design": "meta-analysis",
-     "result": "Eight interventions (e.g. CBT, GET, CoQ10+NADH, rintatolimod) showed significance in individual RCTs but none was definitively effective; 76% used Fukuda criteria.",
-     "url": "https://doi.org/10.1186/s12967-019-02196-9",
-     "verified": true,
-     "sweep": true,
-     "relation": "replicates",
-     "importance": 2
-    }
-   ]
+   "test_available": "Over-the-counter"
   },
   {
    "id": "trials-oxaloacetate",
@@ -948,57 +861,38 @@
    "test_available": "n/a",
    "sweep": [
     {
-     "cite": "Kim 2020",
-     "n": "55 RCTs, 6316 participants",
-     "design": "meta-analysis",
-     "result": "Eight interventions (e.g. CBT, GET, CoQ10+NADH, rintatolimod) showed significance in individual RCTs but none was definitively effective; 76% used Fukuda criteria.",
-     "url": "https://doi.org/10.1186/s12967-019-02196-9",
-     "verified": true,
-     "sweep": true,
-     "relation": "replicates",
-     "importance": 2
-    },
-    {
-     "cite": "White 2013",
-     "n": "641",
-     "design": "RCT",
-     "result": "Recovery at 52 weeks was 22% after CBT and GET versus 8% APT and 7% SMC.",
-     "url": "https://doi.org/10.1017/s0033291713000020",
-     "verified": true,
-     "sweep": true,
-     "relation": "replicates",
-     "importance": 2
-    },
-    {
      "cite": "Price 2008",
      "n": "15 RCTs, 1043 participants",
      "design": "meta-analysis",
-     "result": "Cochrane review: CBT vs usual care reduced fatigue (SMD -0.39, 95% CI -0.60 to -0.19; 6 studies, 373 participants).",
+     "result": "Cochrane review of 15 RCTs (1043 participants): CBT vs usual care reduced self-rated fatigue post-treatment (SMD -0.39, 95% CI -0.60 to -0.19; 6 studies, 373 participants; clinical response 40% vs 26%), but follow-up findings were inconsistent.",
      "url": "https://doi.org/10.1002/14651858.cd001027.pub2",
      "verified": true,
      "sweep": true,
+     "checked": true,
      "relation": "replicates",
      "importance": 2
     },
     {
-     "cite": "Deale 2001",
-     "n": "60 (53 followed at 5 years)",
-     "design": "RCT",
-     "result": "At 5 years, 68% of the CBT group vs 36% of the relaxation group rated themselves much improved, with more complete recovery and work hours, though few reached normal fatigue levels.",
-     "url": "https://doi.org/10.1176/appi.ajp.158.12.2038",
+     "cite": "Zhao 2026",
+     "n": "1944 (17 RCTs)",
+     "design": "meta-analysis",
+     "result": "Meta-analysis of 17 RCTs (n=1944): exercise improved self-reported fatigue (SMD 0.85, I2 85%), QoL (SMD 0.99) and depression (0.56), but not cardiopulmonary function (SMD 0.13, 3 RCTs) or functional capacity (SMD 0.09, 4 RCTs); no difference in adverse events.",
+     "url": "https://doi.org/10.1016/j.jpsychores.2026.112677",
      "verified": true,
      "sweep": true,
-     "relation": "replicates",
+     "checked": true,
+     "relation": "extends",
      "importance": 2
     },
     {
      "cite": "Kuut 2024",
      "n": "8 trials, 1298",
      "design": "meta-analysis",
-     "result": "IPD meta-analysis: CBT reduces fatigue (beta -11.46, CI -15.13 to -7.79); younger, less impaired, fluctuating-activity patients benefit more; PEM did not moderate.",
+     "result": "IPD meta-analysis of 8 RCTs (n=1298) found CBT reduced self-reported fatigue (CIS beta -11.46, 95% CI -15.13 to -7.79), with larger effects in younger, less impaired, fluctuating-activity patients and no moderation by PEM or case definition.",
      "url": "https://doi.org/10.1017/s0033291723003148",
      "verified": true,
      "sweep": true,
+     "checked": true,
      "relation": "extends",
      "importance": 2
     },
@@ -1006,10 +900,11 @@
      "cite": "Clark 2021",
      "n": "211 (164 followed)",
      "design": "RCT",
-     "result": "GETSET guided graded exercise self-help: short-term fatigue gain maintained at 15 months but no longer differed from specialist care; no main effect after multiplicity adjustment.",
+     "result": "In the GETSET RCT (n=211, 78% follow-up at 15 months), the short-term fatigue benefit of guided graded exercise self-help was maintained, but the specialist-care group caught up so arms no longer differed (fatigue p=0.03 and physical function p=0.25, neither significant after multiplicity adjustment); ICER 4802 GBP per QALY.",
      "url": "https://doi.org/10.1016/j.jpsychores.2021.110484",
      "verified": true,
      "sweep": true,
+     "checked": true,
      "relation": "extends",
      "importance": 2
     },
@@ -1017,21 +912,11 @@
      "cite": "Wormgoor 2021",
      "n": "18 RCTs",
      "design": "meta-analysis",
-     "result": "Review of physiotherapy RCTs: effects of exercise-type interventions diminished with narrower case definitions requiring PEM, more objective outcomes and longer follow-up; only one RCT used PEM-required criteria.",
+     "result": "A systematic review of 18 physiotherapy RCTs (3 chronic fatigue, 14 CFS, 1 PEM-required ME) found that any intervention effects disappeared with narrower case definitions, more objective outcomes and longer follow-up.",
      "url": "https://doi.org/10.1186/s12967-020-02683-4",
      "verified": true,
      "sweep": true,
-     "relation": "extends",
-     "importance": 2
-    },
-    {
-     "cite": "Ahmed 2020",
-     "n": "18 RCTs",
-     "design": "meta-analysis",
-     "result": "Systematic review rates methodological quality of CBT and GET RCTs as low, with bias affecting subjective primary outcomes.",
-     "url": "https://doi.org/10.1177/1359105319847261",
-     "verified": true,
-     "sweep": true,
+     "checked": true,
      "relation": "extends",
      "importance": 2
     },
@@ -1039,10 +924,11 @@
      "cite": "McPhee G. 2017",
      "n": "",
      "design": "meta-analysis",
-     "result": "Review: CBT studies with objective outcomes show no evidence of improved physical capability or return to work.",
+     "result": "A review of CBT studies that used objective outcomes found no evidence that CBT improves physical capability or objective measures such as return to work.",
      "url": "https://doi.org/10.1177/1359105317707215",
      "verified": true,
      "sweep": true,
+     "checked": true,
      "relation": "extends",
      "importance": 2
     },
@@ -1050,43 +936,35 @@
      "cite": "Dougall 2014",
      "n": "641",
      "design": "RCT",
-     "result": "Adverse events did not differ between arms; physical function deterioration occurred in 25% after APT, 9% CBT, 11% GET, 18% SMC.",
+     "result": "In 641 PACE participants non-serious adverse events (median 4) did not differ between arms (P=.47); clinically important physical-function deterioration occurred in 25% after APT, 9% CBT, 11% GET and 18% SMC.",
      "url": "https://doi.org/10.1016/j.jpsychores.2014.04.002",
      "verified": true,
      "sweep": true,
+     "checked": true,
      "relation": "extends",
      "importance": 2
     },
     {
-     "cite": "Whiting 2001",
-     "n": "44 trials, 2801 participants",
-     "design": "meta-analysis",
-     "result": "Systematic review of 44 controlled trials of CFS interventions found heterogeneous outcomes (38 measures) across 12 to 326 participants per trial.",
-     "url": "https://doi.org/10.1001/jama.286.11.1360",
+     "cite": "White 2013",
+     "n": "641",
+     "design": "RCT",
+     "result": "PACE investigators' recovery analysis at 52 weeks: trial-defined recovery in 22% after CBT and GET vs 8% APT and 7% SMC (OR about 3.4-3.7).",
+     "url": "https://doi.org/10.1017/s0033291713000020",
      "verified": true,
      "sweep": true,
+     "checked": true,
      "relation": "extends",
      "importance": 2
     },
     {
-     "cite": "Zhao 2026",
-     "n": "1944 (17 RCTs)",
-     "design": "meta-analysis",
-     "result": "Exercise improved fatigue (SMD 0.85) and QoL (SMD 0.99) but not cardiopulmonary function or functional capacity.",
-     "url": "https://doi.org/10.1016/j.jpsychores.2026.112677",
+     "cite": "Deale 2001",
+     "n": "60 (53 followed at 5 years)",
+     "design": "RCT",
+     "result": "At 5-year follow-up of a 60-person RCT (53 assessed), 68% after CBT vs 36% after relaxation rated themselves much or very much improved, with more complete recovery, fewer relapses and more weekly work hours after CBT, though few reached normal fatigue levels.",
+     "url": "https://doi.org/10.1176/appi.ajp.158.12.2038",
      "verified": true,
      "sweep": true,
-     "relation": "contradicts",
-     "importance": 2
-    },
-    {
-     "cite": "White 2021",
-     "n": "10 trials, 1279",
-     "design": "meta-analysis",
-     "result": "Meta-analysis found no excess self-rated deterioration with GET (RR 0.62, 0.32-1.17) but more follow-up dropouts (RR 1.51).",
-     "url": "https://doi.org/10.1016/j.jpsychores.2021.110533",
-     "verified": true,
-     "sweep": true,
+     "checked": true,
      "relation": "contradicts",
      "importance": 2
     }
@@ -1149,10 +1027,23 @@
      "cite": "Geraghty 2019",
      "n": "1428 plus 16665 from other surveys",
      "design": "survey",
-     "result": "Patient surveys: CBT helped 8-35%, graded exercise worsened symptoms in 54-74%, pacing most favoured (44-82% benefit).",
+     "result": "A survey of 1428 patients, compared with secondary surveys totalling 16,665, found CBT helped 8-35%, GET caused negative responses in 54-74%, and pacing was most favoured, with 44-82% reporting benefit.",
      "url": "https://doi.org/10.1177/1359105317726152",
      "verified": true,
      "sweep": true,
+     "checked": true,
+     "relation": "replicates",
+     "importance": 2
+    },
+    {
+     "cite": "Bjørkum 2009",
+     "n": "828",
+     "design": "survey",
+     "result": "Among 828 Norwegian CFS survey respondents, 79% of those who had graded training said it worsened their health, 57% found help challenging negative thoughts useful, and ratings were similar regardless of severity.",
+     "url": "https://doi.org/10.4045/tidsskr.09.35791",
+     "verified": true,
+     "sweep": true,
+     "checked": true,
      "relation": "replicates",
      "importance": 2
     },
@@ -1160,10 +1051,11 @@
      "cite": "Wormgoor 2021",
      "n": "18 RCTs",
      "design": "meta-analysis",
-     "result": "Review of physiotherapy RCTs: effects of exercise-type interventions diminished with narrower case definitions requiring PEM, more objective outcomes and longer follow-up; only one RCT used PEM-required criteria.",
+     "result": "Systematic review of 18 physiotherapy RCTs (3 CF, 14 CFS, 1 PEM-required ME): intervention effects, if any, disappeared with narrower PEM-based case definitions, more objective outcomes and longer follow-up; no evidence of effective physiotherapy for ME.",
      "url": "https://doi.org/10.1186/s12967-020-02683-4",
      "verified": true,
      "sweep": true,
+     "checked": true,
      "relation": "extends",
      "importance": 2
     },
@@ -1171,10 +1063,11 @@
      "cite": "White 2021",
      "n": "10 trials, 1279",
      "design": "meta-analysis",
-     "result": "Meta-analysis found no excess self-rated deterioration with GET (RR 0.62, 0.32-1.17) but more follow-up dropouts (RR 1.51).",
+     "result": "Meta-analysis of 10 GET trials (n=1279): self-rated 'much/very much worse' CGI in 4% after GET vs 8% after control (RR 0.62, 0.32-1.17); treatment withdrawals 12% vs 10% (RR 1.21, NS); follow-up dropouts 11% vs 7% (RR 1.51, 1.03-2.22); GRADE certainty low.",
      "url": "https://doi.org/10.1016/j.jpsychores.2021.110533",
      "verified": true,
      "sweep": true,
+     "checked": true,
      "relation": "contradicts",
      "importance": 2
     }
@@ -1217,37 +1110,40 @@
    "test_available": "Self-management; NHS ME/CFS services",
    "sweep": [
     {
-     "cite": "Bjørkum 2009",
-     "n": "828",
+     "cite": "Geraghty 2019",
+     "n": "1428 plus 16665 from other surveys",
      "design": "survey",
-     "result": "Norwegian survey: pacing rated useful by 96%, rest 97%; 79% of those with graded training said it worsened health; 57% found cognitive-challenge help useful.",
-     "url": "https://doi.org/10.4045/tidsskr.09.35791",
+     "result": "A survey of 1428 patients, compared with secondary surveys totalling 16,665, found CBT helped 8-35%, GET caused negative responses in 54-74%, and pacing was most favoured, with 44-82% reporting benefit.",
+     "url": "https://doi.org/10.1177/1359105317726152",
      "verified": true,
      "sweep": true,
+     "checked": true,
      "relation": "replicates",
      "importance": 2
     },
     {
-     "cite": "Godfrey 2024",
-     "n": "31 completers",
-     "design": "open-label",
-     "result": "8-week structured pacing programme reduced post-exertional symptom exacerbation episodes (15% fewer per week) without changing overall LC symptoms.",
-     "url": "https://doi.org/10.3390/jcm14010097",
+     "cite": "Bjørkum 2009",
+     "n": "828",
+     "design": "survey",
+     "result": "In a Norwegian patient-organisation survey of 828 people with CFS, pacing was rated useful by 96%, rest by 97% and shielding/quiet by 96%, similar across severity levels.",
+     "url": "https://doi.org/10.4045/tidsskr.09.35791",
      "verified": true,
      "sweep": true,
-     "relation": "extends",
+     "checked": true,
+     "relation": "replicates",
      "importance": 2
     },
     {
      "cite": "Casson 2023",
      "n": "",
      "design": "meta-analysis",
-     "result": "Meta-analysis of activity pacing interventions in CFS",
+     "result": "Meta-analysis of 14 RCTs: activity pacing interventions reduced fatigue (Hedges g -0.52, 95% CI -0.73 to -0.32), psychological distress (-0.37) and depression (-0.29) and improved physical function (MD 7.18) versus no treatment/usual care, with larger effects for interventions that encouraged graded escalation of activity.",
      "url": "https://doi.org/10.1080/09638288.2022.2135776",
      "verified": true,
      "sweep": true,
-     "relation": "extends",
-     "importance": 2
+     "checked": true,
+     "relation": "contradicts",
+     "importance": 3
     }
    ]
   },
@@ -1279,24 +1175,14 @@
    "test_available": "n/a",
    "sweep": [
     {
-     "cite": "Geraghty 2019",
-     "n": "1428 plus 16665 from other surveys",
-     "design": "survey",
-     "result": "Patient surveys: CBT helped 8-35%, graded exercise worsened symptoms in 54-74%, pacing most favoured (44-82% benefit).",
-     "url": "https://doi.org/10.1177/1359105317726152",
-     "verified": true,
-     "sweep": true,
-     "relation": "replicates",
-     "importance": 2
-    },
-    {
      "cite": "Bjørkum 2009",
      "n": "828",
      "design": "survey",
-     "result": "Norwegian survey: pacing rated useful by 96%, rest 97%; 79% of those with graded training said it worsened health; 57% found cognitive-challenge help useful.",
+     "result": "Among 828 Norwegian CFS survey respondents, 79% of those who had graded training said it worsened their health, 57% found help challenging negative thoughts useful, and ratings were similar regardless of severity.",
      "url": "https://doi.org/10.4045/tidsskr.09.35791",
      "verified": true,
      "sweep": true,
+     "checked": true,
      "relation": "replicates",
      "importance": 2
     }
@@ -1346,11 +1232,12 @@
      "cite": "Cho 2005",
      "n": "",
      "design": "meta-analysis",
-     "result": "Pooled placebo response across CFS trials was 19.6% (95% CI 15.4-23.7), varying by intervention type.",
+     "result": "A meta-analysis of controlled CFS trials found a pooled placebo response of 19.6% (95% CI 15.4-23.7), lower than expected and lower than in other conditions, and lower for psychological interventions (meta-regression p=0.03).",
      "url": "https://doi.org/10.1097/01.psy.0000156969.76986.e0",
      "verified": true,
      "sweep": true,
-     "relation": "replicates",
+     "checked": true,
+     "relation": "contradicts",
      "importance": 2
     }
    ]
@@ -1388,46 +1275,14 @@
    "test_available": "n/a",
    "sweep": [
     {
-     "cite": "Jason 2011",
-     "n": "32 baseline; 24 re-evaluated",
-     "design": "cohort",
-     "result": "Of 32 community CFS cases, 4 died, 16 of 24 re-evaluated still had CFS, 1 remitted; post-exertional malaise best differentiated CFS.",
-     "url": "https://doi.org/10.1037/a0022595",
-     "verified": true,
-     "sweep": true,
-     "relation": "replicates",
-     "importance": 2
-    },
-    {
-     "cite": "van Geelen 2010",
-     "n": "54 of 60",
-     "design": "cohort",
-     "result": "After 2.2 years, 51.9% had nearly complete symptom improvement and 48.1% did not.",
-     "url": "https://doi.org/10.1001/archpediatrics.2010.145",
-     "verified": true,
-     "sweep": true,
-     "relation": "replicates",
-     "importance": 2
-    },
-    {
-     "cite": "Friedberg 2009",
-     "n": "75",
-     "design": "cohort",
-     "result": "Over 2 years, self-reported improvement tracked with momentary fatigue and standing time; actigraphy change correlated with physical function; <20% reached healthy range.",
-     "url": "https://doi.org/10.1007/s10865-008-9189-9",
-     "verified": true,
-     "sweep": true,
-     "relation": "replicates",
-     "importance": 2
-    },
-    {
      "cite": "Nisenbaum 2003",
      "n": "65",
      "design": "cohort",
-     "result": "Over 3 years only 20-33% still met CFS; 57% ever had partial/total remission, 10% sustained remission; shorter duration predicted remission.",
+     "result": "In 65 population-identified Wichita CFS cases followed up to 3 years, only 20-33% still met CFS criteria at follow-up, 56.9% ever had partial or total remission, 10% sustained total remission and 23.1% got alternative diagnoses; shorter illness duration predicted sustained remission.",
      "url": "https://doi.org/10.1186/1477-7525-1-49",
      "verified": true,
      "sweep": true,
+     "checked": true,
      "relation": "replicates",
      "importance": 2
     },
@@ -1435,21 +1290,11 @@
      "cite": "Pheley 1999",
      "n": "177 responders of 341",
      "design": "cohort",
-     "result": "Only 12% reported recovery after about nine years; better baseline function and lower anxiety predicted recovery.",
+     "result": "Of 177 of 341 CFS patients who answered a follow-up questionnaire after about 9 years of illness, 21 (12%) self-reported recovery; better baseline physical and social function and lower anxiety and obsessive-compulsiveness predicted recovery, but with large overlap between groups.",
      "url": "https://pubmed.ncbi.nlm.nih.gov/10589213/",
      "verified": true,
      "sweep": true,
-     "relation": "replicates",
-     "importance": 2
-    },
-    {
-     "cite": "Hill 1999",
-     "n": "23",
-     "design": "cohort",
-     "result": "In 23 severely ill patients followed about 4 years, 13 stayed severe, 9 improved but still met 1994 criteria, 1 recovered; duration, onset mode, psychiatric status did not predict outcome.",
-     "url": "https://doi.org/10.1016/s0003-9993(99)90066-7",
-     "verified": true,
-     "sweep": true,
+     "checked": true,
      "relation": "replicates",
      "importance": 2
     },
@@ -1457,10 +1302,11 @@
      "cite": "Joyce 1997",
      "n": "26 studies",
      "design": "meta-analysis",
-     "result": "Under 10% of adults with strictly defined CFS returned to premorbid function; 54-94% of children recovered; poor prognosis linked to age, chronicity, psychiatric comorbidity and physical attribution.",
+     "result": "Systematic review of 26 studies: under 10% of adults with operationally defined CFS (5 studies) returned to premorbid function, while 54-94% of children recovered; poor prognosis linked to older age, chronicity, psychiatric comorbidity and physical attribution.",
      "url": "https://doi.org/10.1093/qjmed/90.3.223",
      "verified": true,
      "sweep": true,
+     "checked": true,
      "relation": "replicates",
      "importance": 2
     },
@@ -1468,10 +1314,11 @@
      "cite": "Vercoulen 1996",
      "n": "298 enrolled, 246 followed",
      "design": "cohort",
-     "result": "At 18 months 3% reported complete recovery and 17% improvement; predictors were sense of control, lower fatigue, shorter duration and fewer physical attributions.",
+     "result": "Of 246 self-referred CFS patients followed 18 months, 3% reported complete recovery and 17% improvement; predictors were sense of control, less fatigue, shorter duration and fewer physical attributions.",
      "url": "https://doi.org/10.1136/jnnp.60.5.489",
      "verified": true,
      "sweep": true,
+     "checked": true,
      "relation": "replicates",
      "importance": 2
     },
@@ -1479,10 +1326,11 @@
      "cite": "Bombardier 1995",
      "n": "445",
      "design": "cohort",
-     "result": "At about 1.5 years 64% reported improvement but only 2% resolution; CFS had poorer function than chronic fatigue; dysthymia predicted poorer outcome.",
+     "result": "Of 445 tertiary referral patients surveyed about 1.5 years after evaluation, 64% reported improvement but only 2% complete resolution; CDC-defined CFS had worse severity and function at follow-up than chronic fatigue, and dysthymia predicted less improvement.",
      "url": "https://doi.org/10.1001/archinte.1995.00430190101014",
      "verified": true,
      "sweep": true,
+     "checked": true,
      "relation": "replicates",
      "importance": 2
     },
@@ -1490,43 +1338,23 @@
      "cite": "Wilson 1995",
      "n": "103 of 139 followed 3.2 years",
      "design": "cohort",
-     "result": "63% had improved, 6% were symptom-free, 30% could not work; cell-mediated immune function at entry or follow-up did not predict outcome.",
+     "result": "At a mean 3.2 years after trial entry, 63% of 103 CFS patients had improved but only 6% were symptom-free; 30% could not work and 25% were on disability benefit; cell-mediated immunity did not predict outcome.",
      "url": "https://doi.org/10.1016/0192-0561(95)00056-8",
      "verified": true,
      "sweep": true,
+     "checked": true,
      "relation": "replicates",
-     "importance": 2
-    },
-    {
-     "cite": "Levine 1992",
-     "n": "",
-     "design": "cohort",
-     "result": "After 3 years almost all cases in four Nevada-California clusters returned to pre-illness activity; no link to EBV, HHV-6 or HTLV; giardiasis preceded one cluster.",
-     "url": "https://doi.org/10.1001/archinte.1992.00400200049009",
-     "verified": true,
-     "sweep": true,
-     "relation": "replicates",
-     "importance": 2
-    },
-    {
-     "cite": "Tomić 2026",
-     "n": "40 baseline, 20 follow-up",
-     "design": "cohort",
-     "result": "16-year follow-up of women diagnosed with ME/CFS (CDC criteria) describing long-term somatic and psychiatric disorders, laboratory and fatigue changes.",
-     "url": "https://doi.org/10.3390/medicina62061114",
-     "verified": true,
-     "sweep": true,
-     "relation": "extends",
      "importance": 2
     },
     {
      "cite": "Fleig 2026",
      "n": "",
      "design": "survey",
-     "result": "Self-reported ME/CFS diagnosis in NHIS 2021-2023 including those no longer reporting it.",
+     "result": "Of US adults ever diagnosed with ME/CFS, 20.7% reported no longer having it, but 40-50% of these had symptoms and function similar to current cases and only about 25% were substantially better, and the past group stayed impaired versus never-diagnosed adults.",
      "url": "https://doi.org/10.1186/s12889-026-27598-5",
      "verified": true,
      "sweep": true,
+     "checked": true,
      "relation": "extends",
      "importance": 2
     },
@@ -1534,21 +1362,11 @@
      "cite": "Ghali 2022",
      "n": "",
      "design": "cohort",
-     "result": "Prognostic factors for recovery/improvement in ME/CFS",
+     "result": "In 168 adult ME/CFS patients at a French hospital followed up to 2020, 8.3% recovered and 4.8% improved; older age at onset was associated with recovery/improvement (OR 1.06) and longer diagnostic delay with worse outcome (OR 0.98).",
      "url": "https://doi.org/10.3390/diagnostics12102540",
      "verified": true,
      "sweep": true,
-     "relation": "extends",
-     "importance": 2
-    },
-    {
-     "cite": "Josev 2021",
-     "n": "25 vs 23",
-     "design": "cohort",
-     "result": "After about 2 years 65% of adolescents still met ME/CFS criteria; fatigue, pain and QoL remained worse than controls.",
-     "url": "https://doi.org/10.3390/jcm10163603",
-     "verified": true,
-     "sweep": true,
+     "checked": true,
      "relation": "extends",
      "importance": 2
     },
@@ -1556,10 +1374,23 @@
      "cite": "Moore 2021",
      "n": "12 papers, 826 patients",
      "design": "meta-analysis",
-     "result": "Recovery rates in paediatric CFS/ME ranged from 4.5% to 83% across 11 differing definitions.",
+     "result": "Systematic review of 10 paediatric CFS/ME studies (826 patients) found recovery rates from 4.5% to 83% under 11 distinct definitions, most often based on school attendance, fatigue and physical functioning.",
      "url": "https://doi.org/10.1136/archdischild-2020-320196",
      "verified": true,
      "sweep": true,
+     "checked": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Rowe KS. 2019",
+     "n": "784",
+     "design": "cohort",
+     "result": "Of 784 young people (mean age 14.6) followed a mean 8 years after onset (81.8% response), 38% reported recovery by 5 years and 68% by 10 years (mean illness duration 5 years); 5% remained very unwell and 20% significantly unwell.",
+     "url": "https://doi.org/10.3389/fped.2019.00021",
+     "verified": true,
+     "sweep": true,
+     "checked": true,
      "relation": "extends",
      "importance": 2
     },
@@ -1567,66 +1398,24 @@
      "cite": "Norris 2017",
      "n": "population cohort",
      "design": "cohort",
-     "result": "Prevalence of chronic disabling fatigue rose from 1.47% at 13 to 2.99% at 18; about 75% not classified at next time point, 8% persistent through adolescence.",
+     "result": "In ALSPAC, chronic disabling fatigue prevalence rose from 1.47% at 13 to 2.99% at 18; about 75% with CDF at one age no longer met it 2-3 years later, and 8% persisted through adolescence.",
      "url": "https://doi.org/10.1136/archdischild-2016-311198",
      "verified": true,
      "sweep": true,
+     "checked": true,
      "relation": "extends",
      "importance": 2
     },
     {
-     "cite": "Brown 2012",
-     "n": "25 vs controls",
+     "cite": "van Geelen 2010",
+     "n": "54 of 60",
      "design": "cohort",
-     "result": "20 of 25 no longer had diagnosis but remained impaired on 21 of 23 outcomes.",
-     "url": "https://doi.org/10.1002/jclp.21880",
+     "result": "Of 54 adolescents with CFS followed a mean 2.2 years, 51.9% had nearly complete symptom improvement and 48.1% did not; older age at inclusion was a risk factor for non-recovery.",
+     "url": "https://doi.org/10.1001/archpediatrics.2010.145",
      "verified": true,
      "sweep": true,
+     "checked": true,
      "relation": "extends",
-     "importance": 2
-    },
-    {
-     "cite": "Jones 2011",
-     "n": "100 revisited; 25 diary",
-     "design": "cohort",
-     "result": "Over 4 years fatigue was stable (FIS improved in 39%, worsened ≥10 points in 45%) and independently associated with orthostatic symptoms.",
-     "url": "https://doi.org/10.1111/j.1365-2796.2010.02306.x",
-     "verified": true,
-     "sweep": true,
-     "relation": "extends",
-     "importance": 2
-    },
-    {
-     "cite": "Levine 1997",
-     "n": "21",
-     "design": "cohort",
-     "result": "At 10 years 48% of an epidemic neuromyasthenia cohort still met CDC CFS criteria and most had returned to premorbid activity.",
-     "url": "https://doi.org/10.1001/archinte.1997.00440280064005",
-     "verified": true,
-     "sweep": true,
-     "relation": "extends",
-     "importance": 2
-    },
-    {
-     "cite": "Zhao 2026",
-     "n": "1944 (17 RCTs)",
-     "design": "meta-analysis",
-     "result": "Exercise improved fatigue (SMD 0.85) and QoL (SMD 0.99) but not cardiopulmonary function or functional capacity.",
-     "url": "https://doi.org/10.1016/j.jpsychores.2026.112677",
-     "verified": true,
-     "sweep": true,
-     "relation": "contradicts",
-     "importance": 2
-    },
-    {
-     "cite": "Rowe KS. 2019",
-     "n": "784",
-     "design": "cohort",
-     "result": "Follow-up mean 8 years: 38% reported recovery by 5 years and 68% by 10 years; mean illness duration 5 years among those recovered.",
-     "url": "https://doi.org/10.3389/fped.2019.00021",
-     "verified": true,
-     "sweep": true,
-     "relation": "contradicts",
      "importance": 2
     }
    ]
@@ -1675,123 +1464,14 @@
    "test_available": "n/a",
    "sweep": [
     {
-     "cite": "O'Regan 2024",
-     "n": "50115",
-     "design": "cohort",
-     "result": "Danish cohort with test-negative controls assessed fatigue and PEM 2-18 months after SARS-CoV-2 testing; primary outcomes fatigue and PEM by infection status.",
-     "url": "https://doi.org/10.1001/jamanetworkopen.2024.34863",
-     "verified": true,
-     "sweep": true,
-     "relation": "replicates",
-     "importance": 3
-    },
-    {
-     "cite": "Peter 2025",
-     "n": "",
-     "design": "case-control",
-     "result": "In a German population-based nested case-control study, 67.6% of PCS patients still had PCS at second-year follow-up; 78.5% of recovered stayed well; comprehensive cardiopulmonary and neurocognitive testing performed.",
-     "url": "https://doi.org/10.1371/journal.pmed.1004511",
-     "verified": true,
-     "sweep": true,
-     "relation": "replicates",
-     "importance": 2
-    },
-    {
-     "cite": "Bodey 2024",
-     "n": "",
-     "design": "cohort",
-     "result": "After discharge from a UK long COVID service, 90.2% of respondents still had symptoms (EQ-5D index 0.53) and 43% met suspected ME/CFS criteria.",
-     "url": "https://doi.org/10.3390/jcm13195817",
-     "verified": true,
-     "sweep": true,
-     "relation": "replicates",
-     "importance": 2
-    },
-    {
      "cite": "Reuken 2024",
      "n": "1022 (411 with follow-up)",
      "design": "cohort",
-     "result": "31.3% met ME/CFS criteria at median 255 days and 19.4% still at 402 days; self-reported fatigue fell 83.7 to 72.7%.",
+     "result": "Among post-COVID clinic patients, 31.3% met ME/CFS criteria at a median 255 days and 19.4% still did at a median 402 days, while self-reported symptoms declined but structured screening scores did not change significantly.",
      "url": "https://doi.org/10.1007/s00406-023-01661-3",
      "verified": true,
      "sweep": true,
-     "relation": "replicates",
-     "importance": 2
-    },
-    {
-     "cite": "Ballouz 2022, preprint",
-     "n": "",
-     "design": "cohort",
-     "result": "Natural course of post-COVID condition for trial design",
-     "url": "https://doi.org/10.1101/2022.06.22.22276746",
-     "verified": true,
-     "sweep": true,
-     "relation": "replicates",
-     "importance": 2
-    },
-    {
-     "cite": "Pouliopoulou 2025",
-     "n": "",
-     "design": "meta-analysis",
-     "result": "Systematic review with meta-analysis of PEM prevalence in post-COVID condition and change after rehabilitation.",
-     "url": "https://doi.org/10.1016/j.apmr.2025.01.471",
-     "verified": true,
-     "sweep": true,
-     "relation": "extends",
-     "importance": 2
-    },
-    {
-     "cite": "Taquet 2024",
-     "n": "",
-     "design": "cohort",
-     "result": "Cognitive and psychiatric symptom trajectories 2-3 years after hospitalisation.",
-     "url": "https://doi.org/10.1016/s2215-0366(24)00214-1",
-     "verified": true,
-     "sweep": true,
-     "relation": "extends",
-     "importance": 2
-    },
-    {
-     "cite": "Maffitt 2024",
-     "n": "18, 12-month follow-up",
-     "design": "cohort",
-     "result": "Questionnaire, peripheral muscle fatigue and autonomic function improved toward healthy controls over 12 months.",
-     "url": "https://doi.org/10.1038/s41598-024-59232-y",
-     "verified": true,
-     "sweep": true,
-     "relation": "extends",
-     "importance": 2
-    },
-    {
-     "cite": "Kirchberger 2024",
-     "n": "",
-     "design": "cohort",
-     "result": "Two-year course of quality of life, mental health and fatigue in people with and without PCS.",
-     "url": "https://doi.org/10.1186/s12955-024-02245-y",
-     "verified": true,
-     "sweep": true,
-     "relation": "extends",
-     "importance": 2
-    },
-    {
-     "cite": "Oliveira 2022",
-     "n": "",
-     "design": "cohort",
-     "result": "DePaul Symptom Questionnaire tracked long COVID symptoms over one year, improvement observed",
-     "url": "https://doi.org/10.3389/fmed.2022.1065620",
-     "verified": true,
-     "sweep": true,
-     "relation": "extends",
-     "importance": 2
-    },
-    {
-     "cite": "Jason 2021",
-     "n": "278 vs 502",
-     "design": "cross-sectional",
-     "result": "Long haulers reported falling symptoms over time except worsening neurocognitive symptoms; became less severe than ME/CFS apart from orthostatic domain.",
-     "url": "https://doi.org/10.1080/21641846.2021.1922140",
-     "verified": true,
-     "sweep": true,
+     "checked": true,
      "relation": "extends",
      "importance": 2
     },
@@ -1799,21 +1479,23 @@
      "cite": "Orini 2025, preprint",
      "n": "50 vs 152",
      "design": "case-control",
-     "result": "Wearable monitoring finds small persistent multi-system deficits (activity, autonomic, sleep, cardiorespiratory) in fatigue-cluster long COVID without recovery over 12 months.",
+     "result": "In the CONVALESCENCE study (306 community participants enrolled about 2 years post-infection, 12 months of smartwatch/app monitoring), long COVID cases with fatigue-cluster symptoms (n=50) had small persistent deficits across activity, exercise, cardiorespiratory, autonomic, sleep, cognitive and mental-health measures vs 152 controls, with no recovery over 12 months; long COVID without fatigue cluster (n=76) did not differ from controls.",
      "url": "https://doi.org/10.21203/rs.3.rs-7876232/v1",
      "verified": true,
      "sweep": true,
+     "checked": true,
      "relation": "extends",
      "importance": 2
     },
     {
-     "cite": "Legler 2023, preprint",
-     "n": "106",
+     "cite": "Ballouz 2022, preprint",
+     "n": "",
      "design": "cohort",
-     "result": "Prospective cohort of 106 post-COVID patients assessed at 3 timepoints to 20 months; symptoms and biomarkers tracked, subset met Canadian criteria",
-     "url": "https://doi.org/10.1101/2023.04.15.23288582",
+     "result": "In a population-based Zurich cohort (1,543 infected, 628 uninfected), 25% had not recovered by 6 months, and of those 67% and 58% were still not recovered at 12 and 18 months; excess symptom risk vs uninfected was 17% at 6 months and 20% at 12 months, highest for taste/smell, PEM, fatigue and concentration.",
+     "url": "https://doi.org/10.1101/2022.06.22.22276746",
      "verified": true,
      "sweep": true,
+     "checked": true,
      "relation": "extends",
      "importance": 2
     }
@@ -1880,46 +1562,26 @@
    "test_available": "n/a",
    "sweep": [
     {
-     "cite": "Orji 2022",
-     "n": "",
+     "cite": "Jason 1999",
+     "n": "28673 screened",
      "design": "cross-sectional",
-     "result": "Prevalence of ME/CFS in primary care",
-     "url": "https://doi.org/10.1186/s12889-022-13929-9",
+     "result": "Telephone screening of 28,673 Chicago adults followed by medical evaluation gave a CFS point prevalence of 0.42% (95% CI 0.29-0.56%), highest in women, minority groups and people with lower education and occupational status.",
+     "url": "https://doi.org/10.1001/archinte.159.18.2129",
      "verified": true,
      "sweep": true,
+     "checked": true,
      "relation": "replicates",
-     "importance": 2
-    },
-    {
-     "cite": "Nacul 2011",
-     "n": "143000 screened",
-     "design": "cross-sectional",
-     "result": "Minimum ME/CFS prevalence 0.2% overall (0.19% CDC-1994, 0.11% Canadian, 0.03% epidemiological); incidence 0.015% per year.",
-     "url": "https://doi.org/10.1186/1741-7015-9-91",
-     "verified": true,
-     "sweep": true,
-     "relation": "replicates",
-     "importance": 2
+     "importance": 3
     },
     {
      "cite": "Reyes 2003",
      "n": "7162 respondents",
      "design": "cross-sectional",
-     "result": "Point prevalence 235 per 100,000 (373 women, 83 men), incidence about 180 per 100,000/yr.",
+     "result": "Population-based Wichita survey (7,162 adults screened, clinical exam): CFS point prevalence 235/100,000 (95% CI 142-327), 373 in women vs 83 in men; 1-year incidence 180/100,000.",
      "url": "https://doi.org/10.1001/archinte.163.13.1530",
      "verified": true,
      "sweep": true,
-     "relation": "replicates",
-     "importance": 2
-    },
-    {
-     "cite": "Jason 1999",
-     "n": "28673 screened",
-     "design": "cross-sectional",
-     "result": "CFS point prevalence was 0.42% (95% CI 0.29-0.56) in a Chicago community sample, highest in women, minority groups and lower-education groups.",
-     "url": "https://doi.org/10.1001/archinte.159.18.2129",
-     "verified": true,
-     "sweep": true,
+     "checked": true,
      "relation": "replicates",
      "importance": 2
     },
@@ -1927,21 +1589,11 @@
      "cite": "Fleig 2026",
      "n": "",
      "design": "survey",
-     "result": "Self-reported ME/CFS diagnosis in NHIS 2021-2023 including those no longer reporting it.",
+     "result": "In NHIS 2021-2023 (86,655 US adults), an estimated 1.5% had ever received an ME/CFS diagnosis, of whom 20.7% reported no longer having it.",
      "url": "https://doi.org/10.1186/s12889-026-27598-5",
      "verified": true,
      "sweep": true,
-     "relation": "extends",
-     "importance": 2
-    },
-    {
-     "cite": "Samms 2025",
-     "n": "100055 diagnosed",
-     "design": "cross-sectional",
-     "result": "Primary-care records in England: 100,055 diagnosed ME/CFS (0.16% of registered patients), F:M 3.88:1, wide regional and ethnic variation in diagnosis.",
-     "url": "https://doi.org/10.1186/s12889-025-22603-9",
-     "verified": true,
-     "sweep": true,
+     "checked": true,
      "relation": "extends",
      "importance": 2
     },
@@ -1949,10 +1601,23 @@
      "cite": "Wood 2024",
      "n": "9,825 sampled (KPNC)",
      "design": "survey",
-     "result": "Population-based survey estimating ME/CFS-like illness prevalence and the share linked to COVID-19.",
+     "result": "In a stratified random sample of 9,825 KPNC adults (population 2.7 million), 1.67% (95% CI 1.20-2.15%) had self-reported ME/CFS-like illness meeting IOM symptom criteria, and 14.12% of these cases arose after COVID-19, with no substantial pandemic-related rise.",
      "url": "https://doi.org/10.1371/journal.pone.0309810",
      "verified": true,
      "sweep": true,
+     "checked": true,
+     "relation": "extends",
+     "importance": 2
+    },
+    {
+     "cite": "Orji 2022",
+     "n": "",
+     "design": "cross-sectional",
+     "result": "In Australian primary-care records (MedicineInsight, 2015-2019), crude ME/CFS prevalence among regularly attending patients aged 13 and over was 94.9-103.9 per 100,000 (about 0.1%), higher in females (130.0-141.4) than males (50.9-57.5), about 2.5:1, peaking at ages 40-59; qualitative data suggest underestimation.",
+     "url": "https://doi.org/10.1186/s12889-022-13929-9",
+     "verified": true,
+     "sweep": true,
+     "checked": true,
      "relation": "extends",
      "importance": 2
     },
@@ -1960,10 +1625,11 @@
      "cite": "Jason 2020",
      "n": "10119 youth screened",
      "design": "cross-sectional",
-     "result": "Community prevalence of paediatric ME/CFS was 0.75%, higher in African American and Latinx youth; under 5% previously diagnosed.",
+     "result": "In a community random sample of 10,119 Chicago-area youth aged 5-17 with physician evaluation, paediatric ME/CFS prevalence was 0.75%, higher in African American and Latinx youth, and under 5% of cases had been diagnosed before.",
      "url": "https://doi.org/10.1007/s10566-019-09543-3",
      "verified": true,
      "sweep": true,
+     "checked": true,
      "relation": "extends",
      "importance": 2
     },
@@ -1971,10 +1637,11 @@
      "cite": "Cho 2009",
      "n": "2459 London, 3914 Sao Paulo",
      "design": "cross-sectional",
-     "result": "CDC-criteria prevalence 2.1% (London) vs 1.6% (Sao Paulo), p=0.20; diagnosed in 11 British cases but none in Brazil.",
+     "result": "In primary care attenders, CDC-1994 CFS prevalence was 2.1% in London (n=2459) vs 1.6% in Sao Paulo (n=3914), P=0.20, but 11 cases had a recorded diagnosis in Britain and none in Brazil.",
      "url": "https://doi.org/10.1192/bjp.bp.108.051813",
      "verified": true,
      "sweep": true,
+     "checked": true,
      "relation": "extends",
      "importance": 2
     },
@@ -1982,10 +1649,11 @@
      "cite": "Wood 2024, preprint",
      "n": "9820",
      "design": "survey",
-     "result": "Kaiser Permanente Northern California: survey-defined ME/CFS-like illness is underdiagnosed in EHR; undiagnosed groups equally impaired.",
+     "result": "In a 9,820-member KPNC panel, 97.8% (95% CI 97.1-98.4%) of people with survey-defined ME/CFS-like illness had no ME/CFS diagnosis in the EHR; undiagnosed were younger and less often white non-Hispanic, and both groups were similarly impaired.",
      "url": "https://doi.org/10.1101/2024.12.04.24318508",
      "verified": true,
      "sweep": true,
+     "checked": true,
      "relation": "extends",
      "importance": 2
     },
@@ -1993,10 +1661,11 @@
      "cite": "Reeves 2007",
      "n": "5623 surveyed",
      "design": "cross-sectional",
-     "result": "Estimated CFS prevalence 2.54% in adults 18-59, with female:male ratio 11.2:1 metropolitan but 0.8:1 rural.",
+     "result": "A random-digit-dial survey with clinical evaluation in Georgia (5,623 respondents aged 18-59) estimated CFS prevalence at 2.54%, 6-10 times earlier population estimates, with female:male ratios of 11.2:1 metropolitan, 1.7:1 urban and 0.8:1 rural.",
      "url": "https://doi.org/10.1186/1478-7954-5-5",
      "verified": true,
      "sweep": true,
+     "checked": true,
      "relation": "contradicts",
      "importance": 2
     }
@@ -2033,64 +1702,7 @@
     "Trials designed for severe, bedbound patients (home-based endpoints)?"
    ],
    "hypotheses": [],
-   "test_available": "n/a",
-   "sweep": [
-    {
-     "cite": "Hill 1999",
-     "n": "23",
-     "design": "cohort",
-     "result": "In 23 severely ill patients followed about 4 years, 13 stayed severe, 9 improved but still met 1994 criteria, 1 recovered; duration, onset mode, psychiatric status did not predict outcome.",
-     "url": "https://doi.org/10.1016/s0003-9993(99)90066-7",
-     "verified": true,
-     "sweep": true,
-     "relation": "replicates",
-     "importance": 2
-    },
-    {
-     "cite": "Sommerfelt 2023",
-     "n": "491 (444 severe)",
-     "design": "survey",
-     "result": "National survey of symptom burden and care access in severe and very severe ME/CFS",
-     "url": "https://doi.org/10.3390/jcm12041487",
-     "verified": true,
-     "sweep": true,
-     "relation": "extends",
-     "importance": 2
-    },
-    {
-     "cite": "Royston 2023",
-     "n": "",
-     "design": "cohort",
-     "result": "Surveillance estimates prevalence and incidence of severe ME/CFS in children 5-16",
-     "url": "https://doi.org/10.1136/archdischild-2022-324319",
-     "verified": true,
-     "sweep": true,
-     "relation": "extends",
-     "importance": 2
-    },
-    {
-     "cite": "van Campen 2020",
-     "n": "289 (121 mild, 98 moderate, 70 severe)",
-     "design": "cross-sectional",
-     "result": "ICC clinical severity grades tracked SF-36 physical function (70/43/15), steps/day (8235/5195/2031) and CPET ventilatory-threshold VO2 across mild/moderate/severe.",
-     "url": "https://doi.org/10.3390/healthcare8030273",
-     "verified": true,
-     "sweep": true,
-     "relation": "extends",
-     "importance": 2
-    },
-    {
-     "cite": "Collin 2016",
-     "n": "7,041 UK, 1,392 NL",
-     "design": "cohort",
-     "result": "Latent class analysis gave polysymptomatic, oligosymptomatic and pain-only phenotypes; polysymptomatic more severe and with more comorbidity.",
-     "url": "https://doi.org/10.1016/j.jpsychores.2015.12.006",
-     "verified": true,
-     "sweep": true,
-     "relation": "extends",
-     "importance": 2
-    }
-   ]
+   "test_available": "n/a"
   },
   {
    "id": "trials-mortality",
@@ -2198,20 +1810,7 @@
    "contradicting": [],
    "hypotheses": [],
    "open_questions": [],
-   "test_available": false,
-   "sweep": [
-    {
-     "cite": "Young 2025, preprint",
-     "n": "",
-     "design": "RCT",
-     "result": "Solriamfetol improved fatigue severity versus placebo at week 8 (p=0.039) but not week 6 (p=0.270); executive function (BRIEF-A) also improved at week 8.",
-     "url": "https://doi.org/10.31234/osf.io/j6v5t_v1",
-     "verified": true,
-     "sweep": true,
-     "relation": "replicates",
-     "importance": 2
-    }
-   ]
+   "test_available": false
   },
   {
    "id": "trials-iv-saline",
