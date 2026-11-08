@@ -132,6 +132,8 @@ for st in all_studies:
     st["datasets"] = datasets_for(st)
 
 today = datetime.date.today().isoformat()
+_cg = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))), "site-src", "check_graph.py")
+SECOND = set(re.findall(r'\("[\w-]+", "([\w-]+)"\)', open(_cg, encoding="utf8").read().split("DUPES", 1)[1].split("]", 1)[0])) if os.path.exists(_cg) else set()
 counts = {k: sum(1 for f in all_findings if f.get("grade") == k) for k in GRADES}
 
 def pill(grade):
@@ -181,6 +183,11 @@ body.append(f'''<div class="wrap">
 <h1>ME/CFS evidence atlas</h1>
 <p class="deck">Published findings in ME/CFS and related post-infectious illness, including long COVID, organised by body system, graded by replication, and linked to the hypotheses they bear on.</p>
 <p class="byline">Rebuilt {today} · {len(all_findings)} findings, {len(all_studies)} study entries, {len(hyps)} hypotheses · <a href="/atlas-data.json">Download as JSON</a></p>
+
+<h2 id="solid">What is solid, and what has not held up</h2>
+<p>Findings seen in several independent cohorts are the firmest ground. Refuted ones were tested well and failed. Everything else is in between and is listed by body system below.</p>
+<details class="key-list" open><summary class="sublabel">Replicated ({sum(1 for f in all_findings if f.get("grade") == "replicated" and f["id"] not in SECOND)}, counting each cross-listed finding once)</summary><ul class="kl">{"".join(f'<li><a href="#f-{e(f["id"])}">{e(f["finding"])}</a></li>' for f in all_findings if f.get("grade") == "replicated" and f["id"] not in SECOND)}</ul></details>
+<details class="key-list"><summary class="sublabel">Refuted ({sum(1 for f in all_findings if f.get("grade") == "refuted" and f["id"] not in SECOND)})</summary><ul class="kl">{"".join(f'<li><a href="#f-{e(f["id"])}">{e(f["finding"])}</a></li>' for f in all_findings if f.get("grade") == "refuted" and f["id"] not in SECOND)}</ul></details>
 
 <div class="box key">
 <p>For an overview, read the summaries by body system, then the hypotheses. To find a specific result, use the search box, the grade filters or the <a href="#studies">study index</a>.</p>
@@ -400,7 +407,7 @@ var tb=document.getElementById('stbl');if(tb){var dir={};tb.querySelectorAll('th
 </script>'''
 
 extra_css = '''
-.sweep{margin:.6rem 0} .sweep summary{cursor:pointer} @media (max-width:640px){.sweep table,.sweep tbody,.sweep tr,.sweep td{display:block;width:auto} .sweep thead{display:none} .sweep tr{padding:.5rem 0;border-bottom:1px solid var(--rule,#ddd)} .sweep td{border:0;padding:.1rem 0}} .swr{font-family:var(--f-sans);font-size:.7rem;text-transform:uppercase;letter-spacing:.03em;font-weight:600} .sw-contradicts{color:var(--ref)} .sw-replicates{color:var(--rep)} .sw-extends{color:var(--sev)}
+.kl{font-size:.92rem;line-height:1.45;padding-left:1.1rem;margin:.3rem 0 .8rem}.kl li{margin:.3rem 0}.kl a{color:var(--ink);text-decoration-color:var(--rule)}.key-list summary{cursor:pointer} .sweep{margin:.6rem 0} .sweep summary{cursor:pointer} @media (max-width:640px){.sweep table,.sweep tbody,.sweep tr,.sweep td{display:block;width:auto} .sweep thead{display:none} .sweep tr{padding:.5rem 0;border-bottom:1px solid var(--rule,#ddd)} .sweep td{border:0;padding:.1rem 0}} .swr{font-family:var(--f-sans);font-size:.7rem;text-transform:uppercase;letter-spacing:.03em;font-weight:600} .sw-contradicts{color:var(--ref)} .sw-replicates{color:var(--rep)} .sw-extends{color:var(--sev)}
 .cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(15rem,1fr));gap:.4rem 1.4rem;margin:1rem 0}
 .cards .card{display:block;border-top:1px solid var(--rule);padding:.6rem 0 .2rem;color:var(--ink);text-decoration:none;min-width:0}
 .cards .card:hover h3{text-decoration:underline}

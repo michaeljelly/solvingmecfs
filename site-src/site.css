@@ -94,6 +94,7 @@ figcaption b,.caption b{color:var(--ink);font-weight:600}
 .theme-btn{flex:none;background:none;border:0;color:var(--faint);width:1.8rem;height:1.8rem;display:grid;place-items:center;cursor:pointer;padding:0}
 .theme-btn:hover{color:var(--ink)}
 .theme-btn svg{width:15px;height:15px}
+@media (min-width:641px){.site-head .wide{flex-wrap:wrap;gap:0 1rem;padding-top:.35rem}.brand{flex:1}.site-nav{flex-basis:100%;order:3;gap:1.25rem}.site-nav a{padding:.6rem 0}}
 @media (max-width:640px){.site-head .wide{flex-wrap:wrap;gap:0 1rem;padding-top:.5rem}.site-nav{flex-basis:100%;order:3;-webkit-mask-image:linear-gradient(90deg,#000 85%,transparent);mask-image:linear-gradient(90deg,#000 85%,transparent);padding-right:1.5rem}.site-nav a{padding:.55rem 0}.brand{flex:1}}
 .site-foot{border-top:1px solid var(--rule);margin-top:4rem;padding:1.4rem 0 2.5rem;font-family:var(--f-sans);font-size:.8rem;color:var(--muted);line-height:1.6}
 .site-foot a{color:var(--muted)}

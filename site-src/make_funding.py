@@ -39,6 +39,15 @@ for c in C:
     if group(c) < 2:
         for f in c.get("fit") or []: fitmap.setdefault(f, []).append(c)
 fitrows = "".join(f'<tr><td>{FIT[f]}</td><td>{", ".join(f"""<a href="{e(c["url"])}" rel="noopener">{e(c["funder"].split(" (")[0])}: {e(c["call_name"])}</a>""" for c in fitmap.get(f, [])[:6]) or "None open"}</td></tr>' for f in FIT)
+NOW = [
+    ('2026-11-05', '<li><b>Anthropic guest investigators</b> <span class="dd">about 5 Nov 2026</span>. Eight to twelve weeks working with Anthropic researchers on public data; principal investigators only. Best for <a href="/data">re-analysing existing data</a> or building an open crash-tracking tool.</li>'),
+    ('2026-11-13', '<li><b>Solve M.E. Ramsay grants</b> <span class="dd">13 Nov 2026</span>. $50k–150k over one to two years, for early-career researchers, researchers new to ME/CFS and collaborations, with no country limit. Best for a pilot of <a href="/#critical-path">crash-window sampling</a>, the serum-factor test or pituitary testing.</li>'),
+    ('2026-11-18', '<li><b>MRC Proof of Concept, stage one</b> <span class="dd">18 Nov 2026</span>. For turning a candidate marker into a diagnostic, or preparing a trial of a repurposed drug.</li>'),
+    ('', '<li><b>MRC, under its ME/CFS highlight notice</b> <span class="dd">rolling</span>. The main UK route, with decisions in June and December. MRC\'s first stated priority is the mechanism of post-exertional malaise.</li>'),
+    ('', '<li><b>Wellcome Discovery Award</b> <span class="dd">rolling</span>. Large awards for established researchers based in the UK.</li>'),
+    ('2027-02-16', '<li><b>NIH R21 and R01</b> <span class="dd">5 and 16 Feb 2027</span>. Open to non-US institutions; the R21 (about $275k over two years) suits feasibility pilots.</li>'),
+]
+NOW_HTML = "\n".join(i for d, i in NOW if not d or datetime.date.fromisoformat(d) >= TODAY)
 out = f'''<!--meta {{"title":"Funding for ME/CFS research","description":"Open and recurring funding calls for ME/CFS and long COVID research, which ones to apply to now, and which experiments each call fits.","nav":"funding"}}-->
 <style>
 .p-funding .fn{{font-family:var(--f-sans);font-size:.78rem;color:var(--muted)}}
@@ -54,12 +63,7 @@ out = f'''<!--meta {{"title":"Funding for ME/CFS research","description":"Open a
 
 <h2 id="now">Apply now</h2>
 <ol class="now">
-<li><b>Anthropic guest investigators</b> <span class="dd">about 5 Nov 2026</span>. Eight to twelve weeks working with Anthropic researchers on public data; principal investigators only. Best for <a href="/data">re-analysing existing data</a> or building an open crash-tracking tool.</li>
-<li><b>Solve M.E. Ramsay grants</b> <span class="dd">13 Nov 2026</span>. $50k–150k over one to two years, for early-career researchers, researchers new to ME/CFS and collaborations, with no country limit. Best for a pilot of <a href="/#critical-path">crash-window sampling</a>, the serum-factor test or pituitary testing.</li>
-<li><b>MRC Proof of Concept, stage one</b> <span class="dd">18 Nov 2026</span>. For turning a candidate marker into a diagnostic, or preparing a trial of a repurposed drug.</li>
-<li><b>MRC, under its ME/CFS highlight notice</b> <span class="dd">rolling</span>. The main UK route, with decisions in June and December. MRC's first stated priority is the mechanism of post-exertional malaise.</li>
-<li><b>Wellcome Discovery Award</b> <span class="dd">rolling</span>. Large awards for established researchers based in the UK.</li>
-<li><b>NIH R21 and R01</b> <span class="dd">5 and 16 Feb 2027</span>. Open to non-US institutions; the R21 (about $275k over two years) suits feasibility pilots.</li>
+{NOW_HTML}
 </ol>
 
 <h2 id="deadlines">Next deadlines</h2>

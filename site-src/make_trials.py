@@ -233,13 +233,13 @@ out = f'''<!--meta {{"title":"Treatment trials in ME/CFS and long COVID","descri
 </style>
 <div class="wrap">
 <h1>Treatment trials</h1>
-<p class="deck">{len(T)} treatment trials in ME/CFS ({cnt["ME/CFS"]}), long COVID ({cnt["long COVID"]}) or both ({cnt["both"]}), with design, size and result. Long COVID trials are included when they target fatigue, crashes after exertion, cognition or autonomic symptoms.</p>
+<p class="deck">No treatment has yet shown a large, replicated, placebo-controlled benefit in ME/CFS. This page ranks the best bets, lists the results due soonest, and grades all {len(T)} trials in ME/CFS ({cnt["ME/CFS"]}), long COVID ({cnt["long COVID"]}) or both ({cnt["both"]}). Long COVID trials are included when they target fatigue, crashes after exertion, cognition or autonomic symptoms.</p>
 <p class="byline">Built {e(D["meta"].get("generated","")[:10])} from ClinicalTrials.gov, ISRCTN, EU CTIS and Europe PMC · <a href="/trials-data.json">Download as JSON</a></p>
 
 <nav class="small toc">On this page: <a href="#promising">What looks promising</a> · <a href="#watch">Readouts to watch</a> · <a href="#running">Every running trial, graded</a> · <a href="#design">Design and results</a> · <a href="#all">All trials</a></nav>
 
 <h2 id="promising">What looks promising</h2>
-<p>No treatment has a large, replicated, placebo-controlled win in ME/CFS. These are the best bets on current evidence, grouped by how strong that evidence is. Each links to its <a href="/treatments">treatment page</a>; the numbered circles are the <a href="/model">working model</a> steps it acts on.</p>
+<p>The best bets on current evidence, grouped by how strong that evidence is. Each links to its <a href="/treatments">treatment page</a>; the numbered circles are the <a href="/model">working model</a> steps it acts on.</p>
 {prom}
 
 <h2 id="watch">Readouts to watch</h2>

@@ -115,9 +115,12 @@ details.tx:target{{outline:2px solid var(--accent);outline-offset:2px}}
 </style>
 <div class="wrap">
 <h1>Treatments people are trying</h1>
-<p class="deck">No drug is approved for ME/CFS, and many patients try treatments that are plausible but unproven. This page lists {len(T)} of them. Each entry says which step of the <a href="/model">working model</a> it acts on and why the model predicts it could help, then grades the evidence that it does, the risks and the cost.</p>
+<p class="deck">No drug is approved for ME/CFS, and many patients try treatments that are plausible but unproven. This page lists {len(T)} of them. Each entry says which step of the <a href="/model">working model</a> it acts on and why the model predicts it could help, then grades the evidence that it does, the risks and the cost. The summary below gives the verdict for each; the <a href="/trials#promising">trials page</a> ranks them by strength of trial evidence.</p>
 <p class="byline">Updated {e(D.get("updated"))}</p>
 <div class="box warn"><p>Not medical advice. Prescription items need a doctor, and severe patients can be harmed by things that are safe for others.</p></div>
+<h2 id="board">Summary</h2>
+<ul class="vdefs">{defs}</ul>
+<div class="board">{"".join(board)}</div>
 <h2 id="how">Trying a treatment</h2>
 <div class="rules2">
 <div><b>One change at a time</b>Start new things 1–2 weeks apart, so if something makes you worse you know what to drop.</div>
@@ -125,9 +128,6 @@ details.tx:target{{outline:2px solid var(--accent);outline-offset:2px}}
 <div><b>Set a stop rule first</b>If resting heart rate stays 5+ bpm higher, or HRV 20% lower, for three nights after a start, pause the newest thing.</div>
 <div><b>Pacing first</b>Repeated crashes make the effect of anything else impossible to judge, and may worsen the illness.</div>
 </div>
-<h2 id="board">Summary</h2>
-<ul class="vdefs">{defs}</ul>
-<div class="board">{"".join(board)}</div>
 <div class="tfilter"><input id="tq" type="search" placeholder="Search treatments, mechanisms, symptoms" aria-label="Search treatments"><div class="vbs">{legend}</div></div>
 {"".join(sections)}
 <p class="small" style="margin-top:2rem">Numbers in each entry are steps in the <a href="/model">working model</a> the treatment acts on. The verdict weighs evidence of benefit against risk and cost: low risk alone is not enough for "Reasonable to try". Sources marked unverified have not yet been checked against the paper. Verdicts are updated as trials report; see the <a href="/method#predictions">predictions</a> for pending trials.</p>
